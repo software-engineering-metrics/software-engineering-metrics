@@ -13,7 +13,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CH = os.path.join(ROOT, "docs", "chapters")
 
 PART_TITLES = {
-    1: "Foundations of Measurement", 2: "Delivery and Flow Metrics",
+    1: "Foundations of Measurement", 2: "Flow Metrics",
     3: "Developer Experience and the SPACE Framework", 4: "Code and Quality Metrics",
     5: "Product and Business Metrics", 6: "Reliability, Operations, and Security Metrics",
     7: "Metrics in the Age of AI", 8: "Building a Metrics Program", 9: "Appendices",

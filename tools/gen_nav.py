@@ -7,7 +7,7 @@ SITE_URL="https://software-engineering-metrics.github.io/"
 def read(p): return open(p).read()
 def write(p,t): open(p,"w").write(t)
 
-PART_TITLES={1:"Foundations of Measurement",2:"Delivery and Flow Metrics",
+PART_TITLES={1:"Foundations of Measurement",2:"Flow Metrics",
 3:"Developer Experience and the SPACE Framework",4:"Code and Quality Metrics",
 5:"Product and Business Metrics",6:"Reliability, Operations, and Security Metrics",
 7:"Metrics in the Age of AI",8:"Building a Metrics Program",9:"Appendices"}
@@ -131,6 +131,8 @@ idxchap=[f for f in files if dec(f)[1]>=1 and dec(f)[0]<=8]  # substantive chapt
 terms=["DORA","SPACE","Goodhart's law","deployment frequency","lead time for changes",
  "change failure rate","MTTR","MTTD","MTTA","cycle time","flow efficiency","work in process",
  "WIP","pull request","code review","queueing theory","Little's law","utilization",
+ "Flow Framework","flow item","flow velocity","flow distribution","flow time","flow load",
+ "value stream",
  "satisfaction","well-being","activity metric",
  "communication","collaboration","deep work","DevEx","cyclomatic complexity","test coverage",
  "mutation testing","code churn","hotspot","static analysis","code smell","technical debt",

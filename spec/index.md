@@ -94,7 +94,7 @@ The book is organized as numbered parts, each made of numbered chapters.
 - Chapter files live in `docs/chapters/` and are named `PP-CC-slug.md` with a
   zero-padded, dash-separated, sortable numeric prefix (two-digit part,
   two-digit chapter; the N.0 introduction is `PP-00`), for example
-  `02-00-delivery-and-flow-metrics.md` and `02-01-the-dora-metrics-framework.md`,
+  `02-00-flow-metrics.md` and `02-01-the-flow-framework.md`,
   so a plain lexical sort lists the chapters in reading order. The slug is
   lowercase with dashes.
 - The first heading of every chapter file is `# N.M Title` using the unpadded,

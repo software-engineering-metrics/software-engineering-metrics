@@ -23,20 +23,20 @@ introduction).
 | 1.5 | Data sources and instrumentation | [`01-05-data-sources-and-instrumentation.md`](../docs/chapters/01-05-data-sources-and-instrumentation.md) |
 | 1.6 | Statistical literacy for engineering metrics | [`01-06-statistical-literacy-for-engineering-metrics.md`](../docs/chapters/01-06-statistical-literacy-for-engineering-metrics.md) |
 
-## Part 2: Delivery and Flow Metrics
+## Part 2: Flow Metrics
 
 | Chapter | Title | File |
 | --- | --- | --- |
-| 2.0 | Introduction to Part 2: Delivery and Flow Metrics | [`02-00-delivery-and-flow-metrics.md`](../docs/chapters/02-00-delivery-and-flow-metrics.md) |
-| 2.1 | The DORA metrics framework | [`02-01-the-dora-metrics-framework.md`](../docs/chapters/02-01-the-dora-metrics-framework.md) |
-| 2.2 | Deployment frequency | [`02-02-deployment-frequency.md`](../docs/chapters/02-02-deployment-frequency.md) |
-| 2.3 | Lead time for changes | [`02-03-lead-time-for-changes.md`](../docs/chapters/02-03-lead-time-for-changes.md) |
-| 2.4 | Change failure rate | [`02-04-change-failure-rate.md`](../docs/chapters/02-04-change-failure-rate.md) |
-| 2.5 | Failed deployment recovery time | [`02-05-failed-deployment-recovery-time.md`](../docs/chapters/02-05-failed-deployment-recovery-time.md) |
+| 2.0 | Introduction to Part 2: Flow Metrics | [`02-00-flow-metrics.md`](../docs/chapters/02-00-flow-metrics.md) |
+| 2.1 | The Flow Framework | [`02-01-the-flow-framework.md`](../docs/chapters/02-01-the-flow-framework.md) |
+| 2.2 | Flow items: features, defects, risks, and debt | [`02-02-flow-items.md`](../docs/chapters/02-02-flow-items.md) |
+| 2.3 | Flow velocity and flow distribution | [`02-03-flow-velocity-and-flow-distribution.md`](../docs/chapters/02-03-flow-velocity-and-flow-distribution.md) |
+| 2.4 | Flow time and flow load | [`02-04-flow-time-and-flow-load.md`](../docs/chapters/02-04-flow-time-and-flow-load.md) |
+| 2.5 | Flow efficiency and work in process | [`02-05-flow-efficiency-and-work-in-process.md`](../docs/chapters/02-05-flow-efficiency-and-work-in-process.md) |
 | 2.6 | Cycle time and its components | [`02-06-cycle-time-and-its-components.md`](../docs/chapters/02-06-cycle-time-and-its-components.md) |
-| 2.7 | Flow efficiency and work in process | [`02-07-flow-efficiency-and-work-in-process.md`](../docs/chapters/02-07-flow-efficiency-and-work-in-process.md) |
+| 2.7 | Queueing theory | [`02-07-queueing-theory.md`](../docs/chapters/02-07-queueing-theory.md) |
 | 2.8 | Pull request and code review metrics | [`02-08-pull-request-and-code-review-metrics.md`](../docs/chapters/02-08-pull-request-and-code-review-metrics.md) |
-| 2.9 | Queueing theory and Little's law | [`02-09-queueing-theory-and-littles-law.md`](../docs/chapters/02-09-queueing-theory-and-littles-law.md) |
+| 2.9 | The DORA metrics framework | [`02-09-the-dora-metrics-framework.md`](../docs/chapters/02-09-the-dora-metrics-framework.md) |
 
 ## Part 3: Developer Experience and the SPACE Framework
 

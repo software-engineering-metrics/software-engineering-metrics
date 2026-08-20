@@ -15,11 +15,11 @@ fail if it is broken.
   dash-separated, sortable numeric prefix followed by a lowercase-dash slug:
   `PP-CC-slug.md`, where `PP` is the two-digit part number and `CC` the
   two-digit chapter number (the N.0 introduction is `PP-00`), for example
-  `02-00-delivery-and-flow-metrics.md` and `02-01-the-dora-metrics-framework.md`.
+  `02-00-flow-metrics.md` and `02-01-the-flow-framework.md`.
   Padding both fields and joining them with a dash means a plain lexical sort
   (as in `ls`) lists the chapters in reading order.
 - The first heading of every chapter file is `# N.M Title` using the unpadded,
-  dotted chapter number (for example `# 2.1 The DORA metrics framework`), and
+  dotted chapter number (for example `# 2.1 The Flow Framework`), and
   that number must match the file's `PP-CC` prefix. Chapter cross-references
   in prose use the same dotted form ("chapter 2.1"). (enforced)
 - Part 9 is the appendices (glossary, a formulas reference, checklists,

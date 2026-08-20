@@ -5,7 +5,7 @@ this first. It is short on purpose; the details live in the linked files.
 
 ## What this repo is
 
-A working book about measuring software engineering well: 46 chapters across 8
+A working book about measuring software engineering well: 47 chapters across 8
 parts, plus front matter and appendices. The writing is deliberately warm,
 plain, and opinionated, and it follows a strict house style. Every metric
 family carries its own gaming vector and guardrail, because the book's central

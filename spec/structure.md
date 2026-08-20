@@ -8,7 +8,7 @@ of contents, index, and specification outline from the same files. Change the
 structure here and in the chapter files together; the tests will catch any
 drift.
 
-Totals: **9 parts**, **62 chapters** (each part opens with an N.0
+Totals: **9 parts**, **63 chapters** (each part opens with an N.0
 introduction).
 
 ## Part 1: Foundations of Measurement
@@ -35,8 +35,9 @@ introduction).
 | 2.5 | Flow efficiency and work in process | [`02-05-flow-efficiency-and-work-in-process.md`](../docs/chapters/02-05-flow-efficiency-and-work-in-process.md) |
 | 2.6 | Cycle time and its components | [`02-06-cycle-time-and-its-components.md`](../docs/chapters/02-06-cycle-time-and-its-components.md) |
 | 2.7 | Queueing theory | [`02-07-queueing-theory.md`](../docs/chapters/02-07-queueing-theory.md) |
-| 2.8 | Pull request and code review metrics | [`02-08-pull-request-and-code-review-metrics.md`](../docs/chapters/02-08-pull-request-and-code-review-metrics.md) |
-| 2.9 | The DORA metrics framework | [`02-09-the-dora-metrics-framework.md`](../docs/chapters/02-09-the-dora-metrics-framework.md) |
+| 2.8 | Lean value stream metrics | [`02-08-lean-value-stream-metrics.md`](../docs/chapters/02-08-lean-value-stream-metrics.md) |
+| 2.9 | Pull request and code review metrics | [`02-09-pull-request-and-code-review-metrics.md`](../docs/chapters/02-09-pull-request-and-code-review-metrics.md) |
+| 2.10 | The DORA metrics framework | [`02-10-the-dora-metrics-framework.md`](../docs/chapters/02-10-the-dora-metrics-framework.md) |
 
 ## Part 3: Developer Experience and the SPACE Framework
 

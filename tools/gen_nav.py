@@ -41,9 +41,11 @@ def toc_body(pathprefix):
     return "\n".join(out)
 
 INTRO="""A working book about measuring **software engineering** well: how to
-choose metrics that reflect real outcomes rather than activity, the standard
-frameworks (DORA, SPACE), the metric families that matter, and how to run a
-metrics programme that improves a team rather than policing it.
+choose metrics that reflect real outcomes rather than activity, the
+frameworks this book builds on (the Flow Framework, the SPACE framework,
+queueing theory, and DORA metrics), the metric families that matter, and
+how to run a metrics programme that improves a team rather than policing
+it.
 
 The book covers delivery and flow, developer experience, code and quality,
 product and business outcomes, reliability and security, and how generative
@@ -132,7 +134,8 @@ terms=["DORA","SPACE","Goodhart's law","deployment frequency","lead time for cha
  "change failure rate","MTTR","MTTD","MTTA","cycle time","flow efficiency","work in process",
  "WIP","pull request","code review","queueing theory","Little's law","utilization",
  "Flow Framework","flow item","flow velocity","flow distribution","flow time","flow load",
- "value stream",
+ "value stream","takt time","process time","rolled throughput yield","Lean",
+ "percent complete and accurate",
  "satisfaction","well-being","activity metric",
  "communication","collaboration","deep work","DevEx","cyclomatic complexity","test coverage",
  "mutation testing","code churn","hotspot","static analysis","code smell","technical debt",

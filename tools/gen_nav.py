@@ -130,7 +130,8 @@ write(f"{DOCS}/front-matter/table-of-contents.md", toc)
 idxchap=[f for f in files if dec(f)[1]>=1 and dec(f)[0]<=8]  # substantive chapters, parts 1-8
 terms=["DORA","SPACE","Goodhart's law","deployment frequency","lead time for changes",
  "change failure rate","MTTR","MTTD","MTTA","cycle time","flow efficiency","work in process",
- "WIP","pull request","code review","satisfaction","well-being","activity metric",
+ "WIP","pull request","code review","queueing theory","Little's law","utilization",
+ "satisfaction","well-being","activity metric",
  "communication","collaboration","deep work","DevEx","cyclomatic complexity","test coverage",
  "mutation testing","code churn","hotspot","static analysis","code smell","technical debt",
  "documentation","escaped defect","feature adoption","customer outcome","unit economics",

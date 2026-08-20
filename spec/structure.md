@@ -8,7 +8,7 @@ of contents, index, and specification outline from the same files. Change the
 structure here and in the chapter files together; the tests will catch any
 drift.
 
-Totals: **9 parts**, **61 chapters** (each part opens with an N.0
+Totals: **9 parts**, **62 chapters** (each part opens with an N.0
 introduction).
 
 ## Part 1: Foundations of Measurement
@@ -36,6 +36,7 @@ introduction).
 | 2.6 | Cycle time and its components | [`02-06-cycle-time-and-its-components.md`](../docs/chapters/02-06-cycle-time-and-its-components.md) |
 | 2.7 | Flow efficiency and work in process | [`02-07-flow-efficiency-and-work-in-process.md`](../docs/chapters/02-07-flow-efficiency-and-work-in-process.md) |
 | 2.8 | Pull request and code review metrics | [`02-08-pull-request-and-code-review-metrics.md`](../docs/chapters/02-08-pull-request-and-code-review-metrics.md) |
+| 2.9 | Queueing theory and Little's law | [`02-09-queueing-theory-and-littles-law.md`](../docs/chapters/02-09-queueing-theory-and-littles-law.md) |
 
 ## Part 3: Developer Experience and the SPACE Framework
 

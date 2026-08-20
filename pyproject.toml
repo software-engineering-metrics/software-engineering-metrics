@@ -1,0 +1,24 @@
+[project]
+name = "software-engineering-metrics"
+version = "1.0.0"
+description = "Software Engineering Metrics: a book about measuring software engineering well."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+# No site build lives in this repository (rendering happens in the separate
+# software-engineering-metrics.github.io repository), so there is nothing to
+# package or install here beyond the dev tooling below.
+[tool.uv]
+package = false
+
+# Spell checking (`just spell`, and the PR workflow). The ignore list holds
+# false positives only: proper nouns and terms of art the dictionary flags.
+[tool.codespell]
+skip = "./site,./.venv,./node_modules,./uv.lock"
+ignore-words-list = "synopsys,covert,consequentially,rouge,marz,bloc,wither,sme,erformance,accreting,skelton"
+
+[dependency-groups]
+dev = [
+    "codespell[toml]>=2.4",
+]

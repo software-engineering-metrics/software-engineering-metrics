@@ -5,6 +5,13 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ## [Unreleased]
 
+### Added
+
+- Added two Claude Code skills, `software-engineering-metrics-skill` (for
+  readers applying the book's guidance to their own team) and
+  `software-engineering-metrics-maintainer-skill` (for contributors adding
+  or editing chapters), under `skills/` and mirrored into `.claude/skills/`.
+
 ### Changed
 
 - Added chapter 2.8, Lean value stream metrics (lead time, process time,

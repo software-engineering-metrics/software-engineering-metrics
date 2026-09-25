@@ -58,5 +58,5 @@ each spelling variant, to keep the derivation auditable.
 2. Add the locale to `TARGET_LOCALES` (or `REFERENCE_LOCALE`, if it becomes
    the new source) in `tools/localize.py`, with a `to_<locale>` function.
 3. Run `tools/localize.py`, then `just nav` and `just test`.
-4. Wire it into the site's `LocalePicker` (see the sibling
-   `software-engineering-metrics.github.io` repository).
+4. Wire it into the site's `LocalePicker` (see
+   `software-engineering-metrics.github.io/`).

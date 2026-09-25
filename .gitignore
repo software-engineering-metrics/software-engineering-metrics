@@ -10,7 +10,5 @@ Thumbs.db
 .idea/
 .vscode/
 
-# Site build
-site/
 .venv/
 .cache/

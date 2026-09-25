@@ -1,6 +1,7 @@
 # Software Engineering Metrics: content and check tasks.
-# This repository holds the book's content and specification; it is rendered
-# into a website by the separate software-engineering-metrics.github.io repository.
+# This repository holds the book's content and specification, plus the
+# SvelteKit site (software-engineering-metrics.github.io/) that renders it
+# into the published website; see that directory's own AGENTS.md.
 # The validation suite needs only Python 3.
 
 # List available tasks.
@@ -20,7 +21,7 @@ check: nav test
 
 # List any em-dashes left in the repository (should be none).
 emdash:
-    @grep -rn '—' --include='*.md' --exclude-dir=site --exclude-dir=.venv . || echo "no em-dashes found"
+    @grep -rn '—' --include='*.md' --exclude-dir=software-engineering-metrics.github.io --exclude-dir=.venv . || echo "no em-dashes found"
 
 # Spell-check the repository (configured in pyproject.toml).
 spell:

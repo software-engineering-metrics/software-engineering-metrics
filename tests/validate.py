@@ -60,8 +60,9 @@ def dec(f):
     return (int(m.group(1)), int(m.group(2)))
 
 # Walk the repository for Markdown files, skipping build output, virtual
-# environments, and other hidden or vendored directories.
-SKIP_DIRS = {"site", "node_modules", "__pycache__"}
+# environments, the site (its own project, governed by its own AGENTS.md, not
+# these content rules), and other hidden or vendored directories.
+SKIP_DIRS = {"software-engineering-metrics.github.io", "node_modules", "__pycache__"}
 all_md = []
 for dirpath, dirnames, filenames in os.walk(ROOT):
     dirnames[:] = [d for d in dirnames if not d.startswith(".") and d not in SKIP_DIRS]

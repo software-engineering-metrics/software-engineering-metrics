@@ -19,6 +19,11 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
   readers applying the book's guidance to their own team) and
   `software-engineering-metrics-maintainer-skill` (for contributors adding
   or editing chapters), under `skills/` and mirrored into `.claude/skills/`.
+- Moved the published website's source into this repository as
+  `software-engineering-metrics.github.io/`, previously a separate repository.
+  It now reads `locales/` directly from the repository root rather than a
+  sibling checkout; `deploy.yml` moved to the root `.github/workflows/` with
+  the site's `pnpm` steps scoped to that directory.
 
 ### Changed
 

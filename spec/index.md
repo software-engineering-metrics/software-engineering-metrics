@@ -20,11 +20,12 @@ prose, not the thing itself.
   this specification, and the three other locales derived from it (see
   [locales.md](locales.md)).
 - The **website is a side effect.** It is rendered from the same Markdown by
-  the separate `software-engineering-metrics.github.io` repository. How that
-  works, what it produces, and how it deploys is that repository's concern.
-  Nothing in that layer decides what the book says.
+  `software-engineering-metrics.github.io/`, a separate SvelteKit project that
+  lives in this repository. How that works, what it produces, and how it
+  deploys is that directory's concern, governed by its own AGENTS.md. Nothing
+  in that layer decides what the book says.
 - If the site and the book ever disagree, the **book wins.** You could delete
-  the rendering repository entirely and still have the whole book intact in
+  the rendering directory entirely and still have the whole book intact in
   plain text. That is the test of what is authoritative here.
 
 So write for a reader holding a book, chapter by chapter. Do not write for a
@@ -72,10 +73,9 @@ lives in three companion files.
   checklists organizations can use to put a metrics program into practice.
 
 The **rendering** side effects (the published website, its navigation, and its
-deployment) are the concern of the separate
-`software-engineering-metrics.github.io` repository. Keep the two apart on
-purpose: this file and its companions govern the book; that repository governs
-the machine that renders it.
+deployment) are the concern of `software-engineering-metrics.github.io/`. Keep
+the two apart on purpose: this file and its companions govern the book; that
+directory governs the machine that renders it.
 
 ## What this book is
 

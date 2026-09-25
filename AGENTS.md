@@ -11,8 +11,10 @@ plain, and opinionated, and it follows a strict house style. Every metric
 family carries its own gaming vector and guardrail, because the book's central
 premise (chapter 1.2) is [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law):
 a measure that becomes a target stops being a good measure. This repository
-holds the book's content and specification; it is rendered into a website by
-the separate `software-engineering-metrics.github.io` repository.
+holds the book's content and specification, plus the SvelteKit site
+(`software-engineering-metrics.github.io/`) that renders it into the
+published website. The site is its own project with its own AGENTS.md; it is
+not governed by the content rules below.
 
 The book is published in four locales (see [`spec/locales.md`](spec/locales.md)):
 `en-gb-oxendict` (British English, Oxford spelling; the authoring source),
@@ -50,9 +52,10 @@ and [`spec/conventions.md`](spec/conventions.md).
 
 ## Repository layout
 
-- `locales/` : everything the published site contains, rendered elsewhere, one
-  subdirectory per locale (`en-gb-oxendict`, `en-001`, `en-gb`, `en-us`), each
-  with the identical structure below.
+- `locales/` : everything the published site contains, rendered by
+  `software-engineering-metrics.github.io/` (see below), one subdirectory per
+  locale (`en-gb-oxendict`, `en-001`, `en-gb`, `en-us`), each with the
+  identical structure below.
   - `<locale>/chapters/` : the chapter files, named `PP-CC-slug.md` with a zero-padded, dash-separated, sortable prefix (the chapter number in the text stays dotted, e.g. `2.1`), identical across every locale.
   - `<locale>/front-matter/` : the opening essay, introduction, and table of contents.
   - `<locale>/examples/` : small illustrative examples (a metrics charter, a dashboard spec).
@@ -66,9 +69,15 @@ and [`spec/conventions.md`](spec/conventions.md).
   the `en-gb-oxendict` source; `gen_nav.py`, which generates the README TOC,
   the per-locale site home pages, contents pages, and subject indexes; and
   `stats.py`, the Markdown stats report behind `just stats`.
-- `tests/` : `validate.py`, the enforcement suite (checks all four locales).
+- `tests/` : `validate.py`, the enforcement suite (checks all four locales; it
+  skips `software-engineering-metrics.github.io/` entirely).
+- `software-engineering-metrics.github.io/` : the SvelteKit site that
+  prerenders the book into the published website, deployed by GitHub Pages.
+  It copies `locales/` into its own `src/content/` (see its README and
+  AGENTS.md) rather than reading it directly; never hand-edit the copy, and
+  never change book content from within this directory.
 - `.github/workflows/` : `test.yml` (PR checks), `links.yml` (weekly external
-  link check).
+  link check), `deploy.yml` (builds and deploys the site on push to `main`).
 - `justfile`, `pyproject.toml` : the task runner and the Python dev-tooling
   dependencies (codespell; see `just spell`).
 

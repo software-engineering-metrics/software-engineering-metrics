@@ -34,6 +34,49 @@ component following the Lily Design System's class-hook convention (one
 class, `.locale-picker`, styled in `static/assets/style.css`), since Lily
 ships no markup or JS of its own.
 
+## Translated locales (infrastructure, not yet used)
+
+`../spec/locales.md` and `../spec/locales-for-global-sharing-with-svelte/index.md`
+describe ten planned locales that are genuine translations (Arabic, Bengali,
+Welsh, Spanish, French, Hindi, Indonesian, Portuguese, Russian, Urdu, plus
+Chinese - China), as opposed to today's four, which are mechanically derived
+English spelling variants sharing one language and one set of slugs. None of
+the ten exist on disk yet (no `locales/<code>/` directory, no translated
+content), so none is in `SERVED_LOCALE_CODES`/`LOCALES` in `scripts/locales.mjs`
+and none is routed. What already exists, ready for when one is:
+
+- `LOCALE_LABELS` and `localeLabel()` in `scripts/locales.mjs`: a display
+  name for every planned locale (its endonym), a strict superset of
+  `LOCALE_CODES`, so a label is ready before a locale is wired up.
+- `sortedLocaleEntries()` in `scripts/locales.mjs`: the grouped, deterministic
+  sort order a future locale list should use (see its doc comment). Not
+  wired into `LocalePicker.svelte` yet, whose dropdown keeps its own curated
+  order; there is nothing to usefully re-sort while every served locale is
+  English.
+- `src/lib/i18n.js`: UI chrome strings (nav, sidebar, pager, picker, footer,
+  skip-link), keyed by locale, `ui(locale)` falling back to the `en` table.
+  Threaded through `+layout.svelte`, `Sidebar.svelte`, `ChapterPager.svelte`,
+  `Breadcrumb.svelte`, and `LocalePicker.svelte` already, so a translated
+  locale can add its own top-level key incrementally. This does **not**
+  cover page content (the home page's hero and body copy, chapter text):
+  that is Markdown, translated by translating the Markdown, not by adding
+  keys here.
+- The header/footer wordmark reads `t.brand` from `ui(page.params.locale)`
+  directly in `+layout.svelte`, which already resolves correctly for any
+  route (`page.params.locale` is `undefined` on the unprefixed default-locale
+  routes, and `ui(undefined)` falls back to `en`). A sibling project's
+  equivalent bug (wordmark stuck on a locale-agnostic layout that never saw
+  which locale it was rendering) does not apply to this codebase's routing.
+
+Deliberately **not** built yet: a per-locale home page. The home page's hero
+and body copy in `src/routes/+page.svelte` is still hardcoded English prose,
+identical across all four served locales (correct today, since they are the
+same language). `locales/<code>/index.md` (see the sub-spec) is the intended
+future source for that copy per locale, but the schema for turning that
+Markdown into the home page's hero/stats/cards layout does not exist yet;
+design it together with the first real translated locale rather than
+guessing the shape in the abstract.
+
 ## Working rules
 
 - `src/content/<locale>/` is **generated** from `../locales/<locale>/` at the

@@ -6,6 +6,14 @@ only in spelling. All four keep identical structure, section order, word
 counts, and file names; see [structure.md](structure.md) and
 [conventions.md](conventions.md), which govern all four equally.
 
+These four are English spelling variants of one authored text, mechanically
+derived by `tools/localize.py`. They are not the same thing as a genuinely
+*translated* locale (a different language, with its own slugs, that a person
+translates by hand): see
+[locales-for-global-sharing-with-svelte/index.md](locales-for-global-sharing-with-svelte/index.md)
+for that mechanism, and "Planned translated locales" below for the languages
+this book intends to add.
+
 | Locale | Name | Spelling |
 | --- | --- | --- |
 | `en-gb-oxendict` | British English, Oxford spelling | The authoring locale; see [oxford-spelling.md](oxford-spelling.md). |
@@ -51,12 +59,53 @@ Every substitution list in `tools/localize.py` is restricted to word forms
 verified present in the source text, not the full theoretical vocabulary of
 each spelling variant, to keep the derivation auditable.
 
+## Every content file carries a `.locale-peer-id`
+
+Alongside its content, every chapter, front-matter file, example, contributing
+guide, and project file has a sibling `.locale-peer-id` file (same base name,
+that extension instead of `.md`): 32 lowercase hex characters plus a trailing
+newline, generated and kept in sync by
+[`tools/gen_locale_peer_ids.py`](../tools/gen_locale_peer_ids.py). For a given
+piece of content, this id is byte-identical across every locale that has that
+content, whatever that locale's own slug for it is.
+
+Today, across the four English spelling variants, the id is redundant with
+the shared file name (all four use identical slugs). It exists ahead of need:
+once a translated locale gives a topic its own native-script or accented slug
+(see the sub-spec linked above), the slug can no longer be the join key across
+locales, and the peer id is what resolves "this page, in locale X" instead.
+`tests/validate.py` checks that every content file has a well-formed,
+matching peer id in every locale; run `tools/gen_locale_peer_ids.py` after
+adding a chapter, before `just test`.
+
+## Planned translated locales
+
+Not yet translated; each is a placeholder in the sense that no
+`locales/<code>/` directory exists on disk for it yet. A locale starts here
+and stops being "planned" only once someone begins translating it, per
+[locales-for-global-sharing-with-svelte/index.md](locales-for-global-sharing-with-svelte/index.md)
+(content structure, slugs, the site's i18n mechanism, and the bug watch-list
+that mechanism exists to avoid repeating). The full list, with each
+language's own endonym and its English exonym, is
+[locales-for-global-sharing-with-svelte/locales.tsv](locales-for-global-sharing-with-svelte/locales.tsv):
+Arabic (`ar-001`), Bengali (`bn-001`), Welsh (`cy-001`), Spanish (`es-001`),
+French (`fr-001`), Hindi (`hi-001`), Indonesian (`id-001`), Portuguese
+(`pt-001`), Russian (`ru-001`), Urdu (`ur-001`), and Chinese, China (`zh-cn`).
+
 ## Adding a locale
+
+Adding one of the four mechanically-derived English spelling variants:
 
 1. Decide its spelling policy relative to `en-gb-oxendict` and document it in
    the table above.
 2. Add the locale to `TARGET_LOCALES` (or `REFERENCE_LOCALE`, if it becomes
    the new source) in `tools/localize.py`, with a `to_<locale>` function.
-3. Run `tools/localize.py`, then `just nav` and `just test`.
+3. Run `tools/localize.py`, then `tools/gen_locale_peer_ids.py`, `just nav`,
+   and `just test`.
 4. Wire it into the site's `LocalePicker` (see
    `software-engineering-metrics.github.io/`).
+
+Adding a genuinely translated locale from the planned list above is a
+different, larger process: see
+[locales-for-global-sharing-with-svelte/index.md](locales-for-global-sharing-with-svelte/index.md)
+for content structure, slugs, and the site's i18n mechanism.

@@ -7,8 +7,10 @@
   import { goto } from '$app/navigation';
   import { page } from '$app/state';
   import { LOCALES, DEFAULT_LOCALE, localePrefix } from '$lib/locales.js';
+  import { ui } from '$lib/i18n.js';
 
   let currentLocale = $derived(page.params.locale ?? DEFAULT_LOCALE);
+  let t = $derived(ui(page.params.locale));
 
   /** @param {Event} event */
   function onChange(event) {
@@ -22,7 +24,7 @@
   }
 </script>
 
-<select class="locale-picker" aria-label="Locale" value={currentLocale} onchange={onChange}>
+<select class="locale-picker" aria-label={t.localePicker.ariaLabel} value={currentLocale} onchange={onChange}>
   {#each LOCALES as locale (locale.code)}
     <option value={locale.code}>{locale.label}</option>
   {/each}

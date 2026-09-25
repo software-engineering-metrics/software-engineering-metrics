@@ -67,17 +67,24 @@ and [`spec/conventions.md`](spec/conventions.md).
   site; the book is what it governs.
 - `tools/` : `localize.py`, which derives `en-001`, `en-gb`, and `en-us` from
   the `en-gb-oxendict` source; `gen_nav.py`, which generates the README TOC,
-  the per-locale site home pages, contents pages, and subject indexes; and
-  `stats.py`, the Markdown stats report behind `just stats`.
-- `tests/` : `validate.py`, the enforcement suite (checks all four locales; it
-  skips `software-engineering-metrics.github.io/` entirely).
+  the per-locale site home pages, contents pages, and subject indexes;
+  `gen_locale_peer_ids.py`, which assigns and writes each content file's
+  `.locale-peer-id` sidecar (see `spec/locales.md`); and `stats.py`, the
+  Markdown stats report behind `just stats`.
+- `tests/` : `validate.py`, the enforcement suite (checks all four locales,
+  including that every content file's `.locale-peer-id` sidecar exists and
+  matches across locales; it skips `software-engineering-metrics.github.io/`
+  entirely).
 - `software-engineering-metrics.github.io/` : the SvelteKit site that
   prerenders the book into the published website, deployed by GitHub Pages.
   It copies `locales/` into its own `src/content/` (see its README and
   AGENTS.md) rather than reading it directly; never hand-edit the copy, and
   never change book content from within this directory.
 - `.github/workflows/` : `test.yml` (PR checks), `links.yml` (weekly external
-  link check), `deploy.yml` (builds and deploys the site on push to `main`).
+  link check), `deploy.yml` (verifies the site builds on push to `main`, then
+  asks the `software-engineering-metrics.github.io` repo to redeploy from it,
+  since GitHub Pages can only publish the naked domain from a repo with that
+  exact name).
 - `justfile`, `pyproject.toml` : the task runner and the Python dev-tooling
   dependencies (codespell; see `just spell`).
 
@@ -101,8 +108,9 @@ and [`spec/conventions.md`](spec/conventions.md).
    `locales/en-gb-oxendict/`.
 3. Run `python3 tools/localize.py` to re-derive `en-001`, `en-gb`, and
    `en-us`.
-4. If you changed the set of chapters, update `spec/structure.md` and run
-   `just nav`.
+4. If you changed the set of chapters, update `spec/structure.md`, run
+   `just nav`, and run `python3 tools/gen_locale_peer_ids.py` so the new
+   chapter gets a `.locale-peer-id` sidecar in every locale.
 5. Run `just test`. Fix anything it reports. `just spell` catches spelling
    issues the suite does not; CI runs it too.
 6. Update `locales/en-gb-oxendict/project/changelog.md` with a one-line

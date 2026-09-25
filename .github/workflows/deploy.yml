@@ -1,4 +1,10 @@
-name: Deploy to GitHub Pages
+name: Deploy site
+
+# Publishing happens in a separate repository,
+# software-engineering-metrics/software-engineering-metrics.github.io, because
+# GitHub Pages will only serve https://software-engineering-metrics.github.io/
+# from a repo with exactly that name. This workflow verifies the site still
+# builds from this push, then asks that repo to redeploy from it.
 
 on:
   push:
@@ -7,12 +13,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 defaults:
   run:
@@ -46,21 +46,15 @@ jobs:
       - name: Build site
         run: pnpm run build
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: software-engineering-metrics.github.io/build/
-
-  deploy:
+  dispatch-deploy:
     needs: build
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
-        id: deploy
-        uses: actions/deploy-pages@v4
+      - name: Ask software-engineering-metrics.github.io to redeploy
+        env:
+          GH_TOKEN: ${{ secrets.PAGES_DISPATCH_TOKEN }}
+        run: |
+          gh api repos/software-engineering-metrics/software-engineering-metrics.github.io/dispatches \
+            --method POST \
+            --input - <<< '{"event_type":"monorepo-updated","client_payload":{"ref":"main"}}'

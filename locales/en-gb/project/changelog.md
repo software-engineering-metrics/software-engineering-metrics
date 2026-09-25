@@ -22,8 +22,29 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 - Moved the published website's source into this repository as
   `software-engineering-metrics.github.io/`, previously a separate repository.
   It now reads `locales/` directly from the repository root rather than a
-  sibling checkout; `deploy.yml` moved to the root `.github/workflows/` with
-  the site's `pnpm` steps scoped to that directory.
+  sibling checkout. The root `.github/workflows/deploy.yml` verifies the site
+  still builds on every push to `main`, then sends a `repository_dispatch` to
+  the `software-engineering-metrics.github.io` repository (kept as a thin
+  deploy shell, since GitHub Pages will only serve that naked domain from a
+  repository with exactly that name), which checks out this monorepo, builds
+  the site, and deploys it.
+- Added the infrastructure for translated (not merely spelling-derived)
+  locales, per the new `spec/locales-for-global-sharing-with-svelte/`
+  sub-spec: `tools/gen_locale_peer_ids.py` assigns every content file a
+  `.locale-peer-id` sidecar, identical across locales, that a future
+  translated locale (with its own native-script slugs) can use to resolve
+  "this page, in locale X" instead of matching on slug; `tests/validate.py`
+  checks every sidecar exists and matches. `spec/locales.md` documents ten
+  planned translated locales (Arabic, Bengali, Welsh, Spanish, French, Hindi,
+  Indonesian, Portuguese, Russian, Urdu, and Chinese - China); none has a
+  `locales/<code>/` directory yet, since none is translated yet. On the site,
+  `scripts/locales.mjs` gained `LOCALE_LABELS`/`localeLabel()` (a display
+  name for every planned locale, ready ahead of routing) and
+  `sortedLocaleEntries()` (the sort order a future locale list should use),
+  and `src/lib/i18n.js` extracted the UI chrome strings (nav, sidebar, pager,
+  picker, footer, skip-link) that every `.svelte` component previously
+  hardcoded in English, threaded through via `ui(locale)`, falling back to
+  English for any locale without its own translations.
 
 ### Changed
 

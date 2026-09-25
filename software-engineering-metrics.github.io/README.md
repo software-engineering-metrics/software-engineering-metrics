@@ -80,7 +80,12 @@ they never need to be committed stale — though they are committed, since
 
 ## Deployment
 
-[`../.github/workflows/deploy.yml`](../.github/workflows/deploy.yml) (at the
-repository root) builds and deploys this directory to GitHub Pages on every
-push to `main`. For the first deployment, set repository **Settings → Pages
-→ Build and deployment → Source → GitHub Actions**.
+The actual GitHub Pages deploy happens in a separate repository,
+[`software-engineering-metrics/software-engineering-metrics.github.io`](https://github.com/software-engineering-metrics/software-engineering-metrics.github.io),
+because GitHub Pages will only serve the naked domain
+`https://software-engineering-metrics.github.io/` from a repository with
+exactly that name. [`../.github/workflows/deploy.yml`](../.github/workflows/deploy.yml)
+here (at this monorepo's root) verifies this directory still builds on every
+push to `main`, then sends that other repository a `repository_dispatch`
+asking it to check out this monorepo, build this directory, and deploy the
+result.

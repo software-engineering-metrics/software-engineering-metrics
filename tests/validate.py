@@ -228,6 +228,47 @@ if os.path.exists(sp):
 else:
     check("spec/structure.md exists", False, "file missing")
 
+# 9c. Every content file has a .locale-peer-id sidecar in every locale
+# (see tools/gen_locale_peer_ids.py and
+# spec/locales-for-global-sharing-with-svelte/index.md): a stable id a future
+# translated locale (whose slugs will differ from the English source) uses to
+# resolve "this page, in locale X" instead of matching on slug. Well-formed
+# means exactly 32 lowercase hex characters plus a trailing newline, and the
+# id for a given content file is byte-identical across all four locales,
+# since today's four locales are mechanically derived spelling variants that
+# share filenames exactly.
+PEER_ID_SECTIONS = ["chapters", "front-matter", "examples", "contributing", "project"]
+PEER_ID_RE = re.compile(r"^[0-9a-f]{32}\n$")
+missing_peer_ids, malformed_peer_ids, mismatched_peer_ids = [], [], []
+for section in PEER_ID_SECTIONS:
+    ref_dir = os.path.join(ROOT, "locales", REFERENCE_LOCALE, section)
+    if not os.path.isdir(ref_dir):
+        continue
+    for basename in sorted(os.listdir(ref_dir)):
+        if not basename.endswith(".md"):
+            continue
+        sidecar_name = basename[: -len(".md")] + ".locale-peer-id"
+        ids = {}
+        for loc in LOCALES:
+            path = os.path.join(ROOT, "locales", loc, section, sidecar_name)
+            rel = os.path.relpath(path, ROOT)
+            if not os.path.exists(path):
+                missing_peer_ids.append(rel)
+                continue
+            content = read(path)
+            if not PEER_ID_RE.match(content):
+                malformed_peer_ids.append(rel)
+                continue
+            ids[loc] = content
+        if len(set(ids.values())) > 1:
+            mismatched_peer_ids.append(f"{section}/{sidecar_name}: {ids}")
+check("every content file has a .locale-peer-id sidecar in every locale",
+      not missing_peer_ids, f"{missing_peer_ids[:8]}")
+check(".locale-peer-id sidecars are 32 lowercase hex chars plus newline",
+      not malformed_peer_ids, f"{malformed_peer_ids[:8]}")
+check(".locale-peer-id is identical across locales for the same content file",
+      not mismatched_peer_ids, f"{mismatched_peer_ids[:4]}")
+
 # 10. README and the reference locale's site home page and contents page
 # link every chapter file.
 for navrel in ["README.md",

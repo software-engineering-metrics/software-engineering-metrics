@@ -1,14 +1,32 @@
 <script>
+  import { goto } from '$app/navigation';
   import { page } from '$app/state';
+  import PickerBar from '@lilydesignsystem/svelte-picker-bar';
   import Sidebar from '$lib/Sidebar.svelte';
-  import LocalePicker from '$lib/LocalePicker.svelte';
-  import { localePrefix } from '$lib/locales.js';
+  import { LOCALE_CODES, LOCALE_LABELS, DEFAULT_LOCALE, localePrefix } from '$lib/locales.js';
   import { ui } from '$lib/i18n.js';
 
   let { children } = $props();
 
   let prefix = $derived(localePrefix(page.params.locale));
   let t = $derived(ui(page.params.locale));
+  let currentLocale = $derived(page.params.locale ?? DEFAULT_LOCALE);
+
+  // The picker bar's LocalePicker only sets `lang`/`dir` on <html> by
+  // default; this site's locales are separate prerendered routes, so
+  // picking one must navigate there. `value={currentLocale}` keeps the
+  // picker's own display in sync with the URL on every navigation
+  // (including the back button, or a plain <a> to a locale-prefixed page),
+  // and onChange navigates when the *picker* is what changed it.
+  /** @param {string} nextLocale */
+  function onLocaleChange(nextLocale) {
+    if (nextLocale === currentLocale) return;
+    const currentPrefix = localePrefix(currentLocale);
+    const remainder = currentPrefix && page.url.pathname.startsWith(currentPrefix)
+      ? page.url.pathname.slice(currentPrefix.length) || '/'
+      : page.url.pathname;
+    goto(`${localePrefix(nextLocale)}${remainder}`);
+  }
 
   let navLinks = $derived([
     { href: `${prefix}/`, label: t.nav.home },
@@ -45,7 +63,25 @@
       {/each}
       <a href="https://github.com/software-engineering-metrics/software-engineering-metrics">{t.nav.github}</a>
     </nav>
-    <LocalePicker />
+    <PickerBar
+      labels={{
+        theme: t.pickerBar.theme,
+        locale: t.pickerBar.locale,
+        textSize: t.pickerBar.textSize,
+        share: t.pickerBar.share
+      }}
+      themesUrl="/assets/themes/"
+      themes={['light', 'dark']}
+      themeProps={{ storageKey: 'lily-theme', detectFromSystem: true }}
+      locales={LOCALE_CODES}
+      localeProps={{ value: currentLocale, onChange: onLocaleChange, localeLabels: LOCALE_LABELS }}
+      textSizeProps={{ storageKey: 'lily-text-size', defaultValue: 'normal' }}
+      shareTargets={[
+        { id: 'email', label: 'Email', href: (url, title) => `mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(url)}` },
+        { id: 'mastodon', label: 'Mastodon', href: (url, title) => `https://mastodon.social/share?text=${encodeURIComponent(title)}%20${encodeURIComponent(url)}` }
+      ]}
+      shareProps={{ url: `https://software-engineering-metrics.github.io${page.url.pathname}`, copyLabel: t.pickerBar.copyLink, copiedLabel: t.pickerBar.copied }}
+    />
   </div>
 </header>
 

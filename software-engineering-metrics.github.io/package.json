@@ -30,5 +30,8 @@
     "onlyBuiltDependencies": [
       "esbuild"
     ]
+  },
+  "dependencies": {
+    "@lilydesignsystem/svelte-picker-bar": "^0.1.0"
   }
 }

@@ -29,10 +29,9 @@ the current locale from `page.params.locale` via `$app/state` and build
 locale-prefixed hrefs with `localePrefix()`. Follow this pattern for any new
 page rather than hardcoding an absolute path.
 
-`LocalePicker.svelte` is the locale switcher in the header; it is a hand-built
-component following the Lily Design System's class-hook convention (one
-class, `.locale-picker`, styled in `static/assets/style.css`), since Lily
-ships no markup or JS of its own.
+The locale switcher in the header is `@lilydesignsystem/svelte-locale-picker`,
+wired up as part of `@lilydesignsystem/svelte-picker-bar` — see "PickerBar"
+below.
 
 ## Translated locales (infrastructure, not yet used)
 
@@ -50,13 +49,12 @@ and none is routed. What already exists, ready for when one is:
   `LOCALE_CODES`, so a label is ready before a locale is wired up.
 - `sortedLocaleEntries()` in `scripts/locales.mjs`: the grouped, deterministic
   sort order a future locale list should use (see its doc comment). Not
-  wired into `LocalePicker.svelte` yet, whose dropdown keeps its own curated
-  order; there is nothing to usefully re-sort while every served locale is
-  English.
-- `src/lib/i18n.js`: UI chrome strings (nav, sidebar, pager, picker, footer,
-  skip-link), keyed by locale, `ui(locale)` falling back to the `en` table.
-  Threaded through `+layout.svelte`, `Sidebar.svelte`, `ChapterPager.svelte`,
-  `Breadcrumb.svelte`, and `LocalePicker.svelte` already, so a translated
+  wired into anything yet; there is nothing to usefully re-sort while every
+  served locale is English (they all group together).
+- `src/lib/i18n.js`: UI chrome strings (nav, sidebar, pager, picker bar,
+  footer, skip-link), keyed by locale, `ui(locale)` falling back to the `en`
+  table. Threaded through `+layout.svelte`, `Sidebar.svelte`,
+  `ChapterPager.svelte`, and `Breadcrumb.svelte` already, so a translated
   locale can add its own top-level key incrementally. This does **not**
   cover page content (the home page's hero and body copy, chapter text):
   that is Markdown, translated by translating the Markdown, not by adding
@@ -76,6 +74,54 @@ future source for that copy per locale, but the schema for turning that
 Markdown into the home page's hero/stats/cards layout does not exist yet;
 design it together with the first real translated locale rather than
 guessing the shape in the abstract.
+
+## PickerBar (theme, locale, text size, share)
+
+The header's four icon buttons are `@lilydesignsystem/svelte-picker-bar`
+(wired up in `+layout.svelte`), which composes four Lily helpers:
+
+- **Theme**: `themesUrl="/assets/themes/"`, `themes={['light', 'dark']}`.
+  The two theme files are `static/assets/themes/{light,dark}.css`, scoped to
+  `:root[data-theme="…"]` — **not** Lily's own 45-theme catalog (that catalog
+  targets Lily's actual 492-component class system; this site's CSS is
+  hand-authored and only consumes the same `--lily-*` custom properties this
+  site already defined, now split into those two files instead of a single
+  `:root` block in `style.css`). Persisted to `localStorage['lily-theme']`,
+  with `detectFromSystem` for a first-visit OS-preference match. See
+  `src/app.html` for the before-first-paint bootstrap script that reads the
+  stored theme (and text size) so a returning visitor never sees a flash of
+  the wrong one.
+- **Locale**: `locales={LOCALE_CODES}`, `localeLabels={LOCALE_LABELS}`. Unlike
+  Lily's own default behaviour (set `lang`/`dir` on `<html>` and stop), this
+  site's locales are separate prerendered routes, so `+layout.svelte`'s
+  `onLocaleChange` calls `goto()` on top of that; `value={currentLocale}`
+  keeps the picker's own display in sync with the URL on every navigation,
+  not only ones made through the picker itself.
+- **Text size**: Lily's default seven-slug scale (`largest` … `smallest`),
+  applied as a `font-size` percentage on `:root[data-text-size="…"]` in
+  `style.css`, so every `rem`-based size in the file scales with it.
+  Persisted to `localStorage['lily-text-size']`.
+- **Share**: two destinations (email, Mastodon) plus the built-in copy-link
+  item. `shareProps.url` is built from `page.url.pathname` against this
+  site's real deployed origin rather than passed as `page.url.href` directly,
+  because SvelteKit's prerender crawler runs every page through a placeholder
+  origin (`http://sveltekit-prerender/`) that would otherwise leak into a
+  statically-rendered share link.
+
+**Pinned versions.** `pnpm-workspace.yaml`'s `overrides` force
+`@lilydesignsystem/svelte-{theme,locale,text-size,share}-picker` to `^0.1.2`
+and `@lilydesignsystem/svelte-headless` to `^0.2.0`, everywhere in the tree
+(including nested under `svelte-picker-bar`, whose own manifest still allows
+the older, broken range). Each picker's own `CHANGELOG.md` documents why:
+0.1.1 started passing `headless` 0.2.0-only props (`baseClass`, `as`,
+`navigation="active-descendant"`) but still declared a `^0.1.0` dependency
+range, so a fresh install resolved 0.1.x's `Listbox`/`IconButton`, which
+don't recognise those props and spread them onto the rendered element as
+inert HTML attributes (`baseclass="…"`, `as="ul"`, …) instead of applying
+them — the intended `class` was never actually set, so this site's
+positioning CSS matched nothing and every popup rendered in normal document
+flow. Don't remove these overrides without confirming `svelte-picker-bar`
+itself has bumped its own dependency ranges past this.
 
 ## Working rules
 

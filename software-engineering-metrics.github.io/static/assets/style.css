@@ -1,28 +1,20 @@
 /* Software Engineering Metrics — site stylesheet
  *
- * Built on the Lily Design System palette and class-hook conventions
+ * Built on the Lily Design System class-hook conventions
  * (see https://lilydesignsystem.com/) plus book-specific additions for
  * the sidebar, breadcrumbs, and chapter pager. Pages are served static
  * from GitHub Pages; no CSS is shipped by Lily itself, so this file is
  * the design.
+ *
+ * The colour tokens (--lily-primary, --lily-page-bg, --lily-text, and the
+ * rest of the palette) live in assets/themes/{light,dark}.css instead of
+ * here, scoped to :root[data-theme="…"], so @lilydesignsystem/svelte-theme-picker
+ * (wired up in src/routes/+layout.svelte) can switch between them at
+ * runtime. Every rule below reads those tokens via var(...); it never sets
+ * them, so it works under either theme unmodified.
  */
 
 :root {
-  --lily-primary: #0d9488;
-  --lily-primary-hover: #0f766e;
-  --lily-accent: #7c3aed;
-  --lily-danger: #dc2626;
-  --lily-warning: #f59e0b;
-  --lily-success: #16a34a;
-  --lily-page-bg: #f8fafa;
-  --lily-card-bg: #ffffff;
-  --lily-text: #111827;
-  --lily-text-muted: #4b5563;
-  --lily-text-subtle: #6b7280;
-  --lily-border: #e5e7eb;
-  --lily-border-strong: #d1d5db;
-  --lily-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.04);
-  --lily-shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
   --lily-radius: 0.5rem;
   --lily-radius-lg: 0.75rem;
   --lily-content-max: 78rem;
@@ -30,8 +22,18 @@
   --lily-sidebar-width: 18rem;
   --lily-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --lily-font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
-  --lily-tint: #ecfdfa;
 }
+
+/* @lilydesignsystem/svelte-text-size-picker's seven-step scale
+ * (DEFAULT_SIZES), applied as a root font-size multiplier so every rem-based
+ * size in this file scales with it. */
+:root[data-text-size="smallest"] { font-size: 62.5%; }
+:root[data-text-size="smaller"] { font-size: 75%; }
+:root[data-text-size="small"] { font-size: 87.5%; }
+:root[data-text-size="normal"] { font-size: 100%; }
+:root[data-text-size="large"] { font-size: 112.5%; }
+:root[data-text-size="larger"] { font-size: 125%; }
+:root[data-text-size="largest"] { font-size: 137.5%; }
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -180,19 +182,99 @@ kbd {
   background: var(--lily-tint);
 }
 
-/* LocalePicker.svelte: Lily class-hook component, one class, no shipped CSS */
-.locale-picker {
-  font: inherit;
-  font-size: 0.9rem;
-  color: var(--lily-text);
+/* @lilydesignsystem/svelte-picker-bar: theme, locale, text-size, and share
+ * pickers, wired up in +layout.svelte's header. Each ships zero CSS; the
+ * class hooks and the positioning requirement below are each package's own
+ * "Styling" doc. All four share one icon-button-opens-a-listbox shape, so
+ * one rule set covers them. */
+
+.picker-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.theme-picker, .locale-picker, .text-size-picker, .share-picker {
+  position: relative;
+  display: inline-block;
+}
+
+.theme-picker-button, .locale-picker-button, .text-size-picker-button, .share-picker-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 2.25rem;
+  block-size: 2.25rem;
+  color: var(--lily-text-muted);
   background: var(--lily-card-bg);
   border: 1px solid var(--lily-border-strong);
   border-radius: var(--lily-radius);
-  padding: 0.4rem 0.6rem;
   cursor: pointer;
 }
-.locale-picker:hover { border-color: var(--lily-primary); }
-.locale-picker:focus-visible { outline: 3px solid var(--lily-primary); outline-offset: 1px; }
+.theme-picker-button:hover, .locale-picker-button:hover, .text-size-picker-button:hover, .share-picker-button:hover {
+  color: var(--lily-text);
+  border-color: var(--lily-primary);
+}
+.theme-picker-button:focus-visible, .locale-picker-button:focus-visible, .text-size-picker-button:focus-visible, .share-picker-button:focus-visible {
+  outline: 3px solid var(--lily-primary);
+  outline-offset: 1px;
+}
+.theme-picker-button[aria-expanded="true"], .locale-picker-button[aria-expanded="true"], .text-size-picker-button[aria-expanded="true"], .share-picker-button[aria-expanded="true"] {
+  color: var(--lily-primary);
+  border-color: var(--lily-primary);
+}
+.theme-picker-icon, .locale-picker-icon, .text-size-picker-icon, .share-picker-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.theme-picker-list, .locale-picker-list, .text-size-picker-list, .share-picker-list {
+  position: absolute;
+  z-index: 20;
+  inset-block-start: calc(100% + 0.35rem);
+  inset-inline-start: 0;
+  margin: 0;
+  padding: 0.35rem;
+  list-style: none;
+  min-inline-size: 10rem;
+  max-block-size: 20rem;
+  overflow-y: auto;
+  background: var(--lily-card-bg);
+  border: 1px solid var(--lily-border);
+  border-radius: var(--lily-radius);
+  box-shadow: var(--lily-shadow-lg);
+}
+.theme-picker-list[hidden], .locale-picker-list[hidden], .text-size-picker-list[hidden], .share-picker-list[hidden] {
+  display: none;
+}
+.theme-picker-option, .locale-picker-option, .text-size-picker-option, .share-picker-list-item {
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--lily-radius);
+  cursor: pointer;
+  text-align: start;
+  white-space: nowrap;
+}
+.theme-picker-option[data-active], .locale-picker-option[data-active], .text-size-picker-option[data-active] {
+  background: var(--lily-border);
+}
+.theme-picker-option[aria-selected="true"], .locale-picker-option[aria-selected="true"], .text-size-picker-option[aria-selected="true"] {
+  color: var(--lily-primary);
+  font-weight: 600;
+}
+.share-picker-target, .share-picker-copy {
+  display: block;
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--lily-radius);
+  color: inherit;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font: inherit;
+  text-align: start;
+  cursor: pointer;
+  inline-size: 100%;
+}
+.share-picker-target:hover, .share-picker-copy:hover { background: var(--lily-border); }
 
 /* Main content */
 
@@ -221,10 +303,6 @@ kbd {
   padding: 2.5rem 1rem 1rem;
   max-width: 48rem;
   margin: 0 auto;
-}
-.hero .stat-row {
-  margin: 1.5rem 0 0;
-  gap: 1rem;
 }
 .hero-eyebrow {
   display: inline-block;
@@ -332,6 +410,42 @@ kbd {
 a.card { color: inherit; text-decoration: none; }
 a.card:hover { color: inherit; }
 
+/* Part list (home page "Browse: the nine parts") */
+
+.part-list {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.part-list li + li {
+  border-top: 1px solid var(--lily-border);
+}
+.part-list a {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.85rem 0.25rem;
+  color: inherit;
+  text-decoration: none;
+}
+.part-list a:hover { color: var(--lily-primary); }
+.part-list .part-number {
+  flex: none;
+  font-weight: 700;
+  color: var(--lily-primary);
+}
+.part-list .part-title {
+  flex: 1;
+}
+.part-list .part-meta {
+  flex: none;
+  font-size: 0.875rem;
+  color: var(--lily-text-subtle);
+}
+
 /* Sections */
 
 .section {
@@ -351,31 +465,6 @@ a.card:hover { color: inherit; }
 }
 .section-heading h2 {
   margin: 0;
-}
-
-/* Stat row */
-
-.stat-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
-  text-align: center;
-}
-.stat {
-  padding: 1rem;
-}
-.stat-value {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--lily-primary);
-  line-height: 1;
-  margin: 0;
-}
-.stat-label {
-  font-size: 0.95rem;
-  color: var(--lily-text-muted);
-  margin: 0.5rem 0 0;
 }
 
 /* Footer */

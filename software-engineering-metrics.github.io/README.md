@@ -26,8 +26,10 @@ navigation manifest per locale from it (see
 
 `en-us` is served unprefixed (`/chapters/x/`); the other three are served
 under a locale-prefixed path (`/en-gb/chapters/x/`), switched between with the
-`LocalePicker` in the header. See [`AGENTS.md`](AGENTS.md) for how the routing
-is wired.
+locale picker in the header (part of the
+[Lily Design System](https://lilydesignsystem.com/) `PickerBar`, alongside
+theme, text-size, and share). See [`AGENTS.md`](AGENTS.md) for how the
+routing and the picker bar are wired.
 
 **Never hand-edit files under `src/content/`.** Edit
 `../locales/en-gb-oxendict/` instead, then regenerate:
@@ -70,8 +72,16 @@ they never need to be committed stale — though they are committed, since
   `+page.svelte`.
 - `src/routes/table-of-contents/` : the full contents page with client-side
   filtering.
-- `src/lib/Sidebar.svelte`, `Breadcrumb.svelte`, `ChapterPager.svelte`,
-  `LocalePicker.svelte` : the book chrome.
+- `src/lib/Sidebar.svelte`, `Breadcrumb.svelte`, `ChapterPager.svelte` : the
+  book chrome. The header's theme/locale/text-size/share picker bar is
+  `@lilydesignsystem/svelte-picker-bar`, wired up directly in
+  `+layout.svelte` (see `AGENTS.md`).
+- `src/lib/i18n.js` : UI chrome strings (nav, sidebar, pager, picker bar,
+  footer), looked up per locale via `ui(locale)`.
+- `static/assets/themes/{light,dark}.css` : this site's colour tokens
+  (`--lily-primary`, `--lily-page-bg`, …), loaded dynamically by
+  `ThemePicker`. `static/assets/style.css` reads these tokens; it does not
+  define them.
 - `scripts/remark-chapter-links.mjs` : auto-links plain-text chapter
   cross-references ("see chapter 2.1") to their locale-prefixed route.
 - `static/assets/style.css` : the whole design — Lily is headless and ships

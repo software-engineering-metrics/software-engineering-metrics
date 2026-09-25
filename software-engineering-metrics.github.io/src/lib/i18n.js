@@ -40,8 +40,13 @@ const en = {
   breadcrumb: {
     ariaLabel: 'Breadcrumb'
   },
-  localePicker: {
-    ariaLabel: 'Locale'
+  pickerBar: {
+    theme: 'Theme',
+    locale: 'Language',
+    textSize: 'Text size',
+    share: 'Share',
+    copyLink: 'Copy link',
+    copied: 'Copied'
   },
   footer: {
     about:

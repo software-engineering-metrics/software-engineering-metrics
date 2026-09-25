@@ -29,39 +29,6 @@
     <a class="button button-secondary" href="{prefix}/table-of-contents/">Table of contents</a>
     <a class="button button-secondary" href="{prefix}/examples/">Worked examples</a>
   </div>
-  <div class="stat-row">
-    <div class="stat">
-      <p class="stat-value">{manifest.totals.parts}</p>
-      <p class="stat-label">Parts</p>
-    </div>
-    <div class="stat">
-      <p class="stat-value">{manifest.totals.chapters}</p>
-      <p class="stat-label">Chapters</p>
-    </div>
-    <div class="stat">
-      <p class="stat-value">Free</p>
-      <p class="stat-label">Always</p>
-    </div>
-  </div>
-</section>
-
-<section class="section prose" style="margin: 0 auto;">
-  <header class="section-heading">
-    <p class="section-heading-eyebrow">How to read it</p>
-    <h2>One book, nine parts</h2>
-  </header>
-  <p>
-    Parts are whole numbers; chapters are decimals. Chapter <strong>N.0</strong> introduces
-    each part; <strong>N.1, N.2, …</strong> are its chapters. Part 9 collects the appendices —
-    glossary, a formulas reference, checklists, templates, a maturity self-assessment,
-    references, and a subject index.
-  </p>
-  <p>
-    Every metric-family chapter states principles, recommendations, trade-offs, a sector lens,
-    examples (enterprise and government), a business case, anti-patterns, a maturity model,
-    discussion questions, and references — and names how the metric gets gamed and what guardrail
-    catches that. Adopt incrementally; do not big-bang.
-  </p>
 </section>
 
 <section class="section">
@@ -69,19 +36,20 @@
     <p class="section-heading-eyebrow">Browse</p>
     <h2>The nine parts</h2>
   </header>
-  <div class="card-grid">
+  <ul class="part-list">
     {#each manifest.parts as part (part.number)}
       {@const intro = part.chapters.find((c) => c.chapter === 0)}
-      <a class="card" href="{prefix}/chapters/{(intro ?? part.chapters[0]).slug}/">
-        <h3 class="card-heading">Part {part.number}: {part.title}</h3>
-        <p class="card-description">
-          {part.chapters.length}
-          {part.chapters.length === 1 ? 'chapter' : 'chapters'}, starting with {(intro ?? part.chapters[0]).decimal}.
-        </p>
-        <p class="card-meta">Read the introduction →</p>
-      </a>
+      <li>
+        <a href="{prefix}/chapters/{(intro ?? part.chapters[0]).slug}/">
+          <span class="part-number">Part {part.number}</span>
+          <span class="part-title">{part.title}</span>
+          <span class="part-meta">
+            {part.chapters.length} {part.chapters.length === 1 ? 'chapter' : 'chapters'}
+          </span>
+        </a>
+      </li>
     {/each}
-  </div>
+  </ul>
 </section>
 
 <section class="section prose" style="margin: 0 auto;">

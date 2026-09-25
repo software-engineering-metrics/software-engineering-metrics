@@ -45,6 +45,21 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
   picker, footer, skip-link) that every `.svelte` component previously
   hardcoded in English, threaded through via `ui(locale)`, falling back to
   English for any locale without its own translations.
+- Replaced the site's hand-built locale-only header control with
+  [Lily Design System](https://lilydesignsystem.com/)'s
+  `@lilydesignsystem/svelte-picker-bar`: a real theme picker (light/dark, via
+  new `static/assets/themes/{light,dark}.css`), the real locale picker
+  (wired to this site's URL-based routing rather than its default
+  lang/dir-only behavior), a text-size picker (Lily's seven-step scale), and
+  a share picker (email, Mastodon, copy link). Pinned
+  `@lilydesignsystem/svelte-{theme,locale,text-size,share}-picker` to
+  `^0.1.2` and `@lilydesignsystem/svelte-headless` to `^0.2.0` via
+  `pnpm-workspace.yaml` overrides, working around a real published bug in
+  `svelte-picker-bar` 0.1.0's own dependency ranges (see each picker's
+  `CHANGELOG.md`, "0.1.2", and this site's `AGENTS.md`).
+- Removed the home page's stat row (parts/chapters/"Free Always") and its
+  "How to read it" section, and replaced the "Browse the nine parts" card
+  grid with a plain bullet list.
 
 ### Changed
 

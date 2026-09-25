@@ -1,0 +1,24 @@
+/* Lily ThemePicker theme: light (the site's original, and default, palette).
+ * Scoped to :root[data-theme="light"] only (not bare :root) per ThemePicker's
+ * own guidance — the "CSS does not switch" pitfall in its troubleshooting
+ * docs. The bootstrap script in src/app.html sets data-theme="light" before
+ * first paint whenever nothing else is stored, so this still applies by
+ * default without a flash of unstyled content. */
+:root[data-theme="light"] {
+  --lily-primary: #0d9488;
+  --lily-primary-hover: #0f766e;
+  --lily-accent: #7c3aed;
+  --lily-danger: #dc2626;
+  --lily-warning: #f59e0b;
+  --lily-success: #16a34a;
+  --lily-page-bg: #f8fafa;
+  --lily-card-bg: #ffffff;
+  --lily-text: #111827;
+  --lily-text-muted: #4b5563;
+  --lily-text-subtle: #6b7280;
+  --lily-border: #e5e7eb;
+  --lily-border-strong: #d1d5db;
+  --lily-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+  --lily-shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  --lily-tint: #ecfdfa;
+}

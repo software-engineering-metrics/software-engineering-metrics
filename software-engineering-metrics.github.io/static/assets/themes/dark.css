@@ -1,0 +1,21 @@
+/* Lily ThemePicker theme: dark. Scoped to :root[data-theme="dark"] only, so
+ * it applies exactly when ThemePicker sets that attribute; see light.css for
+ * why bare :root is never used here. */
+:root[data-theme="dark"] {
+  --lily-primary: #2dd4bf;
+  --lily-primary-hover: #5eead4;
+  --lily-accent: #a78bfa;
+  --lily-danger: #f87171;
+  --lily-warning: #fbbf24;
+  --lily-success: #4ade80;
+  --lily-page-bg: #0f172a;
+  --lily-card-bg: #1e293b;
+  --lily-text: #f1f5f9;
+  --lily-text-muted: #cbd5e1;
+  --lily-text-subtle: #94a3b8;
+  --lily-border: #334155;
+  --lily-border-strong: #475569;
+  --lily-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --lily-shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+  --lily-tint: #134e4a;
+}

@@ -6,18 +6,17 @@ Run:  python3 tests/validate.py   (from the repository root, or anywhere)
 
 Exit code 0 if every check passes, 1 otherwise. Designed for CI and pre-commit use.
 The checks below are the executable form of the conventions in spec/conventions.md.
+The book is published in four locales (spec/locales.md); most checks run once
+per locale, and a few (spec title matching, README/site nav) run only against
+the reference locale, en-gb-oxendict, since only its titles are hand-authored
+English text that spec/structure.md asserts verbatim.
 """
 import os, re, sys, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CH = os.path.join(ROOT, "docs", "chapters")
+LOCALES = ["en-gb-oxendict", "en-001", "en-gb", "en-us"]
+REFERENCE_LOCALE = "en-gb-oxendict"
 
-PART_TITLES = {
-    1: "Foundations of Measurement", 2: "Flow Metrics",
-    3: "Developer Experience and the SPACE Framework", 4: "Code and Quality Metrics",
-    5: "Product and Business Metrics", 6: "Reliability, Operations, and Security Metrics",
-    7: "Metrics in the Age of AI", 8: "Building a Metrics Program", 9: "Appendices",
-}
 REQUIRED_SECTIONS = [
     "## Overview and motivation", "## Key principles", "## Recommendations",
     "## Trade-offs: pros and cons", "## Questions to discuss with your team",
@@ -43,10 +42,11 @@ XREF_CHAIN = re.compile(rf"(?i)\bchapters?[,:]?\s+(?:{_REF}{_DESC}{_CONN}?)+")
 # These files document the style rules, so they are allowed to quote the very
 # tokens the rules forbid (the em-dash character and the banned phrases). Every
 # other file, including all chapters and examples, must stay clean.
-STYLE_EXEMPT = {
-    "AGENTS.md", "docs/contributing/testing.md", "docs/contributing/style-rules.md",
-    "spec/conventions.md", "spec/index.md", "spec/README.md", "docs/contributing/index.md",
-}
+STYLE_EXEMPT = {"AGENTS.md", "spec/conventions.md", "spec/index.md", "spec/README.md"}
+for _loc in LOCALES:
+    STYLE_EXEMPT.add(f"locales/{_loc}/contributing/testing.md")
+    STYLE_EXEMPT.add(f"locales/{_loc}/contributing/style-rules.md")
+    STYLE_EXEMPT.add(f"locales/{_loc}/contributing/index.md")
 
 failures = []
 def check(name, ok, detail=""):
@@ -59,7 +59,6 @@ def dec(f):
     m = re.match(r"(\d+)-(\d+)-", os.path.basename(f))
     return (int(m.group(1)), int(m.group(2)))
 
-chapters = sorted(glob.glob(os.path.join(CH, "*.md")), key=dec)
 # Walk the repository for Markdown files, skipping build output, virtual
 # environments, and other hidden or vendored directories.
 SKIP_DIRS = {"site", "node_modules", "__pycache__"}
@@ -67,65 +66,89 @@ all_md = []
 for dirpath, dirnames, filenames in os.walk(ROOT):
     dirnames[:] = [d for d in dirnames if not d.startswith(".") and d not in SKIP_DIRS]
     all_md += [os.path.join(dirpath, fn) for fn in filenames if fn.endswith(".md")]
-disk = set(f"{dec(f)[0]}.{dec(f)[1]}" for f in chapters)
 
-# 1. Exactly 63 chapters.
-check("exactly 63 chapters", len(chapters) == 63, f"found {len(chapters)}")
+chapters_by_locale = {}
+disk_by_locale = {}
+for loc in LOCALES:
+    ch_dir = os.path.join(ROOT, "locales", loc, "chapters")
+    chs = sorted(glob.glob(os.path.join(ch_dir, "*.md")), key=dec)
+    chapters_by_locale[loc] = chs
+    disk_by_locale[loc] = set(f"{dec(f)[0]}.{dec(f)[1]}" for f in chs)
 
-# 2. Per-part numbering is contiguous starting at N.0.
-byp = {}
-for f in chapters:
-    p, c = dec(f); byp.setdefault(p, []).append(c)
-bad = [p for p in byp if sorted(byp[p]) != list(range(len(byp[p])))]
-check("per-part numbering contiguous from N.0", not bad, f"parts with gaps: {bad}")
+disk = disk_by_locale[REFERENCE_LOCALE]
 
-# 3. H1 heading matches the filename decimal.
-mm = []
-for f in chapters:
-    d = f"{dec(f)[0]}.{dec(f)[1]}"
-    h1 = next((ln[2:].strip() for ln in read(f).splitlines() if ln.startswith("# ")), "")
-    if not h1.startswith(d): mm.append(os.path.basename(f))
-check("H1 matches filename decimal", not mm, f"{mm}")
+# 0. Every locale has the identical set of chapter numbers.
+mismatched = {loc: sorted(disk_by_locale[loc] ^ disk) for loc in LOCALES if disk_by_locale[loc] != disk}
+check("every locale has the same chapter set", not mismatched, f"{mismatched}")
 
-# 4. Substantive chapters (parts 1-8, chapter >= 1) have all required sections.
-missing = {}
-for f in chapters:
-    p, c = dec(f)
-    if p <= 8 and c >= 1:
-        t = read(f)
-        miss = [s for s in REQUIRED_SECTIONS if s not in t]
-        if miss: missing[os.path.basename(f)] = miss
-check("substantive chapters have all required sections", not missing, f"{missing}")
+for loc in LOCALES:
+    chapters = chapters_by_locale[loc]
 
-# 4b. The required sections appear in exactly the template order (the sequence
-# of recognized ## headings, not just membership). Extra unrecognized headings
-# are allowed anywhere.
-disorder = {}
-for f in chapters:
-    p, c = dec(f)
-    if p <= 8 and c >= 1:
-        seq = []
-        for ln in read(f).splitlines():
-            if ln.startswith("## "):
-                for s in REQUIRED_SECTIONS:
-                    if ln.startswith(s):
-                        seq.append(s)
-                        break
-        if seq != REQUIRED_SECTIONS:
-            disorder[os.path.basename(f)] = seq
-check("required sections in exact template order", not disorder,
-      f"{dict(list(disorder.items())[:2])}")
+    # 1. Exactly 63 chapters.
+    check(f"[{loc}] exactly 63 chapters", len(chapters) == 63, f"found {len(chapters)}")
 
-# 4c. Substantive chapters meet the minimum word count, unless allowlisted.
-thin = {}
-for f in chapters:
-    p, c = dec(f)
-    if p <= 8 and c >= 1 and f"{p}.{c}" not in WORD_FLOOR_ALLOWLIST:
-        words = len(read(f).split())
-        if words < WORD_FLOOR:
-            thin[f"{p}.{c}"] = words
-check(f"substantive chapters have at least {WORD_FLOOR} words", not thin,
-      f"offending counts: {dict(sorted(thin.items(), key=lambda kv: kv[1]))}")
+    # 2. Per-part numbering is contiguous starting at N.0.
+    byp = {}
+    for f in chapters:
+        p, c = dec(f); byp.setdefault(p, []).append(c)
+    bad = [p for p in byp if sorted(byp[p]) != list(range(len(byp[p])))]
+    check(f"[{loc}] per-part numbering contiguous from N.0", not bad, f"parts with gaps: {bad}")
+
+    # 3. H1 heading matches the filename decimal.
+    mm = []
+    for f in chapters:
+        d = f"{dec(f)[0]}.{dec(f)[1]}"
+        h1 = next((ln[2:].strip() for ln in read(f).splitlines() if ln.startswith("# ")), "")
+        if not h1.startswith(d): mm.append(os.path.basename(f))
+    check(f"[{loc}] H1 matches filename decimal", not mm, f"{mm}")
+
+    # 4. Substantive chapters (parts 1-8, chapter >= 1) have all required sections.
+    missing = {}
+    for f in chapters:
+        p, c = dec(f)
+        if p <= 8 and c >= 1:
+            t = read(f)
+            miss = [s for s in REQUIRED_SECTIONS if s not in t]
+            if miss: missing[os.path.basename(f)] = miss
+    check(f"[{loc}] substantive chapters have all required sections", not missing, f"{missing}")
+
+    # 4b. The required sections appear in exactly the template order (the sequence
+    # of recognized ## headings, not just membership). Extra unrecognized headings
+    # are allowed anywhere.
+    disorder = {}
+    for f in chapters:
+        p, c = dec(f)
+        if p <= 8 and c >= 1:
+            seq = []
+            for ln in read(f).splitlines():
+                if ln.startswith("## "):
+                    for s in REQUIRED_SECTIONS:
+                        if ln.startswith(s):
+                            seq.append(s)
+                            break
+            if seq != REQUIRED_SECTIONS:
+                disorder[os.path.basename(f)] = seq
+    check(f"[{loc}] required sections in exact template order", not disorder,
+          f"{dict(list(disorder.items())[:2])}")
+
+    # 4c. Substantive chapters meet the minimum word count, unless allowlisted.
+    thin = {}
+    for f in chapters:
+        p, c = dec(f)
+        if p <= 8 and c >= 1 and f"{p}.{c}" not in WORD_FLOOR_ALLOWLIST:
+            words = len(read(f).split())
+            if words < WORD_FLOOR:
+                thin[f"{p}.{c}"] = words
+    check(f"[{loc}] substantive chapters have at least {WORD_FLOOR} words", not thin,
+          f"offending counts: {dict(sorted(thin.items(), key=lambda kv: kv[1]))}")
+
+    # 8. Wikipedia links are well-formed.
+    badwiki = []
+    for f in chapters:
+        for m in re.finditer(r"\]\((https?://[^)]*wikipedia[^)]*)\)", read(f)):
+            if not m.group(1).startswith("https://en.wikipedia.org/wiki/"):
+                badwiki.append(f"{os.path.basename(f)}: {m.group(1)}")
+    check(f"[{loc}] wikipedia links well-formed", not badwiki, f"{badwiki[:8]}")
 
 # 5. No em-dash anywhere in prose files (style-documentation files exempt).
 em = {os.path.relpath(f, ROOT): read(f).count("—") for f in all_md
@@ -171,7 +194,7 @@ check("all internal .md links resolve", not broken, f"{broken[:8]}")
 dangling = []
 for f in all_md:
     rel = os.path.relpath(f, ROOT)
-    if not rel.startswith("docs" + os.sep):
+    if not rel.startswith("locales" + os.sep):
         continue
     t = read(f)
     for cm in XREF_CHAIN.finditer(t):
@@ -181,36 +204,34 @@ for f in all_md:
 check("prose cross-references point at existing chapters", not dangling,
       f"{dangling[:8]}")
 
-# 8. Wikipedia links are well-formed.
-badwiki = []
-for f in chapters:
-    for m in re.finditer(r"\]\((https?://[^)]*wikipedia[^)]*)\)", read(f)):
-        if not m.group(1).startswith("https://en.wikipedia.org/wiki/"):
-            badwiki.append(f"{os.path.basename(f)}: {m.group(1)}")
-check("wikipedia links well-formed", not badwiki, f"{badwiki[:8]}")
-
-# 9. spec/structure.md lists exactly the chapters on disk.
+# 9. spec/structure.md lists exactly the chapters on disk (reference locale).
 sp = os.path.join(ROOT, "spec", "structure.md")
 if os.path.exists(sp):
     spec_ch = set(re.findall(r"^\| (\d+\.\d+) \|", read(sp), re.M))
     check("spec/structure.md matches disk (missing)", not (disk - spec_ch), f"{sorted(disk - spec_ch)[:8]}")
     check("spec/structure.md matches disk (extra)", not (spec_ch - disk), f"{sorted(spec_ch - disk)[:8]}")
-    # 9b. Chapter H1 titles match the titles declared in the spec manifest,
-    # character for character (not just the leading decimal).
+    # 9b. Chapter H1 titles in the reference locale match the titles declared
+    # in the spec manifest, character for character (not just the leading
+    # decimal). Other locales' titles are translated and are not checked
+    # against this English text; check 3 above already verifies their H1
+    # decimal prefix.
     spec_titles = dict(re.findall(r"^\| (\d+\.\d+) \| (.+?) \| \[", read(sp), re.M))
     tmm = []
-    for f in chapters:
+    for f in chapters_by_locale[REFERENCE_LOCALE]:
         d = f"{dec(f)[0]}.{dec(f)[1]}"
         h1 = next((ln[2:].strip() for ln in read(f).splitlines() if ln.startswith("# ")), "")
         want = f"{d} {spec_titles.get(d, '')}"
         if h1 != want:
             tmm.append(f"{os.path.basename(f)}: {h1!r} != {want!r}")
-    check("chapter H1 titles match spec/structure.md", not tmm, f"{tmm[:4]}")
+    check(f"[{REFERENCE_LOCALE}] chapter H1 titles match spec/structure.md", not tmm, f"{tmm[:4]}")
 else:
     check("spec/structure.md exists", False, "file missing")
 
-# 10. README, the site home page, and the contents page link every chapter file.
-for navrel in ["README.md", "docs/index.md", "docs/front-matter/table-of-contents.md"]:
+# 10. README and the reference locale's site home page and contents page
+# link every chapter file.
+for navrel in ["README.md",
+               f"locales/{REFERENCE_LOCALE}/index.md",
+               f"locales/{REFERENCE_LOCALE}/front-matter/table-of-contents.md"]:
     nav = read(os.path.join(ROOT, navrel))
     linked = set(f"{int(a)}.{int(b)}" for a, b in re.findall(r"chapters/(\d+)-(\d+)-", nav))
     check(f"{navrel} links every chapter", not (disk - linked), f"missing {sorted(disk - linked)[:8]}")

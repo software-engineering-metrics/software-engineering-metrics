@@ -14,8 +14,11 @@ The book is written and lives as Markdown chapters. It is authored, read,
 reviewed, and versioned as prose. The published website is a rendering of that
 prose, not the thing itself.
 
-- The **source of truth** is the Markdown in `docs/chapters/`, the front
-  matter, the appendices, and this specification.
+- The **source of truth** is the Markdown in `locales/en-gb-oxendict/chapters/`
+  (the book is authored in Oxford spelling; see
+  [oxford-spelling.md](oxford-spelling.md)), the front matter, the appendices,
+  this specification, and the three other locales derived from it (see
+  [locales.md](locales.md)).
 - The **website is a side effect.** It is rendered from the same Markdown by
   the separate `software-engineering-metrics.github.io` repository. How that
   works, what it produces, and how it deploys is that repository's concern.
@@ -58,9 +61,13 @@ lives in three companion files.
 - **[conventions.md](conventions.md)** is the writing and format
   specification: the numbering scheme, the chapter template, the house style,
   and the hard rules the tests enforce.
-- **[oxford-spelling.md](oxford-spelling.md)** is the spelling standard:
-  Oxford spelling (British English with `-ize` endings), with the word lists
-  and the rules for the spelling sweep.
+- **[oxford-spelling.md](oxford-spelling.md)** is the spelling standard for
+  the authoring locale: Oxford spelling (British English with `-ize`
+  endings), with the word lists and the rules for the spelling sweep.
+- **[locales.md](locales.md)** defines the four published locales
+  (`en-gb-oxendict`, `en-001`, `en-gb`, `en-us`), how the other three are
+  mechanically derived from the Oxford-spelled source, and the tooling that
+  does it.
 - **[roadmap.md](roadmap.md)** is the authoring backlog and the adoption
   checklists organizations can use to put a metrics program into practice.
 
@@ -91,12 +98,12 @@ The book is organized as numbered parts, each made of numbered chapters.
   for example `2.3`.
 - Chapter **N.0** is the part introduction. Chapters **N.1, N.2, ...** are the
   content chapters. Numbering within a part is contiguous and starts at N.0.
-- Chapter files live in `docs/chapters/` and are named `PP-CC-slug.md` with a
-  zero-padded, dash-separated, sortable numeric prefix (two-digit part,
-  two-digit chapter; the N.0 introduction is `PP-00`), for example
-  `02-00-flow-metrics.md` and `02-01-the-flow-framework.md`,
+- Chapter files live in `locales/<locale>/chapters/` and are named
+  `PP-CC-slug.md` with a zero-padded, dash-separated, sortable numeric prefix
+  (two-digit part, two-digit chapter; the N.0 introduction is `PP-00`), for
+  example `02-00-flow-metrics.md` and `02-01-the-flow-framework.md`,
   so a plain lexical sort lists the chapters in reading order. The slug is
-  lowercase with dashes.
+  lowercase with dashes, and is identical across every locale.
 - The first heading of every chapter file is `# N.M Title` using the unpadded,
   dotted chapter number, and that number must match the file's `PP-CC` prefix.
 - Part 9 is the appendices: glossary, a formulas reference, checklists,
@@ -159,10 +166,13 @@ version is in [conventions.md](conventions.md).
    which words.
 2. Edit the spec first if the change touches structure, numbering, or
    conventions.
-3. Edit or write the chapters to match, following the template and the house
-   style.
-4. If the set of chapters changed, regenerate the navigation artifacts with
+3. Edit or write the chapters in `locales/en-gb-oxendict/` (the Oxford-spelled
+   authoring locale), following the template and the house style.
+4. Run `python3 tools/localize.py` to re-derive `en-001`, `en-gb`, and
+   `en-us` from the updated `en-gb-oxendict` source (see
+   [locales.md](locales.md)).
+5. If the set of chapters changed, regenerate the navigation artifacts with
    `just nav`. That regeneration is downstream bookkeeping; the book is
    already correct before it runs.
-5. Run `just test`. Fix anything it reports.
-6. Record the change in `docs/project/changelog.md`.
+6. Run `just test`. Fix anything it reports.
+7. Record the change in `locales/en-gb-oxendict/project/changelog.md`.

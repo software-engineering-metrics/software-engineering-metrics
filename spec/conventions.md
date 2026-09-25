@@ -11,13 +11,16 @@ fail if it is broken.
 - Chapter **N.0** is the part introduction. Chapters **N.1, N.2, ...** are the
   content chapters. Numbering within each part is contiguous and starts at
   N.0. (enforced)
-- Chapter files live in `docs/chapters/` and are named with a zero-padded,
-  dash-separated, sortable numeric prefix followed by a lowercase-dash slug:
-  `PP-CC-slug.md`, where `PP` is the two-digit part number and `CC` the
-  two-digit chapter number (the N.0 introduction is `PP-00`), for example
-  `02-00-flow-metrics.md` and `02-01-the-flow-framework.md`.
-  Padding both fields and joining them with a dash means a plain lexical sort
-  (as in `ls`) lists the chapters in reading order.
+- Chapter files live in `locales/<locale>/chapters/` (see
+  [locales.md](locales.md) for the locale set) and are named with a
+  zero-padded, dash-separated, sortable numeric prefix followed by a
+  lowercase-dash slug: `PP-CC-slug.md`, where `PP` is the two-digit part
+  number and `CC` the two-digit chapter number (the N.0 introduction is
+  `PP-00`), for example `02-00-flow-metrics.md` and
+  `02-01-the-flow-framework.md`. The slug is identical across every locale,
+  since only the prose inside the file is translated. Padding both fields
+  and joining them with a dash means a plain lexical sort (as in `ls`) lists
+  the chapters in reading order.
 - The first heading of every chapter file is `# N.M Title` using the unpadded,
   dotted chapter number (for example `# 2.1 The Flow Framework`), and
   that number must match the file's `PP-CC` prefix. Chapter cross-references

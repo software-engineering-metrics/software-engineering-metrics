@@ -14,6 +14,12 @@ a measure that becomes a target stops being a good measure. This repository
 holds the book's content and specification; it is rendered into a website by
 the separate `software-engineering-metrics.github.io` repository.
 
+The book is published in four locales (see [`spec/locales.md`](spec/locales.md)):
+`en-gb-oxendict` (British English, Oxford spelling; the authoring source),
+`en-001` (international English), `en-gb` (mainstream British English), and
+`en-us` (American English). Only `en-gb-oxendict` is hand-edited; the other
+three are mechanically derived from it by `tools/localize.py`.
+
 ## Golden rules (do not break these)
 
 1. **No em-dashes.** Never use "—" (U+2014). Use a comma, colon, parentheses, or
@@ -22,14 +28,16 @@ the separate `software-engineering-metrics.github.io` repository.
    "load-bearing"; no "It's important to note", "In today's fast-paced world",
    and similar filler.
 3. **Follow the chapter template.** Content chapters use the fixed section order
-   in [`docs/contributing/chapter-template.md`](docs/contributing/chapter-template.md).
+   in [`locales/en-gb-oxendict/contributing/chapter-template.md`](locales/en-gb-oxendict/contributing/chapter-template.md).
 4. **Define terms on first use** and **link key concepts to Wikipedia** on first
    mention. Real references only; never fabricate a work or a URL.
 5. **The spec is the source of truth.** It lives at the repository root in
-   [`spec/`](spec/index.md), not under `docs/`, because the book (not the site)
+   [`spec/`](spec/index.md), not under `locales/`, because the book (not the site)
    is what it governs. Structure is declared in
    [`spec/structure.md`](spec/structure.md); style is declared in
-   [`spec/conventions.md`](spec/conventions.md). Change the spec and
+   [`spec/conventions.md`](spec/conventions.md); spelling is declared in
+   [`spec/oxford-spelling.md`](spec/oxford-spelling.md) and
+   [`spec/locales.md`](spec/locales.md). Change the spec and
    the chapters together.
 6. **Tests must pass.** Run `just test` before you consider a change done.
 7. **Name the gaming vector.** A chapter that presents a metric without also
@@ -37,24 +45,28 @@ the separate `software-engineering-metrics.github.io` repository.
    finished.
 
 The full, enforceable version of rules 1 through 5 is
-[`docs/contributing/style-rules.md`](docs/contributing/style-rules.md) and
-[`spec/conventions.md`](spec/conventions.md).
+[`locales/en-gb-oxendict/contributing/style-rules.md`](locales/en-gb-oxendict/contributing/style-rules.md)
+and [`spec/conventions.md`](spec/conventions.md).
 
 ## Repository layout
 
-- `docs/` : everything the published site contains, rendered elsewhere.
-  - `docs/chapters/` : the chapter files, named `PP-CC-slug.md` with a zero-padded, dash-separated, sortable prefix (the chapter number in the text stays dotted, e.g. `2.1`).
-  - `docs/front-matter/` : the opening essay, introduction, and table of contents.
-  - `docs/examples/` : small illustrative examples (a metrics charter, a dashboard spec).
-  - `docs/contributing/` : contributor and agent guides, plus shared snippets.
-  - `docs/project/` : project documentation and the changelog.
+- `locales/` : everything the published site contains, rendered elsewhere, one
+  subdirectory per locale (`en-gb-oxendict`, `en-001`, `en-gb`, `en-us`), each
+  with the identical structure below.
+  - `<locale>/chapters/` : the chapter files, named `PP-CC-slug.md` with a zero-padded, dash-separated, sortable prefix (the chapter number in the text stays dotted, e.g. `2.1`), identical across every locale.
+  - `<locale>/front-matter/` : the opening essay, introduction, and table of contents.
+  - `<locale>/examples/` : small illustrative examples (a metrics charter, a dashboard spec).
+  - `<locale>/contributing/` : contributor and agent guides, plus shared snippets.
+  - `<locale>/project/` : project documentation and the changelog.
+  - Edit only `locales/en-gb-oxendict/`; run `python3 tools/localize.py` to re-derive the other three.
 - `spec/` : the specification-driven source of truth (structure, conventions,
-  roadmap). It is hand-authored and not published to the site; the book is
-  what it governs.
-- `tools/` : `gen_nav.py`, which generates the README TOC, the site home page,
-  the contents page, and the subject index; and `stats.py`, the Markdown
-  stats report behind `just stats`.
-- `tests/` : `validate.py`, the enforcement suite.
+  spelling, locales, roadmap). It is hand-authored and not published to the
+  site; the book is what it governs.
+- `tools/` : `localize.py`, which derives `en-001`, `en-gb`, and `en-us` from
+  the `en-gb-oxendict` source; `gen_nav.py`, which generates the README TOC,
+  the per-locale site home pages, contents pages, and subject indexes; and
+  `stats.py`, the Markdown stats report behind `just stats`.
+- `tests/` : `validate.py`, the enforcement suite (checks all four locales).
 - `.github/workflows/` : `test.yml` (PR checks), `links.yml` (weekly external
   link check).
 - `justfile`, `pyproject.toml` : the task runner and the Python dev-tooling
@@ -62,25 +74,30 @@ The full, enforceable version of rules 1 through 5 is
 
 ## Task guides
 
-- Writing or editing a chapter: [`docs/contributing/authoring.md`](docs/contributing/authoring.md)
-- Regenerating navigation after structure changes: [`docs/contributing/navigation.md`](docs/contributing/navigation.md)
-- Running and understanding the tests: [`docs/contributing/testing.md`](docs/contributing/testing.md)
+- Writing or editing a chapter: [`locales/en-gb-oxendict/contributing/authoring.md`](locales/en-gb-oxendict/contributing/authoring.md)
+- Regenerating navigation after structure changes: [`locales/en-gb-oxendict/contributing/navigation.md`](locales/en-gb-oxendict/contributing/navigation.md)
+- Running and understanding the tests: [`locales/en-gb-oxendict/contributing/testing.md`](locales/en-gb-oxendict/contributing/testing.md)
+- Locale policy and the derivation tool: [`spec/locales.md`](spec/locales.md)
 
 ## Shared snippets
 
-- Blank chapter template: [`docs/contributing/chapter-template.md`](docs/contributing/chapter-template.md)
-- Style rules (enforceable): [`docs/contributing/style-rules.md`](docs/contributing/style-rules.md)
-- Part index: [`docs/contributing/part-index.md`](docs/contributing/part-index.md)
+- Blank chapter template: [`locales/en-gb-oxendict/contributing/chapter-template.md`](locales/en-gb-oxendict/contributing/chapter-template.md)
+- Style rules (enforceable): [`locales/en-gb-oxendict/contributing/style-rules.md`](locales/en-gb-oxendict/contributing/style-rules.md)
+- Part index: [`locales/en-gb-oxendict/contributing/part-index.md`](locales/en-gb-oxendict/contributing/part-index.md)
 
 ## The usual workflow
 
 1. Read the relevant task guide above.
-2. Make the smallest change that satisfies the request.
-3. If you changed the set of chapters, update `spec/structure.md` and run
+2. Make the smallest change that satisfies the request, editing only
+   `locales/en-gb-oxendict/`.
+3. Run `python3 tools/localize.py` to re-derive `en-001`, `en-gb`, and
+   `en-us`.
+4. If you changed the set of chapters, update `spec/structure.md` and run
    `just nav`.
-4. Run `just test`. Fix anything it reports. `just spell` catches spelling
+5. Run `just test`. Fix anything it reports. `just spell` catches spelling
    issues the suite does not; CI runs it too.
-5. Update `docs/project/changelog.md` with a one-line summary of what changed.
+6. Update `locales/en-gb-oxendict/project/changelog.md` with a one-line
+   summary of what changed.
 
-Every file in `docs/contributing/` is kept small so it loads cheaply into an
-agent's context.
+Every file in `locales/en-gb-oxendict/contributing/` is kept small so it loads
+cheaply into an agent's context.

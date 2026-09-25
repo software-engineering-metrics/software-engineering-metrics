@@ -13,7 +13,7 @@ import os
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CH = os.path.join(ROOT, "docs", "chapters")
+CH = os.path.join(ROOT, "locales", "en-gb-oxendict", "chapters")
 
 # The depth every substantive chapter should reach (spec/conventions.md); the
 # enforced floor in tests/validate.py is lower and shrinks the gap over time.

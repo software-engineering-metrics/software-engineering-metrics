@@ -14,8 +14,13 @@ package = false
 
 # Spell checking (`just spell`, and the PR workflow). The ignore list holds
 # false positives only: proper nouns and terms of art the dictionary flags.
+# codespell's dictionary is English-only, so every translated (non-English)
+# locale directory under locales/ (see spec/locales.md's "Planned translated
+# locales") must be added to skip below as it gains real content: codespell
+# has no way to know a given word is correct in another language rather
+# than an English typo.
 [tool.codespell]
-skip = "./.venv,./node_modules,./uv.lock,./software-engineering-metrics.github.io/node_modules,./software-engineering-metrics.github.io/build,./software-engineering-metrics.github.io/.svelte-kit,./software-engineering-metrics.github.io/pnpm-lock.yaml,./software-engineering-metrics.github.io/src/content"
+skip = "./.venv,./node_modules,./uv.lock,./software-engineering-metrics.github.io/node_modules,./software-engineering-metrics.github.io/build,./software-engineering-metrics.github.io/.svelte-kit,./software-engineering-metrics.github.io/pnpm-lock.yaml,./software-engineering-metrics.github.io/src/content,./locales/es-001"
 ignore-words-list = "synopsys,covert,consequentially,rouge,marz,bloc,wither,sme,erformance,accreting,skelton,fulfilment"
 
 [dependency-groups]

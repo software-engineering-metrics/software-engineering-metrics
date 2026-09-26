@@ -276,6 +276,26 @@ kbd {
 }
 .share-picker-target:hover, .share-picker-copy:hover { background: var(--lily-border); }
 
+/* The copy-link aria-live announcement. Screen-reader-only: the user
+ * agent's default <p> margin was otherwise adding invisible height below
+ * the share button, which flexbox's align-items: center on .picker-bar
+ * then centered along with the rest of .share-picker's box, pushing the
+ * button (and its dropdown, positioned relative to the same box) visibly
+ * higher than the other three pickers in the row. position: absolute
+ * removes it from flow entirely rather than merely zeroing its margin, so
+ * a future, longer status string can never reintroduce the same shift. */
+.share-picker-status {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* Main content */
 
 .site-main {

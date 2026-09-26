@@ -7,6 +7,15 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Added two more planned translated locales, Welsh - Great Britain
+  (`cy-gb`) and Chinese (`zh-001`), to
+  `spec/locales-for-global-sharing-with-svelte/locales.tsv` and
+  `spec/locales.md` (thirteen planned locales now, up from eleven), and
+  resolved `zh-cn`'s previously-undecided endonym to 中文. The site's
+  `LOCALE_LABELS` gained matching entries (`cy-gb`: "Cymraeg (Prydain
+  Fawr)", `zh-001`: "中文", `zh-cn`: "中文 (中国)"). Still infrastructure
+  only: none of these locales has a `locales/<code>/` directory or any
+  translated content yet.
 - Published the book in four locales under `locales/`: `en-gb-oxendict`
   (British English, Oxford spelling; the hand-authored source), `en-001`
   (international English), `en-gb` (mainstream British English), and `en-us`

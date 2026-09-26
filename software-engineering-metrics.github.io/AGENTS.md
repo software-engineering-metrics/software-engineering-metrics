@@ -36,13 +36,15 @@ below.
 ## Translated locales (infrastructure, not yet used)
 
 `../spec/locales.md` and `../spec/locales-for-global-sharing-with-svelte/index.md`
-describe ten planned locales that are genuine translations (Arabic, Bengali,
-Welsh, Spanish, French, Hindi, Indonesian, Portuguese, Russian, Urdu, plus
-Chinese - China), as opposed to today's four, which are mechanically derived
-English spelling variants sharing one language and one set of slugs. None of
-the ten exist on disk yet (no `locales/<code>/` directory, no translated
-content), so none is in `SERVED_LOCALE_CODES`/`LOCALES` in `scripts/locales.mjs`
-and none is routed. What already exists, ready for when one is:
+describe thirteen planned locales that are genuine translations (Arabic,
+Bengali, Welsh, Welsh - Great Britain, Spanish, French, Hindi, Indonesian,
+Portuguese, Russian, Urdu, Chinese, plus Chinese - China), as opposed to
+today's four, which are mechanically derived English spelling variants
+sharing one language and one set of slugs. None of the thirteen exist on
+disk yet (no `locales/<code>/` directory, no translated content), so none
+is in `SERVED_LOCALE_CODES`/`LOCALES` in `scripts/locales.mjs` and none is
+routed.
+What already exists, ready for when one is:
 
 - `LOCALE_LABELS` and `localeLabel()` in `scripts/locales.mjs`: a display
   name for every planned locale (its endonym), a strict superset of

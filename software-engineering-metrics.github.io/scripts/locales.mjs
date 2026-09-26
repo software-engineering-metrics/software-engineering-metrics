@@ -4,8 +4,7 @@
 // strict superset of the served locale codes below: an entry here for a
 // locale not yet in SERVED_LOCALE_CODES just means the label is ready before
 // the locale itself is translated and wired up. localeLabel() falls back to
-// the raw code for anything missing here (for example zh-cn, whose endonym
-// locales.tsv marks as not yet decided ("?")), so a not-yet-labelled locale
+// the raw code for anything not listed here, so a not-yet-labelled locale
 // degrades to its code rather than throwing.
 /** @type {Record<string, string>} */
 export const LOCALE_LABELS = {
@@ -16,13 +15,16 @@ export const LOCALE_LABELS = {
   'ar-001': 'العربية',
   'bn-001': 'বাংলা',
   'cy-001': 'Cymraeg',
+  'cy-gb': 'Cymraeg (Prydain Fawr)',
   'es-001': 'Español',
   'fr-001': 'Français',
   'hi-001': 'हिन्दी',
   'id-001': 'Bahasa Indonesia',
   'pt-001': 'Português',
   'ru-001': 'Русский',
-  'ur-001': 'اردو'
+  'ur-001': 'اردو',
+  'zh-001': '中文',
+  'zh-cn': '中文 (中国)'
 };
 
 /** @param {string} code */

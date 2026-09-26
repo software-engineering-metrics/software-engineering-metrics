@@ -88,9 +88,10 @@ and stops being "planned" only once someone begins translating it, per
 that mechanism exists to avoid repeating). The full list, with each
 language's own endonym and its English exonym, is
 [locales-for-global-sharing-with-svelte/locales.tsv](locales-for-global-sharing-with-svelte/locales.tsv):
-Arabic (`ar-001`), Bengali (`bn-001`), Welsh (`cy-001`), Spanish (`es-001`),
-French (`fr-001`), Hindi (`hi-001`), Indonesian (`id-001`), Portuguese
-(`pt-001`), Russian (`ru-001`), Urdu (`ur-001`), and Chinese, China (`zh-cn`).
+Arabic (`ar-001`), Bengali (`bn-001`), Welsh (`cy-001`), Welsh, Great Britain
+(`cy-gb`), Spanish (`es-001`), French (`fr-001`), Hindi (`hi-001`),
+Indonesian (`id-001`), Portuguese (`pt-001`), Russian (`ru-001`), Urdu
+(`ur-001`), Chinese (`zh-001`), and Chinese, China (`zh-cn`).
 
 ## Adding a locale
 

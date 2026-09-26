@@ -8,12 +8,13 @@
 // ../../../spec/locales-for-global-sharing-with-svelte/index.md for why this
 // file exists ahead of any non-English locale actually shipping.
 //
-// Every string below is under the `en` key, used today by all four served
-// locales (see scripts/locales.mjs), since they are English spelling
-// variants and this chrome copy does not vary between them. A translated
-// locale (see spec/locales.md's "Planned translated locales") adds its own
-// top-level key here; ui() falls back to `en` for anything absent, so a
-// locale can translate this file incrementally rather than all at once.
+// `en` below is used as-is by all four served locales (see
+// scripts/locales.mjs), since they are English spelling variants and this
+// chrome copy does not vary between them. A translated locale (see
+// spec/locales.md's "Planned translated locales") adds a partial override
+// to OVERRIDES below; ui() deep-merges it onto `en`, so a locale can
+// translate this file one key at a time as chapters for it land, without a
+// missing key ever rendering as undefined.
 
 const en = {
   skipToContent: 'Skip to main content',
@@ -59,18 +60,45 @@ const en = {
   }
 };
 
-/** @type {Record<string, typeof en>} */
-const STRINGS = { en };
+// Partial per-locale overrides, keyed by the same locale codes
+// scripts/locales.mjs uses. A locale here need not translate every string:
+// deepMerge() below fills in anything missing from `en`, so a locale can be
+// translated one key at a time as chapters for it land, without ever
+// producing an undefined string for a key it has not reached yet.
+/** @type {Record<string, object>} */
+const OVERRIDES = {
+  'es-001': {
+    nav: { tableOfContents: 'Contenido' },
+    footer: { tableOfContentsLabel: 'Contenido' }
+  }
+};
+
+/**
+ * @param {any} base
+ * @param {any} override
+ */
+function deepMerge(base, override) {
+  if (!override) return base;
+  /** @type {any} */
+  const result = { ...base };
+  for (const key of Object.keys(override)) {
+    const value = override[key];
+    result[key] =
+      value && typeof value === 'object' && !Array.isArray(value)
+        ? deepMerge(base[key], value)
+        : value;
+  }
+  return result;
+}
 
 const FALLBACK_LOCALE = 'en';
 
 /**
- * Look up this locale's UI chrome strings, falling back to `en` for any
- * locale (or any individual key, once a locale has partial translations)
- * that has none yet.
+ * Look up this locale's UI chrome strings, filled in from `en` for any key
+ * (or whole locale) a translation has not reached yet.
  * @param {string | undefined | null} locale
  */
 export function ui(locale) {
-  if (locale && STRINGS[locale]) return STRINGS[locale];
-  return STRINGS[FALLBACK_LOCALE];
+  if (locale && OVERRIDES[locale]) return deepMerge(en, OVERRIDES[locale]);
+  return en;
 }

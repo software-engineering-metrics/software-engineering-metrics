@@ -1,4 +1,4 @@
-Software Engineering Metrics: an open book on measuring software engineering well
+Software Engineering Metrics
 
 • Link: https://software-engineering-metrics.github.io/
 • Tags: #SoftwareEngineering #EngineeringMetrics #DevOps #TechLeadership

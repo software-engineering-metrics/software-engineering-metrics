@@ -1,0 +1,17 @@
+Software Engineering Metrics: an open book on measuring software engineering well
+
+• Link: https://software-engineering-metrics.github.io/
+• Tags: #SoftwareEngineering #EngineeringMetrics #DevOps #TechLeadership
+• Keywords: software engineering metrics, DORA metrics, Goodhart's law
+
+Summary: Software Engineering Metrics is an online guidebook that teaches metrics that actually improve software delivery and quality. The book walks through delivery flow, developer experience, code quality, product outcomes, and reliability, and each chapter names how people game a metric and the safeguard that catches it. 
+
+Benefits: Readers get a practical best practices reference they can use immediately. Each chapter includes discussion questions, a maturity model, and real trade-offs a team can weigh against its own context instead of a generic best-practices list that ignores what makes their situation different.
+
+Why this matters:  Clear consistent metrics helps software engineering, digital delivery, and stakeholder engagement, and more. 
+
+Please share: Distribute this to your engineers, developers, business analytics staff, and project managers. A five-minute skim of the chapter on Goodhart's law alone can save a team from a metric that quietly rewards the wrong behavior for months before anyone notices the damage.
+
+Advice welcome: I would love advice from anyone who uses these kinds of metrics. What works well for you, and what are opportunities for improvements? Email me directly with what you find, good or bad. Your help will make this project better for everyone.
+
+Associated skills: Software Engineering, Engineering Metrics, DevOps, Technical Writing, Engineering Leadership

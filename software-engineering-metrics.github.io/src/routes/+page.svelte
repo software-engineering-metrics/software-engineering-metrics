@@ -26,7 +26,7 @@
   </p>
   <div class="button-row">
     <a class="button button-primary" href="{prefix}/front-matter/what-are-software-engineering-metrics/">Start reading</a>
-    <a class="button button-secondary" href="{prefix}/table-of-contents/">Table of contents</a>
+    <a class="button button-secondary" href="{prefix}/contents/">Contents</a>
     <a class="button button-secondary" href="{prefix}/examples/">Worked examples</a>
   </div>
 </section>
@@ -65,7 +65,7 @@
     metrics mean, not just a new column on the dashboard.
   </p>
   <p style="text-align: center; margin-top: 2rem;">
-    <a class="button button-secondary" href="{prefix}/table-of-contents/">See the full table of contents →</a>
+    <a class="button button-secondary" href="{prefix}/contents/">See the full contents →</a>
   </p>
 </section>
 

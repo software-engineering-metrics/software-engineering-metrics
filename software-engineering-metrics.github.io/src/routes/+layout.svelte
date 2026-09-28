@@ -30,11 +30,11 @@
 
   let navLinks = $derived([
     { href: `${prefix}/`, label: t.nav.home },
-    { href: `${prefix}/front-matter/what-are-software-engineering-metrics/`, label: t.nav.startHere },
-    { href: `${prefix}/table-of-contents/`, label: t.nav.tableOfContents },
+    { href: `${prefix}/contents/`, label: t.nav.contents },
     { href: `${prefix}/examples/`, label: t.nav.examples },
     { href: `${prefix}/contributing/`, label: t.nav.contributing },
-    { href: `${prefix}/project/`, label: t.nav.project }
+    { href: `${prefix}/project/`, label: t.nav.project },
+    { href: `${prefix}/help/`, label: t.nav.help }
   ]);
 
   let pathname = $derived(page.url.pathname);
@@ -58,10 +58,10 @@
       <span>{t.brand}</span>
     </a>
     <nav class="site-nav" aria-label={t.nav.ariaLabel}>
+      <a href="https://github.com/software-engineering-metrics/software-engineering-metrics">{t.nav.github}</a>
       {#each navLinks as link (link.href)}
         <a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>{link.label}</a>
       {/each}
-      <a href="https://github.com/software-engineering-metrics/software-engineering-metrics">{t.nav.github}</a>
     </nav>
     <PickerBar
       labels={{
@@ -103,7 +103,7 @@
     <div class="site-footer-links">
       <a href="https://github.com/software-engineering-metrics/software-engineering-metrics">{t.footer.contentSourceLabel}</a>
       <a href="https://github.com/software-engineering-metrics/software-engineering-metrics.github.io">{t.footer.siteSourceLabel}</a>
-      <a href="{prefix}/table-of-contents/">{t.footer.tableOfContentsLabel}</a>
+      <a href="{prefix}/contents/">{t.footer.contentsLabel}</a>
       <a href="{prefix}/contributing/">{t.footer.contributingLabel}</a>
     </div>
   </div>

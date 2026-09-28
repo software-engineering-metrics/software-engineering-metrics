@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Scans src/content/<locale>/ and writes one manifest per locale: the
 // structured table of contents (parts, chapters, prev/next order) that
-// drives navigation, the table-of-contents page, and the "chapter N.M"
+// drives navigation, the contents page, and the "chapter N.M"
 // auto-linking remark plugin. The default locale's manifest is written to
 // src/lib/manifest.json (unchanged path, so the unprefixed routes need no
 // changes); the other three go to src/lib/manifest/<locale>.json.

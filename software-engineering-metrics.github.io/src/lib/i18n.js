@@ -22,11 +22,11 @@ const en = {
   brandAria: 'Software Engineering Metrics home',
   nav: {
     home: 'Home',
-    startHere: 'Start here',
-    tableOfContents: 'Table of contents',
+    contents: 'Contents',
     examples: 'Examples',
     contributing: 'Contributing',
     project: 'Project',
+    help: 'Help',
     github: 'GitHub',
     ariaLabel: 'Main'
   },
@@ -55,7 +55,7 @@ const en = {
     orgLinkLabel: 'software-engineering-metrics',
     contentSourceLabel: 'Content source',
     siteSourceLabel: 'Site source',
-    tableOfContentsLabel: 'Table of contents',
+    contentsLabel: 'Contents',
     contributingLabel: 'Contributing'
   }
 };
@@ -68,8 +68,8 @@ const en = {
 /** @type {Record<string, object>} */
 const OVERRIDES = {
   'es-001': {
-    nav: { tableOfContents: 'Contenido' },
-    footer: { tableOfContentsLabel: 'Contenido' }
+    nav: { contents: 'Contenido' },
+    footer: { contentsLabel: 'Contenido' }
   }
 };
 

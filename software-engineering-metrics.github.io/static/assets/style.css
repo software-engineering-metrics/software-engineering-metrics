@@ -718,13 +718,11 @@ details.faq-item p { margin-top: 0.75rem; }
 
 .toc-part { margin-bottom: 2.5rem; }
 .toc-part-heading {
-  display: flex;
-  align-items: baseline;
-  gap: 0.6rem;
   border-bottom: 2px solid var(--lily-border);
   padding-bottom: 0.5rem;
 }
 .toc-part-heading .part-number {
+  margin-right: 0.6rem;
   color: var(--lily-primary);
   font-weight: 700;
 }

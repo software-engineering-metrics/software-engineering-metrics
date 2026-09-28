@@ -15,15 +15,15 @@
 </script>
 
 <svelte:head>
-  <title>Table of contents — Software Engineering Metrics</title>
+  <title>Contents — Software Engineering Metrics</title>
   <meta
     name="description"
-    content="The full table of contents: {manifest.totals.parts} parts, {manifest.totals.chapters} chapters."
+    content="The full contents: {manifest.totals.parts} parts, {manifest.totals.chapters} chapters."
   />
 </svelte:head>
 
 <div class="prose">
-  <h1>Table of contents</h1>
+  <h1>Contents</h1>
   <p>
     Parts are whole numbers; chapters are decimals (chapter <strong>N.0</strong> introduces each
     part). See also <a href="{prefix}/front-matter/introduction/">the introduction</a>.
@@ -42,11 +42,11 @@
   {@const q = query.trim().toLowerCase()}
   {@const visible = part.chapters.filter((c) => matches(c, q))}
   <section class="toc-part" hidden={visible.length === 0}>
-    <h2 class="toc-part-heading"><span class="part-number">Part {part.number}</span> {part.title}</h2>
+    <h2 class="toc-part-heading"><span class="part-number">{part.number}</span> {part.title}</h2>
     <ul class="toc-chapter-list">
       {#each visible as chapter (chapter.slug)}
         <li>
-          <a href="{prefix}/chapters/{chapter.slug}/"><span class="decimal">{chapter.decimal}</span>{chapter.title}</a>
+          <a href="{prefix}/chapters/{chapter.slug}/"><span class="decimal">{chapter.decimal}</span> {chapter.title}</a>
         </li>
       {/each}
     </ul>

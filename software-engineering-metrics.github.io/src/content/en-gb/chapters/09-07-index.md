@@ -149,6 +149,7 @@ Terms are defined in the Glossary (chapter 9.1).
 ## U
 
 - **unit economics**: [5.4](05-04-cost-and-unit-economics-of-engineering.md), [5.5](05-05-return-on-investment-for-engineering-initiatives.md), [7.2](07-02-measuring-ai-assisted-software-development.md)
+- **utilisation**: [2.7](02-07-queueing-theory.md), [2.8](02-08-lean-value-stream-metrics.md), [6.3](06-03-on-call-capacity-and-operational-load-metrics.md)
 
 ## V
 

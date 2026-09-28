@@ -36,16 +36,33 @@ export function localeLabel(code) {
 // (see ../spec/locales.md). Single source of truth for both the build
 // scripts (sync-content.mjs, generate-manifest.mjs, the remark plugins) and
 // the runtime UI ($lib/locales.js re-exports this). Every code here must
-// have a locales/<code>/ directory with real content; the ten locales in
-// spec/locales.md's "Planned translated locales" are deliberately not here
-// yet, since none has a locales/<code>/ directory on disk.
-const SERVED_LOCALE_CODES = ['en-us', 'en-gb-oxendict', 'en-gb', 'en-001'];
+// have a locales/<code>/ directory with real content; the remaining planned
+// locales in spec/locales.md's "Planned translated locales" are deliberately
+// not here yet, since none has a locales/<code>/ directory on disk. cy-001,
+// es-001, hi-001, and zh-cn are genuinely translated locales (not English
+// spelling variants) that ship only chapters/ so far, with no front-matter/,
+// examples/, contributing/, or project/ section yet; the pages that read
+// those sections degrade to an empty list or a chapter-page fallback rather
+// than a broken link (see +page.svelte and contents/+page.svelte).
+const SERVED_LOCALE_CODES = [
+  'en-us',
+  'en-gb-oxendict',
+  'en-gb',
+  'en-001',
+  'cy-001',
+  'es-001',
+  'hi-001',
+  'zh-cn'
+];
 
 export const LOCALES = SERVED_LOCALE_CODES.map((code) => ({ code, label: localeLabel(code) }));
 
-// en-us is served at unprefixed paths ("/chapters/x/"); the other three are
-// served under a locale-prefixed path ("/en-gb/chapters/x/"). This keeps
-// every existing URL on the site stable.
+// Every locale, including en-us, is served under its own locale-prefixed
+// path ("/en-us/chapters/x/", "/en-gb/chapters/x/", ...) via
+// src/routes/[locale]/. DEFAULT_LOCALE is still meaningful as a fallback
+// (getManifest(), sortedLocaleEntries()) and as this site's primary
+// language for ordering, but it no longer gets special-cased unprefixed
+// routing.
 export const DEFAULT_LOCALE = 'en-us';
 
 export const LOCALE_CODES = LOCALES.map((l) => l.code);
@@ -89,5 +106,5 @@ export function sortedLocaleEntries(codes) {
 
 /** @param {string | undefined | null} locale */
 export function localePrefix(locale) {
-  return locale && locale !== DEFAULT_LOCALE ? `/${locale}` : '';
+  return locale ? `/${locale}` : '';
 }

@@ -1,12 +1,15 @@
 import { error } from '@sveltejs/kit';
 import { getManifest } from '$lib/manifests.js';
-import { DEFAULT_LOCALE, LOCALE_CODES } from '$lib/locales.js';
+import { LOCALE_CODES } from '$lib/locales.js';
 
 export const prerender = true;
 
+// Read each locale's own manifest: a locale with no examples/ section yet
+// (see spec/locales.md in the sibling content repo) simply contributes no
+// entries, rather than 404ing on slugs borrowed from another locale.
 export function entries() {
-  return LOCALE_CODES.filter((l) => l !== DEFAULT_LOCALE).flatMap((locale) =>
-    getManifest(DEFAULT_LOCALE).examples.map((c) => ({ locale, slug: c.slug }))
+  return LOCALE_CODES.flatMap((locale) =>
+    getManifest(locale).examples.map((c) => ({ locale, slug: c.slug }))
   );
 }
 

@@ -1,0 +1,1838 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "cy-001",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-sylfeini-mesur",
+          "title": "Cyflwyniad i Ran 1: Sylfeini Mesur",
+          "heading": "1.0 Cyflwyniad i Ran 1: Sylfeini Mesur",
+          "file": "chapters/01-00-sylfeini-mesur.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-pam-mesur-peirianneg-meddalwedd",
+          "title": "Pam mesur peirianneg meddalwedd",
+          "heading": "1.1 Pam mesur peirianneg meddalwedd",
+          "file": "chapters/01-01-pam-mesur-peirianneg-meddalwedd.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-cyfraith-goodhart-a-seicoleg-metrigau",
+          "title": "Cyfraith Goodhart a seicoleg metrigau",
+          "heading": "1.2 Cyfraith Goodhart a seicoleg metrigau",
+          "file": "chapters/01-02-cyfraith-goodhart-a-seicoleg-metrigau.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-canlyniadau-dros-gynnyrch",
+          "title": "Canlyniadau dros gynnyrch: dewis beth i'w fesur",
+          "heading": "1.3 Canlyniadau dros gynnyrch: dewis beth i'w fesur",
+          "file": "chapters/01-03-canlyniadau-dros-gynnyrch.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-llywodraethiant-a-pherchnogaeth-metrigau",
+          "title": "Llywodraethiant a pherchnogaeth metrigau",
+          "heading": "1.4 Llywodraethiant a pherchnogaeth metrigau",
+          "file": "chapters/01-04-llywodraethiant-a-pherchnogaeth-metrigau.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-ffynonellau-data-a-chyfrifianeg",
+          "title": "Ffynonellau data a chyfrifianeg",
+          "heading": "1.5 Ffynonellau data a chyfrifianeg",
+          "file": "chapters/01-05-ffynonellau-data-a-chyfrifianeg.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-llythrennedd-ystadegol-ar-gyfer-metrigau-peirianneg",
+          "title": "Llythrennedd ystadegol ar gyfer metrigau peirianneg",
+          "heading": "1.6 Llythrennedd ystadegol ar gyfer metrigau peirianneg",
+          "file": "chapters/01-06-llythrennedd-ystadegol-ar-gyfer-metrigau-peirianneg.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-metrigau-llif",
+          "title": "Cyflwyniad i Ran 2: Metrigau Llif",
+          "heading": "2.0 Cyflwyniad i Ran 2: Metrigau Llif",
+          "file": "chapters/02-00-metrigau-llif.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-y-flow-framework",
+          "title": "Y Flow Framework",
+          "heading": "2.1 Y Flow Framework",
+          "file": "chapters/02-01-y-flow-framework.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-elfennau-llif",
+          "title": "Elfennau llif: nodweddion, diffygion, risgiau, a dyled",
+          "heading": "2.2 Elfennau llif: nodweddion, diffygion, risgiau, a dyled",
+          "file": "chapters/02-02-elfennau-llif.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-cyflymder-llif-a-dosbarthiad-llif",
+          "title": "Cyflymder llif a dosbarthiad llif",
+          "heading": "2.3 Cyflymder llif a dosbarthiad llif",
+          "file": "chapters/02-03-cyflymder-llif-a-dosbarthiad-llif.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-amser-llif-a-llwyth-llif",
+          "title": "Amser llif a llwyth llif",
+          "heading": "2.4 Amser llif a llwyth llif",
+          "file": "chapters/02-04-amser-llif-a-llwyth-llif.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-effeithlonrwydd-llif-a-gwaith-ar-y-gweill",
+          "title": "Effeithlonrwydd llif a gwaith ar y gweill",
+          "heading": "2.5 Effeithlonrwydd llif a gwaith ar y gweill",
+          "file": "chapters/02-05-effeithlonrwydd-llif-a-gwaith-ar-y-gweill.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-amser-cylch-ai-gydrannau",
+          "title": "Amser cylch a'i gydrannau",
+          "heading": "2.6 Amser cylch a'i gydrannau",
+          "file": "chapters/02-06-amser-cylch-ai-gydrannau.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-theori-ciwio",
+          "title": "Theori ciwio",
+          "heading": "2.7 Theori ciwio",
+          "file": "chapters/02-07-theori-ciwio.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-metrigau-ffrwd-werth-lean",
+          "title": "Metrigau ffrwd werth Lean",
+          "heading": "2.8 Metrigau ffrwd werth Lean",
+          "file": "chapters/02-08-metrigau-ffrwd-werth-lean.md"
+        },
+        {
+          "part": 2,
+          "chapter": 9,
+          "decimal": "2.9",
+          "slug": "02-09-metrigau-pull-request-ac-adolygu-cod",
+          "title": "Metrigau pull request ac adolygu cod",
+          "heading": "2.9 Metrigau pull request ac adolygu cod",
+          "file": "chapters/02-09-metrigau-pull-request-ac-adolygu-cod.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-fframwaith-metrigau-dora",
+          "title": "Fframwaith metrigau DORA",
+          "heading": "2.10 Fframwaith metrigau DORA",
+          "file": "chapters/02-10-fframwaith-metrigau-dora.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-profiad-datblygwyr-a-space",
+          "title": "Cyflwyniad i Ran 3: Profiad Datblygwyr a'r Fframwaith SPACE",
+          "heading": "3.0 Cyflwyniad i Ran 3: Profiad Datblygwyr a'r Fframwaith SPACE",
+          "file": "chapters/03-00-profiad-datblygwyr-a-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-fframwaith-space",
+          "title": "Y fframwaith SPACE",
+          "heading": "3.1 Y fframwaith SPACE",
+          "file": "chapters/03-01-fframwaith-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-metrigau-boddhad-a-lles",
+          "title": "Metrigau boddhad a lles",
+          "heading": "3.2 Metrigau boddhad a lles",
+          "file": "chapters/03-02-metrigau-boddhad-a-lles.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-metrigau-perfformiad-a-dirprwyon-canlyniad",
+          "title": "Metrigau perfformiad a dirprwyon canlyniad",
+          "heading": "3.3 Metrigau perfformiad a dirprwyon canlyniad",
+          "file": "chapters/03-03-metrigau-perfformiad-a-dirprwyon-canlyniad.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-metrigau-gweithgarwch-au-cyfyngiadau",
+          "title": "Metrigau gweithgarwch a'u cyfyngiadau",
+          "heading": "3.4 Metrigau gweithgarwch a'u cyfyngiadau",
+          "file": "chapters/03-04-metrigau-gweithgarwch-au-cyfyngiadau.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-metrigau-cyfathrebu-a-chydweithio",
+          "title": "Metrigau cyfathrebu a chydweithio",
+          "heading": "3.5 Metrigau cyfathrebu a chydweithio",
+          "file": "chapters/03-05-metrigau-cyfathrebu-a-chydweithio.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-effeithlonrwydd-a-llif",
+          "title": "Effeithlonrwydd a llif: gwaith dwfn ac ymyriadau",
+          "heading": "3.6 Effeithlonrwydd a llif: gwaith dwfn ac ymyriadau",
+          "file": "chapters/03-06-effeithlonrwydd-a-llif.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-arolygon-profiad-datblygwyr-a-metrigau-devex",
+          "title": "Arolygon profiad datblygwyr a metrigau DevEx",
+          "heading": "3.7 Arolygon profiad datblygwyr a metrigau DevEx",
+          "file": "chapters/03-07-arolygon-profiad-datblygwyr-a-metrigau-devex.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-metrigau-cod-ac-ansawdd",
+          "title": "Cyflwyniad i Ran 4: Metrigau Cod ac Ansawdd",
+          "heading": "4.0 Cyflwyniad i Ran 4: Metrigau Cod ac Ansawdd",
+          "file": "chapters/04-00-metrigau-cod-ac-ansawdd.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-metrigau-cymhlethdod-cod",
+          "title": "Metrigau cymhlethdod cod",
+          "heading": "4.1 Metrigau cymhlethdod cod",
+          "file": "chapters/04-01-metrigau-cymhlethdod-cod.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-gorchudd-profi-ac-effeithiolrwydd-profi",
+          "title": "Gorchudd profi ac effeithiolrwydd profi",
+          "heading": "4.2 Gorchudd profi ac effeithiolrwydd profi",
+          "file": "chapters/04-02-gorchudd-profi-ac-effeithiolrwydd-profi.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-trosiant-cod-a-dadansoddiad-man-poeth",
+          "title": "Trosiant cod a dadansoddiad man-poeth",
+          "heading": "4.3 Trosiant cod a dadansoddiad man-poeth",
+          "file": "chapters/04-03-trosiant-cod-a-dadansoddiad-man-poeth.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-dadansoddiad-statig-a-metrigau-arogl-cod",
+          "title": "Dadansoddiad statig a metrigau arogl cod",
+          "heading": "4.4 Dadansoddiad statig a metrigau arogl cod",
+          "file": "chapters/04-04-dadansoddiad-statig-a-metrigau-arogl-cod.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-mesur-dyled-dechnegol",
+          "title": "Mesur dyled dechnegol",
+          "heading": "4.5 Mesur dyled dechnegol",
+          "file": "chapters/04-05-mesur-dyled-dechnegol.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-metrigau-dogfennaeth-a-gwybodaeth",
+          "title": "Metrigau dogfennaeth a gwybodaeth",
+          "heading": "4.6 Metrigau dogfennaeth a gwybodaeth",
+          "file": "chapters/04-06-metrigau-dogfennaeth-a-gwybodaeth.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-metrigau-cynnyrch-a-busnes",
+          "title": "Cyflwyniad i Ran 5: Metrigau Cynnyrch a Busnes",
+          "heading": "5.0 Cyflwyniad i Ran 5: Metrigau Cynnyrch a Busnes",
+          "file": "chapters/05-00-metrigau-cynnyrch-a-busnes.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-cyfradd-diffygion-dianc-a-dihangfeydd-ansawdd",
+          "title": "Cyfradd diffygion dianc a dihangfeydd ansawdd",
+          "heading": "5.1 Cyfradd diffygion dianc a dihangfeydd ansawdd",
+          "file": "chapters/05-01-cyfradd-diffygion-dianc-a-dihangfeydd-ansawdd.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-metrigau-mabwysiad-a-defnydd-nodwedd",
+          "title": "Metrigau mabwysiad a defnydd nodwedd",
+          "heading": "5.2 Metrigau mabwysiad a defnydd nodwedd",
+          "file": "chapters/05-02-metrigau-mabwysiad-a-defnydd-nodwedd.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-metrigau-canlyniad-cwsmer-a-busnes",
+          "title": "Metrigau canlyniad cwsmer a busnes",
+          "heading": "5.3 Metrigau canlyniad cwsmer a busnes",
+          "file": "chapters/05-03-metrigau-canlyniad-cwsmer-a-busnes.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-cost-ac-economeg-uned-peirianneg",
+          "title": "Cost ac economeg uned peirianneg",
+          "heading": "5.4 Cost ac economeg uned peirianneg",
+          "file": "chapters/05-04-cost-ac-economeg-uned-peirianneg.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-enillion-ar-fuddsoddiad-ar-gyfer-mentrau-peirianneg",
+          "title": "Enillion ar fuddsoddiad ar gyfer mentrau peirianneg",
+          "heading": "5.5 Enillion ar fuddsoddiad ar gyfer mentrau peirianneg",
+          "file": "chapters/05-05-enillion-ar-fuddsoddiad-ar-gyfer-mentrau-peirianneg.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-metrigau-dibynadwyedd-gweithrediadau-a-diogelwch",
+          "title": "Cyflwyniad i Ran 6: Metrigau Dibynadwyedd, Gweithrediadau, a Diogelwch",
+          "heading": "6.0 Cyflwyniad i Ran 6: Metrigau Dibynadwyedd, Gweithrediadau, a Diogelwch",
+          "file": "chapters/06-00-metrigau-dibynadwyedd-gweithrediadau-a-diogelwch.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-dangosyddion-amcanion-a-chyllidebau-gwall-lefel-gwasanaeth",
+          "title": "Dangosyddion, amcanion, a chyllidebau gwall lefel gwasanaeth",
+          "heading": "6.1 Dangosyddion, amcanion, a chyllidebau gwall lefel gwasanaeth",
+          "file": "chapters/06-01-dangosyddion-amcanion-a-chyllidebau-gwall-lefel-gwasanaeth.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-metrigau-digwyddiad",
+          "title": "Metrigau digwyddiad: canfod, ymateb, ac adfer",
+          "heading": "6.2 Metrigau digwyddiad: canfod, ymateb, ac adfer",
+          "file": "chapters/06-02-metrigau-digwyddiad.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol",
+          "title": "Metrigau ar-alwad, capasiti, a llwyth gweithredol",
+          "heading": "6.3 Metrigau ar-alwad, capasiti, a llwyth gweithredol",
+          "file": "chapters/06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-metrigau-rheoli-diogelwch-a-gwendidau",
+          "title": "Metrigau rheoli diogelwch a gwendidau",
+          "heading": "6.4 Metrigau rheoli diogelwch a gwendidau",
+          "file": "chapters/06-04-metrigau-rheoli-diogelwch-a-gwendidau.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-metrigau-yn-oes-ai",
+          "title": "Cyflwyniad i Ran 7: Metrigau yn Oes AI",
+          "heading": "7.0 Cyflwyniad i Ran 7: Metrigau yn Oes AI",
+          "file": "chapters/07-00-metrigau-yn-oes-ai.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-y-symudiad-paradeim-ai-cynhyrchiol",
+          "title": "Y symudiad paradeim AI cynhyrchiol",
+          "heading": "7.1 Y symudiad paradeim AI cynhyrchiol",
+          "file": "chapters/07-01-y-symudiad-paradeim-ai-cynhyrchiol.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-mesur-datblygiad-meddalwedd-a-chymorth-ai",
+          "title": "Mesur datblygiad meddalwedd â chymorth AI",
+          "heading": "7.2 Mesur datblygiad meddalwedd â chymorth AI",
+          "file": "chapters/07-02-mesur-datblygiad-meddalwedd-a-chymorth-ai.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-peryglon-chwyddiant-metrig-a-gwanhad-ansawdd",
+          "title": "Peryglon chwyddiant metrig a gwanhad ansawdd",
+          "heading": "7.3 Peryglon chwyddiant metrig a gwanhad ansawdd",
+          "file": "chapters/07-03-peryglon-chwyddiant-metrig-a-gwanhad-ansawdd.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-telemetreg-canlyniad-fel-y-seren-arweiniol-newydd",
+          "title": "Telemetreg canlyniad fel y seren arweiniol newydd",
+          "heading": "7.4 Telemetreg canlyniad fel y seren arweiniol newydd",
+          "file": "chapters/07-04-telemetreg-canlyniad-fel-y-seren-arweiniol-newydd.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-adeiladu-rhaglen-fetrigau",
+          "title": "Cyflwyniad i Ran 8: Adeiladu Rhaglen Fetrigau",
+          "heading": "8.0 Cyflwyniad i Ran 8: Adeiladu Rhaglen Fetrigau",
+          "file": "chapters/08-00-adeiladu-rhaglen-fetrigau.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-dylunio-dangosfwrdd-metrigau-peirianneg",
+          "title": "Dylunio dangosfwrdd metrigau peirianneg",
+          "heading": "8.1 Dylunio dangosfwrdd metrigau peirianneg",
+          "file": "chapters/08-01-dylunio-dangosfwrdd-metrigau-peirianneg.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-tirwedd-offer-adeiladu-yn-erbyn-prynu",
+          "title": "Tirwedd offer: adeiladu yn erbyn prynu",
+          "heading": "8.2 Tirwedd offer: adeiladu yn erbyn prynu",
+          "file": "chapters/08-02-tirwedd-offer-adeiladu-yn-erbyn-prynu.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-cyflwyno-metrigau-heb-feithrin-ofn",
+          "title": "Cyflwyno metrigau heb feithrin ofn",
+          "heading": "8.3 Cyflwyno metrigau heb feithrin ofn",
+          "file": "chapters/08-03-cyflwyno-metrigau-heb-feithrin-ofn.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-model-aeddfedrwydd-ar-gyfer-rhaglenni-metrigau-peirianneg",
+          "title": "Model aeddfedrwydd ar gyfer rhaglenni metrigau peirianneg",
+          "heading": "8.4 Model aeddfedrwydd ar gyfer rhaglenni metrigau peirianneg",
+          "file": "chapters/08-04-model-aeddfedrwydd-ar-gyfer-rhaglenni-metrigau-peirianneg.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-map-llwybr-mabwysiadu-cynyddrannol",
+          "title": "Map llwybr mabwysiadu cynyddrannol",
+          "heading": "8.5 Map llwybr mabwysiadu cynyddrannol",
+          "file": "chapters/08-05-map-llwybr-mabwysiadu-cynyddrannol.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-atodiadau",
+          "title": "Atodiadau",
+          "heading": "9.0 Atodiadau",
+          "file": "chapters/09-00-atodiadau.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-rhestr-termau",
+          "title": "Rhestr termau",
+          "heading": "9.1 Rhestr termau",
+          "file": "chapters/09-01-rhestr-termau.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-cyfeirlyfr-diffiniadau-a-fformwlau-metrigau",
+          "title": "Cyfeirlyfr diffiniadau a fformwlâu metrigau",
+          "heading": "9.2 Cyfeirlyfr diffiniadau a fformwlâu metrigau",
+          "file": "chapters/09-02-cyfeirlyfr-diffiniadau-a-fformwlau-metrigau.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-rhestrau-gwirio",
+          "title": "Rhestrau gwirio",
+          "heading": "9.3 Rhestrau gwirio",
+          "file": "chapters/09-03-rhestrau-gwirio.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-templedi",
+          "title": "Templedi",
+          "heading": "9.4 Templedi",
+          "file": "chapters/09-04-templedi.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-hunanasesiad-aeddfedrwydd",
+          "title": "Hunanasesiad aeddfedrwydd",
+          "heading": "9.5 Hunanasesiad aeddfedrwydd",
+          "file": "chapters/09-05-hunanasesiad-aeddfedrwydd.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-cyfeiriadau-a-darllen-pellach",
+          "title": "Cyfeiriadau a darllen pellach",
+          "heading": "9.6 Cyfeiriadau a darllen pellach",
+          "file": "chapters/09-06-cyfeiriadau-a-darllen-pellach.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-mynegai",
+          "title": "Mynegai",
+          "heading": "9.7 Mynegai",
+          "file": "chapters/09-07-mynegai.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-sylfeini-mesur",
+      "title": "Cyflwyniad i Ran 1: Sylfeini Mesur",
+      "heading": "1.0 Cyflwyniad i Ran 1: Sylfeini Mesur",
+      "file": "chapters/01-00-sylfeini-mesur.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-pam-mesur-peirianneg-meddalwedd",
+      "title": "Pam mesur peirianneg meddalwedd",
+      "heading": "1.1 Pam mesur peirianneg meddalwedd",
+      "file": "chapters/01-01-pam-mesur-peirianneg-meddalwedd.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-cyfraith-goodhart-a-seicoleg-metrigau",
+      "title": "Cyfraith Goodhart a seicoleg metrigau",
+      "heading": "1.2 Cyfraith Goodhart a seicoleg metrigau",
+      "file": "chapters/01-02-cyfraith-goodhart-a-seicoleg-metrigau.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-canlyniadau-dros-gynnyrch",
+      "title": "Canlyniadau dros gynnyrch: dewis beth i'w fesur",
+      "heading": "1.3 Canlyniadau dros gynnyrch: dewis beth i'w fesur",
+      "file": "chapters/01-03-canlyniadau-dros-gynnyrch.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-llywodraethiant-a-pherchnogaeth-metrigau",
+      "title": "Llywodraethiant a pherchnogaeth metrigau",
+      "heading": "1.4 Llywodraethiant a pherchnogaeth metrigau",
+      "file": "chapters/01-04-llywodraethiant-a-pherchnogaeth-metrigau.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-ffynonellau-data-a-chyfrifianeg",
+      "title": "Ffynonellau data a chyfrifianeg",
+      "heading": "1.5 Ffynonellau data a chyfrifianeg",
+      "file": "chapters/01-05-ffynonellau-data-a-chyfrifianeg.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-llythrennedd-ystadegol-ar-gyfer-metrigau-peirianneg",
+      "title": "Llythrennedd ystadegol ar gyfer metrigau peirianneg",
+      "heading": "1.6 Llythrennedd ystadegol ar gyfer metrigau peirianneg",
+      "file": "chapters/01-06-llythrennedd-ystadegol-ar-gyfer-metrigau-peirianneg.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-metrigau-llif",
+      "title": "Cyflwyniad i Ran 2: Metrigau Llif",
+      "heading": "2.0 Cyflwyniad i Ran 2: Metrigau Llif",
+      "file": "chapters/02-00-metrigau-llif.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-y-flow-framework",
+      "title": "Y Flow Framework",
+      "heading": "2.1 Y Flow Framework",
+      "file": "chapters/02-01-y-flow-framework.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-elfennau-llif",
+      "title": "Elfennau llif: nodweddion, diffygion, risgiau, a dyled",
+      "heading": "2.2 Elfennau llif: nodweddion, diffygion, risgiau, a dyled",
+      "file": "chapters/02-02-elfennau-llif.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-cyflymder-llif-a-dosbarthiad-llif",
+      "title": "Cyflymder llif a dosbarthiad llif",
+      "heading": "2.3 Cyflymder llif a dosbarthiad llif",
+      "file": "chapters/02-03-cyflymder-llif-a-dosbarthiad-llif.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-amser-llif-a-llwyth-llif",
+      "title": "Amser llif a llwyth llif",
+      "heading": "2.4 Amser llif a llwyth llif",
+      "file": "chapters/02-04-amser-llif-a-llwyth-llif.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-effeithlonrwydd-llif-a-gwaith-ar-y-gweill",
+      "title": "Effeithlonrwydd llif a gwaith ar y gweill",
+      "heading": "2.5 Effeithlonrwydd llif a gwaith ar y gweill",
+      "file": "chapters/02-05-effeithlonrwydd-llif-a-gwaith-ar-y-gweill.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-amser-cylch-ai-gydrannau",
+      "title": "Amser cylch a'i gydrannau",
+      "heading": "2.6 Amser cylch a'i gydrannau",
+      "file": "chapters/02-06-amser-cylch-ai-gydrannau.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-theori-ciwio",
+      "title": "Theori ciwio",
+      "heading": "2.7 Theori ciwio",
+      "file": "chapters/02-07-theori-ciwio.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-metrigau-ffrwd-werth-lean",
+      "title": "Metrigau ffrwd werth Lean",
+      "heading": "2.8 Metrigau ffrwd werth Lean",
+      "file": "chapters/02-08-metrigau-ffrwd-werth-lean.md"
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-metrigau-pull-request-ac-adolygu-cod",
+      "title": "Metrigau pull request ac adolygu cod",
+      "heading": "2.9 Metrigau pull request ac adolygu cod",
+      "file": "chapters/02-09-metrigau-pull-request-ac-adolygu-cod.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-fframwaith-metrigau-dora",
+      "title": "Fframwaith metrigau DORA",
+      "heading": "2.10 Fframwaith metrigau DORA",
+      "file": "chapters/02-10-fframwaith-metrigau-dora.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-profiad-datblygwyr-a-space",
+      "title": "Cyflwyniad i Ran 3: Profiad Datblygwyr a'r Fframwaith SPACE",
+      "heading": "3.0 Cyflwyniad i Ran 3: Profiad Datblygwyr a'r Fframwaith SPACE",
+      "file": "chapters/03-00-profiad-datblygwyr-a-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-fframwaith-space",
+      "title": "Y fframwaith SPACE",
+      "heading": "3.1 Y fframwaith SPACE",
+      "file": "chapters/03-01-fframwaith-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-metrigau-boddhad-a-lles",
+      "title": "Metrigau boddhad a lles",
+      "heading": "3.2 Metrigau boddhad a lles",
+      "file": "chapters/03-02-metrigau-boddhad-a-lles.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-metrigau-perfformiad-a-dirprwyon-canlyniad",
+      "title": "Metrigau perfformiad a dirprwyon canlyniad",
+      "heading": "3.3 Metrigau perfformiad a dirprwyon canlyniad",
+      "file": "chapters/03-03-metrigau-perfformiad-a-dirprwyon-canlyniad.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-metrigau-gweithgarwch-au-cyfyngiadau",
+      "title": "Metrigau gweithgarwch a'u cyfyngiadau",
+      "heading": "3.4 Metrigau gweithgarwch a'u cyfyngiadau",
+      "file": "chapters/03-04-metrigau-gweithgarwch-au-cyfyngiadau.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-metrigau-cyfathrebu-a-chydweithio",
+      "title": "Metrigau cyfathrebu a chydweithio",
+      "heading": "3.5 Metrigau cyfathrebu a chydweithio",
+      "file": "chapters/03-05-metrigau-cyfathrebu-a-chydweithio.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-effeithlonrwydd-a-llif",
+      "title": "Effeithlonrwydd a llif: gwaith dwfn ac ymyriadau",
+      "heading": "3.6 Effeithlonrwydd a llif: gwaith dwfn ac ymyriadau",
+      "file": "chapters/03-06-effeithlonrwydd-a-llif.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-arolygon-profiad-datblygwyr-a-metrigau-devex",
+      "title": "Arolygon profiad datblygwyr a metrigau DevEx",
+      "heading": "3.7 Arolygon profiad datblygwyr a metrigau DevEx",
+      "file": "chapters/03-07-arolygon-profiad-datblygwyr-a-metrigau-devex.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-metrigau-cod-ac-ansawdd",
+      "title": "Cyflwyniad i Ran 4: Metrigau Cod ac Ansawdd",
+      "heading": "4.0 Cyflwyniad i Ran 4: Metrigau Cod ac Ansawdd",
+      "file": "chapters/04-00-metrigau-cod-ac-ansawdd.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-metrigau-cymhlethdod-cod",
+      "title": "Metrigau cymhlethdod cod",
+      "heading": "4.1 Metrigau cymhlethdod cod",
+      "file": "chapters/04-01-metrigau-cymhlethdod-cod.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-gorchudd-profi-ac-effeithiolrwydd-profi",
+      "title": "Gorchudd profi ac effeithiolrwydd profi",
+      "heading": "4.2 Gorchudd profi ac effeithiolrwydd profi",
+      "file": "chapters/04-02-gorchudd-profi-ac-effeithiolrwydd-profi.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-trosiant-cod-a-dadansoddiad-man-poeth",
+      "title": "Trosiant cod a dadansoddiad man-poeth",
+      "heading": "4.3 Trosiant cod a dadansoddiad man-poeth",
+      "file": "chapters/04-03-trosiant-cod-a-dadansoddiad-man-poeth.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-dadansoddiad-statig-a-metrigau-arogl-cod",
+      "title": "Dadansoddiad statig a metrigau arogl cod",
+      "heading": "4.4 Dadansoddiad statig a metrigau arogl cod",
+      "file": "chapters/04-04-dadansoddiad-statig-a-metrigau-arogl-cod.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-mesur-dyled-dechnegol",
+      "title": "Mesur dyled dechnegol",
+      "heading": "4.5 Mesur dyled dechnegol",
+      "file": "chapters/04-05-mesur-dyled-dechnegol.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-metrigau-dogfennaeth-a-gwybodaeth",
+      "title": "Metrigau dogfennaeth a gwybodaeth",
+      "heading": "4.6 Metrigau dogfennaeth a gwybodaeth",
+      "file": "chapters/04-06-metrigau-dogfennaeth-a-gwybodaeth.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-metrigau-cynnyrch-a-busnes",
+      "title": "Cyflwyniad i Ran 5: Metrigau Cynnyrch a Busnes",
+      "heading": "5.0 Cyflwyniad i Ran 5: Metrigau Cynnyrch a Busnes",
+      "file": "chapters/05-00-metrigau-cynnyrch-a-busnes.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-cyfradd-diffygion-dianc-a-dihangfeydd-ansawdd",
+      "title": "Cyfradd diffygion dianc a dihangfeydd ansawdd",
+      "heading": "5.1 Cyfradd diffygion dianc a dihangfeydd ansawdd",
+      "file": "chapters/05-01-cyfradd-diffygion-dianc-a-dihangfeydd-ansawdd.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-metrigau-mabwysiad-a-defnydd-nodwedd",
+      "title": "Metrigau mabwysiad a defnydd nodwedd",
+      "heading": "5.2 Metrigau mabwysiad a defnydd nodwedd",
+      "file": "chapters/05-02-metrigau-mabwysiad-a-defnydd-nodwedd.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-metrigau-canlyniad-cwsmer-a-busnes",
+      "title": "Metrigau canlyniad cwsmer a busnes",
+      "heading": "5.3 Metrigau canlyniad cwsmer a busnes",
+      "file": "chapters/05-03-metrigau-canlyniad-cwsmer-a-busnes.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-cost-ac-economeg-uned-peirianneg",
+      "title": "Cost ac economeg uned peirianneg",
+      "heading": "5.4 Cost ac economeg uned peirianneg",
+      "file": "chapters/05-04-cost-ac-economeg-uned-peirianneg.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-enillion-ar-fuddsoddiad-ar-gyfer-mentrau-peirianneg",
+      "title": "Enillion ar fuddsoddiad ar gyfer mentrau peirianneg",
+      "heading": "5.5 Enillion ar fuddsoddiad ar gyfer mentrau peirianneg",
+      "file": "chapters/05-05-enillion-ar-fuddsoddiad-ar-gyfer-mentrau-peirianneg.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-metrigau-dibynadwyedd-gweithrediadau-a-diogelwch",
+      "title": "Cyflwyniad i Ran 6: Metrigau Dibynadwyedd, Gweithrediadau, a Diogelwch",
+      "heading": "6.0 Cyflwyniad i Ran 6: Metrigau Dibynadwyedd, Gweithrediadau, a Diogelwch",
+      "file": "chapters/06-00-metrigau-dibynadwyedd-gweithrediadau-a-diogelwch.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-dangosyddion-amcanion-a-chyllidebau-gwall-lefel-gwasanaeth",
+      "title": "Dangosyddion, amcanion, a chyllidebau gwall lefel gwasanaeth",
+      "heading": "6.1 Dangosyddion, amcanion, a chyllidebau gwall lefel gwasanaeth",
+      "file": "chapters/06-01-dangosyddion-amcanion-a-chyllidebau-gwall-lefel-gwasanaeth.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-metrigau-digwyddiad",
+      "title": "Metrigau digwyddiad: canfod, ymateb, ac adfer",
+      "heading": "6.2 Metrigau digwyddiad: canfod, ymateb, ac adfer",
+      "file": "chapters/06-02-metrigau-digwyddiad.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol",
+      "title": "Metrigau ar-alwad, capasiti, a llwyth gweithredol",
+      "heading": "6.3 Metrigau ar-alwad, capasiti, a llwyth gweithredol",
+      "file": "chapters/06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-metrigau-rheoli-diogelwch-a-gwendidau",
+      "title": "Metrigau rheoli diogelwch a gwendidau",
+      "heading": "6.4 Metrigau rheoli diogelwch a gwendidau",
+      "file": "chapters/06-04-metrigau-rheoli-diogelwch-a-gwendidau.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-metrigau-yn-oes-ai",
+      "title": "Cyflwyniad i Ran 7: Metrigau yn Oes AI",
+      "heading": "7.0 Cyflwyniad i Ran 7: Metrigau yn Oes AI",
+      "file": "chapters/07-00-metrigau-yn-oes-ai.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-y-symudiad-paradeim-ai-cynhyrchiol",
+      "title": "Y symudiad paradeim AI cynhyrchiol",
+      "heading": "7.1 Y symudiad paradeim AI cynhyrchiol",
+      "file": "chapters/07-01-y-symudiad-paradeim-ai-cynhyrchiol.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-mesur-datblygiad-meddalwedd-a-chymorth-ai",
+      "title": "Mesur datblygiad meddalwedd â chymorth AI",
+      "heading": "7.2 Mesur datblygiad meddalwedd â chymorth AI",
+      "file": "chapters/07-02-mesur-datblygiad-meddalwedd-a-chymorth-ai.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-peryglon-chwyddiant-metrig-a-gwanhad-ansawdd",
+      "title": "Peryglon chwyddiant metrig a gwanhad ansawdd",
+      "heading": "7.3 Peryglon chwyddiant metrig a gwanhad ansawdd",
+      "file": "chapters/07-03-peryglon-chwyddiant-metrig-a-gwanhad-ansawdd.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-telemetreg-canlyniad-fel-y-seren-arweiniol-newydd",
+      "title": "Telemetreg canlyniad fel y seren arweiniol newydd",
+      "heading": "7.4 Telemetreg canlyniad fel y seren arweiniol newydd",
+      "file": "chapters/07-04-telemetreg-canlyniad-fel-y-seren-arweiniol-newydd.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-adeiladu-rhaglen-fetrigau",
+      "title": "Cyflwyniad i Ran 8: Adeiladu Rhaglen Fetrigau",
+      "heading": "8.0 Cyflwyniad i Ran 8: Adeiladu Rhaglen Fetrigau",
+      "file": "chapters/08-00-adeiladu-rhaglen-fetrigau.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-dylunio-dangosfwrdd-metrigau-peirianneg",
+      "title": "Dylunio dangosfwrdd metrigau peirianneg",
+      "heading": "8.1 Dylunio dangosfwrdd metrigau peirianneg",
+      "file": "chapters/08-01-dylunio-dangosfwrdd-metrigau-peirianneg.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-tirwedd-offer-adeiladu-yn-erbyn-prynu",
+      "title": "Tirwedd offer: adeiladu yn erbyn prynu",
+      "heading": "8.2 Tirwedd offer: adeiladu yn erbyn prynu",
+      "file": "chapters/08-02-tirwedd-offer-adeiladu-yn-erbyn-prynu.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-cyflwyno-metrigau-heb-feithrin-ofn",
+      "title": "Cyflwyno metrigau heb feithrin ofn",
+      "heading": "8.3 Cyflwyno metrigau heb feithrin ofn",
+      "file": "chapters/08-03-cyflwyno-metrigau-heb-feithrin-ofn.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-model-aeddfedrwydd-ar-gyfer-rhaglenni-metrigau-peirianneg",
+      "title": "Model aeddfedrwydd ar gyfer rhaglenni metrigau peirianneg",
+      "heading": "8.4 Model aeddfedrwydd ar gyfer rhaglenni metrigau peirianneg",
+      "file": "chapters/08-04-model-aeddfedrwydd-ar-gyfer-rhaglenni-metrigau-peirianneg.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-map-llwybr-mabwysiadu-cynyddrannol",
+      "title": "Map llwybr mabwysiadu cynyddrannol",
+      "heading": "8.5 Map llwybr mabwysiadu cynyddrannol",
+      "file": "chapters/08-05-map-llwybr-mabwysiadu-cynyddrannol.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-atodiadau",
+      "title": "Atodiadau",
+      "heading": "9.0 Atodiadau",
+      "file": "chapters/09-00-atodiadau.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-rhestr-termau",
+      "title": "Rhestr termau",
+      "heading": "9.1 Rhestr termau",
+      "file": "chapters/09-01-rhestr-termau.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-cyfeirlyfr-diffiniadau-a-fformwlau-metrigau",
+      "title": "Cyfeirlyfr diffiniadau a fformwlâu metrigau",
+      "heading": "9.2 Cyfeirlyfr diffiniadau a fformwlâu metrigau",
+      "file": "chapters/09-02-cyfeirlyfr-diffiniadau-a-fformwlau-metrigau.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-rhestrau-gwirio",
+      "title": "Rhestrau gwirio",
+      "heading": "9.3 Rhestrau gwirio",
+      "file": "chapters/09-03-rhestrau-gwirio.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-templedi",
+      "title": "Templedi",
+      "heading": "9.4 Templedi",
+      "file": "chapters/09-04-templedi.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-hunanasesiad-aeddfedrwydd",
+      "title": "Hunanasesiad aeddfedrwydd",
+      "heading": "9.5 Hunanasesiad aeddfedrwydd",
+      "file": "chapters/09-05-hunanasesiad-aeddfedrwydd.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-cyfeiriadau-a-darllen-pellach",
+      "title": "Cyfeiriadau a darllen pellach",
+      "heading": "9.6 Cyfeiriadau a darllen pellach",
+      "file": "chapters/09-06-cyfeiriadau-a-darllen-pellach.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-mynegai",
+      "title": "Mynegai",
+      "heading": "9.7 Mynegai",
+      "file": "chapters/09-07-mynegai.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-sylfeini-mesur",
+      "title": "Cyflwyniad i Ran 1: Sylfeini Mesur",
+      "heading": "1.0 Cyflwyniad i Ran 1: Sylfeini Mesur",
+      "file": "chapters/01-00-sylfeini-mesur.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-pam-mesur-peirianneg-meddalwedd",
+      "title": "Pam mesur peirianneg meddalwedd",
+      "heading": "1.1 Pam mesur peirianneg meddalwedd",
+      "file": "chapters/01-01-pam-mesur-peirianneg-meddalwedd.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-cyfraith-goodhart-a-seicoleg-metrigau",
+      "title": "Cyfraith Goodhart a seicoleg metrigau",
+      "heading": "1.2 Cyfraith Goodhart a seicoleg metrigau",
+      "file": "chapters/01-02-cyfraith-goodhart-a-seicoleg-metrigau.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-canlyniadau-dros-gynnyrch",
+      "title": "Canlyniadau dros gynnyrch: dewis beth i'w fesur",
+      "heading": "1.3 Canlyniadau dros gynnyrch: dewis beth i'w fesur",
+      "file": "chapters/01-03-canlyniadau-dros-gynnyrch.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-llywodraethiant-a-pherchnogaeth-metrigau",
+      "title": "Llywodraethiant a pherchnogaeth metrigau",
+      "heading": "1.4 Llywodraethiant a pherchnogaeth metrigau",
+      "file": "chapters/01-04-llywodraethiant-a-pherchnogaeth-metrigau.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-ffynonellau-data-a-chyfrifianeg",
+      "title": "Ffynonellau data a chyfrifianeg",
+      "heading": "1.5 Ffynonellau data a chyfrifianeg",
+      "file": "chapters/01-05-ffynonellau-data-a-chyfrifianeg.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-llythrennedd-ystadegol-ar-gyfer-metrigau-peirianneg",
+      "title": "Llythrennedd ystadegol ar gyfer metrigau peirianneg",
+      "heading": "1.6 Llythrennedd ystadegol ar gyfer metrigau peirianneg",
+      "file": "chapters/01-06-llythrennedd-ystadegol-ar-gyfer-metrigau-peirianneg.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-metrigau-llif",
+      "title": "Cyflwyniad i Ran 2: Metrigau Llif",
+      "heading": "2.0 Cyflwyniad i Ran 2: Metrigau Llif",
+      "file": "chapters/02-00-metrigau-llif.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-y-flow-framework",
+      "title": "Y Flow Framework",
+      "heading": "2.1 Y Flow Framework",
+      "file": "chapters/02-01-y-flow-framework.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-elfennau-llif",
+      "title": "Elfennau llif: nodweddion, diffygion, risgiau, a dyled",
+      "heading": "2.2 Elfennau llif: nodweddion, diffygion, risgiau, a dyled",
+      "file": "chapters/02-02-elfennau-llif.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-cyflymder-llif-a-dosbarthiad-llif",
+      "title": "Cyflymder llif a dosbarthiad llif",
+      "heading": "2.3 Cyflymder llif a dosbarthiad llif",
+      "file": "chapters/02-03-cyflymder-llif-a-dosbarthiad-llif.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-amser-llif-a-llwyth-llif",
+      "title": "Amser llif a llwyth llif",
+      "heading": "2.4 Amser llif a llwyth llif",
+      "file": "chapters/02-04-amser-llif-a-llwyth-llif.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-effeithlonrwydd-llif-a-gwaith-ar-y-gweill",
+      "title": "Effeithlonrwydd llif a gwaith ar y gweill",
+      "heading": "2.5 Effeithlonrwydd llif a gwaith ar y gweill",
+      "file": "chapters/02-05-effeithlonrwydd-llif-a-gwaith-ar-y-gweill.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-amser-cylch-ai-gydrannau",
+      "title": "Amser cylch a'i gydrannau",
+      "heading": "2.6 Amser cylch a'i gydrannau",
+      "file": "chapters/02-06-amser-cylch-ai-gydrannau.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-theori-ciwio",
+      "title": "Theori ciwio",
+      "heading": "2.7 Theori ciwio",
+      "file": "chapters/02-07-theori-ciwio.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-metrigau-ffrwd-werth-lean",
+      "title": "Metrigau ffrwd werth Lean",
+      "heading": "2.8 Metrigau ffrwd werth Lean",
+      "file": "chapters/02-08-metrigau-ffrwd-werth-lean.md"
+    },
+    "2.9": {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-metrigau-pull-request-ac-adolygu-cod",
+      "title": "Metrigau pull request ac adolygu cod",
+      "heading": "2.9 Metrigau pull request ac adolygu cod",
+      "file": "chapters/02-09-metrigau-pull-request-ac-adolygu-cod.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-fframwaith-metrigau-dora",
+      "title": "Fframwaith metrigau DORA",
+      "heading": "2.10 Fframwaith metrigau DORA",
+      "file": "chapters/02-10-fframwaith-metrigau-dora.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-profiad-datblygwyr-a-space",
+      "title": "Cyflwyniad i Ran 3: Profiad Datblygwyr a'r Fframwaith SPACE",
+      "heading": "3.0 Cyflwyniad i Ran 3: Profiad Datblygwyr a'r Fframwaith SPACE",
+      "file": "chapters/03-00-profiad-datblygwyr-a-space.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-fframwaith-space",
+      "title": "Y fframwaith SPACE",
+      "heading": "3.1 Y fframwaith SPACE",
+      "file": "chapters/03-01-fframwaith-space.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-metrigau-boddhad-a-lles",
+      "title": "Metrigau boddhad a lles",
+      "heading": "3.2 Metrigau boddhad a lles",
+      "file": "chapters/03-02-metrigau-boddhad-a-lles.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-metrigau-perfformiad-a-dirprwyon-canlyniad",
+      "title": "Metrigau perfformiad a dirprwyon canlyniad",
+      "heading": "3.3 Metrigau perfformiad a dirprwyon canlyniad",
+      "file": "chapters/03-03-metrigau-perfformiad-a-dirprwyon-canlyniad.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-metrigau-gweithgarwch-au-cyfyngiadau",
+      "title": "Metrigau gweithgarwch a'u cyfyngiadau",
+      "heading": "3.4 Metrigau gweithgarwch a'u cyfyngiadau",
+      "file": "chapters/03-04-metrigau-gweithgarwch-au-cyfyngiadau.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-metrigau-cyfathrebu-a-chydweithio",
+      "title": "Metrigau cyfathrebu a chydweithio",
+      "heading": "3.5 Metrigau cyfathrebu a chydweithio",
+      "file": "chapters/03-05-metrigau-cyfathrebu-a-chydweithio.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-effeithlonrwydd-a-llif",
+      "title": "Effeithlonrwydd a llif: gwaith dwfn ac ymyriadau",
+      "heading": "3.6 Effeithlonrwydd a llif: gwaith dwfn ac ymyriadau",
+      "file": "chapters/03-06-effeithlonrwydd-a-llif.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-arolygon-profiad-datblygwyr-a-metrigau-devex",
+      "title": "Arolygon profiad datblygwyr a metrigau DevEx",
+      "heading": "3.7 Arolygon profiad datblygwyr a metrigau DevEx",
+      "file": "chapters/03-07-arolygon-profiad-datblygwyr-a-metrigau-devex.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-metrigau-cod-ac-ansawdd",
+      "title": "Cyflwyniad i Ran 4: Metrigau Cod ac Ansawdd",
+      "heading": "4.0 Cyflwyniad i Ran 4: Metrigau Cod ac Ansawdd",
+      "file": "chapters/04-00-metrigau-cod-ac-ansawdd.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-metrigau-cymhlethdod-cod",
+      "title": "Metrigau cymhlethdod cod",
+      "heading": "4.1 Metrigau cymhlethdod cod",
+      "file": "chapters/04-01-metrigau-cymhlethdod-cod.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-gorchudd-profi-ac-effeithiolrwydd-profi",
+      "title": "Gorchudd profi ac effeithiolrwydd profi",
+      "heading": "4.2 Gorchudd profi ac effeithiolrwydd profi",
+      "file": "chapters/04-02-gorchudd-profi-ac-effeithiolrwydd-profi.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-trosiant-cod-a-dadansoddiad-man-poeth",
+      "title": "Trosiant cod a dadansoddiad man-poeth",
+      "heading": "4.3 Trosiant cod a dadansoddiad man-poeth",
+      "file": "chapters/04-03-trosiant-cod-a-dadansoddiad-man-poeth.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-dadansoddiad-statig-a-metrigau-arogl-cod",
+      "title": "Dadansoddiad statig a metrigau arogl cod",
+      "heading": "4.4 Dadansoddiad statig a metrigau arogl cod",
+      "file": "chapters/04-04-dadansoddiad-statig-a-metrigau-arogl-cod.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-mesur-dyled-dechnegol",
+      "title": "Mesur dyled dechnegol",
+      "heading": "4.5 Mesur dyled dechnegol",
+      "file": "chapters/04-05-mesur-dyled-dechnegol.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-metrigau-dogfennaeth-a-gwybodaeth",
+      "title": "Metrigau dogfennaeth a gwybodaeth",
+      "heading": "4.6 Metrigau dogfennaeth a gwybodaeth",
+      "file": "chapters/04-06-metrigau-dogfennaeth-a-gwybodaeth.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-metrigau-cynnyrch-a-busnes",
+      "title": "Cyflwyniad i Ran 5: Metrigau Cynnyrch a Busnes",
+      "heading": "5.0 Cyflwyniad i Ran 5: Metrigau Cynnyrch a Busnes",
+      "file": "chapters/05-00-metrigau-cynnyrch-a-busnes.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-cyfradd-diffygion-dianc-a-dihangfeydd-ansawdd",
+      "title": "Cyfradd diffygion dianc a dihangfeydd ansawdd",
+      "heading": "5.1 Cyfradd diffygion dianc a dihangfeydd ansawdd",
+      "file": "chapters/05-01-cyfradd-diffygion-dianc-a-dihangfeydd-ansawdd.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-metrigau-mabwysiad-a-defnydd-nodwedd",
+      "title": "Metrigau mabwysiad a defnydd nodwedd",
+      "heading": "5.2 Metrigau mabwysiad a defnydd nodwedd",
+      "file": "chapters/05-02-metrigau-mabwysiad-a-defnydd-nodwedd.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-metrigau-canlyniad-cwsmer-a-busnes",
+      "title": "Metrigau canlyniad cwsmer a busnes",
+      "heading": "5.3 Metrigau canlyniad cwsmer a busnes",
+      "file": "chapters/05-03-metrigau-canlyniad-cwsmer-a-busnes.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-cost-ac-economeg-uned-peirianneg",
+      "title": "Cost ac economeg uned peirianneg",
+      "heading": "5.4 Cost ac economeg uned peirianneg",
+      "file": "chapters/05-04-cost-ac-economeg-uned-peirianneg.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-enillion-ar-fuddsoddiad-ar-gyfer-mentrau-peirianneg",
+      "title": "Enillion ar fuddsoddiad ar gyfer mentrau peirianneg",
+      "heading": "5.5 Enillion ar fuddsoddiad ar gyfer mentrau peirianneg",
+      "file": "chapters/05-05-enillion-ar-fuddsoddiad-ar-gyfer-mentrau-peirianneg.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-metrigau-dibynadwyedd-gweithrediadau-a-diogelwch",
+      "title": "Cyflwyniad i Ran 6: Metrigau Dibynadwyedd, Gweithrediadau, a Diogelwch",
+      "heading": "6.0 Cyflwyniad i Ran 6: Metrigau Dibynadwyedd, Gweithrediadau, a Diogelwch",
+      "file": "chapters/06-00-metrigau-dibynadwyedd-gweithrediadau-a-diogelwch.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-dangosyddion-amcanion-a-chyllidebau-gwall-lefel-gwasanaeth",
+      "title": "Dangosyddion, amcanion, a chyllidebau gwall lefel gwasanaeth",
+      "heading": "6.1 Dangosyddion, amcanion, a chyllidebau gwall lefel gwasanaeth",
+      "file": "chapters/06-01-dangosyddion-amcanion-a-chyllidebau-gwall-lefel-gwasanaeth.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-metrigau-digwyddiad",
+      "title": "Metrigau digwyddiad: canfod, ymateb, ac adfer",
+      "heading": "6.2 Metrigau digwyddiad: canfod, ymateb, ac adfer",
+      "file": "chapters/06-02-metrigau-digwyddiad.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol",
+      "title": "Metrigau ar-alwad, capasiti, a llwyth gweithredol",
+      "heading": "6.3 Metrigau ar-alwad, capasiti, a llwyth gweithredol",
+      "file": "chapters/06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-metrigau-rheoli-diogelwch-a-gwendidau",
+      "title": "Metrigau rheoli diogelwch a gwendidau",
+      "heading": "6.4 Metrigau rheoli diogelwch a gwendidau",
+      "file": "chapters/06-04-metrigau-rheoli-diogelwch-a-gwendidau.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-metrigau-yn-oes-ai",
+      "title": "Cyflwyniad i Ran 7: Metrigau yn Oes AI",
+      "heading": "7.0 Cyflwyniad i Ran 7: Metrigau yn Oes AI",
+      "file": "chapters/07-00-metrigau-yn-oes-ai.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-y-symudiad-paradeim-ai-cynhyrchiol",
+      "title": "Y symudiad paradeim AI cynhyrchiol",
+      "heading": "7.1 Y symudiad paradeim AI cynhyrchiol",
+      "file": "chapters/07-01-y-symudiad-paradeim-ai-cynhyrchiol.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-mesur-datblygiad-meddalwedd-a-chymorth-ai",
+      "title": "Mesur datblygiad meddalwedd â chymorth AI",
+      "heading": "7.2 Mesur datblygiad meddalwedd â chymorth AI",
+      "file": "chapters/07-02-mesur-datblygiad-meddalwedd-a-chymorth-ai.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-peryglon-chwyddiant-metrig-a-gwanhad-ansawdd",
+      "title": "Peryglon chwyddiant metrig a gwanhad ansawdd",
+      "heading": "7.3 Peryglon chwyddiant metrig a gwanhad ansawdd",
+      "file": "chapters/07-03-peryglon-chwyddiant-metrig-a-gwanhad-ansawdd.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-telemetreg-canlyniad-fel-y-seren-arweiniol-newydd",
+      "title": "Telemetreg canlyniad fel y seren arweiniol newydd",
+      "heading": "7.4 Telemetreg canlyniad fel y seren arweiniol newydd",
+      "file": "chapters/07-04-telemetreg-canlyniad-fel-y-seren-arweiniol-newydd.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-adeiladu-rhaglen-fetrigau",
+      "title": "Cyflwyniad i Ran 8: Adeiladu Rhaglen Fetrigau",
+      "heading": "8.0 Cyflwyniad i Ran 8: Adeiladu Rhaglen Fetrigau",
+      "file": "chapters/08-00-adeiladu-rhaglen-fetrigau.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-dylunio-dangosfwrdd-metrigau-peirianneg",
+      "title": "Dylunio dangosfwrdd metrigau peirianneg",
+      "heading": "8.1 Dylunio dangosfwrdd metrigau peirianneg",
+      "file": "chapters/08-01-dylunio-dangosfwrdd-metrigau-peirianneg.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-tirwedd-offer-adeiladu-yn-erbyn-prynu",
+      "title": "Tirwedd offer: adeiladu yn erbyn prynu",
+      "heading": "8.2 Tirwedd offer: adeiladu yn erbyn prynu",
+      "file": "chapters/08-02-tirwedd-offer-adeiladu-yn-erbyn-prynu.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-cyflwyno-metrigau-heb-feithrin-ofn",
+      "title": "Cyflwyno metrigau heb feithrin ofn",
+      "heading": "8.3 Cyflwyno metrigau heb feithrin ofn",
+      "file": "chapters/08-03-cyflwyno-metrigau-heb-feithrin-ofn.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-model-aeddfedrwydd-ar-gyfer-rhaglenni-metrigau-peirianneg",
+      "title": "Model aeddfedrwydd ar gyfer rhaglenni metrigau peirianneg",
+      "heading": "8.4 Model aeddfedrwydd ar gyfer rhaglenni metrigau peirianneg",
+      "file": "chapters/08-04-model-aeddfedrwydd-ar-gyfer-rhaglenni-metrigau-peirianneg.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-map-llwybr-mabwysiadu-cynyddrannol",
+      "title": "Map llwybr mabwysiadu cynyddrannol",
+      "heading": "8.5 Map llwybr mabwysiadu cynyddrannol",
+      "file": "chapters/08-05-map-llwybr-mabwysiadu-cynyddrannol.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-atodiadau",
+      "title": "Atodiadau",
+      "heading": "9.0 Atodiadau",
+      "file": "chapters/09-00-atodiadau.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-rhestr-termau",
+      "title": "Rhestr termau",
+      "heading": "9.1 Rhestr termau",
+      "file": "chapters/09-01-rhestr-termau.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-cyfeirlyfr-diffiniadau-a-fformwlau-metrigau",
+      "title": "Cyfeirlyfr diffiniadau a fformwlâu metrigau",
+      "heading": "9.2 Cyfeirlyfr diffiniadau a fformwlâu metrigau",
+      "file": "chapters/09-02-cyfeirlyfr-diffiniadau-a-fformwlau-metrigau.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-rhestrau-gwirio",
+      "title": "Rhestrau gwirio",
+      "heading": "9.3 Rhestrau gwirio",
+      "file": "chapters/09-03-rhestrau-gwirio.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-templedi",
+      "title": "Templedi",
+      "heading": "9.4 Templedi",
+      "file": "chapters/09-04-templedi.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-hunanasesiad-aeddfedrwydd",
+      "title": "Hunanasesiad aeddfedrwydd",
+      "heading": "9.5 Hunanasesiad aeddfedrwydd",
+      "file": "chapters/09-05-hunanasesiad-aeddfedrwydd.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-cyfeiriadau-a-darllen-pellach",
+      "title": "Cyfeiriadau a darllen pellach",
+      "heading": "9.6 Cyfeiriadau a darllen pellach",
+      "file": "chapters/09-06-cyfeiriadau-a-darllen-pellach.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-mynegai",
+      "title": "Mynegai",
+      "heading": "9.7 Mynegai",
+      "file": "chapters/09-07-mynegai.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [],
+  "examples": [],
+  "contributing": [],
+  "project": [],
+  "totals": {
+    "parts": 9,
+    "chapters": 63
+  }
+}

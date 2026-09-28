@@ -1,4 +1,4 @@
-import { LOCALE_CODES, DEFAULT_LOCALE } from '$lib/locales.js';
+import { LOCALE_CODES } from '$lib/locales.js';
 
 export const prerender = true;
 
@@ -6,5 +6,5 @@ export const prerender = true;
 // a specific slug), so unlike the other [locale] list pages it needs its
 // own entries() rather than relying on the prerender crawler.
 export function entries() {
-  return LOCALE_CODES.filter((l) => l !== DEFAULT_LOCALE).map((locale) => ({ locale }));
+  return LOCALE_CODES.map((locale) => ({ locale }));
 }

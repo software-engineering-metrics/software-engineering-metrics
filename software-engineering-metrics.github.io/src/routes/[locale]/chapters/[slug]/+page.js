@@ -1,12 +1,16 @@
 import { error } from '@sveltejs/kit';
 import { getManifest } from '$lib/manifests.js';
-import { DEFAULT_LOCALE, LOCALE_CODES } from '$lib/locales.js';
+import { LOCALE_CODES } from '$lib/locales.js';
 
 export const prerender = true;
 
+// Each locale has its own slugs (a genuinely translated locale renames its
+// chapter files to native-script/accented slugs, see spec/locales.md in the
+// sibling content repo), so entries() must read every locale's own
+// manifest, not borrow the default locale's chapter list.
 export function entries() {
-  return LOCALE_CODES.filter((l) => l !== DEFAULT_LOCALE).flatMap((locale) =>
-    getManifest(DEFAULT_LOCALE).chapters.map((c) => ({ locale, slug: c.slug }))
+  return LOCALE_CODES.flatMap((locale) =>
+    getManifest(locale).chapters.map((c) => ({ locale, slug: c.slug }))
   );
 }
 

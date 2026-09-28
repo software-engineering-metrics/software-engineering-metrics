@@ -21,8 +21,9 @@ tests enforce the mechanical parts.
 ## Setup
 
 You need Python 3 and [just](https://github.com/casey/just). This repository
-holds the book's content and specification; it is rendered into a website by
-the separate `software-engineering-metrics.github.io` repository.
+holds the book's content and specification, plus the SvelteKit site
+(`software-engineering-metrics.github.io/`) that renders it into the
+published website.
 
 ```sh
 just         # list tasks

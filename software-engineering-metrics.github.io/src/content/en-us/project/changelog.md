@@ -7,6 +7,18 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Completed full hand translations of all 63 chapters into three locales:
+  Welsh (`cy-001`), Chinese (`zh-cn`), and Hindi (`hi-001`), each with
+  matching `.locale-peer-id` sidecars and passing `just test`.
+- Added two more planned translated locales, Welsh - Great Britain
+  (`cy-gb`) and Chinese (`zh-001`), to
+  `spec/locales-for-global-sharing-with-svelte/locales.tsv` and
+  `spec/locales.md` (thirteen planned locales now, up from eleven), and
+  resolved `zh-cn`'s previously-undecided endonym to 中文. The site's
+  `LOCALE_LABELS` gained matching entries (`cy-gb`: "Cymraeg (Prydain
+  Fawr)", `zh-001`: "中文", `zh-cn`: "中文 (中国)"). Still infrastructure
+  only: none of these locales has a `locales/<code>/` directory or any
+  translated content yet.
 - Published the book in four locales under `locales/`: `en-gb-oxendict`
   (British English, Oxford spelling; the hand-authored source), `en-001`
   (international English), `en-gb` (mainstream British English), and `en-us`
@@ -19,6 +31,47 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
   readers applying the book's guidance to their own team) and
   `software-engineering-metrics-maintainer-skill` (for contributors adding
   or editing chapters), under `skills/` and mirrored into `.claude/skills/`.
+- Moved the published website's source into this repository as
+  `software-engineering-metrics.github.io/`, previously a separate repository.
+  It now reads `locales/` directly from the repository root rather than a
+  sibling checkout. The root `.github/workflows/deploy.yml` verifies the site
+  still builds on every push to `main`, then sends a `repository_dispatch` to
+  the `software-engineering-metrics.github.io` repository (kept as a thin
+  deploy shell, since GitHub Pages will only serve that naked domain from a
+  repository with exactly that name), which checks out this monorepo, builds
+  the site, and deploys it.
+- Added the infrastructure for translated (not merely spelling-derived)
+  locales, per the new `spec/locales-for-global-sharing-with-svelte/`
+  sub-spec: `tools/gen_locale_peer_ids.py` assigns every content file a
+  `.locale-peer-id` sidecar, identical across locales, that a future
+  translated locale (with its own native-script slugs) can use to resolve
+  "this page, in locale X" instead of matching on slug; `tests/validate.py`
+  checks every sidecar exists and matches. `spec/locales.md` documents ten
+  planned translated locales (Arabic, Bengali, Welsh, Spanish, French, Hindi,
+  Indonesian, Portuguese, Russian, Urdu, and Chinese - China); none has a
+  `locales/<code>/` directory yet, since none is translated yet. On the site,
+  `scripts/locales.mjs` gained `LOCALE_LABELS`/`localeLabel()` (a display
+  name for every planned locale, ready ahead of routing) and
+  `sortedLocaleEntries()` (the sort order a future locale list should use),
+  and `src/lib/i18n.js` extracted the UI chrome strings (nav, sidebar, pager,
+  picker, footer, skip-link) that every `.svelte` component previously
+  hardcoded in English, threaded through via `ui(locale)`, falling back to
+  English for any locale without its own translations.
+- Replaced the site's hand-built locale-only header control with
+  [Lily Design System](https://lilydesignsystem.com/)'s
+  `@lilydesignsystem/svelte-picker-bar`: a real theme picker (light/dark, via
+  new `static/assets/themes/{light,dark}.css`), the real locale picker
+  (wired to this site's URL-based routing rather than its default
+  lang/dir-only behavior), a text-size picker (Lily's seven-step scale), and
+  a share picker (email, Mastodon, copy link). Pinned
+  `@lilydesignsystem/svelte-{theme,locale,text-size,share}-picker` to
+  `^0.1.2` and `@lilydesignsystem/svelte-headless` to `^0.2.0` via
+  `pnpm-workspace.yaml` overrides, working around a real published bug in
+  `svelte-picker-bar` 0.1.0's own dependency ranges (see each picker's
+  `CHANGELOG.md`, "0.1.2", and this site's `AGENTS.md`).
+- Removed the home page's stat row (parts/chapters/"Free Always") and its
+  "How to read it" section, and replaced the "Browse the nine parts" card
+  grid with a plain bullet list.
 
 ### Changed
 

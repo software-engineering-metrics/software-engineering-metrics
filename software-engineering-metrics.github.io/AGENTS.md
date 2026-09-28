@@ -13,46 +13,79 @@ the book's content — see below.
 
 ## Locales
 
-The book is published in four locales (see `../spec/locales.md` at the
-repository root): `en-us` (American English) is served **unprefixed**
-(`/chapters/x/`); `en-gb-oxendict`, `en-gb`, and `en-001` are served under a
-locale-prefixed path (`/en-gb/chapters/x/`) via the `src/routes/[locale]/`
-route tree. `src/lib/locales.js` (re-exporting `scripts/locales.mjs`) is the
-single source of truth for the locale list and the prefixing rule.
+The book is published in eight locales (see `../spec/locales.md` at the
+repository root): four mechanically-derived English spelling variants
+(`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`) and four genuinely translated
+locales (`cy-001` Welsh, `es-001` Spanish, `hi-001` Hindi, `zh-cn` Chinese).
+Every locale, including `en-us`, is served under its own locale-prefixed path
+(`/en-us/chapters/x/`, `/en-gb/chapters/x/`, `/hi-001/chapters/x/`, ...) via
+the `src/routes/[locale]/` route tree; there are no unprefixed routes and the
+bare domain root (`/`) does not resolve. `src/lib/locales.js` (re-exporting
+`scripts/locales.mjs`) is the single source of truth for the locale list and
+the prefixing rule (`localePrefix()`, now an unconditional `/${locale}` for
+any locale, since no locale is special-cased unprefixed).
 
-Every `[locale]/...` route is a thin wrapper re-exporting (or re-rendering)
-the corresponding unprefixed route's `+page.svelte`, so there is one
-presentational component per page, not two. Shared chrome and content
-components (`+layout.svelte`, `Sidebar.svelte`, `ChapterPager.svelte`, the
+Every page lives once, directly under `src/routes/[locale]/`; there is no
+parallel unprefixed route tree to keep in sync (there was, historically, for
+`en-us` — see git history if you need the old wrapper-around-unprefixed
+pattern). Shared chrome and content components (`+layout.svelte`,
+`Sidebar.svelte`, `ChapterPager.svelte`, the
 chapter/front-matter/examples/contributing/project `+page.svelte` files) read
-the current locale from `page.params.locale` via `$app/state` and build
-locale-prefixed hrefs with `localePrefix()`. Follow this pattern for any new
-page rather than hardcoding an absolute path.
+the current locale from `page.params.locale` via `$app/state`, which is now
+always defined for any real page, and build locale-prefixed hrefs with
+`localePrefix()`. Follow this pattern for any new page rather than
+hardcoding an absolute path.
 
 The locale switcher in the header is `@lilydesignsystem/svelte-locale-picker`,
 wired up as part of `@lilydesignsystem/svelte-picker-bar` — see "PickerBar"
 below.
 
-## Translated locales (infrastructure, not yet used)
+## Translated locales
 
-`../spec/locales.md` and `../spec/locales-for-global-sharing-with-svelte/index.md`
-describe thirteen planned locales that are genuine translations (Arabic,
-Bengali, Welsh, Welsh - Great Britain, Spanish, French, Hindi, Indonesian,
-Portuguese, Russian, Urdu, Chinese, plus Chinese - China), as opposed to
-today's four, which are mechanically derived English spelling variants
-sharing one language and one set of slugs. None of the thirteen exist on
-disk yet (no `locales/<code>/` directory, no translated content), so none
-is in `SERVED_LOCALE_CODES`/`LOCALES` in `scripts/locales.mjs` and none is
+The four translated locales (`cy-001`, `es-001`, `hi-001`, `zh-cn`) are wired
+into `SERVED_LOCALE_CODES` in `scripts/locales.mjs` and routed like any other
+locale. Each currently ships only a `chapters/` section (`es-001` also has
+`examples/`); none has `front-matter/`, `contributing/`, or `project/` yet.
+The remaining nine locales that `../spec/locales.md` and
+`../spec/locales-for-global-sharing-with-svelte/index.md` describe (Arabic,
+Bengali, Welsh - Great Britain, French, Indonesian, Portuguese, Russian,
+Urdu, Chinese) are still planned: none exists on disk yet (no
+`locales/<code>/` directory), so none is in `SERVED_LOCALE_CODES` and none is
 routed.
-What already exists, ready for when one is:
+
+**How a locale missing a section degrades**, since `entries()` for every
+`[slug]` route now reads each locale's own manifest (not a shared default),
+a locale with no `front-matter/`, `examples/`, `contributing/`, or `project/`
+section simply contributes zero `[slug]` entries for that section, rather
+than 404ing on slugs borrowed from another locale:
+
+- The `front-matter`, `examples`, `contributing`, and `project` **list**
+  pages always render (their own `+page.svelte` reads
+  `manifest.<section>` directly), just with an empty `card-grid` for a
+  locale with nothing in that section.
+- `examples`, `contributing`, and `project` each have an `index.md` intro
+  above the card grid. Their `+page.js` uses `import.meta.glob()` over
+  every locale's `index.md` for that section and falls back to
+  `DEFAULT_LOCALE`'s copy if the current locale has none — see
+  `[locale]/examples/+page.js` for the pattern (never a plain
+  `import(`$content/${params.locale}/...`)`, which throws for a path Vite
+  never saw on disk).
+- The home page's "Start reading" button (`src/routes/[locale]/+page.svelte`)
+  falls back to the locale's first chapter if it has no
+  `what-are-software-engineering-metrics` front-matter page.
+- The contents page (`[locale]/contents/+page.svelte`) only links "the
+  introduction" if the locale's manifest actually has an `introduction`
+  front-matter entry.
+
+What else exists for when a translated locale gets its own UI chrome or home
+page copy:
 
 - `LOCALE_LABELS` and `localeLabel()` in `scripts/locales.mjs`: a display
-  name for every planned locale (its endonym), a strict superset of
+  name for every planned locale too (its endonym), a strict superset of
   `LOCALE_CODES`, so a label is ready before a locale is wired up.
 - `sortedLocaleEntries()` in `scripts/locales.mjs`: the grouped, deterministic
   sort order a future locale list should use (see its doc comment). Not
-  wired into anything yet; there is nothing to usefully re-sort while every
-  served locale is English (they all group together).
+  wired into anything yet.
 - `src/lib/i18n.js`: UI chrome strings (nav, sidebar, pager, picker bar,
   footer, skip-link), keyed by locale, `ui(locale)` falling back to the `en`
   table. Threaded through `+layout.svelte`, `Sidebar.svelte`,
@@ -60,22 +93,19 @@ What already exists, ready for when one is:
   locale can add its own top-level key incrementally. This does **not**
   cover page content (the home page's hero and body copy, chapter text):
   that is Markdown, translated by translating the Markdown, not by adding
-  keys here.
-- The header/footer wordmark reads `t.brand` from `ui(page.params.locale)`
-  directly in `+layout.svelte`, which already resolves correctly for any
-  route (`page.params.locale` is `undefined` on the unprefixed default-locale
-  routes, and `ui(undefined)` falls back to `en`). A sibling project's
-  equivalent bug (wordmark stuck on a locale-agnostic layout that never saw
-  which locale it was rendering) does not apply to this codebase's routing.
+  keys here. `cy-001`, `es-001`, `hi-001`, and `zh-cn` have no `OVERRIDES`
+  entry yet, so their nav/sidebar/footer chrome is still English.
 
 Deliberately **not** built yet: a per-locale home page. The home page's hero
-and body copy in `src/routes/+page.svelte` is still hardcoded English prose,
-identical across all four served locales (correct today, since they are the
-same language). `locales/<code>/index.md` (see the sub-spec) is the intended
-future source for that copy per locale, but the schema for turning that
-Markdown into the home page's hero/stats/cards layout does not exist yet;
-design it together with the first real translated locale rather than
-guessing the shape in the abstract.
+and body copy in `src/routes/[locale]/+page.svelte` is still hardcoded
+English prose, identical across every served locale (correct for the four
+English spelling variants; an accepted, temporary gap for `cy-001`, `es-001`,
+`hi-001`, and `zh-cn`, whose home page therefore reads in English even though
+their chapters are translated). `locales/<code>/index.md` (see the sub-spec)
+is the intended future source for that copy per locale, but the schema for
+turning that Markdown into the home page's hero/stats/cards layout does not
+exist yet; design it together rather than guessing the shape in the
+abstract.
 
 ## PickerBar (theme, locale, text size, share)
 
@@ -129,24 +159,41 @@ itself has bumped its own dependency ranges past this.
 
 - `src/content/<locale>/` is **generated** from `../locales/<locale>/` at the
   repository root by `scripts/sync-content.mjs` — never hand-edit files under
-  it. Edit `../locales/en-gb-oxendict/`, then run `pnpm run content` here.
+  it. Edit `../locales/en-gb-oxendict/` (or, for a translated locale, that
+  locale's own `../locales/<code>/`), then run `pnpm run content` here. A
+  section missing from a locale's source directory (see "Translated locales"
+  above) is skipped with a warning, not an error.
 - `src/lib/manifest.json` (the `en-us` manifest) and `src/lib/manifest/<locale>.json`
-  (the other three) are **generated** by `scripts/generate-manifest.mjs` from
-  `src/content/` — never hand-edit them. Read them through
+  (every other locale) are **generated** by `scripts/generate-manifest.mjs`
+  from `src/content/` — never hand-edit them. Read them through
   `getManifest(locale)` in `src/lib/manifests.js`, not by importing a
-  manifest file directly, so a component works under both the unprefixed and
-  `[locale]`-prefixed routes.
+  manifest file directly. Adding a locale to `SERVED_LOCALE_CODES` also
+  means adding its manifest import to `src/lib/manifests.js`'s `MANIFESTS`
+  map — `generate-manifest.mjs` writes the file, but nothing reads it until
+  that map lists it.
 - Chapter, front-matter, examples, contributing, and project pages are all
-  rendered by the same pattern: a `[slug]/+page.js` with `entries()` sourced
-  from the manifest, dynamically importing the matching `.md` file via the
-  `$content` alias (`$content/<locale>/<section>/<slug>.md`), and a
-  `+page.svelte` that renders `data.content` (the mdsvex-compiled component)
-  inside the page chrome. Follow this pattern for any new content section
-  rather than inventing a new one.
-- `scripts/remark-chapter-links.mjs` and `scripts/remark-resolve-content-links.mjs`
-  detect a source file's locale from its path under `src/content/<locale>/`
-  and prefix the links they generate accordingly; keep that in mind if you
-  move where content lives.
+  rendered by the same pattern: a `[slug]/+page.js` with `entries()` built by
+  flat-mapping `LOCALE_CODES` and reading *that locale's own* manifest (never
+  another locale's, even the default's — a translated locale's slugs are its
+  own, and a locale with no content for that section should contribute zero
+  entries, not 404 on borrowed ones), dynamically importing the matching
+  `.md` file via the `$content` alias (`$content/<locale>/<section>/<slug>.md`,
+  safe here specifically because `entries()` only ever names a slug that
+  locale's own manifest actually has), and a `+page.svelte` that renders
+  `data.content` (the mdsvex-compiled component) inside the page chrome.
+  Follow this pattern for any new content section rather than inventing a
+  new one.
+- `scripts/remark-chapter-links.mjs` detects a source file's locale from its
+  path under `src/content/<locale>/` and prefixes the links it generates
+  with that same locale (a "see chapter N.M" mention always targets a
+  chapter in its own locale). `scripts/remark-resolve-content-links.mjs`
+  instead prefixes each resolved link with *the link target's own* locale,
+  read from the resolved path itself, not the source file's locale — most
+  links stay within their own locale, but a translated locale missing a
+  section (e.g. `es-001` linking into `en-gb-oxendict/contributing/` because
+  it has no `contributing/` of its own yet) can deliberately cross-reference
+  another locale, and that link must route to where the content actually
+  lives. Keep this distinction in mind if you move where content lives.
 - A page whose only dynamic segment is the inherited `[locale]` (a list page
   with no `[slug]` of its own) is prerendered either by the crawler following
   a real `<a href>` link to it, or, if nothing links to it directly (as with

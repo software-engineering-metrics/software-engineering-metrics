@@ -1,6 +1,18 @@
 <script>
-  import Page from '../../../contributing/[slug]/+page.svelte';
-  let props = $props();
+  import { page } from '$app/state';
+  import Breadcrumb from '$lib/Breadcrumb.svelte';
+  import { localePrefix } from '$lib/locales.js';
+
+  let { data } = $props();
+  let prefix = $derived(localePrefix(page.params.locale));
 </script>
 
-<Page {...props} />
+<svelte:head>
+  <title>{data.entry.title} — Software Engineering Metrics</title>
+</svelte:head>
+
+<Breadcrumb
+  items={[{ label: 'Home', href: `${prefix}/` }, { label: 'Contributing', href: `${prefix}/contributing/` }, { label: data.entry.title }]}
+/>
+
+<data.content />

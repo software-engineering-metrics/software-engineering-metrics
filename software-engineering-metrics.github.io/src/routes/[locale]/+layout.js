@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { LOCALE_CODES, DEFAULT_LOCALE } from '$lib/locales.js';
+import { LOCALE_CODES } from '$lib/locales.js';
 
 export const prerender = true;
 
@@ -10,7 +10,7 @@ export const prerender = true;
 // for [slug] leaves, by its own entries() (see spec/locales.md in the
 // sibling content repo).
 export function load({ params }) {
-  if (!LOCALE_CODES.includes(params.locale) || params.locale === DEFAULT_LOCALE) {
+  if (!LOCALE_CODES.includes(params.locale)) {
     error(404, 'Locale not found');
   }
   return { locale: params.locale };

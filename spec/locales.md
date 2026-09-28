@@ -78,6 +78,19 @@ locales, and the peer id is what resolves "this page, in locale X" instead.
 matching peer id in every locale; run `tools/gen_locale_peer_ids.py` after
 adding a chapter, before `just test`.
 
+## Translated locales
+
+Four genuinely translated locales (a different language, hand-translated,
+with their own slugs) are complete: Welsh (`cy-001`), Spanish (`es-001`),
+Hindi (`hi-001`), and Chinese, China (`zh-cn`), each with all 63 chapters and
+a `locales/<code>/chapters/` directory on disk. None has a `front-matter/`,
+`examples/`, `contributing/`, or `project/` section yet (`es-001` is the
+exception: it has `examples/`); the site degrades gracefully for a missing
+section (an empty list, or a fallback to the default locale's intro copy),
+per `software-engineering-metrics.github.io/AGENTS.md`. All four are wired
+into the site's `SERVED_LOCALE_CODES` and served at their own locale-prefixed
+path.
+
 ## Planned translated locales
 
 Not yet translated; each is a placeholder in the sense that no
@@ -88,10 +101,9 @@ and stops being "planned" only once someone begins translating it, per
 that mechanism exists to avoid repeating). The full list, with each
 language's own endonym and its English exonym, is
 [locales-for-global-sharing-with-svelte/locales.tsv](locales-for-global-sharing-with-svelte/locales.tsv):
-Arabic (`ar-001`), Bengali (`bn-001`), Welsh (`cy-001`), Welsh, Great Britain
-(`cy-gb`), Spanish (`es-001`), French (`fr-001`), Hindi (`hi-001`),
-Indonesian (`id-001`), Portuguese (`pt-001`), Russian (`ru-001`), Urdu
-(`ur-001`), Chinese (`zh-001`), and Chinese, China (`zh-cn`).
+Arabic (`ar-001`), Bengali (`bn-001`), Welsh, Great Britain (`cy-gb`), French
+(`fr-001`), Indonesian (`id-001`), Portuguese (`pt-001`), Russian (`ru-001`),
+Urdu (`ur-001`), and Chinese (`zh-001`).
 
 ## Adding a locale
 

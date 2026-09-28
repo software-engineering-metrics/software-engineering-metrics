@@ -7,6 +7,9 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Completed full hand translations of all 63 chapters into three locales:
+  Welsh (`cy-001`), Chinese (`zh-cn`), and Hindi (`hi-001`), each with
+  matching `.locale-peer-id` sidecars and passing `just test`.
 - Added two more planned translated locales, Welsh - Great Britain
   (`cy-gb`) and Chinese (`zh-001`), to
   `spec/locales-for-global-sharing-with-svelte/locales.tsv` and

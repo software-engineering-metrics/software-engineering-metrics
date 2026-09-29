@@ -93,6 +93,10 @@ the default locale's intro copy), per
 `SERVED_LOCALE_CODES` and served at their own locale-prefixed path; `de-de`
 is not yet wired into the site.
 
+Arabic, Egypt (`ar-eg`) is in progress: chapters are being translated
+serially into `locales/ar-eg/chapters/`. Not yet complete, and not yet wired
+into the site.
+
 ## Planned translated locales
 
 Not yet translated; each is a placeholder in the sense that no

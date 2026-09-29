@@ -7,6 +7,9 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Completed a full hand translation of all 63 chapters into German, Germany
+  (`de-de`), with matching `.locale-peer-id` sidecars and passing
+  `just test`. Not yet wired into the site.
 - Completed full hand translations of all 63 chapters into three locales:
   Welsh (`cy-001`), Chinese (`zh-cn`), and Hindi (`hi-001`), each with
   matching `.locale-peer-id` sidecars and passing `just test`.

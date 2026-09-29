@@ -113,13 +113,23 @@ The header's four icon buttons are `@lilydesignsystem/svelte-picker-bar`
 (wired up in `+layout.svelte`), which composes four Lily helpers:
 
 - **Theme**: `themesUrl="/assets/themes/"`, `themes={['light', 'dark']}`.
-  The two theme files are `static/assets/themes/{light,dark}.css`, scoped to
-  `:root[data-theme="…"]` — **not** Lily's own 45-theme catalog (that catalog
-  targets Lily's actual 492-component class system; this site's CSS is
-  hand-authored and only consumes the same `--lily-*` custom properties this
-  site already defined, now split into those two files instead of a single
-  `:root` block in `style.css`). Persisted to `localStorage['lily-theme']`,
-  with `detectFromSystem` for a first-visit OS-preference match. See
+  The two theme files, `static/assets/themes/{light,dark}.css`, are synced
+  verbatim from the pinned `@lilydesignsystem/themes@0.1.0` package by
+  `pnpm run themes` (`scripts/sync-themes.mjs`) — never hand-edited. Each is
+  Lily's real theme: its raw `--color-*` palette, Lily's own derived
+  `--lily-*` bridge tokens (`--lily-surface`, `--lily-text`,
+  `--lily-border`, `--lily-shadow-sm/lg`, `--lily-radius-md/lg`,
+  `--lily-font-body`, `--lily-font-mono`, ...), and the full 492-component
+  Lily class-hook stylesheet, all scoped to `:root[data-theme="…"]`.
+  `static/assets/style.css` reads those tokens via `var(...)`; it computes a
+  few more Lily doesn't define by name (`--lily-primary-hover`,
+  `--lily-text-subtle`, `--lily-tint`) from the same `--color-*` primitives,
+  so they still switch per theme. Since every Lily component rule is
+  zero-specificity (`:where(...)`/`@layer`), this site's own rules for any
+  hook it also targets (`.card`, `.hero`, ...) still win the cascade
+  unmodified — see `static/assets/style.css`'s own header comment for the
+  full account. Persisted to `localStorage['lily-theme']`, with
+  `detectFromSystem` for a first-visit OS-preference match. See
   `src/app.html` for the before-first-paint bootstrap script that reads the
   stored theme (and text size) so a returning visitor never sees a flash of
   the wrong one.

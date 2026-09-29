@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "manifest": "node scripts/generate-manifest.mjs",
-    "content": "node scripts/sync-content.mjs && node scripts/generate-manifest.mjs"
+    "content": "node scripts/sync-content.mjs && node scripts/generate-manifest.mjs",
+    "themes": "node scripts/sync-themes.mjs"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.10",
@@ -32,6 +33,7 @@
     ]
   },
   "dependencies": {
-    "@lilydesignsystem/svelte-picker-bar": "^0.1.0"
+    "@lilydesignsystem/svelte-picker-bar": "^0.1.0",
+    "@lilydesignsystem/themes": "0.1.0"
   }
 }

@@ -81,15 +81,18 @@ they never need to be committed stale — though they are committed, since
   `+layout.svelte` (see `AGENTS.md`).
 - `src/lib/i18n.js` : UI chrome strings (nav, sidebar, pager, picker bar,
   footer), looked up per locale via `ui(locale)`.
-- `static/assets/themes/{light,dark}.css` : this site's colour tokens
-  (`--lily-primary`, `--lily-page-bg`, …), loaded dynamically by
-  `ThemePicker`. `static/assets/style.css` reads these tokens; it does not
+- `static/assets/themes/{light,dark}.css` : Lily's real light and dark
+  themes, synced verbatim from the pinned `@lilydesignsystem/themes@0.1.0`
+  package by `pnpm run themes` (`scripts/sync-themes.mjs`) — never
+  hand-edited. Loaded dynamically by `ThemePicker`. `static/assets/style.css`
+  reads their tokens (`--color-primary`, `--lily-surface`, …); it does not
   define them.
 - `scripts/remark-chapter-links.mjs` : auto-links plain-text chapter
   cross-references ("see chapter 2.1") to their locale-prefixed route.
-- `static/assets/style.css` : the whole design — Lily is headless and ships
-  no CSS, so this hand-authored stylesheet (using Lily's semantic class
-  hooks: `.button`, `.card`, `.prose`, `.locale-picker`, …) is the site's look.
+- `static/assets/style.css` : this site's own hand-authored rules (using
+  Lily's semantic class hooks: `.button`, `.card`, `.prose`,
+  `.locale-picker`, …), layered over the full Lily theme stylesheet each
+  theme file already includes.
 
 ## Deployment
 

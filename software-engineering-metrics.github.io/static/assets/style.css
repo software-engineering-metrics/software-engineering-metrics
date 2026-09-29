@@ -2,26 +2,44 @@
  *
  * Built on the Lily Design System class-hook conventions
  * (see https://lilydesignsystem.com/) plus book-specific additions for
- * the sidebar, breadcrumbs, and chapter pager. Pages are served static
- * from GitHub Pages; no CSS is shipped by Lily itself, so this file is
- * the design.
+ * the sidebar, breadcrumbs, and chapter pager.
  *
- * The colour tokens (--lily-primary, --lily-page-bg, --lily-text, and the
- * rest of the palette) live in assets/themes/{light,dark}.css instead of
- * here, scoped to :root[data-theme="…"], so @lilydesignsystem/svelte-theme-picker
- * (wired up in src/routes/+layout.svelte) can switch between them at
- * runtime. Every rule below reads those tokens via var(...); it never sets
- * them, so it works under either theme unmodified.
+ * assets/themes/{light,dark}.css are the two real theme stylesheets from
+ * the pinned @lilydesignsystem/themes package (synced verbatim by
+ * `pnpm run themes`; never hand-edited — see scripts/sync-themes.mjs),
+ * loaded by @lilydesignsystem/svelte-theme-picker (wired up in
+ * src/routes/[locale]/+layout.svelte). Each theme file, scoped to
+ * :root[data-theme="…"], defines Lily's raw palette (`--color-primary`,
+ * `--color-base-100`, ...) plus Lily's own derived bridge tokens
+ * (`--lily-surface`, `--lily-text`, `--lily-border`, `--lily-shadow-sm/lg`,
+ * `--lily-radius-md/lg`, `--lily-font-body`, `--lily-font-mono`, ...) and
+ * the full 492-component Lily class-hook stylesheet (zero-specificity
+ * `:where(...)`/`@layer`, so every rule below still wins the cascade for
+ * any hook this site also targets, e.g. `.card`, `.hero`).
+ *
+ * A handful of tokens Lily's palette doesn't define by name (a hover shade
+ * for the primary colour, a third "subtle" text tier, a light background
+ * tint of the primary colour) are computed here, from the same per-theme
+ * `--color-*` primitives, so they still switch automatically with the
+ * active theme. Every other rule below reads a token via var(...); it
+ * never sets one Lily already provides, so it works under either theme
+ * unmodified.
  */
 
 :root {
-  --lily-radius: 0.5rem;
-  --lily-radius-lg: 0.75rem;
+  --lily-primary-hover: color-mix(in oklch, var(--color-primary) 85%, black);
+  --lily-text-subtle: color-mix(in oklch, var(--color-base-content) 50%, transparent);
+  /* Mixing toward --color-base-100 (not black/transparent, unlike the two
+     tokens above) needs oklab, not oklch: Lily's light theme writes it as
+     oklch(100% 0 0) — chroma 0, but an explicit numeric hue of 0 rather
+     than the CSS "none" keyword, so oklch's circular hue interpolation
+     pulls the mix toward hue 0 (pink) instead of carrying the chromatic
+     colour's own hue through, as a truly achromatic value would. oklab's
+     Cartesian a/b axes have no hue channel to misinterpret. */
+  --lily-tint: color-mix(in oklab, var(--color-primary) 12%, var(--color-base-100));
   --lily-content-max: 78rem;
   --lily-prose-max: 42rem;
   --lily-sidebar-width: 18rem;
-  --lily-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --lily-font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }
 
 /* @lilydesignsystem/svelte-text-size-picker's seven-step scale
@@ -41,23 +59,23 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  font-family: var(--lily-font-sans);
+  font-family: var(--lily-font-body);
   font-size: 1rem;
   line-height: 1.6;
   color: var(--lily-text);
-  background: var(--lily-page-bg);
+  background: var(--lily-surface);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  color: var(--lily-primary);
+  color: var(--color-primary);
   text-decoration: underline;
   text-underline-offset: 0.15em;
 }
 a:hover { color: var(--lily-primary-hover); }
 a:focus-visible {
-  outline: 3px solid var(--lily-primary);
+  outline: 3px solid var(--color-primary);
   outline-offset: 2px;
   border-radius: 2px;
 }
@@ -79,16 +97,18 @@ code, pre {
   font-size: 0.9em;
 }
 code {
-  background: #f0fdfa;
-  color: #134e4a;
+  /* --color-neutral is Lily's own token for exactly this: "footer bars,
+     code blocks, tooltips" (see its doc comment in the theme file). */
+  background: color-mix(in oklab, var(--color-neutral) 12%, var(--color-base-100));
+  color: var(--color-neutral);
   padding: 0.1em 0.35em;
   border-radius: 4px;
 }
 pre {
-  background: #0f172a;
-  color: #e2e8f0;
+  background: var(--color-neutral);
+  color: var(--color-neutral-content);
   padding: 1rem;
-  border-radius: var(--lily-radius);
+  border-radius: var(--lily-radius-md);
   overflow-x: auto;
   line-height: 1.5;
 }
@@ -121,7 +141,7 @@ th { font-weight: 700; color: var(--lily-text); }
 kbd {
   font-family: var(--lily-font-mono);
   font-size: 0.85em;
-  background: var(--lily-card-bg);
+  background: var(--lily-surface-alt);
   border: 1px solid var(--lily-border-strong);
   border-bottom-width: 2px;
   border-radius: 4px;
@@ -131,12 +151,12 @@ kbd {
 /* Header & navigation */
 
 .site-header {
-  background: var(--lily-card-bg);
+  background: var(--lily-surface-alt);
   border-bottom: 1px solid var(--lily-border);
   position: sticky;
   top: 0;
   z-index: 50;
-  box-shadow: var(--lily-shadow);
+  box-shadow: var(--lily-shadow-sm);
 }
 
 .site-header-inner {
@@ -159,7 +179,7 @@ kbd {
   color: var(--lily-text);
   text-decoration: none;
 }
-.site-brand:hover { color: var(--lily-primary); }
+.site-brand:hover { color: var(--color-primary); }
 .site-brand-mark { width: 1.75rem; height: 1.75rem; display: inline-block; vertical-align: middle; }
 
 .site-nav {
@@ -171,13 +191,13 @@ kbd {
   color: var(--lily-text-muted);
   text-decoration: none;
   padding: 0.5rem 0.75rem;
-  border-radius: var(--lily-radius);
+  border-radius: var(--lily-radius-md);
   font-size: 0.95rem;
   transition: background 150ms;
 }
 .site-nav a:hover { background: var(--lily-border); color: var(--lily-text); }
 .site-nav a[aria-current="page"] {
-  color: var(--lily-primary);
+  color: var(--color-primary);
   font-weight: 600;
   background: var(--lily-tint);
 }
@@ -206,22 +226,22 @@ kbd {
   inline-size: 2.25rem;
   block-size: 2.25rem;
   color: var(--lily-text-muted);
-  background: var(--lily-card-bg);
+  background: var(--lily-surface-alt);
   border: 1px solid var(--lily-border-strong);
-  border-radius: var(--lily-radius);
+  border-radius: var(--lily-radius-md);
   cursor: pointer;
 }
 .theme-picker-button:hover, .locale-picker-button:hover, .text-size-picker-button:hover, .share-picker-button:hover {
   color: var(--lily-text);
-  border-color: var(--lily-primary);
+  border-color: var(--color-primary);
 }
 .theme-picker-button:focus-visible, .locale-picker-button:focus-visible, .text-size-picker-button:focus-visible, .share-picker-button:focus-visible {
-  outline: 3px solid var(--lily-primary);
+  outline: 3px solid var(--color-primary);
   outline-offset: 1px;
 }
 .theme-picker-button[aria-expanded="true"], .locale-picker-button[aria-expanded="true"], .text-size-picker-button[aria-expanded="true"], .share-picker-button[aria-expanded="true"] {
-  color: var(--lily-primary);
-  border-color: var(--lily-primary);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 .theme-picker-icon, .locale-picker-icon, .text-size-picker-icon, .share-picker-icon {
   font-size: 1.1rem;
@@ -239,9 +259,9 @@ kbd {
   min-inline-size: 10rem;
   max-block-size: 20rem;
   overflow-y: auto;
-  background: var(--lily-card-bg);
+  background: var(--lily-surface-alt);
   border: 1px solid var(--lily-border);
-  border-radius: var(--lily-radius);
+  border-radius: var(--lily-radius-md);
   box-shadow: var(--lily-shadow-lg);
 }
 .theme-picker-list[hidden], .locale-picker-list[hidden], .text-size-picker-list[hidden], .share-picker-list[hidden] {
@@ -249,7 +269,7 @@ kbd {
 }
 .theme-picker-option, .locale-picker-option, .text-size-picker-option, .share-picker-list-item {
   padding: 0.4rem 0.6rem;
-  border-radius: var(--lily-radius);
+  border-radius: var(--lily-radius-md);
   cursor: pointer;
   text-align: start;
   white-space: nowrap;
@@ -258,13 +278,13 @@ kbd {
   background: var(--lily-border);
 }
 .theme-picker-option[aria-selected="true"], .locale-picker-option[aria-selected="true"], .text-size-picker-option[aria-selected="true"] {
-  color: var(--lily-primary);
+  color: var(--color-primary);
   font-weight: 600;
 }
 .share-picker-target, .share-picker-copy {
   display: block;
   padding: 0.4rem 0.6rem;
-  border-radius: var(--lily-radius);
+  border-radius: var(--lily-radius-md);
   color: inherit;
   text-decoration: none;
   background: none;
@@ -314,7 +334,7 @@ kbd {
 .prose { max-width: var(--lily-prose-max); }
 .prose ul, .prose ol { padding-left: 1.5rem; }
 .prose li { margin-bottom: 0.25rem; }
-.prose img { max-width: 100%; height: auto; border-radius: var(--lily-radius); }
+.prose img { max-width: 100%; height: auto; border-radius: var(--lily-radius-md); }
 
 /* Hero */
 
@@ -330,7 +350,7 @@ kbd {
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--lily-primary);
+  color: var(--color-primary);
   background: var(--lily-tint);
   padding: 0.25rem 0.75rem;
   border-radius: 9999px;
@@ -339,7 +359,7 @@ kbd {
 .hero h1 {
   font-size: clamp(2.25rem, 5vw, 3.5rem);
   margin: 0.5rem 0 1rem;
-  background: linear-gradient(135deg, var(--lily-primary), var(--lily-accent));
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -359,26 +379,26 @@ kbd {
   font-weight: 600;
   text-decoration: none;
   padding: 0.75rem 1.5rem;
-  border-radius: var(--lily-radius);
+  border-radius: var(--lily-radius-md);
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 150ms;
   line-height: 1.2;
 }
 .button-primary {
-  background: var(--lily-primary);
-  color: #fff;
-  border-color: var(--lily-primary);
+  background: var(--color-primary);
+  color: var(--color-primary-content);
+  border-color: var(--color-primary);
 }
 .button-primary:hover {
   background: var(--lily-primary-hover);
   border-color: var(--lily-primary-hover);
-  color: #fff;
+  color: var(--color-primary-content);
 }
 .button-secondary {
-  background: var(--lily-card-bg);
-  color: var(--lily-primary);
-  border-color: var(--lily-primary);
+  background: var(--lily-surface-alt);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 .button-secondary:hover {
   background: var(--lily-tint);
@@ -402,11 +422,11 @@ kbd {
 }
 
 .card {
-  background: var(--lily-card-bg);
+  background: var(--lily-surface-alt);
   border: 1px solid var(--lily-border);
   border-radius: var(--lily-radius-lg);
   padding: 1.5rem;
-  box-shadow: var(--lily-shadow);
+  box-shadow: var(--lily-shadow-sm);
   transition: transform 150ms, box-shadow 150ms;
 }
 .card:hover {
@@ -451,11 +471,11 @@ a.card:hover { color: inherit; }
   color: inherit;
   text-decoration: none;
 }
-.part-list a:hover { color: var(--lily-primary); }
+.part-list a:hover { color: var(--color-primary); }
 .part-list .part-number {
   flex: none;
   font-weight: 700;
-  color: var(--lily-primary);
+  color: var(--color-primary);
 }
 .part-list .part-title {
   flex: 1;
@@ -480,7 +500,7 @@ a.card:hover { color: inherit; }
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--lily-primary);
+  color: var(--color-primary);
   margin: 0 0 0.5rem;
 }
 .section-heading h2 {
@@ -490,7 +510,7 @@ a.card:hover { color: inherit; }
 /* Footer */
 
 .site-footer {
-  background: var(--lily-card-bg);
+  background: var(--lily-surface-alt);
   border-top: 1px solid var(--lily-border);
   margin-top: 4rem;
   padding: 2rem 1.5rem;
@@ -523,7 +543,7 @@ a.card:hover { color: inherit; }
   display: inline-block;
   font-size: 0.8125rem;
   background: var(--lily-tint);
-  color: var(--lily-primary);
+  color: var(--color-primary);
   padding: 0.25rem 0.75rem;
   border-radius: 9999px;
   font-weight: 600;
@@ -532,20 +552,20 @@ a.card:hover { color: inherit; }
 /* Detail/summary FAQ */
 
 details.faq-item {
-  background: var(--lily-card-bg);
+  background: var(--lily-surface-alt);
   border: 1px solid var(--lily-border);
-  border-radius: var(--lily-radius);
+  border-radius: var(--lily-radius-md);
   padding: 1rem 1.25rem;
   margin-bottom: 0.75rem;
 }
-details.faq-item[open] { border-color: var(--lily-primary); }
+details.faq-item[open] { border-color: var(--color-primary); }
 details.faq-item summary { cursor: pointer; font-weight: 600; list-style: none; }
 details.faq-item summary::-webkit-details-marker { display: none; }
 details.faq-item summary::after {
   content: "+";
   float: right;
   font-size: 1.25rem;
-  color: var(--lily-primary);
+  color: var(--color-primary);
   font-weight: 400;
 }
 details.faq-item[open] summary::after { content: "−"; }
@@ -557,27 +577,27 @@ details.faq-item p { margin-top: 0.75rem; }
   position: absolute;
   top: -100px;
   left: 1rem;
-  background: var(--lily-primary);
-  color: #fff;
+  background: var(--color-primary);
+  color: var(--color-primary-content);
   padding: 0.5rem 1rem;
   border-radius: 4px;
   text-decoration: none;
   z-index: 100;
   transition: top 150ms;
 }
-.skip-link:focus { top: 1rem; color: #fff; }
+.skip-link:focus { top: 1rem; color: var(--color-primary-content); }
 
 /* Banner */
 
 .callout {
   background: var(--lily-tint);
-  border-left: 4px solid var(--lily-primary);
+  border-left: 4px solid var(--color-primary);
   padding: 1rem 1.25rem;
-  border-radius: 0 var(--lily-radius) var(--lily-radius) 0;
+  border-radius: 0 var(--lily-radius-md) var(--lily-radius-md) 0;
   margin: 1.5rem 0;
 }
-.callout-warning { background: #fff7ed; border-left-color: var(--lily-warning); }
-.callout-success { background: #f0fdf4; border-left-color: var(--lily-success); }
+.callout-warning { background: color-mix(in oklab, var(--color-warning) 12%, var(--color-base-100)); border-left-color: var(--color-warning); }
+.callout-success { background: color-mix(in oklab, var(--color-success) 12%, var(--color-base-100)); border-left-color: var(--color-success); }
 
 /* ---------------------------------------------------------------------- */
 /* Book-specific: sidebar navigation                                      */
@@ -598,11 +618,11 @@ details.faq-item p { margin-top: 0.75rem; }
   font-size: 0.9rem;
   padding: 0.5rem 0.75rem;
   border: 2px solid var(--lily-border-strong);
-  border-radius: var(--lily-radius);
+  border-radius: var(--lily-radius-md);
   margin-bottom: 1rem;
-  background: var(--lily-card-bg);
+  background: var(--lily-surface-alt);
 }
-.sidebar-search:focus { outline: none; border-color: var(--lily-primary); }
+.sidebar-search:focus { outline: none; border-color: var(--color-primary); }
 
 .sidebar-part {
   border: none;
@@ -613,7 +633,7 @@ details.faq-item p { margin-top: 0.75rem; }
   list-style: none;
   font-weight: 700;
   padding: 0.4rem 0.5rem;
-  border-radius: var(--lily-radius);
+  border-radius: var(--lily-radius-md);
   color: var(--lily-text);
 }
 .sidebar-part summary::-webkit-details-marker { display: none; }
@@ -621,7 +641,7 @@ details.faq-item p { margin-top: 0.75rem; }
 .sidebar-part summary .part-number {
   display: inline-block;
   min-width: 1.5rem;
-  color: var(--lily-primary);
+  color: var(--color-primary);
 }
 
 .sidebar-chapter-list {
@@ -634,7 +654,7 @@ details.faq-item p { margin-top: 0.75rem; }
 .sidebar-chapter-list a {
   display: block;
   padding: 0.3rem 0.6rem;
-  border-radius: var(--lily-radius);
+  border-radius: var(--lily-radius-md);
   color: var(--lily-text-muted);
   text-decoration: none;
   line-height: 1.35;
@@ -642,11 +662,11 @@ details.faq-item p { margin-top: 0.75rem; }
 .sidebar-chapter-list a:hover { background: var(--lily-border); color: var(--lily-text); }
 .sidebar-chapter-list a[aria-current="page"] {
   background: var(--lily-tint);
-  color: var(--lily-primary);
+  color: var(--color-primary);
   font-weight: 600;
 }
 .sidebar-chapter-list .decimal { color: var(--lily-text-subtle); margin-right: 0.35em; font-variant-numeric: tabular-nums; }
-.sidebar-part[data-current="true"] summary { color: var(--lily-primary); }
+.sidebar-part[data-current="true"] summary { color: var(--color-primary); }
 
 /* Book-specific: breadcrumb, chapter meta, pager */
 
@@ -659,7 +679,7 @@ details.faq-item p { margin-top: 0.75rem; }
   margin-bottom: 1rem;
 }
 .breadcrumb a { color: var(--lily-text-subtle); text-decoration: none; }
-.breadcrumb a:hover { color: var(--lily-primary); text-decoration: underline; }
+.breadcrumb a:hover { color: var(--color-primary); text-decoration: underline; }
 .breadcrumb .sep { color: var(--lily-border-strong); }
 
 .chapter-decimal {
@@ -667,7 +687,7 @@ details.faq-item p { margin-top: 0.75rem; }
   font-family: var(--lily-font-mono);
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--lily-primary);
+  color: var(--color-primary);
   background: var(--lily-tint);
   padding: 0.15rem 0.6rem;
   border-radius: 9999px;
@@ -691,7 +711,7 @@ details.faq-item p { margin-top: 0.75rem; }
   color: var(--lily-text);
   transition: border-color 150ms, box-shadow 150ms;
 }
-.chapter-pager-link:hover { border-color: var(--lily-primary); box-shadow: var(--lily-shadow); }
+.chapter-pager-link:hover { border-color: var(--color-primary); box-shadow: var(--lily-shadow-sm); }
 .chapter-pager-link.next { text-align: right; }
 .chapter-pager-label {
   display: block;
@@ -710,11 +730,11 @@ details.faq-item p { margin-top: 0.75rem; }
   font: inherit;
   padding: 0.75rem 1rem;
   border: 2px solid var(--lily-border-strong);
-  border-radius: var(--lily-radius);
+  border-radius: var(--lily-radius-md);
   margin: 0 0 2rem;
-  background: var(--lily-card-bg);
+  background: var(--lily-surface-alt);
 }
-.toc-search:focus { outline: none; border-color: var(--lily-primary); }
+.toc-search:focus { outline: none; border-color: var(--color-primary); }
 
 .toc-part { margin-bottom: 2.5rem; }
 .toc-part-heading {
@@ -723,7 +743,7 @@ details.faq-item p { margin-top: 0.75rem; }
 }
 .toc-part-heading .part-number {
   margin-right: 0.6rem;
-  color: var(--lily-primary);
+  color: var(--color-primary);
   font-weight: 700;
 }
 .toc-chapter-list { list-style: none; margin: 1rem 0 0; padding: 0; }

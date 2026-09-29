@@ -91,6 +91,10 @@ per `software-engineering-metrics.github.io/AGENTS.md`. All four are wired
 into the site's `SERVED_LOCALE_CODES` and served at their own locale-prefixed
 path.
 
+German, Germany (`de-de`) is in progress: chapters are being translated
+serially into `locales/de-de/chapters/`. Not yet complete, and not yet wired
+into the site.
+
 ## Planned translated locales
 
 Not yet translated; each is a placeholder in the sense that no

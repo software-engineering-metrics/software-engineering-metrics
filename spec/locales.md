@@ -80,21 +80,22 @@ adding a chapter, before `just test`.
 
 ## Translated locales
 
-Six genuinely translated locales (a different language, hand-translated,
+Seven genuinely translated locales (a different language, hand-translated,
 with their own slugs) are complete: Welsh (`cy-001`), Spanish (`es-001`),
-Hindi (`hi-001`), Chinese, China (`zh-cn`), German, Germany (`de-de`), and
-Arabic, Egypt (`ar-eg`), each with all 63 chapters and a
-`locales/<code>/chapters/` directory on disk. None has a `front-matter/`,
-`examples/`, `contributing/`, or `project/` section yet (`es-001` is the
-exception: it has `examples/`); the site degrades gracefully for a missing
-section (an empty list, or a fallback to the default locale's intro copy),
-per `software-engineering-metrics.github.io/AGENTS.md`. All four of
-`cy-001`, `es-001`, `hi-001`, and `zh-cn` are wired into the site's
-`SERVED_LOCALE_CODES` and served at their own locale-prefixed path; `de-de`
-and `ar-eg` are not yet wired into the site.
+Hindi (`hi-001`), Chinese, China (`zh-cn`), German, Germany (`de-de`),
+Arabic, Egypt (`ar-eg`), and Bengali, Bangladesh (`bn-bd`), each with all 63
+chapters and a `locales/<code>/chapters/` directory on disk. None has a
+`front-matter/`, `examples/`, `contributing/`, or `project/` section yet
+(`es-001` is the exception: it has `examples/`); the site degrades
+gracefully for a missing section (an empty list, or a fallback to the
+default locale's intro copy), per
+`software-engineering-metrics.github.io/AGENTS.md`. All four of `cy-001`,
+`es-001`, `hi-001`, and `zh-cn` are wired into the site's
+`SERVED_LOCALE_CODES` and served at their own locale-prefixed path; `de-de`,
+`ar-eg`, and `bn-bd` are not yet wired into the site.
 
-Bengali, Bangladesh (`bn-bd`) is in progress: chapters are being translated
-serially into `locales/bn-bd/chapters/`. Not yet complete, and not yet wired
+Hindi, India (`hi-id`) is in progress: chapters are being translated
+serially into `locales/hi-id/chapters/`. Not yet complete, and not yet wired
 into the site.
 
 ## Planned translated locales

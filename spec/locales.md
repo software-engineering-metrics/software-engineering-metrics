@@ -80,21 +80,21 @@ adding a chapter, before `just test`.
 
 ## Translated locales
 
-Five genuinely translated locales (a different language, hand-translated,
+Six genuinely translated locales (a different language, hand-translated,
 with their own slugs) are complete: Welsh (`cy-001`), Spanish (`es-001`),
-Hindi (`hi-001`), Chinese, China (`zh-cn`), and German, Germany (`de-de`),
-each with all 63 chapters and a `locales/<code>/chapters/` directory on
-disk. None has a `front-matter/`, `examples/`, `contributing/`, or `project/`
-section yet (`es-001` is the exception: it has `examples/`); the site
-degrades gracefully for a missing section (an empty list, or a fallback to
-the default locale's intro copy), per
-`software-engineering-metrics.github.io/AGENTS.md`. All four of `cy-001`,
-`es-001`, `hi-001`, and `zh-cn` are wired into the site's
+Hindi (`hi-001`), Chinese, China (`zh-cn`), German, Germany (`de-de`), and
+Arabic, Egypt (`ar-eg`), each with all 63 chapters and a
+`locales/<code>/chapters/` directory on disk. None has a `front-matter/`,
+`examples/`, `contributing/`, or `project/` section yet (`es-001` is the
+exception: it has `examples/`); the site degrades gracefully for a missing
+section (an empty list, or a fallback to the default locale's intro copy),
+per `software-engineering-metrics.github.io/AGENTS.md`. All four of
+`cy-001`, `es-001`, `hi-001`, and `zh-cn` are wired into the site's
 `SERVED_LOCALE_CODES` and served at their own locale-prefixed path; `de-de`
-is not yet wired into the site.
+and `ar-eg` are not yet wired into the site.
 
-Arabic, Egypt (`ar-eg`) is in progress: chapters are being translated
-serially into `locales/ar-eg/chapters/`. Not yet complete, and not yet wired
+Bengali, Bangladesh (`bn-bd`) is in progress: chapters are being translated
+serially into `locales/bn-bd/chapters/`. Not yet complete, and not yet wired
 into the site.
 
 ## Planned translated locales

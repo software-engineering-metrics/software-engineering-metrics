@@ -7,6 +7,11 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Added Hindi, India (`hi-id`) as a complete translated locale, all 63
+  chapters, by copying the existing Hindi (`hi-001`) translation verbatim
+  under the country-tagged locale code, since standard Hindi has no
+  distinct India-specific variant to hand-translate separately. Not yet
+  wired into the site.
 - Completed a full hand translation of all 63 chapters into Bengali,
   Bangladesh (`bn-bd`), with matching `.locale-peer-id` sidecars and
   passing `just test`. Not yet wired into the site.

@@ -7,6 +7,13 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Completed a full, from-scratch hand translation of all 63 chapters into
+  Portuguese, Portugal (`pt-pt`), with matching `.locale-peer-id` sidecars
+  and passing `just test`. No prior Portuguese locale existed to build
+  from, so every chapter was translated directly from the English source.
+  The index (chapter 9.7) remaps every internal chapter link to its
+  Portuguese filename, following the approach used for `ar-eg`, `bn-bd`,
+  `ko-kr`, and `es-es`. Not yet wired into the site.
 - Added Spanish, Spain (`es-es`) as a complete translated locale, all 63
   chapters, starting from a copy of the existing Spanish (`es-001`)
   translation (found on inspection to already be grammatically neutral,

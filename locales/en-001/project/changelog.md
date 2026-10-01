@@ -7,6 +7,14 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Added Spanish, Spain (`es-es`) as a complete translated locale, all 63
+  chapters, starting from a copy of the existing Spanish (`es-001`)
+  translation (found on inspection to already be grammatically neutral,
+  with vocabulary mostly already Spain-leaning) and then applying a
+  targeted terminology pass for the remaining minority usages, most
+  notably "incidente" to "incidencia" for this book's incident-metrics
+  domain, with corresponding gender-agreement fixes throughout. Not yet
+  wired into the site.
 - Completed a full hand translation of all 63 chapters into Korean, Korea
   (`ko-kr`), with matching `.locale-peer-id` sidecars and passing
   `just test`. The index (chapter 9.7) remaps every internal chapter link

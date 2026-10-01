@@ -80,28 +80,35 @@ adding a chapter, before `just test`.
 
 ## Translated locales
 
-Nine genuinely translated locales (a different language, hand-translated,
+Ten genuinely translated locales (a different language, hand-translated,
 with their own slugs) are complete: Welsh (`cy-001`), Spanish (`es-001`),
 Hindi (`hi-001`), Chinese, China (`zh-cn`), German, Germany (`de-de`),
 Arabic, Egypt (`ar-eg`), Bengali, Bangladesh (`bn-bd`), Hindi, India
-(`hi-id`), and Korean, Korea (`ko-kr`), each with all 63 chapters and a
-`locales/<code>/chapters/` directory on disk. `hi-id` is identical in
-content to `hi-001` (standard Hindi has no distinct India-specific variant
-the way some other languages do; `hi-id` simply gives the same translation
-a country-tagged locale code, the same relationship `en-001` has to
-`en-gb-oxendict`). None has a `front-matter/`, `examples/`, `contributing/`,
-or `project/` section yet (`es-001` is the exception: it has `examples/`);
-the site degrades gracefully for a missing section (an empty list, or a
-fallback to the default locale's intro copy), per
+(`hi-id`), Korean, Korea (`ko-kr`), and Spanish, Spain (`es-es`), each with
+all 63 chapters and a `locales/<code>/chapters/` directory on disk. `hi-id`
+is identical in content to `hi-001` (standard Hindi has no distinct
+India-specific variant the way some other languages do; `hi-id` simply
+gives the same translation a country-tagged locale code, the same
+relationship `en-001` has to `en-gb-oxendict`). `es-es` started from a copy
+of `es-001` (which turned out, on inspection, to already be grammatically
+neutral: no `vosotros`/`ustedes` forms, and vocabulary mostly already
+Spain-leaning, "fallo" over "falla", "rendimiento" over "desempeño") and
+then received a targeted terminology pass to the remaining minority usages,
+most notably "incidente" to "incidencia" for this book's incident-metrics
+domain, with corresponding gender-agreement fixes throughout. None of these
+locales has a `front-matter/`, `examples/`, `contributing/`, or `project/`
+section yet (`es-001` is the exception: it has `examples/`); the site
+degrades gracefully for a missing section (an empty list, or a fallback to
+the default locale's intro copy), per
 `software-engineering-metrics.github.io/AGENTS.md`. All four of `cy-001`,
 `es-001`, `hi-001`, and `zh-cn` are wired into the site's
 `SERVED_LOCALE_CODES` and served at their own locale-prefixed path;
-`de-de`, `ar-eg`, `bn-bd`, `hi-id`, and `ko-kr` are not yet wired into the
-site.
-
-Spanish, Spain (`es-es`) is in progress: chapters are being translated
-serially into `locales/es-es/chapters/`. Not yet complete, and not yet wired
+`de-de`, `ar-eg`, `bn-bd`, `hi-id`, `ko-kr`, and `es-es` are not yet wired
 into the site.
+
+Portuguese, Portugal (`pt-pt`) is in progress: chapters are being
+translated serially into `locales/pt-pt/chapters/`. Not yet complete, and
+not yet wired into the site.
 
 ## Planned translated locales
 

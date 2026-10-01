@@ -8,9 +8,14 @@
 
   let { children } = $props();
 
-  let prefix = $derived(localePrefix(page.params.locale));
-  let t = $derived(ui(page.params.locale));
+  // page.params.locale is unset only on the unprefixed "/" redirect page
+  // (src/routes/+page.svelte) — every other page lives under
+  // src/routes/[locale]/ and always has it. Falling back to DEFAULT_LOCALE
+  // here keeps this header's own nav links locale-prefixed (and therefore
+  // real, prerenderable routes) even on that one page.
   let currentLocale = $derived(page.params.locale ?? DEFAULT_LOCALE);
+  let prefix = $derived(localePrefix(currentLocale));
+  let t = $derived(ui(page.params.locale));
 
   // The picker bar's LocalePicker only sets `lang`/`dir` on <html> by
   // default; this site's locales are separate prerendered routes, so

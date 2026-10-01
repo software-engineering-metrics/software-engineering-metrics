@@ -19,8 +19,12 @@ repository root): four mechanically-derived English spelling variants
 locales (`cy-001` Welsh, `es-001` Spanish, `hi-001` Hindi, `zh-cn` Chinese).
 Every locale, including `en-us`, is served under its own locale-prefixed path
 (`/en-us/chapters/x/`, `/en-gb/chapters/x/`, `/hi-001/chapters/x/`, ...) via
-the `src/routes/[locale]/` route tree; there are no unprefixed routes and the
-bare domain root (`/`) does not resolve. `src/lib/locales.js` (re-exporting
+the `src/routes/[locale]/` route tree; there is exactly one unprefixed route,
+the bare domain root (`/`, `src/routes/+page.svelte`), which client-side
+redirects to a served locale picked from the visitor's browser language
+preferences, falling back to `DEFAULT_LOCALE` — see
+`spec/locale-default/index.md` for the full specification and
+`src/lib/detect-locale.js` for the matching logic. `src/lib/locales.js` (re-exporting
 `scripts/locales.mjs`) is the single source of truth for the locale list and
 the prefixing rule (`localePrefix()`, now an unconditional `/${locale}` for
 any locale, since no locale is special-cased unprefixed).
@@ -31,10 +35,14 @@ parallel unprefixed route tree to keep in sync (there was, historically, for
 pattern). Shared chrome and content components (`+layout.svelte`,
 `Sidebar.svelte`, `ChapterPager.svelte`, the
 chapter/front-matter/examples/contributing/project `+page.svelte` files) read
-the current locale from `page.params.locale` via `$app/state`, which is now
-always defined for any real page, and build locale-prefixed hrefs with
-`localePrefix()`. Follow this pattern for any new page rather than
-hardcoding an absolute path.
+the current locale from `page.params.locale` via `$app/state`, which is
+defined for every page under `src/routes/[locale]/` (i.e. every real content
+page), and build locale-prefixed hrefs with `localePrefix()`. Follow this
+pattern for any new page rather than hardcoding an absolute path.
+`+layout.svelte`'s own `currentLocale` (`page.params.locale ?? DEFAULT_LOCALE`)
+is what keeps the shared header working on the one page outside that tree,
+the root redirect page; derive from `currentLocale`, not raw
+`page.params.locale`, in shared chrome that must also render there.
 
 The locale switcher in the header is `@lilydesignsystem/svelte-locale-picker`,
 wired up as part of `@lilydesignsystem/svelte-picker-bar` — see "PickerBar"

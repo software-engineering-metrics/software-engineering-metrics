@@ -7,6 +7,11 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Completed a full hand translation of all 63 chapters into Korean, Korea
+  (`ko-kr`), with matching `.locale-peer-id` sidecars and passing
+  `just test`. The index (chapter 9.7) remaps every internal chapter link
+  to its Korean filename, following the approach used for `ar-eg` and
+  `bn-bd`. Not yet wired into the site.
 - Added Hindi, India (`hi-id`) as a complete translated locale, all 63
   chapters, by copying the existing Hindi (`hi-001`) translation verbatim
   under the country-tagged locale code, since standard Hindi has no

@@ -80,26 +80,27 @@ adding a chapter, before `just test`.
 
 ## Translated locales
 
-Eight genuinely translated locales (a different language, hand-translated,
+Nine genuinely translated locales (a different language, hand-translated,
 with their own slugs) are complete: Welsh (`cy-001`), Spanish (`es-001`),
 Hindi (`hi-001`), Chinese, China (`zh-cn`), German, Germany (`de-de`),
-Arabic, Egypt (`ar-eg`), Bengali, Bangladesh (`bn-bd`), and Hindi, India
-(`hi-id`), each with all 63 chapters and a `locales/<code>/chapters/`
-directory on disk. `hi-id` is identical in content to `hi-001` (standard
-Hindi has no distinct India-specific variant the way some other languages
-do; `hi-id` simply gives the same translation a country-tagged locale
-code, the same relationship `en-001` has to `en-gb-oxendict`). None has a
-`front-matter/`, `examples/`, `contributing/`, or `project/` section yet
-(`es-001` is the exception: it has `examples/`); the site degrades
-gracefully for a missing section (an empty list, or a fallback to the
-default locale's intro copy), per
+Arabic, Egypt (`ar-eg`), Bengali, Bangladesh (`bn-bd`), Hindi, India
+(`hi-id`), and Korean, Korea (`ko-kr`), each with all 63 chapters and a
+`locales/<code>/chapters/` directory on disk. `hi-id` is identical in
+content to `hi-001` (standard Hindi has no distinct India-specific variant
+the way some other languages do; `hi-id` simply gives the same translation
+a country-tagged locale code, the same relationship `en-001` has to
+`en-gb-oxendict`). None has a `front-matter/`, `examples/`, `contributing/`,
+or `project/` section yet (`es-001` is the exception: it has `examples/`);
+the site degrades gracefully for a missing section (an empty list, or a
+fallback to the default locale's intro copy), per
 `software-engineering-metrics.github.io/AGENTS.md`. All four of `cy-001`,
 `es-001`, `hi-001`, and `zh-cn` are wired into the site's
 `SERVED_LOCALE_CODES` and served at their own locale-prefixed path;
-`de-de`, `ar-eg`, `bn-bd`, and `hi-id` are not yet wired into the site.
+`de-de`, `ar-eg`, `bn-bd`, `hi-id`, and `ko-kr` are not yet wired into the
+site.
 
-Korean, Korea (`ko-kr`) is in progress: chapters are being translated
-serially into `locales/ko-kr/chapters/`. Not yet complete, and not yet wired
+Spanish, Spain (`es-es`) is in progress: chapters are being translated
+serially into `locales/es-es/chapters/`. Not yet complete, and not yet wired
 into the site.
 
 ## Planned translated locales

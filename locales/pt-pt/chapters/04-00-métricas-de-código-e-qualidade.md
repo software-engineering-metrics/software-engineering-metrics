@@ -1,0 +1,22 @@
+# 4.0 Introdução à Parte 4: Métricas de Código e Qualidade
+
+As Partes 2 e 3 mediram como o trabalho se move e como as pessoas que o produzem estão a aguentar-se. Esta parte volta-se para o próprio artefacto: o código, e o que uma métrica consegue e não consegue dizer sobre a sua qualidade. As métricas de qualidade de código têm a história mais longa de qualquer família de métricas neste livro, a complexidade ciclomática remonta a 1976, e a história mais longa de uso indevido a corresponder. Esta parte trata essa história a sério: cada capítulo nomeia um sinal genuinamente útil ao lado da forma específica e bem documentada como esse sinal é manipulado uma vez que se torna um alvo.
+
+O fio condutor que liga estes seis capítulos é que nenhuma métrica única de código captura a qualidade por si só, e várias das mais populares induzem ativamente em erro quando perseguidas isoladamente. Uma percentagem alta de cobertura de testes pode coexistir com testes que não verificam nada significativo. Uma pontuação baixa de complexidade pode coexistir com código que é tecnicamente simples mas conceptualmente incoerente. Cada capítulo desta parte emparelha a sua métrica principal com a verificação complementar que apanha o seu ponto cego específico: complexidade com contexto de manutenibilidade, cobertura com testes de mutação, processamento com análise de pontos quentes, análise estática com julgamento humano, e dívida técnica com remediação priorizada em vez de um backlog sempre crescente e não amado.
+
+Para equipas grandes, as métricas de código e qualidade são o que torna possível gerir uma base de código demasiado grande para qualquer pessoa ter na cabeça. Uma equipa de cinco pessoas pode confiar em conhecimento tácito partilhado sobre quais partes do sistema são frágeis; uma organização de quinhentos engenheiros que abrange dezenas de serviços precisa de sinais instrumentados para encontrar essa fragilidade sistematicamente. As organizações empresariais e governamentais, muitas vezes a carregar bases de código medidas em décadas em vez de anos, dependem das métricas desta parte para priorizar onde o investimento limitado de manutenção fará mais bem.
+
+## Capítulos nesta parte
+
+- **4.1 Métricas de complexidade de código:** A complexidade ciclomática e as suas parentes, o que realmente preveem, e o seu risco bem documentado de manipulação.
+- **4.2 Cobertura de testes e eficácia de testes:** Porque uma percentagem de cobertura sozinha diz menos do que parece, e como os testes de mutação fecham a lacuna.
+- **4.3 Processamento de código e análise de pontos quentes:** Encontrar a fração pequena e específica de uma base de código responsável por uma parcela desproporcional de defeitos e custo de manutenção.
+- **4.4 Análise estática e métricas de odores de código:** Sinais automatizados de qualidade de código, o seu valor real, e os seus limites contra o julgamento humano.
+- **4.5 Medição de dívida técnica:** Transformar um passivo invisível e informalmente discutido num portefólio visível, priorizado, e gerível.
+- **4.6 Métricas de documentação e conhecimento:** Medir se a documentação realmente ajuda, não apenas se existe.
+
+## Como estes capítulos se inter-relacionam
+
+Estes seis capítulos constroem-se a partir da unidade mais pequena de código para fora. O capítulo 4.1 começa ao nível de uma única função ou método; o capítulo 4.2 pergunta se os testes realmente verificam o comportamento dessa unidade; o capítulo 4.3 afasta-se para encontrar quais ficheiros e módulos através de toda a base de código merecem atenção primeiro; o capítulo 4.4 acrescenta a camada de ferramentas automatizadas que analisa tudo isto continuamente; o capítulo 4.5 transforma as descobertas acumuladas dos quatro primeiros num backlog gerido e priorizado em vez de uma preocupação difusa e não abordada; e o capítulo 4.6 encerra a parte medindo se o conhecimento necessário para manter tudo isto com segurança está realmente documentado e encontrável.
+
+Esta parte liga-se diretamente de volta às métricas de estabilidade da Parte 2: a taxa de falha de mudanças (capítulo 2.10) é, em grande parte, uma consequência a jusante da qualidade de código que esta parte mede a montante. Também se liga adiante às métricas de produto da Parte 5, já que os defeitos escapados (capítulo 5.1) são frequentemente rastreáveis precisamente até aos pontos quentes de complexidade e às lacunas de cobertura que esta parte é construída para revelar antes de alguma vez chegarem à produção.

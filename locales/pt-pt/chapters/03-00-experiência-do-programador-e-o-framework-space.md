@@ -1,0 +1,23 @@
+# 3.0 Introdução à Parte 3: Experiência do Programador e o Framework SPACE
+
+A Parte 2 mediu a entrega do exterior: quão rápido e quão seguro o código se move através de um pipeline. Esta parte mede a experiência das pessoas que produzem esse código, e existe porque um conjunto de métricas de entrega sozinho pode parecer excelente enquanto os humanos por trás dele estão a esgotar-se, a afogar-se em interrupções, ou a desligar-se silenciosamente. Uma organização que só vigia as métricas DORA pode melhorá-las durante um ano ou dois espremendo uma equipa com mais força, até que o desgaste, o colapso de qualidade, ou o esgotamento apaguem o ganho de uma só vez. Esta parte é o contrapeso.
+
+A peça central é o **[framework SPACE](https://queue.acm.org/detail.cfm?id=3454124)**, desenvolvido por investigadores da Microsoft, GitHub, e da Universidade de Victoria especificamente como corretivo ao hábito da indústria de medir a produtividade do programador através de um único proxy facilmente manipulável como linhas de código ou contagem de commits. O SPACE abrange cinco dimensões: satisfação e bem-estar, desempenho, atividade, comunicação e colaboração, e eficiência e fluxo. A disciplina central da estrutura, e a razão pela qual esta parte a trata com o mesmo rigor que a Parte 2 aplica às suas próprias métricas de fluxo, é que nenhuma dimensão única por si só é credível; o valor vem especificamente de manter todas as cinco à vista juntas, para que uma equipa não consiga parecer bem num eixo ao danificar silenciosamente outro.
+
+Para equipas grandes, as métricas de experiência do programador respondem a uma pergunta que o DORA não consegue: este desempenho de entrega é sustentável, e a organização está a reter as pessoas que o produzem. As organizações empresariais que ignoram esta parte tendem a descobrir o custo através de dados de desgaste e entrevistas de saída, muito depois de o dano estar feito; as organizações governamentais, muitas vezes a operar sob restrições salariais do setor público que limitam a sua capacidade de competir puramente em compensação, têm razões particularmente fortes para tratar a experiência do programador como uma preocupação de primeira classe e ativamente gerida em vez de uma reflexão tardia.
+
+## Capítulos nesta parte
+
+- **3.1 O framework SPACE:** As cinco dimensões juntas, porque nenhuma única é credível sozinha, e como construir um conjunto de métricas genuinamente equilibrado a partir delas.
+- **3.2 Métricas de satisfação e bem-estar:** Medir a realização, a frustração, e o risco de esgotamento, a dimensão que nenhuma telemetria de sistema consegue observar diretamente.
+- **3.3 Métricas de desempenho e proxies de resultado:** A dimensão mais facilmente confundida com a atividade, e como medir a contribuição genuína de resultado em vez disso.
+- **3.4 Métricas de atividade e os seus limites:** Contagens de commits, linhas de código, e porque esta é a dimensão mais perigosa de sobreponderar.
+- **3.5 Métricas de comunicação e colaboração:** Como a informação realmente flui entre pessoas e equipas, e como é um padrão saudável.
+- **3.6 Eficiência e fluxo: trabalho profundo e interrupções:** Proteger o tempo ininterrupto que o trabalho real de engenharia exige, e medir o atrito que o erode.
+- **3.7 Inquéritos de experiência do programador e métricas DevEx:** Como executar um inquérito que produz sinal credível em vez de um concurso de popularidade, e como combiná-lo com dados objetivos.
+
+## Como estes capítulos se inter-relacionam
+
+O capítulo 3.1 introduz todas as cinco dimensões SPACE juntas, e os capítulos 3.2 a 3.6 depois tomam cada dimensão por sua vez com profundidade real, na ordem em que os investigadores do SPACE as apresentam. O capítulo 3.7 encerra a parte com a mecânica prática do desenho de inquéritos, já que a satisfação, o desempenho, e a colaboração dependem todos parcialmente de dados autorrelatados (a distinção de instrumentação-versus-autorrelato do capítulo 1.5 é diretamente relevante ao longo de toda esta parte) e um inquérito mal desenhado mina cada um dos capítulos anteriores.
+
+A disciplina central desta parte, equilíbrio entre dimensões em vez de força numa, é o exemplo de trabalho mais claro que este livro tem do princípio de resultados-acima-do-produto do capítulo 1.3 aplicado a pessoas em vez de a um pipeline de entrega. A atividade (capítulo 3.4) é a dimensão SPACE mais análoga a uma métrica pura de produto, e esta parte trata-a de acordo: útil como uma entrada entre cinco, perigosa como um sinal isolado. Lida ao lado da Parte 2, esta parte completa o quadro que o DORA sozinho não consegue fornecer: não apenas se o software é entregue depressa e com segurança, mas se as pessoas que o entregam conseguem sustentar esse ritmo.

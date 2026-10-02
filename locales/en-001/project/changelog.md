@@ -8,6 +8,13 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 ### Added
 
 - Completed a full, from-scratch hand translation of all 63 chapters into
+  Japanese, Japan (`ja-jp`), with matching `.locale-peer-id` sidecars and
+  passing `just test`. No prior Japanese locale existed to build from, so
+  every chapter was translated directly from the English source. The index
+  (chapter 9.7) remaps every internal chapter link to its Japanese
+  filename, following the approach used for `ar-eg`, `bn-bd`, `ko-kr`,
+  `es-es`, and `pt-pt`. Not yet wired into the site.
+- Completed a full, from-scratch hand translation of all 63 chapters into
   Portuguese, Portugal (`pt-pt`), with matching `.locale-peer-id` sidecars
   and passing `just test`. No prior Portuguese locale existed to build
   from, so every chapter was translated directly from the English source.

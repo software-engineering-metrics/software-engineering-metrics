@@ -1,4 +1,5 @@
 <script>
+  import SearchGate from '#lib/SearchGate.svelte';
   import { goto } from '$app/navigation';
   import { page } from '$app/state';
   import PickerBar from '@lilydesignsystem/svelte-picker-bar';
@@ -26,6 +27,9 @@
   /** @param {string} nextLocale */
   function onLocaleChange(nextLocale) {
     if (nextLocale === currentLocale) return;
+    // A search (/?<target>) is on the root page: the picker's automatic
+    // restore of the stored locale must not navigate away and drop it.
+    if (page.url.pathname === '/' && page.url.search) return;
     const currentPrefix = localePrefix(currentLocale);
     const remainder = currentPrefix && page.url.pathname.startsWith(currentPrefix)
       ? page.url.pathname.slice(currentPrefix.length) || '/'
@@ -95,7 +99,7 @@
     <Sidebar {currentSlug} />
   {/if}
   <div class="site-content">
-    {@render children()}
+    <SearchGate {children} />
   </div>
 </main>
 

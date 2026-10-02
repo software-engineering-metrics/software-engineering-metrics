@@ -9,6 +9,8 @@
 
   onMount(() => {
     if (!browser) return;
+    // /?<target> is a site search (spec/search); SearchGate shows the results.
+    if (location.search) return;
     const locale = pickLocale(LOCALE_CODES, DEFAULT_LOCALE);
     goto(`${localePrefix(locale)}/`, { replaceState: true });
   });

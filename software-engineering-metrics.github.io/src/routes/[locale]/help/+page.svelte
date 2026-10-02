@@ -1,6 +1,6 @@
 <script>
   import { page } from '$app/state';
-  import { localePrefix } from '$lib/locales.js';
+  import { localePrefix } from '#lib/locales.js';
 
   let prefix = $derived(localePrefix(page.params.locale));
 </script>

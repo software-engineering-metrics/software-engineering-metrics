@@ -1,7 +1,7 @@
 <script>
   import { page } from '$app/state';
-  import { localePrefix } from '$lib/locales.js';
-  import { ui } from '$lib/i18n.js';
+  import { localePrefix } from '#lib/locales.js';
+  import { ui } from '#lib/i18n.js';
 
   /** @type {{ prev: null | { slug: string, decimal: string, title: string }, next: null | { slug: string, decimal: string, title: string } }} */
   let { prev = null, next = null } = $props();

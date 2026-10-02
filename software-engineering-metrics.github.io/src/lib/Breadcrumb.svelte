@@ -1,6 +1,6 @@
 <script>
   import { page } from '$app/state';
-  import { ui } from '$lib/i18n.js';
+  import { ui } from '#lib/i18n.js';
 
   /** @type {{ items: Array<{ label: string, href?: string }> }} */
   let { items } = $props();

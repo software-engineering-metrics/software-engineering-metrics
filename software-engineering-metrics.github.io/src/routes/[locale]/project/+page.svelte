@@ -1,7 +1,7 @@
 <script>
   import { page } from '$app/state';
-  import { getManifest } from '$lib/manifests.js';
-  import { localePrefix } from '$lib/locales.js';
+  import { getManifest } from '#lib/manifests.js';
+  import { localePrefix } from '#lib/locales.js';
 
   let { data } = $props();
   let prefix = $derived(localePrefix(page.params.locale));

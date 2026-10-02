@@ -1,7 +1,7 @@
 <script>
   import { page } from '$app/state';
-  import Breadcrumb from '$lib/Breadcrumb.svelte';
-  import { localePrefix } from '$lib/locales.js';
+  import Breadcrumb from '#lib/Breadcrumb.svelte';
+  import { localePrefix } from '#lib/locales.js';
 
   let { data } = $props();
   let prefix = $derived(localePrefix(page.params.locale));

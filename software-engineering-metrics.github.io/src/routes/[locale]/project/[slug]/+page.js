@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
-import { getManifest } from '$lib/manifests.js';
-import { LOCALE_CODES } from '$lib/locales.js';
+import { getManifest } from '#lib/manifests.js';
+import { LOCALE_CODES } from '#lib/locales.js';
 
 export const prerender = true;
 

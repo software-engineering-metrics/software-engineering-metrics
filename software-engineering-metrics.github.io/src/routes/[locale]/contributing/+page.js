@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { DEFAULT_LOCALE } from '$lib/locales.js';
+import { DEFAULT_LOCALE } from '#lib/locales.js';
 
 export const prerender = true;
 

@@ -1,8 +1,8 @@
 <script>
   import { page } from '$app/state';
-  import { getManifest } from '$lib/manifests.js';
-  import { localePrefix } from '$lib/locales.js';
-  import { ui } from '$lib/i18n.js';
+  import { getManifest } from '#lib/manifests.js';
+  import { localePrefix } from '#lib/locales.js';
+  import { ui } from '#lib/i18n.js';
 
   let { currentSlug = null } = $props();
 
@@ -11,7 +11,7 @@
   let t = $derived(ui(page.params.locale));
   let query = $state('');
 
-  /** @param {import('$lib/manifest.json').default['chapters'][number]} chapter @param {string} q */
+  /** @param {import('#lib/manifest.json').default['chapters'][number]} chapter @param {string} q */
   function matches(chapter, q) {
     if (!q) return true;
     return chapter.title.toLowerCase().includes(q) || chapter.decimal.includes(q);

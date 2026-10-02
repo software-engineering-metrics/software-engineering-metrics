@@ -2,9 +2,9 @@
   import { goto } from '$app/navigation';
   import { page } from '$app/state';
   import PickerBar from '@lilydesignsystem/svelte-picker-bar';
-  import Sidebar from '$lib/Sidebar.svelte';
-  import { LOCALE_CODES, LOCALE_LABELS, DEFAULT_LOCALE, localePrefix } from '$lib/locales.js';
-  import { ui } from '$lib/i18n.js';
+  import Sidebar from '#lib/Sidebar.svelte';
+  import { LOCALE_CODES, LOCALE_LABELS, DEFAULT_LOCALE, localePrefix } from '#lib/locales.js';
+  import { ui } from '#lib/i18n.js';
 
   let { children } = $props();
 

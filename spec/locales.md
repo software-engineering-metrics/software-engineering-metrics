@@ -110,6 +110,10 @@ per `software-engineering-metrics.github.io/AGENTS.md`. All four of
 `de-de`, `ar-eg`, `bn-bd`, `hi-id`, `ko-kr`, `es-es`, `pt-pt`, `ja-jp`,
 `ru-ru`, and `fr-fr` are not yet wired into the site.
 
+Swedish, Sweden (`sv-se`) is in progress: chapters are being translated
+serially into `locales/sv-se/chapters/`. Not yet complete, and not yet
+wired into the site.
+
 ## Planned translated locales
 
 Not yet translated; each is a placeholder in the sense that no

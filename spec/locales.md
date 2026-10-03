@@ -112,6 +112,10 @@ the default locale's intro copy), per
 `de-de`, `ar-eg`, `bn-bd`, `hi-id`, `ko-kr`, `es-es`, `pt-pt`, `ja-jp`,
 `ru-ru`, `fr-fr`, and `sv-se` are not yet wired into the site.
 
+Dutch, Netherlands (`nl-nl`) is in progress: chapters are being translated
+serially into `locales/nl-nl/chapters/`. Not yet complete, and not yet
+wired into the site.
+
 ## Planned translated locales
 
 Not yet translated; each is a placeholder in the sense that no

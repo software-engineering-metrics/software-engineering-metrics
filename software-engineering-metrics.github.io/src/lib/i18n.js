@@ -16,6 +16,8 @@
 // translate this file one key at a time as chapters for it land, without a
 // missing key ever rendering as undefined.
 
+import { canonicalLocale } from './locales.js';
+
 const en = {
   skipToContent: 'Skip to main content',
   brand: 'Software Engineering Metrics',
@@ -97,10 +99,13 @@ const FALLBACK_LOCALE = 'en';
 
 /**
  * Look up this locale's UI chrome strings, filled in from `en` for any key
- * (or whole locale) a translation has not reached yet.
+ * (or whole locale) a translation has not reached yet. Resolves a two-letter
+ * "-001" alias ("es" -> "es-001") first, so an alias page gets the same
+ * chrome overrides its canonical locale has.
  * @param {string | undefined | null} locale
  */
 export function ui(locale) {
-  if (locale && OVERRIDES[locale]) return deepMerge(en, OVERRIDES[locale]);
+  const resolved = canonicalLocale(locale);
+  if (resolved && OVERRIDES[resolved]) return deepMerge(en, OVERRIDES[resolved]);
   return en;
 }

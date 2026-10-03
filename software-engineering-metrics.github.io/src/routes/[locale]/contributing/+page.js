@@ -1,15 +1,17 @@
 import { error } from '@sveltejs/kit';
-import { DEFAULT_LOCALE } from '#lib/locales.js';
+import { DEFAULT_LOCALE, canonicalLocale } from '#lib/locales.js';
 
 export const prerender = true;
 
 // See [locale]/examples/+page.js for why this uses import.meta.glob rather
-// than a locale-parameterized dynamic import.
+// than a locale-parameterized dynamic import, and why params.locale needs
+// canonicalLocale() before it is used as a lookup key.
 const modules = import.meta.glob('/src/content/*/contributing/index.md');
 
 export async function load({ params }) {
+  const locale = canonicalLocale(params.locale);
   const key =
-    Object.keys(modules).find((k) => k.includes(`/content/${params.locale}/contributing/index.md`)) ??
+    Object.keys(modules).find((k) => k.includes(`/content/${locale}/contributing/index.md`)) ??
     Object.keys(modules).find((k) => k.includes(`/content/${DEFAULT_LOCALE}/contributing/index.md`));
   if (!key) error(404, 'Page not found');
   const mod = /** @type {{ default: import('svelte').Component }} */ (await modules[key]());

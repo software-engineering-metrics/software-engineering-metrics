@@ -72,6 +72,42 @@ export function isLocale(locale) {
   return !!locale && LOCALE_CODES.includes(locale);
 }
 
+// A served "world"/international locale (a UN M49 "-001" suffix, e.g.
+// "en-001") also gets a shorter two-letter alias route ("en") that renders
+// that same locale's content: "/en" renders what "/en-001" renders. Derived
+// from SERVED_LOCALE_CODES rather than hand-maintained, so a future "-001"
+// locale (fr-001, pt-001, ... per spec/locales.md's "Planned translated
+// locales") gets its alias automatically the moment it is served, with no
+// separate list to remember to update. The alias is a routing-only concept:
+// it is never added to LOCALE_CODES/SERVED_LOCALE_CODES, so it never shows
+// up as its own entry in the locale picker or the search index's locale
+// handling — those still only ever see the canonical "-001" code.
+/** @type {Record<string, string>} */
+export const LOCALE_ALIASES = Object.fromEntries(
+  SERVED_LOCALE_CODES.filter((code) => code.endsWith('-001')).map((code) => [code.slice(0, -4), code])
+);
+
+export const ALIAS_CODES = Object.keys(LOCALE_ALIASES);
+
+// Every value [locale] itself may legitimately take in the URL: the real,
+// canonical locale codes plus their short aliases. Route validation
+// (+layout.js) and every entries() across src/routes/[locale]/ use this,
+// not LOCALE_CODES, so an alias page actually gets prerendered rather than
+// 404ing.
+export const ROUTABLE_LOCALE_CODES = [...LOCALE_CODES, ...ALIAS_CODES];
+
+/**
+ * Resolve an alias to the real locale code it renders ("en" -> "en-001");
+ * a canonical code (or anything else) passes through unchanged. Use this
+ * before any lookup keyed by the literal locale code that only exists for
+ * canonical codes: a manifest import, a `$content/<locale>/...` dynamic
+ * import, or a chrome-string override lookup.
+ * @param {string | undefined | null} locale
+ */
+export function canonicalLocale(locale) {
+  return (locale && LOCALE_ALIASES[locale]) || locale;
+}
+
 /**
  * Sort locale codes the way a locale list should read (not currently used by
  * LocalePicker.svelte, whose dropdown keeps its own curated order; this is

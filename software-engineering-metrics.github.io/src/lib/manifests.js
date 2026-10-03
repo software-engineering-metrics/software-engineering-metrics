@@ -9,7 +9,7 @@ import cy001 from './manifest/cy-001.json';
 import es001 from './manifest/es-001.json';
 import hi001 from './manifest/hi-001.json';
 import zhCn from './manifest/zh-cn.json';
-import { DEFAULT_LOCALE } from './locales.js';
+import { DEFAULT_LOCALE, canonicalLocale } from './locales.js';
 
 /**
  * @typedef {object} Chapter
@@ -57,5 +57,6 @@ const MANIFESTS = {
  * @returns {Manifest}
  */
 export function getManifest(locale) {
-  return MANIFESTS[locale ?? DEFAULT_LOCALE] ?? MANIFESTS[DEFAULT_LOCALE];
+  const resolved = canonicalLocale(locale) ?? DEFAULT_LOCALE;
+  return MANIFESTS[resolved] ?? MANIFESTS[DEFAULT_LOCALE];
 }

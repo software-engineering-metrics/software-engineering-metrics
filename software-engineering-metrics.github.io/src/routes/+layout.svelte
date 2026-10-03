@@ -4,7 +4,7 @@
   import { page } from '$app/state';
   import PickerBar from '@lilydesignsystem/svelte-picker-bar';
   import Sidebar from '#lib/Sidebar.svelte';
-  import { LOCALE_CODES, LOCALE_LABELS, DEFAULT_LOCALE, localePrefix } from '#lib/locales.js';
+  import { LOCALE_CODES, LOCALE_LABELS, DEFAULT_LOCALE, localePrefix, canonicalLocale } from '#lib/locales.js';
   import { ui } from '#lib/i18n.js';
 
   let { children } = $props();
@@ -17,6 +17,11 @@
   let currentLocale = $derived(page.params.locale ?? DEFAULT_LOCALE);
   let prefix = $derived(localePrefix(currentLocale));
   let t = $derived(ui(page.params.locale));
+
+  // currentLocale may be a two-letter alias ("en"), which LOCALE_CODES
+  // doesn't list; the picker's own selection display needs the canonical
+  // code to match an entry, while every link above keeps using the alias.
+  let pickerLocale = $derived(canonicalLocale(currentLocale));
 
   // The picker bar's LocalePicker only sets `lang`/`dir` on <html> by
   // default; this site's locales are separate prerendered routes, so
@@ -83,7 +88,7 @@
       themes={['light', 'dark']}
       themeProps={{ storageKey: 'lily-theme', detectFromSystem: true }}
       locales={LOCALE_CODES}
-      localeProps={{ value: currentLocale, onChange: onLocaleChange, localeLabels: LOCALE_LABELS }}
+      localeProps={{ value: pickerLocale, onChange: onLocaleChange, localeLabels: LOCALE_LABELS }}
       textSizeProps={{ storageKey: 'lily-text-size', defaultValue: 'normal' }}
       shareTargets={[
         { id: 'email', label: 'Email', href: (url, title) => `mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(url)}` },

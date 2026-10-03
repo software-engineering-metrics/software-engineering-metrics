@@ -23,8 +23,15 @@ time the way a dynamic backend could.
   `goto()`s to that locale's home page. Renders a plain "Redirecting… /
   continue here" fallback (linking to `DEFAULT_LOCALE`) for no-JS visitors
   and for the instant before the redirect fires; this is a real `<a>`,
-  not a `<meta http-equiv="refresh">`, specifically so it cannot race the
-  JS redirect and override a better match with the default locale.
+  not a bare `<meta http-equiv="refresh">`, specifically so it cannot race
+  the JS redirect and override a better match with the default locale. A
+  `<meta http-equiv="refresh">` wrapped in `<noscript>` performs the actual
+  redirect for no-JS visitors: `<noscript>` content is inert whenever
+  scripting actually runs, so it cannot race `pickLocale()`/`goto()` the
+  way an unconditional meta refresh would have; it only ever fires in
+  exactly the case the JS redirect cannot run at all. It always targets
+  `DEFAULT_LOCALE` (never a detected language), since without scripting
+  there is no `navigator.languages`/`.language` to read.
 
 This also fixes a latent bug in `src/routes/+layout.svelte` (the shared
 header/nav), exposed by this being the first-ever unprefixed route: its

@@ -50,6 +50,8 @@ const en = {
     copied: 'Copied'
   },
   footer: {
+    byline: 'Led by {author}.',
+    authorLabel: 'Joel Parker Henderson',
     about:
       'A book about measuring software engineering well, published under the {org} organization.',
     orgLinkLabel: 'software-engineering-metrics',

@@ -106,6 +106,10 @@
 <footer class="site-footer">
   <div class="site-footer-inner">
     <p>
+      {t.footer.byline.split('{author}')[0]}
+      <a href="https://linkedin.com/in/joelparkerhenderson">{t.footer.authorLabel}</a>{t.footer.byline.split('{author}')[1]}
+    </p>
+    <p>
       {t.footer.about.split('{org}')[0]}
       <a href="https://github.com/software-engineering-metrics">{t.footer.orgLinkLabel}</a>{t.footer.about.split('{org}')[1]}
     </p>

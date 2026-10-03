@@ -80,14 +80,15 @@ adding a chapter, before `just test`.
 
 ## Translated locales
 
-Fourteen genuinely translated locales (a different language, hand-translated,
+Fifteen genuinely translated locales (a different language, hand-translated,
 with their own slugs) are complete: Welsh (`cy-001`), Spanish (`es-001`),
 Hindi (`hi-001`), Chinese, China (`zh-cn`), German, Germany (`de-de`),
 Arabic, Egypt (`ar-eg`), Bengali, Bangladesh (`bn-bd`), Hindi, India
 (`hi-id`), Korean, Korea (`ko-kr`), Spanish, Spain (`es-es`),
 Portuguese, Portugal (`pt-pt`), Japanese, Japan (`ja-jp`), Russian,
-Russia (`ru-ru`), and French, France (`fr-fr`), each with all 63 chapters
-and a `locales/<code>/chapters/` directory on disk.
+Russia (`ru-ru`), French, France (`fr-fr`), and Swedish, Sweden
+(`sv-se`), each with all 63 chapters and a `locales/<code>/chapters/`
+directory on disk.
 `hi-id` is identical in content to `hi-001` (standard Hindi has no distinct
 India-specific variant the way some other languages do; `hi-id` simply
 gives the same translation a country-tagged locale code, the same
@@ -98,21 +99,18 @@ Spain-leaning, "fallo" over "falla", "rendimiento" over "desempeño") and
 then received a targeted terminology pass to the remaining minority
 usages, most notably "incidente" to "incidencia" for this book's
 incident-metrics domain, with corresponding gender-agreement fixes
-throughout. `pt-pt`, `ja-jp`, `ru-ru`, and `fr-fr` are, by contrast, genuine from-scratch
-hand translations, since no prior Portuguese, Japanese, Russian, or French
-locale existed to build from. None of these locales has a `front-matter/`,
-`examples/`, `contributing/`, or `project/` section yet (`es-001` is the
-exception: it has `examples/`); the site degrades gracefully for a missing
-section (an empty list, or a fallback to the default locale's intro copy),
-per `software-engineering-metrics.github.io/AGENTS.md`. All four of
-`cy-001`, `es-001`, `hi-001`, and `zh-cn` are wired into the site's
+throughout. `pt-pt`, `ja-jp`, `ru-ru`, `fr-fr`, and `sv-se` are, by contrast,
+genuine from-scratch hand translations, since no prior Portuguese, Japanese,
+Russian, French, or Swedish locale existed to build from. None of these
+locales has a `front-matter/`, `examples/`, `contributing/`, or `project/`
+section yet (`es-001` is the exception: it has `examples/`); the site
+degrades gracefully for a missing section (an empty list, or a fallback to
+the default locale's intro copy), per
+`software-engineering-metrics.github.io/AGENTS.md`. All four of `cy-001`,
+`es-001`, `hi-001`, and `zh-cn` are wired into the site's
 `SERVED_LOCALE_CODES` and served at their own locale-prefixed path;
 `de-de`, `ar-eg`, `bn-bd`, `hi-id`, `ko-kr`, `es-es`, `pt-pt`, `ja-jp`,
-`ru-ru`, and `fr-fr` are not yet wired into the site.
-
-Swedish, Sweden (`sv-se`) is in progress: chapters are being translated
-serially into `locales/sv-se/chapters/`. Not yet complete, and not yet
-wired into the site.
+`ru-ru`, `fr-fr`, and `sv-se` are not yet wired into the site.
 
 ## Planned translated locales
 

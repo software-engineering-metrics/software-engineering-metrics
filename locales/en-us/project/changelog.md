@@ -8,6 +8,14 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 ### Added
 
 - Completed a full, from-scratch hand translation of all 63 chapters into
+  Swedish, Sweden (`sv-se`), with matching `.locale-peer-id` sidecars and
+  passing `just test`. No prior Swedish locale existed to build from, so
+  every chapter was translated directly from the English source. The index
+  (chapter 9.7) remaps every internal chapter link to its Swedish
+  filename, following the approach used for `ar-eg`, `bn-bd`, `ko-kr`,
+  `es-es`, `pt-pt`, `ja-jp`, `ru-ru`, and `fr-fr`. Not yet wired into the
+  site.
+- Completed a full, from-scratch hand translation of all 63 chapters into
   French, France (`fr-fr`), with matching `.locale-peer-id` sidecars and
   passing `just test`. No prior French locale existed to build from, so
   every chapter was translated directly from the English source. The index

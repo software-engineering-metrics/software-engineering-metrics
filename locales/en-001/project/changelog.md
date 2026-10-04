@@ -7,6 +7,10 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Added Welsh, Great Britain (`cy-gb`) as the 17th complete translated
+  locale: all 63 chapters with matching `.locale-peer-id` sidecars, identical
+  in content to `cy-001` (the same relationship `hi-id` has to `hi-001`).
+  Not yet wired into the site.
 - Completed a full, from-scratch hand translation of all 63 chapters into
   Dutch, Netherlands (`nl-nl`), with matching `.locale-peer-id` sidecars and
   passing `just test`. No prior Dutch locale existed to build from, so

@@ -80,16 +80,18 @@ adding a chapter, before `just test`.
 
 ## Translated locales
 
-Sixteen genuinely translated locales (a different language, hand-translated,
+Seventeen translated locales (a different language, hand-translated,
 with their own slugs) are complete: Welsh (`cy-001`), Spanish (`es-001`),
 Hindi (`hi-001`), Chinese, China (`zh-cn`), German, Germany (`de-de`),
 Arabic, Egypt (`ar-eg`), Bengali, Bangladesh (`bn-bd`), Hindi, India
 (`hi-id`), Korean, Korea (`ko-kr`), Spanish, Spain (`es-es`),
 Portuguese, Portugal (`pt-pt`), Japanese, Japan (`ja-jp`), Russian,
 Russia (`ru-ru`), French, France (`fr-fr`), Swedish, Sweden
-(`sv-se`), and Dutch, Netherlands (`nl-nl`), each with all 63 chapters
-and a `locales/<code>/chapters/` directory on disk.
-`hi-id` is identical in content to `hi-001` (standard Hindi has no distinct
+(`sv-se`), Dutch, Netherlands (`nl-nl`), and Welsh, Great Britain
+(`cy-gb`), each with all 63 chapters and a `locales/<code>/chapters/`
+directory on disk.
+`cy-gb` is identical in content to `cy-001`, with the same relationship
+as `hi-id` to `hi-001`. `hi-id` is identical in content to `hi-001` (standard Hindi has no distinct
 India-specific variant the way some other languages do; `hi-id` simply
 gives the same translation a country-tagged locale code, the same
 relationship `en-001` has to `en-gb-oxendict`). `es-es` started from a copy
@@ -110,7 +112,7 @@ the default locale's intro copy), per
 `es-001`, `hi-001`, and `zh-cn` are wired into the site's
 `SERVED_LOCALE_CODES` and served at their own locale-prefixed path;
 `de-de`, `ar-eg`, `bn-bd`, `hi-id`, `ko-kr`, `es-es`, `pt-pt`, `ja-jp`,
-`ru-ru`, `fr-fr`, `sv-se`, and `nl-nl` are not yet wired into the site.
+`ru-ru`, `fr-fr`, `sv-se`, `nl-nl`, and `cy-gb` are not yet wired into the site.
 
 ## Planned translated locales
 
@@ -122,7 +124,7 @@ and stops being "planned" only once someone begins translating it, per
 that mechanism exists to avoid repeating). The full list, with each
 language's own endonym and its English exonym, is
 [locales-for-global-sharing-with-svelte/locales.tsv](locales-for-global-sharing-with-svelte/locales.tsv):
-Arabic (`ar-001`), Bengali (`bn-001`), Welsh, Great Britain (`cy-gb`), French
+Arabic (`ar-001`), Bengali (`bn-001`), French
 (`fr-001`), Indonesian (`id-001`), Portuguese (`pt-001`), Russian (`ru-001`),
 Urdu (`ur-001`), and Chinese (`zh-001`).
 

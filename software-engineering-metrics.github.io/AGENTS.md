@@ -50,7 +50,7 @@ below.
 
 ## Translated locales
 
-The four translated locales (`cy-001`, `es-001`, `hi-001`, `zh-cn`) are wired
+The five translated locales (`cy-001`, `cy-gb`, `es-001`, `hi-001`, `zh-cn`) are wired
 into `SERVED_LOCALE_CODES` in `scripts/locales.mjs` and routed like any other
 locale. Each currently ships only a `chapters/` section (`es-001` also has
 `examples/`); none has `front-matter/`, `contributing/`, or `project/` yet.

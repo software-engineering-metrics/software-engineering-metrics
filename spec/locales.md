@@ -108,11 +108,11 @@ locales has a `front-matter/`, `examples/`, `contributing/`, or `project/`
 section yet (`es-001` is the exception: it has `examples/`); the site
 degrades gracefully for a missing section (an empty list, or a fallback to
 the default locale's intro copy), per
-`software-engineering-metrics.github.io/AGENTS.md`. All four of `cy-001`,
-`es-001`, `hi-001`, and `zh-cn` are wired into the site's
+`software-engineering-metrics.github.io/AGENTS.md`. All five of `cy-001`,
+`cy-gb`, `es-001`, `hi-001`, and `zh-cn` are wired into the site's
 `SERVED_LOCALE_CODES` and served at their own locale-prefixed path;
 `de-de`, `ar-eg`, `bn-bd`, `hi-id`, `ko-kr`, `es-es`, `pt-pt`, `ja-jp`,
-`ru-ru`, `fr-fr`, `sv-se`, `nl-nl`, and `cy-gb` are not yet wired into the site.
+`ru-ru`, `fr-fr`, `sv-se`, and `nl-nl` are not yet wired into the site.
 
 ## Planned translated locales
 

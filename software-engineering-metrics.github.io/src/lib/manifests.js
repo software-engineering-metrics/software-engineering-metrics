@@ -6,6 +6,7 @@ import enGbOxendict from './manifest/en-gb-oxendict.json';
 import enGb from './manifest/en-gb.json';
 import en001 from './manifest/en-001.json';
 import cy001 from './manifest/cy-001.json';
+import cyGb from './manifest/cy-gb.json';
 import es001 from './manifest/es-001.json';
 import hi001 from './manifest/hi-001.json';
 import zhCn from './manifest/zh-cn.json';
@@ -47,6 +48,7 @@ const MANIFESTS = {
   'en-gb': enGb,
   'en-001': en001,
   'cy-001': cy001,
+  'cy-gb': cyGb,
   'es-001': es001,
   'hi-001': hi001,
   'zh-cn': zhCn

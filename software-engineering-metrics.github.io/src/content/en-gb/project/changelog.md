@@ -7,6 +7,81 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Added Welsh, Great Britain (`cy-gb`) as the 17th complete translated
+  locale: all 63 chapters with matching `.locale-peer-id` sidecars, identical
+  in content to `cy-001` (the same relationship `hi-id` has to `hi-001`).
+  Not yet wired into the site.
+- Completed a full, from-scratch hand translation of all 63 chapters into
+  Dutch, Netherlands (`nl-nl`), with matching `.locale-peer-id` sidecars and
+  passing `just test`. No prior Dutch locale existed to build from, so
+  every chapter was translated directly from the English source. The index
+  (chapter 9.7) remaps every internal chapter link to its Dutch
+  filename, following the approach used for `ar-eg`, `bn-bd`, `ko-kr`,
+  `es-es`, `pt-pt`, `ja-jp`, `ru-ru`, `fr-fr`, and `sv-se`. Not yet wired
+  into the site.
+- Completed a full, from-scratch hand translation of all 63 chapters into
+  Swedish, Sweden (`sv-se`), with matching `.locale-peer-id` sidecars and
+  passing `just test`. No prior Swedish locale existed to build from, so
+  every chapter was translated directly from the English source. The index
+  (chapter 9.7) remaps every internal chapter link to its Swedish
+  filename, following the approach used for `ar-eg`, `bn-bd`, `ko-kr`,
+  `es-es`, `pt-pt`, `ja-jp`, `ru-ru`, and `fr-fr`. Not yet wired into the
+  site.
+- Completed a full, from-scratch hand translation of all 63 chapters into
+  French, France (`fr-fr`), with matching `.locale-peer-id` sidecars and
+  passing `just test`. No prior French locale existed to build from, so
+  every chapter was translated directly from the English source. The index
+  (chapter 9.7) remaps every internal chapter link to its French
+  filename, following the approach used for `ar-eg`, `bn-bd`, `ko-kr`,
+  `es-es`, `pt-pt`, `ja-jp`, and `ru-ru`. Not yet wired into the site.
+- Completed a full, from-scratch hand translation of all 63 chapters into
+  Russian, Russia (`ru-ru`), with matching `.locale-peer-id` sidecars and
+  passing `just test`. No prior Russian locale existed to build from, so
+  every chapter was translated directly from the English source. The index
+  (chapter 9.7) remaps every internal chapter link to its Russian
+  filename, following the approach used for `ar-eg`, `bn-bd`, `ko-kr`,
+  `es-es`, `pt-pt`, and `ja-jp`. Not yet wired into the site.
+- Completed a full, from-scratch hand translation of all 63 chapters into
+  Japanese, Japan (`ja-jp`), with matching `.locale-peer-id` sidecars and
+  passing `just test`. No prior Japanese locale existed to build from, so
+  every chapter was translated directly from the English source. The index
+  (chapter 9.7) remaps every internal chapter link to its Japanese
+  filename, following the approach used for `ar-eg`, `bn-bd`, `ko-kr`,
+  `es-es`, and `pt-pt`. Not yet wired into the site.
+- Completed a full, from-scratch hand translation of all 63 chapters into
+  Portuguese, Portugal (`pt-pt`), with matching `.locale-peer-id` sidecars
+  and passing `just test`. No prior Portuguese locale existed to build
+  from, so every chapter was translated directly from the English source.
+  The index (chapter 9.7) remaps every internal chapter link to its
+  Portuguese filename, following the approach used for `ar-eg`, `bn-bd`,
+  `ko-kr`, and `es-es`. Not yet wired into the site.
+- Added Spanish, Spain (`es-es`) as a complete translated locale, all 63
+  chapters, starting from a copy of the existing Spanish (`es-001`)
+  translation (found on inspection to already be grammatically neutral,
+  with vocabulary mostly already Spain-leaning) and then applying a
+  targeted terminology pass for the remaining minority usages, most
+  notably "incidente" to "incidencia" for this book's incident-metrics
+  domain, with corresponding gender-agreement fixes throughout. Not yet
+  wired into the site.
+- Completed a full hand translation of all 63 chapters into Korean, Korea
+  (`ko-kr`), with matching `.locale-peer-id` sidecars and passing
+  `just test`. The index (chapter 9.7) remaps every internal chapter link
+  to its Korean filename, following the approach used for `ar-eg` and
+  `bn-bd`. Not yet wired into the site.
+- Added Hindi, India (`hi-id`) as a complete translated locale, all 63
+  chapters, by copying the existing Hindi (`hi-001`) translation verbatim
+  under the country-tagged locale code, since standard Hindi has no
+  distinct India-specific variant to hand-translate separately. Not yet
+  wired into the site.
+- Completed a full hand translation of all 63 chapters into Bengali,
+  Bangladesh (`bn-bd`), with matching `.locale-peer-id` sidecars and
+  passing `just test`. Not yet wired into the site.
+- Completed a full hand translation of all 63 chapters into Arabic, Egypt
+  (`ar-eg`), with matching `.locale-peer-id` sidecars and passing
+  `just test`. Not yet wired into the site.
+- Completed a full hand translation of all 63 chapters into German, Germany
+  (`de-de`), with matching `.locale-peer-id` sidecars and passing
+  `just test`. Not yet wired into the site.
 - Completed full hand translations of all 63 chapters into three locales:
   Welsh (`cy-001`), Chinese (`zh-cn`), and Hindi (`hi-001`), each with
   matching `.locale-peer-id` sidecars and passing `just test`.

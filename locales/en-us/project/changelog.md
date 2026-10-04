@@ -7,6 +7,9 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Added French (`fr-001`) as the 20th complete translated locale: all 63
+  chapters with matching `.locale-peer-id` sidecars, identical in content to
+  `fr-fr`. Wired into the site and served at `/fr-001/` (alias `/fr/`).
 - Added Bengali (`bn-001`) as the 19th complete translated locale: all 63
   chapters with matching `.locale-peer-id` sidecars, identical in content to
   `bn-bd`. Wired into the site and served at `/bn-001/` (alias `/bn/`).

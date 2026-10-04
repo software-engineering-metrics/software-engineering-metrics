@@ -80,19 +80,20 @@ adding a chapter, before `just test`.
 
 ## Translated locales
 
-Eighteen translated locales (a different language, hand-translated,
+Nineteen translated locales (a different language, hand-translated,
 with their own slugs) are complete: Welsh (`cy-001`), Spanish (`es-001`),
 Hindi (`hi-001`), Chinese, China (`zh-cn`), German, Germany (`de-de`),
 Arabic, Egypt (`ar-eg`), Bengali, Bangladesh (`bn-bd`), Hindi, India
 (`hi-id`), Korean, Korea (`ko-kr`), Spanish, Spain (`es-es`),
 Portuguese, Portugal (`pt-pt`), Japanese, Japan (`ja-jp`), Russian,
 Russia (`ru-ru`), French, France (`fr-fr`), Swedish, Sweden
-(`sv-se`), Dutch, Netherlands (`nl-nl`), and Welsh, Great Britain
-(`cy-gb`), and Arabic (`ar-001`), each with all 63 chapters and a `locales/<code>/chapters/`
-directory on disk.
-`cy-gb` is identical in content to `cy-001`, and `ar-001` to `ar-eg` (the
-Arabic is already standard, with no Egypt-specific usage), with the same
-relationship as `hi-id` to `hi-001`. `hi-id` is identical in content to `hi-001` (standard Hindi has no distinct
+(`sv-se`), Dutch, Netherlands (`nl-nl`), Welsh, Great Britain
+(`cy-gb`), Arabic (`ar-001`), and Bengali (`bn-001`), each with all 63
+chapters and a `locales/<code>/chapters/` directory on disk.
+`cy-gb` is identical in content to `cy-001`, `ar-001` to `ar-eg`, and
+`bn-001` to `bn-bd` (the Arabic and Bengali are already standard, with no
+Egypt- or Bangladesh-specific usage), each with the same relationship as
+`hi-id` to `hi-001`. `hi-id` is identical in content to `hi-001` (standard Hindi has no distinct
 India-specific variant the way some other languages do; `hi-id` simply
 gives the same translation a country-tagged locale code, the same
 relationship `en-001` has to `en-gb-oxendict`). `es-es` started from a copy
@@ -109,8 +110,8 @@ locales has a `front-matter/`, `examples/`, `contributing/`, or `project/`
 section yet (`es-001` is the exception: it has `examples/`); the site
 degrades gracefully for a missing section (an empty list, or a fallback to
 the default locale's intro copy), per
-`software-engineering-metrics.github.io/AGENTS.md`. All six of `ar-001`, `cy-001`,
-`cy-gb`, `es-001`, `hi-001`, and `zh-cn` are wired into the site's
+`software-engineering-metrics.github.io/AGENTS.md`. All seven of `ar-001`, `bn-001`,
+`cy-001`, `cy-gb`, `es-001`, `hi-001`, and `zh-cn` are wired into the site's
 `SERVED_LOCALE_CODES` and served at their own locale-prefixed path;
 `de-de`, `ar-eg`, `bn-bd`, `hi-id`, `ko-kr`, `es-es`, `pt-pt`, `ja-jp`,
 `ru-ru`, `fr-fr`, `sv-se`, and `nl-nl` are not yet wired into the site.
@@ -125,7 +126,7 @@ and stops being "planned" only once someone begins translating it, per
 that mechanism exists to avoid repeating). The full list, with each
 language's own endonym and its English exonym, is
 [locales-for-global-sharing-with-svelte/locales.tsv](locales-for-global-sharing-with-svelte/locales.tsv):
-Bengali (`bn-001`), French
+French
 (`fr-001`), Indonesian (`id-001`), Portuguese (`pt-001`), Russian (`ru-001`),
 Urdu (`ur-001`), and Chinese (`zh-001`).
 

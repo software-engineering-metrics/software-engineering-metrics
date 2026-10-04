@@ -7,6 +7,9 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Added Bengali (`bn-001`) as the 19th complete translated locale: all 63
+  chapters with matching `.locale-peer-id` sidecars, identical in content to
+  `bn-bd`. Wired into the site and served at `/bn-001/` (alias `/bn/`).
 - Added Arabic (`ar-001`) as the 18th complete translated locale: all 63
   chapters with matching `.locale-peer-id` sidecars, identical in content to
   `ar-eg`. Wired into the site and served at `/ar-001/` (alias `/ar/`).

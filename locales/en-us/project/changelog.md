@@ -7,6 +7,9 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Added Arabic (`ar-001`) as the 18th complete translated locale: all 63
+  chapters with matching `.locale-peer-id` sidecars, identical in content to
+  `ar-eg`. Wired into the site and served at `/ar-001/` (alias `/ar/`).
 - Added Welsh, Great Britain (`cy-gb`) as the 17th complete translated
   locale: all 63 chapters with matching `.locale-peer-id` sidecars, identical
   in content to `cy-001` (the same relationship `hi-id` has to `hi-001`).

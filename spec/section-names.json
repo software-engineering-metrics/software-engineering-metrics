@@ -8,27 +8,75 @@
     "communications": "communications"
   },
   "locales": {
-    "ar-001": { "chapters": "المواضيع" },
-    "ar-eg": { "chapters": "المواضيع" },
-    "bn-001": { "chapters": "বিষয়সমূহ" },
-    "bn-bd": { "chapters": "বিষয়সমূহ" },
-    "cy-001": { "chapters": "pynciau" },
-    "cy-gb": { "chapters": "pynciau" },
-    "de-de": { "chapters": "themen" },
-    "es-001": { "chapters": "temas", "examples": "ejemplos" },
-    "es-es": { "chapters": "temas" },
-    "fr-001": { "chapters": "sujets" },
-    "fr-fr": { "chapters": "sujets" },
-    "hi-001": { "chapters": "विषय" },
-    "hi-id": { "chapters": "विषय" },
-    "ja-jp": { "chapters": "トピック" },
-    "ko-kr": { "chapters": "주제" },
-    "nl-nl": { "chapters": "onderwerpen" },
-    "pt-pt": { "chapters": "temas" },
-    "ru-001": { "chapters": "темы" },
-    "ru-ru": { "chapters": "темы" },
-    "sv-se": { "chapters": "ämnen" },
-    "zh-001": { "chapters": "主题" },
-    "zh-cn": { "chapters": "主题" }
+    "ar-001": {
+      "chapters": "المواضيع"
+    },
+    "ar-eg": {
+      "chapters": "المواضيع"
+    },
+    "bn-001": {
+      "chapters": "বিষয়সমূহ"
+    },
+    "bn-bd": {
+      "chapters": "বিষয়সমূহ"
+    },
+    "cy-001": {
+      "chapters": "pynciau"
+    },
+    "cy-gb": {
+      "chapters": "pynciau"
+    },
+    "de-de": {
+      "chapters": "themen"
+    },
+    "es-001": {
+      "chapters": "temas",
+      "examples": "ejemplos"
+    },
+    "es-es": {
+      "chapters": "temas"
+    },
+    "fr-001": {
+      "chapters": "sujets"
+    },
+    "fr-fr": {
+      "chapters": "sujets"
+    },
+    "hi-001": {
+      "chapters": "विषय"
+    },
+    "hi-id": {
+      "chapters": "विषय"
+    },
+    "id-001": {
+      "chapters": "topik"
+    },
+    "ja-jp": {
+      "chapters": "トピック"
+    },
+    "ko-kr": {
+      "chapters": "주제"
+    },
+    "nl-nl": {
+      "chapters": "onderwerpen"
+    },
+    "pt-pt": {
+      "chapters": "temas"
+    },
+    "ru-001": {
+      "chapters": "темы"
+    },
+    "ru-ru": {
+      "chapters": "темы"
+    },
+    "sv-se": {
+      "chapters": "ämnen"
+    },
+    "zh-001": {
+      "chapters": "主题"
+    },
+    "zh-cn": {
+      "chapters": "主题"
+    }
   }
 }

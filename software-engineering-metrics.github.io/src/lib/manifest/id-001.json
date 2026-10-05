@@ -1,0 +1,1838 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "id-001",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-pengantar-bagian-1-dasar-dasar-pengukuran",
+          "title": "Pengantar Bagian 1: Dasar-dasar Pengukuran",
+          "heading": "1.0 Pengantar Bagian 1: Dasar-dasar Pengukuran",
+          "file": "chapters/01-00-pengantar-bagian-1-dasar-dasar-pengukuran.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-mengapa-mengukur-rekayasa-perangkat-lunak",
+          "title": "Mengapa mengukur rekayasa perangkat lunak",
+          "heading": "1.1 Mengapa mengukur rekayasa perangkat lunak",
+          "file": "chapters/01-01-mengapa-mengukur-rekayasa-perangkat-lunak.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-hukum-goodhart-dan-psikologi-metrik",
+          "title": "Hukum Goodhart dan psikologi metrik",
+          "heading": "1.2 Hukum Goodhart dan psikologi metrik",
+          "file": "chapters/01-02-hukum-goodhart-dan-psikologi-metrik.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-hasil-di-atas-keluaran-memilih-apa-yang-diukur",
+          "title": "Hasil di atas keluaran: memilih apa yang diukur",
+          "heading": "1.3 Hasil di atas keluaran: memilih apa yang diukur",
+          "file": "chapters/01-03-hasil-di-atas-keluaran-memilih-apa-yang-diukur.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-tata-kelola-dan-kepemilikan-metrik",
+          "title": "Tata kelola dan kepemilikan metrik",
+          "heading": "1.4 Tata kelola dan kepemilikan metrik",
+          "file": "chapters/01-04-tata-kelola-dan-kepemilikan-metrik.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-sumber-data-dan-instrumentasi",
+          "title": "Sumber data dan instrumentasi",
+          "heading": "1.5 Sumber data dan instrumentasi",
+          "file": "chapters/01-05-sumber-data-dan-instrumentasi.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-literasi-statistik-untuk-metrik-rekayasa",
+          "title": "Literasi statistik untuk metrik rekayasa",
+          "heading": "1.6 Literasi statistik untuk metrik rekayasa",
+          "file": "chapters/01-06-literasi-statistik-untuk-metrik-rekayasa.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-metrik-aliran",
+          "title": "Pengantar Bagian 2: Metrik Aliran",
+          "heading": "2.0 Pengantar Bagian 2: Metrik Aliran",
+          "file": "chapters/02-00-metrik-aliran.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-flow-framework",
+          "title": "Flow Framework",
+          "heading": "2.1 Flow Framework",
+          "file": "chapters/02-01-flow-framework.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-item-aliran-fitur-cacat-risiko-dan-utang",
+          "title": "Item aliran: fitur, cacat, risiko, dan utang",
+          "heading": "2.2 Item aliran: fitur, cacat, risiko, dan utang",
+          "file": "chapters/02-02-item-aliran-fitur-cacat-risiko-dan-utang.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-velocity-aliran-dan-distribusi-aliran",
+          "title": "Velocity aliran dan distribusi aliran",
+          "heading": "2.3 Velocity aliran dan distribusi aliran",
+          "file": "chapters/02-03-velocity-aliran-dan-distribusi-aliran.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-waktu-alir-dan-beban-aliran",
+          "title": "Waktu alir dan beban aliran",
+          "heading": "2.4 Waktu alir dan beban aliran",
+          "file": "chapters/02-04-waktu-alir-dan-beban-aliran.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-efisiensi-aliran-dan-pekerjaan-yang-sedang-berjalan",
+          "title": "Efisiensi aliran dan pekerjaan yang sedang berjalan",
+          "heading": "2.5 Efisiensi aliran dan pekerjaan yang sedang berjalan",
+          "file": "chapters/02-05-efisiensi-aliran-dan-pekerjaan-yang-sedang-berjalan.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-waktu-siklus-dan-komponennya",
+          "title": "Waktu siklus dan komponennya",
+          "heading": "2.6 Waktu siklus dan komponennya",
+          "file": "chapters/02-06-waktu-siklus-dan-komponennya.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-teori-antrean",
+          "title": "Teori antrean",
+          "heading": "2.7 Teori antrean",
+          "file": "chapters/02-07-teori-antrean.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-metrik-aliran-nilai-lean",
+          "title": "Metrik aliran nilai Lean",
+          "heading": "2.8 Metrik aliran nilai Lean",
+          "file": "chapters/02-08-metrik-aliran-nilai-lean.md"
+        },
+        {
+          "part": 2,
+          "chapter": 9,
+          "decimal": "2.9",
+          "slug": "02-09-metrik-pull-request-dan-tinjauan-kode",
+          "title": "Metrik pull request dan tinjauan kode",
+          "heading": "2.9 Metrik pull request dan tinjauan kode",
+          "file": "chapters/02-09-metrik-pull-request-dan-tinjauan-kode.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-kerangka-metrik-dora",
+          "title": "Kerangka metrik DORA",
+          "heading": "2.10 Kerangka metrik DORA",
+          "file": "chapters/02-10-kerangka-metrik-dora.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-pengalaman-pengembang-dan-kerangka-kerja-space",
+          "title": "Pengantar Bagian 3: Pengalaman Pengembang dan Kerangka Kerja SPACE",
+          "heading": "3.0 Pengantar Bagian 3: Pengalaman Pengembang dan Kerangka Kerja SPACE",
+          "file": "chapters/03-00-pengalaman-pengembang-dan-kerangka-kerja-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-kerangka-kerja-space",
+          "title": "Kerangka kerja SPACE",
+          "heading": "3.1 Kerangka kerja SPACE",
+          "file": "chapters/03-01-kerangka-kerja-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-metrik-kepuasan-dan-kesejahteraan",
+          "title": "Metrik kepuasan dan kesejahteraan",
+          "heading": "3.2 Metrik kepuasan dan kesejahteraan",
+          "file": "chapters/03-02-metrik-kepuasan-dan-kesejahteraan.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-metrik-kinerja-dan-proksi-hasil",
+          "title": "Metrik kinerja dan proksi hasil",
+          "heading": "3.3 Metrik kinerja dan proksi hasil",
+          "file": "chapters/03-03-metrik-kinerja-dan-proksi-hasil.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-metrik-aktivitas-dan-batasannya",
+          "title": "Metrik aktivitas dan batasannya",
+          "heading": "3.4 Metrik aktivitas dan batasannya",
+          "file": "chapters/03-04-metrik-aktivitas-dan-batasannya.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-metrik-komunikasi-dan-kolaborasi",
+          "title": "Metrik komunikasi dan kolaborasi",
+          "heading": "3.5 Metrik komunikasi dan kolaborasi",
+          "file": "chapters/03-05-metrik-komunikasi-dan-kolaborasi.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-efisiensi-dan-aliran-kerja-mendalam-dan-interupsi",
+          "title": "Efisiensi dan aliran: kerja mendalam dan interupsi",
+          "heading": "3.6 Efisiensi dan aliran: kerja mendalam dan interupsi",
+          "file": "chapters/03-06-efisiensi-dan-aliran-kerja-mendalam-dan-interupsi.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-survei-pengalaman-pengembang-dan-metrik-devex",
+          "title": "Survei pengalaman pengembang dan metrik DevEx",
+          "heading": "3.7 Survei pengalaman pengembang dan metrik DevEx",
+          "file": "chapters/03-07-survei-pengalaman-pengembang-dan-metrik-devex.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-pengantar-bagian-4-metrik-kode-dan-kualitas",
+          "title": "Pengantar Bagian 4: Metrik kode dan kualitas",
+          "heading": "4.0 Pengantar Bagian 4: Metrik kode dan kualitas",
+          "file": "chapters/04-00-pengantar-bagian-4-metrik-kode-dan-kualitas.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-metrik-kompleksitas-kode",
+          "title": "Metrik kompleksitas kode",
+          "heading": "4.1 Metrik kompleksitas kode",
+          "file": "chapters/04-01-metrik-kompleksitas-kode.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-cakupan-pengujian-dan-efektivitas-pengujian",
+          "title": "Cakupan pengujian dan efektivitas pengujian",
+          "heading": "4.2 Cakupan pengujian dan efektivitas pengujian",
+          "file": "chapters/04-02-cakupan-pengujian-dan-efektivitas-pengujian.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-churn-kode-dan-analisis-hotspot",
+          "title": "Churn kode dan analisis hotspot",
+          "heading": "4.3 Churn kode dan analisis hotspot",
+          "file": "chapters/04-03-churn-kode-dan-analisis-hotspot.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-analisis-statis-dan-metrik-code-smell",
+          "title": "Analisis statis dan metrik code smell",
+          "heading": "4.4 Analisis statis dan metrik code smell",
+          "file": "chapters/04-04-analisis-statis-dan-metrik-code-smell.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-pengukuran-utang-teknis",
+          "title": "Pengukuran utang teknis",
+          "heading": "4.5 Pengukuran utang teknis",
+          "file": "chapters/04-05-pengukuran-utang-teknis.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-metrik-dokumentasi-dan-pengetahuan",
+          "title": "Metrik dokumentasi dan pengetahuan",
+          "heading": "4.6 Metrik dokumentasi dan pengetahuan",
+          "file": "chapters/04-06-metrik-dokumentasi-dan-pengetahuan.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-metrik-produk-dan-bisnis",
+          "title": "Pengantar Bagian 5: Metrik Produk dan Bisnis",
+          "heading": "5.0 Pengantar Bagian 5: Metrik Produk dan Bisnis",
+          "file": "chapters/05-00-metrik-produk-dan-bisnis.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-tingkat-cacat-yang-lolos-dan-kebocoran-kualitas",
+          "title": "Tingkat cacat yang lolos dan kebocoran kualitas",
+          "heading": "5.1 Tingkat cacat yang lolos dan kebocoran kualitas",
+          "file": "chapters/05-01-tingkat-cacat-yang-lolos-dan-kebocoran-kualitas.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-adopsi-fitur-dan-metrik-penggunaan",
+          "title": "Adopsi fitur dan metrik penggunaan",
+          "heading": "5.2 Adopsi fitur dan metrik penggunaan",
+          "file": "chapters/05-02-adopsi-fitur-dan-metrik-penggunaan.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-metrik-hasil-pelanggan-dan-bisnis",
+          "title": "Metrik hasil pelanggan dan bisnis",
+          "heading": "5.3 Metrik hasil pelanggan dan bisnis",
+          "file": "chapters/05-03-metrik-hasil-pelanggan-dan-bisnis.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-biaya-dan-ekonomi-per-unit-rekayasa",
+          "title": "Biaya dan ekonomi per unit rekayasa",
+          "heading": "5.4 Biaya dan ekonomi per unit rekayasa",
+          "file": "chapters/05-04-biaya-dan-ekonomi-per-unit-rekayasa.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-pengembalian-investasi-untuk-inisiatif-rekayasa",
+          "title": "Pengembalian investasi untuk inisiatif rekayasa",
+          "heading": "5.5 Pengembalian investasi untuk inisiatif rekayasa",
+          "file": "chapters/05-05-pengembalian-investasi-untuk-inisiatif-rekayasa.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-pengantar-bagian-6-metrik-keandalan-operasi-dan-keamanan",
+          "title": "Pengantar Bagian 6: Metrik Keandalan, Operasi, dan Keamanan",
+          "heading": "6.0 Pengantar Bagian 6: Metrik Keandalan, Operasi, dan Keamanan",
+          "file": "chapters/06-00-pengantar-bagian-6-metrik-keandalan-operasi-dan-keamanan.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-indikator-sasaran-dan-anggaran-kesalahan-tingkat-layanan",
+          "title": "Indikator, sasaran, dan anggaran kesalahan tingkat layanan",
+          "heading": "6.1 Indikator, sasaran, dan anggaran kesalahan tingkat layanan",
+          "file": "chapters/06-01-indikator-sasaran-dan-anggaran-kesalahan-tingkat-layanan.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-metrik-insiden-deteksi-respons-dan-pemulihan",
+          "title": "Metrik insiden: deteksi, respons, dan pemulihan",
+          "heading": "6.2 Metrik insiden: deteksi, respons, dan pemulihan",
+          "file": "chapters/06-02-metrik-insiden-deteksi-respons-dan-pemulihan.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-metrik-on-call-kapasitas-dan-beban-operasional",
+          "title": "Metrik on-call, kapasitas, dan beban operasional",
+          "heading": "6.3 Metrik on-call, kapasitas, dan beban operasional",
+          "file": "chapters/06-03-metrik-on-call-kapasitas-dan-beban-operasional.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-metrik-manajemen-keamanan-dan-kerentanan",
+          "title": "Metrik manajemen keamanan dan kerentanan",
+          "heading": "6.4 Metrik manajemen keamanan dan kerentanan",
+          "file": "chapters/06-04-metrik-manajemen-keamanan-dan-kerentanan.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-metrik-di-era-ai",
+          "title": "Pengantar Bagian 7: Metrik di Era AI",
+          "heading": "7.0 Pengantar Bagian 7: Metrik di Era AI",
+          "file": "chapters/07-00-metrik-di-era-ai.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-pergeseran-paradigma-ai-generatif",
+          "title": "Pergeseran paradigma AI generatif",
+          "heading": "7.1 Pergeseran paradigma AI generatif",
+          "file": "chapters/07-01-pergeseran-paradigma-ai-generatif.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-mengukur-pengembangan-perangkat-lunak-berbantuan-ai",
+          "title": "Mengukur pengembangan perangkat lunak berbantuan AI",
+          "heading": "7.2 Mengukur pengembangan perangkat lunak berbantuan AI",
+          "file": "chapters/07-02-mengukur-pengembangan-perangkat-lunak-berbantuan-ai.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-risiko-inflasi-metrik-dan-pengenceran-kualitas",
+          "title": "Risiko inflasi metrik dan pengenceran kualitas",
+          "heading": "7.3 Risiko inflasi metrik dan pengenceran kualitas",
+          "file": "chapters/07-03-risiko-inflasi-metrik-dan-pengenceran-kualitas.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-telemetri-hasil-sebagai-bintang-utara-yang-baru",
+          "title": "Telemetri hasil sebagai bintang utara yang baru",
+          "heading": "7.4 Telemetri hasil sebagai bintang utara yang baru",
+          "file": "chapters/07-04-telemetri-hasil-sebagai-bintang-utara-yang-baru.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-membangun-program-metrik",
+          "title": "Pengantar Bagian 8: Membangun Program Metrik",
+          "heading": "8.0 Pengantar Bagian 8: Membangun Program Metrik",
+          "file": "chapters/08-00-membangun-program-metrik.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-merancang-dasbor-metrik-rekayasa",
+          "title": "Merancang dasbor metrik rekayasa",
+          "heading": "8.1 Merancang dasbor metrik rekayasa",
+          "file": "chapters/08-01-merancang-dasbor-metrik-rekayasa.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-lanskap-perangkat-membangun-sendiri-atau-membeli",
+          "title": "Lanskap perangkat: membangun sendiri atau membeli",
+          "heading": "8.2 Lanskap perangkat: membangun sendiri atau membeli",
+          "file": "chapters/08-02-lanskap-perangkat-membangun-sendiri-atau-membeli.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-meluncurkan-metrik-tanpa-menumbuhkan-ketakutan",
+          "title": "Meluncurkan metrik tanpa menumbuhkan ketakutan",
+          "heading": "8.3 Meluncurkan metrik tanpa menumbuhkan ketakutan",
+          "file": "chapters/08-03-meluncurkan-metrik-tanpa-menumbuhkan-ketakutan.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-model-kematangan-untuk-program-metrik-rekayasa",
+          "title": "Model kematangan untuk program metrik rekayasa",
+          "heading": "8.4 Model kematangan untuk program metrik rekayasa",
+          "file": "chapters/08-04-model-kematangan-untuk-program-metrik-rekayasa.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-peta-jalan-adopsi-bertahap",
+          "title": "Peta jalan adopsi bertahap",
+          "heading": "8.5 Peta jalan adopsi bertahap",
+          "file": "chapters/08-05-peta-jalan-adopsi-bertahap.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-lampiran",
+          "title": "Lampiran",
+          "heading": "9.0 Lampiran",
+          "file": "chapters/09-00-lampiran.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-glosarium",
+          "title": "Glosarium",
+          "heading": "9.1 Glosarium",
+          "file": "chapters/09-01-glosarium.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-referensi-definisi-metrik-dan-rumus",
+          "title": "Referensi definisi metrik dan rumus",
+          "heading": "9.2 Referensi definisi metrik dan rumus",
+          "file": "chapters/09-02-referensi-definisi-metrik-dan-rumus.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-daftar-periksa",
+          "title": "Daftar periksa",
+          "heading": "9.3 Daftar periksa",
+          "file": "chapters/09-03-daftar-periksa.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-templat",
+          "title": "Templat",
+          "heading": "9.4 Templat",
+          "file": "chapters/09-04-templat.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-penilaian-mandiri-kematangan",
+          "title": "Penilaian mandiri kematangan",
+          "heading": "9.5 Penilaian mandiri kematangan",
+          "file": "chapters/09-05-penilaian-mandiri-kematangan.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-referensi-dan-bacaan-lanjutan",
+          "title": "Referensi dan bacaan lanjutan",
+          "heading": "9.6 Referensi dan bacaan lanjutan",
+          "file": "chapters/09-06-referensi-dan-bacaan-lanjutan.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-indeks",
+          "title": "Indeks",
+          "heading": "9.7 Indeks",
+          "file": "chapters/09-07-indeks.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-pengantar-bagian-1-dasar-dasar-pengukuran",
+      "title": "Pengantar Bagian 1: Dasar-dasar Pengukuran",
+      "heading": "1.0 Pengantar Bagian 1: Dasar-dasar Pengukuran",
+      "file": "chapters/01-00-pengantar-bagian-1-dasar-dasar-pengukuran.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-mengapa-mengukur-rekayasa-perangkat-lunak",
+      "title": "Mengapa mengukur rekayasa perangkat lunak",
+      "heading": "1.1 Mengapa mengukur rekayasa perangkat lunak",
+      "file": "chapters/01-01-mengapa-mengukur-rekayasa-perangkat-lunak.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-hukum-goodhart-dan-psikologi-metrik",
+      "title": "Hukum Goodhart dan psikologi metrik",
+      "heading": "1.2 Hukum Goodhart dan psikologi metrik",
+      "file": "chapters/01-02-hukum-goodhart-dan-psikologi-metrik.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-hasil-di-atas-keluaran-memilih-apa-yang-diukur",
+      "title": "Hasil di atas keluaran: memilih apa yang diukur",
+      "heading": "1.3 Hasil di atas keluaran: memilih apa yang diukur",
+      "file": "chapters/01-03-hasil-di-atas-keluaran-memilih-apa-yang-diukur.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-tata-kelola-dan-kepemilikan-metrik",
+      "title": "Tata kelola dan kepemilikan metrik",
+      "heading": "1.4 Tata kelola dan kepemilikan metrik",
+      "file": "chapters/01-04-tata-kelola-dan-kepemilikan-metrik.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-sumber-data-dan-instrumentasi",
+      "title": "Sumber data dan instrumentasi",
+      "heading": "1.5 Sumber data dan instrumentasi",
+      "file": "chapters/01-05-sumber-data-dan-instrumentasi.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-literasi-statistik-untuk-metrik-rekayasa",
+      "title": "Literasi statistik untuk metrik rekayasa",
+      "heading": "1.6 Literasi statistik untuk metrik rekayasa",
+      "file": "chapters/01-06-literasi-statistik-untuk-metrik-rekayasa.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-metrik-aliran",
+      "title": "Pengantar Bagian 2: Metrik Aliran",
+      "heading": "2.0 Pengantar Bagian 2: Metrik Aliran",
+      "file": "chapters/02-00-metrik-aliran.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-flow-framework.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-item-aliran-fitur-cacat-risiko-dan-utang",
+      "title": "Item aliran: fitur, cacat, risiko, dan utang",
+      "heading": "2.2 Item aliran: fitur, cacat, risiko, dan utang",
+      "file": "chapters/02-02-item-aliran-fitur-cacat-risiko-dan-utang.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-velocity-aliran-dan-distribusi-aliran",
+      "title": "Velocity aliran dan distribusi aliran",
+      "heading": "2.3 Velocity aliran dan distribusi aliran",
+      "file": "chapters/02-03-velocity-aliran-dan-distribusi-aliran.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-waktu-alir-dan-beban-aliran",
+      "title": "Waktu alir dan beban aliran",
+      "heading": "2.4 Waktu alir dan beban aliran",
+      "file": "chapters/02-04-waktu-alir-dan-beban-aliran.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-efisiensi-aliran-dan-pekerjaan-yang-sedang-berjalan",
+      "title": "Efisiensi aliran dan pekerjaan yang sedang berjalan",
+      "heading": "2.5 Efisiensi aliran dan pekerjaan yang sedang berjalan",
+      "file": "chapters/02-05-efisiensi-aliran-dan-pekerjaan-yang-sedang-berjalan.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-waktu-siklus-dan-komponennya",
+      "title": "Waktu siklus dan komponennya",
+      "heading": "2.6 Waktu siklus dan komponennya",
+      "file": "chapters/02-06-waktu-siklus-dan-komponennya.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-teori-antrean",
+      "title": "Teori antrean",
+      "heading": "2.7 Teori antrean",
+      "file": "chapters/02-07-teori-antrean.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-metrik-aliran-nilai-lean",
+      "title": "Metrik aliran nilai Lean",
+      "heading": "2.8 Metrik aliran nilai Lean",
+      "file": "chapters/02-08-metrik-aliran-nilai-lean.md"
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-metrik-pull-request-dan-tinjauan-kode",
+      "title": "Metrik pull request dan tinjauan kode",
+      "heading": "2.9 Metrik pull request dan tinjauan kode",
+      "file": "chapters/02-09-metrik-pull-request-dan-tinjauan-kode.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-kerangka-metrik-dora",
+      "title": "Kerangka metrik DORA",
+      "heading": "2.10 Kerangka metrik DORA",
+      "file": "chapters/02-10-kerangka-metrik-dora.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-pengalaman-pengembang-dan-kerangka-kerja-space",
+      "title": "Pengantar Bagian 3: Pengalaman Pengembang dan Kerangka Kerja SPACE",
+      "heading": "3.0 Pengantar Bagian 3: Pengalaman Pengembang dan Kerangka Kerja SPACE",
+      "file": "chapters/03-00-pengalaman-pengembang-dan-kerangka-kerja-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-kerangka-kerja-space",
+      "title": "Kerangka kerja SPACE",
+      "heading": "3.1 Kerangka kerja SPACE",
+      "file": "chapters/03-01-kerangka-kerja-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-metrik-kepuasan-dan-kesejahteraan",
+      "title": "Metrik kepuasan dan kesejahteraan",
+      "heading": "3.2 Metrik kepuasan dan kesejahteraan",
+      "file": "chapters/03-02-metrik-kepuasan-dan-kesejahteraan.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-metrik-kinerja-dan-proksi-hasil",
+      "title": "Metrik kinerja dan proksi hasil",
+      "heading": "3.3 Metrik kinerja dan proksi hasil",
+      "file": "chapters/03-03-metrik-kinerja-dan-proksi-hasil.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-metrik-aktivitas-dan-batasannya",
+      "title": "Metrik aktivitas dan batasannya",
+      "heading": "3.4 Metrik aktivitas dan batasannya",
+      "file": "chapters/03-04-metrik-aktivitas-dan-batasannya.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-metrik-komunikasi-dan-kolaborasi",
+      "title": "Metrik komunikasi dan kolaborasi",
+      "heading": "3.5 Metrik komunikasi dan kolaborasi",
+      "file": "chapters/03-05-metrik-komunikasi-dan-kolaborasi.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-efisiensi-dan-aliran-kerja-mendalam-dan-interupsi",
+      "title": "Efisiensi dan aliran: kerja mendalam dan interupsi",
+      "heading": "3.6 Efisiensi dan aliran: kerja mendalam dan interupsi",
+      "file": "chapters/03-06-efisiensi-dan-aliran-kerja-mendalam-dan-interupsi.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-survei-pengalaman-pengembang-dan-metrik-devex",
+      "title": "Survei pengalaman pengembang dan metrik DevEx",
+      "heading": "3.7 Survei pengalaman pengembang dan metrik DevEx",
+      "file": "chapters/03-07-survei-pengalaman-pengembang-dan-metrik-devex.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-pengantar-bagian-4-metrik-kode-dan-kualitas",
+      "title": "Pengantar Bagian 4: Metrik kode dan kualitas",
+      "heading": "4.0 Pengantar Bagian 4: Metrik kode dan kualitas",
+      "file": "chapters/04-00-pengantar-bagian-4-metrik-kode-dan-kualitas.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-metrik-kompleksitas-kode",
+      "title": "Metrik kompleksitas kode",
+      "heading": "4.1 Metrik kompleksitas kode",
+      "file": "chapters/04-01-metrik-kompleksitas-kode.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-cakupan-pengujian-dan-efektivitas-pengujian",
+      "title": "Cakupan pengujian dan efektivitas pengujian",
+      "heading": "4.2 Cakupan pengujian dan efektivitas pengujian",
+      "file": "chapters/04-02-cakupan-pengujian-dan-efektivitas-pengujian.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-churn-kode-dan-analisis-hotspot",
+      "title": "Churn kode dan analisis hotspot",
+      "heading": "4.3 Churn kode dan analisis hotspot",
+      "file": "chapters/04-03-churn-kode-dan-analisis-hotspot.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-analisis-statis-dan-metrik-code-smell",
+      "title": "Analisis statis dan metrik code smell",
+      "heading": "4.4 Analisis statis dan metrik code smell",
+      "file": "chapters/04-04-analisis-statis-dan-metrik-code-smell.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-pengukuran-utang-teknis",
+      "title": "Pengukuran utang teknis",
+      "heading": "4.5 Pengukuran utang teknis",
+      "file": "chapters/04-05-pengukuran-utang-teknis.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-metrik-dokumentasi-dan-pengetahuan",
+      "title": "Metrik dokumentasi dan pengetahuan",
+      "heading": "4.6 Metrik dokumentasi dan pengetahuan",
+      "file": "chapters/04-06-metrik-dokumentasi-dan-pengetahuan.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-metrik-produk-dan-bisnis",
+      "title": "Pengantar Bagian 5: Metrik Produk dan Bisnis",
+      "heading": "5.0 Pengantar Bagian 5: Metrik Produk dan Bisnis",
+      "file": "chapters/05-00-metrik-produk-dan-bisnis.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-tingkat-cacat-yang-lolos-dan-kebocoran-kualitas",
+      "title": "Tingkat cacat yang lolos dan kebocoran kualitas",
+      "heading": "5.1 Tingkat cacat yang lolos dan kebocoran kualitas",
+      "file": "chapters/05-01-tingkat-cacat-yang-lolos-dan-kebocoran-kualitas.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-adopsi-fitur-dan-metrik-penggunaan",
+      "title": "Adopsi fitur dan metrik penggunaan",
+      "heading": "5.2 Adopsi fitur dan metrik penggunaan",
+      "file": "chapters/05-02-adopsi-fitur-dan-metrik-penggunaan.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-metrik-hasil-pelanggan-dan-bisnis",
+      "title": "Metrik hasil pelanggan dan bisnis",
+      "heading": "5.3 Metrik hasil pelanggan dan bisnis",
+      "file": "chapters/05-03-metrik-hasil-pelanggan-dan-bisnis.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-biaya-dan-ekonomi-per-unit-rekayasa",
+      "title": "Biaya dan ekonomi per unit rekayasa",
+      "heading": "5.4 Biaya dan ekonomi per unit rekayasa",
+      "file": "chapters/05-04-biaya-dan-ekonomi-per-unit-rekayasa.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-pengembalian-investasi-untuk-inisiatif-rekayasa",
+      "title": "Pengembalian investasi untuk inisiatif rekayasa",
+      "heading": "5.5 Pengembalian investasi untuk inisiatif rekayasa",
+      "file": "chapters/05-05-pengembalian-investasi-untuk-inisiatif-rekayasa.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-pengantar-bagian-6-metrik-keandalan-operasi-dan-keamanan",
+      "title": "Pengantar Bagian 6: Metrik Keandalan, Operasi, dan Keamanan",
+      "heading": "6.0 Pengantar Bagian 6: Metrik Keandalan, Operasi, dan Keamanan",
+      "file": "chapters/06-00-pengantar-bagian-6-metrik-keandalan-operasi-dan-keamanan.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-indikator-sasaran-dan-anggaran-kesalahan-tingkat-layanan",
+      "title": "Indikator, sasaran, dan anggaran kesalahan tingkat layanan",
+      "heading": "6.1 Indikator, sasaran, dan anggaran kesalahan tingkat layanan",
+      "file": "chapters/06-01-indikator-sasaran-dan-anggaran-kesalahan-tingkat-layanan.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-metrik-insiden-deteksi-respons-dan-pemulihan",
+      "title": "Metrik insiden: deteksi, respons, dan pemulihan",
+      "heading": "6.2 Metrik insiden: deteksi, respons, dan pemulihan",
+      "file": "chapters/06-02-metrik-insiden-deteksi-respons-dan-pemulihan.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-metrik-on-call-kapasitas-dan-beban-operasional",
+      "title": "Metrik on-call, kapasitas, dan beban operasional",
+      "heading": "6.3 Metrik on-call, kapasitas, dan beban operasional",
+      "file": "chapters/06-03-metrik-on-call-kapasitas-dan-beban-operasional.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-metrik-manajemen-keamanan-dan-kerentanan",
+      "title": "Metrik manajemen keamanan dan kerentanan",
+      "heading": "6.4 Metrik manajemen keamanan dan kerentanan",
+      "file": "chapters/06-04-metrik-manajemen-keamanan-dan-kerentanan.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-metrik-di-era-ai",
+      "title": "Pengantar Bagian 7: Metrik di Era AI",
+      "heading": "7.0 Pengantar Bagian 7: Metrik di Era AI",
+      "file": "chapters/07-00-metrik-di-era-ai.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-pergeseran-paradigma-ai-generatif",
+      "title": "Pergeseran paradigma AI generatif",
+      "heading": "7.1 Pergeseran paradigma AI generatif",
+      "file": "chapters/07-01-pergeseran-paradigma-ai-generatif.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-mengukur-pengembangan-perangkat-lunak-berbantuan-ai",
+      "title": "Mengukur pengembangan perangkat lunak berbantuan AI",
+      "heading": "7.2 Mengukur pengembangan perangkat lunak berbantuan AI",
+      "file": "chapters/07-02-mengukur-pengembangan-perangkat-lunak-berbantuan-ai.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-risiko-inflasi-metrik-dan-pengenceran-kualitas",
+      "title": "Risiko inflasi metrik dan pengenceran kualitas",
+      "heading": "7.3 Risiko inflasi metrik dan pengenceran kualitas",
+      "file": "chapters/07-03-risiko-inflasi-metrik-dan-pengenceran-kualitas.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-telemetri-hasil-sebagai-bintang-utara-yang-baru",
+      "title": "Telemetri hasil sebagai bintang utara yang baru",
+      "heading": "7.4 Telemetri hasil sebagai bintang utara yang baru",
+      "file": "chapters/07-04-telemetri-hasil-sebagai-bintang-utara-yang-baru.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-membangun-program-metrik",
+      "title": "Pengantar Bagian 8: Membangun Program Metrik",
+      "heading": "8.0 Pengantar Bagian 8: Membangun Program Metrik",
+      "file": "chapters/08-00-membangun-program-metrik.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-merancang-dasbor-metrik-rekayasa",
+      "title": "Merancang dasbor metrik rekayasa",
+      "heading": "8.1 Merancang dasbor metrik rekayasa",
+      "file": "chapters/08-01-merancang-dasbor-metrik-rekayasa.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-lanskap-perangkat-membangun-sendiri-atau-membeli",
+      "title": "Lanskap perangkat: membangun sendiri atau membeli",
+      "heading": "8.2 Lanskap perangkat: membangun sendiri atau membeli",
+      "file": "chapters/08-02-lanskap-perangkat-membangun-sendiri-atau-membeli.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-meluncurkan-metrik-tanpa-menumbuhkan-ketakutan",
+      "title": "Meluncurkan metrik tanpa menumbuhkan ketakutan",
+      "heading": "8.3 Meluncurkan metrik tanpa menumbuhkan ketakutan",
+      "file": "chapters/08-03-meluncurkan-metrik-tanpa-menumbuhkan-ketakutan.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-model-kematangan-untuk-program-metrik-rekayasa",
+      "title": "Model kematangan untuk program metrik rekayasa",
+      "heading": "8.4 Model kematangan untuk program metrik rekayasa",
+      "file": "chapters/08-04-model-kematangan-untuk-program-metrik-rekayasa.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-peta-jalan-adopsi-bertahap",
+      "title": "Peta jalan adopsi bertahap",
+      "heading": "8.5 Peta jalan adopsi bertahap",
+      "file": "chapters/08-05-peta-jalan-adopsi-bertahap.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-lampiran",
+      "title": "Lampiran",
+      "heading": "9.0 Lampiran",
+      "file": "chapters/09-00-lampiran.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-glosarium",
+      "title": "Glosarium",
+      "heading": "9.1 Glosarium",
+      "file": "chapters/09-01-glosarium.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-referensi-definisi-metrik-dan-rumus",
+      "title": "Referensi definisi metrik dan rumus",
+      "heading": "9.2 Referensi definisi metrik dan rumus",
+      "file": "chapters/09-02-referensi-definisi-metrik-dan-rumus.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-daftar-periksa",
+      "title": "Daftar periksa",
+      "heading": "9.3 Daftar periksa",
+      "file": "chapters/09-03-daftar-periksa.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-templat",
+      "title": "Templat",
+      "heading": "9.4 Templat",
+      "file": "chapters/09-04-templat.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-penilaian-mandiri-kematangan",
+      "title": "Penilaian mandiri kematangan",
+      "heading": "9.5 Penilaian mandiri kematangan",
+      "file": "chapters/09-05-penilaian-mandiri-kematangan.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-referensi-dan-bacaan-lanjutan",
+      "title": "Referensi dan bacaan lanjutan",
+      "heading": "9.6 Referensi dan bacaan lanjutan",
+      "file": "chapters/09-06-referensi-dan-bacaan-lanjutan.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-indeks",
+      "title": "Indeks",
+      "heading": "9.7 Indeks",
+      "file": "chapters/09-07-indeks.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-pengantar-bagian-1-dasar-dasar-pengukuran",
+      "title": "Pengantar Bagian 1: Dasar-dasar Pengukuran",
+      "heading": "1.0 Pengantar Bagian 1: Dasar-dasar Pengukuran",
+      "file": "chapters/01-00-pengantar-bagian-1-dasar-dasar-pengukuran.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-mengapa-mengukur-rekayasa-perangkat-lunak",
+      "title": "Mengapa mengukur rekayasa perangkat lunak",
+      "heading": "1.1 Mengapa mengukur rekayasa perangkat lunak",
+      "file": "chapters/01-01-mengapa-mengukur-rekayasa-perangkat-lunak.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-hukum-goodhart-dan-psikologi-metrik",
+      "title": "Hukum Goodhart dan psikologi metrik",
+      "heading": "1.2 Hukum Goodhart dan psikologi metrik",
+      "file": "chapters/01-02-hukum-goodhart-dan-psikologi-metrik.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-hasil-di-atas-keluaran-memilih-apa-yang-diukur",
+      "title": "Hasil di atas keluaran: memilih apa yang diukur",
+      "heading": "1.3 Hasil di atas keluaran: memilih apa yang diukur",
+      "file": "chapters/01-03-hasil-di-atas-keluaran-memilih-apa-yang-diukur.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-tata-kelola-dan-kepemilikan-metrik",
+      "title": "Tata kelola dan kepemilikan metrik",
+      "heading": "1.4 Tata kelola dan kepemilikan metrik",
+      "file": "chapters/01-04-tata-kelola-dan-kepemilikan-metrik.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-sumber-data-dan-instrumentasi",
+      "title": "Sumber data dan instrumentasi",
+      "heading": "1.5 Sumber data dan instrumentasi",
+      "file": "chapters/01-05-sumber-data-dan-instrumentasi.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-literasi-statistik-untuk-metrik-rekayasa",
+      "title": "Literasi statistik untuk metrik rekayasa",
+      "heading": "1.6 Literasi statistik untuk metrik rekayasa",
+      "file": "chapters/01-06-literasi-statistik-untuk-metrik-rekayasa.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-metrik-aliran",
+      "title": "Pengantar Bagian 2: Metrik Aliran",
+      "heading": "2.0 Pengantar Bagian 2: Metrik Aliran",
+      "file": "chapters/02-00-metrik-aliran.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-flow-framework.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-item-aliran-fitur-cacat-risiko-dan-utang",
+      "title": "Item aliran: fitur, cacat, risiko, dan utang",
+      "heading": "2.2 Item aliran: fitur, cacat, risiko, dan utang",
+      "file": "chapters/02-02-item-aliran-fitur-cacat-risiko-dan-utang.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-velocity-aliran-dan-distribusi-aliran",
+      "title": "Velocity aliran dan distribusi aliran",
+      "heading": "2.3 Velocity aliran dan distribusi aliran",
+      "file": "chapters/02-03-velocity-aliran-dan-distribusi-aliran.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-waktu-alir-dan-beban-aliran",
+      "title": "Waktu alir dan beban aliran",
+      "heading": "2.4 Waktu alir dan beban aliran",
+      "file": "chapters/02-04-waktu-alir-dan-beban-aliran.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-efisiensi-aliran-dan-pekerjaan-yang-sedang-berjalan",
+      "title": "Efisiensi aliran dan pekerjaan yang sedang berjalan",
+      "heading": "2.5 Efisiensi aliran dan pekerjaan yang sedang berjalan",
+      "file": "chapters/02-05-efisiensi-aliran-dan-pekerjaan-yang-sedang-berjalan.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-waktu-siklus-dan-komponennya",
+      "title": "Waktu siklus dan komponennya",
+      "heading": "2.6 Waktu siklus dan komponennya",
+      "file": "chapters/02-06-waktu-siklus-dan-komponennya.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-teori-antrean",
+      "title": "Teori antrean",
+      "heading": "2.7 Teori antrean",
+      "file": "chapters/02-07-teori-antrean.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-metrik-aliran-nilai-lean",
+      "title": "Metrik aliran nilai Lean",
+      "heading": "2.8 Metrik aliran nilai Lean",
+      "file": "chapters/02-08-metrik-aliran-nilai-lean.md"
+    },
+    "2.9": {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-metrik-pull-request-dan-tinjauan-kode",
+      "title": "Metrik pull request dan tinjauan kode",
+      "heading": "2.9 Metrik pull request dan tinjauan kode",
+      "file": "chapters/02-09-metrik-pull-request-dan-tinjauan-kode.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-kerangka-metrik-dora",
+      "title": "Kerangka metrik DORA",
+      "heading": "2.10 Kerangka metrik DORA",
+      "file": "chapters/02-10-kerangka-metrik-dora.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-pengalaman-pengembang-dan-kerangka-kerja-space",
+      "title": "Pengantar Bagian 3: Pengalaman Pengembang dan Kerangka Kerja SPACE",
+      "heading": "3.0 Pengantar Bagian 3: Pengalaman Pengembang dan Kerangka Kerja SPACE",
+      "file": "chapters/03-00-pengalaman-pengembang-dan-kerangka-kerja-space.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-kerangka-kerja-space",
+      "title": "Kerangka kerja SPACE",
+      "heading": "3.1 Kerangka kerja SPACE",
+      "file": "chapters/03-01-kerangka-kerja-space.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-metrik-kepuasan-dan-kesejahteraan",
+      "title": "Metrik kepuasan dan kesejahteraan",
+      "heading": "3.2 Metrik kepuasan dan kesejahteraan",
+      "file": "chapters/03-02-metrik-kepuasan-dan-kesejahteraan.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-metrik-kinerja-dan-proksi-hasil",
+      "title": "Metrik kinerja dan proksi hasil",
+      "heading": "3.3 Metrik kinerja dan proksi hasil",
+      "file": "chapters/03-03-metrik-kinerja-dan-proksi-hasil.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-metrik-aktivitas-dan-batasannya",
+      "title": "Metrik aktivitas dan batasannya",
+      "heading": "3.4 Metrik aktivitas dan batasannya",
+      "file": "chapters/03-04-metrik-aktivitas-dan-batasannya.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-metrik-komunikasi-dan-kolaborasi",
+      "title": "Metrik komunikasi dan kolaborasi",
+      "heading": "3.5 Metrik komunikasi dan kolaborasi",
+      "file": "chapters/03-05-metrik-komunikasi-dan-kolaborasi.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-efisiensi-dan-aliran-kerja-mendalam-dan-interupsi",
+      "title": "Efisiensi dan aliran: kerja mendalam dan interupsi",
+      "heading": "3.6 Efisiensi dan aliran: kerja mendalam dan interupsi",
+      "file": "chapters/03-06-efisiensi-dan-aliran-kerja-mendalam-dan-interupsi.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-survei-pengalaman-pengembang-dan-metrik-devex",
+      "title": "Survei pengalaman pengembang dan metrik DevEx",
+      "heading": "3.7 Survei pengalaman pengembang dan metrik DevEx",
+      "file": "chapters/03-07-survei-pengalaman-pengembang-dan-metrik-devex.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-pengantar-bagian-4-metrik-kode-dan-kualitas",
+      "title": "Pengantar Bagian 4: Metrik kode dan kualitas",
+      "heading": "4.0 Pengantar Bagian 4: Metrik kode dan kualitas",
+      "file": "chapters/04-00-pengantar-bagian-4-metrik-kode-dan-kualitas.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-metrik-kompleksitas-kode",
+      "title": "Metrik kompleksitas kode",
+      "heading": "4.1 Metrik kompleksitas kode",
+      "file": "chapters/04-01-metrik-kompleksitas-kode.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-cakupan-pengujian-dan-efektivitas-pengujian",
+      "title": "Cakupan pengujian dan efektivitas pengujian",
+      "heading": "4.2 Cakupan pengujian dan efektivitas pengujian",
+      "file": "chapters/04-02-cakupan-pengujian-dan-efektivitas-pengujian.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-churn-kode-dan-analisis-hotspot",
+      "title": "Churn kode dan analisis hotspot",
+      "heading": "4.3 Churn kode dan analisis hotspot",
+      "file": "chapters/04-03-churn-kode-dan-analisis-hotspot.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-analisis-statis-dan-metrik-code-smell",
+      "title": "Analisis statis dan metrik code smell",
+      "heading": "4.4 Analisis statis dan metrik code smell",
+      "file": "chapters/04-04-analisis-statis-dan-metrik-code-smell.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-pengukuran-utang-teknis",
+      "title": "Pengukuran utang teknis",
+      "heading": "4.5 Pengukuran utang teknis",
+      "file": "chapters/04-05-pengukuran-utang-teknis.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-metrik-dokumentasi-dan-pengetahuan",
+      "title": "Metrik dokumentasi dan pengetahuan",
+      "heading": "4.6 Metrik dokumentasi dan pengetahuan",
+      "file": "chapters/04-06-metrik-dokumentasi-dan-pengetahuan.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-metrik-produk-dan-bisnis",
+      "title": "Pengantar Bagian 5: Metrik Produk dan Bisnis",
+      "heading": "5.0 Pengantar Bagian 5: Metrik Produk dan Bisnis",
+      "file": "chapters/05-00-metrik-produk-dan-bisnis.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-tingkat-cacat-yang-lolos-dan-kebocoran-kualitas",
+      "title": "Tingkat cacat yang lolos dan kebocoran kualitas",
+      "heading": "5.1 Tingkat cacat yang lolos dan kebocoran kualitas",
+      "file": "chapters/05-01-tingkat-cacat-yang-lolos-dan-kebocoran-kualitas.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-adopsi-fitur-dan-metrik-penggunaan",
+      "title": "Adopsi fitur dan metrik penggunaan",
+      "heading": "5.2 Adopsi fitur dan metrik penggunaan",
+      "file": "chapters/05-02-adopsi-fitur-dan-metrik-penggunaan.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-metrik-hasil-pelanggan-dan-bisnis",
+      "title": "Metrik hasil pelanggan dan bisnis",
+      "heading": "5.3 Metrik hasil pelanggan dan bisnis",
+      "file": "chapters/05-03-metrik-hasil-pelanggan-dan-bisnis.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-biaya-dan-ekonomi-per-unit-rekayasa",
+      "title": "Biaya dan ekonomi per unit rekayasa",
+      "heading": "5.4 Biaya dan ekonomi per unit rekayasa",
+      "file": "chapters/05-04-biaya-dan-ekonomi-per-unit-rekayasa.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-pengembalian-investasi-untuk-inisiatif-rekayasa",
+      "title": "Pengembalian investasi untuk inisiatif rekayasa",
+      "heading": "5.5 Pengembalian investasi untuk inisiatif rekayasa",
+      "file": "chapters/05-05-pengembalian-investasi-untuk-inisiatif-rekayasa.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-pengantar-bagian-6-metrik-keandalan-operasi-dan-keamanan",
+      "title": "Pengantar Bagian 6: Metrik Keandalan, Operasi, dan Keamanan",
+      "heading": "6.0 Pengantar Bagian 6: Metrik Keandalan, Operasi, dan Keamanan",
+      "file": "chapters/06-00-pengantar-bagian-6-metrik-keandalan-operasi-dan-keamanan.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-indikator-sasaran-dan-anggaran-kesalahan-tingkat-layanan",
+      "title": "Indikator, sasaran, dan anggaran kesalahan tingkat layanan",
+      "heading": "6.1 Indikator, sasaran, dan anggaran kesalahan tingkat layanan",
+      "file": "chapters/06-01-indikator-sasaran-dan-anggaran-kesalahan-tingkat-layanan.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-metrik-insiden-deteksi-respons-dan-pemulihan",
+      "title": "Metrik insiden: deteksi, respons, dan pemulihan",
+      "heading": "6.2 Metrik insiden: deteksi, respons, dan pemulihan",
+      "file": "chapters/06-02-metrik-insiden-deteksi-respons-dan-pemulihan.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-metrik-on-call-kapasitas-dan-beban-operasional",
+      "title": "Metrik on-call, kapasitas, dan beban operasional",
+      "heading": "6.3 Metrik on-call, kapasitas, dan beban operasional",
+      "file": "chapters/06-03-metrik-on-call-kapasitas-dan-beban-operasional.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-metrik-manajemen-keamanan-dan-kerentanan",
+      "title": "Metrik manajemen keamanan dan kerentanan",
+      "heading": "6.4 Metrik manajemen keamanan dan kerentanan",
+      "file": "chapters/06-04-metrik-manajemen-keamanan-dan-kerentanan.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-metrik-di-era-ai",
+      "title": "Pengantar Bagian 7: Metrik di Era AI",
+      "heading": "7.0 Pengantar Bagian 7: Metrik di Era AI",
+      "file": "chapters/07-00-metrik-di-era-ai.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-pergeseran-paradigma-ai-generatif",
+      "title": "Pergeseran paradigma AI generatif",
+      "heading": "7.1 Pergeseran paradigma AI generatif",
+      "file": "chapters/07-01-pergeseran-paradigma-ai-generatif.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-mengukur-pengembangan-perangkat-lunak-berbantuan-ai",
+      "title": "Mengukur pengembangan perangkat lunak berbantuan AI",
+      "heading": "7.2 Mengukur pengembangan perangkat lunak berbantuan AI",
+      "file": "chapters/07-02-mengukur-pengembangan-perangkat-lunak-berbantuan-ai.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-risiko-inflasi-metrik-dan-pengenceran-kualitas",
+      "title": "Risiko inflasi metrik dan pengenceran kualitas",
+      "heading": "7.3 Risiko inflasi metrik dan pengenceran kualitas",
+      "file": "chapters/07-03-risiko-inflasi-metrik-dan-pengenceran-kualitas.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-telemetri-hasil-sebagai-bintang-utara-yang-baru",
+      "title": "Telemetri hasil sebagai bintang utara yang baru",
+      "heading": "7.4 Telemetri hasil sebagai bintang utara yang baru",
+      "file": "chapters/07-04-telemetri-hasil-sebagai-bintang-utara-yang-baru.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-membangun-program-metrik",
+      "title": "Pengantar Bagian 8: Membangun Program Metrik",
+      "heading": "8.0 Pengantar Bagian 8: Membangun Program Metrik",
+      "file": "chapters/08-00-membangun-program-metrik.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-merancang-dasbor-metrik-rekayasa",
+      "title": "Merancang dasbor metrik rekayasa",
+      "heading": "8.1 Merancang dasbor metrik rekayasa",
+      "file": "chapters/08-01-merancang-dasbor-metrik-rekayasa.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-lanskap-perangkat-membangun-sendiri-atau-membeli",
+      "title": "Lanskap perangkat: membangun sendiri atau membeli",
+      "heading": "8.2 Lanskap perangkat: membangun sendiri atau membeli",
+      "file": "chapters/08-02-lanskap-perangkat-membangun-sendiri-atau-membeli.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-meluncurkan-metrik-tanpa-menumbuhkan-ketakutan",
+      "title": "Meluncurkan metrik tanpa menumbuhkan ketakutan",
+      "heading": "8.3 Meluncurkan metrik tanpa menumbuhkan ketakutan",
+      "file": "chapters/08-03-meluncurkan-metrik-tanpa-menumbuhkan-ketakutan.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-model-kematangan-untuk-program-metrik-rekayasa",
+      "title": "Model kematangan untuk program metrik rekayasa",
+      "heading": "8.4 Model kematangan untuk program metrik rekayasa",
+      "file": "chapters/08-04-model-kematangan-untuk-program-metrik-rekayasa.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-peta-jalan-adopsi-bertahap",
+      "title": "Peta jalan adopsi bertahap",
+      "heading": "8.5 Peta jalan adopsi bertahap",
+      "file": "chapters/08-05-peta-jalan-adopsi-bertahap.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-lampiran",
+      "title": "Lampiran",
+      "heading": "9.0 Lampiran",
+      "file": "chapters/09-00-lampiran.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-glosarium",
+      "title": "Glosarium",
+      "heading": "9.1 Glosarium",
+      "file": "chapters/09-01-glosarium.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-referensi-definisi-metrik-dan-rumus",
+      "title": "Referensi definisi metrik dan rumus",
+      "heading": "9.2 Referensi definisi metrik dan rumus",
+      "file": "chapters/09-02-referensi-definisi-metrik-dan-rumus.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-daftar-periksa",
+      "title": "Daftar periksa",
+      "heading": "9.3 Daftar periksa",
+      "file": "chapters/09-03-daftar-periksa.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-templat",
+      "title": "Templat",
+      "heading": "9.4 Templat",
+      "file": "chapters/09-04-templat.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-penilaian-mandiri-kematangan",
+      "title": "Penilaian mandiri kematangan",
+      "heading": "9.5 Penilaian mandiri kematangan",
+      "file": "chapters/09-05-penilaian-mandiri-kematangan.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-referensi-dan-bacaan-lanjutan",
+      "title": "Referensi dan bacaan lanjutan",
+      "heading": "9.6 Referensi dan bacaan lanjutan",
+      "file": "chapters/09-06-referensi-dan-bacaan-lanjutan.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-indeks",
+      "title": "Indeks",
+      "heading": "9.7 Indeks",
+      "file": "chapters/09-07-indeks.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [],
+  "examples": [],
+  "contributing": [],
+  "project": [],
+  "totals": {
+    "parts": 9,
+    "chapters": 63
+  }
+}

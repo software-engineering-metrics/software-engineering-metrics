@@ -7,6 +7,8 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Site home page: the "nine parts" tile list is now a "Contents" nested list of all
+  parts and topics, and the "Goodhart's law, everywhere" section is removed.
 - Reworded "chapter" to "topic" throughout the book's prose in every
   locale (for example "topic 2.1", "Topics in this part"), using each
   language's own word for topic (`tema`, `sujet`, `Thema`, `тема`, `主題`,
@@ -20,6 +22,12 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Completed a full, from-scratch hand translation of all 63 topics into
+  Indonesian (`id-001`), with matching `.locale-peer-id` sidecars. No prior
+  Indonesian locale existed to build from, so every topic was translated
+  directly from the English source, and the index (topic 9.7) remaps every
+  internal link to its Indonesian filename. Wired into the site and served at
+  `/id-001/` (alias `/id/`).
 - Added Russian (`ru-001`) and Chinese (`zh-001`) as the 21st and 22nd
   complete translated locales: all 63 topics each, with matching
   `.locale-peer-id` sidecars, identical in content to `ru-ru` and `zh-cn`.

@@ -2,9 +2,11 @@
   import { page } from '$app/state';
   import { getManifest } from '#lib/manifests.js';
   import { localePrefix } from '#lib/locales.js';
+  import { ui } from '#lib/i18n.js';
 
   let prefix = $derived(localePrefix(page.params.locale));
   let manifest = $derived(getManifest(page.params.locale));
+  let t = $derived(ui(page.params.locale));
   // Some locales (genuinely translated, not just a spelling variant) ship
   // only chapters/, with no front-matter/ section yet; fall back to the
   // first chapter so "Start reading" never links to a 404.
@@ -39,42 +41,22 @@
   </div>
 </section>
 
-<section class="section">
-  <header class="section-heading">
-    <p class="section-heading-eyebrow">Browse</p>
-    <h2>The nine parts</h2>
-  </header>
-  <ul class="part-list">
+<section class="section prose" style="margin: 0 auto;" aria-labelledby="home-contents">
+  <h2 id="home-contents">{t.nav.contents}</h2>
+  <ul class="home-contents">
     {#each manifest.parts as part (part.number)}
-      {@const intro = part.chapters.find((c) => c.chapter === 0)}
       <li>
-        <a href="{prefix}/chapters/{(intro ?? part.chapters[0]).slug}/">
-          <span class="part-number">Part {part.number}</span>
-          <span class="part-title">{part.title}</span>
-          <span class="part-meta">
-            {part.chapters.length} {part.chapters.length === 1 ? 'topic' : 'topics'}
-          </span>
-        </a>
+        {part.number} {part.title}
+        <ul>
+          {#each part.chapters as chapter (chapter.slug)}
+            <li>
+              <a href="{prefix}/chapters/{chapter.slug}/">{chapter.decimal} {chapter.title}</a>
+            </li>
+          {/each}
+        </ul>
       </li>
     {/each}
   </ul>
-</section>
-
-<section class="section prose" style="margin: 0 auto;">
-  <header class="section-heading">
-    <p class="section-heading-eyebrow">Cross-cutting theme</p>
-    <h2>Goodhart's law, everywhere</h2>
-  </header>
-  <p>
-    A measure that becomes a target stops being a good measure. Every metric family in this book
-    ships with its gaming vector and its guardrail attached, not as an afterthought but as a
-    condition of using the metric at all. Outcomes are weighted over output and activity
-    throughout, and the shift to generative AI is treated as a reason to re-examine what these
-    metrics mean, not just a new column on the dashboard.
-  </p>
-  <p style="text-align: center; margin-top: 2rem;">
-    <a class="button button-secondary" href="{prefix}/contents/">See the full contents →</a>
-  </p>
 </section>
 
 <section class="section prose" style="margin: 0 auto;" aria-label="About this site">

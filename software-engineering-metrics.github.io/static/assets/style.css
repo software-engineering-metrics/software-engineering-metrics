@@ -447,41 +447,11 @@ kbd {
 a.card { color: inherit; text-decoration: none; }
 a.card:hover { color: inherit; }
 
-/* Part list (home page "Browse: the nine parts") */
+/* Home page contents: nested list of parts and chapters */
 
-.part-list {
-  list-style: none;
-  margin: 2rem 0;
-  padding: 0;
-  max-width: 40rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.part-list li + li {
-  border-top: 1px solid var(--lily-border);
-}
-.part-list a {
-  display: flex;
-  align-items: baseline;
-  gap: 0.75rem;
-  padding: 0.85rem 0.25rem;
-  color: inherit;
-  text-decoration: none;
-}
-.part-list a:hover { color: var(--color-primary); }
-.part-list .part-number {
-  flex: none;
-  font-weight: 700;
-  color: var(--color-primary);
-}
-.part-list .part-title {
-  flex: 1;
-}
-.part-list .part-meta {
-  flex: none;
-  font-size: 0.875rem;
-  color: var(--lily-text-subtle);
-}
+.home-contents > li { margin-top: 1rem; font-weight: 700; }
+.home-contents ul { font-weight: 400; margin-top: 0.35rem; }
+.home-contents a { text-decoration: none; }
 
 /* Sections */
 

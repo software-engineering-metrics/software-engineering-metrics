@@ -20,7 +20,7 @@ För stora team blir den här dimensionen strukturellt svårare att upprätthål
 
 ### Mät kunskapskoncentration direkt
 
-Spåra hur många personer som kompetent kan granska, modifiera, eller driva varje kritisk systemkomponent: en komponent med bara en kvalificerad person har en **[bussfaktor](https://en.wikipedia.org/wiki/Bus_factor)** på ett, en allvarlig och ofta osynlig risk (systerboken `software-engineering-guide`s kapitel om att upprätthålla långlivade system täcker det här på djupet). Versionskontroll-blame-data, kombinerad med jourrotationsregister, kan synliggöra den här koncentrationen automatiskt: leta efter komponenter där en enda författare eller en enda jourrespondent står för en oproportionerlig andel av ändringar eller incidentresponser över en meningsfull period.
+Spåra hur många personer som kompetent kan granska, modifiera, eller driva varje kritisk systemkomponent: en komponent med bara en kvalificerad person har en **[bussfaktor](https://en.wikipedia.org/wiki/Bus_factor)** på ett, en allvarlig och ofta osynlig risk (systerboken `software-engineering-guide`s ämne om att upprätthålla långlivade system täcker det här på djupet). Versionskontroll-blame-data, kombinerad med jourrotationsregister, kan synliggöra den här koncentrationen automatiskt: leta efter komponenter där en enda författare eller en enda jourrespondent står för en oproportionerlig andel av ändringar eller incidentresponser över en meningsfull period.
 
 ### Mät teamöverskridande beroendefriktion med en direkt signal
 

@@ -36,7 +36,7 @@ O uso produtivo dos dados de desempenho é decidir onde investir mais (uma equip
 
 ### Ser honesto sobre os limites de atribuição, especialmente para equipas de plataforma e capacitação
 
-As equipas que constroem infraestrutura partilhada, ferramentas internas, ou capacidades de plataforma (o capítulo de engenharia de plataforma do livro companheiro `software-engineering-guide` cobre isto diretamente) têm muitas vezes a sua contribuição para resultados vários passos removida de qualquer métrica única voltada para o cliente. Meça o desempenho destas equipas através do seu efeito nas equipas que capacitam, adoção da sua plataforma, redução de atrito reportada por equipas consumidoras, em vez de forçar uma métrica de resultado direto mal ajustada sobre trabalho que é inerentemente indireto.
+As equipas que constroem infraestrutura partilhada, ferramentas internas, ou capacidades de plataforma (o tema de engenharia de plataforma do livro companheiro `software-engineering-guide` cobre isto diretamente) têm muitas vezes a sua contribuição para resultados vários passos removida de qualquer métrica única voltada para o cliente. Meça o desempenho destas equipas através do seu efeito nas equipas que capacitam, adoção da sua plataforma, redução de atrito reportada por equipas consumidoras, em vez de forçar uma métrica de resultado direto mal ajustada sobre trabalho que é inerentemente indireto.
 
 ## Trocas: prós e contras
 

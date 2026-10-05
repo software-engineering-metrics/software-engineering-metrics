@@ -32,7 +32,7 @@ Calcule o orçamento de erro diretamente a partir do SLO (um alvo de 99,9% de di
 
 ### Use o orçamento de erro para tomar decisões deliberadas e informadas de risco
 
-Um orçamento de erro saudável e não gasto não é algo para acumular; é permissão para assumir riscos razoáveis, entregar uma mudança com risco elevado mas aceitável, correr uma experiência de engenharia do caos (o capítulo de engenharia do caos do livro irmão `software-engineering-guide` cobre isto diretamente), ou aceitar uma mudança arquitetural mais arriscada, porque o orçamento existe especificamente para ser gasto deliberadamente em vez de preservado intocado. Um orçamento de erro que nunca é gasto sugere ou uma equipa excessivamente conservadora ou um SLO definido demasiado frouxamente relativamente à fiabilidade real alcançada, ambos a valer a pena investigar.
+Um orçamento de erro saudável e não gasto não é algo para acumular; é permissão para assumir riscos razoáveis, entregar uma mudança com risco elevado mas aceitável, correr uma experiência de engenharia do caos (o tema de engenharia do caos do livro irmão `software-engineering-guide` cobre isto diretamente), ou aceitar uma mudança arquitetural mais arriscada, porque o orçamento existe especificamente para ser gasto deliberadamente em vez de preservado intocado. Um orçamento de erro que nunca é gasto sugere ou uma equipa excessivamente conservadora ou um SLO definido demasiado frouxamente relativamente à fiabilidade real alcançada, ambos a valer a pena investigar.
 
 ### Reveja e revise os SLOs periodicamente, com base em evidência, não em inércia
 

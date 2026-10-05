@@ -20,7 +20,7 @@ Pour les grandes équipes, cette dimension devient structurellement plus diffici
 
 ### Mesurez directement la concentration de connaissance
 
-Suivez combien de personnes peuvent revoir, modifier, ou exploiter de manière compétente chaque composant système critique : un composant avec une seule personne qualifiée a un **[facteur bus](https://en.wikipedia.org/wiki/Bus_factor)** de un, un risque sévère et souvent invisible (le chapitre du livre jumeau `software-engineering-guide` sur le maintien des systèmes à longue durée de vie couvre cela plus en profondeur). Les données de blâme du contrôle de version, combinées aux registres de rotation d'astreinte, peuvent faire émerger cette concentration automatiquement : cherchez les composants où un seul auteur ou un seul répondant d'astreinte représente une part disproportionnée des changements ou des réponses d'incident sur une période significative.
+Suivez combien de personnes peuvent revoir, modifier, ou exploiter de manière compétente chaque composant système critique : un composant avec une seule personne qualifiée a un **[facteur bus](https://en.wikipedia.org/wiki/Bus_factor)** de un, un risque sévère et souvent invisible (le sujet du livre jumeau `software-engineering-guide` sur le maintien des systèmes à longue durée de vie couvre cela plus en profondeur). Les données de blâme du contrôle de version, combinées aux registres de rotation d'astreinte, peuvent faire émerger cette concentration automatiquement : cherchez les composants où un seul auteur ou un seul répondant d'astreinte représente une part disproportionnée des changements ou des réponses d'incident sur une période significative.
 
 ### Mesurez la friction des dépendances inter-équipes avec un signal direct
 

@@ -68,7 +68,7 @@ realmente. Reporta la **mediana** (el valor central, donde la mitad de las
 observaciones están por encima y la mitad por debajo) junto al **percentil
 90** o al **percentil 95** (el valor por debajo del cual cae el 90% o el
 95% de las observaciones), que juntos muestran tanto el caso típico como la
-cola del peor caso que un equipo realmente experimenta. El capítulo de KPI
+cola del peor caso que un equipo realmente experimenta. El tema de KPI
 del libro hermano `software-engineering-guide`, y todos los temas de
 métricas de entrega de la parte 2 de este libro, asumen este hábito de
 principio a fin.

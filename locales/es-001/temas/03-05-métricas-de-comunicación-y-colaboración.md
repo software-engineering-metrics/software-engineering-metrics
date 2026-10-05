@@ -61,7 +61,7 @@ Rastrea cuántas personas pueden revisar, modificar u operar de forma
 competente cada componente de sistema crítico: un componente con solo una
 persona cualificada tiene un **[factor de
 autobús](https://en.wikipedia.org/wiki/Bus_factor)** de uno, un riesgo
-severo y a menudo invisible (el capítulo del libro hermano
+severo y a menudo invisible (el tema del libro hermano
 `software-engineering-guide` sobre sostener sistemas de larga vida cubre
 esto con más profundidad). Los datos de autoría del control de versiones,
 combinados con los registros de rotación de guardia, pueden sacar a la luz

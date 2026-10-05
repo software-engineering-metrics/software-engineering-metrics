@@ -101,7 +101,7 @@ individual.
 Un presupuesto de error saludable y sin gastar no es algo que atesorar; es
 un permiso para asumir riesgos razonables, entregar un cambio con riesgo
 elevado pero aceptable, ejecutar un experimento de ingeniería del caos (el
-capítulo de ingeniería del caos del libro hermano
+tema de ingeniería del caos del libro hermano
 `software-engineering-guide` lo cubre directamente), o aceptar un cambio
 de arquitectura más arriesgado, porque el presupuesto existe
 específicamente para gastarse deliberadamente en lugar de preservarse sin

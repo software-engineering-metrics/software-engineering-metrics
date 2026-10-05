@@ -32,7 +32,7 @@ Calculez le budget d'erreur directement depuis le SLO (une cible de disponibilit
 
 ### Utilisez le budget d'erreur pour prendre des décisions de risque délibérées et informées
 
-Un budget d'erreur sain et non dépensé n'est pas quelque chose à thésauriser ; c'est une permission de prendre des risques raisonnables, livrer un changement avec un risque élevé mais acceptable, exécuter une expérience d'ingénierie du chaos (le chapitre d'ingénierie du chaos du livre jumeau `software-engineering-guide` couvre cela directement), ou accepter un changement d'architecture plus risqué, parce que le budget existe spécifiquement pour être dépensé délibérément plutôt que préservé intact. Un budget d'erreur qui n'est jamais dépensé suggère soit une équipe excessivement conservatrice soit un SLO fixé trop lâchement par rapport à la fiabilité réellement atteinte, les deux valant la peine d'être investigués.
+Un budget d'erreur sain et non dépensé n'est pas quelque chose à thésauriser ; c'est une permission de prendre des risques raisonnables, livrer un changement avec un risque élevé mais acceptable, exécuter une expérience d'ingénierie du chaos (le sujet d'ingénierie du chaos du livre jumeau `software-engineering-guide` couvre cela directement), ou accepter un changement d'architecture plus risqué, parce que le budget existe spécifiquement pour être dépensé délibérément plutôt que préservé intact. Un budget d'erreur qui n'est jamais dépensé suggère soit une équipe excessivement conservatrice soit un SLO fixé trop lâchement par rapport à la fiabilité réellement atteinte, les deux valant la peine d'être investigués.
 
 ### Revoyez et révisez les SLO périodiquement, basé sur des preuves, pas l'inertie
 

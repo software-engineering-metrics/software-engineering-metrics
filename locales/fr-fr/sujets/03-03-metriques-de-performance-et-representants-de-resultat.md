@@ -36,7 +36,7 @@ L'usage productif des données de performance est de décider où investir davan
 
 ### Soyez honnêtes sur les limites d'attribution, surtout pour les équipes de plateforme et habilitantes
 
-Les équipes qui construisent une infrastructure partagée, des outils internes, ou des capacités de plateforme (le sujet d'ingénierie de plateforme du livre compagnon `software-engineering-guide` couvre cela directement) ont souvent leur contribution aux résultats plusieurs étapes éloignée de toute métrique unique orientée client. Mesurez la performance de ces équipes à travers leur effet sur les équipes qu'elles habilitent, l'adoption de leur plateforme, la réduction de friction rapportée par les équipes consommatrices, plutôt que de forcer une métrique de résultat direct mal adaptée sur un travail intrinsèquement indirect.
+Les équipes qui construisent une infrastructure partagée, des outils internes, ou des capacités de plateforme (le chapitre d'ingénierie de plateforme du livre compagnon `software-engineering-guide` couvre cela directement) ont souvent leur contribution aux résultats plusieurs étapes éloignée de toute métrique unique orientée client. Mesurez la performance de ces équipes à travers leur effet sur les équipes qu'elles habilitent, l'adoption de leur plateforme, la réduction de friction rapportée par les équipes consommatrices, plutôt que de forcer une métrique de résultat direct mal adaptée sur un travail intrinsèquement indirect.
 
 ## Compromis : avantages et inconvénients
 

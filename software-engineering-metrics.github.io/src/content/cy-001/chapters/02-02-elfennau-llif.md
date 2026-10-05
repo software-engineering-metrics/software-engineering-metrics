@@ -70,7 +70,7 @@ yr eiliad y mae'n mynd i mewn i'r ffrwd werth, nid ar ôl iddo gael ei
 gwblhau. Mae diffiniad y cytunwyd arno ymlaen llaw yn gwrthsefyll y
 demtasiwn i ddosbarthu'n ôl-weithredol yn seiliedig ar sut mae darn o
 waith wedi troi allan i edrych, sef yn union y risg twyllo y mae'r
-bwnc hwn yn ei enwi'n uniongyrchol isod.
+pwnc hwn yn ei enwi'n uniongyrchol isod.
 
 ### Adroddwch ddosbarthiad llif fel tuedd, nid instantiad sengl
 

@@ -105,7 +105,7 @@ vez produce mejores resultados que el uso diagnóstico.
 ### Sé honesto sobre los límites de atribución, especialmente para equipos de plataforma y habilitadores
 
 Los equipos que construyen infraestructura compartida, herramientas
-internas o capacidades de plataforma (el tema de ingeniería de
+internas o capacidades de plataforma (el capítulo de ingeniería de
 plataforma del libro hermano `software-engineering-guide` cubre esto
 directamente) a menudo tienen su contribución a los resultados varios
 pasos alejada de cualquier métrica única orientada al cliente. Mide el

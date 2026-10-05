@@ -17,7 +17,7 @@ específicamente el diseño de paneles, convirtiendo las muchas métricas de
 las partes 1 a 7 en un conjunto de vistas coherente, honesto, y usable. El
 tema 8.2 cubre la decisión de construir frente a comprar a la que
 eventualmente se enfrenta cada organización para sus herramientas de
-métricas. El tema 8.3 es el tema más centrado en las personas de
+métricas. El tema 8.3 es el más centrado en las personas de
 este libro, abordando directamente el miedo que puede provocar un
 lanzamiento de métricas y cómo evitar que ese miedo corrompa los propios
 datos de los que depende el programa, haciendo eco de las advertencias
@@ -64,7 +64,7 @@ programa de métricas a un equipo.
 El tema 8.1 es donde las familias de métricas abstractas de las
 partes 1 a 7 se convierten en un artefacto concreto, un panel, que la
 gente real realmente mira. El tema 8.2 cubre la decisión de
-herramientas de la que depende ese panel. El tema 8.3 es el tema
+herramientas de la que depende ese panel. El tema 8.3 es la
 bisagra de esta parte: aborda las dinámicas humanas y organizacionales que
 determinan si todo lo que ha recomendado este libro realmente produce
 datos confiables o se corrompe silenciosamente por el miedo, conectando

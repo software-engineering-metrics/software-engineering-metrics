@@ -25,7 +25,7 @@ digwyddiad difrifol fel un mân i warchod ei fetrigau ei hun. Mae arfer
 **post-mortem [di-fai](https://en.wikipedia.org/wiki/Just_culture)**, a
 arloeswyd mewn sefydliadau fel Etsy ac a ffurfiolwyd yn llenyddiaeth SRE
 Google, yn bodoli'n benodol i ddileu'r cymhelliant hwnnw, ac mae'r
-bwnc hwn yn ei drin fel rhagofyniad ar gyfer data digwyddiad
+pwnc hwn yn ei drin fel rhagofyniad ar gyfer data digwyddiad
 dibynadwy, nid hwylustod diwylliannol dewisol wedi'i haenu ar ben y
 metrigau.
 
@@ -181,7 +181,7 @@ osod unwaith y bydd patrwm beio-dueddol wedi ymwreiddio.
 **Busnes bach.** Mae log digwyddiad syml, a rennir, hyd yn oed un
 anffurfiol, â dosbarthiad difrifoldeb sylfaenol ac ôl-drafodaeth ddi-fai
 fer ar gyfer unrhyw beth sylweddol, yn dal y rhan fwyaf o werth y
-bwnc hwn heb angen offeryno soffistigedig na phlatfform rheoli-
+pwnc hwn heb angen offeryno soffistigedig na phlatfform rheoli-
 digwyddiad pwrpasol.
 
 **Menter.** Mae dosbarthiad difrifoldeb cyson a diwylliant di-fai

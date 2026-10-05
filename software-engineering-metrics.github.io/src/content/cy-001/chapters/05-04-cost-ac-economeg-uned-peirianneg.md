@@ -11,7 +11,7 @@ llinell wariant reoladwy fwyaf mewn sefydliad wedi'i yrru-gan-
 feddalwedd, ac eto mae'n aml yn cael ei deall leiaf gan y swyddogaeth
 gyllid, wedi'i hadrodd fel un rhif mawr gyda dim ond ychydig o
 welededd i'r hyn sy'n ei yrru neu sut mae'n graddio â thwf. Mae'r
-bwnc hwn yn bodoli i gau'r bwlch hwnnw, oherwydd mae arweinydd
+pwnc hwn yn bodoli i gau'r bwlch hwnnw, oherwydd mae arweinydd
 peirianneg na all ateb "beth mae'n ei gostio i ni redeg y system hon"
 neu "sut mae ein cost yn graddio wrth i ni dyfu" mewn termau ariannol
 concrid o dan anfantais wirioneddol ym mhob sgwrs gyllideb.

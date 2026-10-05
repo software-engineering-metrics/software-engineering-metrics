@@ -20,7 +20,7 @@ Para equipas grandes, esta dimensão torna-se estruturalmente mais difícil de s
 
 ### Medir a concentração de conhecimento diretamente
 
-Rastreie quantas pessoas conseguem competentemente rever, modificar, ou operar cada componente crítico do sistema: um componente com apenas uma pessoa qualificada tem um **[fator de autocarro](https://en.wikipedia.org/wiki/Bus_factor)** de um, um risco severo e muitas vezes invisível (o tema do livro companheiro `software-engineering-guide` sobre sustentar sistemas de longa duração cobre isto com mais profundidade). Os dados de responsabilização do controlo de versões, combinados com registos de rotação de on-call, podem revelar esta concentração automaticamente: procure componentes onde um único autor ou um único respondedor de on-call é responsável por uma parcela desproporcionada de mudanças ou respostas a incidentes durante um período significativo.
+Rastreie quantas pessoas conseguem competentemente rever, modificar, ou operar cada componente crítico do sistema: um componente com apenas uma pessoa qualificada tem um **[fator de autocarro](https://en.wikipedia.org/wiki/Bus_factor)** de um, um risco severo e muitas vezes invisível (o capítulo do livro companheiro `software-engineering-guide` sobre sustentar sistemas de longa duração cobre isto com mais profundidade). Os dados de responsabilização do controlo de versões, combinados com registos de rotação de on-call, podem revelar esta concentração automaticamente: procure componentes onde um único autor ou um único respondedor de on-call é responsável por uma parcela desproporcionada de mudanças ou respostas a incidentes durante um período significativo.
 
 ### Medir o atrito de dependências entre equipas com um sinal direto
 

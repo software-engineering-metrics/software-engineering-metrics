@@ -10,7 +10,7 @@ gyfer sefydliadau sector cyhoeddus, y canlyniadau dinesydd y mae
 cenhadaeth yn bodoli i'w gwasanaethu. Dyma'r metrigau canlyniad y gosododd
 pwnc 1.3 ar frig hierarchaeth mewnbwn-allbwn-canlyniad, a dyma lle mae'r
 llyfr hwn yn wynebu'r fersiwn anoddaf, fwyaf onest o her ganolog y
-bwnc hwnnw: yn anaml y gellir priodoli canlyniadau ar y lefel hon i
+pwnc hwnnw: yn anaml y gellir priodoli canlyniadau ar y lefel hon i
 beirianneg ar ei ben ei hun, ac mae esgus fel arall yn cynhyrchu union
 broblem y manwl-gywirdeb ffug y rhybuddiodd pwnc 3.3 amdano ar gyfer
 perfformiad unigol, wedi'i graddio nawr i lefel cyfraniad sefydliad
@@ -199,7 +199,7 @@ math hwn o dystiolaeth amddiffynadwy.
 **Llywodraeth.** Mae metrigau canlyniad dinesydd a chenhadaeth fwyfwy
 yn hyn y mae cyrff goruchwylio'n ei ddisgwyl, ac mae rhaglen na all ond
 adrodd metrigau cyflenwi (nodweddion a ryddhawyd, ar amserlen) yn
-gwahodd union yr amheuaeth y mae'r pwnc hwn wedi'i hadeiladu i'ch
+gwahodd union yr amheuaeth y mae'r pwnc hwn wedi'i adeiladu i'ch
 helpu i'w rhagflaenu. Buddsoddwch mewn olrhain canlyniadau dinesydd yn
 benodol, hyd yn oed lle maent yn anos eu mesur na chyfrif cyflenwi
 syml, gan fod y buddsoddiad hwnnw'n diogelu cyllid a chredadwyedd y

@@ -75,13 +75,13 @@ Kopier-und-einfügen-Vorlagen für wiederkehrende Dokumente. Durchgearbeitete, a
 
 Für jede Metrik:
 - Aktuelle Ablesung und Trend
-- Jede Bewegung außerhalb normaler Variation (Kapitel 1.6)
+- Jede Bewegung außerhalb normaler Variation (Thema 1.6)
 - Status der gepaarten Leitplanke, falls zutreffend
 - Entscheidung, die diese Ablesung informiert, falls vorhanden
 
 ## Vorgeschlagene neue Metriken
 
-[Jede sollte durch die Checkliste für neue Metrik-Reviews durchlaufen werden, Kapitel 9.3.]
+[Jede sollte durch die Checkliste für neue Metrik-Reviews durchlaufen werden, Thema 9.3.]
 
 ## Für Ausmusterung erwogene Metriken
 
@@ -111,7 +111,7 @@ Für jede Metrik:
 
 ## Schweregrad
 
-[Klassifikation gegen dokumentierte Kriterien, Kapitel 6.2.]
+[Klassifikation gegen dokumentierte Kriterien, Thema 6.2.]
 
 ## Ursache
 
@@ -137,13 +137,13 @@ Für jede Metrik:
 ```markdown
 # ROI-Fall: [Initiativenname]
 
-## Kosten (Gesamtbetriebskosten, Kapitel 5.5)
+## Kosten (Gesamtbetriebskosten, Thema 5.5)
 
 - Vorab: [Entwicklungskosten]
 - Laufend: [Wartung, Infrastruktur, Support, pro Jahr]
 - Opportunitätskosten: [was diese Kapazität sonst hätte tun können]
 
-## Nutzen (dokumentierte Evidenz, Kapitel 5.1-5.3)
+## Nutzen (dokumentierte Evidenz, Themen 5.1-5.3)
 
 - [Nutzen 1], belegt durch [Datenquelle]
 - [Nutzen 2], belegt durch [Datenquelle]

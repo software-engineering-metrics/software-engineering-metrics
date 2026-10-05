@@ -187,7 +187,7 @@ yn gyntaf.
 ill dau'n graddio'n wael yma, gan fod mwy o dimau'n golygu mwy o arwynebedd
 cydlynu a mwy o systemau dyngedfennol a all ddod i berthyn i bwll sy'n
 crebachu o arbenigwyr hirsefydlog. Buddsoddwch yn yr offeryno y mae'r
-bwnc hwn yn ei argymell yn fwriadol, gan na all ymwybyddiaeth
+pwnc hwn yn ei argymell yn fwriadol, gan na all ymwybyddiaeth
 anffurfiol wirioneddol gwmpasu sefydliad ar y raddfa hon.
 
 **Llywodraeth.** Gall systemau hirhoedlog a chyfnodau cyflogaeth hir sy'n

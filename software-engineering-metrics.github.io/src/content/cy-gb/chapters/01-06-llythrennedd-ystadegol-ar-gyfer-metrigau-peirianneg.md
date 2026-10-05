@@ -33,7 +33,7 @@ unrhyw un feddwl ailarchwilio'r dadansoddiad sylfaenol. Gall cymhariaeth
 naïf yn ystadegol rhwng dwy is-adran, neu rhwng cyn ac ar ôl
 ad-drefniant mawr, lunio penderfyniadau adnoddau am flynyddoedd yn seiliedig
 ar ddim mwy na sŵn neu ddrysydd na reolwyd gan unrhyw un amdano. Mae'r
-bwnc hwn yn bodoli i wneud y methiant hwnnw'n llai tebygol.
+pwnc hwn yn bodoli i wneud y methiant hwnnw'n llai tebygol.
 
 ## Egwyddorion allweddol
 

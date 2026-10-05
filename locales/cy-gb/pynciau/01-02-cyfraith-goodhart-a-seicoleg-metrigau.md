@@ -31,7 +31,7 @@ draws is-adran o chwe chant o bobl, neu a gyhoeddwyd mewn adroddiad
 perfformiad llywodraeth a ddarllenir gan ddeddfwrfa, yn teithio trwy haenau
 o bobl nad ydynt erioed wedi cyfarfod â'i awdur ac sydd â phob rheswm i
 drin llythyren y metrig fel y nod. Mae'r ystumio'n cronni gyda phellter,
-a dyna'n union pam mae'r pwnc hwn, nid un ddiweddarach, lle mae'r llyfr
+a dyna'n union pam mae'r pwnc hwn, nid un diweddarach, lle mae'r llyfr
 yn rhoi ei ganolbwynt disgyrchiant.
 
 ## Egwyddorion allweddol

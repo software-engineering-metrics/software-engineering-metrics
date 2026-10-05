@@ -1,6 +1,6 @@
 # 9.6 Quellen und weiterführende Literatur
 
-Eine konsolidierte Bibliografie der im gesamten Buch zitierten Werke, aus dem eigenen Quellenabschnitt jedes Themas zusammengetragen. Lose nach Thema organisiert; viele Werke werden aus mehreren Themen zitiert.
+Eine konsolidierte Bibliografie der im gesamten Buch zitierten Werke, aus dem eigenen Quellenabschnitt jedes Themas zusammengetragen. Lose nach Sachgebiet organisiert; viele Werke werden aus mehreren Themen zitiert.
 
 ## Grundlegende Frameworks
 

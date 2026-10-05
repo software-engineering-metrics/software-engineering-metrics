@@ -132,7 +132,7 @@ Y tensiwn canolog, mewn ystyr wirioneddol, yw'r un y agorodd y llyfr
 hwn ag ef ym mhwnc 1.3, wedi'i finiogi nawr i'w ffurf fwyaf brys:
 **adborth cyflym, cyfarwydd yn erbyn signal arafach, onest**. Bu
 metrigau allbwn bob amser yn haws ac yn gyflymach i'w cynhyrchu; dadl y
-bwnc hwn yw bod AI cynhyrchiol wedi symud y cyfaddawd hwnnw o fod dim
+pwnc hwn yw bod AI cynhyrchiol wedi symud y cyfaddawd hwnnw o fod dim
 ond yn isaddas i fod yn weithredol beryglus. Datryswch y tensiwn yn y
 ffordd y mae'r llyfr hwn wedi'i hargymell ers ei bwnc agoriadol:
 pwyswch yn benderfynol tuag at ganlyniadau, derbyniwch yr adborth arafach
@@ -344,11 +344,11 @@ llyfr yn gofyn i chi ei wneud.
 
 - *Accelerate: The Science of Lean Software and DevOps*, gan Nicole
   Forsgren, Jez Humble, a Gene Kim (y sylfaen mesur seiliedig-ar-
-  ganlyniad y mae'r llyfr cyfan hwn, a phwnc cau hwn Rhan 7, yn
+  ganlyniad y mae'r llyfr cyfan hwn, a'r pwnc hwn sy'n cau Rhan 7, yn
   adeiladu arni).
 - *Lean Analytics*, gan Alistair Croll a Benjamin Yoskovitz (y
   gwahaniaeth metrig-gweithredadwy-yn-erbyn-gwagedd y mae dadl y
-  bwnc hwn yn ei ymestyn i oes AI).
+  pwnc hwn yn ei ymestyn i oes AI).
 - *The Innovator's Dilemma*, gan Clayton M. Christensen (y patrwm
   cyffredinol o fetrigau ac arferion sefydledig yn dod yn rhwymedigaethau
   o dan symudiad technolegol darfudol).

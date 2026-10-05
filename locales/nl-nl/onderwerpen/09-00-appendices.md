@@ -10,7 +10,7 @@ Deel 9 verzamelt het referentieapparaat en praktische gereedschapskist van het b
 - **9.4 Templates**: Kopieer-plak-templates voor een metriekcharter, een dashboardspecificatie, en een metriekreview-agenda.
 - **9.5 Volwassenheidszelfbeoordeling**: Het vijf-niveau-volwassenheidsmodel van elk onderwerp, geconsolideerd in een enkele matrix voor organisatorische zelfbeoordeling, naast het doorsnijdende programmamodel van onderwerp 8.4.
 - **9.6 Bronnen en verder lezen**: Een geconsolideerde bibliografie van de werken geciteerd doorheen het boek.
-- **9.7 Index**: Een onderwerpindex die kernconcepten in kaart brengt naar de onderwerpen waar ze verschijnen.
+- **9.7 Index**: Een trefwoordenindex die kernconcepten in kaart brengt naar de onderwerpen waar ze verschijnen.
 
 ## Hoe deze appendices te gebruiken
 

@@ -7,7 +7,7 @@ escribir código era lo bastante lento y laborioso como para que el
 volumen de producción bruto, líneas escritas, commits realizados,
 funcionalidades entregadas, se correlacionara al menos vagamente con el
 esfuerzo real y, de manera imperfecta, con el valor real. Esa correlación
-nunca fue perfecta, el tema 3.4 dedicó un tema entero a por qué
+nunca fue perfecta, el tema 3.4 se dedica por entero a explicar por qué
 las métricas de actividad engañan incluso en un mundo previo a la IA, pero
 era lo bastante fuerte como para que muchas organizaciones construyeran
 programas de métricas sobre la suposición implícita de que más código

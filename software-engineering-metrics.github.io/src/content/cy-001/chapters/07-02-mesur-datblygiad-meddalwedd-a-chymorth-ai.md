@@ -21,7 +21,7 @@ chymorth AI yn ôl cyfaint allbwn, llinellau o god a gynhyrchwyd,
 awgrymiadau wedi'u derbyn, amser wedi'i arbed fesul tasg fel yr adroddir
 gan ddatblygwyr eu hunain, yn union y metrigau y rhybuddiodd pwnc
 7.1 eu bod fwyaf agored i'r symudiad hwn. Mae'r dull mwy trylwyr y mae'r
-bwnc hwn yn ei argymell yn mesur canlyniadau: a leihaodd cymorth AI
+pwnc hwn yn ei argymell yn mesur canlyniadau: a leihaodd cymorth AI
 amser cylch yn wirioneddol heb ddirywio ansawdd, a leihaodd amser a
 dreuliwyd ar waith ailadroddus, gwerth-isel gwirioneddol, gan ryddhau
 capasiti ar gyfer gwaith gwerth-uwch, ac a effeithiodd yn fesuradwy ar

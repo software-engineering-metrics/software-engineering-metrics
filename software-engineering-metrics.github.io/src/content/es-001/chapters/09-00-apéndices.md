@@ -29,7 +29,7 @@ a un único apéndice sin exigirle que haya leído antes el resto del libro.
   del tema 8.4.
 - **9.6 Referencias y lecturas adicionales**: Una bibliografía
   consolidada de las obras citadas a lo largo del libro.
-- **9.7 Índice**: Un índice temático que vincula los conceptos clave con
+- **9.7 Índice**: Un índice analítico que vincula los conceptos clave con
   los temas donde aparecen.
 
 ## Cómo usar estos apéndices

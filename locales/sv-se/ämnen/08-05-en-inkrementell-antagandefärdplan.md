@@ -87,7 +87,7 @@ Den centrala spänningen är **hastighet till heltäckande täckning kontra grun
 
 Avkastningen på en faserad, grund-först-färdplan är ett mätetalsprogram som faktiskt fungerar, pålitligt, väl styrt, genuint använt för att fatta beslut, snarare än ett heltäckande-utseende men fruktan-korrumperat eller dåligt styrt program en snabbare utrullning riskerar att producera. Hälsovårdsteknikexemplet ovan visar det här direkt: den medvetna takten producerade genuint förtroende och internt förespråkande en snabbare utrullning troligen skulle ha underminerat.
 
-Den totala ägandekostnaden är tid: den här färdplanen tar genuint längre tid att nå full omfattning än en big bang-utrullning skulle. Den tidskostnaden är det direkta, nödvändiga priset för förtroende- och styrningsgrunden hela den här boken har argumenterat för från sina öppnande ämne, och myndighetsexemplet ovan visar en genuin, praktisk sekundär nytta: inkrementella, evidensbaserade faser är ofta lättare att finansiera och motivera än en enda, stor, obevisad förhandsbegäran.
+Den totala ägandekostnaden är tid: den här färdplanen tar genuint längre tid att nå full omfattning än en big bang-utrullning skulle. Den tidskostnaden är det direkta, nödvändiga priset för förtroende- och styrningsgrunden hela den här boken har argumenterat för från sina öppnande ämnen, och myndighetsexemplet ovan visar en genuin, praktisk sekundär nytta: inkrementella, evidensbaserade faser är ofta lättare att finansiera och motivera än en enda, stor, obevisad förhandsbegäran.
 
 ## Antimönster och fallgropar
 

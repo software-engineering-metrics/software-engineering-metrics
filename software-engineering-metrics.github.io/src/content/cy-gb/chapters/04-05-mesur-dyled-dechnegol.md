@@ -16,7 +16,7 @@ hytrach na'i adael fel pryder amwys, wedi'i dan-flaenoriaethu'n barhaus y
 mae pob peiriannydd yn ei synhwyro ond na all neb weithredu arno â
 thystiolaeth.
 
-Mae'r pynciau sy'n rhagflaenu hon, cymhlethdod (4.1), gorchudd (4.2),
+Mae'r pynciau sy'n rhagflaenu hwn, cymhlethdod (4.1), gorchudd (4.2),
 trosiant a mannau poeth (4.3), a dadansoddiad statig (4.4), yn dangos
 un agwedd o ddyled dechnegol yr un. Swydd y pwnc hwn yw synthesis:
 troi'r signalau ar wahân hynny, ynghyd ag eitemau nad ydynt byth yn

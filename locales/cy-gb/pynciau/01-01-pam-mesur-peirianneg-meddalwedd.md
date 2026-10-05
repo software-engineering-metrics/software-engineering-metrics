@@ -179,7 +179,7 @@ ngwaith llywodraethu pwnc 1.4 yn hytrach na gadael iddi erydu'n ddiofyn.
 ## Golwg sector
 
 **Cwmni newydd.** Gyda llond llaw o beirianwyr, mae'r rhan fwyaf o'r hyn y mae'r
-bwnc hwn yn rhybuddio yn ei erbyn, drifft tuag at ddefnydd gwerthuso, mannau
+pwnc hwn yn rhybuddio yn ei erbyn, drifft tuag at ddefnydd gwerthuso, mannau
 dall, chwydd dangosfwrdd, yn hawdd ei osgoi'n syml oherwydd bod pawb yn siarad
 bob dydd. Y risg yw'r un gwrthgyferbyniol: hepgor mesur yn gyfan gwbl
 oherwydd ei fod yn teimlo fel gorbenion na all y tîm eu fforddio. Dewiswch

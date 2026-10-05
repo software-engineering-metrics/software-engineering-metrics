@@ -3,7 +3,7 @@
 ## Trosolwg a chymhelliant
 
 Mae'r pwnc hwn yn cau Rhan 5 trwy ddod â phopeth y mae'r pedwar pwnc
-flaenorol wedi'i fesur, ansawdd, mabwysiad, canlyniadau, a chost, ynghyd
+blaenorol wedi'i fesur, ansawdd, mabwysiad, canlyniadau, a chost, ynghyd
 i mewn i'r fframio ariannol sengl sy'n llywodraethu'r rhan fwyaf o
 benderfyniadau buddsoddi peirianneg mawr yn y pen draw:
 **[enillion ar fuddsoddiad](https://en.wikipedia.org/wiki/Return_on_investment)

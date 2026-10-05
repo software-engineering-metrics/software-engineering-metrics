@@ -4,7 +4,7 @@
 
 Mae'r dibynadwyedd y cyflwynodd pwnc 6.1 ac a fesurodd yr ymateb
 digwyddiad ym mhwnc 6.2 ill dau'n dibynnu ar system ddynol y mae'r
-bwnc hwn yn ei mesur yn uniongyrchol: y cylchdro ar-alwad, y
+pwnc hwn yn ei mesur yn uniongyrchol: y cylchdro ar-alwad, y
 peirianwyr sy'n cario dyfais alwad ac yn ymateb pan fydd rhywbeth yn
 torri, a'r capasiti isadeiledd sy'n pennu faint o lwyth y gall system
 ei amsugno cyn iddi ddechrau torri yn y lle cyntaf. Gall sefydliad gael
@@ -33,7 +33,7 @@ yn aml y bobl fwyaf profiadol yn union oherwydd y gallant ddatrys
 digwyddiadau gyflymaf, sy'n creu perygl llosgi allan a pherygl
 ffactor-bws ar yr un pryd. Mae sefydliadau menter a llywodraeth sy'n
 rhedeg gwasanaethau dyngedfennol rownd-y-cloc yn dibynnu ar fetrigau'r
-bwnc hwn i staffio cylchdroeon ar-alwad yn gynaliadwy yn hytrach na
+pwnc hwn i staffio cylchdroeon ar-alwad yn gynaliadwy yn hytrach na
 darganfod y gost wirioneddol dim ond trwy draul staff.
 
 ## Egwyddorion allweddol

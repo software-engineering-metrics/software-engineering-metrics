@@ -271,7 +271,7 @@ ariannol yn ei ddangos fel y dewis arall.
   angen ei harbenigwr unigol.
 - **Darganfod gwybodaeth ddyngedfennol heb ei dogfennu dim ond yn
   ystod trosglwyddiad staff brys:** y modd methiant drud, osgoiadwy y
-  mae'r pwnc hwn wedi'i hadeiladu i'w atal.
+  mae'r pwnc hwn wedi'i adeiladu i'w atal.
 
 ## Model aeddfedrwydd
 

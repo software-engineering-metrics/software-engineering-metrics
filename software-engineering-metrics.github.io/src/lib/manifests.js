@@ -12,6 +12,8 @@ import cyGb from './manifest/cy-gb.json';
 import es001 from './manifest/es-001.json';
 import fr001 from './manifest/fr-001.json';
 import hi001 from './manifest/hi-001.json';
+import ru001 from './manifest/ru-001.json';
+import zh001 from './manifest/zh-001.json';
 import zhCn from './manifest/zh-cn.json';
 import { DEFAULT_LOCALE, canonicalLocale } from './locales.js';
 
@@ -57,6 +59,8 @@ const MANIFESTS = {
   'es-001': es001,
   'fr-001': fr001,
   'hi-001': hi001,
+  'ru-001': ru001,
+  'zh-001': zh001,
   'zh-cn': zhCn
 };
 

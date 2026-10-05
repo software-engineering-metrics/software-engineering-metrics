@@ -7,6 +7,11 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Added Russian (`ru-001`) and Chinese (`zh-001`) as the 21st and 22nd
+  complete translated locales: all 63 chapters each, with matching
+  `.locale-peer-id` sidecars, identical in content to `ru-ru` and `zh-cn`.
+  Wired into the site and served at `/ru-001/` and `/zh-001/` (aliases
+  `/ru/` and `/zh/`).
 - Added French (`fr-001`) as the 20th complete translated locale: all 63
   chapters with matching `.locale-peer-id` sidecars, identical in content to
   `fr-fr`. Wired into the site and served at `/fr-001/` (alias `/fr/`).

@@ -2,16 +2,16 @@
 
 ## Overzicht en motivatie
 
-**Flowtijd** is de totale verstreken tijd van wanneer een flowitem (hoofdstuk 2.2) de waardestroom binnenkomt tot wanneer het geleverd wordt, responsiviteit metend over het hele pad van een geïdentificeerde bedrijfsbehoefte tot een klant die waarde ontvangt. **Flowbelasting** is het totale aantal flowitems momenteel actief of wachtend in de waardestroom op enig moment, het Flow Frameworks naam voor wat hoofdstuk 2.5 onderhanden werk noemt. Samen zijn deze de twee Flow Framework-metrieken die het meest direct verbinden met de wiskunde van wachtrijen, omdat flowbelasting niet alleen correleert met flowtijd, het dicteert hem wiskundig.
+**Flowtijd** is de totale verstreken tijd van wanneer een flowitem (onderwerp 2.2) de waardestroom binnenkomt tot wanneer het geleverd wordt, responsiviteit metend over het hele pad van een geïdentificeerde bedrijfsbehoefte tot een klant die waarde ontvangt. **Flowbelasting** is het totale aantal flowitems momenteel actief of wachtend in de waardestroom op enig moment, het Flow Frameworks naam voor wat onderwerp 2.5 onderhanden werk noemt. Samen zijn deze de twee Flow Framework-metrieken die het meest direct verbinden met de wiskunde van wachtrijen, omdat flowbelasting niet alleen correleert met flowtijd, het dicteert hem wiskundig.
 
-Die relatie is **[de Wet van Little](https://en.wikipedia.org/wiki/Little%27s_law)**, een bewijs uit wachtrijtheorie (hoofdstuk 2.7 behandelt het volledig) dat stelt dat het gemiddelde aantal items in een stabiel systeem gelijk is aan het gemiddelde aankomsttempo vermenigvuldigd met de gemiddelde tijd elk item spendeert in het systeem. Toegepast hier: flowbelasting is gelijk aan aankomsttempo vermenigvuldigd met flowtijd. Dit is het enkelvoudig nuttigste feit in dit hoofdstuk, omdat het een argument dat vroeger kwalitatief was, "we zijn te overbelast, dingen duren te lang," verandert in een bewijsbare, kwantitatieve een die een bedrijfsleider niet makkelijk kan afwijzen: als flowbelasting blijft stijgen terwijl aankomsttempo plat blijft, is flowtijd wiskundig gegarandeerd ook te stijgen, niet alleen waarschijnlijk.
+Die relatie is **[de Wet van Little](https://en.wikipedia.org/wiki/Little%27s_law)**, een bewijs uit wachtrijtheorie (onderwerp 2.7 behandelt het volledig) dat stelt dat het gemiddelde aantal items in een stabiel systeem gelijk is aan het gemiddelde aankomsttempo vermenigvuldigd met de gemiddelde tijd elk item spendeert in het systeem. Toegepast hier: flowbelasting is gelijk aan aankomsttempo vermenigvuldigd met flowtijd. Dit is het enkelvoudig nuttigste feit in dit onderwerp, omdat het een argument dat vroeger kwalitatief was, "we zijn te overbelast, dingen duren te lang," verandert in een bewijsbare, kwantitatieve een die een bedrijfsleider niet makkelijk kan afwijzen: als flowbelasting blijft stijgen terwijl aankomsttempo plat blijft, is flowtijd wiskundig gegarandeerd ook te stijgen, niet alleen waarschijnlijk.
 
 Voor grote teams is dit vaak het enkelvoudig overtuigendste cijfer in het hele raamwerk. Een bedrijfsleider die weerstaat het idee om nee te zeggen tegen nieuw werk, omdat elk verzoek individueel gerechtvaardigd aanvoelt, zal vaak accepteren dat het overbelasten van een waardestroom bewijsbaar elk item al erin vertraagt, zodra flowbelasting gevolgd wordt en de relatie met flowtijd direct getoond wordt in plaats van abstract beargumenteerd. Grote bedrijven die veel gelijktijdige strategische initiatieven jongleren en overheidsprogramma's die dozijnen parallelle werkstromen runnen vertrouwen beide op dit bewijs, niet alleen de intuïtie erachter, om nee zeggen tegen het starten van meer werk tegelijk te rechtvaardigen.
 
 ## Kernprincipes
 
 - **Flowbelasting dicteert flowtijd wiskundig, via de Wet van Little.** Dit is geen correlatie; het is een bewijs dat geldt voor elke stabiele waardestroom.
-- **Flowtijd spant de hele waardestroom, niet alleen ingenieurswerk.** Het start wanneer een bedrijfsbehoefte geïdentificeerd wordt, niet wanneer ingenieurswerk het werk opneemt, wat hoofdstuk 2.6's cyclustijd dan verder afbreekt.
+- **Flowtijd spant de hele waardestroom, niet alleen ingenieurswerk.** Het start wanneer een bedrijfsbehoefte geïdentificeerd wordt, niet wanneer ingenieurswerk het werk opneemt, wat onderwerp 2.6's cyclustijd dan verder afbreekt.
 - **Stijgende flowbelasting is het vroegste waarschuwingssignaal van stijgende flowtijd.** Omdat de relatie bewijsbaar is, kan flowbelasting bewaakt worden als een leidende indicator, niet alleen ontdekt nadat flowtijd al verslechterd is.
 - **Het instappunt van de waardestroom moet vast en gedocumenteerd zijn.** Waar de flowtijd-klok start is een definitionele keuze blootgesteld aan hetzelfde manipulatierisico als elke andere metriekgrens in dit boek.
 - **Een bedrijfsleider kan direct handelen op flowbelasting.** Anders dan flowtijd, wat een achterlopende meting is, is flowbelasting een hefboom: nee zeggen tegen het starten van nieuw werk is een actie beschikbaar vandaag.
@@ -20,7 +20,7 @@ Voor grote teams is dit vaak het enkelvoudig overtuigendste cijfer in het hele r
 
 ### Zet en documenteer het instappunt van de waardestroom vast voordat je flowtijd meet
 
-Besluit expliciet of flowtijd start wanneer een bedrijfsbehoefte eerst geïdentificeerd wordt, wanneer het formeel goedgekeurd wordt, of wanneer ingenieurswerk begint, en documenteer die keuze op dezelfde manier hoofdstuk 1.4 aanbeveelt voor elk metriekcharter. Deze enkele beslissing bepaalt of flowtijd echte end-to-end-responsiviteit meet of alleen de nauwere schijf ervan die ingenieurswerk controleert, en de definitie later veranderen zonder openbaarmaking is het centrale manipulatierisico van dit hoofdstuk.
+Besluit expliciet of flowtijd start wanneer een bedrijfsbehoefte eerst geïdentificeerd wordt, wanneer het formeel goedgekeurd wordt, of wanneer ingenieurswerk begint, en documenteer die keuze op dezelfde manier onderwerp 1.4 aanbeveelt voor elk metriekcharter. Deze enkele beslissing bepaalt of flowtijd echte end-to-end-responsiviteit meet of alleen de nauwere schijf ervan die ingenieurswerk controleert, en de definitie later veranderen zonder openbaarmaking is het centrale manipulatierisico van dit onderwerp.
 
 ### Volg flowbelasting continu, niet periodiek
 
@@ -32,11 +32,11 @@ Wanneer je het argument maakt om minder gelijktijdig werk te starten, of capacit
 
 ### Scheid flowtijd van de onderliggende oorzaken van flowbelasting voordat je een fix voorstelt
 
-Wanneer flowbelasting hoog is, onderzoek welk flowitemtype (hoofdstuk 2.2) het daadwerkelijk drijft: te veel gelijktijdige functies tegelijk gestart, een backlog van onopgeloste defecten, of risicowerk vast wachtend op een gedeelde goedkeuring. Elke oorzaak impliceert een andere fix, en "flowbelasting is hoog" behandelen als een enkel, ongedifferentieerd probleem produceert doorgaans een generieke, ineffectieve respons.
+Wanneer flowbelasting hoog is, onderzoek welk flowitemtype (onderwerp 2.2) het daadwerkelijk drijft: te veel gelijktijdige functies tegelijk gestart, een backlog van onopgeloste defecten, of risicowerk vast wachtend op een gedeelde goedkeuring. Elke oorzaak impliceert een andere fix, en "flowbelasting is hoog" behandelen als een enkel, ongedifferentieerd probleem produceert doorgaans een generieke, ineffectieve respons.
 
 ### Kruiscontroleer flowtijd tegen cyclustijd om te isoleren waar vertraging daadwerkelijk gebeurt
 
-Omdat flowtijd de hele waardestroom spant en cyclustijd (hoofdstuk 2.6) alleen het ingenieursdeel ervan dekt, vergelijk de twee direct. Een groot gat tussen flowtijd en cyclustijd betekent dat het meeste van de vertraging gebeurt voordat ingenieurswerk het werk ooit ziet, in goedkeuringswachtrijen, prioriteringsbacklogs, of overdrachten tussen teams, wat richting een heel andere fix wijst dan een gat geconcentreerd binnen ingenieurswerk zelf.
+Omdat flowtijd de hele waardestroom spant en cyclustijd (onderwerp 2.6) alleen het ingenieursdeel ervan dekt, vergelijk de twee direct. Een groot gat tussen flowtijd en cyclustijd betekent dat het meeste van de vertraging gebeurt voordat ingenieurswerk het werk ooit ziet, in goedkeuringswachtrijen, prioriteringsbacklogs, of overdrachten tussen teams, wat richting een heel andere fix wijst dan een gat geconcentreerd binnen ingenieurswerk zelf.
 
 ## Afwegingen: voor- en nadelen
 
@@ -47,7 +47,7 @@ Omdat flowtijd de hele waardestroom spant en cyclustijd (hoofdstuk 2.6) alleen h
 | Periodieke flowbelasting-ogenblikfoto's | Goedkoop om occasioneel te berekenen | Mist de leidende-indicator-waarde; stijgende belasting blijft te lang onopgemerkt |
 | Continue flowbelasting-tracking | Levende, handelbare leidende indicator | Vereist lopende toolingintegratie, geen occasioneel rapport alleen |
 
-De centrale spanning is **scope versus instrumentatiebereik**. Flowtijd alleen meten vanaf ingenieursopname is veel makkelijker te instrumenteren, omdat het cyclustijddata hergebruikt hoofdstuk 2.6 al verzamelt, maar het onderschat stilletjes echte responsiviteit door alles te negeren dat gebeurt voordat ingenieurswerk het werk ziet. Los de spanning op door te starten met de nauwere, ingenieurswerk-afgegrensde meting als dat alles is wat je vandaag kunt instrumenteren, maar behandel het uitbreiden van flowtijds startpunt stroomopwaarts, naar bedrijfsbehoefte-identificatie en prioritering, als een prioriteit op korte termijn in plaats van een permanente beperking.
+De centrale spanning is **scope versus instrumentatiebereik**. Flowtijd alleen meten vanaf ingenieursopname is veel makkelijker te instrumenteren, omdat het cyclustijddata hergebruikt onderwerp 2.6 al verzamelt, maar het onderschat stilletjes echte responsiviteit door alles te negeren dat gebeurt voordat ingenieurswerk het werk ziet. Los de spanning op door te starten met de nauwere, ingenieurswerk-afgegrensde meting als dat alles is wat je vandaag kunt instrumenteren, maar behandel het uitbreiden van flowtijds startpunt stroomopwaarts, naar bedrijfsbehoefte-identificatie en prioritering, als een prioriteit op korte termijn in plaats van een permanente beperking.
 
 ## Vragen om met je team te bespreken
 
@@ -61,7 +61,7 @@ De centrale spanning is **scope versus instrumentatiebereik**. Flowtijd alleen m
 
 5. **Hoe groot is het gat tussen onze flowtijd en onze cyclustijd, en suggereert dat gat dat de meeste vertraging voor of na ingenieurswerk het werk ziet gebeurt?** Deze vergelijking onthult vaak dat de grootste verbeteringskans volledig buiten de eigen controle van ingenieurswerk zit.
 
-6. **Heeft iemand ooit stilletjes ons flowtijd-startpunt versmald om het cijfer beter te laten lijken, zonder dat die verandering gedocumenteerd of openbaar gemaakt werd?** Dit is het centrale manipulatierisico van het hoofdstuk direct gesteld. Vraag eerlijk of je definitie ooit op deze manier is afgedreven.
+6. **Heeft iemand ooit stilletjes ons flowtijd-startpunt versmald om het cijfer beter te laten lijken, zonder dat die verandering gedocumenteerd of openbaar gemaakt werd?** Dit is het centrale manipulatierisico van het onderwerp direct gesteld. Vraag eerlijk of je definitie ooit op deze manier is afgedreven.
 
 ## Sectorperspectief
 
@@ -87,7 +87,7 @@ De totale eigendomskosten zijn laag relatief aan zijn overtuigingskracht: flowbe
 
 ## Antipatronen en valkuilen
 
-- **Stilletjes het flowtijd-startpunt versmallen om het cijfer te vleien:** de manipulatievector aan de kern van dit hoofdstuk. De start van de klok verplaatsen van echte bedrijfsbehoefte-identificatie naar een later punt, ingenieursopname, formele goedkeuring, verkleint flowtijd zonder echte responsiviteit helemaal te veranderen, en kan geleidelijk genoeg gebeuren dat geen enkele verandering lijkt als een bewuste manipulatie. De beschermmetriek is het instappunt expliciet documenteren in een metriekcharter (hoofdstuk 1.4) en het periodiek auditen tegen de gedocumenteerde definitie, dezelfde discipline dit boek vraagt voor elke metriekgrens.
+- **Stilletjes het flowtijd-startpunt versmallen om het cijfer te vleien:** de manipulatievector aan de kern van dit onderwerp. De start van de klok verplaatsen van echte bedrijfsbehoefte-identificatie naar een later punt, ingenieursopname, formele goedkeuring, verkleint flowtijd zonder echte responsiviteit helemaal te veranderen, en kan geleidelijk genoeg gebeuren dat geen enkele verandering lijkt als een bewuste manipulatie. De beschermmetriek is het instappunt expliciet documenteren in een metriekcharter (onderwerp 1.4) en het periodiek auditen tegen de gedocumenteerde definitie, dezelfde discipline dit boek vraagt voor elke metriekgrens.
 - **Flowbelasting alleen periodiek meten:** verspeelt zijn waarde als een leidende indicator, omdat een stabiele stijging weken onopgemerkt kan blijven.
 - **Flowbelasting behandelen als een enkel ongedifferentieerd cijfer:** mist welk flowitemtype een overbelasting daadwerkelijk drijft, een generieke in plaats van gerichte respons producerend.
 - **Het gat tussen flowtijd en cyclustijd negeren:** mist of vertraging geconcentreerd is voor of na ingenieurswerk, wat heel verschillende fixes impliceert.
@@ -112,8 +112,8 @@ De totale eigendomskosten zijn laag relatief aan zijn overtuigingskracht: flowbe
 ## Belangrijkste inzichten
 
 - **Flowbelasting dicteert flowtijd wiskundig**, via de Wet van Little: flowbelasting is gelijk aan aankomsttempo keer flowtijd, voor elke stabiele waardestroom.
-- **Flowtijd spant de hele waardestroom**, van bedrijfsbehoefte-identificatie tot levering, breder dan cyclustijds ingenieurswerk-alleen-scope (hoofdstuk 2.6).
-- De centrale manipulatievector van het hoofdstuk is **stilletjes het flowtijd-startpunt versmallen**; de beschermmetriek is een gedocumenteerde, geauditeerde instappunt-definitie.
+- **Flowtijd spant de hele waardestroom**, van bedrijfsbehoefte-identificatie tot levering, breder dan cyclustijds ingenieurswerk-alleen-scope (onderwerp 2.6).
+- De centrale manipulatievector van het onderwerp is **stilletjes het flowtijd-startpunt versmallen**; de beschermmetriek is een gedocumenteerde, geauditeerde instappunt-definitie.
 - **Volg flowbelasting continu**, niet periodiek, zodat het functioneert als een echte leidende indicator in plaats van een achterlopende ontdekking.
 - Gebruik de Wet van Little **expliciet**, niet alleen als een intuïtie, wanneer je pleit voor een OHW-limiet, een capaciteitsverhoging, of het sequencen van gelijktijdig werk.
 

@@ -5,8 +5,8 @@
 For most of software engineering's history, writing code was slow and
 effortful enough that raw output volume, lines written, commits made,
 features shipped, correlated at least loosely with real effort and,
-imperfectly, with real value. That correlation was never perfect, chapter
-3.4 devoted an entire chapter to why activity metrics mislead even in a
+imperfectly, with real value. That correlation was never perfect, topic
+3.4 devoted an entire topic to why activity metrics mislead even in a
 pre-AI world, but it was strong enough that many organizations built
 metrics programs on the implicit assumption that more code produced
 generally meant more work done. [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) coding assistants have broken
@@ -15,17 +15,17 @@ volume of code in seconds, at a fraction of the previous cost, and that
 volume tells you almost nothing on its own about whether the resulting code
 works, is maintainable, or serves any real purpose.
 
-This chapter's core claim is that this is a paradigm shift, not an
+This topic's core claim is that this is a paradigm shift, not an
 incremental tooling change. A paradigm shift changes what your existing
 instruments actually measure, not just what values they report. A speedometer
 still measures speed after you change a car's engine; several of this
 book's metrics do not survive this transition so cleanly. Deployment
-frequency (chapter 2.10) can rise because AI accelerated genuinely valuable
+frequency (topic 2.10) can rise because AI accelerated genuinely valuable
 work, or because AI made it trivially easy to generate many small, low-value
 changes; the number alone cannot distinguish the two anymore, in a way it
 mostly could, with appropriate caution, before. The same logic applies with
 even more force to raw commit counts, lines of code, and pull request
-volume, all of which chapter 3.4 already warned against as individual
+volume, all of which topic 3.4 already warned against as individual
 metrics, now amplified into a risk relevant at the team and organizational
 level too.
 
@@ -45,7 +45,7 @@ policy decisions built on outdated measurement assumptions.
   change.** Some existing metrics have quietly stopped meaning what they
   used to mean.
 - **Output volume was never a reliable proxy for value, and it has become
-  actively unreliable now.** Chapter 3.4's warning was always correct; this
+  actively unreliable now.** Topic 3.4's warning was always correct; this
   shift makes ignoring it far more costly.
 - **The gap between AI adoption speed and measurement adaptation speed is
   the real risk.** Organizations adopt the tooling faster than they
@@ -65,7 +65,7 @@ Go through your current dashboard and, for each metric, ask directly:
 would a team using AI assistance heavily but producing no more real value
 than before show an improved reading on this metric. Activity counts,
 commit frequency, and raw deployment frequency (without a paired stability
-guardrail, chapter 2.10) are the most exposed. Outcome metrics from Part 5,
+guardrail, topic 2.10) are the most exposed. Outcome metrics from Part 5,
 escaped defect rate, feature adoption, business outcomes, are comparatively
 resilient, since they measure the actual result rather than the volume of
 activity that produced it.
@@ -73,23 +73,23 @@ activity that produced it.
 ### Re-examine deployment frequency and lead time specifically, with
 heightened guardrail attention
 
-Chapter 2.10 already warned about substitution gaming, splitting meaningful
+Topic 2.10 already warned about substitution gaming, splitting meaningful
 work into trivial deploys to inflate the count. Generative AI makes this
 specific gaming pattern dramatically cheaper and easier to produce, even
 unintentionally, since AI-assisted trivial changes are now nearly free to
-generate. Tighten your change-failure-rate guardrail (chapter 2.10)
+generate. Tighten your change-failure-rate guardrail (topic 2.10)
 specifically in proportion to how heavily a team has adopted AI-assisted
 development, and watch deploy size trends even more closely than before.
 
 ### Treat code review capacity as a new, critical bottleneck
 
 If AI assistance dramatically increases the volume of code proposed for
-review, the review stage (chapter 2.9), already often the largest
+review, the review stage (topic 2.9), already often the largest
 wait-time contributor in the delivery pipeline, becomes an even sharper
 constraint. A reviewer asked to evaluate a much higher volume of
 AI-generated code at the same pace as before will inevitably either slow
 down the pipeline or reduce review depth, the exact rubber-stamp risk
-chapter 2.9 already warned about, now under significantly greater pressure.
+topic 2.9 already warned about, now under significantly greater pressure.
 Monitor review depth and quality guardrails with heightened attention as
 AI-generated code volume rises.
 
@@ -102,7 +102,7 @@ but subtly wrong logic, confidently generated but incorrect edge-case
 handling, or code that passes superficial review because it looks
 idiomatic and reasonable, but was not actually reasoned through with genuine
 understanding of the system's specific context. Treat this as a hypothesis
-worth actively testing against your own escaped-defect data (chapter 5.1),
+worth actively testing against your own escaped-defect data (topic 5.1),
 tagging defects by whether the originating code was substantially
 AI-generated, rather than assuming the historical defect-rate relationships
 your organization has built its quality practices around still hold
@@ -111,12 +111,12 @@ unchanged.
 ### Update your metrics charter and governance process explicitly for this
 shift
 
-Following chapter 1.4's governance discipline, do not let this shift happen
+Following topic 1.4's governance discipline, do not let this shift happen
 to your metrics program passively. Explicitly revisit your metrics
 charter, naming which metrics need new guardrails, which need retirement,
 and which remain trustworthy, as a deliberate governance decision rather
 than an unexamined drift. Document the reasoning, since this is exactly the
-kind of definitional and contextual shift chapter 1.4 warns can otherwise
+kind of definitional and contextual shift topic 1.4 warns can otherwise
 happen silently and get discovered only much later.
 
 ## Trade-offs: pros and cons
@@ -125,7 +125,7 @@ happen silently and get discovered only much later.
 | --- | --- | --- |
 | Continue reporting pre-AI metrics unchanged | No disruption, familiar reporting | Risks celebrating metrics that have quietly stopped correlating with value |
 | Full metric-set audit and deliberate revision | Restores trustworthy measurement | Requires real analytical effort and organizational change management |
-| Abandon activity and output metrics entirely | Removes the most exposed risk directly | Loses some legitimately useful contextual signal (chapter 3.4's caveat) |
+| Abandon activity and output metrics entirely | Removes the most exposed risk directly | Loses some legitimately useful contextual signal (topic 3.4's caveat) |
 | Tighten guardrails without full audit | Faster to implement | May miss metrics whose exposure is less obvious than the clearest cases |
 
 The central tension is **measurement continuity versus measurement
@@ -134,7 +134,7 @@ metrics in familiar ways, since changing a metrics program has real
 organizational cost and disruption. But continuing to report a metric that
 has quietly stopped measuring what it used to measure is worse than
 disruption, it is active misdirection. Resolve the tension by treating this
-as exactly the kind of deliberate, documented governance change chapter 1.4
+as exactly the kind of deliberate, documented governance change topic 1.4
 describes, disruptive in the short term but necessary to keep the
 organization's metrics honest.
 
@@ -153,7 +153,7 @@ organization's metrics honest.
 
 3. **Is our code review capacity keeping pace with any increase in
    AI-assisted code volume, or is review depth quietly eroding under
-   increased pressure?** Check review-stage metrics (chapter 2.9)
+   increased pressure?** Check review-stage metrics (topic 2.9)
    specifically for signs of the rubber-stamp risk intensifying.
 
 4. **Do we tag defects by whether the originating code was substantially
@@ -162,15 +162,15 @@ organization's metrics honest.
    data is directly relevant to whether your historical quality assumptions
    still hold.
 
-5. **Have we deliberately revisited our metrics charter (chapter 1.4) in
+5. **Have we deliberately revisited our metrics charter (topic 1.4) in
    light of this shift, or has our measurement practice simply continued
    unchanged?** If the honest answer is the latter, that gap is exactly
-   what this chapter recommends closing first.
+   what this topic recommends closing first.
 
 6. **What would it look like for our organization to be caught flat-footed
    by this shift, celebrating a metric that had already stopped meaning
    what we thought it meant?** This concrete, slightly uncomfortable
-   thought experiment helps motivate the audit this chapter recommends
+   thought experiment helps motivate the audit this topic recommends
    before, rather than after, that scenario actually happens.
 
 ## Sector lens
@@ -190,9 +190,9 @@ organization with more redundancy.
 **Enterprise.** The scale of this risk compounds significantly here, since
 AI adoption across dozens or hundreds of teams simultaneously can shift
 metric validity organization-wide before any single team notices the
-pattern locally. Conduct the metric-set audit this chapter recommends at
+pattern locally. Conduct the metric-set audit this topic recommends at
 the organizational level, not just team by team, and update governance
-(chapter 1.4) centrally and explicitly.
+(topic 1.4) centrally and explicitly.
 
 **Government.** Public-sector organizations often adopt new technology more
 cautiously, but the metrics and benchmarks used to evaluate government
@@ -255,13 +255,13 @@ metrics governance cadence.
   uncritically:** risks celebrating a metric that has quietly stopped
   correlating with real value.
 - **Reporting deployment frequency or output volume increases without the
-  paired stability guardrail:** repeats chapter 2.10's warning with
+  paired stability guardrail:** repeats topic 2.10's warning with
   significantly higher stakes under AI-assisted development.
 - **Assuming AI-generated code carries the same defect profile as
   human-written code without checking:** an untested assumption that could
   be actively wrong.
 - **Letting review depth erode silently under increased AI-generated code
-  volume:** the rubber-stamp risk from chapter 2.9, intensified.
+  volume:** the rubber-stamp risk from topic 2.9, intensified.
 - **Treating this shift as a one-time adjustment rather than an ongoing
   concern:** the tooling and its adoption patterns continue to evolve, and
   measurement practice needs to keep pace.
@@ -308,14 +308,14 @@ metrics governance cadence.
   defect profile** than human-written code, using tagged escaped-defect
   data.
 - Treat this as an **ongoing, not one-time, governance concern**
-  (chapter 1.4), since the tooling and its adoption patterns continue to
+  (topic 1.4), since the tooling and its adoption patterns continue to
   evolve.
 
 ## References and further reading
 
 - *Accelerate: The Science of Lean Software and DevOps*, by Nicole Forsgren,
   Jez Humble, and Gene Kim (the outcome-based measurement foundation this
-  chapter argues becomes more, not less, important under this shift).
+  topic argues becomes more, not less, important under this shift).
 - GitHub's research on AI pair programming and developer productivity
   (industry research on AI-assisted development's measurable effects).
 - Google Cloud's DevOps Research and Assessment program, [dora.dev](https://dora.dev/) (ongoing

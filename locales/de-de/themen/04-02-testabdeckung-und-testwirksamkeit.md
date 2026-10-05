@@ -2,16 +2,16 @@
 
 ## Überblick und Motivation
 
-**[Testabdeckung](https://en.wikipedia.org/wiki/Code_coverage)** misst den Prozentsatz des Codes, der von einer Testsuite ausgeführt wird: Zeilenabdeckung, Verzweigungsabdeckung oder die strengere Pfadabdeckung. Sie ist eine der am weitesten verfolgten Metriken in diesem gesamten Buch, günstig zu berechnen, leicht als einzelner Prozentsatz zu visualisieren, und folglich eine der am häufigsten manipulierten, genau auf die Weise, die Kapitel 1.2 für jede Metrik vorhersagt, die zum Ziel wird. Eine Testsuite kann hohe Abdeckung erreichen, während sie fast nichts Bedeutsames verifiziert, weil Abdeckung misst, ob Code während eines Testlaufs ausgeführt wurde, nicht, ob der Test tatsächlich prüfte, dass sich der Code korrekt verhielt.
+**[Testabdeckung](https://en.wikipedia.org/wiki/Code_coverage)** misst den Prozentsatz des Codes, der von einer Testsuite ausgeführt wird: Zeilenabdeckung, Verzweigungsabdeckung oder die strengere Pfadabdeckung. Sie ist eine der am weitesten verfolgten Metriken in diesem gesamten Buch, günstig zu berechnen, leicht als einzelner Prozentsatz zu visualisieren, und folglich eine der am häufigsten manipulierten, genau auf die Weise, die Thema 1.2 für jede Metrik vorhersagt, die zum Ziel wird. Eine Testsuite kann hohe Abdeckung erreichen, während sie fast nichts Bedeutsames verifiziert, weil Abdeckung misst, ob Code während eines Testlaufs ausgeführt wurde, nicht, ob der Test tatsächlich prüfte, dass sich der Code korrekt verhielt.
 
-Diese Lücke zwischen Abdeckung und echter Testwirksamkeit ist keine kleine Fußnote; sie ist das zentrale Anliegen dieses Kapitels. Ein Test, der eine Funktion aufruft und nichts über ihr Ergebnis behauptet, erhöht die Abdeckung identisch zu einem Test, der das Verhalten der Funktion über Grenzfälle hinweg gründlich verifiziert. Die von diesem Kapitel empfohlene Korrektur, **Mutationstests**, führt absichtlich kleine, künstliche Fehler in den Code ein und prüft, ob die Testsuite sie tatsächlich fängt, ist die direkte Antwort auf diese Lücke, und dieses Kapitel behandelt sie als notwendige Ergänzung zur Abdeckung, nicht als optionales Extra.
+Diese Lücke zwischen Abdeckung und echter Testwirksamkeit ist keine kleine Fußnote; sie ist das zentrale Anliegen dieses Themas. Ein Test, der eine Funktion aufruft und nichts über ihr Ergebnis behauptet, erhöht die Abdeckung identisch zu einem Test, der das Verhalten der Funktion über Grenzfälle hinweg gründlich verifiziert. Die von diesem Thema empfohlene Korrektur, **Mutationstests**, führt absichtlich kleine, künstliche Fehler in den Code ein und prüft, ob die Testsuite sie tatsächlich fängt, ist die direkte Antwort auf diese Lücke, und dieses Thema behandelt sie als notwendige Ergänzung zur Abdeckung, nicht als optionales Extra.
 
-Für große Teams werden Abdeckungsziele oft organisationsweit als Qualitäts-Gate übernommen, genau die Art von incentivierter, hochsichtbarer Metrik, vor der Kapitel 1.2 warnt, sie sei am stärksten der Manipulation ausgesetzt. Konzerne und Behörden, die eine pauschale Abdeckungs-Prozentsatz-Anforderung ohne gepaarte Wirksamkeitsprüfung setzen, incentivieren im Effekt genau das Schwellenwert-Manipulationsmuster, das dieses Buch beschreibt: triviale Tests, rein geschrieben, um eine Zahl zu erreichen, ohne entsprechende Verbesserung der tatsächlichen Fehlervermeidung.
+Für große Teams werden Abdeckungsziele oft organisationsweit als Qualitäts-Gate übernommen, genau die Art von incentivierter, hochsichtbarer Metrik, vor der Thema 1.2 warnt, sie sei am stärksten der Manipulation ausgesetzt. Konzerne und Behörden, die eine pauschale Abdeckungs-Prozentsatz-Anforderung ohne gepaarte Wirksamkeitsprüfung setzen, incentivieren im Effekt genau das Schwellenwert-Manipulationsmuster, das dieses Buch beschreibt: triviale Tests, rein geschrieben, um eine Zahl zu erreichen, ohne entsprechende Verbesserung der tatsächlichen Fehlervermeidung.
 
 ## Kernprinzipien
 
 - **Abdeckung misst Ausführung, nicht Verifikation.** Dass eine Zeile von einem Test ausgeführt wird, sagt nichts darüber, ob der Test irgendetwas Bedeutsames über sie geprüft hat.
-- **Ein Abdeckungsziel ohne Wirksamkeitsprüfung ist ein Lehrbuchbeispiel für Goodharts Gesetz** (Kapitel 1.2): die Zahl verbessert sich, während echte Qualität es nicht tut.
+- **Ein Abdeckungsziel ohne Wirksamkeitsprüfung ist ein Lehrbuchbeispiel für Goodharts Gesetz** (Thema 1.2): die Zahl verbessert sich, während echte Qualität es nicht tut.
 - **Mutationstests sind die notwendige Ergänzung zur Abdeckung**, kein Ersatz; beide sollten zusammen genutzt werden.
 - **Abdeckung ist nützlicher als Untergrenze denn als zu maximierendes Ziel.** Eine niedrige Zahl enthüllt echt ungetesteten Code; 100 % anzustreben erzeugt oft abnehmende oder negative Erträge.
 - **Kritische-Pfad-Abdeckung zählt mehr als einheitliche, pauschale Abdeckung.** Nicht aller Code trägt gleiches Risiko, wenn er versagt.
@@ -32,7 +32,7 @@ Nicht aller Code trägt gleiches Risiko. Ein Zahlungsabwicklungspfad, eine Authe
 
 ### Auf die spezifischen Abdeckungs-Manipulationsmuster achten
 
-Die häufigsten Weisen, wie Abdeckung manipuliert wird, sobald sie zum Ziel wird, umfassen: Tests, die eine Funktion aufrufen, aber nichts Bedeutsames über das Ergebnis behaupten (Kapitel 1.2s Schwellenwert-Manipulation, angewandt auf diese Metrik), fehlschlagende Tests zu deaktivieren oder zu löschen, statt das zugrunde liegende Problem zu beheben, und schwer testbaren Code vollständig aus der Abdeckungsberechnung auszuschließen, statt anzugehen, warum er schwer zu testen ist. Eine Stichprobe von Tests sollte periodisch direkt geprüft werden, ihre tatsächlichen Behauptungen gelesen werden, statt allein dem Abdeckungs-Prozentsatz zu vertrauen.
+Die häufigsten Weisen, wie Abdeckung manipuliert wird, sobald sie zum Ziel wird, umfassen: Tests, die eine Funktion aufrufen, aber nichts Bedeutsames über das Ergebnis behaupten (Thema 1.2s Schwellenwert-Manipulation, angewandt auf diese Metrik), fehlschlagende Tests zu deaktivieren oder zu löschen, statt das zugrunde liegende Problem zu beheben, und schwer testbaren Code vollständig aus der Abdeckungsberechnung auszuschließen, statt anzugehen, warum er schwer zu testen ist. Eine Stichprobe von Tests sollte periodisch direkt geprüft werden, ihre tatsächlichen Behauptungen gelesen werden, statt allein dem Abdeckungs-Prozentsatz zu vertrauen.
 
 ### Eine Abdeckungs-Untergrenze setzen, keine Abdeckungs-Obergrenze, in der CI-Pipeline
 
@@ -69,9 +69,9 @@ Die zentrale Spannung ist **Einfachheit gegen Ehrlichkeit**. Ein einzelner Abdec
 
 **Kleinunternehmen.** Die meisten CI-Plattformen berichten Abdeckung automatisch mit minimalen Einrichtungskosten; sie sollte primär genutzt werden, um vollständig ungetesteten kritischen Code zu erkennen, statt einer bestimmten Zielprozentzahl nachzujagen, und Mutationstests sollten erst in Betracht gezogen werden, sobald die Engineering-Kapazität besteht, um auf das zu reagieren, was sie enthüllen.
 
-**Enterprise.** Pauschale, organisationsweite Abdeckungsziele sind ein häufiger und folgenreicher Fehler auf dieser Ebene, da sie genau die in diesem Kapitel beschriebene Manipulation über Dutzende Teams gleichzeitig incentivieren. Risikobasierte Abdeckungserwartungen sollten etabliert werden, die je nach Service-Kritikalität variieren, und in Mutationstest-Infrastruktur sollte speziell für die höchstriskanten Systeme investiert werden.
+**Enterprise.** Pauschale, organisationsweite Abdeckungsziele sind ein häufiger und folgenreicher Fehler auf dieser Ebene, da sie genau die in diesem Thema beschriebene Manipulation über Dutzende Teams gleichzeitig incentivieren. Risikobasierte Abdeckungserwartungen sollten etabliert werden, die je nach Service-Kritikalität variieren, und in Mutationstest-Infrastruktur sollte speziell für die höchstriskanten Systeme investiert werden.
 
-**Behörden.** Abdeckungsanforderungen erscheinen manchmal in Beschaffungs- oder Compliance-Dokumentation als stumpfer, leicht spezifizierbarer Stellvertreter für Qualitätssicherung. Wo möglich, sollte jeder vertraglich geforderte Abdeckungs-Prozentsatz mit einer Mutationstest- oder fehlerbasierten Wirksamkeitsanforderung gepaart werden, damit der vertragliche Anreiz nicht versehentlich genau das geringwertige Test-Auffüllen belohnt, vor dem dieses Kapitel warnt.
+**Behörden.** Abdeckungsanforderungen erscheinen manchmal in Beschaffungs- oder Compliance-Dokumentation als stumpfer, leicht spezifizierbarer Stellvertreter für Qualitätssicherung. Wo möglich, sollte jeder vertraglich geforderte Abdeckungs-Prozentsatz mit einer Mutationstest- oder fehlerbasierten Wirksamkeitsanforderung gepaart werden, damit der vertragliche Anreiz nicht versehentlich genau das geringwertige Test-Auffüllen belohnt, vor dem dieses Thema warnt.
 
 ## Beispiele
 
@@ -88,7 +88,7 @@ Die Gesamtbetriebskosten umfassen die rechnerischen Kosten von Mutationstests, d
 ## Antipatterns und Fallstricke
 
 - **Abdeckungs-Prozentsatz als direktes Qualitätsurteil behandeln:** er misst Ausführung, nicht Verifikation.
-- **Tests primär schreiben, um ein Abdeckungs-Gate zu erfüllen:** produziert genau das geringwertige Schwellenwert-Manipulationsmuster, vor dem Kapitel 1.2 warnt.
+- **Tests primär schreiben, um ein Abdeckungs-Gate zu erfüllen:** produziert genau das geringwertige Schwellenwert-Manipulationsmuster, vor dem Thema 1.2 warnt.
 - **Fehlschlagende Tests deaktivieren oder löschen, statt das zugrunde liegende Problem zu beheben:** entfernt echten Schutz, während die berichtete Zahl kaum beeinflusst wird.
 - **Ein einheitliches Abdeckungsziel unabhängig vom Coderisiko anwenden:** verschwendet Aufwand auf risikoarmem Code und unterinvestiert in echt kritische Pfade.
 - **Eine Ausschlussliste still über die Zeit wachsen lassen:** verbirgt echte Testlücken hinter einer technisch korrekten, aber irreführenden Abdeckungszahl.

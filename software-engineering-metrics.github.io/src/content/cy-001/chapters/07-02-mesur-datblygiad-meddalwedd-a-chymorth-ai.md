@@ -2,26 +2,26 @@
 
 ## Trosolwg a chymhelliant
 
-Sefydlodd pennod 7.1 pam nad yw sawl metrig presennol bellach yn mesur
+Sefydlodd pwnc 7.1 pam nad yw sawl metrig presennol bellach yn mesur
 yr hyn yr oeddent yn arfer ei fesur yn ddibynadwy o dan ddatblygiad â
-chymorth AI. Mae'r bennod hon yn ymwneud â beth i'w fesur yn lle hynny:
+chymorth AI. Mae'r pwnc hwn yn ymwneud â beth i'w fesur yn lle hynny:
 sut i wybod, â thystiolaeth wirioneddol yn hytrach nag argraff neu
 farchnata gwerthwr, a yw cymorth codio AI mewn gwirionedd yn helpu eich
 sefydliad, a faint. Dyma gwestiwn gwirioneddol bwysig â chanlyniadau
 cyllideb gwirioneddol, mae trwyddedau offeryno AI'n cynrychioli cost
-wirioneddol, barhaus, mae disgyblaeth economeg uned pennod 5.4'n
+wirioneddol, barhaus, mae disgyblaeth economeg uned pwnc 5.4'n
 gymwys yn uniongyrchol, ac mae sefydliad na all ei ateb â thystiolaeth
 naill ai'n gordalu am offeryn nad yw'n helpu neu'n tan-fuddsoddi mewn un
 sy'n wirioneddol yn helpu.
 
-Mae dull y bennod hon yn tynnu'n uniongyrchol ar egwyddor canlyniadau-
-dros-allbwn pennod 1.3, wedi'i chymhwyso nawr yn benodol i werthuso
+Mae dull y pwnc hwn yn tynnu'n uniongyrchol ar egwyddor canlyniadau-
+dros-allbwn pwnc 1.3, wedi'i chymhwyso nawr yn benodol i werthuso
 offeryno AI. Mae'r dull naïf, mwyaf cyffredin yn mesur datblygiad â
 chymorth AI yn ôl cyfaint allbwn, llinellau o god a gynhyrchwyd,
 awgrymiadau wedi'u derbyn, amser wedi'i arbed fesul tasg fel yr adroddir
-gan ddatblygwyr eu hunain, yn union y metrigau y rhybuddiodd pennod
+gan ddatblygwyr eu hunain, yn union y metrigau y rhybuddiodd pwnc
 7.1 eu bod fwyaf agored i'r symudiad hwn. Mae'r dull mwy trylwyr y mae'r
-bennod hon yn ei argymell yn mesur canlyniadau: a leihaodd cymorth AI
+bwnc hwn yn ei argymell yn mesur canlyniadau: a leihaodd cymorth AI
 amser cylch yn wirioneddol heb ddirywio ansawdd, a leihaodd amser a
 dreuliwyd ar waith ailadroddus, gwerth-isel gwirioneddol, gan ryddhau
 capasiti ar gyfer gwaith gwerth-uwch, ac a effeithiodd yn fesuradwy ar
@@ -40,7 +40,7 @@ raddfa.
 ## Egwyddorion allweddol
 
 - **Mesurwch gymorth AI yn ôl canlyniad, nid cyfaint allbwn nac
-  ystadegau defnydd a adroddir gan werthwr.** Mae disgyblaeth pennod
+  ystadegau defnydd a adroddir gan werthwr.** Mae disgyblaeth pwnc
   1.3'n gymwys â grym llawn yma.
 - **Defnyddiwch [grŵp cymharu](https://en.wikipedia.org/wiki/Treatment_and_control_groups)
   gwirioneddol lle bynnag y bo'n ymarferol**, nid dim ond cymhariaeth
@@ -62,23 +62,23 @@ Lle bo'n ymarferol, cymharwch ganlyniadau rhwng grŵp sy'n defnyddio
 cymorth AI a grŵp cymharadwy nad yw'n ei ddefnyddio, dros yr un cyfnod,
 yn hytrach na dim ond cymharu rhifau cyn-ac-ar-ôl eich sefydliad eich
 hun, na all wahaniaethu effaith cymorth AI oddi wrth unrhyw newid
-cydamserol arall (mae rhybudd ffactor-drysu pennod 1.6'n gymwys yn
+cydamserol arall (mae rhybudd ffactor-drysu pwnc 1.6'n gymwys yn
 uniongyrchol). Lle mae grŵp cymharu gwirioneddol yn anymarferol,
 cymharwch o leiaf yn erbyn llinell sylfaen hanesyddol hirach (siart
-reoli, yn ôl pennod 1.6) yn hytrach na chiplun cyn-ac-ar-ôl sengl sy'n
+reoli, yn ôl pwnc 1.6) yn hytrach na chiplun cyn-ac-ar-ôl sengl sy'n
 agored i atchweliad i'r cyfartaledd neu newidiadau cydamserol,
 amherthnasol.
 
 ### Mesurwch amser cylch ac ansawdd gyda'i gilydd, byth hawliad cyflymder cymorth AI ar ei ben ei hun
 
-Cymhwyswch ddisgyblaeth pennod 2.6 a phennod 2.10'n uniongyrchol:
+Cymhwyswch ddisgyblaeth pwnc 2.6 a phwnc 2.10'n uniongyrchol:
 olrheiniwch a yw gwaith â chymorth AI yn symud yn gyflymach trwy
 gamau amser-cylch, ac ar yr un pryd a yw cyfradd methiant newid neu
-gyfradd diffygion dianc (pennod 5.1) ar gyfer y gwaith hwnnw'n symud i'r
+gyfradd diffygion dianc (pwnc 5.1) ar gyfer y gwaith hwnnw'n symud i'r
 cyfeiriad anghywir. Mae enillion cynhyrchedd gwirioneddol yn dangos
 amser cylch cyflymach ag ansawdd sefydlog neu well; mae enillion ffug yn
 dangos amser cylch cyflymach ag ansawdd dirywiedig, union y fasnach y
-rhybuddiodd pennod 7.1 yn ei erbyn, wedi'i darganfod yma trwy'r un
+rhybuddiodd pwnc 7.1 yn ei erbyn, wedi'i darganfod yma trwy'r un
 ddisgyblaeth metrig-wedi'i-barejo y mae'r llyfr hwn yn ei chymhwyso
 drwyddo draw.
 
@@ -89,7 +89,7 @@ ond yn arafach i'w adolygu, neu sydd angen mwy o gywiro ac ailwaith ar
 ôl cynhyrchu cychwynnol, yn dangos unrhyw welliant amser-cylch net
 unwaith y mesurir y biblinell lawn, hyd yn oed os oedd y cam cynhyrchu-
 cod cychwynnol yn teimlo'n ddramatig gyflymach i'r peiriannydd unigol.
-Mesurwch y gadwyn amser-cylch lawn (pennod 2.6), nid dim ond y cam
+Mesurwch y gadwyn amser-cylch lawn (pwnc 2.6), nid dim ond y cam
 codio, i ddal hyn yn onest yn hytrach na rhoi clod i gymorth AI yn
 seiliedig ar ymdeimlad o gyflymder, ond un anghyflawn.
 
@@ -97,8 +97,8 @@ seiliedig ar ymdeimlad o gyflymder, ond un anghyflawn.
 
 Mae hunan-adroddiad datblygwr o "arbedodd hyn awr i mi" yn ddefnyddiol
 fel signal cychwynnol ac fel cyd-destun ansoddol (mae dull cyfunol
-meintiol-ansoddol pennod 5.3'n gymwys yma hefyd), ond mae'n destun yr un
-gogwyddau cof ac awydd-i-blesio y mae pennod 1.5'n rhybuddio amdanynt
+meintiol-ansoddol pwnc 5.3'n gymwys yma hefyd), ond mae'n destun yr un
+gogwyddau cof ac awydd-i-blesio y mae pwnc 1.5'n rhybuddio amdanynt
 ar gyfer unrhyw ddata hunan-adroddedig, ac nid yw'n dweud dim am gost
 adolygu neu gywiro i lawr yr afon. Defnyddiwch hunan-adroddiad i
 gynhyrchu damcaniaethau am ble mae cymorth AI'n helpu fwyaf, yna
@@ -149,13 +149,13 @@ cymharu y byddwch yn ei ddefnyddio yn y pen draw.
    gwaith â chymorth AI, neu a oes gennym ddim ond hawliad cyflymder heb
    wiriad ansawdd cyfatebol?** Tynnwch pa ddata bynnag sy'n bodoli a
    gwiriwch am y parejiad penodol hwn; os nad yw'n bodoli, dyna'r
-   trwsiad blaenoriaeth-uchaf sengl y mae'r bennod hon yn ei argymell.
+   trwsiad blaenoriaeth-uchaf sengl y mae'r pwnc hwn yn ei argymell.
 
 3. **A yw ein mesuriad amser-cylch ar gyfer gwaith â chymorth AI yn
    cynnwys amser adolygu a chywiro, neu dim ond y cam cynhyrchu
    cychwynnol?** Mae hawliad cyflymder yn seiliedig ar amser cynhyrchu
    yn unig, gan anwybyddu cost adolygu i lawr yr afon, yn mentro trap
-   cyfrifo-anghyflawn y mae'r bennod hon yn rhybuddio yn ei erbyn yn
+   cyfrifo-anghyflawn y mae'r pwnc hwn yn rhybuddio yn ei erbyn yn
    uniongyrchol.
 
 4. **Pa hawliadau arbedion-amser a adroddir gan hunan yr ydym wedi'u
@@ -199,8 +199,8 @@ llwyddiannus.
 
 **Llywodraeth.** Mae penderfyniadau gwariant technoleg gyhoeddus, gan
 gynnwys caffael offeryno AI, yn aml yn wynebu craffu penodol ac efallai
-y bydd angen cyfiawnhad cost-budd ffurfiol (pennod 5.5). Adeiladwch y
-ddisgyblaeth fesur y mae'r bennod hon yn ei hargymell i mewn i unrhyw
+y bydd angen cyfiawnhad cost-budd ffurfiol (pwnc 5.5). Adeiladwch y
+ddisgyblaeth fesur y mae'r pwnc hwn yn ei hargymell i mewn i unrhyw
 gyfnod peilot o'r dechrau, gan fod methodoleg gwerthuso trylwyr,
 ddogfennedig yn cryfhau'r achos cyllido neu gaffael terfynol yn
 sylweddol.
@@ -213,7 +213,7 @@ grŵp cymharu am chwarter cyn cyflwyniad llawn. Dangosodd y grŵp peilot
 welliant amser-cylch gwirioneddol, ystyrlon yn ystadegol ar gyfer
 tasgau boilerplate-drwm, wedi'u diffinio'n dda, ond ni ddangosodd
 unrhyw welliant mesuradwy, a chyfrif ailadrodd-adolygu ychydig yn uwch
-(pennod 2.9), ar gyfer gwaith pensaernïol cymhleth, newydd. Arweiniodd
+(pwnc 2.9), ar gyfer gwaith pensaernïol cymhleth, newydd. Arweiniodd
 y canfyddiad wedi'i segmentu-yn-ôl-tasg hwn, dim ond yn weladwy
 oherwydd y dyluniad cymharu gwirioneddol a'r dadansoddiad categori-
 tasg, y cwmni i dargedu negeseuon cyflwyno cymorth AI a hyfforddiant
@@ -244,7 +244,7 @@ gwybod yn union ble mae cymorth AI'n wirioneddol helpu fuddsoddi mewn ei
 ehangu yno ac osgoi gordalu am drwyddedau mewn categorïau tasg lle mae'n
 darparu ychydig o werth, yn union y mewnwelediad segmentu-tasg y mae'r
 enghraifft cwmni meddalwedd uchod yn ei ddangos. Mae hyn yn cysylltu'n
-uniongyrchol ag economeg uned pennod 5.4 a disgyblaeth ROI pennod 5.5,
+uniongyrchol ag economeg uned pwnc 5.4 a disgyblaeth ROI pwnc 5.5,
 gan fod cost offeryno AI, sy'n aml wedi'i thrwyddedu fesul-sedd, angen
 yr un driniaeth cost-budd drylwyr y mae'r llyfr hwn yn ei chymhwyso i
 unrhyw fuddsoddiad peirianneg mawr arall.
@@ -261,7 +261,7 @@ dda yn seiliedig ar argraff yn hytrach na data.
 ## Gwrth-batrymau a pheryglon
 
 - **Mesur cymorth AI yn ôl cyfaint allbwn neu ystadegau defnydd
-  gwerthwr yn unig:** yn ailadrodd rhybudd canolog pennod 7.1'n
+  gwerthwr yn unig:** yn ailadrodd rhybudd canolog pwnc 7.1'n
   uniongyrchol.
 - **Dibynnu'n gyfan gwbl ar arbedion amser a adroddir gan hunan:** signal
   gwan sy'n agored i ogwydd, ac yn ddall i gost adolygu a chywiro i
@@ -325,14 +325,14 @@ dda yn seiliedig ar argraff yn hytrach na data.
 
 - *Accelerate: The Science of Lean Software and DevOps*, gan Nicole
   Forsgren, Jez Humble, a Gene Kim (y ddisgyblaeth mesur-canlyniad y
-  mae'r bennod hon yn ei chymhwyso i werthuso offeryno AI).
+  mae'r pwnc hwn yn ei chymhwyso i werthuso offeryno AI).
 - Ymchwil GitHub ar barau-rhaglennu AI a chynhyrchedd datblygwyr
   (ymchwil empirig ar raddfa diwydiant ar ganlyniadau datblygiad â
   chymorth AI).
 - Forsgren, Nicole, Margaret-Anne Storey, Chandra Maddila, Thomas
   Zimmermann, Brian Houck, a Jenna Butler, "The SPACE of Developer
   Productivity," *ACM Queue* (2021) (y ddisgyblaeth mesur aml-
-  ddimensiwn y mae'r bennod hon yn ei chymhwyso i gategori offeryno
+  ddimensiwn y mae'r pwnc hwn yn ei chymhwyso i gategori offeryno
   newydd penodol).
 - *How to Measure Anything*, gan Douglas W. Hubbard (adeiladu
   cymariaethau amddiffynadwy a meintioli gwerth o dan ansicrwydd

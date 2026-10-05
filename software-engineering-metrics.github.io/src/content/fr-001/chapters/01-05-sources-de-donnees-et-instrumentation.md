@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble et motivation
 
-Une métrique n'est fiable qu'autant que les données qui la sous-tendent, et la plupart des programmes de métriques dépensent bien plus d'effort à concevoir des tableaux de bord qu'à vérifier le pipeline qui les alimente. C'est à l'envers. Un graphique magnifiquement conçu construit sur une instrumentation incohérente, auto-déclarée, ou silencieusement cassée est pire qu'aucun graphique du tout, parce qu'il a l'air d'autorité tout en étant faux. Ce chapitre concerne la fondation peu glamour que le reste de ce livre suppose : d'où viennent réellement les données d'ingénierie, quand faire confiance à l'instrumentation automatisée plutôt qu'à l'auto-déclaration, et les échecs de qualité des données qui invalident tranquillement une métrique avant que quiconque ne le remarque.
+Une métrique n'est fiable qu'autant que les données qui la sous-tendent, et la plupart des programmes de métriques dépensent bien plus d'effort à concevoir des tableaux de bord qu'à vérifier le pipeline qui les alimente. C'est à l'envers. Un graphique magnifiquement conçu construit sur une instrumentation incohérente, auto-déclarée, ou silencieusement cassée est pire qu'aucun graphique du tout, parce qu'il a l'air d'autorité tout en étant faux. Ce sujet concerne la fondation peu glamour que le reste de ce livre suppose : d'où viennent réellement les données d'ingénierie, quand faire confiance à l'instrumentation automatisée plutôt qu'à l'auto-déclaration, et les échecs de qualité des données qui invalident tranquillement une métrique avant que quiconque ne le remarque.
 
 Les données d'ingénierie logicielle viennent d'une poignée de types de sources, chacune avec des caractéristiques de fiabilité différentes. Le contrôle de version et les pipelines [CI/CD](https://en.wikipedia.org/wiki/CI/CD) génèrent des enregistrements objectifs, horodatés, difficiles à falsifier de ce qui s'est réellement passé. Les suiveurs de problèmes et les outils de gestion de projet génèrent des enregistrements qui dépendent d'humains mettant à jour l'état correctement et promptement, ce qu'ils font souvent de manière incohérente. Les sondages génèrent des données auto-déclarées inestimables pour des choses qu'aucun système ne peut observer, comme la satisfaction, mais sujettes au biais de rappel et aux effets de désirabilité sociale. Les plateformes d'observabilité génèrent une télémétrie au niveau système qui est objective mais ne couvre que ce qui a été instrumenté. Savoir de quelle catégorie viennent les données d'une métrique donnée vous dit à quel point lui faire confiance et quels modes d'échec surveiller.
 
@@ -11,7 +11,7 @@ Les données d'ingénierie logicielle viennent d'une poignée de types de source
 ## Principes clés
 
 - **Préférez l'instrumentation à l'auto-déclaration partout où le système peut observer l'événement directement.** Un horodatage de déploiement du pipeline est plus fiable qu'un compte de déploiement auto-déclaré par une équipe.
-- **N'utilisez l'auto-déclaration que pour ce qui ne peut pas être observé directement.** La satisfaction, la friction perçue et le bien-être n'ont aucun substitut de système de référence ; demandez directement et concevez bien le sondage (chapitre 3.7). Réservez l'auto-déclaration spécifiquement à cette catégorie.
+- **N'utilisez l'auto-déclaration que pour ce qui ne peut pas être observé directement.** La satisfaction, la friction perçue et le bien-être n'ont aucun substitut de système de référence ; demandez directement et concevez bien le sondage (sujet 3.7). Réservez l'auto-déclaration spécifiquement à cette catégorie.
 - **Les données de chaque métrique ont un système source, une méthode de collecte, et un mode d'échec connu.** Documentez les trois, pas seulement la définition.
 - **La qualité des données se dégrade silencieusement.** Un pipeline qui fonctionnait correctement il y a un an peut être tranquillement cassé aujourd'hui, et un tableau de bord continuera à afficher un mauvais chiffre sans se plaindre.
 - **Instrumentez au point de vérité, pas en aval d'une traduction.** Chaque saut entre l'événement et le tableau de bord est une chance pour le sens de dériver.
@@ -20,7 +20,7 @@ Les données d'ingénierie logicielle viennent d'une poignée de types de source
 
 ### Cartographiez chaque métrique vers son système source réel avant de lui faire confiance
 
-Pour chaque métrique sur un tableau de bord, nommez le système spécifique qui génère l'événement sous-jacent : le pipeline CI/CD pour les événements de déploiement, l'hôte de contrôle de version pour les événements de commit et de fusion, le suiveur d'incidents pour les enregistrements de panne, la plateforme de sondage pour la satisfaction auto-déclarée. Si vous ne pouvez pas nommer le système exact, vous ne savez pas réellement d'où vient le chiffre, et vous ne pouvez pas évaluer sa fiabilité. Cette cartographie est un prérequis pour la charte de gouvernance du chapitre 1.4, pas un exercice séparé.
+Pour chaque métrique sur un tableau de bord, nommez le système spécifique qui génère l'événement sous-jacent : le pipeline CI/CD pour les événements de déploiement, l'hôte de contrôle de version pour les événements de commit et de fusion, le suiveur d'incidents pour les enregistrements de panne, la plateforme de sondage pour la satisfaction auto-déclarée. Si vous ne pouvez pas nommer le système exact, vous ne savez pas réellement d'où vient le chiffre, et vous ne pouvez pas évaluer sa fiabilité. Cette cartographie est un prérequis pour la charte de gouvernance du sujet 1.4, pas un exercice séparé.
 
 ### Instrumentez à l'événement, pas au rapport
 
@@ -28,7 +28,7 @@ Les données les plus fiables capturent un événement automatiquement au moment
 
 ### Réservez les sondages à ce que seule une personne peut vous dire
 
-Certaines choses ne peuvent authentiquement pas être observées depuis la télémétrie système : si un ingénieur sent que son travail a du sens, si un processus semble frustrant, si le risque d'épuisement professionnel augmente. Celles-ci exigent de demander directement, et un sondage bien conçu (le chapitre 3.7 couvre la mécanique) est le bon outil. L'erreur est d'utiliser l'auto-déclaration pour des choses qu'un système pourrait observer directement à la place, demander aux ingénieurs d'estimer leur propre fréquence de déploiement plutôt que de l'extraire du pipeline, ce qui introduit un bruit et un biais inutiles dans des données qui auraient pu être objectives.
+Certaines choses ne peuvent authentiquement pas être observées depuis la télémétrie système : si un ingénieur sent que son travail a du sens, si un processus semble frustrant, si le risque d'épuisement professionnel augmente. Celles-ci exigent de demander directement, et un sondage bien conçu (le sujet 3.7 couvre la mécanique) est le bon outil. L'erreur est d'utiliser l'auto-déclaration pour des choses qu'un système pourrait observer directement à la place, demander aux ingénieurs d'estimer leur propre fréquence de déploiement plutôt que de l'extraire du pipeline, ce qui introduit un bruit et un biais inutiles dans des données qui auraient pu être objectives.
 
 ### Intégrez des vérifications de qualité des données dans le pipeline lui-même
 
@@ -36,7 +36,7 @@ Traitez les pipelines de métriques avec la même rigueur que le code de product
 
 ### Documentez la méthode de collecte aux côtés de la définition
 
-La définition d'une métrique (« temps d'exécution pour les changements ») n'est pas complète sans sa méthode de collecte (mesurée depuis l'horodatage du premier commit dans le contrôle de version jusqu'à l'horodatage de déploiement en production dans le pipeline, excluant les branches de correctif urgent). Deux équipes avec la même définition mais des méthodes de collecte différentes produiront toujours des chiffres incomparables. Enregistrez les deux dans la charte des métriques du chapitre 1.4, et traitez un changement de l'une ou l'autre comme un changement nécessitant la même revue documentée.
+La définition d'une métrique (« temps d'exécution pour les changements ») n'est pas complète sans sa méthode de collecte (mesurée depuis l'horodatage du premier commit dans le contrôle de version jusqu'à l'horodatage de déploiement en production dans le pipeline, excluant les branches de correctif urgent). Deux équipes avec la même définition mais des méthodes de collecte différentes produiront toujours des chiffres incomparables. Enregistrez les deux dans la charte des métriques du sujet 1.4, et traitez un changement de l'une ou l'autre comme un changement nécessitant la même revue documentée.
 
 ## Compromis : avantages et inconvénients
 

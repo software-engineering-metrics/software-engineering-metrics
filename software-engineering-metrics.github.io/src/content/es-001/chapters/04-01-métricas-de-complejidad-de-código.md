@@ -14,7 +14,7 @@ intuición genuina y validada: el código con más rutas independientes es más
 difícil de probar por completo, más difícil de razonar, y, en décadas de
 investigación empírica, mesurablemente más propenso a contener defectos.
 
-Este capítulo trata esa intuición con auténtico respeto, a la vez que trata
+Este tema trata esa intuición con auténtico respeto, a la vez que trata
 sus límites con la misma seriedad. Las métricas de complejidad miden una
 propiedad específica del código, y una base de código puede ser simple según
 toda métrica de complejidad mientras sigue estando mal diseñada, mal
@@ -83,7 +83,7 @@ con plena conciencia de sus compensaciones.
 ### Vigila la manipulación mediante descomposición sin simplificación genuina
 
 La forma más común en que se manipulan las puntuaciones de complejidad es el
-patrón de sustitución del capítulo 1.2 aplicado a esta métrica específica:
+patrón de sustitución del tema 1.2 aplicado a esta métrica específica:
 dividir una función genuinamente compleja en varias funciones más pequeñas
 que puntúan bien individualmente, mientras el sistema general sigue siendo
 igual de difícil de entender, o a veces se vuelve más difícil, porque la
@@ -146,7 +146,7 @@ sola.
 2. **¿Hemos visto alguna vez una función dividida en varias más pequeñas sin
    que el código resultante fuera realmente más fácil de entender?** Esta
    es la señal más clara del patrón de manipulación por descomposición que
-   advierte este capítulo. Observa una refactorización reciente motivada
+   advierte este tema. Observa una refactorización reciente motivada
    principalmente por una puntuación de complejidad y evalúa con honestidad
    si mejoró la comprensibilidad genuina.
 
@@ -160,20 +160,20 @@ sola.
    revisión, o como una puerta automatizada rígida sin juicio humano
    involucrado?** Debate si tu enfoque de aplicación actual deja espacio
    para la distinción entre esencial y accidental que recomienda este
-   capítulo, o si trata cada incumplimiento de forma idéntica sin importar
+   tema, o si trata cada incumplimiento de forma idéntica sin importar
    el contexto.
 
 5. **¿Se ha usado alguna vez una puntuación de complejidad, aunque sea de
    manera informal, para juzgar la calidad del trabajo de un ingeniero en
    concreto?** Esto arriesga la misma trampa de evaluación individual que
-   advierte el capítulo 3.4 para las métricas de actividad, aplicada aquí a
+   advierte el tema 3.4 para las métricas de actividad, aplicada aquí a
    las métricas de código en su lugar, e invita a la misma respuesta de
    manipulación.
 
 6. **¿Qué aspecto tiene nuestra tendencia de complejidad durante el último
    año para nuestros archivos más críticos y modificados con más
    frecuencia?** Combina esto con el análisis de cambios acumulados y
-   puntos calientes del capítulo 4.3, ya que un archivo que es tanto
+   puntos calientes del tema 4.3, ya que un archivo que es tanto
    altamente complejo como modificado con frecuencia merece atención mucho
    antes que uno que es complejo pero rara vez se toca.
 
@@ -195,7 +195,7 @@ Concentra la atención primero en tus archivos modificados con más
 frecuencia.
 
 **Empresa.** Las métricas de complejidad a escala son más valiosas
-combinadas con datos de cambios acumulados (capítulo 4.3) para priorizar la
+combinadas con datos de cambios acumulados (tema 4.3) para priorizar la
 inversión en refactorización en una base de código demasiado grande para
 que una sola persona la examine manualmente. Calibra los umbrales por
 servicio o dominio en lugar de aplicar un número único para toda la
@@ -253,7 +253,7 @@ objetivo definido.
 
 El coste total de propiedad es bajo: la mayoría de las cadenas de
 herramientas de desarrollo modernas calculan las métricas de complejidad
-automáticamente como parte del análisis estático (capítulo 4.4), y la
+automáticamente como parte del análisis estático (tema 4.4), y la
 inversión real es el tiempo de juicio humano para interpretar los
 resultados correctamente, distinguiendo la complejidad esencial de la
 accidental y detectando la manipulación por descomposición, más que
@@ -266,7 +266,7 @@ cualquier coste significativo de nuevas herramientas.
   código.
 - **Dividir una función para manipular la puntuación sin simplificación
   genuina:** el patrón de manipulación por descomposición que nombra
-  específicamente este capítulo.
+  específicamente este tema.
 - **Aplicar un umbral universal sin calibrarlo a tu propia base de código:**
   produce una aplicación demasiado indulgente o demasiado estricta según el
   dominio.
@@ -293,7 +293,7 @@ cualquier coste significativo de nuevas herramientas.
   toda la organización.
 - **Nivel 4, Gestionar:** La tendencia y los valores atípicos de
   complejidad se supervisan activamente y se combinan con datos de cambios
-  acumulados (capítulo 4.3) para priorizar la inversión en refactorización;
+  acumulados (tema 4.3) para priorizar la inversión en refactorización;
   se vigila activamente la manipulación por descomposición.
 - **Nivel 5, Orquestar:** La organización puede señalar mejoras específicas
   y mesurables en la tasa de defectos rastreadas directamente hasta la

@@ -2,7 +2,7 @@
 
 ## Overview and motivation
 
-**Activity**, the A in SPACE (chapter 3.1), counts the volume of engineering
+**Activity**, the A in SPACE (topic 3.1), counts the volume of engineering
 work observable from system telemetry: commits, pull requests opened, lines
 of code changed, code review comments left. It is the easiest SPACE
 dimension to measure, because every one of these events is already logged
@@ -15,7 +15,7 @@ metric family in the entire history of [software engineering](https://en.wikiped
 The core problem is that activity measures motion, not value. A commit count
 does not distinguish between a commit that solved a hard problem elegantly
 and a commit that split one meaningful change into five to look more
-productive (chapter 1.2's substitution gaming, applied directly to this
+productive (topic 1.2's substitution gaming, applied directly to this
 metric family). Lines of code changed rewards verbosity over the far more
 valuable skill of deleting unnecessary code. An engineer spending a full day
 in deep, uninterrupted thought before writing ten elegant, well-tested lines
@@ -26,7 +26,7 @@ far more real value.
 For large teams, the temptation to use activity metrics for individual
 evaluation is constant and well documented, because activity is easy to
 attribute to a specific person and easy to compute automatically, unlike the
-harder, more honest signals in the other SPACE dimensions. This chapter
+harder, more honest signals in the other SPACE dimensions. This topic
 exists specifically to name that temptation and give teams language and
 evidence to resist it, because once an organization starts individually
 ranking engineers by commit count or lines of code, the damage to
@@ -53,11 +53,11 @@ reverse.
 
 ### Never rank or evaluate individuals by raw activity counts
 
-This is the single hardest, most important rule in this chapter. Commit
+This is the single hardest, most important rule in this topic. Commit
 count, lines of code, and pull request count should never appear in an
 individual performance review, a comparative ranking, or any context where
 an engineer's compensation, standing, or reputation depends on the number.
-This directly follows chapter 1.2's incentive-exposure principle: the
+This directly follows topic 1.2's incentive-exposure principle: the
 moment activity becomes an incentivized individual metric, gaming follows
 almost immediately, and the resulting behavior, padding commits, splitting
 changes trivially, avoiding deep, unglamorous work that produces few visible
@@ -76,7 +76,7 @@ activity data interpretable rather than misleading.
 ### Prefer quality-adjacent activity signals over raw volume
 
 Where activity data is useful at all, prefer signals adjusted for quality
-over raw counts: pull request size relative to review depth (chapter 2.9),
+over raw counts: pull request size relative to review depth (topic 2.9),
 or the ratio of new code to code removed, which can reveal whether a team is
 accumulating complexity or actively simplifying. These adjusted signals are
 still activity-dimension data but resist the crudest gaming that raw counts
@@ -84,12 +84,12 @@ invite.
 
 ### Watch specifically for the substitution-gaming pattern in activity data
 
-The most common way activity metrics get gamed is exactly chapter 1.2's
+The most common way activity metrics get gamed is exactly topic 1.2's
 substitution pattern: splitting genuinely meaningful work into many small,
 trivial events to inflate a count. If commit or pull request frequency
 rises while the underlying complexity or size of changes falls sharply,
 investigate before crediting a real productivity improvement, using the
-same diagnostic discipline chapter 2.10 recommends for deployment frequency.
+same diagnostic discipline topic 2.10 recommends for deployment frequency.
 
 ### Explicitly name and discourage activity theater
 
@@ -160,7 +160,7 @@ team-level use.
 
 **Startup.** With a small, tightly collaborating team, activity data is
 usually visible without needing a dashboard at all, and the individual-ranking
-risk this chapter warns against is less likely simply because everyone
+risk this topic warns against is less likely simply because everyone
 already knows what everyone else is working on. The risk instead is a
 founder unconsciously favoring visibly "busy" behavior when making early
 hiring or equity decisions.
@@ -183,7 +183,7 @@ actually being followed in practice, not just stated.
 as evidence of productivity ("ten thousand commits this year"), but this
 kind of headline is close to meaningless and can invite exactly the wrong
 scrutiny once a knowledgeable reviewer points out that raw activity says
-nothing about outcomes. Report outcome and performance data (chapter 3.3)
+nothing about outcomes. Report outcome and performance data (topic 3.3)
 instead, and avoid activity counts in any externally facing communication.
 
 ## Examples
@@ -199,7 +199,7 @@ systems, and were being subtly disadvantaged in promotion conversations as
 a result. Leadership issued an explicit, communicated policy prohibiting
 activity-count references in performance and promotion discussions, and
 shifted promotion evidence toward the multi-signal performance approach
-from chapter 3.3.
+from topic 3.3.
 
 **Government.** A digital services agency, under pressure to demonstrate
 productivity to a legislative oversight committee, initially proposed
@@ -208,7 +208,7 @@ program as evidence of value delivered. An internal technical advisor
 pushed back, correctly noting that this framing invited the exact wrong
 scrutiny, since a technically literate committee member could easily point
 out that raw code volume says nothing about whether the code worked or
-mattered. The agency's revised report instead used outcome metrics (chapter
+mattered. The agency's revised report instead used outcome metrics (topic
 5.3): reduction in citizen-reported errors and increase in successful
 self-service completion, which held up far better under committee
 questioning than the activity numbers would have.
@@ -227,7 +227,7 @@ performance-review culture, is genuinely difficult and slow.
 The total cost of avoiding this trap is mostly organizational discipline: an
 explicit policy, consistently enforced, against individual activity ranking,
 and a commitment to invest in the harder, more honest performance
-measurement described in chapter 3.3 instead. That discipline costs less
+measurement described in topic 3.3 instead. That discipline costs less
 than the misdirected promotion decisions, damaged collaboration, and gaming
 behavior that individual activity metrics reliably produce over time.
 
@@ -264,7 +264,7 @@ behavior that individual activity metrics reliably produce over time.
   is used at all.
 - **Level 5, Orchestrate:** The organization has demonstrably shifted
   evaluation culture away from activity metrics toward the multi-signal
-  performance approach of chapter 3.3, with visible improvement in
+  performance approach of topic 3.3, with visible improvement in
   collaboration and reduced gaming behavior as evidence the shift worked.
 
 ## Ideas for discussion
@@ -280,11 +280,11 @@ behavior that individual activity metrics reliably produce over time.
 - Activity measures **motion, not value**; it is the single most historically
   misused metric family in software engineering.
 - **Never rank or evaluate individuals** by raw activity counts; this is the
-  hardest and most important rule in this chapter.
+  hardest and most important rule in this topic.
 - Use activity data **in aggregate, as context** for the other SPACE
   dimensions, never as a standalone verdict.
 - Watch for **activity theater** and the **substitution-gaming pattern**
-  (chapter 1.2) specifically within this metric family.
+  (topic 1.2) specifically within this metric family.
 - Deep, high-value work often generates the **least visible activity data**;
   protect it from being systematically undervalued.
 

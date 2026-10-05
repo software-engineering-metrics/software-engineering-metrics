@@ -28,13 +28,13 @@ benderfyniadau a wneir gan bobl nad ydynt byth yn gweld y llif gwaith a'i
 cynhyrchodd. Cael y sylfeini'n iawn yw'r hyn sy'n gwneud y pwysau hwnnw'n
 oddefadwy.
 
-## Penodau yn y rhan hon
+## Pynciau yn y rhan hon
 
 - **1.1 Pam mesur peirianneg meddalwedd:** Yr achos dros fesur o gwbl, yr hyn
   y mae i fod i'w gyflawni, a'r gwahaniaeth rhwng mesur i ddysgu a mesur i
   farnu.
 - **1.2 Cyfraith Goodhart a seicoleg metrigau:** Yr un syniad sy'n llywodraethu
-  pob pennod arall yn y llyfr hwn: mae mesur sy'n dod yn darged yn peidio â
+  pob pwnc arall yn y llyfr hwn: mae mesur sy'n dod yn darged yn peidio â
   bod yn fesur da, a'r mecanweithiau seicolegol sy'n gwneud twyllo bron yn
   anochel unwaith y bydd pobl yn gwybod eu bod yn cael eu gwylio.
 - **1.3 Canlyniadau dros gynnyrch: dewis beth i'w fesur:** Sut i bwysoli set
@@ -52,26 +52,26 @@ oddefadwy.
   canraddau yn erbyn cyfartaleddau, maint sampl, atchweliad tuag at y
   cymedr, a newidynnau drysu.
 
-## Sut mae'r penodau hyn yn cydberthyn
+## Sut mae'r pynciau hyn yn cydberthyn
 
-Mae'r chwe phennod hyn yn adeiladu mewn trefn gaeth. Mae pennod 1.1 yn gofyn
+Mae'r chwe phwnc hyn yn adeiladu mewn trefn gaeth. Mae pwnc 1.1 yn gofyn
 pam mesur o gwbl, sy'n bwysig oherwydd bydd tîm nad yw wedi ei ateb yn casglu
-rhifau nad oes neb yn gweithredu arnynt. Pennod 1.2 yw'r echel y mae gweddill
+rhifau nad oes neb yn gweithredu arnynt. Pwnc 1.2 yw'r echel y mae gweddill
 y llyfr yn troi arni: unwaith y byddwch yn derbyn y gall unrhyw fesur ddod yn
-darged a chael ei drin yn dwyllodrus, mae argymhellion pob pennod ddiweddarach
-yn dilyn o ddylunio yn erbyn y risg honno. Mae pennod 1.3 yn troi'r rhybudd
+darged a chael ei drin yn dwyllodrus, mae argymhellion pob pwnc diweddarach
+yn dilyn o ddylunio yn erbyn y risg honno. Mae pwnc 1.3 yn troi'r rhybudd
 hwnnw'n rheol gadarnhaol: pwysoli tuag at ganlyniadau, oherwydd hwy yw'r
-categori anoddaf i'w drin yn dwyllodrus yn rhad. Mae pennod 1.4 yn gwneud y
-llywodraethiant yn gyngrid, mae pennod 1.5 yn gwneud y data'n gyngrid, ac
-mae pennod 1.6 yn rhoi'r farn ystadegol i chi osgoi cael eich twyllo gan
+categori anoddaf i'w drin yn dwyllodrus yn rhad. Mae pwnc 1.4 yn gwneud y
+llywodraethiant yn gyngrid, mae pwnc 1.5 yn gwneud y data'n gyngrid, ac
+mae pwnc 1.6 yn rhoi'r farn ystadegol i chi osgoi cael eich twyllo gan
 sŵn hyd yn oed ar ôl i lywodraethiant a chyfrifianeg fod yn gadarn.
 
 Mae popeth i lawr yr afon yn dibynnu ar y rhan hon. Mae metrigau llif Rhan 2
 a metrigau DORA, a fframwaith SPACE yn Rhan 3, i gyd yn, i bob pwrpas,
 enghreifftiau wedi'u gweithio o'r egwyddorion pwysoli-canlyniadau ac
-efeilio-cledrau diogelwch a nodir ym mhennodau 1.2 a 1.3. Mae'r arweiniad
-dylunio dangosfwrdd ym mhennod 8.1 yn cymryd yn ganiataol y model
-llywodraethiant o bennod 1.4. Ac mae'r model aeddfedrwydd sy'n cau pob
-pennod yn y llyfr hwn, o dan ei bum lefel, yn fodel aeddfedrwydd ar gyfer
+efeilio-cledrau diogelwch a nodir ym mhynciau 1.2 a 1.3. Mae'r arweiniad
+dylunio dangosfwrdd ym mhwnc 8.1 yn cymryd yn ganiataol y model
+llywodraethiant o bwnc 1.4. Ac mae'r model aeddfedrwydd sy'n cau pob
+pwnc yn y llyfr hwn, o dan ei bum lefel, yn fodel aeddfedrwydd ar gyfer
 union y ddisgyblaeth y mae'r rhan hon yn ei chyflwyno: mesur fel eich bod
 o ddifrif, a gwirio'ch gwaith eich hun.

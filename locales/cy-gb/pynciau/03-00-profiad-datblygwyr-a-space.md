@@ -34,7 +34,7 @@ yn unig, resymau arbennig o gryf dros drin profiad datblygwyr fel
 pryder dosbarth-cyntaf, wedi'i reoli'n weithredol yn hytrach nag
 ôl-ystyriaeth.
 
-## Penodau yn y rhan hon
+## Pynciau yn y rhan hon
 
 - **3.1 Y fframwaith SPACE:** Y pum dimensiwn gyda'i gilydd, pam nad
   yw'r un sengl yn ddibynadwy ar ei ben ei hun, a sut i adeiladu set
@@ -58,23 +58,23 @@ pryder dosbarth-cyntaf, wedi'i reoli'n weithredol yn hytrach nag
   arolwg sy'n cynhyrchu signal dibynadwy yn hytrach na chystadleuaeth
   boblogrwydd, a sut i'w gyfuno â data gwrthrychol.
 
-## Sut mae'r penodau hyn yn cydberthyn
+## Sut mae'r pynciau hyn yn cydberthyn
 
-Mae pennod 3.1 yn cyflwyno pob un o'r pum dimensiwn SPACE gyda'i
-gilydd, ac yna mae penodau 3.2 i 3.6 yn cymryd pob dimensiwn yn ei dro
+Mae pwnc 3.1 yn cyflwyno pob un o'r pum dimensiwn SPACE gyda'i
+gilydd, ac yna mae pynciau 3.2 i 3.6 yn cymryd pob dimensiwn yn ei dro
 ar ddyfnder gwirioneddol, yn y drefn y mae ymchwilwyr SPACE yn eu
-cyflwyno. Mae pennod 3.7 yn cau'r rhan â mecaneg ymarferol dylunio
+cyflwyno. Mae pwnc 3.7 yn cau'r rhan â mecaneg ymarferol dylunio
 arolwg, gan fod boddhad, perfformiad, a chydweithio i gyd yn dibynnu'n
 rhannol ar ddata hunan-adrodd (mae gwahaniaeth offeryno-yn-erbyn-
-hunan-adrodd pennod 1.5 yn uniongyrchol berthnasol drwy'r rhan hon) ac
-mae arolwg wedi'i ddylunio'n wael yn tanseilio pob un o'r penodau
+hunan-adrodd pwnc 1.5 yn uniongyrchol berthnasol drwy'r rhan hon) ac
+mae arolwg wedi'i ddylunio'n wael yn tanseilio pob un o'r pynciau
 blaenorol.
 
 Disgyblaeth ganolog y rhan hon, cydbwysedd ar draws dimensiynau yn
 hytrach na chryfder mewn un, yw'r enghraifft weithredig fwyaf clir sydd
-gan y llyfr hwn o egwyddor canlyniadau-dros-allbwn pennod 1.3 wedi'i
+gan y llyfr hwn o egwyddor canlyniadau-dros-allbwn pwnc 1.3 wedi'i
 chymhwyso i bobl yn hytrach na phiblinell gyflenwi. Gweithgarwch
-(pennod 3.4) yw'r dimensiwn SPACE sydd fwyaf tebyg i fetrig allbwn pur,
+(pwnc 3.4) yw'r dimensiwn SPACE sydd fwyaf tebyg i fetrig allbwn pur,
 ac mae'r rhan hon yn ei drin yn unol â hynny: defnyddiol fel un mewnbwn
 ymhlith pump, peryglus fel signal annibynnol. Wedi'i ddarllen ochr yn
 ochr â Rhan 2, mae'r rhan hon yn cwblhau'r darlun na all DORA ar ei ben

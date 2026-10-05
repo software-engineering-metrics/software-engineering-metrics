@@ -2,13 +2,13 @@
 
 ## Trosolwg a chymhelliant
 
-**Perfformiad**, y P yn SPACE (pennod 3.1), yw'r dimensiwn a ddrysir
-amlaf â gweithgarwch, a dyna'n union y mae'r bennod hon yn bodoli i'w
+**Perfformiad**, y P yn SPACE (pwnc 3.1), yw'r dimensiwn a ddrysir
+amlaf â gweithgarwch, a dyna'n union y mae'r pwnc hwn yn bodoli i'w
 atal. Mae perfformiad yn gofyn a gynhyrchodd gwaith peiriannydd neu dîm
 [ganlyniad](https://en.wikipedia.org/wiki/Outcome_(probability)) da mewn
 gwirionedd: nodwedd a ryddhawyd ac a weithiodd, system a arhosodd yn
 ddibynadwy, newid a symudodd fetrig busnes neu ddefnyddiwr i'r
-cyfeiriad iawn. Mae gweithgarwch (pennod 3.4) yn gofyn dim ond faint o
+cyfeiriad iawn. Mae gweithgarwch (pwnc 3.4) yn gofyn dim ond faint o
 symudiad a ddigwyddodd. Gall tîm fod yn hynod weithgar ac yn isel ei
 berfformiad, gan ryddhau newidiadau bach cyson na fyddant byth yn symud
 canlyniad, ac mae'r gwrthwyneb yr un mor bosibl: tîm sy'n rhyddhau'n
@@ -21,7 +21,7 @@ sydd ers hynny wedi symud i brosiectau eraill, o amodau marchnad nad
 oes gan yr un peiriannydd reolaeth drostynt. Roedd ymchwilwyr SPACE yn
 eglur ynghylch hyn: dylid mesur perfformiad ar lefel y system neu'r tîm
 gan ddefnyddio nifer o signalau cydgyfeiriol, nid ei leihau i rif sengl
-ac yn sicr nid ei briodoli i beiriannydd unigol ar wahân. Mae'r bennod
+ac yn sicr nid ei briodoli i beiriannydd unigol ar wahân. Mae'r pwnc
 hon yn cymryd y canllaw hwnnw o ddifrif ac yn trin priodoli perfformiad
 unigol fel trap i'w osgoi'n weithredol, nid llwybr byr i'w gymryd pan
 fo'n gyfleus.
@@ -34,7 +34,7 @@ cymharu perfformiad ar draws llawer o dimau; mae angen dangos bod
 ymdrech beirianneg wedi cynhyrchu canlyniadau gwirioneddol, nid dim ond
 darnau gwaith a gyflenwyd, ar sefydliadau llywodraeth sy'n cyfiawnhau
 buddsoddiad technoleg i gyrff goruchwylio, sef union egwyddor
-canlyniadau-dros-allbwn pennod 1.3 wedi'i chymhwyso i'r dimensiwn
+canlyniadau-dros-allbwn pwnc 1.3 wedi'i chymhwyso i'r dimensiwn
 penodol hwn.
 
 ## Egwyddorion allweddol
@@ -52,7 +52,7 @@ penodol hwn.
   gwaith sy'n rhyddhau ond yn torri rhywbeth arall wedi perfformio'n
   dda mewn gwirionedd.
 - **Mae signal perfformiad heb benderfyniad ynghlwm wrtho'n
-  addurniad**, yn union yn ôl egwyddor gyffredinol pennod 1.1 wedi'i
+  addurniad**, yn union yn ôl egwyddor gyffredinol pwnc 1.1 wedi'i
   chymhwyso i'r dimensiwn hwn.
 
 ## Argymhellion
@@ -60,9 +60,9 @@ penodol hwn.
 ### Cyfunwch sawl signal cydgyfeiriol yn hytrach nag un sgôr perfformiad
 
 Tynnwch dystiolaeth perfformiad o sawl ffynhonnell: cyfradd methiant
-newid (pennod 2.10) a chyfradd dianc diffygion (pennod 5.1) ar gyfer
+newid (pwnc 2.10) a chyfradd dianc diffygion (pwnc 5.1) ar gyfer
 ansawdd, canlyniadau defnyddio wedi'u clymu wrth fabwysiadu nodwedd
-gwirioneddol (pennod 5.2) ar gyfer a oedd y gwaith yn bwysig, ac asesiad
+gwirioneddol (pwnc 5.2) ar gyfer a oedd y gwaith yn bwysig, ac asesiad
 cymar neu reolwr ansoddol o gyfraniad tîm i nodau strategol ar gyfer
 cyd-destun na all metrig pur ei ddal. Nid yw'r un o'r rhain yn
 ddibynadwy ar ei ben ei hun; gyda'i gilydd, pan fyddant yn cydgyfeirio
@@ -77,7 +77,7 @@ gwaith blaenorol gan bobl a allai ers hynny fod wedi gadael y tîm, a
 chydweithio ar draws ffiniau. Mae priodoli canlyniad i un peiriannydd
 sengl fel arfer yn fanwl gywirdeb ffug sy'n anwybyddu'r realiti hwn ac
 yn creu cymhelliad cryf i unigolion warchod clod yn hytrach na
-chydweithio'n rhydd, yn union y math o wyrgamu cymhelliant y mae pennod
+chydweithio'n rhydd, yn union y math o wyrgamu cymhelliant y mae pwnc
 1.2 yn rhybuddio yn ei erbyn.
 
 ### Plygwch ansawdd yn uniongyrchol i mewn i ddiffiniad perfformiad
@@ -96,7 +96,7 @@ Y defnydd cynhyrchiol o ddata perfformiad yw penderfynu ble i fuddsoddi
 ymhellach (mae tîm sy'n cyflenwi canlyniadau cryf yn gyson yn haeddu
 mwy o adnoddau ac ymreolaeth) a ble i ymchwilio (mae tîm y mae ei waith
 yn methu â glanio'n gyson yn haeddu cymorth, nid bai, yn ôl fframio
-diagnostig pennod 1.1). Mae graddio unigolion neu dimau'n gystadleuol
+diagnostig pwnc 1.1). Mae graddio unigolion neu dimau'n gystadleuol
 yn erbyn ei gilydd ar ddata perfformiad yn gwahodd union y twyllo a'r
 niwed i ysbryd y mae'r llyfr hwn yn rhybuddio yn ei erbyn ac yn anaml
 yn cynhyrchu canlyniadau gwell na'r defnydd diagnostig.
@@ -104,7 +104,7 @@ yn cynhyrchu canlyniadau gwell na'r defnydd diagnostig.
 ### Byddwch yn onest am gyfyngiadau priodoli, yn enwedig ar gyfer timau platfform a galluogi
 
 Mae gan dimau sy'n adeiladu isadeiledd a rennir, offer mewnol, neu allu
-platfform (mae pennod peirianneg platfform y llyfr chwaer
+platfform (mae pwnc peirianneg platfform y llyfr chwaer
 `software-engineering-guide` yn ymdrin â hyn yn uniongyrchol) eu
 cyfraniad i ganlyniadau aml gam wedi'u tynnu i ffwrdd oddi wrth unrhyw
 fetrig cwsmer-wynebedig sengl yn aml. Mesurwch berfformiad y timau hyn
@@ -161,7 +161,7 @@ fanwl gywir.
 5. **A yw data perfformiad erioed wedi cael ei ddefnyddio i raddio
    unigolion yn gystadleuol yn erbyn ei gilydd, yn ffurfiol neu'n
    anffurfiol?** Mae'r drifft hwn, sy'n debyg i'r perygl data-boddhad ym
-   mhennod 3.2, yn niweidio gonestrwydd y data a pharodrwydd y tîm i
+   mhwnc 3.2, yn niweidio gonestrwydd y data a pharodrwydd y tîm i
    gydweithio'n agored fel ei gilydd.
 
 6. **Pan fydd ein signalau cydgyfeiriol yn anghytuno, cyflymder cyflenwi
@@ -181,7 +181,7 @@ un person mewn tîm bach, cyflym symud, hynod gydweithredol lle nad yw
 clod na bai bron byth yn perthyn i un unigolyn yn unig.
 
 **Busnes bach.** Cyfunwch pa ddata cyflenwi ac ansawdd bynnag sydd
-gennych eisoes (pennod 2.10, pennod 5.1) â sgwrs uniongyrchol, onest am
+gennych eisoes (pwnc 2.10, pwnc 5.1) â sgwrs uniongyrchol, onest am
 a helpodd gwaith diweddar y busnes mewn gwirionedd, yn hytrach nag
 adeiladu offeryno ffurfiol aml-signal nad oes gennych y gallu i'w
 gynnal.
@@ -197,7 +197,7 @@ achos aml-signal dros pam mae'n bwysig.
 canlyniadau gwirioneddol, nid dim ond darnau gwaith a gyflenwyd, yw'r
 cwestiwn canolog y mae corff goruchwylio'n aml yn ei ofyn. Mae mesuriad
 perfformiad aml-signal, wedi'i glymu'n benodol wrth fetrigau canlyniad
-(pennod 5.3) yn hytrach na dirprwyon cyflenwi-yn-unig, yn rhoi ateb
+(pwnc 5.3) yn hytrach na dirprwyon cyflenwi-yn-unig, yn rhoi ateb
 llawer cryfach, mwy amddiffynadwy na chyfrif gweithgarwch neu gyflenwi
 yn unig.
 
@@ -294,7 +294,7 @@ adnoddu y mae data perfformiad i fod i'w llywio'n weithredol.
 
 - Mae perfformiad yn mesur a gynhyrchodd gwaith **ganlyniad da**, nid
   faint o symudiad a ddigwyddodd; peidiwch â'i ddrysu â gweithgarwch
-  (pennod 3.4).
+  (pwnc 3.4).
 - Defnyddiwch **sawl signal cydgyfeiriol**, byth un rhif perfformiad, a
   byddwch yn amheus o fanwl gywirdeb ffug.
 - Mesurwch ar **lefel y tîm neu'r system**; mae priodoliad canlyniad

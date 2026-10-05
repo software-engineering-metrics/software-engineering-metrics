@@ -2,9 +2,9 @@
 
 ## Vue d'ensemble et motivation
 
-Les outils d'**[analyse statique](https://en.wikipedia.org/wiki/Static_program_analysis)** scannent le code source sans l'exécuter, signalant des schémas connus pour corréler avec des défauts, des vulnérabilités de sécurité, ou des problèmes de maintenabilité : code inaccessible, ressources non fermées, coercitions de type suspectes, logique dupliquée, et la catégorie plus large des **odeurs de code**, des schémas structurels qui ne sont pas nécessairement des bugs mais tendent à rendre le code plus difficile à comprendre, tester, ou changer en sécurité. L'analyse statique est la couche automatisée et continue sous-jacente aux métriques plus ciblées des autres chapitres de cette partie, s'exécutant à chaque commit et faisant émerger les problèmes au moment où ils sont introduits plutôt que d'attendre un audit périodique.
+Les outils d'**[analyse statique](https://en.wikipedia.org/wiki/Static_program_analysis)** scannent le code source sans l'exécuter, signalant des schémas connus pour corréler avec des défauts, des vulnérabilités de sécurité, ou des problèmes de maintenabilité : code inaccessible, ressources non fermées, coercitions de type suspectes, logique dupliquée, et la catégorie plus large des **odeurs de code**, des schémas structurels qui ne sont pas nécessairement des bugs mais tendent à rendre le code plus difficile à comprendre, tester, ou changer en sécurité. L'analyse statique est la couche automatisée et continue sous-jacente aux métriques plus ciblées des autres sujets de cette partie, s'exécutant à chaque commit et faisant émerger les problèmes au moment où ils sont introduits plutôt que d'attendre un audit périodique.
 
-La préoccupation centrale de ce chapitre est l'écart entre ce que les outils d'analyse statique rapportent et ce qui compte réellement. Un outil peut signaler des milliers de constats à travers une grande base de code, et le nombre de constats seul est une mauvaise métrique, puisqu'il mélange des préférences de style triviales avec un véritable risque sévère, et il peut être réduit par suppression aussi facilement que par de véritables corrections. La valeur de l'analyse statique ne vient pas du compte brut de constats mais de la qualité avec laquelle une organisation trie par sévérité, prévient la régression, et résiste à la tentation de traiter le jugement de l'outil comme un substitut à la revue humaine plutôt qu'un complément à celle-ci.
+La préoccupation centrale de ce sujet est l'écart entre ce que les outils d'analyse statique rapportent et ce qui compte réellement. Un outil peut signaler des milliers de constats à travers une grande base de code, et le nombre de constats seul est une mauvaise métrique, puisqu'il mélange des préférences de style triviales avec un véritable risque sévère, et il peut être réduit par suppression aussi facilement que par de véritables corrections. La valeur de l'analyse statique ne vient pas du compte brut de constats mais de la qualité avec laquelle une organisation trie par sévérité, prévient la régression, et résiste à la tentation de traiter le jugement de l'outil comme un substitut à la revue humaine plutôt qu'un complément à celle-ci.
 
 Pour les grandes équipes, l'analyse statique est le seul moyen pratique d'appliquer une référence de qualité de code et d'hygiène de sécurité à travers une base de code plus grande que ce qu'aucune équipe ne peut revoir manuellement entièrement. Les organisations de grande entreprise et de gouvernement, faisant souvent face à des exigences de conformité autour des pratiques de codage sécurisé, dépendent de l'analyse statique comme preuve documentée et auditable qu'un niveau de référence de contrôle a été appliqué de manière cohérente, pas seulement quand un réviseur humain a remarqué un problème.
 
@@ -24,7 +24,7 @@ Configurez votre outillage d'analyse statique pour classer les constats par sév
 
 ### Appliquez une porte sur les nouveaux constats introduits, pas sur l'arriéré historique total
 
-La plupart des bases de code établies portent un arriéré historique de constats qui précèdent la pratique actuelle et seraient prohibitivement coûteux à corriger tous à la fois. Plutôt que de bloquer tout travail jusqu'à ce que l'arriéré entier soit nettoyé, appliquez une porte d'IC sur si un changement spécifique introduit de nouveaux constats au-dessus d'un seuil de sévérité convenu, laissant l'arriéré se réduire graduellement par la maintenance normale tout en empêchant une accumulation supplémentaire. Cette distinction reflète la recommandation de plancher de couverture du chapitre 4.2 : protéger contre la régression plutôt que d'exiger une correction irréaliste et tout-à-la-fois.
+La plupart des bases de code établies portent un arriéré historique de constats qui précèdent la pratique actuelle et seraient prohibitivement coûteux à corriger tous à la fois. Plutôt que de bloquer tout travail jusqu'à ce que l'arriéré entier soit nettoyé, appliquez une porte d'IC sur si un changement spécifique introduit de nouveaux constats au-dessus d'un seuil de sévérité convenu, laissant l'arriéré se réduire graduellement par la maintenance normale tout en empêchant une accumulation supplémentaire. Cette distinction reflète la recommandation de plancher de couverture du sujet 4.2 : protéger contre la régression plutôt que d'exiger une correction irréaliste et tout-à-la-fois.
 
 ### Gérez activement le taux de faux positifs
 
@@ -36,7 +36,7 @@ Même un constat légitime et non faux positif ne mérite pas toujours une corre
 
 ### Combinez l'analyse statique avec les autres métriques de qualité de code de cette partie
 
-Les constats d'analyse statique, les scores de complexité (chapitre 4.1), et les données de points chauds (chapitre 4.3) sont des preuves complémentaires, pas des métriques concurrentes. Un fichier avec une forte concentration de constats d'analyse statique non résolus qui est aussi un point chaud churn-complexité est un candidat particulièrement fort pour une attention priorisée, puisque plusieurs signaux indépendants convergent vers la même conclusion.
+Les constats d'analyse statique, les scores de complexité (sujet 4.1), et les données de points chauds (sujet 4.3) sont des preuves complémentaires, pas des métriques concurrentes. Un fichier avec une forte concentration de constats d'analyse statique non résolus qui est aussi un point chaud churn-complexité est un candidat particulièrement fort pour une attention priorisée, puisque plusieurs signaux indépendants convergent vers la même conclusion.
 
 ## Compromis : avantages et inconvénients
 
@@ -47,7 +47,7 @@ Les constats d'analyse statique, les scores de complexité (chapitre 4.1), et le
 | Porte sur l'arriéré historique entier | Maximise la propreté éventuelle du code | Souvent impraticable pour les bases de code établies ; peut arrêter tout travail |
 | Porte sur les nouveaux constats seulement | Pratique, prévient la régression, laisse l'arriéré se réduire graduellement | Les problèmes hérités persistent plus longtemps sans plan de remédiation délibéré |
 
-La tension centrale est **l'exhaustivité contre le pragmatisme**. Une politique d'analyse statique qui exige que l'arriéré historique entier soit résolu avant que tout nouveau travail ne procède est exhaustive mais habituellement impraticable pour toute base de code avec un historique réel, et les équipes sous cette pression ont tendance à supprimer les constats en masse plutôt que de les corriger authentiquement. Résolvez la tension en appliquant une porte stricte sur les nouveaux constats tout en exécutant un effort de remédiation séparé et délibérément rythmé contre l'arriéré hérité, priorisé en utilisant les techniques de sévérité et de croisement que ce chapitre et le chapitre 4.3 recommandent.
+La tension centrale est **l'exhaustivité contre le pragmatisme**. Une politique d'analyse statique qui exige que l'arriéré historique entier soit résolu avant que tout nouveau travail ne procède est exhaustive mais habituellement impraticable pour toute base de code avec un historique réel, et les équipes sous cette pression ont tendance à supprimer les constats en masse plutôt que de les corriger authentiquement. Résolvez la tension en appliquant une porte stricte sur les nouveaux constats tout en exécutant un effort de remédiation séparé et délibérément rythmé contre l'arriéré hérité, priorisé en utilisant les techniques de sévérité et de croisement que ce sujet et le sujet 4.3 recommandent.
 
 ## Questions à discuter avec votre équipe
 
@@ -116,7 +116,7 @@ Le coût total de possession inclut l'outillage lui-même, souvent gratuit ou pe
 - Appliquez une porte d'IC sur les **nouveaux constats introduits**, pas l'arriéré historique entier, pour prévenir la régression sans exiger une correction impraticable tout-à-la-fois.
 - Gérez activement le **taux de faux positifs** ; un bruit non géré détruit la confiance dans l'outil et conduit à ce que les constats soient ignorés en masse.
 - Traitez les constats comme une **invite pour la revue humaine**, avec des levées visibles et documentées, pas un verdict automatique ou une suppression silencieuse.
-- Croisez l'analyse statique avec les **données de complexité et de points chauds** (chapitres 4.1, 4.3) pour une preuve de priorisation convergente et plus forte.
+- Croisez l'analyse statique avec les **données de complexité et de points chauds** (sujets 4.1, 4.3) pour une preuve de priorisation convergente et plus forte.
 
 ## Sources et lectures complémentaires
 

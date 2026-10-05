@@ -2,24 +2,24 @@
 
 ## Visión general y motivación
 
-Este capítulo amplía el enfoque más allá de la adopción a nivel de
-funcionalidad del capítulo 5.2 hacia toda la gama de resultados de
+Este tema amplía el enfoque más allá de la adopción a nivel de
+funcionalidad del tema 5.2 hacia toda la gama de resultados de
 clientes y negocio que realmente le importan a una organización: ingresos
 retenidos o incrementados, satisfacción y lealtad del cliente, reducción de
 costes, riesgo evitado, y, para las organizaciones del sector público, los
 resultados de la ciudadanía a cuyo servicio existe una misión. Estas son
-las métricas de resultado que el capítulo 1.3 colocó en la cima de la
-jerarquía de entrada, producción y resultado, y este capítulo es donde
+las métricas de resultado que el tema 1.3 colocó en la cima de la
+jerarquía de entrada, producción y resultado, y este tema es donde
 este libro enfrenta la versión más difícil y honesta del reto central de
-ese capítulo: los resultados a este nivel rara vez son atribuibles a la
+ese tema: los resultados a este nivel rara vez son atribuibles a la
 ingeniería por sí sola, y fingir lo contrario produce exactamente el
-problema de falsa precisión que advertía el capítulo 3.3 para el
+problema de falsa precisión que advertía el tema 3.3 para el
 rendimiento individual, ahora escalado al nivel de la contribución de toda
 una organización de ingeniería al negocio.
 
 La respuesta productiva a esa dificultad de atribución no es renunciar a
 conectar el trabajo de ingeniería con los resultados de negocio, lo cual
-abandonaría toda la premisa del capítulo 1.3, sino ser honesto sobre la
+abandonaría toda la premisa del tema 1.3, sino ser honesto sobre la
 fuerza de la conexión y usar evidencia convergente en lugar de
 afirmaciones de falsa precisión de causalidad directa. Una organización de
 ingeniería bien gestionada puede mostrar que su trabajo se correlaciona
@@ -28,7 +28,7 @@ específicos, sin reclamar el crédito exclusivo de resultados que también
 dependen de ventas, marketing, condiciones del mercado, y decisiones de
 estrategia de producto tomadas fuera del control de ingeniería.
 
-Para los equipos grandes, la disciplina de este capítulo determina si la
+Para los equipos grandes, la disciplina de este tema determina si la
 ingeniería tiene un asiento real en la mesa estratégica o se trata como un
 centro de coste cuyo valor se asume en lugar de demostrarse. Las
 organizaciones empresariales usan las métricas de resultados de clientes y
@@ -52,7 +52,7 @@ supervisión someten a los programas de gobierno digital.
   la ciudadanía, la tasa de error, y la finalización del servicio importan
   tanto como, o más que, las medidas financieras.
 - **Una métrica de resultado de negocio es lenta y ruidosa.** Aplica la
-  alfabetización estadística del capítulo 1.6 con rigor aquí, más que casi
+  alfabetización estadística del tema 1.6 con rigor aquí, más que casi
   en cualquier otra parte de este libro.
 - **Aquí es donde se gana o se pierde la credibilidad de la ingeniería
   ante las partes interesadas no técnicas.** Habla en el lenguaje de
@@ -64,7 +64,7 @@ supervisión someten a los programas de gobierno digital.
 
 En lugar de presentar las métricas de entrega y los resultados de negocio
 uno al lado del otro y dejar que la audiencia infiera una conexión,
-construye el árbol de métricas (capítulo 1.3) explícitamente: esta
+construye el árbol de métricas (tema 1.3) explícitamente: esta
 inversión de ingeniería específica redujo el plazo de entrega, lo que
 permitió una respuesta más rápida a una necesidad específica del cliente,
 lo que se correlacionó con una mejora específica en la retención. Documenta
@@ -75,7 +75,7 @@ despliegue" hasta "los ingresos crecieron".
 
 ### Usa un lenguaje honesto de [correlación](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation), y busca activamente factores de confusión
 
-Siguiendo directamente la guía del capítulo 1.6, resiste afirmar que un
+Siguiendo directamente la guía del tema 1.6, resiste afirmar que un
 cambio de ingeniería *causó* una mejora en el resultado de negocio sin
 considerar qué más cambió al mismo tiempo: un cambio de precios, un tropiezo
 de un competidor, un efecto estacional, una campaña de marketing. Formula
@@ -116,7 +116,7 @@ resultado en el lenguaje que ya usan (ingresos retenidos, coste evitado,
 tiempo de espera ciudadano reducido), y usa las métricas de ingeniería
 solo como evidencia de apoyo de cómo se logró ese resultado, no como el
 titular. Esto es una aplicación directa del principio de ponderación de
-resultados del capítulo 1.3 a la habilidad específica de la comunicación
+resultados del tema 1.3 a la habilidad específica de la comunicación
 con partes interesadas.
 
 ## Ventajas e inconvenientes
@@ -205,7 +205,7 @@ capital depende directamente de este tipo de evidencia defendible.
 **Gobierno.** Las métricas de resultado ciudadano y de misión son cada vez
 más lo que esperan los órganos de supervisión, y un programa que solo
 puede reportar métricas de entrega (funcionalidades entregadas, dentro del
-plazo) invita exactamente al escepticismo que este capítulo está
+plazo) invita exactamente al escepticismo que este tema está
 construido para ayudarte a anticipar. Invierte en rastrear explícitamente
 los resultados ciudadanos, incluso donde sean más difíciles de medir que
 un simple recuento de entrega, ya que esa inversión protege directamente

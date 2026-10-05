@@ -1,10 +1,10 @@
 # 9.2 Metrikdefinitionen- und Formelreferenz
 
-Jede Formel aus dem Buch, an einem Ort gesammelt. Jeder Eintrag benennt das Kapitel mit der vollständigen Diskussion, einschließlich ihres Manipulationsrisikos und ihrer Leitplanke. Dies sollte als schnelles Nachschlagewerk genutzt werden, nicht als Ersatz für das Kapitel selbst.
+Jede Formel aus dem Buch, an einem Ort gesammelt. Jeder Eintrag benennt das Thema mit der vollständigen Diskussion, einschließlich ihres Manipulationsrisikos und ihrer Leitplanke. Dies sollte als schnelles Nachschlagewerk genutzt werden, nicht als Ersatz für das Thema selbst.
 
 ## Flow-Metriken (Teil 2)
 
-| Metrik | Formel | Kapitel |
+| Metrik | Formel | Thema |
 | --- | --- | --- |
 | Flow-Velocity | Anzahl abgeschlossener Flow-Items pro Zeiteinheit | 2.3 |
 | Flow-Verteilung | (Abgeschlossene Items eines Flow-Item-Typs) / (Gesamt abgeschlossene Items) x 100 % | 2.3 |
@@ -25,14 +25,14 @@ Jede Formel aus dem Buch, an einem Ort gesammelt. Jeder Eintrag benennt das Kapi
 
 ## Entwicklererfahrung (Teil 3)
 
-| Metrik | Formel | Kapitel |
+| Metrik | Formel | Thema |
 | --- | --- | --- |
 | Fokuszeit | Anzahl und Dauer ununterbrochener Zwei-plus-Stunden-Blöcke pro Woche, aus Kalenderdaten | 3.6 |
 | Antwortrate | (Erhaltene Umfrageantworten) / (Gesendete Umfrageeinladungen) x 100 % | 3.7 |
 
 ## Code und Qualität (Teil 4)
 
-| Metrik | Formel | Kapitel |
+| Metrik | Formel | Thema |
 | --- | --- | --- |
 | Zyklomatische Komplexität | Unabhängige Pfade durch den Kontrollfluss (Kanten − Knoten + 2, gemäß McCabe) | 4.1 |
 | Testabdeckung | (Von Tests ausgeführte Zeilen/Verzweigungen) / (Gesamtzeilen/-verzweigungen) x 100 % | 4.2 |
@@ -43,7 +43,7 @@ Jede Formel aus dem Buch, an einem Ort gesammelt. Jeder Eintrag benennt das Kapi
 
 ## Produkt und Geschäft (Teil 5)
 
-| Metrik | Formel | Kapitel |
+| Metrik | Formel | Thema |
 | --- | --- | --- |
 | Entwichene Fehlerrate | (Schweregrad-gewichtete entwichene Fehler) / (Liefer- oder Zeiteinheit) | 5.1 |
 | Anfängliche Akzeptanz | (Nutzerinnen und Nutzer, die das Feature mindestens einmal ausprobierten) / (Zielpublikum) x 100 % | 5.2 |
@@ -53,7 +53,7 @@ Jede Formel aus dem Buch, an einem Ort gesammelt. Jeder Eintrag benennt das Kapi
 
 ## Zuverlässigkeit, Betrieb, und Sicherheit (Teil 6)
 
-| Metrik | Formel | Kapitel |
+| Metrik | Formel | Thema |
 | --- | --- | --- |
 | Fehlerbudget | (1 − SLO-Ziel) x Zeitfenster (z. B. 0,1 % von 30 Tagen ≈ 43 Minuten) | 6.1 |
 | Fehlerbudget-Verbrauchsrate | Verbrauchtes Fehlerbudget / Zugeteiltes Fehlerbudget, über ein gegebenes Fenster | 6.1 |
@@ -65,7 +65,7 @@ Jede Formel aus dem Buch, an einem Ort gesammelt. Jeder Eintrag benennt das Kapi
 
 ## Hinweise zur Nutzung dieser Formeln
 
-- **Eine Geschwindigkeits- oder Output-Formel sollte immer mit ihrer Leitplanke gepaart werden** (Kapitel 1.2): Änderungsfehlerrate mit Deployment-Frequenz und Durchlaufzeit; entwichene Fehlerrate mit Liefergeschwindigkeit; Fehlerbudget-Verbrauch mit Deployment-Aktivität.
-- **Mediane und Perzentile sollten genutzt werden, nicht Durchschnitte, für zeitbasierte Formeln** (Kapitel 1.6), sofern eine Formel nicht explizit einen Mittelwert verlangt.
-- **Jede Formel braucht ein dokumentiertes Quellsystem und eine Erhebungsmethode** (Kapitel 1.5) zusätzlich zu ihrer mathematischen Definition; zwei Teams, die dieselbe Formel aus unterschiedlichen Quellen berechnen, produzieren keine vergleichbaren Zahlen.
-- **Schweregradgewichtung wird nicht explizit in jeder Formel oben gezeigt**, gilt aber, wo immer „schweregrad-gewichtet" erscheint; das relevante Kapitel enthält das vollständige Klassifikationsschema.
+- **Eine Geschwindigkeits- oder Output-Formel sollte immer mit ihrer Leitplanke gepaart werden** (Thema 1.2): Änderungsfehlerrate mit Deployment-Frequenz und Durchlaufzeit; entwichene Fehlerrate mit Liefergeschwindigkeit; Fehlerbudget-Verbrauch mit Deployment-Aktivität.
+- **Mediane und Perzentile sollten genutzt werden, nicht Durchschnitte, für zeitbasierte Formeln** (Thema 1.6), sofern eine Formel nicht explizit einen Mittelwert verlangt.
+- **Jede Formel braucht ein dokumentiertes Quellsystem und eine Erhebungsmethode** (Thema 1.5) zusätzlich zu ihrer mathematischen Definition; zwei Teams, die dieselbe Formel aus unterschiedlichen Quellen berechnen, produzieren keine vergleichbaren Zahlen.
+- **Schweregradgewichtung wird nicht explizit in jeder Formel oben gezeigt**, gilt aber, wo immer „schweregrad-gewichtet" erscheint; das relevante Thema enthält das vollständige Klassifikationsschema.

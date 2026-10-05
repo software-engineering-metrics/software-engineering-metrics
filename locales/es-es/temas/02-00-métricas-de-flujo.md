@@ -20,11 +20,11 @@ pero miden la mecánica de la canalización, no lo que fluye a través de
 ella. Un equipo puede presentar excelentes números DORA mientras su valor
 entregado real ha derivado en silencio hacia el retrabajo o se ha alejado
 del trabajo de deuda y riesgo que protege el futuro de un sistema. Esta
-parte cubre DORA por completo, pero como un único capítulo de referencia
-consolidado al final (capítulo 2.10), porque la pregunta más urgente y más
+parte cubre DORA por completo, pero como un único tema de referencia
+consolidado al final (tema 2.10), porque la pregunta más urgente y más
 frecuentemente ausente para la mayoría de las organizaciones no es "con qué
 rapidez va nuestra canalización" sino "qué está entregando realmente nuestra
-canalización". Cada capítulo de esta parte sigue la misma disciplina
+canalización". Cada tema de esta parte sigue la misma disciplina
 establecida en la parte 1: exponer la métrica, nombrar cómo se manipula, y
 emparejarla con la barrera de contención que detecta esa manipulación.
 
@@ -41,7 +41,7 @@ modernización que compiten entre sí, y para demostrar, con evidencia en
 lugar de anécdota, que la capacidad de ingeniería se asigna de la forma en
 que el liderazgo cree que se asigna.
 
-## Capítulos de esta parte
+## Temas de esta parte
 
 - **2.1 El Flow Framework:** El origen del marco, su modelo de cadena de
   valor, y por qué este libro lo usa, en lugar de DORA en solitario, para
@@ -78,31 +78,31 @@ que el liderazgo cree que se asigna.
   colocadas al final de forma deliberada porque miden la canalización, no
   el valor que fluye a través de ella.
 
-## Cómo se relacionan estos capítulos
+## Cómo se relacionan estos temas
 
-El capítulo 2.1 presenta el Flow Framework en su conjunto; el capítulo 2.2
-expone su taxonomía de elementos de flujo, y los capítulos 2.3 y 2.4 cubren
+El tema 2.1 presenta el Flow Framework en su conjunto; el tema 2.2
+expone su taxonomía de elementos de flujo, y los temas 2.3 y 2.4 cubren
 entre ambos sus cinco métricas de flujo, velocidad y distribución juntas,
 después tiempo y carga juntos, con la carga y el tiempo ligados directamente
-a la ley de Little. Los capítulos 2.5 a 2.7 se centran en la mecánica que
+a la ley de Little. Los temas 2.5 a 2.7 se centran en la mecánica que
 sustenta específicamente el tiempo de flujo y el tiempo de ciclo: la
 eficiencia de flujo y el trabajo en curso explican por qué las etapas de
 ingeniería suelen ser más lentas de lo que parecen, el tiempo de ciclo
 descompone esa porción de ingeniería en sus etapas, y la teoría de colas
 formaliza, en términos matemáticos demostrables, por qué son ciertas las
-afirmaciones de todos los capítulos anteriores sobre carga, tiempo de
-espera y utilización. El capítulo 2.8 da un paso atrás para trazar todo
+afirmaciones de todos los temas anteriores sobre carga, tiempo de
+espera y utilización. El tema 2.8 da un paso atrás para trazar todo
 esto hasta su origen en el mapeo de cadena de valor Lean clásico, el
 vocabulario común del que generalizan las métricas específicas de software
-de esta parte. El capítulo 2.9 cubre la única etapa de la canalización que
-la mayoría de los equipos pueden mejorar más rápido. El capítulo 2.10
+de esta parte. El tema 2.9 cubre la única etapa de la canalización que
+la mayoría de los equipos pueden mejorar más rápido. El tema 2.10
 cierra la parte con las métricas DORA al completo, presentadas como una
 capa de referencia bien evidenciada pero más estrecha una vez que la imagen
-más amplia y orientada al negocio de los capítulos anteriores ya está a la
+más amplia y orientada al negocio de los temas anteriores ya está a la
 vista.
 
 La disciplina de barreras de contención de esta parte se conecta
-directamente con el capítulo 1.2: la velocidad de flujo nunca se reporta
+directamente con el tema 1.2: la velocidad de flujo nunca se reporta
 sin la distribución de flujo junto a ella, y las métricas de velocidad de
 DORA se mantienen emparejadas con sus métricas de estabilidad, de modo que
 un equipo no pueda mejorar un número de velocidad enviando en silencio

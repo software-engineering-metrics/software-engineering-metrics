@@ -2,10 +2,10 @@
 
 ## Trosolwg a chymhelliant
 
-Mae **Effeithlonrwydd a llif**, dimensiwn olaf SPACE (pennod 3.1), yn
+Mae **Effeithlonrwydd a llif**, dimensiwn olaf SPACE (pwnc 3.1), yn
 mesur absenoldeb ffrithiant a'r gallu i gynnal gwaith di-dor,
 canolbwyntiedig. Mae'r dimensiwn hwn yn eistedd ar y ffin rhwng
-metrigau llif cyflenwi Rhan 2 (mae effeithlonrwydd llif pennod 2.5 yn
+metrigau llif cyflenwi Rhan 2 (mae effeithlonrwydd llif pwnc 2.5 yn
 mesur sut mae gwaith yn symud trwy system tîm) a rhywbeth mwy personol:
 profiad gwybyddol unigol gwaith peirianneg dwfn, canolbwyntiedig, a pha
 mor aml y mae'r profiad hwnnw'n cael ei ddarnio gan ymyriad. Mae
@@ -20,7 +20,7 @@ llawn y **[cof gwaith](https://en.wikipedia.org/wiki/Working_memory)**
 yr oedd peiriannydd yn ei ddal cyn i'r ymyriad ddigwydd. Gall
 peiriannydd y mae ei ddiwrnod wedi'i ddarnio'n flociau pymtheg munud gan
 gyfarfodydd, hysbysiadau, a newidiadau cyd-destun ddangos digon o
-weithgarwch (pennod 3.4) tra'n cyflawni llawer llai o waith gwirioneddol
+weithgarwch (pwnc 3.4) tra'n cyflawni llawer llai o waith gwirioneddol
 anodd na fyddai'r un peiriannydd yn ei gyflawni gyda dwy awr ddiogel,
 ddi-dor. Mae'r dimensiwn hwn yn bodoli'n benodol i wneud y gost
 anweledig honno'n weladwy.
@@ -46,7 +46,7 @@ neb yn ei warchod mewn gwirionedd.
 - **Mae amser diogel, di-dor yn adnodd prin y mae'n rhaid ei warchod
   yn fwriadol,** nid un sy'n goroesi'n ddiofyn wrth i sefydliad dyfu.
 - **Mae'r dimensiwn hwn yn aml yn egluro bwlch rhwng gweithgarwch a
-  pherfformiad** (penodau 3.3 a 3.4): mae gweithgarwch uchel â
+  pherfformiad** (pynciau 3.3 a 3.4): mae gweithgarwch uchel â
   pherfformiad isel weithiau'n olrhain yn ôl at ddiwrnodau darniedig,
   llwythog-o-ymyriadau.
 - **Mae amrywiad unigol mewn anghenion ffocws yn wirioneddol,** a
@@ -71,7 +71,7 @@ synnu arweinyddiaeth yn fwy na'r peirianwyr eu hunain.
 Gellir brasamcanu cyfaint hysbysiad, amlder neges sy'n dod i mewn yn
 ystod oriau gwaith, a chyfradd newid cyd-destun rhwng tasgau i gyd o
 offeryno cydweithio presennol. Defnyddiwch y data hwn yn gyfanredol, ar
-lefel y tîm, gan ddilyn yr un egwyddor â data gweithgarwch (pennod 3.4):
+lefel y tîm, gan ddilyn yr un egwyddor â data gweithgarwch (pwnc 3.4):
 byth fel mecanwaith gwyliadwriaeth unigol, bob amser fel signal lefel-
 tîm am a yw costau uwchben cydlynu'r sefydliad wedi tyfu y tu hwnt i'r
 hyn sy'n gwarchod ffocws gwirioneddol.
@@ -88,8 +88,8 @@ ymyriadau enillion-uchaf, cost-isaf yn y llyfr cyfan hwn.
 
 ### Cydberthynwch ddata llif â'r bwlch gweithgarwch-perfformiad
 
-Pan fydd tîm yn dangos gweithgarwch uchel (pennod 3.4) ond perfformiad
-fflat neu ostyngol (pennod 3.3), gwiriwch ddata llif ac ymyriad cyn
+Pan fydd tîm yn dangos gweithgarwch uchel (pwnc 3.4) ond perfformiad
+fflat neu ostyngol (pwnc 3.3), gwiriwch ddata llif ac ymyriad cyn
 tybio bod y bwlch yn adlewyrchu mater gallu unigol neu dîm. Gall
 amserlen ddarniedig iawn gynhyrchu union y patrwm hwn: digon o symudiad
 gweladwy, ychydig o waith gwirioneddol anodd wedi'i gwblhau, oherwydd
@@ -203,7 +203,7 @@ ddwy flynedd heb un penderfyniad sengl i ychwanegu cymaint â hynny o
 gyfanswm llwyth cyfarfod. Sefydlodd y cwmni ddau brynhawn di-gyfarfod
 gorfodol, ar draws y sefydliad, yr wythnos, a dangosodd arolwg dilynol
 ac adolygiad metrig-cyflenwi chwe mis yn ddiweddarach sgoriau boddhad
-gwell a gostyngiad mesuradwy mewn amser cylch (pennod 2.6) ar gyfer
+gwell a gostyngiad mesuradwy mewn amser cylch (pwnc 2.6) ar gyfer
 nodweddion cymhleth, aml-ddiwrnod yn benodol.
 
 **Llywodraeth.** Canfu tîm peirianneg asiantaeth ffederal, yn gweithredu
@@ -247,10 +247,10 @@ newydd godi'n anochel.
 - **Gorfodi un amserlen amser-ffocws anystwyth ar bawb:** yn anwybyddu
   amrywiad unigol gwirioneddol mewn sut mae pobl yn gweithio orau.
 - **Defnyddio data ymyriad neu hysbysiad fel gwyliadwriaeth unigol:** yn
-  ailadrodd union y perygl camddefnydd y mae pennod 3.4 yn rhybuddio yn
+  ailadrodd union y perygl camddefnydd y mae pwnc 3.4 yn rhybuddio yn
   ei erbyn ar gyfer data gweithgarwch.
 - **Gadael i amser ffocws gwarchodedig erydu'n raddol trwy
-  eithriadau:** yr un perygl erydiad y mae pennod 2.5 yn rhybuddio
+  eithriadau:** yr un perygl erydiad y mae pwnc 2.5 yn rhybuddio
   amdano ar gyfer terfynau gwaith-ar-y-gweill, wedi'i gymhwyso i
   warchodaeth amser-ffocws.
 - **Ychwanegu gofynion llywodraethu neu gydlynu heb byth fesur eu cost

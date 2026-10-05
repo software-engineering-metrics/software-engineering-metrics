@@ -16,13 +16,13 @@ fewn y ffrwd. **Canran cyflawn a chywir (%C/A)** yw'r canran o unedau y
 gall tîm i lawr yr afon eu prosesu heb angen ailwaith. **Amser takt** yw'r
 amser mwyaf derbyniol i gwblhau uned i gyfateb yn lân i alw'r cwsmer.
 
-Mae'r bennod hon yn bodoli oherwydd na ddyfeisiodd peirianneg meddalwedd
+Mae'r pwnc hwn yn bodoli oherwydd na ddyfeisiodd peirianneg meddalwedd
 y syniadau hyn, fe'u benthyciodd, ac roedd y benthyca weithiau'n
 ailddefnyddio'r un geiriau ar gyfer pethau ychydig yn wahanol. Mae amser
-cylch y llyfr hwn ei hun (pennod 2.6) yn mesur camau peirianneg newid yn
+cylch y llyfr hwn ei hun (pwnc 2.6) yn mesur camau peirianneg newid yn
 benodol, codio, adolygu, profi, defnyddio, tra bo CT clasurol Lean yn
 "amser cyfartalog fesul nod" mwy cyffredinol wedi'i gymhwyso i unrhyw
-broses. Amser llif (pennod 2.4) yw enw'r llyfr hwn ar yr hyn y mae Lean
+broses. Amser llif (pwnc 2.4) yw enw'r llyfr hwn ar yr hyn y mae Lean
 yn ei alw'n amser arwain. Mae gwybod y mapio'n bwysig oherwydd bydd
 darllenydd sy'n dod o gefndir Lean Six Sigma, yn gyffredin mewn
 gweithgynhyrchu, logisteg, gofal iechyd, a gweithrediadau llywodraeth, yn
@@ -30,8 +30,8 @@ defnyddio'r union dermau hyn gyda'u hystyron gwreiddiol, ac mae tîm
 meddalwedd nad yw'n siarad yr un iaith yn colli pont hawdd, wedi'i
 chefnogi gan dystiolaeth i gydweithwyr y tu allan i beirianneg.
 
-I dimau mawr, %C/A yw metrig lleiaf ei ddefnyddio'r bennod hon. Mae'n dal
-rhywbeth nad yw'r metrigau llif ym mhenodau 2.3 a 2.4 yn ei wneud: faint
+I dimau mawr, %C/A yw metrig lleiaf ei ddefnyddio'r pwnc hwn. Mae'n dal
+rhywbeth nad yw'r metrigau llif ym mhynciau 2.3 a 2.4 yn ei wneud: faint
 o'r hyn y mae cam yn ei gynhyrchu sy'n wirioneddol ddefnyddiadwy gan y
 cam nesaf heb gael ei anfon yn ôl. Wedi'i gyfanredu ar draws ffrwd werth
 aml-gam, cysyniad y mae gweithgynhyrchu'n ei alw'n **rendiment trwybwn
@@ -47,7 +47,7 @@ dueddol iddo ac yn anaml yn ei fesur yn uniongyrchol.
   mewn Lean Six Sigma, yn gyffredin mewn menter fawr a gweithrediadau
   llywodraeth, eisoes yn ei siarad yn rhugl.
 - **Mae gwrthdrawiad terminoleg yn wirioneddol ac yn werth ei enwi'n
-  benodol.** Mae amser cylch y llyfr hwn (pennod 2.6) a CT clasurol
+  benodol.** Mae amser cylch y llyfr hwn (pwnc 2.6) a CT clasurol
   Lean yn perthyn ond nid yn union yr un fath; dogfennwch y mapio fel nad
   yw sgyrsiau traws-swyddogaethol yn siarad heibio i'w gilydd yn dawel.
 - **Rhaid rolio %C/A i fyny ar draws pob cam, nid ei fesur unwaith ar y
@@ -56,7 +56,7 @@ dueddol iddo ac yn anaml yn ei fesur yn uniongyrchol.
 - **Mae amser takt yn ail-fframio cynllunio capasiti o gwmpas galw, nid
   ymdrech.** Mae'r cwestiwn yn newid o "pa mor gyflym allwn ni fynd" i
   "pa mor gyflym mae angen inni fynd," sy'n cysylltu'n uniongyrchol â
-  defnydd (pennod 2.7) a llwyth llif (pennod 2.4).
+  defnydd (pwnc 2.7) a llwyth llif (pwnc 2.4).
 - **Metrigau diagnostig yw'r rhain, nid metrigau gwagedd.** Mae pob un yn
   bodoli i ateb cwestiwn gweithredol penodol, nid i gynhyrchu rhif
   trawiadol ar gyfer dangosfwrdd.
@@ -67,10 +67,10 @@ dueddol iddo ac yn anaml yn ei fesur yn uniongyrchol.
 
 Cyfrifwch amser arwain, amser proses, amser cylch, %C/A, ac amser takt
 ar gyfer sampl gynrychiadol o waith sy'n symud trwy eich ffrwd werth cyn
-haenu metrigau'r Flow Framework ei hun (penodau 2.3 a 2.4) ar ei ben.
+haenu metrigau'r Flow Framework ei hun (pynciau 2.3 a 2.4) ar ei ben.
 Mae hyn yn rhoi llinell sylfaen i chi y gall unrhyw randdeiliad
 llythrennog mewn Lean Six Sigma ei deall ar unwaith, ac mae'n aml yn
-dwyn i'r amlwg yr un dominyddiaeth amser-aros y mae pennod 2.5 yn ei
+dwyn i'r amlwg yr un dominyddiaeth amser-aros y mae pwnc 2.5 yn ei
 disgrifio, wedi'i fynegi mewn eirfa sy'n rhagflaenu ac yn goroesi unrhyw
 fframwaith meddalwedd penodol.
 
@@ -99,20 +99,20 @@ brinder capasiti, nid dim ond teimlad bod pethau ar ei hôl hi.
 Lle mae eich sefydliad eisoes yn rhedeg rhaglen Lean Six Sigma y tu allan
 i feddalwedd, neu lle mae peirianneg yn adrodd i arweinyddiaeth sy'n
 rhugl yn yr eirfa honno, ysgrifennwch y mapio i lawr yn benodol yn eich
-siarter metrigau (pennod 1.4): amser llif y llyfr hwn yw amser arwain
-Lean, mae amser cylch y llyfr hwn (pennod 2.6) yn gymhwysiad penodol o
-CT mwy cyffredinol Lean, ac amser gweithredol y llyfr hwn (pennod 2.5) yw
+siarter metrigau (pwnc 1.4): amser llif y llyfr hwn yw amser arwain
+Lean, mae amser cylch y llyfr hwn (pwnc 2.6) yn gymhwysiad penodol o
+CT mwy cyffredinol Lean, ac amser gweithredol y llyfr hwn (pwnc 2.5) yw
 amser proses Lean. Mae'r ddogfen sengl hon yn atal dadl ailadroddus,
 gwerth isel am pwy rifau sy'n "real."
 
 ### Defnyddiwch %C/A fel cledr ddiogelwch ochr yn ochr â chyflymder llif, nid disodliad ohono
 
-Parejwch rendiment trwybwn cyfanredol â chyflymder llif (pennod 2.3) yr
+Parejwch rendiment trwybwn cyfanredol â chyflymder llif (pwnc 2.3) yr
 un ffordd y mae'r llyfr hwn yn parejo pob metrig cyflymder â chledr
 ddiogelwch sefydlogrwydd. Mae cyfrif eitem cynyddol â %C/A cyfanredol
 crebachu'n golygu bod y ffrwd werth yn cyflenwi mwy o unedau sydd angen
 ailwaith yn gynyddol yn ddiweddarach, yn union y math o batrwm cyflymder-
-heb-ansawdd y mae pennod 1.2 yn rhybuddio pob teulu metrig i wylio yn ei
+heb-ansawdd y mae pwnc 1.2 yn rhybuddio pob teulu metrig i wylio yn ei
 erbyn.
 
 ## Cyfaddawdau: manteision ac anfanteision
@@ -120,7 +120,7 @@ erbyn.
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Metrigau Lean clasurol yn unig (LT, PT, CT, %C/A, amser takt) | Eirfa gyffredinol; yn gweithio ar draws timau meddalwedd a rhai nad ydynt yn feddalwedd fel ei gilydd | Nid yn feddalwedd-benodol; angen cyfieithiad ar gyfer camau peirianneg-benodol |
-| Metrigau Flow Framework yn unig (penodau 2.3, 2.4) | Wedi'u hadeiladu'n bwrpasol ar gyfer ffrydiau gwerth meddalwedd a gwelededd math-eitem | Anghyfarwydd i randdeiliaid wedi'u hyfforddi mewn Lean Six Sigma y tu allan i beirianneg |
+| Metrigau Flow Framework yn unig (pynciau 2.3, 2.4) | Wedi'u hadeiladu'n bwrpasol ar gyfer ffrydiau gwerth meddalwedd a gwelededd math-eitem | Anghyfarwydd i randdeiliaid wedi'u hyfforddi mewn Lean Six Sigma y tu allan i beirianneg |
 | Y ddau, gyda mapio esblyg wedi'i ddogfennu | Yn siarad y ddwy eirfa; y bont draws-swyddogaethol gryfaf | Angen disgyblaeth ymlaen llaw o ysgrifennu'r mapio i lawr a'i gadw'n gyfredol |
 | Mesur %C/A dim ond ar gyflenwi terfynol | Syml, un rhif | Yn cuddio ailwaith a gyflwynwyd ac a ddaliwyd yn gynharach yn y ffrwd |
 
@@ -131,7 +131,7 @@ dylunio â chamau penodol meddalwedd, adolygu cod, profi awtomataidd,
 cymeradwyaeth defnyddio, mewn cof. Datryswch y tensiwn trwy ddefnyddio'r
 metrigau Lean fel eirfa llinell sylfaen a rennir ar gyfer sgyrsiau
 traws-swyddogaethol a gweithredol, a metrigau'r Flow Framework ei hun
-(penodau 2.3 a 2.4) ar gyfer y gwaith diagnostig meddalwedd-benodol y mae
+(pynciau 2.3 a 2.4) ar gyfer y gwaith diagnostig meddalwedd-benodol y mae
 timau peirianneg yn ei wneud o ddydd i ddydd.
 
 ## Cwestiynau i'w trafod gyda'ch tîm
@@ -145,7 +145,7 @@ timau peirianneg yn ei wneud o ddydd i ddydd.
 2. **A ydym erioed wedi rolio %C/A i fyny ar draws pob cam o'n ffrwd
    werth, neu dim ond wedi'i fesur ar gyflenwi terfynol?** Mae mesuriad
    diwedd-ffrwd sengl yn cuddio'n union yr ailwaith cyfansymio y mae
-   cyfrifiad rendiment trwybwn cyfanredol y bennod hon wedi'i ddylunio i'w
+   cyfrifiad rendiment trwybwn cyfanredol y pwnc hwn wedi'i ddylunio i'w
    ddatgelu. Ceisiwch y cyfrifiad rolio-i-fyny â data gwirioneddol.
 
 3. **A ydym yn gwybod ein hamser takt, wedi'i gyfrifo o alw cwsmer
@@ -156,7 +156,7 @@ timau peirianneg yn ei wneud o ddydd i ddydd.
 
 4. **Petai rhanddeiliad wedi'i hyfforddi mewn Lean Six Sigma o'r tu allan
    i beirianneg yn gofyn am ein hamser cylch, a fyddem yn hyderus ein bod
-   yn golygu'r un peth â nhw?** Mae amser cylch y llyfr hwn (pennod 2.6)
+   yn golygu'r un peth â nhw?** Mae amser cylch y llyfr hwn (pwnc 2.6)
    a CT clasurol Lean yn perthyn ond nid yn union yr un fath. Trafodwch a
    yw'r gwahaniaeth hwnnw erioed wedi achosi camddealltwriaeth
    gwirioneddol yn eich sefydliad.
@@ -237,14 +237,14 @@ aml eisoes yn bodoli mewn man arall mewn sefydliad mawr yw'r enillion ar
 fabwysiadu eirfa Lean glasurol ochr yn ochr â metrigau meddalwedd-
 benodol y llyfr hwn. Mae enghraifft y cwmni gweithgynhyrchu uchod, gan
 sicrhau cyllid lleihau-ailwaith yn yr un chwarter ag y gwnaeth
-ail-fframio'r achos yn ddarllenadwy, yn batrwm y mae dull y bennod hon yn
+ail-fframio'r achos yn ddarllenadwy, yn batrwm y mae dull y pwnc hwn yn
 ei gynhyrchu'n ddibynadwy: nid oedd y mewnwelediad yn newydd, ond roedd
 yr eirfa a'i gwnaeth yn weithredadwy i'r gynulleidfa gywir.
 
 Mae cost cyfanswm perchnogaeth yn isel: nid oes angen unrhyw gyfrifianeg
-newydd ar y pum metrig hyn y tu hwnt i'r hyn y mae penodau 2.4 i 2.6
+newydd ar y pum metrig hyn y tu hwnt i'r hyn y mae pynciau 2.4 i 2.6
 eisoes yn ei gasglu, ynghyd â dosbarthiad ailwaith %C/A sydd fel arfer
-yn ychwanegiad syml at olrhain diffyg ac elfen-lif presennol (pennod
+yn ychwanegiad syml at olrhain diffyg ac elfen-lif presennol (pwnc
 2.2). Y prif fuddsoddiad yw cyfieithu, ysgrifennu'r mapio rhwng termau'r
 llyfr hwn a rhai clasurol Lean, sy'n talu amdano'i hun y tro cyntaf y mae'n
 atal camddealltwriaeth traws-swyddogaethol.
@@ -252,7 +252,7 @@ atal camddealltwriaeth traws-swyddogaethol.
 ## Gwrth-batrymau a pheryglon
 
 - **Mesur %C/A dim ond ar gyflenwi terfynol:** y fector twyllo wrth galon
-  y bennod hon. Gall tîm adrodd %C/A cam-terfynol uchel tra bo camau
+  y pwnc hwn. Gall tîm adrodd %C/A cam-terfynol uchel tra bo camau
   cynharach yn cynhyrchu ailwaith yn dawel sy'n cael ei drwsio cyn i
   unrhyw un ei fesur, gan wneud i'r ffrwd werth gyfan edrych yn iachach
   nag ydyw. Y gledr ddiogelwch yw rholio %C/A i fyny'n luosiadol ar draws
@@ -314,12 +314,12 @@ atal camddealltwriaeth traws-swyddogaethol.
 - Mae **amser llif ac amser cylch y llyfr hwn ei hun yn mapio ar, ond nid
   yn union yr un fath â**, amser arwain a CT clasurol Lean; dogfennwch y
   mapio'n benodol i osgoi dryswch traws-swyddogaethol.
-- Fector twyllo canolog y bennod yw **mesur %C/A dim ond ar gyflenwi
+- Fector twyllo canolog y pwnc yw **mesur %C/A dim ond ar gyflenwi
   terfynol**; y gledr ddiogelwch yw ei rolio i fyny'n luosiadol ar
   draws pob cam fel rendiment trwybwn cyfanredol.
 - Mae **amser takt yn ail-fframio capasiti o gwmpas galw cwsmer
   gwirioneddol**, nid cyflymder presennol, ac yn parejo'n uniongyrchol â
-  defnydd (pennod 2.7) a llwyth llif (pennod 2.4).
+  defnydd (pwnc 2.7) a llwyth llif (pwnc 2.4).
 - Ail-fframio cyflenwi meddalwedd mewn termau Lean clasurol yw'r ffordd
   gyflymaf yn aml o gysylltu ag **arbenigedd a chyllid gwella-proses
   presennol** eisoes yn bresennol mewn sefydliad mawr.

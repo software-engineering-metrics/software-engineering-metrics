@@ -16,15 +16,15 @@ engineering leaders, staff and principal engineers, platform and DevOps
 teams, and program and product managers. The secondary audience is any
 engineer who wants to understand the reasoning behind a dashboard they are
 asked to move, and how to challenge a metric that has stopped serving its
-purpose. You do not need to read it cover to cover. Each chapter stands on
+purpose. You do not need to read it cover to cover. Each topic stands on
 its own, states its principles first, and ends with practical takeaways, a
 maturity model, and references.
 
 ## How the book is organized
 
-The book is divided into **parts** (whole numbers) and **chapters**
-(decimals). Chapter **N.0** introduces each part and explains how its
-chapters interrelate; chapters **N.1, N.2, …** cover the topics in depth.
+The book is divided into **parts** (whole numbers) and **topics**
+(decimals). Topic **N.0** introduces each part and explains how its
+topics interrelate; topics **N.1, N.2, …** cover the topics in depth.
 
 - **Part 1, Foundations of Measurement:** why measure at all, Goodhart's law
   and the psychology of gaming, choosing outcomes over output, governance and
@@ -33,7 +33,7 @@ chapters interrelate; chapters **N.1, N.2, …** cover the topics in depth.
 - **Part 2, Flow Metrics:** the Flow Framework, its flow items and five flow
   metrics, cycle time, queueing theory, classical Lean value stream
   metrics, pull request and code review metrics, and the DORA framework as
-  a reference chapter.
+  a reference topic.
 - **Part 3, Developer Experience and the SPACE Framework:** the SPACE
   framework and its five dimensions, and how to run a developer experience
   survey without it becoming a popularity contest.
@@ -85,17 +85,17 @@ Eight principles form the spine of the book:
 ## Cross-cutting themes
 
 [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) is the one
-theme that runs through every part of this book, not just chapter 1.2. Every
-metric-family chapter states how the metric it covers gets gamed and what
+theme that runs through every part of this book, not just topic 1.2. Every
+metric-family topic states how the metric it covers gets gamed and what
 guardrail catches that. Government and enterprise reporting obligations,
 where a metric can carry statutory or contractual weight, are treated as
-design inputs throughout, not an afterthought confined to one chapter.
+design inputs throughout, not an afterthought confined to one topic.
 
 ## How to use it
 
 Adopt incrementally; do not big-bang a dashboard onto a team that has never
-had one. Start where the pain is greatest, use each chapter's maturity model
-to locate yourself honestly, and let the adoption roadmap (chapter 8.5)
+had one. Start where the pain is greatest, use each topic's maturity model
+to locate yourself honestly, and let the adoption roadmap (topic 8.5)
 sequence the work. The goal is not a wall of charts. It is an organization
 that can tell, with evidence, whether what it is doing is working, and that
 trusts its own numbers enough to act on them.

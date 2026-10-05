@@ -4,7 +4,7 @@
 
 **[Cyklomatisk komplexitet](https://en.wikipedia.org/wiki/Cyclomatic_complexity)**, introducerad av Thomas J. McCabe 1976, räknar antalet oberoende vägar genom en kodbits kontrollflöde: varje `if`, loop, och förgrening adderar till antalet. Det förblir det mest använda kodkomplexitetsmätetalet nästan femtio år senare, vid sidan av släktingar som kognitiv komplexitet (som viktar nästlad och svårföljd kontrollflöde tyngre än McCabes ursprungliga linjära räkning) och nästlingsdjup. De här mätetalen delar en genuin, validerad insikt: kod med fler oberoende vägar genom den är svårare att fullt testa, svårare att resonera om, och, i decennier av empirisk forskning, mätbart mer trolig att innehålla defekter.
 
-Det här kapitlet behandlar den insikten med verklig respekt medan det också behandlar dess begränsningar med lika allvar. Komplexitetsmätetal mäter en specifik egenskap hos kod, och en kodbas kan vara enkel enligt varje komplexitetsmätetal medan den fortfarande är dåligt designad, dåligt namngiven, eller konceptuellt osammanhängande på sätt ingen förgreningsräknande algoritm kan upptäcka. Omvänt kräver vissa oreducerbart komplexa problem genuint komplex kod för att lösas korrekt, och ett team pressat att minimera en komplexitetspoäng kan producera kod som poängsätter bra medan den faktiskt är svårare att förstå, spridande väsentlig komplexitet över fler filer och lager av indirektion snarare än att minska den.
+Det här ämnet behandlar den insikten med verklig respekt medan det också behandlar dess begränsningar med lika allvar. Komplexitetsmätetal mäter en specifik egenskap hos kod, och en kodbas kan vara enkel enligt varje komplexitetsmätetal medan den fortfarande är dåligt designad, dåligt namngiven, eller konceptuellt osammanhängande på sätt ingen förgreningsräknande algoritm kan upptäcka. Omvänt kräver vissa oreducerbart komplexa problem genuint komplex kod för att lösas korrekt, och ett team pressat att minimera en komplexitetspoäng kan producera kod som poängsätter bra medan den faktiskt är svårare att förstå, spridande väsentlig komplexitet över fler filer och lager av indirektion snarare än att minska den.
 
 För stora team förtjänar komplexitetsmätetal sin plats som ett triageverktyg: ett sätt att hitta, bland tusentals filer, den lilla delmängden mest trolig att belöna en närmare titt, inte som en fristående dom om kodkvalitet. Stora företag och myndigheter som underhåller kodbaser för stora för någon individ att ha läst i sin helhet beror på den här triagefunktionen för att rikta knapp omstrukturerings- och granskningsinsats dit den kommer göra mest nytta.
 
@@ -28,7 +28,7 @@ Absoluta komplexitetströskelvärden lånade okritiskt från branschkonvention (
 
 ### Bevaka manipulation genom nedbrytning utan genuin förenkling
 
-Det vanligaste sättet komplexitetspoäng manipuleras är kapitel 1.2:s substitutionsmönster tillämpat på det här specifika mätetalet: att dela upp en genuint komplex funktion i flera mindre funktioner som individuellt poängsätter bra, medan det övergripande systemet förblir lika svårt att förstå, eller ibland blir svårare, eftersom logiken nu är spridd över fler filer med mer indirektion mellan dem. Para komplexitetsmätetal med en kvalitativ granskning av om nedbrytningen genuint klargjorde koden, eller om den bara flyttade komplexiteten någonstans mätetalet inte längre kunde se den.
+Det vanligaste sättet komplexitetspoäng manipuleras är ämne 1.2:s substitutionsmönster tillämpat på det här specifika mätetalet: att dela upp en genuint komplex funktion i flera mindre funktioner som individuellt poängsätter bra, medan det övergripande systemet förblir lika svårt att förstå, eller ibland blir svårare, eftersom logiken nu är spridd över fler filer med mer indirektion mellan dem. Para komplexitetsmätetal med en kvalitativ granskning av om nedbrytningen genuint klargjorde koden, eller om den bara flyttade komplexiteten någonstans mätetalet inte längre kunde se den.
 
 ### Skilj väsentlig komplexitet från oavsiktlig komplexitet innan ni reagerar
 
@@ -53,15 +53,15 @@ Den centrala spänningen är **automation kontra omdöme**. En helt automatisera
 
 1. **Är våra komplexitetströskelvärden kalibrerade till vår egen kodbas faktiska fördelning, eller lånade okritiskt från en generisk branschkonvention?** Dra er kodbas verkliga komplexitetsfördelning och kontrollera om era nuvarande tröskelvärden är rimliga mot den, snarare än att anta att ett vanligt citerat tal gäller universellt för er domän.
 
-2. **Har vi någonsin sett en funktion delas upp i flera mindre utan att den resulterande koden faktiskt blev lättare att förstå?** Det här är det tydligaste tecknet på nedbrytningsmanipulationsmönstret det här kapitlet varnar om. Titta på en nylig omstrukturering motiverad primärt av en komplexitetspoäng och bedöm ärligt om den förbättrade genuin förståelighet.
+2. **Har vi någonsin sett en funktion delas upp i flera mindre utan att den resulterande koden faktiskt blev lättare att förstå?** Det här är det tydligaste tecknet på nedbrytningsmanipulationsmönstret det här ämnet varnar om. Titta på en nylig omstrukturering motiverad primärt av en komplexitetspoäng och bedöm ärligt om den förbättrade genuin förståelighet.
 
 3. **Var i vår kodbas är komplexitet väsentlig för problemet, och var är den oavsiktlig och fixbar?** Gå igenom era högst-komplexitet-avvikare och sortera dem i de här två kategorierna explicit, eftersom bara den andra kategorin representerar ett genuint, handlingsbart kvalitetsproblem.
 
-4. **Använder vi komplexitetsmätetal för att triagera granskningsinsats, eller som en hård automatiserad grind utan mänskligt omdöme inblandat?** Diskutera om ert nuvarande upprätthållningstillvägagångssätt lämnar utrymme för väsentlig-kontra-oavsiktlig-distinktionen det här kapitlet rekommenderar, eller om det behandlar varje brott identiskt oavsett kontext.
+4. **Använder vi komplexitetsmätetal för att triagera granskningsinsats, eller som en hård automatiserad grind utan mänskligt omdöme inblandat?** Diskutera om ert nuvarande upprätthållningstillvägagångssätt lämnar utrymme för väsentlig-kontra-oavsiktlig-distinktionen det här ämnet rekommenderar, eller om det behandlar varje brott identiskt oavsett kontext.
 
-5. **Har en komplexitetspoäng någonsin använts, även informellt, för att döma en enskild ingenjörs arbetskvalitet?** Det här riskerar samma individuell-utvärdering-fälla kapitel 3.4 varnar mot för aktivitetsmätetal, tillämpad här på kodmätetal istället, och det inbjuder samma manipulationsrespons.
+5. **Har en komplexitetspoäng någonsin använts, även informellt, för att döma en enskild ingenjörs arbetskvalitet?** Det här riskerar samma individuell-utvärdering-fälla ämne 3.4 varnar mot för aktivitetsmätetal, tillämpad här på kodmätetal istället, och det inbjuder samma manipulationsrespons.
 
-6. **Hur ser vår komplexitetstrend ut under det senaste året för våra mest kritiska, mest frekvent ändrade filer?** Kombinera det här med churn- och hotspot-analysen från kapitel 4.3, eftersom en fil som är både högt komplex och frekvent ändrad förtjänar uppmärksamhet långt före en som är komplex men sällan rörd.
+6. **Hur ser vår komplexitetstrend ut under det senaste året för våra mest kritiska, mest frekvent ändrade filer?** Kombinera det här med churn- och hotspot-analysen från ämne 4.3, eftersom en fil som är både högt komplex och frekvent ändrad förtjänar uppmärksamhet långt före en som är komplex men sällan rörd.
 
 ## Sektorperspektiv
 
@@ -69,7 +69,7 @@ Den centrala spänningen är **automation kontra omdöme**. En helt automatisera
 
 **Litet företag.** De flesta moderna statiska analysverktyg rapporterar komplexitetsmätetal som en del av en bredare, gratis eller lågkostnads-lintuppsättning; använd outputen som en periodisk triagesignal snarare än att investera i dedikerade verktyg. Fokusera uppmärksamhet på era mest frekvent modifierade filer först.
 
-**Stort företag.** Komplexitetsmätetal i skala är mest värdefulla kombinerade med churn-data (kapitel 4.3) för att prioritera omstruktureringsinvestering över en kodbas för stor för någon individ att undersöka manuellt. Kalibrera tröskelvärden per tjänst eller domän snarare än att tillämpa ett organisationsövergripande tal, eftersom legitim komplexitet varierar betydligt över olika typer av system.
+**Stort företag.** Komplexitetsmätetal i skala är mest värdefulla kombinerade med churn-data (ämne 4.3) för att prioritera omstruktureringsinvestering över en kodbas för stor för någon individ att undersöka manuellt. Kalibrera tröskelvärden per tjänst eller domän snarare än att tillämpa ett organisationsövergripande tal, eftersom legitim komplexitet varierar betydligt över olika typer av system.
 
 **Myndighet.** Långlivade myndighetssystem ackumulerar ofta komplexitet gradvis över år eller decennier av inkrementella kravändringar, och en komplexitetsrevision kan vara ett övertygande, konkret verktyg för att motivera moderniserings- eller omstruktureringsinvestering för intressenter som annars kan se systemet som helt enkelt "fungerande" och därför inte värt att investera i.
 
@@ -83,12 +83,12 @@ Den centrala spänningen är **automation kontra omdöme**. En helt automatisera
 
 Avkastningen på att använda komplexitetsmätetal väl är riktad, högvärdig omstruktureringsinvestering: betalningsbolagsexemplet ovan visar en enda, väl riktad fix, identifierad genom komplexitetsanalys, som mätbart minskade defekter i exakt den högst-risk-kodvägen, till en bråkdel av kostnaden ett brett, oriktat omstruktureringsinitiativ skulle ha krävt.
 
-Den totala ägandekostnaden är låg: de flesta moderna utvecklingsverktygskedjor beräknar komplexitetsmätetal automatiskt som en del av statisk analys (kapitel 4.4), och den verkliga investeringen är den mänskliga omdömestiden att tolka resultat korrekt, skiljande väsentlig från oavsiktlig komplexitet och fångande nedbrytningsmanipulation, snarare än någon betydande ny verktygskostnad.
+Den totala ägandekostnaden är låg: de flesta moderna utvecklingsverktygskedjor beräknar komplexitetsmätetal automatiskt som en del av statisk analys (ämne 4.4), och den verkliga investeringen är den mänskliga omdömestiden att tolka resultat korrekt, skiljande väsentlig från oavsiktlig komplexitet och fångande nedbrytningsmanipulation, snarare än någon betydande ny verktygskostnad.
 
 ## Antimönster och fallgropar
 
 - **Att behandla en komplexitetspoäng som en direkt kvalitetsdom:** den mäter en specifik egenskap, inte övergripande kodkvalitet.
-- **Att dela upp en funktion för att manipulera poängen utan genuin förenkling:** nedbrytningsmanipulationsmönstret det här kapitlet specifikt namnger.
+- **Att dela upp en funktion för att manipulera poängen utan genuin förenkling:** nedbrytningsmanipulationsmönstret det här ämnet specifikt namnger.
 - **Att tillämpa ett universellt tröskelvärde utan att kalibrera till er egen kodbas:** producerar antingen för generöst eller för strikt upprätthållande beroende på domän.
 - **Att använda komplexitetsmätetal för att individuellt utvärdera ingenjörer:** inbjuder manipulation och misstillämpar ett mätetal menat för triage, inte dom.
 - **Att behandla all komplexitet som lika fixbar:** väsentlig komplexitet från ett genuint svårt problem är inte en defekt att eliminera.
@@ -99,7 +99,7 @@ Den totala ägandekostnaden är låg: de flesta moderna utvecklingsverktygskedjo
 - **Nivå 1, Initiera:** Komplexitet mäts inte, eller mäts med ett oundersökt, generiskt universellt tröskelvärde tillämpat okritiskt.
 - **Nivå 2, Utveckla:** Komplexitetsmätetal samlas in men agerar man sällan på, och ingen distinktion görs mellan väsentlig och oavsiktlig komplexitet.
 - **Nivå 3, Standardisera:** Tröskelvärden kalibreras till kodbasens egen fördelning, och komplexitetsmätetal driver konsekvent gransknings- och omstruktureringstriage organisationsövergripande.
-- **Nivå 4, Hantera:** Komplexitetstrend och avvikare övervakas aktivt och kombineras med churn-data (kapitel 4.3) för att prioritera omstruktureringsinvestering; nedbrytningsmanipulation bevakas aktivt.
+- **Nivå 4, Hantera:** Komplexitetstrend och avvikare övervakas aktivt och kombineras med churn-data (ämne 4.3) för att prioritera omstruktureringsinvestering; nedbrytningsmanipulation bevakas aktivt.
 - **Nivå 5, Orkestrera:** Organisationen kan peka på specifika, mätbara defektfrekvensförbättringar spårade direkt till komplexitetsinformerad omstruktureringsinvestering, och komplexitetsdata är en rutinmässig, betrodd insats till ingenjörsinvesteringsbeslut.
 
 ## Diskussionsidéer

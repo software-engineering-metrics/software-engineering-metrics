@@ -1,19 +1,19 @@
-# Structure (canonical chapter manifest)
+# Structure (canonical topic manifest)
 
 This file is the structural source of truth for the book. It lists every part
-and chapter with its decimal number, title, and file. The test suite
+and topic with its decimal number, title, and file. The test suite
 (`tests/validate.py`) checks that the files on disk match this manifest
 exactly, and the navigation generator (`tools/gen_nav.py`) derives the table
 of contents, index, and specification outline from the same files. Change the
-structure here and in the chapter files together; the tests will catch any
+structure here and in the topic files together; the tests will catch any
 drift.
 
-Totals: **9 parts**, **63 chapters** (each part opens with an N.0
+Totals: **9 parts**, **63 topics** (each part opens with an N.0
 introduction).
 
 ## Part 1: Foundations of Measurement
 
-| Chapter | Title | File |
+| Topic | Title | File |
 | --- | --- | --- |
 | 1.0 | Introduction to Part 1: Foundations of Measurement | [`01-00-foundations-of-measurement.md`](../locales/en-gb-oxendict/topics/01-00-foundations-of-measurement.md) |
 | 1.1 | Why measure software engineering | [`01-01-why-measure-software-engineering.md`](../locales/en-gb-oxendict/topics/01-01-why-measure-software-engineering.md) |
@@ -25,7 +25,7 @@ introduction).
 
 ## Part 2: Flow Metrics
 
-| Chapter | Title | File |
+| Topic | Title | File |
 | --- | --- | --- |
 | 2.0 | Introduction to Part 2: Flow Metrics | [`02-00-flow-metrics.md`](../locales/en-gb-oxendict/topics/02-00-flow-metrics.md) |
 | 2.1 | The Flow Framework | [`02-01-the-flow-framework.md`](../locales/en-gb-oxendict/topics/02-01-the-flow-framework.md) |
@@ -41,7 +41,7 @@ introduction).
 
 ## Part 3: Developer Experience and the SPACE Framework
 
-| Chapter | Title | File |
+| Topic | Title | File |
 | --- | --- | --- |
 | 3.0 | Introduction to Part 3: Developer Experience and the SPACE Framework | [`03-00-developer-experience-and-space.md`](../locales/en-gb-oxendict/topics/03-00-developer-experience-and-space.md) |
 | 3.1 | The SPACE framework | [`03-01-the-space-framework.md`](../locales/en-gb-oxendict/topics/03-01-the-space-framework.md) |
@@ -54,7 +54,7 @@ introduction).
 
 ## Part 4: Code and Quality Metrics
 
-| Chapter | Title | File |
+| Topic | Title | File |
 | --- | --- | --- |
 | 4.0 | Introduction to Part 4: Code and Quality Metrics | [`04-00-code-and-quality-metrics.md`](../locales/en-gb-oxendict/topics/04-00-code-and-quality-metrics.md) |
 | 4.1 | Code complexity metrics | [`04-01-code-complexity-metrics.md`](../locales/en-gb-oxendict/topics/04-01-code-complexity-metrics.md) |
@@ -66,7 +66,7 @@ introduction).
 
 ## Part 5: Product and Business Metrics
 
-| Chapter | Title | File |
+| Topic | Title | File |
 | --- | --- | --- |
 | 5.0 | Introduction to Part 5: Product and Business Metrics | [`05-00-product-and-business-metrics.md`](../locales/en-gb-oxendict/topics/05-00-product-and-business-metrics.md) |
 | 5.1 | Escaped defect rate and quality escapes | [`05-01-escaped-defect-rate-and-quality-escapes.md`](../locales/en-gb-oxendict/topics/05-01-escaped-defect-rate-and-quality-escapes.md) |
@@ -77,7 +77,7 @@ introduction).
 
 ## Part 6: Reliability, Operations, and Security Metrics
 
-| Chapter | Title | File |
+| Topic | Title | File |
 | --- | --- | --- |
 | 6.0 | Introduction to Part 6: Reliability, Operations, and Security Metrics | [`06-00-reliability-operations-and-security-metrics.md`](../locales/en-gb-oxendict/topics/06-00-reliability-operations-and-security-metrics.md) |
 | 6.1 | Service level indicators, objectives, and error budgets | [`06-01-slis-slos-and-error-budgets.md`](../locales/en-gb-oxendict/topics/06-01-slis-slos-and-error-budgets.md) |
@@ -87,7 +87,7 @@ introduction).
 
 ## Part 7: Metrics in the Age of AI
 
-| Chapter | Title | File |
+| Topic | Title | File |
 | --- | --- | --- |
 | 7.0 | Introduction to Part 7: Metrics in the Age of AI | [`07-00-metrics-in-the-age-of-ai.md`](../locales/en-gb-oxendict/topics/07-00-metrics-in-the-age-of-ai.md) |
 | 7.1 | The generative AI paradigm shift | [`07-01-the-generative-ai-paradigm-shift.md`](../locales/en-gb-oxendict/topics/07-01-the-generative-ai-paradigm-shift.md) |
@@ -97,7 +97,7 @@ introduction).
 
 ## Part 8: Building a Metrics Program
 
-| Chapter | Title | File |
+| Topic | Title | File |
 | --- | --- | --- |
 | 8.0 | Introduction to Part 8: Building a Metrics Program | [`08-00-building-a-metrics-program.md`](../locales/en-gb-oxendict/topics/08-00-building-a-metrics-program.md) |
 | 8.1 | Designing an engineering metrics dashboard | [`08-01-designing-an-engineering-metrics-dashboard.md`](../locales/en-gb-oxendict/topics/08-01-designing-an-engineering-metrics-dashboard.md) |
@@ -108,7 +108,7 @@ introduction).
 
 ## Part 9: Appendices
 
-| Chapter | Title | File |
+| Topic | Title | File |
 | --- | --- | --- |
 | 9.0 | Appendices | [`09-00-appendices.md`](../locales/en-gb-oxendict/topics/09-00-appendices.md) |
 | 9.1 | Glossary | [`09-01-glossary.md`](../locales/en-gb-oxendict/topics/09-01-glossary.md) |

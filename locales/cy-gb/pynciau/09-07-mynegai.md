@@ -1,6 +1,6 @@
 # 9.7 Mynegai
 
-Mynegai pwnc o gysyniadau allweddol a'r penodau sy'n ymdrin â nhw. Diffinnir termau yn y Rhestr Termau (pennod 9.1). Trefnir cofnodion yn ôl trefn wyddor y term Saesneg gwreiddiol, i gadw cysondeb â'r rhestr termau.
+Mynegai pwnc o gysyniadau allweddol a'r pynciau sy'n ymdrin â nhw. Diffinnir termau yn y Rhestr Termau (pwnc 9.1). Trefnir cofnodion yn ôl trefn wyddor y term Saesneg gwreiddiol, i gadw cysondeb â'r rhestr termau.
 
 ## A
 

@@ -7,7 +7,7 @@ mayoría de los programas de métricas dedican mucho más esfuerzo a diseñar
 tableros que a verificar la canalización que los alimenta. Esto está al
 revés. Un gráfico bellamente diseñado construido sobre una instrumentación
 inconsistente, autoinformada o rota en silencio es peor que ningún gráfico,
-porque parece autorizado mientras está equivocado. Este capítulo trata del
+porque parece autorizado mientras está equivocado. Este tema trata del
 fundamento poco vistoso que el resto de este libro asume: de dónde vienen
 realmente los datos de ingeniería, cuándo confiar en la instrumentación
 automatizada más que en el autoinforme, y los fallos de calidad de datos que
@@ -48,7 +48,7 @@ todo lo demás en este libro.
 - **Usa el autoinforme solo para lo que no se puede observar directamente.**
   La satisfacción, la fricción percibida y el bienestar no tienen sustituto
   en ningún sistema de registro; pregunta directamente y diseña bien la
-  encuesta (capítulo 3.7). Reserva el autoinforme específicamente para esa
+  encuesta (tema 3.7). Reserva el autoinforme específicamente para esa
   categoría.
 - **Los datos de cada métrica tienen un sistema de origen, un método de
   recopilación y un modo de fallo conocido.** Documenta los tres, no solo la
@@ -71,7 +71,7 @@ eventos de commit y fusión, el rastreador de incidencias para los registros
 de interrupciones, la plataforma de encuestas para la satisfacción
 autoinformada. Si no puedes nombrar el sistema exacto, en realidad no sabes
 de dónde viene el número, y no puedes evaluar su fiabilidad. Este mapeo es
-un prerrequisito para la carta de gobernanza del capítulo 1.4, no un
+un prerrequisito para la carta de gobernanza del tema 1.4, no un
 ejercicio aparte.
 
 ### Instrumenta en el evento, no en el informe
@@ -91,7 +91,7 @@ frente a un indicador informado por una persona para el mismo hecho.
 Algunas cosas genuinamente no se pueden observar desde la telemetría del
 sistema: si un ingeniero siente que su trabajo tiene sentido, si un proceso
 resulta frustrante, si el riesgo de agotamiento está aumentando. Estas cosas
-requieren preguntar directamente, y una encuesta bien diseñada (el capítulo
+requieren preguntar directamente, y una encuesta bien diseñada (el tema
 3.7 cubre la mecánica) es la herramienta adecuada. El error es usar el
 autoinforme para cosas que un sistema podría observar directamente en su
 lugar, pedir a los ingenieros que estimen su propia frecuencia de
@@ -117,7 +117,7 @@ primer commit en el control de versiones hasta la marca de tiempo del
 despliegue en producción en la canalización, excluyendo las ramas de
 corrección urgente). Dos equipos con la misma definición pero distintos
 métodos de recopilación seguirán produciendo números no comparables.
-Registra ambos en la carta de métricas del capítulo 1.4, y trata un cambio
+Registra ambos en la carta de métricas del tema 1.4, y trata un cambio
 en cualquiera de los dos como un cambio que requiere la misma revisión
 documentada.
 

@@ -8,8 +8,8 @@ ar draws ymrwymiadau olynol. Ar ei ben ei hun, mae trosiant yn signal
 eithaf gwan: mae rhai ffeiliau'n newid yn aml oherwydd eu bod dan
 ddatblygiad gweithredol, iach, ac mae rhai'n anaml yn newid oherwydd eu
 bod yn sefydlog ac yn gywir, nid oherwydd eu bod wedi'u hesgeuluso.
-Daw pŵer diagnostig gwirioneddol dull y bennod hon o gyfuno trosiant â
-chymhlethdod (pennod 4.1): mae ffeil sy'n newid yn aml ac yn hynod
+Daw pŵer diagnostig gwirioneddol dull y pwnc hwn o gyfuno trosiant â
+chymhlethdod (pwnc 4.1): mae ffeil sy'n newid yn aml ac yn hynod
 gymhleth, **man poeth**, yn anghymesur o debygol o fod yn ffynhonnell
 diffygion ac yn llusgo ar gyflymder tîm, ac mae ymchwil empirig yn
 cadarnhau hyn yn gyson ar draws llawer o sylfeini cod a sefydliadau.
@@ -59,7 +59,7 @@ gwirioneddol prin tuag at y cod a gynhyrchith yr enillion mwyaf.
 
 Tynnwch amlder newid fesul ffeil o hanes rheoli fersiwn dros ffenestr
 ystyrlon, chwe mis i flwyddyn yn nodweddiadol, a'i parejo â mesur
-cymhlethdod (pennod 4.1) ar gyfer yr un ffeiliau. Graddiwch ffeiliau yn
+cymhlethdod (pwnc 4.1) ar gyfer yr un ffeiliau. Graddiwch ffeiliau yn
 ôl y cyfuniad, cynnyrch trosiant a chymhlethdod yn gyffredin, yn
 hytrach na'r naill fetrig ar ei ben ei hun, gan mai'r cyfuniad hwn yw'r
 hyn y mae'r ymchwil sylfaenol yn ei gysylltu'n gyson â chyfraddau
@@ -75,14 +75,14 @@ newid aml yn ddilys oherwydd ei bod yn eistedd wrth ganol rhesymeg
 busnes gweithredol, esblygol, ac os felly gallai'r flaenoriaeth fod yn
 brofion gwell neu ddogfennaeth gliriach yn hytrach nag ailysgrifennu
 strwythurol. Mae hyn yn adlewyrchu gwahaniaeth cymhlethdod hanfodol-yn-
-erbyn-damweiniol pennod 4.1, wedi'i gymhwyso yma i'r signal cyfun
+erbyn-damweiniol pwnc 4.1, wedi'i gymhwyso yma i'r signal cyfun
 trosiant-cymhlethdod.
 
 ### Croesgyfeiriwch fannau poeth yn erbyn data digwyddiad a diffyg
 
 Lle bo ar gael, gwiriwch a yw eich mannau poeth wedi'u nodi'n
-cydberthyn â digwyddiadau cynhyrchu gwirioneddol (pennod 6.2) neu ddata
-dianc diffygion (pennod 5.1). Mae cydberthynas gref yn dilysu'r
+cydberthyn â digwyddiadau cynhyrchu gwirioneddol (pwnc 6.2) neu ddata
+dianc diffygion (pwnc 5.1). Mae cydberthynas gref yn dilysu'r
 dadansoddiad man-poeth fel un rhagfynegol gwirioneddol ar gyfer eich
 sylfaen cod benodol ac yn cryfhau'r achos busnes dros weithredu arno;
 mae cydberthynas wan neu absennol yn awgrymu naill ai mater ansawdd
@@ -240,7 +240,7 @@ yrru-gan-reddf.
 
 Mae cost cyfanswm perchnogaeth yn isel, gan fod data trosiant yn dod yn
 uniongyrchol o hanes rheoli fersiwn presennol a bod data cymhlethdod fel
-arfer eisoes ar gael o offeryno dadansoddi statig (pennod 4.4); y prif
+arfer eisoes ar gael o offeryno dadansoddi statig (pwnc 4.4); y prif
 fuddsoddiad yw'r ymdrech dadansoddi cyfnodol a'r amser barn ddynol i
 ddehongli canlyniadau a phenderfynu pa weithred y mae pob man poeth a
 nodwyd yn ei mynnu.

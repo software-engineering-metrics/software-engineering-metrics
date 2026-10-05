@@ -9,7 +9,7 @@ fuentes, y la navegación que los respaldan. Cada uno está escrito para
 valerse por sí solo, de modo que puedas enlazar a un equipo directamente
 a un único apéndice sin exigirle que haya leído antes el resto del libro.
 
-## Capítulos de esta parte
+## Temas de esta parte
 
 - **9.1 Glosario**: Definiciones de los términos y siglas usados a lo
   largo del libro, desde DORA y SPACE hasta SLO, MTTR, y la ley de
@@ -24,25 +24,25 @@ a un único apéndice sin exigirle que haya leído antes el resto del libro.
   métricas, una especificación de panel, y una agenda de revisión de
   métricas.
 - **9.5 Autoevaluación de madurez**: El modelo de madurez de cinco
-  niveles de cada capítulo, consolidado en una única matriz para la
+  niveles de cada tema, consolidado en una única matriz para la
   autoevaluación organizacional, junto al modelo de programa transversal
-  del capítulo 8.4.
+  del tema 8.4.
 - **9.6 Referencias y lecturas adicionales**: Una bibliografía
   consolidada de las obras citadas a lo largo del libro.
 - **9.7 Índice**: Un índice temático que vincula los conceptos clave con
-  los capítulos donde aparecen.
+  los temas donde aparecen.
 
 ## Cómo usar estos apéndices
 
-Trátalos como compañeros vivos de los capítulos. Cuando un capítulo
+Trátalos como compañeros vivos de los temas. Cuando un tema
 recomienda una práctica, el apéndice correspondiente te ayuda a actuar
-sobre ella: el capítulo 1.4 (gobernanza de métricas) se empareja con la
-plantilla de carta de métricas del capítulo 9.4; el capítulo de seguridad
+sobre ella: el tema 1.4 (gobernanza de métricas) se empareja con la
+plantilla de carta de métricas del tema 9.4; el tema de seguridad
 (6.4) se empareja con las definiciones de gravedad de vulnerabilidad del
-capítulo 9.2; y la sección de madurez de cada capítulo alimenta la
-autoevaluación consolidada del capítulo 9.5. Empieza por las
-recomendaciones de un capítulo, y luego usa estos apéndices para
+tema 9.2; y la sección de madurez de cada tema alimenta la
+autoevaluación consolidada del tema 9.5. Empieza por las
+recomendaciones de un tema, y luego usa estos apéndices para
 convertirlas en artefactos, evaluaciones, y un plan de lanzamiento
-(capítulo 8.5). Los términos de cualquier capítulo se definen en el
-glosario (capítulo 9.1), y el índice (capítulo 9.7) te ayuda a encontrar
+(tema 8.5). Los términos de cualquier tema se definen en el
+glosario (tema 9.1), y el índice (tema 9.7) te ayuda a encontrar
 dónde se trata un concepto en profundidad.

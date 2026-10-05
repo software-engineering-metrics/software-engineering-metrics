@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble et motivation
 
-Un **élément de flux** est l'unité de travail du Flow Framework, et chaque élément de flux appartient à exactement l'un des quatre types : **fonctionnalités**, nouvelle valeur ou capacité commerciale livrée à un client ; **défauts**, corrections de qualité pour les bugs trouvés par les utilisateurs ou les tests ; **risques**, travail de sécurité, conformité, confidentialité et gouvernance qui protège l'entreprise ; et **dette**, [dette technique](https://en.wikipedia.org/wiki/Technical_debt), amélioration architecturale et travail d'infrastructure qui permet la vitesse future. Le chapitre 2.1 a introduit le cadre auquel appartiennent ces quatre catégories ; ce chapitre approfondit la taxonomie elle-même, parce que les catégories ne livrent de la valeur que si une équipe classifie son travail en elles honnêtement et de manière cohérente.
+Un **élément de flux** est l'unité de travail du Flow Framework, et chaque élément de flux appartient à exactement l'un des quatre types : **fonctionnalités**, nouvelle valeur ou capacité commerciale livrée à un client ; **défauts**, corrections de qualité pour les bugs trouvés par les utilisateurs ou les tests ; **risques**, travail de sécurité, conformité, confidentialité et gouvernance qui protège l'entreprise ; et **dette**, [dette technique](https://en.wikipedia.org/wiki/Technical_debt), amélioration architecturale et travail d'infrastructure qui permet la vitesse future. Le sujet 2.1 a introduit le cadre auquel appartiennent ces quatre catégories ; ce sujet approfondit la taxonomie elle-même, parce que les catégories ne livrent de la valeur que si une équipe classifie son travail en elles honnêtement et de manière cohérente.
 
 La propriété déterminante des éléments de flux est que l'allocation entre les quatre types est un **jeu à somme nulle** : une quantité fixe de capacité d'ingénierie existe dans toute période donnée, et chaque heure dépensée sur une fonctionnalité est une heure non dépensée sur la dette, le risque ou le travail de défaut. Ce n'est pas un nouveau fait sur la livraison de logiciel, chaque dirigeant d'ingénierie sait déjà que la capacité est finie, mais la plupart des organisations n'ont aucune manière cohérente et honnête de voir la répartition réelle. La vélocité de sprint compte les points d'histoire indépendamment du type ; un backlog épuisé a l'air identique que le travail derrière lui ait été un nouveau flux de paiement ou trois mois de remédiation de sécurité peu glamour. Les éléments de flux existent spécifiquement pour rendre visible cette répartition invisible.
 
@@ -20,7 +20,7 @@ Pour les grandes équipes, cette visibilité change la nature d'une conversation
 
 ### Classifiez chaque élément à l'accueil, en utilisant une définition écrite pour chaque type
 
-Accordez-vous sur une définition concise et écrite de ce qui compte comme une fonctionnalité, un défaut, un risque et une dette dans votre contexte spécifique, et exigez que chaque nouveau morceau de travail soit classifié contre cette définition au moment où il entre dans le flux de valeur, pas après qu'il soit terminé. Une définition convenue à l'avance résiste à la tentation de classifier rétroactivement sur la base de comment un morceau de travail a fini par ressembler, ce qui est exactement le risque de manipulation que ce chapitre nomme directement ci-dessous.
+Accordez-vous sur une définition concise et écrite de ce qui compte comme une fonctionnalité, un défaut, un risque et une dette dans votre contexte spécifique, et exigez que chaque nouveau morceau de travail soit classifié contre cette définition au moment où il entre dans le flux de valeur, pas après qu'il soit terminé. Une définition convenue à l'avance résiste à la tentation de classifier rétroactivement sur la base de comment un morceau de travail a fini par ressembler, ce qui est exactement le risque de manipulation que ce sujet nomme directement ci-dessous.
 
 ### Rapportez la distribution de flux comme une tendance, pas un instantané unique
 
@@ -32,7 +32,7 @@ Décidez, avec la direction produit et commerciale, à quoi ressemble une distri
 
 ### Vérifiez la classification des éléments de flux par recoupement avec des preuves indépendantes
 
-Comparez périodiquement votre distribution de flux avec des métriques qui ne dépendent pas de l'auto-classification : le taux de défauts échappés (chapitre 5.1), la mesure de la dette technique (chapitre 4.5), et les métriques de gestion des vulnérabilités (chapitre 6.4). Si les défauts ou les vulnérabilités augmentent pendant que les parts d'éléments de flux « défauts » et « risque » restent plates ou rétrécissent, cette inadéquation est le signal le plus clair disponible que la classification a dérivé de la réalité.
+Comparez périodiquement votre distribution de flux avec des métriques qui ne dépendent pas de l'auto-classification : le taux de défauts échappés (sujet 5.1), la mesure de la dette technique (sujet 4.5), et les métriques de gestion des vulnérabilités (sujet 6.4). Si les défauts ou les vulnérabilités augmentent pendant que les parts d'éléments de flux « défauts » et « risque » restent plates ou rétrécissent, cette inadéquation est le signal le plus clair disponible que la classification a dérivé de la réalité.
 
 ### Surveillez spécifiquement le schéma d'usine à fonctionnalités
 
@@ -61,7 +61,7 @@ La tension centrale est **discipline de classification contre charge de processu
 
 5. **Notre distribution de flux correspond-elle à des preuves indépendantes, comme le taux de défauts échappés ou le nombre de vulnérabilités ouvertes, ou y a-t-il une inadéquation qui vaut la peine d'être investiguée ?** Une inadéquation ici est le signe le plus clair disponible que la classification a dérivé de ce qu'est réellement le travail.
 
-6. **Quelqu'un dans notre équipe pourrait-il tranquillement reclassifier un élément de dette ou de risque en fonctionnalité sous pression de livraison, et le remarquerions-nous actuellement s'il le faisait ?** C'est le risque de manipulation central du chapitre énoncé directement. Discutez si votre processus actuel attraperait réellement cela, pas seulement si quelqu'un le ferait délibérément.
+6. **Quelqu'un dans notre équipe pourrait-il tranquillement reclassifier un élément de dette ou de risque en fonctionnalité sous pression de livraison, et le remarquerions-nous actuellement s'il le faisait ?** C'est le risque de manipulation central du sujet énoncé directement. Discutez si votre processus actuel attraperait réellement cela, pas seulement si quelqu'un le ferait délibérément.
 
 ## Regard sectoriel
 
@@ -87,7 +87,7 @@ Le coût total de possession est faible une fois que la taxonomie et ses défini
 
 ## Antipatrons et pièges
 
-- **Classifier le travail rétroactivement, après que le résultat soit connu :** le vecteur de manipulation au cœur de ce chapitre. Sous pression de livraison, une équipe peut tranquillement étiqueter du travail de dette ou de risque comme une fonctionnalité après coup, ou arrondir un élément ambigu vers quel que soit le type qui a l'air le mieux sur le graphique de distribution, sans qu'aucune décision unique n'ait jamais l'air malhonnête en elle-même. Le garde-fou est la classification au moment de l'accueil contre une définition écrite, combinée avec des audits périodiques comparant la distribution de flux à des preuves indépendantes comme le taux de défauts échappés (chapitre 5.1) et les métriques de vulnérabilité (chapitre 6.4), la même discipline d'audit-contre-preuve-indépendante que le chapitre 1.2 demande pour chaque métrique de ce livre.
+- **Classifier le travail rétroactivement, après que le résultat soit connu :** le vecteur de manipulation au cœur de ce sujet. Sous pression de livraison, une équipe peut tranquillement étiqueter du travail de dette ou de risque comme une fonctionnalité après coup, ou arrondir un élément ambigu vers quel que soit le type qui a l'air le mieux sur le graphique de distribution, sans qu'aucune décision unique n'ait jamais l'air malhonnête en elle-même. Le garde-fou est la classification au moment de l'accueil contre une définition écrite, combinée avec des audits périodiques comparant la distribution de flux à des preuves indépendantes comme le taux de défauts échappés (sujet 5.1) et les métriques de vulnérabilité (sujet 6.4), la même discipline d'audit-contre-preuve-indépendante que le sujet 1.2 demande pour chaque métrique de ce livre.
 - **Laisser les fonctionnalités absorber systématiquement presque toute la capacité (le schéma d'usine à fonctionnalités) :** prive tranquillement le travail de dette et de risque de capacité jusqu'à ce qu'il émerge comme une crise.
 - **Traiter la distribution d'une seule période comme l'image complète :** manque la dérive lente et cumulative qu'une vue de tendance révèle clairement.
 - **Établir une distribution cible sans les parties prenantes commerciales :** renonce à la principale valeur du cadre, une compréhension partagée et négociée du compromis.
@@ -113,7 +113,7 @@ Le coût total de possession est faible une fois que la taxonomie et ses défini
 
 - Un **élément de flux** appartient à exactement l'un des quatre types, fonctionnalités, défauts, risques ou dette, et l'allocation de capacité entre eux est à **somme nulle**.
 - Il n'y a **pas de distribution universellement saine** ; le bon mélange dépend de la phase d'un produit et devrait être une cible délibérée et négociée avec les parties prenantes commerciales.
-- Le vecteur de manipulation central du chapitre est la **classification rétroactive**, reclassifier tranquillement du travail de dette ou de risque en fonctionnalité après coup ; le garde-fou est la classification au moment de l'accueil plus des audits périodiques contre des preuves indépendantes.
+- Le vecteur de manipulation central du sujet est la **classification rétroactive**, reclassifier tranquillement du travail de dette ou de risque en fonctionnalité après coup ; le garde-fou est la classification au moment de l'accueil plus des audits périodiques contre des preuves indépendantes.
 - Surveillez spécifiquement le **schéma d'usine à fonctionnalités**, les fonctionnalités absorbant systématiquement presque toute la capacité, qui prive le travail de dette et de risque jusqu'à ce qu'il émerge comme une crise.
 - La distribution de flux est la plus précieuse comme **tendance**, et son plus grand gain vient du partage direct avec les parties prenantes commerciales.
 

@@ -2,7 +2,7 @@
 
 ## Visão geral e motivação
 
-Uma métrica só é tão credível quanto os dados por baixo dela, e a maioria dos programas de métricas gasta muito mais esforço a desenhar painéis de controlo do que a verificar o pipeline que os alimenta. Isto está ao contrário. Um gráfico lindamente desenhado construído sobre instrumentação inconsistente, autorrelatada, ou silenciosamente avariada é pior do que nenhum gráfico, porque parece autoritativo enquanto está errado. Este capítulo trata da fundação pouco glamorosa que o resto deste livro assume: de onde vêm realmente os dados de engenharia, quando confiar na instrumentação automatizada acima do autorrelato, e as falhas de qualidade de dados que invalidam silenciosamente uma métrica antes de alguém reparar.
+Uma métrica só é tão credível quanto os dados por baixo dela, e a maioria dos programas de métricas gasta muito mais esforço a desenhar painéis de controlo do que a verificar o pipeline que os alimenta. Isto está ao contrário. Um gráfico lindamente desenhado construído sobre instrumentação inconsistente, autorrelatada, ou silenciosamente avariada é pior do que nenhum gráfico, porque parece autoritativo enquanto está errado. Este tema trata da fundação pouco glamorosa que o resto deste livro assume: de onde vêm realmente os dados de engenharia, quando confiar na instrumentação automatizada acima do autorrelato, e as falhas de qualidade de dados que invalidam silenciosamente uma métrica antes de alguém reparar.
 
 Os dados de engenharia de software vêm de um punhado de tipos de fontes, cada uma com características de fiabilidade diferentes. O controlo de versões e os pipelines de **[CI/CD](https://en.wikipedia.org/wiki/CI/CD)** geram registos objetivos, com marca temporal, difíceis de falsificar, daquilo que realmente aconteceu. Os rastreadores de problemas e as ferramentas de gestão de projetos geram registos que dependem de humanos atualizarem o estado correta e prontamente, o que fazem muitas vezes de forma inconsistente. As sondagens geram dados autorrelatados que são inestimáveis para coisas que nenhum sistema consegue observar, como a satisfação, mas estão sujeitos a viés de recordação e a efeitos de desejabilidade social. As plataformas de observabilidade geram telemetria ao nível do sistema que é objetiva mas só cobre o que foi instrumentado. Saber de que categoria vêm os dados de uma dada métrica diz-lhe quanto confiar nela e que modos de falha vigiar.
 
@@ -11,7 +11,7 @@ Os dados de engenharia de software vêm de um punhado de tipos de fontes, cada u
 ## Princípios-chave
 
 - **Prefira a instrumentação ao autorrelato sempre que o sistema consiga observar o evento diretamente.** Uma marca temporal de implementação do pipeline é mais credível do que a contagem autorrelatada de implementações de uma equipa.
-- **Use o autorrelato apenas para o que não pode ser observado diretamente.** A satisfação, o atrito percebido, e o bem-estar não têm substituto num sistema de registo; pergunte diretamente e desenhe bem a sondagem (capítulo 3.7). Reserve o autorrelato especificamente para essa categoria.
+- **Use o autorrelato apenas para o que não pode ser observado diretamente.** A satisfação, o atrito percebido, e o bem-estar não têm substituto num sistema de registo; pergunte diretamente e desenhe bem a sondagem (tema 3.7). Reserve o autorrelato especificamente para essa categoria.
 - **Os dados de cada métrica têm um sistema de origem, um método de recolha, e um modo de falha conhecido.** Documente todos os três, não apenas a definição.
 - **A qualidade dos dados decai silenciosamente.** Um pipeline que funcionava corretamente há um ano pode estar silenciosamente avariado hoje, e um painel de controlo continuará a renderizar um número errado sem se queixar.
 - **Instrumente no ponto da verdade, não a jusante de uma tradução.** Cada salto entre o evento e o painel de controlo é uma oportunidade para o significado derivar.
@@ -20,7 +20,7 @@ Os dados de engenharia de software vêm de um punhado de tipos de fontes, cada u
 
 ### Mapear cada métrica para o seu sistema de origem real antes de confiar nela
 
-Para cada métrica num painel de controlo, nomeie o sistema específico que gera o evento subjacente: o pipeline de CI/CD para eventos de implementação, o anfitrião de controlo de versões para eventos de commit e integração, o rastreador de incidentes para registos de interrupção, a plataforma de sondagem para satisfação autorrelatada. Se não conseguir nomear o sistema exato, não sabe realmente de onde vem o número, e não consegue avaliar a sua fiabilidade. Este mapeamento é um pré-requisito para a carta de governação do capítulo 1.4, não um exercício separado.
+Para cada métrica num painel de controlo, nomeie o sistema específico que gera o evento subjacente: o pipeline de CI/CD para eventos de implementação, o anfitrião de controlo de versões para eventos de commit e integração, o rastreador de incidentes para registos de interrupção, a plataforma de sondagem para satisfação autorrelatada. Se não conseguir nomear o sistema exato, não sabe realmente de onde vem o número, e não consegue avaliar a sua fiabilidade. Este mapeamento é um pré-requisito para a carta de governação do tema 1.4, não um exercício separado.
 
 ### Instrumentar no evento, não no relatório
 
@@ -28,7 +28,7 @@ Os dados mais fiáveis capturam um evento automaticamente no momento em que acon
 
 ### Reservar as sondagens para o que apenas uma pessoa consegue dizer
 
-Algumas coisas genuinamente não podem ser observadas a partir da telemetria do sistema: se um engenheiro sente que o seu trabalho tem significado, se um processo parece frustrante, se o risco de esgotamento está a subir. Estas exigem perguntar diretamente, e uma sondagem bem desenhada (o capítulo 3.7 cobre a mecânica) é a ferramenta certa. O erro é usar o autorrelato para coisas que um sistema poderia observar diretamente, pedindo aos engenheiros para estimarem a sua própria frequência de implementação em vez de a extrair do pipeline, o que introduz ruído e viés desnecessários em dados que poderiam ter sido objetivos.
+Algumas coisas genuinamente não podem ser observadas a partir da telemetria do sistema: se um engenheiro sente que o seu trabalho tem significado, se um processo parece frustrante, se o risco de esgotamento está a subir. Estas exigem perguntar diretamente, e uma sondagem bem desenhada (o tema 3.7 cobre a mecânica) é a ferramenta certa. O erro é usar o autorrelato para coisas que um sistema poderia observar diretamente, pedindo aos engenheiros para estimarem a sua própria frequência de implementação em vez de a extrair do pipeline, o que introduz ruído e viés desnecessários em dados que poderiam ter sido objetivos.
 
 ### Construir verificações de qualidade de dados no próprio pipeline
 
@@ -36,7 +36,7 @@ Trate os pipelines de métricas com o mesmo rigor que o código de produção: a
 
 ### Documentar o método de recolha ao lado da definição
 
-A definição de uma métrica ("tempo de espera para mudanças") não está completa sem o seu método de recolha (medido a partir da marca temporal do primeiro commit no controlo de versões até à marca temporal da implementação em produção no pipeline, excluindo ramos de correção urgente). Duas equipas com a mesma definição mas métodos de recolha diferentes continuarão a produzir números incomparáveis. Registe ambos na carta de métricas do capítulo 1.4, e trate uma mudança em qualquer um deles como uma mudança que exige a mesma revisão documentada.
+A definição de uma métrica ("tempo de espera para mudanças") não está completa sem o seu método de recolha (medido a partir da marca temporal do primeiro commit no controlo de versões até à marca temporal da implementação em produção no pipeline, excluindo ramos de correção urgente). Duas equipas com a mesma definição mas métodos de recolha diferentes continuarão a produzir números incomparáveis. Registe ambos na carta de métricas do tema 1.4, e trate uma mudança em qualquer um deles como uma mudança que exige a mesma revisão documentada.
 
 ## Trocas: prós e contras
 

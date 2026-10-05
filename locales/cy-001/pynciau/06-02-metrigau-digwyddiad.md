@@ -2,8 +2,8 @@
 
 ## Trosolwg a chymhelliant
 
-Mae'r bennod hon yn mesur beth sy'n digwydd pan gaiff y gyllideb gwall
-o bennod 6.1 ei gwario trwy fethiant gwirioneddol: **digwyddiad**,
+Mae'r pwnc hwn yn mesur beth sy'n digwydd pan gaiff y gyllideb gwall
+o bwnc 6.1 ei gwario trwy fethiant gwirioneddol: **digwyddiad**,
 digwyddiad heb ei gynllunio sy'n dirywio neu'n torri ar draws
 gwasanaeth. Mae pedwar metrig yn ffurfio'r eirfa safonol ar gyfer mesur
 pa mor dda y mae sefydliad yn trin hyn: **cymedr amser i ganfod
@@ -11,12 +11,12 @@ pa mor dda y mae sefydliad yn trin hyn: **cymedr amser i ganfod
 **cymedr amser i gydnabod (MTTA)**, pa mor hir cyn i rywun gymryd
 perchnogaeth ymateb; **cymedr amser i ddatrys** neu **adfer (MTTR)**,
 pa mor hir hyd nes yr adferir gwasanaeth, yr un cysyniad a gwmpasodd
-pennod 2.10 yn benodol ar gyfer methiannau wedi'u hachosi gan
+pwnc 2.10 yn benodol ar gyfer methiannau wedi'u hachosi gan
 ddefnyddio, wedi'i gyffredinoli nawr i unrhyw ddigwyddiad waeth beth
 fo'i achos; ac **amlder digwyddiad**, yn syml pa mor aml y mae
 digwyddiadau'n digwydd o gwbl.
 
-Pryder canolog y bennod hon, yn adleisio triniaeth pennod 2.10 o
+Pryder canolog y pwnc hwn, yn adleisio triniaeth pwnc 2.10 o
 gyfradd methiant newid, yw mai dim ond mor ddibynadwy â'r diwylliant
 sefydliadol o gwmpas adrodd a dosbarthu digwyddiadau'n onest y mae'r
 rhifau hyn. Mae gan dîm sy'n ofni bai am ddigwyddiad bob cymhelliant i
@@ -25,15 +25,15 @@ digwyddiad difrifol fel un mân i warchod ei fetrigau ei hun. Mae arfer
 **post-mortem [di-fai](https://en.wikipedia.org/wiki/Just_culture)**, a
 arloeswyd mewn sefydliadau fel Etsy ac a ffurfiolwyd yn llenyddiaeth SRE
 Google, yn bodoli'n benodol i ddileu'r cymhelliant hwnnw, ac mae'r
-bennod hon yn ei drin fel rhagofyniad ar gyfer data digwyddiad
+bwnc hwn yn ei drin fel rhagofyniad ar gyfer data digwyddiad
 dibynadwy, nid hwylustod diwylliannol dewisol wedi'i haenu ar ben y
 metrigau.
 
 I dimau mawr, mae metrigau digwyddiad yn datgelu a yw gallu canfod ac
-ymateb sefydliad, offeryno dychwelyd pennod 2.10 ymhlith buddsoddiadau
+ymateb sefydliad, offeryno dychwelyd pwnc 2.10 ymhlith buddsoddiadau
 eraill, mewn gwirionedd yn gweithio o dan amodau gwirioneddol,
 amrywiol, nid dim ond y senario methiant wedi'i achosi-gan-ddefnyddio
-penodol a gwmpasodd y bennod honno. Mae sefydliadau menter a llywodraeth
+penodol a gwmpasodd y pwnc hwnnw. Mae sefydliadau menter a llywodraeth
 sy'n gweithredu isadeiledd dyngedfennol yn dibynnu ar y metrigau hyn ill
 dau'n fewnol, i yrru gwelliant gweithredol gwirioneddol, ac yn allanol,
 i ddangos i gwsmeriaid, rheoleiddwyr, neu'r cyhoedd fod digwyddiadau'n
@@ -49,10 +49,10 @@ cael eu trin yn gymwys ac yn gwella dros amser.
   sylfaenol gwahanol iawn yn dibynnu ar ba gyfnod sy'n araf mewn
   gwirionedd.
 - **Mae amlder digwyddiad a MTTR yn signal wedi'i barejo**, yn debyg i
-  gyfradd methiant newid ac amser adfer DORA (pennod 2.10): nid yw'r
+  gyfradd methiant newid ac amser adfer DORA (pwnc 2.10): nid yw'r
   naill na'r llall ar ei ben ei hun yn dweud y stori lawn.
 - **Mae angen yr un trylwyredd â dosbarthiad diffyg dianc ar
-  ddosbarthiad difrifoldeb** (pennod 5.1): meini prawf cyson,
+  ddosbarthiad difrifoldeb** (pwnc 5.1): meini prawf cyson,
   dogfennedig, nid barn ad hoc.
 - **Mae gwerth post-mortem mewn dysgu systemig, nid mewn cynhyrchu
   rhif.** Mae'r metrig yn sgil-gynnyrch arfer da, nid ei nod.
@@ -68,7 +68,7 @@ ar wahân, yn hytrach na dim ond un cyfanswm cymysg sengl. Mae pob
 cyfnod yn pwyntio at drwsiad gwahanol: mae canfod araf yn pwyntio at
 fwlch monitro a rhybuddio, mae cydnabyddiaeth araf yn pwyntio at
 broblem proses ar-alwad neu ddwysau, ac mae datrys araf yn pwyntio at
-fwlch offeryno, llawlyfr-rhedeg, neu allu diagnostig (mae pennod 2.10'n
+fwlch offeryno, llawlyfr-rhedeg, neu allu diagnostig (mae pwnc 2.10'n
 ymdrin â hyn yn benodol ar gyfer methiannau wedi'u hachosi-gan-
 ddefnyddio).
 
@@ -86,7 +86,7 @@ datganiad polisi un-tro.
 
 ### Dosbarthwch ddifrifoldeb â meini prawf cyson, dogfennedig, wedi'u harchwilio
 
-Cymhwyswch yr un ddisgyblaeth y mae pennod 5.1'n ei hargymell ar gyfer
+Cymhwyswch yr un ddisgyblaeth y mae pwnc 5.1'n ei hargymell ar gyfer
 diffygion dianc i ddosbarthiad difrifoldeb digwyddiad: graddfa
 sefydlog, ddogfennedig yn seiliedig ar effaith gwsmer neu fusnes
 wirioneddol, wedi'i chymhwyso'n gyson ar draws timau, wedi'i harchwilio'n
@@ -110,7 +110,7 @@ Gwir werth y broses post-mortem yw'r eitemau gweithredu penodol,
 systemig y mae'n eu cynhyrchu: rhybudd coll wedi'i ychwanegu, llawlyfr
 rhedeg wedi'i wella, pwynt-methiant-sengl wedi'i ddileu. Olrheiniwch yr
 eitemau gweithredu hyn i gwblhad â'r un ddisgyblaeth â chronfa-waith
-dyled dechnegol pennod 4.5, gan fod post-mortem sy'n cynhyrchu
+dyled dechnegol pwnc 4.5, gan fod post-mortem sy'n cynhyrchu
 mewnwelediad ond dim dilyniant yn gwastraffu'r dysgu sefydliadol y mae'r
 broses i fod i'w ddal.
 
@@ -155,7 +155,7 @@ gosbi'r unigolyn a oedd yn digwydd bod yn bresennol pan ddigwyddodd.
 4. **A ydym yn adolygu amlder digwyddiad a MTTR gyda'i gilydd, neu a
    yw un yn cael mwy o sylw na'r llall?** Gwiriwch eich arfer adrodd ac
    adolygu gwirioneddol ar gyfer y parejiad hwn, gan adlewyrchu'r un
-   ddisgyblaeth y mae pennod 2.10'n ei hargymell ar gyfer metrigau
+   ddisgyblaeth y mae pwnc 2.10'n ei hargymell ar gyfer metrigau
    sefydlogrwydd DORA.
 
 5. **Pa ganran o'n heitemau gweithredu post-mortem o'r chwe mis diwethaf
@@ -181,7 +181,7 @@ osod unwaith y bydd patrwm beio-dueddol wedi ymwreiddio.
 **Busnes bach.** Mae log digwyddiad syml, a rennir, hyd yn oed un
 anffurfiol, â dosbarthiad difrifoldeb sylfaenol ac ôl-drafodaeth ddi-fai
 fer ar gyfer unrhyw beth sylweddol, yn dal y rhan fwyaf o werth y
-bennod hon heb angen offeryno soffistigedig na phlatfform rheoli-
+bwnc hwn heb angen offeryno soffistigedig na phlatfform rheoli-
 digwyddiad pwrpasol.
 
 **Menter.** Mae dosbarthiad difrifoldeb cyson a diwylliant di-fai
@@ -301,7 +301,7 @@ llygru pob mewnbwn iddo.
 - Dadelfennwch amser ymateb i gyfnodau **canfod, cydnabod, a datrys**,
   pob un yn pwyntio at drwsiad gwahanol.
 - Dosbarthwch ddifrifoldeb â **meini prawf cyson, dogfennedig, wedi'u
-  harchwilio**, gan adlewyrchu disgyblaeth diffyg-dianc pennod 5.1.
+  harchwilio**, gan adlewyrchu disgyblaeth diffyg-dianc pwnc 5.1.
 - Adolygwch **amlder digwyddiad a MTTR gyda'i gilydd**, byth ar wahân,
   yr un ddisgyblaeth barejo â metrigau sefydlogrwydd DORA.
 - Olrheiniwch **eitemau gweithredu post-mortem i gwblhad**; mae'r

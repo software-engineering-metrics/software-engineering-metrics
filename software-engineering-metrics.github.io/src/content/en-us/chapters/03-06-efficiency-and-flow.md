@@ -2,10 +2,10 @@
 
 ## Overview and motivation
 
-**Efficiency and flow**, the final dimension of SPACE (chapter 3.1),
+**Efficiency and flow**, the final dimension of SPACE (topic 3.1),
 measures the absence of friction and the ability to sustain uninterrupted,
 focused work. This dimension sits at the boundary between Part 2's delivery
-flow metrics (chapter 2.5's flow efficiency measures how work moves through
+flow metrics (topic 2.5's flow efficiency measures how work moves through
 a team system) and something more personal: the individual cognitive
 experience of deep, focused engineering work, and how often that experience
 gets fragmented by interruption. Software engineering, more than most
@@ -19,7 +19,7 @@ many minutes, sometimes closer to half an hour, to fully rebuild the
 [working memory](https://en.wikipedia.org/wiki/Working_memory) an engineer
 was holding before the interruption occurred. An engineer
 whose day is fragmented into fifteen-minute blocks by meetings,
-notifications, and context switches may show plenty of activity (chapter
+notifications, and context switches may show plenty of activity (topic
 3.4) while accomplishing far less genuinely difficult work than the same
 engineer would with two protected, uninterrupted hours. This dimension
 exists specifically to make that invisible cost visible.
@@ -44,7 +44,7 @@ a concrete way to measure and defend against it, rather than treating
   deliberately defended,** not one that survives by default as an
   organization grows.
 - **This dimension often explains a gap between activity and performance**
-  (chapters 3.3 and 3.4): high activity with low performance sometimes
+  (topics 3.3 and 3.4): high activity with low performance sometimes
   traces back to fragmented, interruption-heavy days.
 - **Individual variation in focus needs is real,** and this dimension
   should inform team norms, not enforce a rigid, identical schedule on
@@ -67,7 +67,7 @@ surprises leadership more than the engineers themselves.
 Notification volume, incoming message frequency during work hours, and the
 rate of context switches between tasks can all be approximated from
 existing collaboration tooling. Use this data in aggregate, at the team
-level, following the same principle as activity data (chapter 3.4): never
+level, following the same principle as activity data (topic 3.4): never
 as an individual surveillance mechanism, always as a team-level signal
 about whether the organization's coordination overhead has grown beyond
 what protects genuine focus.
@@ -84,8 +84,8 @@ interventions in this entire book.
 
 ### Correlate flow data with the activity-performance gap
 
-When a team shows high activity (chapter 3.4) but flat or declining
-performance (chapter 3.3), check flow and interruption data before assuming
+When a team shows high activity (topic 3.4) but flat or declining
+performance (topic 3.3), check flow and interruption data before assuming
 the gap reflects an individual or team capability issue. A heavily
 fragmented schedule can produce exactly this pattern: plenty of visible
 motion, little genuinely difficult work completed, because difficult work
@@ -193,7 +193,7 @@ single decision to add that much total meeting load. The company
 instituted two mandatory, organization-wide meeting-free afternoons per
 week, and a follow-up survey and delivery-metric review six months later
 showed both improved satisfaction scores and a measurable reduction in
-cycle time (chapter 2.6) for complex, multi-day features specifically.
+cycle time (topic 2.6) for complex, multi-day features specifically.
 
 **Government.** A federal agency's engineering team, operating under heavy
 governance requirements, found that engineers were spending nearly 40% of
@@ -235,10 +235,10 @@ erosion as new coordination needs inevitably arise.
 - **Imposing a single, rigid focus-time schedule on everyone:** ignores
   genuine individual variation in how people work best.
 - **Using interruption or notification data as individual surveillance:**
-  repeats the exact misuse risk chapter 3.4 warns against for activity
+  repeats the exact misuse risk topic 3.4 warns against for activity
   data.
 - **Letting protected focus time erode gradually through exceptions:** the
-  same erosion risk chapter 2.5 warns about for WIP limits, applied to
+  same erosion risk topic 2.5 warns about for WIP limits, applied to
   focus-time protection.
 - **Adding governance or coordination requirements without ever measuring
   their cumulative meeting-load cost:** fragmentation creeps in one

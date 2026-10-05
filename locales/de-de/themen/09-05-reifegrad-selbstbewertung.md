@@ -1,17 +1,17 @@
 # 9.5 Reifegrad-Selbstbewertung
 
-Jedes Kapitel in Teilen 1 bis 8 endet mit einem Fünf-Stufen-Reifegradmodell: 1 Initiieren, 2 Entwickeln, 3 Standardisieren, 4 Steuern, 5 Orchestrieren. Dieser Anhang konsolidiert sie in eine Matrix für organisatorische Selbstbewertung. Jedes Kapitel sollte ehrlich bewertet werden, unter Nutzung konkreter Evidenz, nicht Aspiration. Siehe Kapitel 8.4 für das querschneidende Fünf-Dimensionen-Programmmodell, das diese kapitelweise Matrix ergänzt, und daran sollte erinnert werden, dass Programmreife das Minimum über Dimensionen ist, nicht der Durchschnitt.
+Jedes Thema in Teilen 1 bis 8 endet mit einem Fünf-Stufen-Reifegradmodell: 1 Initiieren, 2 Entwickeln, 3 Standardisieren, 4 Steuern, 5 Orchestrieren. Dieser Anhang konsolidiert sie in eine Matrix für organisatorische Selbstbewertung. Jedes Thema sollte ehrlich bewertet werden, unter Nutzung konkreter Evidenz, nicht Aspiration. Siehe Thema 8.4 für das querschneidende Fünf-Dimensionen-Programmmodell, das diese themenweise Matrix ergänzt, und daran sollte erinnert werden, dass Programmreife das Minimum über Dimensionen ist, nicht der Durchschnitt.
 
 ## Wie diese Matrix zu nutzen ist
 
-1. Für jedes Kapitel sollte sein eigenes Reifegradmodell gelesen werden (das Kapitel ist die maßgebliche Quelle; diese Tabelle ist ein zusammenfassender Index).
+1. Für jedes Thema sollte sein eigenes Reifegradmodell gelesen werden (das Thema ist die maßgebliche Quelle; diese Tabelle ist ein zusammenfassender Index).
 2. Die Organisation sollte 1 bis 5 gegen konkrete Evidenz bewertet werden, nicht Absicht.
-3. Über Kapitel innerhalb eines Teils sollte nicht gemittelt werden; jedes Kapitel misst eine eigenständige Fähigkeit.
-4. Niedrige Bewertungen sollten in die Einführungs-Roadmap aus Kapitel 8.5 als Investitionsprioritäten eingespeist werden, nicht als Urteil, über das man sich schlecht fühlen sollte (Kapitel 1.1).
+3. Über Themen innerhalb eines Teils sollte nicht gemittelt werden; jedes Thema misst eine eigenständige Fähigkeit.
+4. Niedrige Bewertungen sollten in die Einführungs-Roadmap aus Thema 8.5 als Investitionsprioritäten eingespeist werden, nicht als Urteil, über das man sich schlecht fühlen sollte (Thema 1.1).
 
 ## Teil 1: Grundlagen der Messung
 
-| Kapitel | Fähigkeit | Ihre Bewertung (1-5) |
+| Thema | Fähigkeit | Ihre Bewertung (1-5) |
 | --- | --- | --- |
 | 1.1 | Messen, um Entscheidungen zu informieren, nicht zu urteilen | |
 | 1.2 | Leitplanken-Paarungsdisziplin gegen Goodharts Gesetz | |
@@ -22,7 +22,7 @@ Jedes Kapitel in Teilen 1 bis 8 endet mit einem Fünf-Stufen-Reifegradmodell: 1 
 
 ## Teil 2: Flow-Metriken
 
-| Kapitel | Fähigkeit | Ihre Bewertung (1-5) |
+| Thema | Fähigkeit | Ihre Bewertung (1-5) |
 | --- | --- | --- |
 | 2.1 | Flow-Framework-Einführung, Wertstrom ehrlich gemappt | |
 | 2.2 | Flow-Item-Klassifikation, konsistent und bei Aufnahme | |
@@ -37,7 +37,7 @@ Jedes Kapitel in Teilen 1 bis 8 endet mit einem Fünf-Stufen-Reifegradmodell: 1 
 
 ## Teil 3: Entwicklererfahrung und das SPACE-Framework
 
-| Kapitel | Fähigkeit | Ihre Bewertung (1-5) |
+| Thema | Fähigkeit | Ihre Bewertung (1-5) |
 | --- | --- | --- |
 | 3.1 | Ausbalancierte, mehrdimensionale SPACE-Einführung | |
 | 3.2 | Zufriedenheits- und Wohlbefindensmessung | |
@@ -49,7 +49,7 @@ Jedes Kapitel in Teilen 1 bis 8 endet mit einem Fünf-Stufen-Reifegradmodell: 1 
 
 ## Teil 4: Code- und Qualitätsmetriken
 
-| Kapitel | Fähigkeit | Ihre Bewertung (1-5) |
+| Thema | Fähigkeit | Ihre Bewertung (1-5) |
 | --- | --- | --- |
 | 4.1 | Komplexitätsmetriken für Triage genutzt, nicht Urteil | |
 | 4.2 | Abdeckung mit Mutationstests gepaart | |
@@ -60,7 +60,7 @@ Jedes Kapitel in Teilen 1 bis 8 endet mit einem Fünf-Stufen-Reifegradmodell: 1 
 
 ## Teil 5: Produkt- und Geschäftsmetriken
 
-| Kapitel | Fähigkeit | Ihre Bewertung (1-5) |
+| Thema | Fähigkeit | Ihre Bewertung (1-5) |
 | --- | --- | --- |
 | 5.1 | Schweregrad-gewichtete entwichene-Fehler-Verfolgung | |
 | 5.2 | Akzeptanz gemessen als Versuch plus Beibehaltung | |
@@ -70,7 +70,7 @@ Jedes Kapitel in Teilen 1 bis 8 endet mit einem Fünf-Stufen-Reifegradmodell: 1 
 
 ## Teil 6: Zuverlässigkeits-, Betriebs-, und Sicherheitsmetriken
 
-| Kapitel | Fähigkeit | Ihre Bewertung (1-5) |
+| Thema | Fähigkeit | Ihre Bewertung (1-5) |
 | --- | --- | --- |
 | 6.1 | Evidenzbasierte SLOs und ausgebbare Fehlerbudgets | |
 | 6.2 | Schuldfreie, phasenzerlegte Vorfallmetriken | |
@@ -79,7 +79,7 @@ Jedes Kapitel in Teilen 1 bis 8 endet mit einem Fünf-Stufen-Reifegradmodell: 1 
 
 ## Teil 7: Metriken im Zeitalter der KI
 
-| Kapitel | Fähigkeit | Ihre Bewertung (1-5) |
+| Thema | Fähigkeit | Ihre Bewertung (1-5) |
 | --- | --- | --- |
 | 7.1 | Metrik-Gültigkeits-Audit für das KI-Zeitalter durchgeführt | |
 | 7.2 | Evidenzbasierte Messung KI-unterstützter Entwicklung | |
@@ -88,7 +88,7 @@ Jedes Kapitel in Teilen 1 bis 8 endet mit einem Fünf-Stufen-Reifegradmodell: 1 
 
 ## Teil 8: Ein Metrikprogramm aufbauen
 
-| Kapitel | Fähigkeit | Ihre Bewertung (1-5) |
+| Thema | Fähigkeit | Ihre Bewertung (1-5) |
 | --- | --- | --- |
 | 8.1 | Publikumsspezifische, ehrlich gestaltete Dashboards | |
 | 8.2 | Bewusste, hybride Bauen-gegen-Kaufen-Tooling-Strategie | |
@@ -96,7 +96,7 @@ Jedes Kapitel in Teilen 1 bis 8 endet mit einem Fünf-Stufen-Reifegradmodell: 1 
 | 8.4 | Querschneidende Programmreife-Selbstbewertung | |
 | 8.5 | Gestufte, Fundament-zuerst-Einführungs-Roadmap | |
 
-## Querschneidende Programmdimensionen (Kapitel 8.4)
+## Querschneidende Programmdimensionen (Thema 8.4)
 
 | Dimension | Ihre Bewertung (1-5) |
 | --- | --- |

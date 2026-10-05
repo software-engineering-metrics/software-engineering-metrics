@@ -2,7 +2,7 @@
 
 ## Visión general y motivación
 
-Este capítulo convierte la parte 5 en explícitamente financiera: cómo
+Este tema convierte la parte 5 en explícitamente financiera: cómo
 expresar el coste de ingeniería en términos que una parte interesada
 financiera pueda usar directamente, y cómo construir **economía
 unitaria**, el coste expresado por unidad significativa de producción o
@@ -11,25 +11,25 @@ agregada. El coste de ingeniería normalmente es la mayor línea de gasto
 controlable en una organización impulsada por software, y sin embargo con
 frecuencia es la peor entendida por la función financiera, reportada como
 un único número grande con poca visibilidad sobre qué lo impulsa o cómo
-escala con el crecimiento. Este capítulo existe para cerrar esa brecha,
+escala con el crecimiento. Este tema existe para cerrar esa brecha,
 porque un líder de ingeniería que no puede responder "¿qué nos cuesta
 operar este sistema?" o "¿cómo escala nuestro coste a medida que
 crecemos?" en términos financieros concretos está en una desventaja real
 en cada conversación de presupuesto.
 
-La disciplina específica que recomienda este capítulo, la economía
+La disciplina específica que recomienda este tema, la economía
 unitaria, significa expresar el coste por despliegue, por cliente
 atendido, por transacción procesada, o por otra unidad que realmente le
 importe al negocio, en lugar de solo como el coste total de personal o el
 gasto total en la nube. Este replanteamiento se conecta directamente con
-el principio de resultados sobre producción del capítulo 1.3: un número de
+el principio de resultados sobre producción del tema 1.3: un número de
 coste total en descenso no es automáticamente bueno si proviene de atender
 a menos clientes, y un número de coste total en aumento no es
 automáticamente malo si proviene de atender proporcionalmente a muchos
 más. La economía unitaria es lo que hace que las tendencias de coste sean
 interpretables en lugar de simplemente visibles.
 
-Para los equipos grandes, la disciplina de este capítulo es lo que
+Para los equipos grandes, la disciplina de este tema es lo que
 convierte las finanzas de ingeniería de una caja negra en un sistema
 legible y gestionable. Las organizaciones empresariales usan la economía
 unitaria para comparar la eficiencia de coste de distintos productos,
@@ -109,8 +109,8 @@ en lugar de reportar el número sin explicación.
 
 El aumento del coste de infraestructura o mantenimiento por unidad a veces
 es una consecuencia directa y mesurable de la deuda técnica acumulada
-(capítulo 4.5) o de una proliferación de puntos calientes de complejidad
-(capítulo 4.1, capítulo 4.3): las rutas de código ineficientes, la
+(tema 4.5) o de una proliferación de puntos calientes de complejidad
+(tema 4.1, tema 4.3): las rutas de código ineficientes, la
 infraestructura redundante, y las consultas mal optimizadas eventualmente
 aparecen como un coste unitario elevado. Usa el aumento del coste unitario
 como una entrada más, junto a las señales de cambios acumulados y
@@ -134,7 +134,7 @@ muchas organizaciones ya asignan el presupuesto, pero oscurece tanto qué
 está impulsando los cambios de coste como si esos cambios reflejan una
 eficiencia genuina o un crecimiento genuino. Resuelve la tensión invirtiendo
 en el reporte algo más complejo de economía unitaria y componentes
-separados que recomienda este capítulo, ya que la capacidad de acción
+separados que recomienda este tema, ya que la capacidad de acción
 resultante, saber exactamente qué palanca accionar cuando el coste se
 mueve, vale el esfuerzo de rastreo adicional y modesto para cualquier
 organización más allá de la escala más pequeña.

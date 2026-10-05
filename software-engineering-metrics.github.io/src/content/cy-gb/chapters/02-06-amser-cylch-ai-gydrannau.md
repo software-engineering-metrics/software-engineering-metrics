@@ -2,7 +2,7 @@
 
 ## Trosolwg a chymhelliant
 
-**Amser cylch** yw dadelfeniad mewnol amser llif newid (pennod 2.4) i mewn
+**Amser cylch** yw dadelfeniad mewnol amser llif newid (pwnc 2.4) i mewn
 i'w gamau peirianneg cyfansoddol: amser codio, amser adolygu, amser
 profi, ac amser defnyddio, weithiau wedi'i hollti ymhellach yn amser
 codi (pa mor hir mae newid yn aros cyn i unrhyw un ddechrau gweithio
@@ -11,7 +11,7 @@ rhywun yn gwneud hynny). Lle mae amser llif yn rhoi un rhif sengl i chi ar
 gyfer pa mor hir mae newid yn ei gymryd o'r naill ben i'r llall trwy'r
 ffrwd werth gyfan, mae [amser cylch](https://en.wikipedia.org/wiki/Cycle_time)
 yn dweud wrthych ble mae'r amser hwnnw mewn gwirionedd yn mynd unwaith y
-mae'n cyrraedd peirianneg, sef yr haen ddiagnostig y addawodd pennod 2.4
+mae'n cyrraedd peirianneg, sef yr haen ddiagnostig y addawodd pwnc 2.4
 sy'n eistedd oddi tan ei rif crynodeb ei hun.
 
 Mae'r gwahaniaeth hwn yn bwysig oherwydd nad yw "mae amser arwain yn rhy
@@ -39,7 +39,7 @@ yn dyfalu'n annibynnol wrth ei esboniad lleol ei hun.
   amser arwain yn grynodeb.
 - **Amser aros fel arfer sy'n dominyddu amser gweithredol.** Mae'r rhan
   fwyaf o oedi mewn cyflenwi meddalwedd yn dod o waith yn eistedd yn
-  segur mewn ciw, nid o ymdrech weithredol (mae pennod 2.5 yn cwmpasu hyn
+  segur mewn ciw, nid o ymdrech weithredol (mae pwnc 2.5 yn cwmpasu hyn
   yn uniongyrchol trwy effeithlonrwydd llif).
 - **Dadelfennwch fesul cam cyn cynnig trwsiad.** Mae trwsiad wedi'i
   anelu at y cam anghywir yn gwastraffu ymdrech a gall ddad-fywiogi tîm y
@@ -48,7 +48,7 @@ yn dyfalu'n annibynnol wrth ei esboniad lleol ei hun.
 - **Mae tagfa a rennir ar draws llawer o dimau'n gyfle buddsoddi
   platfform,** nid dim ond cyfres o broblemau tîm unigol.
 - **Mae data amser-cylch yn agored i'r un risgiau twyllo ag amser llif**
-  (pennod 2.4): gwyliwch am derfynau cam sy'n symud yn dawel i ffafrio
+  (pwnc 2.4): gwyliwch am derfynau cam sy'n symud yn dawel i ffafrio
   rhif.
 
 ## Argymhellion
@@ -61,7 +61,7 @@ cais tynnu i adolygiad cyntaf), adolygu (adolygiad cyntaf i gymeradwyaeth),
 a defnyddio (cymeradwyaeth i gynhyrchu). Daliwch stampiau amser ar gyfer
 pob trosglwyddiad yn awtomatig o ddigwyddiadau rheolaeth fersiwn a
 CI/CD, nid o olrhain cam hunan-adroddedig, gan gymhwyso'r un egwyddor
-cyfrifianeg-dros-hunan-adrodd o bennod 1.5.
+cyfrifianeg-dros-hunan-adrodd o bwnc 1.5.
 
 ### Gwahanwch amser aros oddi wrth amser gweithredol o fewn pob cam
 
@@ -95,7 +95,7 @@ digyswllt yn rhywle arall.
 
 ### Gwyliwch am dwyllo terfyn-cam
 
-Yn union fel y gall pwyntiau cychwyn a diwedd amser llif ddrifftio (pennod
+Yn union fel y gall pwyntiau cychwyn a diwedd amser llif ddrifftio (pwnc
 2.4), gall terfynau cam amser-cylch unigol symud mewn ffyrdd sy'n ffafrio
 rhif cam penodol heb unrhyw welliant gwirioneddol, er enghraifft, marcio
 adolygiad fel "wedi dechrau" yr eiliad y neilltuir adolygydd yn hytrach
@@ -148,7 +148,7 @@ cyfrifianeg ychwanegol.
 
 5. **A yw unrhyw derfyn cam amser-cylch yn ein cyfrifianeg wedi drifftio
    oddi wrth ei ddiffiniad dogfennedig dros amser?** Mae terfynau cam yn
-   agored i'r un risg drifft diffiniadol ag amser llif ei hun (pennod
+   agored i'r un risg drifft diffiniadol ag amser llif ei hun (pwnc
    2.4). Archwiliwch sampl o ddigwyddiadau trosglwyddiad-cam diweddar
    yn erbyn y diffiniad ysgrifenedig.
 
@@ -235,7 +235,7 @@ mae'r gyfrifianeg ei hun yn ei gostio.
   yn arwain at drwsio'r cam anghywir.
 - **Tybio mai ymdrech weithredol, nid amser aros, yw'r gost ddominyddol:**
   fel arfer yn anghywir; mae ciwio'n dominyddu yn y rhan fwyaf o
-  biblinellau cyflenwi gwirioneddol (pennod 2.5).
+  biblinellau cyflenwi gwirioneddol (pwnc 2.5).
 - **Colli tagfa a rennir, draws-dîm trwy adolygu amser cylch fesul tîm yn
   unig:** yn gadael trwsiad platfform trosoledd uchel heb ei ddarganfod.
 - **Gosod targed amser-arwain cyffredinol amwys heb arweiniad cam-
@@ -279,7 +279,7 @@ mae'r gyfrifianeg ei hun yn ei gostio.
   peirianneg, codio, adolygu, profi, defnyddio, ac yw'r haen ddiagnostig
   o dan y rhif crynodeb hwnnw.
 - Gwahanwch **amser aros oddi wrth amser gweithredol** o fewn pob cam;
-  mae ciwio fel arfer yn dominyddu ymdrech weithredol (pennod 2.5).
+  mae ciwio fel arfer yn dominyddu ymdrech weithredol (pwnc 2.5).
 - Chwiliwch am **dagfeydd a rennir ar draws timau** cyn tybio bod
   arafwch yn benodol i dîm; mae achos a rennir yn aml yn gyfle buddsoddi
   platfform.
@@ -287,7 +287,7 @@ mae'r gyfrifianeg ei hun yn ei gostio.
   amwys, fel bod timau'n gwybod yn union ble i ganolbwyntio.
 - Mae terfynau cam yn agored i'r un risg **drifft diffiniadol** ag amser
   llif ei hun; archwiliwch nhw'n gyfnodol.
-- Mae pennod 2.7 yn rhoi'r fathemateg sylfaenol, cyfraith Little, ar
+- Mae pwnc 2.7 yn rhoi'r fathemateg sylfaenol, cyfraith Little, ar
   gyfer pam mae gwaith ar y gweill ac amser cylch yn symud gyda'i
   gilydd.
 

@@ -1,10 +1,10 @@
 # 9.2 Referentie voor metriekdefinities en formules
 
-Elke formule van het boek, verzameld op een plek. Elk item benoemt het hoofdstuk met de volledige bespreking, inclusief zijn manipulatierisico en beschermmetriek. Gebruik dit als een snelle naslag, geen vervanging voor het hoofdstuk zelf.
+Elke formule van het boek, verzameld op een plek. Elk item benoemt het onderwerp met de volledige bespreking, inclusief zijn manipulatierisico en beschermmetriek. Gebruik dit als een snelle naslag, geen vervanging voor het onderwerp zelf.
 
 ## Flowmetrieken (deel 2)
 
-| Metriek | Formule | Hoofdstuk |
+| Metriek | Formule | Onderwerp |
 | --- | --- | --- |
 | Flowsnelheid | Telling flowitems afgerond per tijdseenheid | 2.3 |
 | Flowverdeling | (Afgeronde items van een flowitemtype) / (Totaal afgeronde items) x 100% | 2.3 |
@@ -25,14 +25,14 @@ Elke formule van het boek, verzameld op een plek. Elk item benoemt het hoofdstuk
 
 ## Ontwikkelaarservaring (deel 3)
 
-| Metriek | Formule | Hoofdstuk |
+| Metriek | Formule | Onderwerp |
 | --- | --- | --- |
 | Focustijd | Telling en duur van ononderbroken twee-uur-plus-blokken per week, uit agendadata | 3.6 |
 | Responstempo | (Ontvangen enquêteantwoorden) / (Verzonden enquête-uitnodigingen) x 100% | 3.7 |
 
 ## Code en kwaliteit (deel 4)
 
-| Metriek | Formule | Hoofdstuk |
+| Metriek | Formule | Onderwerp |
 | --- | --- | --- |
 | Cyclomatische complexiteit | Onafhankelijke paden door controleflow (randen − knopen + 2, volgens McCabe) | 4.1 |
 | Testdekking | (Regels/vertakkingen uitgevoerd door tests) / (Totaal regels/vertakkingen) x 100% | 4.2 |
@@ -43,7 +43,7 @@ Elke formule van het boek, verzameld op een plek. Elk item benoemt het hoofdstuk
 
 ## Product en bedrijf (deel 5)
 
-| Metriek | Formule | Hoofdstuk |
+| Metriek | Formule | Onderwerp |
 | --- | --- | --- |
 | Ontsnapte-defectfrekvens | (Ernst-gewogen ontsnapte defecten) / (Eenheid levering of tijd) | 5.1 |
 | Initiële adoptie | (Gebruikers die de functie ten minste eenmaal probeerden) / (Doelpubliek) x 100% | 5.2 |
@@ -53,7 +53,7 @@ Elke formule van het boek, verzameld op een plek. Elk item benoemt het hoofdstuk
 
 ## Betrouwbaarheid, operaties, en beveiliging (deel 6)
 
-| Metriek | Formule | Hoofdstuk |
+| Metriek | Formule | Onderwerp |
 | --- | --- | --- |
 | Felbudget | (1 − SLO-doel) x Tijdsvenster (bijv., 0,1% van 30 dagen ≈ 43 minuten) | 6.1 |
 | Felbudget-verbruikstempo | Felbudget verbruikt / Felbudget toegewezen, over een gegeven venster | 6.1 |
@@ -65,7 +65,7 @@ Elke formule van het boek, verzameld op een plek. Elk item benoemt het hoofdstuk
 
 ## Opmerkingen over het gebruik van deze formules
 
-- **Koppel altijd een snelheids- of outputformule met zijn beschermmetriek** (hoofdstuk 1.2): wijzigingsfoutpercentage met deploymentfrequentie en doorlooptijd; ontsnapte-defectfrekvens met leveringssnelheid; felbudget-verbruik met deploymentactiviteit.
-- **Gebruik medianen en percentielen, geen gemiddelden, voor tijdsgebaseerde formules** (hoofdstuk 1.6) tenzij een formule expliciet een gemiddelde vraagt.
-- **Elke formule heeft een gedocumenteerd bronsysteem en verzamelmethode nodig** (hoofdstuk 1.5) naast zijn wiskundige definitie; twee teams die dezelfde formule berekenen uit verschillende bronnen zullen geen vergelijkbare cijfers produceren.
-- **Ernstweging wordt niet expliciet getoond in elke formule hierboven** maar past toe waar "ernst-gewogen" verschijnt; zie het relevante hoofdstuk voor het volledige classificatieschema.
+- **Koppel altijd een snelheids- of outputformule met zijn beschermmetriek** (onderwerp 1.2): wijzigingsfoutpercentage met deploymentfrequentie en doorlooptijd; ontsnapte-defectfrekvens met leveringssnelheid; felbudget-verbruik met deploymentactiviteit.
+- **Gebruik medianen en percentielen, geen gemiddelden, voor tijdsgebaseerde formules** (onderwerp 1.6) tenzij een formule expliciet een gemiddelde vraagt.
+- **Elke formule heeft een gedocumenteerd bronsysteem en verzamelmethode nodig** (onderwerp 1.5) naast zijn wiskundige definitie; twee teams die dezelfde formule berekenen uit verschillende bronnen zullen geen vergelijkbare cijfers produceren.
+- **Ernstweging wordt niet expliciet getoond in elke formule hierboven** maar past toe waar "ernst-gewogen" verschijnt; zie het relevante onderwerp voor het volledige classificatieschema.

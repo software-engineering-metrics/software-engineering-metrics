@@ -2,7 +2,7 @@
 
 ## Overview and motivation
 
-**Communication and collaboration**, the C in SPACE (chapter 3.1), measures
+**Communication and collaboration**, the C in SPACE (topic 3.1), measures
 how information actually flows between people and teams: how discoverable
 documentation is, how evenly knowledge spreads across a team, how well
 cross-team dependencies get coordinated, and how new team members onboard
@@ -12,12 +12,12 @@ delivery data and less personal than satisfaction data, and that gap is a
 mistake, because breakdowns here are frequently the root cause of problems
 that show up, misattributed, in every other dimension.
 
-A rising change failure rate (chapter 2.10) that looks like a testing problem
+A rising change failure rate (topic 2.10) that looks like a testing problem
 is sometimes actually a communication problem: a team that did not know
 about a dependency's change until it broke in production. A declining
-satisfaction trend (chapter 3.2) that looks like a workload problem is
+satisfaction trend (topic 3.2) that looks like a workload problem is
 sometimes actually an isolation problem: an engineer who has been quietly
-excluded from the conversations where decisions get made. This chapter's
+excluded from the conversations where decisions get made. This topic's
 central argument is that communication and collaboration deserve direct
 measurement precisely because their failures masquerade as other problems,
 and a team chasing the wrong root cause wastes real effort fixing the wrong
@@ -52,7 +52,7 @@ reach that far.
 Track how many people can competently review, modify, or operate each
 critical system component: a component with only one qualified person is a
 **[bus factor](https://en.wikipedia.org/wiki/Bus_factor)** of one, a severe and often invisible risk (the sibling
-`software-engineering-guide` book's chapter on sustaining long-lived systems
+`software-engineering-guide` book's topic on sustaining long-lived systems
 covers this in more depth). Version control blame data, combined with
 on-call rotation records,
 can surface this concentration automatically: look for components where a
@@ -63,7 +63,7 @@ share of changes or incident responses over a meaningful period.
 
 Track how long a cross-team request, a needed API change, a shared library
 update, a coordinated release, takes from being raised to being resolved,
-similar in spirit to the cycle-time decomposition in chapter 2.6 but applied
+similar in spirit to the cycle-time decomposition in topic 2.6 but applied
 specifically to inter-team, rather than intra-team, coordination. A team
 that consistently waits weeks for a dependency another team owns has a
 collaboration problem that will not show up cleanly in either team's own
@@ -78,7 +78,7 @@ possible, track how often documentation is actually accessed, how often a
 new team member reports being unable to find an answer they needed, or how
 often the same question gets asked repeatedly in a chat channel because the
 answer, though documented, was not discoverable. This directly connects
-documentation quality (chapter 4.6) to this dimension's collaboration
+documentation quality (topic 4.6) to this dimension's collaboration
 concerns.
 
 ### Track onboarding time to productive contribution as a direct proxy
@@ -175,7 +175,7 @@ areas of knowledge first.
 **Enterprise.** Cross-team dependency friction and knowledge concentration
 both scale badly here, since more teams mean more coordination surface area
 and more critical systems that can end up owned by a shrinking pool of
-tenured experts. Invest in the instrumentation this chapter recommends
+tenured experts. Invest in the instrumentation this topic recommends
 deliberately, since informal awareness genuinely cannot cover an
 organisation at this scale.
 
@@ -239,7 +239,7 @@ unaddressed cross-team coordination failure.
   patterns:** frequently wrong, and the gap is exactly where hidden
   bottlenecks live.
 - **Ignoring bus factor until a crisis forces the discovery:** the single
-  most damaging failure mode this chapter warns against.
+  most damaging failure mode this topic warns against.
 - **Assuming documentation existence equals documentation usefulness:**
   outdated or unfindable content provides little real communication value.
 - **Measuring cross-team friction but not acting on a clear, fixable root

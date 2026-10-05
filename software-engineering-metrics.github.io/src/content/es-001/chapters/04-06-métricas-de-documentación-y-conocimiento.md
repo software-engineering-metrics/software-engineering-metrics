@@ -2,11 +2,11 @@
 
 ## Visión general y motivación
 
-Este capítulo cierra la parte 4 midiendo si el conocimiento necesario para
+Este tema cierra la parte 4 midiendo si el conocimiento necesario para
 mantener con seguridad una base de código realmente está documentado y es
 localizable, no solo si la documentación existe técnicamente en algún
-lugar. El capítulo 3.5 cubrió la comunicación y la colaboración como una
-preocupación de experiencia del desarrollador; este capítulo cubre el mismo
+lugar. El tema 3.5 cubrió la comunicación y la colaboración como una
+preocupación de experiencia del desarrollador; este tema cubre el mismo
 problema subyacente, la disponibilidad del conocimiento, desde el lado del
 código: ¿tiene un ingeniero nuevo, o uno existente trabajando en código
 desconocido, lo que necesita para hacer un cambio seguro, o ese
@@ -16,7 +16,7 @@ personas con antigüedad?
 El reto de medición aquí es genuinamente difícil, más difícil que la
 mayoría de las otras métricas de este libro, porque la calidad y utilidad
 de la documentación son inherentemente más subjetivas que un porcentaje de
-cobertura o una puntuación de complejidad. El enfoque de este capítulo es
+cobertura o una puntuación de complejidad. El enfoque de este tema es
 medir sustitutos de la utilidad en lugar de la existencia: con qué
 frecuencia se accede realmente a la documentación, con qué frecuencia se
 hace la misma pregunta repetidamente a pesar de que exista una respuesta
@@ -25,7 +25,7 @@ volverse productivo en él. Ninguno de estos sustitutos es perfecto por sí
 solo, pero juntos dan una imagen mucho más honesta que contar el número de
 páginas wiki o archivos README que contiene una base de código.
 
-Para los equipos grandes, las preocupaciones de este capítulo se acumulan
+Para los equipos grandes, las preocupaciones de este tema se acumulan
 con la antigüedad organizacional y la rotación de personal de maneras que
 son fáciles de subestimar hasta que una crisis obliga a abordar el
 problema: un sistema mantenido durante años por los mismos dos ingenieros
@@ -46,7 +46,7 @@ riesgo de forma más aguda que la mayoría.
   documentación.** Más contenido no siempre es la solución.
 - **El tiempo de incorporación hasta la contribución productiva es un
   sustituto sólido y práctico** de la salud general del conocimiento,
-  conectando directamente con las métricas de colaboración del capítulo
+  conectando directamente con las métricas de colaboración del tema
   3.5.
 - **El conocimiento que vive solo en las cabezas de las personas es un
   riesgo de durabilidad,** no un estado estable y sostenible, por bien que
@@ -63,7 +63,7 @@ Cuando tu plataforma de documentación lo permita, rastrea con qué
 frecuencia se ven realmente las páginas, y por separado, cuánto tiempo ha
 pasado desde que se actualizó por última vez una página en relación con la
 frecuencia con la que ha cambiado el sistema subyacente que describe
-(contrastarlo con los datos de cambios acumulados del capítulo 4.3 es
+(contrastarlo con los datos de cambios acumulados del tema 4.3 es
 directamente útil aquí). Una página que describe un sistema que ha
 cambiado sustancialmente desde que se editó por última vez es una fuerte
 candidata a ser activamente engañosa en lugar de simplemente inútil, y esta
@@ -83,7 +83,7 @@ de escribir más de él.
 
 ### Mide el tiempo de incorporación hasta la primera contribución significativa e independiente
 
-Esta métrica, introducida en el capítulo 3.5 como una señal de
+Esta métrica, introducida en el tema 3.5 como una señal de
 colaboración, es igualmente una señal de documentación y salud del
 conocimiento desde el lado del código. Un tiempo de incorporación
 consistentemente corto y predecible sugiere un conocimiento genuinamente
@@ -96,7 +96,7 @@ duradera.
 ### Identifica y prioriza explícitamente las áreas de conocimiento crítico no documentadas
 
 Contrasta tus datos de concentración de conocimiento (el análisis del
-[factor de autobús](https://en.wikipedia.org/wiki/Bus_factor) del capítulo
+[factor de autobús](https://en.wikipedia.org/wiki/Bus_factor) del tema
 3.5) con la cobertura de documentación: un sistema con un factor de
 autobús de uno y sin documentación significativa es un riesgo severo y
 acumulativo que merece atención prioritaria sobre un sistema bien
@@ -108,7 +108,7 @@ dedicado.
 
 En lugar de rastrear las brechas de documentación por separado y de manera
 informal, incorpora las brechas de documentación significativas a la misma
-lista acumulada visible y cuantificada descrita en el capítulo 4.5,
+lista acumulada visible y cuantificada descrita en el tema 4.5,
 particularmente para sistemas críticos con un factor de autobús bajo, de
 modo que el trabajo de documentación compita de manera justa por la
 capacidad priorizada en lugar de aplazarse perpetuamente como una tarea de
@@ -128,7 +128,7 @@ de documentación es trivialmente fácil de contar y no te dice casi nada
 útil; la utilidad genuina, si alguien realmente puede encontrar y confiar
 en el conocimiento documentado cuando lo necesita, es lo que realmente
 importa pero es más difícil de medir directamente. Resuelve la tensión
-usando los sustitutos que recomienda este capítulo, patrones de acceso,
+usando los sustitutos que recomienda este tema, patrones de acceso,
 obsolescencia en relación con los cambios acumulados, preguntas repetidas,
 y tiempo de incorporación, en combinación, aceptando que ninguno por sí
 solo es perfecto pero que su convergencia es mucho más significativa que
@@ -140,7 +140,7 @@ un simple recuento de existencia.
    ¿realmente existe documentación significativa y precisa, o un experto
    que se va se llevaría la mayor parte del conocimiento real consigo?**
    Esta es la versión más aguda y concreta de la preocupación central de
-   este capítulo; respóndela con honestidad primero para tu sistema
+   este tema; respóndela con honestidad primero para tu sistema
    individual de mayor riesgo.
 
 2. **¿Qué pregunta se hace repetidamente en el chat de nuestro equipo a
@@ -162,7 +162,7 @@ un simple recuento de existencia.
    comprobamos esto de forma sistemática", ese riesgo de obsolescencia
    probablemente sea mayor de lo que cualquiera asume actualmente.
 
-5. **¿Nuestra lista acumulada de deuda técnica (capítulo 4.5) incluye
+5. **¿Nuestra lista acumulada de deuda técnica (tema 4.5) incluye
    brechas de documentación, o el trabajo de documentación se aplaza
    perpetuamente como una tarea de menor estatus comparada con las
    correcciones de código?** Revisa tu lista acumulada real y comprueba si
@@ -179,7 +179,7 @@ un simple recuento de existencia.
 **Startup.** Las métricas formales de documentación suelen ser
 innecesarias con un equipo pequeño donde el conocimiento se propaga a
 través de conversaciones constantes y directas. El riesgo a vigilar es la
-misma concentración de factor de autobús que advierte el capítulo 3.5,
+misma concentración de factor de autobús que advierte el tema 3.5,
 ahora aplicada específicamente a la documentación: a medida que el equipo
 crece más allá del tamaño en el que todos hablan a diario, el conocimiento
 no documentado que funcionaba bien de manera informal se convierte en un
@@ -249,7 +249,7 @@ conocimiento crítico no documentado es un pasivo permanente que no cuesta
 nada visiblemente hasta el momento en que se vuelve muy costoso de golpe.
 
 El coste total de propiedad es principalmente la disciplina de rastrear
-los sustitutos que recomienda este capítulo, patrones de acceso,
+los sustitutos que recomienda este tema, patrones de acceso,
 obsolescencia, preguntas repetidas, tiempo de incorporación, y la voluntad
 de incorporar las brechas de documentación a una lista acumulada
 priorizada en lugar de tratarlas como perpetuamente de menor estatus que
@@ -277,7 +277,7 @@ financieros muestra como alternativa.
   necesitado a su único experto.
 - **Descubrir conocimiento crítico no documentado solo durante una
   transición de personal de emergencia:** el modo de fallo costoso y
-  evitable que este capítulo está construido para prevenir.
+  evitable que este tema está construido para prevenir.
 
 ## Modelo de madurez
 
@@ -318,10 +318,10 @@ financieros muestra como alternativa.
 - **El tiempo de incorporación hasta la contribución productiva** es un
   sustituto sólido y práctico de la salud general del conocimiento.
 - **El conocimiento crítico no documentado es un riesgo acumulativo**,
-  especialmente combinado con un factor de autobús bajo (capítulo 3.5); no
+  especialmente combinado con un factor de autobús bajo (tema 3.5); no
   cuesta nada visiblemente hasta que cuesta mucho de golpe.
 - Incorpora las **brechas de documentación a tu lista acumulada de deuda
-  técnica** (capítulo 4.5) para que compitan de manera justa por capacidad
+  técnica** (tema 4.5) para que compitan de manera justa por capacidad
   priorizada.
 
 ## Referencias y lecturas adicionales

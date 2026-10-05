@@ -2,7 +2,7 @@
 
 ## Visión general y motivación
 
-**Actividad**, la A de SPACE (capítulo 3.1), cuenta el volumen de trabajo
+**Actividad**, la A de SPACE (tema 3.1), cuenta el volumen de trabajo
 de ingeniería observable desde la telemetría del sistema: commits,
 solicitudes de incorporación de cambios abiertas, líneas de código
 cambiadas, comentarios de revisión de código dejados. Es la dimensión de
@@ -19,7 +19,7 @@ El problema central es que la actividad mide movimiento, no valor. Un
 recuento de commits no distingue entre un commit que resolvió un problema
 difícil con elegancia y un commit que dividió un cambio significativo en
 cinco para parecer más productivo (la manipulación por sustitución del
-capítulo 1.2, aplicada directamente a esta familia de métricas). Las
+tema 1.2, aplicada directamente a esta familia de métricas). Las
 líneas de código cambiadas premian la verbosidad sobre la habilidad mucho
 más valiosa de eliminar código innecesario. Un ingeniero que pasa un día
 entero en pensamiento profundo e ininterrumpido antes de escribir diez
@@ -32,7 +32,7 @@ Para los equipos grandes, la tentación de usar las métricas de actividad
 para la evaluación individual es constante y está bien documentada, porque
 la actividad es fácil de atribuir a una persona concreta y fácil de
 calcular automáticamente, a diferencia de las señales más difíciles y más
-honestas de las otras dimensiones de SPACE. Este capítulo existe
+honestas de las otras dimensiones de SPACE. Este tema existe
 específicamente para nombrar esa tentación y darles a los equipos el
 lenguaje y la evidencia para resistirla, porque en cuanto una organización
 empieza a clasificar individualmente a los ingenieros por recuento de
@@ -61,13 +61,13 @@ código y la moral está bien documentado y es difícil de revertir.
 
 ### Nunca clasifiques ni evalúes a personas por recuentos brutos de actividad
 
-Esta es la regla más difícil y más importante de este capítulo. El
+Esta es la regla más difícil y más importante de este tema. El
 recuento de commits, las líneas de código y el recuento de solicitudes de
 incorporación de cambios nunca deberían aparecer en una evaluación de
 desempeño individual, una clasificación comparativa, ni en ningún contexto
 donde la compensación, la posición o la reputación de un ingeniero dependa
 del número. Esto se deriva directamente del principio de exposición a
-incentivos del capítulo 1.2: en el momento en que la actividad se convierte
+incentivos del tema 1.2: en el momento en que la actividad se convierte
 en una métrica individual incentivada, la manipulación sigue casi de
 inmediato, y el comportamiento resultante, inflar commits, dividir cambios
 de forma trivial, evitar el trabajo profundo y poco vistoso que produce
@@ -89,7 +89,7 @@ datos de actividad sean interpretables en lugar de engañosos.
 Donde los datos de actividad sean útiles siquiera, prefiere señales
 ajustadas por calidad frente a recuentos brutos: el tamaño de la solicitud
 de incorporación de cambios en relación con la profundidad de revisión
-(capítulo 2.9), o la razón entre código nuevo y código eliminado, que
+(tema 2.9), o la razón entre código nuevo y código eliminado, que
 puede revelar si un equipo está acumulando complejidad o simplificando
 activamente. Estas señales ajustadas siguen siendo datos de la dimensión de
 actividad pero resisten la manipulación más burda que invitan los
@@ -98,13 +98,13 @@ recuentos brutos.
 ### Vigila específicamente el patrón de manipulación por sustitución en los datos de actividad
 
 La forma más común en que se manipulan las métricas de actividad es
-precisamente el patrón de sustitución del capítulo 1.2: dividir trabajo
+precisamente el patrón de sustitución del tema 1.2: dividir trabajo
 genuinamente significativo en muchos eventos pequeños y triviales para
 inflar un recuento. Si la frecuencia de commits o de solicitudes de
 incorporación de cambios sube mientras la complejidad o el tamaño
 subyacente de los cambios cae bruscamente, investiga antes de atribuir el
 mérito a una mejora de productividad real, usando la misma disciplina
-diagnóstica que recomienda el capítulo 2.10 para la frecuencia de
+diagnóstica que recomienda el tema 2.10 para la frecuencia de
 despliegue.
 
 ### Nombra explícitamente y desincentiva el teatro de actividad
@@ -182,7 +182,7 @@ nivel de equipo.
 
 **Startup.** Con un equipo pequeño y muy colaborativo, los datos de
 actividad suelen ser visibles sin necesitar ningún tablero, y el riesgo de
-clasificación individual contra el que advierte este capítulo es menos
+clasificación individual contra el que advierte este tema es menos
 probable simplemente porque todos ya saben en qué está trabajando cada
 persona. El riesgo en cambio es que quien funda la empresa favorezca de
 forma inconsciente el comportamiento visiblemente "ajetreado" al tomar
@@ -211,7 +211,7 @@ commits este año"), pero este tipo de titular es casi carente de
 significado y puede invitar precisamente al escrutinio equivocado en
 cuanto un revisor informado señala que la actividad bruta no dice nada
 sobre los resultados. Reporta en su lugar datos de resultado y rendimiento
-(capítulo 3.3), y evita los recuentos de actividad en cualquier
+(tema 3.3), y evita los recuentos de actividad en cualquier
 comunicación de cara al exterior.
 
 ## Ejemplos
@@ -229,7 +229,7 @@ resultado estaban siendo sutilmente perjudicados en las conversaciones de
 promoción. El liderazgo emitió una política explícita y comunicada que
 prohibía las referencias a recuentos de actividad en las discusiones de
 desempeño y promoción, y desplazó la evidencia de promoción hacia el
-enfoque de rendimiento de múltiples señales del capítulo 3.3.
+enfoque de rendimiento de múltiples señales del tema 3.3.
 
 **Sector público.** Una agencia de servicios digitales, bajo presión para
 demostrar productividad ante un comité de supervisión legislativa,
@@ -240,7 +240,7 @@ este planteamiento invitaba precisamente al escrutinio equivocado, ya que
 un miembro del comité con conocimientos técnicos podría fácilmente señalar
 que el volumen bruto de código no dice nada sobre si el código funcionaba
 o importaba. El informe revisado de la agencia usó en su lugar métricas de
-resultado (capítulo 5.3): reducción de errores reportados por la
+resultado (tema 5.3): reducción de errores reportados por la
 ciudadanía y aumento de la finalización exitosa de autoservicio, que
 resistieron mucho mejor las preguntas del comité de lo que lo habrían
 hecho los números de actividad.
@@ -262,7 +262,7 @@ El coste total de evitar esta trampa es sobre todo disciplina
 organizacional: una política explícita, exigida de forma consistente,
 contra la clasificación individual por actividad, y un compromiso de
 invertir en su lugar en la medición de rendimiento más difícil y más
-honesta que describe el capítulo 3.3. Esa disciplina cuesta menos que las
+honesta que describe el tema 3.3. Esa disciplina cuesta menos que las
 decisiones de promoción mal dirigidas, la colaboración dañada y el
 comportamiento de manipulación que las métricas de actividad individuales
 producen de forma fiable con el tiempo.
@@ -306,7 +306,7 @@ producen de forma fiable con el tiempo.
   actividad siquiera.
 - **Nivel 5, Orquestar:** La organización ha desplazado de forma
   demostrable la cultura de evaluación lejos de las métricas de actividad
-  hacia el enfoque de rendimiento de múltiples señales del capítulo 3.3,
+  hacia el enfoque de rendimiento de múltiples señales del tema 3.3,
   con una mejora visible en la colaboración y una reducción del
   comportamiento de manipulación como evidencia de que el cambio
   funcionó.
@@ -325,11 +325,11 @@ producen de forma fiable con el tiempo.
   individual más mal usada históricamente en la ingeniería de software.
 - **Nunca clasifiques ni evalúes a personas** por recuentos brutos de
   actividad; esta es la regla más difícil y más importante de este
-  capítulo.
+  tema.
 - Usa los datos de actividad **en conjunto, como contexto** para las otras
   dimensiones de SPACE, nunca como veredicto aislado.
 - Vigila el **teatro de actividad** y el **patrón de manipulación por
-  sustitución** (capítulo 1.2) específicamente dentro de esta familia de
+  sustitución** (tema 1.2) específicamente dentro de esta familia de
   métricas.
 - El trabajo profundo y de alto valor a menudo genera **los datos de
   actividad menos visibles**; protégelo de ser infravalorado de forma

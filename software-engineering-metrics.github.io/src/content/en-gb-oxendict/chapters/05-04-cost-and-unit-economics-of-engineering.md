@@ -2,7 +2,7 @@
 
 ## Overview and motivation
 
-This chapter turns Part 5 explicitly financial: how to express engineering
+This topic turns Part 5 explicitly financial: how to express engineering
 cost in terms a finance stakeholder can use directly, and how to build
 **unit economics**, cost expressed per meaningful unit of output or usage,
 rather than as an opaque, aggregate departmental budget line. Engineering
@@ -10,22 +10,22 @@ cost is usually the largest controllable expense line in a
 software-driven organization, and yet it is frequently the least
 well-understood by the finance function, reported as a single large number
 with little visibility into what drives it or how it scales with growth.
-This chapter exists to close that gap, because an engineering leader who
+This topic exists to close that gap, because an engineering leader who
 cannot answer "what does it cost us to run this system" or "how does our
 cost scale as we grow" in concrete financial terms is at a real
 disadvantage in every budget conversation.
 
-The specific discipline this chapter recommends, unit economics, means
+The specific discipline this topic recommends, unit economics, means
 expressing cost per deployment, per customer served, per transaction
 processed, or another unit that actually matters to the business, rather
 than only as total headcount cost or total cloud spend. This reframing
-connects directly to chapter 1.3's outcomes-over-output principle: a
+connects directly to topic 1.3's outcomes-over-output principle: a
 falling total cost number is not automatically good if it comes from
 serving fewer customers, and a rising total cost number is not automatically
 bad if it comes from serving proportionally many more. Unit economics is
 what makes cost trends interpretable rather than just visible.
 
-For large teams, this chapter's discipline is what turns engineering finance
+For large teams, this topic's discipline is what turns engineering finance
 from a black box into a legible, manageable system. Enterprise
 organizations use unit economics to compare the cost-efficiency of
 different products, platforms, or teams on a fair basis; government
@@ -99,8 +99,8 @@ reporting the number without explanation.
 in this book
 
 Rising infrastructure or maintenance cost per unit is sometimes a direct,
-measurable consequence of accumulated technical debt (chapter 4.5) or a
-proliferation of complexity hotspots (chapter 4.1, chapter 4.3): inefficient
+measurable consequence of accumulated technical debt (topic 4.5) or a
+proliferation of complexity hotspots (topic 4.1, topic 4.3): inefficient
 code paths, redundant infrastructure, and poorly optimized queries all show
 up eventually as elevated unit cost. Use rising unit cost as one input,
 alongside the churn and complexity signals from Part 4, into your debt
@@ -122,7 +122,7 @@ cost number is easy to report and matches how many organizations already
 allocate budget, but it obscures both what is driving cost changes and
 whether those changes reflect genuine efficiency or genuine growth.
 Resolve the tension by investing in the somewhat more complex unit-economics
-and component-separated reporting this chapter recommends, since the
+and component-separated reporting this topic recommends, since the
 resulting actionability, knowing exactly what lever to pull when cost moves,
 is worth the modest additional tracking effort for any organization beyond
 the smallest scale.

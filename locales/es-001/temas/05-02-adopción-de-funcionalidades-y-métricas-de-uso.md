@@ -11,10 +11,10 @@ experiencia del desarrollador, y entregar código impecablemente probado, y
 aun así estar construyendo cosas que nadie quiere. Los datos de adopción
 son donde una organización de ingeniería descubre si su producción se
 conectó con algún resultado real, que es exactamente la distinción entre
-entrada, producción y resultado que introdujo el capítulo 1.3 aplicada al
+entrada, producción y resultado que introdujo el tema 1.3 aplicada al
 caso más concreto de este libro: una funcionalidad específica y entregada.
 
-La preocupación central de este capítulo es que los datos de adopción, más
+La preocupación central de este tema es que los datos de adopción, más
 que casi cualquier otra familia de métricas de este libro, son fáciles de
 medir de una manera que favorece en lugar de informar. Una funcionalidad
 puede mostrar una adopción inicial impresionante puramente por curiosidad
@@ -23,7 +23,7 @@ si el usuario la quiere o no) mientras que la entrega de valor genuina y
 sostenida, medida por si la gente sigue usándola una vez que se desvanece
 la novedad, cuenta una historia completamente distinta. Distinguir la
 adopción genuina de un pico temporal es el reto técnico central de este
-capítulo, y equivocarse en esto lleva rutinariamente a las organizaciones a
+tema, y equivocarse en esto lleva rutinariamente a las organizaciones a
 celebrar funcionalidades que fracasan en silencio y abandonar aquellas que
 apenas empezaban a encontrar a su audiencia.
 
@@ -97,7 +97,7 @@ Un número de adopción impulsado porque una funcionalidad es difícil de
 evitar, un flujo de incorporación intrusivo, una ventana modal que el
 usuario debe cerrar, una configuración predeterminada difícil de cambiar,
 no está midiendo una entrega de valor genuina, y celebrarlo como si lo
-fuera repite el patrón de manipulación por sustitución del capítulo 1.2 en
+fuera repite el patrón de manipulación por sustitución del tema 1.2 en
 forma de producto. Empareja los números brutos de adopción con una señal
 de satisfacción o de estilo Net Promoter para la funcionalidad específica
 cuando sea factible, de modo que la exposición forzada que no se traduce
@@ -138,7 +138,7 @@ examinada antes de que la señal real haya tenido tiempo de surgir.
 1. **Para nuestra funcionalidad entregada más recientemente, ¿conocemos la
    prueba inicial y el uso retenido por separado, o solo un único número
    combinado?** Si solo existe un número combinado, esa brecha oculta
-   exactamente la distinción entre curiosidad y valor que este capítulo
+   exactamente la distinción entre curiosidad y valor que este tema
    trata como central.
 
 2. **¿Nuestra audiencia objetivo para esta funcionalidad se definió
@@ -270,7 +270,7 @@ costoso de malinterpretar un falso éxito o un falso fracaso.
   genuinamente valiosa pero con poca visibilidad o mal cronometrada.
 - **Celebrar la adopción inflada por exposición forzada o patrones
   oscuros:** una instancia del lado del producto de la manipulación por
-  sustitución del capítulo 1.2.
+  sustitución del tema 1.2.
 - **No rastrear nunca el movimiento de adopción hasta decisiones
   específicas:** limita el aprendizaje organizacional a partir de los
   propios datos de la organización.

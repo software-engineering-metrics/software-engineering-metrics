@@ -17,14 +17,14 @@ cryf (cymhlethdod, gorchudd, dadansoddiad statig) fel arfer yn golygu
 nad yw'r signalau mewnol hynny mewn gwirionedd yn dal y moddau methiant
 sy'n bwysig i ddefnyddwyr gwirioneddol.
 
-Mae'r bennod hon yn trin diffygion dianc â'r difrifoldeb y mae eu cost
+Mae'r pwnc hwn yn trin diffygion dianc â'r difrifoldeb y mae eu cost
 yn ei haeddu tra'n gwrthsefyll y demtasiwn i drin y cyfrif crai fel
 cerdyn sgorio syml. Nid yw pob diffyg yn gyfartal: mae camsillafiad
 mewn testun cymorth a welir yn anaml a bwg llygru-data mewn system
 trafodion ariannol ill dau, yn dechnegol, yn ddiffygion dianc, ac mae
 eu trin yn union yr un fath yn cynhyrchu metrig sydd naill ai'n rhy
 swnllyd i weithredu arno neu, yn waeth, yn camarwain yn weithredol am
-ble mae'r perygl gwirioneddol yn byw. Mae prif argymhelliad y bennod
+ble mae'r perygl gwirioneddol yn byw. Mae prif argymhelliad y pwnc
 hon, olrhain wedi'i bwysoli-yn-ôl-difrifoldeb â sylw gofalus i sut mae
 diffygion yn cael eu dosbarthu, wedi'i anelu'n uniongyrchol at y
 broblem honno.
@@ -49,7 +49,7 @@ cyfreithiol, nid dim ond ystadegyn peirianneg mewnol.
 - **Mae cysondeb dosbarthiad yn hanfodol.** Mae dau dîm yn dosbarthu
   difrifoldeb yn wahanol yn cynhyrchu rhifau na ellir eu cymharu'n deg.
 - **Mae'r metrig hwn yn agored i dwyllo diffiniad**, yn union fel
-  cyfradd methiant newid (pennod 2.10): mae culhau'r hyn sy'n cyfrif
+  cyfradd methiant newid (pwnc 2.10): mae culhau'r hyn sy'n cyfrif
   fel "diffyg" yn gwneud y rhif yn well heb leihau niwed cwsmer
   gwirioneddol.
 - **Mae categoreiddio achos gwraidd yn troi cyfrif yn offeryn
@@ -75,7 +75,7 @@ Bydd timau gwahanol a adewir i ddosbarthu difrifoldeb yn annibynnol yn
 drifftio tuag at safonau gwahanol, rhai'n geidwadol, rhai'n oddefol,
 gan wneud cymhariaeth draws-dîm yn ddiystyr ac, yn waeth, yn creu
 cymhelliant i ddosbarthu'n hael i lawr i gadw rhifau tîm ei hun yn
-edrych yn well (amrywiad o dwyllo diffiniad pennod 1.2). Cyhoeddwch
+edrych yn well (amrywiad o dwyllo diffiniad pwnc 1.2). Cyhoeddwch
 feini prawf dosbarthiad clir, seiliedig-ar-enghraifft, ac archwiliwch
 sampl o ddosbarthiadau ar draws timau'n gyfnodol i wirio am gysondeb.
 
@@ -94,9 +94,9 @@ proses penodol, trwsiadwy yn hytrach nag alwad gyffredinol amwys i
 
 Lle bo'n bosibl, olrheiniwch ddiffyg dianc yn ôl at yr ardal god y daeth
 ohoni a gwiriwch a ddangosodd yr ardal honno arwyddion rhybudd ym
-metrigau Rhan 4: a oedd yn fan poeth cymhlethdod (pennod 4.1, pennod
-4.3), a oedd ganddo gyfradd lladd-treiglo isel (pennod 4.2), a fflagiodd
-dadansoddiad statig unrhyw beth gerllaw (pennod 4.4). Y cysylltiad hwn
+metrigau Rhan 4: a oedd yn fan poeth cymhlethdod (pwnc 4.1, pwnc
+4.3), a oedd ganddo gyfradd lladd-treiglo isel (pwnc 4.2), a fflagiodd
+dadansoddiad statig unrhyw beth gerllaw (pwnc 4.4). Y cysylltiad hwn
 sy'n dilysu a yw eich metrigau ansawdd mewnol mewn gwirionedd yn
 rhagfynegol o ddiffygion cwsmer-wynebedig gwirioneddol, neu a ydynt yn
 mesur rhywbeth nad yw, yn eich cyd-destun penodol chi, yn cydberthyn â'r
@@ -105,12 +105,12 @@ hyn y mae cwsmeriaid mewn gwirionedd yn ei brofi.
 ### Gwarchodwch yn erbyn dosbarthiad diffyg yn dod yn ymarfer beio
 
 Fframiwch ddadansoddiad achos-gwraidd diffyg yn benodol fel cwestiwn
-system, yn ôl fframio diagnostig pennod 1.1, nid ymarfer beio-unigol.
+system, yn ôl fframio diagnostig pwnc 1.1, nid ymarfer beio-unigol.
 Mae gan dîm sy'n ofni cael ei feio am ddiffyg dianc gymhelliant cryf i
 danadrodd, camddosbarthu i lawr, neu wrthsefyll dadansoddiad achos-
-gwraidd trylwyr, sy'n llygru'r union ddata y mae'r bennod hon yn
+gwraidd trylwyr, sy'n llygru'r union ddata y mae'r pwnc hwn yn
 dibynnu arno. Mae arfer post-mortem di-fai, wedi'i gwmpasu'n fanylach
-ym mhennod 6.2, yn berthnasol yn uniongyrchol yma.
+ym mhwnc 6.2, yn berthnasol yn uniongyrchol yma.
 
 ## Cyfaddawdau: manteision ac anfanteision
 
@@ -128,7 +128,7 @@ yn cynhyrchu rhifau na ellir eu cymharu na'u cyfanredu'n deg ar lefel
 sefydliadol, ac yn creu cymhelliant tawel i dîm ddosbarthu'n hael i
 warchod ei fetrigau ei hun. Datryswch y tensiwn trwy fuddsoddi mewn
 meini prawf dosbarthiad safonedig, dogfennedig ac archwiliadau
-traws-dîm cyfnodol, gan drin hyn fel gwaith llywodraethu (pennod 1.4)
+traws-dîm cyfnodol, gan drin hyn fel gwaith llywodraethu (pwnc 1.4)
 sy'n werth y buddsoddiad o ystyried pa mor uniongyrchol y mae'r metrig
 hwn yn cysylltu ag effaith cwsmer gwirioneddol.
 
@@ -138,7 +138,7 @@ hwn yn cysylltu ag effaith cwsmer gwirioneddol.
    cyfrif crai'n trin mater cosmetig mân yr un fath â phroblem data
    critigol?** Tynnwch eich dangosfwrdd gwirioneddol a gwiriwch; os nad
    yw pwysoli difrifoldeb eisoes ar waith, dyma'r newid gwerth-uchaf
-   sengl y mae'r bennod hon yn ei argymell.
+   sengl y mae'r pwnc hwn yn ei argymell.
 
 2. **A fyddai dau dîm gwahanol yn dosbarthu difrifoldeb yr un diffyg yn
    yr un ffordd, neu a yw dosbarthiad wedi drifftio ar wahân ar draws y
@@ -167,7 +167,7 @@ hwn yn cysylltu ag effaith cwsmer gwirioneddol.
 
 6. **A yw ein cyfradd diffygion dianc erioed wedi gwella'n amheus o
    gyflym heb newid cyfatebol mewn arfer profi neu adolygu?** Fel gyda
-   chyfradd methiant newid (pennod 2.10), dyma'r arwydd cliriaf mai
+   chyfradd methiant newid (pwnc 2.10), dyma'r arwydd cliriaf mai
    meini prawf dosbarthiad, nid perygl gwirioneddol, a symudodd.
 
 ## Golwg sector
@@ -182,7 +182,7 @@ angen dadansoddiad mwy ffurfiol.
 **Busnes bach.** Mae graddfa ddifrifoldeb syml, a rennir, hyd yn oed
 tair lefel (critigol, mawr, mân), wedi'i chymhwyso'n gyson gan
 bwy bynnag sy'n trin cymorth a didoli bygiau, yn dal y rhan fwyaf o
-werth y bennod hon heb angen offeryno soffistigedig na swyddogaeth
+werth y pwnc hwn heb angen offeryno soffistigedig na swyddogaeth
 ansawdd bwrpasol.
 
 **Menter.** Cysondeb dosbarthiad draws-dîm yw'r buddsoddiad lifer-uchaf
@@ -219,7 +219,7 @@ diwahân.
 ddiweithdra talaith ddiffyg dianc a wrthododd yn anghywir ganran fach
 o hawliadau fyddai fel arall yn gymwys am sawl mis cyn ei ganfod.
 Canfu ymchwiliad achos-gwraidd fod y diffyg wedi tarddu mewn ardal god
-a fflagiwyd yn flaenorol fel man poeth cymhlethdod (pennod 4.1, pennod
+a fflagiwyd yn flaenorol fel man poeth cymhlethdod (pwnc 4.1, pwnc
 4.3) mewn adolygiad ansawdd mewnol ddeunaw mis ynghynt, ond ni
 chafodd y man poeth erioed ei flaenoriaethu ar gyfer unioni oherwydd
 na ddigwyddodd unrhyw ddiffyg eto i wneud y perygl yn gonc. Mae proses
@@ -259,7 +259,7 @@ berygl diffyg-dianc.
   diagnostig, gan adael patrymau systemig yn anweledig.
 - **Diwylliant adrodd beio-dueddol:** yn llygru data trwy dan-adrodd a
   dosbarthiad goddefol, yn union y perygl amlygiad-cymhelliant y mae
-  pennod 1.2 yn rhybuddio amdano.
+  pwnc 1.2 yn rhybuddio amdano.
 - **Byth yn cysylltu diffygion dianc yn ôl â signalau ansawdd mewnol:**
   yn colli'r cyfle i ddilysu, neu ddad-ddilysu, metrigau rhagfynegol
   Rhan 4 yn erbyn canlyniadau gwirioneddol.

@@ -2,9 +2,9 @@
 
 ## Overzicht en motivatie
 
-**Efficiëntie en flow**, de laatste dimensie van SPACE (hoofdstuk 3.1), meet de afwezigheid van wrijving en het vermogen om ononderbroken, gefocust werk te volhouden. Deze dimensie zit op de grens tussen de leveringsflowmetrieken van deel 2 (flow-efficiëntie van hoofdstuk 2.5 meet hoe werk beweegt door een teamsysteem) en iets persoonlijker: de individuele cognitieve ervaring van diep, gefocust ingenieurswerk, en hoe vaak die ervaring gefragmenteerd wordt door onderbreking. Softwareontwikkeling, meer dan de meeste kenniswerk, hangt af van het vasthouden van een grote hoeveelheid context in werkgeheugen tegelijk, wat het ongewoon vatbaar maakt voor de kost van onderbreking.
+**Efficiëntie en flow**, de laatste dimensie van SPACE (onderwerp 3.1), meet de afwezigheid van wrijving en het vermogen om ononderbroken, gefocust werk te volhouden. Deze dimensie zit op de grens tussen de leveringsflowmetrieken van deel 2 (flow-efficiëntie van onderwerp 2.5 meet hoe werk beweegt door een teamsysteem) en iets persoonlijker: de individuele cognitieve ervaring van diep, gefocust ingenieurswerk, en hoe vaak die ervaring gefragmenteerd wordt door onderbreking. Softwareontwikkeling, meer dan de meeste kenniswerk, hangt af van het vasthouden van een grote hoeveelheid context in werkgeheugen tegelijk, wat het ongewoon vatbaar maakt voor de kost van onderbreking.
 
-Het onderzoek naar deze kost is consistent en ontnuchterend: opnieuw focussen na een onderbreking op diep, complex werk duurt geen secondes, het duurt routinematig vele minuten, soms dichter bij een half uur, om het **[werkgeheugen](https://en.wikipedia.org/wiki/Working_memory)** volledig te herbouwen dat een ingenieur vasthield voordat de onderbreking plaatsvond. Een ingenieur wiens dag gefragmenteerd is in blokken van vijftien minuten door vergaderingen, notificaties, en contextwisselingen kan veel activiteit tonen (hoofdstuk 3.4) terwijl hij veel minder echt moeilijk werk voltooit dan diezelfde ingenieur zou doen met twee beschermde, ononderbroken uren. Deze dimensie bestaat specifiek om die onzichtbare kost zichtbaar te maken.
+Het onderzoek naar deze kost is consistent en ontnuchterend: opnieuw focussen na een onderbreking op diep, complex werk duurt geen secondes, het duurt routinematig vele minuten, soms dichter bij een half uur, om het **[werkgeheugen](https://en.wikipedia.org/wiki/Working_memory)** volledig te herbouwen dat een ingenieur vasthield voordat de onderbreking plaatsvond. Een ingenieur wiens dag gefragmenteerd is in blokken van vijftien minuten door vergaderingen, notificaties, en contextwisselingen kan veel activiteit tonen (onderwerp 3.4) terwijl hij veel minder echt moeilijk werk voltooit dan diezelfde ingenieur zou doen met twee beschermde, ononderbroken uren. Deze dimensie bestaat specifiek om die onzichtbare kost zichtbaar te maken.
 
 Voor grote teams groeit onderbrekingskost structureel samen: meer vergaderingen, meer teamoverschrijdende coördinatie-overhead, meer Slack-kanalen en notificaties, meer procescheckpoints, allemaal individueel redelijk ogend maar samen de dag ernstig fragmenterend. Grote bedrijven en overheidsorganisaties, met hun zwaardere governance- en coördinatiebehoeften, zijn bijzonder vatbaar voor deze fragmentatie, en deze dimensie geeft leiderschap een concrete manier om het te meten en te verdedigen, in plaats van "focustijd" te behandelen als een vage culturele aspiratie die niemand daadwerkelijk beschermt.
 
@@ -13,7 +13,7 @@ Voor grote teams groeit onderbrekingskost structureel samen: meer vergaderingen,
 - **Contextwisseling heeft een echte, meetbare kost, niet alleen een gevoelde.** Opnieuw focussen na een onderbreking duurt routinematig vele minuten, geen secondes.
 - **Vergaderingslast en onderbrekingsfrequentie zijn meetbaar, niet alleen anekdotisch.** Agenda- en toolingdata kunnen beide direct aan de oppervlakte brengen.
 - **Beschermde, ononderbroken tijd is een schaarse hulpbron die doelbewust verdedigd moet worden,** niet een die standaard overleeft naarmate een organisatie groeit.
-- **Deze dimensie verklaart vaak een gat tussen activiteit en prestatie** (hoofdstukken 3.3 en 3.4): hoge activiteit met lage prestatie traceert soms terug naar gefragmenteerde, onderbrekingszware dagen.
+- **Deze dimensie verklaart vaak een gat tussen activiteit en prestatie** (onderwerpen 3.3 en 3.4): hoge activiteit met lage prestatie traceert soms terug naar gefragmenteerde, onderbrekingszware dagen.
 - **Individuele variatie in focusbehoeften is echt,** en deze dimensie zou teamnormen moeten informeren, niet een rigide, identiek schema opleggen aan iedereen.
 
 ## Aanbevelingen
@@ -24,7 +24,7 @@ Berekenen het aantal en de duur van ononderbroken blokken van twee uur of meer b
 
 ### Volg onderbrekingsfrequentie vanuit toolingdata waar beschikbaar
 
-Notificatievolume, inkomende berichtfrequentie tijdens werkuren, en het tempo van contextwisselingen tussen taken kunnen allemaal benaderd worden vanuit bestaande samenwerkingstooling. Gebruik deze data in aggregaat, op teamniveau, hetzelfde principe volgend als activiteitsdata (hoofdstuk 3.4): nooit als een individueel bewakingsmechanisme, altijd als een teamniveau-signaal over of de coördinatie-overhead van de organisatie gegroeid is voorbij wat echte focus beschermt.
+Notificatievolume, inkomende berichtfrequentie tijdens werkuren, en het tempo van contextwisselingen tussen taken kunnen allemaal benaderd worden vanuit bestaande samenwerkingstooling. Gebruik deze data in aggregaat, op teamniveau, hetzelfde principe volgend als activiteitsdata (onderwerp 3.4): nooit als een individueel bewakingsmechanisme, altijd als een teamniveau-signaal over of de coördinatie-overhead van de organisatie gegroeid is voorbij wat echte focus beschermt.
 
 ### Bescherm expliciete focustijdblokken als een team- of organisatorische norm
 
@@ -32,7 +32,7 @@ De meest effectieve interventie waarnaar deze dimensie wijst is simpel en laagko
 
 ### Correleer flowdata met het activiteit-prestatie-gat
 
-Wanneer een team hoge activiteit toont (hoofdstuk 3.4) maar vlakke of dalende prestatie (hoofdstuk 3.3), check flow- en onderbrekingsdata voordat je aanneemt dat het gat een individuele of teamcapaciteitsprobleem reflecteert. Een sterk gefragmenteerd schema kan precies dit patroon produceren: veel zichtbare beweging, weinig echt moeilijk werk afgerond, omdat moeilijk werk specifiek de aanhoudende focus vereist die fragmentatie vernietigt.
+Wanneer een team hoge activiteit toont (onderwerp 3.4) maar vlakke of dalende prestatie (onderwerp 3.3), check flow- en onderbrekingsdata voordat je aanneemt dat het gat een individuele of teamcapaciteitsprobleem reflecteert. Een sterk gefragmenteerd schema kan precies dit patroon produceren: veel zichtbare beweging, weinig echt moeilijk werk afgerond, omdat moeilijk werk specifiek de aanhoudende focus vereist die fragmentatie vernietigt.
 
 ### Respecteer individuele variatie in plaats van een enkel rigide schema op te leggen
 
@@ -75,7 +75,7 @@ De centrale spanning is **coördinatiebehoefte versus focusbescherming**. Grote 
 
 ## Voorbeelden
 
-**Groot bedrijf.** Het ingenieursleiderschap van een financiële-technologiebedrijf merkte een aanhoudend gat tussen commitactiviteit en het vermogen van het team om echt complexe functies op schema uit te leveren. Agenda-analyse vond dat de mediane ingenieur minder dan drie uur ononderbroken twee-uur-blokken beschikbaar had per week, gefragmenteerd over een schema van terugkerende statusvergaderingen, waarvan velen incrementeel toegevoegd waren over twee jaar zonder enige enkele beslissing om zoveel totale vergaderingslast toe te voegen. Het bedrijf stelde twee verplichte, organisatiebrede vergadervrije middagen per week vast, en een vervolgenquête en leveringsmetriek-review zes maanden later toonde zowel verbeterde tevredenheidsscores als een meetbare vermindering in cyclustijd (hoofdstuk 2.6) voor complexe, meerdaagse functies specifiek.
+**Groot bedrijf.** Het ingenieursleiderschap van een financiële-technologiebedrijf merkte een aanhoudend gat tussen commitactiviteit en het vermogen van het team om echt complexe functies op schema uit te leveren. Agenda-analyse vond dat de mediane ingenieur minder dan drie uur ononderbroken twee-uur-blokken beschikbaar had per week, gefragmenteerd over een schema van terugkerende statusvergaderingen, waarvan velen incrementeel toegevoegd waren over twee jaar zonder enige enkele beslissing om zoveel totale vergaderingslast toe te voegen. Het bedrijf stelde twee verplichte, organisatiebrede vergadervrije middagen per week vast, en een vervolgenquête en leveringsmetriek-review zes maanden later toonde zowel verbeterde tevredenheidsscores als een meetbare vermindering in cyclustijd (onderwerp 2.6) voor complexe, meerdaagse functies specifiek.
 
 **Overheid.** Het ingenieursteam van een federaal agentschap, werkend onder zware governance-vereisten, vond dat ingenieurs bijna 40% van hun werkuren doorbrachten in status- en compliance-reviewvergaderingen, gebaseerd op een agenda-audit uitgevoerd na dat verscheidene ingenieurs zorgen opwierpen in exitgesprekken. In plaats van de governance-vereisten te elimineren, die echte toezichtsdoelen dienden, consolideerde het team redundante statusvergaderingen in een enkele wekelijkse review en verschoof routinematige compliancechecks naar asynchrone documentatiereview in plaats van live vergaderingen, vergaderingslast bijna halverend terwijl de onderliggende toezichtsfunctie behouden bleef, en daaropvolgende enquêtedata toonde een betekenisvolle verbetering in gerapporteerde focustijd.
 
@@ -90,8 +90,8 @@ De totale eigendomskosten zijn bijna volledig organisatorische discipline in pla
 - **Gefragmenteerde dagen behandelen als een onvermijdelijke kost van schaal:** het groeit geleidelijk samen en is zelden het resultaat van een doelbewuste beslissing, wat het makkelijk maakt om onaangepakt te laten.
 - **Hoge activiteit verwarren met hoge prestatie zonder flowdata te checken:** een gefragmenteerd schema kan precies dit misleidende patroon produceren.
 - **Een enkel, rigide focustijdschema opleggen aan iedereen:** negeert echte individuele variatie in hoe mensen het best werken.
-- **Onderbrekings- of notificatiedata gebruiken als individuele bewaking:** herhaalt precies het misbruikrisico waar hoofdstuk 3.4 tegen waarschuwt voor activiteitsdata.
-- **Beschermde focustijd geleidelijk laten eroderen door uitzonderingen:** hetzelfde erosierisico waar hoofdstuk 2.5 voor OHW-limieten tegen waarschuwt, toegepast op focustijdbescherming.
+- **Onderbrekings- of notificatiedata gebruiken als individuele bewaking:** herhaalt precies het misbruikrisico waar onderwerp 3.4 tegen waarschuwt voor activiteitsdata.
+- **Beschermde focustijd geleidelijk laten eroderen door uitzonderingen:** hetzelfde erosierisico waar onderwerp 2.5 voor OHW-limieten tegen waarschuwt, toegepast op focustijdbescherming.
 - **Governance- of coördinatievereisten toevoegen zonder ooit hun cumulatieve vergaderingslastkost te meten:** fragmentatie sluipt binnen een redelijk-ogende toevoeging per keer.
 
 ## Volwassenheidsmodel

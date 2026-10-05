@@ -2,9 +2,9 @@
 
 ## Überblick und Motivation
 
-**Feature-Akzeptanz** misst, ob die Menschen, für die ein Feature gebaut wurde, es tatsächlich nutzen, zu welcher Rate, und ob diese Nutzung über die Zeit fortbesteht. Sie ist, in sehr direktem Sinn, die Realitätsprüfung für alles, was Teile 2 bis 4 dieses Buches messen: eine Organisation kann häufig deployen, exzellente Entwicklererfahrung pflegen, und makellos getesteten Code ausliefern, und dennoch Dinge bauen, die niemand will. Akzeptanzdaten sind, wo eine Engineering-Organisation herausfindet, ob sich ihr Output überhaupt mit einem echten Ergebnis verbunden hat, was genau die Input-Output-Ergebnis-Unterscheidung ist, die Kapitel 1.3 einführte, angewandt auf den konkretesten Fall in diesem Buch: ein spezifisches, ausgeliefertes Feature.
+**Feature-Akzeptanz** misst, ob die Menschen, für die ein Feature gebaut wurde, es tatsächlich nutzen, zu welcher Rate, und ob diese Nutzung über die Zeit fortbesteht. Sie ist, in sehr direktem Sinn, die Realitätsprüfung für alles, was Teile 2 bis 4 dieses Buches messen: eine Organisation kann häufig deployen, exzellente Entwicklererfahrung pflegen, und makellos getesteten Code ausliefern, und dennoch Dinge bauen, die niemand will. Akzeptanzdaten sind, wo eine Engineering-Organisation herausfindet, ob sich ihr Output überhaupt mit einem echten Ergebnis verbunden hat, was genau die Input-Output-Ergebnis-Unterscheidung ist, die Thema 1.3 einführte, angewandt auf den konkretesten Fall in diesem Buch: ein spezifisches, ausgeliefertes Feature.
 
-Das zentrale Anliegen dieses Kapitels ist, dass Akzeptanzdaten, mehr als fast jede andere Metrikfamilie in diesem Buch, leicht auf eine Weise zu messen sind, die schmeichelt statt informiert. Ein Feature kann beeindruckende anfängliche Akzeptanz rein aus Neugier oder erzwungener Exposition zeigen (ein Modal, das erscheint, ob eine Nutzerin oder ein Nutzer es will oder nicht), während echte, anhaltende Wertlieferung, gemessen daran, ob Menschen es weiter nutzen, sobald die Neuheit verblasst, eine völlig andere Geschichte erzählt. Echte Akzeptanz von einem temporären Ausschlag zu unterscheiden, ist die zentrale technische Herausforderung dieses Kapitels, und es falsch zu machen führt Organisationen routinemäßig dazu, Features zu feiern, die still versagen, und solche aufzugeben, die gerade erst begannen, ihr Publikum zu finden.
+Das zentrale Anliegen dieses Themas ist, dass Akzeptanzdaten, mehr als fast jede andere Metrikfamilie in diesem Buch, leicht auf eine Weise zu messen sind, die schmeichelt statt informiert. Ein Feature kann beeindruckende anfängliche Akzeptanz rein aus Neugier oder erzwungener Exposition zeigen (ein Modal, das erscheint, ob eine Nutzerin oder ein Nutzer es will oder nicht), während echte, anhaltende Wertlieferung, gemessen daran, ob Menschen es weiter nutzen, sobald die Neuheit verblasst, eine völlig andere Geschichte erzählt. Echte Akzeptanz von einem temporären Ausschlag zu unterscheiden, ist die zentrale technische Herausforderung dieses Themas, und es falsch zu machen führt Organisationen routinemäßig dazu, Features zu feiern, die still versagen, und solche aufzugeben, die gerade erst begannen, ihr Publikum zu finden.
 
 Für große Teams sind Feature-Akzeptanzdaten das, was Roadmap-Priorisierung evidenzbasiert macht, statt getrieben von wer auch immer am überzeugendsten für die Arbeit des eigenen Teams eintritt. Konzerne, die große Produktportfolios verwalten, brauchen Akzeptanzdaten, um zu identifizieren, welche Investitionen sich lohnen; Behörden, die bürgerorientierte digitale Dienste bauen, brauchen sie, um zu demonstrieren, dass öffentliche Investition Dienste produzierte, die Menschen tatsächlich nutzen, nicht nur Dienste, die technisch existieren.
 
@@ -32,7 +32,7 @@ Eine niedrige Akzeptanzzahl hat mehrere mögliche Ursachen, die sehr unterschied
 
 ### Auf durch erzwungene Exposition oder [Dark Patterns](https://en.wikipedia.org/wiki/Dark_pattern) aufgeblähte Akzeptanz achten
 
-Eine Akzeptanzzahl, angetrieben davon, dass ein Feature schwer zu vermeiden ist, ein aufdringlicher Onboarding-Fluss, ein Modal, das eine Nutzerin oder ein Nutzer wegklicken muss, ein Standard, der schwer zu ändern ist, misst keine echte Wertlieferung, und sie zu feiern, als wäre sie es, wiederholt das Substitutionsmanipulationsmuster aus Kapitel 1.2 in Produktform. Rohe Akzeptanzzahlen sollten mit einem Zufriedenheits- oder Net-Promoter-artigen Signal für das spezifische Feature gepaart werden, wo machbar, sodass erzwungene Exposition, die sich nicht in echte Zufriedenheit übersetzt, gefangen wird, statt gefeiert zu werden.
+Eine Akzeptanzzahl, angetrieben davon, dass ein Feature schwer zu vermeiden ist, ein aufdringlicher Onboarding-Fluss, ein Modal, das eine Nutzerin oder ein Nutzer wegklicken muss, ein Standard, der schwer zu ändern ist, misst keine echte Wertlieferung, und sie zu feiern, als wäre sie es, wiederholt das Substitutionsmanipulationsmuster aus Thema 1.2 in Produktform. Rohe Akzeptanzzahlen sollten mit einem Zufriedenheits- oder Net-Promoter-artigen Signal für das spezifische Feature gepaart werden, wo machbar, sodass erzwungene Exposition, die sich nicht in echte Zufriedenheit übersetzt, gefangen wird, statt gefeiert zu werden.
 
 ### Akzeptanztrends zurück zu spezifischen Produkt- und Engineering-Entscheidungen verbinden
 
@@ -51,7 +51,7 @@ Die zentrale Spannung ist **Geschwindigkeit gegen Ehrlichkeit**. Anfängliche Ve
 
 ## Fragen für die Diskussion im Team
 
-1. **Kennen wir für unser jüngst ausgeliefertes Feature anfänglichen Versuch und beibehaltene Nutzung separat, oder nur eine einzelne kombinierte Zahl?** Wenn nur eine kombinierte Zahl existiert, verbirgt diese Lücke genau die Neugier-gegen-Wert-Unterscheidung, die dieses Kapitel als zentral behandelt.
+1. **Kennen wir für unser jüngst ausgeliefertes Feature anfänglichen Versuch und beibehaltene Nutzung separat, oder nur eine einzelne kombinierte Zahl?** Wenn nur eine kombinierte Zahl existiert, verbirgt diese Lücke genau die Neugier-gegen-Wert-Unterscheidung, die dieses Thema als zentral behandelt.
 
 2. **Wurde unser Zielpublikum für dieses Feature explizit vor der Einführung definiert, und messen wir Akzeptanz gegen diese spezifische Gruppe?** Es sollte geprüft werden, ob der aktuelle Akzeptanznenner mit dem übereinstimmt, für wen das Feature tatsächlich gebaut wurde, oder ob er durch Messung gegen eine irrelevante breitere Population verwässert ist.
 
@@ -90,7 +90,7 @@ Die Gesamtbetriebskosten sind größtenteils Analytik-Instrumentierung, meist be
 - **Nur anfänglichen Versuch berichten, nie Beibehaltung:** kann Neugier oder erzwungene Exposition nicht von echtem, dauerhaftem Wert unterscheiden.
 - **Akzeptanz gegen den falschen Nenner messen:** verwässert oder bläht das Signal für Features auf, die auf ein bestimmtes Publikumssegment zielen.
 - **Schließen, ein Feature sei gescheitert, ohne die spezifische Ursache** niedriger Akzeptanz zu untersuchen: riskiert, ein echt wertvolles, aber schlecht auffindbares oder schlecht getimtes Feature aufzugeben.
-- **Durch erzwungene Exposition oder Dark Patterns aufgeblähte Akzeptanz feiern:** eine produktseitige Instanz der Substitutionsmanipulation aus Kapitel 1.2.
+- **Durch erzwungene Exposition oder Dark Patterns aufgeblähte Akzeptanz feiern:** eine produktseitige Instanz der Substitutionsmanipulation aus Thema 1.2.
 - **Akzeptanzbewegung nie zurück zu spezifischen Entscheidungen verfolgen:** begrenzt organisatorisches Lernen aus den eigenen Daten der Organisation.
 - **Nutzung ohne gepaartes Zufriedenheitssignal verfolgen:** übersieht den Fall, in dem hohe Nutzung mit niedrigem echtem Wert oder Zufriedenheit koexistiert.
 

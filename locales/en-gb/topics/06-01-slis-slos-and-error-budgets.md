@@ -4,7 +4,7 @@
 
 **[Site reliability engineering](https://en.wikipedia.org/wiki/Site_reliability_engineering)
 (SRE)**, the discipline pioneered at Google and documented in the *Site
-Reliability Engineering* book, contributed a vocabulary this chapter builds
+Reliability Engineering* book, contributed a vocabulary this topic builds
 on directly: a **service level indicator (SLI)** is a directly measured
 signal of a service's health, request latency, error rate, availability. A
 **service level objective (SLO)** is the target range for that indicator,
@@ -17,7 +17,7 @@ achievable nor, past a certain point, worth its cost.
 
 This last idea, the error budget as a spendable resource rather than a
 number to minimise toward zero, is the single most important concept in
-this chapter and arguably in this entire part. It resolves a tension that
+this topic and arguably in this entire part. It resolves a tension that
 plagues many organisations: engineering wants to ship features and take
 reasonable risks; operations wants maximum stability. Without a shared,
 quantified error budget, this becomes an endless, politically charged
@@ -90,7 +90,7 @@ pressure during every individual incident.
 A healthy, unspent error budget is not something to hoard; it is
 permission to take reasonable risks, ship a change with elevated but
 acceptable risk, run a chaos engineering experiment (the sibling
-`software-engineering-guide` book's chaos engineering chapter covers this
+`software-engineering-guide` book's chaos engineering topic covers this
 directly), or accept a riskier
 architecture change, because the budget exists specifically to be spent
 deliberately rather than preserved untouched. An error budget that never

@@ -1,36 +1,36 @@
 # Conventions
 
-This is the writing and format specification for the book. Chapters are
+This is the writing and format specification for the book. Topics are
 written to satisfy it, and `tests/validate.py` enforces the parts that can be
 checked mechanically. When a rule below says "enforced," the test suite will
 fail if it is broken.
 
 ## Numbering and file names
 
-- Parts are whole numbers (1 through 9). Chapters are decimals within a part.
-- Chapter **N.0** is the part introduction. Chapters **N.1, N.2, ...** are the
-  content chapters. Numbering within each part is contiguous and starts at
+- Parts are whole numbers (1 through 9). Topics are decimals within a part.
+- Topic **N.0** is the part introduction. Topics **N.1, N.2, ...** are the
+  content topics. Numbering within each part is contiguous and starts at
   N.0. (enforced)
-- Chapter files live in `locales/<locale>/topics/` (see
+- Topic files live in `locales/<locale>/topics/` (see
   [locales.md](locales.md) for the locale set) and are named with a
   zero-padded, dash-separated, sortable numeric prefix followed by a
   lowercase-dash slug: `PP-CC-slug.md`, where `PP` is the two-digit part
-  number and `CC` the two-digit chapter number (the N.0 introduction is
+  number and `CC` the two-digit topic number (the N.0 introduction is
   `PP-00`), for example `02-00-flow-metrics.md` and
   `02-01-the-flow-framework.md`. The slug is identical across every locale,
   since only the prose inside the file is translated. Padding both fields
   and joining them with a dash means a plain lexical sort (as in `ls`) lists
-  the chapters in reading order.
-- The first heading of every chapter file is `# N.M Title` using the unpadded,
-  dotted chapter number (for example `# 2.1 The Flow Framework`), and
-  that number must match the file's `PP-CC` prefix. Chapter cross-references
-  in prose use the same dotted form ("chapter 2.1"). (enforced)
+  the topics in reading order.
+- The first heading of every topic file is `# N.M Title` using the unpadded,
+  dotted topic number (for example `# 2.1 The Flow Framework`), and
+  that number must match the file's `PP-CC` prefix. Topic cross-references
+  in prose use the same dotted form ("topic 2.1"). (enforced)
 - Part 9 is the appendices (glossary, a formulas reference, checklists,
   templates, a maturity self-assessment, references, and an index).
 
-## Chapter template (content chapters, N.1 and up in Parts 1 through 8)
+## Topic template (content topics, N.1 and up in Parts 1 through 8)
 
-Every content chapter uses these sections, in this order. All are required and
+Every content topic uses these sections, in this order. All are required and
 checked. (enforced)
 
 1. `# N.M Title`
@@ -54,7 +54,7 @@ checked. (enforced)
 14. `## References and further reading`
 
 Part introductions (N.0) use a lighter shape: two or three framing paragraphs,
-a `## Chapters in this part` list, and a `## How these chapters interrelate`
+a `## Topics in this part` list, and a `## How these topics interrelate`
 section. Part 9 appendices are reference material and do not follow the
 content template.
 
@@ -66,13 +66,13 @@ content template.
   point.
 - Stay vendor-neutral. Name products and tools only as factual examples, never
   as endorsements.
-- Aim for roughly 2,000 to 2,800 words per content chapter, going deeper on
+- Aim for roughly 2,000 to 2,800 words per content topic, going deeper on
   the recommendations, examples, and trade-offs with real substance rather
   than padding. Go shorter only when the topic is genuinely lighter, and
   longer only when it genuinely needs it.
-- Every metric family gets its gaming vector named. A chapter that describes a
+- Every metric family gets its gaming vector named. A topic that describes a
   metric without describing how it gets gamed, and what guardrail catches
-  that, is incomplete (chapter 1.2 sets this expectation).
+  that, is incomplete (topic 1.2 sets this expectation).
 
 ## Hard rules
 
@@ -84,13 +84,13 @@ content template.
   or "load-bearing". Avoid "It's important to note", "In today's fast-paced
   world", "It's crucial to consider", "It appears that", "One could argue",
   and the "it's not just X, it's Y" formula. (partly enforced)
-- **Define terms on first use.** The first time a chapter uses a technical
+- **Define terms on first use.** The first time a topic uses a technical
   term, methodology, or acronym, define or expand it, for example "mean time
   to recovery (MTTR)."
 - **Link key concepts to Wikipedia on first mention.** Wrap well-established
   encyclopedic terms in a link to their English Wikipedia article, for example
   `[Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law)`. Link
-  each concept once per chapter. Do not put links in headings, tables, code,
+  each concept once per topic. Do not put links in headings, tables, code,
   or the references section. Only link terms that have a real article. (link
   form is enforced)
 - **Real references only.** The references section lists real books, papers,
@@ -106,19 +106,19 @@ content template.
 
 ## Cross-references
 
-Refer to other chapters by decimal number, for example "see chapter 2.1" or
-"(chapter 6.1)." Do not hard-code file paths in chapter prose. On the
+Refer to other topics by decimal number, for example "see topic 2.1" or
+"(topic 6.1)." Do not hard-code file paths in topic prose. On the
 published site these references become links automatically, mirroring the
 approach used by the sibling `software-engineering-guide` project. Keep
 writing plain decimal references; the site build does the rest.
 
 ## Changing the structure
 
-To add, remove, rename, or renumber a chapter:
+To add, remove, rename, or renumber a topic:
 
-1. Edit the chapter file (or create it following the template).
+1. Edit the topic file (or create it following the template).
 2. Update `spec/structure.md` so the manifest matches.
-3. If a part's introduction lists its chapters, update that list.
+3. If a part's introduction lists its topics, update that list.
 4. Run `just nav` to regenerate the table of contents, the site navigation,
    the index, and the TOC page.
 5. Run `just test`. It must pass before the change is complete.

@@ -15,10 +15,10 @@ tomando prestado directamente de la tradición de mapeo de cadena de valor de
 la manufactura lean.
 
 Este libro usa el Flow Framework como la estructura organizadora de la
-parte 2. El capítulo 2.2 presenta sus cuatro elementos de flujo, los
-capítulos 2.3 y 2.4 presentan sus cinco métricas de flujo, el capítulo 2.8
+parte 2. El tema 2.2 presenta sus cuatro elementos de flujo, los
+temas 2.3 y 2.4 presentan sus cinco métricas de flujo, el tema 2.8
 traza esas métricas hasta su origen en el mapeo de cadena de valor Lean
-clásico, y el capítulo 2.10 cubre las métricas DORA como un marco de
+clásico, y el tema 2.10 cubre las métricas DORA como un marco de
 referencia más estrecho, centrado en la canalización, con el que esta parte
 ya no encabeza. Esa es una elección deliberada, no un rechazo de la
 investigación de DORA. DORA mide el rendimiento y la estabilidad del
@@ -47,7 +47,7 @@ entrega con la intención estratégica. Eso es lo que proporciona este marco.
   el resultado entregado, cruzando los límites de equipo que el trabajo
   realmente cruce.
 - **Los elementos de flujo hacen visible el "qué", no solo el "con qué
-  rapidez".** Las cuatro categorías del capítulo 2.2, funcionalidades,
+  rapidez".** Las cuatro categorías del tema 2.2, funcionalidades,
   defectos, riesgos y deuda, convierten una decisión de priorización
   implícita en una explícita y medible.
 - **La asignación de capacidad entre elementos de flujo es de suma cero.**
@@ -86,7 +86,7 @@ lugar de construir un sistema de seguimiento paralelo que los equipos
 tengan que actualizar a mano. El estado de un elemento de flujo debería
 actualizarse por sí mismo a medida que se mueve el ticket o la solicitud de
 incorporación de cambios subyacente, la misma disciplina de instrumentación
-sobre autoinforme que recomienda el capítulo 1.5 para cada métrica de este
+sobre autoinforme que recomienda el tema 1.5 para cada métrica de este
 libro.
 
 ### Presenta la distribución de flujo directamente a las partes interesadas de negocio, no solo al liderazgo de ingeniería
@@ -94,7 +94,7 @@ libro.
 La mayor oportunidad perdida con este marco es tratarlo como una
 herramienta interna de ingeniería. La distribución de flujo, la proporción
 de trabajo que va a funcionalidades frente a defectos, riesgo y deuda
-(capítulo 2.3), está diseñada específicamente para ser una conversación que
+(tema 2.3), está diseñada específicamente para ser una conversación que
 tienes con el liderazgo de producto y de negocio, porque convierte una
 decisión de priorización implícita, cuánta capacidad va a valor nuevo
 frente a mantener las luces encendidas, en algo explícito y negociable en
@@ -123,7 +123,7 @@ obsoleto mide en silencio lo equivocado.
 
 | Enfoque | Ventajas | Inconvenientes |
 | --- | --- | --- |
-| Solo métricas de canalización (DORA, capítulo 2.10) | Sencillas, bien validadas, baratas de instrumentar a partir de datos de integración continua existentes | Guardan silencio sobre qué tipo de valor se está entregando |
+| Solo métricas de canalización (DORA, tema 2.10) | Sencillas, bien validadas, baratas de instrumentar a partir de datos de integración continua existentes | Guardan silencio sobre qué tipo de valor se está entregando |
 | Adopción completa del Flow Framework | Conecta la entrega con la estrategia de negocio; hace visible y negociable la mezcla de valor | Requiere un mapa honesto de la cadena de valor y una disciplina consistente de clasificación de elementos de flujo |
 | Mapeo de cadena de valor estático y puntual | Barato, rápido de ejecutar como ejercicio de taller | Se queda obsoleto rápido; produce una instantánea, no una métrica viva |
 | Gestión continua de cadena de valor integrada con herramientas | Datos vivos, siempre actuales; escala entre muchas cadenas de valor | Requiere trabajo real de integración de herramientas por adelantado |
@@ -273,7 +273,7 @@ sostener de lo que es de adoptar.
   intégralo en las herramientas existentes en su lugar.
 - **Clasificar los elementos de flujo de forma retroactiva en lugar de en
   el momento de la entrada:** el vector de manipulación central de este
-  capítulo. Bajo presión de entrega, un equipo puede reetiquetar en
+  tema. Bajo presión de entrega, un equipo puede reetiquetar en
   silencio trabajo de deuda o riesgo como funcionalidades a posteriori para
   parecer más productivo ante partes interesadas que solo ven el gráfico de
   distribución de flujo, sin que nadie tome nunca una decisión explícita y
@@ -281,7 +281,7 @@ sostener de lo que es de adoptar.
   en el momento de la entrada, antes de conocer el resultado, y auditar
   periódicamente una muestra de elementos clasificados frente a lo que el
   cambio subyacente realmente hizo, la misma disciplina de auditoría que
-  pide el capítulo 1.2 para cada métrica de este libro.
+  pide el tema 1.2 para cada métrica de este libro.
 - **Mantener las métricas de flujo solo dentro de ingeniería:** renuncia a
   la principal ventaja del marco, un vocabulario compartido con las partes
   interesadas de negocio.
@@ -328,7 +328,7 @@ sostener de lo que es de adoptar.
   instrumentar cualquier cosa.
 - La **clasificación de elementos de flujo en el momento de la entrada, no
   a posteriori**, es la barrera de contención contra el vector de
-  manipulación central de este capítulo: reetiquetar en silencio trabajo de
+  manipulación central de este tema: reetiquetar en silencio trabajo de
   deuda o riesgo como funcionalidades para parecer más productivo.
 - **Conecta las métricas de flujo con las herramientas existentes**, Jira,
   Azure DevOps, GitHub, en lugar de un sistema de seguimiento manual

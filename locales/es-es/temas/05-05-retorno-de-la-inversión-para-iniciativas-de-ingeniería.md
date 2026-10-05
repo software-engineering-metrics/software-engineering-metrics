@@ -2,24 +2,24 @@
 
 ## Visión general y motivación
 
-Este capítulo cierra la parte 5 reuniendo todo lo que midieron los cuatro
-capítulos anteriores, calidad, adopción, resultados, y coste, en el único
+Este tema cierra la parte 5 reuniendo todo lo que midieron los cuatro
+temas anteriores, calidad, adopción, resultados, y coste, en el único
 marco financiero que en última instancia gobierna la mayoría de las
 decisiones de inversión de ingeniería importantes: el
 **[retorno de la inversión](https://en.wikipedia.org/wiki/Return_on_investment)
 (ROI)**. Ya sea que una organización esté decidiendo financiar una
 modernización de plataforma, un esfuerzo de refactorización importante, o
 una nueva línea de producto, alguien eventualmente tiene que responder la
-pregunta en términos financieros: ¿esto vale lo que cuesta? Este capítulo
+pregunta en términos financieros: ¿esto vale lo que cuesta? Este tema
 trata de responder esa pregunta con honestidad, usando las métricas que
 este libro ya ha construido, en lugar de evitar la pregunta (lo cual cede
 influencia sobre las decisiones de inversión a personas menos preparadas
 para responderla bien) o responderla con un caso inflado e insostenible
 que daña la credibilidad cuando no se sostiene.
 
-La disciplina que recomienda este capítulo se apoya directamente en la
-economía unitaria del capítulo 5.4 para el lado del coste de la ecuación,
-y en las métricas de resultado del capítulo 5.3, con su tratamiento
+La disciplina que recomienda este tema se apoya directamente en la
+economía unitaria del tema 5.4 para el lado del coste de la ecuación,
+y en las métricas de resultado del tema 5.3, con su tratamiento
 honesto de la incertidumbre de atribución, para el lado del beneficio. Un
 caso de ROI construido de esta manera es necesariamente más modesto y más
 matizado que un número titular simple y atractivo, pero tiene la ventaja
@@ -43,8 +43,8 @@ para promesas vagas e infundadas.
 ## Principios clave
 
 - **Un caso de ROI honesto se construye a partir de las otras métricas de
-  este libro**, no se inventa por separado; el coste del capítulo 5.4, el
-  beneficio de los capítulos 5.1 al 5.3.
+  este libro**, no se inventa por separado; el coste del tema 5.4, el
+  beneficio de los temas 5.1 al 5.3.
 - **El coste total de propiedad, no solo el coste inicial, pertenece al
   lado del coste.** El mantenimiento continuo, el soporte, y el coste de
   infraestructura se acumulan a lo largo de la vida de un sistema.
@@ -65,7 +65,7 @@ para promesas vagas e infundadas.
 Incluye no solo el coste de desarrollo inicial sino el
 **[coste total de propiedad](https://en.wikipedia.org/wiki/Total_cost_of_ownership)
 (TCO)** completo: el mantenimiento continuo, la infraestructura (la
-economía unitaria del capítulo 5.4 es directamente útil aquí), el
+economía unitaria del tema 5.4 es directamente útil aquí), el
 soporte, y el coste de oportunidad de la capacidad de ingeniería que
 consume la iniciativa que podría haberse dedicado a un trabajo
 alternativo. Un proyecto que parece barato basándose solo en el coste
@@ -75,11 +75,11 @@ contabiliza honestamente la carga de mantenimiento continuo.
 ### Construye el lado del beneficio a partir de evidencia de resultado documentada y honesta
 
 Extrae las estimaciones de beneficio de la disciplina de medición de
-resultados de los capítulos 5.1 al 5.3: las mejoras de calidad traducidas
+resultados de los temas 5.1 al 5.3: las mejoras de calidad traducidas
 en un coste de incidencias y soporte reducido, los datos de adopción
 traducidos en valor impulsado por el uso, y las correlaciones de
 resultados de negocio construidas con el enfoque honesto de cadena causal
-verificado frente a factores de confusión del capítulo 5.3. Evita inventar
+verificado frente a factores de confusión del tema 5.3. Evita inventar
 una estimación de beneficio a partir de primeros principios o suposiciones
 optimistas cuando hay datos históricos reales, medidos o comparables,
 disponibles para fundamentarla en su lugar.
@@ -90,7 +90,7 @@ Presenta las estimaciones de ROI como un rango (un caso conservador y un
 caso optimista) en lugar de una cifra única y falsamente precisa, y
 explica qué impulsa el rango: qué suposición específica, si resulta ser
 optimista o pesimista, movería más el resultado. Esto refleja
-directamente el principio de alfabetización estadística del capítulo 1.6,
+directamente el principio de alfabetización estadística del tema 1.6,
 aplicado a la proyección financiera, y protege la credibilidad del caso,
 ya que una única estimación puntual que resulta equivocada daña la
 confianza mucho más que un rango bien explicado dentro del cual cae el
@@ -112,7 +112,7 @@ Después de que una iniciativa se completa, o alcanza un hito
 significativo, compara los resultados reales medidos frente al rango
 proyectado original, y publica esa comparación, incluyendo dónde estuvo
 equivocada la proyección. Esta disciplina de cierre de ciclo, similar a la
-recomendación de seguimiento de encuestas del capítulo 3.7, es lo que
+recomendación de seguimiento de encuestas del tema 3.7, es lo que
 construye la credibilidad de pronóstico de ROI a largo plazo de una
 organización y mejora la precisión de las estimaciones futuras al crear
 un ciclo de retroalimentación real y visible.
@@ -127,7 +127,7 @@ un ciclo de retroalimentación real y visible.
 | Análisis completo de coste total de propiedad | Preciso, imagen completa del verdadero coste de inversión | Requiere más recopilación de datos, particularmente para la proyección de coste continuo |
 
 La tensión central es **simplicidad persuasiva frente a honestidad
-defendible**, la misma tensión que nombró el capítulo 5.3 para las
+defendible**, la misma tensión que nombró el tema 5.3 para las
 afirmaciones de resultado en general, ahora aplicada específicamente al
 caso financiero. Una afirmación de ROI simple, segura, y de un solo número
 es más fácil de vender a quien toma la decisión en el momento, pero un
@@ -182,11 +182,11 @@ ayuda a alcanzar el próximo hito o ronda de financiación? Aun así, aplica
 el mismo principio de honestidad, resiste inflar un caso para justificar
 una decisión con la que el equipo ya se ha comprometido emocionalmente, ya
 que el escrutinio de los inversores eventualmente aplicará el mismo
-escepticismo que este capítulo recomienda aplicar internamente primero.
+escepticismo que este tema recomienda aplicar internamente primero.
 
 **Pequeña empresa.** Mantén el análisis de ROI proporcionado al tamaño de
 la decisión; una inversión de plataforma importante y plurianual merece
-toda la disciplina que recomienda este capítulo, mientras que una compra
+toda la disciplina que recomienda este tema, mientras que una compra
 de herramientas pequeña no necesita el mismo rigor. Concentra el esfuerzo
 de análisis formal en tus pocas decisiones más grandes y consecuentes.
 
@@ -194,7 +194,7 @@ de análisis formal en tus pocas decisiones más grandes y consecuentes.
 ingeniería compite con éxito por el capital frente a otras inversiones de
 negocio con tradiciones de análisis financiero más establecidas.
 Construye la disciplina completa de coste total de propiedad y basada en
-rangos que recomienda este capítulo como práctica estándar, e invierte en
+rangos que recomienda este tema como práctica estándar, e invierte en
 el rastreo de cierre de ciclo que construye la credibilidad de pronóstico
 a largo plazo.
 
@@ -313,8 +313,8 @@ futuro que necesitará hacer.
 ## Conclusiones clave
 
 - Construye los casos de ROI a partir de las **otras métricas de este
-  libro**, el coste de la economía unitaria (capítulo 5.4), el beneficio
-  de la evidencia de resultado documentada (capítulos 5.1 al 5.3), no de
+  libro**, el coste de la economía unitaria (tema 5.4), el beneficio
+  de la evidencia de resultado documentada (temas 5.1 al 5.3), no de
   suposiciones inventadas.
 - Incluye el **coste total de propiedad**, no solo el coste inicial, y
   declara las estimaciones de beneficio como un **rango con incertidumbre

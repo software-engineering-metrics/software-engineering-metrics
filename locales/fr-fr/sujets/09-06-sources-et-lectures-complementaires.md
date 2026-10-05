@@ -1,6 +1,6 @@
 # 9.6 Sources et lectures complémentaires
 
-Une bibliographie consolidée des œuvres citées à travers le livre, rassemblée depuis la propre section de sources de chaque chapitre. Organisée approximativement par thème ; de nombreuses œuvres sont citées depuis plusieurs chapitres.
+Une bibliographie consolidée des œuvres citées à travers le livre, rassemblée depuis la propre section de sources de chaque sujet. Organisée approximativement par thème ; de nombreuses œuvres sont citées depuis plusieurs sujets.
 
 ## Cadres fondateurs
 

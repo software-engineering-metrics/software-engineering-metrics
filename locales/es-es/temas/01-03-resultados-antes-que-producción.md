@@ -16,7 +16,7 @@ están completamente bajo el control de un equipo. El valor, casi siempre,
 vive en los resultados, que tardan más en aparecer, son más ruidosos de
 medir y más difíciles de atribuir al trabajo de un único equipo.
 
-Este capítulo trata de resistir esa gravedad de forma deliberada. Un tablero
+Este tema trata de resistir esa gravedad de forma deliberada. Un tablero
 construido enteramente a partir de entradas y producción puede parecer
 impresionantemente ajetreado sin generar ningún valor real: un equipo puede
 lanzar docenas de funcionalidades que nadie usa, cerrar cientos de tickets

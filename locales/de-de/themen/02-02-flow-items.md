@@ -2,7 +2,7 @@
 
 ## Überblick und Motivation
 
-Ein **Flow-Item** ist die Arbeitseinheit des Flow Frameworks, und jedes Flow-Item gehört zu genau einem von vier Typen: **Features**, neuer Geschäftswert oder neue Fähigkeit, die einer Kundin oder einem Kunden geliefert wird; **Defekte**, Qualitätskorrekturen für Fehler, die von Nutzerinnen und Nutzern oder durch Tests gefunden wurden; **Risiken**, Sicherheits-, Compliance-, Datenschutz- und Governance-Arbeit, die das Unternehmen schützt; und **Schulden**, [technische Schulden](https://en.wikipedia.org/wiki/Technical_debt), architektonische Verbesserungen und Infrastrukturarbeit, die künftige Geschwindigkeit ermöglicht. Kapitel 2.1 führte das Framework ein, zu dem diese vier Kategorien gehören; dieses Kapitel geht in die Tiefe der Taxonomie selbst, weil die Kategorien nur dann Wert liefern, wenn ein Team seine Arbeit ehrlich und konsistent in sie einordnet.
+Ein **Flow-Item** ist die Arbeitseinheit des Flow Frameworks, und jedes Flow-Item gehört zu genau einem von vier Typen: **Features**, neuer Geschäftswert oder neue Fähigkeit, die einer Kundin oder einem Kunden geliefert wird; **Defekte**, Qualitätskorrekturen für Fehler, die von Nutzerinnen und Nutzern oder durch Tests gefunden wurden; **Risiken**, Sicherheits-, Compliance-, Datenschutz- und Governance-Arbeit, die das Unternehmen schützt; und **Schulden**, [technische Schulden](https://en.wikipedia.org/wiki/Technical_debt), architektonische Verbesserungen und Infrastrukturarbeit, die künftige Geschwindigkeit ermöglicht. Thema 2.1 führte das Framework ein, zu dem diese vier Kategorien gehören; dieses Thema geht in die Tiefe der Taxonomie selbst, weil die Kategorien nur dann Wert liefern, wenn ein Team seine Arbeit ehrlich und konsistent in sie einordnet.
 
 Die entscheidende Eigenschaft von Flow-Items ist, dass die Zuweisung über die vier Typen hinweg ein **Nullsummenspiel** ist: In jedem gegebenen Zeitraum existiert eine feste Menge Engineering-Kapazität, und jede an einem Feature verbrachte Stunde ist eine Stunde, die nicht für Schulden-, Risiko- oder Defektarbeit aufgewendet wird. Das ist keine neue Tatsache über Softwarelieferung, jede Engineering-Führungskraft weiß bereits, dass Kapazität endlich ist, aber die meisten Organisationen haben keinen konsistenten, ehrlichen Weg, die tatsächliche Aufteilung zu sehen. Sprint-Velocity zählt Story Points unabhängig vom Typ; ein abgearbeiteter Backlog sieht identisch aus, egal ob die dahinterliegende Arbeit ein neuer Checkout-Flow oder drei Monate unglamouröser Sicherheitsbehebung war. Flow-Items existieren speziell, um diese unsichtbare Aufteilung sichtbar zu machen.
 
@@ -20,7 +20,7 @@ Für große Teams verändert diese Sichtbarkeit die Natur eines Ressourcengespr�
 
 ### Jedes Item bei der Aufnahme klassifizieren, anhand einer schriftlichen Definition für jeden Typ
 
-Eine knappe, schriftliche Definition sollte vereinbart werden, was im eigenen Kontext als Feature, Defekt, Risiko und Schulden zählt, und verlangt werden, dass jedes neue Stück Arbeit in dem Moment gegen diese Definition klassifiziert wird, in dem es in den Wertstrom eintritt, nicht nachdem es abgeschlossen ist. Eine im Voraus vereinbarte Definition widersteht der Versuchung, rückwirkend danach zu klassifizieren, wie ein Stück Arbeit am Ende aussah, was genau das Manipulationsrisiko ist, das dieses Kapitel gleich unten direkt benennt.
+Eine knappe, schriftliche Definition sollte vereinbart werden, was im eigenen Kontext als Feature, Defekt, Risiko und Schulden zählt, und verlangt werden, dass jedes neue Stück Arbeit in dem Moment gegen diese Definition klassifiziert wird, in dem es in den Wertstrom eintritt, nicht nachdem es abgeschlossen ist. Eine im Voraus vereinbarte Definition widersteht der Versuchung, rückwirkend danach zu klassifizieren, wie ein Stück Arbeit am Ende aussah, was genau das Manipulationsrisiko ist, das dieses Thema gleich unten direkt benennt.
 
 ### Flow-Verteilung als Trend berichten, nicht als einzelne Momentaufnahme
 
@@ -32,7 +32,7 @@ Gemeinsam mit Produkt- und Geschäftsführung sollte entschieden werden, wie ein
 
 ### Flow-Item-Klassifikation gegen unabhängige Belege gegenprüfen
 
-Die Flow-Verteilung sollte periodisch gegen Metriken verglichen werden, die nicht von Selbstklassifikation abhängen: Rate entwichener Defekte (Kapitel 5.1), Messung technischer Schulden (Kapitel 4.5) und Metriken des Schwachstellenmanagements (Kapitel 6.4). Wenn Defekte oder Schwachstellen steigen, während die Anteile der Flow-Items „Defekte" und „Risiko" flach bleiben oder schrumpfen, ist diese Abweichung das klarste verfügbare Signal, dass Klassifikation von der Realität abgedriftet ist.
+Die Flow-Verteilung sollte periodisch gegen Metriken verglichen werden, die nicht von Selbstklassifikation abhängen: Rate entwichener Defekte (Thema 5.1), Messung technischer Schulden (Thema 4.5) und Metriken des Schwachstellenmanagements (Thema 6.4). Wenn Defekte oder Schwachstellen steigen, während die Anteile der Flow-Items „Defekte" und „Risiko" flach bleiben oder schrumpfen, ist diese Abweichung das klarste verfügbare Signal, dass Klassifikation von der Realität abgedriftet ist.
 
 ### Speziell auf das Feature-Factory-Muster achten
 
@@ -61,7 +61,7 @@ Die zentrale Spannung ist **Klassifikationsdisziplin gegen Prozess-Overhead**. E
 
 5. **Stimmt unsere Flow-Verteilung mit unabhängigen Belegen überein, wie der Rate entwichener Defekte oder der Zahl offener Schwachstellen, oder gibt es eine Abweichung, die es wert ist, untersucht zu werden?** Eine Abweichung hier ist das klarste verfügbare Zeichen, dass Klassifikation von dem abgedriftet ist, was die Arbeit tatsächlich ist.
 
-6. **Könnte jemand in unserem Team ein Schulden- oder Risiko-Item unter Lieferdruck still als Feature umetikettieren, und würden wir das aktuell bemerken, wenn es geschähe?** Das ist das zentrale Manipulationsrisiko dieses Kapitels, direkt ausgesprochen. Es sollte diskutiert werden, ob der aktuelle Prozess das tatsächlich fangen würde, nicht nur, ob das jemand absichtlich täte.
+6. **Könnte jemand in unserem Team ein Schulden- oder Risiko-Item unter Lieferdruck still als Feature umetikettieren, und würden wir das aktuell bemerken, wenn es geschähe?** Das ist das zentrale Manipulationsrisiko dieses Themas, direkt ausgesprochen. Es sollte diskutiert werden, ob der aktuelle Prozess das tatsächlich fangen würde, nicht nur, ob das jemand absichtlich täte.
 
 ## Branchenperspektive
 
@@ -87,7 +87,7 @@ Die Gesamtbetriebskosten sind gering, sobald Taxonomie und ihre Definitionen ver
 
 ## Antipatterns und Fallstricke
 
-- **Arbeit rückwirkend klassifizieren, nachdem das Ergebnis bekannt ist:** der Manipulationsvektor im Zentrum dieses Kapitels. Unter Lieferdruck kann ein Team Schulden- oder Risikoarbeit nachträglich still als Feature beschriften, oder ein mehrdeutiges Item zu dem Typ hin runden, der auf dem Verteilungsdiagramm besser aussieht, ohne dass eine einzelne Entscheidung für sich genommen je unehrlich wirkt. Die Leitplanke ist Klassifikation zum Aufnahmezeitpunkt gegen eine schriftliche Definition, kombiniert mit periodischen Prüfungen, die die Flow-Verteilung gegen unabhängige Belege wie die Rate entwichener Defekte (Kapitel 5.1) und Schwachstellenmetriken (Kapitel 6.4) vergleichen, dieselbe Prüfung-gegen-unabhängige-Belege-Disziplin, die Kapitel 1.2 für jede Metrik in diesem Buch verlangt.
+- **Arbeit rückwirkend klassifizieren, nachdem das Ergebnis bekannt ist:** der Manipulationsvektor im Zentrum dieses Themas. Unter Lieferdruck kann ein Team Schulden- oder Risikoarbeit nachträglich still als Feature beschriften, oder ein mehrdeutiges Item zu dem Typ hin runden, der auf dem Verteilungsdiagramm besser aussieht, ohne dass eine einzelne Entscheidung für sich genommen je unehrlich wirkt. Die Leitplanke ist Klassifikation zum Aufnahmezeitpunkt gegen eine schriftliche Definition, kombiniert mit periodischen Prüfungen, die die Flow-Verteilung gegen unabhängige Belege wie die Rate entwichener Defekte (Thema 5.1) und Schwachstellenmetriken (Thema 6.4) vergleichen, dieselbe Prüfung-gegen-unabhängige-Belege-Disziplin, die Thema 1.2 für jede Metrik in diesem Buch verlangt.
 - **Features beständig fast die gesamte Kapazität absorbieren lassen (das Feature-Factory-Muster):** entzieht Schulden- und Risikoarbeit still Kapazität, bis sie als Krise auftaucht.
 - **Die Verteilung eines einzelnen Zeitraums als das ganze Bild behandeln:** übersieht die langsame, kumulative Abdrift, die eine Trendansicht klar zeigt.
 - **Eine Zielverteilung ohne Geschäfts-Stakeholder festlegen:** verspielt den Hauptwert des Frameworks, ein gemeinsames, ausgehandeltes Verständnis der Abwägung.
@@ -113,7 +113,7 @@ Die Gesamtbetriebskosten sind gering, sobald Taxonomie und ihre Definitionen ver
 
 - Ein **Flow-Item** gehört zu genau einem von vier Typen, Features, Defekte, Risiken oder Schulden, und die Kapazitätszuweisung über sie hinweg ist **ein Nullsummenspiel**.
 - Es gibt **keine universell gesunde Verteilung**; die richtige Mischung hängt von der Phase eines Produkts ab und sollte ein bewusstes, mit Geschäfts-Stakeholdern ausgehandeltes Ziel sein.
-- Der zentrale Manipulationsvektor des Kapitels ist **rückwirkende Klassifikation**, Schulden- oder Risikoarbeit nachträglich still als Feature umzuetikettieren; die Leitplanke ist Klassifikation zum Aufnahmezeitpunkt plus periodische Prüfungen gegen unabhängige Belege.
+- Der zentrale Manipulationsvektor des Themas ist **rückwirkende Klassifikation**, Schulden- oder Risikoarbeit nachträglich still als Feature umzuetikettieren; die Leitplanke ist Klassifikation zum Aufnahmezeitpunkt plus periodische Prüfungen gegen unabhängige Belege.
 - Speziell auf das **Feature-Factory-Muster** sollte geachtet werden, Features, die beständig fast die gesamte Kapazität absorbieren, was Schulden- und Risikoarbeit entzieht, bis sie als Krise auftaucht.
 - Flow-Verteilung ist als **Trend** am wertvollsten, und ihr größter Nutzen entsteht dadurch, sie direkt mit Geschäfts-Stakeholdern zu teilen.
 

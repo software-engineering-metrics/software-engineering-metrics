@@ -2,11 +2,11 @@
 
 ## Visión general y motivación
 
-Este capítulo es, en un sentido real, la culminación práctica de todo lo
-que ha argumentado este libro desde que el capítulo 1.2 introdujo la ley
+Este tema es, en un sentido real, la culminación práctica de todo lo
+que ha argumentado este libro desde que el tema 1.2 introdujo la ley
 de Goodhart: un programa de métricas lanzado mal, de una manera que
 provoca miedo en lugar de confianza, garantiza exactamente el
-comportamiento de manipulación frente al que ha advertido cada capítulo
+comportamiento de manipulación frente al que ha advertido cada tema
 posterior, sin importar cuán cuidadosamente se diseñara cada métrica
 individual. Una organización puede acertar en cada detalle técnico,
 visualización honesta, emparejamiento con salvaguardas, gobernanza
@@ -18,7 +18,7 @@ El mecanismo aquí es directo y está bien documentado en la investigación
 de comportamiento organizacional que ha citado este libro a lo largo de
 todo el texto: las personas que temen que una métrica se use en su
 contra, socavando la [seguridad psicológica](https://en.wikipedia.org/wiki/Psychological_safety),
-responden exactamente como predice el capítulo 1.2, optimizan el número
+responden exactamente como predice el tema 1.2, optimizan el número
 en lugar de la realidad subyacente, porque el incentivo de protegerse a
 sí mismos es inmediato y personal mientras que el daño al aprendizaje
 organizacional es difuso y diferido. Esto no es un fallo de carácter
@@ -26,7 +26,7 @@ individual; es una respuesta racional a una amenaza genuina, y la única
 corrección duradera es eliminar la amenaza, no pedirle a la gente que se
 comporte con más honestidad a pesar de ella.
 
-Para los equipos grandes, la orientación de este capítulo importa más
+Para los equipos grandes, la orientación de este tema importa más
 agudamente en el momento del lanzamiento inicial, cuando la confianza
 todavía no se ha establecido en ninguna dirección y las primeras
 impresiones fijan expectativas duraderas. Las organizaciones empresariales
@@ -37,7 +37,7 @@ lanzamiento; las organizaciones gubernamentales, que a menudo introducen
 programas de métricas en un contexto de protecciones sindicales
 existentes, cultura de función pública, o desconfianza histórica hacia
 las iniciativas de medición, necesitan aplicar la orientación de este
-capítulo con un cuidado y paciencia particulares.
+tema con un cuidado y paciencia particulares.
 
 ## Principios clave
 
@@ -62,11 +62,11 @@ capítulo con un cuidado y paciencia particulares.
 
 ### Comunica el propósito y los no-objetivos explícitamente, antes del lanzamiento, no después de que surjan preocupaciones
 
-Siguiendo la disciplina de carta de métricas del capítulo 1.4, comunica
+Siguiendo la disciplina de carta de métricas del tema 1.4, comunica
 el propósito de un nuevo programa de métricas y, de manera crucial, sus
 no-objetivos explícitos (nunca se usa para la evaluación de rendimiento
 individual sin una política separada y claramente divulgada, según el
-capítulo 1.1) antes del lanzamiento, no de manera reactiva después de que
+tema 1.1) antes del lanzamiento, no de manera reactiva después de que
 los ingenieros ya hayan empezado a preocuparse. La transparencia
 proactiva y anticipada sobre para qué no sirve una métrica previene la
 especulación ansiosa que de otro modo llena el vacío y moldea impresiones
@@ -80,13 +80,13 @@ esas métricas que aquellos a quienes se les impone un sistema sin ninguna
 aportación. Involucra directamente a representantes del equipo en elegir
 qué métricas rastrear, cómo se visualizan, y qué salvaguardas se aplican,
 siguiendo el énfasis consistente de este libro en la propiedad a nivel de
-equipo (capítulo 1.4) en lugar de un mandato puramente de arriba hacia
+equipo (tema 1.4) en lugar de un mandato puramente de arriba hacia
 abajo.
 
 ### Empieza con un uso puramente diagnóstico y demuéstralo durante múltiples ciclos antes de siquiera considerar cualquier uso evaluativo
 
 Siguiendo directamente la distinción diagnóstica frente a evaluativa del
-capítulo 1.1: empieza un nuevo programa de métricas en modo puramente
+tema 1.1: empieza un nuevo programa de métricas en modo puramente
 diagnóstico, usado solo para entender y mejorar sistemas, sin ninguna
 conexión en absoluto con la evaluación individual o de equipo, y sostén
 esa disciplina visiblemente a lo largo de varios ciclos de reporte antes
@@ -111,7 +111,7 @@ el miedo que impulsa el comportamiento de manipulación en primer lugar.
 
 En lugar de tratar el riesgo de manipulación como algo que le preocupa al
 liderazgo en privado, comparte abiertamente la lógica de emparejamiento
-con salvaguardas del capítulo 1.2 con los equipos que se miden: explica
+con salvaguardas del tema 1.2 con los equipos que se miden: explica
 directamente por qué existe una salvaguarda específica, qué patrón de
 manipulación está diseñada para detectar, e invita la propia aportación
 del equipo sobre si la salvaguarda está bien diseñada. Esta
@@ -134,7 +134,7 @@ La tensión central es **velocidad de lanzamiento frente a construcción de
 confianza**. Un lanzamiento rápido y de arriba hacia abajo pone en
 marcha un programa de métricas rápidamente pero con un riesgo real de
 provocar exactamente el miedo y la manipulación frente a los que ha
-advertido este libro desde su capítulo inicial; un lanzamiento más lento,
+advertido este libro desde su tema inicial; un lanzamiento más lento,
 con participación del equipo, y primero diagnóstico toma más tiempo pero
 construye la confianza duradera que hace que los datos resultantes
 realmente valgan la pena recopilar en primer lugar. Resuelve la tensión
@@ -177,12 +177,12 @@ argumentado este libro, por muy rápido que se haya desplegado.
 5. **¿Los equipos medidos entienden por qué existe cada salvaguarda, o la
    lógica de prevención de manipulación sigue siendo una preocupación
    privada de la gerencia de la que nunca se les informa directamente?**
-   Debate si el razonamiento de salvaguardas de tu organización (capítulo
+   Debate si el razonamiento de salvaguardas de tu organización (tema
    1.2) realmente se ha compartido con transparencia o ha permanecido
    como una consideración de diseño no declarada y entre bastidores.
 
 6. **Si comenzáramos nuestro lanzamiento de métricas desde cero hoy,
-   aplicando plenamente la orientación de este capítulo, ¿cuán distinto
+   aplicando plenamente la orientación de este tema, ¿cuán distinto
    se vería el proceso de lo que realmente ocurrió?** Este experimento
    mental retrospectivo a menudo revela lugares específicos y nombrables
    donde se recortó la construcción de confianza bajo presión de tiempo,
@@ -193,7 +193,7 @@ argumentado este libro, por muy rápido que se haya desplegado.
 
 **Startup.** La confianza a menudo es más fácil de establecer a esta
 escala, ya que la conversación directa diaria proporciona naturalmente la
-transparencia que recomienda este capítulo. El riesgo es saltarse la
+transparencia que recomienda este tema. El riesgo es saltarse la
 comunicación deliberada del propósito y los no-objetivos simplemente
 porque se siente innecesaria en un equipo pequeño y muy unido, una
 suposición que puede desmoronarse silenciosamente a medida que el equipo
@@ -202,16 +202,16 @@ crece y se unen nuevas contrataciones sin el mismo contexto compartido.
 **Pequeña empresa.** Una conversación simple y directa sobre por qué se
 está introduciendo una nueva métrica y para qué se usará y no se usará,
 celebrada antes del lanzamiento en lugar de después de que surjan
-preocupaciones, captura la mayor parte del valor de este capítulo sin
+preocupaciones, captura la mayor parte del valor de este tema sin
 necesitar un proceso formal a esta escala.
 
 **Empresa.** La escala y la impersonalidad de una organización grande
-hacen que la orientación de este capítulo sea tanto más difícil de
+hacen que la orientación de este tema sea tanto más difícil de
 ejecutar bien como más crítico acertar, ya que un único incidente mal
 manejado puede envenenar la confianza en docenas de equipos que se
 enteran de segunda mano en lugar de experimentarlo directamente.
 Invierte deliberadamente en el período de demostración extendido y
-primero diagnóstico que recomienda este capítulo, y establece un
+primero diagnóstico que recomienda este tema, y establece un
 protocolo de respuesta claro, rápido, y visible para cualquier incidente
 de mal uso de métricas antes de que ocurra uno.
 
@@ -220,7 +220,7 @@ programas de métricas en un contexto de protecciones sindicales
 existentes, cultura de función pública establecida, y, en algunos casos,
 desconfianza histórica hacia las iniciativas de medición vinculadas a
 controversias pasadas de gestión de rendimiento. Aplica la orientación de
-este capítulo con una paciencia y formalidad particulares, involucrando
+este tema con una paciencia y formalidad particulares, involucrando
 potencialmente la aportación de representantes sindicales o de personal
 directamente en el proceso de diseño, y espera que el cronograma de
 construcción de confianza sea genuinamente más largo que en un contexto
@@ -234,7 +234,7 @@ de plataforma central sin ninguna aportación a nivel de equipo, se
 encontró con una resistencia generalizada y silenciosa: los ingenieros de
 toda la organización empezaron a manipular informalmente sus propios
 números reportados en cuestión de semanas, exactamente como predice el
-capítulo 1.2 para un sistema de métricas desconfiado y de arriba hacia
+tema 1.2 para un sistema de métricas desconfiado y de arriba hacia
 abajo. Un relanzamiento seis meses después, esta vez involucrando
 directamente a representantes del equipo en la selección de métricas y el
 diseño de salvaguardas, y comprometiéndose explícitamente con, y luego
@@ -269,7 +269,7 @@ intento ganó confianza genuina donde el primero no lo había logrado.
 
 El retorno de un lanzamiento centrado en la confianza y que evita el
 miedo es, sencillamente, datos confiables, sin los cuales todo el
-cuidadoso trabajo de diseño de métricas de cada otro capítulo de este
+cuidadoso trabajo de diseño de métricas de cada otro tema de este
 libro no produce ningún valor real. El ejemplo empresarial anterior lo
 muestra concreta y mesurablemente: los datos del programa relanzado eran
 demostrablemente más precisos de lo que habían sido los datos del
@@ -282,10 +282,10 @@ diagnóstico, el esfuerzo de participación del equipo en el diseño, y la
 disciplina sostenida de responder rápida y visiblemente a cualquier
 incidente de mal uso. Ese coste es significativo pero es el precio
 necesario e ineludible de los datos confiables de los que depende cada
-otro capítulo de este libro; un lanzamiento rápido que se salta esta
+otro tema de este libro; un lanzamiento rápido que se salta esta
 inversión produce un programa de métricas que parece completo pero es
 silenciosamente inútil, corrompido por exactamente la manipulación frente
-a la que ha advertido este libro desde su primer capítulo sustantivo.
+a la que ha advertido este libro desde su primer tema sustantivo.
 
 ## Antipatrones y errores comunes
 
@@ -340,7 +340,7 @@ a la que ha advertido este libro desde su primer capítulo sustantivo.
 2. ¿Las personas medidas estuvieron genuinamente involucradas en diseñar nuestras métricas, o se impuso el sistema?
 3. ¿Nuestra organización alguna vez ha manejado mal una métrica punitivamente, y cómo respondimos?
 4. ¿Los equipos medidos entienden por qué existen nuestras salvaguardas, o ese razonamiento se mantiene privado?
-5. Si relanzáramos hoy nuestro programa de métricas con plena atención a este capítulo, ¿qué haríamos distinto?
+5. Si relanzáramos hoy nuestro programa de métricas con plena atención a este tema, ¿qué haríamos distinto?
 
 ## Conclusiones clave
 
@@ -370,7 +370,7 @@ a la que ha advertido este libro desde su primer capítulo sustantivo.
   implementados).
 - *Site Reliability Engineering: How Google Runs Production Systems*, de
   Betsy Beyer, Chris Jones, Jennifer Petoff, y Niall Richard Murphy, eds.
-  (los principios de cultura sin culpa que este capítulo extiende de la
+  (los principios de cultura sin culpa que este tema extiende de la
   respuesta a incidentes al lanzamiento de programas de métricas en
   general).
 - *Accelerate: The Science of Lean Software and DevOps*, de Nicole

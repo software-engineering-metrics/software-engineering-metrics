@@ -2,9 +2,9 @@
 
 ## Overzicht en motivatie
 
-**Functieadoptie** meet of de mensen voor wie een functie gebouwd werd het daadwerkelijk gebruiken, in welk tempo, en of dat gebruik aanhoudt over tijd. Het is, in een heel directe zin, de realiteitscheck op alles wat delen 2 tot en met 4 van dit boek meten: een organisatie kan frequent deployen, uitstekende ontwikkelaarservaring onderhouden, en onberispelijk geteste code uitleveren, en toch dingen bouwen die niemand wil. Adoptiedata is waar een ingenieursorganisatie ontdekt of zijn output überhaupt verbond met enige echte uitkomst, wat precies het input-output-uitkomst-onderscheid is dat hoofdstuk 1.3 introduceerde toegepast op het meest concrete geval in dit boek: een specifieke, uitgeleverde functie.
+**Functieadoptie** meet of de mensen voor wie een functie gebouwd werd het daadwerkelijk gebruiken, in welk tempo, en of dat gebruik aanhoudt over tijd. Het is, in een heel directe zin, de realiteitscheck op alles wat delen 2 tot en met 4 van dit boek meten: een organisatie kan frequent deployen, uitstekende ontwikkelaarservaring onderhouden, en onberispelijk geteste code uitleveren, en toch dingen bouwen die niemand wil. Adoptiedata is waar een ingenieursorganisatie ontdekt of zijn output überhaupt verbond met enige echte uitkomst, wat precies het input-output-uitkomst-onderscheid is dat onderwerp 1.3 introduceerde toegepast op het meest concrete geval in dit boek: een specifieke, uitgeleverde functie.
 
-De centrale zorg van dit hoofdstuk is dat adoptiedata, meer dan bijna enige andere metriekfamilie in dit boek, makkelijk te meten is op een manier die vleit in plaats van informeert. Een functie kan indrukwekkende initiële adoptie tonen puur uit nieuwsgierigheid of gedwongen blootstelling (een modaal dat verschijnt of een gebruiker het wil of niet) terwijl echte, aanhoudende waardelevering, gemeten door of mensen het blijven gebruiken eenmaal de nieuwigheid vervaagt, een volledig ander verhaal vertelt. Echte adoptie onderscheiden van een tijdelijke piek is de kerntechnische uitdaging van dit hoofdstuk, en het verkeerd krijgen leidt routinematig organisaties ertoe functies te vieren die stilletjes falen en andere te verlaten die net hun publiek begonnen te vinden.
+De centrale zorg van dit onderwerp is dat adoptiedata, meer dan bijna enige andere metriekfamilie in dit boek, makkelijk te meten is op een manier die vleit in plaats van informeert. Een functie kan indrukwekkende initiële adoptie tonen puur uit nieuwsgierigheid of gedwongen blootstelling (een modaal dat verschijnt of een gebruiker het wil of niet) terwijl echte, aanhoudende waardelevering, gemeten door of mensen het blijven gebruiken eenmaal de nieuwigheid vervaagt, een volledig ander verhaal vertelt. Echte adoptie onderscheiden van een tijdelijke piek is de kerntechnische uitdaging van dit onderwerp, en het verkeerd krijgen leidt routinematig organisaties ertoe functies te vieren die stilletjes falen en andere te verlaten die net hun publiek begonnen te vinden.
 
 Voor grote teams is functieadoptiedata wat roadmapprioritering bewijs-gebaseerd maakt in plaats van gedreven door wie het meest overtuigend pleit voor het eigen werk van zijn team. Grote bedrijven die grote productportefeuilles beheren hebben adoptiedata nodig om te identificeren welke investeringen hun plaats verdienen; overheidsorganisaties die burgergerichte digitale diensten bouwen hebben het nodig om aan te tonen dat publieke investering echte publieke baat produceerde, niet alleen diensten die technisch bestaan.
 
@@ -32,7 +32,7 @@ Een laag adoptiecijfer heeft verscheidene mogelijke oorzaken die heel verschille
 
 ### Let op adoptie opgeblazen door gedwongen blootstelling of **[dark patterns](https://en.wikipedia.org/wiki/Dark_pattern)**
 
-Een adoptiecijfer gedreven door een functie moeilijk te vermijden, een intrusief inwerkingsflow, een modaal dat een gebruiker moet wegklikken, een standaard moeilijk te veranderen, meet geen echte waardelevering, en het vieren alsof het dat was herhaalt het substitutiemanipulatiepatroon van hoofdstuk 1.2 in productvorm. Koppel ruwe adoptiecijfers met een tevredenheids- of Net-Promoter-stijl-signaal voor de specifieke functie waar haalbaar, zodat gedwongen blootstelling die niet vertaalt naar echte tevredenheid gevangen wordt in plaats van gevierd.
+Een adoptiecijfer gedreven door een functie moeilijk te vermijden, een intrusief inwerkingsflow, een modaal dat een gebruiker moet wegklikken, een standaard moeilijk te veranderen, meet geen echte waardelevering, en het vieren alsof het dat was herhaalt het substitutiemanipulatiepatroon van onderwerp 1.2 in productvorm. Koppel ruwe adoptiecijfers met een tevredenheids- of Net-Promoter-stijl-signaal voor de specifieke functie waar haalbaar, zodat gedwongen blootstelling die niet vertaalt naar echte tevredenheid gevangen wordt in plaats van gevierd.
 
 ### Verbind adoptietrends terug met specifieke product- en ingenieursbeslissingen
 
@@ -51,7 +51,7 @@ De centrale spanning is **snelheid versus eerlijkheid**. Initiële-proef-data is
 
 ## Vragen om met je team te bespreken
 
-1. **Weten we voor onze meest recent uitgeleverde functie initiële proef en behouden gebruik afzonderlijk, of slechts een enkel gecombineerd cijfer?** Als alleen een gecombineerd cijfer bestaat, verhult dat gat precies het nieuwsgierigheid-versus-waarde-onderscheid dat dit hoofdstuk als centraal behandelt.
+1. **Weten we voor onze meest recent uitgeleverde functie initiële proef en behouden gebruik afzonderlijk, of slechts een enkel gecombineerd cijfer?** Als alleen een gecombineerd cijfer bestaat, verhult dat gat precies het nieuwsgierigheid-versus-waarde-onderscheid dat dit onderwerp als centraal behandelt.
 
 2. **Werd ons doelpubliek voor deze functie expliciet gedefinieerd voor lancering, en meten we adoptie tegen die specifieke groep?** Check of je huidige adoptienoemer matcht met voor wie de functie daadwerkelijk gebouwd werd, of of het verdund is door te meten tegen een irrelevante bredere populatie.
 
@@ -90,7 +90,7 @@ De totale eigendomskosten zijn meestal analyticsinstrumentatie, meestal al besch
 - **Alleen initiële proef rapporteren, nooit retentie:** kan nieuwsgierigheid of gedwongen blootstelling niet onderscheiden van echte, blijvende waarde.
 - **Adoptie meten tegen de verkeerde noemer:** verdunt of blaast het signaal op voor functies gericht op een specifiek publieksegment.
 - **Concluderen dat een functie faalde zonder de specifieke oorzaak** van lage adoptie te onderzoeken: riskeert een echt waardevolle maar slecht ontdekte of slecht getimede functie af te schaffen.
-- **Adoptie vieren opgeblazen door gedwongen blootstelling of dark patterns:** een productzijde-instantie van de substitutiemanipulatie van hoofdstuk 1.2.
+- **Adoptie vieren opgeblazen door gedwongen blootstelling of dark patterns:** een productzijde-instantie van de substitutiemanipulatie van onderwerp 1.2.
 - **Adoptiebeweging nooit terugtraceren naar specifieke beslissingen:** beperkt organisatorisch leren van de eigen data van de organisatie.
 - **Gebruik volgen zonder enig gekoppeld tevredenheidssignaal:** mist het geval waar hoog gebruik samenbestaat met lage echte waarde of tevredenheid.
 

@@ -2,14 +2,14 @@
 
 ## Visión general y motivación
 
-**Rendimiento**, la P de SPACE (capítulo 3.1), es la dimensión que más a
+**Rendimiento**, la P de SPACE (tema 3.1), es la dimensión que más a
 menudo se confunde con la actividad, y esa confusión es precisamente lo
-que este capítulo existe para prevenir. El rendimiento pregunta si el
+que este tema existe para prevenir. El rendimiento pregunta si el
 trabajo de un ingeniero o de un equipo realmente produjo un buen
 [resultado](https://en.wikipedia.org/wiki/Outcome_(probability)): una
 funcionalidad que se lanzó y funcionó, un sistema que se mantuvo fiable, un
 cambio que movió una métrica de negocio o de usuario en la dirección
-correcta. La actividad (capítulo 3.4) solo pregunta cuánto movimiento
+correcta. La actividad (tema 3.4) solo pregunta cuánto movimiento
 ocurrió. Un equipo puede estar muy activo y rendir mal, lanzando cambios
 pequeños constantes que nunca mueven un resultado, y lo contrario es
 igualmente posible: un equipo que lanza pocas veces pero cuyos cambios
@@ -23,7 +23,7 @@ condiciones de mercado que ningún ingeniero controla. Las personas que
 investigaron SPACE fueron explícitas sobre esto: el rendimiento debería
 medirse a nivel de sistema o de equipo usando múltiples señales
 convergentes, no reducirse a un único número y desde luego no atribuirse a
-un ingeniero individual de forma aislada. Este capítulo se toma en serio
+un ingeniero individual de forma aislada. Este tema se toma en serio
 esa guía y trata la atribución de rendimiento individual como una trampa
 que hay que evitar activamente, no como un atajo que tomar cuando resulte
 conveniente.
@@ -37,7 +37,7 @@ organizaciones del sector público que justifican la inversión en
 tecnología ante organismos de supervisión necesitan demostrar que el
 esfuerzo de ingeniería produjo resultados reales, no solo artefactos
 entregados, que es precisamente el principio de resultados antes que
-producción del capítulo 1.3 aplicado a esta dimensión específica.
+producción del tema 1.3 aplicado a esta dimensión específica.
 
 ## Principios clave
 
@@ -53,7 +53,7 @@ producción del capítulo 1.3 aplicado a esta dimensión específica.
 - **La calidad es parte del rendimiento, no una preocupación separada.**
   Un trabajo que se lanza pero rompe otra cosa no rindió realmente bien.
 - **Una señal de rendimiento sin una decisión asociada es decoración**,
-  exactamente según el principio general del capítulo 1.1 aplicado a esta
+  exactamente según el principio general del tema 1.1 aplicado a esta
   dimensión.
 
 ## Recomendaciones
@@ -61,9 +61,9 @@ producción del capítulo 1.3 aplicado a esta dimensión específica.
 ### Combina varias señales convergentes en lugar de una puntuación de rendimiento
 
 Extrae evidencia de rendimiento de múltiples fuentes: la tasa de fallos de
-cambio (capítulo 2.10) y la tasa de defectos escapados (capítulo 5.1) para
+cambio (tema 2.10) y la tasa de defectos escapados (tema 5.1) para
 la calidad, los resultados de despliegue ligados a la adopción real de
-funcionalidades (capítulo 5.2) para saber si el trabajo importó, y la
+funcionalidades (tema 5.2) para saber si el trabajo importó, y la
 evaluación cualitativa de pares o gestores sobre la contribución de un
 equipo a los objetivos estratégicos para el contexto que una métrica pura
 no puede capturar. Ninguna de estas es fiable por sí sola; juntas, cuando
@@ -79,7 +79,7 @@ colaboración a través de límites. Atribuir un resultado a un único
 ingeniero suele ser una falsa precisión que ignora esta realidad y crea un
 fuerte incentivo para que las personas protejan el mérito en lugar de
 colaborar libremente, precisamente el tipo de distorsión de incentivos
-contra la que advierte el capítulo 1.2.
+contra la que advierte el tema 1.2.
 
 ### Incorpora la calidad directamente a la definición de rendimiento
 
@@ -97,7 +97,7 @@ El uso productivo de los datos de rendimiento es decidir dónde invertir
 más (un equipo que entrega resultados sólidos de forma consistente merece
 más recursos y autonomía) y dónde investigar (un equipo cuyo trabajo fallo
 de forma consistente en aterrizar merece ayuda, no culpa, según el enfoque
-diagnóstico del capítulo 1.1). Clasificar a personas o equipos de forma
+diagnóstico del tema 1.1). Clasificar a personas o equipos de forma
 competitiva entre sí según los datos de rendimiento invita precisamente a
 la manipulación y al daño moral contra los que advierte este libro y rara
 vez produce mejores resultados que el uso diagnóstico.
@@ -105,7 +105,7 @@ vez produce mejores resultados que el uso diagnóstico.
 ### Sé honesto sobre los límites de atribución, especialmente para equipos de plataforma y habilitadores
 
 Los equipos que construyen infraestructura compartida, herramientas
-internas o capacidades de plataforma (el capítulo de ingeniería de
+internas o capacidades de plataforma (el tema de ingeniería de
 plataforma del libro hermano `software-engineering-guide` cubre esto
 directamente) a menudo tienen su contribución a los resultados varios
 pasos alejada de cualquier métrica única orientada al cliente. Mide el
@@ -162,7 +162,7 @@ una única puntuación falsamente precisa.
 
 5. **¿Se han usado alguna vez los datos de rendimiento para clasificar a
    personas de forma competitiva entre sí, formal o informalmente?** Esta
-   deriva, similar al riesgo de los datos de satisfacción del capítulo 3.2,
+   deriva, similar al riesgo de los datos de satisfacción del tema 3.2,
    daña tanto la honestidad de los datos como la disposición del equipo a
    colaborar abiertamente.
 
@@ -184,7 +184,7 @@ movimiento rápido donde el mérito y la culpa rara vez pertenecen a una
 sola persona.
 
 **Pequeña empresa.** Combina los datos de entrega y calidad que ya tengas
-(capítulo 2.10, capítulo 5.1) con una conversación directa y honesta sobre
+(tema 2.10, tema 5.1) con una conversación directa y honesta sobre
 si el trabajo reciente realmente ayudó al negocio, en lugar de construir
 una instrumentación formal de múltiples señales que no tienes capacidad de
 mantener.
@@ -201,7 +201,7 @@ por qué importa.
 resultados reales, no solo artefactos entregados, suele ser la pregunta
 central que hace un organismo de supervisión. La medición de rendimiento
 de múltiples señales, ligada explícitamente a métricas de resultado
-(capítulo 5.3) en lugar de indicadores indirectos centrados solo en la
+(tema 5.3) en lugar de indicadores indirectos centrados solo en la
 entrega, da una respuesta mucho más fuerte y defendible que un recuento de
 actividad o de entrega por sí solo.
 
@@ -301,7 +301,7 @@ informar.
 ## Conclusiones clave
 
 - El rendimiento mide si el trabajo produjo un **buen resultado**, no
-  cuánto movimiento ocurrió; no lo confundas con la actividad (capítulo
+  cuánto movimiento ocurrió; no lo confundas con la actividad (tema
   3.4).
 - Usa **múltiples señales convergentes**, nunca un único número de
   rendimiento, y sospecha de la falsa precisión.

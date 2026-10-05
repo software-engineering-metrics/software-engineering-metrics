@@ -2,7 +2,7 @@
 
 ## Visión general y motivación
 
-Este capítulo cierra la parte 6 extendiendo la misma disciplina de
+Este tema cierra la parte 6 extendiendo la misma disciplina de
 fiabilidad que ha construido esta parte, fijación de objetivos,
 emparejamiento con salvaguardas, reporte honesto de incidencias, a un
 riesgo distinto pero estrechamente relacionado: no si un sistema fallo
@@ -15,12 +15,12 @@ descubiertas, ya que una vulnerabilidad conocida pero sin parchear es un
 riesgo permanente y cuantificable que la organización ha elegido cargar,
 ya sea deliberadamente o por negligencia.
 
-La preocupación central de este capítulo refleja directamente el
-tratamiento que da el capítulo 4.4 a los hallazgos de análisis estático:
+La preocupación central de este tema refleja directamente el
+tratamiento que da el tema 4.4 a los hallazgos de análisis estático:
 un recuento bruto de vulnerabilidades es una métrica deficiente, que
 confunde problemas triviales y críticos, y está expuesto exactamente a
 los mismos riesgos de manipulación, reducción de definición, supresión, y
-manipulación de umbral, que describe en general el capítulo 1.2. La
+manipulación de umbral, que describe en general el tema 1.2. La
 adición específica que requieren las métricas de seguridad es el tiempo
 hasta la remediación rastreado frente a la gravedad, ya que una
 vulnerabilidad crítica sin parchear durante meses representa un riesgo
@@ -34,7 +34,7 @@ empresariales enfrentan exposición contractual y reputacional por una
 filtración, y las organizaciones gubernamentales enfrentan consecuencias
 de seguridad nacional, legales, y de confianza pública que convierten a
 las métricas de seguridad en un asunto de genuino interés público, no
-meramente una preocupación de ingeniería interna. Este capítulo trata la
+meramente una preocupación de ingeniería interna. Este tema trata la
 gestión de vulnerabilidades con el mismo rigor y la misma disciplina de
 emparejamiento con salvaguardas que aplica este libro a lo largo de todo
 el texto, porque las métricas de seguridad están expuestas a todo riesgo
@@ -48,7 +48,7 @@ más alto cuando esa manipulación tiene éxito.
   durante meses es un riesgo fundamentalmente distinto al del mismo
   problema detectado y corregido rápidamente.
 - **Las métricas de seguridad están expuestas a los mismos riesgos de
-  manipulación que los hallazgos de análisis estático** (capítulo 4.4),
+  manipulación que los hallazgos de análisis estático** (tema 4.4),
   con un riesgo más alto cuando la manipulación tiene éxito.
 - **La clasificación de gravedad necesita criterios externos y
   estandarizados** siempre que sea posible, no un juicio puramente interno
@@ -56,7 +56,7 @@ más alto cuando esa manipulación tiene éxito.
 - **Una vulnerabilidad divulgada y corregida rápidamente es una señal de
   un proceso saludable, no un fallo que ocultar.** Castigar la divulgación
   desalienta el reporte del que depende todo este sistema.
-- **La deuda de seguridad es una categoría de deuda técnica** (capítulo
+- **La deuda de seguridad es una categoría de deuda técnica** (tema
   4.5) y debería competir por capacidad de remediación priorizada sobre la
   misma base explícita y cuantificada.
 
@@ -82,16 +82,16 @@ Donde esté disponible un sistema de puntuación externo estandarizado como
 el CVSS, úsalo como la base principal para la clasificación de gravedad en
 lugar de depender enteramente de un juicio interno potencialmente
 inconsistente. Esto refleja la disciplina de clasificación de defectos
-escapados del capítulo 5.1 y la disciplina de clasificación de incidencias
-del capítulo 6.2, aplicadas aquí específicamente a la seguridad, y resiste
-el mismo riesgo de deriva indulgente que advierten esos capítulos, ya que
+escapados del tema 5.1 y la disciplina de clasificación de incidencias
+del tema 6.2, aplicadas aquí específicamente a la seguridad, y resiste
+el mismo riesgo de deriva indulgente que advierten esos temas, ya que
 una puntuación anclada externamente es más difícil de redefinir
 silenciosamente hacia abajo que una puramente interna.
 
 ### Construye una cultura de divulgación de vulnerabilidades y reporte interno genuinamente sin castigo
 
 Aplica directamente a la seguridad el principio de análisis retrospectivo
-sin culpa del capítulo 6.2: un ingeniero que descubre y reporta una
+sin culpa del tema 6.2: un ingeniero que descubre y reporta una
 vulnerabilidad que introdujo, o un investigador que divulga
 responsablemente una encontrada externamente, debería tratarse como
 alguien que presta un servicio valioso, no como alguien que confiesa un
@@ -106,7 +106,7 @@ remediación gestionado.
 Incorpora las vulnerabilidades de riesgo aceptado conocidas, aquellas
 deliberadamente todavía no remediadas debido a prioridades en
 competencia, a la misma lista acumulada de deuda técnica visible y
-cuantificada descrita en el capítulo 4.5, con el mismo planteamiento de
+cuantificada descrita en el tema 4.5, con el mismo planteamiento de
 coste de corrección frente a coste de mantenimiento. Esto evita que el
 riesgo de seguridad desaparezca en un estado invisible y no documentado
 de "lo sabemos" o compita injustamente contra el trabajo de
@@ -160,14 +160,14 @@ lugar de cualquiera de los dos extremos por sí solo.
 3. **¿Un ingeniero que introdujo y luego reportó una vulnerabilidad se
    sentiría seguro haciéndolo, o temería el castigo?** Esta es la versión
    directa y específica de seguridad de la pregunta de cultura sin culpa
-   del capítulo 6.2, y una respuesta honesta aquí importa enormemente
+   del tema 6.2, y una respuesta honesta aquí importa enormemente
    para si se puede confiar en absoluto en tus datos de vulnerabilidades.
 
 4. **¿Tenemos una lista acumulada visible y cuantificada de
    vulnerabilidades conocidas de riesgo aceptado, o el estado de "lo
    sabemos" se vuelve silenciosamente invisible y sin abordar con el
    tiempo?** Comprueba si tu deuda de seguridad se rastrea con el mismo
-   rigor que tu lista acumulada general de deuda técnica (capítulo 4.5).
+   rigor que tu lista acumulada general de deuda técnica (tema 4.5).
 
 5. **¿Nuestra priorización de remediación contabiliza la exposición y
    explotabilidad reales, o depende puramente de una puntuación de
@@ -179,7 +179,7 @@ lugar de cualquiera de los dos extremos por sí solo.
 6. **¿La clasificación de gravedad de una vulnerabilidad alguna vez ha
    derivado hacia abajo con el tiempo sin una justificación clara?** Esto
    refleja el patrón de manipulación de definiciones que advierten tanto
-   el capítulo 1.2 como el capítulo 6.2; audita una muestra de tus
+   el tema 1.2 como el tema 6.2; audita una muestra de tus
    clasificaciones recientes para detectar este riesgo específico.
 
 ## Enfoque sectorial
@@ -211,7 +211,7 @@ consecuencias mucho más allá de una filtración típica del sector privado.
 Mantén una clasificación de gravedad rigurosa y anclada externamente,
 protege activamente la cultura de divulgación interna y externa, y trata
 la deuda de seguridad con la transparencia y el rigor de priorización que
-recomienda este capítulo, ya que una vulnerabilidad crítica no documentada
+recomienda este tema, ya que una vulnerabilidad crítica no documentada
 y silenciosamente aceptada en infraestructura pública es un riesgo
 genuinamente grave y auditable.
 
@@ -229,7 +229,7 @@ trabajo de funcionalidades en cada ciclo de planificación sin capacidad
 dedicada y protegida. Establecer un objetivo estricto de remediación de 7
 días para las vulnerabilidades críticas, respaldado por capacidad de
 remediación de deuda de seguridad protegida que reflejaba el modelo de
-asignación de deuda técnica del capítulo 4.5, redujo el tiempo promedio de
+asignación de deuda técnica del tema 4.5, redujo el tiempo promedio de
 remediación crítica a menos de cinco días en dos trimestres.
 
 **Gobierno.** Una agencia nacional de infraestructura descubrió, tras una
@@ -237,7 +237,7 @@ auditoría de seguridad externa, que los ingenieros internos habían estado
 evitando informalmente reportar vulnerabilidades que descubrían en su
 propio código, temiendo que reflejara mal en sus evaluaciones de
 rendimiento, un claro paralelo con el patrón de subreporte de incidencias
-impulsado por la culpa del capítulo 6.2. La agencia instituyó una
+impulsado por la culpa del tema 6.2. La agencia instituyó una
 política explícita y públicamente comunicada que protegía a los
 reportadores internos de vulnerabilidades de cualquier consecuencia de
 rendimiento, modelada directamente sobre la práctica de respuesta a incidencias sin culpa, y los reportes internos de vulnerabilidades
@@ -256,12 +256,12 @@ reputacional evitado. El ejemplo de la empresa de software anterior
 muestra el mecanismo específico: la deuda de seguridad había estado
 perdiendo silenciosamente la competencia de priorización frente al
 trabajo de funcionalidades durante años, exactamente el patrón que
-advierte el capítulo 4.5 para la deuda técnica en general, hasta que la
+advierte el tema 4.5 para la deuda técnica en general, hasta que la
 capacidad de remediación protegida lo corrigió directamente.
 
 El coste total de propiedad incluye las herramientas de escaneo
 automatizado, la capacidad de remediación protegida que recomienda
-asignar este capítulo, y la inversión cultural sostenida en la práctica
+asignar este tema, y la inversión cultural sostenida en la práctica
 de divulgación sin castigo. Ese coste es modesto comparado con el coste
 de una vulnerabilidad grave y explotada con éxito que la remediación
 proactiva y bien priorizada habría detectado y corregido mucho antes de
@@ -286,7 +286,7 @@ que pudiera explotarse.
 - **Interpretar un recuento creciente de reportes de vulnerabilidades como
   evidencia de una calidad en declive sin comprobar si el propio reporte
   mejoró:** una instancia específica de la trampa de variables de
-  confusión del capítulo 1.6.
+  confusión del tema 1.6.
 
 ## Modelo de madurez
 
@@ -328,7 +328,7 @@ que pudiera explotarse.
 - Construye una cultura de divulgación **genuinamente sin castigo**;
   castigar el reporte empuja el riesgo real a la clandestinidad.
 - Trata la **deuda de seguridad como una categoría de deuda técnica**
-  (capítulo 4.5), compitiendo de manera justa por la capacidad de
+  (tema 4.5), compitiendo de manera justa por la capacidad de
   remediación protegida.
 - Pondera la priorización por la **exposición y explotabilidad reales**,
   no solo la puntuación de gravedad.
@@ -337,12 +337,12 @@ que pudiera explotarse.
 
 - La especificación del Sistema de Puntuación de Vulnerabilidades Común
   (CVSS) de FIRST.org: el marco de puntuación de gravedad estandarizado
-  referenciado a lo largo de este capítulo.
+  referenciado a lo largo de este tema.
 - Los recursos de la OWASP Foundation sobre la gestión de vulnerabilidades
   y la práctica del ciclo de vida de desarrollo de software seguro.
 - *Site Reliability Engineering: How Google Runs Production Systems*, de
   Betsy Beyer, Chris Jones, Jennifer Petoff, y Niall Richard Murphy, eds.
-  (los principios de cultura sin culpa que este capítulo aplica a la
+  (los principios de cultura sin culpa que este tema aplica a la
   divulgación de seguridad).
 - Publicación Especial 800-40 del NIST, *Guide to Enterprise Patch
   Management Planning*: orientación autorizada sobre la práctica de

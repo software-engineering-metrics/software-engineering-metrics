@@ -2,9 +2,9 @@
 
 ## Visão geral e motivação
 
-As ferramentas de **[análise estática](https://en.wikipedia.org/wiki/Static_program_analysis)** examinam o código-fonte sem o executar, assinalando padrões conhecidos por se correlacionarem com defeitos, vulnerabilidades de segurança, ou problemas de manutenibilidade: código inalcançável, recursos não fechados, coerções suspeitas de tipo, lógica duplicada, e a categoria mais ampla de **odores de código**, padrões estruturais que não são necessariamente bugs mas tendem a tornar o código mais difícil de compreender, testar, ou mudar com segurança. A análise estática é a camada automatizada e contínua por baixo das métricas mais direcionadas nos outros capítulos desta parte, executando em cada commit e revelando problemas no momento em que são introduzidos em vez de esperar por uma auditoria periódica.
+As ferramentas de **[análise estática](https://en.wikipedia.org/wiki/Static_program_analysis)** examinam o código-fonte sem o executar, assinalando padrões conhecidos por se correlacionarem com defeitos, vulnerabilidades de segurança, ou problemas de manutenibilidade: código inalcançável, recursos não fechados, coerções suspeitas de tipo, lógica duplicada, e a categoria mais ampla de **odores de código**, padrões estruturais que não são necessariamente bugs mas tendem a tornar o código mais difícil de compreender, testar, ou mudar com segurança. A análise estática é a camada automatizada e contínua por baixo das métricas mais direcionadas nos outros temas desta parte, executando em cada commit e revelando problemas no momento em que são introduzidos em vez de esperar por uma auditoria periódica.
 
-A preocupação central deste capítulo é a lacuna entre o que as ferramentas de análise estática reportam e o que realmente importa. Uma ferramenta pode assinalar milhares de descobertas através de uma grande base de código, e o número de descobertas sozinho é uma métrica fraca, já que mistura preferências triviais de estilo com risco genuíno e severo, e pode ser reduzido através de supressão tão facilmente quanto através de correções reais. O valor da análise estática não vem da contagem bruta de descobertas mas de quão bem uma organização faz a triagem de severidade, previne regressão, e resiste à tentação de tratar o julgamento da ferramenta como um substituto para a revisão humana em vez de um complemento a ela.
+A preocupação central deste tema é a lacuna entre o que as ferramentas de análise estática reportam e o que realmente importa. Uma ferramenta pode assinalar milhares de descobertas através de uma grande base de código, e o número de descobertas sozinho é uma métrica fraca, já que mistura preferências triviais de estilo com risco genuíno e severo, e pode ser reduzido através de supressão tão facilmente quanto através de correções reais. O valor da análise estática não vem da contagem bruta de descobertas mas de quão bem uma organização faz a triagem de severidade, previne regressão, e resiste à tentação de tratar o julgamento da ferramenta como um substituto para a revisão humana em vez de um complemento a ela.
 
 Para equipas grandes, a análise estática é a única forma prática de aplicar uma linha de base de qualidade de código e higiene de segurança através de uma base de código maior do que qualquer equipa consegue rever manualmente na íntegra. As organizações empresariais e governamentais, muitas vezes a enfrentar requisitos de conformidade à volta de práticas seguras de codificação, dependem da análise estática como evidência documentada e auditável de que um nível de base de escrutínio foi aplicado consistentemente, não apenas quando um revisor humano calhou notar um problema.
 
@@ -24,7 +24,7 @@ Configure as suas ferramentas de análise estática para classificar as descober
 
 ### Aplicar o portão sobre novas descobertas introduzidas, não sobre todo o backlog histórico
 
-A maioria das bases de código estabelecidas carrega um backlog legado de descobertas que precedem a prática atual e seria proibitivamente caro corrigir tudo de uma vez. Em vez de bloquear todo o trabalho até o backlog inteiro ser limpo, aplique o portão de CI sobre se uma mudança específica introduz novas descobertas acima de um limiar acordado de severidade, deixando o backlog encolher gradualmente através da manutenção normal enquanto previne acumulação adicional. Esta distinção reflete a recomendação de piso de cobertura do capítulo 4.2: proteger contra regressão em vez de exigir uma correção irrealista de uma só vez.
+A maioria das bases de código estabelecidas carrega um backlog legado de descobertas que precedem a prática atual e seria proibitivamente caro corrigir tudo de uma vez. Em vez de bloquear todo o trabalho até o backlog inteiro ser limpo, aplique o portão de CI sobre se uma mudança específica introduz novas descobertas acima de um limiar acordado de severidade, deixando o backlog encolher gradualmente através da manutenção normal enquanto previne acumulação adicional. Esta distinção reflete a recomendação de piso de cobertura do tema 4.2: proteger contra regressão em vez de exigir uma correção irrealista de uma só vez.
 
 ### Gerir ativamente a taxa de falsos positivos
 
@@ -36,7 +36,7 @@ Mesmo uma descoberta legítima e não falsa-positiva nem sempre justifica uma co
 
 ### Combinar a análise estática com as outras métricas de qualidade de código nesta parte
 
-As descobertas de análise estática, as pontuações de complexidade (capítulo 4.1), e os dados de pontos quentes (capítulo 4.3) são evidência complementar, não métricas concorrentes. Um ficheiro com uma alta concentração de descobertas não resolvidas de análise estática que é também um ponto quente de processamento-complexidade é um candidato particularmente forte para atenção priorizada, já que múltiplos sinais independentes convergem para a mesma conclusão.
+As descobertas de análise estática, as pontuações de complexidade (tema 4.1), e os dados de pontos quentes (tema 4.3) são evidência complementar, não métricas concorrentes. Um ficheiro com uma alta concentração de descobertas não resolvidas de análise estática que é também um ponto quente de processamento-complexidade é um candidato particularmente forte para atenção priorizada, já que múltiplos sinais independentes convergem para a mesma conclusão.
 
 ## Trocas: prós e contras
 
@@ -47,7 +47,7 @@ As descobertas de análise estática, as pontuações de complexidade (capítulo
 | Portão sobre todo o backlog histórico | Maximiza a limpeza eventual do código | Normalmente impraticável para bases de código estabelecidas; pode parar todo o trabalho |
 | Portão apenas sobre novas descobertas | Prático, previne regressão, deixa o backlog encolher gradualmente | Os problemas legados persistem mais tempo sem um plano deliberado de remediação |
 
-A tensão central é **minuciosidade versus praticabilidade**. Uma política de análise estática que exige que todo o backlog histórico seja resolvido antes de qualquer novo trabalho prosseguir é minuciosa mas normalmente impraticável para qualquer base de código com história real, e as equipas sob essa pressão tendem a suprimir descobertas por completo em vez de genuinamente as corrigir. Resolva a tensão aplicando o portão rigorosamente sobre novas descobertas enquanto executa um esforço separado e deliberadamente ritmado de remediação contra o backlog legado, priorizado usando a severidade e as técnicas de verificação cruzada que este capítulo e o capítulo 4.3 recomendam.
+A tensão central é **minuciosidade versus praticabilidade**. Uma política de análise estática que exige que todo o backlog histórico seja resolvido antes de qualquer novo trabalho prosseguir é minuciosa mas normalmente impraticável para qualquer base de código com história real, e as equipas sob essa pressão tendem a suprimir descobertas por completo em vez de genuinamente as corrigir. Resolva a tensão aplicando o portão rigorosamente sobre novas descobertas enquanto executa um esforço separado e deliberadamente ritmado de remediação contra o backlog legado, priorizado usando a severidade e as técnicas de verificação cruzada que este tema e o tema 4.3 recomendam.
 
 ## Perguntas para debater com a sua equipa
 
@@ -116,7 +116,7 @@ O custo total de propriedade inclui as próprias ferramentas, muitas vezes gratu
 - Aplique o portão de CI sobre **novas descobertas introduzidas**, não todo o backlog histórico, para prevenir regressão sem exigir uma correção impraticável de uma só vez.
 - Gira ativamente a **taxa de falsos positivos**; o ruído não gerido destrói a confiança na ferramenta e leva as descobertas a serem ignoradas por completo.
 - Trate as descobertas como um **estímulo para revisão humana**, com dispensas visíveis e documentadas, não um veredito automático ou supressão silenciosa.
-- Verifique cruzadamente a análise estática com **dados de complexidade e pontos quentes** (capítulos 4.1, 4.3) para evidência convergente e mais forte de priorização.
+- Verifique cruzadamente a análise estática com **dados de complexidade e pontos quentes** (temas 4.1, 4.3) para evidência convergente e mais forte de priorização.
 
 ## Referências e leituras adicionais
 

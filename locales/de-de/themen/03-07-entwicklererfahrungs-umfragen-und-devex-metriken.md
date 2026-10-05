@@ -2,17 +2,17 @@
 
 ## Überblick und Motivation
 
-Dieses Kapitel schließt Teil 3 mit der praktischen Mechanik, die die Selbstauskunftsdaten jedes vorangegangenen Kapitels vertrauenswürdig macht: wie eine Developer-Experience-Umfrage (DevEx) gestaltet wird, die ein echtes Signal statt eines Beliebtheitswettbewerbs erzeugt, und wie Umfragedaten mit objektiver Instrumentierung zu einem Metrik-Set kombiniert werden, nach dem eine Organisation tatsächlich handeln kann. Jedes Kapitel dieses Teils verlässt sich auf eine Form von Selbstauskunft, Zufriedenheit und Wohlbefinden (Kapitel 3.2) am direktesten, aber auch Leistung, Kommunikation und Fluss profitieren von einer gut gestalteten Umfrage, und eine schlecht gestaltete Umfrage untergräbt den Wert aller auf einmal.
+Dieses Thema schließt Teil 3 mit der praktischen Mechanik, die die Selbstauskunftsdaten jedes vorangegangenen Themas vertrauenswürdig macht: wie eine Developer-Experience-Umfrage (DevEx) gestaltet wird, die ein echtes Signal statt eines Beliebtheitswettbewerbs erzeugt, und wie Umfragedaten mit objektiver Instrumentierung zu einem Metrik-Set kombiniert werden, nach dem eine Organisation tatsächlich handeln kann. Jedes Thema dieses Teils verlässt sich auf eine Form von Selbstauskunft, Zufriedenheit und Wohlbefinden (Thema 3.2) am direktesten, aber auch Leistung, Kommunikation und Fluss profitieren von einer gut gestalteten Umfrage, und eine schlecht gestaltete Umfrage untergräbt den Wert aller auf einmal.
 
 **Developer Experience (DevEx)** ist die breitere, jüngere Rahmung, die sich um dieselbe Kernidee entwickelt hat, die SPACE formalisierte: die tatsächliche, tägliche Erfahrung von Ingenieurinnen und Ingenieuren dabei, Arbeit zu erledigen, Reibung, Tooling, kognitive Last, Feedback-Schleifen, ist selbst eine messbare, verbesserbare Sache, kein bloß weiches kulturelles Anliegen. DevEx-Forschung, namentlich das von Abi Noda, Margaret-Anne Storey, Nicole Forsgren und Michaela Greiler vorgeschlagene Framework, organisiert diese Erfahrung um drei Dimensionen: Feedback-Schleifen, kognitive Last und Flow-Zustand, die eng auf die SPACE-Dimensionen abbilden, die dieser Teil bereits vertieft behandelt hat, und diese erweitern.
 
-Für große Teams liegt der Unterschied zwischen einer Umfrage, die vertrauenswürdiges Signal erzeugt, und einer, die Rauschen oder, schlimmer, aktiv irreführende Daten erzeugt, vollständig in den Designdetails, die dieses Kapitel behandelt: Frageformulierung, Wahl der Antwortskala, Stichprobenziehung und Rhythmus, und wie Ergebnisse an Antwortende zurückkommuniziert werden. Konzerne und Behörden, die diese Umfragen im großen Maßstab über Tausende Ingenieurinnen und Ingenieure hinweg durchführen, können es sich nicht leisten, das falsch zu machen, weil ein fehlerhaftes Instrument in diesem Maßstab selbstsichere, falsche Schlussfolgerungen erzeugt, die echte Ressourcenentscheidungen formen.
+Für große Teams liegt der Unterschied zwischen einer Umfrage, die vertrauenswürdiges Signal erzeugt, und einer, die Rauschen oder, schlimmer, aktiv irreführende Daten erzeugt, vollständig in den Designdetails, die dieses Thema behandelt: Frageformulierung, Wahl der Antwortskala, Stichprobenziehung und Rhythmus, und wie Ergebnisse an Antwortende zurückkommuniziert werden. Konzerne und Behörden, die diese Umfragen im großen Maßstab über Tausende Ingenieurinnen und Ingenieure hinweg durchführen, können es sich nicht leisten, das falsch zu machen, weil ein fehlerhaftes Instrument in diesem Maßstab selbstsichere, falsche Schlussfolgerungen erzeugt, die echte Ressourcenentscheidungen formen.
 
 ## Kernprinzipien
 
 - **Umfragedesignqualität bestimmt Datenvertrauenswürdigkeit weit mehr als Umfragelänge oder Raffinesse.** Eine kurze, gut gestaltete Umfrage schlägt jedes Mal eine lange, schlecht gestaltete.
 - **Antwortrate ist selbst ein Signal**, nicht nur eine Datenerhebungsmetrik; eine sinkende Rate deutet oft auf erodierendes Vertrauen in den Prozess hin.
-- **Umfragedaten sollten mit objektiver Instrumentierung kombiniert werden**, wo immer möglich, gemäß dem Instrumentierungsprinzip aus Kapitel 1.5; Umfragedaten sollten speziell für das genutzt werden, was objektive Daten nicht erfassen können.
+- **Umfragedaten sollten mit objektiver Instrumentierung kombiniert werden**, wo immer möglich, gemäß dem Instrumentierungsprinzip aus Thema 1.5; Umfragedaten sollten speziell für das genutzt werden, was objektive Daten nicht erfassen können.
 - **Die Schleife sollte mit Antwortenden geschlossen werden.** Eine Umfrage, die nie sichtbar zu einer Änderung führt, trainiert Menschen darauf, sie nicht mehr ernst zu nehmen.
 - **DevEx und SPACE sind komplementäre Rahmungen desselben zugrunde liegenden Anliegens**, keine konkurrierenden Frameworks, zwischen denen gewählt werden muss.
 
@@ -28,11 +28,11 @@ Eine konsistente Antwortskala sollte standardisiert werden (eine fünf- oder sie
 
 ### Antwortrate als eigenständiges diagnostisches Signal behandeln
 
-Die Umfrage-Antwortrate sollte über aufeinanderfolgende Zyklen verfolgt werden, und eine sinkende Rate sollte als Warnzeichen behandelt werden, das es wert ist, direkt untersucht zu werden, ähnlich dem in Kapitel 3.2 besprochenen Vertrauenssignal. Eine sinkende Antwortrate deutet oft auf Umfragemüdigkeit hin, erodierendes Vertrauen, dass Ergebnisse zu Handlung führen, oder wachsenden Verdacht, Anonymität sei nicht echt geschützt, jedes davon verdient direkte Untersuchung, statt als bloßes Ärgernis der Datenerhebung abgetan zu werden.
+Die Umfrage-Antwortrate sollte über aufeinanderfolgende Zyklen verfolgt werden, und eine sinkende Rate sollte als Warnzeichen behandelt werden, das es wert ist, direkt untersucht zu werden, ähnlich dem in Thema 3.2 besprochenen Vertrauenssignal. Eine sinkende Antwortrate deutet oft auf Umfragemüdigkeit hin, erodierendes Vertrauen, dass Ergebnisse zu Handlung führen, oder wachsenden Verdacht, Anonymität sei nicht echt geschützt, jedes davon verdient direkte Untersuchung, statt als bloßes Ärgernis der Datenerhebung abgetan zu werden.
 
 ### Umfragedaten mit objektiver DevEx-Instrumentierung kombinieren
 
-Subjektive Umfrageantworten sollten mit objektiven Signalen gepaart werden, wo sie existieren: Build-Zeit, Laufzeit der Testsuite, Einrichtungszeit der lokalen Entwicklungsumgebung, und die Flow-Zeit- und Unterbrechungsdaten aus Kapitel 3.6. Eine Umfrageantwort, die sagt „unser Build ist zu langsam", wird weit handlungsfähiger, gepaart mit dem tatsächlich gemessenen Build-Zeit-Trend, und die Kombination fängt Fälle, in denen Wahrnehmung und objektive Realität in beide Richtungen auseinanderklaffen, die es für sich genommen wert sind, untersucht zu werden.
+Subjektive Umfrageantworten sollten mit objektiven Signalen gepaart werden, wo sie existieren: Build-Zeit, Laufzeit der Testsuite, Einrichtungszeit der lokalen Entwicklungsumgebung, und die Flow-Zeit- und Unterbrechungsdaten aus Thema 3.6. Eine Umfrageantwort, die sagt „unser Build ist zu langsam", wird weit handlungsfähiger, gepaart mit dem tatsächlich gemessenen Build-Zeit-Trend, und die Kombination fängt Fälle, in denen Wahrnehmung und objektive Realität in beide Richtungen auseinanderklaffen, die es für sich genommen wert sind, untersucht zu werden.
 
 ### Die Schleife schließen: Ergebnisse und sichtbare Folgemaßnahmen veröffentlichen
 
@@ -83,7 +83,7 @@ Die zentrale Spannung ist **Abdeckung gegen Antwortqualität**. Eine längere, u
 
 Die Rendite eines gut gestalteten DevEx-Umfrageprogramms sind vertrauenswürdige, handlungsfähige Daten über eine Dimension, Entwicklererfahrung, die sonst unsichtbar bleibt, bis sie als Fluktuation oder Lieferverlangsamung zutage tritt. Das Beispiel des Softwareunternehmens oben zeigt die Kosten fehlerhaften Designs: zwei Quartale fehlgeleiteter Behebungsbemühung, weil eine einzelne schlecht formulierte Frage zwei unterschiedliche Anliegen vermischte.
 
-Die Gesamtbetriebskosten umfassen Umfrage-Tooling, die in diesem Kapitel empfohlene Design- und Pilotdisziplin, und das laufende Bekenntnis, die Schleife mit sichtbarer Folgemaßnahme in jedem Zyklus zu schließen. Dieses Bekenntnis, mehr als jede Tooling-Kosten, bestimmt, ob ein Umfrageprogramm über Jahre nützlich bleibt oder zu einer Abhak-Übung verfällt, die über die Zeit stetig weniger vertrauenswürdige Daten erzeugt.
+Die Gesamtbetriebskosten umfassen Umfrage-Tooling, die in diesem Thema empfohlene Design- und Pilotdisziplin, und das laufende Bekenntnis, die Schleife mit sichtbarer Folgemaßnahme in jedem Zyklus zu schließen. Dieses Bekenntnis, mehr als jede Tooling-Kosten, bestimmt, ob ein Umfrageprogramm über Jahre nützlich bleibt oder zu einer Abhak-Übung verfällt, die über die Zeit stetig weniger vertrauenswürdige Daten erzeugt.
 
 ## Antipatterns und Fallstricke
 

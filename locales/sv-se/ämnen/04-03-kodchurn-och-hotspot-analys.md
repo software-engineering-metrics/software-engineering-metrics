@@ -2,7 +2,7 @@
 
 ## Översikt och motivation
 
-**Kodchurn** mäter hur frekvent en fil eller modul ändras över tid, rader tillagda, modifierade, och raderade över successiva commits. På egen hand är churn en ganska svag signal: vissa filer ändras ofta eftersom de är under aktiv, hälsosam utveckling, och vissa ändras sällan eftersom de är stabila och korrekta, inte eftersom de är försummade. Den verkliga diagnostiska kraften i det här kapitlets tillvägagångssätt kommer från att kombinera churn med komplexitet (kapitel 4.1): en fil som är både frekvent ändrad och högt komplex, en **hotspot**, är oproportionerligt trolig att vara en källa till defekter och en belastning på teamhastighet, och empirisk forskning bekräftar det här konsekvent över många kodbaser och organisationer.
+**Kodchurn** mäter hur frekvent en fil eller modul ändras över tid, rader tillagda, modifierade, och raderade över successiva commits. På egen hand är churn en ganska svag signal: vissa filer ändras ofta eftersom de är under aktiv, hälsosam utveckling, och vissa ändras sällan eftersom de är stabila och korrekta, inte eftersom de är försummade. Den verkliga diagnostiska kraften i det här ämnets tillvägagångssätt kommer från att kombinera churn med komplexitet (ämne 4.1): en fil som är både frekvent ändrad och högt komplex, en **hotspot**, är oproportionerligt trolig att vara en källa till defekter och en belastning på teamhastighet, och empirisk forskning bekräftar det här konsekvent över många kodbaser och organisationer.
 
 **Hotspot-analys**, populariserad genom Adam Tornhills arbete om mjukvaruanalys, är specifikt värdefull eftersom den inte kräver någon manuell undersökning eller subjektivt omdöme för att hitta sina mål. [Versionskontrollhistorik](https://en.wikipedia.org/wiki/Version_control) innehåller redan allt som behövs för att beräkna både churn och, kombinerat med statisk analysverktyg, komplexitet, för varje fil i en kodbas automatiskt. Det här låter ett team eller en organisation identifiera, med verkliga bevis snarare än anekdot eller det högljuddaste klagomålet i en retrospektiv, exakt vilken liten andel av kodbasen som förtjänar omstruktureringsuppmärksamhet först.
 
@@ -20,15 +20,15 @@ För stora team löser hotspot-analys ett genuint allokeringsproblem: en kodbas 
 
 ### Beräkna churn och komplexitet tillsammans, och rangordna efter deras kombination
 
-Extrahera ändringsfrekvens per fil från versionskontrollhistorik över ett meningsfullt fönster, vanligtvis sex månader till ett år, och para den med ett komplexitetsmått (kapitel 4.1) för samma filer. Rangordna filer efter kombinationen, vanligtvis produkten av churn och komplexitet, snarare än efter endera mätetalet ensamt, eftersom den här kombinationen är vad den underliggande forskningen konsekvent associerar med förhöjda defektfrekvenser och underhållskostnad.
+Extrahera ändringsfrekvens per fil från versionskontrollhistorik över ett meningsfullt fönster, vanligtvis sex månader till ett år, och para den med ett komplexitetsmått (ämne 4.1) för samma filer. Rangordna filer efter kombinationen, vanligtvis produkten av churn och komplexitet, snarare än efter endera mätetalet ensamt, eftersom den här kombinationen är vad den underliggande forskningen konsekvent associerar med förhöjda defektfrekvenser och underhållskostnad.
 
 ### Undersök de topprankade hotspots med mänskligt omdöme innan ni agerar
 
-En rangordnad hotspotlista identifierar kandidater för uppmärksamhet, inte en automatisk handlingslista. För var och en av era topp-hotspots, undersök med ett mänskligt öga: är det här genuint dåligt designad kod som behöver omstrukturering, eller är det en fil som legitimt behöver frekvent ändring eftersom den sitter i centrum av aktiv, utvecklande affärslogik, i vilket fall prioriteten kanske vore bättre tester eller tydligare dokumentation snarare än en strukturell omskrivning. Det här speglar kapitel 4.1:s väsentlig-kontra-oavsiktlig-komplexitetsdistinktion, tillämpad här på den kombinerade churn-komplexitet-signalen.
+En rangordnad hotspotlista identifierar kandidater för uppmärksamhet, inte en automatisk handlingslista. För var och en av era topp-hotspots, undersök med ett mänskligt öga: är det här genuint dåligt designad kod som behöver omstrukturering, eller är det en fil som legitimt behöver frekvent ändring eftersom den sitter i centrum av aktiv, utvecklande affärslogik, i vilket fall prioriteten kanske vore bättre tester eller tydligare dokumentation snarare än en strukturell omskrivning. Det här speglar ämne 4.1:s väsentlig-kontra-oavsiktlig-komplexitetsdistinktion, tillämpad här på den kombinerade churn-komplexitet-signalen.
 
 ### Korsreferensera hotspots mot incident- och defektdata
 
-Där tillgängligt, kontrollera om era identifierade hotspots korrelerar med faktiska produktionsincidenter (kapitel 6.2) eller läckt-defektdata (kapitel 5.1). En stark korrelation validerar hotspot-analysen som genuint förutsägande för er specifika kodbas och stärker verksamhetsfallet för att agera på den; en svag eller frånvarande korrelation antyder antingen ett datakvalitetsproblem eller att churn och komplexitet inte, i ert specifika sammanhang, är rätt kombination av signaler att prioritera efter.
+Där tillgängligt, kontrollera om era identifierade hotspots korrelerar med faktiska produktionsincidenter (ämne 6.2) eller läckt-defektdata (ämne 5.1). En stark korrelation validerar hotspot-analysen som genuint förutsägande för er specifika kodbas och stärker verksamhetsfallet för att agera på den; en svag eller frånvarande korrelation antyder antingen ett datakvalitetsproblem eller att churn och komplexitet inte, i ert specifika sammanhang, är rätt kombination av signaler att prioritera efter.
 
 ### Spåra hotspot-trend över successiva analyser, inte bara ett enda ögonblicksfoto
 
@@ -83,7 +83,7 @@ Den centrala spänningen är **bevis kontra kontext**. Hotspot-analys ger objekt
 
 Avkastningen på hotspot-analys är riktad, evidensbaserad investering: båda exemplen ovan visar ett fall där formell analys omdirigerade omstruktureringsuppmärksamhet bort från där informellt klagomål hade fokuserat den och mot där datan faktiskt visade att problemet bodde, vilket producerade en mätbart bättre avkastning än en oriktad eller intuitionsdriven investering skulle ha gjort.
 
-Den totala ägandekostnaden är låg, eftersom churn-data kommer direkt från befintlig versionskontrollhistorik och komplexitetsdata vanligtvis redan är tillgänglig från statiska analysverktyg (kapitel 4.4); den huvudsakliga investeringen är den periodiska analysinsatsen och den mänskliga omdömestiden att tolka resultat och besluta vilken handling varje identifierad hotspot motiverar.
+Den totala ägandekostnaden är låg, eftersom churn-data kommer direkt från befintlig versionskontrollhistorik och komplexitetsdata vanligtvis redan är tillgänglig från statiska analysverktyg (ämne 4.4); den huvudsakliga investeringen är den periodiska analysinsatsen och den mänskliga omdömestiden att tolka resultat och besluta vilken handling varje identifierad hotspot motiverar.
 
 ## Antimönster och fallgropar
 

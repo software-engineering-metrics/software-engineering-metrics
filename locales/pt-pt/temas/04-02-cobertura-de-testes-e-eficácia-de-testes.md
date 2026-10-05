@@ -2,16 +2,16 @@
 
 ## Visão geral e motivação
 
-A **[cobertura de testes](https://en.wikipedia.org/wiki/Code_coverage)** mede a percentagem de código executado por uma suite de testes: cobertura de linhas, cobertura de ramos, ou a mais rigorosa cobertura de caminhos. É uma das métricas mais amplamente rastreadas em todo este livro, barata de calcular, fácil de visualizar como uma única percentagem, e consequentemente uma das mais frequentemente manipuladas, precisamente da forma que o capítulo 1.2 prevê para qualquer métrica que se torna um alvo. Uma suite de testes pode alcançar alta cobertura enquanto verifica quase nada significativo, porque a cobertura mede se o código foi executado durante uma execução de teste, não se o teste realmente verificou que o código se comportou corretamente.
+A **[cobertura de testes](https://en.wikipedia.org/wiki/Code_coverage)** mede a percentagem de código executado por uma suite de testes: cobertura de linhas, cobertura de ramos, ou a mais rigorosa cobertura de caminhos. É uma das métricas mais amplamente rastreadas em todo este livro, barata de calcular, fácil de visualizar como uma única percentagem, e consequentemente uma das mais frequentemente manipuladas, precisamente da forma que o tema 1.2 prevê para qualquer métrica que se torna um alvo. Uma suite de testes pode alcançar alta cobertura enquanto verifica quase nada significativo, porque a cobertura mede se o código foi executado durante uma execução de teste, não se o teste realmente verificou que o código se comportou corretamente.
 
-Esta lacuna entre a cobertura e a eficácia genuína de testes não é uma nota de rodapé menor; é a preocupação central deste capítulo. Um teste que chama uma função e não afirma nada sobre o seu resultado aumenta a cobertura identicamente a um teste que verifica minuciosamente o comportamento da função através de casos extremos. A correção que este capítulo recomenda, o **teste de mutação**, que introduz deliberadamente falhas pequenas e artificiais no código e verifica se a suite de testes realmente as apanha, é a resposta direta a esta lacuna, e este capítulo trata-a como o complemento necessário da cobertura, não um extra opcional.
+Esta lacuna entre a cobertura e a eficácia genuína de testes não é uma nota de rodapé menor; é a preocupação central deste tema. Um teste que chama uma função e não afirma nada sobre o seu resultado aumenta a cobertura identicamente a um teste que verifica minuciosamente o comportamento da função através de casos extremos. A correção que este tema recomenda, o **teste de mutação**, que introduz deliberadamente falhas pequenas e artificiais no código e verifica se a suite de testes realmente as apanha, é a resposta direta a esta lacuna, e este tema trata-a como o complemento necessário da cobertura, não um extra opcional.
 
-Para equipas grandes, os alvos de cobertura são muitas vezes adotados em toda a organização como um portão de qualidade, precisamente o tipo de métrica incentivada e de alta visibilidade contra a qual o capítulo 1.2 avisa que está mais exposta à manipulação. As organizações empresariais e governamentais que definem um requisito geral de percentagem de cobertura sem uma verificação de eficácia emparelhada estão, na prática, a incentivar precisamente o padrão de manipulação de limiar que este livro descreve: testes triviais escritos puramente para alcançar um número, sem melhoria correspondente na prevenção real de defeitos.
+Para equipas grandes, os alvos de cobertura são muitas vezes adotados em toda a organização como um portão de qualidade, precisamente o tipo de métrica incentivada e de alta visibilidade contra a qual o tema 1.2 avisa que está mais exposta à manipulação. As organizações empresariais e governamentais que definem um requisito geral de percentagem de cobertura sem uma verificação de eficácia emparelhada estão, na prática, a incentivar precisamente o padrão de manipulação de limiar que este livro descreve: testes triviais escritos puramente para alcançar um número, sem melhoria correspondente na prevenção real de defeitos.
 
 ## Princípios-chave
 
 - **A cobertura mede a execução, não a verificação.** Uma linha a ser executada por um teste não diz nada sobre se o teste verificou algo significativo sobre ela.
-- **Um alvo de cobertura sem uma verificação de eficácia é uma configuração de manual de livro didático da lei de Goodhart** (capítulo 1.2): o número melhora enquanto a qualidade genuína não.
+- **Um alvo de cobertura sem uma verificação de eficácia é uma configuração de manual de livro didático da lei de Goodhart** (tema 1.2): o número melhora enquanto a qualidade genuína não.
 - **O teste de mutação é o complemento necessário da cobertura**, não um substituto; use ambos juntos.
 - **A cobertura é mais útil como um piso do que como um alvo a maximizar.** Um número baixo revela código genuinamente não testado; perseguir 100% produz muitas vezes retornos decrescentes ou negativos.
 - **A cobertura de caminho crítico importa mais do que a cobertura uniforme e geral.** Nem todo o código carrega risco igual se falhar.
@@ -32,7 +32,7 @@ Nem todo o código carrega risco igual. Um caminho de processamento de pagamento
 
 ### Vigiar os padrões específicos de manipulação de cobertura
 
-As formas mais comuns de a cobertura ser manipulada, uma vez que se torna um alvo, incluem: testes que chamam uma função mas não afirmam nada significativo sobre o resultado (a manipulação de limiar do capítulo 1.2 aplicada a esta métrica), desativar ou eliminar testes que falham em vez de corrigir o problema subjacente, e excluir código difícil de testar do cálculo de cobertura inteiramente em vez de abordar porque é difícil de testar. Audite periodicamente uma amostra de testes diretamente, lendo as suas afirmações reais, em vez de confiar apenas na percentagem de cobertura.
+As formas mais comuns de a cobertura ser manipulada, uma vez que se torna um alvo, incluem: testes que chamam uma função mas não afirmam nada significativo sobre o resultado (a manipulação de limiar do tema 1.2 aplicada a esta métrica), desativar ou eliminar testes que falham em vez de corrigir o problema subjacente, e excluir código difícil de testar do cálculo de cobertura inteiramente em vez de abordar porque é difícil de testar. Audite periodicamente uma amostra de testes diretamente, lendo as suas afirmações reais, em vez de confiar apenas na percentagem de cobertura.
 
 ### Definir um piso de cobertura, não um teto de cobertura, no seu pipeline de CI
 
@@ -69,9 +69,9 @@ A tensão central é **simplicidade versus honestidade**. Uma única percentagem
 
 **Pequena empresa.** A maioria das plataformas de CI reporta a cobertura automaticamente com custo mínimo de configuração; use-a principalmente para detetar código crítico completamente não testado em vez de perseguir uma percentagem específica de alvo, e considere o teste de mutação apenas quando tiver a capacidade de engenharia para agir sobre o que revela.
 
-**Empresa.** Os alvos gerais de cobertura em toda a organização são um erro comum e consequente a esta escala, já que incentivam precisamente a manipulação que este capítulo descreve através de dezenas de equipas simultaneamente. Estabeleça expectativas de cobertura baseadas em risco que variam por criticidade de serviço, e invista em infraestrutura de teste de mutação especificamente para os seus sistemas de maior risco.
+**Empresa.** Os alvos gerais de cobertura em toda a organização são um erro comum e consequente a esta escala, já que incentivam precisamente a manipulação que este tema descreve através de dezenas de equipas simultaneamente. Estabeleça expectativas de cobertura baseadas em risco que variam por criticidade de serviço, e invista em infraestrutura de teste de mutação especificamente para os seus sistemas de maior risco.
 
-**Governo.** Os requisitos de cobertura por vezes aparecem em documentação de contratação ou conformidade como um proxy rude e facilmente especificado para garantia de qualidade. Onde possível, emparelhe qualquer percentagem de cobertura contratualmente exigida com um requisito de eficácia baseado em teste de mutação ou defeito, para que o incentivo contratual não recompense inadvertidamente precisamente o enchimento de baixo valor de testes contra o qual este capítulo avisa.
+**Governo.** Os requisitos de cobertura por vezes aparecem em documentação de contratação ou conformidade como um proxy rude e facilmente especificado para garantia de qualidade. Onde possível, emparelhe qualquer percentagem de cobertura contratualmente exigida com um requisito de eficácia baseado em teste de mutação ou defeito, para que o incentivo contratual não recompense inadvertidamente precisamente o enchimento de baixo valor de testes contra o qual este tema avisa.
 
 ## Exemplos
 
@@ -88,7 +88,7 @@ O custo total de propriedade inclui o custo computacional do teste de mutação,
 ## Antipadrões e armadilhas
 
 - **Tratar a percentagem de cobertura como um veredito direto de qualidade:** mede a execução, não a verificação.
-- **Escrever testes principalmente para satisfazer um portão de cobertura:** produz precisamente o padrão de manipulação de limiar de baixo valor contra o qual o capítulo 1.2 avisa.
+- **Escrever testes principalmente para satisfazer um portão de cobertura:** produz precisamente o padrão de manipulação de limiar de baixo valor contra o qual o tema 1.2 avisa.
 - **Desativar ou eliminar testes a falhar em vez de corrigir o problema subjacente:** remove proteção real enquanto mal afeta o número reportado.
 - **Aplicar um alvo uniforme de cobertura independentemente do risco do código:** desperdiça esforço em código de baixo risco e subinveste em caminhos genuinamente críticos.
 - **Fazer crescer silenciosamente uma lista de exclusão ao longo do tempo:** esconde lacunas reais de teste por trás de uma figura de cobertura tecnicamente precisa mas enganadora.

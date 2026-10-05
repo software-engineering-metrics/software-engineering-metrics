@@ -82,13 +82,13 @@ aktivitetsantal.]
 
 För varje mätetal:
 - Nuvarande avläsning och trend
-- Eventuell rörelse utanför normal variation (kapitel 1.6)
+- Eventuell rörelse utanför normal variation (ämne 1.6)
 - Parat skyddsmätetalsstatus, om tillämpligt
 - Beslut den här avläsningen informerar, om något
 
 ## Nya mätetal föreslagna
 
-[Kör var och en genom checklistan för granskning av nytt mätetal, kapitel 9.3.]
+[Kör var och en genom checklistan för granskning av nytt mätetal, ämne 9.3.]
 
 ## Mätetal övervägda för pensionering
 
@@ -118,7 +118,7 @@ För varje mätetal:
 
 ## Allvarlighetsgrad
 
-[Klassificering mot dokumenterade kriterier, kapitel 6.2.]
+[Klassificering mot dokumenterade kriterier, ämne 6.2.]
 
 ## Grundorsak
 
@@ -146,13 +146,13 @@ nästa granskningscykel.]
 ```markdown
 # ROI-fall: [initiativnamn]
 
-## Kostnad (total ägandekostnad, kapitel 5.5)
+## Kostnad (total ägandekostnad, ämne 5.5)
 
 - Förhand: [utvecklingskostnad]
 - Löpande: [underhåll, infrastruktur, support, per år]
 - Alternativkostnad: [vad annars den här kapaciteten kunde ha gjort]
 
-## Förmån (dokumenterat bevis, kapitel 5.1–5.3)
+## Förmån (dokumenterat bevis, ämnen 5.1–5.3)
 
 - [Förmån 1], belagd av [datakälla]
 - [Förmån 2], belagd av [datakälla]

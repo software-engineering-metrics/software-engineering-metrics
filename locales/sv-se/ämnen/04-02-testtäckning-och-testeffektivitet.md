@@ -2,16 +2,16 @@
 
 ## Översikt och motivation
 
-**[Testtäckning](https://en.wikipedia.org/wiki/Code_coverage)** mäter procentandelen kod exekverad av en testsvit: radtäckning, grentäckning, eller den striktare vägtäckning. Det är ett av de mest spårade mätetalen i hela den här boken, billigt att beräkna, lätt att visualisera som en enda procentandel, och följaktligen ett av de mest frekvent manipulerade, på exakt det sätt kapitel 1.2 förutsäger för varje mätetal som blir ett mål. En testsvit kan uppnå hög täckning medan den verifierar nästan ingenting meningsfullt, eftersom täckning mäter om kod exekverades under en testkörning, inte om testet faktiskt kontrollerade att koden betedde sig korrekt.
+**[Testtäckning](https://en.wikipedia.org/wiki/Code_coverage)** mäter procentandelen kod exekverad av en testsvit: radtäckning, grentäckning, eller den striktare vägtäckning. Det är ett av de mest spårade mätetalen i hela den här boken, billigt att beräkna, lätt att visualisera som en enda procentandel, och följaktligen ett av de mest frekvent manipulerade, på exakt det sätt ämne 1.2 förutsäger för varje mätetal som blir ett mål. En testsvit kan uppnå hög täckning medan den verifierar nästan ingenting meningsfullt, eftersom täckning mäter om kod exekverades under en testkörning, inte om testet faktiskt kontrollerade att koden betedde sig korrekt.
 
-Det här gapet mellan täckning och genuin testeffektivitet är inte en mindre fotnot; det är det här kapitlets centrala angelägenhet. Ett test som anropar en funktion och inte påstår något om dess resultat ökar täckning identiskt med ett test som grundligt verifierar funktionens beteende över kantfall. Fixen det här kapitlet rekommenderar, **mutationstestning**, introducerar medvetet små, artificiella fel i koden och kontrollerar om testsviten faktiskt fångar dem, är det direkta svaret på det här gapet, och det här kapitlet behandlar den som täckningens nödvändiga komplement, inte ett valfritt tillägg.
+Det här gapet mellan täckning och genuin testeffektivitet är inte en mindre fotnot; det är det här ämnets centrala angelägenhet. Ett test som anropar en funktion och inte påstår något om dess resultat ökar täckning identiskt med ett test som grundligt verifierar funktionens beteende över kantfall. Fixen det här ämnet rekommenderar, **mutationstestning**, introducerar medvetet små, artificiella fel i koden och kontrollerar om testsviten faktiskt fångar dem, är det direkta svaret på det här gapet, och det här ämnet behandlar den som täckningens nödvändiga komplement, inte ett valfritt tillägg.
 
-För stora team antas täckningsmål ofta organisationsövergripande som en kvalitetsgrind, exakt den typen av incitamentsbelagt, högt synligt mätetal kapitel 1.2 varnar är mest exponerat för manipulation. Stora företag och myndigheter som sätter ett heltäckande procentkrav utan en parad effektivitetskontroll incitamenterar, i praktiken, exakt det tröskelvärde-manipulationsmönster den här boken beskriver: triviala tester skrivna rent för att nå ett tal, utan motsvarande förbättring i faktisk defektförebyggande.
+För stora team antas täckningsmål ofta organisationsövergripande som en kvalitetsgrind, exakt den typen av incitamentsbelagt, högt synligt mätetal ämne 1.2 varnar är mest exponerat för manipulation. Stora företag och myndigheter som sätter ett heltäckande procentkrav utan en parad effektivitetskontroll incitamenterar, i praktiken, exakt det tröskelvärde-manipulationsmönster den här boken beskriver: triviala tester skrivna rent för att nå ett tal, utan motsvarande förbättring i faktisk defektförebyggande.
 
 ## Nyckelprinciper
 
 - **Täckning mäter exekvering, inte verifiering.** Att en rad körs av ett test säger ingenting om huruvida testet kontrollerade något meningsfullt om den.
-- **Ett täckningsmål utan en effektivitetskontroll är en läroboksuppsättning av Goodharts lag** (kapitel 1.2): talet förbättras medan genuin kvalitet inte gör det.
+- **Ett täckningsmål utan en effektivitetskontroll är en läroboksuppsättning av Goodharts lag** (ämne 1.2): talet förbättras medan genuin kvalitet inte gör det.
 - **Mutationstestning är täckningens nödvändiga komplement**, inte en ersättning; använd båda tillsammans.
 - **Täckning är mer användbar som ett golv än som ett mål att maximera.** Ett lågt tal avslöjar genuint otestad kod; att jaga 100 % producerar ofta avtagande eller negativ avkastning.
 - **Kritiskväg-täckning spelar mer roll än enhetlig, heltäckande täckning.** Inte all kod bär lika risk om den fallerar.
@@ -32,7 +32,7 @@ Inte all kod bär lika risk. En betalningsbehandlingsväg, en autentiseringskont
 
 ### Bevaka de specifika täckningsmanipulationsmönstren
 
-De vanligaste sätten täckning manipuleras, när den väl blir ett mål, inkluderar: tester som anropar en funktion men inte påstår något meningsfullt om resultatet (kapitel 1.2:s tröskelvärdesmanipulation tillämpad på det här mätetalet), att inaktivera eller radera tester som misslyckas snarare än att fixa det underliggande problemet, och att utesluta svårtestad kod från täckningsberäkning helt snarare än att adressera varför den är svår att testa. Granska periodiskt ett urval av tester direkt, läsande deras faktiska påståenden, snarare än att lita på täckningsprocenten ensam.
+De vanligaste sätten täckning manipuleras, när den väl blir ett mål, inkluderar: tester som anropar en funktion men inte påstår något meningsfullt om resultatet (ämne 1.2:s tröskelvärdesmanipulation tillämpad på det här mätetalet), att inaktivera eller radera tester som misslyckas snarare än att fixa det underliggande problemet, och att utesluta svårtestad kod från täckningsberäkning helt snarare än att adressera varför den är svår att testa. Granska periodiskt ett urval av tester direkt, läsande deras faktiska påståenden, snarare än att lita på täckningsprocenten ensam.
 
 ### Sätt ett täckningsgolv, inte ett täckningstak, i er CI-pipeline
 
@@ -69,9 +69,9 @@ Den centrala spänningen är **enkelhet kontra ärlighet**. En enda täckningspr
 
 **Litet företag.** De flesta CI-plattformar rapporterar täckning automatiskt till minimal uppsättningskostnad; använd den primärt för att upptäcka helt otestad kritisk kod snarare än att jaga en specifik målprocentandel, och överväg mutationstestning bara när ni har ingenjörskapaciteten att agera på vad den avslöjar.
 
-**Stort företag.** Heltäckande, organisationsövergripande täckningsmål är ett vanligt och konsekvensrikt misstag på den här skalan, eftersom de incitamenterar exakt den manipulation det här kapitlet beskriver över dussintals team samtidigt. Etablera riskbaserade täckningsförväntningar som varierar efter tjänstekritikalitet, och investera i mutationstestningsinfrastruktur för era högst-risk-system specifikt.
+**Stort företag.** Heltäckande, organisationsövergripande täckningsmål är ett vanligt och konsekvensrikt misstag på den här skalan, eftersom de incitamenterar exakt den manipulation det här ämnet beskriver över dussintals team samtidigt. Etablera riskbaserade täckningsförväntningar som varierar efter tjänstekritikalitet, och investera i mutationstestningsinfrastruktur för era högst-risk-system specifikt.
 
-**Myndighet.** Täckningskrav dyker ibland upp i upphandlings- eller efterlevnadsdokumentation som en trubbig, lätt specificerad representant för kvalitetssäkring. Där möjligt, para varje kontraktuellt krävd täckningsprocent med ett mutationstestnings- eller defektbaserat effektivitetskrav, så det kontraktuella incitamentet inte oavsiktligt belönar exakt den lågvärdiga testutfyllnaden det här kapitlet varnar mot.
+**Myndighet.** Täckningskrav dyker ibland upp i upphandlings- eller efterlevnadsdokumentation som en trubbig, lätt specificerad representant för kvalitetssäkring. Där möjligt, para varje kontraktuellt krävd täckningsprocent med ett mutationstestnings- eller defektbaserat effektivitetskrav, så det kontraktuella incitamentet inte oavsiktligt belönar exakt den lågvärdiga testutfyllnaden det här ämnet varnar mot.
 
 ## Exempel
 
@@ -88,7 +88,7 @@ Den totala ägandekostnaden inkluderar den beräkningsmässiga kostnaden av muta
 ## Antimönster och fallgropar
 
 - **Att behandla täckningsprocent som en direkt kvalitetsdom:** den mäter exekvering, inte verifiering.
-- **Att skriva tester primärt för att tillfredsställa en täckningsgrind:** producerar exakt det lågvärdiga, tröskelvärde-manipulationsmönstret kapitel 1.2 varnar mot.
+- **Att skriva tester primärt för att tillfredsställa en täckningsgrind:** producerar exakt det lågvärdiga, tröskelvärde-manipulationsmönstret ämne 1.2 varnar mot.
 - **Att inaktivera eller radera misslyckande tester istället för att fixa det underliggande problemet:** tar bort verkligt skydd medan det knappt påverkar det rapporterade talet.
 - **Att tillämpa ett enhetligt täckningsmål oavsett kodrisk:** slösar insats på lågrisk-kod och underinvesterar i genuint kritiska vägar.
 - **Att låta en uteslutningslista växa tyst över tid:** döljer verkliga testgap bakom en tekniskt korrekt men missvisande täckningssiffra.

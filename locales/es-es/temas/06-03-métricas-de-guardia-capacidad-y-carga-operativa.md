@@ -2,9 +2,9 @@
 
 ## Visión general y motivación
 
-La fiabilidad que introdujo el capítulo 6.1 y la respuesta a incidencias
-que midió el capítulo 6.2 dependen ambas de un sistema humano que este
-capítulo mide directamente: la rotación de guardia, los ingenieros que
+La fiabilidad que introdujo el tema 6.1 y la respuesta a incidencias
+que midió el tema 6.2 dependen ambas de un sistema humano que este
+tema mide directamente: la rotación de guardia, los ingenieros que
 llevan un buscapersonas y responden cuando algo se rompe, y la capacidad
 de infraestructura que determina cuánta carga puede absorber un sistema
 antes de empezar a romperse en primer lugar. Una organización puede tener
@@ -12,10 +12,10 @@ SLO excelentes, presupuestos de error bien diseñados, y una cultura de incidenc
 guardia mediante una carga insostenible que eventualmente degrada la
 misma fiabilidad que esas otras prácticas se construyeron para proteger.
 
-Este capítulo trata la carga operativa como una familia de métricas por
+Este tema trata la carga operativa como una familia de métricas por
 derecho propio, directamente conectada con la medición de bienestar y
 [agotamiento](https://en.wikipedia.org/wiki/Occupational_burnout) del
-capítulo 3.2 pero específica del estrés particular y agudo de llevar un
+tema 3.2 pero específica del estrés particular y agudo de llevar un
 buscapersonas: el sueño interrumpido, el coste psicológico de estar de
 guardia incluso cuando no ocurre nada, y el peso acumulado de una carga de incidencias frecuente y mal distribuida. Una organización que mide la
 fiabilidad de sus sistemas meticulosamente mientras nunca mide la
@@ -27,12 +27,12 @@ ambas cosas.
 
 Para los equipos grandes, las métricas de guardia y capacidad revelan
 problemas de balanceo de carga que reflejan las preocupaciones de
-concentración de conocimiento del capítulo 3.5: un pequeño número de
+concentración de conocimiento del tema 3.5: un pequeño número de
 ingenieros absorbiendo una proporción desproporcionada de avisos, a menudo
 las personas más experimentadas precisamente porque pueden resolver incidencias más rápido, lo cual crea simultáneamente un riesgo de
 agotamiento y un riesgo de factor de autobús. Las organizaciones
 empresariales y gubernamentales que operan servicios críticos las
-veinticuatro horas dependen de las métricas de este capítulo para dotar
+veinticuatro horas dependen de las métricas de este tema para dotar
 de personal las rotaciones de guardia de manera sostenible en lugar de
 descubrir el coste real solo a través de la rotación de personal.
 
@@ -60,8 +60,8 @@ descubrir el coste real solo a través de la rotación de personal.
 
 Mide cuántos avisos recibe cada ingeniero de guardia individual, no solo
 un promedio de todo el equipo que puede ocultar una concentración severa.
-De manera similar a las preocupaciones de factor de autobús del capítulo
-3.5 y de carga de revisión del capítulo 2.9, la carga de guardia a menudo
+De manera similar a las preocupaciones de factor de autobús del tema
+3.5 y de carga de revisión del tema 2.9, la carga de guardia a menudo
 se concentra en un pequeño número de personas experimentadas que pueden
 resolver incidencias más rápido, precisamente el patrón que crea tanto un
 riesgo de agotamiento como un punto único de fallo peligroso. Rebalancea
@@ -73,7 +73,7 @@ Estar de guardia conlleva un coste real incluso durante un turno con cero
 avisos reales: una calidad de sueño reducida por anticipar una posible
 interrupción, actividades personales restringidas, y el estrés de bajo
 grado de la responsabilidad continua. Cuando sea factible, captura esto
-mediante datos de encuesta (capítulo 3.7) específicamente sobre la
+mediante datos de encuesta (tema 3.7) específicamente sobre la
 experiencia de guardia, separados de la satisfacción general, ya que un
 equipo puede reportar una satisfacción general razonable mientras la
 guardia específicamente está erosionando el bienestar en silencio.
@@ -107,7 +107,7 @@ caso a favor de dotación adicional de personal, mejores herramientas para
 reducir avisos de falso positivo, o inversión arquitectónica para reducir
 la frecuencia genuina de incidencias. Siguiendo la orientación consistente
 de este libro para cualquier métrica que toque a individuos directamente
-(capítulo 1.2, capítulo 3.4), nunca uses los datos individuales de
+(tema 1.2, tema 3.4), nunca uses los datos individuales de
 respuesta a avisos para evaluar el rendimiento de un ingeniero específico;
 el objetivo es la dotación de personal sostenible y el diseño del
 sistema, no llevar la cuenta individual.
@@ -144,7 +144,7 @@ simplemente soportar indefinidamente.
    separado de la satisfacción general?** Si no, debate si una pregunta
    de encuesta corta y dedicada específicamente sobre la experiencia de
    guardia sacaría a la luz algo que tu encuesta de satisfacción general
-   (capítulo 3.2) actualmente está pasando por alto.
+   (tema 3.2) actualmente está pasando por alto.
 
 3. **¿Nuestro calendario de rotación de guardia nominal refleja la
    realidad, o efectivamente depende de solo dos o tres personas debido a
@@ -162,7 +162,7 @@ simplemente soportar indefinidamente.
    manera informal, para evaluar el rendimiento de un individuo en lugar
    de informar decisiones de dotación de personal y arquitectura?** Esto
    arriesga la misma trampa de evaluación individual que advierte el
-   capítulo 3.4 para los datos de actividad, aplicada aquí a la carga
+   tema 3.4 para los datos de actividad, aplicada aquí a la carga
    operativa en su lugar.
 
 6. **¿Qué nos costaría perder a nuestro ingeniero de guardia más avisado
@@ -217,7 +217,7 @@ anterior, tanto porque eran los más rápidos en resolver incidencias
 complejos como porque otros miembros de la rotación habían aprendido a
 deferir informalmente a ellos en lugar de intentar la resolución por sí
 mismos. Ambos ingenieros reportaron síntomas significativos de agotamiento
-en la encuesta de bienestar de la empresa (capítulo 3.2) sin que el
+en la encuesta de bienestar de la empresa (tema 3.2) sin que el
 liderazgo hubiera conectado previamente esa señal de encuesta con los
 datos específicos y cuantificables de concentración de guardia. Un
 esfuerzo de rebalanceo deliberado, incluyendo formación dirigida para

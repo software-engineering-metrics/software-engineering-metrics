@@ -2,9 +2,9 @@
 
 ## Översikt och motivation
 
-**Kommunikation och samarbete**, K:et i SPACE (kapitel 3.1), mäter hur information faktiskt flödar mellan människor och team: hur sökbar dokumentation är, hur jämnt kunskap sprids över ett team, hur väl teamöverskridande beroenden koordineras, och hur väl nya teammedlemmar introduceras i flödet av delad förståelse. Den här dimensionen är ofta den minst instrumenterade av de fem, precis eftersom den är svårare att observera än leveransdata och mindre personlig än nöjdhetsdata, och det gapet är ett misstag, eftersom sammanbrott här ofta är grundorsaken till problem som visar sig, feltillskrivna, i varje annan dimension.
+**Kommunikation och samarbete**, K:et i SPACE (ämne 3.1), mäter hur information faktiskt flödar mellan människor och team: hur sökbar dokumentation är, hur jämnt kunskap sprids över ett team, hur väl teamöverskridande beroenden koordineras, och hur väl nya teammedlemmar introduceras i flödet av delad förståelse. Den här dimensionen är ofta den minst instrumenterade av de fem, precis eftersom den är svårare att observera än leveransdata och mindre personlig än nöjdhetsdata, och det gapet är ett misstag, eftersom sammanbrott här ofta är grundorsaken till problem som visar sig, feltillskrivna, i varje annan dimension.
 
-En stigande ändringsfelfrekvens (kapitel 2.10) som ser ut som ett testproblem är ibland faktiskt ett kommunikationsproblem: ett team som inte visste om en beroendes ändring förrän den gick sönder i produktion. En fallande nöjdhetstrend (kapitel 3.2) som ser ut som ett arbetsbördaproblem är ibland faktiskt ett isoleringsproblem: en ingenjör som tyst har uteslutits från konversationerna där beslut fattas. Det här kapitlets centrala argument är att kommunikation och samarbete förtjänar direkt mätning precis eftersom deras sammanbrott maskerar sig som andra problem, och ett team som jagar fel grundorsak slösar verklig insats på att fixa fel sak.
+En stigande ändringsfelfrekvens (ämne 2.10) som ser ut som ett testproblem är ibland faktiskt ett kommunikationsproblem: ett team som inte visste om en beroendes ändring förrän den gick sönder i produktion. En fallande nöjdhetstrend (ämne 3.2) som ser ut som ett arbetsbördaproblem är ibland faktiskt ett isoleringsproblem: en ingenjör som tyst har uteslutits från konversationerna där beslut fattas. Det här ämnets centrala argument är att kommunikation och samarbete förtjänar direkt mätning precis eftersom deras sammanbrott maskerar sig som andra problem, och ett team som jagar fel grundorsak slösar verklig insats på att fixa fel sak.
 
 För stora team blir den här dimensionen strukturellt svårare att upprätthålla exakt när den blir viktigare. Ett femmannateams koordinering sker genom daglig närhet och behöver nästan ingen medveten mätning; en femhundrapersoners organisation spridd över tidszoner och affärsenheter beror på dokumentation, sökbarhet, och teamöverskridande koordineringsmekanismer som måste medvetet designas och aktivt övervakas, eftersom de informella kanalerna som fungerade i liten skala helt enkelt inte når så långt.
 
@@ -24,11 +24,11 @@ Spåra hur många personer som kompetent kan granska, modifiera, eller driva var
 
 ### Mät teamöverskridande beroendefriktion med en direkt signal
 
-Spåra hur lång tid en teamöverskridande begäran, en nödvändig API-ändring, en delad bibliotekuppdatering, en koordinerad release, tar från att höjas till att lösas, liknande i andan cykeltidsnedbrytningen i kapitel 2.6 men tillämpad specifikt på inter-team-, snarare än intra-team-, koordinering. Ett team som konsekvent väntar veckor på ett beroende ett annat team äger har ett samarbetsproblem som inte kommer visa sig tydligt i vare sig teamets egna interna leveransmätetal.
+Spåra hur lång tid en teamöverskridande begäran, en nödvändig API-ändring, en delad bibliotekuppdatering, en koordinerad release, tar från att höjas till att lösas, liknande i andan cykeltidsnedbrytningen i ämne 2.6 men tillämpad specifikt på inter-team-, snarare än intra-team-, koordinering. Ett team som konsekvent väntar veckor på ett beroende ett annat team äger har ett samarbetsproblem som inte kommer visa sig tydligt i vare sig teamets egna interna leveransmätetal.
 
 ### Använd dokumentationssökbarhet, inte bara dokumentationsexistens, som signalen
 
-En wiki full av föråldrade eller osökbara sidor är inte bevis på god kommunikation bara eftersom innehåll tekniskt existerar någonstans. Där möjligt, spåra hur ofta dokumentation faktiskt nås, hur ofta en ny teammedlem rapporterar att de inte kunde hitta ett svar de behövde, eller hur ofta samma fråga ställs upprepade gånger i en chattkanal eftersom svaret, trots att dokumenterat, inte var sökbart. Det här kopplar direkt dokumentationskvalitet (kapitel 4.6) till den här dimensionens samarbetsangelägenheter.
+En wiki full av föråldrade eller osökbara sidor är inte bevis på god kommunikation bara eftersom innehåll tekniskt existerar någonstans. Där möjligt, spåra hur ofta dokumentation faktiskt nås, hur ofta en ny teammedlem rapporterar att de inte kunde hitta ett svar de behövde, eller hur ofta samma fråga ställs upprepade gånger i en chattkanal eftersom svaret, trots att dokumenterat, inte var sökbart. Det här kopplar direkt dokumentationskvalitet (ämne 4.6) till den här dimensionens samarbetsangelägenheter.
 
 ### Spåra introduktionstid till produktivt bidrag som en direkt representant
 
@@ -69,7 +69,7 @@ Den centrala spänningen är **instrumenteringssvårighet kontra diagnostiskt v�
 
 **Litet företag.** En enkel, periodisk, ärlig konversation, "vem är den enda personen som förstår det här systemet", synliggör ofta de mest kritiska kunskapskoncentrationsriskerna utan att behöva formell instrumentering. Prioritera att dokumentera de två eller tre mest ömtåliga, mest koncentrerade kunskapsområdena först.
 
-**Stort företag.** Teamöverskridande beroendefriktion och kunskapskoncentration skalar båda dåligt här, eftersom fler team betyder mer koordineringsyta och fler kritiska system som kan sluta ägas av en krympande pool av erfarna experter. Investera i instrumenteringen det här kapitlet rekommenderar medvetet, eftersom informell medvetenhet genuint inte kan täcka en organisation på den här skalan.
+**Stort företag.** Teamöverskridande beroendefriktion och kunskapskoncentration skalar båda dåligt här, eftersom fler team betyder mer koordineringsyta och fler kritiska system som kan sluta ägas av en krympande pool av erfarna experter. Investera i instrumenteringen det här ämnet rekommenderar medvetet, eftersom informell medvetenhet genuint inte kan täcka en organisation på den här skalan.
 
 **Myndighet.** Långlivade system och långa anställningstider vanliga i organisationer inom offentlig sektor kan skapa allvarlig bussfaktorrisk gömd bakom skenbar stabilitet, eftersom ett system som inte har bytt händer på ett decennium kan bero helt på en eller två personer nära pension. Behandla kunskapskoncentrationsmätning som en kontinuitet-i-verksamheten-angelägenhet, inte bara en ingenjörsfiness.
 
@@ -89,7 +89,7 @@ Den totala ägandekostnaden är mestadels instrumenteringsinsats, kombinerande v
 
 - **Att hoppa över den här dimensionen eftersom den är svår att instrumentera automatiskt:** lämnar grundorsaker feltillskrivna andra, lättare-att-mäta dimensioner.
 - **Att behandla ett organisationsschema som en korrekt bild av verkliga kommunikationsmönster:** ofta fel, och gapet är exakt där dolda flaskhalsar lever.
-- **Att ignorera bussfaktor tills en kris tvingar fram upptäckten:** det enskilt mest skadliga felmönstret det här kapitlet varnar mot.
+- **Att ignorera bussfaktor tills en kris tvingar fram upptäckten:** det enskilt mest skadliga felmönstret det här ämnet varnar mot.
 - **Att anta att dokumentationsexistens motsvarar dokumentationsanvändbarhet:** föråldrat eller osökbart innehåll ger lite verkligt kommunikationsvärde.
 - **Att mäta teamöverskridande friktion men inte agera på en tydlig, fixbar grundorsak när funnen:** slösar den diagnostiska investeringen.
 - **Att behandla långsam, varierande introduktion som rent en HR-fråga snarare än en ingenjörssamarbetssignal:** missar en genuint användbar, mätbar representant.

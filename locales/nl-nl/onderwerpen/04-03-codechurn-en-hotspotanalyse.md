@@ -2,7 +2,7 @@
 
 ## Overzicht en motivatie
 
-**Codechurn** meet hoe frequent een bestand of module verandert over tijd, regels toegevoegd, gewijzigd, en verwijderd over opeenvolgende commits. Op zichzelf is churn een redelijk zwak signaal: sommige bestanden veranderen vaak omdat ze onder actieve, gezonde ontwikkeling zijn, en sommige veranderen zelden omdat ze stabiel en correct zijn, niet omdat ze verwaarloosd worden. De echte diagnostische kracht van de aanpak van dit hoofdstuk komt van churn combineren met complexiteit (hoofdstuk 4.1): een bestand dat zowel frequent gewijzigd als sterk complex is, een **hotspot**, is disproportioneel waarschijnlijk een bron van defecten en een sleur op teamsnelheid, en empirisch onderzoek bevestigt dit consistent over veel codebases en organisaties.
+**Codechurn** meet hoe frequent een bestand of module verandert over tijd, regels toegevoegd, gewijzigd, en verwijderd over opeenvolgende commits. Op zichzelf is churn een redelijk zwak signaal: sommige bestanden veranderen vaak omdat ze onder actieve, gezonde ontwikkeling zijn, en sommige veranderen zelden omdat ze stabiel en correct zijn, niet omdat ze verwaarloosd worden. De echte diagnostische kracht van de aanpak van dit onderwerp komt van churn combineren met complexiteit (onderwerp 4.1): een bestand dat zowel frequent gewijzigd als sterk complex is, een **hotspot**, is disproportioneel waarschijnlijk een bron van defecten en een sleur op teamsnelheid, en empirisch onderzoek bevestigt dit consistent over veel codebases en organisaties.
 
 **Hotspotanalyse**, gepopulariseerd door Adam Tornhills werk aan softwareanalytics, is specifiek waardevol omdat het geen handmatige enquête of subjectief oordeel vereist om zijn doelen te vinden. **[Versiebeheer](https://en.wikipedia.org/wiki/Version_control)**-geschiedenis bevat al alles nodig om zowel churn als, gecombineerd met statische-analyse-tooling, complexiteit te berekenen, voor elk bestand in een codebase automatisch. Dit laat een team of organisatie identificeren, met echt bewijs in plaats van anekdote of de luidste klacht in een retrospectief, precies welke kleine fractie van de codebase refactoringaandacht het eerst verdient.
 
@@ -20,15 +20,15 @@ Voor grote teams lost hotspotanalyse een echt toewijzingsprobleem op: een codeba
 
 ### Berekenen churn en complexiteit samen, en rangschik op hun combinatie
 
-Extraheer wijzigingsfrequentie per bestand uit versiebeheergeschiedenis over een betekenisvol venster, meestal zes maanden tot een jaar, en koppel het met een complexiteitsmaat (hoofdstuk 4.1) voor dezelfde bestanden. Rangschik bestanden op de combinatie, meestal het product van churn en complexiteit, in plaats van op enige metriek alleen, omdat deze combinatie is wat het onderliggende onderzoek consistent associeert met verhoogde defecttempo's en onderhoudskost.
+Extraheer wijzigingsfrequentie per bestand uit versiebeheergeschiedenis over een betekenisvol venster, meestal zes maanden tot een jaar, en koppel het met een complexiteitsmaat (onderwerp 4.1) voor dezelfde bestanden. Rangschik bestanden op de combinatie, meestal het product van churn en complexiteit, in plaats van op enige metriek alleen, omdat deze combinatie is wat het onderliggende onderzoek consistent associeert met verhoogde defecttempo's en onderhoudskost.
 
 ### Onderzoek de top-hotspots met menselijk oordeel voordat je handelt
 
-Een gerangschikte hotspotlijst identificeert kandidaten voor aandacht, geen automatische actielijst. Voor elk van je top-hotspots, onderzoek met een menselijk oog: is dit echt slecht ontworpen code die refactoring nodig heeft, of is het een bestand dat legitiem frequente verandering nodig heeft omdat het in het centrum zit van actieve, evoluerende bedrijfslogica, in welk geval de prioriteit beter betere tests of duidelijkere documentatie zou kunnen zijn in plaats van een structurele herschrijving. Dit weerspiegelt het essentieel-versus-incidenteel-complexiteitsonderscheid van hoofdstuk 4.1, hier toegepast op het gecombineerde churn-complexiteitssignaal.
+Een gerangschikte hotspotlijst identificeert kandidaten voor aandacht, geen automatische actielijst. Voor elk van je top-hotspots, onderzoek met een menselijk oog: is dit echt slecht ontworpen code die refactoring nodig heeft, of is het een bestand dat legitiem frequente verandering nodig heeft omdat het in het centrum zit van actieve, evoluerende bedrijfslogica, in welk geval de prioriteit beter betere tests of duidelijkere documentatie zou kunnen zijn in plaats van een structurele herschrijving. Dit weerspiegelt het essentieel-versus-incidenteel-complexiteitsonderscheid van onderwerp 4.1, hier toegepast op het gecombineerde churn-complexiteitssignaal.
 
 ### Cross-refereer hotspots tegen incident- en defectdata
 
-Waar beschikbaar, check of je geïdentificeerde hotspots correleren met daadwerkelijke productie-incidenten (hoofdstuk 6.2) of ontsnapte-defectdata (hoofdstuk 5.1). Een sterke correlatie valideert de hotspotanalyse als echt voorspellend voor je specifieke codebase en versterkt de zakelijke zaak om erop te handelen; een zwakke of afwezige correlatie suggereert ofwel een datakwaliteitsprobleem of dat churn en complexiteit niet, in jouw specifieke context, de juiste combinatie van signalen zijn om op te prioriteren.
+Waar beschikbaar, check of je geïdentificeerde hotspots correleren met daadwerkelijke productie-incidenten (onderwerp 6.2) of ontsnapte-defectdata (onderwerp 5.1). Een sterke correlatie valideert de hotspotanalyse als echt voorspellend voor je specifieke codebase en versterkt de zakelijke zaak om erop te handelen; een zwakke of afwezige correlatie suggereert ofwel een datakwaliteitsprobleem of dat churn en complexiteit niet, in jouw specifieke context, de juiste combinatie van signalen zijn om op te prioriteren.
 
 ### Volg hotspottrend over opeenvolgende analyses, niet alleen een enkele momentopname
 
@@ -83,7 +83,7 @@ De centrale spanning is **bewijs versus context**. Hotspotanalyse levert objecti
 
 Het rendement van hotspotanalyse is gerichte, bewijs-gebaseerde investering: beide voorbeelden hierboven tonen een geval waar formele analyse refactoringaandacht wegstuurde van waar informele klacht het gericht had en richting waar de data daadwerkelijk toonde dat het probleem leefde, een meetbaar beter rendement producerend dan een ongericht of intuïtie-gedreven investering zou hebben gedaan.
 
-De totale eigendomskosten zijn laag, omdat churndata direct komt van bestaande versiebeheergeschiedenis en complexiteitsdata meestal al beschikbaar is van statische-analysetooling (hoofdstuk 4.4); de belangrijkste investering is de periodieke analyse-inspanning en de menselijke-oordeel-tijd om resultaten te interpreteren en te beslissen welke actie elke geïdentificeerde hotspot rechtvaardigt.
+De totale eigendomskosten zijn laag, omdat churndata direct komt van bestaande versiebeheergeschiedenis en complexiteitsdata meestal al beschikbaar is van statische-analysetooling (onderwerp 4.4); de belangrijkste investering is de periodieke analyse-inspanning en de menselijke-oordeel-tijd om resultaten te interpreteren en te beslissen welke actie elke geïdentificeerde hotspot rechtvaardigt.
 
 ## Antipatronen en valkuilen
 

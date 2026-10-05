@@ -2,9 +2,9 @@
 
 ## Überblick und Motivation
 
-**[Statische Analyse](https://en.wikipedia.org/wiki/Static_program_analysis)**-Werkzeuge scannen Quellcode, ohne ihn auszuführen, und kennzeichnen Muster, die bekanntermaßen mit Fehlern, Sicherheitslücken oder Wartbarkeitsproblemen korrelieren: unerreichbaren Code, nicht geschlossene Ressourcen, verdächtige Typumwandlungen, duplizierte Logik, und die breitere Kategorie der **Code-Smells**, strukturelle Muster, die nicht notwendigerweise Fehler sind, aber dazu neigen, Code schwerer verständlich, testbar oder sicher änderbar zu machen. Statische Analyse ist die automatisierte, kontinuierliche Schicht unter den gezielteren Metriken in den anderen Kapiteln dieses Teils, die bei jedem Commit läuft und Probleme in dem Moment sichtbar macht, in dem sie eingeführt werden, statt auf ein periodisches Audit zu warten.
+**[Statische Analyse](https://en.wikipedia.org/wiki/Static_program_analysis)**-Werkzeuge scannen Quellcode, ohne ihn auszuführen, und kennzeichnen Muster, die bekanntermaßen mit Fehlern, Sicherheitslücken oder Wartbarkeitsproblemen korrelieren: unerreichbaren Code, nicht geschlossene Ressourcen, verdächtige Typumwandlungen, duplizierte Logik, und die breitere Kategorie der **Code-Smells**, strukturelle Muster, die nicht notwendigerweise Fehler sind, aber dazu neigen, Code schwerer verständlich, testbar oder sicher änderbar zu machen. Statische Analyse ist die automatisierte, kontinuierliche Schicht unter den gezielteren Metriken in den anderen Themen dieses Teils, die bei jedem Commit läuft und Probleme in dem Moment sichtbar macht, in dem sie eingeführt werden, statt auf ein periodisches Audit zu warten.
 
-Das zentrale Anliegen dieses Kapitels ist die Lücke zwischen dem, was statische Analysewerkzeuge berichten, und dem, was tatsächlich zählt. Ein Werkzeug kann Tausende Befunde über eine große Codebasis hinweg kennzeichnen, und die Anzahl der Befunde allein ist eine schlechte Metrik, da sie triviale Stilpräferenzen mit echtem, schwerwiegendem Risiko vermischt, und sie kann durch Unterdrückung ebenso leicht heruntergedrückt werden wie durch echte Korrekturen. Der Wert statischer Analyse kommt nicht aus der rohen Befundzahl, sondern daraus, wie gut eine Organisation Schweregrad triagiert, Rückschritt verhindert, und der Versuchung widersteht, das Urteil des Werkzeugs als Ersatz für menschlichen Review zu behandeln, statt als dessen Ergänzung.
+Das zentrale Anliegen dieses Themas ist die Lücke zwischen dem, was statische Analysewerkzeuge berichten, und dem, was tatsächlich zählt. Ein Werkzeug kann Tausende Befunde über eine große Codebasis hinweg kennzeichnen, und die Anzahl der Befunde allein ist eine schlechte Metrik, da sie triviale Stilpräferenzen mit echtem, schwerwiegendem Risiko vermischt, und sie kann durch Unterdrückung ebenso leicht heruntergedrückt werden wie durch echte Korrekturen. Der Wert statischer Analyse kommt nicht aus der rohen Befundzahl, sondern daraus, wie gut eine Organisation Schweregrad triagiert, Rückschritt verhindert, und der Versuchung widersteht, das Urteil des Werkzeugs als Ersatz für menschlichen Review zu behandeln, statt als dessen Ergänzung.
 
 Für große Teams ist statische Analyse der einzige praktische Weg, eine Grundlinie an Code-Qualität und Sicherheitshygiene über eine Codebasis hinweg durchzusetzen, die größer ist, als ein Team sie manuell vollständig überprüfen könnte. Konzerne und Behörden, die oft Compliance-Anforderungen zu sicheren Programmierpraktiken gegenüberstehen, verlassen sich auf statische Analyse als dokumentierte, auditierbare Evidenz, dass ein Grundlinien-Niveau an Prüfung konsistent angewandt wurde, nicht nur, wenn eine menschliche Prüferin oder ein menschlicher Prüfer zufällig ein Problem bemerkte.
 
@@ -24,7 +24,7 @@ Das statische Analyse-Tooling sollte konfiguriert werden, um Befunde nach Schwer
 
 ### Auf neu eingeführte Befunde gaten, nicht auf den gesamten historischen Rückstand
 
-Die meisten etablierten Codebasen tragen einen Altbestand-Rückstand an Befunden, die vor der aktuellen Praxis liegen und unerschwinglich teuer wären, alle auf einmal zu beheben. Statt alle Arbeit zu blockieren, bis der gesamte Rückstand geklärt ist, sollte CI darauf gegatet werden, ob eine bestimmte Änderung neue Befunde über einer vereinbarten Schweregradschwelle einführt, und den Rückstand durch normale Wartung graduell schrumpfen lassen, während weitere Akkumulation verhindert wird. Diese Unterscheidung spiegelt die Abdeckungs-Untergrenzen-Empfehlung aus Kapitel 4.2: Schutz gegen Rückschritt statt eine unrealistische Alles-auf-einmal-Korrektur zu verlangen.
+Die meisten etablierten Codebasen tragen einen Altbestand-Rückstand an Befunden, die vor der aktuellen Praxis liegen und unerschwinglich teuer wären, alle auf einmal zu beheben. Statt alle Arbeit zu blockieren, bis der gesamte Rückstand geklärt ist, sollte CI darauf gegatet werden, ob eine bestimmte Änderung neue Befunde über einer vereinbarten Schweregradschwelle einführt, und den Rückstand durch normale Wartung graduell schrumpfen lassen, während weitere Akkumulation verhindert wird. Diese Unterscheidung spiegelt die Abdeckungs-Untergrenzen-Empfehlung aus Thema 4.2: Schutz gegen Rückschritt statt eine unrealistische Alles-auf-einmal-Korrektur zu verlangen.
 
 ### Die Falsch-Positiv-Rate aktiv verwalten
 
@@ -36,7 +36,7 @@ Selbst ein legitimer, nicht-falsch-positiver Befund rechtfertigt nicht immer ein
 
 ### Statische Analyse mit den anderen Code-Qualitätsmetriken dieses Teils kombinieren
 
-Statische-Analyse-Befunde, Komplexitätswerte (Kapitel 4.1), und Hotspot-Daten (Kapitel 4.3) sind ergänzende Evidenz, keine konkurrierenden Metriken. Eine Datei mit einer hohen Konzentration ungelöster statischer Analyse-Befunde, die auch ein Fluktuations-Komplexitäts-Hotspot ist, ist ein besonders starker Kandidat für priorisierte Aufmerksamkeit, da mehrere unabhängige Signale zur selben Schlussfolgerung konvergieren.
+Statische-Analyse-Befunde, Komplexitätswerte (Thema 4.1), und Hotspot-Daten (Thema 4.3) sind ergänzende Evidenz, keine konkurrierenden Metriken. Eine Datei mit einer hohen Konzentration ungelöster statischer Analyse-Befunde, die auch ein Fluktuations-Komplexitäts-Hotspot ist, ist ein besonders starker Kandidat für priorisierte Aufmerksamkeit, da mehrere unabhängige Signale zur selben Schlussfolgerung konvergieren.
 
 ## Abwägungen: Vor- und Nachteile
 
@@ -47,7 +47,7 @@ Statische-Analyse-Befunde, Komplexitätswerte (Kapitel 4.1), und Hotspot-Daten (
 | Gate auf den gesamten historischen Rückstand | Maximiert schlussendliche Code-Sauberkeit | Oft unpraktisch für etablierte Codebasen; kann alle Arbeit stoppen |
 | Gate nur auf neue Befunde | Praktisch, verhindert Rückschritt, lässt den Rückstand graduell schrumpfen | Altbestandsprobleme bestehen länger fort ohne bewussten Behebungsplan |
 
-Die zentrale Spannung ist **Gründlichkeit gegen Praktikabilität**. Eine statische-Analyse-Richtlinie, die verlangt, dass der gesamte historische Rückstand gelöst wird, bevor neue Arbeit fortschreitet, ist gründlich, aber meist unpraktisch für jede Codebasis mit echter Geschichte, und Teams unter diesem Druck neigen dazu, Befunde pauschal zu unterdrücken, statt sie echt zu beheben. Die Spannung sollte gelöst werden, indem strikt auf neue Befunde gegatet wird, während ein separater, bewusst getakteter Behebungsaufwand gegen den Altbestand-Rückstand läuft, priorisiert mit den Schweregrad- und Kreuzreferenzierungstechniken, die dieses Kapitel und Kapitel 4.3 empfehlen.
+Die zentrale Spannung ist **Gründlichkeit gegen Praktikabilität**. Eine statische-Analyse-Richtlinie, die verlangt, dass der gesamte historische Rückstand gelöst wird, bevor neue Arbeit fortschreitet, ist gründlich, aber meist unpraktisch für jede Codebasis mit echter Geschichte, und Teams unter diesem Druck neigen dazu, Befunde pauschal zu unterdrücken, statt sie echt zu beheben. Die Spannung sollte gelöst werden, indem strikt auf neue Befunde gegatet wird, während ein separater, bewusst getakteter Behebungsaufwand gegen den Altbestand-Rückstand läuft, priorisiert mit den Schweregrad- und Kreuzreferenzierungstechniken, die dieses Thema und Thema 4.3 empfehlen.
 
 ## Fragen für die Diskussion im Team
 
@@ -116,7 +116,7 @@ Die Gesamtbetriebskosten umfassen das Tooling selbst, oft kostenlos oder günsti
 - CI sollte auf **neu eingeführte Befunde** gegatet werden, nicht den gesamten historischen Rückstand, um Rückschritt zu verhindern, ohne eine unpraktische Alles-auf-einmal-Korrektur zu verlangen.
 - Die **Falsch-Positiv-Rate** sollte aktiv verwaltet werden; unverwaltetes Rauschen zerstört Vertrauen ins Werkzeug und führt dazu, dass Befunde pauschal ignoriert werden.
 - Befunde sollten als **Anlass für menschlichen Review** behandelt werden, mit sichtbaren, dokumentierten Erlassen, nicht als automatisches Urteil oder stille Unterdrückung.
-- Statische Analyse sollte mit **Komplexitäts- und Hotspot-Daten** (Kapitel 4.1, 4.3) kreuzreferenziert werden für konvergente, stärkere Priorisierungsevidenz.
+- Statische Analyse sollte mit **Komplexitäts- und Hotspot-Daten** (Themen 4.1, 4.3) kreuzreferenziert werden für konvergente, stärkere Priorisierungsevidenz.
 
 ## Quellen und weiterführende Literatur
 

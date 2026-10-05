@@ -4,9 +4,9 @@
 
 A **eficiência de fluxo** é o rácio entre o tempo ativo e o tempo total para uma peça de trabalho: se uma mudança passa dez horas ativamente a ser codificada, revista, e testada, mas fica inativa em filas noventa horas no total ao longo de toda a sua jornada, a eficiência de fluxo é 10%. A maioria dos pipelines de entrega de software, medidos honestamente, situa-se algures entre 10% e 25% de eficiência de fluxo, o que surpreende as pessoas que esperam que o esforço domine. O custo dominante na maioria dos sistemas de entrega não é quanto tempo o trabalho demora a fazer, é quanto tempo o trabalho espera para começar.
 
-O **[trabalho em curso](https://en.wikipedia.org/wiki/Work_in_process)** (WIP) é a contagem de itens ativamente a serem trabalhados em qualquer momento, através de uma equipa ou de um sistema, a mesma quantidade a que o capítulo 2.4 chama "carga de fluxo". A descoberta contraintuitiva por trás deste capítulo, apoiada por décadas de investigação em gestão de operações e formalizada para a entrega de software através do kanban e da teoria das filas, é que limitar o WIP tende a *aumentar* o rendimento, não a diminuí-lo, porque menos trabalho em voo de uma vez significa menos mudança de contexto, filas mais curtas, e conclusão mais rápida por item, mesmo que pareça que fazer menos trabalho simultaneamente deveria produzir menos output no total.
+O **[trabalho em curso](https://en.wikipedia.org/wiki/Work_in_process)** (WIP) é a contagem de itens ativamente a serem trabalhados em qualquer momento, através de uma equipa ou de um sistema, a mesma quantidade a que o tema 2.4 chama "carga de fluxo". A descoberta contraintuitiva por trás deste tema, apoiada por décadas de investigação em gestão de operações e formalizada para a entrega de software através do kanban e da teoria das filas, é que limitar o WIP tende a *aumentar* o rendimento, não a diminuí-lo, porque menos trabalho em voo de uma vez significa menos mudança de contexto, filas mais curtas, e conclusão mais rápida por item, mesmo que pareça que fazer menos trabalho simultaneamente deveria produzir menos output no total.
 
-Para equipas grandes, compreender a eficiência de fluxo reformula quase todo o problema de entrega de "as pessoas precisam de trabalhar mais depressa" para "o trabalho precisa de esperar menos." Essa reformulação importa porque a primeira formulação convida a pressão sobre indivíduos, precisamente a armadilha contra a qual o capítulo 2.6 avisa, enquanto a segunda convida à investigação sobre a estrutura de filas, a capacidade de revisão, e quanto trabalho é iniciado simultaneamente, que é onde a melhoria real e sustentável normalmente vive. As organizações empresariais a gerir muitas iniciativas concorrentes através de equipas partilhadas são especialmente propensas a WIP alto e baixa eficiência de fluxo, porque começar novo trabalho sempre parece progresso mesmo quando está silenciosamente a abrandar tudo o que já está em voo.
+Para equipas grandes, compreender a eficiência de fluxo reformula quase todo o problema de entrega de "as pessoas precisam de trabalhar mais depressa" para "o trabalho precisa de esperar menos." Essa reformulação importa porque a primeira formulação convida a pressão sobre indivíduos, precisamente a armadilha contra a qual o tema 2.6 avisa, enquanto a segunda convida à investigação sobre a estrutura de filas, a capacidade de revisão, e quanto trabalho é iniciado simultaneamente, que é onde a melhoria real e sustentável normalmente vive. As organizações empresariais a gerir muitas iniciativas concorrentes através de equipas partilhadas são especialmente propensas a WIP alto e baixa eficiência de fluxo, porque começar novo trabalho sempre parece progresso mesmo quando está silenciosamente a abrandar tudo o que já está em voo.
 
 ## Princípios-chave
 
@@ -20,7 +20,7 @@ Para equipas grandes, compreender a eficiência de fluxo reformula quase todo o 
 
 ### Medir a eficiência de fluxo antes de assumir que o esforço é o estrangulamento
 
-Calcule o rácio entre o tempo ativo e o tempo total decorrido para uma amostra representativa de mudanças recentes, usando os dados de fase de tempo de ciclo do capítulo 2.6. A maioria das equipas que mede isto pela primeira vez fica surpreendida com quão baixo é o número, e essa surpresa é em si valiosa: redireciona a atenção de "trabalhar mais" para "reduzir o enfileiramento," que é quase sempre a alavanca mais produtiva.
+Calcule o rácio entre o tempo ativo e o tempo total decorrido para uma amostra representativa de mudanças recentes, usando os dados de fase de tempo de ciclo do tema 2.6. A maioria das equipas que mede isto pela primeira vez fica surpreendida com quão baixo é o número, e essa surpresa é em si valiosa: redireciona a atenção de "trabalhar mais" para "reduzir o enfileiramento," que é quase sempre a alavanca mais produtiva.
 
 ### Definir um limite explícito de trabalho em curso e aplicá-lo visivelmente
 
@@ -51,7 +51,7 @@ A tensão central é **flexibilidade versus fluxo**. Começar novo trabalho semp
 
 ## Perguntas para debater com a sua equipa
 
-1. **Qual é a nossa eficiência de fluxo real, medida a partir de dados reais de tempo de ciclo, e esse número surpreende-nos?** A maioria das equipas nunca calculou isto e assume que é muito mais alto do que realmente é. Extraia uma amostra de mudanças recentes e calcule o rácio honestamente antes de discutir qualquer outra coisa neste capítulo.
+1. **Qual é a nossa eficiência de fluxo real, medida a partir de dados reais de tempo de ciclo, e esse número surpreende-nos?** A maioria das equipas nunca calculou isto e assume que é muito mais alto do que realmente é. Extraia uma amostra de mudanças recentes e calcule o rácio honestamente antes de discutir qualquer outra coisa neste tema.
 
 2. **Quanto trabalho em curso temos realmente agora mesmo, em toda a equipa, e alguém sabia esse número antes de contar?** O WIP alto é muitas vezes invisível até ser medido explicitamente, porque cada indivíduo só vê a sua própria fatia dele. Conte tudo o que está atualmente em progresso, incluindo trabalho em que ninguém está ativamente a tocar hoje.
 
@@ -117,7 +117,7 @@ O custo total de adotar esta disciplina é maioritariamente organizacional, não
 - Aplique um **limite de WIP como restrição de sistema**, nunca como quota individual.
 - Investigue a **razão específica** pela qual o trabalho fica inativo em vez de emitir uma diretiva genérica de "reduzir o tempo de espera".
 - Vigie os limites de WIP a **erodir através de exceções rotineiras**; trate toda a exceção como uma decisão deliberada e visível.
-- O capítulo 2.4 chama a esta quantidade **carga de fluxo** e o capítulo 2.7 formaliza a relação como a lei de Little: o trabalho em curso é igual à taxa de chegada vezes o tempo de ciclo, para qualquer fila estável.
+- O tema 2.4 chama a esta quantidade **carga de fluxo** e o tema 2.7 formaliza a relação como a lei de Little: o trabalho em curso é igual à taxa de chegada vezes o tempo de ciclo, para qualquer fila estável.
 
 ## Referências e leituras adicionais
 

@@ -1,17 +1,17 @@
 # 9.5 Hunanasesiad aeddfedrwydd
 
-Mae pob pennod yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 Cychwyn, 2 Datblygu, 3 Safoni, 4 Rheoli, 5 Cyd-drefnu. Mae'r atodiad hwn yn eu cyfuno'n un matrics ar gyfer hunanasesiad sefydliadol. Sgoriwch bob pennod yn onest, gan ddefnyddio tystiolaeth bendant, nid dyhead. Gweler pennod 8.4 am y model rhaglen groestoriadol, pum dimensiwn y mae'r matrics pennod-wrth-bennod hwn yn ei ategu, a chofiwch mai'r lleiafswm ar draws dimensiynau, nid y cyfartaledd, yw aeddfedrwydd rhaglen.
+Mae pob pwnc yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 Cychwyn, 2 Datblygu, 3 Safoni, 4 Rheoli, 5 Cyd-drefnu. Mae'r atodiad hwn yn eu cyfuno'n un matrics ar gyfer hunanasesiad sefydliadol. Sgoriwch bob pwnc yn onest, gan ddefnyddio tystiolaeth bendant, nid dyhead. Gweler pwnc 8.4 am y model rhaglen groestoriadol, pum dimensiwn y mae'r matrics pwnc-wrth-bwnc hwn yn ei ategu, a chofiwch mai'r lleiafswm ar draws dimensiynau, nid y cyfartaledd, yw aeddfedrwydd rhaglen.
 
 ## Sut i ddefnyddio'r matrics hwn
 
-1. Ar gyfer pob pennod, darllenwch ei fodel aeddfedrwydd ei hun (y bennod yw'r ffynhonnell awdurdodol; mynegai crynodeb yw'r tabl hwn).
+1. Ar gyfer pob pwnc, darllenwch ei fodel aeddfedrwydd ei hun (y pwnc yw'r ffynhonnell awdurdodol; mynegai crynodeb yw'r tabl hwn).
 2. Sgoriwch eich sefydliad 1 i 5 yn erbyn tystiolaeth bendant, nid bwriad.
-3. Peidiwch â chyfartaleddu ar draws penodau o fewn rhan; mae pob pennod yn mesur gallu gwahanol.
-4. Bwydwch sgorau isel i mewn i fap llwybr mabwysiadu pennod 8.5 fel blaenoriaethau buddsoddi, nid fel dyfarniad i deimlo'n wael amdano (pennod 1.1).
+3. Peidiwch â chyfartaleddu ar draws pynciau o fewn rhan; mae pob pwnc yn mesur gallu gwahanol.
+4. Bwydwch sgorau isel i mewn i fap llwybr mabwysiadu pwnc 8.5 fel blaenoriaethau buddsoddi, nid fel dyfarniad i deimlo'n wael amdano (pwnc 1.1).
 
 ## Rhan 1: Sylfeini Mesur
 
-| Pennod | Gallu | Eich sgôr (1-5) |
+| Pwnc | Gallu | Eich sgôr (1-5) |
 | --- | --- | --- |
 | 1.1 | Mesur i wybodaethu penderfyniadau, nid i farnu | |
 | 1.2 | Disgyblaeth paru rheiliau diogelwch yn erbyn deddf Goodhart | |
@@ -22,7 +22,7 @@ Mae pob pennod yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 
 
 ## Rhan 2: Metrigau Llif
 
-| Pennod | Gallu | Eich sgôr (1-5) |
+| Pwnc | Gallu | Eich sgôr (1-5) |
 | --- | --- | --- |
 | 2.1 | Mabwysiadu Fframwaith Llif, ffrwd werth wedi'i mapio'n onest | |
 | 2.2 | Dosbarthiad eitem llif, cyson ac ar amser derbyn | |
@@ -37,7 +37,7 @@ Mae pob pennod yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 
 
 ## Rhan 3: Profiad Datblygwyr a Fframwaith SPACE
 
-| Pennod | Gallu | Eich sgôr (1-5) |
+| Pwnc | Gallu | Eich sgôr (1-5) |
 | --- | --- | --- |
 | 3.1 | Mabwysiadu SPACE cytbwys, aml-ddimensiwn | |
 | 3.2 | Mesur boddhad a lles | |
@@ -49,7 +49,7 @@ Mae pob pennod yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 
 
 ## Rhan 4: Metrigau Cod ac Ansawdd
 
-| Pennod | Gallu | Eich sgôr (1-5) |
+| Pwnc | Gallu | Eich sgôr (1-5) |
 | --- | --- | --- |
 | 4.1 | Metrigau cymhlethdod wedi'u defnyddio ar gyfer trioli, nid barnu | |
 | 4.2 | Trosiad wedi'i baru â phrofi treiglo | |
@@ -60,7 +60,7 @@ Mae pob pennod yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 
 
 ## Rhan 5: Metrigau Cynnyrch a Busnes
 
-| Pennod | Gallu | Eich sgôr (1-5) |
+| Pwnc | Gallu | Eich sgôr (1-5) |
 | --- | --- | --- |
 | 5.1 | Tracio diffygion dianc wedi'u pwysoli yn ôl difrifoldeb | |
 | 5.2 | Mabwysiadu wedi'i fesur fel treial ynghyd â chadw | |
@@ -70,7 +70,7 @@ Mae pob pennod yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 
 
 ## Rhan 6: Metrigau Dibynadwyedd, Gweithrediadau, a Diogelwch
 
-| Pennod | Gallu | Eich sgôr (1-5) |
+| Pwnc | Gallu | Eich sgôr (1-5) |
 | --- | --- | --- |
 | 6.1 | SLOs seiliedig ar dystiolaeth a chyllidebau gwall y gellir eu gwario | |
 | 6.2 | Metrigau digwyddiad anghosbol, wedi'u dadelfennu'n gamau | |
@@ -79,7 +79,7 @@ Mae pob pennod yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 
 
 ## Rhan 7: Metrigau yn Oes AI
 
-| Pennod | Gallu | Eich sgôr (1-5) |
+| Pwnc | Gallu | Eich sgôr (1-5) |
 | --- | --- | --- |
 | 7.1 | Cynhaliwyd archwiliad dilysrwydd metrig oes AI | |
 | 7.2 | Mesur datblygu â chymorth AI seiliedig ar dystiolaeth | |
@@ -88,7 +88,7 @@ Mae pob pennod yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 
 
 ## Rhan 8: Adeiladu Rhaglen Fetrigau
 
-| Pennod | Gallu | Eich sgôr (1-5) |
+| Pwnc | Gallu | Eich sgôr (1-5) |
 | --- | --- | --- |
 | 8.1 | Dangosfyrddau penodol i gynulleidfa, wedi'u dylunio'n onest | |
 | 8.2 | Strategaeth offer adeiladu-yn-erbyn-prynu fwriadus, hybrid | |
@@ -96,7 +96,7 @@ Mae pob pennod yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 
 | 8.4 | Hunanasesiad aeddfedrwydd rhaglen groestoriadol | |
 | 8.5 | Map llwybr mabwysiadu graddol, sylfeini-yn-gyntaf | |
 
-## Dimensiynau rhaglen groestoriadol (pennod 8.4)
+## Dimensiynau rhaglen groestoriadol (pwnc 8.4)
 
 | Dimensiwn | Eich sgôr (1-5) |
 | --- | --- |

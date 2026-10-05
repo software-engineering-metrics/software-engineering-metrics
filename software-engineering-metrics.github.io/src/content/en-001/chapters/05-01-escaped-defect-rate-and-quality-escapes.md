@@ -14,13 +14,13 @@ rate despite strong internal quality metrics (complexity, coverage, static
 analysis) usually means those internal signals are not actually catching
 the failure modes that matter to real users.
 
-This chapter treats escaped defects with the seriousness their cost
+This topic treats escaped defects with the seriousness their cost
 deserves while resisting the temptation to treat the raw count as a simple
 scoreboard. Not all defects are equal: a typo in rarely viewed help text and
 a data-corruption bug in a financial transaction system are both, technically,
 escaped defects, and treating them identically produces a metric that is
 either too noisy to act on or, worse, actively misleading about where the
-real risk lives. This chapter's core recommendation, severity-weighted
+real risk lives. This topic's core recommendation, severity-weighted
 tracking with careful attention to how defects get classified, is aimed
 directly at that problem.
 
@@ -43,7 +43,7 @@ engineering statistic.
 - **Classification consistency is essential.** Two teams classifying
   severity differently produce numbers that cannot be fairly compared.
 - **This metric is exposed to definition gaming**, exactly like change
-  failure rate (chapter 2.10): narrowing what counts as a "defect" flatters
+  failure rate (topic 2.10): narrowing what counts as a "defect" flatters
   the number without reducing real customer harm.
 - **Root-cause categorization turns a count into a diagnostic tool.**
   Knowing *why* defects escape is more actionable than knowing only how
@@ -68,7 +68,7 @@ Different teams left to classify severity independently will drift toward
 different standards, some conservative, some lenient, making cross-team
 comparison meaningless and, worse, creating an incentive to classify
 generously downward to keep a team's own numbers looking better (a variant
-of chapter 1.2's definition gaming). Publish clear, example-based
+of topic 1.2's definition gaming). Publish clear, example-based
 classification criteria, and periodically audit a sample of classifications
 across teams to check for consistency.
 
@@ -87,9 +87,9 @@ signals
 
 Where possible, trace an escaped defect back to the code area it came from
 and check whether that area showed warning signs in Part 4's metrics:
-was it a complexity hotspot (chapter 4.1, chapter 4.3), did it have a low
-mutation-kill rate (chapter 4.2), did static analysis flag anything nearby
-(chapter 4.4). This connection is what validates whether your internal
+was it a complexity hotspot (topic 4.1, topic 4.3), did it have a low
+mutation-kill rate (topic 4.2), did static analysis flag anything nearby
+(topic 4.4). This connection is what validates whether your internal
 quality metrics are actually predictive of real customer-facing defects, or
 whether they are measuring something that does not, in your specific
 context, correlate with what customers actually experience.
@@ -97,11 +97,11 @@ context, correlate with what customers actually experience.
 ### Guard against defect classification becoming a blame exercise
 
 Frame defect root-cause analysis explicitly as a systems question, per
-chapter 1.1's diagnostic framing, not an individual-blame exercise. A team
+topic 1.1's diagnostic framing, not an individual-blame exercise. A team
 that fears blame for an escaped defect has a strong incentive to
 under-report, misclassify downward, or resist thorough root-cause analysis,
-all of which corrupt the very data this chapter depends on. Blameless
-postmortem practice, covered in more depth in chapter 6.2, applies directly
+all of which corrupt the very data this topic depends on. Blameless
+postmortem practice, covered in more depth in topic 6.2, applies directly
 here.
 
 ## Trade-offs: pros and cons
@@ -120,7 +120,7 @@ cannot be fairly compared or aggregated at an organizational level, and
 creates a quiet incentive for a team to classify generously to protect its
 own metrics. Resolve the tension by investing in standardized, documented
 classification criteria and periodic cross-team audits, treating this as
-governance work (chapter 1.4) worth the investment given how directly this
+governance work (topic 1.4) worth the investment given how directly this
 metric connects to real customer impact.
 
 ## Questions to discuss with your team
@@ -128,7 +128,7 @@ metric connects to real customer impact.
 1. **Do we track escaped defects by severity, or does a raw count treat a
    minor cosmetic issue the same as a critical data problem?** Pull your
    actual dashboard and check; if severity weighting is not already in
-   place, this is the single highest-value change this chapter recommends.
+   place, this is the single highest-value change this topic recommends.
 
 2. **Would two different teams classify the same defect's severity the same
    way, or has classification drifted apart across the organization?** Pick
@@ -154,7 +154,7 @@ metric connects to real customer impact.
 
 6. **Has our escaped defect rate ever improved suspiciously fast with no
    corresponding change in testing or review practice?** As with change
-   failure rate (chapter 2.10), this is the clearest sign that classification
+   failure rate (topic 2.10), this is the clearest sign that classification
    criteria, not real risk, moved.
 
 ## Sector lens
@@ -167,7 +167,7 @@ once the team grows large enough to need more formal analysis.
 
 **Small business.** A simple, shared severity scale, even three levels
 (critical, major, minor), applied consistently by whoever handles support
-and bug triage, captures most of this chapter's value without needing
+and bug triage, captures most of this topic's value without needing
 sophisticated tooling or a dedicated quality function.
 
 **Enterprise.** Cross-team classification consistency is the highest-leverage
@@ -201,7 +201,7 @@ reacted to the raw, unweighted count as an undifferentiated quality crisis.
 had an escaped defect that incorrectly denied a small percentage of
 otherwise-eligible claims for several months before detection. A root-cause
 investigation found the defect had originated in a code area previously
-flagged as a complexity hotspot (chapter 4.1, chapter 4.3) in an internal
+flagged as a complexity hotspot (topic 4.1, topic 4.3) in an internal
 quality review eighteen months earlier, but the hotspot had never been
 prioritized for remediation because no defect had yet occurred to make the
 risk concrete. The agency's revised process now explicitly weights
@@ -236,7 +236,7 @@ validated sources of escaped-defect risk.
 - **No root-cause tracking:** turns a count into a number with no
   diagnostic value, leaving systemic patterns invisible.
 - **A blame-prone reporting culture:** corrupts data through under-reporting
-  and lenient classification, exactly the incentive-exposure risk chapter
+  and lenient classification, exactly the incentive-exposure risk topic
   1.2 warns about.
 - **Never connecting escaped defects back to internal quality signals:**
   misses the chance to validate, or invalidate, Part 4's predictive metrics

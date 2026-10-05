@@ -5,7 +5,7 @@ delivery, developer experience, and code quality. This part steps outside
 that boundary and asks the question every engineering metric ultimately
 exists in service of, whether directly or several steps removed: did this
 work actually help the business and the people who use what it builds.
-Chapter 1.3 established outcomes over output as a governing principle
+Topic 1.3 established outcomes over output as a governing principle
 early in this book; this part is where that principle meets its sharpest
 test, because product and business outcomes are the furthest removed from
 any single engineer's direct control and the hardest to attribute cleanly
@@ -16,7 +16,7 @@ never connects its delivery and quality metrics to product and business
 outcomes risks optimising beautifully for the wrong thing: shipping fast,
 with excellent test coverage, on a feature nobody uses, or maintaining
 pristine code quality in a system whose core value proposition has quietly
-stopped mattering to customers. This part's five chapters, escaped defects,
+stopped mattering to customers. This part's five topics, escaped defects,
 feature adoption, customer and business outcomes, unit economics, and
 return on investment, give engineering leadership a vocabulary for that
 connection, and give business leadership a way to evaluate engineering
@@ -31,7 +31,7 @@ frequency or test coverage, however well those internal metrics might be
 managed. This part is where the rest of the book's careful, guardrail-protected
 metrics finally connect to that external, outcome-facing conversation.
 
-## Chapters in this part
+## Topics in this part
 
 - **5.1 Escaped defect rate and quality escapes:** The quality metric that
   most directly reflects what customers actually experience, as distinct
@@ -47,25 +47,25 @@ metrics finally connect to that external, outcome-facing conversation.
   defensible, honest ROI case for a major engineering investment, and being
   equally honest when the case does not hold up.
 
-## How these chapters interrelate
+## How these topics interrelate
 
-Chapter 5.1 starts closest to home, quality as customers experience it
+Topic 5.1 starts closest to home, quality as customers experience it
 directly, and is the natural bridge from Part 4's internal quality metrics.
-Chapter 5.2 asks the next question once quality is accounted for: does
-anyone actually use what was built. Chapter 5.3 widens the lens further to
+Topic 5.2 asks the next question once quality is accounted for: does
+anyone actually use what was built. Topic 5.3 widens the lens further to
 the full range of customer and business outcomes an organisation cares
-about, of which usage is only one signal among several. Chapters 5.4 and
+about, of which usage is only one signal among several. Topics 5.4 and
 5.5 then turn the whole part financial: expressing engineering cost and
 return in terms that connect directly to budget and investment decisions,
 closing the loop this part opened by asking whether engineering effort
 actually helped.
 
-This part's chapters lean particularly heavily on chapter 1.6's statistical
+This part's topics lean particularly heavily on topic 1.6's statistical
 literacy, since business and product outcomes are frequently noisy,
 confounded by market conditions, and slow to confirm, exactly the
-conditions where the mistakes chapter 1.6 warns about are most likely to
+conditions where the mistakes topic 1.6 warns about are most likely to
 produce a confident, wrong conclusion. Read this part alongside Part 7,
 where the shift to generative AI raises the stakes on getting outcome
-measurement right specifically because output volume, this part's chapters
+measurement right specifically because output volume, this part's topics
 argue throughout, was never the right thing to optimise in the first
 place.

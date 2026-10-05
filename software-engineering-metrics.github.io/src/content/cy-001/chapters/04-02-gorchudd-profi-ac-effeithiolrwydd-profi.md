@@ -7,25 +7,25 @@ yn mesur y canran o god a weithredir gan set brofion: gorchudd llinell,
 gorchudd cangen, neu'r gorchudd llwybr llymach. Dyma un o'r metrigau a
 olrheinir fwyaf eang yn y llyfr cyfan hwn, yn rhad i'w gyfrifo, yn hawdd
 ei weledoli fel un canran, ac o ganlyniad yn un o'r rhai a dwyllir
-amlaf, yn union fel y mae pennod 1.2 yn rhagfynegi ar gyfer unrhyw fetrig
+amlaf, yn union fel y mae pwnc 1.2 yn rhagfynegi ar gyfer unrhyw fetrig
 sy'n dod yn darged. Gall set brofion gyflawni gorchudd uchel tra'n
 gwirio bron dim byd ystyrlon, oherwydd mae gorchudd yn mesur a
 weithredwyd cod yn ystod rhediad prawf, nid a wiriodd y prawf mewn
 gwirionedd fod y cod yn ymddwyn yn gywir.
 
 Nid nodyn troed bach yw'r bwlch hwn rhwng gorchudd ac effeithiolrwydd
-profi gwirioneddol; dyma bryder canolog y bennod hon. Mae prawf sy'n
+profi gwirioneddol; dyma bryder canolog y pwnc hwn. Mae prawf sy'n
 galw ffwythiant ac yn haeru dim byd am ei ganlyniad yn cynyddu gorchudd
 yn union yr un fath â phrawf sy'n gwirio ymddygiad y ffwythiant yn
-drylwyr ar draws achosion ymyl. Mae'r ateb y mae'r bennod hon yn ei
+drylwyr ar draws achosion ymyl. Mae'r ateb y mae'r pwnc hwn yn ei
 argymell, **profi treiglo**, sy'n cyflwyno beiau bach, artiffisial i mewn
 i'r cod yn fwriadol ac yn gwirio a yw'r set brofion mewn gwirionedd yn
-eu dal, yr ateb uniongyrchol i'r bwlch hwn, ac mae'r bennod hon yn ei
+eu dal, yr ateb uniongyrchol i'r bwlch hwn, ac mae'r pwnc hwn yn ei
 drin fel ategiad angenrheidiol gorchudd, nid ychwanegiad dewisol.
 
 I dimau mawr, mae targedau gorchudd yn aml yn cael eu mabwysiadu ar
 draws y sefydliad fel giât ansawdd, yn union y math o fetrig wedi'i
-gymell, uchel-welededd y mae pennod 1.2 yn rhybuddio ei fod fwyaf agored
+gymell, uchel-welededd y mae pwnc 1.2 yn rhybuddio ei fod fwyaf agored
 i dwyllo. Mae sefydliadau menter a llywodraeth sy'n gosod gofyniad
 canran gorchudd cyffredinol heb wiriad effeithiolrwydd wedi'i parejo,
 i bob pwrpas, yn cymell union y patrwm twyllo-trothwy y mae'r llyfr
@@ -38,7 +38,7 @@ rhif, heb unrhyw welliant cyfatebol mewn atal diffyg gwirioneddol.
   cael ei rhedeg gan brawf yn dweud dim am a wiriodd y prawf unrhyw beth
   ystyrlon amdani.
 - **Mae targed gorchudd heb wiriad effeithiolrwydd yn osodiad deddf-
-  Goodhart llyfr-testun** (pennod 1.2): mae'r rhif yn gwella tra nad yw
+  Goodhart llyfr-testun** (pwnc 1.2): mae'r rhif yn gwella tra nad yw
   ansawdd gwirioneddol yn gwneud hynny.
 - **Mae profi treiglo'n ategiad angenrheidiol gorchudd**, nid
   disodliad; defnyddiwch y ddau gyda'i gilydd.
@@ -88,7 +88,7 @@ goruchwyliaeth.
 
 Mae'r ffyrdd mwyaf cyffredin y mae gorchudd yn cael ei dwyllo, unwaith y
 daw'n darged, yn cynnwys: profion sy'n galw ffwythiant ond yn haeru dim
-byd ystyrlon am y canlyniad (twyllo trothwy pennod 1.2 wedi'i gymhwyso
+byd ystyrlon am y canlyniad (twyllo trothwy pwnc 1.2 wedi'i gymhwyso
 i'r metrig hwn), analluogi neu ddileu profion sy'n methu yn hytrach na
 thrwsio'r broblem sylfaenol, ac eithrio cod anodd ei brofi o'r cyfrifiad
 gorchudd yn gyfan gwbl yn hytrach na mynd i'r afael â pham ei fod yn
@@ -182,7 +182,7 @@ gennych y gallu peirianneg i weithredu ar yr hyn y mae'n ei ddatgelu.
 
 **Menter.** Mae targedau gorchudd cyffredinol, ar draws y sefydliad yn
 gamgymeriad cyffredin a chanlyniadol ar y raddfa hon, gan eu bod yn
-cymell union y twyllo y mae'r bennod hon yn ei ddisgrifio ar draws
+cymell union y twyllo y mae'r pwnc hwn yn ei ddisgrifio ar draws
 degau o dimau ar yr un pryd. Sefydlwch ddisgwyliadau gorchudd
 seiliedig-ar-berygl sy'n amrywio yn ôl dyngedfennoldeb gwasanaeth, a
 buddsoddwch mewn isadeiledd profi treiglo ar gyfer eich systemau
@@ -194,7 +194,7 @@ benodi ar gyfer sicrwydd ansawdd. Lle bo'n bosibl, parejwch unrhyw
 ganran gorchudd sy'n ofynnol yn gontractiol â gofyniad effeithiolrwydd
 seiliedig-ar-brofi-treiglo neu ddiffyg, fel nad yw'r cymhelliant
 contractiol yn ddamweiniol yn gwobrwyo union y padio prawf gwerth-isel
-y mae'r bennod hon yn rhybuddio yn ei erbyn.
+y mae'r pwnc hwn yn rhybuddio yn ei erbyn.
 
 ## Enghreifftiau
 
@@ -248,7 +248,7 @@ effeithiolrwydd profi ar ei uchaf.
 - **Trin canran gorchudd fel dyfarniad ansawdd uniongyrchol:** mae'n
   mesur gweithrediad, nid gwiriad.
 - **Ysgrifennu profion yn bennaf i fodloni giât gorchudd:** yn
-  cynhyrchu union y patrwm twyllo-trothwy, gwerth-isel y mae pennod
+  cynhyrchu union y patrwm twyllo-trothwy, gwerth-isel y mae pwnc
   1.2 yn rhybuddio yn ei erbyn.
 - **Analluogi neu ddileu profion sy'n methu yn lle trwsio'r broblem
   sylfaenol:** yn dileu diogelwch gwirioneddol tra prin yn effeithio

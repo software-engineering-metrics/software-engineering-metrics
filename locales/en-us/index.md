@@ -13,14 +13,14 @@ AI is reshaping what these numbers mean.
 
 - **[What are software engineering metrics?](front-matter/what-are-software-engineering-metrics.md):** start here
 - **[Introduction](front-matter/introduction.md):** what this book is and how to read it
-- **[Table of contents](front-matter/table-of-contents.md):** the full chapter list
+- **[Table of contents](front-matter/table-of-contents.md):** the full topic list
 
 ## How to read this book
 
-Parts are whole numbers; chapters are decimals. Chapter **N.0** introduces
-each part; **N.1, N.2, …** are its chapters. Part 9 collects the appendices
+Parts are whole numbers; topics are decimals. Topic **N.0** introduces
+each part; **N.1, N.2, …** are its topics. Part 9 collects the appendices
 (glossary, a formulas reference, checklists, templates, a maturity
-self-assessment, references, and an index). Every metric-family chapter
+self-assessment, references, and an index). Every metric-family topic
 states principles, recommendations, trade-offs, a sector lens, examples
 (enterprise and government), a business case (ROI/TCO), anti-patterns, a
 maturity model, discussion questions, and references, and it names how the
@@ -113,14 +113,14 @@ not big-bang.
 ## Cross-cutting themes
 
 [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) governs every
-chapter: a measure that becomes a target stops being a good measure, so every
+topic: a measure that becomes a target stops being a good measure, so every
 metric family here ships with its gaming vector and its guardrail attached.
 Outcomes are weighted over output and activity throughout. Government and
 enterprise reporting obligations are treated as design inputs, not
 afterthoughts, and the shift to generative AI is treated as a reason to
 re-examine what these metrics mean, not just a new column on the dashboard.
 
-## Beyond the chapters
+## Beyond the topics
 
 - **[Examples](examples/index.md):** small, concrete examples of the book's ideas in use.
 - **[About this project](project/index.md):** how the book is built, checked, and published.

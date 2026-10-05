@@ -1,7 +1,7 @@
 # 9.7 Index
 
-Ett ämnesindex av nyckelkoncept och kapitlen som täcker dem.
-Termer definieras i Glossariet (kapitel 9.1).
+Ett ämnesindex av nyckelkoncept och ämnena som täcker dem.
+Termer definieras i Glossariet (ämne 9.1).
 
 ## A
 

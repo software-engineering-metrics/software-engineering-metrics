@@ -2,9 +2,9 @@
 
 ## Trosolwg a chymhelliant
 
-Mae'r dibynadwyedd y cyflwynodd pennod 6.1 ac a fesurodd yr ymateb
-digwyddiad ym mhennod 6.2 ill dau'n dibynnu ar system ddynol y mae'r
-bennod hon yn ei mesur yn uniongyrchol: y cylchdro ar-alwad, y
+Mae'r dibynadwyedd y cyflwynodd pwnc 6.1 ac a fesurodd yr ymateb
+digwyddiad ym mhwnc 6.2 ill dau'n dibynnu ar system ddynol y mae'r
+bwnc hwn yn ei mesur yn uniongyrchol: y cylchdro ar-alwad, y
 peirianwyr sy'n cario dyfais alwad ac yn ymateb pan fydd rhywbeth yn
 torri, a'r capasiti isadeiledd sy'n pennu faint o lwyth y gall system
 ei amsugno cyn iddi ddechrau torri yn y lle cyntaf. Gall sefydliad gael
@@ -13,10 +13,10 @@ digwyddiad gwirioneddol ddi-fai, a dal i losgi allan ei beirianwyr
 ar-alwad trwy lwyth anghynaliadwy sy'n dirywio yn y pen draw yr union
 ddibynadwyedd yr adeiladwyd yr arferion eraill hynny i'w gwarchod.
 
-Mae'r bennod hon yn trin llwyth gweithredol fel teulu metrig yn ei
+Mae'r pwnc hwn yn trin llwyth gweithredol fel teulu metrig yn ei
 rinwedd ei hun, wedi'i gysylltu'n uniongyrchol â mesuriad lles a
 **[llosgi allan](https://en.wikipedia.org/wiki/Occupational_burnout)**
-pennod 3.2 ond yn benodol i straen acíwt, penodol cario dyfais alwad:
+pwnc 3.2 ond yn benodol i straen acíwt, penodol cario dyfais alwad:
 cwsg wedi'i darfu, cost seicolegol bod ar-alwad hyd yn oed pan na
 ddigwydd dim byd, a tholl gronedig llwyth digwyddiad aml, wedi'i
 ddosbarthu'n wael. Mae sefydliad sy'n mesur dibynadwyedd ei systemau'n
@@ -27,13 +27,13 @@ staff, ansawdd ymateb digwyddiad dirywiedig gan ymatebwyr wedi ymlâdd,
 neu'r ddau.
 
 I dimau mawr, mae metrigau ar-alwad a chapasiti'n datgelu problemau
-cydbwyso-llwyth sy'n adlewyrchu pryderon crynhoad-gwybodaeth pennod
+cydbwyso-llwyth sy'n adlewyrchu pryderon crynhoad-gwybodaeth pwnc
 3.5: nifer fach o beirianwyr yn amsugno cyfran anghymesur o alwadau,
 yn aml y bobl fwyaf profiadol yn union oherwydd y gallant ddatrys
 digwyddiadau gyflymaf, sy'n creu perygl llosgi allan a pherygl
 ffactor-bws ar yr un pryd. Mae sefydliadau menter a llywodraeth sy'n
 rhedeg gwasanaethau dyngedfennol rownd-y-cloc yn dibynnu ar fetrigau'r
-bennod hon i staffio cylchdroeon ar-alwad yn gynaliadwy yn hytrach na
+bwnc hwn i staffio cylchdroeon ar-alwad yn gynaliadwy yn hytrach na
 darganfod y gost wirioneddol dim ond trwy draul staff.
 
 ## Egwyddorion allweddol
@@ -59,8 +59,8 @@ darganfod y gost wirioneddol dim ond trwy draul staff.
 
 Mesurwch faint o alwadau y mae pob peiriannydd ar-alwad unigol yn eu
 derbyn, nid dim ond cyfartaledd tîm-cyfan a all guddio crynhoad
-difrifol. Yn debyg i bryderon ffactor-bws pennod 3.5 a llwyth-
-adolygwyr pennod 2.9, mae llwyth ar-alwad yn aml yn crynhoi ar nifer
+difrifol. Yn debyg i bryderon ffactor-bws pwnc 3.5 a llwyth-
+adolygwyr pwnc 2.9, mae llwyth ar-alwad yn aml yn crynhoi ar nifer
 fach o bobl brofiadol sy'n gallu datrys digwyddiadau gyflymaf, yn
 union y patrwm sy'n creu perygl llosgi allan a phwynt methiant sengl
 peryglus fel ei gilydd. Ailgydbwyswch gylchdroeon yn fwriadol pan fydd
@@ -72,7 +72,7 @@ Mae bod ar-alwad yn cario cost wirioneddol hyd yn oed yn ystod shifft â
 sero galwadau gwirioneddol: ansawdd cwsg lleihaedig o ragweld ymyriad
 posibl, gweithgareddau personol wedi'u cyfyngu, a straen gradd isel o
 gyfrifoldeb parhaus. Lle bo'n ymarferol, daliwch hyn trwy ddata arolwg
-(pennod 3.7) yn benodol am brofiad ar-alwad, ar wahân i foddhad
+(pwnc 3.7) yn benodol am brofiad ar-alwad, ar wahân i foddhad
 cyffredinol, gan y gall tîm adrodd boddhad cyffredinol rhesymol tra bo
 ar-alwad yn benodol yn erydu lles yn dawel.
 
@@ -103,7 +103,7 @@ Cyfanredwch ddata llwyth ar-alwad ar lefel y tîm i wneud yr achos dros
 nifer pennau ychwanegol, offer gwell i leihau galwadau positif-ffug,
 neu fuddsoddiad pensaernïol i leihau amlder digwyddiad gwirioneddol.
 Gan ddilyn canllaw cyson y llyfr hwn ar gyfer unrhyw fetrig sy'n cyffwrdd
-unigolion yn uniongyrchol (pennod 1.2, pennod 3.4), peidiwch byth â
+unigolion yn uniongyrchol (pwnc 1.2, pwnc 3.4), peidiwch byth â
 defnyddio metrigau ymateb-galwad unigol i werthuso perfformiad
 peiriannydd penodol; y nod yw staffio a dyluniad system cynaliadwy, nid
 cadw sgôr unigol.
@@ -138,7 +138,7 @@ anochel i'w ddioddef yn syml yn ddiddiwedd.
 2. **A ydym erioed wedi mesur cost seicolegol bod ar-alwad ar wahân i
    foddhad cyffredinol?** Os na, trafodwch a fyddai cwestiwn arolwg
    byr, pwrpasol yn benodol am brofiad ar-alwad yn datgelu rhywbeth
-   y mae eich arolwg boddhad cyffredinol (pennod 3.2) yn ei golli ar
+   y mae eich arolwg boddhad cyffredinol (pwnc 3.2) yn ei golli ar
    hyn o bryd.
 
 3. **A yw ein hamserlen cylchdro ar-alwad enwol yn adlewyrchu realiti,
@@ -156,7 +156,7 @@ anochel i'w ddioddef yn syml yn ddiddiwedd.
 5. **A yw data llwyth ar-alwad erioed wedi cael ei ddefnyddio, hyd yn
    oed yn anffurfiol, i werthuso perfformiad unigolyn yn hytrach na
    llywio penderfyniadau staffio a phensaernïaeth?** Mae hyn yn peryglu'r
-   un trap gwerthuso-unigol y mae pennod 3.4 yn rhybuddio yn ei erbyn
+   un trap gwerthuso-unigol y mae pwnc 3.4 yn rhybuddio yn ei erbyn
    ar gyfer data gweithgarwch, wedi'i gymhwyso yma i lwyth gweithredol
    yn lle hynny.
 
@@ -209,7 +209,7 @@ alwadau'n bersonol yn y flwyddyn flaenorol, y ddau oherwydd eu bod
 gyflymaf wrth ddatrys digwyddiadau cymhleth a hefyd oherwydd bod
 aelodau cylchdro eraill wedi dysgu ohirio iddynt yn anffurfiol yn
 hytrach na cheisio datrysiad eu hunain. Adroddodd y ddau beiriannydd
-symptomau llosgi-allan sylweddol yn arolwg lles y cwmni (pennod 3.2)
+symptomau llosgi-allan sylweddol yn arolwg lles y cwmni (pwnc 3.2)
 heb i arweinyddiaeth fod wedi cysylltu'r signal arolwg hwnnw'n flaenorol
 â'r data crynhoad ar-alwad penodol, meintiol. Gostyngodd ymdrech
 ailgydbwyso fwriadol, gan gynnwys hyfforddiant wedi'i dargedu i

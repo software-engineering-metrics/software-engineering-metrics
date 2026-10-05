@@ -1,9 +1,9 @@
 # 9.6 Referencias y lecturas adicionales
 
 Una bibliografía consolidada de las obras citadas a lo largo del libro,
-reunida de la propia sección de referencias de cada capítulo. Organizada
+reunida de la propia sección de referencias de cada tema. Organizada
 de manera flexible por tema; muchas obras se citan desde múltiples
-capítulos.
+temas.
 
 ## Marcos fundacionales
 

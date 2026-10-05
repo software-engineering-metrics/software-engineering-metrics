@@ -17,7 +17,7 @@ fframwaith yn arwyddocaol oedd bod perfformwyr elit yn gyflym ac yn
 sefydlog ar yr un pryd, gan ddymchwel y dybiaeth bod cyflymder a
 diogelwch yn masnachu yn erbyn ei gilydd, ac mae'r canfyddiad hwnnw'n
 dal yr enghraifft weithredig fwyaf clir sydd gan y llyfr hwn o egwyddor
-parejo-cledr-ddiogelwch pennod 1.2: metrig cyflymder wedi'i gymell, wedi'i
+parejo-cledr-ddiogelwch pwnc 1.2: metrig cyflymder wedi'i gymell, wedi'i
 parejo â chledr ddiogelwch sefydlogrwydd, yw'r hyn y mae'r sefydliadau
 sy'n perfformio orau'n ei wneud mewn gwirionedd.
 
@@ -29,9 +29,9 @@ mae DORA yn mesur pa mor gyflym a pha mor ddiogel y mae piblinell yn
 symud, ond mae'n dawel ynghylch beth sy'n symud trwy'r biblinell. Gall
 tîm bostio rhifau DORA rhagorol tra bo'i allbwn gwirioneddol wedi drifftio'n
 dawel tuag at ailwaith diffygion neu wedi llwgu dyled dechnegol a gwaith
-diogelwch o gapasiti, patrwm y mae Fframwaith Llif penodau 2.1 i 2.4 wedi'i
+diogelwch o gapasiti, patrwm y mae Fframwaith Llif pynciau 2.1 i 2.4 wedi'i
 adeiladu'n benodol i'w ddatgelu ac na all DORA ei weld. Defnyddiwch DORA
-fel y mae'r bennod hon yn ei gyflwyno: mesur cyfeirnod cul, wedi'i
+fel y mae'r pwnc hwn yn ei gyflwyno: mesur cyfeirnod cul, wedi'i
 ddilysu'n dda, o fecaneg piblinell, nid darlun cyfan iechyd cyflenwi.
 
 I dimau mawr, cymharedd yw gwerth gwirioneddol, parhaus DORA. Mae
@@ -42,15 +42,15 @@ fwyaf o gymariaethau traws-dîm. Mae sefydliadau menter yn dal i'w
 ddefnyddio i flaenoriaethu buddsoddiad platfform; mae sefydliadau
 llywodraeth yn dal i'w ddefnyddio i ddangos, gyda thystiolaeth, bod
 rhaglen foderneiddio wedi gwella mecaneg cyflenwi'n fesuradwy.
-Trinwch hynny fel swydd briodol, gyfyngedig DORA, a defnyddiwch bennodau'r
+Trinwch hynny fel swydd briodol, gyfyngedig DORA, a defnyddiwch bynciau'r
 Fframwaith Llif yn gynharach yn y rhan hon ar gyfer y cwestiwn ehangach
 o pa un a yw'r pethau cywir yn cael eu cyflenwi o gwbl.
 
 ## Egwyddorion allweddol
 
 - **Mae DORA yn mesur y biblinell, nid y gwerth sy'n llifo trwyddi.** Mae
-  pennod 2.1 yn enwi'r bwlch hwn yn uniongyrchol; defnyddiwch
-  ddosbarthiad llif (pennod 2.3) i weld yr hyn na all DORA ei weld.
+  pwnc 2.1 yn enwi'r bwlch hwn yn uniongyrchol; defnyddiwch
+  ddosbarthiad llif (pwnc 2.3) i weld yr hyn na all DORA ei weld.
 - **Mesurir cyflymder a sefydlogrwydd gyda'i gilydd, byth ar wahân.**
   Nid yw dangosfwrdd wedi'i lywio gan DORA heb y ddau hanner mewn
   gwirionedd yn defnyddio'r fframwaith.
@@ -60,7 +60,7 @@ o pa un a yw'r pethau cywir yn cael eu cyflenwi o gwbl.
   wahanol.
 - **Mae DORA yn mesur y system, nid unigolion.** Mae cymhwyso'r
   metrigau hyn at beirianwyr unigol yn torri sylfaen ystadegol y
-  fframwaith ac yn gwahodd union y twyllo y mae pennod 1.2 yn rhybuddio
+  fframwaith ac yn gwahodd union y twyllo y mae pwnc 1.2 yn rhybuddio
   yn ei erbyn.
 - **Mae pob un o'r pedwar metrig yn ddirprwy, nid yn nod.** Maent yn
   cydberthyn â pherfformiad sefydliadol; mae mynd ar drywydd y rhif ei
@@ -85,7 +85,7 @@ yn digwydd.
 Mae **amser arwain ar gyfer newidiadau** yn mesur yr amser o ymrwymiad
 cyntaf newid cod hyd ei ddefnyddio llwyddiannus mewn cynhyrchu.
 Adroddwch y canolrif a phersentil uchel, nid dim ond cymedr, gan ddilyn
-canllawiau pennod 1.6 ar ddata seiliedig-ar-amser sgiw, a gwyliwch am
+canllawiau pwnc 1.6 ar ddata seiliedig-ar-amser sgiw, a gwyliwch am
 drifft diffiniad ar y naill ben neu'r llall, sy'n gwneud y rhif yn well
 heb unrhyw welliant gwirioneddol.
 
@@ -113,8 +113,8 @@ yn hytrach na thrwy ddatgan digwyddiad wedi'i ddatrys yn gynamserol.
 ### Defnyddiwch fetrigau llif, nid DORA, i ddiagnosio pam symudodd rhif
 
 Pan fydd metrig DORA yn symud, mae'r pedwar rhif ar eu pen eu hunain yn
-anaml yn egluro pam. Defnyddiwch ddadelfeniad amser cylch (pennod 2.6),
-llwyth llif (pennod 2.4), a dosbarthiad llif (pennod 2.3) fel yr haen
+anaml yn egluro pam. Defnyddiwch ddadelfeniad amser cylch (pwnc 2.6),
+llwyth llif (pwnc 2.4), a dosbarthiad llif (pwnc 2.3) fel yr haen
 ddiagnostig o dan rifau crynodeb DORA, a pheidiwch byth â defnyddio
 metrig DORA mewn adolygiad perfformiad unigol, y camddefnydd sengl mwyaf
 niweidiol y mae'r fframwaith hwn yn agored iddo.
@@ -135,7 +135,7 @@ perfformiad piblinell ar draws timau, ond mae'r un manwl gywirdeb hwnnw
 wedi'i gwmpasu'n gul i'r biblinell ei hun ac nid yw'n dweud unrhyw beth
 am pa un a yw'r gwaith cywir yn llifo trwyddi. Datryswch y tensiwn trwy
 gadw DORA fel haen gyfeirnod ar gyfer iechyd piblinell, lle priodol
-pennod 2.10 yng nghyfundrefn y llyfr hwn, tra'n defnyddio pennodau'r
+pwnc 2.10 yng nghyfundrefn y llyfr hwn, tra'n defnyddio pynciau'r
 Fframwaith Llif yn gynharach yn y rhan hon ar gyfer y cwestiwn
 busnes-wynebedig o gymysgedd gwerth, yn hytrach na cheisio gwneud i
 DORA ateb cwestiwn na chafodd erioed ei ddylunio i'w ateb.
@@ -146,7 +146,7 @@ DORA ateb cwestiwn na chafodd erioed ei ddylunio i'w ateb.
    a yw rhai ohonynt yn amcangyfrifon hunan-adroddedig?** Mae fframwaith
    wedi'i adeiladu ar fesuriad gwrthrychol, wedi'i ddilysu gan ymchwil,
    yn colli llawer o'i werth y foment y daw rhif yn ddyfaliad gorau.
-   Archwiliwch ffynhonnell ddata wirioneddol pob metrig (pennod 1.5).
+   Archwiliwch ffynhonnell ddata wirioneddol pob metrig (pwnc 1.5).
 
 2. **A yw'r holl dimau yr ydym yn eu cymharu gan ddefnyddio metrigau DORA
    yn rhannu'r un diffiniadau o ddefnyddio, newid, a methiant?** Nid yw
@@ -161,7 +161,7 @@ DORA ateb cwestiwn na chafodd erioed ei ddylunio i'w ateb.
    anghyfforddus ond angenrheidiol.
 
 4. **A allai ein rhifau DORA fod yn ardderchog tra bo'n dosbarthiad llif
-   (pennod 2.3) wedi drifftio'n dawel tuag at ailwaith neu i ffwrdd o
+   (pwnc 2.3) wedi drifftio'n dawel tuag at ailwaith neu i ffwrdd o
    nodweddion?** Dyma'n union y bwlch na all DORA ei weld ar ei ben ei
    hun. Tynnwch y ddwy set o rifau gyda'i gilydd a gwiriwch a ydynt yn
    adrodd stori gyson.
@@ -175,7 +175,7 @@ DORA ateb cwestiwn na chafodd erioed ei ddylunio i'w ateb.
 6. **Sut fyddai ein pedwar rhif DORA'n newid petaem yn ceisio twyllo pob
    un yn fwriadol, a fyddem yn sylwi?** Ewch trwy amledd defnyddio, amser
    arwain, cyfradd methiant newid, ac amser adfer fesul un, cymhwysiad
-   ymarferol o ddisgyblaeth graidd pennod 1.2 i'r fframwaith penodol
+   ymarferol o ddisgyblaeth graidd pwnc 1.2 i'r fframwaith penodol
    hwn.
 
 ## Golwg sector
@@ -184,7 +184,7 @@ DORA ateb cwestiwn na chafodd erioed ei ddylunio i'w ateb.
 naturiol i dîm bach sydd eisoes yn defnyddio'n aml; y ddisgyblaeth
 anos yw offeryno cyfradd methiant newid ac amser adfer yn onest yn
 hytrach na thybio sefydlogrwydd oherwydd nad oes dim wedi torri'n ddrwg
-eto. Mae parejo DORA â hollt eitem-llif anffurfiol hyd yn oed (pennod
+eto. Mae parejo DORA â hollt eitem-llif anffurfiol hyd yn oed (pwnc
 2.2) yn gynnar yn osgoi adeiladu ymdeimlad ffug o iechyd cyflenwi o
 gwmpas cyflymder piblinell yn unig.
 
@@ -197,7 +197,7 @@ bydd log digwyddiad anffurfiol yn bodoli i gysylltu ag ef.
 
 **Menter.** Cymhariaeth deg, gyson draws-dîm ar gyfer penderfyniadau
 buddsoddi platfform yw gwerth mwyaf parhaus DORA ar y raddfa hon.
-Safonwch ddiffiniadau ar draws y sefydliad (pennod 1.4), awtomeiddiwch
+Safonwch ddiffiniadau ar draws y sefydliad (pwnc 1.4), awtomeiddiwch
 offeryno'n ganolog, a pharejwch bob adroddiad DORA â golwg dosbarthiad
 llif fel bod arweinyddiaeth yn gweld cyflymder piblinell a chymysgedd
 gwerth gyda'i gilydd, nid y naill heb y llall.
@@ -251,7 +251,7 @@ deg, gyson, yn union fel y mae erioed wedi'i wneud.
 Y gwaith integreiddio i gysylltu digwyddiadau defnyddio â chofnodion
 digwyddiad ar gyfer cyfradd methiant newid ac amser adfer, yn
 sylweddol ar draws tirwedd offer mawr, heterogenaidd, yw cost cyfanswm
-perchnogaeth. Mae'r gost ychwanegol o barejo DORA â phennodau'r
+perchnogaeth. Mae'r gost ychwanegol o barejo DORA â phynciau'r
 Fframwaith Llif yn gynharach yn y rhan hon yn gymharol fach, gan fod
 dosbarthiad eitem-llif yn gonfensiwn adrodd wedi'i haenu ar waith
 presennol, nid system fesur gyfochrog, ac mae'r enillion, dal yn union y
@@ -261,13 +261,13 @@ ddangos, yn werth chweil am y buddsoddiad cymedrol ychwanegol hwnnw.
 ## Gwrth-batrymau a pheryglon
 
 - **Trin DORA fel darlun cyfan iechyd cyflenwi:** y fector twyllo y mae
-  lleoliad y bennod hon wedi'i ddylunio i'w wrthweithio. Gall sefydliad
+  lleoliad y pwnc hwn wedi'i ddylunio i'w wrthweithio. Gall sefydliad
   gyflwyno rhifau DORA gwirioneddol ragorol, defnyddiadau cyflym, aml,
   sefydlog, tra bo'i werth wedi'i gyflenwi mewn gwirionedd wedi symud yn
   dawel tuag at ailwaith neu i ffwrdd o nodweddion, ac ni fydd pedwar
   metrig DORA ar eu pen eu hunain byth yn datgelu'r symudiad hwnnw
   oherwydd na chawsant erioed eu dylunio i'w fesur. Y gledr ddiogelwch
-  yw parejo pob adroddiad DORA â dosbarthiad llif (pennod 2.3), fel bod
+  yw parejo pob adroddiad DORA â dosbarthiad llif (pwnc 2.3), fel bod
   piblinell gyflym, sefydlog sy'n cyflenwi'r cymysgedd anghywir o waith
   yn weladwy yn hytrach na chael ei gamgymryd am iechyd cyflenwi
   gwirioneddol.
@@ -320,8 +320,8 @@ ddangos, yn werth chweil am y buddsoddiad cymedrol ychwanegol hwnnw.
   gwirionedd.
 - Mae'r llyfr hwn yn gosod DORA **olaf yn y rhan hon** oherwydd ei fod
   yn mesur y biblinell, nid y gwerth sy'n llifo trwyddi; parejwch ef â
-  dosbarthiad llif (pennod 2.3) am y darlun cyflawnach.
-- Fector twyllo canolog y bennod yw **camgymryd rhifau DORA rhagorol am
+  dosbarthiad llif (pwnc 2.3) am y darlun cyflawnach.
+- Fector twyllo canolog y pwnc yw **camgymryd rhifau DORA rhagorol am
   iechyd cyflenwi cyflawn**; y gledr ddiogelwch yw adrodd DORA bob amser
   ochr yn ochr â dosbarthiad llif.
 - **Peidiwch byth â defnyddio metrigau DORA mewn adolygiadau perfformiad

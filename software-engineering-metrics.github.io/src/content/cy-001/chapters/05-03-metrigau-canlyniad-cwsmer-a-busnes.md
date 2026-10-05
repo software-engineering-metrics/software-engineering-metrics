@@ -2,23 +2,23 @@
 
 ## Trosolwg a chymhelliant
 
-Mae'r bennod hon yn ehangu'r lens y tu hwnt i fabwysiad lefel-nodwedd
-pennod 5.2 i'r ystod lawn o ganlyniadau cwsmer a busnes y mae sefydliad
+Mae'r pwnc hwn yn ehangu'r lens y tu hwnt i fabwysiad lefel-nodwedd
+pwnc 5.2 i'r ystod lawn o ganlyniadau cwsmer a busnes y mae sefydliad
 mewn gwirionedd yn poeni amdanynt: refeniw wedi'i gadw neu wedi'i dyfu,
 boddhad a theyrngarwch cwsmer, gostyngiad cost, perygl osgowyd, ac, ar
 gyfer sefydliadau sector cyhoeddus, y canlyniadau dinesydd y mae
 cenhadaeth yn bodoli i'w gwasanaethu. Dyma'r metrigau canlyniad y gosododd
-pennod 1.3 ar frig hierarchaeth mewnbwn-allbwn-canlyniad, a dyma lle mae'r
+pwnc 1.3 ar frig hierarchaeth mewnbwn-allbwn-canlyniad, a dyma lle mae'r
 llyfr hwn yn wynebu'r fersiwn anoddaf, fwyaf onest o her ganolog y
-bennod honno: yn anaml y gellir priodoli canlyniadau ar y lefel hon i
+bwnc hwnnw: yn anaml y gellir priodoli canlyniadau ar y lefel hon i
 beirianneg ar ei ben ei hun, ac mae esgus fel arall yn cynhyrchu union
-broblem y manwl-gywirdeb ffug y rhybuddiodd pennod 3.3 amdano ar gyfer
+broblem y manwl-gywirdeb ffug y rhybuddiodd pwnc 3.3 amdano ar gyfer
 perfformiad unigol, wedi'i graddio nawr i lefel cyfraniad sefydliad
 peirianneg cyfan i'r busnes.
 
 Nid yr ymateb cynhyrchiol i'r anhawster priodoli hwnnw yw rhoi'r gorau
 i gysylltu gwaith peirianneg â chanlyniadau busnes, a fyddai'n gadael
-holl gynsail pennod 1.3, ond bod yn onest am gryfder y cysylltiad a
+holl gynsail pwnc 1.3, ond bod yn onest am gryfder y cysylltiad a
 defnyddio tystiolaeth gydgyfeiriol yn hytrach nag hawliadau manwl-
 gywirdeb ffug o achosiaeth uniongyrchol. Gall sefydliad peirianneg sy'n
 cael ei redeg yn dda ddangos bod ei waith yn cydberthyn â, yn cyfrannu
@@ -27,7 +27,7 @@ hawlio unig glod am ganlyniadau sydd hefyd yn dibynnu ar werthu,
 marchnata, amodau marchnad, a phenderfyniadau strategaeth cynnyrch a
 wnaed ymhell y tu allan i reolaeth peirianneg.
 
-I dimau mawr, mae disgyblaeth y bennod hon yn penderfynu a oes gan
+I dimau mawr, mae disgyblaeth y pwnc hwn yn penderfynu a oes gan
 beirianneg sedd wirioneddol wrth y bwrdd strategol neu a yw'n cael ei
 thrin fel canolfan gost y tybir ei gwerth yn hytrach na'i ddangos. Mae
 sefydliadau menter yn defnyddio metrigau canlyniad cwsmer a busnes i
@@ -51,7 +51,7 @@ iddi fwyfwy.
   cyfradd gwall, a chwblhau gwasanaeth yr un mor bwysig â, neu'n
   bwysicach na, mesurau ariannol.
 - **Mae metrig canlyniad busnes yn araf ac yn swnllyd.** Cymhwyswch
-  lythrennedd ystadegol pennod 1.6 yn drylwyr yma, yn fwy nag bron
+  lythrennedd ystadegol pwnc 1.6 yn drylwyr yma, yn fwy nag bron
   unrhyw le arall yn y llyfr hwn.
 - **Dyma lle mae credadwyedd peirianneg gyda rhanddeiliaid annhechnegol
   yn cael ei ennill neu ei golli.** Siaradwch yn iaith canlyniad eich
@@ -63,7 +63,7 @@ iddi fwyfwy.
 
 Yn hytrach na chyflwyno metrigau cyflenwi a chanlyniadau busnes ochr yn
 ochr a gadael i gynulleidfa gasglu cysylltiad, adeiladwch y goeden
-fetrig (pennod 1.3) yn benodol: gostyngodd y buddsoddiad peirianneg
+fetrig (pwnc 1.3) yn benodol: gostyngodd y buddsoddiad peirianneg
 penodol hwn amser arwain, a alluogodd ymateb cyflymach i angen cwsmer
 penodol, a gydberthynodd â gwelliant penodol mewn cadw. Dogfennwch bob
 cyswllt yn y gadwyn hon â'i dystiolaeth ei hun, fel bod yr hawliad
@@ -73,7 +73,7 @@ na naid sengl, heb ei chefnogi o "gwellaethom amledd defnyddio" i
 
 ### Defnyddiwch iaith [gydberthyniad](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation) onest, a chwiliwch yn weithredol am ffactorau drysu
 
-Gan ddilyn canllawiau pennod 1.6'n uniongyrchol, gwrthsefyllwch hawlio
+Gan ddilyn canllawiau pwnc 1.6'n uniongyrchol, gwrthsefyllwch hawlio
 bod newid peirianneg wedi *achosi* gwelliant canlyniad busnes heb
 ystyried beth arall a newidiodd ar yr un pryd: newid prisio, tramgwydd
 cystadleuydd, effaith dymhorol, ymgyrch farchnata. Datganwch ganfyddiadau
@@ -111,7 +111,7 @@ iaith y maent eisoes yn ei defnyddio (refeniw wedi'i gadw, cost osgowyd,
 amser aros dinesydd wedi'i leihau), a defnyddiwch fetrigau peirianneg
 dim ond fel tystiolaeth ategol ar gyfer sut y cyflawnwyd y canlyniad
 hwnnw, nid fel y pennawd. Mae hyn yn gymhwysiad uniongyrchol o egwyddor
-pwysoli-canlyniad pennod 1.3 i'r sgil benodol o gyfathrebu rhanddeiliaid.
+pwysoli-canlyniad pwnc 1.3 i'r sgil benodol o gyfathrebu rhanddeiliaid.
 
 ## Cyfaddawdau: manteision ac anfanteision
 
@@ -199,7 +199,7 @@ math hwn o dystiolaeth amddiffynadwy.
 **Llywodraeth.** Mae metrigau canlyniad dinesydd a chenhadaeth fwyfwy
 yn hyn y mae cyrff goruchwylio'n ei ddisgwyl, ac mae rhaglen na all ond
 adrodd metrigau cyflenwi (nodweddion a ryddhawyd, ar amserlen) yn
-gwahodd union yr amheuaeth y mae'r bennod hon wedi'i hadeiladu i'ch
+gwahodd union yr amheuaeth y mae'r pwnc hwn wedi'i hadeiladu i'ch
 helpu i'w rhagflaenu. Buddsoddwch mewn olrhain canlyniadau dinesydd yn
 benodol, hyd yn oed lle maent yn anos eu mesur na chyfrif cyflenwi
 syml, gan fod y buddsoddiad hwnnw'n diogelu cyllid a chredadwyedd y

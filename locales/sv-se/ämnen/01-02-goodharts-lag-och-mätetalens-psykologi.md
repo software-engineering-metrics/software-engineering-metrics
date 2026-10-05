@@ -2,11 +2,11 @@
 
 ## Översikt och motivation
 
-[Goodharts lag](https://en.wikipedia.org/wiki/Goodhart%27s_law), uppkallad efter ekonomen Charles Goodhart, uttrycks vanligtvis som: när ett mått blir ett mål slutar det vara ett bra mått. Goodharts ursprungliga observation från 1975 handlade om penningpolitik, men antropologen Marilyn Stratherns senare omformulering är den version mjukvaruteam faktiskt behöver, och det är meningen hela den här boken är byggd på. Varje mätetal i varje senare kapitel, driftsättningsfrekvens, testtäckning, nöjdhetspoäng, bär den här risken, och varje rekommendation i den här boken är, i någon form, en strategi för att hantera den.
+[Goodharts lag](https://en.wikipedia.org/wiki/Goodhart%27s_law), uppkallad efter ekonomen Charles Goodhart, uttrycks vanligtvis som: när ett mått blir ett mål slutar det vara ett bra mått. Goodharts ursprungliga observation från 1975 handlade om penningpolitik, men antropologen Marilyn Stratherns senare omformulering är den version mjukvaruteam faktiskt behöver, och det är meningen hela den här boken är byggd på. Varje mätetal i varje senare ämne, driftsättningsfrekvens, testtäckning, nöjdhetspoäng, bär den här risken, och varje rekommendation i den här boken är, i någon form, en strategi för att hantera den.
 
 Mekanismen är inte mystisk. Människor svarar på incitament, och ett mätetal kopplat till en belöning, en bedömning, eller ett rykte är ett incitament oavsett om någon menade det som ett. När ett team väl vet att "driftsättningsfrekvens" observeras är det billigaste sättet att flytta det talet inte alltid det avsedda: dela en meningsfull ändring i fem triviala driftsättningar, och talet går upp medan ingenting verkligt förbättrades. Det här är inte en historia om illvilliga aktörer. Vanliga, välmenande ingenjörer svarar exakt så här på dåligt utformade incitament, eftersom incitamentet, inte avsikten bakom det, är det som formar beteende under press.
 
-För stora organisationer är insatserna högre eftersom avståndet mellan mätetalets utformare och personen vars beteende det formar växer med skalan. En teamledare som bygger ett mätetal för sitt eget åttapersonersteam kan bevaka manipulation direkt och korrigera kursen snabbt. Ett mätetal som rullas ut över en division med sexhundra personer, eller publiceras i en myndighetsrapport som läses av en lagstiftare, färdas genom lager av människor som aldrig träffat dess upphovsperson och har all anledning att behandla mätetalets bokstav som målet. Snedvridningen förstärks med avstånd, vilket är exakt varför det här kapitlet, inte ett senare, är där boken lägger sin tyngdpunkt.
+För stora organisationer är insatserna högre eftersom avståndet mellan mätetalets utformare och personen vars beteende det formar växer med skalan. En teamledare som bygger ett mätetal för sitt eget åttapersonersteam kan bevaka manipulation direkt och korrigera kursen snabbt. Ett mätetal som rullas ut över en division med sexhundra personer, eller publiceras i en myndighetsrapport som läses av en lagstiftare, färdas genom lager av människor som aldrig träffat dess upphovsperson och har all anledning att behandla mätetalets bokstav som målet. Snedvridningen förstärks med avstånd, vilket är exakt varför det här ämnet, inte ett senare, är där boken lägger sin tyngdpunkt.
 
 ## Nyckelprinciper
 
@@ -20,7 +20,7 @@ För stora organisationer är insatserna högre eftersom avståndet mellan mäte
 
 ### Klassificera varje mätetal efter incitamentsexponering
 
-Innan du publicerar ett mätetal någonstans synligt, fråga direkt: beror någons belöning, bedömning, rykte, eller budget på att det här talet rör sig i en viss riktning? Om ja, är det ett incitamentskopplat mätetal och behöver ett skydd (nedan) innan det går live. Om nej, är det ett diagnostiskt mätetal (kapitel 1.1) och bär lägre manipulationsrisk, dock aldrig noll, eftersom människor fortfarande kan forma ett tal de bara förväntar sig bli bedömda på senare även utan ett formellt incitament kopplat idag.
+Innan du publicerar ett mätetal någonstans synligt, fråga direkt: beror någons belöning, bedömning, rykte, eller budget på att det här talet rör sig i en viss riktning? Om ja, är det ett incitamentskopplat mätetal och behöver ett skydd (nedan) innan det går live. Om nej, är det ett diagnostiskt mätetal (ämne 1.1) och bär lägre manipulationsrisk, dock aldrig noll, eftersom människor fortfarande kan forma ett tal de bara förväntar sig bli bedömda på senare även utan ett formellt incitament kopplat idag.
 
 ### Föredra kvoter, frekvenser och kohorter framför råa antal
 
@@ -36,7 +36,7 @@ Snedvridning enligt Goodharts lag tenderar att falla in i ett litet antal igenk�
 
 ### Separera mätning från belöning där du kan
 
-Det starkaste skyddet av alla är strukturellt: koppla loss mätetalet från individuell belöning. Ett mätetal som används rent för att förstå ett system, utan att någons lön, betyg, eller ställning hänger på dess riktning, möter mycket svagare manipulationstryck än ett kopplat till en utvärdering. Det är därför distinktionen mellan diagnostisk och utvärderande användning i kapitel 1.1 betyder så mycket i praktiken: att hålla ett mätetal diagnostiskt är ofta billigare och mer effektivt än hur mycket skyddskonstruktion som helst tillämpad i efterhand.
+Det starkaste skyddet av alla är strukturellt: koppla loss mätetalet från individuell belöning. Ett mätetal som används rent för att förstå ett system, utan att någons lön, betyg, eller ställning hänger på dess riktning, möter mycket svagare manipulationstryck än ett kopplat till en utvärdering. Det är därför distinktionen mellan diagnostisk och utvärderande användning i ämne 1.1 betyder så mycket i praktiken: att hålla ett mätetal diagnostiskt är ofta billigare och mer effektivt än hur mycket skyddskonstruktion som helst tillämpad i efterhand.
 
 ## Avvägningar: fördelar och nackdelar
 
@@ -70,13 +70,13 @@ Den centrala spänningen är **motivationskraft kontra snedvridningsrisk**. De m
 
 **Litet företag.** Standardverktyg levererar ofta förvalda instrumentpaneler byggda kring antal (stängda ärenden, hanterade samtal) eftersom antal är enkla att beräkna. Konvertera aktivt dessa till frekvenser där verktyget tillåter det, och motstå att koppla något enskilt tal till en bonus eller bedömning utan att först identifiera dess skydd.
 
-**Stort företag.** Avstånd är den dominerande risken: ett mätetal designat av ett plattformsteam för intern diagnos plockas upp tre ledningslager senare och förvandlas till en KPI ingen som byggde det skulle känna igen. Styr det här explicit (kapitel 1.4): kräv ett dokumenterat skydd innan något mätetal godkänns för användning i en prestationsbedömning eller ett ledningsresultatkort.
+**Stort företag.** Avstånd är den dominerande risken: ett mätetal designat av ett plattformsteam för intern diagnos plockas upp tre ledningslager senare och förvandlas till en KPI ingen som byggde det skulle känna igen. Styr det här explicit (ämne 1.4): kräv ett dokumenterat skydd innan något mätetal godkänns för användning i en prestationsbedömning eller ett ledningsresultatkort.
 
 **Myndighet.** Publicerade prestationsmått möter det starkaste manipulationstrycket av någon kategori i den här boken, eftersom ett missat mål kan bära budget- eller politiska konsekvenser. Granska själva definitionen med jämna mellanrum, inte bara talet, eftersom det klassiska manipulationsmönstret i offentlig sektor är att tyst omdefiniera vem som räknas (en väntelista "löst" genom att omklassificera vem som väntar) snarare än att förbättra den underliggande tjänsten.
 
 ## Exempel
 
-**Stort företag.** Ett detaljhandelsteknikbolag satte ett mål på 99 % automatiserad testtäckning över alla tjänster, kopplat till ett teambaserat kvalitetsbetyg använt i kvartalsgranskningar. Inom två kvartal nådde täckningen 99 %, och incidentfrekvensen steg. En granskning fann team som skrev triviala tester, som bara bekräftade att en funktion returnerade utan att kasta ett fel, rent för att tillfredsställa täckningsverktyget, medan genuin testning av kantfall inte hade förbättrats alls. Lösningen ersatte det råa täckningsmålet med ett parat mätetal: täckning plus ett mutationstestningsresultat (kapitel 4.2) som mäter om tester faktiskt fångar injicerade fel, vilket är mycket svårare att manipulera billigt.
+**Stort företag.** Ett detaljhandelsteknikbolag satte ett mål på 99 % automatiserad testtäckning över alla tjänster, kopplat till ett teambaserat kvalitetsbetyg använt i kvartalsgranskningar. Inom två kvartal nådde täckningen 99 %, och incidentfrekvensen steg. En granskning fann team som skrev triviala tester, som bara bekräftade att en funktion returnerade utan att kasta ett fel, rent för att tillfredsställa täckningsverktyget, medan genuin testning av kantfall inte hade förbättrats alls. Lösningen ersatte det råa täckningsmålet med ett parat mätetal: täckning plus ett mutationstestningsresultat (ämne 4.2) som mäter om tester faktiskt fångar injicerade fel, vilket är mycket svårare att manipulera billigt.
 
 **Myndighet.** En delstats arbetslöshetsförsäkringsmyndighet mättes på medianantal dagar till första utbetalning, publicerat till dess lagstiftare. Under press att nå ett mål började ett regionalt kontor tyst omklassificera svårare-att-behandla ärenden som "ofullständiga" och exkludera dem från nämnaren, vilket fick den publicerade medianen att se utmärkt ut medan vissa sökande väntade mycket längre än rapporten antydde. En oberoende granskning av själva definitionen, inte bara talet, avslöjade praktiken. Myndighetens lösning frös definitionen, publicerade exkluderingskriterierna offentligt, och lade till ett skyddsmätetal som spårade andelen ofullständiga ärenden i sig, så att en topp i omklassificering nu skulle vara synlig istället för dold.
 
@@ -84,7 +84,7 @@ Den centrala spänningen är **motivationskraft kontra snedvridningsrisk**. De m
 
 Avkastningen på att ta Goodharts lag på allvar är undviket omarbete. En organisation som designar skydd i förväg spenderar en blygsam mängd extra ansträngning på att definiera ett andra mätetal vid sidan av det första. En organisation som hoppar över det här steget spenderar ofta ett helt kvartal eller mer av felriktad ansträngning innan snedvridningen syns, följt av den mycket svårare kostnaden att riva upp manipulerat beteende och återuppbygga förtroendet för talet efteråt. Detaljhandelsexemplet ovan är typiskt: billigt att förebygga, dyrt att reparera.
 
-Den totala ägandekostnaden för ett skydd är inte gratis: det är ett andra mätetal att definiera, instrumentera och granska. Men den kostnaden är liten och fast jämfört med den obegränsade kostnaden för ett incitament som tyst belönar fel beteende i månader innan någon märker det. Varje kapitel efter det här prissätter den avvägningen, vilket är varför skyddsparning dyker upp som en rekommendation genom resten av den här boken och inte bara här.
+Den totala ägandekostnaden för ett skydd är inte gratis: det är ett andra mätetal att definiera, instrumentera och granska. Men den kostnaden är liten och fast jämfört med den obegränsade kostnaden för ett incitament som tyst belönar fel beteende i månader innan någon märker det. Varje ämne efter det här prissätter den avvägningen, vilket är varför skyddsparning dyker upp som en rekommendation genom resten av den här boken och inte bara här.
 
 ## Antimönster och fallgropar
 

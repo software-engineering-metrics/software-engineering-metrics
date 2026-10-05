@@ -1,7 +1,7 @@
 # 9.7 Index
 
-A subject index of key concepts and the chapters that cover them.
-Terms are defined in the Glossary (chapter 9.1).
+A subject index of key concepts and the topics that cover them.
+Terms are defined in the Glossary (topic 9.1).
 
 ## A
 

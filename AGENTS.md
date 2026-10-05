@@ -5,11 +5,11 @@ this first. It is short on purpose; the details live in the linked files.
 
 ## What this repo is
 
-A working book about measuring software engineering well: 47 chapters across 8
+A working book about measuring software engineering well: 47 topics across 8
 parts, plus front matter and appendices. The writing is deliberately warm,
 plain, and opinionated, and it follows a strict house style. Every metric
 family carries its own gaming vector and guardrail, because the book's central
-premise (chapter 1.2) is [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law):
+premise (topic 1.2) is [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law):
 a measure that becomes a target stops being a good measure. This repository
 holds the book's content and specification, plus the SvelteKit site
 (`software-engineering-metrics.github.io/`) that renders it into the
@@ -29,7 +29,7 @@ three are mechanically derived from it by `tools/localize.py`.
 2. **No stock LLM phrasing.** No "not only ... but also", "but also", or
    "load-bearing"; no "It's important to note", "In today's fast-paced world",
    and similar filler.
-3. **Follow the chapter template.** Content chapters use the fixed section order
+3. **Follow the topic template.** Content topics use the fixed section order
    in [`locales/en-gb-oxendict/contributing/chapter-template.md`](locales/en-gb-oxendict/contributing/chapter-template.md).
 4. **Define terms on first use** and **link key concepts to Wikipedia** on first
    mention. Real references only; never fabricate a work or a URL.
@@ -40,9 +40,9 @@ three are mechanically derived from it by `tools/localize.py`.
    [`spec/conventions.md`](spec/conventions.md); spelling is declared in
    [`spec/oxford-spelling.md`](spec/oxford-spelling.md) and
    [`spec/locales.md`](spec/locales.md). Change the spec and
-   the chapters together.
+   the topics together.
 6. **Tests must pass.** Run `just test` before you consider a change done.
-7. **Name the gaming vector.** A chapter that presents a metric without also
+7. **Name the gaming vector.** A topic that presents a metric without also
    presenting how it gets gamed and what pairs with it to catch that is not
    finished.
 
@@ -56,7 +56,7 @@ and [`spec/conventions.md`](spec/conventions.md).
   `software-engineering-metrics.github.io/` (see below), one subdirectory per
   locale (`en-gb-oxendict`, `en-001`, `en-gb`, `en-us`), each with the
   identical structure below.
-  - `<locale>/topics/` : the chapter files (the directory is named per locale, e.g. `temas/` in `es-es`; see [`spec/section-names.json`](spec/section-names.json)), named `PP-CC-slug.md` with a zero-padded, dash-separated, sortable prefix (the chapter number in the text stays dotted, e.g. `2.1`), identical across every locale.
+  - `<locale>/topics/` : the topic files (the directory is named per locale, e.g. `temas/` in `es-es`; see [`spec/section-names.json`](spec/section-names.json)), named `PP-CC-slug.md` with a zero-padded, dash-separated, sortable prefix (the topic number in the text stays dotted, e.g. `2.1`), identical across every locale.
   - `<locale>/front-matter/` : the opening essay, introduction, and table of contents.
   - `<locale>/examples/` : small illustrative examples (a metrics charter, a dashboard spec).
   - `<locale>/contributing/` : contributor and agent guides, plus shared snippets.
@@ -90,14 +90,14 @@ and [`spec/conventions.md`](spec/conventions.md).
 
 ## Task guides
 
-- Writing or editing a chapter: [`locales/en-gb-oxendict/contributing/authoring.md`](locales/en-gb-oxendict/contributing/authoring.md)
+- Writing or editing a topic: [`locales/en-gb-oxendict/contributing/authoring.md`](locales/en-gb-oxendict/contributing/authoring.md)
 - Regenerating navigation after structure changes: [`locales/en-gb-oxendict/contributing/navigation.md`](locales/en-gb-oxendict/contributing/navigation.md)
 - Running and understanding the tests: [`locales/en-gb-oxendict/contributing/testing.md`](locales/en-gb-oxendict/contributing/testing.md)
 - Locale policy and the derivation tool: [`spec/locales.md`](spec/locales.md)
 
 ## Shared snippets
 
-- Blank chapter template: [`locales/en-gb-oxendict/contributing/chapter-template.md`](locales/en-gb-oxendict/contributing/chapter-template.md)
+- Blank topic template: [`locales/en-gb-oxendict/contributing/chapter-template.md`](locales/en-gb-oxendict/contributing/chapter-template.md)
 - Style rules (enforceable): [`locales/en-gb-oxendict/contributing/style-rules.md`](locales/en-gb-oxendict/contributing/style-rules.md)
 - Part index: [`locales/en-gb-oxendict/contributing/part-index.md`](locales/en-gb-oxendict/contributing/part-index.md)
 
@@ -108,9 +108,9 @@ and [`spec/conventions.md`](spec/conventions.md).
    `locales/en-gb-oxendict/`.
 3. Run `python3 tools/localize.py` to re-derive `en-001`, `en-gb`, and
    `en-us`.
-4. If you changed the set of chapters, update `spec/structure.md`, run
+4. If you changed the set of topics, update `spec/structure.md`, run
    `just nav`, and run `python3 tools/gen_locale_peer_ids.py` so the new
-   chapter gets a `.locale-peer-id` sidecar in every locale.
+   topic gets a `.locale-peer-id` sidecar in every locale.
 5. Run `just test`. Fix anything it reports. `just spell` catches spelling
    issues the suite does not; CI runs it too.
 6. Update `locales/en-gb-oxendict/project/changelog.md` with a one-line

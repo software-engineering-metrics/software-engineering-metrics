@@ -1,7 +1,7 @@
 # 9.7 Índice
 
-Um índice de assuntos de conceitos-chave e os capítulos que os cobrem.
-Os termos são definidos no Glossário (capítulo 9.1).
+Um índice de assuntos de conceitos-chave e os temas que os cobrem.
+Os termos são definidos no Glossário (tema 9.1).
 
 ## A
 

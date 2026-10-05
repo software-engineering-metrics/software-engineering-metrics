@@ -5,7 +5,7 @@ ingeniería: la entrega, la experiencia del desarrollador, y la calidad de
 código. Esta parte sale de ese límite y plantea la pregunta a cuyo servicio
 existe finalmente toda métrica de ingeniería, ya sea directamente o a
 varios pasos de distancia: ¿este trabajo realmente ayudó al negocio y a las
-personas que usan lo que construye? El capítulo 1.3 estableció los
+personas que usan lo que construye? El tema 1.3 estableció los
 resultados sobre la producción como un principio rector al principio de
 este libro; esta parte es donde ese principio se enfrenta a su prueba más
 exigente, porque los resultados de producto y negocio son los más alejados
@@ -18,7 +18,7 @@ producto y negocio corre el riesgo de optimizar bellamente lo equivocado:
 entregar rápido, con una excelente cobertura de pruebas, en una
 funcionalidad que nadie usa, o mantener una calidad de código impecable en
 un sistema cuya propuesta de valor central silenciosamente ha dejado de
-importarle a los clientes. Los cinco capítulos de esta parte, defectos
+importarle a los clientes. Los cinco temas de esta parte, defectos
 escapados, adopción de funcionalidades, resultados de clientes y negocio,
 economía unitaria, y retorno de la inversión, dan a los líderes de
 ingeniería un vocabulario para esa conexión, y dan a los líderes de negocio
@@ -37,7 +37,7 @@ métricas cuidadosas y protegidas por salvaguardas del resto del libro
 finalmente se conectan con esa conversación externa, orientada a
 resultados.
 
-## Capítulos de esta parte
+## Temas de esta parte
 
 - **5.1 Tasa de defectos escapados y escapes de calidad:** La métrica de
   calidad que más directamente refleja lo que los clientes realmente
@@ -57,28 +57,28 @@ resultados.
   inversión de ingeniería importante, y ser igualmente honesto cuando el
   caso no se sostiene.
 
-## Cómo se relacionan estos capítulos
+## Cómo se relacionan estos temas
 
-El capítulo 5.1 empieza lo más cerca posible de casa, la calidad tal como
+El tema 5.1 empieza lo más cerca posible de casa, la calidad tal como
 la experimentan directamente los clientes, y es el puente natural desde
-las métricas de calidad interna de la parte 4. El capítulo 5.2 plantea la
+las métricas de calidad interna de la parte 4. El tema 5.2 plantea la
 siguiente pregunta una vez que se ha tenido en cuenta la calidad: ¿alguien
-realmente usa lo que se construyó? El capítulo 5.3 amplía aún más el
+realmente usa lo que se construyó? El tema 5.3 amplía aún más el
 enfoque hacia toda la gama de resultados de clientes y negocio que le
 importan a una organización, de los cuales el uso es solo una señal entre
-varias. Los capítulos 5.4 y 5.5 después convierten toda la parte en algo
+varias. Los temas 5.4 y 5.5 después convierten toda la parte en algo
 financiero: expresar el coste y el retorno de la ingeniería en términos que
 se conectan directamente con las decisiones de presupuesto e inversión,
 cerrando el ciclo que abrió esta parte al preguntar si el esfuerzo de
 ingeniería realmente ayudó.
 
-Los capítulos de esta parte se apoyan particularmente en la alfabetización
-estadística del capítulo 1.6, ya que los resultados de producto y negocio
+Los temas de esta parte se apoyan particularmente en la alfabetización
+estadística del tema 1.6, ya que los resultados de producto y negocio
 son con frecuencia ruidosos, confundidos por las condiciones del mercado, y
 lentos de confirmar, exactamente las condiciones en las que es más probable
-que los errores que advierte el capítulo 1.6 produzcan una conclusión
+que los errores que advierte el tema 1.6 produzcan una conclusión
 segura pero equivocada. Lee esta parte junto a la parte 7, donde el cambio
 hacia la IA generativa eleva la apuesta en medir bien los resultados
 precisamente porque el volumen de producción, como argumentan los
-capítulos de esta parte a lo largo de todo el texto, nunca fue lo correcto
+temas de esta parte a lo largo de todo el texto, nunca fue lo correcto
 que optimizar en primer lugar.

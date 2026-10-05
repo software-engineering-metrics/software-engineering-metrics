@@ -1,7 +1,7 @@
 # Software Engineering Metrics: Specification
 
 This is the source of truth for the book. The book is a **book**. It is made
-of **chapters**. The chapters are **Markdown**. The words in those chapters are
+of **topics**. The topics are **Markdown**. The words in those topics are
 the product. Everything else in the repository exists to serve them.
 
 If you are an author or an agent about to change anything, read this file
@@ -10,7 +10,7 @@ and which rules you may not break.
 
 ## This is a book, not a website
 
-The book is written and lives as Markdown chapters. It is authored, read,
+The book is written and lives as Markdown topics. It is authored, read,
 reviewed, and versioned as prose. The published website is a rendering of that
 prose, not the thing itself.
 
@@ -28,27 +28,27 @@ prose, not the thing itself.
   the rendering directory entirely and still have the whole book intact in
   plain text. That is the test of what is authoritative here.
 
-So write for a reader holding a book, chapter by chapter. Do not write for a
+So write for a reader holding a book, topic by topic. Do not write for a
 navigation sidebar, a search box, or a theme. Those are downstream.
 
 ## What spec-driven development means here
 
-The spec comes first, the chapters conform to it, and the tests enforce it.
+The spec comes first, the topics conform to it, and the tests enforce it.
 
-1. **Declare intent in the spec.** What chapters exist, in what order, and
-   what shape each chapter takes is decided here and in the companion spec
-   files, not improvised chapter by chapter.
-2. **Bring the chapters into line.** Chapters are written and edited to
-   satisfy the spec. A chapter that does not follow the template or the house
+1. **Declare intent in the spec.** What topics exist, in what order, and
+   what shape each topic takes is decided here and in the companion spec
+   files, not improvised topic by topic.
+2. **Bring the topics into line.** Topics are written and edited to
+   satisfy the spec. A topic that does not follow the template or the house
    style is a defect, not a variation.
 3. **Enforce mechanically what can be enforced.** `tests/validate.py` checks
    the structure and the rules that a machine can check. `just test` must pass
    before any change is considered done.
 
-The rule that ties these together: **change the spec and the chapters in the
-same change.** Never let the manifest, the conventions, and the actual chapter
+The rule that ties these together: **change the spec and the topics in the
+same change.** Never let the manifest, the conventions, and the actual topic
 files drift apart. If you want to change what the book is or how it reads,
-edit the spec first, then make the chapters match.
+edit the spec first, then make the topics match.
 
 ## The specification files
 
@@ -56,11 +56,11 @@ This overview is the entry point for the **content**. The enforceable detail
 lives in three companion files.
 
 - **[structure.md](structure.md)** is the canonical manifest: every part and
-  every chapter, with its decimal number, title, and file name. It is the sole
-  authority for which chapters exist and how they are numbered. The test suite
+  every topic, with its decimal number, title, and file name. It is the sole
+  authority for which topics exist and how they are numbered. The test suite
   checks that the files on disk match it exactly.
 - **[conventions.md](conventions.md)** is the writing and format
-  specification: the numbering scheme, the chapter template, the house style,
+  specification: the numbering scheme, the topic template, the house style,
   and the hard rules the tests enforce.
 - **[oxford-spelling.md](oxford-spelling.md)** is the spelling standard for
   the authoring locale: Oxford spelling (British English with `-ize`
@@ -84,7 +84,7 @@ metrics that reflect real outcomes rather than activity, the standard
 frameworks (DORA, SPACE), the metric families that matter (delivery and flow,
 developer experience, code and quality, product and business, reliability and
 security), and how to run a metrics program that improves a team rather than
-policing it. Chapter 1.2 sets the guardrail that governs every other chapter:
+policing it. Topic 1.2 sets the guardrail that governs every other topic:
 [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law), the fact that
 any measure, once it becomes a target, stops being a good measure. Every
 metric family in this book is presented with that guardrail attached, not as
@@ -92,29 +92,29 @@ an afterthought but as a condition of using the metric at all.
 
 ## The shape of the book
 
-The book is organized as numbered parts, each made of numbered chapters.
+The book is organized as numbered parts, each made of numbered topics.
 
-- Parts are whole numbers (1 through 9). Chapters are decimals within a part,
+- Parts are whole numbers (1 through 9). Topics are decimals within a part,
   for example `2.3`.
-- Chapter **N.0** is the part introduction. Chapters **N.1, N.2, ...** are the
-  content chapters. Numbering within a part is contiguous and starts at N.0.
-- Chapter files live in `locales/<locale>/topics/` and are named
+- Topic **N.0** is the part introduction. Topics **N.1, N.2, ...** are the
+  content topics. Numbering within a part is contiguous and starts at N.0.
+- Topic files live in `locales/<locale>/topics/` and are named
   `PP-CC-slug.md` with a zero-padded, dash-separated, sortable numeric prefix
-  (two-digit part, two-digit chapter; the N.0 introduction is `PP-00`), for
+  (two-digit part, two-digit topic; the N.0 introduction is `PP-00`), for
   example `02-00-flow-metrics.md` and `02-01-the-flow-framework.md`,
-  so a plain lexical sort lists the chapters in reading order. The slug is
+  so a plain lexical sort lists the topics in reading order. The slug is
   lowercase with dashes, and is identical across every locale.
-- The first heading of every chapter file is `# N.M Title` using the unpadded,
-  dotted chapter number, and that number must match the file's `PP-CC` prefix.
+- The first heading of every topic file is `# N.M Title` using the unpadded,
+  dotted topic number, and that number must match the file's `PP-CC` prefix.
 - Part 9 is the appendices: glossary, a formulas reference, checklists,
   templates, a maturity self-assessment, references, and an index.
 
-The authoritative list of parts and chapters is [structure.md](structure.md).
+The authoritative list of parts and topics is [structure.md](structure.md).
 This overview never restates that list, so the two can never fall out of sync.
 
-## The chapter template
+## The topic template
 
-Every content chapter (N.1 and up, in Parts 1 through 8) uses these sections,
+Every content topic (N.1 and up, in Parts 1 through 8) uses these sections,
 in this order. All are required and checked.
 
 1. `# N.M Title`
@@ -147,31 +147,31 @@ version is in [conventions.md](conventions.md).
    ranges.
 2. **No stock LLM phrasing.** No "not only ... but also", no "load-bearing",
    no "It's important to note", and no similar filler.
-3. **Follow the chapter template.** Content chapters use the fixed section
+3. **Follow the topic template.** Content topics use the fixed section
    order above.
 4. **Define terms on first use, and link key concepts to Wikipedia** on first
    mention. Real references only; never fabricate a work or a URL.
 5. **The spec is the source of truth.** Structure is declared in
    [structure.md](structure.md); style is declared in
-   [conventions.md](conventions.md). Change the spec and the chapters
+   [conventions.md](conventions.md). Change the spec and the topics
    together.
 6. **Tests must pass.** Run `just test` before you consider a change done.
-7. **Every metric family carries its own guardrail.** A chapter that presents
+7. **Every metric family carries its own guardrail.** A topic that presents
    a metric without also presenting how it gets gamed and what pairs with it
-   to catch that gaming is not finished (see chapter 1.2).
+   to catch that gaming is not finished (see topic 1.2).
 
 ## The usual workflow
 
-1. Decide the change as a change to the book: which chapters, which sections,
+1. Decide the change as a change to the book: which topics, which sections,
    which words.
 2. Edit the spec first if the change touches structure, numbering, or
    conventions.
-3. Edit or write the chapters in `locales/en-gb-oxendict/` (the Oxford-spelled
+3. Edit or write the topics in `locales/en-gb-oxendict/` (the Oxford-spelled
    authoring locale), following the template and the house style.
 4. Run `python3 tools/localize.py` to re-derive `en-001`, `en-gb`, and
    `en-us` from the updated `en-gb-oxendict` source (see
    [locales.md](locales.md)).
-5. If the set of chapters changed, regenerate the navigation artifacts with
+5. If the set of topics changed, regenerate the navigation artifacts with
    `just nav`. That regeneration is downstream bookkeeping; the book is
    already correct before it runs.
 6. Run `just test`. Fix anything it reports.

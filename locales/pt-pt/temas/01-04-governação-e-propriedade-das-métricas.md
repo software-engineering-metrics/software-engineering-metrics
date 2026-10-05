@@ -20,7 +20,7 @@ Para organizações empresariais e governamentais, a governação carrega um pes
 
 ### Escrever uma carta de métricas para todo o conjunto de métricas que atravesse uma fronteira de equipa
 
-Uma **carta de métricas** é um documento curto e vivo que declara o propósito de um conjunto de métricas, os seus não-objetivos explícitos (a distinção diagnóstica-versus-avaliativa do capítulo 1.1 pertence aqui), o dono e a fonte da verdade de cada métrica, e uma cadência de revisão. Mantenha-a numa página. O ficheiro docs/examples/metrics-charter-example.md no repositório companheiro deste livro mostra a forma. Uma carta tão curta é lida; uma carta que se expande para um documento de política não é.
+Uma **carta de métricas** é um documento curto e vivo que declara o propósito de um conjunto de métricas, os seus não-objetivos explícitos (a distinção diagnóstica-versus-avaliativa do tema 1.1 pertence aqui), o dono e a fonte da verdade de cada métrica, e uma cadência de revisão. Mantenha-a numa página. O ficheiro docs/examples/metrics-charter-example.md no repositório companheiro deste livro mostra a forma. Uma carta tão curta é lida; uma carta que se expande para um documento de política não é.
 
 ### Atribuir um dono nomeado a cada métrica, não a uma equipa
 
@@ -32,7 +32,7 @@ Quando dois sistemas calculam a mesma métrica nominalmente designada de formas 
 
 ### Construir uma revisão de retirada na cadência de governação
 
-Um programa de métricas que apenas acrescenta métricas acumula uma expansão de painel de controlo sobre a qual ninguém consegue agir (capítulo 1.1). Em cada revisão de governação, ao lado de propor novas métricas, pergunte quais das existentes não informaram uma decisão nos últimos dois ciclos e são candidatas à retirada. A retirada não é um fracasso; é a mesma disciplina que uma base de código saudável aplica ao código morto.
+Um programa de métricas que apenas acrescenta métricas acumula uma expansão de painel de controlo sobre a qual ninguém consegue agir (tema 1.1). Em cada revisão de governação, ao lado de propor novas métricas, pergunte quais das existentes não informaram uma decisão nos últimos dois ciclos e são candidatas à retirada. A retirada não é um fracasso; é a mesma disciplina que uma base de código saudável aplica ao código morto.
 
 ### Escalar o rigor da governação com a consequência, não com o volume
 
@@ -75,7 +75,7 @@ A tensão central é **consistência versus velocidade**. A governação central
 
 ## Exemplos
 
-**Empresa.** Uma empresa multinacional de software descobriu, durante uma integração pós-aquisição, que as suas duas maiores unidades de negócio definiam "frequência de implementação" de forma diferente: uma contava cada envio a um ambiente de teste, a outra contava apenas lançamentos de produção. A liderança tinha estado a comparar o desempenho de entrega das duas unidades durante mais de um ano usando números que não eram na verdade comparáveis. A correção foi um conselho de governação de métricas à escala da empresa que publicou um único glossário de definições de métricas (espelhado no capítulo 9.2 deste livro), exigiu que cada equipa certificasse conformidade, e retirou as definições locais ambíguas dentro de um trimestre.
+**Empresa.** Uma empresa multinacional de software descobriu, durante uma integração pós-aquisição, que as suas duas maiores unidades de negócio definiam "frequência de implementação" de forma diferente: uma contava cada envio a um ambiente de teste, a outra contava apenas lançamentos de produção. A liderança tinha estado a comparar o desempenho de entrega das duas unidades durante mais de um ano usando números que não eram na verdade comparáveis. A correção foi um conselho de governação de métricas à escala da empresa que publicou um único glossário de definições de métricas (espelhado no tema 9.2 deste livro), exigiu que cada equipa certificasse conformidade, e retirou as definições locais ambíguas dentro de um trimestre.
 
 **Governo.** Um gabinete nacional de estatísticas responsável por publicar um painel de controlo de desempenho de serviços digitais descobriu que uma mudança na forma como "resolvido dentro do SLA" era calculado, feita silenciosamente por uma equipa de engenharia a corrigir o que viam como um erro, tinha deslocado uma figura de conformidade de destaque em vários pontos percentuais sem documentação pública da mudança. O gabinete estabeleceu um processo formal de controlo de mudanças para qualquer definição de métrica que alimentasse um relatório público: as mudanças propostas exigem uma justificação documentada, uma comparação antes-e-depois publicada ao lado da mudança, e aprovação de um responsável nomeado, fechando a lacuna que tinha deixado a mudança anterior passar despercebida.
 

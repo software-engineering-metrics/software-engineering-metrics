@@ -52,7 +52,7 @@
           <span class="part-number">Part {part.number}</span>
           <span class="part-title">{part.title}</span>
           <span class="part-meta">
-            {part.chapters.length} {part.chapters.length === 1 ? 'chapter' : 'chapters'}
+            {part.chapters.length} {part.chapters.length === 1 ? 'topic' : 'topics'}
           </span>
         </a>
       </li>

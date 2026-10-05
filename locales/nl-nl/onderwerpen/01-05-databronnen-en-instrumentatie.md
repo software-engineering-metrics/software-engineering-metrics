@@ -2,7 +2,7 @@
 
 ## Overzicht en motivatie
 
-Een metriek is alleen zo betrouwbaar als de data erachter, en de meeste metriekenprogramma's besteden veel meer inspanning aan het ontwerpen van dashboards dan aan het verifiëren van de pijplijn die ze voedt. Dit is achterstevoren. Een prachtig ontworpen diagram gebouwd op inconsistente, zelfgerapporteerde, of stilletjes kapotte instrumentatie is erger dan geen diagram, omdat het gezaghebbend oogt terwijl het verkeerd is. Dit hoofdstuk gaat over de onglamoureuze fundering die de rest van dit boek aanneemt: waar ingenieursdata daadwerkelijk vandaan komt, wanneer geautomatiseerde instrumentatie te vertrouwen boven zelfrapportage, en de datakwaliteitsfalingen die stilletjes een metriek ongeldig maken voordat iemand het merkt.
+Een metriek is alleen zo betrouwbaar als de data erachter, en de meeste metriekenprogramma's besteden veel meer inspanning aan het ontwerpen van dashboards dan aan het verifiëren van de pijplijn die ze voedt. Dit is achterstevoren. Een prachtig ontworpen diagram gebouwd op inconsistente, zelfgerapporteerde, of stilletjes kapotte instrumentatie is erger dan geen diagram, omdat het gezaghebbend oogt terwijl het verkeerd is. Dit onderwerp gaat over de onglamoureuze fundering die de rest van dit boek aanneemt: waar ingenieursdata daadwerkelijk vandaan komt, wanneer geautomatiseerde instrumentatie te vertrouwen boven zelfrapportage, en de datakwaliteitsfalingen die stilletjes een metriek ongeldig maken voordat iemand het merkt.
 
 Softwareontwikkelingsdata komt van een handvol bronsoorten, elk met andere betrouwbaarheidskarakteristieken. Versiebeheer en [CI/CD](https://en.wikipedia.org/wiki/CI/CD)-pijplijnen genereren objectieve, tijdgestempelde, moeilijk-na-te-maken records van wat daadwerkelijk gebeurde. Issuetrackers en projectmanagementtools genereren records die afhangen van mensen die status correct en tijdig bijwerken, wat ze vaak inconsistent doen. Enquêtes genereren zelfgerapporteerde data die onwaardeerbaar is voor dingen die geen systeem kan observeren, zoals tevredenheid, maar onderhevig is aan geheugenvertekening en sociale-wenselijkheidseffecten. Observabiliteitsplatforms genereren systeemniveau-telemetrie die objectief is maar alleen dekt wat geïnstrumenteerd werd. Weten uit welke categorie de data van een gegeven metriek komt, vertelt je hoeveel hem te vertrouwen en welke faalmodi te bewaken.
 
@@ -11,7 +11,7 @@ Op grote-bedrijf- en overheidsschaal stapelen datakwaliteitsproblemen zich op om
 ## Kernprincipes
 
 - **Verkies instrumentatie boven zelfrapportage waar het systeem de gebeurtenis direct kan observeren.** Een deploymenttijdstempel van de pijplijn is betrouwbaarder dan een team's zelfgerapporteerde deploymentaantal.
-- **Gebruik zelfrapportage alleen voor wat niet direct geobserveerd kan worden.** Tevredenheid, ervaren wrijving, en welzijn hebben geen systeem-van-record-vervanging; vraag direct en ontwerp de enquête goed (hoofdstuk 3.7). Reserveer zelfrapportage specifiek voor die categorie.
+- **Gebruik zelfrapportage alleen voor wat niet direct geobserveerd kan worden.** Tevredenheid, ervaren wrijving, en welzijn hebben geen systeem-van-record-vervanging; vraag direct en ontwerp de enquête goed (onderwerp 3.7). Reserveer zelfrapportage specifiek voor die categorie.
 - **De data van elke metriek heeft een bronsysteem, een verzamelmethode, en een bekende faalmodus.** Documenteer alle drie, niet alleen de definitie.
 - **Datakwaliteit vervalt stilletjes.** Een pijplijn die een jaar geleden correct werkte, kan vandaag stilletjes kapot zijn, en een dashboard zal een verkeerd cijfer blijven weergeven zonder klacht.
 - **Instrumenteer op het punt van waarheid, niet stroomafwaarts van een vertaling.** Elke sprong tussen de gebeurtenis en het dashboard is een kans voor betekenis om af te drijven.
@@ -20,7 +20,7 @@ Op grote-bedrijf- en overheidsschaal stapelen datakwaliteitsproblemen zich op om
 
 ### Kaart elke metriek naar zijn daadwerkelijke bronsysteem voordat je hem vertrouwt
 
-Voor elke metriek op een dashboard, benoem het specifieke systeem dat de onderliggende gebeurtenis genereert: de CI/CD-pijplijn voor deploymentgebeurtenissen, de versiebeheerhost voor commit- en mergegebeurtenissen, de incidenttracker voor uitvalrecords, het enquêteplatform voor zelfgerapporteerde tevredenheid. Als je het exacte systeem niet kunt benoemen, weet je eigenlijk niet waar het cijfer vandaan komt, en kun je zijn betrouwbaarheid niet evalueren. Deze kartering is een voorwaarde voor het governancecharter in hoofdstuk 1.4, geen afzonderlijke oefening.
+Voor elke metriek op een dashboard, benoem het specifieke systeem dat de onderliggende gebeurtenis genereert: de CI/CD-pijplijn voor deploymentgebeurtenissen, de versiebeheerhost voor commit- en mergegebeurtenissen, de incidenttracker voor uitvalrecords, het enquêteplatform voor zelfgerapporteerde tevredenheid. Als je het exacte systeem niet kunt benoemen, weet je eigenlijk niet waar het cijfer vandaan komt, en kun je zijn betrouwbaarheid niet evalueren. Deze kartering is een voorwaarde voor het governancecharter in onderwerp 1.4, geen afzonderlijke oefening.
 
 ### Instrumenteer bij de gebeurtenis, niet bij het rapport
 
@@ -28,7 +28,7 @@ De meest betrouwbare data vangt een gebeurtenis automatisch op het moment dat he
 
 ### Reserveer enquêtes voor wat alleen een persoon je kan vertellen
 
-Sommige dingen kunnen echt niet geobserveerd worden vanuit systeemtelemetrie: of een ingenieur voelt dat zijn werk betekenisvol is, of een proces frustrerend aanvoelt, of burn-out-risico stijgt. Deze vereisen direct vragen, en een goed ontworpen enquête (hoofdstuk 3.7 behandelt de mechanica) is het juiste gereedschap. De fout is zelfrapportage gebruiken voor dingen die een systeem direct kon observeren in plaats daarvan, ingenieurs vragend hun eigen deploymentfrequentie te schatten in plaats van het uit de pijplijn te trekken, wat onnodige ruis en vertekening introduceert in data die objectief had kunnen zijn.
+Sommige dingen kunnen echt niet geobserveerd worden vanuit systeemtelemetrie: of een ingenieur voelt dat zijn werk betekenisvol is, of een proces frustrerend aanvoelt, of burn-out-risico stijgt. Deze vereisen direct vragen, en een goed ontworpen enquête (onderwerp 3.7 behandelt de mechanica) is het juiste gereedschap. De fout is zelfrapportage gebruiken voor dingen die een systeem direct kon observeren in plaats daarvan, ingenieurs vragend hun eigen deploymentfrequentie te schatten in plaats van het uit de pijplijn te trekken, wat onnodige ruis en vertekening introduceert in data die objectief had kunnen zijn.
 
 ### Bouw datakwaliteitscontroles in de pijplijn zelf
 
@@ -36,7 +36,7 @@ Behandel metriekpijplijnen met dezelfde rigor als productiecode: voeg geautomati
 
 ### Documenteer de verzamelmethode naast de definitie
 
-De definitie van een metriek ("doorlooptijd voor wijzigingen") is niet compleet zonder zijn verzamelmethode (gemeten vanaf de eerste commit-tijdstempel in versiebeheer tot productiedeploymenttijdstempel in de pijplijn, hotfix-branches uitgesloten). Twee teams met dezelfde definitie maar verschillende verzamelmethoden zullen nog steeds onvergelijkbare cijfers produceren. Registreer beide in het metriekcharter uit hoofdstuk 1.4, en behandel een verandering in beide als een verandering die dezelfde gedocumenteerde review vereist.
+De definitie van een metriek ("doorlooptijd voor wijzigingen") is niet compleet zonder zijn verzamelmethode (gemeten vanaf de eerste commit-tijdstempel in versiebeheer tot productiedeploymenttijdstempel in de pijplijn, hotfix-branches uitgesloten). Twee teams met dezelfde definitie maar verschillende verzamelmethoden zullen nog steeds onvergelijkbare cijfers produceren. Registreer beide in het metriekcharter uit onderwerp 1.4, en behandel een verandering in beide als een verandering die dezelfde gedocumenteerde review vereist.
 
 ## Afwegingen: voor- en nadelen
 

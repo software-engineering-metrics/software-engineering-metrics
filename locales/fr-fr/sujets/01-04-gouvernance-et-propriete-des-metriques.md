@@ -20,7 +20,7 @@ Pour les organisations d'entreprise et gouvernementales, la gouvernance porte un
 
 ### Écrivez une charte des métriques pour chaque ensemble de métriques qui traverse une frontière d'équipe
 
-Une **charte des métriques** est un document court et vivant qui énonce l'objectif d'un ensemble de métriques, ses non-objectifs explicites (la distinction diagnostique-contre-évaluative du chapitre 1.1 a sa place ici), le propriétaire et la source de vérité de chaque métrique, et une cadence de revue. Gardez-la à une page. Le fichier docs/examples/metrics-charter-example.md dans le dépôt compagnon de ce livre montre la forme. Une charte aussi courte est lue ; une charte qui s'étend en document de politique ne l'est pas.
+Une **charte des métriques** est un document court et vivant qui énonce l'objectif d'un ensemble de métriques, ses non-objectifs explicites (la distinction diagnostique-contre-évaluative du sujet 1.1 a sa place ici), le propriétaire et la source de vérité de chaque métrique, et une cadence de revue. Gardez-la à une page. Le fichier docs/examples/metrics-charter-example.md dans le dépôt compagnon de ce livre montre la forme. Une charte aussi courte est lue ; une charte qui s'étend en document de politique ne l'est pas.
 
 ### Assignez un propriétaire nommé à chaque métrique, pas une équipe
 
@@ -32,7 +32,7 @@ Quand deux systèmes calculent la même métrique nominalement nommée différem
 
 ### Intégrez une revue de retrait dans la cadence de gouvernance
 
-Un programme de métriques qui ne fait qu'ajouter des métriques accumule une prolifération de tableau de bord sur laquelle personne ne peut agir (chapitre 1.1). À chaque revue de gouvernance, en plus de proposer de nouvelles métriques, demandez lesquelles des existantes n'ont éclairé aucune décision dans les deux derniers cycles et sont candidates au retrait. Le retrait n'est pas un échec ; c'est la même discipline qu'une base de code saine applique au code mort.
+Un programme de métriques qui ne fait qu'ajouter des métriques accumule une prolifération de tableau de bord sur laquelle personne ne peut agir (sujet 1.1). À chaque revue de gouvernance, en plus de proposer de nouvelles métriques, demandez lesquelles des existantes n'ont éclairé aucune décision dans les deux derniers cycles et sont candidates au retrait. Le retrait n'est pas un échec ; c'est la même discipline qu'une base de code saine applique au code mort.
 
 ### Échelonnez la rigueur de gouvernance à la conséquence, pas au volume
 
@@ -75,7 +75,7 @@ La tension centrale est **cohérence contre vitesse**. Une gouvernance centrale 
 
 ## Exemples
 
-**Grande entreprise.** Une entreprise de logiciels multinationale a découvert, lors d'une intégration post-acquisition, que ses deux plus grandes unités commerciales définissaient « fréquence de déploiement » différemment : l'une comptait chaque poussée vers un environnement de pré-production, l'autre ne comptait que les sorties en production. La direction avait comparé la performance de livraison des deux unités pendant plus d'un an en utilisant des chiffres qui n'étaient en fait pas comparables. La correction a été un comité de gouvernance des métriques à l'échelle de l'entreprise qui a publié un glossaire unique de définitions de métriques (reflété dans le chapitre 9.2 de ce livre), a exigé que chaque équipe certifie sa conformité, et a retiré les définitions locales ambiguës en un trimestre.
+**Grande entreprise.** Une entreprise de logiciels multinationale a découvert, lors d'une intégration post-acquisition, que ses deux plus grandes unités commerciales définissaient « fréquence de déploiement » différemment : l'une comptait chaque poussée vers un environnement de pré-production, l'autre ne comptait que les sorties en production. La direction avait comparé la performance de livraison des deux unités pendant plus d'un an en utilisant des chiffres qui n'étaient en fait pas comparables. La correction a été un comité de gouvernance des métriques à l'échelle de l'entreprise qui a publié un glossaire unique de définitions de métriques (reflété dans le sujet 9.2 de ce livre), a exigé que chaque équipe certifie sa conformité, et a retiré les définitions locales ambiguës en un trimestre.
 
 **Gouvernement.** Un office national de statistiques responsable de publier un tableau de bord de performance de services numériques a trouvé qu'un changement dans la manière dont « résolu dans les délais du SLA » était calculé, fait tranquillement par une équipe d'ingénierie corrigeant ce qu'elle voyait comme un bug, avait décalé un chiffre de conformité phare de plusieurs points de pourcentage sans aucune documentation publique du changement. L'office a établi un processus formel de contrôle des changements pour toute définition de métrique alimentant un rapport public : les changements proposés exigent une justification documentée, une comparaison avant-après publiée aux côtés du changement, et une validation d'un responsable nommé, comblant l'écart qui avait laissé passer inaperçu le changement antérieur.
 

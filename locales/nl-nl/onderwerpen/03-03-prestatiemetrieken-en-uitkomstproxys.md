@@ -2,11 +2,11 @@
 
 ## Overzicht en motivatie
 
-**Prestatie**, de P in SPACE (hoofdstuk 3.1), is de dimensie het vaakst verward met activiteit, en die verwarring is precies wat dit hoofdstuk bestaat om te voorkomen. Prestatie vraagt of het werk van een ingenieur of een team daadwerkelijk een goede **[uitkomst](https://en.wikipedia.org/wiki/Outcome_(probability))** produceerde: een functie die uitgeleverd werd en werkte, een systeem dat betrouwbaar bleef, een wijziging die een bedrijfs- of gebruikersmetriek in de juiste richting bewoog. Activiteit (hoofdstuk 3.4) vraagt alleen hoeveel beweging optrad. Een team kan sterk actief en laag presterend zijn, constante kleine wijzigingen uitleverend die nooit een uitkomst bewegen, en het omgekeerde is even mogelijk: een team dat zelden uitlevert maar wiens wijzigingen betrouwbaar precies goed landen.
+**Prestatie**, de P in SPACE (onderwerp 3.1), is de dimensie het vaakst verward met activiteit, en die verwarring is precies wat dit onderwerp bestaat om te voorkomen. Prestatie vraagt of het werk van een ingenieur of een team daadwerkelijk een goede **[uitkomst](https://en.wikipedia.org/wiki/Outcome_(probability))** produceerde: een functie die uitgeleverd werd en werkte, een systeem dat betrouwbaar bleef, een wijziging die een bedrijfs- of gebruikersmetriek in de juiste richting bewoog. Activiteit (onderwerp 3.4) vraagt alleen hoeveel beweging optrad. Een team kan sterk actief en laag presterend zijn, constante kleine wijzigingen uitleverend die nooit een uitkomst bewegen, en het omgekeerde is even mogelijk: een team dat zelden uitlevert maar wiens wijzigingen betrouwbaar precies goed landen.
 
-De moeilijkheid met deze dimensie is dat uitkomst vaak niet toe te schrijven is aan een enkele persoon of zelfs een enkel team; software-uitkomsten komen op uit samenwerking, uit beslissingen genomen maanden eerder door mensen die sindsdien naar andere projecten verhuisd zijn, uit marktomstandigheden die geen ingenieur controleert. SPACE-onderzoekers waren hierover expliciet: prestatie zou gemeten moeten worden op systeem- of teamniveau met meervoudige, convergerende signalen, niet gereduceerd tot een enkel cijfer en zeker niet toegeschreven aan een individuele ingenieur in isolatie. Dit hoofdstuk neemt die begeleiding serieus en behandelt individuele prestatietoeschrijving als een valkuil om actief te vermijden, geen kortere weg om te nemen wanneer handig.
+De moeilijkheid met deze dimensie is dat uitkomst vaak niet toe te schrijven is aan een enkele persoon of zelfs een enkel team; software-uitkomsten komen op uit samenwerking, uit beslissingen genomen maanden eerder door mensen die sindsdien naar andere projecten verhuisd zijn, uit marktomstandigheden die geen ingenieur controleert. SPACE-onderzoekers waren hierover expliciet: prestatie zou gemeten moeten worden op systeem- of teamniveau met meervoudige, convergerende signalen, niet gereduceerd tot een enkel cijfer en zeker niet toegeschreven aan een individuele ingenieur in isolatie. Dit onderwerp neemt die begeleiding serieus en behandelt individuele prestatietoeschrijving als een valkuil om actief te vermijden, geen kortere weg om te nemen wanneer handig.
 
-Voor grote teams is prestatiemeting goed krijgen wat een metriekenprogramma dat daadwerkelijk uitkomsten verbetert scheidt van een die alleen zichtbare drukte beloont. Grote bedrijven die prestatie vergelijken over veel teams hebben signalen nodig die manipulatie via ruwe outputvolume weerstaan; overheidsorganisaties die technologie-investering rechtvaardigen voor toezichthoudende instanties moeten aantonen dat ingenieursinspanning echte uitkomsten produceerde, niet alleen geleverde artefacten, wat precies het uitkomsten-boven-output-principe van hoofdstuk 1.3 is toegepast op deze specifieke dimensie.
+Voor grote teams is prestatiemeting goed krijgen wat een metriekenprogramma dat daadwerkelijk uitkomsten verbetert scheidt van een die alleen zichtbare drukte beloont. Grote bedrijven die prestatie vergelijken over veel teams hebben signalen nodig die manipulatie via ruwe outputvolume weerstaan; overheidsorganisaties die technologie-investering rechtvaardigen voor toezichthoudende instanties moeten aantonen dat ingenieursinspanning echte uitkomsten produceerde, niet alleen geleverde artefacten, wat precies het uitkomsten-boven-output-principe van onderwerp 1.3 is toegepast op deze specifieke dimensie.
 
 ## Kernprincipes
 
@@ -14,17 +14,17 @@ Voor grote teams is prestatiemeting goed krijgen wat een metriekenprogramma dat 
 - **Gebruik meervoudige, convergerende signalen, nooit een enkel prestatiecijfer.** Geen individuele proxy is betrouwbaar genoeg om alleen te staan.
 - **Meet op team- of systeemniveau.** Individuele uitkomsttoeschrijving is meestal onbetrouwbaar en nodigt precies de manipulatie uit waar dit boek doorheen tegen waarschuwt.
 - **Kwaliteit is deel van prestatie, geen afzonderlijke zorg.** Werk dat uitlevert maar iets anders breekt presteerde niet echt goed.
-- **Een prestatiesignaal zonder een beslissing erbij is decoratie**, precies volgens het algemene principe van hoofdstuk 1.1 toegepast op deze dimensie.
+- **Een prestatiesignaal zonder een beslissing erbij is decoratie**, precies volgens het algemene principe van onderwerp 1.1 toegepast op deze dimensie.
 
 ## Aanbevelingen
 
 ### Combineer verscheidene convergerende signalen in plaats van een prestatiescore
 
-Trek prestatiebewijs uit meervoudige bronnen: wijzigingsfoutpercentage (hoofdstuk 2.10) en ontsnapte-defectfrekvens (hoofdstuk 5.1) voor kwaliteit, deploymentuitkomsten gekoppeld aan daadwerkelijke functieadoptie (hoofdstuk 5.2) voor of het werk ertoe deed, en kwalitatieve peer- of managerbeoordeling van een team's bijdrage aan strategische doelen voor context die een pure metriek niet kan vangen. Geen enkele van deze is betrouwbaar alleen; samen, wanneer ze convergeren op dezelfde conclusie, zijn ze veel betrouwbaarder dan enig enkel cijfer zou kunnen zijn.
+Trek prestatiebewijs uit meervoudige bronnen: wijzigingsfoutpercentage (onderwerp 2.10) en ontsnapte-defectfrekvens (onderwerp 5.1) voor kwaliteit, deploymentuitkomsten gekoppeld aan daadwerkelijke functieadoptie (onderwerp 5.2) voor of het werk ertoe deed, en kwalitatieve peer- of managerbeoordeling van een team's bijdrage aan strategische doelen voor context die een pure metriek niet kan vangen. Geen enkele van deze is betrouwbaar alleen; samen, wanneer ze convergeren op dezelfde conclusie, zijn ze veel betrouwbaarder dan enig enkel cijfer zou kunnen zijn.
 
 ### Meet op teamniveau, weersta individuele toeschrijving
 
-Software-uitkomsten zijn zelden het product van een persoon's werk alleen; ze komen op uit ontwerpbeslissingen, reviewfeedback, eerder werk door mensen die sindsdien het team verlaten kunnen hebben, en samenwerking over grenzen heen. Een uitkomst toeschrijven aan een enkele ingenieur is meestal een valse precisie die deze realiteit negeert en een sterke prikkel creëert voor individuen om krediet te beschermen in plaats van vrij samen te werken, precies het soort prikkelverstoring waar hoofdstuk 1.2 tegen waarschuwt.
+Software-uitkomsten zijn zelden het product van een persoon's werk alleen; ze komen op uit ontwerpbeslissingen, reviewfeedback, eerder werk door mensen die sindsdien het team verlaten kunnen hebben, en samenwerking over grenzen heen. Een uitkomst toeschrijven aan een enkele ingenieur is meestal een valse precisie die deze realiteit negeert en een sterke prikkel creëert voor individuen om krediet te beschermen in plaats van vrij samen te werken, precies het soort prikkelverstoring waar onderwerp 1.2 tegen waarschuwt.
 
 ### Vouw kwaliteit direct in de definitie van prestatie
 
@@ -32,11 +32,11 @@ Een functie die op tijd uitlevert maar een golf productie-incidenten veroorzaakt
 
 ### Gebruik prestatiedata om investering en procesbeslissingen te informeren, niet individuele rangschikkingen
 
-Het productieve gebruik van prestatiedata is beslissen waar verder te investeren (een team dat consistent sterke uitkomsten levert verdient meer middelen en autonomie) en waar te onderzoeken (een team wiens werk consistent niet landt verdient hulp, geen schuld, volgens de diagnostische framing van hoofdstuk 1.1). Individuen of teams competitief tegen elkaar rangschikken op prestatiedata nodigt precies de manipulatie en moreel-schade uit waar dit boek tegen waarschuwt en produceert zelden betere uitkomsten dan het diagnostische gebruik doet.
+Het productieve gebruik van prestatiedata is beslissen waar verder te investeren (een team dat consistent sterke uitkomsten levert verdient meer middelen en autonomie) en waar te onderzoeken (een team wiens werk consistent niet landt verdient hulp, geen schuld, volgens de diagnostische framing van onderwerp 1.1). Individuen of teams competitief tegen elkaar rangschikken op prestatiedata nodigt precies de manipulatie en moreel-schade uit waar dit boek tegen waarschuwt en produceert zelden betere uitkomsten dan het diagnostische gebruik doet.
 
 ### Wees eerlijk over toeschrijvingsgrenzen, vooral voor platform- en faciliterende teams
 
-Teams die gedeelde infrastructuur, interne tools, of platformcapaciteiten bouwen (het platformingenieurs-hoofdstuk van het zusterboek `software-engineering-guide` behandelt dit direct) hebben vaak hun bijdrage aan uitkomsten verscheidene stappen verwijderd van enige enkele klantgerichte metriek. Meet de prestatie van deze teams door hun effect op de teams die ze faciliteren, adoptie van hun platform, vermindering in wrijving gerapporteerd door consumerende teams, in plaats van een slecht passende directe-uitkomst-metriek te dwingen op werk dat inherent indirect is.
+Teams die gedeelde infrastructuur, interne tools, of platformcapaciteiten bouwen (het platformingenieurs-onderwerp van het zusterboek `software-engineering-guide` behandelt dit direct) hebben vaak hun bijdrage aan uitkomsten verscheidene stappen verwijderd van enige enkele klantgerichte metriek. Meet de prestatie van deze teams door hun effect op de teams die ze faciliteren, adoptie van hun platform, vermindering in wrijving gerapporteerd door consumerende teams, in plaats van een slecht passende directe-uitkomst-metriek te dwingen op werk dat inherent indirect is.
 
 ## Afwegingen: voor- en nadelen
 
@@ -59,7 +59,7 @@ De centrale spanning is **precisie versus eerlijkheid**. Een enkel prestatiecijf
 
 4. **Hoe meten we de prestatie van platform- of faciliterende teams wiens bijdrage aan uitkomsten indirect is?** Als het eerlijke antwoord is "nou, dat doen we niet," is dat gat de moeite waard om te benoemen en direct aan te pakken in plaats van die teams effectief ongemeten of onrechtvaardig gemeten te laten tegen klantgerichte uitkomstmetrieken die niet bij hun werk passen.
 
-5. **Is prestatiedata ooit gebruikt om individuen competitief tegen elkaar te rangschikken, formeel of informeel?** Deze drift, gelijkend op het tevredenheidsdata-risico in hoofdstuk 3.2, beschadigt zowel de eerlijkheid van de data als de bereidheid van het team om open samen te werken.
+5. **Is prestatiedata ooit gebruikt om individuen competitief tegen elkaar te rangschikken, formeel of informeel?** Deze drift, gelijkend op het tevredenheidsdata-risico in onderwerp 3.2, beschadigt zowel de eerlijkheid van de data als de bereidheid van het team om open samen te werken.
 
 6. **Wanneer onze convergerende signalen het oneens zijn, hoge leveringssnelheid maar stijgend defecttempo, bijvoorbeeld, wat concluderen we, en behandelt ons proces die onenigheid goed?** Onenigheid tussen signalen is zelf waardevolle informatie; bespreek of je team het momenteel behandelt als ruis om te negeren of als een echte bevinding de moeite waard om te onderzoeken.
 
@@ -67,11 +67,11 @@ De centrale spanning is **precisie versus eerlijkheid**. Een enkel prestatiecijf
 
 **Startup.** Prestatie is meestal direct zichtbaar: werkte de functie, adopteerden klanten het, bewoog de metriek. Formele meervoudig-signaal-meting is vaak onnodig op deze schaal; het risico is in plaats daarvan succes of falen te snel toeschrijven aan een persoon in een snelbewegend, sterk samenwerkend klein team waar krediet en schuld zelden bij slechts een individu horen.
 
-**Klein bedrijf.** Combineer welke levering- en kwaliteitsdata je ook al hebt (hoofdstuk 2.10, hoofdstuk 5.1) met direct, eerlijk gesprek over of recent werk daadwerkelijk het bedrijf hielp, in plaats van formele meervoudig-signaal-instrumentatie te bouwen die je de capaciteit mist om te onderhouden.
+**Klein bedrijf.** Combineer welke levering- en kwaliteitsdata je ook al hebt (onderwerp 2.10, onderwerp 5.1) met direct, eerlijk gesprek over of recent werk daadwerkelijk het bedrijf hielp, in plaats van formele meervoudig-signaal-instrumentatie te bouwen die je de capaciteit mist om te onderhouden.
 
 **Groot bedrijf.** Hier betaalt de discipline van teamniveau-, meervoudig-signaal-meting zijn investering terug, omdat de druk om prestatie te reduceren tot een enkel vergelijkbaar cijfer over dozijnen teams hier het sterkst is, en de schade van valse precisie samengroeit over de resourcebeslissingen van de hele organisatie. Weersta die druk expliciet en bouw de meervoudig-signaal-zaak voor waarom het ertoe doet.
 
-**Overheid.** Aantonen dat ingenieursinvestering echte uitkomsten produceerde, niet alleen geleverde artefacten, is vaak de centrale vraag die een toezichthoudende instantie stelt. Meervoudig-signaal-prestatiemeting, expliciet gekoppeld aan uitkomstmetrieken (hoofdstuk 5.3) in plaats van alleen-levering-proxy's, geeft een veel sterker, verdedigbaarder antwoord dan een activiteits- of leveringstelling alleen.
+**Overheid.** Aantonen dat ingenieursinvestering echte uitkomsten produceerde, niet alleen geleverde artefacten, is vaak de centrale vraag die een toezichthoudende instantie stelt. Meervoudig-signaal-prestatiemeting, expliciet gekoppeld aan uitkomstmetrieken (onderwerp 5.3) in plaats van alleen-levering-proxy's, geeft een veel sterker, verdedigbaarder antwoord dan een activiteits- of leveringstelling alleen.
 
 ## Voorbeelden
 
@@ -112,7 +112,7 @@ De totale eigendomskosten zijn hoger dan een enkele-metriek-aanpak, omdat het ve
 
 ## Belangrijkste inzichten
 
-- Prestatie meet of werk een **goede uitkomst** produceerde, niet hoeveel beweging optrad; verwar het niet met activiteit (hoofdstuk 3.4).
+- Prestatie meet of werk een **goede uitkomst** produceerde, niet hoeveel beweging optrad; verwar het niet met activiteit (onderwerp 3.4).
 - Gebruik **meervoudige, convergerende signalen**, nooit een enkel prestatiecijfer, en wees achterdochtig over valse precisie.
 - Meet op **team- of systeemniveau**; individuele uitkomsttoeschrijving is meestal onbetrouwbaar en beschadigt samenwerking.
 - **Kwaliteit is deel van prestatie**, geen afzonderlijke, loskoppelde zorg.

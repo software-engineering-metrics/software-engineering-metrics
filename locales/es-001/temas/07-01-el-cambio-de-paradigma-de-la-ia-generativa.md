@@ -7,7 +7,7 @@ escribir código era lo bastante lento y laborioso como para que el
 volumen de producción bruto, líneas escritas, commits realizados,
 funcionalidades entregadas, se correlacionara al menos vagamente con el
 esfuerzo real y, de manera imperfecta, con el valor real. Esa correlación
-nunca fue perfecta, el capítulo 3.4 dedicó un capítulo entero a por qué
+nunca fue perfecta, el tema 3.4 dedicó un tema entero a por qué
 las métricas de actividad engañan incluso en un mundo previo a la IA, pero
 era lo bastante fuerte como para que muchas organizaciones construyeran
 programas de métricas sobre la suposición implícita de que más código
@@ -19,20 +19,20 @@ una fracción del coste anterior, y ese volumen no te dice casi nada por sí
 solo sobre si el código resultante funciona, es mantenible, o sirve a
 algún propósito real.
 
-La afirmación central de este capítulo es que esto es un cambio de
+La afirmación central de este tema es que esto es un cambio de
 paradigma, no un cambio de herramientas incremental. Un cambio de
 paradigma cambia lo que realmente miden tus instrumentos existentes, no
 solo los valores que reportan. Un velocímetro sigue midiendo la velocidad
 después de que cambias el motor de un coche; varias de las métricas de
 este libro no sobreviven a esta transición de manera tan limpia. La
-frecuencia de despliegue (capítulo 2.10) puede subir porque la IA aceleró
+frecuencia de despliegue (tema 2.10) puede subir porque la IA aceleró
 un trabajo genuinamente valioso, o porque la IA hizo trivialmente fácil
 generar muchos cambios pequeños y de bajo valor; el número por sí solo ya
 no puede distinguir entre ambos, de una manera en que en su mayoría podía,
 con la precaución adecuada, antes. La misma lógica se aplica con incluso
 más fuerza a los recuentos brutos de commits, las líneas de código, y el
 volumen de solicitudes de incorporación de cambios, todos los cuales ya
-advirtió el capítulo 3.4 como métricas individuales, ahora amplificados en
+advirtió el tema 3.4 como métricas individuales, ahora amplificados en
 un riesgo relevante también a nivel de equipo y organizacional.
 
 Para los equipos grandes, este cambio llegó más rápido de lo que la
@@ -55,7 +55,7 @@ medición obsoletas.
   dejado de significar lo que solían significar.
 - **El volumen de producción nunca fue un sustituto confiable del valor, y
   ahora se ha vuelto activamente poco confiable.** La advertencia del
-  capítulo 3.4 siempre fue correcta; este cambio hace que ignorarla sea
+  tema 3.4 siempre fue correcta; este cambio hace que ignorarla sea
   mucho más costoso.
 - **La brecha entre la velocidad de adopción de la IA y la velocidad de
   adaptación de la medición es el riesgo real.** Las organizaciones
@@ -76,7 +76,7 @@ Repasa tu panel actual y, para cada métrica, pregunta directamente: ¿un
 equipo que usa la asistencia de IA intensamente pero produce no más valor
 real que antes mostraría una lectura mejorada en esta métrica? Los
 recuentos de actividad, la frecuencia de commits, y la frecuencia de
-despliegue bruta (sin una salvaguarda de estabilidad emparejada, capítulo
+despliegue bruta (sin una salvaguarda de estabilidad emparejada, tema
 2.10) son los más expuestos. Las métricas de resultado de la parte 5, la
 tasa de defectos escapados, la adopción de funcionalidades, los
 resultados de negocio, son comparativamente resilientes, ya que miden el
@@ -84,26 +84,26 @@ resultado real en lugar del volumen de actividad que lo produjo.
 
 ### Reexamina específicamente la frecuencia de despliegue y el plazo de entrega, con mayor atención a las salvaguardas
 
-El capítulo 2.10 ya advirtió sobre la manipulación por sustitución,
+El tema 2.10 ya advirtió sobre la manipulación por sustitución,
 dividir trabajo significativo en despliegues triviales para inflar el
 recuento. La IA generativa hace que este patrón específico de
 manipulación sea dramáticamente más barato y fácil de producir, incluso
 sin intención, ya que los cambios triviales asistidos por IA ahora son
 casi gratuitos de generar. Endurece tu salvaguarda de tasa de fallos de
-cambio (capítulo 2.10) específicamente en proporción a cuán intensamente
+cambio (tema 2.10) específicamente en proporción a cuán intensamente
 un equipo ha adoptado el desarrollo asistido por IA, y vigila las
 tendencias de tamaño de despliegue incluso más de cerca que antes.
 
 ### Trata la capacidad de revisión de código como un nuevo cuello de botella crítico
 
 Si la asistencia de IA aumenta dramáticamente el volumen de código
-propuesto para revisión, la etapa de revisión (capítulo 2.9), ya a menudo
+propuesto para revisión, la etapa de revisión (tema 2.9), ya a menudo
 el mayor contribuyente de tiempo de espera en el flujo de entrega, se
 convierte en una restricción aún más aguda. Un revisor al que se le pide
 evaluar un volumen mucho mayor de código generado por IA al mismo ritmo
 que antes inevitablemente ralentizará el flujo o reducirá la profundidad
 de revisión, exactamente el riesgo de aprobación automática que ya
-advirtió el capítulo 2.9, ahora bajo una presión significativamente
+advirtió el tema 2.9, ahora bajo una presión significativamente
 mayor. Monitoriza las salvaguardas de profundidad y calidad de revisión
 con mayor atención a medida que aumenta el volumen de código generado por
 IA.
@@ -118,7 +118,7 @@ incorrecto, o código que pasa una revisión superficial porque parece
 idiomático y razonable, pero en realidad no se razonó con una comprensión
 genuina del contexto específico del sistema. Trata esto como una
 hipótesis que vale la pena probar activamente frente a tus propios datos
-de defectos escapados (capítulo 5.1), etiquetando los defectos según si
+de defectos escapados (tema 5.1), etiquetando los defectos según si
 el código de origen fue sustancialmente generado por IA, en lugar de
 asumir que las relaciones históricas de tasa de defectos sobre las que tu
 organización ha construido sus prácticas de calidad todavía se mantienen
@@ -126,13 +126,13 @@ sin cambios.
 
 ### Actualiza tu carta de métricas y proceso de gobernanza explícitamente para este cambio
 
-Siguiendo la disciplina de gobernanza del capítulo 1.4, no dejes que este
+Siguiendo la disciplina de gobernanza del tema 1.4, no dejes que este
 cambio le ocurra pasivamente a tu programa de métricas. Revisa
 explícitamente tu carta de métricas, nombrando qué métricas necesitan
 nuevas salvaguardas, cuáles necesitan retirarse, y cuáles siguen siendo
 confiables, como una decisión de gobernanza deliberada en lugar de una
 deriva sin examinar. Documenta el razonamiento, ya que esto es exactamente
-el tipo de cambio definicional y contextual que advierte el capítulo 1.4
+el tipo de cambio definicional y contextual que advierte el tema 1.4
 que de otro modo puede ocurrir silenciosamente y descubrirse solo mucho
 después.
 
@@ -142,7 +142,7 @@ después.
 | --- | --- | --- |
 | Seguir reportando las métricas previas a la IA sin cambios | Sin disrupción, reporte familiar | Arriesga celebrar métricas que silenciosamente han dejado de correlacionarse con el valor |
 | Auditoría completa y revisión deliberada del conjunto de métricas | Restaura una medición confiable | Requiere un esfuerzo analítico real y gestión del cambio organizacional |
-| Abandonar por completo las métricas de actividad y producción | Elimina directamente el riesgo más expuesto | Pierde alguna señal contextual legítimamente útil (la salvedad del capítulo 3.4) |
+| Abandonar por completo las métricas de actividad y producción | Elimina directamente el riesgo más expuesto | Pierde alguna señal contextual legítimamente útil (la salvedad del tema 3.4) |
 | Endurecer las salvaguardas sin una auditoría completa | Más rápido de implementar | Puede pasar por alto métricas cuya exposición es menos obvia que en los casos más claros |
 
 La tensión central es **continuidad de medición frente a validez de
@@ -153,7 +153,7 @@ reales. Pero seguir reportando una métrica que silenciosamente ha dejado
 de medir lo que solía medir es peor que la disrupción, es una
 desorientación activa. Resuelve la tensión tratando esto como exactamente
 el tipo de cambio de gobernanza deliberado y documentado que describe el
-capítulo 1.4, disruptivo a corto plazo pero necesario para mantener
+tema 1.4, disruptivo a corto plazo pero necesario para mantener
 honestas las métricas de la organización.
 
 ## Preguntas para debatir con tu equipo
@@ -174,7 +174,7 @@ honestas las métricas de la organización.
    cualquier aumento en el volumen de código asistido por IA, o la
    profundidad de revisión se está erosionando silenciosamente bajo una
    presión mayor?** Comprueba las métricas de la etapa de revisión
-   (capítulo 2.9) específicamente en busca de señales de que se
+   (tema 2.9) específicamente en busca de señales de que se
    intensifica el riesgo de aprobación automática.
 
 4. **¿Etiquetamos los defectos según si el código de origen fue
@@ -184,17 +184,17 @@ honestas las métricas de la organización.
    relevantes para si tus suposiciones de calidad históricas todavía se
    mantienen.
 
-5. **¿Hemos revisado deliberadamente nuestra carta de métricas (capítulo
+5. **¿Hemos revisado deliberadamente nuestra carta de métricas (tema
    1.4) a la luz de este cambio, o nuestra práctica de medición
    simplemente ha continuado sin cambios?** Si la respuesta honesta es lo
    segundo, esa brecha es exactamente lo que recomienda cerrar primero
-   este capítulo.
+   este tema.
 
 6. **¿Cómo sería que nuestra organización fuera sorprendida desprevenida
    por este cambio, celebrando una métrica que ya había dejado de
    significar lo que pensábamos que significaba?** Este experimento
    mental concreto y algo incómodo ayuda a motivar la auditoría que
-   recomienda este capítulo antes, en lugar de después, de que ese
+   recomienda este tema antes, en lugar de después, de que ese
    escenario realmente ocurra.
 
 ## Enfoque sectorial
@@ -217,9 +217,9 @@ que una organización más grande con más redundancia.
 ya que la adopción de IA en docenas o cientos de equipos simultáneamente
 puede desplazar la validez de las métricas en toda la organización antes
 de que ningún equipo individual note el patrón localmente. Realiza la
-auditoría del conjunto de métricas que recomienda este capítulo a nivel
+auditoría del conjunto de métricas que recomienda este tema a nivel
 organizacional, no solo equipo por equipo, y actualiza la gobernanza
-(capítulo 1.4) de manera central y explícita.
+(tema 1.4) de manera central y explícita.
 
 **Gobierno.** Las organizaciones del sector público a menudo adoptan
 nueva tecnología con más cautela, pero las métricas y puntos de
@@ -291,14 +291,14 @@ adición razonable y permanente a una cadencia de gobernanza de métricas.
   silenciosamente ha dejado de correlacionarse con el valor real.
 - **Reportar aumentos de frecuencia de despliegue o volumen de producción
   sin la salvaguarda de estabilidad emparejada:** repite la advertencia
-  del capítulo 2.10 con un riesgo significativamente mayor bajo el
+  del tema 2.10 con un riesgo significativamente mayor bajo el
   desarrollo asistido por IA.
 - **Asumir que el código generado por IA conlleva el mismo perfil de
   defectos que el código escrito por humanos sin comprobarlo:** una
   suposición no probada que podría estar activamente equivocada.
 - **Dejar que la profundidad de revisión se erosione silenciosamente bajo
   un volumen mayor de código generado por IA:** el riesgo de aprobación
-  automática del capítulo 2.9, intensificado.
+  automática del tema 2.9, intensificado.
 - **Tratar este cambio como un ajuste de una sola vez en lugar de una
   preocupación continua:** las herramientas y sus patrones de adopción
   siguen evolucionando, y la práctica de medición necesita mantener el
@@ -351,14 +351,14 @@ adición razonable y permanente a una cadencia de gobernanza de métricas.
   defectos distinto** al del código escrito por humanos, usando datos
   etiquetados de defectos escapados.
 - Trata esto como una **preocupación de gobernanza continua, no de una
-  sola vez** (capítulo 1.4), ya que las herramientas y sus patrones de
+  sola vez** (tema 1.4), ya que las herramientas y sus patrones de
   adopción siguen evolucionando.
 
 ## Referencias y lecturas adicionales
 
 - *Accelerate: The Science of Lean Software and DevOps*, de Nicole
   Forsgren, Jez Humble, y Gene Kim (el fundamento de medición basado en
-  resultados que este capítulo argumenta se vuelve más, no menos,
+  resultados que este tema argumenta se vuelve más, no menos,
   importante bajo este cambio).
 - La investigación de GitHub sobre la programación en pareja con IA y la
   productividad de los desarrolladores (investigación de la industria

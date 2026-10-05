@@ -1,10 +1,10 @@
 # 9.2 Cyfeirlyfr diffiniadau a fformwlâu metrigau
 
-Pob fformwla o'r llyfr, wedi'u casglu mewn un lle. Mae pob cofnod yn enwi'r bennod gyda'r drafodaeth lawn, gan gynnwys ei risg chwarae a'i reilen ddiogelwch. Defnyddiwch hwn fel chwiliad cyflym, nid disodliad ar gyfer y bennod ei hun.
+Pob fformwla o'r llyfr, wedi'u casglu mewn un lle. Mae pob cofnod yn enwi'r pwnc gyda'r drafodaeth lawn, gan gynnwys ei risg chwarae a'i reilen ddiogelwch. Defnyddiwch hwn fel chwiliad cyflym, nid disodliad ar gyfer y pwnc ei hun.
 
 ## Metrigau llif (Rhan 2)
 
-| Metrig | Fformwla | Pennod |
+| Metrig | Fformwla | Pwnc |
 | --- | --- | --- |
 | Cyflymder llif | Cyfrif eitemau llif wedi'u cwblhau fesul uned amser | 2.3 |
 | Dosbarthiad llif | (Eitemau wedi'u cwblhau o un math eitem llif) / (Cyfanswm eitemau wedi'u cwblhau) x 100% | 2.3 |
@@ -25,14 +25,14 @@ Pob fformwla o'r llyfr, wedi'u casglu mewn un lle. Mae pob cofnod yn enwi'r benn
 
 ## Profiad datblygwyr (Rhan 3)
 
-| Metrig | Fformwla | Pennod |
+| Metrig | Fformwla | Pwnc |
 | --- | --- | --- |
 | Amser ffocws | Cyfrif a hyd blociau di-dor dwy awr a mwy fesul wythnos, o ddata calendr | 3.6 |
 | Cyfradd ymateb | (Ymatebion arolwg a dderbyniwyd) / (Gwahoddiadau arolwg a anfonwyd) x 100% | 3.7 |
 
 ## Cod ac ansawdd (Rhan 4)
 
-| Metrig | Fformwla | Pennod |
+| Metrig | Fformwla | Pwnc |
 | --- | --- | --- |
 | Cymhlethdod cyclomatig | Llwybrau annibynnol drwy lif rheolaeth (ymylon − nodau + 2, yn ôl McCabe) | 4.1 |
 | Trosiad profi | (Llinellau/canghennau wedi'u gweithredu gan brofion) / (Cyfanswm llinellau/canghennau) x 100% | 4.2 |
@@ -43,7 +43,7 @@ Pob fformwla o'r llyfr, wedi'u casglu mewn un lle. Mae pob cofnod yn enwi'r benn
 
 ## Cynnyrch a busnes (Rhan 5)
 
-| Metrig | Fformwla | Pennod |
+| Metrig | Fformwla | Pwnc |
 | --- | --- | --- |
 | Cyfradd diffygion dianc | (Diffygion dianc wedi'u pwysoli yn ôl difrifoldeb) / (Uned traddodi neu amser) | 5.1 |
 | Mabwysiadu cychwynnol | (Defnyddwyr a geisiodd y nodwedd o leiaf unwaith) / (Cynulleidfa darged) x 100% | 5.2 |
@@ -53,7 +53,7 @@ Pob fformwla o'r llyfr, wedi'u casglu mewn un lle. Mae pob cofnod yn enwi'r benn
 
 ## Dibynadwyedd, gweithrediadau, a diogelwch (Rhan 6)
 
-| Metrig | Fformwla | Pennod |
+| Metrig | Fformwla | Pwnc |
 | --- | --- | --- |
 | Cyllideb gwall | (1 − targed SLO) x Ffenestr amser (e.e., 0.1% o 30 diwrnod ≈ 43 munud) | 6.1 |
 | Cyfradd llosgi cyllideb gwall | Cyllideb gwall wedi'i defnyddio / Cyllideb gwall wedi'i dyrannu, dros ffenestr benodol | 6.1 |
@@ -65,7 +65,7 @@ Pob fformwla o'r llyfr, wedi'u casglu mewn un lle. Mae pob cofnod yn enwi'r benn
 
 ## Nodiadau ar ddefnyddio'r fformwlâu hyn
 
-- **Parwch fformwla cyflymder neu gynnyrch bob amser â'i reilen ddiogelwch** (pennod 1.2): cyfradd methiant newid ag amlder defnyddio ac amser arwain; cyfradd diffygion dianc â chyflymder traddodi; llosgi cyllideb gwall â gweithgaredd defnyddio.
-- **Defnyddiwch ganolrifau a chanraddau, nid cyfartaleddau, ar gyfer fformwlâu seiliedig ar amser** (pennod 1.6) oni bai bod fformwla'n galw'n benodol am gyfartaledd.
-- **Mae angen system ffynhonnell a dull casglu wedi'u dogfennu ar bob fformwla** (pennod 1.5) ochr yn ochr â'i ddiffiniad mathemategol; ni fydd dau dîm yn cyfrifo'r un fformwla o wahanol ffynonellau yn cynhyrchu rhifau y gellir eu cymharu.
-- **Ni ddangosir pwysoli difrifoldeb yn glir ym mhob fformwla uchod** ond mae'n gymwys lle bynnag y mae "wedi'i bwysoli yn ôl difrifoldeb" yn ymddangos; gweler y bennod berthnasol am y cynllun dosbarthu llawn.
+- **Parwch fformwla cyflymder neu gynnyrch bob amser â'i reilen ddiogelwch** (pwnc 1.2): cyfradd methiant newid ag amlder defnyddio ac amser arwain; cyfradd diffygion dianc â chyflymder traddodi; llosgi cyllideb gwall â gweithgaredd defnyddio.
+- **Defnyddiwch ganolrifau a chanraddau, nid cyfartaleddau, ar gyfer fformwlâu seiliedig ar amser** (pwnc 1.6) oni bai bod fformwla'n galw'n benodol am gyfartaledd.
+- **Mae angen system ffynhonnell a dull casglu wedi'u dogfennu ar bob fformwla** (pwnc 1.5) ochr yn ochr â'i ddiffiniad mathemategol; ni fydd dau dîm yn cyfrifo'r un fformwla o wahanol ffynonellau yn cynhyrchu rhifau y gellir eu cymharu.
+- **Ni ddangosir pwysoli difrifoldeb yn glir ym mhob fformwla uchod** ond mae'n gymwys lle bynnag y mae "wedi'i bwysoli yn ôl difrifoldeb" yn ymddangos; gweler y pwnc perthnasol am y cynllun dosbarthu llawn.

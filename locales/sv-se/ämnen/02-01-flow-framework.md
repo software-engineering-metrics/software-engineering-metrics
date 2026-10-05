@@ -4,14 +4,14 @@
 
 **Flow Framework** är en lednings- och strukturmodell skapad av Mik Kersten och publicerad i hans bok *Project to Product* från 2018. Den finns för att besvara en fråga rena pipelinemätetal inte kan: inte bara hur snabbt och hur säkert kod rör sig från commit till produktion, utan vilken sorts värde som överhuvudtaget flödar genom pipelinen, och om den blandningen återspeglar affärens faktiska strategi. Ramverket behandlar mjukvaruleverans som ett **[värdeflöde](https://en.wikipedia.org/wiki/Value_stream)**, den fullständiga sekvensen av aktiviteter som förvandlar en idé till värde en kund mottar, och lånar direkt från värdeflödeskartläggningstraditionen inom lean-tillverkning.
 
-Den här boken använder Flow Framework som del 2:s organiserande struktur. Kapitel 2.2 introducerar dess fyra flödesobjekt, kapitel 2.3 och 2.4 introducerar dess fem flödesmätetal, kapitel 2.8 spårar de mätetalen tillbaka till deras ursprung i klassisk Lean-värdeflödeskartläggning, och kapitel 2.10 täcker DORA-mätetalen som ett smalare, pipelinefokuserat referensramverk den här delen inte längre leder med. Det är ett medvetet val, inte ett avfärdande av DORA:s forskning. DORA mäter systemgenomströmning och stabilitet med genuin statistisk rigör, men den tiger om frågan en affärsledare faktiskt bryr sig mest om: givet allt ingenjörsorganisationen levererade det här kvartalet, hur mycket av det var nytt kundvärde, och hur mycket konsumerades tyst av att fixa defekter, hantera risk, eller betala av skuld. Flow Framework finns specifikt för att göra den blandningen synlig.
+Den här boken använder Flow Framework som del 2:s organiserande struktur. Ämne 2.2 introducerar dess fyra flödesobjekt, ämnen 2.3 och 2.4 introducerar dess fem flödesmätetal, ämne 2.8 spårar de mätetalen tillbaka till deras ursprung i klassisk Lean-värdeflödeskartläggning, och ämne 2.10 täcker DORA-mätetalen som ett smalare, pipelinefokuserat referensramverk den här delen inte längre leder med. Det är ett medvetet val, inte ett avfärdande av DORA:s forskning. DORA mäter systemgenomströmning och stabilitet med genuin statistisk rigör, men den tiger om frågan en affärsledare faktiskt bryr sig mest om: givet allt ingenjörsorganisationen levererade det här kvartalet, hur mycket av det var nytt kundvärde, och hur mycket konsumerades tyst av att fixa defekter, hantera risk, eller betala av skuld. Flow Framework finns specifikt för att göra den blandningen synlig.
 
 För stora team är den här distinktionen inte akademisk. En plattformsorganisation som driver dussintals värdeflöden kan ha utmärkta DORA-tal, snabba, frekventa, stabila driftsättningar, medan dess faktiska produktoutput tyst har drivit mot nästan rent underhållsarbete, ett mönster osynligt för en instrumentpanel som bara mäter pipelinemekanik. Stora företag och myndigheter, som måste motivera ingenjörsinvestering för intressenter som tänker i affärstermer, inte pipelinetermer, behöver ett vokabulär som kopplar leveransaktivitet till strategisk avsikt. Det är vad det här ramverket tillhandahåller.
 
 ## Nyckelprinciper
 
 - **Ett värdeflöde är mätningens enhet, inte ett team eller en pipeline.** Det sträcker sig från ett kund- eller affärsbehov till det levererade utfallet, och korsar vilka teamgränser arbetet faktiskt korsar.
-- **Flödesobjekt gör "vad:et" synligt, inte bara "hur snabbt."** Kapitel 2.2:s fyra kategorier, funktioner, defekter, risker, och skuld, förvandlar ett implicit prioriteringsbeslut till ett explicit, mätbart ett.
+- **Flödesobjekt gör "vad:et" synligt, inte bara "hur snabbt."** Ämne 2.2:s fyra kategorier, funktioner, defekter, risker, och skuld, förvandlar ett implicit prioriteringsbeslut till ett explicit, mätbart ett.
 - **Kapacitetsallokering över flödesobjekt är nollsumma.** Mer kapacitet spenderad på en objekttyp är mindre kapacitet tillgänglig för de andra; ramverket gör den avvägningen synlig istället för att lämna den implicit.
 - **De fem flödesmätetalen besvarar affärsfrågor, inte bara ingenjörsfrågor.** De är designade för att presenteras för en icke-teknisk intressent, inte hållas inom ett ingenjörsteam.
 - **Värdeflödeshantering bör vara kontinuerlig, inte en engångskartläggningsövning.** Statiska värdeflödeskartor blir föråldrade; ramverket är byggt för att instrumenteras från verktygen team redan använder.
@@ -24,11 +24,11 @@ Innan ni antar något flödesmätetal, gå igenom den faktiska vägen ett arbete
 
 ### Koppla flödesmätetal till verktygen era team redan använder
 
-Flow Framework är byggt för kontinuerlig, automatiserad värdeflödeshantering, inte en periodisk manuell kartläggningsövning. Integrera flödesobjektspårning direkt i verktygen arbetet redan flödar genom, Jira, Azure DevOps, GitHub, snarare än att bygga ett parallellt spårningssystem team måste uppdatera för hand. Ett flödesobjekts tillstånd bör uppdatera sig själv i takt med att det underliggande ärendet eller pull requesten rör sig, samma instrumentering-framför-självrapportering-disciplin kapitel 1.5 rekommenderar för varje mätetal i den här boken.
+Flow Framework är byggt för kontinuerlig, automatiserad värdeflödeshantering, inte en periodisk manuell kartläggningsövning. Integrera flödesobjektspårning direkt i verktygen arbetet redan flödar genom, Jira, Azure DevOps, GitHub, snarare än att bygga ett parallellt spårningssystem team måste uppdatera för hand. Ett flödesobjekts tillstånd bör uppdatera sig själv i takt med att det underliggande ärendet eller pull requesten rör sig, samma instrumentering-framför-självrapportering-disciplin ämne 1.5 rekommenderar för varje mätetal i den här boken.
 
 ### Presentera flödesfördelning direkt för affärsintressenter, inte bara ingenjörsledning
 
-Den enskilt största missade möjligheten med det här ramverket är att behandla det som ett internt ingenjörsverktyg. Flödesfördelning, andelen arbete som går till funktioner kontra defekter, risk, och skuld (kapitel 2.3), är specifikt designad för att vara en konversation ni har med produkt- och affärsledning, eftersom den gör ett implicit prioriteringsbeslut, hur mycket kapacitet som går till nytt värde kontra att hålla ljusen tända, explicit och förhandlingsbart istället för antaget.
+Den enskilt största missade möjligheten med det här ramverket är att behandla det som ett internt ingenjörsverktyg. Flödesfördelning, andelen arbete som går till funktioner kontra defekter, risk, och skuld (ämne 2.3), är specifikt designad för att vara en konversation ni har med produkt- och affärsledning, eftersom den gör ett implicit prioriteringsbeslut, hur mycket kapacitet som går till nytt värde kontra att hålla ljusen tända, explicit och förhandlingsbart istället för antaget.
 
 ### Behandla de fyra flödesobjekten som en genuin taxonomi, inte en formalitet
 
@@ -42,7 +42,7 @@ En värdeflödeskarta blir föråldrad i det ögonblick teamgränser, verktyg, e
 
 | Tillvägagångssätt | Fördelar | Nackdelar |
 | --- | --- | --- |
-| Bara pipelinemätetal (DORA, kapitel 2.10) | Enkelt, väl validerat, billigt att instrumentera från befintlig CI/CD-data | Tiger om vilken sorts värde som levereras |
+| Bara pipelinemätetal (DORA, ämne 2.10) | Enkelt, väl validerat, billigt att instrumentera från befintlig CI/CD-data | Tiger om vilken sorts värde som levereras |
 | Fullständig Flow Framework-adoption | Kopplar leverans till affärsstrategi; gör värdeblandningen synlig och förhandlingsbar | Kräver en ärlig värdeflödeskarta och konsekvent disciplin för flödesobjektsklassificering |
 | Statisk, engångs värdeflödeskartläggning | Billigt, snabbt att köra som en workshopövning | Blir föråldrad snabbt; producerar ett ögonblick, inte ett levande mätetal |
 | Kontinuerlig, verktygsintegrerad värdeflödeshantering | Levande, alltid aktuell data; skalar över många värdeflöden | Kräver verkligt verktygsintegrationsarbete i förväg |
@@ -89,7 +89,7 @@ Den totala ägandekostnaden är koncentrerad till två platser: den initiala vä
 
 - **Att behandla värdeflödeskartläggning som en engångsworkshop, aldrig reviderad:** kartan blir föråldrad i det ögonblick organisationen förändras, och ett mätetal beräknat mot en föråldrad karta mäter fel sak.
 - **Att bygga ett parallellt, manuellt underhållet flödesobjektsspårningssystem:** förfaller snabbt under verklig arbetsbelastning; integrera i befintliga verktyg istället.
-- **Att klassificera flödesobjekt retroaktivt snarare än vid intag:** manipuleringsvektorn i hjärtat av det här kapitlet. Under leveranspress kan ett team tyst omdöpa skuld- eller riskarbete till funktioner i efterhand för att se mer produktivt ut för intressenter som bara ser flödesfördelningsdiagrammet, utan att någon någonsin fattar ett explicit, synligt beslut att göra det. Skyddet är att kräva klassificering vid intag, innan utfallet är känt, och att periodiskt granska ett urval av klassificerade objekt mot vad den underliggande ändringen faktiskt gjorde, samma granskningsdisciplin kapitel 1.2 ber om för varje mätetal i den här boken.
+- **Att klassificera flödesobjekt retroaktivt snarare än vid intag:** manipuleringsvektorn i hjärtat av det här ämnet. Under leveranspress kan ett team tyst omdöpa skuld- eller riskarbete till funktioner i efterhand för att se mer produktivt ut för intressenter som bara ser flödesfördelningsdiagrammet, utan att någon någonsin fattar ett explicit, synligt beslut att göra det. Skyddet är att kräva klassificering vid intag, innan utfallet är känt, och att periodiskt granska ett urval av klassificerade objekt mot vad den underliggande ändringen faktiskt gjorde, samma granskningsdisciplin ämne 1.2 ber om för varje mätetal i den här boken.
 - **Att hålla flödesmätetal enbart inom ingenjörsavdelningen:** förverkar ramverkets huvudfördel, ett delat vokabulär med affärsintressenter.
 - **Att kartlägga organisationsschemat istället för det faktiska värdeflödet:** döljer överlämningar mellan team som ofta är den största källan till fördröjning.
 - **Att anta ramverket organisationsövergripande innan det validerats på ett värdeflöde:** riskerar en stor investering i mätetal ingen litar på eftersom den underliggande kartan aldrig bekräftades korrekt.
@@ -113,7 +113,7 @@ Den totala ägandekostnaden är koncentrerad till två platser: den initiala vä
 
 - **Flow Framework**, från Mik Kerstens *Project to Product*, mäter vilken sorts värde som flödar genom en leveranspipeline, inte bara hur snabbt pipelinen själv körs.
 - Ett **värdeflöde**, inte ett team eller en pipeline, är ramverkets mätningsenhet, och att kartlägga det ärligt kommer innan allt instrumenteras.
-- **Flödesobjektsklassificering vid intag, inte i efterhand**, är skyddet mot det här kapitlets centrala manipuleringsvektor: att tyst omdöpa skuld- eller riskarbete till funktioner för att se mer produktivt ut.
+- **Flödesobjektsklassificering vid intag, inte i efterhand**, är skyddet mot det här ämnets centrala manipuleringsvektor: att tyst omdöpa skuld- eller riskarbete till funktioner för att se mer produktivt ut.
 - **Koppla flödesmätetal till befintliga verktyg**, Jira, Azure DevOps, GitHub, snarare än ett parallellt manuellt spårningssystem som inte kommer överleva verklig arbetsbelastning.
 - Presentera flödesdata **direkt för affärsintressenter**; den konversationen, inte en intern ingenjörsinstrumentpanel, är ramverkets huvudfördel över bara pipelinemätetal.
 

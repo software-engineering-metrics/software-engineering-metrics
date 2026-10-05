@@ -19,7 +19,7 @@ highly active (many commits, many pull requests) while performing poorly
 (the work does not move the outcomes that matter). A team can perform well
 in the short term while satisfaction craters, a leading indicator of the
 attrition and quality collapse that shows up months later. SPACE's insight,
-directly building on this book's chapter 1.2 and chapter 1.3, is that any
+directly building on this book's topic 1.2 and topic 1.3, is that any
 one of these dimensions, pursued as a standalone target, will be gamed at
 the expense of the others, and the framework exists specifically to make
 that trade-off visible before it does real damage.
@@ -58,7 +58,7 @@ saved.
 Do not adopt SPACE by picking a single favorite dimension, usually activity
 or performance, and calling it done. Deliberately select at least one
 metric from at least three of the five dimensions, mixing objective
-instrumentation (chapter 1.5) with subjective survey data (chapter 3.7),
+instrumentation (topic 1.5) with subjective survey data (topic 3.7),
 before presenting any conclusion about team productivity. This minimum
 composition is what prevents SPACE from collapsing back into the single-proxy
 problem it was designed to solve.
@@ -71,7 +71,7 @@ metric presented about a team's productivity. Use activity data to provide
 context for the other dimensions, for example noticing that a drop in
 activity coincided with a rise in satisfaction because the team finally had
 room to pay down technical debt, rather than as an independent verdict.
-Chapter 3.4 covers this dimension's specific risks in depth.
+Topic 3.4 covers this dimension's specific risks in depth.
 
 ### Apply SPACE at the team and system level, not the individual level
 
@@ -79,7 +79,7 @@ SPACE's original research and its subsequent industry adoption both treat
 the framework as a lens for understanding team and organizational
 productivity, not as an individual performance scorecard. Applying SPACE
 dimensions to rank individuals, especially the activity dimension, recreates
-exactly the gaming risk chapter 1.2 warns about and misapplies a framework
+exactly the gaming risk topic 1.2 warns about and misapplies a framework
 that was never validated for that use.
 
 ### Watch for trade-offs between dimensions, not just movement within one
@@ -164,7 +164,7 @@ resisting the pull toward activity-only metrics as the team starts to grow
 past the size where informal awareness covers everything.
 
 **Small business.** Without a dedicated people-analytics function, keep it
-simple: pair whatever delivery data you already have (chapter 2.10) with a
+simple: pair whatever delivery data you already have (topic 2.10) with a
 short, informal, regular check-in on satisfaction, even a simple one-question
 pulse survey. That minimal pairing already captures the framework's core
 discipline far better than an activity-only dashboard.
@@ -173,7 +173,7 @@ discipline far better than an activity-only dashboard.
 Standardize a balanced SPACE metric set across teams so leadership can
 compare productivity fairly rather than defaulting to whichever team has
 the most impressive-looking commit graph, and invest in the survey
-infrastructure chapter 3.7 covers to make satisfaction and collaboration
+infrastructure topic 3.7 covers to make satisfaction and collaboration
 data as reliable as the objective instrumentation.
 
 **Government.** Recruitment and retention pressure, especially where
@@ -190,11 +190,11 @@ replacement cannot immediately supply.
 tracking commit counts and story points completed as its primary
 productivity signal for years. After adopting a fuller SPACE metric set,
 including a quarterly satisfaction survey and collaboration-network
-analysis (chapter 3.5), leadership discovered that the team with the
+analysis (topic 3.5), leadership discovered that the team with the
 highest activity numbers also had the lowest satisfaction scores and the
 highest voluntary attrition rate over the following year. The activity
 numbers alone had been actively misleading; the fuller picture led to a
-deliberate reduction in that team's concurrent workload (chapter 2.5's WIP
+deliberate reduction in that team's concurrent workload (topic 2.5's WIP
 principle applied at the human level) and a measurable recovery in both
 satisfaction and, eventually, sustainable performance.
 
@@ -203,7 +203,7 @@ talent against private-sector salaries it could not match, adopted a
 balanced SPACE metric set specifically to make the case for non-monetary
 retention investments: better tooling, protected focus time, and reduced
 process friction. Satisfaction survey data combined with efficiency and flow
-metrics (chapter 3.6) showed that interruption frequency, not compensation,
+metrics (topic 3.6) showed that interruption frequency, not compensation,
 was the strongest predictor of intent-to-leave in exit interview data. The
 agency's subsequent investment in protected focus-time policy, justified
 directly by this SPACE data, correlated with a measurable improvement in
@@ -219,7 +219,7 @@ once, at which point the cost of replacing lost expertise and rebuilding
 team health dwarfs any productivity gain the narrow metric set ever
 appeared to show.
 
-The total cost of ownership includes survey infrastructure (chapter 3.7)
+The total cost of ownership includes survey infrastructure (topic 3.7)
 and the discipline of reviewing all five dimensions together rather than
 defaulting to whichever is easiest. That cost is genuinely worth paying:
 the enterprise example above shows a real, discoverable pattern, high
@@ -280,7 +280,7 @@ never have surfaced until the damage was already done.
 - Build a metric set from **at least three dimensions**, mixing objective
   and subjective data sources.
 - Treat **activity metrics as context**, never as the headline productivity
-  signal (chapter 3.4).
+  signal (topic 3.4).
 - Apply SPACE at the **team and system level**, not as an individual
   scorecard.
 - Review dimensions together, watching for **cross-dimensional trade-offs**,

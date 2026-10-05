@@ -1,6 +1,6 @@
 # 9.7 Index
 
-Ein Sachregister der Kernkonzepte und der Kapitel, die sie behandeln. Begriffe sind im Glossar definiert (Kapitel 9.1).
+Ein Sachregister der Kernkonzepte und der Themen, die sie behandeln. Begriffe sind im Glossar definiert (Thema 9.1).
 
 ## A
 

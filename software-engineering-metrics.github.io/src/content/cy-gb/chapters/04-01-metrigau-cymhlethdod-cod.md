@@ -15,7 +15,7 @@ trwyddo'n anos ei brofi'n llawn, yn anos rhesymu amdano, ac, mewn
 degawdau o ymchwil empirig, yn fesuradwy fwy tebygol o gynnwys
 diffygion.
 
-Mae'r bennod hon yn trin y mewnwelediad hwnnw â pharch gwirioneddol tra
+Mae'r pwnc hwn yn trin y mewnwelediad hwnnw â pharch gwirioneddol tra
 hefyd yn trin ei gyfyngiadau'r un mor ddifrifol. Mae metrigau cymhlethdod
 yn mesur un briodwedd benodol o god, a gall sylfaen cod fod yn syml yn
 ôl pob metrig cymhlethdod tra'n dal i fod wedi'i ddylunio'n wael, wedi'i
@@ -83,7 +83,7 @@ o'i gyfaddawdau.
 ### Gwyliwch am dwyllo trwy ddadelfennu heb symleiddio gwirioneddol
 
 Y ffordd fwyaf cyffredin y mae sgoriau cymhlethdod yn cael eu twyllo yw
-patrwm amnewid pennod 1.2 wedi'i gymhwyso i'r metrig penodol hwn:
+patrwm amnewid pwnc 1.2 wedi'i gymhwyso i'r metrig penodol hwn:
 hollti un ffwythiant gwirioneddol gymhleth yn nifer o ffwythiannau
 llai sy'n sgorio'n dda yn unigol, tra bo'r system gyffredinol yn aros
 yr un mor anodd ei deall, neu weithiau'n dod yn anos, oherwydd bod y
@@ -147,7 +147,7 @@ galed ar ei ben ei hun.
 
 2. **A ydym erioed wedi gweld ffwythiant wedi'i hollti'n nifer o rai
    llai heb i'r cod canlyniadol wirioneddol ddod yn haws ei ddeall?**
-   Dyma'r arwydd cliriaf o'r patrwm twyllo-dadelfennu y mae'r bennod hon
+   Dyma'r arwydd cliriaf o'r patrwm twyllo-dadelfennu y mae'r pwnc hwn
    yn rhybuddio yn ei erbyn. Edrychwch ar ad-drefniad diweddar wedi'i
    ysgogi'n bennaf gan sgôr cymhlethdod ac aseswch yn onest a wellodd
    ddealladwyedd gwirioneddol.
@@ -161,19 +161,19 @@ galed ar ei ben ei hun.
 4. **A ydym yn defnyddio metrigau cymhlethdod i drefnu ymdrech adolygu,
    neu fel giât awtomataidd galed heb unrhyw farn ddynol yn gysylltiedig?**
    Trafodwch a yw eich dull gorfodi cyfredol yn gadael lle i'r
-   gwahaniaeth hanfodol-yn-erbyn-damweiniol y mae'r bennod hon yn ei
+   gwahaniaeth hanfodol-yn-erbyn-damweiniol y mae'r pwnc hwn yn ei
    argymell, neu a yw'n trin pob toriad yn union yr un fath waeth beth
    fo'r cyd-destun.
 
 5. **A yw sgôr cymhlethdod erioed wedi cael ei ddefnyddio, hyd yn oed
    yn anffurfiol, i farnu ansawdd gwaith peiriannydd unigol?** Mae hyn
-   yn peryglu'r un trap gwerthuso-unigol y mae pennod 3.4 yn rhybuddio
+   yn peryglu'r un trap gwerthuso-unigol y mae pwnc 3.4 yn rhybuddio
    yn ei erbyn ar gyfer metrigau gweithgarwch, wedi'i gymhwyso yma i
    fetrigau cod yn lle hynny, ac mae'n gwahodd yr un ymateb twyllo.
 
 6. **Sut olwg sydd ar ein tuedd cymhlethdod dros y flwyddyn ddiwethaf ar
    gyfer ein ffeiliau mwyaf dyngedfennol, mwyaf aml eu newid?** Cyfunwch
-   hyn â'r dadansoddiad trosiant a man-poeth o bennod 4.3, gan fod ffeil
+   hyn â'r dadansoddiad trosiant a man-poeth o bwnc 4.3, gan fod ffeil
    sy'n gymhleth iawn ac yn cael ei newid yn aml yn haeddu sylw ymhell
    cyn un sy'n gymhleth ond anaml yn cael ei chyffwrdd.
 
@@ -193,7 +193,7 @@ hytrach na buddsoddi mewn offeryno pwrpasol. Canolbwyntiwch sylw ar eich
 ffeiliau mwyaf aml eu haddasu yn gyntaf.
 
 **Menter.** Mae metrigau cymhlethdod ar raddfa fwyaf gwerthfawr wedi'u
-cyfuno â data trosiant (pennod 4.3) i flaenoriaethu buddsoddiad
+cyfuno â data trosiant (pwnc 4.3) i flaenoriaethu buddsoddiad
 ad-drefnu ar draws sylfaen cod rhy fawr i unrhyw unigolyn ei harolygu â
 llaw. Calibrwch drothwyon fesul gwasanaeth neu barth yn hytrach na
 chymhwyso un rhif ar draws y sefydliad, gan fod cymhlethdod dilys yn
@@ -247,7 +247,7 @@ menter ad-drefnu eang, heb ei dargedu ei mynnu.
 
 Mae cost cyfanswm perchnogaeth yn isel: mae'r rhan fwyaf o gadwyni offer
 datblygu modern yn cyfrifo metrigau cymhlethdod yn awtomatig fel rhan
-o ddadansoddiad statig (pennod 4.4), a'r buddsoddiad gwirioneddol yw'r
+o ddadansoddiad statig (pwnc 4.4), a'r buddsoddiad gwirioneddol yw'r
 amser barn dynol i ddehongli canlyniadau'n gywir, gwahaniaethu
 cymhlethdod hanfodol o rai damweiniol a dal twyllo dadelfennu, yn
 hytrach nag unrhyw gost offeryno newydd sylweddol.
@@ -257,7 +257,7 @@ hytrach nag unrhyw gost offeryno newydd sylweddol.
 - **Trin sgôr cymhlethdod fel dyfarniad ansawdd uniongyrchol:** mae'n
   mesur un briodwedd benodol, nid ansawdd cod cyffredinol.
 - **Hollti ffwythiant i dwyllo'r sgôr heb symleiddio gwirioneddol:** y
-  patrwm twyllo-dadelfennu y mae'r bennod hon yn ei enwi'n benodol.
+  patrwm twyllo-dadelfennu y mae'r pwnc hwn yn ei enwi'n benodol.
 - **Cymhwyso trothwy cyffredinol heb galibro i'ch sylfaen cod eich hun:**
   yn cynhyrchu gorfodaeth naill ai'n rhy oddefol neu'n rhy llym yn
   dibynnu ar y parth.
@@ -283,7 +283,7 @@ hytrach nag unrhyw gost offeryno newydd sylweddol.
   ei hun, ac mae metrigau cymhlethdod yn gyrru triniaeth adolygu ac
   ad-drefnu'n gyson ar draws y sefydliad.
 - **Lefel 4, Rheoli:** Monitro tuedd ac allanolion cymhlethdod yn
-  weithredol a'u cyfuno â data trosiant (pennod 4.3) i flaenoriaethu
+  weithredol a'u cyfuno â data trosiant (pwnc 4.3) i flaenoriaethu
   buddsoddiad ad-drefnu; gwylio'n weithredol am dwyllo dadelfennu.
 - **Lefel 5, Cerddorfaru:** Gall y sefydliad bwyntio at welliannau
   cyfradd-diffygion penodol, mesuradwy wedi'u holrhain yn uniongyrchol

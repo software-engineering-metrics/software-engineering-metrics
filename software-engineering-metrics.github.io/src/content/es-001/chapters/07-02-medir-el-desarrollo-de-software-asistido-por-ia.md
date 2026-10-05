@@ -2,27 +2,27 @@
 
 ## Visión general y motivación
 
-El capítulo 7.1 estableció por qué varias métricas existentes ya no miden
+El tema 7.1 estableció por qué varias métricas existentes ya no miden
 de manera confiable lo que solían medir bajo el desarrollo asistido por
-IA. Este capítulo trata de qué medir en su lugar: cómo saber, con
+IA. Este tema trata de qué medir en su lugar: cómo saber, con
 evidencia real en lugar de impresión o marketing de proveedores, si la
 asistencia de codificación de IA realmente está ayudando a tu
 organización, y en qué medida. Esta es una pregunta genuinamente
 importante con consecuencias presupuestarias reales, las licencias de
 herramientas de IA representan un coste real y continuo, la disciplina de
-economía unitaria del capítulo 5.4 se aplica directamente, y una
+economía unitaria del tema 5.4 se aplica directamente, y una
 organización que no puede responderla con evidencia está o pagando de más
 por una herramienta que no está ayudando o subinvirtiendo en una que
 genuinamente sí ayuda.
 
-El enfoque de este capítulo se apoya directamente en el principio de
-resultados sobre producción del capítulo 1.3, aplicado ahora
+El enfoque de este tema se apoya directamente en el principio de
+resultados sobre producción del tema 1.3, aplicado ahora
 específicamente a la evaluación de herramientas de IA. El enfoque más
 ingenuo y común mide el desarrollo asistido por IA por el volumen de
 producción, líneas de código generadas, sugerencias aceptadas, tiempo
 ahorrado por tarea autorreportado por los desarrolladores, exactamente las
-métricas que advirtió el capítulo 7.1 como las más expuestas a este
-cambio. El enfoque más riguroso que recomienda este capítulo mide
+métricas que advirtió el tema 7.1 como las más expuestas a este
+cambio. El enfoque más riguroso que recomienda este tema mide
 resultados: si la asistencia de IA realmente redujo el tiempo de ciclo sin
 degradar la calidad, si redujo el tiempo dedicado a trabajo genuinamente
 de bajo valor y repetitivo, liberando capacidad para trabajo de mayor
@@ -44,7 +44,7 @@ de herramientas de IA a escala.
 
 - **Mide la asistencia de IA por resultado, no por volumen de producción
   o estadísticas de uso reportadas por el proveedor.** La disciplina del
-  capítulo 1.3 se aplica aquí con toda su fuerza.
+  tema 1.3 se aplica aquí con toda su fuerza.
 - **Usa un [grupo de comparación](https://en.wikipedia.org/wiki/Treatment_and_control_groups)
   genuino siempre que sea factible**, no solo una comparación de antes y
   después que una línea base creciente en toda la industria podría
@@ -66,22 +66,22 @@ asistencia de IA y un grupo comparable que no la usa, durante el mismo
 período, en lugar de comparar solo los números de antes y después de tu
 propia organización, que no pueden distinguir el efecto de la asistencia
 de IA de cualquier otro cambio concurrente (la precaución de variables de
-confusión del capítulo 1.6 se aplica directamente). Cuando un verdadero
+confusión del tema 1.6 se aplica directamente). Cuando un verdadero
 grupo de comparación sea poco práctico, como mínimo compara frente a una
-línea base histórica más larga (un gráfico de control, según el capítulo
+línea base histórica más larga (un gráfico de control, según el tema
 1.6) en lugar de una única instantánea de antes y después vulnerable a la
 regresión a la media o a cambios concurrentes no relacionados.
 
 ### Mide el tiempo de ciclo y la calidad juntos, nunca la afirmación de velocidad de la asistencia de IA por sí sola
 
-Aplica directamente la disciplina de los capítulos 2.6 y 2.10: rastrea si
+Aplica directamente la disciplina de los temas 2.6 y 2.10: rastrea si
 el trabajo asistido por IA se mueve más rápido a través de las etapas de
 tiempo de ciclo, y simultáneamente si la tasa de fallos de cambio o la
-tasa de defectos escapados (capítulo 5.1) para ese trabajo se mueve en la
+tasa de defectos escapados (tema 5.1) para ese trabajo se mueve en la
 dirección equivocada. Una ganancia de productividad genuina muestra un
 tiempo de ciclo más rápido con calidad estable o mejorada; una ganancia
 falsa muestra un tiempo de ciclo más rápido con calidad en degradación,
-exactamente el intercambio que advirtió el capítulo 7.1, descubierto aquí
+exactamente el intercambio que advirtió el tema 7.1, descubierto aquí
 mediante la misma disciplina de métricas emparejadas que aplica este
 libro a lo largo de todo el texto.
 
@@ -92,7 +92,7 @@ revisar, o que requiere más corrección y retrabajo después de la
 generación inicial, puede no mostrar ninguna mejora neta de tiempo de
 ciclo una vez que se mide todo el flujo, incluso si el paso inicial de
 generación de código se sintió dramáticamente más rápido para el
-ingeniero individual. Mide toda la cadena de tiempo de ciclo (capítulo
+ingeniero individual. Mide toda la cadena de tiempo de ciclo (tema
 2.6), no solo la etapa de codificación, para capturar esto con
 honestidad en lugar de acreditar a la asistencia de IA basándose en una
 sensación de velocidad percibida pero incompleta.
@@ -101,9 +101,9 @@ sensación de velocidad percibida pero incompleta.
 
 El autorreporte de un desarrollador de "esto me ahorró una hora" es útil
 como señal inicial y como contexto cualitativo (el enfoque combinado
-cuantitativo y cualitativo del capítulo 5.3 también se aplica aquí), pero
+cuantitativo y cualitativo del tema 5.3 también se aplica aquí), pero
 está sujeto a los mismos sesgos de recuerdo y deseabilidad que advierte el
-capítulo 1.5 para cualquier dato autorreportado, y no dice nada sobre el
+tema 1.5 para cualquier dato autorreportado, y no dice nada sobre el
 coste posterior de revisión o corrección. Usa el autorreporte para generar
 hipótesis sobre dónde está ayudando más la asistencia de IA, y luego
 valida esas hipótesis frente a datos objetivos de tiempo de ciclo y
@@ -155,14 +155,14 @@ diseño de comparación termines usando.
    comprobación de calidad correspondiente?** Revisa cualquier dato que
    exista y comprueba si existe este emparejamiento específico; si no
    existe, esa brecha es la corrección de mayor prioridad de este
-   capítulo.
+   tema.
 
 3. **¿Nuestra medición de tiempo de ciclo para el trabajo asistido por IA
    incluye el tiempo de revisión y corrección, o solo el paso de
    generación inicial?** Una afirmación de velocidad basada solo en el
    tiempo de generación, ignorando el coste de revisión posterior,
    arriesga la trampa de contabilidad incompleta que advierte
-   directamente este capítulo.
+   directamente este tema.
 
 4. **¿Qué afirmaciones de ahorro de tiempo autorreportadas hemos
    recopilado, y hemos validado alguna de ellas frente a datos
@@ -204,8 +204,8 @@ herramientas a gran escala que típicamente sigue a un piloto exitoso.
 **Gobierno.** Las decisiones de gasto en tecnología pública, incluida la
 contratación de herramientas de IA, a menudo enfrentan un escrutinio
 particular y pueden requerir una justificación formal de coste y
-beneficio (capítulo 5.5). Incorpora la disciplina de medición que
-recomienda este capítulo en cualquier fase piloto desde el principio, ya
+beneficio (tema 5.5). Incorpora la disciplina de medición que
+recomienda este tema en cualquier fase piloto desde el principio, ya
 que una metodología de evaluación rigurosa y documentada fortalece
 considerablemente el eventual caso de financiación o contratación.
 
@@ -217,7 +217,7 @@ manteniendo a la otra mitad como grupo de comparación durante un
 trimestre antes del despliegue completo. El grupo piloto mostró una
 mejora de tiempo de ciclo genuina y estadísticamente significativa para
 tareas bien definidas y ricas en código repetitivo, pero no mostró
-ninguna mejora mesurable, y un recuento de iteración de revisión (capítulo
+ninguna mejora mesurable, y un recuento de iteración de revisión (tema
 2.9) ligeramente elevado, para trabajo arquitectónico complejo y
 novedoso. Este hallazgo segmentado por tarea, visible solo gracias al
 diseño de comparación genuino y al desglose por categoría de tarea, llevó
@@ -252,7 +252,7 @@ invertir en expandirla ahí y evitar pagar de más por licencias en
 categorías de tareas donde proporciona poco valor, exactamente la
 percepción de segmentación por tarea que demuestra el ejemplo de la
 empresa de software anterior. Esto se conecta directamente con la
-economía unitaria del capítulo 5.4 y la disciplina de ROI del capítulo
+economía unitaria del tema 5.4 y la disciplina de ROI del tema
 5.5, ya que el coste de las herramientas de IA, a menudo con licencia por
 puesto, necesita el mismo tratamiento riguroso de coste y beneficio que
 aplica este libro a cualquier otra inversión de ingeniería importante.
@@ -271,7 +271,7 @@ evidencia, basado en la impresión en lugar de los datos.
 
 - **Medir la asistencia de IA solo por volumen de producción o
   estadísticas de uso del proveedor:** repite directamente la advertencia
-  central del capítulo 7.1.
+  central del tema 7.1.
 - **Depender enteramente del ahorro de tiempo autorreportado:** una señal
   débil vulnerable al sesgo, y ciega al coste de revisión y corrección
   posterior.
@@ -337,7 +337,7 @@ evidencia, basado en la impresión en lugar de los datos.
 
 - *Accelerate: The Science of Lean Software and DevOps*, de Nicole
   Forsgren, Jez Humble, y Gene Kim (la disciplina de medición de
-  resultados que este capítulo aplica a la evaluación de herramientas de
+  resultados que este tema aplica a la evaluación de herramientas de
   IA).
 - La investigación de GitHub sobre la programación en pareja con IA y la
   productividad de los desarrolladores (investigación empírica a escala
@@ -345,7 +345,7 @@ evidencia, basado en la impresión en lugar de los datos.
 - Forsgren, Nicole, Margaret-Anne Storey, Chandra Maddila, Thomas
   Zimmermann, Brian Houck, y Jenna Butler, "The SPACE of Developer
   Productivity," *ACM Queue* (2021) (la disciplina de medición
-  multidimensional que este capítulo aplica a una nueva categoría de
+  multidimensional que este tema aplica a una nueva categoría de
   herramientas específica).
 - *How to Measure Anything*, de Douglas W. Hubbard (construir
   comparaciones defendibles y cuantificar el valor bajo incertidumbre

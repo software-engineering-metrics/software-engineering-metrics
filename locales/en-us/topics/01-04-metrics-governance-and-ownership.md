@@ -48,7 +48,7 @@ five years from now as they do today.
 ### Write a metrics charter for every metric set that crosses a team boundary
 
 A **metrics charter** is a short, living document that states a metric set's
-purpose, its explicit non-goals (chapter 1.1's diagnostic-versus-evaluative
+purpose, its explicit non-goals (topic 1.1's diagnostic-versus-evaluative
 distinction belongs here), each metric's owner and source of truth, and a
 review cadence. Keep it to one page. The docs/examples/metrics-charter-example.md
 file in this book's companion repository shows the shape. A charter this
@@ -77,7 +77,7 @@ differently-named metric to rename.
 ### Build a retirement review into the governance cadence
 
 A metrics program that only ever adds metrics accumulates dashboard sprawl
-that no one can act on (chapter 1.1). At every governance review, alongside
+that no one can act on (topic 1.1). At every governance review, alongside
 proposing new metrics, ask which existing ones have not informed a decision
 in the last two cycles and are candidates for retirement. Retirement is not
 failure; it is the same discipline a healthy codebase applies to dead code.
@@ -186,7 +186,7 @@ environment, the other counted only production releases. Leadership had been
 comparing the two units' delivery performance for over a year using numbers
 that were not actually comparable. The fix was a company-wide metrics
 governance board that published a single glossary of metric definitions
-(mirrored in this book's chapter 9.2), required every team to certify
+(mirrored in this book's topic 9.2), required every team to certify
 compliance, and retired the ambiguous local definitions within one quarter.
 
 **Government.** A national statistics office responsible for publishing a

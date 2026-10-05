@@ -4,7 +4,7 @@
 
 **[Cyclomatische complexiteit](https://en.wikipedia.org/wiki/Cyclomatic_complexity)**, geïntroduceerd door Thomas J. McCabe in 1976, telt het aantal onafhankelijke paden door de controleflow van een stuk code: elke `if`, lus, en vertakking voegt toe aan de telling. Het blijft de meest gebruikte codecomplexiteitsmetriek bijna vijftig jaar later, naast verwanten zoals cognitieve complexiteit (die geneste en moeilijk-te-volgen-controleflow zwaarder weegt dan McCabes originele lineaire telling) en nestdiepte. Deze metrieken delen een echt, gevalideerd inzicht: code met meer onafhankelijke paden erdoorheen is moeilijker volledig te testen, moeilijker te doordenken, en, in decennia empirisch onderzoek, meetbaar waarschijnlijker om defecten te bevatten.
 
-Dit hoofdstuk behandelt dat inzicht met echt respect terwijl het ook zijn grenzen met gelijke ernst behandelt. Complexiteitsmetrieken meten een specifieke eigenschap van code, en een codebase kan simpel zijn volgens elke complexiteitsmetriek terwijl het nog steeds slecht ontworpen, slecht benoemd, of conceptueel incoherent is op manieren die geen vertakkingstelalgoritme kan detecteren. Omgekeerd vereisen sommige onherleidbaar complexe problemen echt complexe code om correct op te lossen, en een team onder druk om een complexiteitsscore te minimaliseren kan code produceren die goed scoort terwijl het daadwerkelijk moeilijker te begrijpen is, essentiële complexiteit verspreidend over meer bestanden en lagen van indirectie in plaats van het te verminderen.
+Dit onderwerp behandelt dat inzicht met echt respect terwijl het ook zijn grenzen met gelijke ernst behandelt. Complexiteitsmetrieken meten een specifieke eigenschap van code, en een codebase kan simpel zijn volgens elke complexiteitsmetriek terwijl het nog steeds slecht ontworpen, slecht benoemd, of conceptueel incoherent is op manieren die geen vertakkingstelalgoritme kan detecteren. Omgekeerd vereisen sommige onherleidbaar complexe problemen echt complexe code om correct op te lossen, en een team onder druk om een complexiteitsscore te minimaliseren kan code produceren die goed scoort terwijl het daadwerkelijk moeilijker te begrijpen is, essentiële complexiteit verspreidend over meer bestanden en lagen van indirectie in plaats van het te verminderen.
 
 Voor grote teams verdienen complexiteitsmetrieken hun plaats als een triagegereedschap: een manier om, onder duizenden bestanden, de kleine subset te vinden die het waarschijnlijkst een nadere blik zal belonen, niet als een zelfstandig oordeel over codekwaliteit. Grote bedrijven en overheidsorganisaties die codebases onderhouden te groot voor enig individu om volledig te hebben gelezen hangen af van deze triagefunctie om schaarse refactoring- en reviewinspanning te richten waar het het meeste goed zal doen.
 
@@ -28,7 +28,7 @@ Absolute complexiteitsdrempels onkritisch geleend van sector-conventie (een comp
 
 ### Let op manipulatie door decompositie zonder echte vereenvoudiging
 
-De meest gewone manier waarop complexiteitsscores gemanipuleerd worden is het substitutiepatroon van hoofdstuk 1.2 toegepast op deze specifieke metriek: een echt complexe functie splitsen in verscheidene kleinere functies die individueel goed scoren, terwijl het algehele systeem net zo moeilijk te begrijpen blijft, of soms moeilijker wordt, omdat de logica nu verspreid is over meer bestanden met meer indirectie ertussen. Koppel complexiteitsmetrieken met een kwalitatieve review van of decompositie de code echt verduidelijkte, of het de complexiteit alleen verplaatste naar waar de metriek het niet langer kon zien.
+De meest gewone manier waarop complexiteitsscores gemanipuleerd worden is het substitutiepatroon van onderwerp 1.2 toegepast op deze specifieke metriek: een echt complexe functie splitsen in verscheidene kleinere functies die individueel goed scoren, terwijl het algehele systeem net zo moeilijk te begrijpen blijft, of soms moeilijker wordt, omdat de logica nu verspreid is over meer bestanden met meer indirectie ertussen. Koppel complexiteitsmetrieken met een kwalitatieve review van of decompositie de code echt verduidelijkte, of het de complexiteit alleen verplaatste naar waar de metriek het niet langer kon zien.
 
 ### Onderscheid essentiële complexiteit van incidentele complexiteit voordat je reageert
 
@@ -53,15 +53,15 @@ De centrale spanning is **automatisering versus oordeel**. Een volledig geautoma
 
 1. **Zijn onze complexiteitsdrempels gecalibreerd aan de daadwerkelijke verdeling van onze eigen codebase, of onkritisch geleend van een generieke sector-conventie?** Trek de echte complexiteitsverdeling van je codebase en check of je huidige drempels zin hebben ertegen, in plaats van aan te nemen dat een gewoonlijk geciteerd cijfer universeel toepast op je domein.
 
-2. **Hebben we ooit gezien dat een functie gesplitst werd in verscheidene kleinere zonder dat de resulterende code daadwerkelijk makkelijker te begrijpen werd?** Dit is het duidelijkste teken van het decompositiemanipulatiepatroon waar dit hoofdstuk tegen waarschuwt. Kijk naar een recente refactor primair gemotiveerd door een complexiteitsscore en beoordeel eerlijk of het echte begrijpbaarheid verbeterde.
+2. **Hebben we ooit gezien dat een functie gesplitst werd in verscheidene kleinere zonder dat de resulterende code daadwerkelijk makkelijker te begrijpen werd?** Dit is het duidelijkste teken van het decompositiemanipulatiepatroon waar dit onderwerp tegen waarschuwt. Kijk naar een recente refactor primair gemotiveerd door een complexiteitsscore en beoordeel eerlijk of het echte begrijpbaarheid verbeterde.
 
 3. **Waar in onze codebase is complexiteit essentieel voor het probleem, en waar is het incidenteel en fixbaar?** Loop je hoogste-complexiteit-uitschieters door en sorteer ze expliciet in deze twee categorieën, omdat alleen de tweede categorie een echt, handelbaar kwaliteitsprobleem representeert.
 
-4. **Gebruiken we complexiteitsmetrieken om reviewinspanning te triageren, of als een harde geautomatiseerde poort zonder menselijk oordeel betrokken?** Bespreek of je huidige handhavingsaanpak ruimte laat voor het essentieel-versus-incidenteel-onderscheid dat dit hoofdstuk aanbeveelt, of of het elke overschrijding identiek behandelt ongeacht context.
+4. **Gebruiken we complexiteitsmetrieken om reviewinspanning te triageren, of als een harde geautomatiseerde poort zonder menselijk oordeel betrokken?** Bespreek of je huidige handhavingsaanpak ruimte laat voor het essentieel-versus-incidenteel-onderscheid dat dit onderwerp aanbeveelt, of of het elke overschrijding identiek behandelt ongeacht context.
 
-5. **Is een complexiteitsscore ooit gebruikt, zelfs informeel, om de werkkwaliteit van een individuele ingenieur te beoordelen?** Dit riskeert dezelfde individuele-evaluatie-valkuil waar hoofdstuk 3.4 tegen waarschuwt voor activiteitsmetrieken, hier toegepast op codemetrieken in plaats daarvan, en het nodigt dezelfde manipulatiereactie uit.
+5. **Is een complexiteitsscore ooit gebruikt, zelfs informeel, om de werkkwaliteit van een individuele ingenieur te beoordelen?** Dit riskeert dezelfde individuele-evaluatie-valkuil waar onderwerp 3.4 tegen waarschuwt voor activiteitsmetrieken, hier toegepast op codemetrieken in plaats daarvan, en het nodigt dezelfde manipulatiereactie uit.
 
-6. **Hoe ziet onze complexiteitstrend eruit over het laatste jaar voor onze meest kritieke, meest frequent gewijzigde bestanden?** Combineer dit met de churn- en hotspotanalyse van hoofdstuk 4.3, omdat een bestand dat zowel sterk complex als frequent gewijzigd is aandacht verdient ver voor een dat complex maar zelden aangeraakt is.
+6. **Hoe ziet onze complexiteitstrend eruit over het laatste jaar voor onze meest kritieke, meest frequent gewijzigde bestanden?** Combineer dit met de churn- en hotspotanalyse van onderwerp 4.3, omdat een bestand dat zowel sterk complex als frequent gewijzigd is aandacht verdient ver voor een dat complex maar zelden aangeraakt is.
 
 ## Sectorperspectief
 
@@ -69,7 +69,7 @@ De centrale spanning is **automatisering versus oordeel**. Een volledig geautoma
 
 **Klein bedrijf.** De meeste moderne statische-analysetools rapporteren complexiteitsmetrieken als deel van een bredere, gratis of laagkostende lintingsetup; gebruik de output als een periodiek triagesignaal in plaats van te investeren in toegewijde tooling. Focus aandacht op je meest frequent gewijzigde bestanden eerst.
 
-**Groot bedrijf.** Complexiteitsmetrieken op schaal zijn het meest waardevol gecombineerd met churndata (hoofdstuk 4.3) om refactoringinvestering te prioriteren over een codebase te groot voor enig individu om handmatig te overzien. Calibreer drempels per dienst of domein in plaats van een organisatiebreed cijfer toe te passen, omdat legitieme complexiteit significant varieert over verschillende soorten systemen.
+**Groot bedrijf.** Complexiteitsmetrieken op schaal zijn het meest waardevol gecombineerd met churndata (onderwerp 4.3) om refactoringinvestering te prioriteren over een codebase te groot voor enig individu om handmatig te overzien. Calibreer drempels per dienst of domein in plaats van een organisatiebreed cijfer toe te passen, omdat legitieme complexiteit significant varieert over verschillende soorten systemen.
 
 **Overheid.** Langlevende overheidssystemen stapelen vaak geleidelijk complexiteit op over jaren of decennia van incrementele vereistewijzigingen, en een complexiteitsaudit kan een overtuigend, concreet gereedschap zijn om moderniserings- of refactoringinvestering te rechtvaardigen aan belanghebbenden die het systeem anders simpelweg als "werkend" zouden kunnen zien en daarom niet de moeite waard om in te investeren.
 
@@ -83,12 +83,12 @@ De centrale spanning is **automatisering versus oordeel**. Een volledig geautoma
 
 Het rendement van complexiteitsmetrieken goed gebruiken is gerichte, hoog-waarde-refactoringinvestering: het betalingsbedrijfvoorbeeld hierboven toont een enkele, goed gerichte fix, geïdentificeerd via complexiteitsanalyse, die defecten meetbaar verminderde in precies het hoogste-risico-codepad, tegen een fractie van de kost die een breed, ongericht refactoringinitiatief vereist zou hebben.
 
-De totale eigendomskosten zijn laag: de meeste moderne ontwikkeltoolchains berekenen complexiteitsmetrieken automatisch als deel van statische analyse (hoofdstuk 4.4), en de echte investering is de menselijke-oordeel-tijd om resultaten correct te interpreteren, essentiële van incidentele complexiteit onderscheiden en decompositiemanipulatie vangen, in plaats van enige significante nieuwe toolingkost.
+De totale eigendomskosten zijn laag: de meeste moderne ontwikkeltoolchains berekenen complexiteitsmetrieken automatisch als deel van statische analyse (onderwerp 4.4), en de echte investering is de menselijke-oordeel-tijd om resultaten correct te interpreteren, essentiële van incidentele complexiteit onderscheiden en decompositiemanipulatie vangen, in plaats van enige significante nieuwe toolingkost.
 
 ## Antipatronen en valkuilen
 
 - **Een complexiteitsscore behandelen als een direct kwaliteitsoordeel:** het meet een specifieke eigenschap, niet algehele codekwaliteit.
-- **Een functie splitsen om de score te manipuleren zonder echte vereenvoudiging:** het decompositiemanipulatiepatroon dat dit hoofdstuk specifiek benoemt.
+- **Een functie splitsen om de score te manipuleren zonder echte vereenvoudiging:** het decompositiemanipulatiepatroon dat dit onderwerp specifiek benoemt.
 - **Een universele drempel toepassen zonder te calibreren aan je eigen codebase:** produceert ofwel te-soepele of te-strikte handhaving afhankelijk van domein.
 - **Complexiteitsmetrieken gebruiken om ingenieurs individueel te evalueren:** nodigt manipulatie uit en past een metriek verkeerd toe bedoeld voor triage, niet oordeel.
 - **Alle complexiteit behandelen als even fixbaar:** essentiële complexiteit van een echt moeilijk probleem is geen defect om te elimineren.
@@ -99,7 +99,7 @@ De totale eigendomskosten zijn laag: de meeste moderne ontwikkeltoolchains berek
 - **Niveau 1, Initiëren:** Complexiteit wordt niet gemeten, of wordt gemeten met een ononderzochte, generieke universele drempel onkritisch toegepast.
 - **Niveau 2, Ontwikkelen:** Complexiteitsmetrieken worden verzameld maar er wordt zelden op gehandeld, en er wordt geen onderscheid gemaakt tussen essentiële en incidentele complexiteit.
 - **Niveau 3, Standaardiseren:** Drempels zijn gecalibreerd aan de eigen verdeling van de codebase, en complexiteitsmetrieken drijven consistent review- en refactoringtriage organisatiebreed.
-- **Niveau 4, Beheren:** Complexiteitstrend en uitschieters worden actief bewaakt en gecombineerd met churndata (hoofdstuk 4.3) om refactoringinvestering te prioriteren; decompositiemanipulatie wordt actief in de gaten gehouden.
+- **Niveau 4, Beheren:** Complexiteitstrend en uitschieters worden actief bewaakt en gecombineerd met churndata (onderwerp 4.3) om refactoringinvestering te prioriteren; decompositiemanipulatie wordt actief in de gaten gehouden.
 - **Niveau 5, Orkestreren:** De organisatie kan wijzen naar specifieke, meetbare defecttempo-verbeteringen direct getraceerd naar complexiteit-geïnformeerde refactoringinvestering, en complexiteitsdata is een routinematige, vertrouwde input voor ingenieursinvesteringsbeslissingen.
 
 ## Discussie-ideeën

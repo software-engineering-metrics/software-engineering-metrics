@@ -34,8 +34,8 @@
 <input
   class="toc-search"
   type="search"
-  placeholder="Search chapters by title or number…"
-  aria-label="Search chapters"
+  placeholder="Search topics by title or number…"
+  aria-label="Search topics"
   bind:value={query}
 />
 

@@ -4,7 +4,7 @@
 
 **[Zyklomatische Komplexität](https://en.wikipedia.org/wiki/Cyclomatic_complexity)**, eingeführt von Thomas J. McCabe im Jahr 1976, zählt die Anzahl unabhängiger Pfade durch den Kontrollfluss eines Codestücks: jedes `if`, jede Schleife und jede Verzweigung erhöht die Zahl. Sie bleibt fast fünfzig Jahre später die am weitesten verbreitete Code-Komplexitätsmetrik, neben Verwandten wie kognitiver Komplexität (die verschachtelten und schwer nachvollziehbaren Kontrollfluss stärker gewichtet als McCabes ursprüngliche lineare Zählung) und Verschachtelungstiefe. Diese Metriken teilen eine echte, validierte Erkenntnis: Code mit mehr unabhängigen Pfaden ist schwerer vollständig zu testen, schwerer nachzuvollziehen, und, in Jahrzehnten empirischer Forschung, messbar wahrscheinlicher fehlerhaft.
 
-Dieses Kapitel behandelt diese Erkenntnis mit echtem Respekt, während es ihre Grenzen ebenso ernst nimmt. Komplexitätsmetriken messen eine spezifische Eigenschaft von Code, und eine Codebasis kann nach jeder Komplexitätsmetrik einfach sein und dabei dennoch schlecht gestaltet, schlecht benannt oder konzeptionell inkohärent sein, auf Weisen, die kein verzweigungszählender Algorithmus erkennen kann. Umgekehrt erfordern manche unreduzierbar komplexen Probleme echt komplexen Code, um korrekt gelöst zu werden, und ein Team, das unter Druck steht, einen Komplexitätswert zu minimieren, kann Code produzieren, der gut abschneidet, während er tatsächlich schwerer zu verstehen ist, weil die essenzielle Komplexität über mehr Dateien und Ebenen der Indirektion verteilt wird, statt reduziert zu werden.
+Dieses Thema behandelt diese Erkenntnis mit echtem Respekt, während es ihre Grenzen ebenso ernst nimmt. Komplexitätsmetriken messen eine spezifische Eigenschaft von Code, und eine Codebasis kann nach jeder Komplexitätsmetrik einfach sein und dabei dennoch schlecht gestaltet, schlecht benannt oder konzeptionell inkohärent sein, auf Weisen, die kein verzweigungszählender Algorithmus erkennen kann. Umgekehrt erfordern manche unreduzierbar komplexen Probleme echt komplexen Code, um korrekt gelöst zu werden, und ein Team, das unter Druck steht, einen Komplexitätswert zu minimieren, kann Code produzieren, der gut abschneidet, während er tatsächlich schwerer zu verstehen ist, weil die essenzielle Komplexität über mehr Dateien und Ebenen der Indirektion verteilt wird, statt reduziert zu werden.
 
 Für große Teams verdienen sich Komplexitätsmetriken ihren Platz als Triage-Werkzeug: ein Weg, um unter Tausenden Dateien die kleine Teilmenge zu finden, die am ehesten einen genaueren Blick belohnt, nicht als eigenständiges Urteil über Code-Qualität. Konzerne und Behörden, die Codebasen pflegen, die zu groß sind, als dass eine einzelne Person sie vollständig gelesen haben könnte, verlassen sich auf diese Triage-Funktion, um knappen Refactoring- und Review-Aufwand dorthin zu lenken, wo er den größten Nutzen bringt.
 
@@ -28,7 +28,7 @@ Absolute Komplexitätsschwellen, unkritisch von einer Branchenkonvention überno
 
 ### Auf Manipulation durch Zerlegung ohne echte Vereinfachung achten
 
-Der häufigste Weg, wie Komplexitätswerte manipuliert werden, ist das Substitutionsmuster aus Kapitel 1.2, angewandt auf diese spezifische Metrik: eine echt komplexe Funktion in mehrere kleinere Funktionen aufzuteilen, die einzeln gut abschneiden, während das Gesamtsystem genauso schwer zu verstehen bleibt, oder manchmal schwerer wird, weil die Logik nun über mehr Dateien mit mehr Indirektion dazwischen verstreut ist. Komplexitätsmetriken sollten mit einer qualitativen Prüfung gepaart werden, ob die Zerlegung den Code echt geklärt hat, oder ob sie die Komplexität nur dorthin verschoben hat, wo die Metrik sie nicht mehr sehen kann.
+Der häufigste Weg, wie Komplexitätswerte manipuliert werden, ist das Substitutionsmuster aus Thema 1.2, angewandt auf diese spezifische Metrik: eine echt komplexe Funktion in mehrere kleinere Funktionen aufzuteilen, die einzeln gut abschneiden, während das Gesamtsystem genauso schwer zu verstehen bleibt, oder manchmal schwerer wird, weil die Logik nun über mehr Dateien mit mehr Indirektion dazwischen verstreut ist. Komplexitätsmetriken sollten mit einer qualitativen Prüfung gepaart werden, ob die Zerlegung den Code echt geklärt hat, oder ob sie die Komplexität nur dorthin verschoben hat, wo die Metrik sie nicht mehr sehen kann.
 
 ### Essenzielle Komplexität von zufälliger Komplexität unterscheiden, bevor reagiert wird
 
@@ -53,15 +53,15 @@ Die zentrale Spannung ist **Automatisierung gegen Urteilsvermögen**. Ein vollau
 
 1. **Sind unsere Komplexitätsschwellen auf die tatsächliche Verteilung unserer eigenen Codebasis kalibriert, oder unkritisch von einer generischen Branchenkonvention übernommen?** Die tatsächliche Komplexitätsverteilung der Codebasis sollte gezogen werden, und geprüft werden, ob die aktuellen Schwellen dagegen Sinn ergeben, statt anzunehmen, eine häufig zitierte Zahl gelte universell für die eigene Domäne.
 
-2. **Haben wir je gesehen, wie eine Funktion in mehrere kleinere aufgeteilt wurde, ohne dass der resultierende Code tatsächlich verständlicher wurde?** Dies ist das klarste Zeichen des Zerlegungs-Manipulationsmusters, vor dem dieses Kapitel warnt. Ein aktuelles Refactoring, das primär durch einen Komplexitätswert motiviert war, sollte betrachtet werden, und ehrlich bewertet werden, ob es echte Verständlichkeit verbessert hat.
+2. **Haben wir je gesehen, wie eine Funktion in mehrere kleinere aufgeteilt wurde, ohne dass der resultierende Code tatsächlich verständlicher wurde?** Dies ist das klarste Zeichen des Zerlegungs-Manipulationsmusters, vor dem dieses Thema warnt. Ein aktuelles Refactoring, das primär durch einen Komplexitätswert motiviert war, sollte betrachtet werden, und ehrlich bewertet werden, ob es echte Verständlichkeit verbessert hat.
 
 3. **Wo in unserer Codebasis ist Komplexität essenziell für das Problem, und wo ist sie zufällig und behebbar?** Die höchsten Komplexitäts-Ausreißer sollten durchgegangen und explizit in diese zwei Kategorien sortiert werden, da nur die zweite Kategorie ein echtes, handlungsfähiges Qualitätsproblem darstellt.
 
-4. **Nutzen wir Komplexitätsmetriken zur Triage von Review-Aufwand, oder als starres automatisiertes Gate ohne menschliches Urteilsvermögen?** Es sollte diskutiert werden, ob der aktuelle Durchsetzungsansatz Raum für die essenziell-gegen-zufällig-Unterscheidung lässt, die dieses Kapitel empfiehlt, oder ob er jede Überschreitung identisch behandelt, unabhängig vom Kontext.
+4. **Nutzen wir Komplexitätsmetriken zur Triage von Review-Aufwand, oder als starres automatisiertes Gate ohne menschliches Urteilsvermögen?** Es sollte diskutiert werden, ob der aktuelle Durchsetzungsansatz Raum für die essenziell-gegen-zufällig-Unterscheidung lässt, die dieses Thema empfiehlt, oder ob er jede Überschreitung identisch behandelt, unabhängig vom Kontext.
 
-5. **Wurde ein Komplexitätswert je genutzt, auch nur informell, um die Arbeitsqualität einer einzelnen Ingenieurin oder eines einzelnen Ingenieurs zu beurteilen?** Dies riskiert dieselbe Individualbewertungsfalle, vor der Kapitel 3.4 für Aktivitätsmetriken warnt, hier angewandt auf Code-Metriken stattdessen, und es lädt zur selben Manipulationsreaktion ein.
+5. **Wurde ein Komplexitätswert je genutzt, auch nur informell, um die Arbeitsqualität einer einzelnen Ingenieurin oder eines einzelnen Ingenieurs zu beurteilen?** Dies riskiert dieselbe Individualbewertungsfalle, vor der Thema 3.4 für Aktivitätsmetriken warnt, hier angewandt auf Code-Metriken stattdessen, und es lädt zur selben Manipulationsreaktion ein.
 
-6. **Wie sieht unser Komplexitätstrend über das letzte Jahr für unsere kritischsten, am häufigsten geänderten Dateien aus?** Dies sollte mit der Fluktuations- und Hotspot-Analyse aus Kapitel 4.3 kombiniert werden, da eine Datei, die sowohl hochkomplex als auch häufig geändert ist, weit vor Aufmerksamkeit verdient als eine, die komplex, aber selten angefasst wird.
+6. **Wie sieht unser Komplexitätstrend über das letzte Jahr für unsere kritischsten, am häufigsten geänderten Dateien aus?** Dies sollte mit der Fluktuations- und Hotspot-Analyse aus Thema 4.3 kombiniert werden, da eine Datei, die sowohl hochkomplex als auch häufig geändert ist, weit vor Aufmerksamkeit verdient als eine, die komplex, aber selten angefasst wird.
 
 ## Branchenperspektive
 
@@ -69,7 +69,7 @@ Die zentrale Spannung ist **Automatisierung gegen Urteilsvermögen**. Ein vollau
 
 **Kleinunternehmen.** Die meisten modernen statischen Analysewerkzeuge berichten Komplexitätsmetriken als Teil einer breiteren, kostenlosen oder günstigen Linting-Einrichtung; die Ausgabe sollte als periodisches Triage-Signal genutzt werden, statt in dediziertes Tooling zu investieren. Aufmerksamkeit sollte zuerst auf die am häufigsten geänderten Dateien gerichtet werden.
 
-**Enterprise.** Komplexitätsmetriken im großen Maßstab sind am wertvollsten, kombiniert mit Fluktuationsdaten (Kapitel 4.3), um Refactoring-Investition über eine Codebasis hinweg zu priorisieren, die zu groß ist, als dass eine einzelne Person sie manuell überblicken könnte. Schwellenwerte sollten pro Service oder Domäne kalibriert werden, statt eine organisationsweite Zahl anzuwenden, da legitime Komplexität zwischen unterschiedlichen Arten von Systemen erheblich variiert.
+**Enterprise.** Komplexitätsmetriken im großen Maßstab sind am wertvollsten, kombiniert mit Fluktuationsdaten (Thema 4.3), um Refactoring-Investition über eine Codebasis hinweg zu priorisieren, die zu groß ist, als dass eine einzelne Person sie manuell überblicken könnte. Schwellenwerte sollten pro Service oder Domäne kalibriert werden, statt eine organisationsweite Zahl anzuwenden, da legitime Komplexität zwischen unterschiedlichen Arten von Systemen erheblich variiert.
 
 **Behörden.** Langlebige Behördensysteme akkumulieren Komplexität oft graduell über Jahre oder Jahrzehnte inkrementeller Anforderungsänderungen, und ein Komplexitäts-Audit kann ein überzeugendes, konkretes Werkzeug sein, um Modernisierungs- oder Refactoring-Investition gegenüber Stakeholdern zu rechtfertigen, die das System sonst einfach als „funktionierend" ansehen könnten und daher nicht für investitionswürdig halten.
 
@@ -83,12 +83,12 @@ Die zentrale Spannung ist **Automatisierung gegen Urteilsvermögen**. Ein vollau
 
 Die Rendite guter Nutzung von Komplexitätsmetriken ist gezielte, hochwertige Refactoring-Investition: das Beispiel des Zahlungsabwicklungsunternehmens oben zeigt eine einzelne, gut gezielte Korrektur, identifiziert durch Komplexitätsanalyse, die Fehler messbar genau in dem risikoreichsten Codepfad reduzierte, zu einem Bruchteil der Kosten, die eine breite, ungezielte Refactoring-Initiative erfordert hätte.
 
-Die Gesamtbetriebskosten sind niedrig: die meisten modernen Entwicklungs-Toolchains berechnen Komplexitätsmetriken automatisch als Teil statischer Analyse (Kapitel 4.4), und die echte Investition ist die menschliche Urteilszeit, um Ergebnisse korrekt zu interpretieren, essenzielle von zufälliger Komplexität zu unterscheiden und Zerlegungs-Manipulation zu fangen, statt irgendeiner bedeutsamen neuen Tooling-Kosten.
+Die Gesamtbetriebskosten sind niedrig: die meisten modernen Entwicklungs-Toolchains berechnen Komplexitätsmetriken automatisch als Teil statischer Analyse (Thema 4.4), und die echte Investition ist die menschliche Urteilszeit, um Ergebnisse korrekt zu interpretieren, essenzielle von zufälliger Komplexität zu unterscheiden und Zerlegungs-Manipulation zu fangen, statt irgendeiner bedeutsamen neuen Tooling-Kosten.
 
 ## Antipatterns und Fallstricke
 
 - **Einen Komplexitätswert als direktes Qualitätsurteil behandeln:** er misst eine spezifische Eigenschaft, nicht Gesamt-Code-Qualität.
-- **Eine Funktion aufteilen, um den Wert zu manipulieren, ohne echte Vereinfachung:** das Zerlegungs-Manipulationsmuster, das dieses Kapitel konkret benennt.
+- **Eine Funktion aufteilen, um den Wert zu manipulieren, ohne echte Vereinfachung:** das Zerlegungs-Manipulationsmuster, das dieses Thema konkret benennt.
 - **Eine universelle Schwelle anwenden, ohne sie auf die eigene Codebasis zu kalibrieren:** erzeugt je nach Domäne entweder zu nachsichtige oder zu strenge Durchsetzung.
 - **Komplexitätsmetriken nutzen, um Ingenieurinnen und Ingenieure individuell zu bewerten:** lädt zur Manipulation ein und wendet eine für Triage gedachte Metrik falsch für Urteile an.
 - **Alle Komplexität als gleichermaßen behebbar behandeln:** essenzielle Komplexität aus einem echt schwierigen Problem ist kein zu eliminierender Fehler.
@@ -99,7 +99,7 @@ Die Gesamtbetriebskosten sind niedrig: die meisten modernen Entwicklungs-Toolcha
 - **Stufe 1, Initiieren:** Komplexität wird nicht gemessen, oder mit einer ungeprüften, generischen universellen Schwelle unkritisch angewandt.
 - **Stufe 2, Entwickeln:** Komplexitätsmetriken werden erhoben, aber selten umgesetzt, und es wird keine Unterscheidung zwischen essenzieller und zufälliger Komplexität getroffen.
 - **Stufe 3, Standardisieren:** Schwellenwerte sind auf die eigene Verteilung der Codebasis kalibriert, und Komplexitätsmetriken treiben konsistent organisationsweite Review- und Refactoring-Triage an.
-- **Stufe 4, Steuern:** Komplexitätstrend und Ausreißer werden aktiv überwacht und mit Fluktuationsdaten (Kapitel 4.3) kombiniert, um Refactoring-Investition zu priorisieren; auf Zerlegungs-Manipulation wird aktiv geachtet.
+- **Stufe 4, Steuern:** Komplexitätstrend und Ausreißer werden aktiv überwacht und mit Fluktuationsdaten (Thema 4.3) kombiniert, um Refactoring-Investition zu priorisieren; auf Zerlegungs-Manipulation wird aktiv geachtet.
 - **Stufe 5, Orchestrieren:** Die Organisation kann auf konkrete, messbare Fehlerraten-Verbesserungen verweisen, die direkt auf komplexitätsinformierte Refactoring-Investition zurückgeführt werden, und Komplexitätsdaten sind ein routinemäßiger, vertrauenswürdiger Eingabewert für Engineering-Investitionsentscheidungen.
 
 ## Diskussionsanregungen

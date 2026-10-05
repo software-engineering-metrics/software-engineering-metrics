@@ -10,8 +10,8 @@ bien, nombrar una decisión clara, evitar la ley de Goodhart, ponderar hacia
 los resultados, gobernar la propiedad, instrumentar de forma fiable, y aun
 así sacar la conclusión equivocada porque leyó un promedio donde necesitaba
 un percentil, confundió ruido con tendencia, o cayó en una coincidencia
-disfrazada de causa. Este capítulo es el juicio estadístico mínimo que este
-libro asume que ya tiene el lector de cada capítulo posterior.
+disfrazada de causa. Este tema es el juicio estadístico mínimo que este
+libro asume que ya tiene el lector de cada tema posterior.
 
 El problema central es que las métricas de ingeniería suelen ser ruidosas,
 asimétricas y de muestra pequeña según los estándares de la estadística
@@ -34,7 +34,7 @@ reexaminar el análisis subyacente. Una comparación estadísticamente ingenua
 entre dos divisiones, o entre el antes y el después de una gran
 reorganización, puede moldear decisiones de asignación de recursos durante
 años basándose en nada más que ruido o en una variable de confusión que
-nadie controló. Este capítulo existe para que ese fallo sea menos probable.
+nadie controló. Este tema existe para que ese fallo sea menos probable.
 
 ## Principios clave
 
@@ -69,7 +69,7 @@ observaciones están por encima y la mitad por debajo) junto al **percentil
 90** o al **percentil 95** (el valor por debajo del cual cae el 90% o el
 95% de las observaciones), que juntos muestran tanto el caso típico como la
 cola del peor caso que un equipo realmente experimenta. El capítulo de KPI
-del libro hermano `software-engineering-guide`, y todos los capítulos de
+del libro hermano `software-engineering-guide`, y todos los temas de
 métricas de entrega de la parte 2 de este libro, asumen este hábito de
 principio a fin.
 
@@ -195,7 +195,7 @@ una lectura equivocada cuesta poco.
 
 **Startup.** Los equipos pequeños generan muestras pequeñas casi en todas
 partes, lo que significa que la cautela sobre muestras pequeñas de este
-capítulo importa constantemente. Resiste sacar conclusiones fuertes de una
+tema importa constantemente. Resiste sacar conclusiones fuertes de una
 única semana mala o de una única semana estupenda; con solo un puñado de
 puntos de datos, la respuesta honesta a "¿es esto una tendencia?" suele ser
 "todavía no lo sabemos".

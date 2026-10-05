@@ -1,10 +1,10 @@
 # 9.2 Referens för mätetalsdefinitioner och formler
 
-Varje formel från boken, samlad på ett ställe. Varje post namnger kapitlet med den fulla diskussionen, inklusive dess manipulationsrisk och skyddsmätetal. Använd det här som en snabbuppslagning, inte en ersättning för kapitlet själv.
+Varje formel från boken, samlad på ett ställe. Varje post namnger ämnet med den fulla diskussionen, inklusive dess manipulationsrisk och skyddsmätetal. Använd det här som en snabbuppslagning, inte en ersättning för ämnet själv.
 
 ## Flödesmätetal (del 2)
 
-| Mätetal | Formel | Kapitel |
+| Mätetal | Formel | Ämne |
 | --- | --- | --- |
 | Flödeshastighet | Antal flödesobjekt slutförda per tidsenhet | 2.3 |
 | Flödesfördelning | (Slutförda objekt av en flödesobjekttyp) / (Totalt slutförda objekt) x 100 % | 2.3 |
@@ -25,14 +25,14 @@ Varje formel från boken, samlad på ett ställe. Varje post namnger kapitlet me
 
 ## Utvecklarupplevelse (del 3)
 
-| Mätetal | Formel | Kapitel |
+| Mätetal | Formel | Ämne |
 | --- | --- | --- |
 | Fokustid | Antal och varaktighet av ostörda tvåtimmars-plus-block per vecka, från kalenderdata | 3.6 |
 | Svarsfrekvens | (Enkätsvar mottagna) / (Enkätinbjudningar skickade) x 100 % | 3.7 |
 
 ## Kod och kvalitet (del 4)
 
-| Mätetal | Formel | Kapitel |
+| Mätetal | Formel | Ämne |
 | --- | --- | --- |
 | Cyklomatisk komplexitet | Oberoende vägar genom kontrollflöde (kanter − noder + 2, enligt McCabe) | 4.1 |
 | Testtäckning | (Rader/grenar exekverade av tester) / (Totalt antal rader/grenar) x 100 % | 4.2 |
@@ -43,7 +43,7 @@ Varje formel från boken, samlad på ett ställe. Varje post namnger kapitlet me
 
 ## Produkt och verksamhet (del 5)
 
-| Mätetal | Formel | Kapitel |
+| Mätetal | Formel | Ämne |
 | --- | --- | --- |
 | Läckt-defektfrekvens | (Allvarlighetsviktade läckta defekter) / (Enhet av leverans eller tid) | 5.1 |
 | Initial adoption | (Användare som provade funktionen minst en gång) / (Målpublik) x 100 % | 5.2 |
@@ -53,7 +53,7 @@ Varje formel från boken, samlad på ett ställe. Varje post namnger kapitlet me
 
 ## Tillförlitlighet, drift, och säkerhet (del 6)
 
-| Mätetal | Formel | Kapitel |
+| Mätetal | Formel | Ämne |
 | --- | --- | --- |
 | Felbudget | (1 − SLO-mål) x Tidsfönster (t.ex. 0,1 % av 30 dagar ≈ 43 minuter) | 6.1 |
 | Felbudgetförbränningstakt | Förbrukad felbudget / Tilldelad felbudget, över ett givet fönster | 6.1 |
@@ -65,7 +65,7 @@ Varje formel från boken, samlad på ett ställe. Varje post namnger kapitlet me
 
 ## Anteckningar om att använda de här formlerna
 
-- **Para alltid en hastighets- eller outputformel med dess skyddsmätetal** (kapitel 1.2): ändringsfelfrekvens med driftsättningsfrekvens och ledtid; läckt-defektfrekvens med leveranshastighet; felbudgetförbränning med driftsättningsaktivitet.
-- **Använd medianer och percentiler, inte genomsnitt, för tidsbaserade formler** (kapitel 1.6) om inte en formel explicit kräver ett medelvärde.
-- **Varje formel behöver ett dokumenterat källsystem och insamlingsmetod** (kapitel 1.5) vid sidan av dess matematiska definition; två team som beräknar samma formel från olika källor kommer inte producera jämförbara tal.
-- **Allvarlighetsviktning visas inte explicit i varje formel ovan** men tillämpas närhelst "allvarlighetsviktad" förekommer; se det relevanta kapitlet för det fulla klassificeringsschemat.
+- **Para alltid en hastighets- eller outputformel med dess skyddsmätetal** (ämne 1.2): ändringsfelfrekvens med driftsättningsfrekvens och ledtid; läckt-defektfrekvens med leveranshastighet; felbudgetförbränning med driftsättningsaktivitet.
+- **Använd medianer och percentiler, inte genomsnitt, för tidsbaserade formler** (ämne 1.6) om inte en formel explicit kräver ett medelvärde.
+- **Varje formel behöver ett dokumenterat källsystem och insamlingsmetod** (ämne 1.5) vid sidan av dess matematiska definition; två team som beräknar samma formel från olika källor kommer inte producera jämförbara tal.
+- **Allvarlighetsviktning visas inte explicit i varje formel ovan** men tillämpas närhelst "allvarlighetsviktad" förekommer; se det relevanta ämnet för det fulla klassificeringsschemat.

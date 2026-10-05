@@ -2,16 +2,16 @@
 
 ## Überblick und Motivation
 
-**Flow-Zeit** ist die gesamte verstrichene Zeit von dem Moment, in dem ein Flow-Item (Kapitel 2.2) in den Wertstrom eintritt, bis es geliefert wird, und misst Reaktionsfähigkeit über den gesamten Pfad von der Identifikation eines Geschäftsbedarfs bis zum Erhalt von Wert durch eine Kundin oder einen Kunden. **Flow-Last** ist die Gesamtzahl der Flow-Items, die in einem gegebenen Moment im Wertstrom aktiv oder wartend sind, der Name des Flow Frameworks für das, was Kapitel 2.5 Work in Process nennt. Gemeinsam sind das die zwei Flow-Framework-Metriken, die am direktesten mit der Mathematik der Warteschlangentheorie verbunden sind, weil Flow-Last nicht nur mit Flow-Zeit korreliert, sondern sie mathematisch bestimmt.
+**Flow-Zeit** ist die gesamte verstrichene Zeit von dem Moment, in dem ein Flow-Item (Thema 2.2) in den Wertstrom eintritt, bis es geliefert wird, und misst Reaktionsfähigkeit über den gesamten Pfad von der Identifikation eines Geschäftsbedarfs bis zum Erhalt von Wert durch eine Kundin oder einen Kunden. **Flow-Last** ist die Gesamtzahl der Flow-Items, die in einem gegebenen Moment im Wertstrom aktiv oder wartend sind, der Name des Flow Frameworks für das, was Thema 2.5 Work in Process nennt. Gemeinsam sind das die zwei Flow-Framework-Metriken, die am direktesten mit der Mathematik der Warteschlangentheorie verbunden sind, weil Flow-Last nicht nur mit Flow-Zeit korreliert, sondern sie mathematisch bestimmt.
 
-Diese Beziehung ist **[Littles Gesetz](https://en.wikipedia.org/wiki/Little%27s_law)**, ein Beweis aus der Warteschlangentheorie (Kapitel 2.7 behandelt ihn vollständig), der besagt, dass die durchschnittliche Anzahl an Items in einem stabilen System der durchschnittlichen Ankunftsrate multipliziert mit der durchschnittlichen Zeit entspricht, die jedes Item im System verbringt. Hier angewendet: Flow-Last entspricht der Ankunftsrate multipliziert mit der Flow-Zeit. Das ist die nützlichste Einzeltatsache dieses Kapitels, weil sie ein Argument, das früher qualitativ war, „wir sind zu überlastet, Dinge dauern zu lange", in ein beweisbares, quantitatives verwandelt, das eine Geschäftsführung nicht leicht abtun kann: Wenn Flow-Last weiter steigt, während die Ankunftsrate flach bleibt, ist ein Anstieg der Flow-Zeit mathematisch garantiert, nicht nur wahrscheinlich.
+Diese Beziehung ist **[Littles Gesetz](https://en.wikipedia.org/wiki/Little%27s_law)**, ein Beweis aus der Warteschlangentheorie (Thema 2.7 behandelt ihn vollständig), der besagt, dass die durchschnittliche Anzahl an Items in einem stabilen System der durchschnittlichen Ankunftsrate multipliziert mit der durchschnittlichen Zeit entspricht, die jedes Item im System verbringt. Hier angewendet: Flow-Last entspricht der Ankunftsrate multipliziert mit der Flow-Zeit. Das ist die nützlichste Einzeltatsache dieses Themas, weil sie ein Argument, das früher qualitativ war, „wir sind zu überlastet, Dinge dauern zu lange", in ein beweisbares, quantitatives verwandelt, das eine Geschäftsführung nicht leicht abtun kann: Wenn Flow-Last weiter steigt, während die Ankunftsrate flach bleibt, ist ein Anstieg der Flow-Zeit mathematisch garantiert, nicht nur wahrscheinlich.
 
 Für große Teams ist das oft die überzeugendste Einzelzahl im gesamten Framework. Eine Geschäftsführung, die sich dagegen sträubt, neue Arbeit abzulehnen, weil jede Anfrage für sich genommen gerechtfertigt wirkt, wird oft akzeptieren, dass die Überlastung eines Wertstroms nachweislich jedes bereits darin befindliche Item verlangsamt, sobald Flow-Last verfolgt und die Beziehung zur Flow-Zeit direkt gezeigt wird, statt abstrakt argumentiert. Konzerne, die viele strategische Initiativen gleichzeitig jonglieren, und Behördenprogramme, die Dutzende parallele Arbeitsstränge betreiben, hängen beide von diesem Beweis ab, nicht nur von der dahinterliegenden Intuition, um es zu rechtfertigen, Nein zum gleichzeitigen Beginn weiterer Arbeit zu sagen.
 
 ## Kernprinzipien
 
 - **Flow-Last bestimmt Flow-Zeit mathematisch, über Littles Gesetz.** Das ist keine Korrelation; es ist ein Beweis, der für jeden stabilen Wertstrom gilt.
-- **Flow-Zeit umspannt den gesamten Wertstrom, nicht nur das Engineering.** Sie beginnt, wenn ein Geschäftsbedarf identifiziert wird, nicht wenn das Engineering die Arbeit aufnimmt, was die Zykluszeit aus Kapitel 2.6 dann weiter zerlegt.
+- **Flow-Zeit umspannt den gesamten Wertstrom, nicht nur das Engineering.** Sie beginnt, wenn ein Geschäftsbedarf identifiziert wird, nicht wenn das Engineering die Arbeit aufnimmt, was die Zykluszeit aus Thema 2.6 dann weiter zerlegt.
 - **Steigende Flow-Last ist das früheste Warnzeichen für steigende Flow-Zeit.** Weil die Beziehung beweisbar ist, kann Flow-Last als Frühindikator beobachtet werden, nicht nur entdeckt werden, nachdem sich die Flow-Zeit bereits verschlechtert hat.
 - **Der Eintrittspunkt des Wertstroms muss festgelegt und dokumentiert sein.** Wo die Flow-Zeit-Uhr zu laufen beginnt, ist eine definitorische Entscheidung, die demselben Manipulationsrisiko ausgesetzt ist wie jede andere Metrikgrenze in diesem Buch.
 - **Eine Geschäftsführung kann direkt auf Flow-Last einwirken.** Anders als Flow-Zeit, eine nachlaufende Messung, ist Flow-Last ein Hebel: Neue Arbeit abzulehnen, ist eine heute verfügbare Handlung.
@@ -20,7 +20,7 @@ Für große Teams ist das oft die überzeugendste Einzelzahl im gesamten Framewo
 
 ### Den Eintrittspunkt des Wertstroms festlegen und dokumentieren, bevor Flow-Zeit gemessen wird
 
-Es sollte explizit entschieden werden, ob die Flow-Zeit beginnt, wenn ein Geschäftsbedarf erstmals identifiziert, wenn er formal genehmigt, oder wenn das Engineering die Arbeit aufnimmt, und diese Wahl sollte genauso dokumentiert werden, wie Kapitel 1.4 es für jeden Metrik-Charter empfiehlt. Diese eine Entscheidung bestimmt, ob Flow-Zeit echte durchgängige Reaktionsfähigkeit misst oder nur den engeren Ausschnitt davon, den das Engineering kontrolliert, und die Definition später ohne Offenlegung zu ändern, ist das zentrale Manipulationsrisiko dieses Kapitels.
+Es sollte explizit entschieden werden, ob die Flow-Zeit beginnt, wenn ein Geschäftsbedarf erstmals identifiziert, wenn er formal genehmigt, oder wenn das Engineering die Arbeit aufnimmt, und diese Wahl sollte genauso dokumentiert werden, wie Thema 1.4 es für jeden Metrik-Charter empfiehlt. Diese eine Entscheidung bestimmt, ob Flow-Zeit echte durchgängige Reaktionsfähigkeit misst oder nur den engeren Ausschnitt davon, den das Engineering kontrolliert, und die Definition später ohne Offenlegung zu ändern, ist das zentrale Manipulationsrisiko dieses Themas.
 
 ### Flow-Last kontinuierlich verfolgen, nicht periodisch
 
@@ -32,11 +32,11 @@ Wenn dafür argumentiert wird, weniger parallele Arbeit zu beginnen, oder Kapazi
 
 ### Flow-Zeit von den zugrunde liegenden Ursachen der Flow-Last trennen, bevor eine Lösung vorgeschlagen wird
 
-Wenn die Flow-Last hoch ist, sollte untersucht werden, welcher Flow-Item-Typ (Kapitel 2.2) sie tatsächlich treibt: zu viele gleichzeitig begonnene Features, ein Rückstau unbehandelter Defekte, oder Risikoarbeit, die auf eine gemeinsame Freigabe wartet. Jede Ursache legt eine andere Lösung nahe, und „die Flow-Last ist hoch" als einzelnes, undifferenziertes Problem zu behandeln, führt tendenziell zu einer generischen, wirkungslosen Reaktion.
+Wenn die Flow-Last hoch ist, sollte untersucht werden, welcher Flow-Item-Typ (Thema 2.2) sie tatsächlich treibt: zu viele gleichzeitig begonnene Features, ein Rückstau unbehandelter Defekte, oder Risikoarbeit, die auf eine gemeinsame Freigabe wartet. Jede Ursache legt eine andere Lösung nahe, und „die Flow-Last ist hoch" als einzelnes, undifferenziertes Problem zu behandeln, führt tendenziell zu einer generischen, wirkungslosen Reaktion.
 
 ### Flow-Zeit gegen Zykluszeit gegenprüfen, um zu isolieren, wo Verzögerung tatsächlich geschieht
 
-Da Flow-Zeit den gesamten Wertstrom umspannt und Zykluszeit (Kapitel 2.6) nur den Engineering-Anteil davon abdeckt, sollten beide direkt verglichen werden. Eine große Lücke zwischen Flow-Zeit und Zykluszeit bedeutet, dass der Großteil der Verzögerung geschieht, bevor das Engineering die Arbeit überhaupt sieht, in Freigabewarteschlangen, Priorisierungs-Backlogs oder Übergaben zwischen Teams, was auf eine ganz andere Lösung hindeutet als eine Lücke, die sich innerhalb des Engineerings selbst konzentriert.
+Da Flow-Zeit den gesamten Wertstrom umspannt und Zykluszeit (Thema 2.6) nur den Engineering-Anteil davon abdeckt, sollten beide direkt verglichen werden. Eine große Lücke zwischen Flow-Zeit und Zykluszeit bedeutet, dass der Großteil der Verzögerung geschieht, bevor das Engineering die Arbeit überhaupt sieht, in Freigabewarteschlangen, Priorisierungs-Backlogs oder Übergaben zwischen Teams, was auf eine ganz andere Lösung hindeutet als eine Lücke, die sich innerhalb des Engineerings selbst konzentriert.
 
 ## Abwägungen: Vor- und Nachteile
 
@@ -47,7 +47,7 @@ Da Flow-Zeit den gesamten Wertstrom umspannt und Zykluszeit (Kapitel 2.6) nur de
 | Periodische Flow-Last-Momentaufnahmen | Günstig, gelegentlich zu berechnen | Verpasst den Frühindikator-Wert; steigende Last bleibt zu lange unbemerkt |
 | Kontinuierliches Flow-Last-Tracking | Lebendiger, handlungsfähiger Frühindikator | Braucht laufende Tool-Integration, nicht nur einen gelegentlichen Bericht |
 
-Die zentrale Spannung ist **Umfang gegen Instrumentierungsreichweite**. Flow-Zeit nur ab Engineering-Aufnahme zu messen, ist weit leichter zu instrumentieren, da es die bereits von Kapitel 2.6 erhobenen Zykluszeit-Daten wiederverwendet, aber es unterschätzt still die echte Reaktionsfähigkeit, indem es alles ignoriert, was geschieht, bevor das Engineering die Arbeit sieht. Die Lösung: mit der engeren, auf Engineering beschränkten Messung beginnen, wenn das heute alles ist, was instrumentiert werden kann, aber die Erweiterung des Flow-Zeit-Startpunkts stromaufwärts, in Geschäftsbedarf-Identifikation und Priorisierung, als kurzfristige Priorität behandeln, nicht als dauerhafte Einschränkung.
+Die zentrale Spannung ist **Umfang gegen Instrumentierungsreichweite**. Flow-Zeit nur ab Engineering-Aufnahme zu messen, ist weit leichter zu instrumentieren, da es die bereits von Thema 2.6 erhobenen Zykluszeit-Daten wiederverwendet, aber es unterschätzt still die echte Reaktionsfähigkeit, indem es alles ignoriert, was geschieht, bevor das Engineering die Arbeit sieht. Die Lösung: mit der engeren, auf Engineering beschränkten Messung beginnen, wenn das heute alles ist, was instrumentiert werden kann, aber die Erweiterung des Flow-Zeit-Startpunkts stromaufwärts, in Geschäftsbedarf-Identifikation und Priorisierung, als kurzfristige Priorität behandeln, nicht als dauerhafte Einschränkung.
 
 ## Fragen für die Diskussion im Team
 
@@ -61,7 +61,7 @@ Die zentrale Spannung ist **Umfang gegen Instrumentierungsreichweite**. Flow-Zei
 
 5. **Wie groß ist die Lücke zwischen unserer Flow-Zeit und unserer Zykluszeit, und was legt diese Lücke darüber nahe, ob die meiste Verzögerung vor oder nach dem Engineering geschieht?** Dieser Vergleich enthüllt oft, dass die größte Verbesserungsmöglichkeit vollständig außerhalb der eigenen Kontrolle des Engineerings liegt.
 
-6. **Hat je jemand still unseren Flow-Zeit-Startpunkt verengt, um die Zahl besser aussehen zu lassen, ohne dass diese Änderung dokumentiert oder offengelegt wurde?** Das ist das zentrale Manipulationsrisiko dieses Kapitels, direkt ausgesprochen. Es sollte ehrlich gefragt werden, ob die eigene Definition je auf diese Weise abgedriftet ist.
+6. **Hat je jemand still unseren Flow-Zeit-Startpunkt verengt, um die Zahl besser aussehen zu lassen, ohne dass diese Änderung dokumentiert oder offengelegt wurde?** Das ist das zentrale Manipulationsrisiko dieses Themas, direkt ausgesprochen. Es sollte ehrlich gefragt werden, ob die eigene Definition je auf diese Weise abgedriftet ist.
 
 ## Branchenperspektive
 
@@ -87,7 +87,7 @@ Die Gesamtbetriebskosten sind im Verhältnis zu ihrer Überzeugungskraft niedrig
 
 ## Antipatterns und Fallstricke
 
-- **Den Flow-Zeit-Startpunkt still verengen, um die Zahl zu schönen:** der Manipulationsvektor im Zentrum dieses Kapitels. Den Start der Uhr von echter Geschäftsbedarf-Identifikation auf einen späteren Punkt zu verschieben, Engineering-Aufnahme, formale Genehmigung, verkürzt die Flow-Zeit, ohne die echte Reaktionsfähigkeit überhaupt zu ändern, und kann graduell genug geschehen, dass keine einzelne Änderung wie bewusste Manipulation aussieht. Die Leitplanke ist, den Eintrittspunkt explizit in einem Metrik-Charter (Kapitel 1.4) zu dokumentieren und ihn periodisch gegen die dokumentierte Definition zu prüfen, dieselbe Disziplin, die dieses Buch für jede Metrikgrenze verlangt.
+- **Den Flow-Zeit-Startpunkt still verengen, um die Zahl zu schönen:** der Manipulationsvektor im Zentrum dieses Themas. Den Start der Uhr von echter Geschäftsbedarf-Identifikation auf einen späteren Punkt zu verschieben, Engineering-Aufnahme, formale Genehmigung, verkürzt die Flow-Zeit, ohne die echte Reaktionsfähigkeit überhaupt zu ändern, und kann graduell genug geschehen, dass keine einzelne Änderung wie bewusste Manipulation aussieht. Die Leitplanke ist, den Eintrittspunkt explizit in einem Metrik-Charter (Thema 1.4) zu dokumentieren und ihn periodisch gegen die dokumentierte Definition zu prüfen, dieselbe Disziplin, die dieses Buch für jede Metrikgrenze verlangt.
 - **Flow-Last nur periodisch messen:** verspielt ihren Wert als Frühindikator, da ein stetiger Anstieg wochenlang unbemerkt bleiben kann.
 - **Flow-Last als einzelne undifferenzierte Zahl behandeln:** übersieht, welcher Flow-Item-Typ eine Überlastung tatsächlich treibt, was zu einer generischen statt gezielten Reaktion führt.
 - **Die Lücke zwischen Flow-Zeit und Zykluszeit ignorieren:** übersieht, ob sich Verzögerung vor oder nach dem Engineering konzentriert, was sehr unterschiedliche Lösungen nahelegt.
@@ -112,8 +112,8 @@ Die Gesamtbetriebskosten sind im Verhältnis zu ihrer Überzeugungskraft niedrig
 ## Die wichtigsten Erkenntnisse
 
 - **Flow-Last bestimmt Flow-Zeit mathematisch**, über Littles Gesetz: Flow-Last entspricht Ankunftsrate mal Flow-Zeit, für jeden stabilen Wertstrom.
-- **Flow-Zeit umspannt den gesamten Wertstrom**, von der Geschäftsbedarf-Identifikation bis zur Lieferung, breiter als der reine Engineering-Umfang der Zykluszeit (Kapitel 2.6).
-- Der zentrale Manipulationsvektor des Kapitels ist, **den Flow-Zeit-Startpunkt still zu verengen**; die Leitplanke ist eine dokumentierte, geprüfte Eintrittspunkt-Definition.
+- **Flow-Zeit umspannt den gesamten Wertstrom**, von der Geschäftsbedarf-Identifikation bis zur Lieferung, breiter als der reine Engineering-Umfang der Zykluszeit (Thema 2.6).
+- Der zentrale Manipulationsvektor des Themas ist, **den Flow-Zeit-Startpunkt still zu verengen**; die Leitplanke ist eine dokumentierte, geprüfte Eintrittspunkt-Definition.
 - Flow-Last sollte **kontinuierlich verfolgt werden**, nicht periodisch, damit sie als echter Frühindikator funktioniert statt als nachlaufende Entdeckung.
 - Littles Gesetz sollte **explizit** genutzt werden, nicht nur als Intuition, wenn für ein WIP-Limit, eine Kapazitätserhöhung oder die Sequenzierung paralleler Arbeit argumentiert wird.
 

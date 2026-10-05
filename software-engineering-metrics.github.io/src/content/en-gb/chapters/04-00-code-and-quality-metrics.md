@@ -5,16 +5,16 @@ faring. This part turns to the artefact itself: the code, and what a metric
 can and cannot tell you about its quality. Code quality metrics have the
 longest history of any metric family in this book, cyclomatic complexity
 dates to 1976, and the longest history of misuse to match. This part treats
-that history seriously: every chapter names a genuinely useful signal
+that history seriously: every topic names a genuinely useful signal
 alongside the specific, well-documented way that signal gets gamed once it
 becomes a target.
 
-The through-line connecting these six chapters is that no single code metric
+The through-line connecting these six topics is that no single code metric
 captures quality on its own, and several of the most popular ones actively
 mislead when pursued in isolation. A high test-coverage percentage can
 coexist with tests that verify nothing meaningful. A low complexity score
 can coexist with code that is technically simple but conceptually
-incoherent. This part's chapters each pair their headline metric with the
+incoherent. This part's topics each pair their headline metric with the
 complementary check that catches its specific blind spot: complexity with
 maintainability context, coverage with mutation testing, churn with hotspot
 analysis, static analysis with human judgement, and technical debt with
@@ -29,7 +29,7 @@ Enterprise and government organisations, often carrying codebases measured
 in decades rather than years, depend on this part's metrics to prioritise
 where limited maintenance investment will do the most good.
 
-## Chapters in this part
+## Topics in this part
 
 - **4.1 Code complexity metrics:** Cyclomatic complexity and its relatives,
   what they actually predict, and their well-documented gaming risk.
@@ -46,21 +46,21 @@ where limited maintenance investment will do the most good.
 - **4.6 Documentation and knowledge metrics:** Measuring whether
   documentation actually helps, not just whether it exists.
 
-## How these chapters interrelate
+## How these topics interrelate
 
-These six chapters build from the smallest unit of code outward. Chapter 4.1
-starts at the level of a single function or method; chapter 4.2 asks whether
-tests actually verify that unit's behaviour; chapter 4.3 zooms out to find
+These six topics build from the smallest unit of code outward. Topic 4.1
+starts at the level of a single function or method; topic 4.2 asks whether
+tests actually verify that unit's behaviour; topic 4.3 zooms out to find
 which files and modules across the whole codebase deserve attention first;
-chapter 4.4 adds the automated tooling layer that scans across all of it
-continuously; chapter 4.5 turns the accumulated findings from all four into
+topic 4.4 adds the automated tooling layer that scans across all of it
+continuously; topic 4.5 turns the accumulated findings from all four into
 a managed, prioritised backlog rather than a diffuse, unaddressed worry; and
-chapter 4.6 closes the part by measuring whether the knowledge needed to
+topic 4.6 closes the part by measuring whether the knowledge needed to
 maintain all of this safely is actually documented and findable.
 
 This part connects directly back to Part 2's stability metrics: change
-failure rate (chapter 2.10) is, in large part, a downstream consequence of
+failure rate (topic 2.10) is, in large part, a downstream consequence of
 the code quality this part measures upstream. It also connects forward to
-Part 5's product metrics, since escaped defects (chapter 5.1) are frequently
+Part 5's product metrics, since escaped defects (topic 5.1) are frequently
 traceable to exactly the complexity hotspots and coverage gaps this part is
 built to surface before they reach production at all.

@@ -2,11 +2,11 @@
 
 ## Trosolwg a chymhelliant
 
-Mae'r bennod hon yn cau Rhan 4 trwy fesur a yw'r wybodaeth sydd ei
+Mae'r pwnc hwn yn cau Rhan 4 trwy fesur a yw'r wybodaeth sydd ei
 angen i gynnal sylfaen cod yn ddiogel mewn gwirionedd wedi'i dogfennu
 ac y gellir dod o hyd iddi, nid dim ond a yw dogfennaeth yn bodoli'n
-dechnegol yn rhywle. Roedd pennod 3.5'n ymdrin â chyfathrebu a
-chydweithio fel pryder profiad-datblygwyr; mae'r bennod hon yn ymdrin
+dechnegol yn rhywle. Roedd pwnc 3.5'n ymdrin â chyfathrebu a
+chydweithio fel pryder profiad-datblygwyr; mae'r pwnc hwn yn ymdrin
 â'r un mater sylfaenol, argaeledd gwybodaeth, o ochr y cod: a oes gan
 beiriannydd newydd, neu un presennol sy'n gweithio ar god anghyfarwydd,
 yr hyn sydd ei angen arno i wneud newid diogel, neu a yw'r wybodaeth
@@ -16,7 +16,7 @@ hirsefydlog.
 Mae her fesur yma'n wirioneddol anodd, yn anos na'r rhan fwyaf o
 fetrigau eraill yn y llyfr hwn, oherwydd bod ansawdd a defnyddioldeb
 dogfennaeth yn gynhenid fwy goddrychol na chanran gorchudd neu sgôr
-cymhlethdod. Dull y bennod hon yw mesur dirprwyon ar gyfer
+cymhlethdod. Dull y pwnc hwn yw mesur dirprwyon ar gyfer
 defnyddioldeb yn hytrach na bodolaeth: pa mor aml y mae dogfennaeth
 mewn gwirionedd yn cael ei chyrchu, pa mor aml y gofynnir yr un
 cwestiwn drosodd a throsodd er gwaethaf bod ateb dogfennedig yn
@@ -26,7 +26,7 @@ ar ei ben ei hun, ond gyda'i gilydd maent yn rhoi darlun llawer mwy
 onest na chyfrif nifer y tudalennau wici neu ffeiliau README y mae
 sylfaen cod yn eu cynnwys.
 
-I dimau mawr, mae pryderon y bennod hon yn cyfansymio â deiliadaeth a
+I dimau mawr, mae pryderon y pwnc hwn yn cyfansymio â deiliadaeth a
 throsiant sefydliadol mewn ffyrdd sy'n hawdd eu tanamcangyfrif tan i
 argyfwng orfodi'r mater: gall system a gynhelir am flynyddoedd gan yr un
 ddau beiriannydd weithredu'n berffaith iawn gyda bron dim dogfennaeth
@@ -47,7 +47,7 @@ fwyaf.
   ddogfennaeth.** Nid mwy o gynnwys yw'r ateb bob amser.
 - **Mae amser cynefino i gyfraniad cynhyrchiol yn ddirprwy cryf,
   ymarferol** ar gyfer iechyd gwybodaeth cyffredinol, gan gysylltu'n
-  uniongyrchol â metrigau cydweithio pennod 3.5.
+  uniongyrchol â metrigau cydweithio pwnc 3.5.
 - **Mae gwybodaeth sy'n byw dim ond ym mhennaethiaid pobl yn berygl
   parhad,** nid cyflwr sefydlog, cynaliadwy, waeth pa mor dda y mae'n
   gweithredu ar hyn o bryd.
@@ -63,7 +63,7 @@ Lle mae eich platfform dogfennaeth yn ei gefnogi, olrheiniwch pa mor
 aml y gwelir tudalennau mewn gwirionedd, ac ar wahân, pa mor hir ers y
 diweddarwyd tudalen ddiwethaf mewn perthynas â pha mor aml y mae'r
 system sylfaenol y mae'n ei disgrifio wedi newid (mae croesgyfeirio
-data trosiant o bennod 4.3'n uniongyrchol ddefnyddiol yma). Mae tudalen
+data trosiant o bwnc 4.3'n uniongyrchol ddefnyddiol yma). Mae tudalen
 sy'n disgrifio system sydd wedi newid yn sylweddol ers i'r dudalen gael
 ei golygu ddiwethaf yn ymgeisydd cryf ar gyfer bod yn gamarweiniol yn
 weithredol yn hytrach nag yn ddim ond ddiddefnydd, ac mae'r signal
@@ -83,7 +83,7 @@ yn well dros ysgrifennu mwy ohono.
 
 ### Mesurwch amser cynefino i gyfraniad ystyrlon, annibynnol cyntaf
 
-Mae'r metrig hwn, a gyflwynwyd ym mhennod 3.5 fel signal cydweithio,
+Mae'r metrig hwn, a gyflwynwyd ym mhwnc 3.5 fel signal cydweithio,
 hefyd yn signal dogfennaeth ac iechyd-gwybodaeth o ochr y cod. Mae
 amser cynefino byr, rhagweladwy'n gyson yn awgrymu gwybodaeth wirioneddol
 hygyrch, gywir; mae amser hir, hynod amrywiol, yn enwedig un sy'n
@@ -94,7 +94,7 @@ cof unigol yn hytrach na ffurf ysgrifenedig, barhaol.
 ### Nodwch a blaenoriaethwch ardaloedd gwybodaeth-dyngedfennol heb eu dogfennu'n benodol
 
 Croesgyfeiriwch eich data crynhoad-gwybodaeth (dadansoddiad
-[ffactor-bws](https://en.wikipedia.org/wiki/Bus_factor) pennod 3.5) â
+[ffactor-bws](https://en.wikipedia.org/wiki/Bus_factor) pwnc 3.5) â
 gorchudd dogfennaeth: mae system â ffactor bws o un a dim dogfennaeth
 ystyrlon yn berygl difrifol, cyfansymio sy'n haeddu sylw blaenoriaeth
 dros system â dogfennaeth dda â'r un ffactor bws isel, gan fod y
@@ -105,7 +105,7 @@ yn cael ei hyfforddi.
 
 Yn hytrach nag olrhain bylchau dogfennaeth ar wahân ac yn anffurfiol,
 plygwch fylchau dogfennaeth sylweddol i mewn i'r un gronfa-waith
-weladwy, wedi'i meintioli a ddisgrifir ym mhennod 4.5, yn enwedig ar
+weladwy, wedi'i meintioli a ddisgrifir ym mhwnc 4.5, yn enwedig ar
 gyfer systemau dyngedfennol, ffactor-bws-isel, fel bod gwaith
 dogfennaeth yn cystadlu'n deg am gapasiti wedi'i flaenoriaethu yn
 hytrach na chael ei ohirio'n barhaus fel tasg statws-is o'i gymharu ag
@@ -125,7 +125,7 @@ dogfennaeth yn ddibwys hawdd ei chyfrif ac yn dweud bron dim byd
 defnyddiol wrthych; defnyddioldeb gwirioneddol, a all rywun ddod o hyd
 i wybodaeth ddogfennedig a dibynnu arni pan fydd ei hangen arno, yw'r
 hyn sy'n wirioneddol bwysig ond mae'n anos ei fesur yn uniongyrchol.
-Datryswch y tensiwn trwy ddefnyddio'r dirprwyon y mae'r bennod hon yn
+Datryswch y tensiwn trwy ddefnyddio'r dirprwyon y mae'r pwnc hwn yn
 eu hargymell, patrymau mynediad, hynafedd mewn perthynas â throsiant,
 cwestiynau ailadroddus, ac amser cynefino, ar y cyd, gan dderbyn nad
 yw'r un ohonynt yn berffaith ond bod eu cydgyfeiriant yn llawer mwy
@@ -137,7 +137,7 @@ ystyrlon na chyfrif bodolaeth yn unig.
    dogfennaeth ystyrlon, gywir mewn gwirionedd yn bodoli, neu a fyddai
    arbenigwr sy'n gadael yn mynd â'r rhan fwyaf o'r wybodaeth
    wirioneddol gyda nhw?** Dyma'r fersiwn cliriaf, mwyaf concrid o
-   bryder canolog y bennod hon; atebwch ef yn onest ar gyfer eich system
+   bryder canolog y pwnc hwn; atebwch ef yn onest ar gyfer eich system
    perygl-uchaf sengl yn gyntaf.
 
 2. **Pa gwestiwn a ofynnir drosodd a throsodd yn ein sgwrs tîm er
@@ -159,7 +159,7 @@ ystyrlon na chyfrif bodolaeth yn unig.
    gwirio hyn yn systematig," mae'r perygl hynafedd hwnnw'n debygol yn
    fwy nag y mae unrhyw un yn ei dybio ar hyn o bryd.
 
-5. **A yw ein cronfa-waith dyled dechnegol (pennod 4.5) yn cynnwys
+5. **A yw ein cronfa-waith dyled dechnegol (pwnc 4.5) yn cynnwys
    bylchau dogfennaeth, neu a yw gwaith dogfennaeth yn cael ei ohirio'n
    barhaus fel tasg statws-is o'i gymharu â thrwsiadau cod?** Gwiriwch
    eich cronfa-waith wirioneddol a gwelwch a yw dyled dogfennaeth yn
@@ -177,7 +177,7 @@ ystyrlon na chyfrif bodolaeth yn unig.
 **Cwmni newydd.** Mae metrigau dogfennaeth ffurfiol fel arfer yn ddiangen
 gyda thîm bach lle mae gwybodaeth yn lledaenu trwy sgwrs gyson,
 uniongyrchol. Y perygl i'w wylio yw'r un crynhoad ffactor-bws y mae
-pennod 3.5 yn rhybuddio yn ei erbyn, wedi'i gymhwyso'n benodol i
+pwnc 3.5 yn rhybuddio yn ei erbyn, wedi'i gymhwyso'n benodol i
 ddogfennaeth nawr: wrth i'r tîm dyfu heibio'r maint lle mae pawb yn
 siarad bob dydd, mae gwybodaeth heb ei dogfennu a weithiodd yn iawn yn
 anffurfiol yn dod yn rhwymedigaeth wirioneddol.
@@ -242,7 +242,7 @@ Mae gwybodaeth ddyngedfennol heb ei dogfennu'n rhwymedigaeth sefydlog
 sy'n costio dim yn weladwy hyd nes y foment y daw'n ddrud iawn ar
 unwaith.
 
-Disgyblaeth olrhain y dirprwyon y mae'r bennod hon yn eu hargymell yn
+Disgyblaeth olrhain y dirprwyon y mae'r pwnc hwn yn eu hargymell yn
 bennaf, patrymau mynediad, hynafedd, cwestiynau ailadroddus, amser
 cynefino, a'r parodrwydd i blygu bylchau dogfennaeth i mewn i gronfa-
 waith wedi'i blaenoriaethu yn hytrach na'u trin fel rhai statws-is yn
@@ -271,7 +271,7 @@ ariannol yn ei ddangos fel y dewis arall.
   angen ei harbenigwr unigol.
 - **Darganfod gwybodaeth ddyngedfennol heb ei dogfennu dim ond yn
   ystod trosglwyddiad staff brys:** y modd methiant drud, osgoiadwy y
-  mae'r bennod hon wedi'i hadeiladu i'w atal.
+  mae'r pwnc hwn wedi'i hadeiladu i'w atal.
 
 ## Model aeddfedrwydd
 
@@ -311,10 +311,10 @@ ariannol yn ei ddangos fel y dewis arall.
 - Mae **amser cynefino i gyfraniad cynhyrchiol** yn ddirprwy cryf,
   ymarferol ar gyfer iechyd gwybodaeth cyffredinol.
 - Mae **gwybodaeth ddyngedfennol heb ei dogfennu'n berygl cyfansymio**,
-  yn enwedig wedi'i gyfuno â ffactor bws isel (pennod 3.5); mae'n
+  yn enwedig wedi'i gyfuno â ffactor bws isel (pwnc 3.5); mae'n
   costio dim yn weladwy hyd nes iddo gostio llawer ar unwaith.
 - Plygwch **fylchau dogfennaeth i mewn i'ch cronfa-waith dyled
-  dechnegol** (pennod 4.5) fel eu bod yn cystadlu'n deg am gapasiti
+  dechnegol** (pwnc 4.5) fel eu bod yn cystadlu'n deg am gapasiti
   wedi'i flaenoriaethu.
 
 ## Cyfeiriadau a darllen pellach

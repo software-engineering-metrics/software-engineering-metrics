@@ -14,7 +14,7 @@ within a team's control. The value, almost always, lives in outcomes, which
 are slower to appear, noisier to measure, and harder to attribute to any one
 team's work.
 
-This chapter is about resisting that gravity deliberately. A dashboard built
+This topic is about resisting that gravity deliberately. A dashboard built
 entirely from inputs and outputs can look impressively busy while producing
 no real value at all: a team can ship dozens of features nobody uses, close
 hundreds of tickets that reopen a week later, or hit every story-point

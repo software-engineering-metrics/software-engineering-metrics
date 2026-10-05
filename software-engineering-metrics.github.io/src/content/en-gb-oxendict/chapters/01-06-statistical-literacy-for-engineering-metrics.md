@@ -9,8 +9,8 @@ team can do everything right, name a clear decision, avoid Goodhart's law,
 weight toward outcomes, govern ownership, instrument reliably, and still draw
 the wrong conclusion because it read an average where it needed a
 percentile, mistook noise for a trend, or fell for a coincidence dressed up
-as a cause. This chapter is the minimum statistical judgement this book
-assumes every later chapter's reader already has.
+as a cause. This topic is the minimum statistical judgement this book
+assumes every later topic's reader already has.
 
 The core problem is that engineering metrics are usually noisy, skewed, and
 small-sample by the standards of formal statistics. A single team's weekly
@@ -29,7 +29,7 @@ misleading conclusion, once accepted by leadership, gets acted on across many
 teams before anyone thinks to re-examine the underlying analysis. A
 statistically naive comparison between two divisions, or between before and
 after a major reorganization, can shape resourcing decisions for years based
-on nothing more than noise or a confound nobody controlled for. This chapter
+on nothing more than noise or a confound nobody controlled for. This topic
 exists to make that failure less likely.
 
 ## Key principles
@@ -60,8 +60,8 @@ paint a picture no typical case actually looks like. Report the **median**
 (the middle value, where half the observations are above and half below)
 alongside the **90th** or **95th percentile** (the value below which 90% or
 95% of observations fall), which together show both the typical case and the
-worst-case tail a team actually experiences. The KPI chapter of the sibling
-`software-engineering-guide` book, and every delivery metric chapter in
+worst-case tail a team actually experiences. The KPI topic of the sibling
+`software-engineering-guide` book, and every delivery metric topic in
 Part 2 of this book, assumes this habit throughout.
 
 ### Know when a sample is too small to trust
@@ -173,7 +173,7 @@ little.
 ## Sector lens
 
 **Startup.** Small teams generate small samples almost everywhere, which
-means the small-sample caution in this chapter matters constantly. Resist
+means the small-sample caution in this topic matters constantly. Resist
 drawing strong conclusions from a single bad week or a single great one;
 with only a handful of data points, the honest answer to "is this a trend"
 is often "we don't know yet."

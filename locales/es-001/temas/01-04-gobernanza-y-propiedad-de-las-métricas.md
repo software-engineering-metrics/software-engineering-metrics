@@ -56,7 +56,7 @@ sigan significando lo mismo dentro de cinco años que hoy.
 
 Una **carta de métricas** es un documento breve y vivo que expone el
 propósito de un conjunto de métricas, sus no objetivos explícitos (aquí
-pertenece la distinción entre diagnóstico y evaluación del capítulo 1.1), el
+pertenece la distinción entre diagnóstico y evaluación del tema 1.1), el
 dueño y la fuente de verdad de cada métrica, y una cadencia de revisión.
 Mantenla en una página. El archivo
 docs/examples/metrics-charter-example.md del repositorio complementario de
@@ -88,7 +88,7 @@ o como una métrica con nombre distinto que renombrar.
 ### Incorpora una revisión de retiro a la cadencia de gobernanza
 
 Un programa de métricas que solo añade métricas acumula una sobrecarga de
-tablero sobre la que nadie puede actuar (capítulo 1.1). En cada revisión de
+tablero sobre la que nadie puede actuar (tema 1.1). En cada revisión de
 gobernanza, junto con proponer métricas nuevas, pregunta cuáles de las
 existentes no han informado ninguna decisión en los dos últimos ciclos y son
 candidatas al retiro. Retirar una métrica no es un fracaso; es la misma
@@ -211,7 +211,7 @@ contaba solo las publicaciones en producción. El liderazgo llevaba más de un
 año comparando el rendimiento de entrega de ambas unidades usando números
 que en realidad no eran comparables. La solución fue una junta de
 gobernanza de métricas a nivel de toda la empresa que publicó un glosario
-único de definiciones de métricas (reflejado en el capítulo 9.2 de este
+único de definiciones de métricas (reflejado en el tema 9.2 de este
 libro), exigió a cada equipo certificar su cumplimiento, y retiró las
 definiciones locales ambiguas en un solo trimestre.
 

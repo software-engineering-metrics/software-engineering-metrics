@@ -9,14 +9,14 @@ codebase harder to change afterward, in the same way that financial debt
 lets you spend now at the cost of interest later. Every codebase carries
 some technical debt, and that is not automatically a failure; the metaphor's
 real value is that it frames debt as a manageable trade-off rather than
-either a shameful secret or an unavoidable, permanent burden. This chapter
+either a shameful secret or an unavoidable, permanent burden. This topic
 is about making that trade-off visible and manageable through measurement,
 rather than leaving it as a vague, perpetually deprioritized worry that
 every engineer senses but no one can act on with evidence.
 
-The chapters preceding this one, complexity (4.1), coverage (4.2), churn
+The topics preceding this one, complexity (4.1), coverage (4.2), churn
 and hotspots (4.3), and static analysis (4.4), each surface one facet of
-technical debt. This chapter's job is synthesis: turning those separate
+technical debt. This topic's job is synthesis: turning those separate
 signals, plus items that never show up in any automated scan (an
 undocumented architectural shortcut, a deliberately deferred migration), into
 a single, prioritized, visible backlog that competes fairly for investment
@@ -28,7 +28,7 @@ genuinely dangerous and easy to underestimate: each new shortcut makes the
 next change slightly harder, which creates pressure for more shortcuts,
 which compounds further. Enterprise and government organizations
 maintaining systems over many years are especially exposed to this
-compounding effect, and this chapter's central recommendation, a visible,
+compounding effect, and this topic's central recommendation, a visible,
 quantified, prioritized debt backlog, is the mechanism that lets an
 organization actually manage the trade-off deliberately instead of drifting
 into crisis.
@@ -53,7 +53,7 @@ into crisis.
 
 ### Build a visible, single technical debt backlog
 
-Consolidate the signals from this part's earlier chapters, complexity
+Consolidate the signals from this part's earlier topics, complexity
 outliers, low mutation-kill-rate areas, hotspots, unresolved static
 analysis findings, alongside debt items that only a human can identify (an
 architectural shortcut, a deferred dependency upgrade, an undocumented
@@ -75,7 +75,7 @@ an abstract, unquantified complaint.
 ### Prioritize using impact, not age or loudest advocate
 
 Rank debt items by their combination of carrying cost and how frequently
-the affected code is touched (chapter 4.3's churn data is directly useful
+the affected code is touched (topic 4.3's churn data is directly useful
 here): an item in a rarely modified corner of the codebase, however
 unpleasant, matters far less than one sitting directly in the path of your
 most active development. Resist prioritizing by which item has been on the
@@ -125,7 +125,7 @@ lost, in every single planning cycle.
 
 1. **Do we have a single, visible technical debt backlog, or does debt
    awareness live mostly in individual engineers' heads?** If the honest
-   answer is the latter, that is the single biggest gap this chapter
+   answer is the latter, that is the single biggest gap this topic
    recommends closing first.
 
 2. **For our top debt item, could we state its cost to fix and its cost to
@@ -142,7 +142,7 @@ lost, in every single planning cycle.
 4. **Is our debt backlog prioritized by genuine business impact, or by
    whichever item has been raised most persistently or has sat there
    longest?** Cross-reference your current prioritization against churn
-   data (chapter 4.3) and see whether the two align.
+   data (topic 4.3) and see whether the two align.
 
 5. **What debt items should we explicitly accept as permanent, rather than
    letting sit indefinitely on an active backlog?** Identify at least one
@@ -195,7 +195,7 @@ backlog, estimating fix cost and carrying cost for each item, and allocated
 a fixed 15% of engineering capacity to debt remediation going forward. Within
 a year, the top five highest-carrying-cost items, representing a small
 fraction of the total backlog by count, had been resolved, and change
-failure rate (chapter 2.10) for billing-related deploys measurably improved,
+failure rate (topic 2.10) for billing-related deploys measurably improved,
 demonstrating the disproportionate impact of targeting the highest-carrying-cost
 items first rather than working through the backlog in arbitrary order.
 
@@ -300,4 +300,4 @@ across the entire codebase, not just the specific items left unaddressed.
 - *Refactoring: Improving the Design of Existing Code*, by Martin Fowler
   (the remediation techniques a debt backlog ultimately draws on).
 - *Your Code as a Crime Scene*, by Adam Tornhill (hotspot analysis as an
-  input to debt prioritization, chapter 4.3).
+  input to debt prioritization, topic 4.3).

@@ -14,14 +14,14 @@ The house style in one place. Items marked "(test)" are enforced by
   "It's crucial to consider", "It appears that", "One could argue", and the
   "it's not just X, it's Y" formula. (test, for the first three)
 - **Define terms on first use.** Expand acronyms and define jargon the first
-  time each chapter uses them, for example "mean time to recovery (MTTR)."
-- **Link key concepts to Wikipedia** on first mention, once per chapter, in
+  time each topic uses them, for example "mean time to recovery (MTTR)."
+- **Link key concepts to Wikipedia** on first mention, once per topic, in
   prose only. Form: `[term](https://en.wikipedia.org/wiki/Article_Title)`. Never
   in headings, tables, code, or the references section. (link form is a test)
 - **Real references only.** Author and title of genuine works. No invented
   titles, authors, or URLs.
-- **Name the gaming vector.** A metric-family chapter states how the metric
-  gets gamed and what guardrail catches that (chapter 1.2).
+- **Name the gaming vector.** A metric-family topic states how the metric
+  gets gamed and what guardrail catches that (topic 1.2).
 
 ## Voice
 
@@ -32,13 +32,13 @@ The house style in one place. Items marked "(test)" are enforced by
 
 ## Structure (test)
 
-- Content chapters use the exact section order in
+- Content topics use the exact section order in
   [`chapter-template.md`](chapter-template.md).
-- The first heading is `# N.M Title` (dotted chapter number), and it matches the file's zero-padded `PP-CC` prefix.
+- The first heading is `# N.M Title` (dotted topic number), and it matches the file's zero-padded `PP-CC` prefix.
 - Numbering within each part is contiguous and starts at N.0.
 
 ## After editing
 
-- If you changed the set of chapters, update `spec/structure.md` and run
+- If you changed the set of topics, update `spec/structure.md` and run
   `just nav`.
 - Always run `just test`.

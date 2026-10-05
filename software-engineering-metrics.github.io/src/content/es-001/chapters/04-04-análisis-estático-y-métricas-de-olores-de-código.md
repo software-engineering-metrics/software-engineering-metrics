@@ -10,11 +10,11 @@ tipo sospechosas, lógica duplicada, y la categoría más amplia de **olores de
 código** (*code smells*), patrones estructurales que no son necesariamente
 errores pero que tienden a hacer el código más difícil de entender, probar,
 o cambiar con seguridad. El análisis estático es la capa automatizada y
-continua bajo las métricas más específicas de los otros capítulos de esta
+continua bajo las métricas más específicas de los otros temas de esta
 parte, ejecutándose en cada commit y sacando a la luz problemas en el
 momento en que se introducen en lugar de esperar a una auditoría periódica.
 
-La preocupación central de este capítulo es la brecha entre lo que reportan
+La preocupación central de este tema es la brecha entre lo que reportan
 las herramientas de análisis estático y lo que realmente importa. Una
 herramienta puede señalar miles de hallazgos en una base de código grande, y
 el número de hallazgos por sí solo es una métrica deficiente, ya que
@@ -76,7 +76,7 @@ la integración continua sobre si un cambio específico introduce nuevos
 hallazgos por encima de un umbral de gravedad acordado, dejando que la
 lista acumulada se reduzca gradualmente mediante el mantenimiento normal
 mientras se previene una mayor acumulación. Esta distinción refleja la
-recomendación del mínimo de cobertura del capítulo 4.2: proteger contra el
+recomendación del mínimo de cobertura del tema 4.2: proteger contra el
 retroceso en lugar de exigir una corrección poco realista y de una sola
 vez.
 
@@ -106,7 +106,7 @@ herramienta con el tiempo.
 ### Combina el análisis estático con las otras métricas de calidad de código de esta parte
 
 Los hallazgos del análisis estático, las puntuaciones de complejidad
-(capítulo 4.1), y los datos de puntos calientes (capítulo 4.3) son
+(tema 4.1), y los datos de puntos calientes (tema 4.3) son
 evidencia complementaria, no métricas en competencia. Un archivo con una
 alta concentración de hallazgos de análisis estático sin resolver que
 también es un punto caliente de cambios acumulados y complejidad es un
@@ -131,7 +131,7 @@ en lugar de corregirlos genuinamente. Resuelve la tensión imponiendo la
 puerta estrictamente sobre los nuevos hallazgos mientras se ejecuta un
 esfuerzo de remediación separado y deliberadamente ritmado contra la lista
 acumulada heredada, priorizado usando las técnicas de gravedad y
-contraste cruzado que recomiendan este capítulo y el capítulo 4.3.
+contraste cruzado que recomiendan este tema y el tema 4.3.
 
 ## Preguntas para debatir con tu equipo
 
@@ -321,7 +321,7 @@ confiable o degenera en ruido ignorado.
   exenciones visibles y documentadas, no como un veredicto automático ni
   una supresión silenciosa.
 - Contrasta el análisis estático con los **datos de complejidad y puntos
-  calientes** (capítulos 4.1, 4.3) para obtener evidencia de priorización
+  calientes** (temas 4.1, 4.3) para obtener evidencia de priorización
   convergente y más fuerte.
 
 ## Referencias y lecturas adicionales

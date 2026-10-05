@@ -2,7 +2,7 @@
 
 ## Trosolwg a chymhelliant
 
-Mae **Cyfathrebu a chydweithio**, y C yn SPACE (pennod 3.1), yn mesur
+Mae **Cyfathrebu a chydweithio**, y C yn SPACE (pwnc 3.1), yn mesur
 sut mae gwybodaeth mewn gwirionedd yn llifo rhwng pobl a thimau: pa mor
 ddarganfyddadwy yw dogfennaeth, pa mor gyfartal y mae gwybodaeth yn
 lledaenu ar draws tîm, pa mor dda y mae dibyniaethau traws-dîm yn cael
@@ -13,13 +13,13 @@ llai personol na data boddhad, ac mae'r bwlch hwnnw'n gamgymeriad,
 oherwydd mae chwalfeydd yma'n aml yn wraidd achos i broblemau sy'n
 ymddangos, wedi'u cambriodoli, ym mhob dimensiwn arall.
 
-Mae cyfradd methiant newid gynyddol (pennod 2.10) sy'n edrych fel
+Mae cyfradd methiant newid gynyddol (pwnc 2.10) sy'n edrych fel
 problem brofi weithiau mewn gwirionedd yn broblem gyfathrebu: tîm nad
 oedd yn gwybod am newid dibyniaeth tan iddo dorri mewn cynhyrchu. Mae
-tuedd boddhad ostyngol (pennod 3.2) sy'n edrych fel problem llwyth
+tuedd boddhad ostyngol (pwnc 3.2) sy'n edrych fel problem llwyth
 gwaith weithiau mewn gwirionedd yn broblem ynysu: peiriannydd sydd wedi
 cael ei eithrio'n dawel o'r sgyrsiau lle mae penderfyniadau'n cael eu
-gwneud. Dadl ganolog y bennod hon yw bod cyfathrebu a chydweithio'n
+gwneud. Dadl ganolog y pwnc hwn yw bod cyfathrebu a chydweithio'n
 haeddu mesuriad uniongyrchol yn union oherwydd bod eu methiannau'n
 esgus-fyw fel problemau eraill, ac mae tîm sy'n mynd ar drywydd yr
 achos gwraidd anghywir yn gwastraffu ymdrech wirioneddol yn trwsio'r
@@ -56,7 +56,7 @@ ar raddfa fach yn syml yn cyrraedd mor bell.
 Olrheiniwch faint o bobl a all adolygu, addasu, neu weithredu pob
 cydran system dyngedfennol yn gymwys: mae cydran ag un person cymwys yn
 unig yn **[ffactor bws](https://en.wikipedia.org/wiki/Bus_factor)** o
-un, perygl difrifol ac yn aml anweledig (mae pennod y llyfr chwaer
+un, perygl difrifol ac yn aml anweledig (mae pwnc y llyfr chwaer
 `software-engineering-guide` ar gynnal systemau hirhoedlog yn ymdrin â
 hyn yn fanylach). Gall data bai rheoli fersiwn, wedi'i gyfuno â
 chofnodion cylchdroi ar-alwad, ddatgelu'r crynhoad hwn yn awtomatig:
@@ -69,7 +69,7 @@ gyfnod ystyrlon.
 Olrheiniwch pa mor hir y mae cais traws-dîm, newid API angenrheidiol,
 diweddariad llyfrgell a rennir, rhyddhad wedi'i gydlynu, yn ei gymryd o
 gael ei godi i gael ei ddatrys, yn debyg mewn ysbryd i'r dadelfeniad
-amser-cylch ym mhennod 2.6 ond wedi'i gymhwyso'n benodol i gydlynu
+amser-cylch ym mhwnc 2.6 ond wedi'i gymhwyso'n benodol i gydlynu
 rhwng-timau, yn hytrach na mewn-tîm. Mae gan dîm sy'n aros wythnosau'n
 gyson am ddibyniaeth y mae tîm arall yn ei berchen broblem gydweithio
 na fydd yn ymddangos yn lân ym metrigau cyflenwi mewnol yr un o'r
@@ -85,7 +85,7 @@ tîm newydd yn adrodd na allant ddod o hyd i ateb yr oedd ei angen
 arnynt, neu pa mor aml y gofynnir yr un cwestiwn drosodd a throsodd
 mewn sianel sgwrsio oherwydd nad oedd yr ateb, er ei fod wedi'i
 ddogfennu, yn ddarganfyddadwy. Mae hyn yn cysylltu ansawdd dogfennaeth
-(pennod 4.6) yn uniongyrchol â phryderon cydweithio'r dimensiwn hwn.
+(pwnc 4.6) yn uniongyrchol â phryderon cydweithio'r dimensiwn hwn.
 
 ### Olrheiniwch amser cynefino i gyfraniad cynhyrchiol fel dirprwy uniongyrchol
 
@@ -187,7 +187,7 @@ yn gyntaf.
 ill dau'n graddio'n wael yma, gan fod mwy o dimau'n golygu mwy o arwynebedd
 cydlynu a mwy o systemau dyngedfennol a all ddod i berthyn i bwll sy'n
 crebachu o arbenigwyr hirsefydlog. Buddsoddwch yn yr offeryno y mae'r
-bennod hon yn ei argymell yn fwriadol, gan na all ymwybyddiaeth
+bwnc hwn yn ei argymell yn fwriadol, gan na all ymwybyddiaeth
 anffurfiol wirioneddol gwmpasu sefydliad ar y raddfa hon.
 
 **Llywodraeth.** Gall systemau hirhoedlog a chyfnodau cyflogaeth hir sy'n
@@ -253,7 +253,7 @@ neu fethiant cydlynu traws-dîm cronig, heb ei ddatrys.
   gwirioneddol:** yn aml yn anghywir, a'r bwlch yn union lle mae tagfeydd
   cudd yn byw.
 - **Anwybyddu ffactor bws tan i argyfwng orfodi'r darganfyddiad:** y
-  modd methiant sengl mwyaf niweidiol y mae'r bennod hon yn rhybuddio
+  modd methiant sengl mwyaf niweidiol y mae'r pwnc hwn yn rhybuddio
   yn ei erbyn.
 - **Tybio bod bodolaeth dogfennaeth yn hafal i ddefnyddioldeb
   dogfennaeth:** mae cynnwys hen ffasiwn neu na ellir ei ganfod yn

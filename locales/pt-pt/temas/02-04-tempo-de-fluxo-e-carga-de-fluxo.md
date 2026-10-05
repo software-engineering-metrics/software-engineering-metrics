@@ -2,16 +2,16 @@
 
 ## Visão geral e motivação
 
-O **tempo de fluxo** é o tempo total decorrido desde que um item de fluxo (capítulo 2.2) entra na cadeia de valor até ser entregue, medindo a capacidade de resposta através de todo o caminho desde uma necessidade de negócio ser identificada até um cliente receber valor. A **carga de fluxo** é o número total de itens de fluxo atualmente ativos ou à espera na cadeia de valor em qualquer momento, o nome do Flow Framework para aquilo a que o capítulo 2.5 chama trabalho em curso. Juntas, estas são as duas métricas do Flow Framework que mais diretamente se ligam à matemática das filas, porque a carga de fluxo não apenas se correlaciona com o tempo de fluxo, ela dita-o matematicamente.
+O **tempo de fluxo** é o tempo total decorrido desde que um item de fluxo (tema 2.2) entra na cadeia de valor até ser entregue, medindo a capacidade de resposta através de todo o caminho desde uma necessidade de negócio ser identificada até um cliente receber valor. A **carga de fluxo** é o número total de itens de fluxo atualmente ativos ou à espera na cadeia de valor em qualquer momento, o nome do Flow Framework para aquilo a que o tema 2.5 chama trabalho em curso. Juntas, estas são as duas métricas do Flow Framework que mais diretamente se ligam à matemática das filas, porque a carga de fluxo não apenas se correlaciona com o tempo de fluxo, ela dita-o matematicamente.
 
-Essa relação é a **[lei de Little](https://en.wikipedia.org/wiki/Little%27s_law)**, uma prova da teoria das filas (o capítulo 2.7 cobre-a na íntegra) que declara que o número médio de itens num sistema estável é igual à taxa média de chegada multiplicada pelo tempo médio que cada item passa no sistema. Aplicada aqui: a carga de fluxo é igual à taxa de chegada multiplicada pelo tempo de fluxo. Este é o facto único mais útil deste capítulo, porque transforma um argumento que costumava ser qualitativo, "estamos demasiado sobrecarregados, as coisas estão a demorar demasiado tempo," num argumento demonstrável e quantitativo que um líder de negócio não consegue facilmente descartar: se a carga de fluxo continuar a subir enquanto a taxa de chegada se mantém estável, o tempo de fluxo está matematicamente garantido a subir também, não apenas é provável que suba.
+Essa relação é a **[lei de Little](https://en.wikipedia.org/wiki/Little%27s_law)**, uma prova da teoria das filas (o tema 2.7 cobre-a na íntegra) que declara que o número médio de itens num sistema estável é igual à taxa média de chegada multiplicada pelo tempo médio que cada item passa no sistema. Aplicada aqui: a carga de fluxo é igual à taxa de chegada multiplicada pelo tempo de fluxo. Este é o facto único mais útil deste tema, porque transforma um argumento que costumava ser qualitativo, "estamos demasiado sobrecarregados, as coisas estão a demorar demasiado tempo," num argumento demonstrável e quantitativo que um líder de negócio não consegue facilmente descartar: se a carga de fluxo continuar a subir enquanto a taxa de chegada se mantém estável, o tempo de fluxo está matematicamente garantido a subir também, não apenas é provável que suba.
 
 Para equipas grandes, este é muitas vezes o número único mais persuasivo em toda a estrutura. Um líder de negócio que resiste à ideia de dizer não a novo trabalho, porque cada pedido parece individualmente justificado, aceitará muitas vezes que sobrecarregar uma cadeia de valor abranda comprovadamente cada item já nela, uma vez que a carga de fluxo é rastreada e a relação com o tempo de fluxo é mostrada diretamente em vez de argumentada abstratamente. As organizações empresariais a gerir muitas iniciativas estratégicas concorrentes e os programas governamentais a executar dezenas de fluxos de trabalho paralelos dependem ambos desta prova, não apenas da intuição por trás dela, para justificar dizer não a começar mais trabalho de uma vez.
 
 ## Princípios-chave
 
 - **A carga de fluxo dita matematicamente o tempo de fluxo, via lei de Little.** Isto não é correlação; é uma prova que se sustenta para qualquer cadeia de valor estável.
-- **O tempo de fluxo abrange toda a cadeia de valor, não apenas a engenharia.** Começa quando uma necessidade de negócio é identificada, não quando a engenharia pega no trabalho, que o tempo de ciclo do capítulo 2.6 depois decompõe ainda mais.
+- **O tempo de fluxo abrange toda a cadeia de valor, não apenas a engenharia.** Começa quando uma necessidade de negócio é identificada, não quando a engenharia pega no trabalho, que o tempo de ciclo do tema 2.6 depois decompõe ainda mais.
 - **A carga de fluxo em subida é o sinal de aviso mais precoce do tempo de fluxo em subida.** Porque a relação é demonstrável, a carga de fluxo pode ser vigiada como um indicador avançado, não apenas descoberta depois de o tempo de fluxo já se ter degradado.
 - **O ponto de entrada da cadeia de valor tem de ser fixo e documentado.** Onde o relógio do tempo de fluxo começa é uma escolha definicional exposta ao mesmo risco de manipulação que qualquer outra fronteira de métrica neste livro.
 - **Um líder de negócio consegue agir diretamente sobre a carga de fluxo.** Ao contrário do tempo de fluxo, que é uma medição retardada, a carga de fluxo é uma alavanca: dizer não a começar novo trabalho é uma ação disponível hoje.
@@ -20,7 +20,7 @@ Para equipas grandes, este é muitas vezes o número único mais persuasivo em t
 
 ### Fixar e documentar o ponto de entrada da cadeia de valor antes de medir o tempo de fluxo
 
-Decida explicitamente se o tempo de fluxo começa quando uma necessidade de negócio é identificada pela primeira vez, quando é formalmente aprovada, ou quando a engenharia começa o trabalho, e documente essa escolha da mesma forma que o capítulo 1.4 recomenda para qualquer carta de métricas. Esta única decisão determina se o tempo de fluxo mede a capacidade de resposta genuína de ponta a ponta ou apenas a fatia mais estreita dela que a engenharia controla, e mudar a definição mais tarde sem divulgação é o risco de manipulação central deste capítulo.
+Decida explicitamente se o tempo de fluxo começa quando uma necessidade de negócio é identificada pela primeira vez, quando é formalmente aprovada, ou quando a engenharia começa o trabalho, e documente essa escolha da mesma forma que o tema 1.4 recomenda para qualquer carta de métricas. Esta única decisão determina se o tempo de fluxo mede a capacidade de resposta genuína de ponta a ponta ou apenas a fatia mais estreita dela que a engenharia controla, e mudar a definição mais tarde sem divulgação é o risco de manipulação central deste tema.
 
 ### Rastrear a carga de fluxo continuamente, não periodicamente
 
@@ -32,11 +32,11 @@ Ao fazer o caso para começar menos trabalho concorrente, ou para acrescentar ca
 
 ### Separar o tempo de fluxo das causas subjacentes da carga de fluxo antes de propor uma correção
 
-Quando a carga de fluxo é alta, investigue qual tipo de item de fluxo (capítulo 2.2) está realmente a impulsioná-la: demasiadas funcionalidades concorrentes iniciadas de uma vez, um backlog de defeitos não resolvidos, ou trabalho de risco preso à espera de uma aprovação partilhada. Cada causa implica uma correção diferente, e tratar "a carga de fluxo é alta" como um único problema não diferenciado tende a produzir uma resposta genérica e ineficaz.
+Quando a carga de fluxo é alta, investigue qual tipo de item de fluxo (tema 2.2) está realmente a impulsioná-la: demasiadas funcionalidades concorrentes iniciadas de uma vez, um backlog de defeitos não resolvidos, ou trabalho de risco preso à espera de uma aprovação partilhada. Cada causa implica uma correção diferente, e tratar "a carga de fluxo é alta" como um único problema não diferenciado tende a produzir uma resposta genérica e ineficaz.
 
 ### Verificar de forma cruzada o tempo de fluxo contra o tempo de ciclo para isolar onde o atraso realmente acontece
 
-Já que o tempo de fluxo abrange toda a cadeia de valor e o tempo de ciclo (capítulo 2.6) cobre apenas a porção de engenharia dela, compare os dois diretamente. Uma grande lacuna entre o tempo de fluxo e o tempo de ciclo significa que a maior parte do atraso acontece antes de a engenharia alguma vez ver o trabalho, em filas de aprovação, backlogs de priorização, ou transições entre equipas, o que aponta para uma correção muito diferente do que uma lacuna concentrada dentro da própria engenharia.
+Já que o tempo de fluxo abrange toda a cadeia de valor e o tempo de ciclo (tema 2.6) cobre apenas a porção de engenharia dela, compare os dois diretamente. Uma grande lacuna entre o tempo de fluxo e o tempo de ciclo significa que a maior parte do atraso acontece antes de a engenharia alguma vez ver o trabalho, em filas de aprovação, backlogs de priorização, ou transições entre equipas, o que aponta para uma correção muito diferente do que uma lacuna concentrada dentro da própria engenharia.
 
 ## Trocas: prós e contras
 
@@ -47,7 +47,7 @@ Já que o tempo de fluxo abrange toda a cadeia de valor e o tempo de ciclo (cap�
 | Instantâneos periódicos de carga de fluxo | Barato de calcular ocasionalmente | Perde o valor de indicador avançado; a carga crescente passa despercebida durante demasiado tempo |
 | Rastreio contínuo de carga de fluxo | Indicador avançado vivo e acionável | Exige integração contínua de ferramentas, não apenas um relatório ocasional |
 
-A tensão central é **âmbito versus alcance da instrumentação**. Medir o tempo de fluxo apenas a partir da admissão pela engenharia é muito mais fácil de instrumentar, já que reutiliza os dados de tempo de ciclo que o capítulo 2.6 já recolhe, mas subestima silenciosamente a verdadeira capacidade de resposta ao ignorar tudo o que acontece antes de a engenharia ver o trabalho. Resolva a tensão começando com a medição mais estreita e com âmbito de engenharia se for tudo o que consegue instrumentar hoje, mas trate estender o ponto de início do tempo de fluxo a montante, para a identificação de necessidade de negócio e priorização, como uma prioridade de curto prazo em vez de uma limitação permanente.
+A tensão central é **âmbito versus alcance da instrumentação**. Medir o tempo de fluxo apenas a partir da admissão pela engenharia é muito mais fácil de instrumentar, já que reutiliza os dados de tempo de ciclo que o tema 2.6 já recolhe, mas subestima silenciosamente a verdadeira capacidade de resposta ao ignorar tudo o que acontece antes de a engenharia ver o trabalho. Resolva a tensão começando com a medição mais estreita e com âmbito de engenharia se for tudo o que consegue instrumentar hoje, mas trate estender o ponto de início do tempo de fluxo a montante, para a identificação de necessidade de negócio e priorização, como uma prioridade de curto prazo em vez de uma limitação permanente.
 
 ## Perguntas para debater com a sua equipa
 
@@ -61,7 +61,7 @@ A tensão central é **âmbito versus alcance da instrumentação**. Medir o tem
 
 5. **Quão grande é a lacuna entre o nosso tempo de fluxo e o nosso tempo de ciclo, e essa lacuna sugere que a maior parte do atraso acontece antes ou depois de a engenharia ver o trabalho?** Esta comparação revela muitas vezes que a maior oportunidade de melhoria está inteiramente fora do próprio controlo da engenharia.
 
-6. **Alguém alguma vez estreitou silenciosamente o nosso ponto de início do tempo de fluxo para fazer o número parecer melhor, sem essa mudança ser documentada ou divulgada?** Este é o risco de manipulação central do capítulo declarado diretamente. Pergunte honestamente se a sua definição alguma vez derivou desta forma.
+6. **Alguém alguma vez estreitou silenciosamente o nosso ponto de início do tempo de fluxo para fazer o número parecer melhor, sem essa mudança ser documentada ou divulgada?** Este é o risco de manipulação central do tema declarado diretamente. Pergunte honestamente se a sua definição alguma vez derivou desta forma.
 
 ## Perspetiva setorial
 
@@ -87,7 +87,7 @@ O custo total de propriedade é baixo em relação ao seu poder persuasivo: a ca
 
 ## Antipadrões e armadilhas
 
-- **Estreitar silenciosamente o ponto de início do tempo de fluxo para lisonjear o número:** o vetor de manipulação no centro deste capítulo. Mover o início do relógio da identificação genuína de necessidade de negócio para um ponto mais tardio, admissão pela engenharia, aprovação formal, encolhe o tempo de fluxo sem mudar a capacidade de resposta genuína de todo, e pode acontecer gradualmente o suficiente para que nenhuma mudança única pareça uma manipulação deliberada. A salvaguarda é documentar o ponto de entrada explicitamente numa carta de métricas (capítulo 1.4) e auditá-lo periodicamente contra a definição documentada, a mesma disciplina que este livro pede para toda a fronteira de métrica.
+- **Estreitar silenciosamente o ponto de início do tempo de fluxo para lisonjear o número:** o vetor de manipulação no centro deste tema. Mover o início do relógio da identificação genuína de necessidade de negócio para um ponto mais tardio, admissão pela engenharia, aprovação formal, encolhe o tempo de fluxo sem mudar a capacidade de resposta genuína de todo, e pode acontecer gradualmente o suficiente para que nenhuma mudança única pareça uma manipulação deliberada. A salvaguarda é documentar o ponto de entrada explicitamente numa carta de métricas (tema 1.4) e auditá-lo periodicamente contra a definição documentada, a mesma disciplina que este livro pede para toda a fronteira de métrica.
 - **Medir a carga de fluxo apenas periodicamente:** perde o seu valor como indicador avançado, já que uma subida constante pode passar despercebida durante semanas.
 - **Tratar a carga de fluxo como um único número não diferenciado:** perde qual tipo de item de fluxo está realmente a impulsionar uma sobrecarga, produzindo uma resposta genérica em vez de direcionada.
 - **Ignorar a lacuna entre o tempo de fluxo e o tempo de ciclo:** perde se o atraso está concentrado antes ou depois da engenharia, o que implica correções muito diferentes.
@@ -112,8 +112,8 @@ O custo total de propriedade é baixo em relação ao seu poder persuasivo: a ca
 ## Principais conclusões
 
 - A **carga de fluxo dita matematicamente o tempo de fluxo**, via lei de Little: a carga de fluxo é igual à taxa de chegada vezes o tempo de fluxo, para qualquer cadeia de valor estável.
-- O **tempo de fluxo abrange toda a cadeia de valor**, desde a identificação da necessidade de negócio até à entrega, mais amplo do que o âmbito apenas de engenharia do tempo de ciclo (capítulo 2.6).
-- O vetor de manipulação central do capítulo é **estreitar silenciosamente o ponto de início do tempo de fluxo**; a salvaguarda é uma definição documentada e auditada do ponto de entrada.
+- O **tempo de fluxo abrange toda a cadeia de valor**, desde a identificação da necessidade de negócio até à entrega, mais amplo do que o âmbito apenas de engenharia do tempo de ciclo (tema 2.6).
+- O vetor de manipulação central do tema é **estreitar silenciosamente o ponto de início do tempo de fluxo**; a salvaguarda é uma definição documentada e auditada do ponto de entrada.
 - **Rastreie a carga de fluxo continuamente**, não periodicamente, para que funcione como um indicador avançado genuíno em vez de uma descoberta retardada.
 - Use a lei de Little **explicitamente**, não apenas como intuição, ao argumentar por um limite de trabalho em curso, um aumento de capacidade, ou sequenciamento de trabalho concorrente.
 

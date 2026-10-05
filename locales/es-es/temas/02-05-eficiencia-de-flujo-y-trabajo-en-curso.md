@@ -15,8 +15,8 @@ tarda en hacerse el trabajo, es cuánto tarda el trabajo en empezar.
 El **[trabajo en curso](https://en.wikipedia.org/wiki/Work_in_process)**
 (WIP, por sus siglas en inglés) es el recuento de elementos que se están
 trabajando activamente en un momento dado, en un equipo o en un sistema, la
-misma cantidad que el capítulo 2.4 llama "carga de flujo". El hallazgo
-contraintuitivo detrás de este capítulo, respaldado por décadas de
+misma cantidad que el tema 2.4 llama "carga de flujo". El hallazgo
+contraintuitivo detrás de este tema, respaldado por décadas de
 investigación en gestión de operaciones y formalizado para la entrega de
 software mediante kanban y la teoría de colas, es que limitar el trabajo en
 curso tiende a *aumentar* el rendimiento, no a disminuirlo, porque menos
@@ -29,7 +29,7 @@ Para los equipos grandes, entender la eficiencia de flujo replantea casi
 todos los problemas de entrega de "la gente necesita trabajar más rápido" a
 "el trabajo necesita esperar menos". Ese replanteamiento importa porque el
 primer enfoque invita a presionar a las personas, exactamente la trampa
-contra la que advierte el capítulo 2.6, mientras que el segundo invita a
+contra la que advierte el tema 2.6, mientras que el segundo invita a
 investigar la estructura de colas, la capacidad de revisión y cuánto
 trabajo se empieza simultáneamente, que es donde suele vivir la mejora
 real y sostenible. Las organizaciones grandes que hacen malabares con
@@ -61,7 +61,7 @@ ralentizando en silencio todo lo que ya está en vuelo.
 
 Calcula la razón entre el tiempo activo y el tiempo total transcurrido para
 una muestra representativa de cambios recientes, usando los datos de etapa
-de tiempo de ciclo del capítulo 2.6. La mayoría de los equipos que miden
+de tiempo de ciclo del tema 2.6. La mayoría de los equipos que miden
 esto por primera vez se sorprenden de lo bajo que es el número, y esa
 sorpresa en sí misma es valiosa: redirige la atención de "trabajar más
 duro" hacia "reducir las colas", que casi siempre es la palanca más
@@ -137,7 +137,7 @@ ilimitado.
    los equipos nunca han calculado esto y asumen que es mucho más alto de
    lo que resulta ser. Extrae una muestra de cambios recientes y calcula la
    razón con honestidad antes de debatir cualquier otra cosa de este
-   capítulo.
+   tema.
 
 2. **¿Cuánto trabajo en curso tenemos realmente ahora mismo, en todo el
    equipo, y sabía alguien ese número antes de contarlo?** Un WIP alto
@@ -314,7 +314,7 @@ tanto como la adopción inicial.
 - Vigila que los límites de WIP **se erosionen mediante excepciones
   rutinarias**; trata cada excepción como una decisión deliberada y
   visible.
-- El capítulo 2.4 nombra esta cantidad **carga de flujo** y el capítulo 2.7
+- El tema 2.4 nombra esta cantidad **carga de flujo** y el tema 2.7
   formaliza la relación como la ley de Little: el trabajo en curso es igual
   a la tasa de llegada por el tiempo de ciclo, para cualquier cola estable.
 

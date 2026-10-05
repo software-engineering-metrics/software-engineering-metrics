@@ -2,19 +2,19 @@
 
 ## Overview and motivation
 
-This chapter measures what happens when the error budget from chapter 6.1
+This topic measures what happens when the error budget from topic 6.1
 gets spent through an actual failure: an **incident**, an unplanned event
 that degrades or interrupts a service. Four metrics form the standard
 vocabulary for measuring how well an organisation handles this: **mean time
 to detect (MTTD)**, how long before the organisation notices something is
 wrong; **mean time to acknowledge (MTTA)**, how long before someone takes
 ownership of responding; **mean time to resolve** or **recover (MTTR)**, how
-long until service is restored, the same concept chapter 2.10 covered
+long until service is restored, the same concept topic 2.10 covered
 specifically for deployment-caused failures, now generalised to any
 incident regardless of cause; and **incident frequency**, simply how often
 incidents occur at all.
 
-This chapter's central concern, echoing chapter 2.10's treatment of change
+This topic's central concern, echoing topic 2.10's treatment of change
 failure rate, is that these numbers are only as trustworthy as the
 organisational culture around reporting and classifying incidents honestly.
 A team that fears blame for an incident has every incentive to under-report,
@@ -22,13 +22,13 @@ delay acknowledgement to avoid being "on the clock," or classify a serious
 event as minor to protect its own metrics. **[Blameless](https://en.wikipedia.org/wiki/Just_culture) postmortem**
 practice, pioneered at organisations like Etsy and formalised in Google's
 SRE literature, exists specifically to remove that incentive, and this
-chapter treats it as a prerequisite for trustworthy incident data, not an
+topic treats it as a prerequisite for trustworthy incident data, not an
 optional cultural nicety layered on top of the metrics.
 
 For large teams, incident metrics reveal whether an organisation's
-detection and response capability, chapter 2.10's rollback tooling among
+detection and response capability, topic 2.10's rollback tooling among
 other investments, actually works under real, varied conditions, not just
-the specific deployment-caused failure scenario that chapter covered.
+the specific deployment-caused failure scenario that topic covered.
 Enterprise and government organisations operating critical infrastructure
 depend on these metrics both internally, to drive genuine operational
 improvement, and externally, to demonstrate to customers, regulators, or the
@@ -43,10 +43,10 @@ public that incidents are handled competently and improving over time.
   distinct fixes.** A slow overall recovery time can hide very different
   underlying problems depending on which phase is actually slow.
 - **Incident frequency and MTTR are a paired signal**, similar to DORA's
-  change failure rate and recovery time (chapter 2.10): neither alone tells
+  change failure rate and recovery time (topic 2.10): neither alone tells
   the full story.
 - **Severity classification needs the same rigor as escaped defect
-  classification** (chapter 5.1): consistent, documented criteria, not ad
+  classification** (topic 5.1): consistent, documented criteria, not ad
   hoc judgement.
 - **A postmortem's value is in systemic learning, not in producing a
   number.** The metric is a byproduct of good practice, not the goal of it.
@@ -62,7 +62,7 @@ separately, rather than only a single, blended total. Each phase points to a
 different fix: slow detection points to a monitoring and alerting gap, slow
 acknowledgement points to an on-call process or escalation problem, and slow
 resolution points to a tooling, runbook, or diagnostic capability gap
-(chapter 2.10 covers this specifically for deployment-caused failures).
+(topic 2.10 covers this specifically for deployment-caused failures).
 
 ### Build and protect a genuinely blameless postmortem process
 
@@ -77,7 +77,7 @@ necessary, ongoing investments, not a one-time policy statement.
 
 ### Classify severity with consistent, documented, audited criteria
 
-Apply the same discipline chapter 5.1 recommends for escaped defects to
+Apply the same discipline topic 5.1 recommends for escaped defects to
 incident severity classification: a fixed, documented scale based on actual
 customer or business impact, applied consistently across teams, periodically
 audited for drift. Inconsistent classification, some teams generous, some
@@ -100,7 +100,7 @@ metrics
 The real value of the postmortem process is the specific, systemic action
 items it produces: a missing alert added, a runbook improved, a
 single-point-of-failure removed. Track these action items to completion
-with the same discipline as the technical debt backlog from chapter 4.5,
+with the same discipline as the technical debt backlog from topic 4.5,
 since a postmortem that produces insight but no follow-through wastes the
 organisational learning the process is meant to capture.
 
@@ -143,7 +143,7 @@ individual who happened to be present when it occurred.
 
 4. **Do we review incident frequency and MTTR together, or does one get
    more attention than the other?** Check your actual reporting practice
-   and reviews for this pairing, mirroring the same discipline chapter 2.10
+   and reviews for this pairing, mirroring the same discipline topic 2.10
    recommends for the DORA stability metrics.
 
 5. **What percentage of our postmortem action items from the last six
@@ -166,7 +166,7 @@ retrofit once a blame-prone pattern has taken hold.
 
 **Small business.** A simple, shared incident log, even informal, with a
 basic severity classification and a brief blameless retrospective for
-anything significant, captures most of this chapter's value without needing
+anything significant, captures most of this topic's value without needing
 sophisticated tooling or a dedicated incident-management platform.
 
 **Enterprise.** Consistent severity classification and genuine, sustained
@@ -282,7 +282,7 @@ data because fear has corrupted every input into it.
 - Decompose response time into **detection, acknowledgement, and
   resolution** phases, each pointing to a different fix.
 - Classify severity with **consistent, documented, audited criteria**,
-  mirroring chapter 5.1's escaped defect discipline.
+  mirroring topic 5.1's escaped defect discipline.
 - Review **incident frequency and MTTR together**, never in isolation, the
   same pairing discipline as DORA's stability metrics.
 - Track **postmortem action items to completion**; the metric is a

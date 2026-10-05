@@ -2,7 +2,7 @@
 
 ## Översikt och motivation
 
-Ett mätetal är bara så tillförlitligt som datan under det, och de flesta metrikprogram lägger långt mer ansträngning på att designa instrumentpaneler än på att verifiera pipelinen som matar dem. Det är bakvänt. Ett vackert designat diagram byggt på inkonsekvent, självrapporterad, eller tyst trasig instrumentering är värre än inget diagram alls, eftersom det ser auktoritativt ut samtidigt som det har fel. Det här kapitlet handlar om den oglamorösa grunden resten av den här boken förutsätter: var ingenjörsdata faktiskt kommer ifrån, när man ska lita på automatiserad instrumentering framför självrapportering, och de datakvalitetsmisslyckanden som tyst ogiltigförklarar ett mätetal innan någon märker det.
+Ett mätetal är bara så tillförlitligt som datan under det, och de flesta metrikprogram lägger långt mer ansträngning på att designa instrumentpaneler än på att verifiera pipelinen som matar dem. Det är bakvänt. Ett vackert designat diagram byggt på inkonsekvent, självrapporterad, eller tyst trasig instrumentering är värre än inget diagram alls, eftersom det ser auktoritativt ut samtidigt som det har fel. Det här ämnet handlar om den oglamorösa grunden resten av den här boken förutsätter: var ingenjörsdata faktiskt kommer ifrån, när man ska lita på automatiserad instrumentering framför självrapportering, och de datakvalitetsmisslyckanden som tyst ogiltigförklarar ett mätetal innan någon märker det.
 
 Mjukvaruingenjörsdata kommer från en handfull källtyper, var och en med olika tillförlitlighetsegenskaper. Versionskontroll och [CI/CD](https://en.wikipedia.org/wiki/CI/CD)-pipelines genererar objektiva, tidsstämplade, svårförfalskade register över vad som faktiskt hände. Ärendehanteringssystem och projekthanteringsverktyg genererar register som beror på att människor uppdaterar status korrekt och snabbt, vilket de ofta gör inkonsekvent. Enkäter genererar självrapporterad data som är ovärderlig för saker inget system kan observera, som nöjdhet, men är föremål för minnesbias och social önskvärdhetseffekt. Observerbarhetsplattformar genererar systemnivåtelemetri som är objektiv men bara täcker vad som instrumenterats. Att veta vilken kategori ett givet mätetals data kommer från berättar hur mycket du ska lita på det och vilka misslyckandemönster du ska vaka över.
 
@@ -11,7 +11,7 @@ På stora företags och myndigheters skala förstärks datakvalitetsproblem efte
 ## Nyckelprinciper
 
 - **Föredra instrumentering framför självrapportering varhelst systemet kan observera händelsen direkt.** En driftsättningstidsstämpel från pipelinen är mer tillförlitlig än ett teams självrapporterade driftsättningsantal.
-- **Använd självrapportering bara för vad som inte kan observeras direkt.** Nöjdhet, upplevd friktion, och välbefinnande har inget systemregistersubstitut; fråga direkt och designa enkäten väl (kapitel 3.7). Reservera självrapportering specifikt för den kategorin.
+- **Använd självrapportering bara för vad som inte kan observeras direkt.** Nöjdhet, upplevd friktion, och välbefinnande har inget systemregistersubstitut; fråga direkt och designa enkäten väl (ämne 3.7). Reservera självrapportering specifikt för den kategorin.
 - **Varje mätetals data har ett källsystem, en insamlingsmetod, och ett känt misslyckandemönster.** Dokumentera alla tre, inte bara definitionen.
 - **Datakvalitet förfaller tyst.** En pipeline som fungerade korrekt för ett år sedan kan vara tyst trasig idag, och en instrumentpanel kommer fortsätta rendera ett fel tal utan klagomål.
 - **Instrumentera vid sanningens punkt, inte nedströms av en översättning.** Varje hopp mellan händelsen och instrumentpanelen är en chans för betydelsen att glida.
@@ -20,7 +20,7 @@ På stora företags och myndigheters skala förstärks datakvalitetsproblem efte
 
 ### Kartlägg varje mätetal till dess faktiska källsystem innan du litar på det
 
-För varje mätetal på en instrumentpanel, namnge det specifika system som genererar den underliggande händelsen: CI/CD-pipelinen för driftsättningshändelser, versionskontrollvärden för commit- och sammanslagningshändelser, incidentspåraren för driftstoppregister, enkätplattformen för självrapporterad nöjdhet. Om du inte kan namnge det exakta systemet vet du faktiskt inte var talet kommer ifrån, och du kan inte utvärdera dess tillförlitlighet. Den här kartläggningen är en förutsättning för styrningsstadgan i kapitel 1.4, inte en separat övning.
+För varje mätetal på en instrumentpanel, namnge det specifika system som genererar den underliggande händelsen: CI/CD-pipelinen för driftsättningshändelser, versionskontrollvärden för commit- och sammanslagningshändelser, incidentspåraren för driftstoppregister, enkätplattformen för självrapporterad nöjdhet. Om du inte kan namnge det exakta systemet vet du faktiskt inte var talet kommer ifrån, och du kan inte utvärdera dess tillförlitlighet. Den här kartläggningen är en förutsättning för styrningsstadgan i ämne 1.4, inte en separat övning.
 
 ### Instrumentera vid händelsen, inte vid rapporten
 
@@ -28,7 +28,7 @@ Den mest tillförlitliga datan fångar en händelse automatiskt i det ögonblick
 
 ### Reservera enkäter för vad bara en person kan berätta för dig
 
-Vissa saker kan genuint inte observeras från systemtelemetri: om en ingenjör känner att deras arbete är meningsfullt, om en process känns frustrerande, om risken för utbrändhet ökar. De här kräver att fråga direkt, och en väldesignad enkät (kapitel 3.7 täcker mekaniken) är rätt verktyg. Misstaget är att använda självrapportering för saker ett system istället kunde observera direkt, att be ingenjörer uppskatta sin egen driftsättningsfrekvens istället för att hämta den från pipelinen, vilket introducerar onödigt brus och bias i data som kunde ha varit objektiv.
+Vissa saker kan genuint inte observeras från systemtelemetri: om en ingenjör känner att deras arbete är meningsfullt, om en process känns frustrerande, om risken för utbrändhet ökar. De här kräver att fråga direkt, och en väldesignad enkät (ämne 3.7 täcker mekaniken) är rätt verktyg. Misstaget är att använda självrapportering för saker ett system istället kunde observera direkt, att be ingenjörer uppskatta sin egen driftsättningsfrekvens istället för att hämta den från pipelinen, vilket introducerar onödigt brus och bias i data som kunde ha varit objektiv.
 
 ### Bygg datakvalitetskontroller in i själva pipelinen
 
@@ -36,7 +36,7 @@ Behandla mätetalspipelines med samma rigör som produktionskod: lägg till auto
 
 ### Dokumentera insamlingsmetoden vid sidan av definitionen
 
-Ett mätetals definition ("ledtid för ändringar") är inte komplett utan dess insamlingsmetod (mätt från första committidsstämpeln i versionskontroll till produktionsdriftsättningstidsstämpeln i pipelinen, exkluderande snabbrättningsgrenar). Två team med samma definition men olika insamlingsmetoder kommer fortfarande producera ojämförbara tal. Registrera båda i metrikstadgan från kapitel 1.4, och behandla en ändring av endera som en ändring som kräver samma dokumenterade granskning.
+Ett mätetals definition ("ledtid för ändringar") är inte komplett utan dess insamlingsmetod (mätt från första committidsstämpeln i versionskontroll till produktionsdriftsättningstidsstämpeln i pipelinen, exkluderande snabbrättningsgrenar). Två team med samma definition men olika insamlingsmetoder kommer fortfarande producera ojämförbara tal. Registrera båda i metrikstadgan från ämne 1.4, och behandla en ändring av endera som en ändring som kräver samma dokumenterade granskning.
 
 ## Avvägningar: fördelar och nackdelar
 

@@ -2,7 +2,7 @@
 
 ## Überblick und Motivation
 
-Eine Metrik ist nur so vertrauenswürdig wie die Daten darunter, und die meisten Metrikprogramme investieren weit mehr Aufwand in die Gestaltung von Dashboards als in die Überprüfung der Pipeline, die sie speist. Das ist verkehrt herum. Ein wunderschön gestaltetes Diagramm, das auf inkonsistenter, selbst berichteter oder still kaputter Instrumentierung aufbaut, ist schlimmer als gar kein Diagramm, weil es maßgeblich wirkt, während es falsch ist. Dieses Kapitel behandelt die unglamouröse Grundlage, die der Rest dieses Buches voraussetzt: woher Engineering-Daten tatsächlich stammen, wann automatisierter Instrumentierung mehr zu vertrauen ist als Selbstauskunft, und die Datenqualitätsfehler, die eine Metrik still entwerten, bevor es jemand bemerkt.
+Eine Metrik ist nur so vertrauenswürdig wie die Daten darunter, und die meisten Metrikprogramme investieren weit mehr Aufwand in die Gestaltung von Dashboards als in die Überprüfung der Pipeline, die sie speist. Das ist verkehrt herum. Ein wunderschön gestaltetes Diagramm, das auf inkonsistenter, selbst berichteter oder still kaputter Instrumentierung aufbaut, ist schlimmer als gar kein Diagramm, weil es maßgeblich wirkt, während es falsch ist. Dieses Thema behandelt die unglamouröse Grundlage, die der Rest dieses Buches voraussetzt: woher Engineering-Daten tatsächlich stammen, wann automatisierter Instrumentierung mehr zu vertrauen ist als Selbstauskunft, und die Datenqualitätsfehler, die eine Metrik still entwerten, bevor es jemand bemerkt.
 
 Daten der Softwareentwicklung stammen aus einer Handvoll Quelltypen, jeder mit anderen Zuverlässigkeitsmerkmalen. Versionsverwaltung und [CI/CD](https://en.wikipedia.org/wiki/CI/CD)-Pipelines erzeugen objektive, zeitgestempelte, schwer zu fälschende Aufzeichnungen dessen, was tatsächlich geschah. Issue-Tracker und Projektmanagement-Tools erzeugen Aufzeichnungen, die davon abhängen, dass Menschen den Status korrekt und zeitnah aktualisieren, was sie oft inkonsistent tun. Umfragen erzeugen selbst berichtete Daten, die für Dinge, die kein System beobachten kann, wie Zufriedenheit, von unschätzbarem Wert sind, aber Erinnerungsverzerrung und sozialer Erwünschtheit unterliegen. Observability-Plattformen erzeugen systemseitige Telemetrie, die objektiv ist, aber nur abdeckt, was instrumentiert wurde. Zu wissen, aus welcher Kategorie die Daten einer bestimmten Metrik stammen, sagt, wie sehr ihr vertraut werden kann und auf welche Fehlmodi geachtet werden sollte.
 
@@ -11,7 +11,7 @@ Auf Konzern- und Behördenebene verstärken sich Datenqualitätsprobleme, weil d
 ## Kernprinzipien
 
 - **Instrumentierung sollte gegenüber Selbstauskunft bevorzugt werden, wo immer das System das Ereignis direkt beobachten kann.** Ein Deploy-Zeitstempel aus der Pipeline ist vertrauenswürdiger als eine selbst berichtete Deploy-Zahl eines Teams.
-- **Selbstauskunft sollte nur für das genutzt werden, was nicht direkt beobachtet werden kann.** Zufriedenheit, empfundene Reibung und Wohlbefinden haben keinen Ersatz durch ein System of Record; direkt gefragt und die Umfrage gut gestaltet werden sollte (Kapitel 3.7). Selbstauskunft sollte speziell für diese Kategorie reserviert bleiben.
+- **Selbstauskunft sollte nur für das genutzt werden, was nicht direkt beobachtet werden kann.** Zufriedenheit, empfundene Reibung und Wohlbefinden haben keinen Ersatz durch ein System of Record; direkt gefragt und die Umfrage gut gestaltet werden sollte (Thema 3.7). Selbstauskunft sollte speziell für diese Kategorie reserviert bleiben.
 - **Die Daten jeder Metrik haben ein Quellsystem, eine Erhebungsmethode und einen bekannten Fehlmodus.** Alle drei sollten dokumentiert werden, nicht nur die Definition.
 - **Datenqualität verfällt still.** Eine Pipeline, die vor einem Jahr korrekt funktionierte, kann heute still kaputt sein, und ein Dashboard wird eine falsche Zahl klaglos weiter anzeigen.
 - **Instrumentiert werden sollte am Ort der Wahrheit, nicht nachgelagert einer Übersetzung.** Jeder Sprung zwischen dem Ereignis und dem Dashboard ist eine Gelegenheit für Bedeutungsverschiebung.
@@ -20,7 +20,7 @@ Auf Konzern- und Behördenebene verstärken sich Datenqualitätsprobleme, weil d
 
 ### Jede Metrik ihrem tatsächlichen Quellsystem zuordnen, bevor ihr vertraut wird
 
-Für jede Metrik auf einem Dashboard sollte das konkrete System benannt werden, das das zugrunde liegende Ereignis erzeugt: die CI/CD-Pipeline für Deploy-Ereignisse, das Versionsverwaltungssystem für Commit- und Merge-Ereignisse, der Incident-Tracker für Ausfallaufzeichnungen, die Umfrageplattform für selbst berichtete Zufriedenheit. Wenn das genaue System nicht benannt werden kann, ist tatsächlich nicht bekannt, woher die Zahl stammt, und ihre Zuverlässigkeit kann nicht bewertet werden. Diese Zuordnung ist eine Voraussetzung für den Governance-Charter aus Kapitel 1.4, keine separate Übung.
+Für jede Metrik auf einem Dashboard sollte das konkrete System benannt werden, das das zugrunde liegende Ereignis erzeugt: die CI/CD-Pipeline für Deploy-Ereignisse, das Versionsverwaltungssystem für Commit- und Merge-Ereignisse, der Incident-Tracker für Ausfallaufzeichnungen, die Umfrageplattform für selbst berichtete Zufriedenheit. Wenn das genaue System nicht benannt werden kann, ist tatsächlich nicht bekannt, woher die Zahl stammt, und ihre Zuverlässigkeit kann nicht bewertet werden. Diese Zuordnung ist eine Voraussetzung für den Governance-Charter aus Thema 1.4, keine separate Übung.
 
 ### Am Ereignis instrumentieren, nicht am Bericht
 
@@ -28,7 +28,7 @@ Die zuverlässigsten Daten erfassen ein Ereignis automatisch in dem Moment, in d
 
 ### Umfragen für das reservieren, was nur eine Person sagen kann
 
-Manche Dinge lassen sich aus System-Telemetrie tatsächlich nicht beobachten: ob eine Ingenieurin oder ein Ingenieur die eigene Arbeit als bedeutsam empfindet, ob sich ein Prozess frustrierend anfühlt, ob das Burnout-Risiko steigt. Diese müssen direkt erfragt werden, und eine gut gestaltete Umfrage (Kapitel 3.7 behandelt die Mechanik) ist das richtige Werkzeug dafür. Der Fehler ist, stattdessen Selbstauskunft für Dinge zu nutzen, die ein System direkt beobachten könnte, etwa Ingenieurinnen und Ingenieure zu bitten, ihre eigene Deployment-Frequenz zu schätzen, statt sie aus der Pipeline zu ziehen, was unnötiges Rauschen und Verzerrung in Daten einführt, die objektiv hätten sein können.
+Manche Dinge lassen sich aus System-Telemetrie tatsächlich nicht beobachten: ob eine Ingenieurin oder ein Ingenieur die eigene Arbeit als bedeutsam empfindet, ob sich ein Prozess frustrierend anfühlt, ob das Burnout-Risiko steigt. Diese müssen direkt erfragt werden, und eine gut gestaltete Umfrage (Thema 3.7 behandelt die Mechanik) ist das richtige Werkzeug dafür. Der Fehler ist, stattdessen Selbstauskunft für Dinge zu nutzen, die ein System direkt beobachten könnte, etwa Ingenieurinnen und Ingenieure zu bitten, ihre eigene Deployment-Frequenz zu schätzen, statt sie aus der Pipeline zu ziehen, was unnötiges Rauschen und Verzerrung in Daten einführt, die objektiv hätten sein können.
 
 ### Datenqualitätsprüfungen in die Pipeline selbst einbauen
 
@@ -36,7 +36,7 @@ Metrik-Pipelines sollten mit derselben Strenge behandelt werden wie Produktionsc
 
 ### Die Erhebungsmethode zusammen mit der Definition dokumentieren
 
-Die Definition einer Metrik („Lead Time für Änderungen") ist ohne ihre Erhebungsmethode nicht vollständig (gemessen vom ersten Commit-Zeitstempel in der Versionsverwaltung bis zum Produktions-Deploy-Zeitstempel in der Pipeline, Hotfix-Branches ausgeschlossen). Zwei Teams mit derselben Definition, aber unterschiedlichen Erhebungsmethoden, werden dennoch unvergleichbare Zahlen produzieren. Beides sollte im Metrik-Charter aus Kapitel 1.4 festgehalten werden, und eine Änderung an beidem sollte als Änderung behandelt werden, die dieselbe dokumentierte Überprüfung verlangt.
+Die Definition einer Metrik („Lead Time für Änderungen") ist ohne ihre Erhebungsmethode nicht vollständig (gemessen vom ersten Commit-Zeitstempel in der Versionsverwaltung bis zum Produktions-Deploy-Zeitstempel in der Pipeline, Hotfix-Branches ausgeschlossen). Zwei Teams mit derselben Definition, aber unterschiedlichen Erhebungsmethoden, werden dennoch unvergleichbare Zahlen produzieren. Beides sollte im Metrik-Charter aus Thema 1.4 festgehalten werden, und eine Änderung an beidem sollte als Änderung behandelt werden, die dieselbe dokumentierte Überprüfung verlangt.
 
 ## Abwägungen: Vor- und Nachteile
 

@@ -8,8 +8,8 @@ modificadas y eliminadas a través de sucesivos commits. Por sí solos, los
 cambios acumulados son una señal bastante débil: algunos archivos cambian a
 menudo porque están bajo un desarrollo activo y saludable, y algunos cambian
 rara vez porque son estables y correctos, no porque estén desatendidos. El
-verdadero poder diagnóstico del enfoque de este capítulo proviene de
-combinar los cambios acumulados con la complejidad (capítulo 4.1): un
+verdadero poder diagnóstico del enfoque de este tema proviene de
+combinar los cambios acumulados con la complejidad (tema 4.1): un
 archivo que es a la vez modificado con frecuencia y altamente complejo, un
 **punto caliente**, tiene una probabilidad desproporcionada de ser una
 fuente de defectos y un lastre para la velocidad del equipo, y la
@@ -63,7 +63,7 @@ hacia el código que producirá el mayor retorno.
 
 Extrae la frecuencia de cambio por archivo del historial de control de
 versiones a lo largo de una ventana significativa, normalmente de seis
-meses a un año, y empareja eso con una medida de complejidad (capítulo 4.1)
+meses a un año, y empareja eso con una medida de complejidad (tema 4.1)
 para los mismos archivos. Clasifica los archivos por la combinación,
 comúnmente el producto de los cambios acumulados y la complejidad, en lugar
 de por cualquiera de las dos métricas por separado, ya que esta combinación
@@ -80,14 +80,14 @@ legítimamente necesita cambios frecuentes porque se sitúa en el centro de
 una lógica de negocio activa y en evolución, en cuyo caso la prioridad
 podría ser mejores pruebas o documentación más clara en lugar de una
 reescritura estructural. Esto refleja la distinción entre complejidad
-esencial y accidental del capítulo 4.1, aplicada aquí a la señal combinada
+esencial y accidental del tema 4.1, aplicada aquí a la señal combinada
 de cambios acumulados y complejidad.
 
 ### Contrasta los puntos calientes con datos de incidentes y defectos
 
 Cuando estén disponibles, comprueba si tus puntos calientes identificados
-se correlacionan con incidentes de producción reales (capítulo 6.2) o datos
-de defectos escapados (capítulo 5.1). Una correlación fuerte valida el
+se correlacionan con incidentes de producción reales (tema 6.2) o datos
+de defectos escapados (tema 5.1). Una correlación fuerte valida el
 análisis de puntos calientes como genuinamente predictivo para tu base de
 código concreta y refuerza el caso de negocio para actuar sobre él; una
 correlación débil o ausente sugiere ya sea un problema de calidad de datos,
@@ -253,7 +253,7 @@ guiada por la intuición.
 El coste total de propiedad es bajo, ya que los datos de cambios acumulados
 provienen directamente del historial de control de versiones existente y
 los datos de complejidad normalmente ya están disponibles a partir de
-herramientas de análisis estático (capítulo 4.4); la principal inversión es
+herramientas de análisis estático (tema 4.4); la principal inversión es
 el esfuerzo de análisis periódico y el tiempo de juicio humano para
 interpretar los resultados y decidir qué acción merece cada punto caliente
 identificado.

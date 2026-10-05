@@ -100,7 +100,7 @@ The book is published as a website at
 ## Cross-cutting themes
 
 [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) governs every
-chapter: a measure that becomes a target stops being a good measure, so every
+topic: a measure that becomes a target stops being a good measure, so every
 metric family here ships with its gaming vector and its guardrail attached.
 Outcomes are weighted over output and activity throughout. Government and
 enterprise reporting obligations are treated as design inputs, not

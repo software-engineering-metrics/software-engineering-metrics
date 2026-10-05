@@ -1,7 +1,7 @@
 # 9.7 Index
 
-Un index thématique des concepts clés et des chapitres qui les couvrent.
-Les termes sont définis dans le Glossaire (chapitre 9.1).
+Un index thématique des concepts clés et des sujets qui les couvrent.
+Les termes sont définis dans le Glossaire (sujet 9.1).
 
 ## A
 

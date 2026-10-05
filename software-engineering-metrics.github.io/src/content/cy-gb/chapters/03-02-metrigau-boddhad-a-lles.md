@@ -2,11 +2,11 @@
 
 ## Trosolwg a chymhelliant
 
-**Boddhad a lles**, yr S yn SPACE (pennod 3.1), yw'r dimensiwn na all
+**Boddhad a lles**, yr S yn SPACE (pwnc 3.1), yw'r dimensiwn na all
 unrhyw delemetreg system ei arsylwi'n uniongyrchol. A yw peiriannydd yn
 canfod ei waith yn ystyrlon, a yw'n teimlo cefnogaeth ei dîm, a yw'n
 symud tuag at losgi allan, nid yw'r un o'r rhain yn gadael ôl mewn log
-rheoli fersiwn na phiblinell CI. Rhaid ei ofyn. Mae'r bennod hon yn
+rheoli fersiwn na phiblinell CI. Rhaid ei ofyn. Mae'r pwnc hwn yn
 ymwneud â gofyn yn dda: dylunio mesuriad sy'n cynhyrchu signal
 dibynadwy am gyflwr gwirioneddol oddrychol, gwirioneddol bwysig, yn
 hytrach na rhif sy'n edrych yn fanwl gywir tra'n mesur bron dim byd
@@ -25,7 +25,7 @@ hyn sy'n prynu i'r sefydliad yr amser arwain i weithredu cyn i hynny
 ddigwydd.
 
 I dimau mawr, dyma hefyd lle mae'r gwahaniaeth diagnostig-a-gwerthuso o
-bennod 1.1 yn bwysicaf yn finiog. Mae data boddhad a ddefnyddir i ddeall
+bwnc 1.1 yn bwysicaf yn finiog. Mae data boddhad a ddefnyddir i ddeall
 a gwella amodau tîm yn werthfawr ac yn berygl isel. Mae'r un data a
 ddefnyddir i raddio timau neu, yn waeth, unigolion yn erbyn ei gilydd yn
 llygru'r offeryn arolwg bron ar unwaith, oherwydd bod pobl yn peidio ag
@@ -205,7 +205,7 @@ yn dangos gostyngiad cyson ar draws pedwar chwarter olynol. Roedd
 arweinyddiaeth, yn wreiddiol yn dueddol o ddiystyru'r pryder oherwydd
 bod y rhif boddhad cyffredinol yn edrych yn iawn, wedi ymchwilio ymhellach
 ar ôl ail chwarter olynol o ostyngiad a chanfod bod y tîm wedi bod yn
-amsugno llwyth ar-alwad anghynaliadwy (pennod 6.3) am bron i flwyddyn ar
+amsugno llwyth ar-alwad anghynaliadwy (pwnc 6.3) am bron i flwyddyn ar
 ôl rhewi nifer pennau. Gwrthdroddodd adfer staffio ar-alwad digonol y
 duedd llosgi allan o fewn dau chwarter, ymhell cyn iddo drosi i'r pigyn
 traul staff yr oedd data'r cwmni'n dangos oedd y canlyniad nodweddiadol

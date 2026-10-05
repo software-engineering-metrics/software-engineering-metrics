@@ -7,7 +7,7 @@ programmes spend far more effort designing dashboards than verifying the
 pipeline that feeds them. This is backwards. A beautifully designed chart
 built on inconsistent, self-reported, or silently broken instrumentation is
 worse than no chart at all, because it looks authoritative while being
-wrong. This chapter is about the unglamorous foundation the rest of this
+wrong. This topic is about the unglamorous foundation the rest of this
 book assumes: where engineering data actually comes from, when to trust
 automated instrumentation over self-report, and the data-quality failures
 that quietly invalidate a metric before anyone notices.
@@ -40,7 +40,7 @@ foundation everything else in this book stands on.
   trustworthy than a team's self-reported deploy count.
 - **Use self-report only for what cannot be observed directly.**
   Satisfaction, perceived friction, and well-being have no system-of-record
-  substitute; ask directly and design the survey well (chapter 3.7).
+  substitute; ask directly and design the survey well (topic 3.7).
   Reserve self-report specifically for that category.
 - **Every metric's data has a source system, a collection method, and a
   known failure mode.** Document all three, not just the definition.
@@ -61,7 +61,7 @@ host for commit and merge events, the incident tracker for outage records,
 the survey platform for self-reported satisfaction. If you cannot name the
 exact system, you do not actually know where the number comes from, and you
 cannot evaluate its reliability. This mapping is a prerequisite for the
-governance charter in chapter 1.4, not a separate exercise.
+governance charter in topic 1.4, not a separate exercise.
 
 ### Instrument at the event, not at the report
 
@@ -79,7 +79,7 @@ proxy for the same fact.
 Some things genuinely cannot be observed from system telemetry: whether an
 engineer feels their work is meaningful, whether a process feels
 frustrating, whether burnout risk is rising. These require asking directly,
-and a well-designed survey (chapter 3.7 covers the mechanics) is the right
+and a well-designed survey (topic 3.7 covers the mechanics) is the right
 tool. The mistake is using self-report for things a system could observe
 directly instead, asking engineers to estimate their own deployment
 frequency rather than pulling it from the pipeline, which introduces
@@ -102,7 +102,7 @@ collection method (measured from first commit timestamp in version control
 to production deploy timestamp in the pipeline, excluding hotfix branches).
 Two teams with the same definition but different collection methods will
 still produce incomparable numbers. Record both in the metrics charter from
-chapter 1.4, and treat a change to either as a change requiring the same
+topic 1.4, and treat a change to either as a change requiring the same
 documented review.
 
 ## Trade-offs: pros and cons

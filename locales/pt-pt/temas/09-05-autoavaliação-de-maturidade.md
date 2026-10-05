@@ -1,17 +1,17 @@
 # 9.5 Autoavaliação de maturidade
 
-Cada capítulo nas Partes 1 a 8 termina com um modelo de maturidade de cinco níveis: 1 Iniciar, 2 Desenvolver, 3 Padronizar, 4 Gerir, 5 Orquestrar. Este apêndice consolida-os numa única matriz para autoavaliação organizacional. Pontue cada capítulo honestamente, usando evidência concreta, não aspiração. Veja o capítulo 8.4 para o modelo transversal de programa de cinco dimensões que esta matriz capítulo a capítulo complementa, e lembre-se de que a maturidade de programa é o mínimo através das dimensões, não a média.
+Cada tema nas Partes 1 a 8 termina com um modelo de maturidade de cinco níveis: 1 Iniciar, 2 Desenvolver, 3 Padronizar, 4 Gerir, 5 Orquestrar. Este apêndice consolida-os numa única matriz para autoavaliação organizacional. Pontue cada tema honestamente, usando evidência concreta, não aspiração. Veja o tema 8.4 para o modelo transversal de programa de cinco dimensões que esta matriz tema a tema complementa, e lembre-se de que a maturidade de programa é o mínimo através das dimensões, não a média.
 
 ## Como usar esta matriz
 
-1. Para cada capítulo, leia o seu próprio modelo de maturidade (o capítulo é a fonte autoritativa; esta tabela é um índice-resumo).
+1. Para cada tema, leia o seu próprio modelo de maturidade (o tema é a fonte autoritativa; esta tabela é um índice-resumo).
 2. Pontue a sua organização de 1 a 5 contra evidência concreta, não intenção.
-3. Não calcule a média através dos capítulos dentro de uma parte; cada capítulo mede uma capacidade distinta.
-4. Alimente pontuações baixas no roteiro de adoção do capítulo 8.5 como prioridades de investimento, não como um veredito pelo qual se sentir mal (capítulo 1.1).
+3. Não calcule a média através dos temas dentro de uma parte; cada tema mede uma capacidade distinta.
+4. Alimente pontuações baixas no roteiro de adoção do tema 8.5 como prioridades de investimento, não como um veredito pelo qual se sentir mal (tema 1.1).
 
 ## Parte 1: Fundamentos da medição
 
-| Capítulo | Capacidade | A sua pontuação (1-5) |
+| Tema | Capacidade | A sua pontuação (1-5) |
 | --- | --- | --- |
 | 1.1 | Medir para informar decisões, não para julgar | |
 | 1.2 | Disciplina de combinação com salvaguardas contra a lei de Goodhart | |
@@ -22,7 +22,7 @@ Cada capítulo nas Partes 1 a 8 termina com um modelo de maturidade de cinco ní
 
 ## Parte 2: Métricas de fluxo
 
-| Capítulo | Capacidade | A sua pontuação (1-5) |
+| Tema | Capacidade | A sua pontuação (1-5) |
 | --- | --- | --- |
 | 2.1 | Adoção do Flow Framework, cadeia de valor mapeada honestamente | |
 | 2.2 | Classificação de itens de fluxo, consistente e no momento de admissão | |
@@ -37,7 +37,7 @@ Cada capítulo nas Partes 1 a 8 termina com um modelo de maturidade de cinco ní
 
 ## Parte 3: Experiência do programador e o enquadramento SPACE
 
-| Capítulo | Capacidade | A sua pontuação (1-5) |
+| Tema | Capacidade | A sua pontuação (1-5) |
 | --- | --- | --- |
 | 3.1 | Adoção equilibrada e multidimensional do SPACE | |
 | 3.2 | Medição de satisfação e bem-estar | |
@@ -49,7 +49,7 @@ Cada capítulo nas Partes 1 a 8 termina com um modelo de maturidade de cinco ní
 
 ## Parte 4: Métricas de código e qualidade
 
-| Capítulo | Capacidade | A sua pontuação (1-5) |
+| Tema | Capacidade | A sua pontuação (1-5) |
 | --- | --- | --- |
 | 4.1 | Métricas de complexidade usadas para triagem, não julgamento | |
 | 4.2 | Cobertura combinada com teste de mutação | |
@@ -60,7 +60,7 @@ Cada capítulo nas Partes 1 a 8 termina com um modelo de maturidade de cinco ní
 
 ## Parte 5: Métricas de produto e negócio
 
-| Capítulo | Capacidade | A sua pontuação (1-5) |
+| Tema | Capacidade | A sua pontuação (1-5) |
 | --- | --- | --- |
 | 5.1 | Rastreio ponderado por gravidade de defeitos escapados | |
 | 5.2 | Adoção medida como experimentação mais retenção | |
@@ -70,7 +70,7 @@ Cada capítulo nas Partes 1 a 8 termina com um modelo de maturidade de cinco ní
 
 ## Parte 6: Métricas de fiabilidade, operações, e segurança
 
-| Capítulo | Capacidade | A sua pontuação (1-5) |
+| Tema | Capacidade | A sua pontuação (1-5) |
 | --- | --- | --- |
 | 6.1 | SLOs baseados em evidência e orçamentos de erro gastáveis | |
 | 6.2 | Métricas de incidentes sem culpa e decompostas por fase | |
@@ -79,7 +79,7 @@ Cada capítulo nas Partes 1 a 8 termina com um modelo de maturidade de cinco ní
 
 ## Parte 7: Métricas na era da IA
 
-| Capítulo | Capacidade | A sua pontuação (1-5) |
+| Tema | Capacidade | A sua pontuação (1-5) |
 | --- | --- | --- |
 | 7.1 | Auditoria de validade de métricas na era da IA conduzida | |
 | 7.2 | Medição baseada em evidência de desenvolvimento assistido por IA | |
@@ -88,7 +88,7 @@ Cada capítulo nas Partes 1 a 8 termina com um modelo de maturidade de cinco ní
 
 ## Parte 8: Construir um programa de métricas
 
-| Capítulo | Capacidade | A sua pontuação (1-5) |
+| Tema | Capacidade | A sua pontuação (1-5) |
 | --- | --- | --- |
 | 8.1 | Painéis específicos por público e honestamente desenhados | |
 | 8.2 | Estratégia deliberada e híbrida de ferramentas construir-versus-comprar | |
@@ -96,7 +96,7 @@ Cada capítulo nas Partes 1 a 8 termina com um modelo de maturidade de cinco ní
 | 8.4 | Autoavaliação transversal de maturidade de programa | |
 | 8.5 | Roteiro faseado de adoção com fundações primeiro | |
 
-## Dimensões transversais de programa (capítulo 8.4)
+## Dimensões transversais de programa (tema 8.4)
 
 | Dimensão | A sua pontuação (1-5) |
 | --- | --- |

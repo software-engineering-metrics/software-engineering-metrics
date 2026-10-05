@@ -82,14 +82,14 @@ contagens individuais de atividade.]
 
 Para cada métrica:
 - Leitura atual e tendência
-- Qualquer movimento fora da variação normal (capítulo 1.6)
+- Qualquer movimento fora da variação normal (tema 1.6)
 - Estatuto da salvaguarda combinada, se aplicável
 - Decisão que esta leitura informa, se alguma
 
 ## Novas métricas propostas
 
 [Percorra cada uma através da lista de verificação de revisão de nova
-métrica, capítulo 9.3.]
+métrica, tema 9.3.]
 
 ## Métricas consideradas para retirada
 
@@ -119,7 +119,7 @@ métrica, capítulo 9.3.]
 
 ## Gravidade
 
-[Classificação contra critérios documentados, capítulo 6.2.]
+[Classificação contra critérios documentados, tema 6.2.]
 
 ## Causa raiz
 
@@ -147,13 +147,13 @@ segundo o próximo ciclo de revisão.]
 ```markdown
 # Caso de ROI: [nome da iniciativa]
 
-## Custo (custo total de propriedade, capítulo 5.5)
+## Custo (custo total de propriedade, tema 5.5)
 
 - Inicial: [custo de desenvolvimento]
 - Contínuo: [manutenção, infraestrutura, suporte, por ano]
 - Custo de oportunidade: [o que mais esta capacidade poderia ter feito]
 
-## Benefício (evidência documentada, capítulos 5.1-5.3)
+## Benefício (evidência documentada, temas 5.1-5.3)
 
 - [Benefício 1], evidenciado por [fonte de dados]
 - [Benefício 2], evidenciado por [fonte de dados]

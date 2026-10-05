@@ -4,7 +4,7 @@
 
 A **taxa de defeitos escapados** mede os defeitos que chegam à produção e afetam utilizadores reais, distintos dos defeitos capturados mais cedo através de testes, revisão de código, ou análise estática, todos cobertos na Parte 4 deste livro. A distinção importa imensamente: um defeito capturado em revisão de código custa minutos a corrigir e nenhum utilizador o vê alguma vez; o mesmo defeito, se escapar para produção, pode custar horas de resposta a incidentes, dano real ao cliente, e um dano mensurável à confiança. Esta métrica é, num sentido real, o resultado final para tudo o que a Parte 4 cobre, já que uma taxa crescente de defeitos escapados apesar de fortes métricas internas de qualidade (complexidade, cobertura, análise estática) normalmente significa que esses sinais internos não estão realmente a capturar os modos de falha que importam aos utilizadores reais.
 
-Este capítulo trata os defeitos escapados com a seriedade que o seu custo merece, resistindo à tentação de tratar a contagem bruta como um placar simples. Nem todos os defeitos são iguais: um erro de escrita num texto de ajuda raramente visto e um bug de corrupção de dados num sistema de transações financeiras são ambos, tecnicamente, defeitos escapados, e tratá-los de forma idêntica produz uma métrica demasiado ruidosa para agir sobre ela ou, pior, ativamente enganadora sobre onde vive o risco real. A recomendação central deste capítulo, rastreio ponderado por gravidade com atenção cuidadosa a como os defeitos são classificados, é dirigida diretamente a esse problema.
+Este tema trata os defeitos escapados com a seriedade que o seu custo merece, resistindo à tentação de tratar a contagem bruta como um placar simples. Nem todos os defeitos são iguais: um erro de escrita num texto de ajuda raramente visto e um bug de corrupção de dados num sistema de transações financeiras são ambos, tecnicamente, defeitos escapados, e tratá-los de forma idêntica produz uma métrica demasiado ruidosa para agir sobre ela ou, pior, ativamente enganadora sobre onde vive o risco real. A recomendação central deste tema, rastreio ponderado por gravidade com atenção cuidadosa a como os defeitos são classificados, é dirigida diretamente a esse problema.
 
 Para equipas grandes, a taxa de defeitos escapados é uma das pontes mais claras entre as métricas internas de engenharia deste livro e o mundo voltado para o cliente com que a Parte 5 no seu todo se preocupa. As organizações empresariais usam-na para justificar investimento nas práticas de teste e revisão da Parte 4; as organizações governamentais, onde um defeito escapado pode significar um cálculo incorreto de um benefício ou uma interação falhada de serviço público, tratam-na como uma medida direta de confiança pública e exposição legal, não meramente uma estatística interna de engenharia.
 
@@ -13,7 +13,7 @@ Para equipas grandes, a taxa de defeitos escapados é uma das pontes mais claras
 - **A taxa de defeitos escapados é o resultado final para a prática interna de qualidade.** Uma taxa crescente apesar de fortes métricas da Parte 4 significa que essas métricas não estão a capturar o que importa.
 - **A gravidade importa mais do que a contagem bruta.** Pondere os defeitos pelo impacto real no cliente ou no negócio, não tratando cada escape de forma idêntica.
 - **A consistência de classificação é essencial.** Duas equipas a classificar a gravidade de forma diferente produzem números que não podem ser justamente comparados.
-- **Esta métrica está exposta a manipulação de definição**, exatamente como a taxa de falha de mudanças (capítulo 2.10): estreitar o que conta como um "defeito" favorece o número sem reduzir o dano real ao cliente.
+- **Esta métrica está exposta a manipulação de definição**, exatamente como a taxa de falha de mudanças (tema 2.10): estreitar o que conta como um "defeito" favorece o número sem reduzir o dano real ao cliente.
 - **A categorização por causa raiz transforma uma contagem numa ferramenta de diagnóstico.** Saber *porque* os defeitos escapam é mais acionável do que saber apenas quantos escaparam.
 
 ## Recomendações
@@ -24,7 +24,7 @@ Classifique cada defeito escapado usando uma escala fixa de gravidade (comumment
 
 ### Padronize os critérios de classificação através das equipas
 
-Equipas diferentes deixadas a classificar a gravidade independentemente vão divergir para padrões diferentes, algumas conservadoras, outras leves, tornando a comparação entre equipas sem sentido e, pior, criando um incentivo para classificar generosamente para baixo para manter os números da própria equipa com melhor aspeto (uma variante da manipulação de definição do capítulo 1.2). Publique critérios claros e baseados em exemplos de classificação, e audite periodicamente uma amostra de classificações através das equipas para verificar a consistência.
+Equipas diferentes deixadas a classificar a gravidade independentemente vão divergir para padrões diferentes, algumas conservadoras, outras leves, tornando a comparação entre equipas sem sentido e, pior, criando um incentivo para classificar generosamente para baixo para manter os números da própria equipa com melhor aspeto (uma variante da manipulação de definição do tema 1.2). Publique critérios claros e baseados em exemplos de classificação, e audite periodicamente uma amostra de classificações através das equipas para verificar a consistência.
 
 ### Rastreie a [causa raiz](https://en.wikipedia.org/wiki/Root_cause_analysis), não apenas a contagem e a gravidade
 
@@ -32,11 +32,11 @@ Para cada defeito escapado, registe porque escapou: uma lacuna de teste, um caso
 
 ### Ligue os defeitos escapados de volta aos sinais internos de qualidade que os originaram
 
-Onde possível, rastreie um defeito escapado de volta à área de código de onde veio e verifique se essa área mostrava sinais de alerta nas métricas da Parte 4: era um ponto quente de complexidade (capítulo 4.1, capítulo 4.3), tinha uma baixa taxa de morte de mutação (capítulo 4.2), a análise estática sinalizou algo nas proximidades (capítulo 4.4). Esta ligação é o que valida se as suas métricas internas de qualidade são realmente preditivas de defeitos reais voltados para o cliente, ou se estão a medir algo que não se correlaciona, no seu contexto específico, com o que os clientes realmente experimentam.
+Onde possível, rastreie um defeito escapado de volta à área de código de onde veio e verifique se essa área mostrava sinais de alerta nas métricas da Parte 4: era um ponto quente de complexidade (tema 4.1, tema 4.3), tinha uma baixa taxa de morte de mutação (tema 4.2), a análise estática sinalizou algo nas proximidades (tema 4.4). Esta ligação é o que valida se as suas métricas internas de qualidade são realmente preditivas de defeitos reais voltados para o cliente, ou se estão a medir algo que não se correlaciona, no seu contexto específico, com o que os clientes realmente experimentam.
 
 ### Proteja contra a classificação de defeitos a tornar-se um exercício de culpa
 
-Enquadre a análise de causa raiz de defeitos explicitamente como uma questão de sistemas, segundo o enquadramento diagnóstico do capítulo 1.1, não um exercício de culpa individual. Uma equipa que teme a culpa por um defeito escapado tem um forte incentivo para sub-reportar, classificar para baixo incorretamente, ou resistir a análise completa de causa raiz, tudo o que corrompe os próprios dados de que este capítulo depende. A prática de postmortem sem culpa, coberta com mais profundidade no capítulo 6.2, aplica-se diretamente aqui.
+Enquadre a análise de causa raiz de defeitos explicitamente como uma questão de sistemas, segundo o enquadramento diagnóstico do tema 1.1, não um exercício de culpa individual. Uma equipa que teme a culpa por um defeito escapado tem um forte incentivo para sub-reportar, classificar para baixo incorretamente, ou resistir a análise completa de causa raiz, tudo o que corrompe os próprios dados de que este tema depende. A prática de postmortem sem culpa, coberta com mais profundidade no tema 6.2, aplica-se diretamente aqui.
 
 ## Trocas: prós e contras
 
@@ -47,11 +47,11 @@ Enquadre a análise de causa raiz de defeitos explicitamente como uma questão d
 | Padrões de classificação independentes por equipa | Flexível, baixa sobrecarga de coordenação | Produz números incomparáveis entre equipas; convida a deriva leve |
 | Classificação padronizada e auditada | Justa, comparável, resiste a manipulação | Exige governação contínua e esforço periódico de auditoria |
 
-A tensão central é **flexibilidade local versus comparabilidade entre equipas**. Deixar cada equipa classificar a gravidade de defeitos da forma que melhor se adequa ao seu próprio contexto é mais simples de implementar mas produz números que não podem ser justamente comparados ou agregados ao nível organizacional, e cria um incentivo silencioso para uma equipa classificar generosamente para proteger as suas próprias métricas. Resolva a tensão investindo em critérios padronizados e documentados de classificação e auditorias periódicas entre equipas, tratando isto como trabalho de governação (capítulo 1.4) que vale o investimento dado quão diretamente esta métrica se liga ao impacto real no cliente.
+A tensão central é **flexibilidade local versus comparabilidade entre equipas**. Deixar cada equipa classificar a gravidade de defeitos da forma que melhor se adequa ao seu próprio contexto é mais simples de implementar mas produz números que não podem ser justamente comparados ou agregados ao nível organizacional, e cria um incentivo silencioso para uma equipa classificar generosamente para proteger as suas próprias métricas. Resolva a tensão investindo em critérios padronizados e documentados de classificação e auditorias periódicas entre equipas, tratando isto como trabalho de governação (tema 1.4) que vale o investimento dado quão diretamente esta métrica se liga ao impacto real no cliente.
 
 ## Perguntas para debater com a sua equipa
 
-1. **Rastreamos os defeitos escapados por gravidade, ou uma contagem bruta trata um problema cosmético menor da mesma forma que um problema crítico de dados?** Puxe o seu painel real e verifique; se a ponderação por gravidade ainda não está implementada, esta é a mudança única de maior valor que este capítulo recomenda.
+1. **Rastreamos os defeitos escapados por gravidade, ou uma contagem bruta trata um problema cosmético menor da mesma forma que um problema crítico de dados?** Puxe o seu painel real e verifique; se a ponderação por gravidade ainda não está implementada, esta é a mudança única de maior valor que este tema recomenda.
 
 2. **Duas equipas diferentes classificariam a gravidade do mesmo defeito da mesma forma, ou a classificação divergiu através da organização?** Escolha um defeito passado real e ambíguo e peça a representantes de duas equipas diferentes para o classificarem independentemente; compare os resultados honestamente.
 
@@ -61,13 +61,13 @@ A tensão central é **flexibilidade local versus comparabilidade entre equipas*
 
 5. **O nosso processo de classificação de defeitos parece seguro, ou os engenheiros temem a culpa ao reportar ou classificar um defeito a que estão associados?** Uma cultura propensa à culpa corrompe sistematicamente estes dados através de sub-reporte e classificação leve; seja honesto sobre a sua cultura atual aqui.
 
-6. **A nossa taxa de defeitos escapados alguma vez melhorou suspeitosamente depressa sem nenhuma mudança correspondente na prática de teste ou revisão?** Tal como com a taxa de falha de mudanças (capítulo 2.10), este é o sinal mais claro de que os critérios de classificação, não o risco real, se moveram.
+6. **A nossa taxa de defeitos escapados alguma vez melhorou suspeitosamente depressa sem nenhuma mudança correspondente na prática de teste ou revisão?** Tal como com a taxa de falha de mudanças (tema 2.10), este é o sinal mais claro de que os critérios de classificação, não o risco real, se moveram.
 
 ## Perspetiva setorial
 
 **Startup.** A classificação formal de gravidade é muitas vezes desnecessária com um pequeno volume de defeitos e uma equipa pequena que consegue discutir cada um diretamente. O hábito que vale a pena adotar cedo é simplesmente rastrear defeitos consistentemente desde o início, mesmo informalmente, para que os dados históricos existam assim que a equipa cresça o suficiente para precisar de análise mais formal.
 
-**Pequena empresa.** Uma escala simples e partilhada de gravidade, mesmo apenas três níveis (crítico, maior, menor), aplicada consistentemente por quem quer que lide com suporte e triagem de bugs, captura a maior parte do valor deste capítulo sem precisar de ferramentas sofisticadas ou uma função dedicada de qualidade.
+**Pequena empresa.** Uma escala simples e partilhada de gravidade, mesmo apenas três níveis (crítico, maior, menor), aplicada consistentemente por quem quer que lide com suporte e triagem de bugs, captura a maior parte do valor deste tema sem precisar de ferramentas sofisticadas ou uma função dedicada de qualidade.
 
 **Empresa.** A consistência de classificação entre equipas é o investimento de maior alavancagem aqui, já que padrões inconsistentes através de dezenas de equipas tornam a comparação de qualidade ao nível organizacional sem sentido. Invista em critérios documentados e baseados em exemplos de classificação e auditoria periódica, e ligue sistematicamente os defeitos escapados de volta aos sinais internos de qualidade da Parte 4 para validar quais desses sinais são realmente preditivos para a sua organização.
 
@@ -77,7 +77,7 @@ A tensão central é **flexibilidade local versus comparabilidade entre equipas*
 
 **Empresa.** A contagem de defeitos escapados de uma empresa de software de subscrição tinha estado a crescer durante dois trimestres, e a preocupação inicial centrou-se no número bruto. A análise ponderada por gravidade revelou que o aumento estava quase inteiramente em problemas menores e cosméticos, coincidindo com uma redesenho recente da interface, enquanto os defeitos críticos e maiores tinham na realidade diminuído ligeiramente no mesmo período. A análise de causa raiz do pico de problemas menores apontou para uma lacuna em testes de regressão visual especificamente para os novos componentes de interface, uma correção direcionada e de baixo custo que teria sido completamente perdida se a equipa tivesse reagido à contagem bruta e não ponderada como uma crise indiferenciada de qualidade.
 
-**Governo.** O sistema de cálculo de benefícios de uma agência estadual de desemprego teve um defeito escapado que negou incorretamente uma pequena percentagem de pedidos de outra forma elegíveis durante vários meses antes da deteção. Uma investigação de causa raiz descobriu que o defeito tinha origem numa área de código previamente sinalizada como ponto quente de complexidade (capítulo 4.1, capítulo 4.3) numa revisão interna de qualidade dezoito meses antes, mas o ponto quente nunca tinha sido priorizado para remediação porque nenhum defeito tinha ainda ocorrido para tornar o risco concreto. O processo revisto da agência agora pondera explicitamente mais alto as áreas sinalizadas como pontos quentes na prioridade de teste e revisão especificamente por causa desta ligação demonstrada e validada entre sinais internos de complexidade e risco real de defeitos escapados.
+**Governo.** O sistema de cálculo de benefícios de uma agência estadual de desemprego teve um defeito escapado que negou incorretamente uma pequena percentagem de pedidos de outra forma elegíveis durante vários meses antes da deteção. Uma investigação de causa raiz descobriu que o defeito tinha origem numa área de código previamente sinalizada como ponto quente de complexidade (tema 4.1, tema 4.3) numa revisão interna de qualidade dezoito meses antes, mas o ponto quente nunca tinha sido priorizado para remediação porque nenhum defeito tinha ainda ocorrido para tornar o risco concreto. O processo revisto da agência agora pondera explicitamente mais alto as áreas sinalizadas como pontos quentes na prioridade de teste e revisão especificamente por causa desta ligação demonstrada e validada entre sinais internos de complexidade e risco real de defeitos escapados.
 
 ## Argumento de negócio: motivações, ROI, e TCO
 
@@ -90,7 +90,7 @@ O custo total de propriedade inclui a disciplina de classificação (critérios 
 - **Tratar uma contagem bruta de defeitos como a métrica:** confunde problemas triviais e severos e obscurece o sinal real.
 - **Classificação inconsistente de gravidade através das equipas:** torna a comparação entre equipas sem sentido e convida à deriva leve de classificação.
 - **Nenhum rastreio de causa raiz:** transforma uma contagem num número sem valor diagnóstico, deixando padrões sistémicos invisíveis.
-- **Uma cultura de reporte propensa à culpa:** corrompe os dados através de sub-reporte e classificação leve, exatamente o risco de exposição a incentivos contra o qual o capítulo 1.2 alerta.
+- **Uma cultura de reporte propensa à culpa:** corrompe os dados através de sub-reporte e classificação leve, exatamente o risco de exposição a incentivos contra o qual o tema 1.2 alerta.
 - **Nunca ligar os defeitos escapados de volta aos sinais internos de qualidade:** perde a oportunidade de validar, ou invalidar, as métricas preditivas da Parte 4 contra resultados reais.
 - **Uma melhoria suspeitosamente rápida sem nenhuma mudança de processo por trás dela:** o sinal mais claro de que os critérios de classificação, não o risco real, se moveram.
 

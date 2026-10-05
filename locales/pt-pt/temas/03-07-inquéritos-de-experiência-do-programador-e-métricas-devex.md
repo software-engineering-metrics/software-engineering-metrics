@@ -2,17 +2,17 @@
 
 ## Visão geral e motivação
 
-Este capítulo encerra a Parte 3 com a mecânica prática que torna credíveis os dados autorrelatados de cada capítulo anterior: como desenhar um inquérito de experiência do programador (DevEx) que produz um sinal genuíno em vez de um concurso de popularidade, e como combinar os dados de inquérito com instrumentação objetiva num conjunto de métricas sobre o qual uma organização consegue realmente agir. Todo o capítulo nesta parte depende de alguma forma de autorrelato, a satisfação e o bem-estar (capítulo 3.2) mais diretamente, mas o desempenho, a comunicação, e o fluxo beneficiam todos também de um inquérito bem desenhado, e um inquérito mal desenhado mina o valor de todos de uma vez.
+Este tema encerra a Parte 3 com a mecânica prática que torna credíveis os dados autorrelatados de cada tema anterior: como desenhar um inquérito de experiência do programador (DevEx) que produz um sinal genuíno em vez de um concurso de popularidade, e como combinar os dados de inquérito com instrumentação objetiva num conjunto de métricas sobre o qual uma organização consegue realmente agir. Todo o tema nesta parte depende de alguma forma de autorrelato, a satisfação e o bem-estar (tema 3.2) mais diretamente, mas o desempenho, a comunicação, e o fluxo beneficiam todos também de um inquérito bem desenhado, e um inquérito mal desenhado mina o valor de todos de uma vez.
 
 A **experiência do programador (DevEx)** é a formulação mais ampla e mais recente que emergiu à volta da mesma ideia central que o SPACE formalizou: a experiência real e do dia a dia dos engenheiros de fazer o trabalho acontecer, atrito, ferramentas, carga cognitiva, ciclos de feedback, é em si uma coisa mensurável e melhorável, não apenas uma preocupação cultural branda. A investigação DevEx, notavelmente a estrutura proposta por Abi Noda, Margaret-Anne Storey, Nicole Forsgren, e Michaela Greiler, organiza esta experiência à volta de três dimensões: ciclos de feedback, carga cognitiva, e estado de fluxo, que mapeiam de perto e estendem as dimensões SPACE que esta parte já cobriu em profundidade.
 
-Para equipas grandes, a diferença entre um inquérito que produz sinal credível e um que produz ruído ou, pior, dados ativamente enganadores está inteiramente nos detalhes de desenho que este capítulo cobre: formulação de perguntas, escolha de escala de resposta, amostragem e cadência, e como os resultados são comunicados de volta aos inquiridos. As organizações empresariais e governamentais que executam estes inquéritos à escala, através de milhares de engenheiros, não podem dar-se ao luxo de errar nisto, porque um instrumento falho a essa escala produz conclusões confiantemente erradas que moldam decisões reais de alocação de recursos.
+Para equipas grandes, a diferença entre um inquérito que produz sinal credível e um que produz ruído ou, pior, dados ativamente enganadores está inteiramente nos detalhes de desenho que este tema cobre: formulação de perguntas, escolha de escala de resposta, amostragem e cadência, e como os resultados são comunicados de volta aos inquiridos. As organizações empresariais e governamentais que executam estes inquéritos à escala, através de milhares de engenheiros, não podem dar-se ao luxo de errar nisto, porque um instrumento falho a essa escala produz conclusões confiantemente erradas que moldam decisões reais de alocação de recursos.
 
 ## Princípios-chave
 
 - **A qualidade do desenho do inquérito determina a credibilidade dos dados muito mais do que o comprimento ou a sofisticação do inquérito.** Um inquérito curto e bem desenhado vence um longo e mal desenhado sempre.
 - **A taxa de resposta é em si um sinal**, não apenas uma métrica de recolha de dados; uma taxa a declinar indica muitas vezes confiança a erodir-se no processo.
-- **Combine os dados de inquérito com instrumentação objetiva** sempre que possível, seguindo o princípio de instrumentação do capítulo 1.5; use os dados de inquérito especificamente para o que os dados objetivos não conseguem capturar.
+- **Combine os dados de inquérito com instrumentação objetiva** sempre que possível, seguindo o princípio de instrumentação do tema 1.5; use os dados de inquérito especificamente para o que os dados objetivos não conseguem capturar.
 - **Feche o ciclo com os inquiridos.** Um inquérito que nunca leva visivelmente a nenhuma mudança treina as pessoas a deixarem de o levar a sério.
 - **O DevEx e o SPACE são formulações complementares da mesma preocupação subjacente**, não estruturas concorrentes entre as quais escolher.
 
@@ -28,11 +28,11 @@ Padronize numa escala de resposta consistente (uma escala de **[Likert](https://
 
 ### Tratar a taxa de resposta como um sinal diagnóstico por direito próprio
 
-Rastreie a taxa de resposta do inquérito ao longo de ciclos sucessivos, e trate uma taxa a declinar como um sinal de aviso que vale a pena investigar diretamente, semelhante ao sinal de confiança discutido no capítulo 3.2. Uma taxa de resposta a cair indica muitas vezes fadiga de inquérito, confiança a erodir-se de que os resultados levam a ação, ou uma suspeita crescente de que o anonimato não é genuinamente protegido, qualquer uma das quais merece investigação direta em vez de ser descartada como um mero incómodo de recolha de dados.
+Rastreie a taxa de resposta do inquérito ao longo de ciclos sucessivos, e trate uma taxa a declinar como um sinal de aviso que vale a pena investigar diretamente, semelhante ao sinal de confiança discutido no tema 3.2. Uma taxa de resposta a cair indica muitas vezes fadiga de inquérito, confiança a erodir-se de que os resultados levam a ação, ou uma suspeita crescente de que o anonimato não é genuinamente protegido, qualquer uma das quais merece investigação direta em vez de ser descartada como um mero incómodo de recolha de dados.
 
 ### Combinar os dados de inquérito com instrumentação objetiva de DevEx
 
-Emparelhe as respostas subjetivas de inquérito com sinais objetivos onde existam: tempo de compilação, tempo de execução da suite de testes, tempo de configuração do ambiente local de desenvolvimento, e os dados de tempo de fluxo e interrupção do capítulo 3.6. Uma resposta de inquérito que diz "a nossa compilação é demasiado lenta" torna-se muito mais acionável quando emparelhada com a tendência real medida de tempo de compilação, e a combinação apanha casos onde a perceção e a realidade objetiva divergem em qualquer direção, o que por si só vale a pena investigar.
+Emparelhe as respostas subjetivas de inquérito com sinais objetivos onde existam: tempo de compilação, tempo de execução da suite de testes, tempo de configuração do ambiente local de desenvolvimento, e os dados de tempo de fluxo e interrupção do tema 3.6. Uma resposta de inquérito que diz "a nossa compilação é demasiado lenta" torna-se muito mais acionável quando emparelhada com a tendência real medida de tempo de compilação, e a combinação apanha casos onde a perceção e a realidade objetiva divergem em qualquer direção, o que por si só vale a pena investigar.
 
 ### Fechar o ciclo: publicar resultados e ação visível de acompanhamento
 
@@ -83,7 +83,7 @@ A tensão central é **cobertura versus qualidade de resposta**. Um inquérito m
 
 O retorno de um programa de inquérito DevEx bem desenhado é dados credíveis e acionáveis sobre uma dimensão, a experiência do programador, que de outra forma permanece invisível até emergir como desgaste ou um abrandamento de entrega. O exemplo da empresa de software acima mostra o custo de errar no desenho: dois trimestres de esforço de remediação mal direcionado porque uma única pergunta mal formulada misturou duas preocupações distintas.
 
-O custo total de propriedade inclui as ferramentas de inquérito, a disciplina de desenho e pilotagem que este capítulo recomenda, e o compromisso contínuo de fechar o ciclo com ação visível de acompanhamento a cada ciclo. Esse compromisso, mais do que qualquer custo de ferramentas, é o que determina se um programa de inquérito permanece útil durante anos ou decai num exercício de marcar caixas que produz dados cada vez menos credíveis ao longo do tempo.
+O custo total de propriedade inclui as ferramentas de inquérito, a disciplina de desenho e pilotagem que este tema recomenda, e o compromisso contínuo de fechar o ciclo com ação visível de acompanhamento a cada ciclo. Esse compromisso, mais do que qualquer custo de ferramentas, é o que determina se um programa de inquérito permanece útil durante anos ou decai num exercício de marcar caixas que produz dados cada vez menos credíveis ao longo do tempo.
 
 ## Antipadrões e armadilhas
 

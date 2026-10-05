@@ -2,23 +2,23 @@
 
 ## Overview and motivation
 
-Chapter 7.1 established why several existing metrics no longer reliably
-measure what they used to under AI-assisted development. This chapter is
+Topic 7.1 established why several existing metrics no longer reliably
+measure what they used to under AI-assisted development. This topic is
 about what to measure instead: how to know, with real evidence rather than
 impression or vendor marketing, whether AI coding assistance is actually
 helping your organisation, and by how much. This is a genuinely important
 question with real budget consequences, AI tooling licenses represent a
-real, ongoing cost, chapter 5.4's unit economics discipline applies
+real, ongoing cost, topic 5.4's unit economics discipline applies
 directly, and an organisation that cannot answer it with evidence is
 either overpaying for a tool that is not helping or underinvesting in one
 that genuinely is.
 
-This chapter's approach draws directly on chapter 1.3's outcomes-over-output
+This topic's approach draws directly on topic 1.3's outcomes-over-output
 principle, now applied specifically to AI tooling evaluation. The naive,
 most common approach measures AI-assisted development by output volume,
 lines of code generated, suggestions accepted, time saved per task as
-self-reported by developers, exactly the metrics chapter 7.1 warned are
-most exposed to this shift. The more rigorous approach this chapter
+self-reported by developers, exactly the metrics topic 7.1 warned are
+most exposed to this shift. The more rigorous approach this topic
 recommends measures outcomes: did AI assistance genuinely reduce cycle time
 without degrading quality, did it reduce time spent on genuinely
 low-value, repetitive work, freeing capacity for higher-value work, and did
@@ -36,7 +36,7 @@ tooling adoption at scale.
 ## Key principles
 
 - **Measure AI assistance by outcome, not by output volume or vendor-reported
-  usage statistics.** Chapter 1.3's discipline applies with full force here.
+  usage statistics.** Topic 1.3's discipline applies with full force here.
 - **Use a genuine [comparison group](https://en.wikipedia.org/wiki/Treatment_and_control_groups) wherever feasible**, not just a
   before-and-after comparison that a rising industry-wide baseline could
   confound.
@@ -55,22 +55,22 @@ tooling adoption at scale.
 Where feasible, compare outcomes between a group using AI assistance and a
 comparable group not using it, over the same period, rather than only
 comparing your own organisation's before-and-after numbers, which cannot
-distinguish AI assistance's effect from any other concurrent change (chapter
+distinguish AI assistance's effect from any other concurrent change (topic
 1.6's confounding-variable caution applies directly). Where a true
 comparison group is impractical, at minimum compare against a longer
-historical baseline (a control chart, per chapter 1.6) rather than a single
+historical baseline (a control chart, per topic 1.6) rather than a single
 before-and-after snapshot vulnerable to regression to the mean or
 unrelated concurrent changes.
 
 ### Measure cycle time and quality together, never AI assistance's speed
 claim alone
 
-Apply chapter 2.6's and chapter 2.10's discipline directly: track whether
+Apply topic 2.6's and topic 2.10's discipline directly: track whether
 AI-assisted work moves faster through the cycle-time stages, and
-simultaneously whether change failure rate or escaped defect rate (chapter
+simultaneously whether change failure rate or escaped defect rate (topic
 5.1) for that work moves in the wrong direction. A genuine productivity
 gain shows faster cycle time with stable or improved quality; a false gain
-shows faster cycle time with degrading quality, exactly the trade chapter
+shows faster cycle time with degrading quality, exactly the trade topic
 7.1 warned against, discovered here through the same paired-metric
 discipline this book applies throughout.
 
@@ -80,7 +80,7 @@ AI-generated code that is faster to produce but slower to review, or that
 requires more correction and rework after initial generation, may show no
 net cycle-time improvement once the full pipeline is measured, even if the
 initial code-generation step felt dramatically faster to the individual
-engineer. Measure the full cycle-time chain (chapter 2.6), not just the
+engineer. Measure the full cycle-time chain (topic 2.6), not just the
 coding stage, to capture this honestly rather than crediting AI assistance
 based on a felt, but incomplete, sense of speed.
 
@@ -88,9 +88,9 @@ based on a felt, but incomplete, sense of speed.
 conclusion
 
 Developer self-report of "this saved me an hour" is useful as an initial
-signal and as qualitative context (chapter 5.3's combined
+signal and as qualitative context (topic 5.3's combined
 quantitative-qualitative approach applies here too), but it is subject to
-the same recall and desirability biases chapter 1.5 warns about for any
+the same recall and desirability biases topic 1.5 warns about for any
 self-reported data, and it says nothing about downstream review or
 correction cost. Use self-report to generate hypotheses about where AI
 assistance is helping most, then validate those hypotheses against
@@ -136,13 +136,13 @@ word, regardless of which comparison design you end up using.
 2. **Have we measured cycle time and quality together for AI-assisted work,
    or do we only have a speed claim without a corresponding quality
    check?** Pull whatever data exists and check for this specific pairing;
-   if it does not exist, that gap is this chapter's single highest-priority
+   if it does not exist, that gap is this topic's single highest-priority
    fix.
 
 3. **Does our cycle-time measurement for AI-assisted work include review
    and correction time, or only the initial generation step?** A speed
    claim based only on generation time, ignoring downstream review cost,
-   risks the incomplete-accounting trap this chapter warns against
+   risks the incomplete-accounting trap this topic warns against
    directly.
 
 4. **What self-reported time-savings claims have we collected, and have we
@@ -181,8 +181,8 @@ typically follows a successful pilot.
 
 **Government.** Public technology spending decisions, including AI tooling
 procurement, often face particular scrutiny and may require formal
-cost-benefit justification (chapter 5.5). Build the measurement discipline
-this chapter recommends into any pilot phase from the start, since a
+cost-benefit justification (topic 5.5). Build the measurement discipline
+this topic recommends into any pilot phase from the start, since a
 rigorous, documented evaluation methodology strengthens the eventual
 funding or procurement case considerably.
 
@@ -193,7 +193,7 @@ half its engineering teams as a deliberate pilot, holding the other half as
 a comparison group for one quarter before full rollout. The pilot group
 showed a genuine, statistically meaningful cycle-time improvement for
 well-defined, boilerplate-heavy tasks, but showed no measurable improvement,
-and a slightly elevated review-iteration count (chapter 2.9), for complex,
+and a slightly elevated review-iteration count (topic 2.9), for complex,
 novel architectural work. This task-segmented finding, only visible because
 of the genuine comparison design and the task-category breakdown, led the
 company to specifically target AI assistance rollout messaging and training
@@ -220,8 +220,8 @@ evidence-based investment decisions: an organisation that knows precisely
 where AI assistance genuinely helps can invest in expanding it there and
 avoid overpaying for licenses in task categories where it provides little
 value, exactly the task-segmentation insight the software company example
-above demonstrates. This directly connects to chapter 5.4's unit economics
-and chapter 5.5's ROI discipline, since AI tooling cost, often licensed
+above demonstrates. This directly connects to topic 5.4's unit economics
+and topic 5.5's ROI discipline, since AI tooling cost, often licensed
 per-seat, needs the same rigorous cost-benefit treatment this book applies
 to any other major engineering investment.
 
@@ -236,7 +236,7 @@ commitment based on impression rather than data.
 ## Anti-patterns and pitfalls
 
 - **Measuring AI assistance by output volume or vendor usage statistics
-  alone:** repeats chapter 7.1's central warning directly.
+  alone:** repeats topic 7.1's central warning directly.
 - **Relying entirely on self-reported time savings:** a weak signal
   vulnerable to bias, and blind to downstream review and correction cost.
 - **Measuring only the generation-speed step, ignoring full cycle time:**
@@ -293,13 +293,13 @@ commitment based on impression rather than data.
 ## References and further reading
 
 - *Accelerate: The Science of Lean Software and DevOps*, by Nicole Forsgren,
-  Jez Humble, and Gene Kim (the outcome-measurement discipline this chapter
+  Jez Humble, and Gene Kim (the outcome-measurement discipline this topic
   applies to AI tooling evaluation).
 - GitHub's research on AI pair programming and developer productivity
   (industry-scale empirical research on AI-assisted development outcomes).
 - Forsgren, Nicole, Margaret-Anne Storey, Chandra Maddila, Thomas
   Zimmermann, Brian Houck, and Jenna Butler, "The SPACE of Developer
   Productivity," *ACM Queue* (2021) (the multi-dimensional measurement
-  discipline this chapter applies to a specific new tooling category).
+  discipline this topic applies to a specific new tooling category).
 - *How to Measure Anything*, by Douglas W. Hubbard (constructing defensible
   comparisons and quantifying value under genuine uncertainty).

@@ -1,6 +1,6 @@
 # Table of contents
 
-Parts are whole numbers; chapters are decimals (chapter **N.0** introduces
+Parts are whole numbers; topics are decimals (topic **N.0** introduces
 each part). See also the [Introduction](introduction.md).
 
 ### Part 1: Foundations of Measurement

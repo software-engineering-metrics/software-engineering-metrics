@@ -2,10 +2,10 @@
 
 ## Visión general y motivación
 
-**Eficiencia y flujo**, la dimensión final de SPACE (capítulo 3.1), mide la
+**Eficiencia y flujo**, la dimensión final de SPACE (tema 3.1), mide la
 ausencia de fricción y la capacidad de sostener un trabajo enfocado e
 ininterrumpido. Esta dimensión se sitúa en el límite entre las métricas de
-flujo de entrega de la parte 2 (la eficiencia de flujo del capítulo 2.5
+flujo de entrega de la parte 2 (la eficiencia de flujo del tema 2.5
 mide cómo se mueve el trabajo a través de un sistema de equipo) y algo más
 personal: la experiencia cognitiva individual del trabajo de ingeniería
 profundo y enfocado, y con qué frecuencia esa experiencia se fragmenta por
@@ -21,7 +21,7 @@ en reconstruir por completo la [memoria de
 trabajo](https://en.wikipedia.org/wiki/Working_memory) que un ingeniero
 mantenía antes de que ocurriera la interrupción. Un ingeniero cuyo día se
 fragmenta en bloques de quince minutos por reuniones, notificaciones y
-cambios de contexto puede mostrar bastante actividad (capítulo 3.4)
+cambios de contexto puede mostrar bastante actividad (tema 3.4)
 mientras logra mucho menos trabajo genuinamente difícil del que lograría
 el mismo ingeniero con dos horas protegidas e ininterrumpidas. Esta
 dimensión existe específicamente para hacer visible ese coste invisible.
@@ -49,7 +49,7 @@ nadie protege realmente.
   defender deliberadamente,** no uno que sobrevive por defecto a medida
   que crece una organización.
 - **Esta dimensión a menudo explica una brecha entre actividad y
-  rendimiento** (capítulos 3.3 y 3.4): la alta actividad con bajo
+  rendimiento** (temas 3.3 y 3.4): la alta actividad con bajo
   rendimiento a veces se rastrea hasta días fragmentados y cargados de
   interrupciones.
 - **La variación individual en las necesidades de concentración es real,**
@@ -76,7 +76,7 @@ El volumen de notificaciones, la frecuencia de mensajes entrantes durante
 el horario laboral, y la tasa de cambios de contexto entre tareas se
 pueden aproximar todos a partir de las herramientas de colaboración
 existentes. Usa estos datos en conjunto, a nivel de equipo, siguiendo el
-mismo principio que los datos de actividad (capítulo 3.4): nunca como un
+mismo principio que los datos de actividad (tema 3.4): nunca como un
 mecanismo de vigilancia individual, siempre como una señal a nivel de
 equipo sobre si la sobrecarga de coordinación de la organización ha
 crecido más allá de lo que protege la concentración genuina.
@@ -94,8 +94,8 @@ de todo este libro.
 
 ### Correlaciona los datos de flujo con la brecha entre actividad y rendimiento
 
-Cuando un equipo muestra alta actividad (capítulo 3.4) pero un rendimiento
-plano o en declive (capítulo 3.3), comprueba los datos de flujo e
+Cuando un equipo muestra alta actividad (tema 3.4) pero un rendimiento
+plano o en declive (tema 3.3), comprueba los datos de flujo e
 interrupción antes de asumir que la brecha refleja un problema de
 capacidad individual o de equipo. Un horario muy fragmentado puede producir
 precisamente este patrón: bastante movimiento visible, poco trabajo
@@ -217,7 +217,7 @@ reuniones. La empresa instituyó dos tardes obligatorias y sin reuniones en
 toda la organización a la semana, y una encuesta de seguimiento y una
 revisión de métricas de entrega seis meses después mostraron tanto
 puntuaciones de satisfacción mejoradas como una reducción medible del
-tiempo de ciclo (capítulo 2.6) específicamente para funcionalidades
+tiempo de ciclo (tema 2.6) específicamente para funcionalidades
 complejas de varios días.
 
 **Sector público.** El equipo de ingeniería de una agencia federal,
@@ -267,10 +267,10 @@ inevitablemente surgen nuevas necesidades de coordinación.
   persona.
 - **Usar los datos de interrupción o notificación como vigilancia
   individual:** repite exactamente el riesgo de mal uso contra el que
-  advierte el capítulo 3.4 para los datos de actividad.
+  advierte el tema 3.4 para los datos de actividad.
 - **Dejar que el tiempo de concentración protegido se erosione
   gradualmente a través de excepciones:** el mismo riesgo de erosión
-  contra el que advierte el capítulo 2.5 para los límites de trabajo en
+  contra el que advierte el tema 2.5 para los límites de trabajo en
   curso, aplicado a la protección del tiempo de concentración.
 - **Añadir requisitos de gobernanza o coordinación sin medir nunca su
   coste acumulado de carga de reuniones:** la fragmentación se cuela una

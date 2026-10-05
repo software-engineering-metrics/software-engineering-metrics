@@ -18,13 +18,13 @@ unidades que un equipo aguas abajo puede procesar sin necesitar
 retrabajo. El **tiempo takt** es el tiempo máximo aceptable para completar
 una unidad y así coincidir limpiamente con la demanda del cliente.
 
-Este capítulo existe porque la ingeniería de software no inventó estas
+Este tema existe porque la ingeniería de software no inventó estas
 ideas, las tomó prestadas, y el préstamo a veces reutilizó las mismas
 palabras para cosas ligeramente distintas. El propio tiempo de ciclo de
-este libro (capítulo 2.6) mide específicamente las etapas de ingeniería de
+este libro (tema 2.6) mide específicamente las etapas de ingeniería de
 un cambio, codificación, revisión, prueba, despliegue, mientras que el CT
 clásico de Lean es el "tiempo promedio por nodo" más general aplicado a
-cualquier proceso. El tiempo de flujo (capítulo 2.4) es el nombre que le da
+cualquier proceso. El tiempo de flujo (tema 2.4) es el nombre que le da
 este libro a lo que Lean llama tiempo de entrega. Conocer esta
 correspondencia importa porque un lector que venga de un contexto Lean Six
 Sigma, común en la manufactura, la logística, la sanidad y las operaciones
@@ -34,7 +34,7 @@ un puente fácil y respaldado por evidencia hacia colegas fuera de
 ingeniería.
 
 Para los equipos grandes, el %C/A es la métrica menos aprovechada de este
-capítulo. Captura algo que las métricas de flujo de los capítulos 2.3 y 2.4
+tema. Captura algo que las métricas de flujo de los temas 2.3 y 2.4
 no capturan: cuánto de lo que produce una etapa es realmente utilizable por
 la siguiente etapa sin devolverse. Agregado a lo largo de una cadena de
 valor multietapa, un concepto que la manufactura llama **rendimiento
@@ -51,7 +51,7 @@ puertas de aprobación, y que rara vez miden directamente.
   en Lean Six Sigma, común en grandes empresas y operaciones del sector
   público, ya habla con fluidez.
 - **La colisión de terminología es real y merece nombrarse
-  explícitamente.** El tiempo de ciclo de este libro (capítulo 2.6) y el CT
+  explícitamente.** El tiempo de ciclo de este libro (tema 2.6) y el CT
   clásico de Lean están relacionados pero no son idénticos; documenta la
   correspondencia para que las conversaciones multifuncionales no se
   malinterpreten en silencio.
@@ -61,7 +61,7 @@ puertas de aprobación, y que rara vez miden directamente.
 - **El tiempo takt replantea la planificación de capacidad en torno a la
   demanda, no al esfuerzo.** La pregunta cambia de "qué tan rápido podemos
   ir" a "qué tan rápido necesitamos ir", que se conecta directamente con la
-  utilización (capítulo 2.7) y la carga de flujo (capítulo 2.4).
+  utilización (tema 2.7) y la carga de flujo (tema 2.4).
 - **Estas son métricas diagnósticas, no métricas de vanidad.** Cada una
   existe para responder a una pregunta operativa específica, no para
   producir un número impresionante para un tablero.
@@ -73,10 +73,10 @@ puertas de aprobación, y que rara vez miden directamente.
 Calcula el tiempo de entrega, el tiempo de proceso, el tiempo de ciclo, el
 %C/A y el tiempo takt para una muestra representativa de trabajo que se
 mueve por tu cadena de valor antes de superponer las propias métricas del
-Flow Framework (capítulos 2.3 y 2.4). Esto te da una línea base que
+Flow Framework (temas 2.3 y 2.4). Esto te da una línea base que
 cualquier parte interesada con formación en Lean Six Sigma puede entender
 de inmediato, y con frecuencia saca a la luz el mismo dominio del tiempo de
-espera que describe el capítulo 2.5, expresado en un vocabulario anterior a
+espera que describe el tema 2.5, expresado en un vocabulario anterior a
 cualquier marco de software concreto y que le sobrevivirá.
 
 ### Agrega el porcentaje completo y correcto de forma multiplicativa a lo largo de cada etapa
@@ -106,21 +106,21 @@ de que las cosas van con retraso.
 Donde tu organización ya gestione un programa Lean Six Sigma fuera del
 software, o donde ingeniería reporte a un liderazgo que habla con fluidez
 ese vocabulario, escribe la correspondencia explícitamente en tu carta de
-métricas (capítulo 1.4): el tiempo de flujo de este libro es el tiempo de
-entrega de Lean, el tiempo de ciclo de este libro (capítulo 2.6) es una
+métricas (tema 1.4): el tiempo de flujo de este libro es el tiempo de
+entrega de Lean, el tiempo de ciclo de este libro (tema 2.6) es una
 aplicación específica del CT más general de Lean, y el tiempo activo de
-este libro (capítulo 2.5) es el tiempo de proceso de Lean. Este único
+este libro (tema 2.5) es el tiempo de proceso de Lean. Este único
 documento evita una discusión recurrente y de poco valor sobre de quién son
 los números "reales".
 
 ### Usa el %C/A como barrera de contención junto a la velocidad de flujo, no como sustituto de ella
 
-Empareja el rendimiento acumulado con la velocidad de flujo (capítulo 2.3)
+Empareja el rendimiento acumulado con la velocidad de flujo (tema 2.3)
 de la misma forma en que este libro empareja cada métrica de velocidad con
 una barrera de contención de estabilidad. Un recuento de elementos en
 aumento con un %C/A acumulado en caída significa que la cadena de valor
 está entregando más unidades que cada vez necesitan más retrabajo después,
-precisamente el patrón de velocidad sin calidad contra el que el capítulo
+precisamente el patrón de velocidad sin calidad contra el que el tema
 1.2 advierte que se proteja cada familia de métricas.
 
 ## Ventajas e inconvenientes
@@ -128,7 +128,7 @@ precisamente el patrón de velocidad sin calidad contra el que el capítulo
 | Enfoque | Ventajas | Inconvenientes |
 | --- | --- | --- |
 | Solo métricas Lean clásicas (LT, PT, CT, %C/A, tiempo takt) | Vocabulario universal; funciona tanto en equipos de software como fuera de él | No es específico de software; necesita traducción para etapas específicas de ingeniería |
-| Solo métricas del Flow Framework (capítulos 2.3, 2.4) | Diseñadas específicamente para cadenas de valor de software y visibilidad por tipo de elemento | Poco familiares para partes interesadas formadas en Lean Six Sigma fuera de ingeniería |
+| Solo métricas del Flow Framework (temas 2.3, 2.4) | Diseñadas específicamente para cadenas de valor de software y visibilidad por tipo de elemento | Poco familiares para partes interesadas formadas en Lean Six Sigma fuera de ingeniería |
 | Ambas, con una correspondencia explícita documentada | Habla ambos vocabularios; el puente multifuncional más fuerte | Requiere la disciplina inicial de escribir la correspondencia y mantenerla actual |
 | %C/A medido solo en la entrega final | Sencillo, un solo número | Esconde el retrabajo introducido y detectado antes en la cadena |
 
@@ -139,7 +139,7 @@ pensando en las etapas específicas del software, revisión de código,
 pruebas automatizadas, aprobación de despliegue. Resuélvela usando las
 métricas Lean como el vocabulario base compartido para las conversaciones
 multifuncionales y ejecutivas, y las propias métricas del Flow Framework
-(capítulos 2.3 y 2.4) para el trabajo diagnóstico específico de software
+(temas 2.3 y 2.4) para el trabajo diagnóstico específico de software
 que los equipos de ingeniería hacen día a día.
 
 ## Preguntas para debatir con tu equipo
@@ -154,7 +154,7 @@ que los equipos de ingeniería hacen día a día.
 2. **¿Hemos agregado alguna vez el %C/A a lo largo de cada etapa de nuestra
    cadena de valor, o solo lo hemos medido en la entrega final?** Una única
    medición al final de la cadena esconde precisamente el retrabajo
-   acumulativo que el cálculo de rendimiento acumulado de este capítulo
+   acumulativo que el cálculo de rendimiento acumulado de este tema
    está diseñado para revelar. Intenta el cálculo de agregación con datos
    reales.
 
@@ -167,7 +167,7 @@ que los equipos de ingeniería hacen día a día.
 4. **Si una parte interesada formada en Lean Six Sigma fuera de ingeniería
    preguntara por nuestro tiempo de ciclo, ¿estaríamos seguros de que
    significa lo mismo para ella que para nosotros?** El tiempo de ciclo de
-   este libro (capítulo 2.6) y el CT clásico de Lean están relacionados
+   este libro (tema 2.6) y el CT clásico de Lean están relacionados
    pero no son idénticos. Debate si esa distinción ha causado alguna vez un
    malentendido real en tu organización.
 
@@ -252,22 +252,22 @@ hacia experiencia y financiación de mejora de procesos que a menudo ya
 existe en otro lugar de una organización grande. El ejemplo de la empresa
 de manufactura de arriba, asegurar financiación de reducción de retrabajo
 en el mismo trimestre en que el replanteamiento hizo legible el caso, es el
-patrón que produce de forma fiable el enfoque de este capítulo: la
+patrón que produce de forma fiable el enfoque de este tema: la
 perspectiva no era nueva, pero el vocabulario que la hizo accionable para
 la audiencia correcta sí lo era.
 
 El coste total de propiedad es bajo: estas cinco métricas no requieren
-ninguna instrumentación nueva más allá de lo que los capítulos 2.4 a 2.6 ya
+ninguna instrumentación nueva más allá de lo que los temas 2.4 a 2.6 ya
 recogen, más una clasificación de retrabajo para el %C/A que suele ser una
 simple adición al seguimiento existente de defectos y elementos de flujo
-(capítulo 2.2). La inversión principal es la traducción, escribir la
+(tema 2.2). La inversión principal es la traducción, escribir la
 correspondencia entre los términos de este libro y los clásicos de Lean, lo
 que se paga solo la primera vez que evita un malentendido multifuncional.
 
 ## Antipatrones y errores comunes
 
 - **Medir el %C/A solo en la entrega final:** el vector de manipulación
-  central de este capítulo. Un equipo puede reportar un %C/A alto en la
+  central de este tema. Un equipo puede reportar un %C/A alto en la
   etapa final mientras las etapas anteriores producen en silencio
   retrabajo que se arregla antes de que alguien lo mida, haciendo que toda
   la cadena de valor se vea más sana de lo que es. La barrera de contención
@@ -336,12 +336,12 @@ que se paga solo la primera vez que evita un malentendido multifuncional.
   corresponden con, pero no son idénticos a**, el tiempo de entrega y el CT
   clásico de Lean; documenta la correspondencia explícitamente para evitar
   confusión multifuncional.
-- El vector de manipulación central del capítulo es **medir el %C/A solo en
+- El vector de manipulación central del tema es **medir el %C/A solo en
   la entrega final**; la barrera de contención es agregarlo de forma
   multiplicativa a lo largo de cada etapa como rendimiento acumulado.
 - **El tiempo takt replantea la capacidad en torno a la demanda real del
   cliente**, no al ritmo existente, y se empareja directamente con la
-  utilización (capítulo 2.7) y la carga de flujo (capítulo 2.4).
+  utilización (tema 2.7) y la carga de flujo (tema 2.4).
 - Replantear la entrega de software en términos Lean clásicos suele ser la
   forma más rápida de conectar con **experiencia y financiación de mejora
   de procesos ya existentes** en una organización grande.

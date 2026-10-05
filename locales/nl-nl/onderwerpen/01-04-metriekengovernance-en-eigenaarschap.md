@@ -20,7 +20,7 @@ Voor grote bedrijven en overheidsinstanties draagt governance extra gewicht omda
 
 ### Schrijf een metriekcharter voor elke metriekenset die een teamgrens overschrijdt
 
-Een **metriekcharter** is een kort, levend document dat het doel van een metriekenset stelt, zijn expliciete niet-doelen (hoofdstuk 1.1's diagnostisch-versus-evaluatief-onderscheid hoort hier), elke metrieks eigenaar en waarheidsbron, en een reviewcadans. Houd het tot één pagina. Het bestand docs/examples/metrics-charter-example.md in de begeleidende repository van dit boek toont de vorm. Een charter zo kort wordt gelezen; een charter dat uitdijt tot een beleidsdocument wordt dat niet.
+Een **metriekcharter** is een kort, levend document dat het doel van een metriekenset stelt, zijn expliciete niet-doelen (onderwerp 1.1's diagnostisch-versus-evaluatief-onderscheid hoort hier), elke metrieks eigenaar en waarheidsbron, en een reviewcadans. Houd het tot één pagina. Het bestand docs/examples/metrics-charter-example.md in de begeleidende repository van dit boek toont de vorm. Een charter zo kort wordt gelezen; een charter dat uitdijt tot een beleidsdocument wordt dat niet.
 
 ### Wijs een benoemde eigenaar toe aan elke metriek, niet een team
 
@@ -32,7 +32,7 @@ Wanneer twee systemen dezelfde nominaal benoemde metriek verschillend berekenen,
 
 ### Bouw een pensioneringsreview in de governancecadans
 
-Een metriekenprogramma dat alleen ooit metrieken toevoegt, hoopt dashboardwildgroei op waarop niemand kan handelen (hoofdstuk 1.1). Bij elke governancereview, naast het voorstellen van nieuwe metrieken, vraag welke bestaande geen beslissing hebben geïnformeerd in de laatste twee cycli en kandidaten zijn voor pensionering. Pensionering is geen falen; het is dezelfde discipline die een gezonde codebase toepast op dode code.
+Een metriekenprogramma dat alleen ooit metrieken toevoegt, hoopt dashboardwildgroei op waarop niemand kan handelen (onderwerp 1.1). Bij elke governancereview, naast het voorstellen van nieuwe metrieken, vraag welke bestaande geen beslissing hebben geïnformeerd in de laatste twee cycli en kandidaten zijn voor pensionering. Pensionering is geen falen; het is dezelfde discipline die een gezonde codebase toepast op dode code.
 
 ### Schaal governancerigor naar gevolg, niet naar volume
 
@@ -75,7 +75,7 @@ De centrale spanning is **consistentie versus snelheid**. Zware centrale governa
 
 ## Voorbeelden
 
-**Groot bedrijf.** Een multinationaal softwarebedrijf ontdekte, tijdens een post-acquisitie-integratie, dat zijn twee grootste bedrijfsonderdelen "deploymentfrequentie" verschillend definieerden: het ene telde elke push naar een stagingomgeving, het andere telde alleen productiereleases. Leiderschap had meer dan een jaar de leveringsprestaties van de twee onderdelen vergeleken met cijfers die eigenlijk niet vergelijkbaar waren. De fix was een bedrijfsbreed metriekengovernancebord dat een enkel glossarium van metriekdefinities publiceerde (weerspiegeld in hoofdstuk 9.2 van dit boek), vereiste dat elk team conformiteit certificeerde, en pensioneerde de ambigue lokale definities binnen één kwartaal.
+**Groot bedrijf.** Een multinationaal softwarebedrijf ontdekte, tijdens een post-acquisitie-integratie, dat zijn twee grootste bedrijfsonderdelen "deploymentfrequentie" verschillend definieerden: het ene telde elke push naar een stagingomgeving, het andere telde alleen productiereleases. Leiderschap had meer dan een jaar de leveringsprestaties van de twee onderdelen vergeleken met cijfers die eigenlijk niet vergelijkbaar waren. De fix was een bedrijfsbreed metriekengovernancebord dat een enkel glossarium van metriekdefinities publiceerde (weerspiegeld in onderwerp 9.2 van dit boek), vereiste dat elk team conformiteit certificeerde, en pensioneerde de ambigue lokale definities binnen één kwartaal.
 
 **Overheid.** Een nationaal statistiekbureau verantwoordelijk voor het publiceren van een digitale-diensten-prestatiedashboard vond dat een verandering in hoe "opgelost binnen SLA" werd berekend, stilletjes gemaakt door een ingenieursteam dat fixte wat ze als een bug zagen, een headline-conformiteitscijfer met meerdere procentpunten had verschoven zonder openbare documentatie van de verandering. Het bureau vestigde een formeel wijzigingscontroleproces voor elke metriekdefinitie die een openbaar rapport voedt: voorgestelde veranderingen vereisen een gedocumenteerde rationale, een voor-en-na-vergelijking gepubliceerd naast de verandering, en goedkeuring van een benoemde verantwoordelijke ambtenaar, sluitend het gat dat de eerdere verandering onopgemerkt had laten passeren.
 

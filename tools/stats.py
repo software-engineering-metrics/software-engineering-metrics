@@ -65,21 +65,21 @@ def main():
 
     print("# Book statistics")
     print()
-    print(f"- Chapters: **{len(rows)}** ({len(subst)} substantive, "
+    print(f"- Topics: **{len(rows)}** ({len(subst)} substantive, "
           f"{len(rows) - len(subst)} part introductions and appendices)")
     print(f"- Total words: **{sum(r['words'] for r in rows):,}**")
-    print(f"- Mean words per substantive chapter: "
+    print(f"- Mean words per substantive topic: "
           f"**{sum(r['words'] for r in subst) // max(len(subst), 1):,}**")
     print(f"- Wikipedia links: **{sum(r['wiki'] for r in rows):,}**")
     print(f"- Reference entries: **{sum(r['refs'] for r in rows):,}**")
-    print(f"- Substantive chapters below the {TARGET_WORDS:,}-word target: "
+    print(f"- Substantive topics below the {TARGET_WORDS:,}-word target: "
           f"**{len(thin)}**")
     print()
 
-    print(f"## Substantive chapters below the {TARGET_WORDS:,}-word target")
+    print(f"## Substantive topics below the {TARGET_WORDS:,}-word target")
     print()
     if thin:
-        print("| Chapter | Title | Words | Gap |")
+        print("| Topic | Title | Words | Gap |")
         print("| --- | --- | ---: | ---: |")
         for r in thin:
             print(f"| {r['num']} | {r['title']} | {r['words']:,} "
@@ -88,9 +88,9 @@ def main():
         print("None.")
     print()
 
-    print("## All chapters by word count (ascending)")
+    print("## All topics by word count (ascending)")
     print()
-    print("| Chapter | Title | Words | Wikipedia links | Reference entries |")
+    print("| Topic | Title | Words | Wikipedia links | Reference entries |")
     print("| --- | --- | ---: | ---: | ---: |")
     for r in sorted(rows, key=lambda r: r["words"]):
         print(f"| {r['num']} | {r['title']} | {r['words']:,} "

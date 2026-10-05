@@ -2,25 +2,25 @@
 
 ## Überblick und Motivation
 
-Dieses Kapitel misst, was geschieht, wenn das Fehlerbudget aus Kapitel 6.1 durch ein tatsächliches Versagen ausgegeben wird: ein **Vorfall**, ein ungeplantes Ereignis, das einen Dienst verschlechtert oder unterbricht. Vier Metriken bilden das Standardvokabular, um zu messen, wie gut eine Organisation dies handhabt: **mittlere Zeit bis zur Erkennung (MTTD)**, wie lange, bevor die Organisation bemerkt, dass etwas nicht stimmt; **mittlere Zeit bis zur Bestätigung (MTTA)**, wie lange, bevor jemand Eigentümerschaft für die Reaktion übernimmt; **mittlere Zeit bis zur Lösung** oder **Wiederherstellung (MTTR)**, wie lange, bis der Dienst wiederhergestellt ist, dasselbe Konzept, das Kapitel 2.10 speziell für deployment-verursachte Ausfälle behandelte, jetzt verallgemeinert auf jeden Vorfall unabhängig von der Ursache; und **Vorfallhäufigkeit**, einfach, wie oft Vorfälle überhaupt auftreten.
+Dieses Thema misst, was geschieht, wenn das Fehlerbudget aus Thema 6.1 durch ein tatsächliches Versagen ausgegeben wird: ein **Vorfall**, ein ungeplantes Ereignis, das einen Dienst verschlechtert oder unterbricht. Vier Metriken bilden das Standardvokabular, um zu messen, wie gut eine Organisation dies handhabt: **mittlere Zeit bis zur Erkennung (MTTD)**, wie lange, bevor die Organisation bemerkt, dass etwas nicht stimmt; **mittlere Zeit bis zur Bestätigung (MTTA)**, wie lange, bevor jemand Eigentümerschaft für die Reaktion übernimmt; **mittlere Zeit bis zur Lösung** oder **Wiederherstellung (MTTR)**, wie lange, bis der Dienst wiederhergestellt ist, dasselbe Konzept, das Thema 2.10 speziell für deployment-verursachte Ausfälle behandelte, jetzt verallgemeinert auf jeden Vorfall unabhängig von der Ursache; und **Vorfallhäufigkeit**, einfach, wie oft Vorfälle überhaupt auftreten.
 
-Das zentrale Anliegen dieses Kapitels, die Behandlung der Änderungsfehlerrate aus Kapitel 2.10 widerhallend, ist, dass diese Zahlen nur so vertrauenswürdig sind wie die organisatorische Kultur rund um ehrliche Meldung und Klassifikation von Vorfällen. Ein Team, das Schuld für einen Vorfall fürchtet, hat jeden Anreiz, unterzumelden, Bestätigung zu verzögern, um nicht „auf der Uhr" zu sein, oder ein schweres Ereignis als gering zu klassifizieren, um seine eigenen Metriken zu schützen. **[Schuldfreie](https://en.wikipedia.org/wiki/Just_culture) Post-Mortem**-Praxis, bei Organisationen wie Etsy entwickelt und in Googles SRE-Literatur formalisiert, existiert speziell, um diesen Anreiz zu entfernen, und dieses Kapitel behandelt sie als Voraussetzung für vertrauenswürdige Vorfalldaten, keine optionale kulturelle Annehmlichkeit, die über den Metriken geschichtet wird.
+Das zentrale Anliegen dieses Themas, die Behandlung der Änderungsfehlerrate aus Thema 2.10 widerhallend, ist, dass diese Zahlen nur so vertrauenswürdig sind wie die organisatorische Kultur rund um ehrliche Meldung und Klassifikation von Vorfällen. Ein Team, das Schuld für einen Vorfall fürchtet, hat jeden Anreiz, unterzumelden, Bestätigung zu verzögern, um nicht „auf der Uhr" zu sein, oder ein schweres Ereignis als gering zu klassifizieren, um seine eigenen Metriken zu schützen. **[Schuldfreie](https://en.wikipedia.org/wiki/Just_culture) Post-Mortem**-Praxis, bei Organisationen wie Etsy entwickelt und in Googles SRE-Literatur formalisiert, existiert speziell, um diesen Anreiz zu entfernen, und dieses Thema behandelt sie als Voraussetzung für vertrauenswürdige Vorfalldaten, keine optionale kulturelle Annehmlichkeit, die über den Metriken geschichtet wird.
 
-Für große Teams enthüllen Vorfallmetriken, ob die Erkennungs- und Reaktionsfähigkeit einer Organisation, das Rollback-Tooling aus Kapitel 2.10 unter anderen Investitionen, unter echten, variierten Bedingungen tatsächlich funktioniert, nicht nur dem spezifischen deployment-verursachten Ausfallszenario, das jenes Kapitel behandelte. Konzerne und Behörden, die kritische Infrastruktur betreiben, verlassen sich auf diese Metriken sowohl intern, um echte operative Verbesserung anzutreiben, als auch extern, um Kundinnen und Kunden, Regulierungsbehörden, oder der Öffentlichkeit zu demonstrieren, dass Vorfälle kompetent gehandhabt werden und sich über die Zeit verbessern.
+Für große Teams enthüllen Vorfallmetriken, ob die Erkennungs- und Reaktionsfähigkeit einer Organisation, das Rollback-Tooling aus Thema 2.10 unter anderen Investitionen, unter echten, variierten Bedingungen tatsächlich funktioniert, nicht nur dem spezifischen deployment-verursachten Ausfallszenario, das jenes Thema behandelte. Konzerne und Behörden, die kritische Infrastruktur betreiben, verlassen sich auf diese Metriken sowohl intern, um echte operative Verbesserung anzutreiben, als auch extern, um Kundinnen und Kunden, Regulierungsbehörden, oder der Öffentlichkeit zu demonstrieren, dass Vorfälle kompetent gehandhabt werden und sich über die Zeit verbessern.
 
 ## Kernprinzipien
 
 - **Schuldfreie Kultur ist eine Voraussetzung für vertrauenswürdige Vorfalldaten**, keine optionale Ergänzung; Schuldfurcht korrumpiert Meldung, Bestätigungsgeschwindigkeit, und Schweregradklassifikation gleichermaßen.
 - **Erkennung, Bestätigung, und Lösung sind eigenständige Phasen mit eigenständigen Korrekturen.** Eine langsame Gesamtwiederherstellungszeit kann sehr unterschiedliche zugrunde liegende Probleme verbergen, je nachdem, welche Phase tatsächlich langsam ist.
-- **Vorfallhäufigkeit und MTTR sind ein gepaartes Signal**, ähnlich DORAs Änderungsfehlerrate und Wiederherstellungszeit (Kapitel 2.10): keine allein erzählt die volle Geschichte.
-- **Schweregradklassifikation braucht dieselbe Strenge wie entwichene-Fehler-Klassifikation** (Kapitel 5.1): konsistente, dokumentierte Kriterien, kein Ad-hoc-Urteil.
+- **Vorfallhäufigkeit und MTTR sind ein gepaartes Signal**, ähnlich DORAs Änderungsfehlerrate und Wiederherstellungszeit (Thema 2.10): keine allein erzählt die volle Geschichte.
+- **Schweregradklassifikation braucht dieselbe Strenge wie entwichene-Fehler-Klassifikation** (Thema 5.1): konsistente, dokumentierte Kriterien, kein Ad-hoc-Urteil.
 - **Der Wert eines Post-Mortems liegt in systemischem Lernen, nicht in der Produktion einer Zahl.** Die Metrik ist ein Nebenprodukt guter Praxis, nicht deren Ziel.
 
 ## Empfehlungen
 
 ### Vorfallreaktionszeit in ihre eigenständigen Phasen zerlegen
 
-Erkennungszeit (vom tatsächlichen Beginn des Ausfalls bis jemand es bemerkt), Bestätigungszeit (von der Benachrichtigung bis jemand Eigentümerschaft übernimmt), und Lösungszeit (von Eigentümerschaft bis echter Wiederherstellung) sollten separat gemessen und berichtet werden, statt nur einer einzelnen, gemischten Summe. Jede Phase weist auf eine andere Korrektur hin: langsame Erkennung weist auf eine Monitoring- und Alarmierungslücke hin, langsame Bestätigung weist auf ein Bereitschaftsdienstprozess- oder Eskalationsproblem hin, und langsame Lösung weist auf eine Tooling-, Runbook-, oder Diagnosefähigkeitslücke hin (Kapitel 2.10 behandelt dies speziell für deployment-verursachte Ausfälle).
+Erkennungszeit (vom tatsächlichen Beginn des Ausfalls bis jemand es bemerkt), Bestätigungszeit (von der Benachrichtigung bis jemand Eigentümerschaft übernimmt), und Lösungszeit (von Eigentümerschaft bis echter Wiederherstellung) sollten separat gemessen und berichtet werden, statt nur einer einzelnen, gemischten Summe. Jede Phase weist auf eine andere Korrektur hin: langsame Erkennung weist auf eine Monitoring- und Alarmierungslücke hin, langsame Bestätigung weist auf ein Bereitschaftsdienstprozess- oder Eskalationsproblem hin, und langsame Lösung weist auf eine Tooling-, Runbook-, oder Diagnosefähigkeitslücke hin (Thema 2.10 behandelt dies speziell für deployment-verursachte Ausfälle).
 
 ### Einen echt schuldfreien Post-Mortem-Prozess aufbauen und schützen
 
@@ -28,7 +28,7 @@ Ein **schuldfreies Post-Mortem** untersucht, was geschah und warum das System es
 
 ### Schweregrad mit konsistenten, dokumentierten, auditierten Kriterien klassifizieren
 
-Dieselbe Disziplin, die Kapitel 5.1 für entwichene Fehler empfiehlt, sollte auf Vorfallschweregradklassifikation angewandt werden: eine feste, dokumentierte Skala, basierend auf tatsächlicher Kunden- oder Geschäftswirkung, konsistent über Teams hinweg angewandt, periodisch auf Drift auditiert. Inkonsistente Klassifikation, manche Teams großzügig, manche streng, macht organisationsweite Vorfalldaten genauso unzuverlässig für Vergleich, wie es inkonsistent klassifizierte Fehlerdaten wären.
+Dieselbe Disziplin, die Thema 5.1 für entwichene Fehler empfiehlt, sollte auf Vorfallschweregradklassifikation angewandt werden: eine feste, dokumentierte Skala, basierend auf tatsächlicher Kunden- oder Geschäftswirkung, konsistent über Teams hinweg angewandt, periodisch auf Drift auditiert. Inkonsistente Klassifikation, manche Teams großzügig, manche streng, macht organisationsweite Vorfalldaten genauso unzuverlässig für Vergleich, wie es inkonsistent klassifizierte Fehlerdaten wären.
 
 ### Vorfallhäufigkeit und MTTR zusammen verfolgen, nie isoliert
 
@@ -36,7 +36,7 @@ Eine sich verbessernde MTTR zusammen mit steigender Vorfallhäufigkeit könnte d
 
 ### Systemische Handlungspunkte aus Post-Mortems extrahieren und verfolgen, nicht nur Metriken
 
-Der echte Wert des Post-Mortem-Prozesses sind die spezifischen, systemischen Handlungspunkte, die er produziert: ein fehlender Alarm hinzugefügt, ein Runbook verbessert, ein einzelner Ausfallpunkt entfernt. Diese Handlungspunkte sollten bis zum Abschluss verfolgt werden, mit derselben Disziplin wie der technische-Schuld-Rückstand aus Kapitel 4.5, da ein Post-Mortem, das Einsicht, aber keine Nachverfolgung produziert, das organisatorische Lernen verschwendet, das der Prozess erfassen soll.
+Der echte Wert des Post-Mortem-Prozesses sind die spezifischen, systemischen Handlungspunkte, die er produziert: ein fehlender Alarm hinzugefügt, ein Runbook verbessert, ein einzelner Ausfallpunkt entfernt. Diese Handlungspunkte sollten bis zum Abschluss verfolgt werden, mit derselben Disziplin wie der technische-Schuld-Rückstand aus Thema 4.5, da ein Post-Mortem, das Einsicht, aber keine Nachverfolgung produziert, das organisatorische Lernen verschwendet, das der Prozess erfassen soll.
 
 ## Abwägungen: Vor- und Nachteile
 
@@ -57,7 +57,7 @@ Die zentrale Spannung ist **die Anziehungskraft individueller Verantwortlichkeit
 
 3. **Würden zwei verschiedene Teams den Schweregrad desselben Vorfalls gleich klassifizieren?** Ein echter, mehrdeutiger vergangener Vorfall sollte ausgewählt werden, und Vertreterinnen und Vertreter aus verschiedenen Teams sollten ihn unabhängig klassifizieren, dann sollten die Ergebnisse verglichen werden.
 
-4. **Überprüfen wir Vorfallhäufigkeit und MTTR zusammen, oder erhält eine mehr Aufmerksamkeit als die andere?** Die tatsächliche Berichterstattungspraxis und Überprüfungen sollten auf diese Paarung geprüft werden, dieselbe Disziplin widerspiegelnd, die Kapitel 2.10 für die DORA-Stabilitätsmetriken empfiehlt.
+4. **Überprüfen wir Vorfallhäufigkeit und MTTR zusammen, oder erhält eine mehr Aufmerksamkeit als die andere?** Die tatsächliche Berichterstattungspraxis und Überprüfungen sollten auf diese Paarung geprüft werden, dieselbe Disziplin widerspiegelnd, die Thema 2.10 für die DORA-Stabilitätsmetriken empfiehlt.
 
 5. **Welcher Prozentsatz unserer Post-Mortem-Handlungspunkte aus den letzten sechs Monaten wurde tatsächlich abgeschlossen?** Wenn dies derzeit nicht verfolgt wird, ist diese Lücke es wert, benannt zu werden; ein Post-Mortem-Prozess mit niedriger Handlungspunkt-Abschlussrate produziert Einsicht ohne Nachverfolgung.
 
@@ -67,7 +67,7 @@ Die zentrale Spannung ist **die Anziehungskraft individueller Verantwortlichkeit
 
 **Startup.** Vorfallreaktion ist mit einem kleinen Team oft notwendigerweise informell, und formale Phasenzerlegung mag zunächst unnötig sein. Die Gewohnheit, die es sich lohnt, früh anzunehmen, sind schuldfreie Diskussionsnormen vom allerersten Vorfall an, da kulturelle Gewohnheiten, die früh gesetzt werden, weit leichter aufrechtzuerhalten sind, als nachträglich einzubauen, sobald sich ein schuldanfälliges Muster etabliert hat.
 
-**Kleinunternehmen.** Ein einfaches, geteiltes Vorfallprotokoll, selbst informell, mit einer grundlegenden Schweregradklassifikation und einer kurzen schuldfreien Retrospektive für alles Bedeutsame, erfasst den größten Teil des Werts dieses Kapitels, ohne ausgefeiltes Tooling oder eine dedizierte Vorfallmanagementplattform zu brauchen.
+**Kleinunternehmen.** Ein einfaches, geteiltes Vorfallprotokoll, selbst informell, mit einer grundlegenden Schweregradklassifikation und einer kurzen schuldfreien Retrospektive für alles Bedeutsame, erfasst den größten Teil des Werts dieses Themas, ohne ausgefeiltes Tooling oder eine dedizierte Vorfallmanagementplattform zu brauchen.
 
 **Enterprise.** Konsistente Schweregradklassifikation und echte, anhaltende schuldfreie Kultur sind beide im großen Maßstab schwerer aufrechtzuerhalten, und beide sind essenziell für vertrauenswürdige, vergleichbare Vorfalldaten über Dutzende Teams hinweg. In dokumentierte Klassifikationskriterien, periodisches Auditieren, und aktives Führungsvorleben schuldfreier Reaktion sollte investiert werden, da kulturelle Drift hin zu Schuld ohne bewussten, laufenden Gegendruck graduell einschleicht.
 
@@ -114,7 +114,7 @@ Die Gesamtbetriebskosten sind größtenteils kulturelle und Prozessinvestition: 
 
 - **Schuldfreie Post-Mortem-Kultur ist eine Voraussetzung** für vertrauenswürdige Vorfalldaten; Schuldfurcht korrumpiert Meldung, Bestätigungsgeschwindigkeit, und Klassifikation gleichermaßen.
 - Reaktionszeit sollte in **Erkennungs-, Bestätigungs-, und Lösungs**phasen zerlegt werden, jede weist auf eine andere Korrektur hin.
-- Schweregrad sollte mit **konsistenten, dokumentierten, auditierten Kriterien** klassifiziert werden, die Disziplin der entwichenen Fehler aus Kapitel 5.1 widerspiegelnd.
+- Schweregrad sollte mit **konsistenten, dokumentierten, auditierten Kriterien** klassifiziert werden, die Disziplin der entwichenen Fehler aus Thema 5.1 widerspiegelnd.
 - **Vorfallhäufigkeit und MTTR sollten zusammen überprüft werden**, nie isoliert, dieselbe Paarungsdisziplin wie DORAs Stabilitätsmetriken.
 - **Post-Mortem-Handlungspunkte sollten bis zum Abschluss verfolgt werden**; die Metrik ist ein Nebenprodukt guter Praxis, nicht deren Ziel.
 

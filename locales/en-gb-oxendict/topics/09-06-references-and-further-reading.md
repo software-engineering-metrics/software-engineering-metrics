@@ -1,8 +1,8 @@
 # 9.6 References and further reading
 
 A consolidated bibliography of the works cited throughout the book,
-gathered from each chapter's own references section. Organized loosely by
-theme; many works are cited from multiple chapters.
+gathered from each topic's own references section. Organized loosely by
+theme; many works are cited from multiple topics.
 
 ## Foundational frameworks
 

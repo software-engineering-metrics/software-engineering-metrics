@@ -2,7 +2,7 @@
 
 ## Översikt och motivation
 
-Ett **flödesobjekt** är Flow Frameworks arbetsenhet, och varje flödesobjekt hör till exakt en av fyra typer: **funktioner**, nytt affärsvärde eller ny förmåga levererad till en kund; **defekter**, kvalitetsrättningar för buggar funna av användare eller testning; **risker**, säkerhets-, efterlevnads-, integritets-, och styrningsarbete som skyddar affären; och **skuld**, [teknisk skuld](https://en.wikipedia.org/wiki/Technical_debt), arkitektonisk förbättring, och infrastrukturarbete som möjliggör framtida hastighet. Kapitel 2.1 introducerade ramverket de fyra kategorierna hör till; det här kapitlet går djupt in på själva taxonomin, eftersom kategorierna bara levererar värde om ett team klassificerar sitt arbete i dem ärligt och konsekvent.
+Ett **flödesobjekt** är Flow Frameworks arbetsenhet, och varje flödesobjekt hör till exakt en av fyra typer: **funktioner**, nytt affärsvärde eller ny förmåga levererad till en kund; **defekter**, kvalitetsrättningar för buggar funna av användare eller testning; **risker**, säkerhets-, efterlevnads-, integritets-, och styrningsarbete som skyddar affären; och **skuld**, [teknisk skuld](https://en.wikipedia.org/wiki/Technical_debt), arkitektonisk förbättring, och infrastrukturarbete som möjliggör framtida hastighet. Ämne 2.1 introducerade ramverket de fyra kategorierna hör till; det här ämnet går djupt in på själva taxonomin, eftersom kategorierna bara levererar värde om ett team klassificerar sitt arbete i dem ärligt och konsekvent.
 
 Den definierande egenskapen hos flödesobjekt är att allokeringen över de fyra typerna är ett **nollsummespel**: en fast mängd ingenjörskapacitet finns i varje given period, och varje timme spenderad på en funktion är en timme inte spenderad på skuld-, risk-, eller defektarbete. Det här är inget nytt faktum om mjukvaruleverans, varje ingenjörsledare vet redan att kapacitet är ändlig, men de flesta organisationer har inget konsekvent, ärligt sätt att se den faktiska uppdelningen. Sprinthastighet räknar storypoäng oavsett typ; en nedbrunnen backlogg ser identisk ut oavsett om arbetet bakom den var ett nytt kassaflöde eller tre månader av oglamoröst säkerhetsrättningsarbete. Flödesobjekt finns specifikt för att göra den osynliga uppdelningen synlig.
 
@@ -20,7 +20,7 @@ För stora team förändrar den här synligheten naturen hos en resurskonversati
 
 ### Klassificera varje objekt vid intag, med en skriftlig definition för varje typ
 
-Enas om en koncis, skriftlig definition för vad som räknas som en funktion, en defekt, en risk, och skuld i ert specifika sammanhang, och kräv att varje nytt arbete klassificeras mot den definitionen i det ögonblick det kommer in i värdeflödet, inte efter att det är slutfört. En definition överenskommen i förväg motstår frestelsen att klassificera retroaktivt baserat på hur ett arbete visade sig se ut, vilket är exakt den manipuleringsrisk det här kapitlet namnger direkt nedan.
+Enas om en koncis, skriftlig definition för vad som räknas som en funktion, en defekt, en risk, och skuld i ert specifika sammanhang, och kräv att varje nytt arbete klassificeras mot den definitionen i det ögonblick det kommer in i värdeflödet, inte efter att det är slutfört. En definition överenskommen i förväg motstår frestelsen att klassificera retroaktivt baserat på hur ett arbete visade sig se ut, vilket är exakt den manipuleringsrisk det här ämnet namnger direkt nedan.
 
 ### Rapportera flödesfördelning som en trend, inte ett enskilt ögonblick
 
@@ -32,7 +32,7 @@ Bestäm, tillsammans med produkt- och affärsledning, hur en sund fördelning se
 
 ### Korskontrollera flödesobjektsklassificering mot oberoende bevis
 
-Jämför periodiskt er flödesfördelning mot mätetal som inte beror på självklassificering: andel läckta defekter (kapitel 5.1), teknisk skuldmätning (kapitel 4.5), och mätetal för sårbarhetshantering (kapitel 6.4). Om defekter eller sårbarheter stiger medan "defekter"- och "risk"-flödesobjektsandelarna förblir platta eller krymper, är den missmatchningen den tydligaste tillgängliga signalen att klassificeringen har glidit från verkligheten.
+Jämför periodiskt er flödesfördelning mot mätetal som inte beror på självklassificering: andel läckta defekter (ämne 5.1), teknisk skuldmätning (ämne 4.5), och mätetal för sårbarhetshantering (ämne 6.4). Om defekter eller sårbarheter stiger medan "defekter"- och "risk"-flödesobjektsandelarna förblir platta eller krymper, är den missmatchningen den tydligaste tillgängliga signalen att klassificeringen har glidit från verkligheten.
 
 ### Vaka specifikt för funktionsfabriksmönstret
 
@@ -61,7 +61,7 @@ Den centrala spänningen är **klassificeringsdisciplin kontra processomkostnad*
 
 5. **Matchar vår flödesfördelning oberoende bevis, som andel läckta defekter eller öppna sårbarhetsantal, eller finns det en missmatchning värd att undersöka?** En missmatchning här är det tydligaste tillgängliga tecknet på att klassificeringen har glidit från vad arbetet faktiskt är.
 
-6. **Skulle någon i vårt team kunna tyst omdöpa ett skuld- eller riskobjekt till en funktion under leveranspress, och skulle vi för närvarande märka det om de gjorde det?** Det här är kapitlets centrala manipuleringsrisk uttryckt direkt. Diskutera om er nuvarande process faktiskt skulle fånga det här, inte bara om någon medvetet skulle göra det.
+6. **Skulle någon i vårt team kunna tyst omdöpa ett skuld- eller riskobjekt till en funktion under leveranspress, och skulle vi för närvarande märka det om de gjorde det?** Det här är ämnets centrala manipuleringsrisk uttryckt direkt. Diskutera om er nuvarande process faktiskt skulle fånga det här, inte bara om någon medvetet skulle göra det.
 
 ## Sektorperspektiv
 
@@ -87,7 +87,7 @@ Den totala ägandekostnaden är låg när taxonomin och dess definitioner väl �
 
 ## Antimönster och fallgropar
 
-- **Att klassificera arbete retroaktivt, efter att utfallet är känt:** manipuleringsvektorn i hjärtat av det här kapitlet. Under leveranspress kan ett team tyst märka skuld- eller riskarbete som en funktion i efterhand, eller runda av ett tvetydigt objekt mot vilken typ som helst som ser bättre ut på fördelningsdiagrammet, utan att något enskilt beslut någonsin ser oärligt ut på egen hand. Skyddet är intagstidsklassificering mot en skriftlig definition, kombinerat med periodiska granskningar som jämför flödesfördelning mot oberoende bevis som andel läckta defekter (kapitel 5.1) och sårbarhetsmätetal (kapitel 6.4), samma gransknings-mot-oberoende-bevis-disciplin kapitel 1.2 ber om för varje mätetal i den här boken.
+- **Att klassificera arbete retroaktivt, efter att utfallet är känt:** manipuleringsvektorn i hjärtat av det här ämnet. Under leveranspress kan ett team tyst märka skuld- eller riskarbete som en funktion i efterhand, eller runda av ett tvetydigt objekt mot vilken typ som helst som ser bättre ut på fördelningsdiagrammet, utan att något enskilt beslut någonsin ser oärligt ut på egen hand. Skyddet är intagstidsklassificering mot en skriftlig definition, kombinerat med periodiska granskningar som jämför flödesfördelning mot oberoende bevis som andel läckta defekter (ämne 5.1) och sårbarhetsmätetal (ämne 6.4), samma gransknings-mot-oberoende-bevis-disciplin ämne 1.2 ber om för varje mätetal i den här boken.
 - **Att låta funktioner konsekvent absorbera nästan all kapacitet (funktionsfabriksmönstret):** svälter skuld- och riskarbete tyst tills det dyker upp som en kris.
 - **Att behandla en enskild periods fördelning som hela bilden:** missar den långsamma, kumulativa driften en trendvy avslöjar tydligt.
 - **Att sätta en målfördelning utan affärsintressenter:** förverkar ramverkets huvudvärde, en delad, förhandlad förståelse av avvägningen.
@@ -113,7 +113,7 @@ Den totala ägandekostnaden är låg när taxonomin och dess definitioner väl �
 
 - Ett **flödesobjekt** hör till exakt en av fyra typer, funktioner, defekter, risker, eller skuld, och kapacitetsallokering mellan dem är **nollsumma**.
 - Det finns **ingen universellt sund fördelning**; den rätta blandningen beror på en produkts fas och bör vara ett medvetet, förhandlat mål med affärsintressenter.
-- Kapitlets centrala manipuleringsvektor är **retroaktiv klassificering**, att tyst omdöpa skuld- eller riskarbete till en funktion i efterhand; skyddet är intagstidsklassificering plus periodiska granskningar mot oberoende bevis.
+- Ämnets centrala manipuleringsvektor är **retroaktiv klassificering**, att tyst omdöpa skuld- eller riskarbete till en funktion i efterhand; skyddet är intagstidsklassificering plus periodiska granskningar mot oberoende bevis.
 - Vaka specifikt för **funktionsfabriksmönstret**, funktioner som konsekvent absorberar nästan all kapacitet, vilket svälter skuld- och riskarbete tills det dyker upp som en kris.
 - Flödesfördelning är mest värdefull som en **trend**, och dess största utdelning kommer från att dela den direkt med affärsintressenter.
 

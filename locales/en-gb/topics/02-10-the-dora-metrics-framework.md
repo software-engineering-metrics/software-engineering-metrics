@@ -14,7 +14,7 @@ often shortened to mean time to recovery (MTTR), measure stability. The
 research finding that made the framework significant was that elite
 performers were fast and stable simultaneously, overturning the assumption
 that speed and safety trade off against each other, and that finding is
-still the clearest worked example this book has of chapter 1.2's
+still the clearest worked example this book has of topic 1.2's
 guardrail-pairing principle: an incentivised speed metric, paired with a
 stability guardrail, is what the best-performing organisations actually do.
 
@@ -25,8 +25,8 @@ specific, real limitation: DORA measures how fast and how safely a pipeline
 moves, but it is silent on what is moving through the pipeline. A team can
 post excellent DORA numbers while its actual output has quietly drifted
 toward defect rework or has starved technical debt and security work of
-capacity, a pattern chapters 2.1 through 2.4's Flow Framework is built
-specifically to surface and DORA cannot see. Use DORA as this chapter
+capacity, a pattern topics 2.1 through 2.4's Flow Framework is built
+specifically to surface and DORA cannot see. Use DORA as this topic
 presents it: a well-validated, narrower reference measure of pipeline
 mechanics, not the whole picture of delivery health.
 
@@ -38,13 +38,13 @@ comparisons. Enterprise organisations still use it to prioritise platform
 investment; government organisations still use it to demonstrate, with
 evidence, that a modernisation programme measurably improved delivery
 mechanics. Treat that as DORA's proper, bounded job, and use the Flow
-Framework chapters earlier in this part for the broader question of
+Framework topics earlier in this part for the broader question of
 whether the right things are being delivered at all.
 
 ## Key principles
 
-- **DORA measures the pipeline, not the value flowing through it.** Chapter
-  2.1 names this gap directly; use flow distribution (chapter 2.3) to see
+- **DORA measures the pipeline, not the value flowing through it.** Topic
+  2.1 names this gap directly; use flow distribution (topic 2.3) to see
   what DORA cannot.
 - **Speed and stability are measured together, never separately.** A
   DORA-informed dashboard without both halves is not really using the
@@ -54,7 +54,7 @@ whether the right things are being delivered at all.
   metric is a real signal; comparing two teams computed differently is not.
 - **DORA measures the system, not individuals.** Applying these metrics to
   individual engineers breaks the framework's statistical basis and
-  invites exactly the gaming chapter 1.2 warns against.
+  invites exactly the gaming topic 1.2 warns against.
 - **All four metrics are proxies, not goals.** They correlate with
   organisational performance; chasing the number itself, detached from
   genuine delivery improvement, defeats the framework's purpose.
@@ -75,7 +75,7 @@ is the clearest sign this is happening.
 
 **Lead time for changes** measures the time from a code change's first
 commit to its successful deployment in production. Report both the median
-and a high percentile, not just a mean, following chapter 1.6's guidance on
+and a high percentile, not just a mean, following topic 1.6's guidance on
 skewed time-based data, and watch for definition drift at either endpoint,
 which flatters the number without any genuine improvement.
 
@@ -101,8 +101,8 @@ genuinely rather than by declaring an incident resolved prematurely.
 ### Use flow metrics, not DORA, to diagnose why a number moved
 
 When a DORA metric shifts, the four numbers alone rarely explain why. Use
-cycle time decomposition (chapter 2.6), flow load (chapter 2.4), and flow
-distribution (chapter 2.3) as the diagnostic layer underneath DORA's
+cycle time decomposition (topic 2.6), flow load (topic 2.4), and flow
+distribution (topic 2.3) as the diagnostic layer underneath DORA's
 summary numbers, and never use a DORA metric in an individual performance
 review, the single most damaging misuse this framework is exposed to.
 
@@ -120,9 +120,9 @@ DORA's four metrics are precisely defined and research-validated, which
 makes them excellent for comparing pipeline performance across teams, but
 that same precision is scoped narrowly to the pipeline itself and says
 nothing about whether the right work is flowing through it. Resolve the
-tension by keeping DORA as a reference layer for pipeline health, chapter
+tension by keeping DORA as a reference layer for pipeline health, topic
 2.10's proper place in this book's structure, while using the Flow Framework
-chapters earlier in this part for the business-facing question of value
+topics earlier in this part for the business-facing question of value
 mix, rather than trying to make DORA answer a question it was never
 designed to.
 
@@ -132,7 +132,7 @@ designed to.
    some of them self-reported estimates?** A framework built on objective,
    research-validated measurement loses much of its value the moment a
    number becomes a best guess. Audit each metric's actual data source
-   (chapter 1.5).
+   (topic 1.5).
 
 2. **Do all the teams we compare using DORA metrics share the same
    definitions of deployment, change, and failure?** A comparison between
@@ -145,7 +145,7 @@ designed to.
    directly and be prepared for an uncomfortable but necessary answer.
 
 4. **Could our DORA numbers be excellent while our flow distribution
-   (chapter 2.3) has quietly drifted toward rework or away from features?**
+   (topic 2.3) has quietly drifted toward rework or away from features?**
    This is precisely the gap DORA alone cannot see. Pull both sets of
    numbers together and check whether they tell a consistent story.
 
@@ -157,7 +157,7 @@ designed to.
 6. **How would our four DORA numbers change if we deliberately tried to
    game each one, and would we notice?** Walk through deployment frequency,
    lead time, change failure rate, and recovery time one at a time, the
-   practical application of chapter 1.2's core discipline to this specific
+   practical application of topic 1.2's core discipline to this specific
    framework.
 
 ## Sector lens
@@ -166,7 +166,7 @@ designed to.
 already deploying frequently; the harder discipline is instrumenting change
 failure rate and recovery time honestly rather than assuming stability
 because nothing has broken badly yet. Pairing DORA with even an informal
-flow-item split (chapter 2.2) early avoids building a false sense of
+flow-item split (topic 2.2) early avoids building a false sense of
 delivery health around pipeline speed alone.
 
 **Small business.** Most modern CI/CD and version control platforms export
@@ -177,7 +177,7 @@ informal incident log exists to link against.
 
 **Enterprise.** DORA's greatest remaining value at this scale is fair,
 consistent cross-team comparison for platform investment decisions.
-Standardise definitions organisation-wide (chapter 1.4), automate
+Standardise definitions organisation-wide (topic 1.4), automate
 instrumentation centrally, and pair every DORA report with a flow
 distribution view so leadership sees both pipeline speed and value mix
 together, not one without the other.
@@ -228,7 +228,7 @@ investments on a fair, consistent basis, exactly as it always has.
 The total cost of ownership is the integration work linking deploy events
 to incident records for change failure rate and recovery time, nontrivial
 across a large, heterogeneous tooling landscape. The additional cost of
-pairing DORA with the Flow Framework chapters earlier in this part is
+pairing DORA with the Flow Framework topics earlier in this part is
 comparatively small, since flow-item classification is a reporting
 convention layered on existing work, not a parallel measurement system, and
 the return, catching exactly the value-mix blind spot the telecommunications
@@ -237,12 +237,12 @@ example above illustrates, is well worth that modest additional investment.
 ## Anti-patterns and pitfalls
 
 - **Treating DORA as the whole picture of delivery health:** the gaming
-  vector this chapter's placement is designed to counter. An organisation
+  vector this topic's placement is designed to counter. An organisation
   can present genuinely excellent DORA numbers, fast, frequent, stable
   deployments, while its actual delivered value has quietly shifted toward
   rework or away from features, and DORA's four metrics alone will never
   reveal that shift because they were never designed to measure it. The
-  guardrail is pairing every DORA report with flow distribution (chapter
+  guardrail is pairing every DORA report with flow distribution (topic
   2.3), so a fast, stable pipeline delivering the wrong mix of work is
   visible rather than mistaken for genuine delivery health.
 - **Reporting only the speed half of DORA:** defeats the framework's
@@ -290,8 +290,8 @@ example above illustrates, is well worth that modest additional investment.
   genuinely research-validated.
 - This book places DORA **last in this part** because it measures the
   pipeline, not the value flowing through it; pair it with flow
-  distribution (chapter 2.3) for the fuller picture.
-- The chapter's central gaming vector is **mistaking excellent DORA numbers
+  distribution (topic 2.3) for the fuller picture.
+- The topic's central gaming vector is **mistaking excellent DORA numbers
   for complete delivery health**; the guardrail is always reporting DORA
   alongside flow distribution.
 - **Never use DORA metrics in individual performance reviews**; the

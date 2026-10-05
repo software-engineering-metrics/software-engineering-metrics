@@ -2,8 +2,8 @@
 
 ## Overview and motivation
 
-The reliability chapter 6.1 introduced and the incident response chapter
-6.2 measured both depend on a human system that this chapter measures
+The reliability topic 6.1 introduced and the incident response topic
+6.2 measured both depend on a human system that this topic measures
 directly: the on-call rotation, the engineers who carry a pager and respond
 when something breaks, and the infrastructure capacity that determines how
 much load a system can absorb before it starts breaking in the first place.
@@ -12,8 +12,8 @@ genuinely blameless incident culture, and still burn out its on-call
 engineers through an unsustainable load that eventually degrades the very
 reliability those other practices were built to protect.
 
-This chapter treats operational load as a metric family in its own right,
-directly connected to chapter 3.2's well-being and [burnout](https://en.wikipedia.org/wiki/Occupational_burnout) measurement but
+This topic treats operational load as a metric family in its own right,
+directly connected to topic 3.2's well-being and [burnout](https://en.wikipedia.org/wiki/Occupational_burnout) measurement but
 specific to the particular, acute stress of carrying a pager: interrupted
 sleep, the psychological cost of being on call even when nothing happens,
 and the cumulative toll of frequent, poorly distributed incident load. An
@@ -24,12 +24,12 @@ to surface eventually as attrition, degraded incident response quality from
 exhausted responders, or both.
 
 For large teams, on-call and capacity metrics reveal load-balancing
-problems that mirror chapter 3.5's knowledge-concentration concerns: a
+problems that mirror topic 3.5's knowledge-concentration concerns: a
 small number of engineers absorbing a disproportionate share of pages,
 often the most experienced people precisely because they can resolve
 incidents fastest, which creates both a burnout risk and a bus-factor risk
 simultaneously. Enterprise and government organisations running
-around-the-clock critical services depend on this chapter's metrics to
+around-the-clock critical services depend on this topic's metrics to
 staff on-call rotations sustainably rather than discovering the true cost
 only through attrition.
 
@@ -53,8 +53,8 @@ only through attrition.
 ### Track page frequency and distribution, not just a team-level average
 
 Measure how many pages each individual on-call engineer receives, not just
-a team-wide average that can hide severe concentration. Similar to chapter
-3.5's bus-factor and chapter 2.9's reviewer-load concerns, on-call load
+a team-wide average that can hide severe concentration. Similar to topic
+3.5's bus-factor and topic 2.9's reviewer-load concerns, on-call load
 often concentrates on a small number of experienced people who can resolve
 incidents fastest, precisely the pattern that creates both burnout risk and
 a dangerous single point of failure. Rebalance rotations deliberately when
@@ -66,7 +66,7 @@ incident time
 Being on call carries a real cost even during a shift with zero actual
 pages: reduced sleep quality from anticipating a possible interruption,
 constrained personal activities, and the low-grade stress of ongoing
-responsibility. Where feasible, capture this through survey data (chapter
+responsibility. Where feasible, capture this through survey data (topic
 3.7) specifically about on-call experience, separate from general
 satisfaction, since a team can report reasonable general satisfaction while
 on-call specifically is quietly eroding well-being.
@@ -97,7 +97,7 @@ Aggregate on-call load data at the team level to make the case for
 additional headcount, better tooling to reduce false-positive pages, or
 architectural investment to reduce genuine incident frequency. Following
 this book's consistent guidance for any metric touching individuals
-directly (chapter 1.2, chapter 3.4), never use individual page-response
+directly (topic 1.2, topic 3.4), never use individual page-response
 metrics to evaluate a specific engineer's performance; the goal is
 sustainable staffing and system design, not individual scorekeeping.
 
@@ -130,7 +130,7 @@ simply endure indefinitely.
 2. **Have we ever measured the psychological cost of being on call
    separately from general satisfaction?** If not, discuss whether a
    dedicated, short survey question specifically about on-call experience
-   would surface something your general satisfaction survey (chapter 3.2)
+   would surface something your general satisfaction survey (topic 3.2)
    is currently missing.
 
 3. **Does our nominal on-call rotation schedule reflect reality, or does it
@@ -148,7 +148,7 @@ simply endure indefinitely.
 5. **Has on-call load data ever been used, even informally, to evaluate an
    individual's performance rather than to inform staffing and
    architecture decisions?** This risks the same individual-evaluation trap
-   chapter 3.4 warns against for activity data, applied here to operational
+   topic 3.4 warns against for activity data, applied here to operational
    load instead.
 
 6. **What would it cost us to lose our most-paged on-call engineer to
@@ -196,7 +196,7 @@ over 60% of all pages in the previous year, both because they were the
 fastest at resolving complex incidents and because other rotation members
 had learned to informally defer to them rather than attempt resolution
 themselves. Both engineers reported significant burnout symptoms in the
-company's well-being survey (chapter 3.2) without leadership having
+company's well-being survey (topic 3.2) without leadership having
 previously connected that survey signal to the specific, quantifiable
 on-call concentration data. A deliberate rebalancing effort, including
 targeted training to build resolution confidence across the wider rotation

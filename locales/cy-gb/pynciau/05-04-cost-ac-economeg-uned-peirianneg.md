@@ -2,7 +2,7 @@
 
 ## Trosolwg a chymhelliant
 
-Mae'r bennod hon yn troi Rhan 5 yn ariannol yn benodol: sut i fynegi
+Mae'r pwnc hwn yn troi Rhan 5 yn ariannol yn benodol: sut i fynegi
 cost beirianneg yn nhermau y gall rhanddeiliad cyllid eu defnyddio'n
 uniongyrchol, a sut i adeiladu **economeg uned**, cost wedi'i mynegi
 fesul uned ystyrlon o allbwn neu ddefnydd, yn hytrach nag fel llinell
@@ -11,23 +11,23 @@ llinell wariant reoladwy fwyaf mewn sefydliad wedi'i yrru-gan-
 feddalwedd, ac eto mae'n aml yn cael ei deall leiaf gan y swyddogaeth
 gyllid, wedi'i hadrodd fel un rhif mawr gyda dim ond ychydig o
 welededd i'r hyn sy'n ei yrru neu sut mae'n graddio â thwf. Mae'r
-bennod hon yn bodoli i gau'r bwlch hwnnw, oherwydd mae arweinydd
+bwnc hwn yn bodoli i gau'r bwlch hwnnw, oherwydd mae arweinydd
 peirianneg na all ateb "beth mae'n ei gostio i ni redeg y system hon"
 neu "sut mae ein cost yn graddio wrth i ni dyfu" mewn termau ariannol
 concrid o dan anfantais wirioneddol ym mhob sgwrs gyllideb.
 
-Y ddisgyblaeth benodol y mae'r bennod hon yn ei hargymell, economeg
+Y ddisgyblaeth benodol y mae'r pwnc hwn yn ei hargymell, economeg
 uned, yw mynegi cost fesul defnyddio, fesul cwsmer a wasanaethwyd,
 fesul trafodiad wedi'i brosesu, neu uned arall sy'n wirioneddol bwysig
 i'r busnes, yn hytrach na dim ond fel cost nifer-pennau gyfan neu wariant
 cwmwl cyfan. Mae'r ail-fframio hwn yn cysylltu'n uniongyrchol ag
-egwyddor canlyniadau-dros-allbwn pennod 1.3: nid yw rhif cost cyfan
+egwyddor canlyniadau-dros-allbwn pwnc 1.3: nid yw rhif cost cyfan
 gostyngol yn dda'n awtomatig os yw'n dod o wasanaethu llai o gwsmeriaid,
 ac nid yw rhif cost cyfan cynyddol yn ddrwg'n awtomatig os yw'n dod o
 wasanaethu'n gyfrannol lawer mwy. Economeg uned yw'r hyn sy'n gwneud
 tueddiadau cost yn ddehonglrwyd yn hytrach na dim ond gweladwy.
 
-I dimau mawr, disgyblaeth y bennod hon yw'r hyn sy'n troi cyllid
+I dimau mawr, disgyblaeth y pwnc hwn yw'r hyn sy'n troi cyllid
 peirianneg o flwch du yn system ddarllenadwy, reoladwy. Mae sefydliadau
 menter yn defnyddio economeg uned i gymharu effeithlonrwydd-cost
 gwahanol gynhyrchion, platfformau, neu dimau ar sail deg; mae
@@ -104,8 +104,8 @@ esboniad.
 ### Cysylltwch ddata cost â'r metrigau dyled dechnegol ac ansawdd mewn mannau eraill yn y llyfr hwn
 
 Mae cost isadeiledd neu gynnal a chadw gynyddol fesul uned weithiau'n
-ganlyniad uniongyrchol, mesuradwy o ddyled dechnegol gronedig (pennod
-4.5) neu ymledaeniad mannau poeth cymhlethdod (pennod 4.1, pennod 4.3):
+ganlyniad uniongyrchol, mesuradwy o ddyled dechnegol gronedig (pwnc
+4.5) neu ymledaeniad mannau poeth cymhlethdod (pwnc 4.1, pwnc 4.3):
 mae llwybrau cod aneffeithlon, isadeiledd dros ben, a chwerïau heb eu
 hoptimeiddio'n dda i gyd yn ymddangos yn y pen draw fel cost uned
 uwch. Defnyddiwch gost uned gynyddol fel un mewnbwn, ochr yn ochr â
@@ -129,7 +129,7 @@ sefydliadau eisoes yn dyrannu cyllideb, ond mae'n cuddio'r ddau beth,
 beth sy'n gyrru newidiadau cost a pha un a yw'r newidiadau hynny'n
 adlewyrchu effeithlonrwydd gwirioneddol neu dwf gwirioneddol.
 Datryswch y tensiwn trwy fuddsoddi yn yr adroddiad economeg-uned a
-chydrannau-wedi'u-gwahanu ychydig yn fwy cymhleth y mae'r bennod hon yn
+chydrannau-wedi'u-gwahanu ychydig yn fwy cymhleth y mae'r pwnc hwn yn
 ei argymell, gan fod y gweithredadwyedd canlyniadol, gwybod yn union pa
 lifer i'w dynnu pan fydd cost yn symud, yn werth yr ymdrech olrhain
 ychwanegol gymedrol ar gyfer unrhyw sefydliad y tu hwnt i'r raddfa

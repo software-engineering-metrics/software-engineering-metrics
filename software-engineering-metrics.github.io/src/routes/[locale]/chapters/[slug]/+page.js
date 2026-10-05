@@ -21,7 +21,7 @@ export function entries() {
 export async function load({ params }) {
   const manifest = getManifest(params.locale);
   const chapter = manifest.chapters.find((c) => c.slug === params.slug);
-  if (!chapter) error(404, 'Chapter not found');
+  if (!chapter) error(404, 'Topic not found');
 
   const index = manifest.order.indexOf(chapter.decimal);
   const prevDecimal = index > 0 ? manifest.order[index - 1] : null;

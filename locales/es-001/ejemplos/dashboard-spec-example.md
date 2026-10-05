@@ -1,7 +1,7 @@
 # Ejemplo: especificación de panel para un panel de métricas de entrega
 
 Una especificación de panel trabajada, siguiendo el
-[capítulo 8.1, Diseñar un panel de métricas de ingeniería](../temas/08-01-diseñar-un-panel-de-métricas-de-ingeniería.md).
+[tema 8.1, Diseñar un panel de métricas de ingeniería](../temas/08-01-diseñar-un-panel-de-métricas-de-ingeniería.md).
 Lo que importa es la forma: una audiencia nombrada, un número pequeño de
 casillas, un estándar de visualización honesto, y una cadencia de
 actualización declarada.
@@ -50,4 +50,4 @@ propia hora de última actualización.
 Los recuentos de commits individuales, los recuentos de solicitudes de
 incorporación de cambios individuales, y las líneas de código. Estas son
 métricas de actividad con una historia bien documentada de manipulación y
-de medir el esfuerzo en lugar del resultado (capítulo 3.4).
+de medir el esfuerzo en lugar del resultado (tema 3.4).

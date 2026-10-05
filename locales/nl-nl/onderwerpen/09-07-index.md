@@ -1,7 +1,7 @@
 # 9.7 Index
 
-Een onderwerpindex van kernconcepten en de hoofdstukken die ze behandelen.
-Termen zijn gedefinieerd in het Glossarium (hoofdstuk 9.1).
+Een onderwerpindex van kernconcepten en de onderwerpen die ze behandelen.
+Termen zijn gedefinieerd in het Glossarium (onderwerp 9.1).
 
 ## A
 

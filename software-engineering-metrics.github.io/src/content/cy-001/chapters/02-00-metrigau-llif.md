@@ -19,10 +19,10 @@ mesur mecaneg y biblinell, nid yr hyn sy'n llifo trwyddi. Gall tîm bostio
 rhifau DORA rhagorol tra bo'i werth cyflenwedig gwirioneddol wedi drifftio'n
 dawel tuag at ailwaith neu i ffwrdd oddi wrth y gwaith dyled a risg sy'n
 diogelu dyfodol system. Mae'r rhan hon yn cwmpasu DORA yn llawn, ond fel
-un bennod gyfeirio gyfunol ar y diwedd (pennod 2.10), oherwydd nid "pa
+un pwnc cyfeirio cyfunol ar y diwedd (pwnc 2.10), oherwydd nid "pa
 mor gyflym yw ein piblinell" yw'r cwestiwn mwyaf brys, mwyaf cyffredin ei
 absenoldeb i'r rhan fwyaf o sefydliadau, ond "beth mae ein piblinell mewn
-gwirionedd yn ei gyflenwi." Mae pob pennod yn y rhan hon yn dal i
+gwirionedd yn ei gyflenwi." Mae pob pwnc yn y rhan hon yn dal i
 ddilyn yr un ddisgyblaeth a sefydlwyd yn Rhan 1: nodwch y metrig, enwch sut
 mae'n cael ei dwyllo, a pharejwch ef â'r gledr ddiogelwch sy'n dal y
 twyllo hwnnw.
@@ -39,7 +39,7 @@ ymdrechion moderneiddio cystadleuol, ac i ddangos, gyda thystiolaeth yn
 hytrach na straeon, fod capasiti peirianneg yn cael ei ddyrannu fel y mae
 arweinyddiaeth yn credu ei fod.
 
-## Penodau yn y rhan hon
+## Pynciau yn y rhan hon
 
 - **2.1 Y Flow Framework:** Tarddiad y fframwaith, ei fodel ffrwd werth,
   a pham mae'r llyfr hwn yn ei ddefnyddio, yn hytrach na DORA yn unig, i
@@ -72,29 +72,29 @@ arweinyddiaeth yn credu ei fod.
   gosod olaf yn fwriadol oherwydd eu bod yn mesur y biblinell, nid y gwerth
   sy'n llifo trwyddi.
 
-## Sut mae'r penodau hyn yn cydberthyn
+## Sut mae'r pynciau hyn yn cydberthyn
 
-Mae pennod 2.1 yn cyflwyno'r Flow Framework yn ei gyfanrwydd; mae pennod
-2.2 yn rhoi ei dacsonomi o elfennau llif, ac mae penodau 2.3 a 2.4 yn
+Mae pwnc 2.1 yn cyflwyno'r Flow Framework yn ei gyfanrwydd; mae pwnc
+2.2 yn rhoi ei dacsonomi o elfennau llif, ac mae pynciau 2.3 a 2.4 yn
 cwmpasu ei bum metrig llif rhyngddynt, cyflymder a dosbarthiad gyda'i
 gilydd, yna amser a llwyth gyda'i gilydd, gyda llwyth ac amser wedi'u
-clymu'n uniongyrchol wrth gyfraith Little. Mae penodau 2.5 i 2.7 yn
+clymu'n uniongyrchol wrth gyfraith Little. Mae pynciau 2.5 i 2.7 yn
 chwyddo i mewn i'r mecaneg o dan amser llif ac amser cylch yn benodol: mae
 effeithlonrwydd llif a gwaith ar y gweill yn esbonio pam mae camau
 peirianneg yn aml yn arafach nag y maent yn edrych, mae amser cylch yn
 dadelfennu'r rhan beirianneg honno i mewn i'w gamau, a mae theori ciwio'n
 ffurfioli, mewn termau mathemategol profadwy, pam mae holl hawliadau'r
-penodau blaenorol am lwyth, amser aros, a defnydd yn wir. Mae pennod 2.8
+pynciau blaenorol am lwyth, amser aros, a defnydd yn wir. Mae pwnc 2.8
 yn camu'n ôl i olrhain hyn i gyd yn ôl at ei darddiad mewn mapio ffrwd
 werth Lean clasurol, yr eirfa gyffredin y mae metrigau meddalwedd-benodol
-y rhan hon yn cyffredinoli ohoni. Mae pennod 2.9 yn cwmpasu'r cam
-biblinell sengl y gall y rhan fwyaf o dimau ei wella gyflymaf. Mae pennod
+y rhan hon yn cyffredinoli ohoni. Mae pwnc 2.9 yn cwmpasu'r cam
+biblinell sengl y gall y rhan fwyaf o dimau ei wella gyflymaf. Mae pwnc
 2.10 yn cau'r rhan gyda'r metrigau DORA yn llawn, wedi'u cyflwyno fel haen
 gyfeirio dda ei thystiolaeth ond gulach unwaith y bydd y darlun ehangach,
-busnes-wynebus o'r penodau cynharach eisoes yng ngolwg.
+busnes-wynebus o'r pynciau cynharach eisoes yng ngolwg.
 
 Mae disgyblaeth cledr ddiogelwch y rhan hon yn cysylltu'n uniongyrchol yn
-ôl at bennod 1.2: nid yw cyflymder llif byth yn cael ei adrodd heb
+ôl at bwnc 1.2: nid yw cyflymder llif byth yn cael ei adrodd heb
 ddosbarthiad llif ochr yn ochr ag ef, ac mae metrigau cyflymder DORA'n
 aros wedi'u parejo â'i fetrigau sefydlogrwydd, fel na all tîm wella rhif
 cyflymder trwy gyflenwi cod mwy peryglus neu gymysgedd culach o werth yn

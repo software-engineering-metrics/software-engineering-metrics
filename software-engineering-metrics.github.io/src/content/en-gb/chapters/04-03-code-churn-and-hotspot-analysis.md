@@ -7,8 +7,8 @@ lines added, modified, and deleted across successive commits. On its own,
 churn is a fairly weak signal: some files change often because they are
 under active, healthy development, and some rarely change because they are
 stable and correct, not because they are neglected. The real diagnostic
-power of this chapter's approach comes from combining churn with
-complexity (chapter 4.1): a file that is both frequently changed and highly
+power of this topic's approach comes from combining churn with
+complexity (topic 4.1): a file that is both frequently changed and highly
 complex, a **hotspot**, is disproportionately likely to be a source of
 defects and a drag on team velocity, and empirical research bears this out
 consistently across many codebases and organisations.
@@ -53,7 +53,7 @@ budget toward the code that will produce the largest return.
 
 Extract change frequency per file from version control history over a
 meaningful window, typically six months to a year, and pair it with a
-complexity measure (chapter 4.1) for the same files. Rank files by the
+complexity measure (topic 4.1) for the same files. Rank files by the
 combination, commonly the product of churn and complexity, rather than by
 either metric alone, since this combination is what the underlying
 research consistently associates with elevated defect rates and maintenance
@@ -67,13 +67,13 @@ is this genuinely poorly designed code that needs refactoring, or is it a
 file that legitimately needs frequent change because it sits at the centre
 of active, evolving business logic, in which case the priority might be
 better tests or clearer documentation rather than a structural rewrite. This
-mirrors chapter 4.1's essential-versus-accidental complexity distinction,
+mirrors topic 4.1's essential-versus-accidental complexity distinction,
 applied here to the combined churn-complexity signal.
 
 ### Cross-reference hotspots against incident and defect data
 
 Where available, check whether your identified hotspots correlate with
-actual production incidents (chapter 6.2) or defect-escape data (chapter
+actual production incidents (topic 6.2) or defect-escape data (topic
 5.1). A strong correlation validates the hotspot analysis as genuinely
 predictive for your specific codebase and strengthens the business case for
 acting on it; a weak or absent correlation suggests either a data-quality
@@ -219,7 +219,7 @@ better return than an untargeted or intuition-driven investment would have.
 
 The total cost of ownership is low, since churn data comes directly from
 existing version control history and complexity data is usually already
-available from static analysis tooling (chapter 4.4); the main investment is
+available from static analysis tooling (topic 4.4); the main investment is
 the periodic analysis effort and the human judgement time to interpret
 results and decide what action each identified hotspot warrants.
 

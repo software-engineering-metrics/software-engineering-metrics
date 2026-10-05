@@ -75,13 +75,13 @@ Kopieer-plak-templates voor terugkerende documenten. Doorgewerkte, ingevulde voo
 
 Voor elke metriek:
 - Huidige aflezing en trend
-- Enige beweging buiten normale variatie (hoofdstuk 1.6)
+- Enige beweging buiten normale variatie (onderwerp 1.6)
 - Gekoppelde-beschermmetriek-status, indien toepasbaar
 - Beslissing die deze aflezing informeert, indien enige
 
 ## Nieuwe voorgestelde metrieken
 
-[Loop elke door de nieuwe-metriek-reviewchecklist, hoofdstuk 9.3.]
+[Loop elke door de nieuwe-metriek-reviewchecklist, onderwerp 9.3.]
 
 ## Metrieken overwogen voor pensioen
 
@@ -111,7 +111,7 @@ Voor elke metriek:
 
 ## Ernst
 
-[Classificatie tegen gedocumenteerde criteria, hoofdstuk 6.2.]
+[Classificatie tegen gedocumenteerde criteria, onderwerp 6.2.]
 
 ## Grondoorzaak
 
@@ -137,13 +137,13 @@ Voor elke metriek:
 ```markdown
 # ROI-zaak: [initiatiefnaam]
 
-## Kost (totale eigendomskosten, hoofdstuk 5.5)
+## Kost (totale eigendomskosten, onderwerp 5.5)
 
 - Vooraf: [ontwikkelkost]
 - Doorlopend: [onderhoud, infrastructuur, support, per jaar]
 - Opportuniteitskost: [wat deze capaciteit anders had kunnen doen]
 
-## Voordeel (gedocumenteerd bewijs, hoofdstukken 5.1-5.3)
+## Voordeel (gedocumenteerd bewijs, onderwerpen 5.1-5.3)
 
 - [Voordeel 1], bewezen door [databron]
 - [Voordeel 2], bewezen door [databron]

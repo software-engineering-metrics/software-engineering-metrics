@@ -2,38 +2,38 @@
 
 ## Overview and motivation
 
-Every chapter in Parts 1 through 7 of this book ends with its own
+Every topic in Parts 1 through 7 of this book ends with its own
 five-level [maturity model](https://en.wikipedia.org/wiki/Capability_Maturity_Model),
-scoped to that chapter's specific metric family.
-This chapter does something different: it steps back and asks what
+scoped to that topic's specific metric family.
+This topic does something different: it steps back and asks what
 maturity looks like for the metrics *programme* as a whole, the
 organisational capability that produces, governs, and acts on all of those
 individual metrics together. An organisation can be at Level 4 on
 individual DORA metric maturity while still being at Level 1 on programme
 maturity overall, if, for instance, it has excellent instrumentation but no
-governance (chapter 1.4), or excellent individual metrics but a
-fear-driven rollout (chapter 8.3) that has corrupted the underlying data
+governance (topic 1.4), or excellent individual metrics but a
+fear-driven rollout (topic 8.3) that has corrupted the underlying data
 regardless of how well each metric was designed.
 
-This chapter's model is built around five dimensions that cut across every
+This topic's model is built around five dimensions that cut across every
 individual metric family this book covers: governance and ownership
-(chapter 1.4), instrumentation quality (chapter 1.5), outcome-versus-output
-balance (chapter 1.3, chapter 7.4), cultural trust (chapter 8.3), and
-continuous improvement (the retirement and revision discipline chapter 1.1
+(topic 1.4), instrumentation quality (topic 1.5), outcome-versus-output
+balance (topic 1.3, topic 7.4), cultural trust (topic 8.3), and
+continuous improvement (the retirement and revision discipline topic 1.1
 established at the very start of this book). An organisation's overall
 programme maturity is realistically the minimum, not the average, across
 these five dimensions, since a serious weakness in any one, particularly
 cultural trust, can undermine the value of strength in all the others,
-exactly as chapter 8.3 argued directly.
+exactly as topic 8.3 argued directly.
 
 For large teams, this consolidated model gives leadership a single,
 honest instrument for organisational self-assessment, distinct from and
-complementary to the chapter-by-chapter maturity checks this book provides
+complementary to the topic-by-topic maturity checks this book provides
 throughout. Enterprise organisations comparing metrics maturity across
 business units, and government organisations reporting programme maturity
 to oversight bodies, both benefit from this single, cross-cutting
 assessment rather than needing to synthesise forty-five separate
-chapter-level maturity readings into a coherent overall picture themselves.
+topic-level maturity readings into a coherent overall picture themselves.
 
 ## Key principles
 
@@ -42,8 +42,8 @@ chapter-level maturity readings into a coherent overall picture themselves.
   everywhere else.
 - **The five cross-cutting dimensions are governance, instrumentation,
   outcome balance, cultural trust, and continuous improvement.** Each
-  dimension draws together threads from many individual chapters.
-- **This model complements, not replaces, the individual chapter-level
+  dimension draws together threads from many individual topics.
+- **This model complements, not replaces, the individual topic-level
   maturity models.** Use both together for a complete picture.
 - **Self-assessment should be honest and specific, not aspirational.**
   Score where you actually are, using concrete evidence, not where you
@@ -57,15 +57,15 @@ chapter-level maturity readings into a coherent overall picture themselves.
 evidence
 
 For governance, check whether every consequential metric has a named owner
-and a documented charter (chapter 1.4). For instrumentation, check whether
+and a documented charter (topic 1.4). For instrumentation, check whether
 metrics come from automated sources rather than self-report wherever
-possible (chapter 1.5). For outcome balance, calculate the actual ratio of
+possible (topic 1.5). For outcome balance, calculate the actual ratio of
 outcome-weighted to output-weighted metrics on your primary dashboards
-(chapter 7.4). For cultural trust, assess honestly whether your rollout
+(topic 7.4). For cultural trust, assess honestly whether your rollout
 history has ever included a mishandled, punitive use of a metric and how it
-was addressed (chapter 8.3). For continuous improvement, check whether your
+was addressed (topic 8.3). For continuous improvement, check whether your
 organisation has a documented history of retiring metrics that stopped
-earning their keep (chapter 1.1). Score each dimension independently before
+earning their keep (topic 1.1). Score each dimension independently before
 combining them.
 
 ### Take the minimum across dimensions as your honest overall score
@@ -79,19 +79,19 @@ gaming is not rescued by having been collected with excellent
 instrumentation. Report the minimum honestly, even though it produces a
 less flattering overall picture than an average would.
 
-### Use this model alongside, not instead of, the chapter-level models
+### Use this model alongside, not instead of, the topic-level models
 
 This consolidated model answers "how mature is our overall programme";
-the individual chapter-level models throughout Parts 2 through 8 answer
+the individual topic-level models throughout Parts 2 through 8 answer
 "how mature is our practice for this specific metric." Use both together:
 the consolidated model to prioritise which cross-cutting dimension most
-needs investment, and the chapter-level models to identify which specific
+needs investment, and the topic-level models to identify which specific
 metric families most need attention within that dimension.
 
 ### Revisit the assessment on a fixed cadence, not merely when prompted by a
 crisis
 
-Following this book's consistent governance discipline (chapter 1.4),
+Following this book's consistent governance discipline (topic 1.4),
 reassess programme maturity on a regular cadence, annually is common,
 rather than only after a crisis (a discovered gaming incident, a
 credibility-damaging public report) forces the question. A programme that
@@ -101,9 +101,9 @@ address a weakening dimension before it produces a real, costly incident.
 ### Treat a low score honestly as a starting point for investment, not a
 failing grade
 
-Following the diagnostic, not evaluative, framing chapter 1.1 established
+Following the diagnostic, not evaluative, framing topic 1.1 established
 for this entire book, use a low maturity score, on any dimension, as the
-starting point for a deliberate investment plan (chapter 8.5's adoption
+starting point for a deliberate investment plan (topic 8.5's adoption
 roadmap is the direct next step), not as a verdict to feel bad about. Most
 organisations, honestly assessed, will find real weaknesses somewhere in
 this model; the productive response is targeted investment, not defensiveness
@@ -115,15 +115,15 @@ about the score.
 | --- | --- | --- |
 | Averaging the five dimension scores | Produces a single, simple, more flattering number | Hides a critical weakness in one dimension undermining the rest |
 | Taking the minimum across dimensions | Honest, actionable, correctly identifies the real constraint | Can feel discouraging if one dimension lags significantly behind the others |
-| Using only chapter-level models | Detailed, metric-specific guidance | Misses the cross-cutting view of overall programme health |
-| Using only this consolidated model | Simple, high-level | Misses the specific, actionable detail the chapter-level models provide |
+| Using only topic-level models | Detailed, metric-specific guidance | Misses the cross-cutting view of overall programme health |
+| Using only this consolidated model | Simple, high-level | Misses the specific, actionable detail the topic-level models provide |
 
-The central tension is **simplicity versus honesty**, echoing chapter
+The central tension is **simplicity versus honesty**, echoing topic
 5.5's caution against a falsely precise single number. An averaged score is
 simpler and more comfortable to report, but it actively hides the real
 constraint on your programme's overall trustworthiness and value. Resolve
 the tension in favour of honesty: report the minimum, and use both this
-consolidated model and the individual chapter-level models together for a
+consolidated model and the individual topic-level models together for a
 complete, accurate, and actionable picture.
 
 ## Questions to discuss with your team
@@ -152,7 +152,7 @@ complete, accurate, and actionable picture.
 
 5. **What would targeted investment in our weakest dimension actually look
    like, concretely, for the next quarter?** Move directly from
-   assessment to action, connecting this chapter's diagnostic to chapter
+   assessment to action, connecting this topic's diagnostic to topic
    8.5's adoption roadmap.
 
 6. **How would our self-assessment compare to an honest external review by
@@ -172,12 +172,12 @@ organisation has grown significantly.
 
 **Small business.** A simple, honest, informal walk through the five
 dimensions once a year, even without formal scoring, captures most of this
-chapter's value without needing a structured assessment process at this
+topic's value without needing a structured assessment process at this
 scale.
 
 **Enterprise.** This consolidated model is particularly valuable for
 comparing metrics maturity across many business units fairly, since a
-chapter-by-chapter comparison across dozens of teams would be unwieldy.
+topic-by-topic comparison across dozens of teams would be unwieldy.
 Use it to prioritise organisation-wide investment toward whichever
 dimension shows the most widespread weakness across units.
 
@@ -196,14 +196,14 @@ scored its instrumentation dimension at Level 4 (automated, comprehensive
 data sourcing from pipelines and systems) but its cultural-trust dimension
 at Level 1, following an unaddressed metric-misuse incident from two years
 earlier that had never been directly acknowledged or repaired (echoing
-chapter 8.3's government example directly). Leadership's initial instinct
+topic 8.3's government example directly). Leadership's initial instinct
 was to average these into a respectable Level 2 or 3 overall picture; a
-more honest application of this chapter's minimum-based scoring
+more honest application of this topic's minimum-based scoring
 correctly identified cultural trust as the real constraint on the whole
 programme's value, since even excellent instrumentation was producing data
 that engineers, aware of the past incident, still did not fully trust or
 report honestly into. Targeted investment specifically in cultural trust
-repair, following chapter 8.3's guidance directly, was prioritised over
+repair, following topic 8.3's guidance directly, was prioritised over
 further instrumentation investment as a direct result of this honest,
 minimum-based assessment.
 
@@ -216,7 +216,7 @@ being output and activity-based despite Part 7's argument for
 outcome-weighting having been well understood intellectually within the
 agency's technical leadership. This honest, specific finding, rather than
 a vague general sense that "we should measure outcomes more," gave the
-agency's subsequent investment plan (chapter 8.5) a concrete, evidence-based
+agency's subsequent investment plan (topic 8.5) a concrete, evidence-based
 starting point, and follow-up reporting to the agency's oversight board
 specifically cited this maturity assessment as the basis for a redirected
 metrics investment strategy.
@@ -245,7 +245,7 @@ built.
 - **Assessing only aspirationally, based on stated policy rather than
   actual practice:** produces an inaccurate, overly optimistic picture.
 - **Using this consolidated model as a replacement for, rather than a
-  complement to, the chapter-level models:** loses the specific, actionable
+  complement to, the topic-level models:** loses the specific, actionable
   detail those individual models provide.
 - **Only reassessing after a crisis forces the question:** misses the
   chance to catch and address a weakening dimension proactively.
@@ -291,7 +291,7 @@ built.
 - Overall maturity is the **minimum across dimensions, not the average**;
   a weakness in cultural trust undermines strength everywhere else.
 - Use this consolidated model **alongside, not instead of**, the individual
-  chapter-level maturity models throughout this book.
+  topic-level maturity models throughout this book.
 - **Reassess on a regular cadence**, rather than waiting until a crisis
   forces the question.
 - Treat a low score as an **honest investment starting point**, not a
@@ -300,11 +300,11 @@ built.
 ## References and further reading
 
 - *Capability Maturity Model Integration (CMMI)*, Software Engineering
-  Institute (the general maturity-model methodology this chapter's approach
+  Institute (the general maturity-model methodology this topic's approach
   draws structural inspiration from).
 - *Accelerate: The Science of Lean Software and DevOps*, by Nicole Forsgren,
   Jez Humble, and Gene Kim (the research basis for the individual
-  chapter-level maturity models this consolidated model draws together).
+  topic-level maturity models this consolidated model draws together).
 - *Measuring and Managing Performance in Organizations*, by Robert D.
   Austin (organisational assessment of metrics programme health and
   dysfunction).

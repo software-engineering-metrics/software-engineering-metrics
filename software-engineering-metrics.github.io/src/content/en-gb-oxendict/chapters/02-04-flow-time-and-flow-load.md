@@ -2,22 +2,22 @@
 
 ## Overview and motivation
 
-**Flow time** is the total elapsed time from when a flow item (chapter 2.2)
+**Flow time** is the total elapsed time from when a flow item (topic 2.2)
 enters the value stream to when it is delivered, measuring responsiveness
 across the whole path from a business need being identified to a customer
 receiving value. **Flow load** is the total number of flow items currently
 active or waiting in the value stream at any moment, the Flow Framework's
-name for what chapter 2.5 calls work in process. Together these are the
+name for what topic 2.5 calls work in process. Together these are the
 two Flow Framework metrics that most directly connect to the mathematics of
 queueing, because flow load does not just correlate with flow time, it
 mathematically dictates it.
 
 That relationship is **[Little's law](https://en.wikipedia.org/wiki/Little%27s_law)**,
-a proof from queueing theory (chapter 2.7 covers it in full) which states
+a proof from queueing theory (topic 2.7 covers it in full) which states
 that the average number of items in a stable system equals the average
 arrival rate multiplied by the average time each item spends in the
 system. Applied here: flow load equals arrival rate multiplied by flow
-time. This is the single most useful fact in this chapter, because it turns
+time. This is the single most useful fact in this topic, because it turns
 an argument that used to be qualitative, "we're too overloaded, things are
 taking too long," into a provable, quantitative one a business leader
 cannot easily dismiss: if flow load keeps rising while arrival rate stays
@@ -40,7 +40,7 @@ intuition behind it, to justify saying no to starting more work at once.
   is not correlation; it is a proof that holds for any stable value stream.
 - **Flow time spans the whole value stream, not just engineering.** It
   starts when a business need is identified, not when engineering picks up
-  the work, which chapter 2.6's cycle time then decomposes further.
+  the work, which topic 2.6's cycle time then decomposes further.
 - **Rising flow load is the earliest warning sign of rising flow time.**
   Because the relationship is provable, flow load can be watched as a
   leading indicator, not just discovered after flow time has already
@@ -58,11 +58,11 @@ intuition behind it, to justify saying no to starting more work at once.
 
 Decide explicitly whether flow time starts when a business need is first
 identified, when it is formally approved, or when engineering begins work,
-and document that choice the same way chapter 1.4 recommends for any
+and document that choice the same way topic 1.4 recommends for any
 metrics charter. This single decision determines whether flow time measures
 genuine end-to-end responsiveness or only the narrower slice of it
 engineering controls, and changing the definition later without disclosure
-is this chapter's central gaming risk.
+is this topic's central gaming risk.
 
 ### Track flow load continuously, not periodically
 
@@ -84,7 +84,7 @@ than asserted.
 
 ### Separate flow time from flow load's underlying causes before proposing a fix
 
-When flow load is high, investigate which flow item type (chapter 2.2) is
+When flow load is high, investigate which flow item type (topic 2.2) is
 actually driving it: too many concurrent features started at once, a
 backlog of unaddressed defects, or risk work stuck waiting on a shared
 approval. Each cause implies a different fix, and treating "flow load is
@@ -93,7 +93,7 @@ ineffective response.
 
 ### Cross-check flow time against cycle time to isolate where delay actually happens
 
-Since flow time spans the whole value stream and cycle time (chapter 2.6)
+Since flow time spans the whole value stream and cycle time (topic 2.6)
 covers only the engineering portion of it, compare the two directly. A
 large gap between flow time and cycle time means most of the delay happens
 before engineering ever sees the work, in approval queues, prioritization
@@ -111,7 +111,7 @@ fix than a gap concentrated inside engineering itself.
 
 The central tension is **scope versus instrumentation reach**. Measuring
 flow time only from engineering pickup is far easier to instrument, since
-it reuses cycle-time data chapter 2.6 already collects, but it silently
+it reuses cycle-time data topic 2.6 already collects, but it silently
 understates true responsiveness by ignoring everything that happens before
 engineering sees the work. Resolve the tension by starting with the
 narrower, engineering-scoped measurement if that is all you can instrument
@@ -152,7 +152,7 @@ rather than a permanent limitation.
 
 6. **Has anyone ever quietly narrowed our flow-time starting point to make
    the number look better, without that change being documented or
-   disclosed?** This is the chapter's central gaming risk stated directly.
+   disclosed?** This is the topic's central gaming risk stated directly.
    Ask honestly whether your definition has ever drifted this way.
 
 ## Sector lens
@@ -230,12 +230,12 @@ concurrent initiatives than its actual capacity can support.
 ## Anti-patterns and pitfalls
 
 - **Quietly narrowing the flow-time starting point to flatter the number:**
-  the gaming vector at the heart of this chapter. Moving the clock's start
+  the gaming vector at the heart of this topic. Moving the clock's start
   from genuine business-need identification to a later point, engineering
   pickup, formal approval, shrinks flow time without changing genuine
   responsiveness at all, and can happen gradually enough that no single
   change looks like a deliberate manipulation. The guardrail is documenting
-  the entry point explicitly in a metrics charter (chapter 1.4) and
+  the entry point explicitly in a metrics charter (topic 1.4) and
   auditing it periodically against the documented definition, the same
   discipline this book asks of every metric boundary.
 - **Measuring flow load only periodically:** forfeits its value as a
@@ -282,8 +282,8 @@ concurrent initiatives than its actual capacity can support.
   load equals arrival rate times flow time, for any stable value stream.
 - **Flow time spans the whole value stream**, from business-need
   identification to delivery, broader than cycle time's engineering-only
-  scope (chapter 2.6).
-- The chapter's central gaming vector is **quietly narrowing the flow-time
+  scope (topic 2.6).
+- The topic's central gaming vector is **quietly narrowing the flow-time
   starting point**; the guardrail is a documented, audited entry-point
   definition.
 - **Track flow load continuously**, not periodically, so it functions as a

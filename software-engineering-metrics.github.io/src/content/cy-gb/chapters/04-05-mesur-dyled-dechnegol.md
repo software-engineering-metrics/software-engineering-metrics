@@ -10,15 +10,15 @@ yr un modd ag y mae dyled ariannol yn caniatáu i chi wario nawr am
 gost llog yn ddiweddarach. Mae gan bob sylfaen cod ryw ddyled dechnegol,
 ac nid yw hynny'n fethiant yn awtomatig; gwerth gwirioneddol y trosiad
 yw ei fod yn fframio dyled fel cyfaddawd rheoladwy yn hytrach na naill
-ai gyfrinach gywilyddus neu faich parhaol, anochel. Mae'r bennod hon yn
+ai gyfrinach gywilyddus neu faich parhaol, anochel. Mae'r pwnc hwn yn
 ymwneud â gwneud y cyfaddawd hwnnw'n weladwy a rheoladwy trwy fesur, yn
 hytrach na'i adael fel pryder amwys, wedi'i dan-flaenoriaethu'n barhaus y
 mae pob peiriannydd yn ei synhwyro ond na all neb weithredu arno â
 thystiolaeth.
 
-Mae'r penodau sy'n rhagflaenu hon, cymhlethdod (4.1), gorchudd (4.2),
+Mae'r pynciau sy'n rhagflaenu hon, cymhlethdod (4.1), gorchudd (4.2),
 trosiant a mannau poeth (4.3), a dadansoddiad statig (4.4), yn dangos
-un agwedd o ddyled dechnegol yr un. Swydd y bennod hon yw synthesis:
+un agwedd o ddyled dechnegol yr un. Swydd y pwnc hwn yw synthesis:
 troi'r signalau ar wahân hynny, ynghyd ag eitemau nad ydynt byth yn
 ymddangos mewn unrhyw sgan awtomataidd (llwybr byr pensaernïol heb ei
 ddogfennu, mudo wedi'i ohirio'n fwriadol), i mewn i un gronfa-waith
@@ -33,7 +33,7 @@ llwybr byr newydd yn gwneud y newid nesaf ychydig yn anos, sy'n creu
 pwysau am fwy o lwybrau byrion, sy'n cyfansymio ymhellach. Mae
 sefydliadau menter a llywodraeth sy'n cynnal systemau dros flynyddoedd
 lawer yn arbennig o agored i'r effaith gyfansymio hon, a phrif argymhelliad
-y bennod hon, cronfa-waith dyled weladwy, wedi'i meintioli, wedi'i
+y pwnc hwn, cronfa-waith dyled weladwy, wedi'i meintioli, wedi'i
 blaenoriaethu, yw'r mecanwaith sy'n caniatáu i sefydliad wirioneddol
 reoli'r cyfaddawd yn fwriadol yn lle drifftio i mewn i argyfwng.
 
@@ -58,7 +58,7 @@ reoli'r cyfaddawd yn fwriadol yn lle drifftio i mewn i argyfwng.
 
 ### Adeiladwch gronfa-waith dyled dechnegol sengl, weladwy
 
-Cyfunwch y signalau o benodau cynharach y rhan hon, allanolion
+Cyfunwch y signalau o bynciau cynharach y rhan hon, allanolion
 cymhlethdod, ardaloedd cyfradd-lladd-treiglo isel, mannau poeth,
 canfyddiadau dadansoddiad statig heb eu datrys, ochr yn ochr ag
 eitemau dyled na all ond person eu nodi (llwybr byr pensaernïol,
@@ -82,7 +82,7 @@ gwaith nodweddion, yn hytrach na chwyn haniaethol, heb ei meintioli.
 ### Blaenoriaethwch gan ddefnyddio effaith, nid oedran na'r heiriolwr uchaf
 
 Graddiwch eitemau dyled yn ôl eu cyfuniad o gost cario a pha mor aml y
-mae'r cod dan sylw'n cael ei gyffwrdd (mae data trosiant pennod 4.3'n
+mae'r cod dan sylw'n cael ei gyffwrdd (mae data trosiant pwnc 4.3'n
 uniongyrchol ddefnyddiol yma): mae eitem mewn cornel o'r sylfaen cod a
 addasir yn anaml, waeth pa mor annymunol, yn bwysig lawer llai nag un
 sy'n eistedd yn uniongyrchol yn llwybr eich datblygiad mwyaf
@@ -137,7 +137,7 @@ fel arfer ei golli, ym mhob cylch cynllunio unigol.
 1. **A oes gennym gronfa-waith dyled dechnegol sengl, weladwy, neu a yw
    ymwybyddiaeth dyled yn byw'n bennaf ym mhennaethiaid peirianwyr
    unigol?** Os yw'r ateb onest yr olaf, dyna'r bwlch sengl mwyaf y
-   mae'r bennod hon yn argymell ei gau'n gyntaf.
+   mae'r pwnc hwn yn argymell ei gau'n gyntaf.
 
 2. **Ar gyfer ein heitem ddyled uchaf, allem ni ddatgan ei chost i'w
    thrwsio a'i chost i'w chario mewn termau digon penodol i'w cymharu'n
@@ -153,7 +153,7 @@ fel arfer ei golli, ym mhob cylch cynllunio unigol.
 4. **A yw ein cronfa-waith dyled wedi'i blaenoriaethu yn ôl effaith
    busnes wirioneddol, neu yn ôl pa bynnag eitem sydd wedi'i chodi'n fwyaf
    parhaus neu wedi eistedd yno hiraf?** Croesgyfeiriwch eich
-   blaenoriaethu cyfredol yn erbyn data trosiant (pennod 4.3) a gwelwch
+   blaenoriaethu cyfredol yn erbyn data trosiant (pwnc 4.3) a gwelwch
    a yw'r ddau'n cyd-fynd.
 
 5. **Pa eitemau dyled y dylem eu derbyn yn benodol fel rhai parhaol, yn
@@ -213,7 +213,7 @@ trwsio a chost cario ar gyfer pob eitem, a dyrannodd 15% sefydlog o
 gapasiti peirianneg ar gyfer unioni dyled o hynny ymlaen. O fewn
 blwyddyn, roedd y pum eitem cost-cario-uchaf, yn cynrychioli ffracsiwn
 bach o'r gronfa-waith gyfan yn ôl cyfrif, wedi'u datrys, a gwellodd
-cyfradd methiant newid (pennod 2.10) ar gyfer defnyddiadau
+cyfradd methiant newid (pwnc 2.10) ar gyfer defnyddiadau
 cysylltiedig-â-bilio'n fesuradwy, gan ddangos effaith anghymesur
 targedu'r eitemau cost-cario-uchaf yn gyntaf yn hytrach na gweithio
 trwy'r gronfa-waith mewn trefn fympwyol.
@@ -329,4 +329,4 @@ ond yr eitemau penodol a adawyd heb eu trin.
   Fowler (y technegau unioni y mae cronfa-waith dyled yn tynnu arnynt
   yn y pen draw).
 - *Your Code as a Crime Scene*, gan Adam Tornhill (dadansoddiad
-  man-poeth fel mewnbwn i flaenoriaethu dyled, pennod 4.3).
+  man-poeth fel mewnbwn i flaenoriaethu dyled, pwnc 4.3).

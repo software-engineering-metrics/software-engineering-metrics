@@ -2,7 +2,7 @@
 
 ## Overview and motivation
 
-**Flow velocity** is the number of flow items (chapter 2.2) completed over
+**Flow velocity** is the number of flow items (topic 2.2) completed over
 a given period, the Flow Framework's measure of
 [throughput](https://en.wikipedia.org/wiki/Throughput). **Flow
 distribution** is the proportion of each flow item type, features,
@@ -14,10 +14,10 @@ raise its velocity while its distribution quietly shifts away from
 features and toward defect rework, which looks like acceleration on a
 velocity chart and is actually a symptom of declining quality.
 
-This pairing is the same discipline chapter 1.2 asks of every metric family
+This pairing is the same discipline topic 1.2 asks of every metric family
 in this book: never report a speed number without the guardrail that shows
 what that speed cost. Flow velocity is this part's most direct generalisation
-of a throughput metric, closer in spirit to deployment frequency (chapter
+of a throughput metric, closer in spirit to deployment frequency (topic
 2.10) than to any other single number in this book, but item-type-aware in a
 way deployment frequency never was. Deployment frequency tells you how
 often code reaches production; flow velocity, paired with distribution,
@@ -27,7 +27,7 @@ For large teams running many concurrent value streams, this pairing exposes
 a pattern that a single throughput number hides completely: a value stream
 whose velocity looks healthy while its distribution has quietly drifted
 toward almost pure feature work, silently starving the debt and risk
-capacity chapter 2.2 warned needs deliberate protection. Enterprise
+capacity topic 2.2 warned needs deliberate protection. Enterprise
 organisations comparing throughput across product lines, and government
 agencies reporting delivery output to oversight bodies, both need this
 pairing to avoid mistaking raw output for genuine, sustainable progress.
@@ -41,13 +41,13 @@ pairing to avoid mistaking raw output for genuine, sustainable progress.
   percentage split means little if you do not also know how much total
   work it represents.
 - **The two metrics must be reported together, always.** This is a direct
-  application of chapter 1.2's guardrail-pairing principle to flow data
+  application of topic 1.2's guardrail-pairing principle to flow data
   specifically.
 - **Velocity is exposed to the same substitution gaming as any item-count
   metric.** Splitting hard work into many small, easy items inflates the
   count without delivering proportionally more value.
 - **A healthy distribution is context-dependent, not a fixed target.**
-  Chapter 2.2 covers this in depth; velocity and distribution should always
+  Topic 2.2 covers this in depth; velocity and distribution should always
   be interpreted against the target that context implies.
 
 ## Recommendations
@@ -56,13 +56,13 @@ pairing to avoid mistaking raw output for genuine, sustainable progress.
 
 A single period's item count is noisy and easily misread. Plot flow
 velocity across several consecutive periods and look at the trend, not any
-one data point, the same discipline chapter 1.6 recommends for any
+one data point, the same discipline topic 1.6 recommends for any
 time-series metric prone to natural variation.
 
 ### Never present flow velocity without its distribution alongside it
 
 Treat this as a hard rule for any dashboard or report, not a nice-to-have.
-A velocity chart shown alone invites exactly the misreading this chapter
+A velocity chart shown alone invites exactly the misreading this topic
 opens with: rising throughput that is actually a rising share of rework or
 easy feature work crowding out debt and risk capacity. Put both on the
 same view, always.
@@ -72,7 +72,7 @@ same view, always.
 Raw item count treats a one-line configuration change and a
 multi-week architectural migration as equivalent, which invites the same
 substitution gaming this book has already named for deployment frequency
-(chapter 2.10): splitting hard work into many small items inflates the count
+(topic 2.10): splitting hard work into many small items inflates the count
 without delivering proportionally more. Where item sizes vary widely,
 weight velocity by a rough size or complexity estimate, or track average
 item size alongside the raw count, so a shrinking average size next to a
@@ -84,14 +84,14 @@ The most useful signal in flow distribution is rarely this period's exact
 percentages; it is the direction of change over several periods. A steady
 drift, features climbing while debt and risk quietly shrink, is worth
 raising with stakeholders well before it becomes the kind of quality or
-security problem chapter 2.2 warns accumulates invisibly under a feature
+security problem topic 2.2 warns accumulates invisibly under a feature
 factory pattern.
 
 ### Compare flow velocity across value streams only with genuine care
 
 Two value streams with different item granularity, different team sizes,
 or different product phases are not directly comparable on raw velocity
-alone, the same fairness problem chapter 2.10 names for deployment frequency
+alone, the same fairness problem topic 2.10 names for deployment frequency
 across teams. Use velocity for a value stream's own trend first, and only
 attempt cross-value-stream comparison after confirming genuinely comparable
 item definitions and granularity.
@@ -101,7 +101,7 @@ item definitions and granularity.
 | Approach | Pros | Cons |
 | --- | --- | --- |
 | Raw item-count velocity alone | Simple to compute and explain | Exposed to substitution gaming; hides what kind of value shipped |
-| Velocity paired with distribution | Shows both scale and value mix together | Requires disciplined flow-item classification (chapter 2.2) to be meaningful |
+| Velocity paired with distribution | Shows both scale and value mix together | Requires disciplined flow-item classification (topic 2.2) to be meaningful |
 | Size-weighted velocity | Resists substitution gaming from item-size splitting | Requires a consistent, agreed sizing method across the team |
 | Cross-value-stream velocity comparison | Useful for portfolio-level investment decisions | Easily unfair without confirming genuinely comparable item definitions |
 
@@ -118,7 +118,7 @@ actively misleading.
 1. **When we report flow velocity, is flow distribution always shown
    alongside it, or does velocity sometimes stand alone?** A velocity
    number without its distribution is an incomplete picture by this
-   chapter's own central principle. Check your actual dashboards and
+   topic's own central principle. Check your actual dashboards and
    reports for this gap.
 
 2. **Has our average item size changed alongside a rising velocity, and
@@ -157,7 +157,7 @@ founder does not mistake a rising ticket-closure count for genuine feature
 progress when the count is actually dominated by early-stage bug fixing.
 
 **Small business.** Track velocity and distribution together from whatever
-lightweight tool you already use for flow-item classification (chapter
+lightweight tool you already use for flow-item classification (topic
 2.2); no dedicated analytics platform is needed at this scale. The habit of
 always viewing them side by side matters more than any tooling
 sophistication.
@@ -210,22 +210,22 @@ cheaper than discovering it only after a customer-facing quality problem
 forces the question.
 
 The total cost of ownership is minimal once flow-item classification
-(chapter 2.2) is already in place: distribution is a straightforward
+(topic 2.2) is already in place: distribution is a straightforward
 aggregation of already-classified items, and the discipline of showing both
 metrics together is a reporting convention, not a technical investment.
-Most of the cost of this chapter's recommendations was already paid when
+Most of the cost of this topic's recommendations was already paid when
 the organisation adopted honest flow-item classification in the first
 place.
 
 ## Anti-patterns and pitfalls
 
 - **Reporting flow velocity without distribution:** the gaming vector at
-  the heart of this chapter. A team under delivery pressure can raise item
+  the heart of this topic. A team under delivery pressure can raise item
   count by preferring small, easy feature work and avoiding harder debt,
   risk, or defect items, or by splitting large items into many small ones,
   and a velocity chart shown alone will read as acceleration rather than
   the actual shift in what is being delivered. The guardrail is the same
-  pairing discipline chapter 1.2 asks for throughout this book: never show
+  pairing discipline topic 1.2 asks for throughout this book: never show
   velocity without distribution, and periodically check average item size
   alongside the count to catch splitting specifically.
 - **Comparing velocity across value streams with different item
@@ -237,7 +237,7 @@ place.
 - **Ignoring average item size while celebrating rising velocity:** misses
   the specific signature of substitution gaming.
 - **Setting a velocity target with no reference to distribution:** invites
-  exactly the gaming this chapter warns against by name.
+  exactly the gaming this topic warns against by name.
 
 ## Maturity model
 
@@ -269,10 +269,10 @@ place.
 - **Flow velocity** measures throughput; **flow distribution** measures
   what kind of work that throughput represents. Report them together,
   always.
-- This pairing is a direct application of chapter 1.2's **guardrail
+- This pairing is a direct application of topic 1.2's **guardrail
   principle**: never show a speed number without the context of what it
   cost.
-- The chapter's central gaming vector is **reporting velocity alone**,
+- The topic's central gaming vector is **reporting velocity alone**,
   which can hide a shift toward easy feature work or item-splitting that
   inflates count without delivering proportional value.
 - **Distribution drift** is most visible as a trend across several

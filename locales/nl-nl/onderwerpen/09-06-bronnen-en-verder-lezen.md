@@ -1,6 +1,6 @@
 # 9.6 Bronnen en verder lezen
 
-Een geconsolideerde bibliografie van de werken geciteerd doorheen het boek, verzameld uit de eigen bronnensectie van elk hoofdstuk. Losjes georganiseerd per thema; veel werken worden geciteerd uit meervoudige hoofdstukken.
+Een geconsolideerde bibliografie van de werken geciteerd doorheen het boek, verzameld uit de eigen bronnensectie van elk onderwerp. Losjes georganiseerd per thema; veel werken worden geciteerd uit meervoudige onderwerpen.
 
 ## Fundamentele frameworks
 

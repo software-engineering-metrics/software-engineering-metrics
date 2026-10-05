@@ -2,18 +2,18 @@
 
 ## Översikt och motivation
 
-**[DORA-mätetalen](https://dora.dev/guides/dora-metrics/)** kommer från [DevOps](https://en.wikipedia.org/wiki/DevOps) Research and Assessment-programmet, en flerårig forskningsinsats, senare publicerad som boken *Accelerate* av Nicole Forsgren, Jez Humble, och Gene Kim, som undersökte tiotusentals ingenjörsprofessionella för att hitta vilka leveranspraxis som korrelerar med organisatorisk prestation. Resultatet var fyra mätetal, parade två och två: driftsättningsfrekvens och ledtid för ändringar mäter hastighet; ändringsfelfrekvens och tid för återställning av misslyckad driftsättning, ofta förkortat till genomsnittlig återställningstid (MTTR), mäter stabilitet. Forskningsfyndet som gjorde ramverket betydelsefullt var att eliten presterade snabbt och stabilt samtidigt, och kullkastade antagandet att hastighet och säkerhet avvägs mot varandra, och det fyndet är fortfarande det tydligaste genomarbetade exemplet den här boken har på kapitel 1.2:s skyddsparningsprincip: ett incitamentskopplat hastighetsmätetal, parat med ett stabilitetsskydd, är vad de bäst presterande organisationerna faktiskt gör.
+**[DORA-mätetalen](https://dora.dev/guides/dora-metrics/)** kommer från [DevOps](https://en.wikipedia.org/wiki/DevOps) Research and Assessment-programmet, en flerårig forskningsinsats, senare publicerad som boken *Accelerate* av Nicole Forsgren, Jez Humble, och Gene Kim, som undersökte tiotusentals ingenjörsprofessionella för att hitta vilka leveranspraxis som korrelerar med organisatorisk prestation. Resultatet var fyra mätetal, parade två och två: driftsättningsfrekvens och ledtid för ändringar mäter hastighet; ändringsfelfrekvens och tid för återställning av misslyckad driftsättning, ofta förkortat till genomsnittlig återställningstid (MTTR), mäter stabilitet. Forskningsfyndet som gjorde ramverket betydelsefullt var att eliten presterade snabbt och stabilt samtidigt, och kullkastade antagandet att hastighet och säkerhet avvägs mot varandra, och det fyndet är fortfarande det tydligaste genomarbetade exemplet den här boken har på ämne 1.2:s skyddsparningsprincip: ett incitamentskopplat hastighetsmätetal, parat med ett stabilitetsskydd, är vad de bäst presterande organisationerna faktiskt gör.
 
-Den här boken täcker DORA sist i den här delen, medvetet, snarare än som delens organiserande ramverk. Den placeringen är inte ett förkastande av forskningen, som förblir genuint rigorös och värd att använda. Den återspeglar en specifik, verklig begränsning: DORA mäter hur snabbt och hur säkert en pipeline rör sig, men den tiger om vad som rör sig genom pipelinen. Ett team kan posta utmärkta DORA-tal medan dess faktiska output tyst har drivit mot defektomarbete eller har svält teknisk skuld och säkerhetsarbete på kapacitet, ett mönster kapitel 2.1 till 2.4:s Flow Framework är specifikt byggt för att avslöja och DORA inte kan se. Använd DORA som det här kapitlet presenterar det: ett väl validerat, smalare referensmått för pipelinemekanik, inte hela bilden av leveranshälsa.
+Den här boken täcker DORA sist i den här delen, medvetet, snarare än som delens organiserande ramverk. Den placeringen är inte ett förkastande av forskningen, som förblir genuint rigorös och värd att använda. Den återspeglar en specifik, verklig begränsning: DORA mäter hur snabbt och hur säkert en pipeline rör sig, men den tiger om vad som rör sig genom pipelinen. Ett team kan posta utmärkta DORA-tal medan dess faktiska output tyst har drivit mot defektomarbete eller har svält teknisk skuld och säkerhetsarbete på kapacitet, ett mönster ämnen 2.1 till 2.4:s Flow Framework är specifikt byggt för att avslöja och DORA inte kan se. Använd DORA som det här ämnet presenterar det: ett väl validerat, smalare referensmått för pipelinemekanik, inte hela bilden av leveranshälsa.
 
-För stora team är DORA:s återstående, genuina värde jämförbarhet. Ett mätetal beräknat konsekvent från pipeline- och incidentdata låter en organisation jämföra leveransförmåga över många team som arbetar inom olika domäner utan äpplen-mot-apelsiner-problemet som plågar de flesta jämförelser mellan team. Stora företag använder det fortfarande för att prioritera plattformsinvestering; myndigheter använder det fortfarande för att demonstrera, med belägg, att ett moderniseringsprogram mätbart förbättrade leveransmekanik. Behandla det som DORA:s rätta, avgränsade jobb, och använd Flow Framework-kapitlen tidigare i den här delen för den bredare frågan om de rätta sakerna levereras över huvud taget.
+För stora team är DORA:s återstående, genuina värde jämförbarhet. Ett mätetal beräknat konsekvent från pipeline- och incidentdata låter en organisation jämföra leveransförmåga över många team som arbetar inom olika domäner utan äpplen-mot-apelsiner-problemet som plågar de flesta jämförelser mellan team. Stora företag använder det fortfarande för att prioritera plattformsinvestering; myndigheter använder det fortfarande för att demonstrera, med belägg, att ett moderniseringsprogram mätbart förbättrade leveransmekanik. Behandla det som DORA:s rätta, avgränsade jobb, och använd Flow Framework-ämnena tidigare i den här delen för den bredare frågan om de rätta sakerna levereras över huvud taget.
 
 ## Nyckelprinciper
 
-- **DORA mäter pipelinen, inte värdet som flödar genom den.** Kapitel 2.1 namnger det här gapet direkt; använd flödesfördelning (kapitel 2.3) för att se vad DORA inte kan.
+- **DORA mäter pipelinen, inte värdet som flödar genom den.** Ämne 2.1 namnger det här gapet direkt; använd flödesfördelning (ämne 2.3) för att se vad DORA inte kan.
 - **Hastighet och stabilitet mäts tillsammans, aldrig separat.** En DORA-informerad instrumentpanel utan båda halvorna använder inte riktigt ramverket.
 - **Definitionskonsekvens betyder mer än det råa talet.** Ett team som rör sig från "medel" till "hög" prestation på ett konsekvent definierat mätetal är en verklig signal; att jämföra två team beräknade olika är det inte.
-- **DORA mäter systemet, inte individer.** Att tillämpa de här mätetalen på enskilda ingenjörer bryter ramverkets statistiska grund och bjuder in exakt den manipulation kapitel 1.2 varnar mot.
+- **DORA mäter systemet, inte individer.** Att tillämpa de här mätetalen på enskilda ingenjörer bryter ramverkets statistiska grund och bjuder in exakt den manipulation ämne 1.2 varnar mot.
 - **Alla fyra mätetal är proxyer, inte mål.** De korrelerar med organisatorisk prestation; att jaga själva talet, frikopplat från genuin leveransförbättring, besegrar ramverkets syfte.
 
 ## Rekommendationer
@@ -24,7 +24,7 @@ För stora team är DORA:s återstående, genuina värde jämförbarhet. Ett mä
 
 ### Instrumentera ledtid för ändringar från första commit till produktion
 
-**Ledtid för ändringar** mäter tiden från en kodändrings första commit till dess framgångsrika driftsättning i produktion. Rapportera både medianen och en hög percentil, inte bara ett medelvärde, enligt kapitel 1.6:s vägledning om skev tidbaserad data, och vaka för definitionsdrift vid endera ändpunkten, vilket smickrar talet utan någon genuin förbättring.
+**Ledtid för ändringar** mäter tiden från en kodändrings första commit till dess framgångsrika driftsättning i produktion. Rapportera både medianen och en hög percentil, inte bara ett medelvärde, enligt ämne 1.6:s vägledning om skev tidbaserad data, och vaka för definitionsdrift vid endera ändpunkten, vilket smickrar talet utan någon genuin förbättring.
 
 ### Definiera ändringsfelfrekvens skriftligt innan ni jämför mellan team
 
@@ -36,7 +36,7 @@ För stora team är DORA:s återstående, genuina värde jämförbarhet. Ett mä
 
 ### Använd flödesmätetal, inte DORA, för att diagnostisera varför ett tal rörde sig
 
-När ett DORA-mätetal skiftar förklarar de fyra talen ensamma sällan varför. Använd cykeltidsnedbrytning (kapitel 2.6), flödesbelastning (kapitel 2.4), och flödesfördelning (kapitel 2.3) som det diagnostiska lagret under DORA:s sammanfattningstal, och använd aldrig ett DORA-mätetal i en individuell prestationsbedömning, det enskilt mest skadliga missbruket det här ramverket är exponerat för.
+När ett DORA-mätetal skiftar förklarar de fyra talen ensamma sällan varför. Använd cykeltidsnedbrytning (ämne 2.6), flödesbelastning (ämne 2.4), och flödesfördelning (ämne 2.3) som det diagnostiska lagret under DORA:s sammanfattningstal, och använd aldrig ett DORA-mätetal i en individuell prestationsbedömning, det enskilt mest skadliga missbruket det här ramverket är exponerat för.
 
 ## Avvägningar: fördelar och nackdelar
 
@@ -47,29 +47,29 @@ När ett DORA-mätetal skiftar förklarar de fyra talen ensamma sällan varför.
 | DORA plus Flow Framework tillsammans | Pipelinemekanik och värdeblandning båda synliga | Kräver att underhålla två mätetalsvokabulär istället för ett |
 | DORA tillämpat på individnivå | Känns direkt handlingsbart för vissa chefer | Bryter ramverkets statistiska validitet; stark Goodhart-lag-exponering |
 
-Den centrala spänningen är **mekanisk rigör kontra affärsläsbarhet**. DORA:s fyra mätetal är precist definierade och forskningsvaliderade, vilket gör dem utmärkta för att jämföra pipelineprestanda mellan team, men samma precision är smalt avgränsad till själva pipelinen och säger ingenting om huruvida det rätta arbetet flödar genom den. Lös spänningen genom att hålla DORA som ett referenslager för pipelinehälsa, kapitel 2.10:s rätta plats i den här bokens struktur, medan Flow Framework-kapitlen tidigare i den här delen används för den affärsvända frågan om värdeblandning, snarare än att försöka få DORA att besvara en fråga den aldrig designades för.
+Den centrala spänningen är **mekanisk rigör kontra affärsläsbarhet**. DORA:s fyra mätetal är precist definierade och forskningsvaliderade, vilket gör dem utmärkta för att jämföra pipelineprestanda mellan team, men samma precision är smalt avgränsad till själva pipelinen och säger ingenting om huruvida det rätta arbetet flödar genom den. Lös spänningen genom att hålla DORA som ett referenslager för pipelinehälsa, ämne 2.10:s rätta plats i den här bokens struktur, medan Flow Framework-ämnena tidigare i den här delen används för den affärsvända frågan om värdeblandning, snarare än att försöka få DORA att besvara en fråga den aldrig designades för.
 
 ## Frågor att diskutera med ditt team
 
-1. **Instrumenterar vi alla fyra DORA-mätetal från pipelinen, eller är några av dem självrapporterade uppskattningar?** Ett ramverk byggt på objektiv, forskningsvaliderad mätning förlorar mycket av sitt värde i det ögonblick ett tal blir en bästa gissning. Granska varje mätetals faktiska datakälla (kapitel 1.5).
+1. **Instrumenterar vi alla fyra DORA-mätetal från pipelinen, eller är några av dem självrapporterade uppskattningar?** Ett ramverk byggt på objektiv, forskningsvaliderad mätning förlorar mycket av sitt värde i det ögonblick ett tal blir en bästa gissning. Granska varje mätetals faktiska datakälla (ämne 1.5).
 
 2. **Delar alla team vi jämför med DORA-mätetal samma definitioner av driftsättning, ändring, och misslyckande?** En jämförelse mellan team som använder olika definitioner är inte riktigt en jämförelse, och kan producera orättvisa bedömningar om relativ prestation.
 
 3. **Har någon i vår organisation använt ett DORA-mätetal i en individuell prestationsbedömning, formellt eller informellt?** Det här är det enskilt mest skadliga missbruket av ramverket och sker ofta tyst. Fråga direkt och var beredda på ett obekvämt men nödvändigt svar.
 
-4. **Skulle våra DORA-tal kunna vara utmärkta medan vår flödesfördelning (kapitel 2.3) tyst har drivit mot omarbete eller bort från funktioner?** Det här är precis gapet DORA ensam inte kan se. Ta fram båda uppsättningarna tal tillsammans och kontrollera om de berättar en konsekvent historia.
+4. **Skulle våra DORA-tal kunna vara utmärkta medan vår flödesfördelning (ämne 2.3) tyst har drivit mot omarbete eller bort från funktioner?** Det här är precis gapet DORA ensam inte kan se. Ta fram båda uppsättningarna tal tillsammans och kontrollera om de berättar en konsekvent historia.
 
 5. **När ett av våra DORA-mätetal rör sig, har vi flödesmätetalsdiagnostiken för att förklara varför?** Ett DORA-tal ensamt berättar att något förändrades, inte vad. Kontrollera om era team kan svara på "varför ökade ledtid den här månaden" med data, eller bara med spekulation.
 
-6. **Hur skulle våra fyra DORA-tal förändras om vi medvetet försökte manipulera vart och ett, och skulle vi märka det?** Gå igenom driftsättningsfrekvens, ledtid, ändringsfelfrekvens, och återställningstid en i taget, den praktiska tillämpningen av kapitel 1.2:s kärndisciplin på det här specifika ramverket.
+6. **Hur skulle våra fyra DORA-tal förändras om vi medvetet försökte manipulera vart och ett, och skulle vi märka det?** Gå igenom driftsättningsfrekvens, ledtid, ändringsfelfrekvens, och återställningstid en i taget, den praktiska tillämpningen av ämne 1.2:s kärndisciplin på det här specifika ramverket.
 
 ## Sektorperspektiv
 
-**Startup.** DORA:s hastighetsmätetal kommer vanligtvis naturligt för ett litet team som redan driftsätter frekvent; den svårare disciplinen är att instrumentera ändringsfelfrekvens och återställningstid ärligt snarare än att anta stabilitet eftersom ingenting gått sönder illa ännu. Att para DORA med även en informell flödesobjektsuppdelning (kapitel 2.2) tidigt undviker att bygga ett falskt sken av leveranshälsa kring bara pipelinehastighet.
+**Startup.** DORA:s hastighetsmätetal kommer vanligtvis naturligt för ett litet team som redan driftsätter frekvent; den svårare disciplinen är att instrumentera ändringsfelfrekvens och återställningstid ärligt snarare än att anta stabilitet eftersom ingenting gått sönder illa ännu. Att para DORA med även en informell flödesobjektsuppdelning (ämne 2.2) tidigt undviker att bygga ett falskt sken av leveranshälsa kring bara pipelinehastighet.
 
 **Litet företag.** De flesta moderna CI/CD- och versionskontrollplattformar exporterar driftsättningsfrekvens- och ledtidsdata med minimal konfiguration; att koppla driftsättningar till incidenter för ändringsfelfrekvens behöver typiskt mer manuell ansträngning. Börja med de två hastighetsmätetalen och lägg till stabilitetsspårning så snart en informell incidentlogg existerar att koppla mot.
 
-**Stort företag.** DORA:s största kvarvarande värde på den här skalan är rättvis, konsekvent jämförelse mellan team för plattformsinvesteringsbeslut. Standardisera definitioner organisationsövergripande (kapitel 1.4), automatisera instrumentering centralt, och para varje DORA-rapport med en flödesfördelningsvy så att ledningen ser både pipelinehastighet och värdeblandning tillsammans, inte en utan den andra.
+**Stort företag.** DORA:s största kvarvarande värde på den här skalan är rättvis, konsekvent jämförelse mellan team för plattformsinvesteringsbeslut. Standardisera definitioner organisationsövergripande (ämne 1.4), automatisera instrumentering centralt, och para varje DORA-rapport med en flödesfördelningsvy så att ledningen ser både pipelinehastighet och värdeblandning tillsammans, inte en utan den andra.
 
 **Myndighet.** DORA-mätetal ger fortfarande ett moderniseringsprogram ett försvarbart, forskningsstött sätt att demonstrera förbättring av leveransmekanik för tillsynsorgan. Rapportera alla fyra mätetal tillsammans, plocka aldrig bara den smickrande halvan, och para dem med flödesfördelning så att rapporten också besvarar den svårare, viktigare frågan om vad den snabbare pipelinen faktiskt levererar.
 
@@ -83,11 +83,11 @@ Den centrala spänningen är **mekanisk rigör kontra affärsläsbarhet**. DORA:
 
 Avkastningen på att anta DORA väl, inom dess rätta omfattning, är ett försvarbart, evidensbaserat svar på "blir vår leveranspipeline snabbare och säkrare," vilket förblir en av de mer tractabla frågorna inom ingenjörsavdelningen att besvara med säkerhet. Det svaret motiverar plattforms- och verktygsinvestering med verkliga tal, och låter ledningen jämföra konkurrerande investeringar på en rättvis, konsekvent grund, exakt som det alltid har gjort.
 
-Den totala ägandekostnaden är integrationsarbetet att koppla driftsättningshändelser till incidentregister för ändringsfelfrekvens och återställningstid, icke-trivialt över ett stort, heterogent verktygslandskap. Den extra kostnaden för att para DORA med Flow Framework-kapitlen tidigare i den här delen är jämförelsevis liten, eftersom flödesobjektsklassificering är en rapporteringskonvention lagd på befintligt arbete, inte ett parallellt mätsystem, och avkastningen, att fånga exakt den värdeblandningsblinda fläck telekommunikationsexemplet ovan illustrerar, är väl värd den blygsamma extra investeringen.
+Den totala ägandekostnaden är integrationsarbetet att koppla driftsättningshändelser till incidentregister för ändringsfelfrekvens och återställningstid, icke-trivialt över ett stort, heterogent verktygslandskap. Den extra kostnaden för att para DORA med Flow Framework-ämnena tidigare i den här delen är jämförelsevis liten, eftersom flödesobjektsklassificering är en rapporteringskonvention lagd på befintligt arbete, inte ett parallellt mätsystem, och avkastningen, att fånga exakt den värdeblandningsblinda fläck telekommunikationsexemplet ovan illustrerar, är väl värd den blygsamma extra investeringen.
 
 ## Antimönster och fallgropar
 
-- **Att behandla DORA som hela bilden av leveranshälsa:** manipuleringsvektorn det här kapitlets placering är designad för att motverka. En organisation kan presentera genuint utmärkta DORA-tal, snabba, frekventa, stabila driftsättningar, medan dess faktiskt levererade värde tyst har skiftat mot omarbete eller bort från funktioner, och DORA:s fyra mätetal ensamma kommer aldrig avslöja det skiftet eftersom de aldrig designades för att mäta det. Skyddet är att para varje DORA-rapport med flödesfördelning (kapitel 2.3), så att en snabb, stabil pipeline som levererar fel blandning av arbete är synlig snarare än misstagen för genuin leveranshälsa.
+- **Att behandla DORA som hela bilden av leveranshälsa:** manipuleringsvektorn det här ämnets placering är designad för att motverka. En organisation kan presentera genuint utmärkta DORA-tal, snabba, frekventa, stabila driftsättningar, medan dess faktiskt levererade värde tyst har skiftat mot omarbete eller bort från funktioner, och DORA:s fyra mätetal ensamma kommer aldrig avslöja det skiftet eftersom de aldrig designades för att mäta det. Skyddet är att para varje DORA-rapport med flödesfördelning (ämne 2.3), så att en snabb, stabil pipeline som levererar fel blandning av arbete är synlig snarare än misstagen för genuin leveranshälsa.
 - **Att bara rapportera hastighetshalvan av DORA:** besegrar ramverkets centrala fynd att hastighet och stabilitet rör sig tillsammans hos höga presterare.
 - **Att använda DORA-mätetal i individuella prestationsbedömningar:** bryter ramverkets statistiska validitet och bjuder in stark manipulation.
 - **Att jämföra team med inkonsekventa definitioner:** producerar jämförelser som ser rättvisa ut men inte är det.
@@ -112,8 +112,8 @@ Den totala ägandekostnaden är integrationsarbetet att koppla driftsättningsh�
 ## Viktiga slutsatser
 
 - DORA:s fyra mätetal, **driftsättningsfrekvens, ledtid, ändringsfelfrekvens, och återställningstid**, parar hastighet med stabilitet per design och förblir genuint forskningsvaliderade.
-- Den här boken placerar DORA **sist i den här delen** eftersom den mäter pipelinen, inte värdet som flödar genom den; para den med flödesfördelning (kapitel 2.3) för den fullare bilden.
-- Kapitlets centrala manipuleringsvektor är **att misstaga utmärkta DORA-tal för komplett leveranshälsa**; skyddet är att alltid rapportera DORA vid sidan av flödesfördelning.
+- Den här boken placerar DORA **sist i den här delen** eftersom den mäter pipelinen, inte värdet som flödar genom den; para den med flödesfördelning (ämne 2.3) för den fullare bilden.
+- Ämnets centrala manipuleringsvektor är **att misstaga utmärkta DORA-tal för komplett leveranshälsa**; skyddet är att alltid rapportera DORA vid sidan av flödesfördelning.
 - **Använd aldrig DORA-mätetal i individuella prestationsbedömningar**; ramverkets validitet beror på systemnivå, inte individuell, mätning.
 - Använd **flödesmätetal som det diagnostiska lagret** under DORA:s sammanfattningstal när ett av dem rör sig.
 

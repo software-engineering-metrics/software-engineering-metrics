@@ -2,12 +2,12 @@
 
 ## Overview and motivation
 
-**Performance**, the P in SPACE (chapter 3.1), is the dimension most often
-confused with activity, and that confusion is exactly what this chapter
+**Performance**, the P in SPACE (topic 3.1), is the dimension most often
+confused with activity, and that confusion is exactly what this topic
 exists to prevent. Performance asks whether an engineer's or a team's work
 actually produced a good [outcome](https://en.wikipedia.org/wiki/Outcome_(probability)):
 a feature that shipped and worked, a system that stayed reliable, a change
-that moved a business or user metric in the right direction. Activity (chapter 3.4) asks only how much motion
+that moved a business or user metric in the right direction. Activity (topic 3.4) asks only how much motion
 occurred. A team can be highly active and low performing, shipping constant
 small changes that never move an outcome, and the reverse is equally
 possible: a team that ships rarely but whose changes reliably land exactly
@@ -20,7 +20,7 @@ moved to other projects, from market conditions no engineer controls. SPACE
 researchers were explicit about this: performance should be measured at the
 system or team level using multiple, converging signals, not reduced to a
 single number and certainly not attributed to an individual engineer in
-isolation. This chapter takes that guidance seriously and treats individual
+isolation. This topic takes that guidance seriously and treats individual
 performance attribution as a trap to be actively avoided, not a shortcut to
 be taken when convenient.
 
@@ -30,7 +30,7 @@ rewards visible busyness. Enterprise organizations comparing performance
 across many teams need signals that resist gaming through raw output volume;
 government organizations justifying technology investment to oversight
 bodies need to demonstrate that engineering effort produced real outcomes,
-not just delivered artifacts, which is precisely chapter 1.3's
+not just delivered artifacts, which is precisely topic 1.3's
 outcomes-over-output principle applied to this specific dimension.
 
 ## Key principles
@@ -45,15 +45,15 @@ outcomes-over-output principle applied to this specific dimension.
 - **Quality is part of performance, not a separate concern.** Work that
   ships but breaks something else did not really perform well.
 - **A performance signal without a decision attached is decoration**,
-  exactly per chapter 1.1's general principle applied to this dimension.
+  exactly per topic 1.1's general principle applied to this dimension.
 
 ## Recommendations
 
 ### Combine several converging signals rather than one performance score
 
 Draw performance evidence from multiple sources: change failure rate
-(chapter 2.10) and defect-escape rate (chapter 5.1) for quality, deployment
-outcomes tied to actual feature adoption (chapter 5.2) for whether the work
+(topic 2.10) and defect-escape rate (topic 5.1) for quality, deployment
+outcomes tied to actual feature adoption (topic 5.2) for whether the work
 mattered, and qualitative peer or manager assessment of a team's
 contribution to strategic goals for context a pure metric cannot capture.
 No single one of these is reliable alone; together, when they converge on
@@ -68,7 +68,7 @@ have since left the team, and collaboration across boundaries. Attributing
 an outcome to a single engineer is usually a false precision that ignores
 this reality and creates a strong incentive for individuals to protect
 credit rather than collaborate freely, exactly the kind of incentive
-distortion chapter 1.2 warns against.
+distortion topic 1.2 warns against.
 
 ### Fold quality into the definition of performance directly
 
@@ -85,7 +85,7 @@ individual rankings
 The productive use of performance data is deciding where to invest further
 (a team consistently delivering strong outcomes deserves more resources and
 autonomy) and where to investigate (a team whose work consistently fails to
-land deserves help, not blame, per chapter 1.1's diagnostic framing).
+land deserves help, not blame, per topic 1.1's diagnostic framing).
 Ranking individuals or teams competitively against each other on
 performance data invites exactly the gaming and morale damage this book
 warns against and rarely produces better outcomes than the diagnostic use
@@ -96,7 +96,7 @@ enabling teams
 
 Teams that build shared infrastructure, internal tools, or platform
 capabilities (the sibling `software-engineering-guide` book's platform
-engineering chapter covers this directly) often have their contribution to
+engineering topic covers this directly) often have their contribution to
 outcomes several
 steps removed from any single customer-facing metric. Measure these teams'
 performance through their effect on the teams they enable, adoption of their
@@ -148,7 +148,7 @@ into a single, falsely precise score.
 
 5. **Has performance data ever been used to rank individuals competitively
    against each other, formally or informally?** This drift, similar to the
-   satisfaction-data risk in chapter 3.2, damages both the data's honesty
+   satisfaction-data risk in topic 3.2, damages both the data's honesty
    and the team's willingness to collaborate openly.
 
 6. **When our converging signals disagree, high delivery speed but rising
@@ -167,7 +167,7 @@ highly collaborative small team where credit and blame rarely belong to
 just one individual.
 
 **Small business.** Combine whatever delivery and quality data you already
-have (chapter 2.10, chapter 5.1) with direct, honest conversation about
+have (topic 2.10, topic 5.1) with direct, honest conversation about
 whether recent work actually helped the business, rather than building
 formal multi-signal instrumentation you lack the capacity to maintain.
 
@@ -181,7 +181,7 @@ multi-signal case for why it matters.
 **Government.** Demonstrating that engineering investment produced real
 outcomes, not just delivered artifacts, is often the central question an
 oversight body asks. Multi-signal performance measurement, tied explicitly
-to outcome metrics (chapter 5.3) rather than delivery-only proxies, gives a
+to outcome metrics (topic 5.3) rather than delivery-only proxies, gives a
 much stronger, more defensible answer than an activity or delivery count
 alone.
 
@@ -272,7 +272,7 @@ resourcing decisions performance data is meant to inform.
 ## Key takeaways
 
 - Performance measures whether work produced a **good outcome**, not how
-  much motion occurred; do not confuse it with activity (chapter 3.4).
+  much motion occurred; do not confuse it with activity (topic 3.4).
 - Use **multiple, converging signals**, never a single performance number,
   and be suspicious of false precision.
 - Measure at the **team or system level**; individual outcome attribution is

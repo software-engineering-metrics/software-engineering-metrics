@@ -8,7 +8,7 @@ a target, it ceases to be a good measure. Goodhart's original 1975
 observation was about monetary policy, but the anthropologist Marilyn
 Strathern's later restatement is the version software teams actually need,
 and it is the sentence this entire book is built on. Every metric in every
-later chapter, deployment frequency, test coverage, satisfaction scores,
+later topic, deployment frequency, test coverage, satisfaction scores,
 carries this risk, and every recommendation in this book is, in some form, a
 strategy for managing it.
 
@@ -30,7 +30,7 @@ across a six-hundred-person division, or published in a government
 performance report read by a legislature, travels through layers of people
 who never met its author and have every reason to treat the letter of the
 metric as the goal. The distortion compounds with distance, which is exactly
-why this chapter, not a later one, is where the book puts its center of
+why this topic, not a later one, is where the book puts its center of
 gravity.
 
 ## Key principles
@@ -55,7 +55,7 @@ Before publishing a metric anywhere visible, ask directly: does anyone's
 reward, review, reputation, or budget depend on this number moving in a
 particular direction? If yes, it is an incentivized metric and needs a
 guardrail (below) before it goes live. If no, it is a diagnostic metric
-(chapter 1.1) and carries lower gaming risk, though never zero, because
+(topic 1.1) and carries lower gaming risk, though never zero, because
 people can still shape a number they merely expect to be judged on later even
 without a formal incentive attached today.
 
@@ -99,7 +99,7 @@ they appear in your own numbers.
 The strongest guardrail of all is structural: decouple the metric from
 individual reward. A metric used purely to understand a system, with no
 person's pay, rating, or standing riding on its direction, faces far weaker
-gaming pressure than one tied to an evaluation. This is why chapter 1.1's
+gaming pressure than one tied to an evaluation. This is why topic 1.1's
 diagnostic-versus-evaluative distinction matters so much in practice: keeping
 a metric diagnostic is often cheaper and more effective than any amount of
 guardrail engineering applied after the fact.
@@ -186,7 +186,7 @@ identifying its guardrail.
 **Enterprise.** Distance is the dominant risk: a metric designed by a
 platform team for internal diagnosis gets picked up three layers of
 management later and turned into a KPI nobody who built it would recognize.
-Govern this explicitly (chapter 1.4): require a documented guardrail before
+Govern this explicitly (topic 1.4): require a documented guardrail before
 any metric is approved for use in a performance review or an executive
 scorecard.
 
@@ -206,7 +206,7 @@ incident rate rose. An audit found teams writing trivial tests, asserting
 that a function returned without throwing, purely to satisfy the coverage
 tool, while genuine edge-case testing had not improved at all. The fix
 replaced the raw coverage target with a paired metric: coverage plus a
-mutation-testing score (chapter 4.2) that measures whether tests actually
+mutation-testing score (topic 4.2) that measures whether tests actually
 catch injected faults, which is far harder to game cheaply.
 
 **Government.** A state's unemployment-insurance agency was measured on
@@ -233,7 +233,7 @@ example above is typical: cheap to prevent, expensive to repair.
 The total cost of ownership of a guardrail is not free: it is a second metric
 to define, instrument, and review. But that cost is small and fixed compared
 to the unbounded cost of an incentive that quietly rewards the wrong
-behaviour for months before anyone notices. Every chapter after this one
+behaviour for months before anyone notices. Every topic after this one
 prices that trade-off in, which is why guardrail pairing appears as a
 recommendation throughout the rest of this book rather than only here.
 

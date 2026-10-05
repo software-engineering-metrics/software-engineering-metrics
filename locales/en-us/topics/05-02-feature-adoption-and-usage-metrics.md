@@ -9,18 +9,18 @@ is, in a very direct sense, the reality check on everything Parts 2 through
 excellent developer experience, and ship immaculately tested code, and still
 be building things nobody wants. Adoption data is where an engineering
 organization finds out whether its output connected to any real outcome at
-all, which is exactly the input-output-outcome distinction chapter 1.3
+all, which is exactly the input-output-outcome distinction topic 1.3
 introduced applied to the most concrete case in this book: a specific,
 shipped feature.
 
-This chapter's central concern is that adoption data, more than almost any
+This topic's central concern is that adoption data, more than almost any
 other metric family in this book, is easy to measure in a way that flatters
 rather than informs. A feature can show impressive initial adoption purely
 from curiosity or forced exposure (a modal that appears whether a user wants
 it or not) while genuine, sustained value delivery, measured by whether
 people keep using it once the novelty fades, tells a completely different
 story. Distinguishing genuine adoption from a temporary spike is this
-chapter's core technical challenge, and getting it wrong routinely leads
+topic's core technical challenge, and getting it wrong routinely leads
 organizations to celebrate features that quietly fail and abandon ones that
 were just beginning to find their audience.
 
@@ -86,7 +86,7 @@ before deciding to invest further, redesign, or deprecate.
 An adoption number driven by a feature being hard to avoid, an intrusive
 onboarding flow, a modal a user must dismiss, a default that is difficult to
 change, is not measuring genuine value delivery, and celebrating it as if it
-were repeats chapter 1.2's substitution-gaming pattern in product form. Pair
+were repeats topic 1.2's substitution-gaming pattern in product form. Pair
 raw adoption numbers with a satisfaction or Net Promoter-style signal for
 the specific feature where feasible, so forced exposure that does not
 translate into genuine satisfaction gets caught rather than celebrated.
@@ -124,7 +124,7 @@ unexamined success story before the real signal has had time to emerge.
 1. **For our most recently shipped feature, do we know initial trial and
    retained usage separately, or only a single combined number?** If only a
    combined number exists, that gap hides exactly the curiosity-versus-value
-   distinction this chapter treats as central.
+   distinction this topic treats as central.
 
 2. **Was our target audience for this feature defined explicitly before
    launch, and are we measuring adoption against that specific group?**
@@ -236,7 +236,7 @@ mistake of misreading either a false success or a false failure.
   of low adoption: risks abandoning a genuinely valuable but poorly
   discovered or poorly timed feature.
 - **Celebrating adoption inflated by forced exposure or dark patterns:** a
-  product-side instance of chapter 1.2's substitution gaming.
+  product-side instance of topic 1.2's substitution gaming.
 - **Never tracing adoption movement back to specific decisions:** limits
   organizational learning from the organization's own data.
 - **Tracking usage without any paired satisfaction signal:** misses the

@@ -33,12 +33,12 @@ const en = {
     ariaLabel: 'Main'
   },
   sidebar: {
-    ariaLabel: 'Chapters',
-    filterPlaceholder: 'Filter chapters…',
-    filterAriaLabel: 'Filter chapters'
+    ariaLabel: 'Topics',
+    filterPlaceholder: 'Filter topics…',
+    filterAriaLabel: 'Filter topics'
   },
   chapterPager: {
-    ariaLabel: 'Chapter navigation'
+    ariaLabel: 'Topic navigation'
   },
   breadcrumb: {
     ariaLabel: 'Breadcrumb'

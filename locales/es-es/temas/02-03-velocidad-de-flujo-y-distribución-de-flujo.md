@@ -2,7 +2,7 @@
 
 ## Visión general y motivación
 
-La **velocidad de flujo** es el número de elementos de flujo (capítulo 2.2)
+La **velocidad de flujo** es el número de elementos de flujo (tema 2.2)
 completados en un periodo dado, la medida de
 [rendimiento](https://en.wikipedia.org/wiki/Throughput) del Flow
 Framework. La **distribución de flujo** es la proporción de cada tipo de
@@ -16,12 +16,12 @@ funcionalidades hacia retrabajo de defectos, lo que se ve como aceleración
 en un gráfico de velocidad y en realidad es un síntoma de calidad en
 declive.
 
-Este emparejamiento es la misma disciplina que el capítulo 1.2 pide para
+Este emparejamiento es la misma disciplina que el tema 1.2 pide para
 cada familia de métricas de este libro: nunca reportar un número de
 velocidad sin la barrera de contención que muestra qué costó esa velocidad.
 La velocidad de flujo es la generalización más directa de esta parte de una
 métrica de rendimiento, más cercana en espíritu a la frecuencia de
-despliegue (capítulo 2.10) que a cualquier otro número único de este libro,
+despliegue (tema 2.10) que a cualquier otro número único de este libro,
 pero consciente del tipo de elemento de una forma que la frecuencia de
 despliegue nunca fue. La frecuencia de despliegue te dice con qué frecuencia
 el código llega a producción; la velocidad de flujo, emparejada con la
@@ -33,7 +33,7 @@ este emparejamiento expone un patrón que un único número de rendimiento
 oculta por completo: una cadena de valor cuya velocidad se ve sana mientras
 su distribución ha derivado en silencio hacia trabajo casi puramente de
 funcionalidades, privando en silencio a la capacidad de deuda y riesgo que
-el capítulo 2.2 advertía que necesita protección deliberada. Tanto las
+el tema 2.2 advertía que necesita protección deliberada. Tanto las
 organizaciones grandes que comparan el rendimiento entre líneas de producto
 como las agencias del sector público que reportan la producción de entrega
 a organismos de supervisión necesitan este emparejamiento para evitar
@@ -50,14 +50,14 @@ confundir la producción bruta con un progreso genuino y sostenible.
   trabajo total representa.
 - **Las dos métricas deben reportarse juntas, siempre.** Esta es una
   aplicación directa del principio de emparejamiento con barrera de
-  contención del capítulo 1.2 aplicado específicamente a los datos de
+  contención del tema 1.2 aplicado específicamente a los datos de
   flujo.
 - **La velocidad está expuesta a la misma manipulación por sustitución que
   cualquier métrica de recuento de elementos.** Dividir trabajo difícil en
   muchos elementos pequeños y fáciles infla el recuento sin entregar más
   valor de forma proporcional.
 - **Una distribución sana depende del contexto, no es un objetivo fijo.**
-  El capítulo 2.2 lo cubre en profundidad; la velocidad y la distribución
+  El tema 2.2 lo cubre en profundidad; la velocidad y la distribución
   siempre deberían interpretarse frente al objetivo que ese contexto
   implica.
 
@@ -68,14 +68,14 @@ confundir la producción bruta con un progreso genuino y sostenible.
 El recuento de elementos de un único periodo es ruidoso y fácil de
 malinterpretar. Traza la velocidad de flujo a lo largo de varios periodos
 consecutivos y mira la tendencia, no ningún punto de datos aislado, la
-misma disciplina que recomienda el capítulo 1.6 para cualquier métrica de
+misma disciplina que recomienda el tema 1.6 para cualquier métrica de
 serie temporal propensa a la variación natural.
 
 ### Nunca presentes la velocidad de flujo sin su distribución al lado
 
 Trata esto como una regla estricta para cualquier tablero o informe, no
 como algo opcional. Un gráfico de velocidad mostrado solo invita
-precisamente a la mala interpretación con la que abre este capítulo: un
+precisamente a la mala interpretación con la que abre este tema: un
 rendimiento en aumento que en realidad es una cuota creciente de
 retrabajo o trabajo fácil de funcionalidades desplazando a la capacidad de
 deuda y riesgo. Pon ambas en la misma vista, siempre.
@@ -85,7 +85,7 @@ deuda y riesgo. Pon ambas en la misma vista, siempre.
 El recuento bruto de elementos trata un cambio de configuración de una
 línea y una migración arquitectónica de varias semanas como equivalentes,
 lo que invita a la misma manipulación por sustitución que este libro ya
-nombró para la frecuencia de despliegue (capítulo 2.10): dividir trabajo
+nombró para la frecuencia de despliegue (tema 2.10): dividir trabajo
 difícil en muchos elementos pequeños infla el recuento sin entregar más de
 forma proporcional. Donde los tamaños de los elementos varíen mucho,
 pondera la velocidad con una estimación aproximada de tamaño o complejidad,
@@ -100,7 +100,7 @@ exactos de este periodo; es la dirección del cambio a lo largo de varios
 periodos. Una deriva constante, las funcionalidades subiendo mientras la
 deuda y el riesgo se reducen en silencio, merece plantearse a las partes
 interesadas bastante antes de que se convierta en el tipo de problema de
-calidad o seguridad que el capítulo 2.2 advierte que se acumula de forma
+calidad o seguridad que el tema 2.2 advierte que se acumula de forma
 invisible bajo un patrón de fábrica de funcionalidades.
 
 ### Compara la velocidad de flujo entre cadenas de valor solo con verdadero cuidado
@@ -108,7 +108,7 @@ invisible bajo un patrón de fábrica de funcionalidades.
 Dos cadenas de valor con distinta granularidad de elementos, distinto
 tamaño de equipo o distinta fase de producto no son directamente
 comparables solo por la velocidad bruta, el mismo problema de justicia que
-el capítulo 2.10 nombra para la frecuencia de despliegue entre equipos. Usa
+el tema 2.10 nombra para la frecuencia de despliegue entre equipos. Usa
 la velocidad primero para la propia tendencia de una cadena de valor, y
 solo intenta la comparación entre cadenas de valor después de confirmar
 definiciones de elementos y granularidad genuinamente comparables.
@@ -118,7 +118,7 @@ definiciones de elementos y granularidad genuinamente comparables.
 | Enfoque | Ventajas | Inconvenientes |
 | --- | --- | --- |
 | Solo velocidad de recuento bruto de elementos | Sencilla de calcular y explicar | Expuesta a la manipulación por sustitución; oculta qué tipo de valor se envió |
-| Velocidad emparejada con distribución | Muestra juntas tanto la escala como la mezcla de valor | Requiere una clasificación disciplinada de elementos de flujo (capítulo 2.2) para ser significativa |
+| Velocidad emparejada con distribución | Muestra juntas tanto la escala como la mezcla de valor | Requiere una clasificación disciplinada de elementos de flujo (tema 2.2) para ser significativa |
 | Velocidad ponderada por tamaño | Resiste la manipulación por sustitución mediante la división del tamaño de elementos | Requiere un método de dimensionamiento consistente y acordado en todo el equipo |
 | Comparación de velocidad entre cadenas de valor | Útil para decisiones de inversión a nivel de cartera | Fácilmente injusta sin confirmar definiciones de elementos genuinamente comparables |
 
@@ -136,7 +136,7 @@ simple se haya vuelto activamente engañoso.
 1. **Cuando reportamos la velocidad de flujo, ¿se muestra siempre la
    distribución de flujo junto a ella, o a veces la velocidad aparece
    sola?** Un número de velocidad sin su distribución es una imagen
-   incompleta según el propio principio central de este capítulo. Comprueba
+   incompleta según el propio principio central de este tema. Comprueba
    tus tableros e informes reales en busca de este vacío.
 
 2. **¿Ha cambiado nuestro tamaño medio de elemento junto con una velocidad
@@ -182,7 +182,7 @@ corrección de errores en etapa temprana.
 
 **Pequeña empresa.** Rastrea la velocidad y la distribución juntas desde
 cualquier herramienta ligera que ya uses para la clasificación de
-elementos de flujo (capítulo 2.2); no se necesita ninguna plataforma
+elementos de flujo (tema 2.2); no se necesita ninguna plataforma
 analítica dedicada a esta escala. El hábito de verlas siempre lado a lado
 importa más que cualquier sofisticación de la herramienta.
 
@@ -242,23 +242,23 @@ ese patrón pronto es mucho más barato que descubrirlo solo después de que
 un problema de calidad de cara al cliente fuerce la pregunta.
 
 El coste total de propiedad es mínimo una vez que la clasificación de
-elementos de flujo (capítulo 2.2) ya está en marcha: la distribución es una
+elementos de flujo (tema 2.2) ya está en marcha: la distribución es una
 agregación directa de elementos ya clasificados, y la disciplina de mostrar
 ambas métricas juntas es una convención de informe, no una inversión
-técnica. La mayor parte del coste de las recomendaciones de este capítulo
+técnica. La mayor parte del coste de las recomendaciones de este tema
 ya se pagó cuando la organización adoptó en primer lugar una clasificación
 honesta de elementos de flujo.
 
 ## Antipatrones y errores comunes
 
 - **Reportar la velocidad de flujo sin distribución:** el vector de
-  manipulación central de este capítulo. Un equipo bajo presión de entrega
+  manipulación central de este tema. Un equipo bajo presión de entrega
   puede subir el recuento de elementos prefiriendo trabajo fácil de
   funcionalidades pequeñas y evitando elementos más difíciles de deuda,
   riesgo o defectos, o dividiendo elementos grandes en muchos pequeños, y
   un gráfico de velocidad mostrado solo se leerá como aceleración en lugar
   del cambio real en lo que se está entregando. La barrera de contención es
-  la misma disciplina de emparejamiento que el capítulo 1.2 pide a lo
+  la misma disciplina de emparejamiento que el tema 1.2 pide a lo
   largo de este libro: nunca mostrar la velocidad sin la distribución, y
   comprobar periódicamente el tamaño medio de elemento junto al recuento
   para detectar específicamente la división.
@@ -274,7 +274,7 @@ honesta de elementos de flujo.
   velocidad en aumento:** pasa por alto la firma específica de la
   manipulación por sustitución.
 - **Fijar un objetivo de velocidad sin ninguna referencia a la
-  distribución:** invita precisamente a la manipulación que este capítulo
+  distribución:** invita precisamente a la manipulación que este tema
   advierte por su nombre.
 
 ## Modelo de madurez
@@ -311,9 +311,9 @@ honesta de elementos de flujo.
   flujo** mide qué tipo de trabajo representa ese rendimiento. Repórtalas
   juntas, siempre.
 - Este emparejamiento es una aplicación directa del **principio de
-  barrera de contención** del capítulo 1.2: nunca mostrar un número de
+  barrera de contención** del tema 1.2: nunca mostrar un número de
   velocidad sin el contexto de lo que costó.
-- El vector de manipulación central del capítulo es **reportar la
+- El vector de manipulación central del tema es **reportar la
   velocidad sola**, lo que puede ocultar un giro hacia trabajo fácil de
   funcionalidades o una división de elementos que infla el recuento sin
   entregar valor proporcional.

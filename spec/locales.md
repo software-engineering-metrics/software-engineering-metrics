@@ -1,6 +1,6 @@
 # Locales
 
-The book is published in four locales, each a complete copy of every chapter,
+The book is published in four locales, each a complete copy of every topic,
 front-matter file, example, contributing guide, and project file, differing
 only in spelling. All four keep identical structure, section order, word
 counts, and file names; see [structure.md](structure.md) and
@@ -23,7 +23,7 @@ this book intends to add.
 
 ## `locales/en-gb-oxendict/` is the source
 
-Author and edit chapters in `locales/en-gb-oxendict/`. It is the one locale a
+Author and edit topics in `locales/en-gb-oxendict/`. It is the one locale a
 person writes by hand; the other three are mechanically derived from it by
 [`tools/localize.py`](../tools/localize.py) and are never hand-edited.
 
@@ -45,7 +45,7 @@ short list of protected regions, so that a locale conversion can never change
 meaning, break a link, or corrupt a citation:
 
 - Fenced code blocks, except ` ```markdown ` ones, which hold reader-facing
-  template prose (chapter 9.4) rather than literal code.
+  template prose (topic 9.4) rather than literal code.
 - Inline code spans and markdown link targets (the book's own hard rule from
   [oxford-spelling.md](oxford-spelling.md): never modify a URL).
 - Italicized spans (`*...*`), this book's house style for citing a work's
@@ -61,7 +61,7 @@ each spelling variant, to keep the derivation auditable.
 
 ## Every content file carries a `.locale-peer-id`
 
-Alongside its content, every chapter, front-matter file, example, contributing
+Alongside its content, every topic, front-matter file, example, contributing
 guide, and project file has a sibling `.locale-peer-id` file (same base name,
 that extension instead of `.md`): 32 lowercase hex characters plus a trailing
 newline, generated and kept in sync by
@@ -76,7 +76,7 @@ once a translated locale gives a topic its own native-script or accented slug
 locales, and the peer id is what resolves "this page, in locale X" instead.
 `tests/validate.py` checks that every content file has a well-formed,
 matching peer id in every locale; run `tools/gen_locale_peer_ids.py` after
-adding a chapter, before `just test`.
+adding a topic, before `just test`.
 
 ## Translated locales
 
@@ -89,7 +89,7 @@ Portuguese, Portugal (`pt-pt`), Japanese, Japan (`ja-jp`), Russian,
 Russia (`ru-ru`), French, France (`fr-fr`), Swedish, Sweden
 (`sv-se`), Dutch, Netherlands (`nl-nl`), Welsh, Great Britain
 (`cy-gb`), Arabic (`ar-001`), Bengali (`bn-001`), French (`fr-001`), Russian
-(`ru-001`), and Chinese (`zh-001`), each with all 63 chapters and a `locales/<code>/topics/` directory on disk.
+(`ru-001`), and Chinese (`zh-001`), each with all 63 topics and a `locales/<code>/topics/` directory on disk.
 `cy-gb` is identical in content to `cy-001`, `ar-001` to `ar-eg`, and
 `bn-001` to `bn-bd`, `fr-001` to `fr-fr`, `ru-001` to `ru-ru`, and
 `zh-001` to `zh-cn` (none has country-specific usage to remove), each with the same relationship as
@@ -129,7 +129,7 @@ on); `es-001` also translates `examples` to `ejemplos/`. The section keys
 canonical identifiers: the tools read the real directory through
 `tools/section_names.py`, and the site keeps its canonical names and URLs by
 mapping the directories (and relative links) back in
-`scripts/sync-content.mjs`. Chapter filenames and the book's prose are
+`scripts/sync-content.mjs`. Topic filenames and the book's prose are
 unchanged.
 
 ## Planned translated locales

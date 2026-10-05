@@ -2,9 +2,9 @@
 
 ## Översikt och motivation
 
-**Funktionsadoption** mäter om människorna en funktion byggdes för faktiskt använder den, i vilken takt, och om den användningen kvarstår över tid. Det är, i en mycket direkt mening, verklighetskontrollen på allt del 2 till 4 av den här boken mäter: en organisation kan driftsätta frekvent, upprätthålla utmärkt utvecklarupplevelse, och leverera fläckfritt testad kod, och fortfarande bygga saker ingen vill ha. Adoptionsdata är där en ingenjörsorganisation får reda på om dess output kopplade till något verkligt utfall alls, vilket exakt är insats-output-utfall-distinktionen kapitel 1.3 introducerade tillämpad på det mest konkreta fallet i den här boken: en specifik, levererad funktion.
+**Funktionsadoption** mäter om människorna en funktion byggdes för faktiskt använder den, i vilken takt, och om den användningen kvarstår över tid. Det är, i en mycket direkt mening, verklighetskontrollen på allt del 2 till 4 av den här boken mäter: en organisation kan driftsätta frekvent, upprätthålla utmärkt utvecklarupplevelse, och leverera fläckfritt testad kod, och fortfarande bygga saker ingen vill ha. Adoptionsdata är där en ingenjörsorganisation får reda på om dess output kopplade till något verkligt utfall alls, vilket exakt är insats-output-utfall-distinktionen ämne 1.3 introducerade tillämpad på det mest konkreta fallet i den här boken: en specifik, levererad funktion.
 
-Det här kapitlets centrala angelägenhet är att adoptionsdata, mer än nästan någon annan mätetalsfamilj i den här boken, är lätt att mäta på ett sätt som smickrar snarare än informerar. En funktion kan visa imponerande initial adoption rent från nyfikenhet eller tvingad exponering (en modal som dyker upp oavsett om en användare vill det eller inte) medan genuin, upprätthållen värdeleverans, mätt av om människor fortsätter använda den när nyheten avtar, berättar en helt annan historia. Att skilja genuin adoption från en tillfällig spik är det här kapitlets kärntekniska utmaning, och att få det fel leder rutinmässigt organisationer att fira funktioner som tyst misslyckas och överge sådana som precis hade börjat hitta sin publik.
+Det här ämnets centrala angelägenhet är att adoptionsdata, mer än nästan någon annan mätetalsfamilj i den här boken, är lätt att mäta på ett sätt som smickrar snarare än informerar. En funktion kan visa imponerande initial adoption rent från nyfikenhet eller tvingad exponering (en modal som dyker upp oavsett om en användare vill det eller inte) medan genuin, upprätthållen värdeleverans, mätt av om människor fortsätter använda den när nyheten avtar, berättar en helt annan historia. Att skilja genuin adoption från en tillfällig spik är det här ämnets kärntekniska utmaning, och att få det fel leder rutinmässigt organisationer att fira funktioner som tyst misslyckas och överge sådana som precis hade börjat hitta sin publik.
 
 För stora team är funktionsadoptionsdata vad som gör färdplansprioritering evidensbaserad snarare än driven av vem som förespråkar mest övertygande för sitt eget teams arbete. Stora företag som hanterar stora produktportföljer behöver adoptionsdata för att identifiera vilka investeringar som förtjänar sin plats; myndigheter som bygger medborgarvända digitala tjänster behöver den för att visa att offentlig investering översattes till verklig offentlig nytta, inte bara tjänster som tekniskt existerar.
 
@@ -32,7 +32,7 @@ Ett lågt adoptionstal har flera möjliga orsaker som kräver mycket olika svar:
 
 ### Bevaka adoption uppblåst av tvingad exponering eller [mörka mönster](https://en.wikipedia.org/wiki/Dark_pattern)
 
-Ett adoptionstal drivet av att en funktion är svår att undvika, ett påträngande introduktionsflöde, en modal en användare måste avfärda, en standard som är svår att ändra, mäter inte genuin värdeleverans, och att fira det som om det var det upprepar kapitel 1.2:s substitutionsmanipulationsmönster i produktform. Para råa adoptionstal med en nöjdhets- eller Net Promoter-liknande signal för den specifika funktionen där möjligt, så tvingad exponering som inte översätts till genuin nöjdhet fångas snarare än firas.
+Ett adoptionstal drivet av att en funktion är svår att undvika, ett påträngande introduktionsflöde, en modal en användare måste avfärda, en standard som är svår att ändra, mäter inte genuin värdeleverans, och att fira det som om det var det upprepar ämne 1.2:s substitutionsmanipulationsmönster i produktform. Para råa adoptionstal med en nöjdhets- eller Net Promoter-liknande signal för den specifika funktionen där möjligt, så tvingad exponering som inte översätts till genuin nöjdhet fångas snarare än firas.
 
 ### Koppla adoptionstrender tillbaka till specifika produkt- och ingenjörsbeslut
 
@@ -51,7 +51,7 @@ Den centrala spänningen är **hastighet kontra ärlighet**. Initial provningsda
 
 ## Frågor att diskutera med ditt team
 
-1. **För vår senast levererade funktion, vet vi initial provning och upprätthållen användning separat, eller bara ett enda kombinerat tal?** Om bara ett kombinerat tal existerar döljer det gapet exakt nyfikenhet-kontra-värde-distinktionen det här kapitlet behandlar som central.
+1. **För vår senast levererade funktion, vet vi initial provning och upprätthållen användning separat, eller bara ett enda kombinerat tal?** Om bara ett kombinerat tal existerar döljer det gapet exakt nyfikenhet-kontra-värde-distinktionen det här ämnet behandlar som central.
 
 2. **Definierades vår målpublik för den här funktionen explicit innan lansering, och mäter vi adoption mot den specifika gruppen?** Kontrollera om er nuvarande adoptionsnämnare matchar vem funktionen faktiskt byggdes för, eller om den är utspädd genom mätning mot en irrelevant bredare population.
 
@@ -90,7 +90,7 @@ Den totala ägandekostnaden är mestadels analysinstrumentering, vanligtvis reda
 - **Att bara rapportera initial provning, aldrig retention:** kan inte skilja nyfikenhet eller tvingad exponering från genuint, varaktigt värde.
 - **Att mäta adoption mot fel nämnare:** späder ut eller blåser upp signalen för funktioner riktade mot ett specifikt publiksegment.
 - **Att dra slutsatsen att en funktion misslyckades utan att undersöka den specifika orsaken** till låg adoption: riskerar att överge en genuint värdefull men dåligt upptäckt eller dåligt tajmad funktion.
-- **Att fira adoption uppblåst av tvingad exponering eller mörka mönster:** en produktsidesinstans av kapitel 1.2:s substitutionsmanipulation.
+- **Att fira adoption uppblåst av tvingad exponering eller mörka mönster:** en produktsidesinstans av ämne 1.2:s substitutionsmanipulation.
 - **Att aldrig spåra adoptionsrörelse tillbaka till specifika beslut:** begränsar organisatoriskt lärande från organisationens egen data.
 - **Att spåra användning utan någon parad nöjdhetssignal:** missar fallet där hög användning samexisterar med lågt genuint värde eller nöjdhet.
 

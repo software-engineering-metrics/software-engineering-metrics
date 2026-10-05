@@ -11,10 +11,10 @@ rhyddhau cod wedi'i brofi'n ddigymar, a dal i fod yn adeiladu pethau
 nad oes neb eu heisiau. Data mabwysiad yw lle mae sefydliad peirianneg
 yn darganfod a wnaeth ei allbwn gysylltu ag unrhyw ganlyniad
 gwirioneddol o gwbl, sef union y gwahaniaeth mewnbwn-allbwn-canlyniad y
-mae pennod 1.3 wedi'i gyflwyno wedi'i gymhwyso i'r achos mwyaf concrid
+mae pwnc 1.3 wedi'i gyflwyno wedi'i gymhwyso i'r achos mwyaf concrid
 yn y llyfr hwn: nodwedd benodol, a ryddhawyd.
 
-Pryder canolog y bennod hon yw bod data mabwysiad, yn fwy nag bron
+Pryder canolog y pwnc hwn yw bod data mabwysiad, yn fwy nag bron
 unrhyw deulu metrig arall yn y llyfr hwn, yn hawdd ei fesur mewn ffordd
 sy'n gwneud iddo edrych yn well yn hytrach na hysbysu. Gall nodwedd
 ddangos mabwysiad cychwynnol trawiadol yn bur o chwilfrydedd neu
@@ -22,7 +22,7 @@ amlygiad gorfodol (modal sy'n ymddangos boed defnyddiwr ei eisiau ai
 peidio) tra bo cyflenwi gwerth gwirioneddol, parhaus, wedi'i fesur gan a
 yw pobl yn parhau i'w defnyddio unwaith y bydd y newydd-deb yn pylu, yn
 dweud stori gwbl wahanol. Gwahaniaethu mabwysiad gwirioneddol o bigyn
-dros dro yw her dechnegol graidd y bennod hon, ac mae cael hyn yn
+dros dro yw her dechnegol graidd y pwnc hwn, ac mae cael hyn yn
 anghywir yn arwain sefydliadau'n rheolaidd i ddathlu nodweddion sy'n
 methu'n dawel ac i roi'r gorau i rai a oedd newydd ddechrau dod o hyd
 i'w cynulleidfa.
@@ -96,7 +96,7 @@ ymhellach, ailddylunio, neu ddiddymu.
 Nid yw rhif mabwysiad wedi'i yrru gan nodwedd yn anodd ei hosgoi,
 llif cynefino ymwthiol, modal y mae'n rhaid i ddefnyddiwr ei ddiystyru,
 diofyn sy'n anodd ei newid, yn mesur cyflenwi gwerth gwirioneddol, ac
-mae ei ddathlu fel petai'n un yn ailadrodd patrwm twyllo-amnewid pennod
+mae ei ddathlu fel petai'n un yn ailadrodd patrwm twyllo-amnewid pwnc
 1.2 ar ffurf cynnyrch. Parejwch rifau mabwysiad crai â signal boddhad
 neu arddull Net Promoter ar gyfer y nodwedd benodol lle bo'n ymarferol,
 fel bod amlygiad gorfodol nad yw'n trosi'n foddhad gwirioneddol yn
@@ -138,7 +138,7 @@ ddod i'r amlwg.
    cynnig cychwynnol a defnydd wedi'i gadw ar wahân, neu dim ond un
    rhif cyfunol?** Os dim ond rhif cyfunol sy'n bodoli, mae'r bwlch
    hwnnw'n cuddio union y gwahaniaeth chwilfrydedd-yn-erbyn-gwerth y
-   mae'r bennod hon yn ei drin fel un canolog.
+   mae'r pwnc hwn yn ei drin fel un canolog.
 
 2. **A gafodd ein cynulleidfa darged ar gyfer y nodwedd hon ei diffinio'n
    benodol cyn lansio, ac a ydym yn mesur mabwysiad yn erbyn y grŵp
@@ -263,7 +263,7 @@ ai lwyddiant ffug neu fethiant ffug.
   penodol** o fabwysiad isel: yn peryglu diddymu nodwedd wirioneddol
   werthfawr ond wedi'i darganfod yn wael neu ag amseriad gwael.
 - **Dathlu mabwysiad wedi'i chwyddo gan amlygiad gorfodol neu batrymau
-  tywyll:** achos ochr-cynnyrch o dwyllo amnewid pennod 1.2.
+  tywyll:** achos ochr-cynnyrch o dwyllo amnewid pwnc 1.2.
 - **Byth yn olrhain symudiad mabwysiad yn ôl at benderfyniadau
   penodol:** yn cyfyngu ar ddysgu sefydliadol o ddata'r sefydliad ei
   hun.

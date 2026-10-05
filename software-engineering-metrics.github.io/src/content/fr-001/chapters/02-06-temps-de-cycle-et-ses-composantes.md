@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble et motivation
 
-Le **temps de cycle** est la décomposition interne du temps de flux d'un changement (chapitre 2.4) en ses étapes d'ingénierie constitutives : temps de codage, temps de revue, temps de test et temps de déploiement, parfois divisé davantage en temps de prise en charge (combien de temps un changement attend avant que quiconque ne commence à y travailler) et temps actif (combien de temps cela prend une fois que quelqu'un le fait). Là où le temps de flux vous donne un chiffre unique pour combien de temps un changement prend de bout en bout à travers tout le flux de valeur, le [temps de cycle](https://en.wikipedia.org/wiki/Cycle_time) vous dit où ce temps va réellement une fois qu'il atteint l'ingénierie, qui est la couche diagnostique que le chapitre 2.4 a promise se trouver sous son propre chiffre sommaire.
+Le **temps de cycle** est la décomposition interne du temps de flux d'un changement (sujet 2.4) en ses étapes d'ingénierie constitutives : temps de codage, temps de revue, temps de test et temps de déploiement, parfois divisé davantage en temps de prise en charge (combien de temps un changement attend avant que quiconque ne commence à y travailler) et temps actif (combien de temps cela prend une fois que quelqu'un le fait). Là où le temps de flux vous donne un chiffre unique pour combien de temps un changement prend de bout en bout à travers tout le flux de valeur, le [temps de cycle](https://en.wikipedia.org/wiki/Cycle_time) vous dit où ce temps va réellement une fois qu'il atteint l'ingénierie, qui est la couche diagnostique que le sujet 2.4 a promise se trouver sous son propre chiffre sommaire.
 
 Cette distinction importe parce que « le temps d'exécution est trop long » n'est pas actionnable en soi. Une équipe dont le temps d'exécution est dominé par le temps de codage a besoin d'une intervention différente d'une équipe dont le temps d'exécution est dominé par une file de revue de trois jours, qui a besoin encore d'une intervention différente d'une équipe perdant la plupart de son temps à une suite de tests lente et instable. Sans décomposition du temps de cycle, les équipes tendent à deviner le goulot d'étranglement, et la supposition est fausse assez souvent pour que corriger la mauvaise étape gaspille un effort réel pendant que la contrainte réelle reste intouchée.
 
@@ -11,16 +11,16 @@ Pour les grandes équipes, la décomposition du temps de cycle est ce qui transf
 ## Principes clés
 
 - **Le temps de cycle explique le temps d'exécution ; il ne le remplace pas.** Rapportez les deux ensemble, avec le temps de cycle comme diagnostic et le temps d'exécution comme résumé.
-- **Le temps d'attente domine généralement le temps actif.** La plupart du délai dans la livraison de logiciel vient du travail restant inactif dans une file, pas de l'effort actif (le chapitre 2.5 couvre cela directement à travers l'efficacité de flux).
+- **Le temps d'attente domine généralement le temps actif.** La plupart du délai dans la livraison de logiciel vient du travail restant inactif dans une file, pas de l'effort actif (le sujet 2.5 couvre cela directement à travers l'efficacité de flux).
 - **Décomposez par étape avant de proposer une correction.** Une correction visant la mauvaise étape gaspille un effort et peut démoraliser une équipe à qui on demande de « travailler plus vite » alors que le vrai goulot d'étranglement était ailleurs.
 - **Un goulot d'étranglement partagé à travers de nombreuses équipes est une opportunité d'investissement de plateforme,** pas seulement une série de problèmes d'équipes individuelles.
-- **Les données de temps de cycle sont exposées aux mêmes risques de manipulation que le temps de flux** (chapitre 2.4) : surveillez les limites d'étapes qui changent tranquillement pour flatter un chiffre.
+- **Les données de temps de cycle sont exposées aux mêmes risques de manipulation que le temps de flux** (sujet 2.4) : surveillez les limites d'étapes qui changent tranquillement pour flatter un chiffre.
 
 ## Recommandations
 
 ### Instrumentez chaque limite d'étape explicitement
 
-Décomposez le parcours d'un changement en étapes nommées avec des limites claires et instrumentables : codage (premier commit jusqu'à l'ouverture de la demande de tirage), prise en charge (ouverture de la demande de tirage jusqu'à la première revue), revue (première revue jusqu'à l'approbation), et déploiement (approbation jusqu'à la production). Capturez les horodatages pour chaque transition automatiquement depuis les événements de contrôle de version et de CI/CD, pas depuis un suivi d'étape auto-déclaré, appliquant le même principe d'instrumentation-plutôt-qu'auto-déclaration du chapitre 1.5.
+Décomposez le parcours d'un changement en étapes nommées avec des limites claires et instrumentables : codage (premier commit jusqu'à l'ouverture de la demande de tirage), prise en charge (ouverture de la demande de tirage jusqu'à la première revue), revue (première revue jusqu'à l'approbation), et déploiement (approbation jusqu'à la production). Capturez les horodatages pour chaque transition automatiquement depuis les événements de contrôle de version et de CI/CD, pas depuis un suivi d'étape auto-déclaré, appliquant le même principe d'instrumentation-plutôt-qu'auto-déclaration du sujet 1.5.
 
 ### Séparez le temps d'attente du temps actif au sein de chaque étape
 
@@ -36,7 +36,7 @@ Plutôt qu'une cible unique « réduire le temps d'exécution de 20 % », qui ne
 
 ### Surveillez la manipulation des limites d'étapes
 
-Tout comme les points de départ et de fin du temps de flux peuvent dériver (chapitre 2.4), les limites d'étapes individuelles de temps de cycle peuvent changer de manières qui flattent le chiffre d'une étape spécifique sans aucune véritable amélioration, par exemple, marquer une revue « commencée » au moment où un réviseur est assigné plutôt que quand il commence réellement à lire le changement. Auditez périodiquement l'instrumentation des limites d'étapes contre sa définition documentée.
+Tout comme les points de départ et de fin du temps de flux peuvent dériver (sujet 2.4), les limites d'étapes individuelles de temps de cycle peuvent changer de manières qui flattent le chiffre d'une étape spécifique sans aucune véritable amélioration, par exemple, marquer une revue « commencée » au moment où un réviseur est assigné plutôt que quand il commence réellement à lire le changement. Auditez périodiquement l'instrumentation des limites d'étapes contre sa définition documentée.
 
 ## Compromis : avantages et inconvénients
 
@@ -59,7 +59,7 @@ La tension centrale est **précision diagnostique contre coût d'instrumentation
 
 4. **Avons-nous établi des cibles d'amélioration spécifiques à l'étape, ou seulement une cible globale unique de temps d'exécution sans orientation sur où se concentrer ?** Une cible vague laisse une équipe deviner où investir l'effort ; une cible spécifique à l'étape non. Vérifiez vos objectifs actuels contre cette distinction.
 
-5. **Une limite d'étape de temps de cycle dans notre instrumentation a-t-elle déjà dérivé de sa définition documentée dans le temps ?** Les limites d'étapes sont exposées au même risque de dérive définitionnelle que le temps de flux lui-même (chapitre 2.4). Auditez un échantillon d'événements de transition d'étape récents contre la définition écrite.
+5. **Une limite d'étape de temps de cycle dans notre instrumentation a-t-elle déjà dérivé de sa définition documentée dans le temps ?** Les limites d'étapes sont exposées au même risque de dérive définitionnelle que le temps de flux lui-même (sujet 2.4). Auditez un échantillon d'événements de transition d'étape récents contre la définition écrite.
 
 6. **Comment une culture centrée sur la revue contre une culture centrée sur la confiance se manifeste-t-elle différemment dans nos données de temps de cycle ?** Une équipe avec une revue très approfondie et à plusieurs tours montrera un temps d'étape de revue plus long qu'une équipe qui fait confiance aux fusions à approbation unique ; discutez si votre équilibre actuel reflète un choix délibéré ou un défaut non examiné.
 
@@ -88,7 +88,7 @@ Le coût total de possession est l'effort d'instrumentation pour capturer fiable
 ## Antipatrons et pièges
 
 - **Réagir à une régression de temps d'exécution sans diagnostic de temps de cycle :** mène fréquemment à corriger la mauvaise étape.
-- **Supposer que l'effort actif, pas le temps d'attente, est le coût dominant :** généralement faux ; la mise en file domine dans la plupart des pipelines de livraison réels (chapitre 2.5).
+- **Supposer que l'effort actif, pas le temps d'attente, est le coût dominant :** généralement faux ; la mise en file domine dans la plupart des pipelines de livraison réels (sujet 2.5).
 - **Manquer un goulot d'étranglement partagé inter-équipes en ne revoyant le temps de cycle qu'équipe par équipe :** laisse une correction de plateforme à fort effet de levier non découverte.
 - **Établir une cible globale vague de temps d'exécution sans orientation spécifique à l'étape :** laisse les équipes deviner où concentrer l'effort.
 - **Dérive définitionnelle des limites d'étapes :** flatte le chiffre d'une étape spécifique sans véritable amélioration.
@@ -113,11 +113,11 @@ Le coût total de possession est l'effort d'instrumentation pour capturer fiable
 ## Points clés à retenir
 
 - Le temps de cycle **décompose le temps de flux** en étapes d'ingénierie, codage, revue, test, déploiement, et est la couche diagnostique sous ce chiffre sommaire.
-- Séparez le **temps d'attente du temps actif** au sein de chaque étape ; la mise en file domine généralement l'effort actif (chapitre 2.5).
+- Séparez le **temps d'attente du temps actif** au sein de chaque étape ; la mise en file domine généralement l'effort actif (sujet 2.5).
 - Cherchez les **goulots d'étranglement partagés à travers les équipes** avant de supposer qu'un ralentissement est spécifique à une équipe ; une cause partagée est souvent une opportunité d'investissement de plateforme.
 - Établissez des **cibles d'amélioration spécifiques à l'étape**, pas des objectifs globaux vagues, pour que les équipes sachent exactement où se concentrer.
 - Les limites d'étapes sont exposées au même risque de **dérive définitionnelle** que le temps de flux lui-même ; auditez-les périodiquement.
-- Le chapitre 2.7 donne les mathématiques sous-jacentes, la loi de Little, pour pourquoi le travail en cours et le temps de cycle bougent ensemble.
+- Le sujet 2.7 donne les mathématiques sous-jacentes, la loi de Little, pour pourquoi le travail en cours et le temps de cycle bougent ensemble.
 
 ## Sources et lectures complémentaires
 

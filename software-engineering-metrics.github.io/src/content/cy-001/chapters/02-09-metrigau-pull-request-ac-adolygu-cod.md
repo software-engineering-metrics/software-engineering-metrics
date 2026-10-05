@@ -3,21 +3,21 @@
 ## Trosolwg a chymhelliant
 
 Fel arfer **[adolygu cod](https://en.wikipedia.org/wiki/Code_review)** yw'r
-cyfrannwr amser-aros mwyaf sengl o fewn dadansoddiad amser cylch pennod
+cyfrannwr amser-aros mwyaf sengl o fewn dadansoddiad amser cylch pwnc
 2.6, ac ef hefyd yw'r cam sydd fwyaf uniongyrchol o dan reolaeth tîm ei
 hun i'w wella, yn wahanol i dagfa platfform a rennir neu ddibyniaeth
-allanol. Mae'r bennod hon yn ymdrin â'r metrigau penodol sy'n byw o fewn
+allanol. Mae'r pwnc hwn yn ymdrin â'r metrigau penodol sy'n byw o fewn
 cam yr adolygu: amser i'r adolygiad cyntaf, maint pull request, cyfrif
 ailadroddiadau adolygu, a dosbarthiad llwyth adolygwyr, a sut i'w
 defnyddio i wella cyflymder adolygu heb aberthu'r budd ansawdd
 gwirioneddol y mae adolygu i fod i'w ddarparu.
 
-Y perygl y mae'r bennod hon fwyaf effro iddo yw un nad yw'r llyfr hwn
+Y perygl y mae'r pwnc hwn fwyaf effro iddo yw un nad yw'r llyfr hwn
 wedi'i drafod yn uniongyrchol eto: gall optimeiddio cyflymder adolygu
 erydu ansawdd adolygu'n dawel os dilynir yn ddiofal. Mae tîm sy'n haneru
 ei amser-i'r-adolygiad-cyntaf trwy gymeradwyo popeth â stamp rwber wedi
 gwella metrig tra'n dinistrio gwerth gwirioneddol yr arfer. Mae pob
-argymhelliad yn y bennod hon wedi'i ysgrifennu â'r cyfaddawd hwnnw mewn
+argymhelliad yn y pwnc hwn wedi'i ysgrifennu â'r cyfaddawd hwnnw mewn
 golwg, oherwydd mae metrigau pull request ymhlith y rhai haws yn y llyfr
 hwn i'w twyllo mewn ffordd sy'n edrych yn dda ar ddangosfwrdd tra'n
 gwneud y sylfaen cod sylfaenol yn wirioneddol waeth.
@@ -56,7 +56,7 @@ heb angen metrig i'w ddatgelu.
 Mesurwch y cyfnod o pull request yn agor hyd sylw sylweddol cyntaf
 adolygwr neu gymeradwyaeth, wedi'i offeryno'n awtomatig o'ch platfform
 rheoli fersiwn. Dyma fel arfer y cyfrannwr amser-aros dominyddol o fewn
-cam yr adolygu (pennod 2.5, pennod 2.6), ac mae ei wella, trwy normau
+cam yr adolygu (pwnc 2.5, pwnc 2.6), ac mae ei wella, trwy normau
 neilltuo-adolygu cliriach, arferion hysbysu, neu flociau amser adolygu
 penodedig, fel arfer yn cynhyrchu'r gwelliant sengl mwyaf sydd ar gael i
 dîm i amser cylch cyffredinol.
@@ -69,7 +69,7 @@ werth ei drafod yn uniongyrchol. Mae pull requests llai'n cael eu
 hadolygu'n gyflymach, eu hadolygu'n fwy trylwyr (gall adolygwr ddal y
 newid cyfan yn ei ben mewn gwirionedd), ac yn haws eu dadwneud os aiff
 rhywbeth o'i le, gan gysylltu'n uniongyrchol yn ôl â'r egwyddor
-maint-swp y tu ôl i amledd defnyddio ym mhennod 2.10. Anogwch hollti
+maint-swp y tu ôl i amledd defnyddio ym mhwnc 2.10. Anogwch hollti
 newidiadau mawr yn ddilyniant o pull requests llai, adolygadwy'n
 annibynnol lle bynnag y mae'r gwaith yn caniatáu hynny.
 
@@ -80,7 +80,7 @@ dreigl, a gwyliwch yn benodol am nifer fach o bobl yn amsugno cyfran
 anghymesur. Mae'r patrwm hwn yn gyffredin, yn aml yn disgyn ar y
 peirianwyr mwyaf profiadol neu ymddiriedol, ac yn creu tagfa (mae eu
 argaeledd yn capio trwybwn adolygu'r tîm cyfan) a pherygl llosgi allan
-(mae pennod 3.2 yn ymdrin â metrigau lles yn fwy manwl) fel ei gilydd.
+(mae pwnc 3.2 yn ymdrin â metrigau lles yn fwy manwl) fel ei gilydd.
 Cylchdrowch gyfrifoldeb adolygu'n fwriadol yn hytrach na gadael iddo
 grynhoi'n ddiofal o gwmpas pwy bynnag sydd gyflymaf i ymateb.
 
@@ -91,7 +91,7 @@ neu ddigwyddiadau a olrheiniwyd yn ôl i newidiadau a gymeradwywyd heb
 unrhyw sylwadau adolygu, neu gyfradd trwsiadau ôl-uno sydd eu hangen ar
 gyfer cod a adolygwyd yn ddiweddar. Dylai tîm sy'n gwella cyflymder
 adolygu trwy gymeradwyo heb wir graffu weld y gledr ddiogelwch hon yn
-dirywio, sef union yr egwyddor parejo o bennod 1.2 wedi'i chymhwyso i'r
+dirywio, sef union yr egwyddor parejo o bwnc 1.2 wedi'i chymhwyso i'r
 teulu metrig penodol hwn. Peidiwch byth â mynd ar drywydd cyflymder
 adolygu heb y gwrth-fetrig hwn mewn golwg.
 
@@ -103,7 +103,7 @@ ddull, disgwyliadau arddull anghyson, sy'n werth eu harchwilio ar lefel
 y broses. Osgowch ddefnyddio'r rhif hwn i farnu awduron neu adolygwyr
 unigol yn uniongyrchol; mae cyfrif ailadrodd uchel yn amlach yn signal
 system neu gyfathrebu na signal personol, ac mae ei drin fel cerdyn
-sgorio unigol yn peryglu union y drifft gwerthuso y mae pennod 1.1 yn
+sgorio unigol yn peryglu union y drifft gwerthuso y mae pwnc 1.1 yn
 rhybuddio yn ei erbyn.
 
 ## Cyfaddawdau: manteision ac anfanteision
@@ -116,10 +116,10 @@ rhybuddio yn ei erbyn.
 | Crynhoi adolygu ymhlith peirianwyr uwch | Arbenigedd parth dwfn wedi'i gymhwyso'n gyson | Yn creu tagfa a pherygl llosgi allan dros amser |
 
 Y tensiwn canolog yw **cyflymder yn erbyn dyfnder graffu**. Mae pob
-techneg yn y bennod hon ar gyfer cyflymu adolygu, ymateb cyntaf
+techneg yn y pwnc hwn ar gyfer cyflymu adolygu, ymateb cyntaf
 cyflymach, pull requests llai, llwyth adolygwyr mwy dosbarthedig, yn
 cario rhywfaint o berygl o fasnachu gwir graffu i ffwrdd os dilynir heb
-gledr ddiogelwch ansawdd y mae'r bennod hon yn ei hargymell. Datryswch y
+gledr ddiogelwch ansawdd y mae'r pwnc hwn yn ei hargymell. Datryswch y
 tensiwn trwy barejo pob metrig cyflymder â signal ansawdd, wedi'i
 olrhain dros yr un cyfnod, fel y gall tîm wahaniaethu gwelliant proses
 gwirioneddol oddi wrth safon adolygu sy'n erydu'n dawel.
@@ -148,7 +148,7 @@ gwirioneddol oddi wrth safon adolygu sy'n erydu'n dawel.
 
 4. **A ydym erioed wedi gwella metrig cyflymder-adolygu mewn ffordd a
    leihaodd, o edrych yn ôl, wir graffu?** Byddwch yn onest yma; dyma
-   union y perygl stamp-rwber y mae'r bennod hon yn ei enwi, ac mae'n
+   union y perygl stamp-rwber y mae'r pwnc hwn yn ei enwi, ac mae'n
    hawdd llithro iddo heb unrhyw benderfyniad bwriadol i wneud hynny.
 
 5. **Beth fel arfer y mae cyfrif ailadrodd adolygu uchel yn ei
@@ -162,7 +162,7 @@ gwirioneddol oddi wrth safon adolygu sy'n erydu'n dawel.
    cyflymder-adolygu, neu a ydym yn olrhain cyflymder ar wahân?** Os
    yw'r ateb gonest yn nodi nad oes cledr ddiogelwch o'r fath yn
    bodoli, mae hynny'n fwlch sy'n werth ei gau cyn gwthio cyflymder
-   adolygu ymhellach, yn ôl egwyddor parejo pennod 1.2.
+   adolygu ymhellach, yn ôl egwyddor parejo pwnc 1.2.
 
 ## Golwg sector
 
@@ -203,7 +203,7 @@ cod ar draws sefydliad dau gant o bobl, anghydbwysedd na wnaeth neb ei
 fesur yn uniongyrchol tan i ddata llwyth-adolygwr gael ei dynnu. Roedd y
 crynhoad hwn yn dagfa, gan fod argaeledd y peirianwyr hynny'n capio
 trwybwn adolygu ar gyfer y sefydliad cyfan, a hefyd yn berygl llosgi
-allan a nodwyd ar wahân gan arolwg ymgysylltu (pennod 3.2). Cyflwynodd
+allan a nodwyd ar wahân gan arolwg ymgysylltu (pwnc 3.2). Cyflwynodd
 y sefydliad raglen cylchdroi-adolygu strwythuredig wedi'i pharejo â
 sesiynau rhannu gwybodaeth wedi'u targedu, ac o fewn dau chwarter roedd
 llwyth adolygu wedi lledaenu ar draws grŵp llawer ehangach, gydag amser
@@ -229,7 +229,7 @@ fetrigau adolygu wedi'u rheoli'n dda, sy'n gyfuniad prin: mae'r rhan
 fwyaf o welliannau cyflenwi'n masnachu cyflymder yn erbyn perygl yn
 rhywle, ond mae gwelliannau cam-adolygu, pull requests llai, dosbarthiad
 llwyth gwell, ymateb cyntaf cyflymach, yn gwella'r ddau'n wirioneddol ar
-yr un pryd pan ddilynir gyda'r gledr ddiogelwch ansawdd y mae'r bennod
+yr un pryd pan ddilynir gyda'r gledr ddiogelwch ansawdd y mae'r pwnc
 hon yn ei hargymell. Mae'r enghraifft seiberddiogelwch uchod yn nodweddiadol:
 gwellodd trwsio tagfa gyflymder tra bo ansawdd adolygu sylfaenol, os
 rhywbeth, wedi gwella wrth i arbenigedd ledaenu'n ehangach.

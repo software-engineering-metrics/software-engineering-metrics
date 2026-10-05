@@ -23,7 +23,7 @@ de incorporación de cambios) mientras rinde mal (el trabajo no mueve los
 resultados que importan). Un equipo puede rendir bien a corto plazo
 mientras la satisfacción se desploma, un indicador adelantado de la
 rotación y el colapso de calidad que aparecen meses después. La intuición
-de SPACE, construida directamente sobre los capítulos 1.2 y 1.3 de este
+de SPACE, construida directamente sobre los temas 1.2 y 1.3 de este
 libro, es que cualquiera de estas dimensiones, perseguida como objetivo
 aislado, se manipulará a expensas de las demás, y el marco existe
 específicamente para hacer visible esa compensación antes de que cause un
@@ -65,8 +65,8 @@ mucho más de lo que jamás ahorró la producción de un solo sprint.
 No adoptes SPACE eligiendo una única dimensión favorita, normalmente
 actividad o rendimiento, y dándolo por terminado. Selecciona
 deliberadamente al menos una métrica de al menos tres de las cinco
-dimensiones, mezclando instrumentación objetiva (capítulo 1.5) con datos de
-encuesta subjetivos (capítulo 3.7), antes de presentar cualquier conclusión
+dimensiones, mezclando instrumentación objetiva (tema 1.5) con datos de
+encuesta subjetivos (tema 3.7), antes de presentar cualquier conclusión
 sobre la productividad del equipo. Esta composición mínima es lo que evita
 que SPACE colapse de vuelta al problema del indicador único que se diseñó
 para resolver.
@@ -80,7 +80,7 @@ principal o única presentada sobre la productividad de un equipo. Usa los
 datos de actividad para dar contexto a las otras dimensiones, por ejemplo
 notando que una caída en la actividad coincidió con una subida en la
 satisfacción porque el equipo por fin tuvo margen para pagar deuda técnica,
-en lugar de como un veredicto independiente. El capítulo 3.4 cubre en
+en lugar de como un veredicto independiente. El tema 3.4 cubre en
 profundidad los riesgos específicos de esta dimensión.
 
 ### Aplica SPACE a nivel de equipo y de sistema, no a nivel individual
@@ -90,7 +90,7 @@ industria tratan el marco como una lente para entender la productividad a
 nivel de equipo y organizacional, no como un marcador de rendimiento
 individual. Aplicar las dimensiones de SPACE para clasificar a personas,
 especialmente la dimensión de actividad, recrea precisamente el riesgo de
-manipulación contra el que advierte el capítulo 1.2 y malinterpreta un
+manipulación contra el que advierte el tema 1.2 y malinterpreta un
 marco que nunca se validó para ese uso.
 
 ### Vigila las compensaciones entre dimensiones, no solo el movimiento dentro de una
@@ -184,7 +184,7 @@ actividad a medida que el equipo empieza a crecer más allá del tamaño en
 que la conciencia informal lo cubre todo.
 
 **Pequeña empresa.** Sin una función dedicada de analítica de personas,
-mantenlo simple: empareja los datos de entrega que ya tengas (capítulo
+mantenlo simple: empareja los datos de entrega que ya tengas (tema
 2.10) con una revisión regular, breve e informal de la satisfacción,
 incluso una simple encuesta de pulso de una pregunta. Ese emparejamiento
 mínimo ya captura la disciplina central del marco mucho mejor que un
@@ -195,7 +195,7 @@ complejidad. Estandariza un conjunto equilibrado de métricas SPACE entre
 equipos para que el liderazgo pueda comparar la productividad de forma
 justa en lugar de recurrir por defecto al equipo con el gráfico de commits
 de aspecto más impresionante, e invierte en la infraestructura de
-encuestas que cubre el capítulo 3.7 para hacer que los datos de
+encuestas que cubre el tema 3.7 para hacer que los datos de
 satisfacción y colaboración sean tan fiables como la instrumentación
 objetiva.
 
@@ -215,13 +215,13 @@ inmediato.
 había estado rastreando durante años el recuento de commits y los puntos de
 historia completados como su señal principal de productividad. Después de
 adoptar un conjunto de métricas SPACE más completo, incluyendo una encuesta
-de satisfacción trimestral y un análisis de red de colaboración (capítulo
+de satisfacción trimestral y un análisis de red de colaboración (tema
 3.5), el liderazgo descubrió que el equipo con los números de actividad más
 altos también tenía las puntuaciones de satisfacción más bajas y la tasa
 más alta de rotación voluntaria durante el año siguiente. Los números de
 actividad por sí solos habían estado engañando activamente; la imagen más
 completa llevó a una reducción deliberada de la carga de trabajo
-concurrente de ese equipo (el principio de trabajo en curso del capítulo
+concurrente de ese equipo (el principio de trabajo en curso del tema
 2.5 aplicado a nivel humano) y a una recuperación medible tanto en la
 satisfacción como, eventualmente, en un rendimiento sostenible.
 
@@ -231,7 +231,7 @@ igualar, adoptó un conjunto equilibrado de métricas SPACE específicamente
 para argumentar a favor de inversiones de retención no monetarias: mejores
 herramientas, tiempo de concentración protegido y menor fricción de
 proceso. Los datos de la encuesta de satisfacción combinados con las
-métricas de eficiencia y flujo (capítulo 3.6) mostraron que la frecuencia
+métricas de eficiencia y flujo (tema 3.6) mostraron que la frecuencia
 de interrupciones, no la compensación, era el predictor más fuerte de la
 intención de marcharse en los datos de las entrevistas de salida. La
 inversión posterior de la agencia en una política de tiempo de
@@ -251,7 +251,7 @@ cualquier ganancia de productividad que el conjunto de métricas estrecho
 pareciera mostrar alguna vez.
 
 El coste total de propiedad incluye la infraestructura de encuestas
-(capítulo 3.7) y la disciplina de revisar las cinco dimensiones juntas en
+(tema 3.7) y la disciplina de revisar las cinco dimensiones juntas en
 lugar de recurrir por defecto a la que resulte más fácil. Ese coste merece
 la pena genuinamente: el ejemplo de la empresa grande de arriba muestra un
 patrón real y detectable, alta actividad ocultando un alto riesgo de
@@ -315,7 +315,7 @@ luz hasta que el daño ya estuviera hecho.
 - Construye un conjunto de métricas a partir de **al menos tres
   dimensiones**, mezclando fuentes de datos objetivas y subjetivas.
 - Trata las **métricas de actividad como contexto**, nunca como la señal
-  de productividad principal (capítulo 3.4).
+  de productividad principal (tema 3.4).
 - Aplica SPACE a **nivel de equipo y de sistema**, no como marcador
   individual.
 - Revisa las dimensiones juntas, vigilando las **compensaciones entre

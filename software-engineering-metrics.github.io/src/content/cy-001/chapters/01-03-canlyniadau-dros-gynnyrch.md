@@ -16,7 +16,7 @@ yn gyfan gwbl o fewn rheolaeth tîm. Mae'r gwerth, bron bob amser, yn byw
 mewn canlyniadau, sy'n arafach i ymddangos, yn fwy swnllyd i'w mesur, ac yn
 anos eu priodoli i waith unrhyw un tîm.
 
-Mae'r bennod hon yn ymwneud â gwrthsefyll y disgyrchiant hwnnw'n fwriadol.
+Mae'r pwnc hwn yn ymwneud â gwrthsefyll y disgyrchiant hwnnw'n fwriadol.
 Gall dangosfwrdd wedi'i adeiladu'n gyfan gwbl o fewnbynnau a chynnyrch
 edrych yn drawiadol o brysur tra na wneir unrhyw werth gwirioneddol o gwbl:
 gall tîm gyflenwi dwsinau o nodweddion nad oes neb yn eu defnyddio, cau

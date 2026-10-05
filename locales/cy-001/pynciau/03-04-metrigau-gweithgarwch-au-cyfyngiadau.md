@@ -2,7 +2,7 @@
 
 ## Trosolwg a chymhelliant
 
-Mae **Gweithgarwch**, yr A yn SPACE (pennod 3.1), yn cyfrif cyfaint y
+Mae **Gweithgarwch**, yr A yn SPACE (pwnc 3.1), yn cyfrif cyfaint y
 gwaith peirianneg y gellir ei arsylwi o delemetreg system: ymrwymiadau,
 pull requests wedi'u hagor, llinellau o god wedi'u newid, sylwadau
 adolygu cod a adawyd. Dyma'r dimensiwn SPACE hawsaf i'w fesur, gan fod
@@ -18,7 +18,7 @@ camarweiniol yn hanes cyfan mesur
 Y broblem graidd yw bod gweithgarwch yn mesur symudiad, nid gwerth. Nid
 yw cyfrif ymrwymiad yn gwahaniaethu rhwng ymrwymiad a ddatryswyd
 problem anodd yn gain ac ymrwymiad a hollodd un newid ystyrlon yn bump
-i edrych yn fwy cynhyrchiol (twyllo amnewid pennod 1.2, wedi'i gymhwyso'n
+i edrych yn fwy cynhyrchiol (twyllo amnewid pwnc 1.2, wedi'i gymhwyso'n
 uniongyrchol i'r teulu metrig hwn). Mae llinellau o god a newidiwyd yn
 gwobrwyo geiriogrwydd dros y sgil llawer mwy gwerthfawr o ddileu cod
 diangen. Mae peiriannydd sy'n treulio diwrnod cyfan mewn myfyrdod dwfn,
@@ -31,7 +31,7 @@ I dimau mawr, mae'r demtasiwn i ddefnyddio metrigau gweithgarwch ar
 gyfer gwerthusiad unigol yn gyson ac wedi'i ddogfennu'n dda, oherwydd
 bod gweithgarwch yn hawdd ei briodoli i berson penodol ac yn hawdd ei
 gyfrifo'n awtomatig, yn wahanol i'r signalau anos, mwy gonest yn y
-dimensiynau SPACE eraill. Mae'r bennod hon yn bodoli'n benodol i enwi'r
+dimensiynau SPACE eraill. Mae'r pwnc hwn yn bodoli'n benodol i enwi'r
 demtasiwn honno a rhoi iaith a thystiolaeth i dimau ei gwrthsefyll,
 oherwydd unwaith y mae sefydliad yn dechrau graddio peirianwyr yn
 unigol yn ôl cyfrif ymrwymiad neu linellau o god, mae'r niwed i
@@ -60,12 +60,12 @@ wrthdroi.
 
 ### Peidiwch byth â graddio na gwerthuso unigolion yn ôl cyfrifon gweithgarwch crai
 
-Dyma'r rheol anoddaf, bwysicaf sengl yn y bennod hon. Ni ddylai cyfrif
+Dyma'r rheol anoddaf, bwysicaf sengl yn y pwnc hwn. Ni ddylai cyfrif
 ymrwymiad, llinellau o god, na chyfrif pull request byth ymddangos mewn
 adolygiad perfformiad unigol, graddiad cymharol, nac unrhyw gyd-destun
 lle mae cydnabyddiaeth, safle, neu enw da peiriannydd yn dibynnu ar y
 rhif. Mae hyn yn dilyn yn uniongyrchol o egwyddor amlygiad-cymhelliant
-pennod 1.2: y foment y daw gweithgarwch yn fetrig unigol wedi'i gymell,
+pwnc 1.2: y foment y daw gweithgarwch yn fetrig unigol wedi'i gymell,
 mae twyllo'n dilyn bron ar unwaith, ac mae'r ymddygiad canlyniadol,
 padio ymrwymiadau, hollti newidiadau'n ddibwys, osgoi gwaith dwfn,
 di-lachar sy'n cynhyrchu ychydig o ddigwyddiadau gweladwy, yn niweidio'r
@@ -87,7 +87,7 @@ chamarweiniol.
 
 Lle mae data gweithgarwch yn ddefnyddiol o gwbl, ffafriwch signalau wedi'u
 haddasu ar gyfer ansawdd dros gyfrifon crai: maint pull request yn
-gymharol i ddyfnder adolygu (pennod 2.9), neu gymhareb cod newydd i god
+gymharol i ddyfnder adolygu (pwnc 2.9), neu gymhareb cod newydd i god
 a ddileuwyd, a all ddatgelu a yw tîm yn cronni cymhlethdod neu'n
 symleiddio'n weithredol. Mae'r signalau wedi'u haddasu hyn yn dal yn
 ddata dimensiwn-gweithgarwch ond yn gwrthsefyll y twyllo mwyaf bras y
@@ -96,12 +96,12 @@ mae cyfrifon crai'n ei wahodd.
 ### Gwyliwch yn benodol am y patrwm twyllo-amnewid mewn data gweithgarwch
 
 Y ffordd fwyaf cyffredin y mae metrigau gweithgarwch yn cael eu twyllo
-yw union batrwm amnewid pennod 1.2: hollti gwaith gwirioneddol
+yw union batrwm amnewid pwnc 1.2: hollti gwaith gwirioneddol
 ystyrlon yn nifer o ddigwyddiadau bach, dibwys i chwyddo cyfrif. Os yw
 amlder ymrwymiad neu pull request yn codi tra bo cymhlethdod neu faint
 sylfaenol y newidiadau'n gostwng yn sydyn, archwiliwch cyn rhoi clod am
 welliant cynhyrchedd gwirioneddol, gan ddefnyddio'r un ddisgyblaeth
-ddiagnostig y mae pennod 2.10 yn ei hargymell ar gyfer amledd defnyddio.
+ddiagnostig y mae pwnc 2.10 yn ei hargymell ar gyfer amledd defnyddio.
 
 ### Enwch ac anogwch yn erbyn theatr gweithgarwch yn benodol
 
@@ -179,7 +179,7 @@ annog defnydd meddylgar, cyd-destunol lefel-tîm.
 
 **Cwmni newydd.** Gyda thîm bach, cydweithredol yn agos, mae data
 gweithgarwch fel arfer yn weladwy heb angen dangosfwrdd o gwbl, ac mae'r
-perygl graddio-unigol y mae'r bennod hon yn rhybuddio yn ei erbyn yn
+perygl graddio-unigol y mae'r pwnc hwn yn rhybuddio yn ei erbyn yn
 llai tebygol yn syml oherwydd bod pawb eisoes yn gwybod ar beth y mae
 pawb arall yn gweithio. Y perygl yn lle hynny yw sylfaenydd yn ffafrio
 ymddygiad "prysur" gweladwy yn ddiarwybod wrth wneud penderfyniadau
@@ -206,7 +206,7 @@ dyfynnu mewn adroddiad cyhoeddus fel tystiolaeth o gynhyrchedd ("deng
 mil o ymrwymiadau eleni"), ond mae'r math hwn o bennawd bron yn ddiystyr
 ac gall wahodd union y craffu anghywir unwaith y bydd adolygydd
 gwybodus yn nodi nad yw gweithgarwch crai'n dweud dim am ganlyniadau.
-Adroddwch ddata canlyniad a pherfformiad (pennod 3.3) yn lle hynny, ac
+Adroddwch ddata canlyniad a pherfformiad (pwnc 3.3) yn lle hynny, ac
 osgowch gyfrifon gweithgarwch mewn unrhyw gyfathrebu allanol-wynebedig.
 
 ## Enghreifftiau
@@ -223,7 +223,7 @@ tangyfrif yn gynnil mewn sgyrsiau dyrchafiad o ganlyniad. Cyhoeddodd
 arweinyddiaeth bolisi penodol, wedi'i gyfathrebu, yn gwahardd
 cyfeiriadau cyfrif-gweithgarwch mewn trafodaethau perfformiad a
 dyrchafiad, a symudodd dystiolaeth dyrchafiad tuag at ddull perfformiad
-aml-signal pennod 3.3.
+aml-signal pwnc 3.3.
 
 **Llywodraeth.** Cynigiodd asiantaeth gwasanaethau digidol, dan bwysau i
 ddangos cynhyrchedd i bwyllgor goruchwylio deddfwriaethol, yn wreiddiol
@@ -233,7 +233,7 @@ ymgynghorydd technegol mewnol, gan nodi'n gywir bod y fframio hwn yn
 gwahodd union y craffu anghywir, gan y gallai aelod pwyllgor
 llythrennog yn dechnegol nodi'n hawdd nad yw cyfaint cod crai'n dweud
 dim am a weithiodd y cod neu a oedd yn bwysig. Defnyddiodd adroddiad
-diwygiedig yr asiantaeth fetrigau canlyniad yn lle hynny (pennod 5.3):
+diwygiedig yr asiantaeth fetrigau canlyniad yn lle hynny (pwnc 5.3):
 gostyngiad mewn gwallau a adroddwyd gan ddinasyddion a chynnydd mewn
 cwblhau hunanwasanaeth llwyddiannus, a safodd i fyny'n well o dan
 gwestiynu'r pwyllgor na fyddai'r rhifau gweithgarwch wedi'i wneud.
@@ -253,7 +253,7 @@ mewn diwylliant adolygu-perfformiad, yn wirioneddol anodd ac araf.
 Disgyblaeth sefydliadol yn bennaf yw cost cyfanswm osgoi'r trap hwn:
 polisi penodol, wedi'i orfodi'n gyson, yn erbyn graddio gweithgarwch
 unigol, ac ymrwymiad i fuddsoddi yn y mesuriad perfformiad anos, mwy
-gonest a ddisgrifir ym mhennod 3.3 yn lle hynny. Mae'r ddisgyblaeth
+gonest a ddisgrifir ym mhwnc 3.3 yn lle hynny. Mae'r ddisgyblaeth
 honno'n costio llai na'r penderfyniadau dyrchafiad camgyfeiriedig, y
 cydweithio niweidiedig, a'r ymddygiad twyllo y mae metrigau gweithgarwch
 unigol yn eu cynhyrchu'n ddibynadwy dros amser.
@@ -297,7 +297,7 @@ unigol yn eu cynhyrchu'n ddibynadwy dros amser.
   gwbl.
 - **Lefel 5, Cerddorfaru:** Mae'r sefydliad wedi symud diwylliant
   gwerthuso'n amlwg i ffwrdd o fetrigau gweithgarwch tuag at ddull
-  perfformiad aml-signal pennod 3.3, gyda gwelliant gweladwy mewn
+  perfformiad aml-signal pwnc 3.3, gyda gwelliant gweladwy mewn
   cydweithio ac ymddygiad twyllo lleihaol fel tystiolaeth bod y symudiad
   wedi gweithio.
 
@@ -315,11 +315,11 @@ unigol yn eu cynhyrchu'n ddibynadwy dros amser.
   metrig a gamddefnyddiwyd fwyaf yn hanesyddol mewn peirianneg
   meddalwedd.
 - **Peidiwch byth â graddio na gwerthuso unigolion** yn ôl cyfrifon
-  gweithgarwch crai; dyma'r rheol anoddaf a phwysicaf yn y bennod hon.
+  gweithgarwch crai; dyma'r rheol anoddaf a phwysicaf yn y pwnc hwn.
 - Defnyddiwch ddata gweithgarwch **yn gyfanredol, fel cyd-destun** ar
   gyfer y dimensiynau SPACE eraill, byth fel dyfarniad annibynnol.
 - Gwyliwch am **theatr gweithgarwch** a'r **patrwm twyllo-amnewid**
-  (pennod 1.2) yn benodol o fewn y teulu metrig hwn.
+  (pwnc 1.2) yn benodol o fewn y teulu metrig hwn.
 - Mae gwaith dwfn, gwerth-uchel yn aml yn cynhyrchu'r **data
   gweithgarwch lleiaf gweladwy**; diogelwch ef rhag cael ei danbrisio'n
   systematig.

@@ -2,9 +2,9 @@
 
 ## Översikt och motivation
 
-**Effektivitet och flöde**, den sista dimensionen av SPACE (kapitel 3.1), mäter frånvaron av friktion och förmågan att upprätthålla ostört, fokuserat arbete. Den här dimensionen sitter vid gränsen mellan del 2:s leveransflödesmätetal (kapitel 2.5:s flödeseffektivitet mäter hur arbete rör sig genom ett teamsystem) och något mer personligt: den individuella kognitiva upplevelsen av djupt, fokuserat ingenjörsarbete, och hur ofta den upplevelsen fragmenteras av avbrott. Mjukvaruteknik, mer än de flesta kunskapsarbeten, beror på att hålla en stor mängd kontext i arbetsminnet samtidigt, vilket gör det ovanligt sårbart för kostnaden av avbrott.
+**Effektivitet och flöde**, den sista dimensionen av SPACE (ämne 3.1), mäter frånvaron av friktion och förmågan att upprätthålla ostört, fokuserat arbete. Den här dimensionen sitter vid gränsen mellan del 2:s leveransflödesmätetal (ämne 2.5:s flödeseffektivitet mäter hur arbete rör sig genom ett teamsystem) och något mer personligt: den individuella kognitiva upplevelsen av djupt, fokuserat ingenjörsarbete, och hur ofta den upplevelsen fragmenteras av avbrott. Mjukvaruteknik, mer än de flesta kunskapsarbeten, beror på att hålla en stor mängd kontext i arbetsminnet samtidigt, vilket gör det ovanligt sårbart för kostnaden av avbrott.
 
-Forskningen om den här kostnaden är konsekvent och nykter: att återfokusera efter ett avbrott i djupt, komplext arbete tar inte sekunder, det tar rutinmässigt många minuter, ibland närmare en halvtimme, att fullt återbygga det [arbetsminne](https://en.wikipedia.org/wiki/Working_memory) en ingenjör höll innan avbrottet skedde. En ingenjör vars dag fragmenteras i femtonminutersblock av möten, notifikationer, och kontextbyten kan visa gott om aktivitet (kapitel 3.4) medan de åstadkommer betydligt mindre genuint svårt arbete än samma ingenjör skulle med två skyddade, ostörda timmar. Den här dimensionen existerar specifikt för att göra den osynliga kostnaden synlig.
+Forskningen om den här kostnaden är konsekvent och nykter: att återfokusera efter ett avbrott i djupt, komplext arbete tar inte sekunder, det tar rutinmässigt många minuter, ibland närmare en halvtimme, att fullt återbygga det [arbetsminne](https://en.wikipedia.org/wiki/Working_memory) en ingenjör höll innan avbrottet skedde. En ingenjör vars dag fragmenteras i femtonminutersblock av möten, notifikationer, och kontextbyten kan visa gott om aktivitet (ämne 3.4) medan de åstadkommer betydligt mindre genuint svårt arbete än samma ingenjör skulle med två skyddade, ostörda timmar. Den här dimensionen existerar specifikt för att göra den osynliga kostnaden synlig.
 
 För stora team ackumuleras avbrottskostnad strukturellt: fler möten, mer teamöverskridande koordineringsoverhead, fler Slack-kanaler och notifikationer, fler processkontrollpunkter, allt vilket individuellt känns rimligt men tillsammans fragmenterar dagen illa. Stora företag och myndigheter, med sina tyngre styrnings- och koordineringsbehov, är särskilt benägna till den här fragmenteringen, och den här dimensionen ger ledningen ett konkret sätt att mäta och försvara mot den, snarare än att behandla "fokustid" som en vag kulturell strävan ingen faktiskt skyddar.
 
@@ -13,7 +13,7 @@ För stora team ackumuleras avbrottskostnad strukturellt: fler möten, mer team�
 - **Kontextbyte har en verklig, mätbar kostnad, inte bara en känd en.** Att återfokusera efter ett avbrott tar rutinmässigt många minuter, inte sekunder.
 - **Mötesbörda och avbrottsfrekvens är mätbara, inte bara anekdotiska.** Kalender- och verktygsdata kan synliggöra båda direkt.
 - **Skyddad, ostörd tid är en knapp resurs som måste medvetet försvaras,** inte en som överlever som standard när en organisation växer.
-- **Den här dimensionen förklarar ofta ett gap mellan aktivitet och prestation** (kapitel 3.3 och 3.4): hög aktivitet med låg prestation spårar ibland tillbaka till fragmenterade, avbrottstunga dagar.
+- **Den här dimensionen förklarar ofta ett gap mellan aktivitet och prestation** (ämnen 3.3 och 3.4): hög aktivitet med låg prestation spårar ibland tillbaka till fragmenterade, avbrottstunga dagar.
 - **Individuell variation i fokusbehov är verklig,** och den här dimensionen borde informera teamnormer, inte tvinga fram ett rigid, identiskt schema på alla.
 
 ## Rekommendationer
@@ -24,7 +24,7 @@ Beräkna antalet och varaktigheten av ostörda block på två timmar eller mer t
 
 ### Spåra avbrottsfrekvens från verktygsdata där tillgängligt
 
-Notifikationsvolym, inkommande meddelandefrekvens under arbetstid, och frekvensen av kontextbyten mellan uppgifter kan alla approximeras från befintliga samarbetsverktyg. Använd den här datan i aggregat, på teamnivå, följande samma princip som aktivitetsdata (kapitel 3.4): aldrig som en individuell övervakningsmekanism, alltid som en teamnivå-signal om huruvida organisationens koordineringsoverhead har växt bortom vad som skyddar genuint fokus.
+Notifikationsvolym, inkommande meddelandefrekvens under arbetstid, och frekvensen av kontextbyten mellan uppgifter kan alla approximeras från befintliga samarbetsverktyg. Använd den här datan i aggregat, på teamnivå, följande samma princip som aktivitetsdata (ämne 3.4): aldrig som en individuell övervakningsmekanism, alltid som en teamnivå-signal om huruvida organisationens koordineringsoverhead har växt bortom vad som skyddar genuint fokus.
 
 ### Skydda explicita fokustidsblock som en team- eller organisationsnorm
 
@@ -32,7 +32,7 @@ Den mest effektiva interventionen den här dimensionen pekar mot är enkel och l
 
 ### Korrelera flödesdata med aktivitet-prestation-gapet
 
-När ett team visar hög aktivitet (kapitel 3.4) men platt eller fallande prestation (kapitel 3.3), kontrollera flödes- och avbrottsdata innan ni antar att gapet reflekterar en individuell eller teamförmågafråga. Ett tungt fragmenterat schema kan producera exakt det här mönstret: gott om synlig rörelse, lite genuint svårt arbete slutfört, eftersom svårt arbete specifikt kräver det upprätthållna fokus fragmentering förstör.
+När ett team visar hög aktivitet (ämne 3.4) men platt eller fallande prestation (ämne 3.3), kontrollera flödes- och avbrottsdata innan ni antar att gapet reflekterar en individuell eller teamförmågafråga. Ett tungt fragmenterat schema kan producera exakt det här mönstret: gott om synlig rörelse, lite genuint svårt arbete slutfört, eftersom svårt arbete specifikt kräver det upprätthållna fokus fragmentering förstör.
 
 ### Respektera individuell variation snarare än att tvinga fram ett enda rigid schema
 
@@ -75,7 +75,7 @@ Den centrala spänningen är **koordineringsbehov kontra fokusskydd**. Stora org
 
 ## Exempel
 
-**Stort företag.** Ett finansteknikbolags ingenjörsledning märkte ett ihållande gap mellan commit-aktivitet och teamets förmåga att leverera genuint komplexa funktioner i tid. Kalenderanalys fann att medianingenjören hade färre än tre timmar av ostörda tvåtimmarsblock tillgängliga per vecka, fragmenterade över ett schema av återkommande statusmöten, varav många hade lagts till inkrementellt över två år utan något enskilt beslut att lägga till så mycket total mötesbörda. Företaget instiftade två obligatoriska, organisationsövergripande mötesfria eftermiddagar i veckan, och en uppföljande enkät och leveransmätetalsgranskning sex månader senare visade både förbättrade nöjdhetspoäng och en mätbar minskning i cykeltid (kapitel 2.6) för komplexa, flerdagars funktioner specifikt.
+**Stort företag.** Ett finansteknikbolags ingenjörsledning märkte ett ihållande gap mellan commit-aktivitet och teamets förmåga att leverera genuint komplexa funktioner i tid. Kalenderanalys fann att medianingenjören hade färre än tre timmar av ostörda tvåtimmarsblock tillgängliga per vecka, fragmenterade över ett schema av återkommande statusmöten, varav många hade lagts till inkrementellt över två år utan något enskilt beslut att lägga till så mycket total mötesbörda. Företaget instiftade två obligatoriska, organisationsövergripande mötesfria eftermiddagar i veckan, och en uppföljande enkät och leveransmätetalsgranskning sex månader senare visade både förbättrade nöjdhetspoäng och en mätbar minskning i cykeltid (ämne 2.6) för komplexa, flerdagars funktioner specifikt.
 
 **Myndighet.** En federal myndighets ingenjörsteam, som opererar under tunga styrningskrav, fann att ingenjörer spenderade nästan 40 % av sina arbetstimmar i status- och efterlevnadsgranskningsmöten, baserat på en kalenderrevision genomförd efter att flera ingenjörer hade uttryckt oro i avgångsintervjuer. Istället för att eliminera styrningskraven, som tjänade genuina tillsynssyften, konsoliderade teamet överflödiga statusmöten till en enda veckovis granskning och skiftade rutinmässiga efterlevnadskontroller till asynkron dokumentationsgranskning istället för levande möten, vilket skar mötesbördan nästan i hälften samtidigt som den underliggande tillsynsfunktionen bevarades, och efterföljande enkätdata visade en meningsfull förbättring i rapporterad fokustid.
 
@@ -90,8 +90,8 @@ Den totala ägandekostnaden är nästan helt organisatorisk disciplin snarare ä
 - **Att behandla fragmenterade dagar som en oundviklig kostnad av skala:** den ackumuleras gradvis och är sällan resultatet av ett medvetet beslut, vilket gör den lätt att lämna oadresserad.
 - **Att förväxla hög aktivitet med hög prestation utan att kontrollera flödesdata:** ett fragmenterat schema kan producera exakt det här missvisande mönstret.
 - **Att tvinga ett enda, rigid fokustidsschema på alla:** ignorerar genuin individuell variation i hur människor fungerar bäst.
-- **Att använda avbrotts- eller notifikationsdata som individuell övervakning:** upprepar exakt den missbruksrisk kapitel 3.4 varnar mot för aktivitetsdata.
-- **Att låta skyddad fokustid erodera gradvis genom undantag:** samma erosionsrisk kapitel 2.5 varnar om för PÅA-gränser, tillämpad på fokustidsskydd.
+- **Att använda avbrotts- eller notifikationsdata som individuell övervakning:** upprepar exakt den missbruksrisk ämne 3.4 varnar mot för aktivitetsdata.
+- **Att låta skyddad fokustid erodera gradvis genom undantag:** samma erosionsrisk ämne 2.5 varnar om för PÅA-gränser, tillämpad på fokustidsskydd.
 - **Att lägga till styrnings- eller koordineringskrav utan att någonsin mäta deras kumulativa mötesbördakostnad:** fragmentering smyger sig in en rimligt-verkande tillägg i taget.
 
 ## Mognadsmodell

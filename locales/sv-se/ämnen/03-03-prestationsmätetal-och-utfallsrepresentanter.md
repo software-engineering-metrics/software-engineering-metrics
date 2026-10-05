@@ -2,11 +2,11 @@
 
 ## Översikt och motivation
 
-**Prestation**, P:et i SPACE (kapitel 3.1), är dimensionen mest ofta förväxlad med aktivitet, och den förväxlingen är exakt vad det här kapitlet existerar för att förhindra. Prestation frågar om en ingenjörs eller ett teams arbete faktiskt producerade ett gott [utfall](https://en.wikipedia.org/wiki/Outcome_(probability)): en funktion som levererades och fungerade, ett system som förblev tillförlitligt, en ändring som flyttade en affärs- eller användarmätetal i rätt riktning. Aktivitet (kapitel 3.4) frågar bara hur mycket rörelse som skedde. Ett team kan vara högaktivt och lågpresterande, levererande konstanta små ändringar som aldrig flyttar ett utfall, och det omvända är lika möjligt: ett team som levererar sällan men vars ändringar tillförlitligt landar exakt rätt.
+**Prestation**, P:et i SPACE (ämne 3.1), är dimensionen mest ofta förväxlad med aktivitet, och den förväxlingen är exakt vad det här ämnet existerar för att förhindra. Prestation frågar om en ingenjörs eller ett teams arbete faktiskt producerade ett gott [utfall](https://en.wikipedia.org/wiki/Outcome_(probability)): en funktion som levererades och fungerade, ett system som förblev tillförlitligt, en ändring som flyttade en affärs- eller användarmätetal i rätt riktning. Aktivitet (ämne 3.4) frågar bara hur mycket rörelse som skedde. Ett team kan vara högaktivt och lågpresterande, levererande konstanta små ändringar som aldrig flyttar ett utfall, och det omvända är lika möjligt: ett team som levererar sällan men vars ändringar tillförlitligt landar exakt rätt.
 
-Svårigheten med den här dimensionen är att utfall ofta inte är tillskrivbart till en enda person eller ens ett enda team; mjukvaruutfall framträder från samarbete, från beslut fattade månader tidigare av människor som sedan har flyttat till andra projekt, från marknadsförhållanden ingen ingenjör kontrollerar. SPACE-forskarna var explicita om det här: prestation bör mätas på system- eller teamnivå med flera, konvergerande signaler, inte reducerat till ett enda tal och absolut inte tillskrivet en enskild ingenjör isolerat. Det här kapitlet tar den vägledningen på allvar och behandlar individuell prestationstillskrivning som en fälla att aktivt undvika, inte en genväg att ta när bekvämt.
+Svårigheten med den här dimensionen är att utfall ofta inte är tillskrivbart till en enda person eller ens ett enda team; mjukvaruutfall framträder från samarbete, från beslut fattade månader tidigare av människor som sedan har flyttat till andra projekt, från marknadsförhållanden ingen ingenjör kontrollerar. SPACE-forskarna var explicita om det här: prestation bör mätas på system- eller teamnivå med flera, konvergerande signaler, inte reducerat till ett enda tal och absolut inte tillskrivet en enskild ingenjör isolerat. Det här ämnet tar den vägledningen på allvar och behandlar individuell prestationstillskrivning som en fälla att aktivt undvika, inte en genväg att ta när bekvämt.
 
-För stora team är att få prestationsmätning rätt det som skiljer ett mätetalsprogram som faktiskt förbättrar utfall från ett som bara belönar synlig upptagenhet. Stora företag som jämför prestation över många team behöver signaler som motstår manipulation genom rå outputvolym; myndigheter som motiverar teknikinvestering för tillsynsorgan behöver visa att ingenjörsinsats producerade verkliga utfall, inte bara levererade artefakter, vilket exakt är kapitel 1.3:s utfall-före-output-princip tillämpad på den här specifika dimensionen.
+För stora team är att få prestationsmätning rätt det som skiljer ett mätetalsprogram som faktiskt förbättrar utfall från ett som bara belönar synlig upptagenhet. Stora företag som jämför prestation över många team behöver signaler som motstår manipulation genom rå outputvolym; myndigheter som motiverar teknikinvestering för tillsynsorgan behöver visa att ingenjörsinsats producerade verkliga utfall, inte bara levererade artefakter, vilket exakt är ämne 1.3:s utfall-före-output-princip tillämpad på den här specifika dimensionen.
 
 ## Nyckelprinciper
 
@@ -14,17 +14,17 @@ För stora team är att få prestationsmätning rätt det som skiljer ett mätet
 - **Använd flera, konvergerande signaler, aldrig ett enda prestationstal.** Ingen enskild representant är tillförlitlig nog att stå ensam.
 - **Mät på team- eller systemnivå.** Individuell utfallstillskrivning är vanligtvis otillförlitlig och inbjuder exakt den manipulation den här boken varnar mot genomgående.
 - **Kvalitet är en del av prestation, inte en separat angelägenhet.** Arbete som levereras men förstör något annat prestera inte riktigt bra.
-- **En prestationssignal utan ett beslut kopplat till den är dekoration**, exakt enligt kapitel 1.1:s allmänna princip tillämpad på den här dimensionen.
+- **En prestationssignal utan ett beslut kopplat till den är dekoration**, exakt enligt ämne 1.1:s allmänna princip tillämpad på den här dimensionen.
 
 ## Rekommendationer
 
 ### Kombinera flera konvergerande signaler snarare än en prestationspoäng
 
-Dra prestationsbevis från flera källor: ändringsfelfrekvens (kapitel 2.10) och läckt-defektfrekvens (kapitel 5.1) för kvalitet, driftsättningsutfall kopplade till faktisk funktionsadoption (kapitel 5.2) för om arbetet spelade någon roll, och kvalitativ kollega- eller chefsbedömning av ett teams bidrag till strategiska mål för kontext ett rent mätetal inte kan fånga. Ingen enskild av dessa är tillförlitlig ensam; tillsammans, när de konvergerar på samma slutsats, är de mycket mer trovärdiga än något enskilt tal kunde vara.
+Dra prestationsbevis från flera källor: ändringsfelfrekvens (ämne 2.10) och läckt-defektfrekvens (ämne 5.1) för kvalitet, driftsättningsutfall kopplade till faktisk funktionsadoption (ämne 5.2) för om arbetet spelade någon roll, och kvalitativ kollega- eller chefsbedömning av ett teams bidrag till strategiska mål för kontext ett rent mätetal inte kan fånga. Ingen enskild av dessa är tillförlitlig ensam; tillsammans, när de konvergerar på samma slutsats, är de mycket mer trovärdiga än något enskilt tal kunde vara.
 
 ### Mät på teamnivå, motstå individuell tillskrivning
 
-Mjukvaruutfall är sällan produkten av en enda persons arbete ensamt; de framträder från designbeslut, granskningsåterkoppling, tidigare arbete av människor som kan ha lämnat teamet sedan, och samarbete över gränser. Att tillskriva ett utfall till en enskild ingenjör är vanligtvis en falsk precision som ignorerar den här verkligheten och skapar ett starkt incitament för individer att skydda erkännande snarare än att samarbeta fritt, exakt den typen av incitamentsdistorsion kapitel 1.2 varnar mot.
+Mjukvaruutfall är sällan produkten av en enda persons arbete ensamt; de framträder från designbeslut, granskningsåterkoppling, tidigare arbete av människor som kan ha lämnat teamet sedan, och samarbete över gränser. Att tillskriva ett utfall till en enskild ingenjör är vanligtvis en falsk precision som ignorerar den här verkligheten och skapar ett starkt incitament för individer att skydda erkännande snarare än att samarbeta fritt, exakt den typen av incitamentsdistorsion ämne 1.2 varnar mot.
 
 ### Väv in kvalitet i definitionen av prestation direkt
 
@@ -32,11 +32,11 @@ En funktion som levereras i tid men orsakar en våg av produktionsincidenter pre
 
 ### Använd prestationsdata för att informera investerings- och processbeslut, inte individuella rangordningar
 
-Den produktiva användningen av prestationsdata är att besluta var ni ska investera vidare (ett team som konsekvent levererar starka utfall förtjänar mer resurser och autonomi) och var ni ska undersöka (ett team vars arbete konsekvent misslyckas med att landa förtjänar hjälp, inte skuld, enligt kapitel 1.1:s diagnostiska ramverk). Att rangordna individer eller team konkurrensmässigt mot varandra på prestationsdata inbjuder exakt den manipulation och moralskada den här boken varnar mot och producerar sällan bättre utfall än den diagnostiska användningen gör.
+Den produktiva användningen av prestationsdata är att besluta var ni ska investera vidare (ett team som konsekvent levererar starka utfall förtjänar mer resurser och autonomi) och var ni ska undersöka (ett team vars arbete konsekvent misslyckas med att landa förtjänar hjälp, inte skuld, enligt ämne 1.1:s diagnostiska ramverk). Att rangordna individer eller team konkurrensmässigt mot varandra på prestationsdata inbjuder exakt den manipulation och moralskada den här boken varnar mot och producerar sällan bättre utfall än den diagnostiska användningen gör.
 
 ### Var ärlig om tillskrivningsbegränsningar, särskilt för plattforms- och möjliggörande team
 
-Team som bygger delad infrastruktur, interna verktyg, eller plattformsförmågor (systerboken `software-engineering-guide`s plattformsingenjörskapitel täcker det här direkt) har ofta sitt bidrag till utfall flera steg bortom något enskilt kundvänt mätetal. Mät dessa teams prestation genom deras effekt på teamen de möjliggör, adoption av deras plattform, minskad friktion rapporterad av konsumerande team, snarare än att tvinga ett dåligt passande direkt-utfallsmätetal på arbete som inherent är indirekt.
+Team som bygger delad infrastruktur, interna verktyg, eller plattformsförmågor (systerboken `software-engineering-guide`s plattformsingenjörsämne täcker det här direkt) har ofta sitt bidrag till utfall flera steg bortom något enskilt kundvänt mätetal. Mät dessa teams prestation genom deras effekt på teamen de möjliggör, adoption av deras plattform, minskad friktion rapporterad av konsumerande team, snarare än att tvinga ett dåligt passande direkt-utfallsmätetal på arbete som inherent är indirekt.
 
 ## Avvägningar: fördelar och nackdelar
 
@@ -59,7 +59,7 @@ Den centrala spänningen är **precision kontra ärlighet**. Ett enda prestation
 
 4. **Hur mäter vi prestationen hos plattforms- eller möjliggörande team vars bidrag till utfall är indirekt?** Om det ärliga svaret är "det gör vi inte, direkt", är det gapet värt att namnge och adressera direkt snarare än att lämna de teamen effektivt omätta eller orättvist mätta mot kundvända utfallsmätetal som inte passar deras arbete.
 
-5. **Har prestationsdata någonsin använts för att rangordna individer konkurrensmässigt mot varandra, formellt eller informellt?** Den här glidningen, liknande nöjdhetsdatarisken i kapitel 3.2, skadar både datans ärlighet och teamets vilja att samarbeta öppet.
+5. **Har prestationsdata någonsin använts för att rangordna individer konkurrensmässigt mot varandra, formellt eller informellt?** Den här glidningen, liknande nöjdhetsdatarisken i ämne 3.2, skadar både datans ärlighet och teamets vilja att samarbeta öppet.
 
 6. **När våra konvergerande signaler går isär, hög leveranshastighet men stigande defektfrekvens, till exempel, vad drar vi för slutsats, och hanterar vår process den oenigheten bra?** Oenighet mellan signaler är i sig värdefull information; diskutera om ert team för närvarande behandlar det som brus att ignorera eller som ett genuint fynd värt att undersöka.
 
@@ -67,11 +67,11 @@ Den centrala spänningen är **precision kontra ärlighet**. Ett enda prestation
 
 **Startup.** Prestation är vanligtvis synlig direkt: fungerade funktionen, adopterade kunder den, flyttade mätetalet. Formell flersignal-mätning är ofta onödig på den här skalan; risken är istället att tillskriva framgång eller misslyckande för snabbt till en person i ett snabbrörligt, högt samarbetsinriktat litet team där erkännande och skuld sällan tillhör bara en individ.
 
-**Litet företag.** Kombinera vilken leverans- och kvalitetsdata ni redan har (kapitel 2.10, kapitel 5.1) med direkt, ärlig konversation om huruvida nyligt arbete faktiskt hjälpte verksamheten, snarare än att bygga formell flersignal-instrumentering ni saknar kapacitet att underhålla.
+**Litet företag.** Kombinera vilken leverans- och kvalitetsdata ni redan har (ämne 2.10, ämne 5.1) med direkt, ärlig konversation om huruvida nyligt arbete faktiskt hjälpte verksamheten, snarare än att bygga formell flersignal-instrumentering ni saknar kapacitet att underhålla.
 
 **Stort företag.** Det är här disciplinen av teamnivå, flersignal-mätning förtjänar sin investering, eftersom trycket att reducera prestation till ett enda jämförbart tal över dussintals team är starkast här, och skadan från falsk precision ackumuleras över hela organisationens resurstilldelningsbeslut. Motstå det trycket explicit och bygg flersignal-fallet för varför det spelar roll.
 
-**Myndighet.** Att visa att ingenjörsinvestering producerade verkliga utfall, inte bara levererade artefakter, är ofta den centrala frågan ett tillsynsorgan ställer. Flersignal-prestationsmätning, kopplad explicit till utfallsmätetal (kapitel 5.3) snarare än leveransbara-endast-representanter, ger ett mycket starkare, mer försvarbart svar än ett aktivitets- eller leveransantal ensamt.
+**Myndighet.** Att visa att ingenjörsinvestering producerade verkliga utfall, inte bara levererade artefakter, är ofta den centrala frågan ett tillsynsorgan ställer. Flersignal-prestationsmätning, kopplad explicit till utfallsmätetal (ämne 5.3) snarare än leveransbara-endast-representanter, ger ett mycket starkare, mer försvarbart svar än ett aktivitets- eller leveransantal ensamt.
 
 ## Exempel
 
@@ -112,7 +112,7 @@ Den totala ägandekostnaden är högre än ett enskild-mätetal-tillvägagångss
 
 ## Viktiga slutsatser
 
-- Prestation mäter om arbete producerade ett **gott utfall**, inte hur mycket rörelse som skedde; förväxla inte det med aktivitet (kapitel 3.4).
+- Prestation mäter om arbete producerade ett **gott utfall**, inte hur mycket rörelse som skedde; förväxla inte det med aktivitet (ämne 3.4).
 - Använd **flera, konvergerande signaler**, aldrig ett enda prestationstal, och var misstänksam mot falsk precision.
 - Mät på **team- eller systemnivå**; individuell utfallstillskrivning är vanligtvis otillförlitlig och skadar samarbete.
 - **Kvalitet är en del av prestation**, inte en separat, avkopplad angelägenhet.

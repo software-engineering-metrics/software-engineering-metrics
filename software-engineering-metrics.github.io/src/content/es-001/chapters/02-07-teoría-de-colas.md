@@ -9,9 +9,9 @@ cuenta de cuánto de una canalización de entrega en realidad es una cola:
 una solicitud de incorporación de cambios esperando a un revisor, un
 commit esperando a un ejecutor de integración continua, un ticket
 esperando a que lo recojan, un mensaje de soporte al cliente esperando una
-respuesta. El capítulo 2.4 ya presentó la carga de flujo y el tiempo de
+respuesta. El tema 2.4 ya presentó la carga de flujo y el tiempo de
 flujo y mostró que sobrecargar una cadena de valor ralentiza bruscamente la
-entrega, y los capítulos 2.5 y 2.6 mostraron que la mayor parte del tiempo
+entrega, y los temas 2.5 y 2.6 mostraron que la mayor parte del tiempo
 de entrega es tiempo de espera, no tiempo de trabajo. La teoría de colas es
 las matemáticas subyacentes que explican por qué todo eso es cierto, no
 solo un patrón observado.
@@ -21,12 +21,12 @@ Little](https://en.wikipedia.org/wiki/Little%27s_law)**, un teorema
 demostrado por el investigador de operaciones John Little en 1961: el
 número promedio de elementos en un sistema estable es igual a la tasa
 promedio a la que llegan los elementos, multiplicada por el tiempo promedio
-que cada elemento pasa en el sistema. El capítulo 2.4 ya usó este resultado
+que cada elemento pasa en el sistema. El tema 2.4 ya usó este resultado
 bajo los propios nombres del Flow Framework, la carga de flujo es igual a
 la tasa de llegada por el tiempo de flujo. En el vocabulario más amplio de
-este libro también se lee como que el trabajo en curso (capítulo 2.5) es
+este libro también se lee como que el trabajo en curso (tema 2.5) es
 igual a la tasa de llegada de trabajo nuevo multiplicada por el tiempo de
-ciclo (capítulo 2.6). Esto no es una regla general ni una correlación
+ciclo (tema 2.6). Esto no es una regla general ni una correlación
 observada en algunos estudios. Es una demostración que se cumple para
 cualquier cola estable, sin importar qué esté procesando la cola ni cómo
 decida qué trabajar a continuación.
@@ -57,7 +57,7 @@ de que impulse una mala decisión de personal o de proceso.
   80%, no solo "un poco peor".
 - **El promedio de una cola oculta su peor caso.** Reportar solo el tiempo
   de espera medio esconde la cola larga y dolorosa cerca de la capacidad,
-  precisamente lo que advierte el capítulo 1.6 sobre usar percentiles en
+  precisamente lo que advierte el tema 1.6 sobre usar percentiles en
   lugar de promedios.
 - **Cómo se define una cola se puede manipular tan fácilmente como
   cualquier otra métrica.** Si algo cuenta como "llegado", "en curso" o
@@ -91,7 +91,7 @@ uno como proporción de su capacidad disponible, antes de planear hacerlo
 funcionar cerca de su límite. Un grupo de revisores compartido funcionando
 cerca de la capacidad completa produce tiempos de espera de cola de
 revisión que crecen mucho más rápido que el modesto aumento de demanda que
-los causó, precisamente la dinámica detrás del consejo del capítulo 2.9 de
+los causó, precisamente la dinámica detrás del consejo del tema 2.9 de
 vigilar el tiempo hasta la primera revisión como indicador adelantado.
 
 ### Separa la tasa de llegada, la tasa de éxito, la tasa de fallo y la tasa de abandono
@@ -144,7 +144,7 @@ ingeniería construirá y mantendrá una, y un modelo en el que nadie confía
 ni actualiza es peor que ningún modelo. La ley de Little y el rastreo
 básico de utilización renuncian a algo de precisión pero no requieren
 habilidad estadística especializada y encajan directamente en las métricas
-que un equipo ya recoge para los capítulos 2.4 a 2.6. Recurre por defecto
+que un equipo ya recoge para los temas 2.4 a 2.6. Recurre por defecto
 a esas comprobaciones baratas y adoptables, y reserva la simulación
 completa para el caso raro en que un único recurso compartido, una flota
 grande de integración continua, un grupo de revisión especializado, sea lo
@@ -234,7 +234,7 @@ capacidad o cambiar cómo se agrupa el trabajo antes de llegar a la puerta.
 
 **Empresa grande.** El equipo de plataforma interna de un proveedor de
 infraestructura en la nube notó que el tiempo de entrega para cambios
-(capítulo 2.10) había subido gradualmente en todos los equipos de producto
+(tema 2.10) había subido gradualmente en todos los equipos de producto
 que dependían de su flota de integración continua compartida, aunque
 ningún equipo individual había cambiado cómo trabajaba. Un análisis de
 utilización encontró la flota funcionando por encima del 90% de ocupación
@@ -280,7 +280,7 @@ alrededor de un cuello de botella que no puede ver.
 
 El coste total de adopción es genuinamente bajo. La ley de Little y el
 rastreo de utilización no necesitan ninguna herramienta nueva más allá de
-lo que los capítulos 2.4 a 2.6 ya te piden que recojas: tasa de llegada,
+lo que los temas 2.4 a 2.6 ya te piden que recojas: tasa de llegada,
 trabajo en curso y tiempo de ciclo. La inversión es sobre todo disciplina
 analítica, comprobar los números entre sí y revisar periódicamente la
 utilización de los recursos compartidos antes de que se conviertan en la
@@ -295,13 +295,13 @@ próxima regresión inexplicada de tiempo de entrega de la organización.
 - **Reportar solo el tiempo de espera medio, nunca un percentil:** esconde
   la cola larga que más importa a las personas que esperan en ella.
 - **Mezclar éxito, fallo y abandono en un único número de rendimiento:**
-  el vector de manipulación central de este capítulo. Un equipo bajo
+  el vector de manipulación central de este tema. Un equipo bajo
   presión puede hacer que el rendimiento se vea sano dejando que suba en
   silencio la tasa de abandono, tickets abandonados, solicitudes
   descartadas en silencio, trabajo que nunca se cuenta como un fallo. La
   barrera de contención es rastrear la tasa de llegada, éxito, fallo y
   abandono como cuatro números separados y visibles, la misma disciplina
-  que pide el capítulo 1.2 para cada métrica de este libro, para que una
+  que pide el tema 1.2 para cada métrica de este libro, para que una
   tasa de abandono creciente no pueda esconderse detrás de un gráfico de
   rendimiento plano.
 - **Tratar "nuestra gente siempre está ocupada" como un cumplido:** es un
@@ -356,7 +356,7 @@ próxima regresión inexplicada de tiempo de entrega de la organización.
   como una señal de alerta, no como un cumplido.
 - Rastrea la **tasa de llegada, tasa de éxito, tasa de fallo y tasa de
   abandono** por separado; mezclarlas en un único número de rendimiento es
-  el vector de manipulación central de este capítulo.
+  el vector de manipulación central de este tema.
 - Modela una canalización multietapa como una **cola de colas**, e invierte
   en la etapa con la peor combinación de alta utilización y alta tasa de
   fallo o abandono, no en la etapa que resulta más fácil de mejorar.

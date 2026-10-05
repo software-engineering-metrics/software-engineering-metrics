@@ -3,20 +3,20 @@
 ## Overview and motivation
 
 [Code review](https://en.wikipedia.org/wiki/Code_review) is usually the single largest wait-time contributor inside the
-cycle-time breakdown from chapter 2.6, and it is also the stage most
+cycle-time breakdown from topic 2.6, and it is also the stage most
 directly under a team's own control to improve, unlike a shared platform
-bottleneck or an external dependency. This chapter covers the specific
+bottleneck or an external dependency. This topic covers the specific
 metrics that live inside the review stage: time to first review, pull
 request size, review iteration count, and reviewer load distribution, and
 how to use them to improve review speed without sacrificing the actual
 quality benefit review is supposed to provide.
 
-The risk this chapter is most alert to is one this book has not yet
+The risk this topic is most alert to is one this book has not yet
 covered directly: optimising review speed can quietly erode review quality
 if pursued carelessly. A team that halves its time-to-first-review by
 approving everything with a rubber stamp has improved a metric while
 destroying the practice's actual value. Every recommendation in this
-chapter is written with that trade-off in view, because pull request
+topic is written with that trade-off in view, because pull request
 metrics are among the easiest in this book to game in a way that looks good
 on a dashboard while making the underlying codebase measurably worse.
 
@@ -51,7 +51,7 @@ metric to surface it.
 Measure the interval from a pull request being opened to a reviewer's first
 substantive comment or approval, instrumented automatically from your
 version control platform. This is usually the dominant wait-time
-contributor within the review stage (chapter 2.5, chapter 2.6), and
+contributor within the review stage (topic 2.5, topic 2.6), and
 improving it, through clearer review-assignment norms, notification
 practices, or dedicated review time blocks, typically produces the largest
 single improvement to overall cycle time available to a team.
@@ -63,7 +63,7 @@ persistently large median size as a signal worth addressing directly.
 Smaller pull requests are reviewed faster, reviewed more thoroughly (a
 reviewer can actually hold the whole change in their head), and are easier
 to revert if something goes wrong, connecting directly back to the
-batch-size principle behind deployment frequency in chapter 2.10. Encourage
+batch-size principle behind deployment frequency in topic 2.10. Encourage
 splitting large changes into a sequence of smaller, independently reviewable
 pull requests wherever the work allows it.
 
@@ -74,7 +74,7 @@ watch specifically for a small number of people absorbing a
 disproportionate share. This pattern is common, often falls on the most
 senior or most trusted engineers, and creates both a bottleneck (their
 availability caps the whole team's review throughput) and a burnout risk
-(chapter 3.2 covers well-being metrics in more depth). Rotate review
+(topic 3.2 covers well-being metrics in more depth). Rotate review
 responsibility deliberately rather than letting it concentrate by default
 around whoever is fastest to respond.
 
@@ -85,7 +85,7 @@ incidents traced back to changes that were approved with zero review
 comments, or the rate of post-merge fixes needed for recently reviewed
 code. A team that improves review speed by approving without real scrutiny
 should see this guardrail degrade, which is exactly the pairing principle
-from chapter 1.2 applied to this specific metric family. Never chase review
+from topic 1.2 applied to this specific metric family. Never chase review
 speed without this counter-metric in view.
 
 ### Use review iteration count to spot friction, not to judge individuals
@@ -96,7 +96,7 @@ inconsistent style expectations, worth investigating at the process level.
 Avoid using this number to judge individual authors or reviewers directly;
 a high iteration count is more often a system or communication signal than
 a personal one, and treating it as an individual scorecard risks exactly
-the evaluative drift chapter 1.1 warns against.
+the evaluative drift topic 1.1 warns against.
 
 ## Trade-offs: pros and cons
 
@@ -108,10 +108,10 @@ the evaluative drift chapter 1.1 warns against.
 | Concentrating review among senior engineers | Deep domain expertise applied consistently | Creates a bottleneck and a burnout risk over time |
 
 The central tension is **speed versus depth of scrutiny**. Every technique
-in this chapter for speeding up review, faster first response, smaller
+in this topic for speeding up review, faster first response, smaller
 pull requests, more distributed reviewer load, carries some risk of
 trading real scrutiny away if pursued without the quality guardrail this
-chapter recommends. Resolve the tension by pairing every speed metric with
+topic recommends. Resolve the tension by pairing every speed metric with
 a quality signal, tracked over the same period, so a team can tell genuine
 process improvement from a quietly eroding review standard.
 
@@ -137,7 +137,7 @@ process improvement from a quietly eroding review standard.
 
 4. **Have we ever improved a review-speed metric in a way that, on
    reflection, reduced actual scrutiny?** Be honest here; this is exactly
-   the rubber-stamp risk this chapter names, and it is easy to slide into
+   the rubber-stamp risk this topic names, and it is easy to slide into
    without any deliberate decision to do so.
 
 5. **What does a high review iteration count usually signal on our team:
@@ -149,7 +149,7 @@ process improvement from a quietly eroding review standard.
 6. **Do we have a quality guardrail paired with our review-speed metrics, or
    are we tracking speed in isolation?** If the honest answer is that no
    such guardrail exists, that is a gap worth closing before pushing review
-   speed any further, per chapter 1.2's pairing principle.
+   speed any further, per topic 1.2's pairing principle.
 
 ## Sector lens
 
@@ -188,7 +188,7 @@ reviews across a two-hundred-person organisation, an imbalance no one had
 measured directly until reviewer-load data was pulled. This concentration
 was both a bottleneck, since those engineers' availability capped review
 throughput for the whole organisation, and a burnout risk flagged
-separately by an engagement survey (chapter 3.2). The organisation
+separately by an engagement survey (topic 3.2). The organisation
 introduced a structured review-rotation programme paired with targeted
 knowledge-sharing sessions, and within two quarters review load had spread
 across a much wider group, with time to first review improving as a direct
@@ -212,7 +212,7 @@ sacrificing quality, which is a rare combination: most delivery
 improvements trade speed against risk somewhere, but review-stage
 improvements, smaller pull requests, better load distribution, faster
 first-response, genuinely improve both simultaneously when pursued with the
-quality guardrail this chapter recommends. The cybersecurity example above
+quality guardrail this topic recommends. The cybersecurity example above
 is typical: fixing a bottleneck improved speed while the underlying review
 quality, if anything, improved as expertise spread more widely.
 

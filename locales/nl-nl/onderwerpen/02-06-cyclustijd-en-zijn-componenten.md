@@ -2,7 +2,7 @@
 
 ## Overzicht en motivatie
 
-**Cyclustijd** is de interne afbraak van de flowtijd (hoofdstuk 2.4) van een wijziging in zijn samenstellende ingenieursstadia: codeertijd, reviewtijd, testtijd, en deploymenttijd, soms verder gesplitst in opnametijd (hoe lang een wijziging wacht voordat iemand begint te werken erop) en actieve tijd (hoe lang het duurt zodra iemand dat doet). Waar flowtijd je een enkel cijfer geeft voor hoe lang een wijziging end-to-end duurt door de hele waardestroom, vertelt [cyclustijd](https://en.wikipedia.org/wiki/Cycle_time) je waar die tijd daadwerkelijk naartoe gaat zodra het ingenieurswerk bereikt, wat de diagnostische laag is hoofdstuk 2.4 beloofde onder zijn eigen samenvattingscijfer zit.
+**Cyclustijd** is de interne afbraak van de flowtijd (onderwerp 2.4) van een wijziging in zijn samenstellende ingenieursstadia: codeertijd, reviewtijd, testtijd, en deploymenttijd, soms verder gesplitst in opnametijd (hoe lang een wijziging wacht voordat iemand begint te werken erop) en actieve tijd (hoe lang het duurt zodra iemand dat doet). Waar flowtijd je een enkel cijfer geeft voor hoe lang een wijziging end-to-end duurt door de hele waardestroom, vertelt [cyclustijd](https://en.wikipedia.org/wiki/Cycle_time) je waar die tijd daadwerkelijk naartoe gaat zodra het ingenieurswerk bereikt, wat de diagnostische laag is onderwerp 2.4 beloofde onder zijn eigen samenvattingscijfer zit.
 
 Dit onderscheid doet ertoe omdat "doorlooptijd is te lang" niet handelbaar is op zichzelf. Een team wiens doorlooptijd gedomineerd wordt door codeertijd heeft een andere interventie nodig dan een team wiens doorlooptijd gedomineerd wordt door een driedaagse reviewwachtrij, wat weer een andere interventie nodig heeft dan een team dat het meeste van zijn tijd verliest aan een onstabiele, langzame testsuite. Zonder cyclustijd-afbraak neigen teams ernaar te raden naar het knelpunt, en die gok is vaak genoeg verkeerd dat het fixen van het verkeerde stadium echte inspanning verspilt terwijl de daadwerkelijke beperking onaangeraakt blijft.
 
@@ -11,16 +11,16 @@ Voor grote teams is cyclustijd-afbraak wat een organisatiebrede doorlooptijdregr
 ## Kernprincipes
 
 - **Cyclustijd verklaart doorlooptijd; het vervangt het niet.** Rapporteer beide samen, met cyclustijd als het diagnostische en doorlooptijd als het samenvattende.
-- **Wachttijd domineert meestal actieve tijd.** De meeste vertraging in softwarelevering komt van werk dat inactief zit in een wachtrij, niet van actieve inspanning (hoofdstuk 2.5 behandelt dit direct via flow-efficiëntie).
+- **Wachttijd domineert meestal actieve tijd.** De meeste vertraging in softwarelevering komt van werk dat inactief zit in een wachtrij, niet van actieve inspanning (onderwerp 2.5 behandelt dit direct via flow-efficiëntie).
 - **Breek af naar stadium voordat je een fix voorstelt.** Een fix gericht op het verkeerde stadium verspilt inspanning en kan een team demoraliseren dat gevraagd wordt "sneller te werken" wanneer het echte knelpunt elders was.
 - **Een gedeeld knelpunt over veel teams is een platforminvesteringskans,** niet alleen een reeks individuele teamproblemen.
-- **Cyclustijddata is blootgesteld aan dezelfde manipulatierisico's als flowtijd** (hoofdstuk 2.4): bewaak stadiumgrenzen die stilletjes verschuiven om een cijfer te vleien.
+- **Cyclustijddata is blootgesteld aan dezelfde manipulatierisico's als flowtijd** (onderwerp 2.4): bewaak stadiumgrenzen die stilletjes verschuiven om een cijfer te vleien.
 
 ## Aanbevelingen
 
 ### Instrumenteer elke stadiumgrens expliciet
 
-Breek de reis van een wijziging op in benoemde stadia met duidelijke, instrumenteerbare grenzen: coderen (eerste commit tot pull request geopend), opname (pull request geopend tot eerste review), review (eerste review tot goedkeuring), en deployment (goedkeuring tot productie). Vang tijdstempels voor elke overgang automatisch van versiebeheer- en CI/CD-gebeurtenissen, niet van zelfgerapporteerde stadiumtracking, het toepassend van hetzelfde instrumentatie-boven-zelfrapportage-principe van hoofdstuk 1.5.
+Breek de reis van een wijziging op in benoemde stadia met duidelijke, instrumenteerbare grenzen: coderen (eerste commit tot pull request geopend), opname (pull request geopend tot eerste review), review (eerste review tot goedkeuring), en deployment (goedkeuring tot productie). Vang tijdstempels voor elke overgang automatisch van versiebeheer- en CI/CD-gebeurtenissen, niet van zelfgerapporteerde stadiumtracking, het toepassend van hetzelfde instrumentatie-boven-zelfrapportage-principe van onderwerp 1.5.
 
 ### Scheid wachttijd van actieve tijd binnen elk stadium
 
@@ -36,7 +36,7 @@ In plaats van een enkel "verminder doorlooptijd met 20%"-doel, wat een team geen
 
 ### Bewaak stadiumgrensmanipulatie
 
-Net zoals flowtijds start- en eindpunten kunnen afdrijven (hoofdstuk 2.4), kunnen individuele cyclustijd-stadiumgrenzen verschuiven op manieren die het cijfer van een specifiek stadium vleien zonder enige echte verbetering, bijvoorbeeld, een review als "gestart" markeren het moment een reviewer toegewezen wordt in plaats van wanneer ze daadwerkelijk beginnen de wijziging te lezen. Audit periodiek stadiumgrensinstrumentatie tegen zijn gedocumenteerde definitie.
+Net zoals flowtijds start- en eindpunten kunnen afdrijven (onderwerp 2.4), kunnen individuele cyclustijd-stadiumgrenzen verschuiven op manieren die het cijfer van een specifiek stadium vleien zonder enige echte verbetering, bijvoorbeeld, een review als "gestart" markeren het moment een reviewer toegewezen wordt in plaats van wanneer ze daadwerkelijk beginnen de wijziging te lezen. Audit periodiek stadiumgrensinstrumentatie tegen zijn gedocumenteerde definitie.
 
 ## Afwegingen: voor- en nadelen
 
@@ -59,7 +59,7 @@ De centrale spanning is **diagnostische precisie versus instrumentatiekost**. Fi
 
 4. **Hebben we stadiumspecifieke verbeterdoelen gesteld, of alleen een enkel algemeen doorlooptijddoel zonder begeleiding over waar te focussen?** Een vaag doel laat een team raden waar inspanning te investeren; een stadiumspecifiek een niet. Controleer je huidige doelen tegen dit onderscheid.
 
-5. **Is enige cyclustijd-stadiumgrens in onze instrumentatie afgedreven van zijn gedocumenteerde definitie over tijd?** Stadiumgrenzen zijn blootgesteld aan dezelfde definitionele drift als flowtijd zelf (hoofdstuk 2.4). Audit een steekproef van recente stadiumovergangsgebeurtenissen tegen de geschreven definitie.
+5. **Is enige cyclustijd-stadiumgrens in onze instrumentatie afgedreven van zijn gedocumenteerde definitie over tijd?** Stadiumgrenzen zijn blootgesteld aan dezelfde definitionele drift als flowtijd zelf (onderwerp 2.4). Audit een steekproef van recente stadiumovergangsgebeurtenissen tegen de geschreven definitie.
 
 6. **Hoe toont een reviewzware cultuur versus een vertrouwenszware cultuur zich anders in onze cyclustijddata?** Een team met zeer grondige, meerronde review zal langere reviewstadiumtijd tonen dan een team dat enkele-goedkeuring-merges vertrouwt; bespreek of je huidige balans een bewuste keuze reflecteert of een onbevraagde standaard.
 
@@ -88,7 +88,7 @@ De totale eigendomskosten zijn de instrumentatie-inspanning om stadiumniveau-tij
 ## Antipatronen en valkuilen
 
 - **Reageren op een doorlooptijdregressie zonder cyclustijddiagnose:** leidt vaak tot het fixen van het verkeerde stadium.
-- **Aannemen dat actieve inspanning, niet wachttijd, de dominante kost is:** meestal verkeerd; wachtrij domineert in de meeste echte leveringspijplijnen (hoofdstuk 2.5).
+- **Aannemen dat actieve inspanning, niet wachttijd, de dominante kost is:** meestal verkeerd; wachtrij domineert in de meeste echte leveringspijplijnen (onderwerp 2.5).
 - **Een gedeeld, teamoverschrijdend knelpunt missen door cyclustijd alleen team voor team te reviewen:** laat een hoog-invloedrijke platformfix onontdekt.
 - **Een vaag algemeen doorlooptijddoel stellen zonder stadiumspecifieke begeleiding:** laat teams raden waar inspanning te focussen.
 - **Stadiumgrens-definitionele drift:** vleit het cijfer van een specifiek stadium zonder echte verbetering.
@@ -113,11 +113,11 @@ De totale eigendomskosten zijn de instrumentatie-inspanning om stadiumniveau-tij
 ## Belangrijkste inzichten
 
 - Cyclustijd **breekt flowtijd af** in ingenieursstadia, coderen, review, testen, deployment, en is de diagnostische laag onder dat samenvattingscijfer.
-- Scheid **wachttijd van actieve tijd** binnen elk stadium; wachtrij domineert meestal actieve inspanning (hoofdstuk 2.5).
+- Scheid **wachttijd van actieve tijd** binnen elk stadium; wachtrij domineert meestal actieve inspanning (onderwerp 2.5).
 - Zoek naar **gedeelde knelpunten over teams** voordat je aanneemt dat een vertraging teamspecifiek is; een gedeelde oorzaak is vaak een platforminvesteringskans.
 - Stel **stadiumspecifieke verbeterdoelen**, geen vage algemene doelen, zodat teams precies weten waar te focussen.
 - Stadiumgrenzen zijn blootgesteld aan hetzelfde **definitionele drift**-risico als flowtijd zelf; audit ze periodiek.
-- Hoofdstuk 2.7 geeft de onderliggende wiskunde, de Wet van Little, voor waarom onderhanden werk en cyclustijd samen bewegen.
+- Onderwerp 2.7 geeft de onderliggende wiskunde, de Wet van Little, voor waarom onderhanden werk en cyclustijd samen bewegen.
 
 ## Bronnen en verder lezen
 

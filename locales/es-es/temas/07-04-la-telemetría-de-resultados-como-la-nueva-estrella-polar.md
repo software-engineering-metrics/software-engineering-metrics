@@ -2,15 +2,15 @@
 
 ## Visión general y motivación
 
-Este capítulo cierra la parte 7, y en un sentido real cierra el argumento
-que ha ido construyendo todo este libro desde el capítulo 1.3, con una
+Este tema cierra la parte 7, y en un sentido real cierra el argumento
+que ha ido construyendo todo este libro desde el tema 1.3, con una
 única afirmación directa: a medida que la IA generativa abarata la
 producción bruta, la **[telemetría](https://en.wikipedia.org/wiki/Telemetry)
 de resultados**, la medición continua e instrumentada de resultados reales
 en lugar de actividad o producción, deja de ser una buena práctica entre
 varias y se convierte en el principio organizador en torno al que tiene
 que construirse un programa de métricas. Esta no es una idea nueva
-introducida por primera vez aquí. Es la idea que introdujo el capítulo 1.3
+introducida por primera vez aquí. Es la idea que introdujo el tema 1.3
 en la parte inicial de este libro, presentada ahora como la respuesta
 necesaria, en lugar de meramente preferible, a un cambio tecnológico que
 ha hecho que toda alternativa sea más peligrosa de lo que solía ser.
@@ -22,33 +22,33 @@ como mínimo, hecho más trabajo, incluso si ese trabajo no siempre era el
 trabajo correcto. La IA generativa rompe incluso esa conexión débil: el
 volumen de producción ya no indica de manera confiable el esfuerzo, ya que
 una herramienta puede generarlo en segundos, y ciertamente no indica el
-valor, ya que el capítulo 7.3 mostró que la producción inflada puede
+valor, ya que el tema 7.3 mostró que la producción inflada puede
 coexistir con una calidad en degradación. Las métricas que sobreviven a
 este cambio intactas son precisamente aquellas hacia las que este libro ha
-enfatizado construir desde sus capítulos iniciales: la tasa de defectos
-escapados (capítulo 5.1), la adopción de funcionalidades (capítulo 5.2),
-los resultados de clientes y negocio (capítulo 5.3), la fiabilidad (parte
+enfatizado construir desde sus temas iniciales: la tasa de defectos
+escapados (tema 5.1), la adopción de funcionalidades (tema 5.2),
+los resultados de clientes y negocio (tema 5.3), la fiabilidad (parte
 6), y el bienestar del desarrollador (parte 3). Ninguna de estas depende
 de cómo se produjo el código subyacente; todas miden lo que realmente
 ocurrió como resultado.
 
-Para los equipos grandes, el argumento de este capítulo tiene
+Para los equipos grandes, el argumento de este tema tiene
 consecuencias directas y prácticas para cómo debería construirse y
 reconstruirse un programa de métricas de aquí en adelante. Las
 organizaciones empresariales que rediseñan sus paneles de ingeniería a la
 luz de la adopción de IA deberían ponderar la inversión específicamente
 hacia la infraestructura de telemetría de resultados que describe este
-capítulo; las organizaciones gubernamentales, que evalúan tanto las
+tema; las organizaciones gubernamentales, que evalúan tanto las
 herramientas de IA como los programas de tecnología más amplios en los
 que están integradas, deberían someter a ambos al mismo estándar de
-telemetría de resultados que recomienda este capítulo como línea base
+telemetría de resultados que recomienda este tema como línea base
 para cualquier evaluación creíble y preparada para el futuro.
 
 ## Principios clave
 
 - **La telemetría de resultados se vuelve necesaria, no meramente
   preferible, una vez que la producción se abarata.** Este es el
-  principio fundacional del capítulo 1.3, ahora urgente en lugar de
+  principio fundacional del tema 1.3, ahora urgente en lugar de
   aspiracional.
 - **Las métricas que sobreviven a este cambio son aquellas hacia las que
   ha construido este libro a lo largo de todo el texto**: defectos
@@ -75,13 +75,13 @@ parte 6, bienestar del desarrollador de la parte 3) frente a las métricas
 de producción y actividad (recuento de despliegues, volumen de commits,
 rendimiento de solicitudes de incorporación de cambios). Si domina el
 rastreo de producción, esa proporción en sí misma ahora es un pasivo dado
-el argumento de este capítulo, y rebalancearla es el cambio individual de
-mayor apalancamiento que recomienda este capítulo.
+el argumento de este tema, y rebalancearla es el cambio individual de
+mayor apalancamiento que recomienda este tema.
 
 ### Invierte en la infraestructura de telemetría de resultados deliberadamente, como una inversión de ingeniería de primer nivel
 
 La medición de resultados, el rastreo de adopción de funcionalidades, la
-correlación de resultados de negocio (capítulo 5.3), la instrumentación de
+correlación de resultados de negocio (tema 5.3), la instrumentación de
 fiabilidad (parte 6), requiere una inversión de ingeniería real y
 continua que muchas organizaciones históricamente han subinvertido en
 relación con las métricas de producción comparativamente baratas y
@@ -94,8 +94,8 @@ secundaria detrás de la propia inversión en herramientas de IA.
 
 Las métricas de resultado son, casi por su naturaleza, más rezagadas y
 ruidosas que las métricas de producción (la distinción entre indicadores
-adelantados y rezagados del capítulo 1.3, la precaución estadística del
-capítulo 1.6). Una organización acostumbrada a la retroalimentación
+adelantados y rezagados del tema 1.3, la precaución estadística del
+tema 1.6). Una organización acostumbrada a la retroalimentación
 rápida y satisfactoria de ver subir un número de producción necesita
 construir una paciencia genuina para la señal más lenta y honesta que
 proporciona la telemetría de resultados, y el liderazgo necesita comunicar
@@ -105,7 +105,7 @@ para mostrar resultados rápidos.
 
 ### Usa este cambio como la ocasión para retirar métricas de producción genuinamente obsoletas, no solo para añadir métricas de resultado junto a ellas
 
-Siguiendo la disciplina del capítulo 1.1 de retirar métricas que ya no se
+Siguiendo la disciplina del tema 1.1 de retirar métricas que ya no se
 ganan su lugar, usa este momento como una ocasión deliberada para
 eliminar las métricas de producción y actividad que este cambio ha
 devaluado específicamente, en lugar de simplemente añadir métricas de
@@ -134,13 +134,13 @@ contra el actual.
 | Rebalanceo completo y deliberado hacia la telemetría de resultados | Aborda el cambio directa y completamente | Requiere el cambio organizacional y de inversión más significativo |
 
 La tensión central es, en un sentido real, la misma con la que abrió este
-libro en el capítulo 1.3, ahora afilada hasta su forma más urgente:
+libro en el tema 1.3, ahora afilada hasta su forma más urgente:
 **retroalimentación rápida y familiar frente a señal más lenta y
 honesta**. Las métricas de producción siempre han sido más fáciles y
-rápidas de producir; el argumento de este capítulo es que la IA
+rápidas de producir; el argumento de este tema es que la IA
 generativa ha movido esa compensación de meramente subóptima a
 activamente peligrosa. Resuelve la tensión de la manera en que ha
-recomendado este libro desde su capítulo inicial: pondera decisivamente
+recomendado este libro desde su tema inicial: pondera decisivamente
 hacia los resultados, acepta la retroalimentación más lenta que viene con
 la medición genuina de valor, y trata la incomodidad de esa
 retroalimentación más lenta como el coste honesto de medir algo real en
@@ -171,7 +171,7 @@ lugar de algo meramente conveniente.
 
 4. **¿Qué métrica de producción o actividad de nuestro panel actual es
    una candidata genuina para el retiro, ahora que el argumento de este
-   capítulo se aplica específicamente a ella?** Identifica al menos una, y
+   tema se aplica específicamente a ella?** Identifica al menos una, y
    debate qué necesitaría reemplazarla en lugar de simplemente dejar una
    brecha.
 
@@ -183,7 +183,7 @@ lugar de algo meramente conveniente.
    reacción específica a tu situación actual de herramientas.
 
 6. **¿Cómo sería que nuestra organización se comprometiera por completo
-   con el argumento de este capítulo, rebalanceando decisivamente nuestra
+   con el argumento de este tema, rebalanceando decisivamente nuestra
    inversión en métricas hacia los resultados en lugar de
    incrementalmente?** Esbózalo de manera concreta en lugar de dejarlo
    abstracto; la brecha entre el estado actual y esta visión es la hoja de
@@ -202,26 +202,26 @@ producción.
 
 **Pequeña empresa.** Concentra la inversión en telemetría de resultados
 en la única métrica de resultado que más directamente refleje la
-supervivencia y el crecimiento (capítulo 5.3), en lugar de intentar una
+supervivencia y el crecimiento (tema 5.3), en lugar de intentar una
 instrumentación exhaustiva en cada categoría de resultado que cubre este
 libro. Una inversión modesta y enfocada en telemetría de resultados
 supera a un panel de métricas de producción exhaustivo que el argumento
-de este capítulo ahora ha devaluado específicamente.
+de este tema ahora ha devaluado específicamente.
 
-**Empresa.** El rebalanceo que recomienda este capítulo es un cambio
+**Empresa.** El rebalanceo que recomienda este tema es un cambio
 organizacional genuino y significativo a esta escala, que probablemente
 requiere patrocinio ejecutivo y un plan de inversión de varios
 trimestres. Trátalo con la misma seriedad que cualquier otra inversión de
 infraestructura importante que cubre este libro, y usa los ejemplos
-específicos y concretos de los capítulos 7.1 y 7.3, la inflación de
+específicos y concretos de los temas 7.1 y 7.3, la inflación de
 métricas y la dilución de calidad que un panel rebalanceado habría
 detectado antes, para construir el caso interno de la inversión.
 
 **Gobierno.** Los programas de tecnología del gobierno evaluados
 principalmente en métricas de entrega y producción (funcionalidades
 entregadas, dentro del plazo) son cada vez más vulnerables exactamente al
-escepticismo que describió el capítulo 5.3, y el argumento de este
-capítulo agudiza aún más esa vulnerabilidad a medida que se extiende la
+escepticismo que describió el tema 5.3, y el argumento de este
+tema agudiza aún más esa vulnerabilidad a medida que se extiende la
 adopción de herramientas de IA por la industria más amplia de la que
 reclutan y frente a la que se comparan las agencias gubernamentales.
 Construye la telemetría de resultados como la base principal para el
@@ -232,16 +232,16 @@ organización por delante de, en lugar de por detrás de, este cambio.
 
 **Empresa.** El liderazgo de ingeniería de una empresa de software,
 motivado directamente por el casi-incidencia de inflación de métricas
-descrito en el ejemplo de tecnología financiera del capítulo 7.1, realizó
+descrito en el ejemplo de tecnología financiera del tema 7.1, realizó
 una auditoría completa de su proporción de inversión en métricas y
 encontró que casi el 70% de su espacio de panel y esfuerzo de
 instrumentación se dedicaba a métricas de producción y actividad, con
 solo una inversión modesta e inconsistente en telemetría de resultados. A
 lo largo del año siguiente, la empresa rebalanceó deliberadamente esta
 proporción, retirando varias métricas de producción que la auditoría del
-capítulo 7.1 había señalado como las más expuestas e invirtiendo la
+tema 7.1 había señalado como las más expuestas e invirtiendo la
 capacidad liberada en la instrumentación de adopción de funcionalidades y
-resultados de negocio (capítulos 5.2, 5.3). El panel resultante,
+resultados de negocio (temas 5.2, 5.3). El panel resultante,
 presentado en la reunión de la junta del año siguiente, fue reconocido
 explícitamente por el mismo miembro de la junta anteriormente escéptico
 como una base significativamente más confiable para evaluar la inversión
@@ -252,7 +252,7 @@ reemplazó.
 un nuevo programa de métricas de ingeniería desde cero específicamente
 porque su panel anterior, dominado por métricas de producción, había
 atraído un escepticismo legislativo sostenido, adoptó explícitamente el
-principio de este capítulo como su decisión de diseño fundacional: la
+principio de este tema como su decisión de diseño fundacional: la
 telemetría de resultados, el tiempo de espera ciudadano, la tasa de
 finalización de servicio, la tasa de defectos escapados, sería la base
 principal para todo el reporte público, con las métricas de producción y
@@ -276,13 +276,13 @@ rebalanceado reparó directamente la credibilidad que la versión anterior,
 dominada por la producción, había puesto en riesgo genuino.
 
 El coste total de propiedad es la inversión en infraestructura de
-telemetría de resultados que recomienda este capítulo, un trabajo
+telemetría de resultados que recomienda este tema, un trabajo
 genuinamente significativo de varios trimestres para una organización
 grande, sopesado contra el riesgo duradero y a largo plazo de un programa
 de métricas que se vuelve progresivamente menos confiable a medida que la
 producción sigue abaratándose. Este no es un coste que este libro te pida
 aceptar a la ligera; es la consecuencia directa y necesaria de tomarse en
-serio el argumento fundacional del capítulo 1.3 tan en serio como te pide
+serio el argumento fundacional del tema 1.3 tan en serio como te pide
 esta parte final del libro.
 
 ## Antipatrones y errores comunes
@@ -293,7 +293,7 @@ esta parte final del libro.
   producción.
 - **Añadir métricas de resultado junto a un conjunto de métricas de
   producción sin cambios y todavía dominante:** produce hinchazón del
-  panel en lugar del rebalanceo genuino que argumenta este capítulo.
+  panel en lugar del rebalanceo genuino que argumenta este tema.
 - **Construir la inversión en telemetría de resultados como una reacción
   a una herramienta de IA actual específica en lugar de como una
   capacidad duradera:** deja a la organización expuesta al próximo cambio
@@ -337,13 +337,13 @@ esta parte final del libro.
 2. ¿Qué única métrica de producción deberíamos retirar este trimestre, y qué métrica de resultado debería reemplazarla?
 3. ¿Dónde nos ha arrastrado recientemente la impaciencia organizacional de vuelta hacia métricas de producción más rápidas pero menos confiables?
 4. ¿Nuestra inversión en telemetría de resultados es duradera, o está vinculada específicamente a nuestra situación actual de herramientas de IA?
-5. ¿Qué se necesitaría para comprometernos por completo con el argumento de este capítulo, en lugar de ajustar incrementalmente?
+5. ¿Qué se necesitaría para comprometernos por completo con el argumento de este tema, en lugar de ajustar incrementalmente?
 
 ## Conclusiones clave
 
 - La telemetría de resultados se vuelve **necesaria, no meramente
   preferible**, una vez que la IA generativa abarata la producción; este
-  es el principio fundacional del capítulo 1.3, ahora urgente.
+  es el principio fundacional del tema 1.3, ahora urgente.
 - Las métricas que **sobreviven a este cambio** son aquellas hacia las
   que construye este libro a lo largo de todo el texto: defectos
   escapados, adopción, resultados de negocio, fiabilidad, y bienestar.
@@ -363,15 +363,15 @@ esta parte final del libro.
 
 - *Accelerate: The Science of Lean Software and DevOps*, de Nicole
   Forsgren, Jez Humble, y Gene Kim (el fundamento de medición basado en
-  resultados sobre el que se construye todo este libro, y este capítulo
+  resultados sobre el que se construye todo este libro, y este tema
   final de la parte 7).
 - *Lean Analytics*, de Alistair Croll y Benjamin Yoskovitz (la distinción
   entre métricas accionables y de vanidad que el argumento de este
-  capítulo extiende a la era de la IA).
+  tema extiende a la era de la IA).
 - *The Innovator's Dilemma*, de Clayton M. Christensen (el patrón general
   de métricas y prácticas establecidas que se convierten en pasivos bajo
   un cambio tecnológico disruptivo).
 - *Measure What Matters*, de John Doerr (el establecimiento de objetivos
   orientado a resultados como principio organizador para un programa de
-  métricas, el modelo que argumenta este capítulo que ahora debería ser
+  métricas, el modelo que argumenta este tema que ahora debería ser
   el estándar, no la excepción).

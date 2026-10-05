@@ -2,22 +2,22 @@
 
 ## Overview and motivation
 
-This chapter widens the lens beyond chapter 5.2's feature-level adoption to
+This topic widens the lens beyond topic 5.2's feature-level adoption to
 the full range of customer and business outcomes an organization actually
 cares about: revenue retained or grown, customer satisfaction and loyalty,
 cost reduction, risk avoided, and, for public-sector organizations, the
 citizen outcomes a mission exists to serve. These are the outcome metrics
-chapter 1.3 placed at the top of the input-output-outcome hierarchy, and
-this chapter is where this book confronts the hardest, most honest version
-of that chapter's central challenge: outcomes at this level are rarely
+topic 1.3 placed at the top of the input-output-outcome hierarchy, and
+this topic is where this book confronts the hardest, most honest version
+of that topic's central challenge: outcomes at this level are rarely
 attributable to engineering alone, and pretending otherwise produces exactly
-the false-precision problem chapter 3.3 warned about for individual
+the false-precision problem topic 3.3 warned about for individual
 performance, now scaled up to the level of an entire engineering
 organization's contribution to the business.
 
 The productive response to that attribution difficulty is not to give up on
 connecting engineering work to business outcomes, which would abandon
-chapter 1.3's entire premise, but to be honest about the connection's
+topic 1.3's entire premise, but to be honest about the connection's
 strength and to use converging evidence rather than false-precision claims
 of direct causation. A well-run engineering organization can show that its
 work correlates with, contributes to, and sometimes directly drives specific
@@ -25,7 +25,7 @@ business outcomes, without claiming sole credit for outcomes that also
 depend on sales, marketing, market conditions, and product strategy
 decisions made well outside engineering's control.
 
-For large teams, this chapter's discipline determines whether engineering
+For large teams, this topic's discipline determines whether engineering
 has a real seat at the strategic table or is treated as a cost center whose
 value is assumed rather than demonstrated. Enterprise organizations use
 customer and business outcome metrics to justify continued and expanded
@@ -45,7 +45,7 @@ programs to.
 - **Government and mission-driven organizations have outcome metrics beyond
   revenue.** Citizen wait time, error rate, and service completion matter as
   much as, or more than, financial measures.
-- **A business outcome metric is slow and noisy.** Apply chapter 1.6's
+- **A business outcome metric is slow and noisy.** Apply topic 1.6's
   statistical literacy rigorously here, more than almost anywhere else in
   this book.
 - **This is where engineering's credibility with non-technical stakeholders
@@ -59,7 +59,7 @@ business outcomes
 
 Rather than presenting delivery metrics and business outcomes side by side
 and letting an audience infer a connection, build the metric tree
-(chapter 1.3) explicitly: this specific engineering investment reduced lead
+(topic 1.3) explicitly: this specific engineering investment reduced lead
 time, which enabled faster response to a specific customer need, which
 correlated with a specific improvement in retention. Document each link in
 this chain with its own evidence, so the overall claim is a chain of
@@ -68,7 +68,7 @@ defensible individual links rather than a single, unsupported leap from
 
 ### Use honest [correlation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation) language, and actively look for confounds
 
-Following chapter 1.6's guidance directly, resist claiming an engineering
+Following topic 1.6's guidance directly, resist claiming an engineering
 change *caused* a business outcome improvement without considering what
 else changed at the same time: a pricing change, a competitor's stumble, a
 seasonal effect, a marketing campaign. State findings as correlations
@@ -104,7 +104,7 @@ When presenting to non-technical stakeholders, executives, board members,
 legislative oversight bodies, lead with the outcome metric in language they
 already use (revenue retained, cost avoided, citizen wait time reduced),
 and use engineering metrics only as supporting evidence for how that outcome
-was achieved, not as the headline. This is a direct application of chapter
+was achieved, not as the headline. This is a direct application of topic
 1.3's outcome-weighting principle to the specific skill of stakeholder
 communication.
 
@@ -187,7 +187,7 @@ defensible evidence.
 **Government.** Citizen and mission outcome metrics are increasingly what
 oversight bodies expect, and a program that can only report delivery
 metrics (features shipped, on schedule) invites exactly the skepticism this
-chapter is built to help you preempt. Invest in tracking citizen outcomes
+topic is built to help you preempt. Invest in tracking citizen outcomes
 explicitly, even where they are harder to measure than a simple delivery
 count, since that investment directly protects future funding and
 credibility.

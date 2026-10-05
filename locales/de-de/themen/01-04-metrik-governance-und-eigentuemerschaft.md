@@ -20,7 +20,7 @@ Für Konzerne und Behörden trägt Governance zusätzliches Gewicht, weil Metrik
 
 ### Für jeden Metrik-Satz, der eine Teamgrenze überschreitet, einen Metrik-Charter schreiben
 
-Ein **Metrik-Charter** ist ein kurzes, lebendiges Dokument, das den Zweck eines Metrik-Satzes, seine expliziten Nicht-Ziele (die Unterscheidung zwischen diagnostisch und bewertend aus Kapitel 1.1 gehört hierher), die Eigentümerin oder den Eigentümer und die Quelle der Wahrheit jeder Metrik sowie einen Überprüfungsrhythmus festhält. Es sollte auf einer Seite bleiben. Die Datei docs/examples/metrics-charter-example.md im Begleit-Repository dieses Buches zeigt die Form. Ein so kurzer Charter wird gelesen; ein Charter, der zu einem Richtliniendokument aufgebläht wird, nicht.
+Ein **Metrik-Charter** ist ein kurzes, lebendiges Dokument, das den Zweck eines Metrik-Satzes, seine expliziten Nicht-Ziele (die Unterscheidung zwischen diagnostisch und bewertend aus Thema 1.1 gehört hierher), die Eigentümerin oder den Eigentümer und die Quelle der Wahrheit jeder Metrik sowie einen Überprüfungsrhythmus festhält. Es sollte auf einer Seite bleiben. Die Datei docs/examples/metrics-charter-example.md im Begleit-Repository dieses Buches zeigt die Form. Ein so kurzer Charter wird gelesen; ein Charter, der zu einem Richtliniendokument aufgebläht wird, nicht.
 
 ### Jeder Metrik eine benannte Person zuweisen, kein Team
 
@@ -32,7 +32,7 @@ Wenn zwei Systeme dieselbe nominell benannte Metrik unterschiedlich berechnen, e
 
 ### Eine Ausmusterungsprüfung in den Governance-Rhythmus einbauen
 
-Ein Metrikprogramm, das nur je Metriken hinzufügt, häuft Dashboard-Wildwuchs an, auf den niemand reagieren kann (Kapitel 1.1). Bei jeder Governance-Überprüfung sollte, neben dem Vorschlagen neuer Metriken, gefragt werden, welche bestehenden in den letzten zwei Zyklen keine Entscheidung informiert haben und Kandidaten zur Ausmusterung sind. Ausmusterung ist kein Scheitern; es ist dieselbe Disziplin, die eine gesunde Codebasis auf toten Code anwendet.
+Ein Metrikprogramm, das nur je Metriken hinzufügt, häuft Dashboard-Wildwuchs an, auf den niemand reagieren kann (Thema 1.1). Bei jeder Governance-Überprüfung sollte, neben dem Vorschlagen neuer Metriken, gefragt werden, welche bestehenden in den letzten zwei Zyklen keine Entscheidung informiert haben und Kandidaten zur Ausmusterung sind. Ausmusterung ist kein Scheitern; es ist dieselbe Disziplin, die eine gesunde Codebasis auf toten Code anwendet.
 
 ### Governance-Strenge an Konsequenz skalieren, nicht an Volumen
 
@@ -75,7 +75,7 @@ Die zentrale Spannung ist **Konsistenz gegen Geschwindigkeit**. Schwere zentrale
 
 ## Beispiele
 
-**Enterprise.** Ein multinationales Softwareunternehmen entdeckte während einer Post-Merger-Integration, dass seine beiden größten Geschäftsbereiche „Deployment-Frequenz" unterschiedlich definierten: einer zählte jeden Push in eine Staging-Umgebung, der andere nur Produktionsveröffentlichungen. Die Führungsebene hatte über ein Jahr lang die Lieferleistung der beiden Bereiche mit Zahlen verglichen, die eigentlich nicht vergleichbar waren. Die Lösung war ein unternehmensweites Metrik-Governance-Gremium, das ein einziges Glossar von Metrikdefinitionen veröffentlichte (gespiegelt in Kapitel 9.2 dieses Buches), jedes Team zur Zertifizierung der Einhaltung verpflichtete und die mehrdeutigen lokalen Definitionen innerhalb eines Quartals aussonderte.
+**Enterprise.** Ein multinationales Softwareunternehmen entdeckte während einer Post-Merger-Integration, dass seine beiden größten Geschäftsbereiche „Deployment-Frequenz" unterschiedlich definierten: einer zählte jeden Push in eine Staging-Umgebung, der andere nur Produktionsveröffentlichungen. Die Führungsebene hatte über ein Jahr lang die Lieferleistung der beiden Bereiche mit Zahlen verglichen, die eigentlich nicht vergleichbar waren. Die Lösung war ein unternehmensweites Metrik-Governance-Gremium, das ein einziges Glossar von Metrikdefinitionen veröffentlichte (gespiegelt in Thema 9.2 dieses Buches), jedes Team zur Zertifizierung der Einhaltung verpflichtete und die mehrdeutigen lokalen Definitionen innerhalb eines Quartals aussonderte.
 
 **Behörden.** Ein nationales Statistikamt, zuständig für die Veröffentlichung eines Leistungs-Dashboards für digitale Dienste, stellte fest, dass eine Änderung daran, wie „innerhalb der SLA gelöst" berechnet wurde, still von einem Engineering-Team vorgenommen, das dies als Fehlerbehebung ansah, eine Schlagzeilen-Konformitätszahl um mehrere Prozentpunkte verschoben hatte, ohne öffentliche Dokumentation der Änderung. Das Amt richtete einen formalen Änderungskontrollprozess für jede Metrikdefinition ein, die einen öffentlichen Bericht speist: Vorgeschlagene Änderungen brauchen eine dokumentierte Begründung, einen zusammen mit der Änderung veröffentlichten Vorher-Nachher-Vergleich und die Freigabe einer benannten, rechenschaftspflichtigen Amtsperson, was die Lücke schloss, die die frühere Änderung unbemerkt hatte durchgehen lassen.
 

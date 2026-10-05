@@ -15,10 +15,10 @@ werth y mae cwsmer yn ei dderbyn, gan fenthyg yn uniongyrchol o draddodiad
 mapio ffrwd werth gweithgynhyrchu lean.
 
 Mae'r llyfr hwn yn defnyddio'r Flow Framework fel strwythur trefnu Rhan
-2. Mae pennod 2.2 yn cyflwyno ei bedair elfen lif, mae penodau 2.3 a 2.4
-yn cyflwyno ei bum metrig llif, mae pennod 2.8 yn olrhain y metrigau
+2. Mae pwnc 2.2 yn cyflwyno ei bedair elfen lif, mae pynciau 2.3 a 2.4
+yn cyflwyno ei bum metrig llif, mae pwnc 2.8 yn olrhain y metrigau
 hynny'n ôl at eu tarddiad mewn mapio ffrwd werth Lean clasurol, ac mae
-pennod 2.10 yn cwmpasu metrigau DORA fel fframwaith cyfeirio culach,
+pwnc 2.10 yn cwmpasu metrigau DORA fel fframwaith cyfeirio culach,
 sy'n canolbwyntio ar y biblinell, na fydd y rhan hon yn arwain ag ef mwyach.
 Dewis bwriadol yw hwnnw, nid diystyriad o ymchwil DORA. Mae DORA'n mesur
 trwybwn a sefydlogrwydd system â thrylwyredd ystadegol gwirioneddol, ond
@@ -44,7 +44,7 @@ bwriad strategol. Dyna beth mae'r fframwaith hwn yn ei ddarparu.
   ymestyn o angen cwsmer neu fusnes i'r canlyniad a gyflenwyd, gan groesi
   pa bynnag ffiniau tîm y mae'r gwaith mewn gwirionedd yn eu croesi.
 - **Mae elfennau llif yn gwneud y "beth" yn weladwy, nid dim ond y "pa mor
-  gyflym."** Mae pedwar categori pennod 2.2, nodweddion, diffygion,
+  gyflym."** Mae pedwar categori pwnc 2.2, nodweddion, diffygion,
   risgiau, a dyled, yn troi penderfyniad blaenoriaethu ymhlyg yn un
   esblyg, mesuradwy.
 - **Mae dyraniad capasiti ar draws elfennau llif yn swm-sero.** Mae mwy o
@@ -82,13 +82,13 @@ yn llifo trwyddynt, Jira, Azure DevOps, GitHub, yn hytrach nag adeiladu
 system olrhain gyfochrog y mae'n rhaid i dimau ei diweddaru â llaw.
 Dylai statws elfen lif ei ddiweddaru ei hun wrth i'r tocyn neu'r cais
 tynnu sylfaenol symud, yr un ddisgyblaeth cyfrifianeg-dros-hunan-adrodd y
-mae pennod 1.5 yn ei hargymell ar gyfer pob metrig yn y llyfr hwn.
+mae pwnc 1.5 yn ei hargymell ar gyfer pob metrig yn y llyfr hwn.
 
 ### Cyflwynwch ddosbarthiad llif i randdeiliaid busnes yn uniongyrchol, nid dim ond arweinyddiaeth beirianneg
 
 Y cyfle a gollwyd mwyaf sengl â'r fframwaith hwn yw ei drin fel offeryn
 peirianneg mewnol. Mae dosbarthiad llif, cyfran y gwaith sy'n mynd i
-nodweddion yn erbyn diffygion, risg, a dyled (pennod 2.3), wedi'i ddylunio'n
+nodweddion yn erbyn diffygion, risg, a dyled (pwnc 2.3), wedi'i ddylunio'n
 benodol i fod yn sgwrs a gewch â arweinyddiaeth cynnyrch a busnes,
 oherwydd mae'n gwneud penderfyniad blaenoriaethu ymhlyg, faint o gapasiti
 sy'n mynd i werth newydd yn erbyn cadw'r goleuadau ymlaen, yn esblyg ac
@@ -115,7 +115,7 @@ wedi'i gyfrifo yn erbyn map hen yn mesur y peth anghywir yn dawel.
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
-| Metrigau piblinell yn unig (DORA, pennod 2.10) | Syml, wedi'i ddilysu'n dda, rhad i'w gyfrifiannu o ddata CI/CD presennol | Yn dawel ar ba fath o werth sy'n cael ei gyflenwi |
+| Metrigau piblinell yn unig (DORA, pwnc 2.10) | Syml, wedi'i ddilysu'n dda, rhad i'w gyfrifiannu o ddata CI/CD presennol | Yn dawel ar ba fath o werth sy'n cael ei gyflenwi |
 | Mabwysiadu Flow Framework llawn | Yn cysylltu cyflenwi â strategaeth fusnes; yn gwneud cymysgedd gwerth yn weladwy ac yn drafodadwy | Angen map ffrwd werth gonest a disgyblaeth dosbarthu elfen-lif gyson |
 | Mapio ffrwd werth statig, un-waith | Rhad, cyflym i'w redeg fel ymarfer gweithdy | Yn mynd yn hen yn gyflym; yn cynhyrchu instantiad, nid metrig byw |
 | Rheolaeth ffrwd werth barhaus, wedi'i integreiddio ag offer | Data byw, cyfredol bob amser; yn graddio ar draws llawer o ffrydiau gwerth | Angen gwaith integreiddio offer gwirioneddol ymlaen llaw |
@@ -254,7 +254,7 @@ fabwysiadu.
   yn dirywio'n gyflym o dan lwyth gwaith gwirioneddol; integreiddiwch i
   offer presennol yn lle hynny.
 - **Dosbarthu elfennau llif yn ôl-weithredol yn hytrach nag wrth eu
-  cymryd i mewn:** y fector twyllo wrth galon y bennod hon. O dan bwysau
+  cymryd i mewn:** y fector twyllo wrth galon y pwnc hwn. O dan bwysau
   cyflenwi, gall tîm ailenwi'n dawel waith dyled neu risg fel nodweddion
   ar ôl y ffaith i edrych yn fwy cynhyrchiol i randdeiliaid nad ydynt ond
   yn gweld y siart dosbarthiad llif, heb i unrhyw un byth wneud
@@ -262,7 +262,7 @@ fabwysiadu.
   dosbarthiad wrth gymryd i mewn, cyn i'r canlyniad fod yn hysbys, ac
   archwilio sampl o eitemau wedi'u dosbarthu'n gyfnodol yn erbyn yr hyn a
   wnaeth y newid sylfaenol mewn gwirionedd, yr un ddisgyblaeth archwilio y
-  mae pennod 1.2 yn gofyn amdani gyda phob metrig yn y llyfr hwn.
+  mae pwnc 1.2 yn gofyn amdani gyda phob metrig yn y llyfr hwn.
 - **Cadw metrigau llif y tu mewn i beirianneg yn unig:** yn colli prif
   fantais y fframwaith, eirfa a rennir â rhanddeiliaid busnes.
 - **Mapio'r siart sefydliadol yn lle'r ffrwd werth wirioneddol:** yn
@@ -307,7 +307,7 @@ fabwysiadu.
 - **Ffrwd werth**, nid tîm neu biblinell, yw uned fesur y fframwaith, ac
   mae ei mapio'n onest yn dod cyn cyfrifiannu unrhyw beth.
 - **Dosbarthiad elfen-lif wrth gymryd i mewn, nid ar ôl y ffaith**, yw'r
-  gledr ddiogelwch yn erbyn fector twyllo canolog y bennod hon: ailenwi'n
+  gledr ddiogelwch yn erbyn fector twyllo canolog y pwnc hwn: ailenwi'n
   dawel waith dyled neu risg fel nodweddion i edrych yn fwy cynhyrchiol.
 - **Cysylltwch fetrigau llif ag offer presennol**, Jira, Azure DevOps,
   GitHub, yn hytrach na system olrhain â llaw gyfochrog na fydd yn

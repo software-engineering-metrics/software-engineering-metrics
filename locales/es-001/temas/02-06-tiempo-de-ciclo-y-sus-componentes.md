@@ -2,7 +2,7 @@
 
 ## Visión general y motivación
 
-El **tiempo de ciclo** es el desglose interno del tiempo de flujo (capítulo
+El **tiempo de ciclo** es el desglose interno del tiempo de flujo (tema
 2.4) de un cambio en sus etapas de ingeniería constituyentes: tiempo de
 codificación, tiempo de revisión, tiempo de pruebas y tiempo de despliegue,
 a veces dividido aún más en tiempo de recogida (cuánto espera un cambio
@@ -12,7 +12,7 @@ un único número de cuánto tarda un cambio de principio a fin a través de
 toda la cadena de valor, el [tiempo de
 ciclo](https://en.wikipedia.org/wiki/Cycle_time) te dice adónde va
 realmente ese tiempo una vez que llega a ingeniería, que es la capa
-diagnóstica que el capítulo 2.4 prometía que se encuentra debajo de su
+diagnóstica que el tema 2.4 prometía que se encuentra debajo de su
 propio número resumen.
 
 Esta distinción importa porque "el tiempo de entrega es demasiado largo" no
@@ -43,7 +43,7 @@ equipo adivine de forma independiente su propia explicación local.
   entrega como resumen.
 - **El tiempo de espera suele dominar sobre el tiempo activo.** La mayor
   parte del retraso en la entrega de software viene de trabajo inactivo en
-  una cola, no del esfuerzo activo (el capítulo 2.5 cubre esto directamente
+  una cola, no del esfuerzo activo (el tema 2.5 cubre esto directamente
   a través de la eficiencia de flujo).
 - **Descompón por etapa antes de proponer una solución.** Una solución
   dirigida a la etapa equivocada desperdicia esfuerzo y puede desmoralizar
@@ -53,7 +53,7 @@ equipo adivine de forma independiente su propia explicación local.
   oportunidad de inversión en plataforma,** no solo una serie de problemas
   individuales de equipo.
 - **Los datos de tiempo de ciclo están expuestos a los mismos riesgos de
-  manipulación que el tiempo de flujo** (capítulo 2.4): vigila los límites
+  manipulación que el tiempo de flujo** (tema 2.4): vigila los límites
   de etapa que se desplazan en silencio para favorecer un número.
 
 ## Recomendaciones
@@ -68,7 +68,7 @@ aprobación), y despliegue (de la aprobación a producción). Captura marcas
 de tiempo para cada transición de forma automática a partir de eventos de
 control de versiones e integración continua, no a partir de un seguimiento
 de etapas autoinformado, aplicando el mismo principio de instrumentación
-sobre autoinforme del capítulo 1.5.
+sobre autoinforme del tema 1.5.
 
 ### Separa el tiempo de espera del tiempo activo dentro de cada etapa
 
@@ -107,7 +107,7 @@ sin relación en otro lugar.
 ### Vigila la manipulación de límites de etapa
 
 Igual que los puntos de inicio y fin del tiempo de flujo pueden derivar
-(capítulo 2.4), los límites de etapa individuales del tiempo de ciclo
+(tema 2.4), los límites de etapa individuales del tiempo de ciclo
 pueden desplazarse de formas que favorecen el número de una etapa
 específica sin ninguna mejora real, por ejemplo, marcar una revisión como
 "empezada" en el momento en que se asigna un revisor en lugar de cuando
@@ -163,7 +163,7 @@ inversión adicional de instrumentación.
 5. **¿Ha derivado algún límite de etapa del tiempo de ciclo en nuestra
    instrumentación de su definición documentada con el tiempo?** Los
    límites de etapa están expuestos a la misma deriva de definición que el
-   propio tiempo de flujo (capítulo 2.4). Audita una muestra de eventos
+   propio tiempo de flujo (tema 2.4). Audita una muestra de eventos
    recientes de transición de etapa frente a la definición escrita.
 
 6. **¿Cómo se manifiesta de forma distinta una cultura de revisión intensa
@@ -260,7 +260,7 @@ instrumentación.
   tiempo de ciclo:** con frecuencia lleva a arreglar la etapa equivocada.
 - **Asumir que el esfuerzo activo, no el tiempo de espera, es el coste
   dominante:** normalmente equivocado; la cola domina en la mayoría de las
-  canalizaciones de entrega reales (capítulo 2.5).
+  canalizaciones de entrega reales (tema 2.5).
 - **Pasar por alto un cuello de botella compartido entre equipos por
   revisar el tiempo de ciclo solo equipo por equipo:** deja sin descubrir
   una solución de plataforma de alto apalancamiento.
@@ -307,7 +307,7 @@ instrumentación.
   ingeniería, codificación, revisión, pruebas, despliegue, y es la capa
   diagnóstica que hay debajo de ese número resumen.
 - Separa el **tiempo de espera del tiempo activo** dentro de cada etapa; la
-  cola suele dominar sobre el esfuerzo activo (capítulo 2.5).
+  cola suele dominar sobre el esfuerzo activo (tema 2.5).
 - Busca **cuellos de botella compartidos entre equipos** antes de asumir
   que una ralentización es específica de un equipo; una causa compartida
   suele ser una oportunidad de inversión en plataforma.
@@ -315,7 +315,7 @@ instrumentación.
   vagas, para que los equipos sepan exactamente dónde enfocarse.
 - Los límites de etapa están expuestos al mismo riesgo de **deriva de
   definición** que el propio tiempo de flujo; audítalos periódicamente.
-- El capítulo 2.7 da las matemáticas subyacentes, la ley de Little, de por
+- El tema 2.7 da las matemáticas subyacentes, la ley de Little, de por
   qué el trabajo en curso y el tiempo de ciclo se mueven juntos.
 
 ## Referencias y lecturas adicionales

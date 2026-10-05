@@ -1,7 +1,7 @@
 # Contributing
 
 Thank you for helping improve this book. Contributions of all sizes are
-welcome, from fixing a typo to writing a new chapter.
+welcome, from fixing a typo to writing a new topic.
 
 ## Ground rules
 
@@ -12,7 +12,7 @@ The book follows a strict house style. The essentials:
 - Warm, plain, direct writing. Address the reader as "you." Short sentences.
 - Define terms on first use. Link key concepts to Wikipedia on first mention.
 - Real references only.
-- Every metric-family chapter names its gaming vector and its guardrail.
+- Every metric-family topic names its gaming vector and its guardrail.
 
 The full rules are in `spec/conventions.md` at the repository root, and the short
 version is the [style rules](style-rules.md). The
@@ -29,16 +29,16 @@ published website.
 just         # list tasks
 just test    # run the validation suite
 just nav     # regenerate the generated navigation files
-just stats   # chapter and word counts
+just stats   # topic and word counts
 ```
 
 ## Making a change
 
 1. Read the relevant guide: [authoring](authoring.md) for
-   chapters, [navigation](navigation.md) for the generated
+   topics, [navigation](navigation.md) for the generated
    files, [testing](testing.md) for the tests.
 2. Make the smallest change that does the job.
-3. If you added, removed, renamed, or renumbered a chapter, update
+3. If you added, removed, renamed, or renumbered a topic, update
    `spec/structure.md` at the repository root and run `just nav`.
 4. Run `just test`. It must pass.
 5. Add a one-line entry to the [changelog](../project/changelog.md) under **Unreleased**.
@@ -48,20 +48,20 @@ just stats   # chapter and word counts
 - Fix errors, unclear passages, or stale references.
 - Improve examples, especially concrete enterprise and government ones.
 - Verify citations against real sources.
-- Fill gaps in a chapter's coverage without breaking the template.
+- Fill gaps in a topic's coverage without breaking the template.
 
 ## What to avoid
 
 - Do not edit the generated files by hand (`README.md`, each locale's
   `index.md`, `front-matter/table-of-contents.md`, and
-  `topics/09-07-index.md`). Change the chapters and run `just nav` instead.
+  `topics/09-07-index.md`). Change the topics and run `just nav` instead.
 - Do not edit `en-001`, `en-gb`, or `en-us` directly; they are derived from
   `en-gb-oxendict` by `tools/localize.py`.
-- Do not add a chapter without also updating `spec/structure.md`.
+- Do not add a topic without also updating `spec/structure.md`.
 - Do not introduce em-dashes or the forbidden phrases; the tests will fail.
 
 ## Reporting issues
 
-Open an issue describing the problem, the file and chapter, and, where relevant,
+Open an issue describing the problem, the file and topic, and, where relevant,
 the correct source or reference. Small, specific reports are the easiest to act
 on.

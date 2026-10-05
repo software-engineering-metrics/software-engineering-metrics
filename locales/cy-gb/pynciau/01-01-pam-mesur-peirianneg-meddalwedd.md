@@ -9,7 +9,7 @@ cynhyrchu artiffactau unigryw o dan ofynion sy'n newid yn gyson, felly nid yw
 cyfrif naïf, o gomitiau, o linellau, o docynnau wedi'u cau, yn dweud fawr ddim
 wrthych am y gwerth a gyflwynwyd. Y bwlch hwnnw rhwng anhawster mesur gwaith
 meddalwedd a'r angen gwirioneddol i wybod a yw'n mynd yn dda yw lle mae'r
-llyfr cyfan hwn yn byw. Mae'r bennod hon yn ymwneud â chau'r bwlch hwnnw'n
+llyfr cyfan hwn yn byw. Mae'r pwnc hwn yn ymwneud â chau'r bwlch hwnnw'n
 onest: nid trwy esgus bod gwaith meddalwedd mor gyfrifadwy â nwyddau, ond
 trwy fod yn fanwl gywir ynghylch beth y gall ac na all mesur ei wneud i
 sefydliad peirianneg.
@@ -50,7 +50,7 @@ amddiffynadwy'n dystiolaeth.
   fwy dibynadwy, gan dîm cynaliadwy. Mae metrigau'n bodoli i wasanaethu'r
   nod hwnnw yn unig.
 - **Mae gan bob metrig gost.** Mae cyfrifianeg, amser adolygu, a'r risg
-  ystumio ymddygiadol a gwmpesir ym mhennod 1.2 i gyd yn costio rhywbeth. Rhaid
+  ystumio ymddygiadol a gwmpesir ym mhwnc 1.2 i gyd yn costio rhywbeth. Rhaid
   i fetrig ennill y gost honno'n ôl.
 - **Penderfyniad yw distawrwydd hefyd.** Mae dewis peidio â mesur rhywbeth yn
   ddewis â chanlyniadau, nid rhagosodiad niwtral.
@@ -66,7 +66,7 @@ leihau cyfraddau digwyddiadau" yn gwestiwn ar ffurf penderfyniad; nid yw
 gweithio'n ôl o benderfyniad yn cadw'r set fetrigau'n fach ac yn cadw pob
 teilsen yn amddiffynadwy pan fydd rhywun yn gofyn pam mae'n bodoli. Os na
 allwch enwi'r penderfyniad y byddai metrig yn ei lywio, peidiwch â'i adeiladu
-eto. Mae pennod 1.3 yn mynd yn ddyfnach i mewn i'r fersiwn canlyniadau-dros-
+eto. Mae pwnc 1.3 yn mynd yn ddyfnach i mewn i'r fersiwn canlyniadau-dros-
 gynnyrch o'r ddisgyblaeth hon.
 
 ### Gwahanwch ddefnydd diagnostig oddi wrth ddefnydd gwerthuso
@@ -80,7 +80,7 @@ ynghlwm wrtho. Penderfynwch yn benodol, yn ysgrifenedig, at ba ddefnydd y mae
 metrig, a byth peidiwch â gadael i fetrig diagnostig lithro i ddefnydd
 gwerthuso heb ailystyried y risg yn fwriadol. Mae'r gwahaniaeth hwn yn
 digwydd dro ar ôl tro trwy'r llyfr hwn ac fe'i ffurfiolir yn adran y
-diffyg-nodau o'r siarter metrigau a ddisgrifir ym mhennod 1.4.
+diffyg-nodau o'r siarter metrigau a ddisgrifir ym mhwnc 1.4.
 
 ### Trinwch fesur fel damcaniaeth, nid ffaith
 
@@ -120,7 +120,7 @@ ar unrhyw un ohonynt, tra bo pob un y rhowch bwysau gwerthuso arno'n gwahodd
 ystumio. Datryswch ef trwy ddechrau'n leiafswm ac wedi'i yrru gan
 benderfyniad, gan ychwanegu metrig dim ond pan fydd penderfyniad penodol, wedi'i
 enwi ei angen, a thrwy amddiffyn y ffin diagnostig-yn-unig yn benodol yng
-ngwaith llywodraethu pennod 1.4 yn hytrach na gadael iddi erydu'n ddiofyn.
+ngwaith llywodraethu pwnc 1.4 yn hytrach na gadael iddi erydu'n ddiofyn.
 
 ## Cwestiynau i'w trafod gyda'ch tîm
 
@@ -173,13 +173,13 @@ ngwaith llywodraethu pennod 1.4 yn hytrach na gadael iddi erydu'n ddiofyn.
    yn wirioneddol. Mae tîm sy'n allanoli pob penderfyniad i ddangosfwrdd yn
    colli'r dyfarniad cyd-destunol sy'n dal yr hyn y mae'r rhif yn ei golli;
    mae tîm sy'n anwybyddu data sydd ar gael o blaid y llais uchaf yn yr
-   ystafell yn ailadrodd yr union broblem y mae'r bennod hon yn agor â hi.
+   ystafell yn ailadrodd yr union broblem y mae'r pwnc hwn yn agor â hi.
    Metrigau sy'n llywio dyfarniad yw'r nod, nid metrigau sy'n ei ddisodli.
 
 ## Golwg sector
 
 **Cwmni newydd.** Gyda llond llaw o beirianwyr, mae'r rhan fwyaf o'r hyn y mae'r
-bennod hon yn rhybuddio yn ei erbyn, drifft tuag at ddefnydd gwerthuso, mannau
+bwnc hwn yn rhybuddio yn ei erbyn, drifft tuag at ddefnydd gwerthuso, mannau
 dall, chwydd dangosfwrdd, yn hawdd ei osgoi'n syml oherwydd bod pawb yn siarad
 bob dydd. Y risg yw'r un gwrthgyferbyniol: hepgor mesur yn gyfan gwbl
 oherwydd ei fod yn teimlo fel gorbenion na all y tîm eu fforddio. Dewiswch
@@ -197,7 +197,7 @@ gweithredu ar yr hyn y mae'n ei ddweud wrthych.
 **Menter.** Y prif risg yw metrigau sy'n drifftio'n dawel o ddefnydd
 diagnostig i ddefnydd gwerthuso wrth iddynt rolio i fyny trwy haenau
 rheolaeth, a dangosfyrddau sy'n tyfu trwy gronni oherwydd nad oes neb yn
-berchen ar y swydd o'u tocio. Nid yw llywodraethu (pennod 1.4) yn ddewisol
+berchen ar y swydd o'u tocio. Nid yw llywodraethu (pwnc 1.4) yn ddewisol
 ar y raddfa hon. Safonwch ddiffiniadau ar draws unedau busnes, ac adeiladwch
 adolygiad ymddeol rheolaidd i mewn i'r rhaglen fetrigau ei hun.
 
@@ -216,7 +216,7 @@ yn gymaradwy ag unrhyw un arall. Ni allai arweinyddiaeth ateb cwestiwn
 sylfaenol: p'un o'n deg buddsoddiad platfform strategol sydd mewn gwirionedd
 yn cyflenwi meddalwedd yn gyflymach. Nid mwy o fetrigau oedd yr ateb, ond
 llai, gwell: diffiniodd y sefydliad graidd a rennir, wedi'i yrru gan
-benderfyniad o fetrigau DORA (pennod 2.10) wedi'u cyfrifo'n union yr un fath
+benderfyniad o fetrigau DORA (pwnc 2.10) wedi'u cyfrifo'n union yr un fath
 ym mhobman o'r un data piblinell, ymddeolodd bedwar dangosfwrdd tîm-benodol
 ar hugain, a gallai o'r diwedd gymharu meysydd buddsoddi ar sail gyffredin
 o fewn dau chwarter.
@@ -245,7 +245,7 @@ ailgyflafareddu'r un dadleuon bob cylch cyllideb oherwydd na all neb bwyntio
 at rif y mae'r ddwy ochr yn ymddiried ynddo.
 
 Nid y dangosfwrdd yw cost mesur. Y ddisgyblaeth barhaus ydyw: cyfrifianeg,
-cynnal a chadw diffiniadau, a'r tocio cyfnodol y mae'r bennod hon yn ei
+cynnal a chadw diffiniadau, a'r tocio cyfnodol y mae'r pwnc hwn yn ei
 argymell. Mae'r gost cyfanswm perchnogaeth honno'n wirioneddol ond yn fach
 o'i chymharu â chost y dewis arall, sef sefydliad mawr yn gwneud
 penderfyniadau technoleg gwerth miliynau o ddoleri ar sail pwy bynnag a

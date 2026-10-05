@@ -12,9 +12,9 @@ systems is not how long work takes to do, it is how long work waits to be
 started.
 
 **[Work in process](https://en.wikipedia.org/wiki/Work_in_process)** (WIP) is the count of items actively being worked on at
-any one time, across a team or a system, the same quantity chapter 2.4 calls
+any one time, across a team or a system, the same quantity topic 2.4 calls
 "flow load." The counterintuitive finding behind
-this chapter, backed by decades of research in operations management and
+this topic, backed by decades of research in operations management and
 formalised for software delivery through kanban and queueing theory, is that
 limiting WIP tends to *increase* throughput, not decrease it, because less
 work in flight at once means less context switching, shorter queues, and
@@ -24,7 +24,7 @@ simultaneously should produce less output overall.
 For large teams, understanding flow efficiency reframes almost every
 delivery problem from "people need to work faster" to "work needs to wait
 less." That reframe matters because the first framing invites pressure on
-individuals, exactly the trap chapter 2.6 warns against, while the second
+individuals, exactly the trap topic 2.6 warns against, while the second
 invites investigation into queueing structure, review capacity, and how much
 work is started simultaneously, which is where the real, sustainable
 improvement usually lives. Enterprise organisations juggling many concurrent
@@ -51,7 +51,7 @@ when it is quietly slowing down everything already in flight.
 ### Measure flow efficiency before assuming effort is the bottleneck
 
 Calculate the ratio of active time to total elapsed time for a representative
-sample of recent changes, using the cycle-time stage data from chapter 2.6.
+sample of recent changes, using the cycle-time stage data from topic 2.6.
 Most teams measuring this for the first time are surprised by how low the
 number is, and that surprise is itself valuable: it redirects attention from
 "work harder" toward "reduce queueing," which is almost always the more
@@ -120,7 +120,7 @@ free-for-all.
    and does that number surprise us?** Most teams have never calculated
    this and assume it is much higher than it turns out to be. Pull a sample
    of recent changes and compute the ratio honestly before discussing
-   anything else in this chapter.
+   anything else in this topic.
 
 2. **How much work in process do we actually have right now, across the
    whole team, and did anyone know that number before counting?** High WIP
@@ -279,7 +279,7 @@ itself.
   generic "reduce wait time" directive.
 - Watch for WIP limits **eroding through routine exceptions**; treat every
   exception as a deliberate, visible decision.
-- Chapter 2.4 names this quantity **flow load** and chapter 2.7 formalises
+- Topic 2.4 names this quantity **flow load** and topic 2.7 formalises
   the relationship as Little's law: work in process equals arrival rate
   times cycle time, for any stable queue.
 

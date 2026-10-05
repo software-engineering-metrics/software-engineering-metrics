@@ -18,7 +18,7 @@ al marco fue que quienes rendían de forma excelente eran rápidos y
 estables simultáneamente, desmontando la suposición de que la velocidad y
 la seguridad se intercambian entre sí, y ese hallazgo sigue siendo el
 ejemplo trabajado más claro que tiene este libro del principio de
-emparejamiento con barrera de contención del capítulo 1.2: una métrica de
+emparejamiento con barrera de contención del tema 1.2: una métrica de
 velocidad incentivada, emparejada con una barrera de contención de
 estabilidad, es lo que realmente hacen las organizaciones de mejor
 rendimiento.
@@ -32,8 +32,8 @@ silencio sobre qué se mueve a través de la canalización. Un equipo puede
 presentar excelentes números DORA mientras su producción real ha derivado
 en silencio hacia retrabajo de defectos o ha privado de capacidad al
 trabajo de deuda técnica y seguridad, un patrón que el Flow Framework de
-los capítulos 2.1 a 2.4 está construido específicamente para sacar a la
-luz y que DORA no puede ver. Usa DORA como lo presenta este capítulo: una
+los temas 2.1 a 2.4 está construido específicamente para sacar a la
+luz y que DORA no puede ver. Usa DORA como lo presenta este tema: una
 medida de referencia bien validada pero más estrecha de la mecánica de la
 canalización, no la imagen completa de la salud de la entrega.
 
@@ -47,14 +47,14 @@ todavía la usan para priorizar la inversión en plataforma; las
 organizaciones del sector público todavía la usan para demostrar, con
 evidencia, que un programa de modernización mejoró de forma medible la
 mecánica de entrega. Trata eso como el trabajo propio y delimitado de
-DORA, y usa los capítulos del Flow Framework anteriores en esta parte para
+DORA, y usa los temas del Flow Framework anteriores en esta parte para
 la pregunta más amplia de si se está entregando siquiera lo correcto.
 
 ## Principios clave
 
 - **DORA mide la canalización, no el valor que fluye a través de ella.** El
-  capítulo 2.1 nombra directamente este vacío; usa la distribución de
-  flujo (capítulo 2.3) para ver lo que DORA no puede.
+  tema 2.1 nombra directamente este vacío; usa la distribución de
+  flujo (tema 2.3) para ver lo que DORA no puede.
 - **La velocidad y la estabilidad se miden juntas, nunca por separado.** Un
   tablero informado por DORA sin ambas mitades no está realmente usando el
   marco.
@@ -64,7 +64,7 @@ la pregunta más amplia de si se está entregando siquiera lo correcto.
   de forma distinta no lo es.
 - **DORA mide el sistema, no a las personas.** Aplicar estas métricas a
   ingenieros individuales rompe la base estadística del marco e invita
-  precisamente a la manipulación contra la que advierte el capítulo 1.2.
+  precisamente a la manipulación contra la que advierte el tema 1.2.
 - **Las cuatro métricas son indicadores indirectos, no objetivos.** Se
   correlacionan con el rendimiento organizacional; perseguir el número en
   sí mismo, desconectado de una mejora de entrega genuina, derrota el
@@ -89,7 +89,7 @@ clara de que esto está ocurriendo.
 El **tiempo de entrega para cambios** mide el tiempo desde el primer commit
 de un cambio de código hasta su despliegue exitoso en producción. Reporta
 tanto la mediana como un percentil alto, no solo una media, siguiendo la
-guía del capítulo 1.6 sobre datos asimétricos basados en tiempo, y vigila
+guía del tema 1.6 sobre datos asimétricos basados en tiempo, y vigila
 la deriva de definición en cualquiera de los dos extremos, que favorece el
 número sin ninguna mejora genuina.
 
@@ -119,8 +119,8 @@ prematura.
 ### Usa las métricas de flujo, no DORA, para diagnosticar por qué se movió un número
 
 Cuando una métrica DORA cambia, los cuatro números por sí solos rara vez
-explican por qué. Usa la descomposición del tiempo de ciclo (capítulo 2.6),
-la carga de flujo (capítulo 2.4) y la distribución de flujo (capítulo 2.3)
+explican por qué. Usa la descomposición del tiempo de ciclo (tema 2.6),
+la carga de flujo (tema 2.4) y la distribución de flujo (tema 2.3)
 como la capa diagnóstica que hay debajo de los números resumen de DORA, y
 nunca uses una métrica DORA en una evaluación de rendimiento individual, el
 mal uso individual más dañino al que está expuesto este marco.
@@ -141,7 +141,7 @@ canalización entre equipos, pero esa misma precisión se limita
 estrechamente a la propia canalización y no dice nada sobre si está
 fluyendo por ella el trabajo correcto. Resuélvela manteniendo DORA como una
 capa de referencia para la salud de la canalización, el lugar propio del
-capítulo 2.10 en la estructura de este libro, mientras usas los capítulos
+tema 2.10 en la estructura de este libro, mientras usas los temas
 del Flow Framework anteriores en esta parte para la pregunta orientada al
 negocio de la mezcla de valor, en lugar de intentar que DORA responda a una
 pregunta para la que nunca se diseñó.
@@ -153,7 +153,7 @@ pregunta para la que nunca se diseñó.
    construido sobre una medición objetiva y validada por investigación
    pierde mucho de su valor en el momento en que un número se convierte en
    una mejor conjetura. Audita la fuente de datos real de cada métrica
-   (capítulo 1.5).
+   (tema 1.5).
 
 2. **¿Comparten todos los equipos que comparamos usando métricas DORA las
    mismas definiciones de despliegue, cambio y fallo?** Una comparación
@@ -168,7 +168,7 @@ pregunta para la que nunca se diseñó.
    necesaria.
 
 4. **¿Podrían nuestros números DORA verse excelentes mientras nuestra
-   distribución de flujo (capítulo 2.3) ha derivado en silencio hacia el
+   distribución de flujo (tema 2.3) ha derivado en silencio hacia el
    retrabajo o se ha alejado de las funcionalidades?** Este es precisamente
    el vacío que DORA por sí sola no puede ver. Extrae ambos conjuntos de
    números juntos y comprueba si cuentan una historia consistente.
@@ -183,7 +183,7 @@ pregunta para la que nunca se diseñó.
    manipular cada uno de forma deliberada, y lo notaríamos?** Recorre la
    frecuencia de despliegue, el tiempo de entrega, la tasa de fallos de
    cambio y el tiempo de recuperación uno por uno, la aplicación práctica
-   de la disciplina central del capítulo 1.2 a este marco específico.
+   de la disciplina central del tema 1.2 a este marco específico.
 
 ## Enfoque sectorial
 
@@ -192,7 +192,7 @@ natural a un equipo pequeño que ya despliega con frecuencia; la disciplina
 más difícil es instrumentar la tasa de fallos de cambio y el tiempo de
 recuperación con honestidad en lugar de asumir estabilidad porque todavía
 nada se ha roto gravemente. Emparejar DORA con una división de elementos
-de flujo aunque sea informal (capítulo 2.2) desde el principio evita
+de flujo aunque sea informal (tema 2.2) desde el principio evita
 construir una falsa sensación de salud de entrega en torno solo a la
 velocidad de canalización.
 
@@ -207,7 +207,7 @@ al que vincularlo.
 **Empresa grande.** El mayor valor que le queda a DORA a esta escala es la
 comparación justa y consistente entre equipos para decisiones de inversión
 en plataforma. Estandariza las definiciones en toda la organización
-(capítulo 1.4), automatiza la instrumentación de forma centralizada, y
+(tema 1.4), automatiza la instrumentación de forma centralizada, y
 empareja cada informe DORA con una vista de distribución de flujo para que
 el liderazgo vea juntos tanto la velocidad de canalización como la mezcla
 de valor, no una sin la otra.
@@ -266,7 +266,7 @@ El coste total de propiedad es el trabajo de integración que vincula los
 eventos de despliegue con los registros de incidencias para la tasa de
 fallos de cambio y el tiempo de recuperación, nada trivial en un panorama
 de herramientas grande y heterogéneo. El coste adicional de emparejar DORA
-con los capítulos del Flow Framework anteriores en esta parte es
+con los temas del Flow Framework anteriores en esta parte es
 comparativamente pequeño, ya que la clasificación de elementos de flujo es
 una convención de informe superpuesta al trabajo existente, no un sistema
 de medición paralelo, y el retorno, detectar precisamente el punto ciego de
@@ -276,14 +276,14 @@ merece bien esa inversión adicional modesta.
 ## Antipatrones y errores comunes
 
 - **Tratar DORA como la imagen completa de la salud de entrega:** el
-  vector de manipulación que la colocación de este capítulo está diseñada
+  vector de manipulación que la colocación de este tema está diseñada
   para contrarrestar. Una organización puede presentar números DORA
   genuinamente excelentes, despliegues rápidos, frecuentes y estables,
   mientras su valor entregado real ha derivado en silencio hacia el
   retrabajo o se ha alejado de las funcionalidades, y las cuatro métricas
   de DORA por sí solas nunca revelarán ese cambio porque nunca se
   diseñaron para medirlo. La barrera de contención es emparejar cada
-  informe DORA con la distribución de flujo (capítulo 2.3), para que una
+  informe DORA con la distribución de flujo (tema 2.3), para que una
   canalización rápida y estable que entrega la mezcla equivocada de
   trabajo sea visible en lugar de confundirse con salud de entrega
   genuina.
@@ -337,8 +337,8 @@ merece bien esa inversión adicional modesta.
   validadas por investigación.
 - Este libro coloca DORA **al final de esta parte** porque mide la
   canalización, no el valor que fluye a través de ella; empárejalo con la
-  distribución de flujo (capítulo 2.3) para obtener la imagen completa.
-- El vector de manipulación central del capítulo es **confundir unos
+  distribución de flujo (tema 2.3) para obtener la imagen completa.
+- El vector de manipulación central del tema es **confundir unos
   números DORA excelentes con una salud de entrega completa**; la barrera
   de contención es reportar siempre DORA junto a la distribución de flujo.
 - **Nunca uses métricas DORA en evaluaciones de rendimiento individuales**;

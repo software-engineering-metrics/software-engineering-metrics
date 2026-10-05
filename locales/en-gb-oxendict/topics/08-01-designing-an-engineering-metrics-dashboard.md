@@ -4,21 +4,21 @@
 
 Every metric this book has covered eventually has to live somewhere real
 people actually look at, and a badly designed [dashboard](https://en.wikipedia.org/wiki/Dashboard_(business)) can undo the
-careful work of every preceding chapter: honest, well-governed,
+careful work of every preceding topic: honest, well-governed,
 guardrail-paired metrics presented dishonestly, cluttered, or to the wrong
 audience produce exactly the confusion and mistrust this book has worked to
-prevent. This chapter is about the specific craft of dashboard design:
+prevent. This topic is about the specific craft of dashboard design:
 choosing what to show whom, visualizing it honestly, and structuring the
 whole artefact so it actually gets used to make decisions rather than
 ignored or, worse, misread.
 
-The central discipline this chapter recommends is audience-specific design.
+The central discipline this topic recommends is audience-specific design.
 A dashboard built for an individual engineering team's daily standup needs
 different metrics, different granularity, and a different visual density
 than one built for a quarterly executive review, and a single, one-size-fits-all
 dashboard trying to serve both audiences usually serves neither well. This
-chapter treats dashboard design as a genuine design discipline, not just a
-reporting afterthought, drawing on chapter 1.6's statistical honesty
+topic treats dashboard design as a genuine design discipline, not just a
+reporting afterthought, drawing on topic 1.6's statistical honesty
 principles throughout: every visualization choice either helps or hinders a
 reader's ability to draw the correct conclusion from the data.
 
@@ -28,7 +28,7 @@ organizations running dozens of team dashboards need consistency without
 rigidity, shared standards that still allow each audience's specific needs
 to be met; government organizations, whose dashboards may face public
 scrutiny or serve as the basis for oversight reporting, need the honest
-visualization standards this chapter recommends applied with particular
+visualization standards this topic recommends applied with particular
 rigor, since a misleading chart discovered by an external reviewer damages
 credibility far beyond the specific metric involved.
 
@@ -38,13 +38,13 @@ credibility far beyond the specific metric involved.
   coverage.** A dashboard trying to serve everyone usually serves no one
   well.
 - **Every visualization choice either helps or actively misleads.** Apply
-  chapter 1.6's statistical honesty rigorously: real trend, honest axes,
+  topic 1.6's statistical honesty rigorously: real trend, honest axes,
   visible uncertainty.
 - **Fewer, well-chosen metrics beat comprehensive coverage.** This book's
-  running principle, from chapter 1.1 onward, applies directly to dashboard
+  running principle, from topic 1.1 onward, applies directly to dashboard
   design.
 - **A dashboard needs an owner and a review cadence**, exactly like any
-  other governed metric (chapter 1.4), or it decays into an unmaintained,
+  other governed metric (topic 1.4), or it decays into an unmaintained,
   untrusted artefact.
 - **Guardrail pairs belong on the same view.** Never separate an
   incentivized metric from its guardrail onto different dashboards or
@@ -58,56 +58,56 @@ Build separate, purpose-specific views rather than one dashboard serving
 every audience: a team-level operational dashboard (daily or weekly cadence,
 granular delivery and quality metrics for the team's own use), a
 leadership dashboard (monthly or quarterly cadence, outcome-weighted per
-chapter 7.4, fewer metrics, more context), and, where relevant, an
+topic 7.4, fewer metrics, more context), and, where relevant, an
 external-facing dashboard (for customers, oversight bodies, or the public,
-carefully governed per chapter 1.4's consequence-scaled rigor). Each serves
+carefully governed per topic 1.4's consequence-scaled rigor). Each serves
 a different decision and should be designed for that decision specifically,
 not as a filtered view of a single master dashboard.
 
 ### Apply honest visualization standards consistently
 
-Follow chapter 1.6's statistical honesty principles as hard design
+Follow topic 1.6's statistical honesty principles as hard design
 requirements, not optional polish: start value axes at zero unless a
 stated, visible exception is documented, show trend over time rather than a
 single snapshot, use medians and percentiles rather than averages for
 skewed data, and annotate context (deploys, incidents, organizational
 changes) so a reader can distinguish a genuine shift from noise. Avoid the
-specific chart manipulations chapter 1.6 named directly: dual axes implying
+specific chart manipulations topic 1.6 named directly: dual axes implying
 false correlation, cherry-picked date ranges, and 3-D effects that distort
 proportion.
 
 ### Never separate a metric from its paired guardrail across different
 views
 
-Following chapter 1.2's guardrail-pairing principle as a hard dashboard
-design rule: deployment frequency and change failure rate (chapter 2.10)
+Following topic 1.2's guardrail-pairing principle as a hard dashboard
+design rule: deployment frequency and change failure rate (topic 2.10)
 belong on the same view, always visible together, never split across
 a "speed" dashboard and a separate "quality" dashboard that different
 audiences might view in isolation. This is not a minor layout preference;
 separating a metric from its guardrail on different dashboards recreates
-exactly the incentive-exposure risk chapter 1.2 warns against, even if both
+exactly the incentive-exposure risk topic 1.2 warns against, even if both
 numbers are technically tracked somewhere.
 
 ### Assign a named owner and a review cadence to every dashboard
 
-Apply chapter 1.4's governance discipline directly to the dashboard
+Apply topic 1.4's governance discipline directly to the dashboard
 artefact itself, not just to the individual metrics it displays: name an
 owner responsible for the dashboard's continued accuracy and relevance, and
 set a review cadence at which metrics are added, retired, or reconsidered.
 A dashboard with no owner decays exactly the way an unowned metric does
-(chapter 1.4), accumulating stale tiles nobody has the authority or
+(topic 1.4), accumulating stale tiles nobody has the authority or
 responsibility to prune.
 
 ### Build in an explicit, visible statement of what the dashboard is not
 for
 
-Following chapter 1.1's diagnostic-versus-evaluative distinction, state
+Following topic 1.1's diagnostic-versus-evaluative distinction, state
 directly and visibly on any dashboard whose metrics could plausibly be
 misused for individual evaluation, exactly what the dashboard is not for:
 "these metrics describe team and system health; they are not used in
 individual performance reviews." This explicit statement, applied
-especially to any dashboard containing activity data (chapter 3.4) or
-on-call load data (chapter 6.3), is a small design choice with an outsized
+especially to any dashboard containing activity data (topic 3.4) or
+on-call load data (topic 6.3), is a small design choice with an outsized
 effect on preventing exactly the evaluative drift this book warns against
 throughout.
 
@@ -120,7 +120,7 @@ throughout.
 | Comprehensive metric coverage on every view | Nothing is missed | Dashboard fatigue; buries the metrics that actually matter for that audience's decision |
 | Minimal, decision-driven metric selection per dashboard | Focused, actionable, easier to trust | Requires deliberate curation discipline and risks omitting something relevant |
 
-The central tension is **comprehensiveness versus focus**, chapter 1.1's
+The central tension is **comprehensiveness versus focus**, topic 1.1's
 foundational tension applied specifically to dashboard design. A
 comprehensive dashboard feels safer, nothing is left out, but it usually
 serves its actual audience worse than a focused one built specifically
@@ -142,7 +142,7 @@ its intended audience.
    specifically for this pattern, checking each of Part 2's DORA metrics
    and their pairings as a starting point.
 
-3. **Would our dashboard's visualizations pass chapter 1.6's honest
+3. **Would our dashboard's visualizations pass topic 1.6's honest
    visualization standards: zero-based axes, trend over snapshot, medians
    over averages for skewed data?** Review your actual current charts
    against this checklist directly.
@@ -183,7 +183,7 @@ dozens of team dashboards need enough shared standard (honest visualization
 rules, guardrail pairing, ownership discipline) to be trustworthy and
 comparable, while still allowing each team's specific operational needs to
 shape its own view. Invest in a shared dashboard design standard,
-enforced through governance (chapter 1.4), rather than either a rigid,
+enforced through governance (topic 1.4), rather than either a rigid,
 one-size-fits-all template or completely unstructured, inconsistent local
 dashboards.
 
@@ -191,7 +191,7 @@ dashboards.
 particular rigor in honest visualization and explicit governance
 documentation, since a misleading chart discovered by an external reviewer
 damages institutional credibility well beyond the specific metric
-involved. Apply the highest standard of this chapter's recommendations to
+involved. Apply the highest standard of this topic's recommendations to
 any externally facing dashboard specifically.
 
 ## Examples
@@ -205,7 +205,7 @@ business-outcome tiles as irrelevant to their daily work, and executives
 were overwhelmed by granular delivery metrics with no context for
 interpretation. Splitting it into a focused, six-tile team operational
 dashboard and a separate, eight-tile leadership dashboard, both following
-this chapter's guardrail-pairing and honest visualization standards,
+this topic's guardrail-pairing and honest visualization standards,
 produced measurably higher engagement and, critically, executives reported
 for the first time being able to explain what the numbers meant when asked
 by their own leadership.
@@ -213,9 +213,9 @@ by their own leadership.
 **Government.** A state government's public-facing digital services
 dashboard had been criticized publicly for a chart showing "average"
 processing time using a truncated y-axis that visually exaggerated a modest
-improvement, a violation of chapter 1.6's honest visualization standards
+improvement, a violation of topic 1.6's honest visualization standards
 that an external technology journalist had caught and reported on. The
-agency's redesigned dashboard, built explicitly against this chapter's
+agency's redesigned dashboard, built explicitly against this topic's
 standards, zero-based axes, median rather than average for the
 right-skewed processing-time data, and clearly annotated context for any
 notable change, was specifically praised in a follow-up article as a
@@ -234,7 +234,7 @@ for its own decisions.
 The total cost of ownership is the design and maintenance effort for
 multiple, purpose-specific dashboards rather than one comprehensive
 artefact, plus the ongoing governance discipline (named ownership, review
-cadence) this chapter recommends. That cost is modest compared to the risk
+cadence) this topic recommends. That cost is modest compared to the risk
 of a dashboard that goes unused, or worse, one that actively misleads its
 audience and damages credibility, as the government example above shows
 concretely.
@@ -244,7 +244,7 @@ concretely.
 - **A single dashboard trying to serve every audience:** usually serves no
   one well.
 - **Separating an incentivized metric from its guardrail across different
-  views:** recreates the incentive-exposure risk chapter 1.2 warns against.
+  views:** recreates the incentive-exposure risk topic 1.2 warns against.
 - **Dishonest visualization choices:** truncated axes, cherry-picked date
   ranges, and dual axes all mislead readers, sometimes with real
   reputational consequences.
@@ -285,13 +285,13 @@ concretely.
 
 - Design **audience-specific dashboards** for specific decisions, not one
   comprehensive artefact trying to serve everyone.
-- Apply **honest visualization standards** (chapter 1.6) as hard
+- Apply **honest visualization standards** (topic 1.6) as hard
   requirements: zero-based axes, trend over snapshot, medians over
   averages for skewed data.
 - **Never separate an incentivized metric from its guardrail** across
   different views; keep guardrail pairs on the same dashboard.
 - Assign a **named owner and review cadence** to every dashboard, exactly
-  as chapter 1.4 requires for any governed metric.
+  as topic 1.4 requires for any governed metric.
 - State explicitly **what a dashboard is not for**, especially where
   activity or operational-load data could be misused for individual
   evaluation.
@@ -305,5 +305,5 @@ concretely.
 - *Information Dashboard Design*, by Stephen Few (dashboard-specific design
   principles for effective, honest communication).
 - *Accelerate: The Science of Lean Software and DevOps*, by Nicole Forsgren,
-  Jez Humble, and Gene Kim (the metric-pairing discipline this chapter
+  Jez Humble, and Gene Kim (the metric-pairing discipline this topic
   applies directly to dashboard layout).

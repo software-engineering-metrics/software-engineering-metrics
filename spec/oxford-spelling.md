@@ -2,7 +2,7 @@
 
 This book is written in **Oxford spelling** (also called Oxford English
 Dictionary spelling, or the `-ize` convention). This page is the reference the
-chapters are written to, and the spelling sweep in the toolchain enforces it.
+topics are written to, and the spelling sweep in the toolchain enforces it.
 
 Oxford spelling is British English with one deliberate difference: it uses
 `-ize` and `-ization` where mainstream British writing often uses `-ise` and

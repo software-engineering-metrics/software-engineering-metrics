@@ -2,7 +2,7 @@
 
 ## Trosolwg a chymhelliant
 
-**Cyflymder llif** yw nifer yr elfennau llif (pennod 2.2) a gwblhawyd
+**Cyflymder llif** yw nifer yr elfennau llif (pwnc 2.2) a gwblhawyd
 dros gyfnod penodol, mesur [trwybwn](https://en.wikipedia.org/wiki/Throughput)
 y Flow Framework. **Dosbarthiad llif** yw cyfran pob math o elfen lif,
 nodweddion, diffygion, risg, a dyled, ymhlith yr eitemau a gwblhawyd yn
@@ -14,11 +14,11 @@ gyflymder tra bo'i ddosbarthiad yn symud yn dawel i ffwrdd oddi wrth
 nodweddion ac tuag at ailwaith diffygion, sy'n edrych fel cyflymu ar
 siart cyflymder ac sydd mewn gwirionedd yn symptom o ansawdd yn dirywio.
 
-Mae'r parejiad hwn yr un ddisgyblaeth y mae pennod 1.2 yn gofyn amdani
+Mae'r parejiad hwn yr un ddisgyblaeth y mae pwnc 1.2 yn gofyn amdani
 gan bob teulu metrig yn y llyfr hwn: byth adrodd rhif cyflymder heb y
 gledr ddiogelwch sy'n dangos beth gostiodd y cyflymder hwnnw. Cyflymder
 llif yw cyffredinoliad mwyaf uniongyrchol y rhan hon o fetrig trwybwn, yn
-nes o ran ysbryd at amlder defnyddio (pennod 2.10) nag at unrhyw rif sengl
+nes o ran ysbryd at amlder defnyddio (pwnc 2.10) nag at unrhyw rif sengl
 arall yn y llyfr hwn, ond yn ymwybodol o fath-eitem mewn ffordd nad oedd
 amlder defnyddio erioed. Mae amlder defnyddio'n dweud wrthych pa mor aml
 mae cod yn cyrraedd cynhyrchu; mae cyflymder llif, wedi'i barejo â
@@ -29,7 +29,7 @@ I dimau mawr sy'n rhedeg llawer o ffrydiau gwerth cydredol, mae'r
 parejiad hwn yn dinoethi patrwm y mae un rhif trwybwn yn ei guddio'n
 gyfan gwbl: ffrwd werth y mae ei chyflymder yn edrych yn iach tra bo'i
 dosbarthiad wedi drifftio'n dawel tuag at waith nodwedd bron yn bur, gan
-lwgu'n dawel y capasiti dyled a risg y rhybuddiodd pennod 2.2 sydd angen
+lwgu'n dawel y capasiti dyled a risg y rhybuddiodd pwnc 2.2 sydd angen
 diogelwch bwriadol. Mae sefydliadau menter sy'n cymharu trwybwn ar draws
 llinellau cynnyrch, ac asiantaethau llywodraeth sy'n adrodd cynnyrch
 cyflenwi i gyrff goruchwylio, ill dau angen y parejiad hwn i osgoi camgymryd
@@ -45,13 +45,13 @@ cynnyrch crai am gynnydd gwirioneddol, cynaliadwy.
   canran sy'n edrych yn iach yn golygu llawer os nad ydych hefyd yn gwybod
   faint o gyfanswm gwaith y mae'n ei gynrychioli.
 - **Rhaid adrodd y ddwy fetrig gyda'i gilydd, bob amser.** Mae hyn yn
-  gymhwysiad uniongyrchol o egwyddor emparejo cledr ddiogelwch pennod 1.2
+  gymhwysiad uniongyrchol o egwyddor emparejo cledr ddiogelwch pwnc 1.2
   i ddata llif yn benodol.
 - **Mae cyflymder yn agored i'r un twyllo amnewid ag unrhyw fetrig
   cyfrif-eitem.** Mae hollti gwaith caled yn nifer o eitemau bach, hawdd
   yn chwyddo'r cyfrif heb gyflenwi gwerth cyfrannol mwy.
 - **Mae dosbarthiad iach yn dibynnu ar gyd-destun, nid yn darged
-  sefydlog.** Mae pennod 2.2 yn cwmpasu hyn yn ddyfn; dylid dehongli
+  sefydlog.** Mae pwnc 2.2 yn cwmpasu hyn yn ddyfn; dylid dehongli
   cyflymder a dosbarthiad bob amser yn erbyn y targed y mae'r cyd-destun
   hwnnw'n ei awgrymu.
 
@@ -61,14 +61,14 @@ cynnyrch crai am gynnydd gwirioneddol, cynaliadwy.
 
 Mae cyfrif eitem un cyfnod yn swnllyd ac yn hawdd ei gamddarllen. Plotiwch
 gyflymder llif ar draws sawl cyfnod olynol ac edrychwch ar y duedd, nid
-unrhyw un pwynt data, yr un ddisgyblaeth y mae pennod 1.6 yn ei hargymell
+unrhyw un pwynt data, yr un ddisgyblaeth y mae pwnc 1.6 yn ei hargymell
 ar gyfer unrhyw fetrig cyfres-amser sy'n dueddol o amrywiant naturiol.
 
 ### Byth cyflwyno cyflymder llif heb ei ddosbarthiad ochr yn ochr ag ef
 
 Triniwch hyn fel rheol gaeth ar gyfer unrhyw ddangosfwrdd neu adroddiad,
 nid rhywbeth braf i'w gael. Mae siart cyflymder a ddangosir ar ei ben ei
-hun yn gwahodd yn union y camddarllen y mae'r bennod hon yn agor ag ef:
+hun yn gwahodd yn union y camddarllen y mae'r pwnc hwn yn agor ag ef:
 trwybwn cynyddol sydd mewn gwirionedd yn gyfran gynyddol o ailwaith neu
 waith nodwedd hawdd sy'n gwthio allan gapasiti dyled a risg. Rhowch y
 ddau ar yr un olwg, bob amser.
@@ -78,7 +78,7 @@ ddau ar yr un olwg, bob amser.
 Mae cyfrif eitem crai'n trin newid ffurfweddiad un llinell a mudo
 pensaernïol aml-wythnos fel rhai cyfatebol, sy'n gwahodd yr un twyllo
 amnewid y mae'r llyfr hwn eisoes wedi'i enwi ar gyfer amlder defnyddio
-(pennod 2.10): mae hollti gwaith caled yn nifer o eitemau bach yn chwyddo'r
+(pwnc 2.10): mae hollti gwaith caled yn nifer o eitemau bach yn chwyddo'r
 cyfrif heb gyflenwi mwy yn gyfrannol. Lle mae meintiau eitem yn amrywio'n
 eang, pwysolwch gyflymder yn ôl amcangyfrif maint neu gymhlethdod
 bras, neu olrheiniwch faint eitem cyfartalog ochr yn ochr â'r cyfrif
@@ -91,14 +91,14 @@ Yn anaml y mae'r signal mwyaf defnyddiol mewn dosbarthiad llif yn union
 ganrannau'r cyfnod hwn; y cyfeiriad newid dros sawl cyfnod ydyw. Mae
 drifft cyson, nodweddion yn dringo tra bo dyled a risg yn crebachu'n
 dawel, yn werth ei godi â rhanddeiliaid ymhell cyn iddo ddod yn fath o
-broblem ansawdd neu ddiogelwch y mae pennod 2.2 yn rhybuddio sy'n cronni'n
+broblem ansawdd neu ddiogelwch y mae pwnc 2.2 yn rhybuddio sy'n cronni'n
 anweledig o dan batrwm ffatri nodweddion.
 
 ### Cymharwch gyflymder llif ar draws ffrydiau gwerth â gofal gwirioneddol yn unig
 
 Nid yw dwy ffrwd werth â graddoldeb eitem gwahanol, meintiau tîm
 gwahanol, neu gyfnodau cynnyrch gwahanol yn uniongyrchol gymaradwy ar
-gyflymder crai yn unig, yr un broblem tegwch y mae pennod 2.10 yn ei
+gyflymder crai yn unig, yr un broblem tegwch y mae pwnc 2.10 yn ei
 henwi ar gyfer amlder defnyddio ar draws timau. Defnyddiwch gyflymder ar
 gyfer tuedd ffrwd werth ei hun yn gyntaf, a dim ond ceisiwch gymhariaeth
 traws-ffrwd-werth ar ôl cadarnhau diffiniadau a graddoldeb eitem sy'n
@@ -109,7 +109,7 @@ wirioneddol gymaradwy.
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Cyflymder cyfrif-eitem crai yn unig | Syml i'w gyfrifo a'i esbonio | Agored i dwyllo amnewid; yn cuddio pa fath o werth a gyflenwyd |
-| Cyflymder wedi'i barejo â dosbarthiad | Yn dangos graddfa a chymysgedd gwerth gyda'i gilydd | Angen disgyblaeth dosbarthiad elfen-lif ddisgybledig (pennod 2.2) i fod yn ystyrlon |
+| Cyflymder wedi'i barejo â dosbarthiad | Yn dangos graddfa a chymysgedd gwerth gyda'i gilydd | Angen disgyblaeth dosbarthiad elfen-lif ddisgybledig (pwnc 2.2) i fod yn ystyrlon |
 | Cyflymder wedi'i bwysoli yn ôl maint | Yn gwrthsefyll twyllo amnewid o hollti maint eitem | Angen dull meintio cyson, y cytunwyd arno ar draws y tîm |
 | Cymhariaeth cyflymder traws-ffrwd-werth | Defnyddiol ar gyfer penderfyniadau buddsoddi lefel-portffolio | Yn hawdd yn annheg heb gadarnhau diffiniadau eitem sy'n wirioneddol gymaradwy |
 
@@ -126,7 +126,7 @@ bod y cyfrif syml wedi dod yn weithredol gamarweiniol.
 1. **Pan fyddwn yn adrodd cyflymder llif, a yw dosbarthiad llif bob amser
    yn cael ei ddangos ochr yn ochr ag ef, neu a yw cyflymder weithiau'n
    sefyll ar ei ben ei hun?** Mae rhif cyflymder heb ei ddosbarthiad yn
-   ddarlun anghyflawn yn ôl egwyddor ganolog y bennod hon ei hun. Gwiriwch
+   ddarlun anghyflawn yn ôl egwyddor ganolog y pwnc hwn ei hun. Gwiriwch
    eich dangosfyrddau ac adroddiadau gwirioneddol am y bwlch hwn.
 
 2. **A yw maint eitem cyfartalog wedi newid ochr yn ochr â chyflymder
@@ -170,7 +170,7 @@ yn cael ei ddominyddu gan drwsio bygiau cyfnod cynnar.
 
 **Busnes bach.** Olrheiniwch gyflymder a dosbarthiad gyda'i gilydd o
 ba bynnag offeryn ysgafn a ddefnyddiwch eisoes ar gyfer dosbarthiad
-elfen-lif (pennod 2.2); nid oes angen platfform dadansoddeg pwrpasol ar y
+elfen-lif (pwnc 2.2); nid oes angen platfform dadansoddeg pwrpasol ar y
 raddfa hon. Mae'r arfer o'u gweld bob amser ochr yn ochr yn bwysicach na
 soffistigedigrwydd unrhyw offer.
 
@@ -225,22 +225,22 @@ ddarganfod dim ond ar ôl i broblem ansawdd cwsmer-wynebus orfodi'r
 cwestiwn.
 
 Mae cost cyfanswm perchnogaeth yn fach unwaith y bydd dosbarthiad
-elfen-lif (pennod 2.2) eisoes ar waith: mae dosbarthiad yn gyfanredd
+elfen-lif (pwnc 2.2) eisoes ar waith: mae dosbarthiad yn gyfanredd
 syml o eitemau eisoes wedi'u dosbarthu, ac mae'r ddisgyblaeth o ddangos y
 ddwy fetrig gyda'i gilydd yn confensiwn adrodd, nid buddsoddiad
-technegol. Talwyd y rhan fwyaf o gost argymhellion y bennod hon eisoes
+technegol. Talwyd y rhan fwyaf o gost argymhellion y pwnc hwn eisoes
 pan fabwysiadodd y sefydliad ddosbarthiad elfen-lif gonest yn y lle
 cyntaf.
 
 ## Gwrth-batrymau a pheryglon
 
 - **Adrodd cyflymder llif heb ddosbarthiad:** y fector twyllo wrth galon
-  y bennod hon. Gall tîm o dan bwysau cyflenwi godi cyfrif eitem trwy
+  y pwnc hwn. Gall tîm o dan bwysau cyflenwi godi cyfrif eitem trwy
   ffafrio gwaith nodwedd bach, hawdd ac osgoi eitemau dyled, risg, neu
   ddiffyg anos, neu trwy hollti eitemau mawr yn nifer o rai bach, a bydd
   siart cyflymder a ddangosir ar ei ben ei hun yn darllen fel cyflymu yn
   hytrach na'r symudiad gwirioneddol yn yr hyn sy'n cael ei gyflenwi. Y
-  gledr ddiogelwch yw'r un ddisgyblaeth parejo y mae pennod 1.2 yn gofyn
+  gledr ddiogelwch yw'r un ddisgyblaeth parejo y mae pwnc 1.2 yn gofyn
   amdani drwy'r llyfr hwn: byth dangos cyflymder heb ddosbarthiad, a
   gwirio maint eitem cyfartalog ochr yn ochr â'r cyfrif yn gyfnodol i
   ddal hollti'n benodol.
@@ -253,7 +253,7 @@ cyntaf.
 - **Anwybyddu maint eitem cyfartalog wrth ddathlu cyflymder cynyddol:** yn
   colli llofnod penodol twyllo amnewid.
 - **Gosod targed cyflymder heb gyfeiriad at ddosbarthiad:** yn gwahodd yn
-  union y twyllo y mae'r bennod hon yn rhybuddio yn ei erbyn yn ôl enw.
+  union y twyllo y mae'r pwnc hwn yn rhybuddio yn ei erbyn yn ôl enw.
 
 ## Model aeddfedrwydd
 
@@ -288,9 +288,9 @@ cyntaf.
   mesur pa fath o waith y mae'r trwybwn hwnnw'n ei gynrychioli.
   Adroddwch nhw gyda'i gilydd, bob amser.
 - Mae'r parejiad hwn yn gymhwysiad uniongyrchol o **egwyddor cledr
-  ddiogelwch** pennod 1.2: byth dangos rhif cyflymder heb gyd-destun yr
+  ddiogelwch** pwnc 1.2: byth dangos rhif cyflymder heb gyd-destun yr
   hyn a gostiodd.
-- Fector twyllo canolog y bennod yw **adrodd cyflymder ar ei ben ei
+- Fector twyllo canolog y pwnc yw **adrodd cyflymder ar ei ben ei
   hun**, a all guddio symudiad tuag at waith nodwedd hawdd neu hollti
   eitem sy'n chwyddo'r cyfrif heb gyflenwi gwerth cyfrannol.
 - Mae **drifft dosbarthiad** yn fwyaf gweladwy fel tuedd ar draws sawl

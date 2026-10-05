@@ -10,8 +10,8 @@ penderfyniad clir, osgoi cyfraith Goodhart, pwysoli tuag at ganlyniadau,
 llywodraethu perchnogaeth, cyfrifiannu'n ddibynadwy, a dal i dynnu'r
 casgliad anghywir oherwydd iddo ddarllen cyfartaledd lle roedd angen
 canradd, camgymryd sŵn am duedd, neu syrthio am gyd-ddigwyddiad wedi'i
-wisgo fel achos. Y bennod hon yw'r farn ystadegol leiafswm y mae'r llyfr
-hwn yn tybio bod gan ddarllenydd pob pennod ddiweddarach eisoes.
+wisgo fel achos. Y pwnc hwn yw'r farn ystadegol leiafswm y mae'r llyfr
+hwn yn tybio bod gan ddarllenydd pob pwnc diweddarach eisoes.
 
 Y broblem graidd yw bod metrigau peirianneg fel arfer yn swnllyd, yn
 gam, ac yn sampl fach yn ôl safonau ystadegaeth ffurfiol. Nid cromlin gloch
@@ -33,7 +33,7 @@ unrhyw un feddwl ailarchwilio'r dadansoddiad sylfaenol. Gall cymhariaeth
 naïf yn ystadegol rhwng dwy is-adran, neu rhwng cyn ac ar ôl
 ad-drefniant mawr, lunio penderfyniadau adnoddau am flynyddoedd yn seiliedig
 ar ddim mwy na sŵn neu ddrysydd na reolwyd gan unrhyw un amdano. Mae'r
-bennod hon yn bodoli i wneud y methiant hwnnw'n llai tebygol.
+bwnc hwn yn bodoli i wneud y methiant hwnnw'n llai tebygol.
 
 ## Egwyddorion allweddol
 
@@ -67,8 +67,8 @@ lle mae hanner yr arsylwadau uwchben a hanner islaw) ochr yn ochr â'r
 **90fed** neu'r **95fed ganradd** (y gwerth y mae 90% neu 95% o
 arsylwadau'n syrthio islaw iddo), sydd gyda'i gilydd yn dangos yr achos
 nodweddiadol a'r gynffon gwaethaf-achos y mae tîm mewn gwirionedd yn ei
-brofi. Mae pennod KPI llyfr chwaer `software-engineering-guide`, a phob
-pennod metrig cyflenwi yn Rhan 2 y llyfr hwn, yn tybio'r arfer hwn
+brofi. Mae pwnc KPI llyfr chwaer `software-engineering-guide`, a phob
+pwnc metrig cyflenwi yn Rhan 2 y llyfr hwn, yn tybio'r arfer hwn
 drwyddo draw.
 
 ### Gwybyddwch pryd mae sampl yn rhy fach i'w ymddiried
@@ -185,7 +185,7 @@ archwiliadol, risg isel lle mae darlleniad camgymerol yn costio ychydig.
 ## Golwg sector
 
 **Cwmni newydd.** Mae timau bach yn cynhyrchu samplau bach bron ym
-mhobman, sy'n golygu bod y rhybudd sampl-bach yn y bennod hon yn bwysig
+mhobman, sy'n golygu bod y rhybudd sampl-bach yn y pwnc hwn yn bwysig
 yn barhaus. Gwrthsefwch dynnu casgliadau cryf o un wythnos wael sengl neu
 un wych sengl; gyda dim ond llond llaw o bwyntiau data, yr ateb gonest i
 "a yw hwn yn duedd" yn aml yw "nid ydym yn gwybod eto."

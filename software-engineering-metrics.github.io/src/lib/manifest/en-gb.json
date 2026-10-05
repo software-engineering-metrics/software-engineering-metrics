@@ -1859,12 +1859,12 @@
   "contributing": [
     {
       "slug": "authoring",
-      "title": "Authoring: writing and editing chapters",
+      "title": "Authoring: writing and editing topics",
       "file": "contributing/authoring.md"
     },
     {
       "slug": "chapter-template",
-      "title": "Chapter template (shared)",
+      "title": "Topic template (shared)",
       "file": "contributing/chapter-template.md"
     },
     {

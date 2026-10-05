@@ -1,7 +1,7 @@
 # 9.7 Índice
 
-Un índice temático de conceptos clave y los capítulos que los cubren.
-Los términos se definen en el Glosario (capítulo 9.1).
+Un índice temático de conceptos clave y los temas que los cubren.
+Los términos se definen en el Glosario (tema 9.1).
 
 ## A
 

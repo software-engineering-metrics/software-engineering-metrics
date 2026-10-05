@@ -2,7 +2,7 @@
 
 ## Trosolwg a chymhelliant
 
-Mae'r bennod hon yn cau Rhan 6 trwy ymestyn yr un ddisgyblaeth
+Mae'r pwnc hwn yn cau Rhan 6 trwy ymestyn yr un ddisgyblaeth
 dibynadwyedd y mae'r rhan hon wedi'i hadeiladu, gosod-targed, parejo-
 cledr-ddiogelwch, adrodd digwyddiad onest, i berygl gwahanol ond yn
 agos gysylltiedig: nid a yw system yn methu ar ei phen ei hun, ond a
@@ -15,11 +15,11 @@ gan fod gwendid hysbys ond heb ei drwsio'n berygl sefydlog, meintiol y
 mae'r sefydliad wedi dewis ei gario, boed yn fwriadol neu trwy
 esgeulustod.
 
-Mae pryder canolog y bennod hon yn adlewyrchu triniaeth pennod 4.4 o
+Mae pryder canolog y pwnc hwn yn adlewyrchu triniaeth pwnc 4.4 o
 ganfyddiadau dadansoddiad statig yn uniongyrchol: mae cyfrif gwendid
 crai'n fetrig gwael, gan gymysgu materion dibwys a chritigol, ac mae'n
 agored i union yr un peryglon twyllo, culhau diffiniad, atal, a thwyllo
-trothwy, y mae pennod 1.2'n eu disgrifio'n gyffredinol. Yr ychwanegiad
+trothwy, y mae pwnc 1.2'n eu disgrifio'n gyffredinol. Yr ychwanegiad
 penodol y mae metrigau diogelwch ei angen yw olrhain amser-i-unioni yn
 erbyn difrifoldeb, gan fod gwendid critigol yn eistedd heb ei drwsio am
 fisoedd yn cynrychioli perygl sylfaenol wahanol na'r un gwendid wedi'i
@@ -32,7 +32,7 @@ amlygiad contractiol ac enw da o dor-diogelwch, ac mae sefydliadau
 llywodraeth yn wynebu canlyniadau diogelwch cenedlaethol, cyfreithiol,
 ac ymddiriedaeth gyhoeddus sy'n gwneud metrigau diogelwch yn fater o
 ddiddordeb cyhoeddus gwirioneddol, nid dim ond pryder peirianneg mewnol.
-Mae'r bennod hon yn trin rheoli gwendidau â'r un trylwyredd a'r un
+Mae'r pwnc hwn yn trin rheoli gwendidau â'r un trylwyredd a'r un
 ddisgyblaeth parejo-cledr-ddiogelwch y mae'r llyfr hwn yn ei chymhwyso
 drwyddo draw, oherwydd mae metrigau diogelwch yn agored i bob perygl
 twyllo y mae'r llyfr hwn yn ei ddisgrifio, â stanciau uwch yn
@@ -44,7 +44,7 @@ gyfatebol pan fydd y twyllo hwnnw'n llwyddo.
   gwendid crai.** Mae mater critigol heb ei drwsio am fisoedd yn berygl
   sylfaenol wahanol na'r un mater wedi'i ddal a'i drwsio'n gyflym.
 - **Mae metrigau diogelwch yn agored i'r un peryglon twyllo â
-  chanfyddiadau dadansoddiad statig** (pennod 4.4), â stanciau uwch pan
+  chanfyddiadau dadansoddiad statig** (pwnc 4.4), â stanciau uwch pan
   fydd twyllo'n llwyddo.
 - **Mae angen meini prawf allanol, safonedig ar ddosbarthiad
   difrifoldeb** lle bynnag y bo'n bosibl, nid barn fewnol bur a all
@@ -52,7 +52,7 @@ gyfatebol pan fydd y twyllo hwnnw'n llwyddo.
 - **Mae gwendid wedi'i ddatgelu a'i drwsio'n gyflym yn arwydd o broses
   iach, nid methiant i'w guddio.** Mae cosbi datgeliad yn digalonni'r
   adrodd y mae'r system gyfan hon yn dibynnu arno.
-- **Mae dyled diogelwch yn gategori o ddyled dechnegol** (pennod 4.5) a
+- **Mae dyled diogelwch yn gategori o ddyled dechnegol** (pwnc 4.5) a
   dylai gystadlu am gapasiti unioni wedi'i flaenoriaethu ar yr un sail
   benodol, wedi'i meintioli.
 
@@ -76,16 +76,16 @@ iechyd diogelwch, yn hytrach na chyfrif gwendid crai, heb ei bwysoli.
 Lle mae system sgorio allanol safonedig fel CVSS ar gael, defnyddiwch
 hi fel y sylfaen gynradd ar gyfer dosbarthiad difrifoldeb yn hytrach na
 dibynnu'n gyfan gwbl ar farn fewnol, o bosibl anghyson. Mae hyn yn
-adlewyrchu disgyblaeth dosbarthiad diffyg-dianc pennod 5.1 a
-disgyblaeth dosbarthiad digwyddiad pennod 6.2, wedi'i chymhwyso yma i
+adlewyrchu disgyblaeth dosbarthiad diffyg-dianc pwnc 5.1 a
+disgyblaeth dosbarthiad digwyddiad pwnc 6.2, wedi'i chymhwyso yma i
 ddiogelwch yn benodol, ac mae'n gwrthsefyll yr un perygl drifft-goddefol
-y mae'r penodau hynny'n rhybuddio yn ei erbyn, gan fod sgôr wedi'i
+y mae'r pynciau hynny'n rhybuddio yn ei erbyn, gan fod sgôr wedi'i
 angori'n allanol yn anos ei ail-ddiffinio i lawr yn dawel na un
 mewnol bur.
 
 ### Adeiladwch ddiwylliant datgelu gwendid ac adrodd mewnol gwirioneddol ddi-gosb
 
-Cymhwyswch egwyddor post-mortem di-fai pennod 6.2 yn uniongyrchol i
+Cymhwyswch egwyddor post-mortem di-fai pwnc 6.2 yn uniongyrchol i
 ddiogelwch: dylid trin peiriannydd sy'n darganfod ac yn adrodd gwendid a
 gyflwynwyd ganddynt, neu ymchwilydd sy'n datgelu un a ganfuwyd yn
 allanol yn gyfrifol, fel un sy'n darparu gwasanaeth gwerthfawr, nid fel
@@ -99,7 +99,7 @@ gwirioneddol o dan ddaear yn hytrach nag i broses unioni reoledig.
 Plygwch wendidau hysbys, perygl-derbyniedig, rhai nad ydynt eto wedi'u
 hunioni'n fwriadol o ganlyniad i flaenoriaethau cystadleuol, i mewn i'r
 un gronfa-waith dyled dechnegol weladwy, wedi'i meintioli a ddisgrifir
-ym mhennod 4.5, gyda'r un fframio cost-i-drwsio yn erbyn cost-i-gario.
+ym mhwnc 4.5, gyda'r un fframio cost-i-drwsio yn erbyn cost-i-gario.
 Mae hyn yn atal perygl diogelwch rhag naill ai ddiflannu i mewn i statws
 anweledig, heb ei ddogfennu "rydym yn gwybod amdano" neu gystadlu'n
 annheg yn erbyn gwaith nodweddion heb achos penodol, wedi'i meintioli
@@ -152,14 +152,14 @@ unig.
 3. **A fyddai peiriannydd a gyflwynodd ac yna a adroddodd wendid yn
    teimlo'n ddiogel yn gwneud hynny, neu a fyddent yn ofni cosb?** Dyma
    fersiwn diogelwch-benodol uniongyrchol o gwestiwn diwylliant-di-fai
-   pennod 6.2, ac mae ateb onest yma'n bwysig yn aruthrol ar gyfer a
+   pwnc 6.2, ac mae ateb onest yma'n bwysig yn aruthrol ar gyfer a
    ellir ymddiried o gwbl yn eich data gwendid.
 
 4. **A oes gennym gronfa-waith weladwy, wedi'i meintioli o wendidau
    hysbys, perygl-derbyniedig, neu a yw statws "rydym yn gwybod amdano"
    yn dawel yn dod yn anweledig ac heb ei drin dros amser?** Gwiriwch a
    olrheinir eich dyled diogelwch â'r un trylwyredd â'ch cronfa-waith
-   dyled dechnegol gyffredinol (pennod 4.5).
+   dyled dechnegol gyffredinol (pwnc 4.5).
 
 5. **A yw ein blaenoriaethu unioni'n cyfrifo am amlygiad a
    chamfanteisioldeb gwirioneddol, neu a yw'n dibynnu'n bur ar sgôr
@@ -170,7 +170,7 @@ unig.
 
 6. **A yw dosbarthiad difrifoldeb gwendid erioed wedi drifftio i lawr
    dros amser heb gyfiawnhad clir?** Mae hyn yn adlewyrchu'r patrwm
-   twyllo-diffiniad y mae pennod 1.2 a phennod 6.2'n rhybuddio amdano;
+   twyllo-diffiniad y mae pwnc 1.2 a phwnc 6.2'n rhybuddio amdano;
    archwiliwch sampl o'ch dosbarthiadau diweddar am y perygl penodol
    hwn.
 
@@ -203,7 +203,7 @@ gael canlyniadau ymhell y tu hwnt i dor-diogelwch sector-preifat
 nodweddiadol. Cynhaliwch ddosbarthiad difrifoldeb trylwyr, wedi'i
 angori'n allanol, gwarchodwch ddiwylliant datgeliad mewnol ac allanol
 yn weithredol, a thriniwch ddyled diogelwch â'r tryloywder a'r
-trylwyredd blaenoriaethu y mae'r bennod hon yn ei argymell, gan fod
+trylwyredd blaenoriaethu y mae'r pwnc hwn yn ei argymell, gan fod
 gwendid critigol heb ei ddogfennu, wedi'i dderbyn yn dawel mewn
 isadeiledd cyhoeddus yn berygl gwirioneddol ddifrifol, archwiliadwy.
 
@@ -219,7 +219,7 @@ unrhyw darged rhesymol, oherwydd eu bod yn cystadlu'n aflwyddiannus yn
 erbyn gwaith nodweddion ym mhob cylch cynllunio heb gapasiti pwrpasol,
 gwarchodedig. Daeth sefydlu targed unioni caled o 7 diwrnod ar gyfer
 gwendidau critigol, wedi'i gefnogi gan gapasiti unioni dyled-diogelwch
-gwarchodedig yn adlewyrchu model dyrannu dyled dechnegol pennod 4.5, ag
+gwarchodedig yn adlewyrchu model dyrannu dyled dechnegol pwnc 4.5, ag
 amser unioni critigol cyfartalog i lawr i lai na phum diwrnod o fewn
 dau chwarter.
 
@@ -228,7 +228,7 @@ archwiliad diogelwch allanol, fod peirianwyr mewnol wedi bod yn osgoi
 adrodd gwendidau a ddarganfuwyd yn eu cod eu hunain yn anffurfiol, gan
 ofni y byddai'n adlewyrchu'n wael ar eu hadolygiadau perfformiad,
 cyfatebiaeth glir i batrwm tan-adrodd digwyddiad wedi'i yrru-gan-fai
-pennod 6.2. Sefydlodd yr asiantaeth bolisi penodol, wedi'i gyfathrebu'n
+pwnc 6.2. Sefydlodd yr asiantaeth bolisi penodol, wedi'i gyfathrebu'n
 gyhoeddus yn gwarchod adroddwyr gwendid mewnol rhag unrhyw ganlyniad
 perfformiad, wedi'i fodelu'n uniongyrchol ar arfer ymateb-digwyddiad
 di-fai, a chododd adroddiadau gwendid mewnol yn sylweddol o fewn y
@@ -246,12 +246,12 @@ yw'r enillion ar reoli gwendidau trylwyr, wedi'i ddosbarthu'n dda,
 wedi'i adrodd yn onest. Mae'r enghraifft cwmni meddalwedd uchod yn
 dangos y mecanwaith penodol: roedd dyled diogelwch wedi bod yn colli'r
 gystadleuaeth flaenoriaethu'n dawel yn erbyn gwaith nodweddion am
-flynyddoedd, yn union y patrwm y mae pennod 4.5'n rhybuddio amdano ar
+flynyddoedd, yn union y patrwm y mae pwnc 4.5'n rhybuddio amdano ar
 gyfer dyled dechnegol yn gyffredinol, hyd nes i gapasiti unioni
 gwarchodedig ei drwsio'n uniongyrchol.
 
 Mae cost cyfanswm perchnogaeth yn cynnwys offeryno sganio awtomataidd,
-y capasiti unioni gwarchodedig y mae'r bennod hon yn argymell ei
+y capasiti unioni gwarchodedig y mae'r pwnc hwn yn argymell ei
 ddyrannu, a'r buddsoddiad diwylliannol parhaus mewn arfer datgeliad
 di-gosb. Mae'r gost honno'n gymedrol o'i chymharu â chost gwendid
 difrifol, wedi'i gamfanteisio'n llwyddiannus y byddai unioni rhagweithiol,
@@ -275,7 +275,7 @@ cael ei gamfanteisio.
   unioni cyfyngedig.
 - **Dehongli cyfrif adrodd gwendid cynyddol fel tystiolaeth o ansawdd
   dirywiedig heb wirio a wellodd adrodd ei hun:** enghraifft benodol o
-  drap ffactor-drysu pennod 1.6.
+  drap ffactor-drysu pwnc 1.6.
 
 ## Model aeddfedrwydd
 
@@ -314,7 +314,7 @@ cael ei gamfanteisio.
   barn fewnol bur yn ei wahodd.
 - Adeiladwch ddiwylliant **datgeliad gwirioneddol ddi-gosb**; mae
   cosbi adrodd yn gyrru perygl gwirioneddol o dan ddaear.
-- Triniwch **ddyled diogelwch fel categori o ddyled dechnegol** (pennod
+- Triniwch **ddyled diogelwch fel categori o ddyled dechnegol** (pwnc
   4.5), gan gystadlu'n deg am gapasiti unioni gwarchodedig.
 - Pwysolwch flaenoriaethu yn ôl **amlygiad a chamfanteisioldeb
   gwirioneddol**, nid sgôr difrifoldeb yn unig.
@@ -322,12 +322,12 @@ cael ei gamfanteisio.
 ## Cyfeiriadau a darllen pellach
 
 - Manyleb System Sgorio Gwendid Cyffredin (CVSS) FIRST.org: y fframwaith
-  sgorio difrifoldeb safonedig y cyfeirir ato drwy'r bennod hon.
+  sgorio difrifoldeb safonedig y cyfeirir ato drwy'r pwnc hwn.
 - Adnoddau Sefydliad OWASP ar reoli gwendidau ac arfer cylch bywyd
   datblygu meddalwedd diogel.
 - *Site Reliability Engineering: How Google Runs Production Systems*,
   gan Betsy Beyer, Chris Jones, Jennifer Petoff, a Niall Richard
-  Murphy, gol. (yr egwyddorion diwylliant di-fai y mae'r bennod hon yn
+  Murphy, gol. (yr egwyddorion diwylliant di-fai y mae'r pwnc hwn yn
   eu cymhwyso i ddatgeliad diogelwch).
 - Cyhoeddiad Arbennig NIST 800-40, *Guide to Enterprise Patch
   Management Planning*: canllawiau awdurdodol ar arfer unioni gwendid.

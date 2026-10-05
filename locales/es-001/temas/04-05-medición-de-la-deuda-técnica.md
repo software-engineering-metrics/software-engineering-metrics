@@ -10,15 +10,15 @@ manera que la deuda financiera te permite gastar ahora a costa de intereses
 después. Toda base de código lleva algo de deuda técnica, y eso no es
 automáticamente un fracaso; el valor real de la metáfora es que enmarca la
 deuda como una compensación gestionable en lugar de un secreto vergonzoso o
-una carga permanente e inevitable. Este capítulo trata de hacer esa
+una carga permanente e inevitable. Este tema trata de hacer esa
 compensación visible y gestionable mediante la medición, en lugar de
 dejarla como una preocupación vaga y perpetuamente despriorizada que todo
 ingeniero percibe pero sobre la que nadie puede actuar con evidencia.
 
-Los capítulos que preceden a este, complejidad (4.1), cobertura (4.2),
+Los temas que preceden a este, complejidad (4.1), cobertura (4.2),
 cambios acumulados y puntos calientes (4.3), y análisis estático (4.4),
 cada uno saca a la luz una faceta de la deuda técnica. El trabajo de este
-capítulo es la síntesis: convertir esas señales separadas, más los elementos
+tema es la síntesis: convertir esas señales separadas, más los elementos
 que nunca aparecen en ningún escaneo automatizado (un atajo arquitectónico
 no documentado, una migración deliberadamente aplazada), en una única lista
 acumulada visible y priorizada que compite de manera justa por la inversión
@@ -32,7 +32,7 @@ que el siguiente cambio sea ligeramente más difícil, lo que crea presión
 para más atajos, lo que se acumula aún más. Las organizaciones
 empresariales y gubernamentales que mantienen sistemas durante muchos años
 están especialmente expuestas a este efecto acumulativo, y la
-recomendación central de este capítulo, una lista acumulada de deuda
+recomendación central de este tema, una lista acumulada de deuda
 visible, cuantificada y priorizada, es el mecanismo que permite a una
 organización realmente gestionar la compensación de forma deliberada en
 lugar de ir a la deriva hacia una crisis.
@@ -60,7 +60,7 @@ lugar de ir a la deriva hacia una crisis.
 
 ### Construye una única lista acumulada de deuda técnica visible
 
-Consolida las señales de los capítulos anteriores de esta parte, valores
+Consolida las señales de los temas anteriores de esta parte, valores
 atípicos de complejidad, áreas con baja tasa de mutantes eliminados, puntos
 calientes, hallazgos de análisis estático sin resolver, junto con
 elementos de deuda que solo un humano puede identificar (un atajo
@@ -86,7 +86,7 @@ funcionalidades, en lugar de una queja abstracta y no cuantificada.
 
 Clasifica los elementos de deuda por su combinación de coste de
 mantenimiento y con qué frecuencia se toca el código afectado (los datos
-de cambios acumulados del capítulo 4.3 son directamente útiles aquí): un
+de cambios acumulados del tema 4.3 son directamente útiles aquí): un
 elemento en un rincón raramente modificado de la base de código, por
 desagradable que sea, importa mucho menos que uno que se sitúa
 directamente en la trayectoria de tu desarrollo más activo. Resiste
@@ -142,7 +142,7 @@ cada ciclo de planificación.
 1. **¿Tenemos una única lista acumulada de deuda técnica visible, o la
    conciencia de la deuda vive principalmente en las cabezas de
    ingenieros individuales?** Si la respuesta honesta es lo segundo, esa es
-   la mayor brecha que recomienda cerrar primero este capítulo.
+   la mayor brecha que recomienda cerrar primero este tema.
 
 2. **Para nuestro principal elemento de deuda, ¿podríamos enunciar su coste
    de corrección y su coste de mantenimiento en términos lo bastante
@@ -159,7 +159,7 @@ cada ciclo de planificación.
 4. **¿Nuestra lista acumulada de deuda está priorizada por impacto de
    negocio genuino, o por el elemento que se ha planteado de manera más
    persistente o que lleva más tiempo ahí?** Contrasta tu priorización
-   actual con los datos de cambios acumulados (capítulo 4.3) y comprueba si
+   actual con los datos de cambios acumulados (tema 4.3) y comprueba si
    los dos se alinean.
 
 5. **¿Qué elementos de deuda deberíamos aceptar explícitamente como
@@ -220,7 +220,7 @@ coste de mantenimiento de cada elemento, y asignó un 15% fijo de la
 capacidad de ingeniería a la remediación de deuda en adelante. En el plazo
 de un año, los cinco elementos con mayor coste de mantenimiento,
 representando una pequeña fracción de la lista acumulada total por
-cantidad, se habían resuelto, y la tasa de fallos de cambio (capítulo
+cantidad, se habían resuelto, y la tasa de fallos de cambio (tema
 2.10) para los despliegues relacionados con facturación mejoró de forma
 mesurable, demostrando el impacto desproporcionado de dirigirse primero a
 los elementos con mayor coste de mantenimiento en lugar de trabajar la
@@ -341,4 +341,4 @@ código, no solo en los elementos específicos que quedaron sin abordar.
   (las técnicas de remediación de las que en última instancia se nutre una
   lista acumulada de deuda).
 - *Your Code as a Crime Scene*, de Adam Tornhill (el análisis de puntos
-  calientes como entrada para la priorización de deuda, capítulo 4.3).
+  calientes como entrada para la priorización de deuda, tema 4.3).

@@ -2,7 +2,7 @@
 
 ## Trosolwg a chymhelliant
 
-Mae'r bennod hon yn cau Rhan 5 trwy ddod â phopeth y mae'r pedair pennod
+Mae'r pwnc hwn yn cau Rhan 5 trwy ddod â phopeth y mae'r pedwar pwnc
 flaenorol wedi'i fesur, ansawdd, mabwysiad, canlyniadau, a chost, ynghyd
 i mewn i'r fframio ariannol sengl sy'n llywodraethu'r rhan fwyaf o
 benderfyniadau buddsoddi peirianneg mawr yn y pen draw:
@@ -10,16 +10,16 @@ benderfyniadau buddsoddi peirianneg mawr yn y pen draw:
 (ROI)**. Boed sefydliad yn penderfynu ariannu moderneiddio platfform,
 ymdrech ad-drefnu mawr, neu linell gynnyrch newydd, mae'n rhaid i rywun
 yn y pen draw ateb y cwestiwn mewn termau ariannol: a yw hyn yn werth
-yr hyn y mae'n ei gostio. Mae'r bennod hon yn ymwneud ag ateb y
+yr hyn y mae'n ei gostio. Mae'r pwnc hwn yn ymwneud ag ateb y
 cwestiwn hwnnw'n onest, gan ddefnyddio'r metrigau y mae'r llyfr hwn
 eisoes wedi'u hadeiladu, yn hytrach na naill ai osgoi'r cwestiwn (sy'n
 ildio dylanwad dros benderfyniadau buddsoddi i bobl lai cymwys i'w
 ateb yn dda) neu ei ateb ag achos chwyddedig, anghynaliadwy sy'n
 niweidio credadwyedd pan nad yw'n dal dŵr.
 
-Mae'r ddisgyblaeth y mae'r bennod hon yn ei hargymell yn tynnu'n
-uniongyrchol ar economeg uned pennod 5.4 ar gyfer ochr gost yr
-hafaliad, a metrigau canlyniad pennod 5.3, gyda'u triniaeth onest o
+Mae'r ddisgyblaeth y mae'r pwnc hwn yn ei hargymell yn tynnu'n
+uniongyrchol ar economeg uned pwnc 5.4 ar gyfer ochr gost yr
+hafaliad, a metrigau canlyniad pwnc 5.3, gyda'u triniaeth onest o
 ansicrwydd priodoli, ar gyfer ochr y budd. Mae achos ROI wedi'i
 adeiladu fel hyn o reidrwydd yn fwy cymedrol ac wedi'i heddogi'n fwy na
 rhif pennawd syml, deniadol, ond mae ganddo'r fantais benderfynol y mae'r
@@ -41,7 +41,7 @@ sydd ag ychydig o amynedd ar gyfer addewidion amwys, heb eu cadarnhau.
 ## Egwyddorion allweddol
 
 - **Mae achos ROI onest wedi'i adeiladu o fetrigau eraill y llyfr hwn**,
-  nid wedi'i ddyfeisio ar wahân; cost o bennod 5.4, budd o benodau 5.1
+  nid wedi'i ddyfeisio ar wahân; cost o bwnc 5.4, budd o bynciau 5.1
   i 5.3.
 - **Mae cost cyfanswm perchnogaeth, nid dim ond cost ymlaen llaw, yn
   perthyn ar ochr y gost.** Mae cost cynnal a chadw, cymorth, ac
@@ -62,7 +62,7 @@ sydd ag ychydig o amynedd ar gyfer addewidion amwys, heb eu cadarnhau.
 Cynhwyswch nid dim ond y gost ddatblygu gychwynnol ond y
 **[cost cyfanswm perchnogaeth](https://en.wikipedia.org/wiki/Total_cost_of_ownership)
 (TCO)** llawn: cynnal a chadw parhaus, isadeiledd (mae economeg uned
-pennod 5.4'n uniongyrchol ddefnyddiol yma), cymorth, a chost cyfle'r
+pwnc 5.4'n uniongyrchol ddefnyddiol yma), cymorth, a chost cyfle'r
 capasiti peirianneg y mae'r fenter yn ei ddefnyddio a allai fod wedi
 mynd tuag at waith arall. Gall prosiect sy'n edrych yn rhad yn seiliedig
 ar gost ymlaen llaw yn unig fod yn ddrud dros ei oes gyfan unwaith y
@@ -70,11 +70,11 @@ cyfrifir am faich cynnal a chadw parhaus yn onest.
 
 ### Adeiladwch ochr y budd o dystiolaeth canlyniad wedi'i dogfennu, onest
 
-Tynnwch amcangyfrifon budd o ddisgyblaeth mesur-canlyniad penodau 5.1 i
+Tynnwch amcangyfrifon budd o ddisgyblaeth mesur-canlyniad pynciau 5.1 i
 5.3: gwelliannau ansawdd wedi'u trosi'n gost digwyddiad a chymorth
 leihaedig, data mabwysiad wedi'i drosi'n werth wedi'i yrru-gan-ddefnydd,
 a chydberthyniadau canlyniad busnes wedi'u hadeiladu â'r dull cadwyn-
-achosol onest, wedi'i wirio-am-ffactorau-drysu o bennod 5.3. Osgowch
+achosol onest, wedi'i wirio-am-ffactorau-drysu o bwnc 5.3. Osgowch
 ddyfeisio amcangyfrif budd o egwyddorion cyntaf neu dybiaeth optimistaidd
 pan fo data hanesyddol gwirioneddol wedi'i fesur neu gymharadwy ar gael
 i'w seilio arno yn lle hynny.
@@ -85,7 +85,7 @@ Cyflwynwch amcangyfrifon ROI fel ystod (achos ceidwadol ac achos
 optimistaidd) yn hytrach na ffigur sengl, ffug o fanwl gywir, ac
 eglurwch beth sy'n gyrru'r ystod: pa dybiaeth benodol, os yw'n profi'n
 optimistaidd neu'n besimistaidd, a fyddai'n symud y canlyniad fwyaf.
-Mae hyn yn adlewyrchu egwyddor llythrennedd ystadegol pennod 1.6'n
+Mae hyn yn adlewyrchu egwyddor llythrennedd ystadegol pwnc 1.6'n
 uniongyrchol, wedi'i chymhwyso i ragamcan ariannol, ac mae'n gwarchod
 credadwyedd yr achos, gan fod amcangyfrif pwynt sengl sy'n troi allan
 i fod yn anghywir yn niweidio ymddiriedaeth yn llawer mwy nag ystod
@@ -109,7 +109,7 @@ Ar ôl i fenter gwblhau, neu gyrraedd carreg filltir ystyrlon, cymharwch
 ganlyniadau gwirioneddol, wedi'u mesur yn erbyn yr ystod ragamcanol
 wreiddiol, a chyhoeddwch y gymhariaeth honno, gan gynnwys lle roedd y
 rhagamcan yn anghywir. Y ddisgyblaeth cau-y-ddolen hon, yn debyg i
-argymhelliad pennod 3.7 ar gyfer dilyniant arolwg, yw'r hyn sy'n
+argymhelliad pwnc 3.7 ar gyfer dilyniant arolwg, yw'r hyn sy'n
 adeiladu credadwyedd rhagolwg-ROI tymor-hir sefydliad ac yn gwella
 cywirdeb amcangyfrifon y dyfodol trwy greu dolen adborth wirioneddol,
 weladwy.
@@ -124,7 +124,7 @@ weladwy.
 | Dadansoddiad cost-cyfanswm-perchnogaeth llawn | Cywir, darlun cyflawn o gost fuddsoddi wirioneddol | Angen mwy o gasglu data, yn enwedig ar gyfer rhagamcan cost parhaus |
 
 Y tensiwn canolog yw **symlrwydd perswadiol yn erbyn gonestrwydd
-amddiffynadwy**, yr un tensiwn a enwodd pennod 5.3 ar gyfer hawliadau
+amddiffynadwy**, yr un tensiwn a enwodd pwnc 5.3 ar gyfer hawliadau
 canlyniad yn gyffredinol, wedi'i gymhwyso'n benodol nawr i'r achos
 ariannol. Mae hawliad ROI un-rhif, hyderus, syml yn haws ei werthu i
 benderfynwr yn y foment, ond mae achos onest, seiliedig-ar-ystod ag
@@ -180,12 +180,12 @@ hwn yn ein helpu i gyrraedd y garreg filltir neu'r rownd gyllido nesaf.
 Er hynny, cymhwyswch yr un egwyddor onestrwydd, gwrthsefyllwch chwyddo
 achos i gyfiawnhau penderfyniad y mae'r tîm eisoes wedi ymrwymo'n
 emosiynol iddo, gan y bydd craffu buddsoddwyr yn y pen draw yn
-cymhwyso'r un amheuaeth y mae'r bennod hon yn argymell ei chymhwyso'n
+cymhwyso'r un amheuaeth y mae'r pwnc hwn yn argymell ei chymhwyso'n
 fewnol yn gyntaf.
 
 **Busnes bach.** Cadwch ddadansoddiad ROI yn gymesur â maint y
 penderfyniad; mae buddsoddiad platfform mawr, aml-flwyddyn yn haeddu'r
-ddisgyblaeth lawn y mae'r bennod hon yn ei hargymell, tra nad oes angen
+ddisgyblaeth lawn y mae'r pwnc hwn yn ei hargymell, tra nad oes angen
 yr un trylwyredd ar bryniant offer bach. Canolbwyntiwch ymdrech
 ddadansoddi ffurfiol ar eich ychydig benderfyniadau mwyaf, mwyaf
 canlyniadol.
@@ -194,7 +194,7 @@ canlyniadol.
 peirianneg yn cystadlu'n llwyddiannus am gyfalaf yn erbyn buddsoddiadau
 busnes eraill â thraddodiadau dadansoddiad-ariannol mwy sefydledig.
 Adeiladwch y ddisgyblaeth cost-cyfanswm-perchnogaeth lawn a seiliedig-
-ar-ystod y mae'r bennod hon yn ei hargymell fel arfer safonol, a
+ar-ystod y mae'r pwnc hwn yn ei hargymell fel arfer safonol, a
 buddsoddwch yn yr olrhain cau-y-ddolen sy'n adeiladu credadwyedd
 rhagolwg tymor-hir.
 
@@ -310,8 +310,8 @@ bydd angen iddo ei wneud yn y dyfodol.
 ## Prif gasgliadau
 
 - Adeiladwch achosion ROI o **fetrigau eraill y llyfr hwn**, cost o
-  economeg uned (pennod 5.4), budd o dystiolaeth canlyniad ddogfennedig
-  (penodau 5.1 i 5.3), nid o dybiaethau wedi'u dyfeisio.
+  economeg uned (pwnc 5.4), budd o dystiolaeth canlyniad ddogfennedig
+  (pynciau 5.1 i 5.3), nid o dybiaethau wedi'u dyfeisio.
 - Cynhwyswch **gost cyfanswm perchnogaeth**, nid dim ond cost ymlaen
   llaw, a datganwch amcangyfrifon budd fel **ystod ag ansicrwydd
   penodol**, nid un rhif ffug o fanwl gywir.

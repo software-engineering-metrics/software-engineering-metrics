@@ -2,7 +2,7 @@
 
 ## Overzicht en motivatie
 
-Een **flowitem** is de werkeenheid van het Flow Framework, en elk flowitem behoort tot precies een van vier types: **functies**, nieuwe bedrijfswaarde of capaciteit geleverd aan een klant; **defecten**, kwaliteitsfixes voor bugs gevonden door gebruikers of testen; **risico's**, beveiligings-, compliance-, privacy-, en governancewerk dat het bedrijf beschermt; en **schuld**, [technische schuld](https://en.wikipedia.org/wiki/Technical_debt), architecturale verbetering, en infrastructuurwerk dat toekomstige snelheid mogelijk maakt. Hoofdstuk 2.1 introduceerde het raamwerk waartoe deze vier categorieën behoren; dit hoofdstuk gaat diep op de taxonomie zelf, omdat de categorieën alleen waarde leveren als een team zijn werk er eerlijk en consistent in classificeert.
+Een **flowitem** is de werkeenheid van het Flow Framework, en elk flowitem behoort tot precies een van vier types: **functies**, nieuwe bedrijfswaarde of capaciteit geleverd aan een klant; **defecten**, kwaliteitsfixes voor bugs gevonden door gebruikers of testen; **risico's**, beveiligings-, compliance-, privacy-, en governancewerk dat het bedrijf beschermt; en **schuld**, [technische schuld](https://en.wikipedia.org/wiki/Technical_debt), architecturale verbetering, en infrastructuurwerk dat toekomstige snelheid mogelijk maakt. Onderwerp 2.1 introduceerde het raamwerk waartoe deze vier categorieën behoren; dit onderwerp gaat diep op de taxonomie zelf, omdat de categorieën alleen waarde leveren als een team zijn werk er eerlijk en consistent in classificeert.
 
 De definiërende eigenschap van flowitems is dat toewijzing over de vier types een **zero-sum-spel** is: een vaste hoeveelheid ingenieurscapaciteit bestaat in elke gegeven periode, en elk uur besteed aan een functie is een uur niet besteed aan schuld-, risico-, of defectwerk. Dit is geen nieuw feit over softwarelevering, elke ingenieursleider weet al dat capaciteit eindig is, maar de meeste organisaties hebben geen consistente, eerlijke manier om de daadwerkelijke splitsing te zien. Sprintsnelheid telt story points ongeacht type; een afgebouwde backlog ziet identiek uit of het werk erachter een nieuwe afrekenflow was of drie maanden van glorieloze beveiligingsherstel. Flowitems bestaan specifiek om die onzichtbare splitsing zichtbaar te maken.
 
@@ -20,7 +20,7 @@ Voor grote teams verandert deze zichtbaarheid de aard van een resourcingconversa
 
 ### Classificeer elk item bij intake, met een geschreven definitie voor elk type
 
-Kom overeen op een beknopte, geschreven definitie voor wat telt als een functie, een defect, een risico, en schuld in je specifieke context, en vereis dat elk nieuw stuk werk geclassificeerd wordt tegen die definitie op het moment dat het de waardestroom binnenkomt, niet nadat het voltooid is. Een vooraf overeengekomen definitie weerstaat de verleiding om retroactief te classificeren gebaseerd op hoe een stuk werk uiteindelijk uitzag, wat precies het manipulatierisico is dat dit hoofdstuk direct hieronder benoemt.
+Kom overeen op een beknopte, geschreven definitie voor wat telt als een functie, een defect, een risico, en schuld in je specifieke context, en vereis dat elk nieuw stuk werk geclassificeerd wordt tegen die definitie op het moment dat het de waardestroom binnenkomt, niet nadat het voltooid is. Een vooraf overeengekomen definitie weerstaat de verleiding om retroactief te classificeren gebaseerd op hoe een stuk werk uiteindelijk uitzag, wat precies het manipulatierisico is dat dit onderwerp direct hieronder benoemt.
 
 ### Rapporteer flowverdeling als een trend, niet een enkele ogenblikfoto
 
@@ -32,7 +32,7 @@ Besluit, samen met product- en bedrijfsleiderschap, hoe een gezonde verdeling er
 
 ### Kruiscontroleer flowitem-classificatie tegen onafhankelijk bewijs
 
-Vergelijk periodiek je flowverdeling tegen metrieken die niet afhangen van zelfclassificatie: ontsnapte-defectfrekvens (hoofdstuk 5.1), technische schuldmeting (hoofdstuk 4.5), en kwetsbaarhedenbeheermetrieken (hoofdstuk 6.4). Als defecten of kwetsbaarheden stijgen terwijl de "defecten"- en "risico"-flowitemaandelen plat blijven of krimpen, is die mismatch het duidelijkste beschikbare signaal dat classificatie is afgedreven van de werkelijkheid.
+Vergelijk periodiek je flowverdeling tegen metrieken die niet afhangen van zelfclassificatie: ontsnapte-defectfrekvens (onderwerp 5.1), technische schuldmeting (onderwerp 4.5), en kwetsbaarhedenbeheermetrieken (onderwerp 6.4). Als defecten of kwetsbaarheden stijgen terwijl de "defecten"- en "risico"-flowitemaandelen plat blijven of krimpen, is die mismatch het duidelijkste beschikbare signaal dat classificatie is afgedreven van de werkelijkheid.
 
 ### Bewaak specifiek het functiefabriekpatroon
 
@@ -61,7 +61,7 @@ De centrale spanning is **classificatiediscipline versus procesoverhead**. Een v
 
 5. **Matcht onze flowverdeling onafhankelijk bewijs, zoals ontsnapte-defectfrekvens of open kwetsbaarheidsaantallen, of is er een mismatch waard te onderzoeken?** Een mismatch hier is het duidelijkste beschikbare teken dat classificatie is afgedreven van wat het werk daadwerkelijk is.
 
-6. **Zou iemand in ons team stilletjes een schuld- of risico-item kunnen herlabelen als een functie onder leveringsdruk, en zouden we het momenteel merken als ze dat deden?** Dit is het centrale manipulatierisico van het hoofdstuk direct gesteld. Bespreek of je huidige proces dit daadwerkelijk zou vangen, niet alleen of iemand het bewust zou doen.
+6. **Zou iemand in ons team stilletjes een schuld- of risico-item kunnen herlabelen als een functie onder leveringsdruk, en zouden we het momenteel merken als ze dat deden?** Dit is het centrale manipulatierisico van het onderwerp direct gesteld. Bespreek of je huidige proces dit daadwerkelijk zou vangen, niet alleen of iemand het bewust zou doen.
 
 ## Sectorperspectief
 
@@ -87,7 +87,7 @@ De totale eigendomskosten zijn laag eenmaal de taxonomie en zijn definities over
 
 ## Antipatronen en valkuilen
 
-- **Werk retroactief classificeren, nadat de uitkomst gekend is:** de manipulatievector aan de kern van dit hoofdstuk. Onder leveringsdruk kan een team stilletjes schuld- of risicowerk labelen als een functie achteraf, of een ambigu item afronden richting welk type er beter uitziet op het verdelingsdiagram, zonder dat enige enkele beslissing ooit oneerlijk lijkt op zichzelf. De beschermmetriek is intake-tijd-classificatie tegen een geschreven definitie, gecombineerd met periodieke audits die flowverdeling vergelijken tegen onafhankelijk bewijs zoals ontsnapte-defectfrekvens (hoofdstuk 5.1) en kwetsbaarheidsmetrieken (hoofdstuk 6.4), dezelfde audit-tegen-onafhankelijk-bewijs-discipline hoofdstuk 1.2 vraagt voor elke metriek in dit boek.
+- **Werk retroactief classificeren, nadat de uitkomst gekend is:** de manipulatievector aan de kern van dit onderwerp. Onder leveringsdruk kan een team stilletjes schuld- of risicowerk labelen als een functie achteraf, of een ambigu item afronden richting welk type er beter uitziet op het verdelingsdiagram, zonder dat enige enkele beslissing ooit oneerlijk lijkt op zichzelf. De beschermmetriek is intake-tijd-classificatie tegen een geschreven definitie, gecombineerd met periodieke audits die flowverdeling vergelijken tegen onafhankelijk bewijs zoals ontsnapte-defectfrekvens (onderwerp 5.1) en kwetsbaarheidsmetrieken (onderwerp 6.4), dezelfde audit-tegen-onafhankelijk-bewijs-discipline onderwerp 1.2 vraagt voor elke metriek in dit boek.
 - **Functies consistent bijna alle capaciteit laten absorberen (het functiefabriekpatroon):** hongert schuld- en risicowerk stilletjes uit tot het aan de oppervlakte komt als een crisis.
 - **De verdeling van een enkele periode behandelen als het hele beeld:** mist de langzame, cumulatieve drift die een trendweergave duidelijk onthult.
 - **Een doelverdeling stellen zonder bedrijfsbelanghebbenden:** verspeelt de hoofdwaarde van het raamwerk, een gedeeld, onderhandeld begrip van de afweging.
@@ -113,7 +113,7 @@ De totale eigendomskosten zijn laag eenmaal de taxonomie en zijn definities over
 
 - Een **flowitem** behoort tot precies een van vier types, functies, defecten, risico's, of schuld, en capaciteitstoewijzing over hen is **zero-sum**.
 - Er is **geen universeel gezonde verdeling**; de juiste mix hangt af van de fase van een product en zou een bewust, onderhandeld doel moeten zijn met bedrijfsbelanghebbenden.
-- De centrale manipulatievector van het hoofdstuk is **retroactieve classificatie**, stilletjes schuld- of risicowerk herlabelen als een functie achteraf; de beschermmetriek is intake-tijd-classificatie plus periodieke audits tegen onafhankelijk bewijs.
+- De centrale manipulatievector van het onderwerp is **retroactieve classificatie**, stilletjes schuld- of risicowerk herlabelen als een functie achteraf; de beschermmetriek is intake-tijd-classificatie plus periodieke audits tegen onafhankelijk bewijs.
 - Bewaak specifiek het **functiefabriekpatroon**, functies die consistent bijna alle capaciteit absorberen, wat schuld- en risicowerk uithongert tot het aan de oppervlakte komt als een crisis.
 - Flowverdeling is het meest waardevol als een **trend**, en zijn grootste opbrengst komt van hem direct delen met bedrijfsbelanghebbenden.
 

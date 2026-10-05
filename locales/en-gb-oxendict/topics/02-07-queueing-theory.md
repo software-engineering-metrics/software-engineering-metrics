@@ -7,9 +7,9 @@ mathematical study of waiting lines. It sounds like an odd fit for a book
 about software engineering metrics until you notice how much of a delivery
 pipeline actually is a queue: a pull request waiting for a reviewer, a
 commit waiting for a CI runner, a ticket waiting to be picked up, a customer
-support message waiting for a response. Chapter 2.4 already introduced flow
+support message waiting for a response. Topic 2.4 already introduced flow
 load and flow time and showed that overloading a value stream makes
-delivery slow down sharply, and chapters 2.5 and 2.6 showed that most
+delivery slow down sharply, and topics 2.5 and 2.6 showed that most
 delivery time is wait time, not work time. Queueing theory is the
 underlying mathematics that explains why all of that is true, not just an
 observed pattern.
@@ -18,10 +18,10 @@ The single most useful result is **[Little's law](https://en.wikipedia.org/wiki/
 a theorem proved by the operations researcher John Little in 1961: the
 average number of items in a stable system equals the average rate at which
 items arrive, multiplied by the average time each item spends in the
-system. Chapter 2.4 already used this result under the Flow Framework's own
+system. Topic 2.4 already used this result under the Flow Framework's own
 names, flow load equals arrival rate times flow time. In this book's
-broader vocabulary it also reads as work in process (chapter 2.5) equals
-the arrival rate of new work multiplied by cycle time (chapter 2.6). This
+broader vocabulary it also reads as work in process (topic 2.5) equals
+the arrival rate of new work multiplied by cycle time (topic 2.6). This
 is not a rule of thumb or a correlation observed in some studies. It is a
 proof that holds for any stable queue, regardless of what the queue is
 processing or how it decides what to work on next.
@@ -47,7 +47,7 @@ drives a bad staffing or process decision.
   gradually. A resource running at 95% busy is often waiting many times
   longer than one running at 80%, not just "a little worse."
 - **A queue's average hides its worst case.** Reporting only the mean wait
-  time conceals the long, painful tail near capacity, exactly what chapter
+  time conceals the long, painful tail near capacity, exactly what topic
   1.6 warns against when it comes to using percentiles instead of averages.
 - **How a queue is defined can be gamed as easily as any other metric.**
   Whether something counts as "arrived," "in progress," or "served" is a
@@ -77,7 +77,7 @@ code review pool, a CI cluster, a staging environment, and measure how busy
 each one runs as a proportion of its available capacity, before you plan to
 run it near its limit. A shared reviewer group running near full capacity
 produces review-queue wait times that grow far faster than the modest
-increase in demand that caused them, exactly the dynamic behind chapter
+increase in demand that caused them, exactly the dynamic behind topic
 2.9's advice to watch time-to-first-review as a leading indicator.
 
 ### Separate arrival rate, success rate, failure rate, and skip rate
@@ -125,7 +125,7 @@ simulation gives the most accurate answer, but almost no engineering team
 will build and maintain one, and a model nobody trusts or updates is worse
 than no model. Little's law and basic utilization tracking give up some
 precision but require no specialized statistical skill and fit directly
-into metrics a team already collects for chapters 2.4 through 2.6. Default to
+into metrics a team already collects for topics 2.4 through 2.6. Default to
 those cheap, adoptable checks, and reserve full simulation for the rare
 case where a single shared resource, a large CI fleet, a specialized
 review pool, is expensive enough to justify the investment.
@@ -204,7 +204,7 @@ it reaches the gate.
 ## Examples
 
 **Enterprise.** A cloud infrastructure provider's internal platform team
-noticed that lead time for changes (chapter 2.10) had crept upward across
+noticed that lead time for changes (topic 2.10) had crept upward across
 every product team that depended on its shared CI fleet, even though no
 individual team had changed how it worked. A utilization analysis found
 the fleet running above 90% busy during core hours, well past the point
@@ -240,7 +240,7 @@ cheaper than asking every downstream team to move faster around a
 bottleneck they cannot see.
 
 The total cost of adoption is genuinely low. Little's law and utilization
-tracking need no new tooling beyond what chapters 2.4 through 2.6 already
+tracking need no new tooling beyond what topics 2.4 through 2.6 already
 ask you to collect: arrival rate, work in process, and cycle time. The
 investment is mostly analytical discipline, checking the numbers against
 each other and periodically reviewing utilization on shared resources
@@ -255,12 +255,12 @@ regression.
 - **Reporting only mean wait time, never a percentile:** hides the long
   tail that matters most to the people waiting in it.
 - **Blending success, failure, and skip into one throughput number:** the
-  gaming vector at the heart of this chapter. A team under pressure can
+  gaming vector at the heart of this topic. A team under pressure can
   make throughput look healthy by quietly letting the skip rate rise,
   abandoned tickets, silently dropped requests, work that never gets
   counted as a failure. The guardrail is to track arrival, success,
   failure, and skip rate as four separate, visible numbers, the same
-  discipline chapter 1.2 asks for with every metric in this book, so a
+  discipline topic 1.2 asks for with every metric in this book, so a
   rising skip rate cannot hide behind a flat throughput chart.
 - **Treating "our people are always busy" as a compliment:** it is a
   symptom of high utilization, the leading cause of long, unpredictable
@@ -306,7 +306,7 @@ regression.
 - **Wait time grows sharply, not gradually, as utilization approaches full
   capacity.** Treat "always busy" as a warning sign, not a compliment.
 - Track **arrival rate, success rate, failure rate, and skip rate**
-  separately; blending them into one throughput number is this chapter's
+  separately; blending them into one throughput number is this topic's
   central gaming vector.
 - Model a multi-stage pipeline as a **queue of queues**, and invest in the
   stage with the worst combination of high utilization and high failure or

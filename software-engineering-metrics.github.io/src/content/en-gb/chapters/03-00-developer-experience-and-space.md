@@ -31,7 +31,7 @@ public-sector pay constraints that limit their ability to compete purely on
 compensation, have particularly strong reasons to treat developer experience
 as a first-class, actively managed concern rather than an afterthought.
 
-## Chapters in this part
+## Topics in this part
 
 - **3.1 The SPACE framework:** The five dimensions together, why no single
   one is trustworthy alone, and how to build a genuinely balanced metric set
@@ -53,21 +53,21 @@ as a first-class, actively managed concern rather than an afterthought.
   survey that produces trustworthy signal rather than a popularity contest,
   and how to combine it with objective data.
 
-## How these chapters interrelate
+## How these topics interrelate
 
-Chapter 3.1 introduces all five SPACE dimensions together, and chapters 3.2
+Topic 3.1 introduces all five SPACE dimensions together, and topics 3.2
 through 3.6 then take each dimension in turn at real depth, in the order
-SPACE researchers present them. Chapter 3.7 closes the part with the
+SPACE researchers present them. Topic 3.7 closes the part with the
 practical mechanics of survey design, since satisfaction, performance, and
-collaboration all rely partly on self-report data (chapter 1.5's
+collaboration all rely partly on self-report data (topic 1.5's
 instrumentation-versus-self-report distinction is directly relevant
 throughout this part) and a badly designed survey undermines every one of
-the preceding chapters.
+the preceding topics.
 
 This part's central discipline, balance across dimensions rather than
-strength in one, is this book's clearest working example of chapter 1.3's
+strength in one, is this book's clearest working example of topic 1.3's
 outcomes-over-output principle applied to people rather than to a delivery
-pipeline. Activity (chapter 3.4) is the SPACE dimension most analogous to a
+pipeline. Activity (topic 3.4) is the SPACE dimension most analogous to a
 pure output metric, and this part treats it accordingly: useful as one
 input among five, dangerous as a standalone signal. Read alongside Part 2,
 this part completes the picture DORA alone cannot provide: not just whether

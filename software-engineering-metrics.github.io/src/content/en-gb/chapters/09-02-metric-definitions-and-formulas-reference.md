@@ -1,12 +1,12 @@
 # 9.2 Metric definitions and formulas reference
 
 Every formula from the book, gathered in one place. Each entry names the
-chapter with the full discussion, including its gaming risk and guardrail.
-Use this as a quick lookup, not a substitute for the chapter itself.
+topic with the full discussion, including its gaming risk and guardrail.
+Use this as a quick lookup, not a substitute for the topic itself.
 
 ## Flow metrics (Part 2)
 
-| Metric | Formula | Chapter |
+| Metric | Formula | Topic |
 | --- | --- | --- |
 | Flow velocity | Count of flow items completed per unit time | 2.3 |
 | Flow distribution | (Completed items of one flow item type) / (Total completed items) x 100% | 2.3 |
@@ -27,14 +27,14 @@ Use this as a quick lookup, not a substitute for the chapter itself.
 
 ## Developer experience (Part 3)
 
-| Metric | Formula | Chapter |
+| Metric | Formula | Topic |
 | --- | --- | --- |
 | Focus time | Count and duration of uninterrupted two-hour-plus blocks per week, from calendar data | 3.6 |
 | Response rate | (Survey responses received) / (Survey invitations sent) x 100% | 3.7 |
 
 ## Code and quality (Part 4)
 
-| Metric | Formula | Chapter |
+| Metric | Formula | Topic |
 | --- | --- | --- |
 | Cyclomatic complexity | Independent paths through control flow (edges − nodes + 2, per McCabe) | 4.1 |
 | Test coverage | (Lines/branches executed by tests) / (Total lines/branches) x 100% | 4.2 |
@@ -45,7 +45,7 @@ Use this as a quick lookup, not a substitute for the chapter itself.
 
 ## Product and business (Part 5)
 
-| Metric | Formula | Chapter |
+| Metric | Formula | Topic |
 | --- | --- | --- |
 | Escaped defect rate | (Severity-weighted escaped defects) / (Unit of delivery or time) | 5.1 |
 | Initial adoption | (Users who tried the feature at least once) / (Target audience) x 100% | 5.2 |
@@ -55,7 +55,7 @@ Use this as a quick lookup, not a substitute for the chapter itself.
 
 ## Reliability, operations, and security (Part 6)
 
-| Metric | Formula | Chapter |
+| Metric | Formula | Topic |
 | --- | --- | --- |
 | Error budget | (1 − SLO target) x Time window (e.g., 0.1% of 30 days ≈ 43 minutes) | 6.1 |
 | Error budget burn rate | Error budget consumed / Error budget allotted, over a given window | 6.1 |
@@ -67,16 +67,16 @@ Use this as a quick lookup, not a substitute for the chapter itself.
 
 ## Notes on using these formulas
 
-- **Always pair a speed or output formula with its guardrail** (chapter
+- **Always pair a speed or output formula with its guardrail** (topic
   1.2): change failure rate with deployment frequency and lead time; escaped
   defect rate with delivery speed; error budget burn with deployment
   activity.
 - **Use medians and percentiles, not averages, for time-based formulas**
-  (chapter 1.6) unless a formula explicitly calls for a mean.
+  (topic 1.6) unless a formula explicitly calls for a mean.
 - **Every formula needs a documented source system and collection method**
-  (chapter 1.5) alongside its mathematical definition; two teams computing
+  (topic 1.5) alongside its mathematical definition; two teams computing
   the same formula from different sources will not produce comparable
   numbers.
 - **Severity weighting is not shown explicitly in every formula above** but
-  applies wherever "severity-weighted" appears; see the relevant chapter for
+  applies wherever "severity-weighted" appears; see the relevant topic for
   the full classification scheme.

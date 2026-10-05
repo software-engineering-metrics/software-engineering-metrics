@@ -1,6 +1,6 @@
-# Chapter template (shared)
+# Topic template (shared)
 
-Copy this scaffold when writing a new content chapter (N.1 and up in Parts 1
+Copy this scaffold when writing a new content topic (N.1 and up in Parts 1
 through 8). Replace the bracketed guidance. Keep the section order exactly. Do
 not use em-dashes. Define terms on first use and link key concepts to
 Wikipedia.

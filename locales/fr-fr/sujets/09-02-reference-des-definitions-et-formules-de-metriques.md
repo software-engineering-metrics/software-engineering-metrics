@@ -1,10 +1,10 @@
 # 9.2 Référence des définitions et formules de métriques
 
-Chaque formule du livre, rassemblée en un seul endroit. Chaque entrée nomme le chapitre avec la discussion complète, incluant son risque de manipulation et son garde-fou. Utilisez ceci comme une recherche rapide, pas un substitut au chapitre lui-même.
+Chaque formule du livre, rassemblée en un seul endroit. Chaque entrée nomme le sujet avec la discussion complète, incluant son risque de manipulation et son garde-fou. Utilisez ceci comme une recherche rapide, pas un substitut au sujet lui-même.
 
 ## Métriques de flux (Partie 2)
 
-| Métrique | Formule | Chapitre |
+| Métrique | Formule | Sujet |
 | --- | --- | --- |
 | Vélocité de flux | Compte d'éléments de flux achevés par unité de temps | 2.3 |
 | Distribution de flux | (Éléments achevés d'un type d'élément de flux) / (Total des éléments achevés) x 100 % | 2.3 |
@@ -25,14 +25,14 @@ Chaque formule du livre, rassemblée en un seul endroit. Chaque entrée nomme le
 
 ## Expérience développeur (Partie 3)
 
-| Métrique | Formule | Chapitre |
+| Métrique | Formule | Sujet |
 | --- | --- | --- |
 | Temps de concentration | Compte et durée des blocs ininterrompus de plus de deux heures par semaine, depuis les données de calendrier | 3.6 |
 | Taux de réponse | (Réponses d'enquête reçues) / (Invitations d'enquête envoyées) x 100 % | 3.7 |
 
 ## Code et qualité (Partie 4)
 
-| Métrique | Formule | Chapitre |
+| Métrique | Formule | Sujet |
 | --- | --- | --- |
 | Complexité cyclomatique | Chemins indépendants à travers le flux de contrôle (arêtes − nœuds + 2, selon McCabe) | 4.1 |
 | Couverture de test | (Lignes/branches exécutées par les tests) / (Total des lignes/branches) x 100 % | 4.2 |
@@ -43,7 +43,7 @@ Chaque formule du livre, rassemblée en un seul endroit. Chaque entrée nomme le
 
 ## Produit et affaires (Partie 5)
 
-| Métrique | Formule | Chapitre |
+| Métrique | Formule | Sujet |
 | --- | --- | --- |
 | Taux de défauts échappés | (Défauts échappés pondérés par sévérité) / (Unité de livraison ou de temps) | 5.1 |
 | Adoption initiale | (Utilisateurs ayant essayé la fonctionnalité au moins une fois) / (Public cible) x 100 % | 5.2 |
@@ -53,7 +53,7 @@ Chaque formule du livre, rassemblée en un seul endroit. Chaque entrée nomme le
 
 ## Fiabilité, exploitation, et sécurité (Partie 6)
 
-| Métrique | Formule | Chapitre |
+| Métrique | Formule | Sujet |
 | --- | --- | --- |
 | Budget d'erreur | (1 − cible SLO) x Fenêtre de temps (par exemple, 0,1 % de 30 jours ≈ 43 minutes) | 6.1 |
 | Taux de combustion du budget d'erreur | Budget d'erreur consommé / Budget d'erreur alloué, sur une fenêtre donnée | 6.1 |
@@ -65,7 +65,7 @@ Chaque formule du livre, rassemblée en un seul endroit. Chaque entrée nomme le
 
 ## Notes sur l'utilisation de ces formules
 
-- **Associez toujours une formule de vitesse ou de production à son garde-fou** (chapitre 1.2) : taux d'échecs de changement avec fréquence de déploiement et temps d'exécution ; taux de défauts échappés avec vitesse de livraison ; combustion de budget d'erreur avec activité de déploiement.
-- **Utilisez des médianes et percentiles, pas des moyennes, pour les formules basées sur le temps** (chapitre 1.6) à moins qu'une formule n'appelle explicitement une moyenne.
-- **Chaque formule a besoin d'un système source documenté et d'une méthode de collecte** (chapitre 1.5) aux côtés de sa définition mathématique ; deux équipes calculant la même formule depuis des sources différentes ne produiront pas de chiffres comparables.
-- **La pondération par sévérité n'est pas montrée explicitement dans chaque formule ci-dessus** mais s'applique partout où « pondéré par sévérité » apparaît ; voir le chapitre pertinent pour le schéma de classification complet.
+- **Associez toujours une formule de vitesse ou de production à son garde-fou** (sujet 1.2) : taux d'échecs de changement avec fréquence de déploiement et temps d'exécution ; taux de défauts échappés avec vitesse de livraison ; combustion de budget d'erreur avec activité de déploiement.
+- **Utilisez des médianes et percentiles, pas des moyennes, pour les formules basées sur le temps** (sujet 1.6) à moins qu'une formule n'appelle explicitement une moyenne.
+- **Chaque formule a besoin d'un système source documenté et d'une méthode de collecte** (sujet 1.5) aux côtés de sa définition mathématique ; deux équipes calculant la même formule depuis des sources différentes ne produiront pas de chiffres comparables.
+- **La pondération par sévérité n'est pas montrée explicitement dans chaque formule ci-dessus** mais s'applique partout où « pondéré par sévérité » apparaît ; voir le sujet pertinent pour le schéma de classification complet.

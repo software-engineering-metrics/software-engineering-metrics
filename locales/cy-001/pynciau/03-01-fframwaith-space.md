@@ -22,7 +22,7 @@ requests) tra'n perfformio'n wael (nid yw'r gwaith yn symud y
 canlyniadau sy'n bwysig). Gall tîm berfformio'n dda yn y tymor byr tra
 bo boddhad yn suddo, dangosydd blaenllaw o'r traul staff a'r cwymp
 ansawdd sy'n ymddangos fisoedd yn ddiweddarach. Mewnwelediad SPACE,
-sy'n adeiladu'n uniongyrchol ar bennod 1.2 a phennod 1.3 y llyfr hwn,
+sy'n adeiladu'n uniongyrchol ar bwnc 1.2 a phwnc 1.3 y llyfr hwn,
 yw y bydd unrhyw un o'r dimensiynau hyn, wedi'i ddilyn fel targed
 annibynnol, yn cael ei dwyllo ar draul y lleill, ac mae'r fframwaith yn
 bodoli'n benodol i wneud y cyfaddawd hwnnw'n weladwy cyn iddo wneud
@@ -64,8 +64,8 @@ mwy nag y mae allbwn unrhyw sbrint sengl erioed wedi'i arbed.
 Peidiwch â mabwysiadu SPACE trwy ddewis un dimensiwn ffefryn sengl,
 gweithgarwch neu berfformiad fel arfer, a'i alw'n gyflawn. Dewiswch yn
 fwriadol o leiaf un metrig o o leiaf dri o'r pum dimensiwn, gan
-gymysgu offeryno gwrthrychol (pennod 1.5) â data arolwg goddrychol
-(pennod 3.7), cyn cyflwyno unrhyw gasgliad am gynhyrchedd tîm. Y
+gymysgu offeryno gwrthrychol (pwnc 1.5) â data arolwg goddrychol
+(pwnc 3.7), cyn cyflwyno unrhyw gasgliad am gynhyrchedd tîm. Y
 cyfansoddiad lleiafswm hwn sy'n atal SPACE rhag cwympo'n ôl i'r broblem
 dirprwy-sengl yr oedd wedi'i ddylunio i'w datrys.
 
@@ -78,7 +78,7 @@ Defnyddiwch ddata gweithgarwch i ddarparu cyd-destun ar gyfer y
 dimensiynau eraill, er enghraifft sylwi bod gostyngiad mewn gweithgarwch
 yn cyd-daro â chodiad mewn boddhad oherwydd bod y tîm o'r diwedd wedi
 cael lle i dalu dyled dechnegol i lawr, yn hytrach nag fel dyfarniad
-annibynnol. Mae pennod 3.4 yn ymdrin â pheryglon penodol y dimensiwn hwn
+annibynnol. Mae pwnc 3.4 yn ymdrin â pheryglon penodol y dimensiwn hwn
 yn fanwl.
 
 ### Cymhwyswch SPACE ar lefel y tîm a'r system, nid lefel yr unigolyn
@@ -87,7 +87,7 @@ Mae ymchwil wreiddiol SPACE a'i fabwysiad diwydiannol dilynol fel ei
 gilydd yn trin y fframwaith fel lens ar gyfer deall cynhyrchedd tîm a
 sefydliadol, nid fel cerdyn sgorio perfformiad unigol. Mae cymhwyso
 dimensiynau SPACE i raddio unigolion, yn enwedig y dimensiwn
-gweithgarwch, yn ailgreu union y perygl twyllo y mae pennod 1.2 yn
+gweithgarwch, yn ailgreu union y perygl twyllo y mae pwnc 1.2 yn
 rhybuddio yn ei erbyn ac yn camgymhwyso fframwaith na chafodd erioed ei
 ddilysu ar gyfer y defnydd hwnnw.
 
@@ -181,7 +181,7 @@ at fetrigau gweithgarwch-yn-unig wrth i'r tîm ddechrau tyfu heibio'r
 maint lle mae ymwybyddiaeth anffurfiol yn cwmpasu popeth.
 
 **Busnes bach.** Heb swyddogaeth dadansoddeg-pobl bwrpasol, cadwch bethau'n
-syml: parejwch pa ddata cyflenwi bynnag sydd gennych eisoes (pennod
+syml: parejwch pa ddata cyflenwi bynnag sydd gennych eisoes (pwnc
 2.10) â check-in byr, anffurfiol, rheolaidd ar foddhad, hyd yn oed
 arolwg pyls un-cwestiwn syml. Mae'r parejiad lleiafswm hwnnw eisoes yn
 dal disgyblaeth graidd y fframwaith yn well o lawer na dangosfwrdd
@@ -191,7 +191,7 @@ gweithgarwch-yn-unig.
 Safonwch set fetrigau SPACE gytbwys ar draws timau fel y gall
 arweinyddiaeth gymharu cynhyrchedd yn deg yn hytrach na bod yn ddiofyn i
 ba bynnag dîm sydd â'r graff ymrwymiad mwyaf trawiadol yr olwg, a
-buddsoddwch yn yr isadeiledd arolwg y mae pennod 3.7 yn ymdrin ag ef i
+buddsoddwch yn yr isadeiledd arolwg y mae pwnc 3.7 yn ymdrin ag ef i
 wneud data boddhad a chydweithio mor ddibynadwy â'r offeryno gwrthrychol.
 
 **Llywodraeth.** Mae pwysau recriwtio a chadw, yn enwedig lle na all
@@ -208,12 +208,12 @@ o wybodaeth sefydliadol na all disodliad ei ddarparu ar unwaith.
 yn olrhain cyfrifon ymrwymiad a phwyntiau stori a gwblhawyd fel ei brif
 signal cynhyrchedd am flynyddoedd. Ar ôl mabwysiadu set fetrigau SPACE
 lawnach, gan gynnwys arolwg boddhad chwarterol a dadansoddiad
-rhwydwaith-cydweithio (pennod 3.5), darganfu arweinyddiaeth fod gan y
+rhwydwaith-cydweithio (pwnc 3.5), darganfu arweinyddiaeth fod gan y
 tîm â'r rhifau gweithgarwch uchaf hefyd y sgoriau boddhad isaf a'r
 gyfradd traul staff wirfoddol uchaf dros y flwyddyn ganlynol. Roedd y
 rhifau gweithgarwch ar eu pen eu hunain wedi bod yn camarwain yn
 weithredol; arweiniodd y darlun llawnach at ostyngiad bwriadol yng
-ngwaith cydamserol y tîm hwnnw (egwyddor gwaith-ar-y-gweill pennod 2.5
+ngwaith cydamserol y tîm hwnnw (egwyddor gwaith-ar-y-gweill pwnc 2.5
 wedi'i chymhwyso ar y lefel ddynol) ac adferiad mesuradwy mewn boddhad
 ac, yn y pen draw, perfformiad cynaliadwy.
 
@@ -222,7 +222,7 @@ cenedlaethol, oedd yn cystadlu am dalent beirianneg yn erbyn cyflogau
 sector preifat na allai eu cyfateb, set fetrigau SPACE gytbwys yn
 benodol i ddadlau'r achos dros fuddsoddiadau cadw an-ariannol: offer
 gwell, amser ffocws diogel, a llai o ffrithiant proses. Dangosodd data
-arolwg boddhad wedi'i gyfuno â metrigau effeithlonrwydd a llif (pennod
+arolwg boddhad wedi'i gyfuno â metrigau effeithlonrwydd a llif (pwnc
 3.6) mai amlder ymyrraeth, nid cyflog, oedd y rhagfynegydd cryfaf o
 fwriad-i-adael mewn data cyfweliad ymadael. Roedd buddsoddiad dilynol
 yr asiantaeth mewn polisi amser-ffocws diogel, wedi'i gyfiawnhau'n
@@ -239,7 +239,7 @@ fyny ar unwaith, ac ar y pwynt hwnnw mae cost disodli arbenigedd
 coll ac ailadeiladu iechyd tîm yn gwneud i unrhyw enillion cynhyrchedd
 yr oedd y set fetrigau gul erioed yn ymddangos ei ddangos edrych yn fach.
 
-Mae cost cyfanswm perchnogaeth yn cynnwys isadeiledd arolwg (pennod 3.7)
+Mae cost cyfanswm perchnogaeth yn cynnwys isadeiledd arolwg (pwnc 3.7)
 a'r ddisgyblaeth o adolygu pob un o'r pum dimensiwn gyda'i gilydd yn
 hytrach na bod yn ddiofyn i ba bynnag sydd hawsaf. Mae'r gost honno'n
 werth ei thalu mewn gwirionedd: mae'r enghraifft menter uchod yn dangos
@@ -305,7 +305,7 @@ ddatgelu tan i'r niwed gael ei wneud eisoes.
 - Adeiladwch set fetrigau o **o leiaf dri dimensiwn**, gan gymysgu
   ffynonellau data gwrthrychol a goddrychol.
 - Triniwch **fetrigau gweithgarwch fel cyd-destun**, byth fel y signal
-  cynhyrchedd pennawd (pennod 3.4).
+  cynhyrchedd pennawd (pwnc 3.4).
 - Cymhwyswch SPACE ar **lefel y tîm a'r system**, nid fel cerdyn sgorio
   unigol.
 - Adolygwch ddimensiynau gyda'i gilydd, gan wylio am **gyfaddawdau

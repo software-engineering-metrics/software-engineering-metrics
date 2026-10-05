@@ -2,8 +2,8 @@
 
 ## Visión general y motivación
 
-Este capítulo mide lo que ocurre cuando el presupuesto de error del
-capítulo 6.1 se gasta mediante un fallo real: un **incidente**, un evento
+Este tema mide lo que ocurre cuando el presupuesto de error del
+tema 6.1 se gasta mediante un fallo real: un **incidente**, un evento
 no planificado que degrada o interrumpe un servicio. Cuatro métricas
 forman el vocabulario estándar para medir qué tan bien maneja esto una
 organización: el **tiempo medio de detección (MTTD)**, cuánto tiempo pasa
@@ -11,13 +11,13 @@ antes de que la organización note que algo va mal; el **tiempo medio de
 reconocimiento (MTTA)**, cuánto tiempo pasa antes de que alguien asuma la
 responsabilidad de responder; el **tiempo medio de resolución** o
 **recuperación (MTTR)**, cuánto tiempo pasa hasta que se restaura el
-servicio, el mismo concepto que cubrió específicamente el capítulo 2.10
+servicio, el mismo concepto que cubrió específicamente el tema 2.10
 para los fallos causados por despliegues, ahora generalizado a cualquier
 incidente sin importar la causa; y la **frecuencia de incidentes**,
 simplemente con qué frecuencia ocurren incidentes en absoluto.
 
-La preocupación central de este capítulo, haciendo eco del tratamiento
-que da el capítulo 2.10 a la tasa de fallos de cambio, es que estos
+La preocupación central de este tema, haciendo eco del tratamiento
+que da el tema 2.10 a la tasa de fallos de cambio, es que estos
 números solo son tan confiables como la cultura organizacional en torno a
 reportar y clasificar los incidentes con honestidad. Un equipo que teme la
 culpa por un incidente tiene todo el incentivo para subreportar, retrasar
@@ -26,15 +26,15 @@ grave como menor para proteger sus propias métricas. La práctica del
 **[análisis retrospectivo sin culpa](https://en.wikipedia.org/wiki/Just_culture)**,
 pionera en organizaciones como Etsy y formalizada en la literatura de SRE
 de Google, existe específicamente para eliminar ese incentivo, y este
-capítulo la trata como un requisito previo para datos de incidentes
+tema la trata como un requisito previo para datos de incidentes
 confiables, no como una comodidad cultural opcional añadida encima de las
 métricas.
 
 Para los equipos grandes, las métricas de incidentes revelan si la
 capacidad de detección y respuesta de una organización, las herramientas
-de reversión del capítulo 2.10 entre otras inversiones, realmente funciona
+de reversión del tema 2.10 entre otras inversiones, realmente funciona
 bajo condiciones reales y variadas, no solo el escenario específico de
-fallo causado por despliegue que cubrió ese capítulo. Las organizaciones
+fallo causado por despliegue que cubrió ese tema. Las organizaciones
 empresariales y gubernamentales que operan infraestructura crítica
 dependen de estas métricas tanto internamente, para impulsar una mejora
 operativa genuina, como externamente, para demostrar a los clientes,
@@ -53,9 +53,9 @@ mejoran con el tiempo.
   realmente sea lenta.
 - **La frecuencia de incidentes y el MTTR son una señal emparejada**,
   similar a la tasa de fallos de cambio y el tiempo de recuperación de
-  DORA (capítulo 2.10): ninguna por sí sola cuenta la historia completa.
+  DORA (tema 2.10): ninguna por sí sola cuenta la historia completa.
 - **La clasificación de gravedad necesita el mismo rigor que la
-  clasificación de defectos escapados** (capítulo 5.1): criterios
+  clasificación de defectos escapados** (tema 5.1): criterios
   consistentes y documentados, no juicio improvisado.
 - **El valor de un análisis retrospectivo está en el aprendizaje
   sistémico, no en producir un número.** La métrica es un subproducto de
@@ -73,7 +73,7 @@ separado, en lugar de solo un único total mezclado. Cada fase apunta a
 una corrección distinta: una detección lenta apunta a una brecha de
 monitorización y alertas, un reconocimiento lento apunta a un problema de
 proceso de guardia o escalado, y una resolución lenta apunta a una brecha
-de herramientas, guías de operación, o capacidad diagnóstica (el capítulo
+de herramientas, guías de operación, o capacidad diagnóstica (el tema
 2.10 cubre esto específicamente para los fallos causados por despliegue).
 
 ### Construye y protege un proceso de análisis retrospectivo genuinamente sin culpa
@@ -90,7 +90,7 @@ declaración de política de una sola vez.
 
 ### Clasifica la gravedad con criterios consistentes, documentados, y auditados
 
-Aplica la misma disciplina que recomienda el capítulo 5.1 para los
+Aplica la misma disciplina que recomienda el tema 5.1 para los
 defectos escapados a la clasificación de gravedad de incidentes: una
 escala fija y documentada basada en el impacto real en el cliente o el
 negocio, aplicada de manera consistente entre equipos, auditada
@@ -118,7 +118,7 @@ El valor real del proceso de análisis retrospectivo son los elementos de
 acción específicos y sistémicos que produce: una alerta faltante añadida,
 una guía de operación mejorada, un punto único de fallo eliminado.
 Rastrea estos elementos de acción hasta su finalización con la misma
-disciplina que la lista acumulada de deuda técnica del capítulo 4.5, ya
+disciplina que la lista acumulada de deuda técnica del tema 4.5, ya
 que un análisis retrospectivo que produce percepción pero ningún
 seguimiento desperdicia el aprendizaje organizacional que el proceso
 pretende capturar.
@@ -166,7 +166,7 @@ ocurrió.
 4. **¿Revisamos la frecuencia de incidentes y el MTTR juntos, o uno recibe
    más atención que el otro?** Comprueba tu práctica de reporte y
    revisiones reales en busca de este emparejamiento, reflejando la misma
-   disciplina que recomienda el capítulo 2.10 para las métricas de
+   disciplina que recomienda el tema 2.10 para las métricas de
    estabilidad de DORA.
 
 5. **¿Qué porcentaje de los elementos de acción de nuestros análisis
@@ -194,7 +194,7 @@ a la culpa.
 **Pequeña empresa.** Un registro de incidentes simple y compartido,
 incluso informal, con una clasificación de gravedad básica y una breve
 retrospectiva sin culpa para cualquier cosa significativa, captura la
-mayor parte del valor de este capítulo sin necesitar herramientas
+mayor parte del valor de este tema sin necesitar herramientas
 sofisticadas ni una plataforma dedicada de gestión de incidentes.
 
 **Empresa.** Tanto la clasificación de gravedad consistente como la
@@ -326,7 +326,7 @@ confianza porque el miedo ha corrompido cada entrada de él.
   distinta.
 - Clasifica la gravedad con **criterios consistentes, documentados, y
   auditados**, reflejando la disciplina de defectos escapados del
-  capítulo 5.1.
+  tema 5.1.
 - Revisa **la frecuencia de incidentes y el MTTR juntos**, nunca de forma
   aislada, la misma disciplina de emparejamiento que las métricas de
   estabilidad de DORA.

@@ -7,6 +7,11 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Reworded "chapter" to "topic" throughout the book's prose in every
+  locale (for example "topic 2.1", "Topics in this part"), using each
+  language's own word for topic (`tema`, `sujet`, `Thema`, `тема`, `主題`,
+  and so on), and in the spec, the tools' generated text, and the site's
+  interface strings. File names, URLs, and the section keys are unchanged.
 - Translated every section directory name under `locales/`: `chapters/` is
   now `topics/` (and its translation in each other locale, e.g. `temas/`,
   `sujets/`, `themen/`), and `es-001`'s `examples/` is `ejemplos/`. The names
@@ -16,95 +21,95 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 ### Added
 
 - Added Russian (`ru-001`) and Chinese (`zh-001`) as the 21st and 22nd
-  complete translated locales: all 63 chapters each, with matching
+  complete translated locales: all 63 topics each, with matching
   `.locale-peer-id` sidecars, identical in content to `ru-ru` and `zh-cn`.
   Wired into the site and served at `/ru-001/` and `/zh-001/` (aliases
   `/ru/` and `/zh/`).
 - Added French (`fr-001`) as the 20th complete translated locale: all 63
-  chapters with matching `.locale-peer-id` sidecars, identical in content to
+  topics with matching `.locale-peer-id` sidecars, identical in content to
   `fr-fr`. Wired into the site and served at `/fr-001/` (alias `/fr/`).
 - Added Bengali (`bn-001`) as the 19th complete translated locale: all 63
-  chapters with matching `.locale-peer-id` sidecars, identical in content to
+  topics with matching `.locale-peer-id` sidecars, identical in content to
   `bn-bd`. Wired into the site and served at `/bn-001/` (alias `/bn/`).
 - Added Arabic (`ar-001`) as the 18th complete translated locale: all 63
-  chapters with matching `.locale-peer-id` sidecars, identical in content to
+  topics with matching `.locale-peer-id` sidecars, identical in content to
   `ar-eg`. Wired into the site and served at `/ar-001/` (alias `/ar/`).
 - Added Welsh, Great Britain (`cy-gb`) as the 17th complete translated
-  locale: all 63 chapters with matching `.locale-peer-id` sidecars, identical
+  locale: all 63 topics with matching `.locale-peer-id` sidecars, identical
   in content to `cy-001` (the same relationship `hi-id` has to `hi-001`).
   Wired into the site's `SERVED_LOCALE_CODES` and served at `/cy-gb/`.
-- Completed a full, from-scratch hand translation of all 63 chapters into
+- Completed a full, from-scratch hand translation of all 63 topics into
   Dutch, Netherlands (`nl-nl`), with matching `.locale-peer-id` sidecars and
   passing `just test`. No prior Dutch locale existed to build from, so
-  every chapter was translated directly from the English source. The index
-  (chapter 9.7) remaps every internal chapter link to its Dutch
+  every topic was translated directly from the English source. The index
+  (topic 9.7) remaps every internal topic link to its Dutch
   filename, following the approach used for `ar-eg`, `bn-bd`, `ko-kr`,
   `es-es`, `pt-pt`, `ja-jp`, `ru-ru`, `fr-fr`, and `sv-se`. Not yet wired
   into the site.
-- Completed a full, from-scratch hand translation of all 63 chapters into
+- Completed a full, from-scratch hand translation of all 63 topics into
   Swedish, Sweden (`sv-se`), with matching `.locale-peer-id` sidecars and
   passing `just test`. No prior Swedish locale existed to build from, so
-  every chapter was translated directly from the English source. The index
-  (chapter 9.7) remaps every internal chapter link to its Swedish
+  every topic was translated directly from the English source. The index
+  (topic 9.7) remaps every internal topic link to its Swedish
   filename, following the approach used for `ar-eg`, `bn-bd`, `ko-kr`,
   `es-es`, `pt-pt`, `ja-jp`, `ru-ru`, and `fr-fr`. Not yet wired into the
   site.
-- Completed a full, from-scratch hand translation of all 63 chapters into
+- Completed a full, from-scratch hand translation of all 63 topics into
   French, France (`fr-fr`), with matching `.locale-peer-id` sidecars and
   passing `just test`. No prior French locale existed to build from, so
-  every chapter was translated directly from the English source. The index
-  (chapter 9.7) remaps every internal chapter link to its French
+  every topic was translated directly from the English source. The index
+  (topic 9.7) remaps every internal topic link to its French
   filename, following the approach used for `ar-eg`, `bn-bd`, `ko-kr`,
   `es-es`, `pt-pt`, `ja-jp`, and `ru-ru`. Not yet wired into the site.
-- Completed a full, from-scratch hand translation of all 63 chapters into
+- Completed a full, from-scratch hand translation of all 63 topics into
   Russian, Russia (`ru-ru`), with matching `.locale-peer-id` sidecars and
   passing `just test`. No prior Russian locale existed to build from, so
-  every chapter was translated directly from the English source. The index
-  (chapter 9.7) remaps every internal chapter link to its Russian
+  every topic was translated directly from the English source. The index
+  (topic 9.7) remaps every internal topic link to its Russian
   filename, following the approach used for `ar-eg`, `bn-bd`, `ko-kr`,
   `es-es`, `pt-pt`, and `ja-jp`. Not yet wired into the site.
-- Completed a full, from-scratch hand translation of all 63 chapters into
+- Completed a full, from-scratch hand translation of all 63 topics into
   Japanese, Japan (`ja-jp`), with matching `.locale-peer-id` sidecars and
   passing `just test`. No prior Japanese locale existed to build from, so
-  every chapter was translated directly from the English source. The index
-  (chapter 9.7) remaps every internal chapter link to its Japanese
+  every topic was translated directly from the English source. The index
+  (topic 9.7) remaps every internal topic link to its Japanese
   filename, following the approach used for `ar-eg`, `bn-bd`, `ko-kr`,
   `es-es`, and `pt-pt`. Not yet wired into the site.
-- Completed a full, from-scratch hand translation of all 63 chapters into
+- Completed a full, from-scratch hand translation of all 63 topics into
   Portuguese, Portugal (`pt-pt`), with matching `.locale-peer-id` sidecars
   and passing `just test`. No prior Portuguese locale existed to build
-  from, so every chapter was translated directly from the English source.
-  The index (chapter 9.7) remaps every internal chapter link to its
+  from, so every topic was translated directly from the English source.
+  The index (topic 9.7) remaps every internal topic link to its
   Portuguese filename, following the approach used for `ar-eg`, `bn-bd`,
   `ko-kr`, and `es-es`. Not yet wired into the site.
 - Added Spanish, Spain (`es-es`) as a complete translated locale, all 63
-  chapters, starting from a copy of the existing Spanish (`es-001`)
+  topics, starting from a copy of the existing Spanish (`es-001`)
   translation (found on inspection to already be grammatically neutral,
   with vocabulary mostly already Spain-leaning) and then applying a
   targeted terminology pass for the remaining minority usages, most
   notably "incidente" to "incidencia" for this book's incident-metrics
   domain, with corresponding gender-agreement fixes throughout. Not yet
   wired into the site.
-- Completed a full hand translation of all 63 chapters into Korean, Korea
+- Completed a full hand translation of all 63 topics into Korean, Korea
   (`ko-kr`), with matching `.locale-peer-id` sidecars and passing
-  `just test`. The index (chapter 9.7) remaps every internal chapter link
+  `just test`. The index (topic 9.7) remaps every internal topic link
   to its Korean filename, following the approach used for `ar-eg` and
   `bn-bd`. Not yet wired into the site.
 - Added Hindi, India (`hi-id`) as a complete translated locale, all 63
-  chapters, by copying the existing Hindi (`hi-001`) translation verbatim
+  topics, by copying the existing Hindi (`hi-001`) translation verbatim
   under the country-tagged locale code, since standard Hindi has no
   distinct India-specific variant to hand-translate separately. Not yet
   wired into the site.
-- Completed a full hand translation of all 63 chapters into Bengali,
+- Completed a full hand translation of all 63 topics into Bengali,
   Bangladesh (`bn-bd`), with matching `.locale-peer-id` sidecars and
   passing `just test`. Not yet wired into the site.
-- Completed a full hand translation of all 63 chapters into Arabic, Egypt
+- Completed a full hand translation of all 63 topics into Arabic, Egypt
   (`ar-eg`), with matching `.locale-peer-id` sidecars and passing
   `just test`. Not yet wired into the site.
-- Completed a full hand translation of all 63 chapters into German, Germany
+- Completed a full hand translation of all 63 topics into German, Germany
   (`de-de`), with matching `.locale-peer-id` sidecars and passing
   `just test`. Not yet wired into the site.
-- Completed full hand translations of all 63 chapters into three locales:
+- Completed full hand translations of all 63 topics into three locales:
   Welsh (`cy-001`), Chinese (`zh-cn`), and Hindi (`hi-001`), each with
   matching `.locale-peer-id` sidecars and passing `just test`.
 - Added two more planned translated locales, Welsh - Great Britain
@@ -127,7 +132,7 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 - Added two Claude Code skills, `software-engineering-metrics-skill` (for
   readers applying the book's guidance to their own team) and
   `software-engineering-metrics-maintainer-skill` (for contributors adding
-  or editing chapters), under `skills/` and mirrored into `.claude/skills/`.
+  or editing topics), under `skills/` and mirrored into `.claude/skills/`.
 - Moved the published website's source into this repository as
   `software-engineering-metrics.github.io/`, previously a separate repository.
   It now reads `locales/` directly from the repository root rather than a
@@ -172,21 +177,21 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
-- Added chapter 2.8, Lean value stream metrics (lead time, process time,
+- Added topic 2.8, Lean value stream metrics (lead time, process time,
   cycle time, percent complete and accurate, and takt time from classical
   Lean value stream mapping, plus the rolled throughput yield calculation),
   placed after queueing theory. Pull request and code review metrics moved
-  from 2.8 to 2.9, and the DORA metrics chapter moved from 2.9 to 2.10.
+  from 2.8 to 2.9, and the DORA metrics topic moved from 2.9 to 2.10.
   Updated every affected cross-reference across the book.
 - Renamed Part 2 from "Delivery and Flow Metrics" to "Flow Metrics" and
   reorganized it around Mik Kersten's Flow Framework. Added four new
-  chapters: 2.1 The Flow Framework, 2.2 Flow items (features, defects,
+  topics: 2.1 The Flow Framework, 2.2 Flow items (features, defects,
   risks, debt), 2.3 Flow velocity and flow distribution, and 2.4 Flow time
-  and flow load. Consolidated the four individual DORA metric chapters
+  and flow load. Consolidated the four individual DORA metric topics
   (deployment frequency, lead time, change failure rate, recovery time)
-  into a single reference chapter, 2.9 The DORA metrics framework, moved
+  into a single reference topic, 2.9 The DORA metrics framework, moved
   to the end of the part. Renumbered flow efficiency and work in process
-  to 2.5 and renamed and renumbered the queueing theory chapter (formerly
+  to 2.5 and renamed and renumbered the queueing theory topic (formerly
   2.9) to 2.7 Queueing theory. Cycle time (2.6) and pull request and code
   review metrics (2.8) keep their numbers. Updated every cross-reference
   across the book, the glossary, the formulas reference, the maturity
@@ -194,8 +199,8 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
-- Initial release: 45 substantive chapters across 8 parts, plus front matter
-  and a 7-chapter appendix (Part 9), covering the DORA and SPACE frameworks,
+- Initial release: 45 substantive topics across 8 parts, plus front matter
+  and a 7-topic appendix (Part 9), covering the DORA and SPACE frameworks,
   code and quality metrics, product and business metrics, reliability and
   security metrics, and the effect of generative AI on engineering metrics.
 - Repository infrastructure mirrored from the sibling
@@ -204,7 +209,7 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
   suite in `tests/validate.py`, a navigation generator in `tools/gen_nav.py`,
   a `justfile`, `AGENTS.md` with contributor guides under `docs/contributing/`,
   `CONTRIBUTING.md`, and this changelog.
-- `spec/structure.md`, the canonical chapter manifest that the tests check
+- `spec/structure.md`, the canonical topic manifest that the tests check
   the files against.
 - Two worked examples in `docs/examples/`: a filled-in metrics charter and a
   dashboard specification.
@@ -212,7 +217,7 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 ## History
 
 The book was built from the specification outward: the nine-part structure
-was declared in `spec/structure.md` first, then every chapter was authored
+was declared in `spec/structure.md` first, then every topic was authored
 against the shared template in `docs/contributing/chapter-template.md`, with
 `tests/validate.py` enforcing structure and house style throughout.
 

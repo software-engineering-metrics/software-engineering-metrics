@@ -2,16 +2,16 @@
 
 ## Overzicht en motivatie
 
-**[Testdekking](https://en.wikipedia.org/wiki/Code_coverage)** meet het percentage code uitgevoerd door een testsuite: regeldekking, vertakkingsdekking, of de striktere paddekking. Het is een van de meest bijgehouden metrieken in dit hele boek, goedkoop te berekenen, makkelijk te visualiseren als een enkel percentage, en bijgevolg een van de meest frequent gemanipuleerde, precies op de manier die hoofdstuk 1.2 voorspelt voor elke metriek die een doel wordt. Een testsuite kan hoge dekking bereiken terwijl het bijna niets betekenisvols verifieert, omdat dekking meet of code uitgevoerd werd gedurende een testrun, niet of de test daadwerkelijk checkte of de code zich correct gedroeg.
+**[Testdekking](https://en.wikipedia.org/wiki/Code_coverage)** meet het percentage code uitgevoerd door een testsuite: regeldekking, vertakkingsdekking, of de striktere paddekking. Het is een van de meest bijgehouden metrieken in dit hele boek, goedkoop te berekenen, makkelijk te visualiseren als een enkel percentage, en bijgevolg een van de meest frequent gemanipuleerde, precies op de manier die onderwerp 1.2 voorspelt voor elke metriek die een doel wordt. Een testsuite kan hoge dekking bereiken terwijl het bijna niets betekenisvols verifieert, omdat dekking meet of code uitgevoerd werd gedurende een testrun, niet of de test daadwerkelijk checkte of de code zich correct gedroeg.
 
-Dit gat tussen dekking en echte testeffectiviteit is geen kleine voetnoot; het is de centrale zorg van dit hoofdstuk. Een test die een functie aanroept en niets beweert over zijn resultaat verhoogt dekking identiek aan een test die grondig het gedrag van de functie verifieert over randgevallen. De fix die dit hoofdstuk aanbeveelt, **mutatietesten**, dat doelbewust kleine, artificiële fouten introduceert in de code en checkt of de testsuite ze daadwerkelijk vangt, is het directe antwoord op dit gat, en dit hoofdstuk behandelt het als dekking's noodzakelijke complement, geen optionele extra.
+Dit gat tussen dekking en echte testeffectiviteit is geen kleine voetnoot; het is de centrale zorg van dit onderwerp. Een test die een functie aanroept en niets beweert over zijn resultaat verhoogt dekking identiek aan een test die grondig het gedrag van de functie verifieert over randgevallen. De fix die dit onderwerp aanbeveelt, **mutatietesten**, dat doelbewust kleine, artificiële fouten introduceert in de code en checkt of de testsuite ze daadwerkelijk vangt, is het directe antwoord op dit gat, en dit onderwerp behandelt het als dekking's noodzakelijke complement, geen optionele extra.
 
-Voor grote teams worden dekkingsdoelen vaak organisatiebreed geadopteerd als een kwaliteitspoort, precies het soort gestimuleerde, hoog-zichtbare metriek waar hoofdstuk 1.2 tegen waarschuwt het meest blootgesteld te zijn aan manipulatie. Grote bedrijven en overheidsorganisaties die een blanket-dekkingspercentagevereiste stellen zonder een gekoppelde effectiviteitscheck stimuleren, in effect, precies het drempelmanipulatiepatroon dat dit boek beschrijft: triviale tests geschreven puur om een cijfer te bereiken, zonder overeenkomstige verbetering in echte defectpreventie.
+Voor grote teams worden dekkingsdoelen vaak organisatiebreed geadopteerd als een kwaliteitspoort, precies het soort gestimuleerde, hoog-zichtbare metriek waar onderwerp 1.2 tegen waarschuwt het meest blootgesteld te zijn aan manipulatie. Grote bedrijven en overheidsorganisaties die een blanket-dekkingspercentagevereiste stellen zonder een gekoppelde effectiviteitscheck stimuleren, in effect, precies het drempelmanipulatiepatroon dat dit boek beschrijft: triviale tests geschreven puur om een cijfer te bereiken, zonder overeenkomstige verbetering in echte defectpreventie.
 
 ## Kernprincipes
 
 - **Dekking meet uitvoering, niet verificatie.** Een regel die door een test gedraaid wordt zegt niets over of de test iets betekenisvols erover checkte.
-- **Een dekkingsdoel zonder een effectiviteitscheck is een schoolvoorbeeld van een Goodharts-wet-opzet** (hoofdstuk 1.2): het cijfer verbetert terwijl echte kwaliteit niet doet.
+- **Een dekkingsdoel zonder een effectiviteitscheck is een schoolvoorbeeld van een Goodharts-wet-opzet** (onderwerp 1.2): het cijfer verbetert terwijl echte kwaliteit niet doet.
 - **Mutatietesten is dekking's noodzakelijke complement**, geen vervanging; gebruik beide samen.
 - **Dekking is nuttiger als een vloer dan als een doel om te maximaliseren.** Een laag cijfer onthult echt ongeteste code; 100% najagen produceert vaak afnemend of negatief rendement.
 - **Kritiek-pad-dekking doet er meer toe dan uniforme, blanket-dekking.** Niet alle code draagt gelijk risico als het faalt.
@@ -32,7 +32,7 @@ Niet alle code draagt gelijk risico. Een betalingsverwerkingspad, een authentica
 
 ### Let op de specifieke dekkingmanipulatiepatronen
 
-De meest gewone manieren waarop dekking gemanipuleerd wordt, eenmaal het een doel wordt, omvatten: tests die een functie aanroepen maar niets betekenisvols beweren over het resultaat (de drempelmanipulatie van hoofdstuk 1.2 toegepast op deze metriek), falende tests uitschakelen of verwijderen in plaats van het onderliggende probleem te fixen, en moeilijk-te-testen code volledig uitsluiten van dekkingsberekening in plaats van aan te pakken waarom het moeilijk te testen is. Audit periodiek een steekproef van tests direct, hun daadwerkelijke beweringen lezend, in plaats van het dekkingspercentage alleen te vertrouwen.
+De meest gewone manieren waarop dekking gemanipuleerd wordt, eenmaal het een doel wordt, omvatten: tests die een functie aanroepen maar niets betekenisvols beweren over het resultaat (de drempelmanipulatie van onderwerp 1.2 toegepast op deze metriek), falende tests uitschakelen of verwijderen in plaats van het onderliggende probleem te fixen, en moeilijk-te-testen code volledig uitsluiten van dekkingsberekening in plaats van aan te pakken waarom het moeilijk te testen is. Audit periodiek een steekproef van tests direct, hun daadwerkelijke beweringen lezend, in plaats van het dekkingspercentage alleen te vertrouwen.
 
 ### Stel een dekkingsvloer in, geen dekkingsplafond, in je CI-pijplijn
 
@@ -69,9 +69,9 @@ De centrale spanning is **simpliciteit versus eerlijkheid**. Een enkel dekkingsp
 
 **Klein bedrijf.** De meeste CI-platforms rapporteren dekking automatisch tegen minimale setupkost; gebruik het primair om volledig ongeteste kritieke code te vinden in plaats van een specifiek doelpercentage na te jagen, en overweeg mutatietesten alleen eenmaal je de ingenieurscapaciteit hebt om te handelen op wat het onthult.
 
-**Groot bedrijf.** Blanket, organisatiebrede dekkingsdoelen zijn een gewone en betekenisvolle fout op deze schaal, omdat ze precies de manipulatie stimuleren die dit hoofdstuk beschrijft over dozijnen teams gelijktijdig. Stel risico-gebaseerde dekkingsverwachtingen vast die variëren per dienstkriticiteit, en investeer in mutatietest-infrastructuur specifiek voor je hoogste-risico-systemen.
+**Groot bedrijf.** Blanket, organisatiebrede dekkingsdoelen zijn een gewone en betekenisvolle fout op deze schaal, omdat ze precies de manipulatie stimuleren die dit onderwerp beschrijft over dozijnen teams gelijktijdig. Stel risico-gebaseerde dekkingsverwachtingen vast die variëren per dienstkriticiteit, en investeer in mutatietest-infrastructuur specifiek voor je hoogste-risico-systemen.
 
-**Overheid.** Dekkingsvereisten verschijnen soms in aanbestedings- of compliancedocumentatie als een botte, makkelijk gespecificeerde proxy voor kwaliteitsborging. Waar mogelijk, koppel elk contractueel vereist dekkingspercentage met een mutatietest- of defect-gebaseerde effectiviteitsvereiste, zodat de contractuele prikkel niet per ongeluk precies de laag-waarde-testopvulling beloont waar dit hoofdstuk tegen waarschuwt.
+**Overheid.** Dekkingsvereisten verschijnen soms in aanbestedings- of compliancedocumentatie als een botte, makkelijk gespecificeerde proxy voor kwaliteitsborging. Waar mogelijk, koppel elk contractueel vereist dekkingspercentage met een mutatietest- of defect-gebaseerde effectiviteitsvereiste, zodat de contractuele prikkel niet per ongeluk precies de laag-waarde-testopvulling beloont waar dit onderwerp tegen waarschuwt.
 
 ## Voorbeelden
 
@@ -88,7 +88,7 @@ De totale eigendomskosten omvatten de rekenkundige kost van mutatietesten, dat d
 ## Antipatronen en valkuilen
 
 - **Dekkingspercentage behandelen als een direct kwaliteitsoordeel:** het meet uitvoering, niet verificatie.
-- **Tests schrijven primair om een dekkingspoort te bevredigen:** produceert precies het laag-waarde-, drempelmanipulatiepatroon waar hoofdstuk 1.2 tegen waarschuwt.
+- **Tests schrijven primair om een dekkingspoort te bevredigen:** produceert precies het laag-waarde-, drempelmanipulatiepatroon waar onderwerp 1.2 tegen waarschuwt.
 - **Falende tests uitschakelen of verwijderen in plaats van het onderliggende probleem te fixen:** verwijdert echte bescherming terwijl het nauwelijks het gerapporteerde cijfer beïnvloedt.
 - **Een uniform dekkingsdoel toepassen ongeacht coderisico:** verspilt inspanning op laag-risico-code en onderinvesteert in echt kritieke paden.
 - **Een uitsluitingslijst stilletjes laten groeien over tijd:** verhult echte testgaten achter een technisch accuraat maar misleidend dekkingscijfer.

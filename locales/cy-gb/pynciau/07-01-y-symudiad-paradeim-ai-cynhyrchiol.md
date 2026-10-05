@@ -7,7 +7,7 @@ ddigon araf a llafurus fel bod cyfaint allbwn crai, llinellau a
 ysgrifennwyd, ymrwymiadau a wnaed, nodweddion a ryddhawyd, yn
 cydberthyn o leiaf yn llac ag ymdrech wirioneddol ac, yn amherffaith, â
 gwerth gwirioneddol. Nid oedd y gydberthynas honno erioed yn berffaith,
-neilltuodd pennod 3.4 bennod gyfan i pam mae metrigau gweithgarwch yn
+neilltuodd pwnc 3.4 bwnc cyfan i pam mae metrigau gweithgarwch yn
 camarwain hyd yn oed mewn byd cyn-AI, ond roedd yn ddigon cryf fel bod
 llawer o sefydliadau wedi adeiladu rhaglenni metrigau ar y dybiaeth
 oblygedig bod mwy o god fel arfer yn golygu mwy o waith wedi'i wneud.
@@ -18,19 +18,19 @@ gost flaenorol, ac mae'r cyfaint hwnnw'n dweud bron dim byd wrthych ar
 ei ben ei hun am a yw'r cod canlyniadol yn gweithio, yn gynaliadwy,
 neu'n gwasanaethu unrhyw bwrpas gwirioneddol.
 
-Hawliad craidd y bennod hon yw bod hwn yn newid paradeim, nid newid
+Hawliad craidd y pwnc hwn yw bod hwn yn newid paradeim, nid newid
 offeryno cynyddrannol. Mae newid paradeim yn newid yr hyn y mae eich
 offerynnau presennol mewn gwirionedd yn ei fesur, nid dim ond y
 gwerthoedd y maent yn eu hadrodd. Mae mesurydd cyflymder yn dal i fesur
 cyflymder ar ôl i chi newid injan car; nid yw sawl un o fetrigau'r
 llyfr hwn yn goroesi'r trawsnewid hwn mor lân. Gall amledd defnyddio
-(pennod 2.10) godi oherwydd bod AI wedi cyflymu gwaith gwirioneddol
+(pwnc 2.10) godi oherwydd bod AI wedi cyflymu gwaith gwirioneddol
 werthfawr, neu oherwydd bod AI wedi ei gwneud yn ddibwys hawdd
 cynhyrchu llawer o newidiadau bach, gwerth-isel; ni all y rhif ar ei
 ben ei hun wahaniaethu'r ddau mwyach, mewn ffordd y gallai'n bennaf, â
 gofal priodol, o'r blaen. Mae'r un rhesymeg yn gymwys ag hyd yn oed mwy
 o rym i gyfrifon ymrwymiad crai, llinellau o god, a chyfaint pull
-request, y cyfan y rhybuddiodd pennod 3.4 yn eu herbyn eisoes fel
+request, y cyfan y rhybuddiodd pwnc 3.4 yn eu herbyn eisoes fel
 metrigau unigol, wedi'u mwyhau nawr i berygl sy'n berthnasol ar lefel y
 tîm a'r sefydliad hefyd.
 
@@ -52,7 +52,7 @@ dybiaethau mesur hen ffasiwn.
   golygu'r hyn yr oeddent yn arfer ei olygu'n dawel.
 - **Ni fu cyfaint allbwn erioed yn ddirprwy dibynadwy ar gyfer gwerth,
   ac mae wedi dod yn weithredol annibynadwy nawr.** Roedd rhybudd
-  pennod 3.4 bob amser yn gywir; mae'r symudiad hwn yn gwneud ei
+  pwnc 3.4 bob amser yn gywir; mae'r symudiad hwn yn gwneud ei
   anwybyddu'n llawer mwy costus.
 - **Y bwlch rhwng cyflymder mabwysiadu AI a chyflymder addasiad mesur
   yw'r perygl gwirioneddol.** Mae sefydliadau'n mabwysiadu'r offeryno'n
@@ -73,7 +73,7 @@ yn uniongyrchol: a fyddai tîm sy'n defnyddio cymorth AI'n drwm ond yn
 cynhyrchu dim mwy o werth gwirioneddol nag o'r blaen yn dangos
 darlleniad gwell ar y metrig hwn. Cyfrifon gweithgarwch, amlder
 ymrwymiad, ac amledd defnyddio crai (heb gledr ddiogelwch
-sefydlogrwydd wedi'i pharejo, pennod 2.10) yw'r rhai mwyaf agored.
+sefydlogrwydd wedi'i pharejo, pwnc 2.10) yw'r rhai mwyaf agored.
 Mae metrigau canlyniad o Ran 5, cyfradd diffygion dianc, mabwysiad
 nodwedd, canlyniadau busnes, yn gymharol wydn, gan eu bod yn mesur y
 canlyniad gwirioneddol yn hytrach na chyfaint y gweithgarwch a'i
@@ -81,12 +81,12 @@ cynhyrchodd.
 
 ### Ailarchwiliwch amledd defnyddio ac amser arwain yn benodol, â sylw cledr-ddiogelwch uwch
 
-Rhybuddiodd pennod 2.10 eisoes am dwyllo amnewid, hollti gwaith
+Rhybuddiodd pwnc 2.10 eisoes am dwyllo amnewid, hollti gwaith
 ystyrlon yn ddefnyddiadau dibwys i chwyddo'r cyfrif. Mae AI cynhyrchiol
 yn gwneud y patrwm twyllo penodol hwn yn ddramatig rhatach ac yn haws
 ei gynhyrchu, hyd yn oed yn anfwriadol, gan fod newidiadau dibwys â
 chymorth AI bellach bron yn rhad ac am ddim i'w cynhyrchu. Tynhewch
-eich cledr ddiogelwch cyfradd-methiant-newid (pennod 2.10) yn benodol
+eich cledr ddiogelwch cyfradd-methiant-newid (pwnc 2.10) yn benodol
 yn gymesur â pha mor drwm y mae tîm wedi mabwysiadu datblygiad â
 chymorth AI, a gwyliwch dueddiadau maint defnyddio hyd yn oed yn agosach
 nag o'r blaen.
@@ -94,12 +94,12 @@ nag o'r blaen.
 ### Triniwch gapasiti adolygu cod fel tagfa newydd, dyngedfennol
 
 Os yw cymorth AI'n cynyddu cyfaint y cod a gynigir ar gyfer adolygiad
-yn ddramatig, mae cam yr adolygiad (pennod 2.9), eisoes yn aml y
+yn ddramatig, mae cam yr adolygiad (pwnc 2.9), eisoes yn aml y
 cyfrannwr amser-aros mwyaf yn y biblinell gyflenwi, yn dod yn gyfyngiad
 hyd yn oed mwy llym. Bydd adolygydd sy'n cael ei ofyn i werthuso cyfaint
 llawer uwch o god a gynhyrchwyd-gan-AI ar yr un cyflymder ag o'r blaen
 yn anochel naill ai'n arafu'r biblinell neu'n lleihau dyfnder adolygu,
-union y perygl stamp-rwber y rhybuddiodd pennod 2.9 amdano eisoes, o
+union y perygl stamp-rwber y rhybuddiodd pwnc 2.9 amdano eisoes, o
 dan bwysau sylweddol fwy nawr. Monitrwch gledrau diogelwch dyfnder ac
 ansawdd adolygu â sylw uwch wrth i gyfaint cod a gynhyrchwyd-gan-AI godi.
 
@@ -113,20 +113,20 @@ pasio adolygiad arwynebol oherwydd ei fod yn edrych yn idiomatig a
 rhesymol, ond na chafodd ei resymu drwyddo mewn gwirionedd â
 dealltwriaeth wirioneddol o gyd-destun penodol y system. Triniwch hyn
 fel damcaniaeth sy'n werth ei phrofi'n weithredol yn erbyn eich data
-diffyg-dianc eich hun (pennod 5.1), gan dagio diffygion yn ôl a oedd y
+diffyg-dianc eich hun (pwnc 5.1), gan dagio diffygion yn ôl a oedd y
 cod gwreiddiol wedi'i gynhyrchu'n sylweddol gan AI, yn hytrach na thybio
 bod y perthnasau cyfradd-diffyg hanesyddol y mae eich sefydliad wedi
 adeiladu ei arferion ansawdd o'u cwmpas yn dal heb newid.
 
 ### Diweddarwch eich siarter metrigau a'ch proses lywodraethu'n benodol ar gyfer y symudiad hwn
 
-Gan ddilyn disgyblaeth llywodraethu pennod 1.4, peidiwch â gadael i'r
+Gan ddilyn disgyblaeth llywodraethu pwnc 1.4, peidiwch â gadael i'r
 symudiad hwn ddigwydd i'ch rhaglen fetrigau'n oddefol. Ailedrychwch yn
 benodol ar eich siarter metrigau, gan enwi pa fetrigau sydd angen
 cledrau diogelwch newydd, pa rai sydd angen eu hymddeol, a pha rai sy'n
 aros yn ddibynadwy, fel penderfyniad llywodraethu bwriadol yn hytrach
 na drifft heb ei archwilio. Dogfennwch y rhesymu, gan mai dyma'n union y
-math o symudiad diffiniadol a chyd-destunol y mae pennod 1.4'n
+math o symudiad diffiniadol a chyd-destunol y mae pwnc 1.4'n
 rhybuddio y gall ddigwydd yn dawel fel arall a chael ei ddarganfod dim
 ond yn llawer diweddarach.
 
@@ -136,7 +136,7 @@ ond yn llawer diweddarach.
 | --- | --- | --- |
 | Parhau i adrodd metrigau cyn-oes-AI heb eu newid | Dim tarfu, adrodd cyfarwydd | Yn mentro dathlu metrigau sydd wedi peidio â chydberthyn â gwerth yn dawel |
 | Archwiliad set fetrigau lawn ac adolygiad bwriadol | Yn adfer mesuriad dibynadwy | Angen ymdrech ddadansoddol wirioneddol a rheolaeth newid sefydliadol |
-| Rhoi'r gorau i fetrigau gweithgarwch ac allbwn yn gyfan gwbl | Yn dileu'r perygl mwyaf agored yn uniongyrchol | Yn colli rhywfaint o signal cyd-destunol dilys ddefnyddiol (rhybudd pennod 3.4) |
+| Rhoi'r gorau i fetrigau gweithgarwch ac allbwn yn gyfan gwbl | Yn dileu'r perygl mwyaf agored yn uniongyrchol | Yn colli rhywfaint o signal cyd-destunol dilys ddefnyddiol (rhybudd pwnc 3.4) |
 | Tynhau cledrau diogelwch heb archwiliad llawn | Cyflymach i'w weithredu | Gall golli metrigau y mae eu hamlygiad yn llai amlwg na'r achosion cliriaf |
 
 Y tensiwn canolog yw **parhad mesur yn erbyn dilysrwydd mesur**. Mae
@@ -146,7 +146,7 @@ sefydliadol gwirioneddol. Ond mae parhau i adrodd metrig sydd wedi
 peidio â mesur yr hyn yr oedd yn arfer ei fesur yn dawel yn waeth na
 tharfu, mae'n gamgyfeiriad gweithredol. Datryswch y tensiwn trwy drin
 hyn fel union y math o newid llywodraethu bwriadol, wedi'i ddogfennu y
-mae pennod 1.4'n ei ddisgrifio, yn tarfu yn y tymor byr ond yn
+mae pwnc 1.4'n ei ddisgrifio, yn tarfu yn y tymor byr ond yn
 angenrheidiol i gadw metrigau'r sefydliad yn onest.
 
 ## Cwestiynau i'w trafod gyda'ch tîm
@@ -166,7 +166,7 @@ angenrheidiol i gadw metrigau'r sefydliad yn onest.
 3. **A yw ein capasiti adolygu cod yn cadw i fyny ag unrhyw gynnydd yng
    nghyfaint cod â chymorth AI, neu a yw dyfnder adolygu'n erydu'n
    dawel o dan bwysau cynyddol?** Gwiriwch fetrigau cam-adolygu
-   (pennod 2.9) yn benodol am arwyddion o'r perygl stamp-rwber yn
+   (pwnc 2.9) yn benodol am arwyddion o'r perygl stamp-rwber yn
    dwysáu.
 
 4. **A ydym yn tagio diffygion yn ôl a oedd y cod gwreiddiol wedi'i
@@ -176,16 +176,16 @@ angenrheidiol i gadw metrigau'r sefydliad yn onest.
    uniongyrchol berthnasol i a yw eich tybiaethau ansawdd hanesyddol yn
    dal i sefyll.
 
-5. **A ydym wedi ailedrych yn fwriadol ar ein siarter metrigau (pennod
+5. **A ydym wedi ailedrych yn fwriadol ar ein siarter metrigau (pwnc
    1.4) o gofio'r symudiad hwn, neu a yw ein harfer mesur wedi parhau
    heb ei newid yn syml?** Os yw'r ateb onest yn yr olaf, mae'r bwlch
-   hwnnw'n union yr hyn y mae'r bennod hon yn argymell ei gau'n gyntaf.
+   hwnnw'n union yr hyn y mae'r pwnc hwn yn argymell ei gau'n gyntaf.
 
 6. **Sut olwg fyddai arni petai ein sefydliad yn cael ei ddal ar draed
    fflat gan y symudiad hwn, yn dathlu metrig a oedd eisoes wedi peidio
    â golygu'r hyn y tybiwyd ein bod yn ei olygu?** Mae'r arbrawf
    meddwl concrid, ychydig yn anghyfforddus hwn yn helpu i ysgogi'r
-   archwiliad y mae'r bennod hon yn ei argymell cyn, yn hytrach nag ar
+   archwiliad y mae'r pwnc hwn yn ei argymell cyn, yn hytrach nag ar
    ôl, i'r senario hwnnw ddigwydd mewn gwirionedd.
 
 ## Golwg sector
@@ -207,8 +207,8 @@ sefydliad mwy â mwy o ddiswyddiant.
 y gall mabwysiadu AI ar draws degau neu gannoedd o dimau ar yr un pryd
 symud dilysrwydd metrig ar draws y sefydliad cyfan cyn i unrhyw un tîm
 sylwi ar y patrwm yn lleol. Cynhaliwch yr archwiliad set-fetrigau y
-mae'r bennod hon yn ei argymell ar y lefel sefydliadol, nid fesul tîm
-yn unig, a diweddarwch lywodraethu (pennod 1.4) yn ganolog ac yn benodol.
+mae'r pwnc hwn yn ei argymell ar y lefel sefydliadol, nid fesul tîm
+yn unig, a diweddarwch lywodraethu (pwnc 1.4) yn ganolog ac yn benodol.
 
 **Llywodraeth.** Mae sefydliadau sector-cyhoeddus yn aml yn mabwysiadu
 technoleg newydd yn fwy gofalus, ond mae'r metrigau a'r meincnodau a
@@ -277,13 +277,13 @@ llywodraethu metrigau.
   yn ddi-feirniadol:** yn mentro dathlu metrig sydd wedi peidio â
   chydberthyn â gwerth gwirioneddol yn dawel.
 - **Adrodd cynnydd amledd defnyddio neu gyfaint allbwn heb y gledr
-  ddiogelwch sefydlogrwydd wedi'i parejo:** yn ailadrodd rhybudd pennod
+  ddiogelwch sefydlogrwydd wedi'i parejo:** yn ailadrodd rhybudd pwnc
   2.10 â stanciau sylweddol uwch o dan ddatblygiad â chymorth AI.
 - **Tybio bod gan god a gynhyrchwyd-gan-AI yr un proffil diffyg â chod
   a ysgrifennwyd-gan-ddyn heb wirio:** tybiaeth heb ei phrofi a allai
   fod yn weithredol anghywir.
 - **Gadael i ddyfnder adolygu erydu'n dawel o dan gyfaint cod a
-  gynhyrchwyd-gan-AI cynyddol:** perygl stamp-rwber pennod 2.9, wedi'i
+  gynhyrchwyd-gan-AI cynyddol:** perygl stamp-rwber pwnc 2.9, wedi'i
   ddwysau.
 - **Trin y symudiad hwn fel addasiad un-tro yn hytrach na phryder
   parhaus:** mae'r offeryno a'i batrymau mabwysiadu'n parhau i esblygu,
@@ -333,14 +333,14 @@ llywodraethu metrigau.
 - **Profwch, peidiwch â thybio, a oes gan god a gynhyrchwyd-gan-AI
   broffil diffyg gwahanol** i god a ysgrifennwyd-gan-ddyn, gan
   ddefnyddio data diffyg-dianc wedi'i dagio.
-- Triniwch hyn fel pryder llywodraethu **parhaus, nid un-tro** (pennod
+- Triniwch hyn fel pryder llywodraethu **parhaus, nid un-tro** (pwnc
   1.4), gan fod yr offeryno a'i batrymau mabwysiadu'n parhau i esblygu.
 
 ## Cyfeiriadau a darllen pellach
 
 - *Accelerate: The Science of Lean Software and DevOps*, gan Nicole
   Forsgren, Jez Humble, a Gene Kim (y sylfaen mesur seiliedig-ar-
-  ganlyniad y mae'r bennod hon yn dadlau ei bod yn dod yn fwy, nid yn
+  ganlyniad y mae'r pwnc hwn yn dadlau ei bod yn dod yn fwy, nid yn
   llai, pwysig o dan y symudiad hwn).
 - Ymchwil GitHub ar barau-rhaglennu AI a chynhyrchedd datblygwyr
   (ymchwil diwydiant ar effeithiau mesuradwy datblygiad â chymorth AI).

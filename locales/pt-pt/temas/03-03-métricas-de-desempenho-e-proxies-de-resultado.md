@@ -2,11 +2,11 @@
 
 ## Visão geral e motivação
 
-**Desempenho**, o P em SPACE (capítulo 3.1), é a dimensão mais frequentemente confundida com a atividade, e essa confusão é precisamente o que este capítulo existe para prevenir. O desempenho pergunta se o trabalho de um engenheiro ou de uma equipa realmente produziu um bom **[resultado](https://en.wikipedia.org/wiki/Outcome_(probability))**: uma funcionalidade que foi entregue e funcionou, um sistema que permaneceu fiável, uma mudança que moveu uma métrica de negócio ou utilizador na direção certa. A atividade (capítulo 3.4) pergunta apenas quanto movimento ocorreu. Uma equipa pode ser altamente ativa e ter baixo desempenho, entregando mudanças pequenas e constantes que nunca movem um resultado, e o inverso é igualmente possível: uma equipa que entrega raramente mas cujas mudanças pousam fiavelmente exatamente no sítio certo.
+**Desempenho**, o P em SPACE (tema 3.1), é a dimensão mais frequentemente confundida com a atividade, e essa confusão é precisamente o que este tema existe para prevenir. O desempenho pergunta se o trabalho de um engenheiro ou de uma equipa realmente produziu um bom **[resultado](https://en.wikipedia.org/wiki/Outcome_(probability))**: uma funcionalidade que foi entregue e funcionou, um sistema que permaneceu fiável, uma mudança que moveu uma métrica de negócio ou utilizador na direção certa. A atividade (tema 3.4) pergunta apenas quanto movimento ocorreu. Uma equipa pode ser altamente ativa e ter baixo desempenho, entregando mudanças pequenas e constantes que nunca movem um resultado, e o inverso é igualmente possível: uma equipa que entrega raramente mas cujas mudanças pousam fiavelmente exatamente no sítio certo.
 
-A dificuldade com esta dimensão é que o resultado muitas vezes não é atribuível a uma única pessoa ou até a uma única equipa; os resultados de software emergem da colaboração, de decisões tomadas meses antes por pessoas que entretanto se mudaram para outros projetos, de condições de mercado que nenhum engenheiro controla. Os investigadores do SPACE foram explícitos sobre isto: o desempenho deve ser medido ao nível do sistema ou da equipa usando múltiplos sinais convergentes, não reduzido a um único número e certamente não atribuído a um engenheiro individual isoladamente. Este capítulo leva essa orientação a sério e trata a atribuição de desempenho individual como uma armadilha a evitar ativamente, não um atalho a tomar quando conveniente.
+A dificuldade com esta dimensão é que o resultado muitas vezes não é atribuível a uma única pessoa ou até a uma única equipa; os resultados de software emergem da colaboração, de decisões tomadas meses antes por pessoas que entretanto se mudaram para outros projetos, de condições de mercado que nenhum engenheiro controla. Os investigadores do SPACE foram explícitos sobre isto: o desempenho deve ser medido ao nível do sistema ou da equipa usando múltiplos sinais convergentes, não reduzido a um único número e certamente não atribuído a um engenheiro individual isoladamente. Este tema leva essa orientação a sério e trata a atribuição de desempenho individual como uma armadilha a evitar ativamente, não um atalho a tomar quando conveniente.
 
-Para equipas grandes, acertar na medição de desempenho é o que separa um programa de métricas que realmente melhora resultados de um que apenas recompensa ocupação visível. As organizações empresariais que comparam o desempenho através de muitas equipas precisam de sinais que resistam à manipulação através do volume de produto bruto; as organizações governamentais que justificam o investimento em tecnologia a órgãos de supervisão precisam de demonstrar que o esforço de engenharia produziu resultados reais, não apenas entregou artefactos, que é precisamente o princípio de resultados-acima-do-produto do capítulo 1.3 aplicado a esta dimensão específica.
+Para equipas grandes, acertar na medição de desempenho é o que separa um programa de métricas que realmente melhora resultados de um que apenas recompensa ocupação visível. As organizações empresariais que comparam o desempenho através de muitas equipas precisam de sinais que resistam à manipulação através do volume de produto bruto; as organizações governamentais que justificam o investimento em tecnologia a órgãos de supervisão precisam de demonstrar que o esforço de engenharia produziu resultados reais, não apenas entregou artefactos, que é precisamente o princípio de resultados-acima-do-produto do tema 1.3 aplicado a esta dimensão específica.
 
 ## Princípios-chave
 
@@ -14,17 +14,17 @@ Para equipas grandes, acertar na medição de desempenho é o que separa um prog
 - **Use múltiplos sinais convergentes, nunca um único número de desempenho.** Nenhum proxy individual é suficientemente fiável para ficar sozinho.
 - **Meça ao nível da equipa ou do sistema.** A atribuição individual de resultado é normalmente pouco fiável e convida precisamente à manipulação contra a qual este livro avisa ao longo de todo o texto.
 - **A qualidade é parte do desempenho, não uma preocupação separada.** O trabalho que é entregue mas quebra outra coisa não teve realmente um bom desempenho.
-- **Um sinal de desempenho sem uma decisão associada é decoração**, exatamente segundo o princípio geral do capítulo 1.1 aplicado a esta dimensão.
+- **Um sinal de desempenho sem uma decisão associada é decoração**, exatamente segundo o princípio geral do tema 1.1 aplicado a esta dimensão.
 
 ## Recomendações
 
 ### Combinar vários sinais convergentes em vez de uma única pontuação de desempenho
 
-Extraia evidência de desempenho de múltiplas fontes: taxa de falha de mudanças (capítulo 2.10) e taxa de escape de defeitos (capítulo 5.1) para a qualidade, resultados de implementação ligados à adoção real de funcionalidades (capítulo 5.2) para se o trabalho importou, e avaliação qualitativa de pares ou gestores sobre a contribuição de uma equipa para objetivos estratégicos para contexto que uma métrica pura não consegue capturar. Nenhum destes sozinho é fiável; juntos, quando convergem para a mesma conclusão, são muito mais credíveis do que qualquer número único poderia ser.
+Extraia evidência de desempenho de múltiplas fontes: taxa de falha de mudanças (tema 2.10) e taxa de escape de defeitos (tema 5.1) para a qualidade, resultados de implementação ligados à adoção real de funcionalidades (tema 5.2) para se o trabalho importou, e avaliação qualitativa de pares ou gestores sobre a contribuição de uma equipa para objetivos estratégicos para contexto que uma métrica pura não consegue capturar. Nenhum destes sozinho é fiável; juntos, quando convergem para a mesma conclusão, são muito mais credíveis do que qualquer número único poderia ser.
 
 ### Medir ao nível da equipa, resistir à atribuição individual
 
-Os resultados de software raramente são o produto apenas do trabalho de uma pessoa; emergem de decisões de desenho, feedback de revisão, trabalho anterior de pessoas que entretanto podem ter saído da equipa, e colaboração através de fronteiras. Atribuir um resultado a um único engenheiro é normalmente uma falsa precisão que ignora esta realidade e cria um forte incentivo para os indivíduos protegerem o crédito em vez de colaborarem livremente, precisamente o tipo de distorção de incentivo contra a qual o capítulo 1.2 avisa.
+Os resultados de software raramente são o produto apenas do trabalho de uma pessoa; emergem de decisões de desenho, feedback de revisão, trabalho anterior de pessoas que entretanto podem ter saído da equipa, e colaboração através de fronteiras. Atribuir um resultado a um único engenheiro é normalmente uma falsa precisão que ignora esta realidade e cria um forte incentivo para os indivíduos protegerem o crédito em vez de colaborarem livremente, precisamente o tipo de distorção de incentivo contra a qual o tema 1.2 avisa.
 
 ### Dobrar a qualidade diretamente na definição de desempenho
 
@@ -32,11 +32,11 @@ Uma funcionalidade que é entregue a tempo mas causa uma onda de incidentes de p
 
 ### Usar os dados de desempenho para informar decisões de investimento e processo, não classificações individuais
 
-O uso produtivo dos dados de desempenho é decidir onde investir mais (uma equipa que entrega consistentemente resultados fortes merece mais recursos e autonomia) e onde investigar (uma equipa cujo trabalho consistentemente falha em pousar merece ajuda, não culpa, segundo o enquadramento diagnóstico do capítulo 1.1). Classificar indivíduos ou equipas competitivamente uns contra os outros nos dados de desempenho convida precisamente à manipulação e ao dano moral contra os quais este livro avisa e raramente produz melhores resultados do que o uso diagnóstico.
+O uso produtivo dos dados de desempenho é decidir onde investir mais (uma equipa que entrega consistentemente resultados fortes merece mais recursos e autonomia) e onde investigar (uma equipa cujo trabalho consistentemente falha em pousar merece ajuda, não culpa, segundo o enquadramento diagnóstico do tema 1.1). Classificar indivíduos ou equipas competitivamente uns contra os outros nos dados de desempenho convida precisamente à manipulação e ao dano moral contra os quais este livro avisa e raramente produz melhores resultados do que o uso diagnóstico.
 
 ### Ser honesto sobre os limites de atribuição, especialmente para equipas de plataforma e capacitação
 
-As equipas que constroem infraestrutura partilhada, ferramentas internas, ou capacidades de plataforma (o capítulo de engenharia de plataforma do livro companheiro `software-engineering-guide` cobre isto diretamente) têm muitas vezes a sua contribuição para resultados vários passos removida de qualquer métrica única voltada para o cliente. Meça o desempenho destas equipas através do seu efeito nas equipas que capacitam, adoção da sua plataforma, redução de atrito reportada por equipas consumidoras, em vez de forçar uma métrica de resultado direto mal ajustada sobre trabalho que é inerentemente indireto.
+As equipas que constroem infraestrutura partilhada, ferramentas internas, ou capacidades de plataforma (o tema de engenharia de plataforma do livro companheiro `software-engineering-guide` cobre isto diretamente) têm muitas vezes a sua contribuição para resultados vários passos removida de qualquer métrica única voltada para o cliente. Meça o desempenho destas equipas através do seu efeito nas equipas que capacitam, adoção da sua plataforma, redução de atrito reportada por equipas consumidoras, em vez de forçar uma métrica de resultado direto mal ajustada sobre trabalho que é inerentemente indireto.
 
 ## Trocas: prós e contras
 
@@ -59,7 +59,7 @@ A tensão central é **precisão versus honestidade**. Um único número de dese
 
 4. **Como medimos o desempenho de equipas de plataforma ou capacitação cuja contribuição para resultados é indireta?** Se a resposta honesta é "não medimos, bem," essa lacuna vale a pena nomear e abordar diretamente em vez de deixar essas equipas efetivamente não medidas ou injustamente medidas contra métricas de resultado voltadas para o cliente que não se ajustam ao seu trabalho.
 
-5. **Os dados de desempenho alguma vez foram usados para classificar indivíduos competitivamente uns contra os outros, formal ou informalmente?** Esta deriva, semelhante ao risco de dados de satisfação no capítulo 3.2, danifica tanto a honestidade dos dados como a vontade da equipa de colaborar abertamente.
+5. **Os dados de desempenho alguma vez foram usados para classificar indivíduos competitivamente uns contra os outros, formal ou informalmente?** Esta deriva, semelhante ao risco de dados de satisfação no tema 3.2, danifica tanto a honestidade dos dados como a vontade da equipa de colaborar abertamente.
 
 6. **Quando os nossos sinais convergentes discordam, por exemplo, alta velocidade de entrega mas taxa de defeitos a subir, o que concluímos, e o nosso processo lida bem com esse desacordo?** O desacordo entre sinais é em si informação valiosa; discuta se a sua equipa atualmente o trata como ruído a ignorar ou como uma descoberta genuína que vale a pena investigar.
 
@@ -67,11 +67,11 @@ A tensão central é **precisão versus honestidade**. Um único número de dese
 
 **Startup.** O desempenho é normalmente visível diretamente: a funcionalidade funcionou, os clientes adotaram-na, a métrica moveu-se. A medição formal de múltiplos sinais é muitas vezes desnecessária a esta escala; o risco é antes atribuir o sucesso ou o fracasso demasiado rapidamente a uma pessoa numa equipa pequena, de movimento rápido e altamente colaborativa onde o crédito e a culpa raramente pertencem apenas a um indivíduo.
 
-**Pequena empresa.** Combine quaisquer dados de entrega e qualidade que já tenha (capítulo 2.10, capítulo 5.1) com conversa direta e honesta sobre se o trabalho recente realmente ajudou o negócio, em vez de construir instrumentação formal de múltiplos sinais que não tem capacidade para manter.
+**Pequena empresa.** Combine quaisquer dados de entrega e qualidade que já tenha (tema 2.10, tema 5.1) com conversa direta e honesta sobre se o trabalho recente realmente ajudou o negócio, em vez de construir instrumentação formal de múltiplos sinais que não tem capacidade para manter.
 
 **Empresa.** É aqui que a disciplina de medição ao nível da equipa e de múltiplos sinais ganha o seu investimento, já que a pressão para reduzir o desempenho a um único número comparável através de dezenas de equipas é mais forte aqui, e o dano da falsa precisão agrava-se através de todas as decisões de alocação de recursos da organização. Resista a essa pressão explicitamente e construa o caso de múltiplos sinais para porque importa.
 
-**Governo.** Demonstrar que o investimento em engenharia produziu resultados reais, não apenas entregou artefactos, é muitas vezes a pergunta central que um órgão de supervisão faz. A medição de desempenho de múltiplos sinais, ligada explicitamente a métricas de resultado (capítulo 5.3) em vez de proxies apenas de entrega, dá uma resposta muito mais forte e mais defensável do que uma contagem de atividade ou entrega sozinha.
+**Governo.** Demonstrar que o investimento em engenharia produziu resultados reais, não apenas entregou artefactos, é muitas vezes a pergunta central que um órgão de supervisão faz. A medição de desempenho de múltiplos sinais, ligada explicitamente a métricas de resultado (tema 5.3) em vez de proxies apenas de entrega, dá uma resposta muito mais forte e mais defensável do que uma contagem de atividade ou entrega sozinha.
 
 ## Exemplos
 
@@ -112,7 +112,7 @@ O custo total de propriedade é mais alto do que uma abordagem de métrica únic
 
 ## Principais conclusões
 
-- O desempenho mede se o trabalho produziu um **bom resultado**, não quanto movimento ocorreu; não o confunda com a atividade (capítulo 3.4).
+- O desempenho mede se o trabalho produziu um **bom resultado**, não quanto movimento ocorreu; não o confunda com a atividade (tema 3.4).
 - Use **múltiplos sinais convergentes**, nunca um único número de desempenho, e seja desconfiado de falsa precisão.
 - Meça ao **nível da equipa ou do sistema**; a atribuição individual de resultado é normalmente pouco fiável e danifica a colaboração.
 - **A qualidade é parte do desempenho**, não uma preocupação separada e desligada.

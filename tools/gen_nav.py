@@ -49,10 +49,10 @@ AI is reshaping what these numbers mean."""
 
 HOW_TO_READ = """## How to read this book
 
-Parts are whole numbers; chapters are decimals. Chapter **N.0** introduces
-each part; **N.1, N.2, …** are its chapters. Part 9 collects the appendices
+Parts are whole numbers; topics are decimals. Topic **N.0** introduces
+each part; **N.1, N.2, …** are its topics. Part 9 collects the appendices
 (glossary, a formulas reference, checklists, templates, a maturity
-self-assessment, references, and an index). Every metric-family chapter
+self-assessment, references, and an index). Every metric-family topic
 states principles, recommendations, trade-offs, a sector lens, examples
 (enterprise and government), a business case (ROI/TCO), anti-patterns, a
 maturity model, discussion questions, and references, and it names how the
@@ -62,7 +62,7 @@ not big-bang."""
 THEMES = """## Cross-cutting themes
 
 [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) governs every
-chapter: a measure that becomes a target stops being a good measure, so every
+topic: a measure that becomes a target stops being a good measure, so every
 metric family here ships with its gaming vector and its guardrail attached.
 Outcomes are weighted over output and activity throughout. Government and
 enterprise reporting obligations are treated as design inputs, not
@@ -159,7 +159,7 @@ repository.
 
 - **[What are software engineering metrics?](front-matter/what-are-software-engineering-metrics.md):** start here
 - **[Introduction](front-matter/introduction.md):** what this book is and how to read it
-- **[Table of contents](front-matter/table-of-contents.md):** the full chapter list
+- **[Table of contents](front-matter/table-of-contents.md):** the full topic list
 
 {how_to_read}
 
@@ -168,7 +168,7 @@ repository.
 {toc_body(f"{section_dir(locale, 'chapters')}/")}
 {themes}
 
-## Beyond the chapters
+## Beyond the topics
 
 - **[Examples](examples/index.md):** small, concrete examples of the book's ideas in use.
 - **[About this project](project/index.md):** how the book is built, checked, and published.
@@ -179,7 +179,7 @@ repository.
     # ---- locales/<locale>/front-matter/table-of-contents.md ----
     toc = f"""# Table of contents
 
-Parts are whole numbers; chapters are decimals (chapter **N.0** introduces
+Parts are whole numbers; topics are decimals (topic **N.0** introduces
 each part). See also the [Introduction](introduction.md).
 
 {toc_body(f"../{section_dir(locale, 'chapters')}/")}"""
@@ -192,8 +192,8 @@ each part). See also the [Introduction](introduction.md).
         pat = re.compile(r'(?i)(?<![A-Za-z])' + re.escape(term) + r'(?![A-Za-z])')
         hits = [f"{dec(f)[0]}.{dec(f)[1]}" for f in idxchap if pat.search(read(f))]
         if hits: entries[term] = hits
-    out = ["# 9.7 Index", "", "A subject index of key concepts and the chapters that cover them.",
-           "Terms are defined in the Glossary (chapter 9.1).", ""]
+    out = ["# 9.7 Index", "", "A subject index of key concepts and the topics that cover them.",
+           "Terms are defined in the Glossary (topic 9.1).", ""]
     byl = {}
     for term in sorted(entries, key=lambda s: s.lower()):
         L = term[0].upper() if term[0].isalpha() else "#"; byl.setdefault(L, []).append(term)

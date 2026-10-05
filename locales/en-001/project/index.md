@@ -32,7 +32,7 @@ network access. Tasks run through [just](https://github.com/casey/just).
 just test    # validate structure, style, links, and spec-vs-disk
 just nav     # regenerate the generated navigation files
 just check   # nav, then test
-just stats   # chapter and word counts
+just stats   # topic and word counts
 ```
 
 This repository holds the book's content and specification. It is rendered
@@ -42,21 +42,21 @@ repository.
 
 ## How specification-driven development works here
 
-The specification comes first. `spec/structure.md` says which chapters exist
+The specification comes first. `spec/structure.md` says which topics exist
 and how they are numbered. `spec/conventions.md` says how they must be
-written. The chapters are authored to satisfy both. `tools/gen_nav.py`
-derives the navigation from the chapters, and `tests/validate.py` checks the
-result back against the spec. If the chapters and the spec ever disagree, the
+written. The topics are authored to satisfy both. `tools/gen_nav.py`
+derives the navigation from the topics, and `tests/validate.py` checks the
+result back against the spec. If the topics and the spec ever disagree, the
 tests fail, which is the signal to bring them back into line.
 
-This keeps drift out: a change is only "done" when the spec, the chapters,
+This keeps drift out: a change is only "done" when the spec, the topics,
 the generated navigation, and the tests all agree.
 
 ## Design decisions worth knowing
 
-- **Flat, decimal-numbered chapters.** Files are
+- **Flat, decimal-numbered topics.** Files are
   `locales/<locale>/topics/PP-CC-slug.md`, the same slug in every locale.
-  The part is a whole number; the chapter is a decimal; N.0 is the part
+  The part is a whole number; the topic is a decimal; N.0 is the part
   introduction. This keeps stable identifiers and lets tools sort and group
   without a directory tree.
 - **One hand-authored locale, three derived.** `en-gb-oxendict` is Oxford
@@ -64,11 +64,11 @@ the generated navigation, and the tests all agree.
   `spec/oxford-spelling.md`); `en-001`, `en-gb`, and `en-us` are mechanically
   derived from it, so translation never drifts from the source.
 - **Generated navigation.** The table of contents, contents page, and subject
-  index are generated, so they never drift from the chapters.
+  index are generated, so they never drift from the topics.
 - **Offline, dependency-free tests.** The suite uses only the standard
   library so it runs anywhere, including CI and pre-commit hooks.
-- **Cross-references stay plain text.** Prose refers to chapters by decimal
-  number ("see chapter 2.1"), as the spec requires; the rendering site is
+- **Cross-references stay plain text.** Prose refers to topics by decimal
+  number ("see topic 2.1"), as the spec requires; the rendering site is
   responsible for turning those references into links.
 - **No em-dashes, by rule and by test.** A deliberate style choice, enforced
   so it stays true as the book grows.
@@ -80,7 +80,7 @@ the generated navigation, and the tests all agree.
 
 ## Further reading
 
-- [Authoring](../contributing/authoring.md) : writing and editing chapters.
+- [Authoring](../contributing/authoring.md) : writing and editing topics.
 - [Navigation](../contributing/navigation.md) : how the generated files work.
 - [Testing](../contributing/testing.md) : what the tests check and how to fix failures.
 - [Examples](../examples/index.md) : small, concrete examples.

@@ -2,21 +2,21 @@
 
 ## Overview and motivation
 
-This chapter closes Part 5 by bringing together everything the preceding
-four chapters measured, quality, adoption, outcomes, and cost, into the
+This topic closes Part 5 by bringing together everything the preceding
+four topics measured, quality, adoption, outcomes, and cost, into the
 single financial framing that ultimately governs most major engineering
 investment decisions: **[return on investment](https://en.wikipedia.org/wiki/Return_on_investment)
 (ROI)**. Whether an organisation is deciding to fund a platform
 modernisation, a major refactoring effort, or a new product line, someone
 eventually has to answer the question in financial terms: is this worth
-what it costs. This chapter is about answering that question honestly, using
+what it costs. This topic is about answering that question honestly, using
 the metrics this book has already built, rather than either avoiding the
 question (which cedes influence over investment decisions to people less
 equipped to answer it well) or answering it with an inflated, unsustainable
 case that damages credibility when it does not hold up.
 
-The discipline this chapter recommends draws directly on chapter 5.4's unit
-economics for the cost side of the equation, and chapter 5.3's outcome
+The discipline this topic recommends draws directly on topic 5.4's unit
+economics for the cost side of the equation, and topic 5.3's outcome
 metrics, with their honest treatment of attribution uncertainty, for the
 benefit side. An ROI case built this way is necessarily more modest and more
 hedged than a simple, appealing headline number, but it has the decisive
@@ -38,7 +38,7 @@ promises.
 ## Key principles
 
 - **An honest ROI case is built from this book's other metrics**, not
-  invented separately; cost from chapter 5.4, benefit from chapters 5.1
+  invented separately; cost from topic 5.4, benefit from topics 5.1
   through 5.3.
 - **Total cost of ownership, not just upfront cost, belongs on the cost
   side.** Ongoing maintenance, support, and infrastructure cost compound
@@ -59,7 +59,7 @@ investment
 
 Include not just the initial development cost but the full **[total cost of
 ownership](https://en.wikipedia.org/wiki/Total_cost_of_ownership) (TCO)**:
-ongoing maintenance, infrastructure (chapter 5.4's unit economics are
+ongoing maintenance, infrastructure (topic 5.4's unit economics are
 directly useful here), support, and the opportunity cost of the engineering
 capacity the initiative consumes that could have gone toward alternative
 work. A project that looks cheap based on upfront cost alone can be
@@ -68,11 +68,11 @@ honestly accounted for.
 
 ### Build the benefit side from documented, honest outcome evidence
 
-Draw benefit estimates from the outcome-measurement discipline of chapters
+Draw benefit estimates from the outcome-measurement discipline of topics
 5.1 through 5.3: quality improvements translated into reduced incident and
 support cost, adoption data translated into usage-driven value, and
 business outcome correlations built with the honest, confound-checked
-causal-chain approach from chapter 5.3. Avoid inventing a benefit estimate
+causal-chain approach from topic 5.3. Avoid inventing a benefit estimate
 from first principles or optimistic assumption when actual measured or
 comparable historical data is available to ground it instead.
 
@@ -81,7 +81,7 @@ comparable historical data is available to ground it instead.
 Present ROI estimates as a range (a conservative case and an optimistic
 case) rather than a single, falsely precise figure, and explain what drives
 the range: which specific assumption, if it proves optimistic or
-pessimistic, would move the outcome most. This mirrors chapter 1.6's
+pessimistic, would move the outcome most. This mirrors topic 1.6's
 statistical literacy principle directly, applied to financial projection,
 and it protects the case's credibility, since a single point estimate that
 turns out to be wrong damages trust far more than a well-explained range
@@ -103,7 +103,7 @@ publicly
 After an initiative completes, or reaches a meaningful milestone, compare
 actual measured outcomes against the original projected range, and publish
 that comparison, including where the projection was wrong. This closing-the-loop
-discipline, similar to chapter 3.7's recommendation for survey follow-up,
+discipline, similar to topic 3.7's recommendation for survey follow-up,
 is what builds an organisation's long-term ROI-forecasting credibility and
 improves the accuracy of future estimates by creating a real, visible
 feedback loop.
@@ -118,7 +118,7 @@ feedback loop.
 | Full total-cost-of-ownership analysis | Accurate, complete picture of true investment cost | Requires more data gathering, particularly for ongoing cost projection |
 
 The central tension is **persuasive simplicity versus defensible honesty**,
-the same tension chapter 5.3 named for outcome claims generally, now applied
+the same tension topic 5.3 named for outcome claims generally, now applied
 specifically to the financial case. A simple, confident single-number ROI
 claim is easier to sell to a decision-maker in the moment, but an honest,
 range-based case with explicit uncertainty and full total-cost-of-ownership
@@ -166,18 +166,18 @@ survival-and-growth question: does this investment help us reach the next
 milestone or funding round. Still, apply the same honesty principle,
 resist inflating a case to justify a decision the team has already
 emotionally committed to, since investor scrutiny will eventually apply the
-same scepticism this chapter recommends applying internally first.
+same scepticism this topic recommends applying internally first.
 
 **Small business.** Keep ROI analysis proportionate to the size of the
 decision; a major, multi-year platform investment deserves the full
-discipline this chapter recommends, while a small tooling purchase does
+discipline this topic recommends, while a small tooling purchase does
 not need the same rigor. Focus formal analysis effort on your few largest,
 most consequential decisions.
 
 **Enterprise.** ROI discipline at this scale is what determines whether
 engineering competes successfully for capital against other business
 investments with more established financial-analysis traditions. Build the
-full total-cost-of-ownership and range-based discipline this chapter
+full total-cost-of-ownership and range-based discipline this topic
 recommends as a standard practice, and invest in the closing-the-loop
 tracking that builds long-term forecasting credibility.
 
@@ -284,8 +284,8 @@ will need to make.
 ## Key takeaways
 
 - Build ROI cases from this book's **other metrics**, cost from unit
-  economics (chapter 5.4), benefit from documented outcome evidence
-  (chapters 5.1 through 5.3), not from invented assumptions.
+  economics (topic 5.4), benefit from documented outcome evidence
+  (topics 5.1 through 5.3), not from invented assumptions.
 - Include **total cost of ownership**, not just upfront cost, and state
   benefit estimates as a **range with explicit uncertainty**, not a single,
   falsely precise number.

@@ -10,11 +10,11 @@ gorfodiadau math amheus, rhesymeg ddyblyg, a'r categori ehangach o
 **arogleuon cod**, patrymau strwythurol nad ydynt o reidrwydd yn
 wallau ond sy'n tueddu i wneud cod yn anos ei ddeall, ei brofi, neu ei
 newid yn ddiogel. Dadansoddiad statig yw'r haen awtomataidd, barhaus o
-dan y metrigau mwy targededig ym mhenodau eraill y rhan hon, yn rhedeg
+dan y metrigau mwy targededig ym mhynciau eraill y rhan hon, yn rhedeg
 ar bob ymrwymiad ac yn datgelu materion ar y foment y'u cyflwynir yn
 hytrach nag aros am archwiliad cyfnodol.
 
-Pryder canolog y bennod hon yw'r bwlch rhwng yr hyn y mae offer
+Pryder canolog y pwnc hwn yw'r bwlch rhwng yr hyn y mae offer
 dadansoddiad statig yn ei adrodd a'r hyn sydd mewn gwirionedd yn bwysig.
 Gall offeryn fflagio miloedd o ganfyddiadau ar draws sylfaen cod fawr,
 ac mae nifer y canfyddiadau ar ei ben ei hun yn fetrig gwael, gan ei
@@ -74,7 +74,7 @@ pob gwaith tan y clirir y gronfa-waith gyfan, giatiwch CI ar a yw newid
 penodol yn cyflwyno canfyddiadau newydd uwchlaw trothwy difrifoldeb y
 cytunwyd arno, gan adael i'r gronfa-waith grebachu'n raddol trwy gynnal
 a chadw arferol tra'n atal cronni pellach. Mae'r gwahaniaeth hwn yn
-adlewyrchu argymhelliad llawr-gorchudd pennod 4.2: gwarchod yn erbyn
+adlewyrchu argymhelliad llawr-gorchudd pwnc 4.2: gwarchod yn erbyn
 ôl-gwympiad yn hytrach na mynnu trwsiad afrealistig, ar unwaith.
 
 ### Rheolwch y gyfradd positif-ffug yn weithredol
@@ -101,8 +101,8 @@ tawel, heb ei ddogfennu sy'n erydu gwerth yr offeryn dros amser.
 
 ### Cyfunwch ddadansoddiad statig â'r metrigau ansawdd-cod eraill yn y rhan hon
 
-Mae canfyddiadau dadansoddiad statig, sgoriau cymhlethdod (pennod 4.1),
-a data man-poeth (pennod 4.3) yn dystiolaeth gyflenwol, nid metrigau
+Mae canfyddiadau dadansoddiad statig, sgoriau cymhlethdod (pwnc 4.1),
+a data man-poeth (pwnc 4.3) yn dystiolaeth gyflenwol, nid metrigau
 cystadleuol. Mae ffeil â chrynhoad uchel o ganfyddiadau dadansoddiad
 statig heb eu datrys sydd hefyd yn fan poeth trosiant-cymhlethdod yn
 ymgeisydd arbennig o gryf ar gyfer sylw wedi'i flaenoriaethu, gan fod
@@ -126,7 +126,7 @@ canfyddiadau'n gyfan gwbl yn hytrach na'u trwsio'n wirioneddol.
 Datryswch y tensiwn trwy giatio'n llym ar ganfyddiadau newydd tra'n
 rhedeg ymdrech unioni ar wahân, wedi'i chamu'n fwriadol yn erbyn y
 gronfa-waith waddol, wedi'i blaenoriaethu gan ddefnyddio'r technegau
-difrifoldeb a chroesgyfeirio y mae'r bennod hon a phennod 4.3 yn eu
+difrifoldeb a chroesgyfeirio y mae'r pwnc hwn a phwnc 4.3 yn eu
 hargymell.
 
 ## Cwestiynau i'w trafod gyda'ch tîm
@@ -309,7 +309,7 @@ gwirioneddol, ymddiriedol neu'n dirywio'n sŵn wedi'i anwybyddu.
   hepgoriadau gweladwy, wedi'u dogfennu, nid dyfarniad awtomatig neu
   atal tawel.
 - Croesgyfeiriwch ddadansoddiad statig â **data cymhlethdod a man-
-  poeth** (penodau 4.1, 4.3) am dystiolaeth flaenoriaethu gydgyfeiriol,
+  poeth** (pynciau 4.1, 4.3) am dystiolaeth flaenoriaethu gydgyfeiriol,
   gryfach.
 
 ## Cyfeiriadau a darllen pellach

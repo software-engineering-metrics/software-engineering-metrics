@@ -4,9 +4,9 @@
 
 L'**efficacité de flux** est le ratio du temps actif au temps total pour un morceau de travail : si un changement passe dix heures activement codé, revu et testé, mais reste inactif dans des files d'attente pendant quatre-vingt-dix heures au total sur tout son parcours, l'efficacité de flux est de 10 %. La plupart des pipelines de livraison de logiciels, mesurés honnêtement, se situent quelque part entre 10 % et 25 % d'efficacité de flux, ce qui surprend les gens s'attendant à ce que l'effort domine. Le coût dominant dans la plupart des systèmes de livraison n'est pas combien de temps le travail prend à faire, c'est combien de temps le travail attend d'être démarré.
 
-Le **[travail en cours](https://en.wikipedia.org/wiki/Work_in_process)** (WIP) est le compte d'éléments activement travaillés à un moment donné, à travers une équipe ou un système, la même quantité que le chapitre 2.4 appelle « charge de flux ». La découverte contre-intuitive derrière ce chapitre, soutenue par des décennies de recherche en gestion des opérations et formalisée pour la livraison de logiciel à travers le kanban et la théorie des files d'attente, est que limiter le WIP tend à *augmenter* le débit, pas à le diminuer, parce que moins de travail en vol à la fois signifie moins de changement de contexte, des files plus courtes, et une complétion plus rapide par élément, même si cela semble que faire moins de travail simultanément devrait produire moins de production globalement.
+Le **[travail en cours](https://en.wikipedia.org/wiki/Work_in_process)** (WIP) est le compte d'éléments activement travaillés à un moment donné, à travers une équipe ou un système, la même quantité que le sujet 2.4 appelle « charge de flux ». La découverte contre-intuitive derrière ce sujet, soutenue par des décennies de recherche en gestion des opérations et formalisée pour la livraison de logiciel à travers le kanban et la théorie des files d'attente, est que limiter le WIP tend à *augmenter* le débit, pas à le diminuer, parce que moins de travail en vol à la fois signifie moins de changement de contexte, des files plus courtes, et une complétion plus rapide par élément, même si cela semble que faire moins de travail simultanément devrait produire moins de production globalement.
 
-Pour les grandes équipes, comprendre l'efficacité de flux reformule presque chaque problème de livraison de « les gens doivent travailler plus vite » à « le travail doit attendre moins ». Cette reformulation importe parce que le premier cadrage invite la pression sur les individus, exactement le piège contre lequel le chapitre 2.6 met en garde, tandis que le second invite l'investigation de la structure des files d'attente, de la capacité de revue, et de combien de travail est démarré simultanément, qui est là où vit généralement la véritable amélioration durable. Les organisations d'entreprise jonglant avec de nombreuses initiatives concurrentes à travers des équipes partagées sont particulièrement sujettes à un WIP élevé et une faible efficacité de flux, parce que démarrer un nouveau travail ressemble toujours à du progrès même quand cela ralentit tranquillement tout ce qui est déjà en vol.
+Pour les grandes équipes, comprendre l'efficacité de flux reformule presque chaque problème de livraison de « les gens doivent travailler plus vite » à « le travail doit attendre moins ». Cette reformulation importe parce que le premier cadrage invite la pression sur les individus, exactement le piège contre lequel le sujet 2.6 met en garde, tandis que le second invite l'investigation de la structure des files d'attente, de la capacité de revue, et de combien de travail est démarré simultanément, qui est là où vit généralement la véritable amélioration durable. Les organisations d'entreprise jonglant avec de nombreuses initiatives concurrentes à travers des équipes partagées sont particulièrement sujettes à un WIP élevé et une faible efficacité de flux, parce que démarrer un nouveau travail ressemble toujours à du progrès même quand cela ralentit tranquillement tout ce qui est déjà en vol.
 
 ## Principes clés
 
@@ -20,7 +20,7 @@ Pour les grandes équipes, comprendre l'efficacité de flux reformule presque ch
 
 ### Mesurez l'efficacité de flux avant de supposer que l'effort est le goulot d'étranglement
 
-Calculez le ratio du temps actif au temps total écoulé pour un échantillon représentatif de changements récents, en utilisant les données d'étape de temps de cycle du chapitre 2.6. La plupart des équipes mesurant cela pour la première fois sont surprises de voir à quel point le chiffre est bas, et cette surprise est elle-même précieuse : elle redirige l'attention de « travailler plus dur » vers « réduire la mise en file d'attente », qui est presque toujours le levier le plus productif.
+Calculez le ratio du temps actif au temps total écoulé pour un échantillon représentatif de changements récents, en utilisant les données d'étape de temps de cycle du sujet 2.6. La plupart des équipes mesurant cela pour la première fois sont surprises de voir à quel point le chiffre est bas, et cette surprise est elle-même précieuse : elle redirige l'attention de « travailler plus dur » vers « réduire la mise en file d'attente », qui est presque toujours le levier le plus productif.
 
 ### Établissez une limite explicite de travail en cours et appliquez-la visiblement
 
@@ -51,7 +51,7 @@ La tension centrale est **flexibilité contre flux**. Démarrer un nouveau trava
 
 ## Questions à discuter avec votre équipe
 
-1. **Quelle est notre efficacité de flux réelle, mesurée à partir de vraies données de temps de cycle, et ce chiffre nous surprend-il ?** La plupart des équipes n'ont jamais calculé cela et supposent qu'il est bien plus élevé qu'il ne s'avère l'être. Rassemblez un échantillon de changements récents et calculez le ratio honnêtement avant de discuter de quoi que ce soit d'autre dans ce chapitre.
+1. **Quelle est notre efficacité de flux réelle, mesurée à partir de vraies données de temps de cycle, et ce chiffre nous surprend-il ?** La plupart des équipes n'ont jamais calculé cela et supposent qu'il est bien plus élevé qu'il ne s'avère l'être. Rassemblez un échantillon de changements récents et calculez le ratio honnêtement avant de discuter de quoi que ce soit d'autre dans ce sujet.
 
 2. **Combien de travail en cours avons-nous réellement en ce moment, à travers toute l'équipe, et quelqu'un connaissait-il ce chiffre avant de compter ?** Un WIP élevé est souvent invisible jusqu'à ce qu'il soit mesuré explicitement, parce que chaque individu ne voit que sa propre tranche de celui-ci. Comptez tout ce qui est actuellement en cours, y compris le travail que personne ne touche activement aujourd'hui.
 
@@ -117,7 +117,7 @@ Le coût total d'adoption de cette discipline est principalement organisationnel
 - Appliquez une **limite de WIP comme contrainte système**, jamais comme quota individuel.
 - Investiguez la **raison spécifique** pour laquelle le travail reste inactif plutôt que d'émettre une directive générique « réduire le temps d'attente ».
 - Surveillez les limites de WIP **s'érodant à travers des exceptions routinières** ; traitez chaque exception comme une décision délibérée et visible.
-- Le chapitre 2.4 nomme cette quantité **charge de flux** et le chapitre 2.7 formalise la relation comme la loi de Little : le travail en cours est égal au taux d'arrivée multiplié par le temps de cycle, pour toute file stable.
+- Le sujet 2.4 nomme cette quantité **charge de flux** et le sujet 2.7 formalise la relation comme la loi de Little : le travail en cours est égal au taux d'arrivée multiplié par le temps de cycle, pour toute file stable.
 
 ## Sources et lectures complémentaires
 

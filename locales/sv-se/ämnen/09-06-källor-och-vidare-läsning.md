@@ -1,6 +1,6 @@
 # 9.6 Källor och vidare läsning
 
-En konsoliderad bibliografi av verken citerade genom boken, samlade från varje kapitels egen källor-sektion. Organiserad löst efter tema; många verk citeras från flera kapitel.
+En konsoliderad bibliografi av verken citerade genom boken, samlade från varje ämnes egen källor-sektion. Organiserad löst efter tema; många verk citeras från flera ämnen.
 
 ## Grundläggande ramverk
 

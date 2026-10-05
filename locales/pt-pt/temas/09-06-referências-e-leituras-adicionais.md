@@ -1,6 +1,6 @@
 # 9.6 Referências e leituras adicionais
 
-Uma bibliografia consolidada das obras citadas ao longo do livro, reunida da própria secção de referências de cada capítulo. Organizada frouxamente por tema; muitas obras são citadas em múltiplos capítulos.
+Uma bibliografia consolidada das obras citadas ao longo do livro, reunida da própria secção de referências de cada tema. Organizada frouxamente por tema; muitas obras são citadas em múltiplos temas.
 
 ## Enquadramentos fundacionais
 

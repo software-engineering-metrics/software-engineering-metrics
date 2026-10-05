@@ -8,9 +8,9 @@ capability delivered to a customer; **defects**, quality fixes for bugs
 found by users or testing; **risks**, security, compliance, privacy, and
 governance work that protects the business; and **debt**,
 [technical debt](https://en.wikipedia.org/wiki/Technical_debt), architectural
-improvement, and infrastructure work that enables future speed. Chapter 2.1
+improvement, and infrastructure work that enables future speed. Topic 2.1
 introduced the framework these four categories belong
-to; this chapter goes deep on the taxonomy itself, because the categories
+to; this topic goes deep on the taxonomy itself, because the categories
 only deliver value if a team classifies its work into them honestly and
 consistently.
 
@@ -64,7 +64,7 @@ defect, a risk, and debt in your specific context, and require every new
 piece of work to be classified against that definition the moment it enters
 the value stream, not after it is completed. A definition agreed in advance
 resists the temptation to classify retroactively based on how a piece of
-work turned out to look, which is exactly the gaming risk this chapter names
+work turned out to look, which is exactly the gaming risk this topic names
 directly below.
 
 ### Report flow distribution as a trend, not a single snapshot
@@ -88,9 +88,9 @@ alone.
 ### Cross-check flow-item classification against independent evidence
 
 Periodically compare your flow distribution against metrics that do not
-depend on self-classification: escaped defect rate (chapter 5.1), technical
-debt measurement (chapter 4.5), and vulnerability management metrics
-(chapter 6.4). If defects or vulnerabilities are rising while the "defects"
+depend on self-classification: escaped defect rate (topic 5.1), technical
+debt measurement (topic 4.5), and vulnerability management metrics
+(topic 6.4). If defects or vulnerabilities are rising while the "defects"
 and "risk" flow item shares stay flat or shrink, that mismatch is the
 clearest available signal that classification has drifted from reality.
 
@@ -156,7 +156,7 @@ real workload.
 
 6. **Could someone on our team quietly relabel a debt or risk item as a
    feature under delivery pressure, and would we currently notice if they
-   did?** This is the chapter's central gaming risk stated directly. Discuss
+   did?** This is the topic's central gaming risk stated directly. Discuss
    whether your current process would actually catch this, not just whether
    anyone would deliberately do it.
 
@@ -234,15 +234,15 @@ initial adoption.
 ## Anti-patterns and pitfalls
 
 - **Classifying work retroactively, after the outcome is known:** the
-  gaming vector at the heart of this chapter. Under delivery pressure, a
+  gaming vector at the heart of this topic. Under delivery pressure, a
   team can quietly label debt or risk work as a feature after the fact, or
   round an ambiguous item toward whichever type looks better on the
   distribution chart, without any single decision ever looking dishonest
   on its own. The guardrail is intake-time classification against a
   written definition, combined with periodic audits comparing flow
   distribution against independent evidence like escaped defect rate
-  (chapter 5.1) and vulnerability metrics (chapter 6.4), the same
-  audit-against-independent-evidence discipline chapter 1.2 asks for with
+  (topic 5.1) and vulnerability metrics (topic 6.4), the same
+  audit-against-independent-evidence discipline topic 1.2 asks for with
   every metric in this book.
 - **Letting features consistently absorb nearly all capacity (the feature
   factory pattern):** starves debt and risk work quietly until it surfaces
@@ -288,7 +288,7 @@ initial adoption.
 - There is **no universally healthy distribution**; the right mix depends
   on a product's phase and should be a deliberate, negotiated target with
   business stakeholders.
-- The chapter's central gaming vector is **retroactive classification**,
+- The topic's central gaming vector is **retroactive classification**,
   quietly relabeling debt or risk work as a feature after the fact; the
   guardrail is intake-time classification plus periodic audits against
   independent evidence.

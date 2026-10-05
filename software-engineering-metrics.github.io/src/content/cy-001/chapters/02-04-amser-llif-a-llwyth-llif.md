@@ -2,23 +2,23 @@
 
 ## Trosolwg a chymhelliant
 
-**Amser llif** yw'r cyfanswm amser a dreuliwyd o pan fydd elfen lif (pennod
+**Amser llif** yw'r cyfanswm amser a dreuliwyd o pan fydd elfen lif (pwnc
 2.2) yn mynd i mewn i'r ffrwd werth hyd pan gaiff ei chyflenwi, gan fesur
 ymatebolrwydd ar draws y llwybr cyfan o adnabod angen busnes i gwsmer yn
 derbyn gwerth. **Llwyth llif** yw cyfanswm nifer yr elfennau llif sy'n
 weithredol neu'n aros yn y ffrwd werth ar unrhyw foment, enw'r Flow
-Framework ar yr hyn y mae pennod 2.5 yn ei alw'n waith ar y gweill.
+Framework ar yr hyn y mae pwnc 2.5 yn ei alw'n waith ar y gweill.
 Gyda'i gilydd dyma'r ddau fetrig Flow Framework sy'n cysylltu'n fwyaf
 uniongyrchol â mathemateg ciwio, oherwydd nid yw llwyth llif ond yn
 cydberthyn ag amser llif, mae'n ei bennu'n fathemategol.
 
 Y berthynas honno yw **[cyfraith Little](https://en.wikipedia.org/wiki/Little%27s_law)**,
-prawf o theori ciwio (mae pennod 2.7 yn ei chwmpasu'n llawn) sy'n nodi bod
+prawf o theori ciwio (mae pwnc 2.7 yn ei chwmpasu'n llawn) sy'n nodi bod
 nifer cyfartalog yr eitemau mewn system sefydlog yn hafal i'r gyfradd
 gyrraedd gyfartalog wedi'i lluosi â'r amser cyfartalog y mae pob eitem yn
 ei dreulio yn y system. Wedi'i chymhwyso yma: mae llwyth llif yn hafal i
 gyfradd gyrraedd wedi'i lluosi ag amser llif. Dyma'r ffaith fwyaf
-defnyddiol sengl yn y bennod hon, oherwydd mae'n troi dadl a arferai fod
+defnyddiol sengl yn y pwnc hwn, oherwydd mae'n troi dadl a arferai fod
 yn ansoddol, "rydym wedi'n gorlwytho gormod, mae pethau'n cymryd gormod o
 amser," yn un broadadwy, feintiol na all arweinydd busnes ei diystyru'n
 hawdd: os yw llwyth llif yn parhau i godi tra bo'r gyfradd gyrraedd yn
@@ -44,7 +44,7 @@ unwaith.
   werth sefydlog ydyw.
 - **Mae amser llif yn ymestyn ar draws y ffrwd werth gyfan, nid dim ond
   peirianneg.** Mae'n dechrau pan fydd angen busnes yn cael ei adnabod,
-  nid pan fydd peirianneg yn codi'r gwaith, y mae amser cylch pennod 2.6
+  nid pan fydd peirianneg yn codi'r gwaith, y mae amser cylch pwnc 2.6
   wedyn yn ei ddadelfennu ymhellach.
 - **Llwyth llif cynyddol yw'r arwydd rhybudd cynharaf o amser llif
   cynyddol.** Oherwydd bod y berthynas yn broadadwy, gellir gwylio
@@ -66,11 +66,11 @@ unwaith.
 Penderfynwch yn benodol a yw amser llif yn dechrau pan fydd angen busnes
 yn cael ei adnabod gyntaf, pan gaiff ei gymeradwyo'n ffurfiol, neu pan
 fydd peirianneg yn dechrau'r gwaith, a dogfennwch y dewis hwnnw yr un
-ffordd y mae pennod 1.4 yn ei argymell ar gyfer unrhyw siarter metrigau.
+ffordd y mae pwnc 1.4 yn ei argymell ar gyfer unrhyw siarter metrigau.
 Mae'r penderfyniad sengl hwn yn penderfynu a yw amser llif yn mesur
 ymatebolrwydd o'r naill ben i'r llall gwirioneddol neu ddim ond y
 ffracsiwn culach ohono y mae peirianneg yn ei reoli, ac mae newid y
-diffiniad yn ddiweddarach heb ei ddatgelu yn risg twyllo canolog y bennod
+diffiniad yn ddiweddarach heb ei ddatgelu yn risg twyllo canolog y pwnc
 hon.
 
 ### Olrheiniwch lwyth llif yn barhaus, nid yn gyfnodol
@@ -95,7 +95,7 @@ na'i hawlio.
 
 ### Gwahanwch amser llif oddi wrth achosion sylfaenol llwyth llif cyn cynnig trwsiad
 
-Pan fydd llwyth llif yn uchel, ymchwiliwch pa fath elfen lif (pennod 2.2)
+Pan fydd llwyth llif yn uchel, ymchwiliwch pa fath elfen lif (pwnc 2.2)
 sydd mewn gwirionedd yn ei yrru: gormod o nodweddion cydredol wedi
 dechrau ar unwaith, backlog o ddiffygion heb eu trin, neu waith risg yn
 sownd yn aros am gymeradwyaeth a rennir. Mae pob achos yn awgrymu
@@ -105,7 +105,7 @@ ddiwahaniaeth yn tueddu i gynhyrchu ymateb cyffredinol, aneffeithiol.
 ### Croeswiriwch amser llif yn erbyn amser cylch i ynysu ble mae oedi mewn gwirionedd yn digwydd
 
 Gan fod amser llif yn ymestyn ar draws y ffrwd werth gyfan a bod amser
-cylch (pennod 2.6) ond yn cwmpasu'r rhan beirianneg ohono, cymharwch y
+cylch (pwnc 2.6) ond yn cwmpasu'r rhan beirianneg ohono, cymharwch y
 ddau'n uniongyrchol. Mae bwlch mawr rhwng amser llif ac amser cylch yn
 golygu bod y rhan fwyaf o'r oedi'n digwydd cyn i beirianneg weld y gwaith
 o gwbl, mewn ciwiau cymeradwyo, backlogiau blaenoriaethu, neu
@@ -123,7 +123,7 @@ bwlch wedi'i ganolbwyntio y tu mewn i beirianneg ei hun.
 
 Y tensiwn canolog yw **cwmpas yn erbyn cyrhaeddiad cyfrifianeg**. Mae
 mesur amser llif dim ond o godi peirianneg yn llawer haws ei gyfrifiannu,
-gan ei fod yn ailddefnyddio data amser-cylch y mae pennod 2.6 eisoes yn
+gan ei fod yn ailddefnyddio data amser-cylch y mae pwnc 2.6 eisoes yn
 ei gasglu, ond mae'n tanddweud yn dawel ymatebolrwydd gwirioneddol trwy
 anwybyddu popeth sy'n digwydd cyn i beirianneg weld y gwaith. Datryswch
 y tensiwn trwy ddechrau â'r mesuriad culach, wedi'i gwmpasu i beirianneg,
@@ -168,7 +168,7 @@ parhaol.
 
 6. **A oes unrhyw un erioed wedi culhau'n dawel ein pwynt cychwyn amser
    llif i wneud i'r rhif edrych yn well, heb i'r newid hwnnw gael ei
-   ddogfennu na'i ddatgelu?** Dyma risg twyllo canolog y bennod wedi'i
+   ddogfennu na'i ddatgelu?** Dyma risg twyllo canolog y pwnc wedi'i
    nodi'n uniongyrchol. Gofynnwch yn onest a yw eich diffiniad erioed wedi
    drifftio fel hyn.
 
@@ -251,12 +251,12 @@ o fentrau cydredol nag y gall ei gapasiti gwirioneddol ei gynnal.
 ## Gwrth-batrymau a pheryglon
 
 - **Culhau'n dawel bwynt cychwyn amser llif i ffafrio'r rhif:** y fector
-  twyllo wrth galon y bennod hon. Mae symud cychwyn y cloc o adnabod
+  twyllo wrth galon y pwnc hwn. Mae symud cychwyn y cloc o adnabod
   angen busnes gwirioneddol i bwynt diweddarach, codi peirianneg,
   cymeradwyaeth ffurfiol, yn crebachu amser llif heb newid ymatebolrwydd
   gwirioneddol o gwbl, a gall ddigwydd yn ddigon graddol fel nad yw un
   newid sengl yn edrych fel ystumio bwriadol. Y gledr ddiogelwch yw
-  dogfennu'r pwynt mynediad yn benodol mewn siarter metrigau (pennod 1.4)
+  dogfennu'r pwynt mynediad yn benodol mewn siarter metrigau (pwnc 1.4)
   a'i archwilio'n gyfnodol yn erbyn y diffiniad dogfennedig, yr un
   ddisgyblaeth y mae'r llyfr hwn yn gofyn amdani ar gyfer pob terfyn
   metrig.
@@ -307,8 +307,8 @@ o fentrau cydredol nag y gall ei gapasiti gwirioneddol ei gynnal.
   amser llif, ar gyfer unrhyw ffrwd werth sefydlog.
 - **Mae amser llif yn ymestyn ar draws y ffrwd werth gyfan**, o adnabod
   angen busnes i gyflenwi, yn ehangach na chwmpas peirianneg-yn-unig
-  amser cylch (pennod 2.6).
-- Fector twyllo canolog y bennod yw **culhau pwynt cychwyn amser llif yn
+  amser cylch (pwnc 2.6).
+- Fector twyllo canolog y pwnc yw **culhau pwynt cychwyn amser llif yn
   dawel**; y gledr ddiogelwch yw diffiniad pwynt-mynediad dogfennedig,
   wedi'i archwilio.
 - **Olrheiniwch lwyth llif yn barhaus**, nid yn gyfnodol, fel ei fod yn

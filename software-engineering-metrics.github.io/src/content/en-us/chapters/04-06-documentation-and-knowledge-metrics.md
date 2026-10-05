@@ -2,11 +2,11 @@
 
 ## Overview and motivation
 
-This chapter closes Part 4 by measuring whether the knowledge needed to
+This topic closes Part 4 by measuring whether the knowledge needed to
 safely maintain a codebase is actually documented and findable, not just
-whether documentation technically exists somewhere. Chapter 3.5 covered
+whether documentation technically exists somewhere. Topic 3.5 covered
 communication and collaboration as a developer-experience concern;
-this chapter covers the same underlying issue, knowledge availability, from
+this topic covers the same underlying issue, knowledge availability, from
 the code side: does a new engineer, or an existing one working on unfamiliar
 code, have what they need to make a safe change, or does that knowledge
 live only in the heads of a shrinking number of tenured people.
@@ -14,7 +14,7 @@ live only in the heads of a shrinking number of tenured people.
 The measurement challenge here is genuinely hard, harder than most other
 metrics in this book, because documentation quality and usefulness are
 inherently more subjective than a coverage percentage or a complexity score.
-This chapter's approach is to measure proxies for usefulness rather than
+This topic's approach is to measure proxies for usefulness rather than
 existence: how often documentation is actually accessed, how often the same
 question gets asked repeatedly despite a documented answer existing, and how
 long it takes someone unfamiliar with a system to become productive in it.
@@ -22,7 +22,7 @@ None of these proxies is perfect alone, but together they give a far more
 honest picture than counting the number of wiki pages or README files a
 codebase contains.
 
-For large teams, this chapter's concerns compound with organizational
+For large teams, this topic's concerns compound with organizational
 tenure and turnover in ways that are easy to underestimate until a crisis
 forces the issue: a system maintained for years by the same two engineers
 can function perfectly well with almost no written documentation, right up
@@ -40,7 +40,7 @@ carry this risk more acutely than most.
   problem, not a documentation-effort problem.** More content is not always
   the fix.
 - **Onboarding time to productive contribution is a strong, practical
-  proxy** for overall knowledge health, connecting directly to chapter
+  proxy** for overall knowledge health, connecting directly to topic
   3.5's collaboration metrics.
 - **Knowledge that lives only in people's heads is a durability risk,** not
   a stable, sustainable state, however well it currently functions.
@@ -54,7 +54,7 @@ carry this risk more acutely than most.
 Where your documentation platform supports it, track how often pages are
 actually viewed, and separately, how long since a page was last updated
 relative to how often the underlying system it describes has changed
-(cross-referencing churn data from chapter 4.3 is directly useful here). A
+(cross-referencing churn data from topic 4.3 is directly useful here). A
 page describing a system that has changed substantially since the page was
 last edited is a strong candidate for being actively misleading rather than
 merely unhelpful, and this staleness signal deserves at least as much
@@ -72,7 +72,7 @@ writing more of it.
 
 ### Measure onboarding time to first meaningful, independent contribution
 
-This metric, introduced in chapter 3.5 as a collaboration signal, is
+This metric, introduced in topic 3.5 as a collaboration signal, is
 equally a documentation and knowledge-health signal from the code side. A
 consistently short, predictable onboarding time suggests genuinely
 accessible, accurate knowledge; a long, highly variable time, especially
@@ -83,7 +83,7 @@ individual memory rather than durable, written form.
 ### Identify and prioritize undocumented critical-knowledge areas
 explicitly
 
-Cross-reference your knowledge-concentration data (chapter 3.5's
+Cross-reference your knowledge-concentration data (topic 3.5's
 [bus-factor](https://en.wikipedia.org/wiki/Bus_factor) analysis) with
 documentation coverage: a system with a bus factor of one
 and no meaningful documentation is a severe, compounding risk that deserves
@@ -96,7 +96,7 @@ backlog
 
 Rather than tracking documentation gaps separately and informally, fold
 significant documentation gaps into the same visible, quantified backlog
-described in chapter 4.5, particularly for critical, low-bus-factor
+described in topic 4.5, particularly for critical, low-bus-factor
 systems, so documentation work competes fairly for prioritized capacity
 rather than being perpetually deferred as a lower-status task compared to
 code-focused debt remediation.
@@ -115,7 +115,7 @@ existence is trivially easy to count and tells you almost nothing useful;
 genuine usefulness, whether someone can actually find and rely on
 documented knowledge when they need it, is what actually matters but is
 harder to measure directly. Resolve the tension by using the proxies this
-chapter recommends, access patterns, staleness relative to churn, repeated
+topic recommends, access patterns, staleness relative to churn, repeated
 questions, and onboarding time, in combination, accepting that no single
 one is perfect but that their convergence is far more meaningful than an
 existence count alone.
@@ -125,7 +125,7 @@ existence count alone.
 1. **For our most critical, lowest-bus-factor system, does meaningful,
    accurate documentation actually exist, or would a departing expert take
    most of the real knowledge with them?** This is the sharpest, most
-   concrete version of this chapter's central concern; answer it honestly
+   concrete version of this topic's central concern; answer it honestly
    for your single riskiest system first.
 
 2. **What question gets asked repeatedly in our team chat despite a
@@ -147,7 +147,7 @@ existence count alone.
    this," that staleness risk is likely larger than anyone currently
    assumes.
 
-5. **Does our technical debt backlog (chapter 4.5) include documentation
+5. **Does our technical debt backlog (topic 4.5) include documentation
    gaps, or does documentation work get perpetually deferred as a
    lower-status task compared to code fixes?** Check your actual backlog
    and see whether documentation debt is visible and competing for
@@ -162,7 +162,7 @@ existence count alone.
 
 **Startup.** Formal documentation metrics are usually unnecessary with a
 small team where knowledge spreads through constant, direct conversation.
-The risk to watch for is the same bus-factor concentration chapter 3.5
+The risk to watch for is the same bus-factor concentration topic 3.5
 warns about, now specifically applied to documentation: as the team grows
 past the size where everyone talks daily, undocumented knowledge that
 worked fine informally becomes a real liability.
@@ -223,7 +223,7 @@ critical knowledge is a standing liability that costs nothing visibly until
 the moment it becomes very expensive all at once.
 
 The total cost of ownership is mostly the discipline of tracking the
-proxies this chapter recommends, access patterns, staleness, repeated
+proxies this topic recommends, access patterns, staleness, repeated
 questions, onboarding time, and the willingness to fold documentation gaps
 into a prioritized backlog rather than treating them as perpetually
 lower-status than code-focused work. That discipline costs far less than
@@ -245,7 +245,7 @@ as the alternative.
   for low risk:** can mask a severe, undocumented bus-factor problem behind
   a system that simply has not yet needed its sole expert.
 - **Discovering critical undocumented knowledge only during an emergency
-  staff transition:** the expensive, avoidable failure mode this chapter is
+  staff transition:** the expensive, avoidable failure mode this topic is
   built to prevent.
 
 ## Maturity model
@@ -284,9 +284,9 @@ as the alternative.
 - **Onboarding time to productive contribution** is a strong, practical
   proxy for overall knowledge health.
 - **Undocumented critical knowledge is a compounding risk**, especially
-  combined with a low bus factor (chapter 3.5); it costs nothing visibly
+  combined with a low bus factor (topic 3.5); it costs nothing visibly
   until it costs a great deal all at once.
-- Fold **documentation gaps into your technical debt backlog** (chapter
+- Fold **documentation gaps into your technical debt backlog** (topic
   4.5) so they compete fairly for prioritized capacity.
 
 ## References and further reading

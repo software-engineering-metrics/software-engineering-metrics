@@ -16,12 +16,12 @@ units a downstream team can process without needing rework. **Takt time**
 is the maximum acceptable time to complete a unit to cleanly match customer
 demand.
 
-This chapter exists because software engineering did not invent these
+This topic exists because software engineering did not invent these
 ideas, it borrowed them, and the borrowing sometimes reused the same words
-for slightly different things. This book's own cycle time (chapter 2.6)
+for slightly different things. This book's own cycle time (topic 2.6)
 measures a change's engineering stages specifically, coding, review, test,
 deploy, while Lean's classical CT is the more general "average time per
-node" applied to any process. Flow time (chapter 2.4) is this book's name
+node" applied to any process. Flow time (topic 2.4) is this book's name
 for what Lean calls lead time. Knowing the mapping matters because a reader
 coming from a Lean Six Sigma background, common in manufacturing,
 logistics, healthcare, and government operations, will use these exact
@@ -29,8 +29,8 @@ terms with their original meanings, and a software team that does not
 speak the same language forfeits an easy, evidence-backed bridge to
 colleagues outside engineering.
 
-For large teams, %C/A is this chapter's most underused metric. It captures
-something the flow metrics in chapters 2.3 and 2.4 do not: how much of what
+For large teams, %C/A is this topic's most underused metric. It captures
+something the flow metrics in topics 2.3 and 2.4 do not: how much of what
 a stage produces is actually usable by the next stage without being sent
 back. Rolled up across a multi-stage value stream, a concept manufacturing
 calls **rolled throughput yield**, %C/A reveals how rework compounds
@@ -44,7 +44,7 @@ gates are especially prone to and rarely measure directly.
   are the common vocabulary a Lean Six Sigma-trained stakeholder, common in
   large enterprises and government operations, already speaks fluently.
 - **Terminology collision is real and worth naming explicitly.** This
-  book's cycle time (chapter 2.6) and Lean's classical CT are related but
+  book's cycle time (topic 2.6) and Lean's classical CT are related but
   not identical; document the mapping so cross-functional conversations do
   not quietly talk past each other.
 - **%C/A must be rolled up across every stage, not measured once at the
@@ -52,8 +52,8 @@ gates are especially prone to and rarely measure directly.
   to a metric measured only at final delivery.
 - **Takt time reframes capacity planning around demand, not effort.** The
   question shifts from "how fast can we go" to "how fast do we need to go,"
-  which connects directly to utilization (chapter 2.7) and flow load
-  (chapter 2.4).
+  which connects directly to utilization (topic 2.7) and flow load
+  (topic 2.4).
 - **These are diagnostic metrics, not vanity metrics.** Each one exists to
   answer a specific operational question, not to produce an impressive
   number for a dashboard.
@@ -64,10 +64,10 @@ gates are especially prone to and rarely measure directly.
 
 Compute lead time, process time, cycle time, %C/A, and takt time for a
 representative sample of work moving through your value stream before
-layering the Flow Framework's own metrics (chapters 2.3 and 2.4) on top.
+layering the Flow Framework's own metrics (topics 2.3 and 2.4) on top.
 This gives you a baseline any Lean Six Sigma-literate stakeholder can
 immediately understand, and it frequently surfaces the same wait-time
-dominance chapter 2.5 describes, expressed in a vocabulary that predates
+dominance topic 2.5 describes, expressed in a vocabulary that predates
 and outlasts any particular software framework.
 
 ### Roll up percent complete and accurate multiplicatively across every stage
@@ -95,19 +95,19 @@ that things are behind.
 Where your organization already runs a Lean Six Sigma program outside
 software, or where engineering reports to leadership fluent in that
 vocabulary, write the mapping down explicitly in your metrics charter
-(chapter 1.4): this book's flow time is Lean's lead time, this book's
-cycle time (chapter 2.6) is a specific application of Lean's more general
-CT, and this book's active time (chapter 2.5) is Lean's process time. This
+(topic 1.4): this book's flow time is Lean's lead time, this book's
+cycle time (topic 2.6) is a specific application of Lean's more general
+CT, and this book's active time (topic 2.5) is Lean's process time. This
 single document prevents a recurring, low-value argument about whose
 numbers are "real."
 
 ### Use %C/A as a guardrail alongside flow velocity, not a replacement for it
 
-Pair rolled throughput yield with flow velocity (chapter 2.3) the same way
+Pair rolled throughput yield with flow velocity (topic 2.3) the same way
 this book pairs every speed metric with a stability guardrail. A rising
 item count with a falling rolled %C/A means the value stream is delivering
 more units that increasingly need rework later, exactly the kind of
-speed-without-quality pattern chapter 1.2 warns every metric family to
+speed-without-quality pattern topic 1.2 warns every metric family to
 guard against.
 
 ## Trade-offs: pros and cons
@@ -115,7 +115,7 @@ guard against.
 | Approach | Pros | Cons |
 | --- | --- | --- |
 | Classical Lean metrics only (LT, PT, CT, %C/A, takt time) | Universal vocabulary; works across software and non-software teams alike | Not software-specific; needs translation for engineering-specific stages |
-| Flow Framework metrics only (chapters 2.3, 2.4) | Purpose-built for software value streams and item-type visibility | Unfamiliar to Lean Six Sigma-trained stakeholders outside engineering |
+| Flow Framework metrics only (topics 2.3, 2.4) | Purpose-built for software value streams and item-type visibility | Unfamiliar to Lean Six Sigma-trained stakeholders outside engineering |
 | Both, with an explicit mapping documented | Speaks both vocabularies; strongest cross-functional bridge | Requires the upfront discipline of writing the mapping down and keeping it current |
 | %C/A measured only at final delivery | Simple, one number | Hides rework introduced and caught earlier in the stream |
 
@@ -125,7 +125,7 @@ Six Sigma experience, but they were not designed with software's specific
 stages, code review, automated testing, deployment approval, in mind.
 Resolve the tension by using the Lean metrics as the shared baseline
 vocabulary for cross-functional and executive conversations, and the
-Flow Framework's own metrics (chapters 2.3 and 2.4) for the
+Flow Framework's own metrics (topics 2.3 and 2.4) for the
 software-specific diagnostic work engineering teams do day to day.
 
 ## Questions to discuss with your team
@@ -138,7 +138,7 @@ software-specific diagnostic work engineering teams do day to day.
 
 2. **Have we ever rolled up %C/A across every stage of our value stream, or
    only measured it at final delivery?** A single end-of-stream measurement
-   hides exactly the compounding rework this chapter's rolled throughput
+   hides exactly the compounding rework this topic's rolled throughput
    yield calculation is designed to reveal. Attempt the roll-up calculation
    with real data.
 
@@ -149,7 +149,7 @@ software-specific diagnostic work engineering teams do day to day.
 
 4. **If a Lean Six Sigma-trained stakeholder from outside engineering asked
    about our cycle time, would we be confident we mean the same thing they
-   do?** This book's cycle time (chapter 2.6) and Lean's classical CT are
+   do?** This book's cycle time (topic 2.6) and Lean's classical CT are
    related but not identical. Discuss whether that distinction has ever
    caused a real misunderstanding in your organization.
 
@@ -225,14 +225,14 @@ software-specific metrics is a credible, immediate bridge to
 process-improvement expertise and funding that often already exists
 elsewhere in a large organization. The manufacturing company example
 above, securing rework-reduction funding the same quarter reframing made
-the case legible, is the pattern this chapter's approach reliably
+the case legible, is the pattern this topic's approach reliably
 produces: the insight was not new, but the vocabulary that made it
 actionable to the right audience was.
 
 The total cost of ownership is low: these five metrics require no new
-instrumentation beyond what chapters 2.4 through 2.6 already collect, plus
+instrumentation beyond what topics 2.4 through 2.6 already collect, plus
 a %C/A rework classification that is usually a simple addition to existing
-defect and flow-item tracking (chapter 2.2). The main investment is
+defect and flow-item tracking (topic 2.2). The main investment is
 translation, writing down the mapping between this book's terms and Lean's
 classical ones, which pays for itself the first time it prevents a
 cross-functional misunderstanding.
@@ -240,7 +240,7 @@ cross-functional misunderstanding.
 ## Anti-patterns and pitfalls
 
 - **Measuring %C/A only at final delivery:** the gaming vector at the heart
-  of this chapter. A team can report a high final-stage %C/A while earlier
+  of this topic. A team can report a high final-stage %C/A while earlier
   stages quietly produce rework that gets fixed before anyone measures it,
   making the whole value stream look healthier than it is. The guardrail is
   rolling %C/A up multiplicatively across every stage, the rolled
@@ -299,12 +299,12 @@ cross-functional misunderstanding.
 - This book's own **flow time and cycle time map onto, but are not
   identical to**, Lean's lead time and classical CT; document the mapping
   explicitly to avoid cross-functional confusion.
-- The chapter's central gaming vector is **measuring %C/A only at final
+- The topic's central gaming vector is **measuring %C/A only at final
   delivery**; the guardrail is rolling it up multiplicatively across every
   stage as rolled throughput yield.
 - **Takt time reframes capacity around real customer demand**, not
-  existing pace, and pairs directly with utilization (chapter 2.7) and
-  flow load (chapter 2.4).
+  existing pace, and pairs directly with utilization (topic 2.7) and
+  flow load (topic 2.4).
 - Reframing software delivery in classical Lean terms is often the fastest
   way to connect with **existing process-improvement expertise and
   funding** already present in a large organization.

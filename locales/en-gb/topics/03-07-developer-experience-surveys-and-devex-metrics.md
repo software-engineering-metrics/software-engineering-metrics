@@ -2,13 +2,13 @@
 
 ## Overview and motivation
 
-This chapter closes Part 3 with the practical mechanics that make every
-preceding chapter's self-report data trustworthy: how to design a developer
+This topic closes Part 3 with the practical mechanics that make every
+preceding topic's self-report data trustworthy: how to design a developer
 experience (DevEx) survey that produces a genuine signal rather than a
 popularity contest, and how to combine survey data with objective
 instrumentation into a metric set an organisation can actually act on. Every
-chapter in this part relies on some form of self-report, satisfaction and
-well-being (chapter 3.2) most directly, but performance, communication, and
+topic in this part relies on some form of self-report, satisfaction and
+well-being (topic 3.2) most directly, but performance, communication, and
 flow all benefit from a well-designed survey too, and a badly designed
 survey undermines the value of all of them at once.
 
@@ -24,7 +24,7 @@ this part has already covered in depth.
 
 For large teams, the difference between a survey that produces trustworthy
 signal and one that produces noise or, worse, actively misleading data is
-entirely in the design details this chapter covers: question wording,
+entirely in the design details this topic covers: question wording,
 response scale choice, sampling and cadence, and how results get
 communicated back to respondents. Enterprise and government organisations
 running these surveys at scale, across thousands of engineers, cannot
@@ -39,7 +39,7 @@ confidently wrong conclusions that shape real resourcing decisions.
 - **Response rate is itself a signal**, not just a data-collection metric;
   a declining rate often indicates eroding trust in the process.
 - **Combine survey data with objective instrumentation** wherever possible,
-  following chapter 1.5's instrumentation principle; use survey data
+  following topic 1.5's instrumentation principle; use survey data
   specifically for what objective data cannot capture.
 - **Close the loop with respondents.** A survey that never visibly leads to
   any change trains people to stop taking it seriously.
@@ -74,7 +74,7 @@ full dataset.
 
 Track survey response rate over successive cycles, and treat a declining
 rate as a warning sign worth investigating directly, similar to the trust
-signal discussed in chapter 3.2. A falling response rate often indicates
+signal discussed in topic 3.2. A falling response rate often indicates
 survey fatigue, eroding trust that results lead to action, or a growing
 suspicion that anonymity is not genuinely protected, any of which deserves
 direct investigation rather than being dismissed as a mere data-collection
@@ -84,7 +84,7 @@ inconvenience.
 
 Pair subjective survey responses with objective signals where they exist:
 build time, test suite run time, local development environment setup time,
-and the flow-time and interruption data from chapter 3.6. A survey response
+and the flow-time and interruption data from topic 3.6. A survey response
 saying "our build is too slow" becomes far more actionable paired with the
 actual measured build time trend, and the combination catches cases where
 perception and objective reality diverge in either direction, worth
@@ -218,7 +218,7 @@ quarters of misdirected remediation effort because a single badly worded
 question conflated two distinct concerns.
 
 The total cost of ownership includes survey tooling, the design and
-piloting discipline this chapter recommends, and the ongoing commitment to
+piloting discipline this topic recommends, and the ongoing commitment to
 close the loop with visible follow-up action every cycle. That commitment,
 more than any tooling cost, is what determines whether a survey programme
 remains useful for years or decays into a box-ticking exercise that

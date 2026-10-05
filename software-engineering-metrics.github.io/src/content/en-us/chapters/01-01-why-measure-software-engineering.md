@@ -8,7 +8,7 @@ something real. Software work produces one-of-a-kind artifacts under
 constantly changing requirements, so a naive count, of commits, of lines, of
 tickets closed, tells you almost nothing about value delivered. That gap
 between the difficulty of measuring software work and the very real need to
-know whether it is going well is where this whole book lives. This chapter is
+know whether it is going well is where this whole book lives. This topic is
 about closing that gap honestly: not by pretending software work is as
 countable as widgets, but by being precise about what measurement can and
 cannot do for an engineering organization.
@@ -44,7 +44,7 @@ settings, "we worked hard" is not evidence; a defensible number is.
   delivered more reliably, by a sustainable team. Metrics exist only to serve
   that goal.
 - **Every metric has a cost.** Instrumentation, review time, and the
-  behavioral distortion risk covered in chapter 1.2 all cost something. A
+  behavioral distortion risk covered in topic 1.2 all cost something. A
   metric has to earn that cost back.
 - **Silence is also a decision.** Choosing not to measure something is a
   choice with consequences, not a neutral default.
@@ -58,7 +58,7 @@ want to know whether our new deployment pipeline reduced incident rates" is a
 decision-shaped question; "let's track everything the tool can export" is
 not. Working backward from a decision keeps the metric set small and keeps
 every tile defensible when someone asks why it exists. If you cannot name the
-decision a metric would inform, do not build it yet. Chapter 1.3 goes deeper
+decision a metric would inform, do not build it yet. Topic 1.3 goes deeper
 on the outcomes-over-output version of this discipline.
 
 ### Separate diagnostic use from evaluative use
@@ -71,7 +71,7 @@ number has a reputational or financial consequence attached to it. Decide
 explicitly, in writing, which use a metric is for, and never let a diagnostic
 metric slide into evaluative use without deliberately reconsidering the risk.
 This distinction recurs constantly through this book and is formalized in the
-non-goals section of the metrics charter described in chapter 1.4.
+non-goals section of the metrics charter described in topic 1.4.
 
 ### Treat measurement as a hypothesis, not a fact
 
@@ -109,7 +109,7 @@ that surface only as a crisis; too many and no one can act on any of them,
 while every one you attach evaluative weight to invites distortion. Resolve
 it by starting minimal and decision-driven, adding a metric only when a
 specific, named decision needs it, and by defending the diagnostic-only
-boundary explicitly in the governance work of chapter 1.4 rather than letting
+boundary explicitly in the governance work of topic 1.4 rather than letting
 it erode by default.
 
 ## Questions to discuss with your team
@@ -160,12 +160,12 @@ it erode by default.
    real. A team that outsources every decision to a dashboard loses the
    contextual judgment that catches what the number misses; a team that
    ignores available data in favor of the loudest voice in the room repeats
-   the very problem this chapter opens with. The goal is metrics that inform
+   the very problem this topic opens with. The goal is metrics that inform
    judgment, not metrics that replace it.
 
 ## Sector lens
 
-**Startup.** With a handful of engineers, most of what this chapter warns
+**Startup.** With a handful of engineers, most of what this topic warns
 against, drift toward evaluative use, blind spots, dashboard bloat, is easy
 to avoid simply because everyone talks daily. The risk is the opposite one:
 skipping measurement entirely because it feels like overhead the team cannot
@@ -182,7 +182,7 @@ analytics platform before you have proven you will act on what it tells you.
 **Enterprise.** The core risk is metrics that drift silently from diagnostic
 to evaluative use as they roll up through management layers, and dashboards
 that grow by accretion because no one owns the job of pruning them. Governance
-(chapter 1.4) is not optional at this scale. Standardize definitions across
+(topic 1.4) is not optional at this scale. Standardize definitions across
 business units, and build a regular retirement review into the metrics
 program itself.
 
@@ -201,7 +201,7 @@ comparable to any other. Leadership could not answer a basic question: which
 of our ten strategic platform investments is actually delivering faster
 software. The fix was not more metrics, it was fewer, better ones: the
 organization defined a shared, decision-driven core of DORA metrics
-(chapter 2.10) computed identically everywhere from the same pipeline data,
+(topic 2.10) computed identically everywhere from the same pipeline data,
 retired forty team-specific dashboards, and could finally compare investment
 areas on a common basis within two quarters.
 
@@ -228,7 +228,7 @@ because no one can point to a number both sides trust.
 
 The cost of measurement is not the dashboard. It is the ongoing discipline:
 instrumentation, definition maintenance, and the periodic pruning this
-chapter recommends. That total cost of ownership is real but modest compared
+topic recommends. That total cost of ownership is real but modest compared
 to the cost of the alternative, which is a large organization making
 multi-million-dollar technology decisions on the basis of whoever argued most
 persuasively in the room. The return on a metrics program is not the

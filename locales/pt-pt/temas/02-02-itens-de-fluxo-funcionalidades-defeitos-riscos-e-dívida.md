@@ -2,7 +2,7 @@
 
 ## Visão geral e motivação
 
-Um **item de fluxo** é a unidade de trabalho do Flow Framework, e todo o item de fluxo pertence a exatamente um de quatro tipos: **funcionalidades**, novo valor ou capacidade de negócio entregue a um cliente; **defeitos**, correções de qualidade para bugs encontrados por utilizadores ou testes; **riscos**, trabalho de segurança, conformidade, privacidade, e governação que protege o negócio; e **dívida**, **[dívida técnica](https://en.wikipedia.org/wiki/Technical_debt)**, melhoria arquitetural, e trabalho de infraestrutura que permite velocidade futura. O capítulo 2.1 introduziu a estrutura a que estas quatro categorias pertencem; este capítulo aprofunda-se na própria taxonomia, porque as categorias só entregam valor se uma equipa classificar o seu trabalho nelas honesta e consistentemente.
+Um **item de fluxo** é a unidade de trabalho do Flow Framework, e todo o item de fluxo pertence a exatamente um de quatro tipos: **funcionalidades**, novo valor ou capacidade de negócio entregue a um cliente; **defeitos**, correções de qualidade para bugs encontrados por utilizadores ou testes; **riscos**, trabalho de segurança, conformidade, privacidade, e governação que protege o negócio; e **dívida**, **[dívida técnica](https://en.wikipedia.org/wiki/Technical_debt)**, melhoria arquitetural, e trabalho de infraestrutura que permite velocidade futura. O tema 2.1 introduziu a estrutura a que estas quatro categorias pertencem; este tema aprofunda-se na própria taxonomia, porque as categorias só entregam valor se uma equipa classificar o seu trabalho nelas honesta e consistentemente.
 
 A propriedade que define os itens de fluxo é que a alocação entre os quatro tipos é um **jogo de soma zero**: existe uma quantidade fixa de capacidade de engenharia em qualquer período dado, e cada hora gasta numa funcionalidade é uma hora não gasta em dívida, risco, ou trabalho de defeito. Isto não é um facto novo sobre a entrega de software, todo o líder de engenharia já sabe que a capacidade é finita, mas a maioria das organizações não tem uma forma consistente e honesta de ver a divisão real. A velocidade de sprint conta pontos de história independentemente do tipo; um backlog esgotado parece idêntico quer o trabalho por trás dele fosse um novo fluxo de pagamento ou três meses de correção de segurança pouco glamorosa. Os itens de fluxo existem especificamente para tornar essa divisão invisível visível.
 
@@ -20,7 +20,7 @@ Para equipas grandes, esta visibilidade muda a natureza de uma conversa de aloca
 
 ### Classificar cada item na admissão, usando uma definição escrita para cada tipo
 
-Concorde numa definição concisa e escrita para o que conta como uma funcionalidade, um defeito, um risco, e dívida no seu contexto específico, e exija que cada nova peça de trabalho seja classificada contra essa definição no momento em que entra na cadeia de valor, não depois de ser concluída. Uma definição acordada antecipadamente resiste à tentação de classificar retroativamente com base em como uma peça de trabalho acabou por parecer, que é precisamente o risco de manipulação que este capítulo nomeia diretamente abaixo.
+Concorde numa definição concisa e escrita para o que conta como uma funcionalidade, um defeito, um risco, e dívida no seu contexto específico, e exija que cada nova peça de trabalho seja classificada contra essa definição no momento em que entra na cadeia de valor, não depois de ser concluída. Uma definição acordada antecipadamente resiste à tentação de classificar retroativamente com base em como uma peça de trabalho acabou por parecer, que é precisamente o risco de manipulação que este tema nomeia diretamente abaixo.
 
 ### Reportar a distribuição de fluxo como uma tendência, não um único instantâneo
 
@@ -32,7 +32,7 @@ Decida, juntamente com a liderança de produto e de negócio, como é uma distri
 
 ### Verificar de forma cruzada a classificação de itens de fluxo contra evidência independente
 
-Compare periodicamente a sua distribuição de fluxo contra métricas que não dependem de autoclassificação: taxa de defeitos escapados (capítulo 5.1), medição de dívida técnica (capítulo 4.5), e métricas de gestão de vulnerabilidades (capítulo 6.4). Se os defeitos ou vulnerabilidades estiverem a subir enquanto as parcelas de item de fluxo "defeitos" e "risco" se mantêm estáveis ou encolhem, essa incompatibilidade é o sinal mais claro disponível de que a classificação derivou da realidade.
+Compare periodicamente a sua distribuição de fluxo contra métricas que não dependem de autoclassificação: taxa de defeitos escapados (tema 5.1), medição de dívida técnica (tema 4.5), e métricas de gestão de vulnerabilidades (tema 6.4). Se os defeitos ou vulnerabilidades estiverem a subir enquanto as parcelas de item de fluxo "defeitos" e "risco" se mantêm estáveis ou encolhem, essa incompatibilidade é o sinal mais claro disponível de que a classificação derivou da realidade.
 
 ### Vigiar especificamente o padrão de fábrica de funcionalidades
 
@@ -61,7 +61,7 @@ A tensão central é **disciplina de classificação versus sobrecarga de proces
 
 5. **A nossa distribuição de fluxo corresponde a evidência independente, como a taxa de defeitos escapados ou contagens de vulnerabilidades abertas, ou há uma incompatibilidade que vale a pena investigar?** Uma incompatibilidade aqui é o sinal mais claro disponível de que a classificação derivou do que o trabalho realmente é.
 
-6. **Alguém na nossa equipa poderia silenciosamente reetiquetar um item de dívida ou risco como uma funcionalidade sob pressão de entrega, e notaríamos atualmente se o fizesse?** Este é o risco de manipulação central do capítulo declarado diretamente. Discuta se o seu processo atual realmente apanharia isto, não apenas se alguém o faria deliberadamente.
+6. **Alguém na nossa equipa poderia silenciosamente reetiquetar um item de dívida ou risco como uma funcionalidade sob pressão de entrega, e notaríamos atualmente se o fizesse?** Este é o risco de manipulação central do tema declarado diretamente. Discuta se o seu processo atual realmente apanharia isto, não apenas se alguém o faria deliberadamente.
 
 ## Perspetiva setorial
 
@@ -87,7 +87,7 @@ O custo total de propriedade é baixo uma vez acordadas a taxonomia e as suas de
 
 ## Antipadrões e armadilhas
 
-- **Classificar o trabalho retroativamente, depois de o resultado ser conhecido:** o vetor de manipulação no centro deste capítulo. Sob pressão de entrega, uma equipa pode silenciosamente etiquetar trabalho de dívida ou risco como uma funcionalidade depois do facto, ou arredondar um item ambíguo em direção a qualquer tipo que pareça melhor no gráfico de distribuição, sem que nenhuma decisão individual pareça alguma vez desonesta por si só. A salvaguarda é a classificação no momento de admissão contra uma definição escrita, combinada com auditorias periódicas que comparam a distribuição de fluxo contra evidência independente como a taxa de defeitos escapados (capítulo 5.1) e métricas de vulnerabilidade (capítulo 6.4), a mesma disciplina de auditoria-contra-evidência-independente que o capítulo 1.2 pede para cada métrica neste livro.
+- **Classificar o trabalho retroativamente, depois de o resultado ser conhecido:** o vetor de manipulação no centro deste tema. Sob pressão de entrega, uma equipa pode silenciosamente etiquetar trabalho de dívida ou risco como uma funcionalidade depois do facto, ou arredondar um item ambíguo em direção a qualquer tipo que pareça melhor no gráfico de distribuição, sem que nenhuma decisão individual pareça alguma vez desonesta por si só. A salvaguarda é a classificação no momento de admissão contra uma definição escrita, combinada com auditorias periódicas que comparam a distribuição de fluxo contra evidência independente como a taxa de defeitos escapados (tema 5.1) e métricas de vulnerabilidade (tema 6.4), a mesma disciplina de auditoria-contra-evidência-independente que o tema 1.2 pede para cada métrica neste livro.
 - **Deixar as funcionalidades absorver consistentemente quase toda a capacidade (o padrão de fábrica de funcionalidades):** priva silenciosamente o trabalho de dívida e risco até emergir como uma crise.
 - **Tratar a distribuição de um único período como o quadro completo:** perde a deriva lenta e cumulativa que uma visão de tendência revela claramente.
 - **Definir uma distribuição alvo sem interessados de negócio:** perde o principal valor da estrutura, um entendimento partilhado e negociado da troca.
@@ -113,7 +113,7 @@ O custo total de propriedade é baixo uma vez acordadas a taxonomia e as suas de
 
 - Um **item de fluxo** pertence a exatamente um de quatro tipos, funcionalidades, defeitos, riscos, ou dívida, e a alocação de capacidade entre eles é **soma zero**.
 - Não há **nenhuma distribuição universalmente saudável**; a mistura certa depende da fase de um produto e deve ser um alvo deliberado e negociado com interessados de negócio.
-- O vetor de manipulação central do capítulo é a **classificação retroativa**, reetiquetar silenciosamente trabalho de dívida ou risco como uma funcionalidade depois do facto; a salvaguarda é a classificação no momento de admissão mais auditorias periódicas contra evidência independente.
+- O vetor de manipulação central do tema é a **classificação retroativa**, reetiquetar silenciosamente trabalho de dívida ou risco como uma funcionalidade depois do facto; a salvaguarda é a classificação no momento de admissão mais auditorias periódicas contra evidência independente.
 - Vigie especificamente o **padrão de fábrica de funcionalidades**, funcionalidades a absorver consistentemente quase toda a capacidade, que priva o trabalho de dívida e risco até emergir como uma crise.
 - A distribuição de fluxo é mais valiosa como uma **tendência**, e o seu maior retorno vem de a partilhar diretamente com interessados de negócio.
 

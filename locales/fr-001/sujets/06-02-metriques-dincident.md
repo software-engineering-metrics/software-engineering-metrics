@@ -2,25 +2,25 @@
 
 ## Vue d'ensemble et motivation
 
-Ce chapitre mesure ce qui se passe quand le budget d'erreur du chapitre 6.1 est dépensé par une véritable défaillance : un **incident**, un événement non planifié qui dégrade ou interrompt un service. Quatre métriques forment le vocabulaire standard pour mesurer à quel point une organisation gère cela : le **temps moyen de détection (MTTD)**, combien de temps avant que l'organisation ne remarque que quelque chose ne va pas ; le **temps moyen d'accusé de réception (MTTA)**, combien de temps avant que quelqu'un ne prenne possession de la réponse ; le **temps moyen de résolution** ou **de récupération (MTTR)**, combien de temps jusqu'à ce que le service soit restauré, le même concept que le chapitre 2.10 a couvert spécifiquement pour les défaillances causées par déploiement, maintenant généralisé à tout incident indépendamment de la cause ; et la **fréquence d'incident**, simplement à quelle fréquence les incidents se produisent du tout.
+Ce sujet mesure ce qui se passe quand le budget d'erreur du sujet 6.1 est dépensé par une véritable défaillance : un **incident**, un événement non planifié qui dégrade ou interrompt un service. Quatre métriques forment le vocabulaire standard pour mesurer à quel point une organisation gère cela : le **temps moyen de détection (MTTD)**, combien de temps avant que l'organisation ne remarque que quelque chose ne va pas ; le **temps moyen d'accusé de réception (MTTA)**, combien de temps avant que quelqu'un ne prenne possession de la réponse ; le **temps moyen de résolution** ou **de récupération (MTTR)**, combien de temps jusqu'à ce que le service soit restauré, le même concept que le sujet 2.10 a couvert spécifiquement pour les défaillances causées par déploiement, maintenant généralisé à tout incident indépendamment de la cause ; et la **fréquence d'incident**, simplement à quelle fréquence les incidents se produisent du tout.
 
-La préoccupation centrale de ce chapitre, faisant écho au traitement du taux d'échecs de changement du chapitre 2.10, est que ces chiffres ne sont dignes de confiance qu'à hauteur de la culture organisationnelle autour du rapport et de la classification honnêtes des incidents. Une équipe qui craint le blâme pour un incident a toute incitation à sous-rapporter, retarder l'accusé de réception pour éviter d'être « sur l'horloge », ou classer un événement sérieux comme mineur pour protéger ses propres métriques. La pratique du **[post-mortem sans blâme](https://en.wikipedia.org/wiki/Just_culture)**, pionnière dans des organisations comme Etsy et formalisée dans la littérature SRE de Google, existe spécifiquement pour retirer cette incitation, et ce chapitre la traite comme un prérequis pour des données d'incident dignes de confiance, pas une élégance culturelle facultative superposée aux métriques.
+La préoccupation centrale de ce sujet, faisant écho au traitement du taux d'échecs de changement du sujet 2.10, est que ces chiffres ne sont dignes de confiance qu'à hauteur de la culture organisationnelle autour du rapport et de la classification honnêtes des incidents. Une équipe qui craint le blâme pour un incident a toute incitation à sous-rapporter, retarder l'accusé de réception pour éviter d'être « sur l'horloge », ou classer un événement sérieux comme mineur pour protéger ses propres métriques. La pratique du **[post-mortem sans blâme](https://en.wikipedia.org/wiki/Just_culture)**, pionnière dans des organisations comme Etsy et formalisée dans la littérature SRE de Google, existe spécifiquement pour retirer cette incitation, et ce sujet la traite comme un prérequis pour des données d'incident dignes de confiance, pas une élégance culturelle facultative superposée aux métriques.
 
-Pour les grandes équipes, les métriques d'incident révèlent si la capacité de détection et de réponse d'une organisation, l'outillage de retour en arrière du chapitre 2.10 parmi d'autres investissements, fonctionne réellement sous des conditions réelles et variées, pas seulement le scénario spécifique de défaillance causée par déploiement que ce chapitre couvrait. Les organisations de grande entreprise et de gouvernement exploitant une infrastructure critique dépendent de ces métriques à la fois en interne, pour conduire une véritable amélioration opérationnelle, et en externe, pour démontrer aux clients, régulateurs, ou au public que les incidents sont gérés avec compétence et s'améliorent dans le temps.
+Pour les grandes équipes, les métriques d'incident révèlent si la capacité de détection et de réponse d'une organisation, l'outillage de retour en arrière du sujet 2.10 parmi d'autres investissements, fonctionne réellement sous des conditions réelles et variées, pas seulement le scénario spécifique de défaillance causée par déploiement que ce sujet couvrait. Les organisations de grande entreprise et de gouvernement exploitant une infrastructure critique dépendent de ces métriques à la fois en interne, pour conduire une véritable amélioration opérationnelle, et en externe, pour démontrer aux clients, régulateurs, ou au public que les incidents sont gérés avec compétence et s'améliorent dans le temps.
 
 ## Principes clés
 
 - **La culture sans blâme est un prérequis pour des données d'incident dignes de confiance,** pas un ajout facultatif ; la peur du blâme corrompt le rapport, la vitesse d'accusé de réception, et la classification de sévérité pareillement.
 - **La détection, l'accusé de réception, et la résolution sont des phases distinctes avec des corrections distinctes.** Un temps de récupération global lent peut cacher des problèmes sous-jacents très différents selon quelle phase est réellement lente.
-- **La fréquence d'incident et le MTTR sont un signal apparié,** similaire au taux d'échecs de changement et au temps de récupération de DORA (chapitre 2.10) : ni l'un ni l'autre seul ne raconte l'histoire complète.
-- **La classification de sévérité nécessite la même rigueur que la classification de défaut échappé** (chapitre 5.1) : critères cohérents et documentés, pas un jugement ad hoc.
+- **La fréquence d'incident et le MTTR sont un signal apparié,** similaire au taux d'échecs de changement et au temps de récupération de DORA (sujet 2.10) : ni l'un ni l'autre seul ne raconte l'histoire complète.
+- **La classification de sévérité nécessite la même rigueur que la classification de défaut échappé** (sujet 5.1) : critères cohérents et documentés, pas un jugement ad hoc.
 - **La valeur d'un post-mortem réside dans l'apprentissage systémique, pas dans la production d'un chiffre.** La métrique est un sous-produit de la bonne pratique, pas son objectif.
 
 ## Recommandations
 
 ### Décomposez le temps de réponse à l'incident en ses phases distinctes
 
-Mesurez et rapportez le temps de détection (du début réel de la défaillance jusqu'à ce que quelqu'un le remarque), le temps d'accusé de réception (de la notification jusqu'à ce que quelqu'un prenne possession), et le temps de résolution (de la possession jusqu'à la récupération authentique) séparément, plutôt qu'un seul total mélangé. Chaque phase pointe vers une correction différente : une détection lente pointe vers un écart de surveillance et d'alerte, un accusé de réception lent pointe vers un problème de processus d'astreinte ou d'escalade, et une résolution lente pointe vers un écart d'outillage, de guide opérationnel, ou de capacité diagnostique (le chapitre 2.10 couvre cela spécifiquement pour les défaillances causées par déploiement).
+Mesurez et rapportez le temps de détection (du début réel de la défaillance jusqu'à ce que quelqu'un le remarque), le temps d'accusé de réception (de la notification jusqu'à ce que quelqu'un prenne possession), et le temps de résolution (de la possession jusqu'à la récupération authentique) séparément, plutôt qu'un seul total mélangé. Chaque phase pointe vers une correction différente : une détection lente pointe vers un écart de surveillance et d'alerte, un accusé de réception lent pointe vers un problème de processus d'astreinte ou d'escalade, et une résolution lente pointe vers un écart d'outillage, de guide opérationnel, ou de capacité diagnostique (le sujet 2.10 couvre cela spécifiquement pour les défaillances causées par déploiement).
 
 ### Construisez et protégez un processus de post-mortem authentiquement sans blâme
 
@@ -28,7 +28,7 @@ Un **post-mortem sans blâme** investigue ce qui s'est passé et pourquoi le sys
 
 ### Classez la sévérité avec des critères cohérents, documentés, et audités
 
-Appliquez la même discipline que le chapitre 5.1 recommande pour les défauts échappés à la classification de sévérité d'incident : une échelle fixe et documentée basée sur l'impact client ou d'affaires réel, appliquée de manière cohérente à travers les équipes, périodiquement auditée pour la dérive. Une classification incohérente, certaines équipes généreuses, certaines strictes, rend les données d'incident à l'échelle de l'organisation aussi peu fiables pour la comparaison que le seraient des données de défaut classées de manière incohérente.
+Appliquez la même discipline que le sujet 5.1 recommande pour les défauts échappés à la classification de sévérité d'incident : une échelle fixe et documentée basée sur l'impact client ou d'affaires réel, appliquée de manière cohérente à travers les équipes, périodiquement auditée pour la dérive. Une classification incohérente, certaines équipes généreuses, certaines strictes, rend les données d'incident à l'échelle de l'organisation aussi peu fiables pour la comparaison que le seraient des données de défaut classées de manière incohérente.
 
 ### Suivez la fréquence d'incident et le MTTR ensemble, jamais isolément
 
@@ -36,7 +36,7 @@ Un MTTR qui s'améliore aux côtés d'une fréquence d'incident en hausse pourra
 
 ### Extrayez et suivez les éléments d'action systémiques des post-mortems, pas seulement les métriques
 
-La véritable valeur du processus de post-mortem réside dans les éléments d'action spécifiques et systémiques qu'il produit : une alerte manquante ajoutée, un guide opérationnel amélioré, un point unique de défaillance retiré. Suivez ces éléments d'action jusqu'à l'achèvement avec la même discipline que l'arriéré de dette technique du chapitre 4.5, puisqu'un post-mortem qui produit de l'intuition mais aucun suivi gaspille l'apprentissage organisationnel que le processus est censé capturer.
+La véritable valeur du processus de post-mortem réside dans les éléments d'action spécifiques et systémiques qu'il produit : une alerte manquante ajoutée, un guide opérationnel amélioré, un point unique de défaillance retiré. Suivez ces éléments d'action jusqu'à l'achèvement avec la même discipline que l'arriéré de dette technique du sujet 4.5, puisqu'un post-mortem qui produit de l'intuition mais aucun suivi gaspille l'apprentissage organisationnel que le processus est censé capturer.
 
 ## Compromis : avantages et inconvénients
 
@@ -57,7 +57,7 @@ La tension centrale est **l'attrait de la responsabilité individuelle contre le
 
 3. **Deux équipes différentes classeraient-elles la sévérité du même incident de la même manière ?** Choisissez un incident passé réel et ambigu et faites classer indépendamment par des représentants de différentes équipes, puis comparez les résultats.
 
-4. **Revoyons-nous la fréquence d'incident et le MTTR ensemble, ou l'un reçoit-il plus d'attention que l'autre ?** Vérifiez votre pratique de rapport et vos revues réelles pour cette association, reflétant la même discipline que le chapitre 2.10 recommande pour les métriques de stabilité DORA.
+4. **Revoyons-nous la fréquence d'incident et le MTTR ensemble, ou l'un reçoit-il plus d'attention que l'autre ?** Vérifiez votre pratique de rapport et vos revues réelles pour cette association, reflétant la même discipline que le sujet 2.10 recommande pour les métriques de stabilité DORA.
 
 5. **Quel pourcentage de nos éléments d'action de post-mortem des six derniers mois ont réellement été complétés ?** Si vous ne suivez pas cela actuellement, cet écart vaut la peine d'être nommé ; un processus de post-mortem avec un faible taux d'achèvement d'éléments d'action produit de l'intuition sans suivi.
 
@@ -67,7 +67,7 @@ La tension centrale est **l'attrait de la responsabilité individuelle contre le
 
 **Startup.** La réponse aux incidents est souvent informelle par nécessité avec une petite équipe, et la décomposition formelle de phase pourrait être inutile au début. L'habitude qui vaut la peine d'être adoptée tôt est les normes de discussion sans blâme dès le tout premier incident, puisque les habitudes culturelles établies tôt sont bien plus faciles à maintenir qu'à adapter une fois qu'un schéma propice au blâme s'est installé.
 
-**Petite entreprise.** Un journal d'incident simple et partagé, même informel, avec une classification de sévérité de base et une brève rétrospective sans blâme pour tout ce qui est significatif, capture la plupart de la valeur de ce chapitre sans nécessiter d'outillage sophistiqué ou de plateforme de gestion d'incident dédiée.
+**Petite entreprise.** Un journal d'incident simple et partagé, même informel, avec une classification de sévérité de base et une brève rétrospective sans blâme pour tout ce qui est significatif, capture la plupart de la valeur de ce sujet sans nécessiter d'outillage sophistiqué ou de plateforme de gestion d'incident dédiée.
 
 **Grande entreprise.** La classification de sévérité cohérente et une culture sans blâme authentique et soutenue sont toutes deux plus difficiles à maintenir à l'échelle, et toutes deux essentielles pour des données d'incident fiables et comparables à travers des dizaines d'équipes. Investissez dans des critères de classification documentés, un audit périodique, et une modélisation active de la direction de la réponse sans blâme, puisque la dérive culturelle vers le blâme a tendance à s'infiltrer graduellement sans contre-pression délibérée et continue.
 
@@ -114,7 +114,7 @@ Le coût total de possession est principalement un investissement culturel et de
 
 - **La culture de post-mortem sans blâme est un prérequis** pour des données d'incident dignes de confiance ; la peur du blâme corrompt le rapport, la vitesse d'accusé de réception, et la classification pareillement.
 - Décomposez le temps de réponse en phases de **détection, d'accusé de réception, et de résolution**, chacune pointant vers une correction différente.
-- Classez la sévérité avec des **critères cohérents, documentés, et audités**, reflétant la discipline de défaut échappé du chapitre 5.1.
+- Classez la sévérité avec des **critères cohérents, documentés, et audités**, reflétant la discipline de défaut échappé du sujet 5.1.
 - Revoyez la **fréquence d'incident et le MTTR ensemble**, jamais isolément, la même discipline d'association que les métriques de stabilité DORA.
 - Suivez les **éléments d'action de post-mortem jusqu'à l'achèvement** ; la métrique est un sous-produit de la bonne pratique, pas son objectif.
 

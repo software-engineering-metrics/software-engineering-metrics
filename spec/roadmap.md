@@ -14,12 +14,12 @@ Legend: `[ ]` todo · `[~]` in progress · `[x]` done · **(P)** parallelizable 
 - [x] Define the book's scope, non-goals, and target audiences
 - [x] Establish a style guide (voice, tone, terminology, Oxford spelling)
 - [x] Choose docs-as-code tooling (spec-driven manifest, validation suite)
-- [x] Set up the repository structure: one file per chapter
-- [x] Define the per-chapter template: principles, recommendations,
+- [x] Set up the repository structure: one file per topic
+- [x] Define the per-topic template: principles, recommendations,
       trade-offs, sector lens, examples, business case, anti-patterns,
       maturity model, discussion questions, references
 - [x] Establish a five-level maturity-model rubric applied consistently
-      across chapters
+      across topics
 
 ## Phase 1: Research and evidence base **(P)**
 
@@ -112,9 +112,9 @@ Legend: `[ ]` todo · `[~]` in progress · `[x]` done · **(P)** parallelizable 
 ## Phase 11: Review, quality, and release
 
 - [ ] Technical review by subject-matter experts per part
-- [x] Cross-chapter consistency pass (terminology, cross-references, overlap)
+- [x] Cross-topic consistency pass (terminology, cross-references, overlap)
 - [ ] Ensure the Goodhart's-law guardrail appears in every metric-family
-      chapter, not just chapter 1.2
+      topic, not just topic 1.2
 - [ ] Verify all citations, links, and standards references
 - [ ] Beta-read with target audience; collect and incorporate feedback
 - [ ] Publish v1.0; establish versioning and update cadence
@@ -126,7 +126,7 @@ Legend: `[ ]` todo · `[~]` in progress · `[x]` done · **(P)** parallelizable 
 
 These are outcome checklists an organization can use to self-assess and roll
 out the practices. Treat as a maturity journey, not a one-time audit. The
-consolidated version of these lives in chapter 9.5.
+consolidated version of these lives in topic 9.5.
 
 ### Foundations
 - [ ] A written metrics charter states purpose, ownership, and non-goals
@@ -175,11 +175,11 @@ consolidated version of these lives in chapter 9.5.
 - [ ] AI-assisted development is measured on outcome, not raw output volume
 - [ ] A policy exists for reviewing and licensing AI-generated code
 - [ ] Metric definitions have been re-examined for whether GenAI adoption has
-      broken their meaning (chapter 7.1)
+      broken their meaning (topic 7.1)
 
 ### Programme governance
 - [ ] The metrics programme has an executive sponsor
 - [ ] A regular cadence exists to retire metrics that no longer earn their
       keep
-- [ ] The rollout followed an incremental adoption roadmap (chapter 8.5)
+- [ ] The rollout followed an incremental adoption roadmap (topic 8.5)
       rather than a big-bang launch

@@ -4,23 +4,23 @@
 
 La [revisión de código](https://en.wikipedia.org/wiki/Code_review) suele
 ser el mayor contribuyente individual al tiempo de espera dentro del
-desglose de tiempo de ciclo del capítulo 2.6, y también es la etapa que
+desglose de tiempo de ciclo del tema 2.6, y también es la etapa que
 está más directamente bajo el control propio de un equipo para mejorar, a
 diferencia de un cuello de botella de plataforma compartido o una
-dependencia externa. Este capítulo cubre las métricas específicas que
+dependencia externa. Este tema cubre las métricas específicas que
 viven dentro de la etapa de revisión: tiempo hasta la primera revisión,
 tamaño de la solicitud de incorporación de cambios, número de iteraciones
 de revisión y distribución de la carga de revisores, y cómo usarlas para
 mejorar la velocidad de revisión sin sacrificar el beneficio real de
 calidad que se supone que aporta la revisión.
 
-El riesgo al que este capítulo está más atento es uno que este libro
+El riesgo al que este tema está más atento es uno que este libro
 todavía no ha cubierto directamente: optimizar la velocidad de revisión
 puede erosionar en silencio la calidad de la revisión si se persigue sin
 cuidado. Un equipo que reduce a la mitad su tiempo hasta la primera
 revisión aprobando todo con un sello de goma ha mejorado una métrica
 mientras destruye el valor real de la práctica. Cada recomendación de este
-capítulo está escrita con esa compensación a la vista, porque las métricas
+tema está escrita con esa compensación a la vista, porque las métricas
 de solicitudes de incorporación de cambios están entre las más fáciles de
 este libro de manipular de una forma que se ve bien en un tablero mientras
 empeora de forma medible la base de código subyacente.
@@ -65,7 +65,7 @@ Mide el intervalo desde que se abre una solicitud de incorporación de
 cambios hasta el primer comentario sustantivo o aprobación de un revisor,
 instrumentado automáticamente desde tu plataforma de control de versiones.
 Este suele ser el mayor contribuyente al tiempo de espera dentro de la
-etapa de revisión (capítulo 2.5, capítulo 2.6), y mejorarlo, mediante
+etapa de revisión (tema 2.5, tema 2.6), y mejorarlo, mediante
 normas más claras de asignación de revisión, prácticas de notificación o
 bloques de tiempo dedicados a la revisión, suele producir la mayor mejora
 individual disponible para un equipo en el tiempo de ciclo general.
@@ -79,7 +79,7 @@ de incorporación de cambios más pequeñas se revisan más rápido, se revisan
 más a fondo (un revisor puede realmente tener todo el cambio en la cabeza)
 y son más fáciles de revertir si algo sale mal, conectando directamente con
 el principio de tamaño de lote detrás de la frecuencia de despliegue del
-capítulo 2.10. Fomenta dividir los cambios grandes en una secuencia de
+tema 2.10. Fomenta dividir los cambios grandes en una secuencia de
 solicitudes de incorporación de cambios más pequeñas y revisables de forma
 independiente siempre que el trabajo lo permita.
 
@@ -90,7 +90,7 @@ móvil, y vigila específicamente si un pequeño número de personas absorbe
 una parte desproporcionada. Este patrón es común, a menudo recae sobre los
 ingenieros más veteranos o más confiables, y crea tanto un cuello de
 botella (su disponibilidad limita todo el rendimiento de revisión del
-equipo) como un riesgo de agotamiento (el capítulo 3.2 cubre las métricas
+equipo) como un riesgo de agotamiento (el tema 3.2 cubre las métricas
 de bienestar con más profundidad). Rota la responsabilidad de revisión de
 forma deliberada en lugar de dejar que se concentre por defecto en quien
 responda más rápido.
@@ -103,7 +103,7 @@ ningún comentario de revisión, o la tasa de correcciones posteriores a la
 fusión necesarias para código recién revisado. Un equipo que mejora la
 velocidad de revisión aprobando sin escrutinio real debería ver que esta
 barrera de contención se degrada, que es precisamente el principio de
-emparejamiento del capítulo 1.2 aplicado a esta familia de métricas
+emparejamiento del tema 1.2 aplicado a esta familia de métricas
 específica. Nunca persigas la velocidad de revisión sin tener a la vista
 esta contramétrica.
 
@@ -117,7 +117,7 @@ Evita usar este número para juzgar directamente a autores o revisores
 individuales; un número alto de iteraciones suele ser más una señal de
 sistema o de comunicación que una señal personal, y tratarlo como un
 marcador individual arriesga precisamente la deriva evaluativa contra la
-que advierte el capítulo 1.1.
+que advierte el tema 1.1.
 
 ## Ventajas e inconvenientes
 
@@ -129,10 +129,10 @@ que advierte el capítulo 1.1.
 | Concentrar la revisión entre ingenieros veteranos | Experiencia profunda de dominio aplicada de forma consistente | Crea un cuello de botella y un riesgo de agotamiento con el tiempo |
 
 La tensión central es **velocidad frente a profundidad de escrutinio**.
-Cada técnica de este capítulo para acelerar la revisión, primera respuesta
+Cada técnica de este tema para acelerar la revisión, primera respuesta
 más rápida, solicitudes más pequeñas, carga de revisores más distribuida,
 conlleva cierto riesgo de sacrificar el escrutinio real si se persigue sin
-la barrera de contención de calidad que recomienda este capítulo. Resuélvela
+la barrera de contención de calidad que recomienda este tema. Resuélvela
 emparejando cada métrica de velocidad con una señal de calidad, rastreada
 en el mismo periodo, para que un equipo pueda distinguir una mejora de
 proceso genuina de un estándar de revisión que se erosiona en silencio.
@@ -163,7 +163,7 @@ proceso genuina de un estándar de revisión que se erosiona en silencio.
 4. **¿Hemos mejorado alguna vez una métrica de velocidad de revisión de una
    forma que, en retrospectiva, redujo el escrutinio real?** Sé honesto
    aquí; este es precisamente el riesgo de sello de goma que nombra este
-   capítulo, y es fácil deslizarse hacia él sin ninguna decisión
+   tema, y es fácil deslizarse hacia él sin ninguna decisión
    deliberada de hacerlo.
 
 5. **¿Qué suele señalar en nuestro equipo un número alto de iteraciones de
@@ -177,7 +177,7 @@ proceso genuina de un estándar de revisión que se erosiona en silencio.
    forma aislada?** Si la respuesta honesta es que no existe tal barrera de
    contención, ese es un vacío que merece cerrarse antes de seguir
    empujando la velocidad de revisión, según el principio de emparejamiento
-   del capítulo 1.2.
+   del tema 1.2.
 
 ## Enfoque sectorial
 
@@ -225,7 +225,7 @@ medido directamente hasta que se extrajeron los datos de carga de
 revisores. Esta concentración era tanto un cuello de botella, ya que la
 disponibilidad de esos ingenieros limitaba el rendimiento de revisión de
 toda la organización, como un riesgo de agotamiento señalado por separado
-por una encuesta de compromiso (capítulo 3.2). La organización introdujo un
+por una encuesta de compromiso (tema 3.2). La organización introdujo un
 programa estructurado de rotación de revisión emparejado con sesiones
 específicas de intercambio de conocimiento, y en dos trimestres la carga de
 revisión se había repartido entre un grupo mucho más amplio, con el tiempo
@@ -255,7 +255,7 @@ mayoría de las mejoras de entrega intercambian velocidad por riesgo en
 algún punto, pero las mejoras en la etapa de revisión, solicitudes más
 pequeñas, mejor distribución de carga, primera respuesta más rápida,
 mejoran genuinamente ambas cosas de forma simultánea cuando se persiguen
-con la barrera de contención de calidad que recomienda este capítulo. El
+con la barrera de contención de calidad que recomienda este tema. El
 ejemplo de ciberseguridad de arriba es típico: arreglar un cuello de
 botella mejoró la velocidad mientras la calidad de revisión subyacente, si
 acaso, mejoró a medida que la experiencia se repartió más ampliamente.

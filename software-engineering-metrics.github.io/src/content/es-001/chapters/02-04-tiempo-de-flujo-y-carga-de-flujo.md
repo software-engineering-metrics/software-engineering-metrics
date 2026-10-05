@@ -3,12 +3,12 @@
 ## Visión general y motivación
 
 El **tiempo de flujo** es el tiempo total transcurrido desde que un
-elemento de flujo (capítulo 2.2) entra en la cadena de valor hasta que se
+elemento de flujo (tema 2.2) entra en la cadena de valor hasta que se
 entrega, midiendo la capacidad de respuesta a lo largo de todo el camino
 desde que se identifica una necesidad de negocio hasta que un cliente
 recibe valor. La **carga de flujo** es el número total de elementos de
 flujo actualmente activos o en espera en la cadena de valor en un momento
-dado, el nombre que le da el Flow Framework a lo que el capítulo 2.5 llama
+dado, el nombre que le da el Flow Framework a lo que el tema 2.5 llama
 trabajo en curso. Juntas, estas son las dos métricas del Flow Framework que
 más directamente se conectan con las matemáticas de la teoría de colas,
 porque la carga de flujo no solo se correlaciona con el tiempo de flujo,
@@ -16,12 +16,12 @@ lo dicta matemáticamente.
 
 Esa relación es la **[ley de
 Little](https://en.wikipedia.org/wiki/Little%27s_law)**, una demostración
-de la teoría de colas (el capítulo 2.7 la cubre al completo) que establece
+de la teoría de colas (el tema 2.7 la cubre al completo) que establece
 que el número promedio de elementos en un sistema estable es igual a la
 tasa de llegada promedio multiplicada por el tiempo promedio que cada
 elemento pasa en el sistema. Aplicado aquí: la carga de flujo es igual a la
 tasa de llegada multiplicada por el tiempo de flujo. Este es el hecho más
-útil de este capítulo, porque convierte un argumento que antes era
+útil de este tema, porque convierte un argumento que antes era
 cualitativo, "estamos demasiado sobrecargados, las cosas están tardando
 demasiado", en uno demostrable y cuantitativo que un líder de negocio no
 puede descartar fácilmente: si la carga de flujo sigue subiendo mientras la
@@ -49,7 +49,7 @@ que no a empezar más trabajo a la vez.
 - **El tiempo de flujo abarca toda la cadena de valor, no solo la
   ingeniería.** Empieza cuando se identifica una necesidad de negocio, no
   cuando la ingeniería recoge el trabajo, que el tiempo de ciclo del
-  capítulo 2.6 después descompone más.
+  tema 2.6 después descompone más.
 - **Una carga de flujo en aumento es la señal de alerta más temprana de un
   tiempo de flujo en aumento.** Porque la relación es demostrable, la carga
   de flujo se puede vigilar como indicador adelantado, no solo descubrirse
@@ -70,12 +70,12 @@ que no a empezar más trabajo a la vez.
 Decide explícitamente si el tiempo de flujo empieza cuando se identifica
 por primera vez una necesidad de negocio, cuando se aprueba formalmente, o
 cuando la ingeniería empieza el trabajo, y documenta esa elección de la
-misma forma que recomienda el capítulo 1.4 para cualquier carta de
+misma forma que recomienda el tema 1.4 para cualquier carta de
 métricas. Esta única decisión determina si el tiempo de flujo mide una
 capacidad de respuesta genuina de principio a fin o solo la porción más
 estrecha de ella que controla la ingeniería, y cambiar la definición más
 adelante sin divulgarlo es el riesgo de manipulación central de este
-capítulo.
+tema.
 
 ### Rastrea la carga de flujo de forma continua, no periódica
 
@@ -101,7 +101,7 @@ porque es demostrable en lugar de solo afirmado.
 ### Separa el tiempo de flujo de las causas subyacentes de la carga de flujo antes de proponer una solución
 
 Cuando la carga de flujo es alta, investiga qué tipo de elemento de flujo
-(capítulo 2.2) la está impulsando realmente: demasiadas funcionalidades
+(tema 2.2) la está impulsando realmente: demasiadas funcionalidades
 concurrentes empezadas a la vez, un backlog de defectos sin atender, o
 trabajo de riesgo atascado esperando una aprobación compartida. Cada causa
 implica una solución distinta, y tratar "la carga de flujo es alta" como un
@@ -111,7 +111,7 @@ ineficaz.
 ### Contrasta el tiempo de flujo con el tiempo de ciclo para aislar dónde ocurre realmente el retraso
 
 Dado que el tiempo de flujo abarca toda la cadena de valor y el tiempo de
-ciclo (capítulo 2.6) cubre solo la porción de ingeniería de ella, compara
+ciclo (tema 2.6) cubre solo la porción de ingeniería de ella, compara
 ambos directamente. Una brecha grande entre el tiempo de flujo y el tiempo
 de ciclo significa que la mayor parte del retraso ocurre antes de que la
 ingeniería vea siquiera el trabajo, en colas de aprobación, backlogs de
@@ -130,7 +130,7 @@ muy distinta de una brecha concentrada dentro de la propia ingeniería.
 La tensión central es **alcance frente a alcance de la instrumentación**.
 Medir el tiempo de flujo solo desde que lo recoge ingeniería es mucho más
 fácil de instrumentar, ya que reutiliza los datos de tiempo de ciclo que ya
-recoge el capítulo 2.6, pero subestima en silencio la capacidad de
+recoge el tema 2.6, pero subestima en silencio la capacidad de
 respuesta real al ignorar todo lo que ocurre antes de que ingeniería vea el
 trabajo. Resuélvela empezando por la medición más estrecha, limitada a
 ingeniería, si es todo lo que puedes instrumentar hoy, pero trata extender
@@ -175,7 +175,7 @@ prioridad a corto plazo y no como una limitación permanente.
 6. **¿Ha estrechado alguien alguna vez en silencio nuestro punto de partida
    del tiempo de flujo para que el número se vea mejor, sin que ese cambio
    se documentara o divulgara?** Este es el riesgo de manipulación central
-   del capítulo expuesto directamente. Pregúntate con honestidad si tu
+   del tema expuesto directamente. Pregúntate con honestidad si tu
    definición ha derivado alguna vez de esta forma.
 
 ## Enfoque sectorial
@@ -264,13 +264,13 @@ que su capacidad real puede sostener.
 
 - **Estrechar en silencio el punto de partida del tiempo de flujo para
   favorecer el número:** el vector de manipulación central de este
-  capítulo. Mover el inicio del reloj desde la identificación genuina de la
+  tema. Mover el inicio del reloj desde la identificación genuina de la
   necesidad de negocio hacia un punto posterior, la recogida por
   ingeniería, la aprobación formal, reduce el tiempo de flujo sin cambiar
   en absoluto la capacidad de respuesta genuina, y puede ocurrir de forma
   lo bastante gradual como para que ningún cambio individual parezca una
   manipulación deliberada. La barrera de contención es documentar
-  explícitamente el punto de entrada en una carta de métricas (capítulo
+  explícitamente el punto de entrada en una carta de métricas (tema
   1.4) y auditarlo periódicamente frente a la definición documentada, la
   misma disciplina que este libro pide para cada límite de métrica.
 - **Medir la carga de flujo solo periódicamente:** renuncia a su valor
@@ -325,8 +325,8 @@ que su capacidad real puede sostener.
   tiempo de flujo, para cualquier cadena de valor estable.
 - **El tiempo de flujo abarca toda la cadena de valor**, desde la
   identificación de la necesidad de negocio hasta la entrega, más amplio
-  que el alcance limitado a ingeniería del tiempo de ciclo (capítulo 2.6).
-- El vector de manipulación central del capítulo es **estrechar en
+  que el alcance limitado a ingeniería del tiempo de ciclo (tema 2.6).
+- El vector de manipulación central del tema es **estrechar en
   silencio el punto de partida del tiempo de flujo**; la barrera de
   contención es una definición documentada y auditada del punto de
   entrada.

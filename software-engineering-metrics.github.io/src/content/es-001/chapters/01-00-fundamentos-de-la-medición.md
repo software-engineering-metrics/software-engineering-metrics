@@ -29,13 +29,13 @@ silencio en una entrada crítica e incuestionada para decisiones que toman
 personas que nunca ven la canalización que la generó. Sentar bien los
 fundamentos es lo que hace soportable ese peso.
 
-## Capítulos de esta parte
+## Temas de esta parte
 
 - **1.1 Por qué medir la ingeniería de software:** El argumento a favor de
   medir siquiera, qué se supone que debe lograr, y la diferencia entre medir
   para aprender y medir para juzgar.
 - **1.2 La ley de Goodhart y la psicología de las métricas:** La única idea
-  que rige cada uno de los demás capítulos de este libro: una medida que se
+  que rige cada uno de los demás temas de este libro: una medida que se
   convierte en un objetivo deja de ser una buena medida, y los mecanismos
   psicológicos que hacen casi inevitable la manipulación en cuanto la gente
   sabe que se la está vigilando.
@@ -55,27 +55,27 @@ fundamentos es lo que hace soportable ese peso.
   honestidad: percentiles frente a promedios, tamaño de muestra, regresión a
   la media y variables de confusión.
 
-## Cómo se relacionan estos capítulos
+## Cómo se relacionan estos temas
 
-Estos seis capítulos se construyen en un orden estricto. El capítulo 1.1
+Estos seis temas se construyen en un orden estricto. El tema 1.1
 pregunta por qué medir siquiera, algo que importa porque un equipo que no lo
 ha respondido acaba recopilando números sobre los que nadie actúa. El
-capítulo 1.2 es el eje sobre el que gira el resto del libro: en cuanto
+tema 1.2 es el eje sobre el que gira el resto del libro: en cuanto
 aceptas que cualquier medida puede convertirse en un objetivo y sufrir
-manipulación, las recomendaciones de todos los capítulos posteriores se
-derivan de diseñar contra ese riesgo. El capítulo 1.3 convierte esa cautela
+manipulación, las recomendaciones de todos los temas posteriores se
+derivan de diseñar contra ese riesgo. El tema 1.3 convierte esa cautela
 en una regla positiva: pondera hacia los resultados, porque son la
-categoría más difícil de manipular de forma barata. El capítulo 1.4 hace
-concreta la gobernanza, el capítulo 1.5 hace concretos los datos, y el
-capítulo 1.6 te da el juicio estadístico para evitar que te engañe el ruido
+categoría más difícil de manipular de forma barata. El tema 1.4 hace
+concreta la gobernanza, el tema 1.5 hace concretos los datos, y el
+tema 1.6 te da el juicio estadístico para evitar que te engañe el ruido
 incluso una vez que la gobernanza y la instrumentación son sólidas.
 
 Todo lo que viene después depende de esta parte. Las métricas de flujo y las
 métricas DORA de la parte 2, y el marco SPACE de la parte 3, son todos, en
 efecto, ejemplos trabajados de los principios de ponderación de resultados y
-emparejamiento con barreras de contención expuestos en los capítulos 1.2 y
-1.3. La guía de diseño de tableros del capítulo 8.1 asume el modelo de
-gobernanza del capítulo 1.4. Y el modelo de madurez que cierra cada capítulo
+emparejamiento con barreras de contención expuestos en los temas 1.2 y
+1.3. La guía de diseño de tableros del tema 8.1 asume el modelo de
+gobernanza del tema 1.4. Y el modelo de madurez que cierra cada tema
 de este libro es, bajo sus cinco niveles, un modelo de madurez precisamente
 para la disciplina que introduce esta parte: medir con intención, y revisar
 tu propio trabajo.

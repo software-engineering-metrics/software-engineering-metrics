@@ -13,7 +13,7 @@ genuine, validated insight: code with more independent paths through it is
 harder to fully test, harder to reason about, and, in decades of empirical
 research, measurably more likely to contain defects.
 
-This chapter treats that insight with real respect while also treating its
+This topic treats that insight with real respect while also treating its
 limits with equal seriousness. Complexity metrics measure one specific
 property of code, and a codebase can be simple by every complexity metric
 while still being poorly designed, badly named, or conceptually incoherent
@@ -72,7 +72,7 @@ trade-offs.
 
 ### Watch for gaming through decomposition without genuine simplification
 
-The most common way complexity scores get gamed is chapter 1.2's
+The most common way complexity scores get gamed is topic 1.2's
 substitution pattern applied to this specific metric: splitting one
 genuinely complex function into several smaller functions that individually
 score well, while the overall system remains just as hard to understand, or
@@ -132,7 +132,7 @@ automated gate alone.
 
 2. **Have we ever seen a function split into several smaller ones without
    the resulting code actually becoming easier to understand?** This is the
-   clearest sign of the decomposition-gaming pattern this chapter warns
+   clearest sign of the decomposition-gaming pattern this topic warns
    about. Look at a recent refactor motivated primarily by a complexity
    score and assess honestly whether it improved genuine understandability.
 
@@ -144,18 +144,18 @@ automated gate alone.
 4. **Do we use complexity metrics to triage review effort, or as a hard
    automated gate with no human judgement involved?** Discuss whether your
    current enforcement approach leaves room for the essential-versus-accidental
-   distinction this chapter recommends, or whether it treats every breach
+   distinction this topic recommends, or whether it treats every breach
    identically regardless of context.
 
 5. **Has a complexity score ever been used, even informally, to judge an
    individual engineer's work quality?** This risks the same
-   individual-evaluation trap chapter 3.4 warns against for activity
+   individual-evaluation trap topic 3.4 warns against for activity
    metrics, applied here to code metrics instead, and it invites the same
    gaming response.
 
 6. **What does our complexity trend look like over the last year for our
    most critical, most frequently changed files?** Combine this with the
-   churn and hotspot analysis from chapter 4.3, since a file that is both
+   churn and hotspot analysis from topic 4.3, since a file that is both
    highly complex and frequently changed deserves attention well before one
    that is complex but rarely touched.
 
@@ -173,7 +173,7 @@ output as a periodic triage signal rather than investing in dedicated
 tooling. Focus attention on your most frequently modified files first.
 
 **Enterprise.** Complexity metrics at scale are most valuable combined with
-churn data (chapter 4.3) to prioritise refactoring investment across a
+churn data (topic 4.3) to prioritise refactoring investment across a
 codebase too large for any individual to survey manually. Calibrate
 thresholds per service or domain rather than applying one organisation-wide
 number, since legitimate complexity varies significantly across different
@@ -222,7 +222,7 @@ cost a broad, untargeted refactoring initiative would have required.
 
 The total cost of ownership is low: most modern development toolchains
 compute complexity metrics automatically as part of static analysis
-(chapter 4.4), and the real investment is the human judgement time to
+(topic 4.4), and the real investment is the human judgement time to
 interpret results correctly, distinguishing essential from accidental
 complexity and catching decomposition gaming, rather than any significant
 new tooling cost.
@@ -232,7 +232,7 @@ new tooling cost.
 - **Treating a complexity score as a direct quality verdict:** it measures
   one specific property, not overall code quality.
 - **Splitting a function to game the score without genuine simplification:**
-  the decomposition-gaming pattern this chapter names specifically.
+  the decomposition-gaming pattern this topic names specifically.
 - **Applying a universal threshold without calibrating to your own
   codebase:** produces either too-lenient or too-strict enforcement
   depending on domain.
@@ -255,7 +255,7 @@ new tooling cost.
   distribution, and complexity metrics consistently drive review and
   refactoring triage organisation-wide.
 - **Level 4, Manage:** Complexity trend and outliers are actively monitored
-  and combined with churn data (chapter 4.3) to prioritise refactoring
+  and combined with churn data (topic 4.3) to prioritise refactoring
   investment; decomposition gaming is actively watched for.
 - **Level 5, Orchestrate:** The organisation can point to specific,
   measurable defect-rate improvements traced directly to complexity-informed

@@ -2,29 +2,29 @@
 
 ## Översikt och motivation
 
-Det här kapitlet vidgar linsen bortom kapitel 5.2:s funktionsnivå-adoption till hela intervallet av kund- och affärsutfall en organisation faktiskt bryr sig om: intäkt behållen eller vuxen, kundnöjdhet och lojalitet, kostnadsminskning, risk undviken, och, för organisationer inom offentlig sektor, medborgarutfallen ett uppdrag existerar för att tjäna. De här är utfallsmätetalen kapitel 1.3 placerade i toppen av insats-output-utfall-hierarkin, och det här kapitlet är där den här boken konfronterar den svåraste, mest ärliga versionen av det kapitlets centrala utmaning: utfall på den här nivån är sällan tillskrivbara till ingenjörskonst ensam, och att låtsas annorlunda producerar exakt det falsk-precision-problem kapitel 3.3 varnade om för individuell prestation, nu skalat upp till nivån av en hel ingenjörsorganisations bidrag till verksamheten.
+Det här ämnet vidgar linsen bortom ämne 5.2:s funktionsnivå-adoption till hela intervallet av kund- och affärsutfall en organisation faktiskt bryr sig om: intäkt behållen eller vuxen, kundnöjdhet och lojalitet, kostnadsminskning, risk undviken, och, för organisationer inom offentlig sektor, medborgarutfallen ett uppdrag existerar för att tjäna. De här är utfallsmätetalen ämne 1.3 placerade i toppen av insats-output-utfall-hierarkin, och det här ämnet är där den här boken konfronterar den svåraste, mest ärliga versionen av det ämnets centrala utmaning: utfall på den här nivån är sällan tillskrivbara till ingenjörskonst ensam, och att låtsas annorlunda producerar exakt det falsk-precision-problem ämne 3.3 varnade om för individuell prestation, nu skalat upp till nivån av en hel ingenjörsorganisations bidrag till verksamheten.
 
-Det produktiva svaret på den tillskrivningssvårigheten är inte att ge upp på att koppla ingenjörsarbete till affärsutfall, vilket skulle överge kapitel 1.3:s hela premiss, utan att vara ärlig om kopplingens styrka och att använda konvergerande bevis snarare än falsk-precision-påståenden om direkt kausalitet. En väl driven ingenjörsorganisation kan visa att dess arbete korrelerar med, bidrar till, och ibland direkt driver specifika affärsutfall, utan att hävda ensam kredit för utfall som också beror på försäljning, marknadsföring, marknadsförhållanden, och produktstrategibeslut fattade långt utanför ingenjörskonstens kontroll.
+Det produktiva svaret på den tillskrivningssvårigheten är inte att ge upp på att koppla ingenjörsarbete till affärsutfall, vilket skulle överge ämne 1.3:s hela premiss, utan att vara ärlig om kopplingens styrka och att använda konvergerande bevis snarare än falsk-precision-påståenden om direkt kausalitet. En väl driven ingenjörsorganisation kan visa att dess arbete korrelerar med, bidrar till, och ibland direkt driver specifika affärsutfall, utan att hävda ensam kredit för utfall som också beror på försäljning, marknadsföring, marknadsförhållanden, och produktstrategibeslut fattade långt utanför ingenjörskonstens kontroll.
 
-För stora team avgör det här kapitlets disciplin om ingenjörskonst har en verklig plats vid det strategiska bordet eller behandlas som ett kostnadscenter vars värde antas snarare än demonstreras. Stora företag använder kund- och affärsutfallsmätetal för att motivera fortsatt och utökad ingenjörsinvestering mot konkurrerande anspråk på kapital; myndigheter använder de motsvarande medborgarutfallsmätetalen för att visa att offentliga teknikutgifter producerade sitt avsedda offentliga värde, vilket alltmer är standarden tillsynsorgan håller digitala myndighetsprogram till.
+För stora team avgör det här ämnets disciplin om ingenjörskonst har en verklig plats vid det strategiska bordet eller behandlas som ett kostnadscenter vars värde antas snarare än demonstreras. Stora företag använder kund- och affärsutfallsmätetal för att motivera fortsatt och utökad ingenjörsinvestering mot konkurrerande anspråk på kapital; myndigheter använder de motsvarande medborgarutfallsmätetalen för att visa att offentliga teknikutgifter producerade sitt avsedda offentliga värde, vilket alltmer är standarden tillsynsorgan håller digitala myndighetsprogram till.
 
 ## Nyckelprinciper
 
 - **Utfall är sällan tillskrivbara till ingenjörskonst ensam.** Använd konvergerande bevis och ärligt korrelationsspråk, inte falska påståenden om ensam kausalitet.
 - **Koppla ingenjörsmätetal till utfallsmätetal explicit, genom en dokumenterad kausal kedja**, inte bara sammanställning på samma instrumentpanel.
 - **Myndigheter och uppdragsdrivna organisationer har utfallsmätetal bortom intäkt.** Medborgarväntetid, felfrekvens, och tjänsteslutförande spelar lika mycket, eller mer, roll som finansiella mått.
-- **Ett affärsutfallsmätetal är långsamt och bullrigt.** Tillämpa kapitel 1.6:s statistiska litteracitet rigoröst här, mer än nästan någon annanstans i den här boken.
+- **Ett affärsutfallsmätetal är långsamt och bullrigt.** Tillämpa ämne 1.6:s statistiska litteracitet rigoröst här, mer än nästan någon annanstans i den här boken.
 - **Det här är där ingenjörskonstens trovärdighet med icke-tekniska intressenter vinns eller förloras.** Tala i utfallsspråket er publik redan använder.
 
 ## Rekommendationer
 
 ### Bygg en explicit, dokumenterad kausal kedja från ingenjörsmätetal till affärsutfall
 
-Snarare än att presentera leveransmätetal och affärsutfall sida vid sida och låta en publik sluta sig till en koppling, bygg mätetalsträdet (kapitel 1.3) explicit: den här specifika ingenjörsinvesteringen minskade ledtid, vilket möjliggjorde snabbare respons på ett specifikt kundbehov, vilket korrelerade med en specifik förbättring i retention. Dokumentera varje länk i den här kedjan med sina egna bevis, så det övergripande påståendet är en kedja av försvarbara enskilda länkar snarare än ett enda, ostött hopp från "vi förbättrade driftsättningsfrekvens" till "intäkten växte."
+Snarare än att presentera leveransmätetal och affärsutfall sida vid sida och låta en publik sluta sig till en koppling, bygg mätetalsträdet (ämne 1.3) explicit: den här specifika ingenjörsinvesteringen minskade ledtid, vilket möjliggjorde snabbare respons på ett specifikt kundbehov, vilket korrelerade med en specifik förbättring i retention. Dokumentera varje länk i den här kedjan med sina egna bevis, så det övergripande påståendet är en kedja av försvarbara enskilda länkar snarare än ett enda, ostött hopp från "vi förbättrade driftsättningsfrekvens" till "intäkten växte."
 
 ### Använd ärligt [korrelationsspråk](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation), och leta aktivt efter störvariabler
 
-Följande kapitel 1.6:s vägledning direkt, motstå att hävda att en ingenjörsändring *orsakade* en affärsutfallsförbättring utan att överväga vad annat ändrades samtidigt: en prisändring, en konkurrents snedsteg, en säsongseffekt, en marknadsföringskampanj. Uttala fynd som korrelationer stödda av en trolig kausal kedja, och var explicit om vilka störvariabler ni övervägde och uteslöt, snarare än att presentera en enda före-och-efter-jämförelse som bevis.
+Följande ämne 1.6:s vägledning direkt, motstå att hävda att en ingenjörsändring *orsakade* en affärsutfallsförbättring utan att överväga vad annat ändrades samtidigt: en prisändring, en konkurrents snedsteg, en säsongseffekt, en marknadsföringskampanj. Uttala fynd som korrelationer stödda av en trolig kausal kedja, och var explicit om vilka störvariabler ni övervägde och uteslöt, snarare än att presentera en enda före-och-efter-jämförelse som bevis.
 
 ### Spåra medborgar- och uppdragsutfall explicit för arbete inom offentlig sektor och uppdragsdrivna organisationer
 
@@ -36,7 +36,7 @@ Tal ensamma, särskilt långsamt rörliga, bullriga affärsutfallstal, kan missa
 
 ### Presentera utfallsdata i publikens eget vokabulär
 
-Vid presentation för icke-tekniska intressenter, chefer, styrelsemedlemmar, lagstiftande tillsynsorgan, led med utfallsmätetalet i språk de redan använder (intäkt behållen, kostnad undviken, medborgarväntetid minskad), och använd ingenjörsmätetal bara som stödjande bevis för hur det utfallet uppnåddes, inte som rubriken. Det här är en direkt tillämpning av kapitel 1.3:s utfallsviktningsprincip på den specifika färdigheten av intressentkommunikation.
+Vid presentation för icke-tekniska intressenter, chefer, styrelsemedlemmar, lagstiftande tillsynsorgan, led med utfallsmätetalet i språk de redan använder (intäkt behållen, kostnad undviken, medborgarväntetid minskad), och använd ingenjörsmätetal bara som stödjande bevis för hur det utfallet uppnåddes, inte som rubriken. Det här är en direkt tillämpning av ämne 1.3:s utfallsviktningsprincip på den specifika färdigheten av intressentkommunikation.
 
 ## Avvägningar: fördelar och nackdelar
 
@@ -71,7 +71,7 @@ Den centrala spänningen är **övertygande berättelse kontra försvarbar ärli
 
 **Stort företag.** Att bygga den dokumenterade kausala kedjan från ingenjörsmätetal till affärsutfall är genuint svårt på den här skalan, givet organisatorisk komplexitet och många störvariabler, men det är också där investeringen lönar sig mest, eftersom ingenjörskonstens trovärdighet i kapitalallokeringskonversationer beror direkt på den här typen av försvarbart bevis.
 
-**Myndighet.** Medborgar- och uppdragsutfallsmätetal är alltmer vad tillsynsorgan förväntar sig, och ett program som bara kan rapportera leveransmätetal (funktioner levererade, i tid) inbjuder exakt den skepticism det här kapitlet är byggt att hjälpa er förebygga. Investera i att spåra medborgarutfall explicit, även där de är svårare att mäta än ett enkelt leveransantal, eftersom den investeringen direkt skyddar framtida finansiering och trovärdighet.
+**Myndighet.** Medborgar- och uppdragsutfallsmätetal är alltmer vad tillsynsorgan förväntar sig, och ett program som bara kan rapportera leveransmätetal (funktioner levererade, i tid) inbjuder exakt den skepticism det här ämnet är byggt att hjälpa er förebygga. Investera i att spåra medborgarutfall explicit, även där de är svårare att mäta än ett enkelt leveransantal, eftersom den investeringen direkt skyddar framtida finansiering och trovärdighet.
 
 ## Exempel
 

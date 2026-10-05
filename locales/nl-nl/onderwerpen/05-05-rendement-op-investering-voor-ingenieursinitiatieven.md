@@ -2,15 +2,15 @@
 
 ## Overzicht en motivatie
 
-Dit hoofdstuk sluit deel 5 af door alles samen te brengen dat de voorgaande vier hoofdstukken maten, kwaliteit, adoptie, uitkomsten, en kost, in de enkele financiële framing die uiteindelijk de meeste grote ingenieursinvesteringsbeslissingen bestuurt: **[rendement op investering](https://en.wikipedia.org/wiki/Return_on_investment) (ROI)**. Of een organisatie beslist om een platformmodernisering, een grote refactoringinspanning, of een nieuwe productlijn te financieren, uiteindelijk moet iemand de vraag beantwoorden in financiële termen: is dit waard wat het kost. Dit hoofdstuk gaat over die vraag eerlijk beantwoorden, de metrieken gebruikend die dit boek al gebouwd heeft, in plaats van ofwel de vraag te vermijden (wat invloed over investeringsbeslissingen afgeeft aan mensen minder toegerust om het goed te beantwoorden) of het te beantwoorden met een opgeblazen, onhoudbare zaak die geloofwaardigheid beschadigt wanneer het niet standhoudt.
+Dit onderwerp sluit deel 5 af door alles samen te brengen dat de voorgaande vier onderwerpen maten, kwaliteit, adoptie, uitkomsten, en kost, in de enkele financiële framing die uiteindelijk de meeste grote ingenieursinvesteringsbeslissingen bestuurt: **[rendement op investering](https://en.wikipedia.org/wiki/Return_on_investment) (ROI)**. Of een organisatie beslist om een platformmodernisering, een grote refactoringinspanning, of een nieuwe productlijn te financieren, uiteindelijk moet iemand de vraag beantwoorden in financiële termen: is dit waard wat het kost. Dit onderwerp gaat over die vraag eerlijk beantwoorden, de metrieken gebruikend die dit boek al gebouwd heeft, in plaats van ofwel de vraag te vermijden (wat invloed over investeringsbeslissingen afgeeft aan mensen minder toegerust om het goed te beantwoorden) of het te beantwoorden met een opgeblazen, onhoudbare zaak die geloofwaardigheid beschadigt wanneer het niet standhoudt.
 
-De discipline die dit hoofdstuk aanbeveelt put direct op de eenheidseconomie van hoofdstuk 5.4 voor de kostzijde van de vergelijking, en de uitkomstmetrieken van hoofdstuk 5.3, met hun eerlijke behandeling van toeschrijvingsonzekerheid, voor de voordeelzijde. Een ROI-zaak zo gebouwd is noodzakelijk bescheidener en voorzichtiger afgewogen dan een simpel, aantrekkelijk kopcijfer, maar het heeft het beslissende voordeel dat dit boek doorheen benadrukt heeft: het overleeft doorlichting, en een organisatie die consistent verdedigbare ROI-zaken bouwt verdient meer vertrouwen, en daarom meer autonomie, in toekomstige investeringsbeslissingen dan een die occasioneel overdreven belooft.
+De discipline die dit onderwerp aanbeveelt put direct op de eenheidseconomie van onderwerp 5.4 voor de kostzijde van de vergelijking, en de uitkomstmetrieken van onderwerp 5.3, met hun eerlijke behandeling van toeschrijvingsonzekerheid, voor de voordeelzijde. Een ROI-zaak zo gebouwd is noodzakelijk bescheidener en voorzichtiger afgewogen dan een simpel, aantrekkelijk kopcijfer, maar het heeft het beslissende voordeel dat dit boek doorheen benadrukt heeft: het overleeft doorlichting, en een organisatie die consistent verdedigbare ROI-zaken bouwt verdient meer vertrouwen, en daarom meer autonomie, in toekomstige investeringsbeslissingen dan een die occasioneel overdreven belooft.
 
 Voor grote teams is ROI-discipline wat een ingenieursorganisatie behandeld als een strategische partner scheidt van een behandeld als een kostencentrum waarvan de uitgave getolereerd in plaats van actief in geïnvesteerd wordt. Grote bedrijven gebruiken rigoureuze ROI-zaken om succesvol te concurreren voor kapitaal tegen andere bedrijfsinvesteringen; overheidsorganisaties gebruiken de equivalente discipline, vaak herkaderd als kosten-batenanalyse, om publieke technologiefinanciering te verzekeren en te onderhouden tegen politieke en budgettaire druk die weinig geduld heeft voor vage, ongegronde beloften.
 
 ## Kernprincipes
 
-- **Een eerlijke ROI-zaak wordt gebouwd uit de andere metrieken van dit boek**, niet afzonderlijk uitgevonden; kost van hoofdstuk 5.4, voordeel van hoofdstukken 5.1 tot en met 5.3.
+- **Een eerlijke ROI-zaak wordt gebouwd uit de andere metrieken van dit boek**, niet afzonderlijk uitgevonden; kost van onderwerp 5.4, voordeel van onderwerpen 5.1 tot en met 5.3.
 - **Totale eigendomskosten, niet alleen vooraf-kost, behoort op de kostzijde.** Doorlopende onderhouds-, support-, en infrastructuurkost groeien samen over de levensduur van een systeem.
 - **Voordeelschattingen dragen onzekerheid; stel het expliciet** in plaats van een enkel, vals-precies cijfer te presenteren.
 - **Een negatieve of marginale ROI-bevinding is een legitieme, nuttige uitkomst.** De discipline bestaat om beslissingen eerlijk te informeren, niet om al gemaakte beslissingen te rechtvaardigen.
@@ -20,15 +20,15 @@ Voor grote teams is ROI-discipline wat een ingenieursorganisatie behandeld als e
 
 ### Bouw de kostzijde uit totale eigendomskosten, niet alleen vooraf-investering
 
-Omvat niet alleen de initiële ontwikkelkost maar de volledige **[totale eigendomskosten](https://en.wikipedia.org/wiki/Total_cost_of_ownership) (TCO)**: doorlopend onderhoud, infrastructuur (de eenheidseconomie van hoofdstuk 5.4 is hier direct nuttig), support, en de opportuniteitskost van de ingenieurscapaciteit die het initiatief verbruikt die naar alternatief werk had kunnen gaan. Een project dat goedkoop oogt gebaseerd op vooraf-kost alleen kan duur zijn over zijn volle levensduur eenmaal doorlopende onderhoudslast eerlijk verantwoord wordt.
+Omvat niet alleen de initiële ontwikkelkost maar de volledige **[totale eigendomskosten](https://en.wikipedia.org/wiki/Total_cost_of_ownership) (TCO)**: doorlopend onderhoud, infrastructuur (de eenheidseconomie van onderwerp 5.4 is hier direct nuttig), support, en de opportuniteitskost van de ingenieurscapaciteit die het initiatief verbruikt die naar alternatief werk had kunnen gaan. Een project dat goedkoop oogt gebaseerd op vooraf-kost alleen kan duur zijn over zijn volle levensduur eenmaal doorlopende onderhoudslast eerlijk verantwoord wordt.
 
 ### Bouw de voordeelzijde uit gedocumenteerd, eerlijk uitkomstbewijs
 
-Trek voordeelschattingen uit de uitkomstmeting-discipline van hoofdstukken 5.1 tot en met 5.3: kwaliteitsverbeteringen vertaald naar verminderde incident- en supportkost, adoptiedata vertaald naar gebruik-gedreven waarde, en bedrijfsuitkomstcorrelaties gebouwd met de eerlijke, verwarrende-variabele-gecheckte causale-keten-aanpak van hoofdstuk 5.3. Vermijd een voordeelschatting uit te vinden vanuit eerste principes of optimistische aanname wanneer daadwerkelijk gemeten of vergelijkbare historische data beschikbaar is om het te gronden in plaats daarvan.
+Trek voordeelschattingen uit de uitkomstmeting-discipline van onderwerpen 5.1 tot en met 5.3: kwaliteitsverbeteringen vertaald naar verminderde incident- en supportkost, adoptiedata vertaald naar gebruik-gedreven waarde, en bedrijfsuitkomstcorrelaties gebouwd met de eerlijke, verwarrende-variabele-gecheckte causale-keten-aanpak van onderwerp 5.3. Vermijd een voordeelschatting uit te vinden vanuit eerste principes of optimistische aanname wanneer daadwerkelijk gemeten of vergelijkbare historische data beschikbaar is om het te gronden in plaats daarvan.
 
 ### Stel onzekerheid expliciet, een bereik gebruikend in plaats van een enkel cijfer
 
-Presenteer ROI-schattingen als een bereik (een conservatief geval en een optimistisch geval) in plaats van een enkel, vals-precies cijfer, en verklaar wat het bereik drijft: welke specifieke aanname, als het optimistisch of pessimistisch blijkt, de uitkomst het meest zou verplaatsen. Dit weerspiegelt het statistische-geletterdheid-principe van hoofdstuk 1.6 direct, toegepast op financiële projectie, en het beschermt de geloofwaardigheid van de zaak, omdat een enkele puntschatting die verkeerd blijkt te zijn vertrouwen veel meer beschadigt dan een goed-verklaard bereik waarin de daadwerkelijke uitkomst valt.
+Presenteer ROI-schattingen als een bereik (een conservatief geval en een optimistisch geval) in plaats van een enkel, vals-precies cijfer, en verklaar wat het bereik drijft: welke specifieke aanname, als het optimistisch of pessimistisch blijkt, de uitkomst het meest zou verplaatsen. Dit weerspiegelt het statistische-geletterdheid-principe van onderwerp 1.6 direct, toegepast op financiële projectie, en het beschermt de geloofwaardigheid van de zaak, omdat een enkele puntschatting die verkeerd blijkt te zijn vertrouwen veel meer beschadigt dan een goed-verklaard bereik waarin de daadwerkelijke uitkomst valt.
 
 ### Behandel een negatieve of marginale bevinding als een legitiem resultaat
 
@@ -36,7 +36,7 @@ Bouw je ROI-analyseproces om echt in staat te zijn te concluderen "dit is het ni
 
 ### Volg daadwerkelijke uitkomsten tegen de geprojecteerde zaak, en sluit de lus publiekelijk
 
-Nadat een initiatief afrondt, of een betekenisvolle mijlpaal bereikt, vergelijk daadwerkelijk gemeten uitkomsten tegen het originele geprojecteerde bereik, en publiceer die vergelijking, inclusief waar de projectie verkeerd was. Deze lus-sluiten-discipline, gelijkend op de aanbeveling van hoofdstuk 3.7 voor enquêtevervolg, is wat de langetermijn-ROI-voorspelling-geloofwaardigheid van een organisatie bouwt en de accuraatheid van toekomstige schattingen verbetert door een echte, zichtbare feedbacklus te creëren.
+Nadat een initiatief afrondt, of een betekenisvolle mijlpaal bereikt, vergelijk daadwerkelijk gemeten uitkomsten tegen het originele geprojecteerde bereik, en publiceer die vergelijking, inclusief waar de projectie verkeerd was. Deze lus-sluiten-discipline, gelijkend op de aanbeveling van onderwerp 3.7 voor enquêtevervolg, is wat de langetermijn-ROI-voorspelling-geloofwaardigheid van een organisatie bouwt en de accuraatheid van toekomstige schattingen verbetert door een echte, zichtbare feedbacklus te creëren.
 
 ## Afwegingen: voor- en nadelen
 
@@ -47,7 +47,7 @@ Nadat een initiatief afrondt, of een betekenisvolle mijlpaal bereikt, vergelijk 
 | Alleen-vooraf-kost-analyse | Simpel, snel te produceren | Onderschat echte kost door doorlopende onderhouds- en supportlast weg te laten |
 | Volledige totale-eigendomskosten-analyse | Accuraat, compleet beeld van echte investeringskost | Vereist meer dataverzameling, vooral voor doorlopende kostprojectie |
 
-De centrale spanning is **overtuigende simpliciteit versus verdedigbare eerlijkheid**, dezelfde spanning die hoofdstuk 5.3 benoemde voor uitkomstclaims algemeen, nu specifiek toegepast op de financiële zaak. Een simpele, zelfverzekerde enkel-cijfer-ROI-claim is makkelijker te verkopen aan een beslisser op het moment, maar een eerlijke, bereik-gebaseerde zaak met expliciete onzekerheid en volledige totale-eigendomskosten-verantwoording is wat daadwerkelijk standhoudt over de levensduur van de investering en de geloofwaardigheid van de organisatie beschermt voor de volgende zaak die het moet maken.
+De centrale spanning is **overtuigende simpliciteit versus verdedigbare eerlijkheid**, dezelfde spanning die onderwerp 5.3 benoemde voor uitkomstclaims algemeen, nu specifiek toegepast op de financiële zaak. Een simpele, zelfverzekerde enkel-cijfer-ROI-claim is makkelijker te verkopen aan een beslisser op het moment, maar een eerlijke, bereik-gebaseerde zaak met expliciete onzekerheid en volledige totale-eigendomskosten-verantwoording is wat daadwerkelijk standhoudt over de levensduur van de investering en de geloofwaardigheid van de organisatie beschermt voor de volgende zaak die het moet maken.
 
 ## Vragen om met je team te bespreken
 
@@ -65,11 +65,11 @@ De centrale spanning is **overtuigende simpliciteit versus verdedigbare eerlijkh
 
 ## Sectorperspectief
 
-**Startup.** Formele ROI-analyse is vaak minder relevant dan een simpelere voortbestaan-en-groei-vraag: helpt deze investering ons de volgende mijlpaal of financieringsronde te bereiken. Toch, pas hetzelfde eerlijkheidsprincipe toe, weersta het opblazen van een zaak om een beslissing te rechtvaardigen waar het team zich emotioneel al aan verbonden heeft, omdat investeerdersdoorlichting uiteindelijk dezelfde scepsis zal toepassen die dit hoofdstuk aanbeveelt eerst intern toe te passen.
+**Startup.** Formele ROI-analyse is vaak minder relevant dan een simpelere voortbestaan-en-groei-vraag: helpt deze investering ons de volgende mijlpaal of financieringsronde te bereiken. Toch, pas hetzelfde eerlijkheidsprincipe toe, weersta het opblazen van een zaak om een beslissing te rechtvaardigen waar het team zich emotioneel al aan verbonden heeft, omdat investeerdersdoorlichting uiteindelijk dezelfde scepsis zal toepassen die dit onderwerp aanbeveelt eerst intern toe te passen.
 
-**Klein bedrijf.** Houd ROI-analyse proportioneel aan de grootte van de beslissing; een grote, meerjarige platforminvestering verdient de volledige discipline die dit hoofdstuk aanbeveelt, terwijl een kleine toolingaankoop niet dezelfde rigoureusheid nodig heeft. Focus formele analyse-inspanning op je enkele grootste, meest consequentiële beslissingen.
+**Klein bedrijf.** Houd ROI-analyse proportioneel aan de grootte van de beslissing; een grote, meerjarige platforminvestering verdient de volledige discipline die dit onderwerp aanbeveelt, terwijl een kleine toolingaankoop niet dezelfde rigoureusheid nodig heeft. Focus formele analyse-inspanning op je enkele grootste, meest consequentiële beslissingen.
 
-**Groot bedrijf.** ROI-discipline op deze schaal bepaalt of ingenieurswerk succesvol concurreert voor kapitaal tegen andere bedrijfsinvesteringen met meer gevestigde financiële-analyse-tradities. Bouw de volledige totale-eigendomskosten- en bereik-gebaseerde discipline die dit hoofdstuk aanbeveelt als standaardpraktijk, en investeer in de lus-sluiten-tracking die langetermijn-voorspelling-geloofwaardigheid bouwt.
+**Groot bedrijf.** ROI-discipline op deze schaal bepaalt of ingenieurswerk succesvol concurreert voor kapitaal tegen andere bedrijfsinvesteringen met meer gevestigde financiële-analyse-tradities. Bouw de volledige totale-eigendomskosten- en bereik-gebaseerde discipline die dit onderwerp aanbeveelt als standaardpraktijk, en investeer in de lus-sluiten-tracking die langetermijn-voorspelling-geloofwaardigheid bouwt.
 
 **Overheid.** Kosten-batenanalyse, het publieke-sector-equivalent van ROI, is vaak een formeel, vereist deel van budgetrechtvaardiging, en eerlijkheid over onzekerheid en totale eigendomskosten is bijzonder belangrijk waar bevindingen externe audit of wetgevende doorlichting zouden kunnen tegenkomen. Een analyse die voordeel overdreef of kost onderschatte, eenmaal ontdekt, veroorzaakt blijvende schade aan de geloofwaardigheid van een programma bij zijn financieringsinstantie.
 
@@ -112,7 +112,7 @@ De totale eigendomskosten van deze discipline zijn de analytische inspanning om 
 
 ## Belangrijkste inzichten
 
-- Bouw ROI-zaken uit de **andere metrieken** van dit boek, kost uit eenheidseconomie (hoofdstuk 5.4), voordeel uit gedocumenteerd uitkomstbewijs (hoofdstukken 5.1 tot en met 5.3), niet uit uitgevonden aannames.
+- Bouw ROI-zaken uit de **andere metrieken** van dit boek, kost uit eenheidseconomie (onderwerp 5.4), voordeel uit gedocumenteerd uitkomstbewijs (onderwerpen 5.1 tot en met 5.3), niet uit uitgevonden aannames.
 - Omvat **totale eigendomskosten**, niet alleen vooraf-kost, en stel voordeelschattingen als een **bereik met expliciete onzekerheid**, geen enkel, vals-precies cijfer.
 - Bouw een proces echt in staat te concluderen dat een initiatief **het niet waard is om te vervolgen**; een analyse die alleen ooit positieve conclusies produceert is niet geloofwaardig.
 - **Volg daadwerkelijke uitkomsten tegen de projectie** na afronding, en publiceer de vergelijking om langetermijn-voorspelling-geloofwaardigheid te bouwen.

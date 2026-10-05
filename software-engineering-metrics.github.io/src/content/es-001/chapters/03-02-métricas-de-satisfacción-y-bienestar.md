@@ -2,12 +2,12 @@
 
 ## Visión general y motivación
 
-**Satisfacción y bienestar**, la S de SPACE (capítulo 3.1), es la
+**Satisfacción y bienestar**, la S de SPACE (tema 3.1), es la
 dimensión que ninguna telemetría de sistema puede observar directamente. Si
 un ingeniero encuentra significativo su trabajo, si se siente respaldado
 por su equipo, si se dirige hacia el agotamiento, nada de esto deja rastro
 en un registro de control de versiones ni en una canalización de
-integración continua. Hay que preguntarlo. Este capítulo trata de preguntar
+integración continua. Hay que preguntarlo. Este tema trata de preguntar
 bien: diseñar una medición que produzca una señal fiable sobre un estado
 genuinamente subjetivo y genuinamente importante, en lugar de un número que
 parece preciso mientras mide casi nada real.
@@ -25,7 +25,7 @@ es lo que le compra a la organización el tiempo de anticipación para
 actuar antes de que eso ocurra.
 
 Para los equipos grandes, esta dimensión es también donde más agudamente
-importa la distinción entre diagnóstico y evaluación del capítulo 1.1. Los
+importa la distinción entre diagnóstico y evaluación del tema 1.1. Los
 datos de satisfacción usados para entender y mejorar las condiciones del
 equipo son valiosos y de bajo riesgo. Los mismos datos usados para
 clasificar equipos o, peor, a personas entre sí corrompen el instrumento
@@ -219,7 +219,7 @@ consecutivos. El liderazgo, inicialmente inclinado a descartar la
 preocupación porque el número general de satisfacción se veía bien,
 investigó más a fondo tras un segundo trimestre consecutivo de declive y
 encontró que el equipo había estado absorbiendo una carga de guardia
-insostenible (capítulo 6.3) durante casi un año tras una congelación de
+insostenible (tema 6.3) durante casi un año tras una congelación de
 contrataciones. Restaurar una dotación adecuada de guardia revirtió la
 tendencia de agotamiento en dos trimestres, bastante antes de que se
 hubiera convertido en el pico de rotación que los datos de la empresa

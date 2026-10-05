@@ -2,11 +2,11 @@
 
 ## Översikt och motivation
 
-**[Teknisk skuld](https://en.wikipedia.org/wiki/Technical_debt)**, en metafor myntad av Ward Cunningham, beskriver den ackumulerade kostnaden av tidigare genvägar, pragmatiska beslut som levererade något tidigare men lämnade kodbasen svårare att ändra efteråt, på samma sätt som finansiell skuld låter er spendera nu till kostnaden av ränta senare. Varje kodbas bär viss teknisk skuld, och det är inte automatiskt ett misslyckande; metaforens verkliga värde är att den inramar skuld som en hanterbar avvägning snarare än antingen en skamlig hemlighet eller en oundviklig, permanent börda. Det här kapitlet handlar om att göra den avvägningen synlig och hanterbar genom mätning, snarare än att lämna den som en vag, evigt nedprioriterad oro varje ingenjör känner men ingen kan agera på med bevis.
+**[Teknisk skuld](https://en.wikipedia.org/wiki/Technical_debt)**, en metafor myntad av Ward Cunningham, beskriver den ackumulerade kostnaden av tidigare genvägar, pragmatiska beslut som levererade något tidigare men lämnade kodbasen svårare att ändra efteråt, på samma sätt som finansiell skuld låter er spendera nu till kostnaden av ränta senare. Varje kodbas bär viss teknisk skuld, och det är inte automatiskt ett misslyckande; metaforens verkliga värde är att den inramar skuld som en hanterbar avvägning snarare än antingen en skamlig hemlighet eller en oundviklig, permanent börda. Det här ämnet handlar om att göra den avvägningen synlig och hanterbar genom mätning, snarare än att lämna den som en vag, evigt nedprioriterad oro varje ingenjör känner men ingen kan agera på med bevis.
 
-Kapitlen som föregår det här, komplexitet (4.1), täckning (4.2), churn och hotspots (4.3), och statisk analys (4.4), synliggör var sin fasett av teknisk skuld. Det här kapitlets jobb är syntes: att vända de separata signalerna, plus poster som aldrig dyker upp i någon automatiserad skanning (en odokumenterad arkitektonisk genväg, en medvetet uppskjuten migrering), till en enda, prioriterad, synlig backlogg som konkurrerar rättvist om investering mot funktionsarbete, snarare än att förlora den konkurrensen som standard helt enkelt eftersom den inte har något mätetal kopplat till sig och ingen förespråkare i planeringsmöten.
+Ämnena som föregår det här, komplexitet (4.1), täckning (4.2), churn och hotspots (4.3), och statisk analys (4.4), synliggör var sin fasett av teknisk skuld. Det här ämnets jobb är syntes: att vända de separata signalerna, plus poster som aldrig dyker upp i någon automatiserad skanning (en odokumenterad arkitektonisk genväg, en medvetet uppskjuten migrering), till en enda, prioriterad, synlig backlogg som konkurrerar rättvist om investering mot funktionsarbete, snarare än att förlora den konkurrensen som standard helt enkelt eftersom den inte har något mätetal kopplat till sig och ingen förespråkare i planeringsmöten.
 
-För stora team ackumuleras ohanterad teknisk skuld på ett sätt som är genuint farligt och lätt att underskatta: varje ny genväg gör nästa ändring något svårare, vilket skapar tryck för fler genvägar, vilket ackumuleras ytterligare. Stora företag och myndigheter som underhåller system över många år är särskilt exponerade för den här ackumulerande effekten, och det här kapitlets centrala rekommendation, en synlig, kvantifierad, prioriterad skuldbacklogg, är mekanismen som låter en organisation faktiskt hantera avvägningen medvetet istället för att driva mot kris.
+För stora team ackumuleras ohanterad teknisk skuld på ett sätt som är genuint farligt och lätt att underskatta: varje ny genväg gör nästa ändring något svårare, vilket skapar tryck för fler genvägar, vilket ackumuleras ytterligare. Stora företag och myndigheter som underhåller system över många år är särskilt exponerade för den här ackumulerande effekten, och det här ämnets centrala rekommendation, en synlig, kvantifierad, prioriterad skuldbacklogg, är mekanismen som låter en organisation faktiskt hantera avvägningen medvetet istället för att driva mot kris.
 
 ## Nyckelprinciper
 
@@ -20,7 +20,7 @@ För stora team ackumuleras ohanterad teknisk skuld på ett sätt som är genuin
 
 ### Bygg en synlig, enda teknisk-skuld-backlogg
 
-Konsolidera signalerna från den här delens tidigare kapitel, komplexitetsavvikare, områden med låg mutantdödningsfrekvens, hotspots, olösta statiska analysfynd, vid sidan av skuldposter bara en människa kan identifiera (en arkitektonisk genväg, en uppskjuten beroendeuppgradering, en odokumenterad lösning), till en synlig backlogg, spårad med samma rigör och synlighet som er funktionsbacklogg. Skuld som bara bor i enskilda ingenjörers minne eller i spridda kodkommentarer existerar i praktiken inte för prioriteringssyften.
+Konsolidera signalerna från den här delens tidigare ämnen, komplexitetsavvikare, områden med låg mutantdödningsfrekvens, hotspots, olösta statiska analysfynd, vid sidan av skuldposter bara en människa kan identifiera (en arkitektonisk genväg, en uppskjuten beroendeuppgradering, en odokumenterad lösning), till en synlig backlogg, spårad med samma rigör och synlighet som er funktionsbacklogg. Skuld som bara bor i enskilda ingenjörers minne eller i spridda kodkommentarer existerar i praktiken inte för prioriteringssyften.
 
 ### Kvantifiera varje skuldposts kostnad och dess bärkostnad
 
@@ -28,7 +28,7 @@ För varje post, uppskatta två siffror: kostnaden att fixa den (ingenjörstid, 
 
 ### Prioritera med hjälp av påverkan, inte ålder eller högljuddaste förespråkare
 
-Rangordna skuldposter efter deras kombination av bärkostnad och hur frekvent den berörda koden rörs (kapitel 4.3:s churn-data är direkt användbar här): en post i ett sällan modifierat hörn av kodbasen, hur obehaglig den än är, spelar mycket mindre roll än en som sitter direkt i vägen för er mest aktiva utveckling. Motstå att prioritera efter vilken post som har varit på backloggen längst eller vilken ingenjör som förespråkar den mest ihärdigt, varken vilket pålitligt korrelerar med faktisk affärspåverkan.
+Rangordna skuldposter efter deras kombination av bärkostnad och hur frekvent den berörda koden rörs (ämne 4.3:s churn-data är direkt användbar här): en post i ett sällan modifierat hörn av kodbasen, hur obehaglig den än är, spelar mycket mindre roll än en som sitter direkt i vägen för er mest aktiva utveckling. Motstå att prioritera efter vilken post som har varit på backloggen längst eller vilken ingenjör som förespråkar den mest ihärdigt, varken vilket pålitligt korrelerar med faktisk affärspåverkan.
 
 ### Allokera dedikerad, skyddad kapacitet för skuldåtgärd
 
@@ -51,13 +51,13 @@ Den centrala spänningen är **omedelbart leveranstryck kontra långsiktig under
 
 ## Frågor att diskutera med ditt team
 
-1. **Har vi en enda, synlig teknisk-skuld-backlogg, eller bor skuldmedvetenhet mest i enskilda ingenjörers huvuden?** Om det ärliga svaret är det senare är det den enskilt största luckan det här kapitlet rekommenderar att stänga först.
+1. **Har vi en enda, synlig teknisk-skuld-backlogg, eller bor skuldmedvetenhet mest i enskilda ingenjörers huvuden?** Om det ärliga svaret är det senare är det den enskilt största luckan det här ämnet rekommenderar att stänga först.
 
 2. **För vår topp-skuldpost, kunde vi uttala dess kostnad att fixa och dess kostnad att bära i termer tillräckligt specifika för att jämföra rättvist mot en funktionsbegäran?** Om inte, öva den här kvantifieringen tillsammans som en gruppövning med en verklig, nuvarande post.
 
 3. **Vilken procentandel av vår ingenjörskapacitet går faktiskt till skuldåtgärd, och beslutades den procentandelen medvetet eller råkar den bara vara vad som överlever efter funktionsarbete allokerats?** Titta på era faktiska nyliga sprintar och beräkna det verkliga talet snarare än att förlita er på intryck.
 
-4. **Är vår skuldbacklogg prioriterad efter genuin affärspåverkan, eller efter vilken post som höjts mest ihärdigt eller suttit där längst?** Korsreferensera er nuvarande prioritering mot churn-data (kapitel 4.3) och se om de två stämmer överens.
+4. **Är vår skuldbacklogg prioriterad efter genuin affärspåverkan, eller efter vilken post som höjts mest ihärdigt eller suttit där längst?** Korsreferensera er nuvarande prioritering mot churn-data (ämne 4.3) och se om de två stämmer överens.
 
 5. **Vilka skuldposter borde vi explicit acceptera som permanenta, snarare än att låta sitta obegränsat på en aktiv backlogg?** Identifiera minst en verklig post där kostnaden att fixa genuint överstiger kostnaden att bära, och diskutera att flytta den till en explicit nedprioriterad status.
 
@@ -75,7 +75,7 @@ Den centrala spänningen är **omedelbart leveranstryck kontra långsiktig under
 
 ## Exempel
 
-**Stort företag.** Ett telekombolags faktureringsplattform hade ackumulerat över ett decennium av informellt erkänd men aldrig formellt spårad teknisk skuld, med ingenjörer rutinmässigt citerande "faktureringsmotorn är rörig" i retrospektiv utan uppföljning. En ny ingenjörsdirektör krävde att varje team skulle bygga en kvantifierad skuldbacklogg, uppskattande fixkostnad och bärkostnad för varje post, och allokerade en fast 15 % av ingenjörskapacitet till skuldåtgärd framöver. Inom ett år hade de fem topp-bärkostnad-posterna, representerande en liten andel av den totala backloggen efter antal, lösts, och ändringsfelfrekvens (kapitel 2.10) för faktureringsrelaterade driftsättningar förbättrades mätbart, vilket demonstrerade den oproportionerliga påverkan av att rikta de högst-bärkostnad-posterna först snarare än att arbeta igenom backloggen i godtycklig ordning.
+**Stort företag.** Ett telekombolags faktureringsplattform hade ackumulerat över ett decennium av informellt erkänd men aldrig formellt spårad teknisk skuld, med ingenjörer rutinmässigt citerande "faktureringsmotorn är rörig" i retrospektiv utan uppföljning. En ny ingenjörsdirektör krävde att varje team skulle bygga en kvantifierad skuldbacklogg, uppskattande fixkostnad och bärkostnad för varje post, och allokerade en fast 15 % av ingenjörskapacitet till skuldåtgärd framöver. Inom ett år hade de fem topp-bärkostnad-posterna, representerande en liten andel av den totala backloggen efter antal, lösts, och ändringsfelfrekvens (ämne 2.10) för faktureringsrelaterade driftsättningar förbättrades mätbart, vilket demonstrerade den oproportionerliga påverkan av att rikta de högst-bärkostnad-posterna först snarare än att arbeta igenom backloggen i godtycklig ordning.
 
 **Myndighet.** En nationell statistikmyndighets kärndatabehandlingssystem, ursprungligen byggt över tjugo år tidigare, hade aldrig haft en formell skuldbedömning trots utbredd informell medvetenhet bland personal att betydande delar var ömtåliga och dåligt förstådda. En strukturerad skuldbedömning, som kombinerade statiska analysfynd, hotspot-data, och intervjuer med de få kvarvarande ingenjörerna som förstod de äldsta komponenterna, producerade en kvantifierad, prioriterad backlogg som direkt stödde en flerårig moderniseringsbudgetbegäran. Avgörande identifierade bedömningen också explicit flera stabila, sällan rörda legacy-komponenter som rimliga att lämna oförändrade, vilket undvek en onödigt bred och dyr fullständig systemomskrivning till förmån för en riktad investering i de specifika områdena datan visade bar den högsta löpande kostnaden.
 
@@ -123,4 +123,4 @@ Den totala ägandekostnaden är den skyddade kapaciteten allokerad till åtgärd
 - Cunningham, Ward, "The WyCash Portfolio Management System" (OOPSLA-erfarenhetsrapport, 1992): ursprunget till den tekniska skuldmetaforen.
 - *Managing Technical Debt: Reducing Friction in Software Development*, av Philippe Kruchten, Robert Nord, och Ipek Ozkaya (en omfattande behandling av teknisk skuldmätning och hantering).
 - *Refactoring: Improving the Design of Existing Code*, av Martin Fowler (åtgärdsteknikerna en skuldbacklogg i slutändan bygger på).
-- *Your Code as a Crime Scene*, av Adam Tornhill (hotspot-analys som en insats till skuldprioritering, kapitel 4.3).
+- *Your Code as a Crime Scene*, av Adam Tornhill (hotspot-analys som en insats till skuldprioritering, ämne 4.3).

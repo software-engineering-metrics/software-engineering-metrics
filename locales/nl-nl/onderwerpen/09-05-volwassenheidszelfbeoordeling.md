@@ -1,17 +1,17 @@
 # 9.5 Volwassenheidszelfbeoordeling
 
-Elk hoofdstuk in delen 1 tot en met 8 eindigt met een vijf-niveau-volwassenheidsmodel: 1 Initiëren, 2 Ontwikkelen, 3 Standaardiseren, 4 Beheren, 5 Orkestreren. Deze appendix consolideert ze in een enkele matrix voor organisatorische zelfbeoordeling. Score elk hoofdstuk eerlijk, echt bewijs gebruikend, geen aspiratie. Zie hoofdstuk 8.4 voor het doorsnijdende, vijf-dimensie-programmamodel dat deze hoofdstuk-per-hoofdstuk-matrix complementeert, en onthoud dat programmavolwassenheid het minimum over dimensies is, niet het gemiddelde.
+Elk onderwerp in delen 1 tot en met 8 eindigt met een vijf-niveau-volwassenheidsmodel: 1 Initiëren, 2 Ontwikkelen, 3 Standaardiseren, 4 Beheren, 5 Orkestreren. Deze appendix consolideert ze in een enkele matrix voor organisatorische zelfbeoordeling. Score elk onderwerp eerlijk, echt bewijs gebruikend, geen aspiratie. Zie onderwerp 8.4 voor het doorsnijdende, vijf-dimensie-programmamodel dat deze onderwerp-per-onderwerp-matrix complementeert, en onthoud dat programmavolwassenheid het minimum over dimensies is, niet het gemiddelde.
 
 ## Hoe deze matrix te gebruiken
 
-1. Lees voor elk hoofdstuk zijn eigen volwassenheidsmodel (het hoofdstuk is de gezaghebbende bron; deze tabel is een samenvattingsindex).
+1. Lees voor elk onderwerp zijn eigen volwassenheidsmodel (het onderwerp is de gezaghebbende bron; deze tabel is een samenvattingsindex).
 2. Score je organisatie 1 tot en met 5 tegen echt bewijs, geen intentie.
-3. Gemiddel niet over hoofdstukken binnen een deel; elk hoofdstuk meet een onderscheiden capaciteit.
-4. Voed lage scores in de adoptieroadmap van hoofdstuk 8.5 als investeringsprioriteiten, niet als een oordeel om je slecht over te voelen (hoofdstuk 1.1).
+3. Gemiddel niet over onderwerpen binnen een deel; elk onderwerp meet een onderscheiden capaciteit.
+4. Voed lage scores in de adoptieroadmap van onderwerp 8.5 als investeringsprioriteiten, niet als een oordeel om je slecht over te voelen (onderwerp 1.1).
 
 ## Deel 1: Fundamenten van meten
 
-| Hoofdstuk | Capaciteit | Jouw score (1-5) |
+| Onderwerp | Capaciteit | Jouw score (1-5) |
 | --- | --- | --- |
 | 1.1 | Meten om beslissingen te informeren, niet om te beoordelen | |
 | 1.2 | Beschermmetriek-koppelingsdiscipline tegen de Goodharts wet | |
@@ -22,7 +22,7 @@ Elk hoofdstuk in delen 1 tot en met 8 eindigt met een vijf-niveau-volwassenheids
 
 ## Deel 2: Flowmetrieken
 
-| Hoofdstuk | Capaciteit | Jouw score (1-5) |
+| Onderwerp | Capaciteit | Jouw score (1-5) |
 | --- | --- | --- |
 | 2.1 | Flow Framework-adoptie, waardestroom eerlijk gekarteerd | |
 | 2.2 | Flowitem-classificatie, consistent en bij-intake | |
@@ -37,7 +37,7 @@ Elk hoofdstuk in delen 1 tot en met 8 eindigt met een vijf-niveau-volwassenheids
 
 ## Deel 3: Ontwikkelaarservaring en het SPACE-framework
 
-| Hoofdstuk | Capaciteit | Jouw score (1-5) |
+| Onderwerp | Capaciteit | Jouw score (1-5) |
 | --- | --- | --- |
 | 3.1 | Gebalanceerde, meerdimensie-SPACE-adoptie | |
 | 3.2 | Tevredenheid- en welzijnsmeting | |
@@ -49,7 +49,7 @@ Elk hoofdstuk in delen 1 tot en met 8 eindigt met een vijf-niveau-volwassenheids
 
 ## Deel 4: Code- en kwaliteitsmetrieken
 
-| Hoofdstuk | Capaciteit | Jouw score (1-5) |
+| Onderwerp | Capaciteit | Jouw score (1-5) |
 | --- | --- | --- |
 | 4.1 | Complexiteitsmetrieken gebruikt voor triage, geen oordeel | |
 | 4.2 | Dekking gekoppeld met mutatietesten | |
@@ -60,7 +60,7 @@ Elk hoofdstuk in delen 1 tot en met 8 eindigt met een vijf-niveau-volwassenheids
 
 ## Deel 5: Product- en bedrijfsmetrieken
 
-| Hoofdstuk | Capaciteit | Jouw score (1-5) |
+| Onderwerp | Capaciteit | Jouw score (1-5) |
 | --- | --- | --- |
 | 5.1 | Ernst-gewogen ontsnapte-defecttracking | |
 | 5.2 | Adoptie gemeten als proef plus retentie | |
@@ -70,7 +70,7 @@ Elk hoofdstuk in delen 1 tot en met 8 eindigt met een vijf-niveau-volwassenheids
 
 ## Deel 6: Betrouwbaarheid, operaties, en beveiligingsmetrieken
 
-| Hoofdstuk | Capaciteit | Jouw score (1-5) |
+| Onderwerp | Capaciteit | Jouw score (1-5) |
 | --- | --- | --- |
 | 6.1 | Bewijs-gebaseerde SLO's en besteedbare felbudgetten | |
 | 6.2 | Schuldloze, fase-gesplitste incidentmetrieken | |
@@ -79,7 +79,7 @@ Elk hoofdstuk in delen 1 tot en met 8 eindigt met een vijf-niveau-volwassenheids
 
 ## Deel 7: Metrieken in het tijdperk van AI
 
-| Hoofdstuk | Capaciteit | Jouw score (1-5) |
+| Onderwerp | Capaciteit | Jouw score (1-5) |
 | --- | --- | --- |
 | 7.1 | AI-era-metriekgeldigheidsaudit uitgevoerd | |
 | 7.2 | Bewijs-gebaseerde AI-geassisteerde-ontwikkelingsmeting | |
@@ -88,7 +88,7 @@ Elk hoofdstuk in delen 1 tot en met 8 eindigt met een vijf-niveau-volwassenheids
 
 ## Deel 8: Een metriekenprogramma bouwen
 
-| Hoofdstuk | Capaciteit | Jouw score (1-5) |
+| Onderwerp | Capaciteit | Jouw score (1-5) |
 | --- | --- | --- |
 | 8.1 | Publieksspecifieke, eerlijk ontworpen dashboards | |
 | 8.2 | Doelbewuste, hybride bouwen-versus-kopen-toolingstrategie | |
@@ -96,7 +96,7 @@ Elk hoofdstuk in delen 1 tot en met 8 eindigt met een vijf-niveau-volwassenheids
 | 8.4 | Doorsnijdende programmavolwassenheidszelfbeoordeling | |
 | 8.5 | Gefaseerde, fundering-eerst-adoptieroadmap | |
 
-## Doorsnijdende programmadimensies (hoofdstuk 8.4)
+## Doorsnijdende programmadimensies (onderwerp 8.4)
 
 | Dimensie | Jouw score (1-5) |
 | --- | --- |

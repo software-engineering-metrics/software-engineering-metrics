@@ -55,7 +55,7 @@ heddiw.
 ### Ysgrifennwch siarter metrigau ar gyfer pob set fetrigau sy'n croesi ffin tîm
 
 Dogfen fer, fyw yw **siarter metrigau** sy'n nodi pwrpas set fetrigau, ei
-diffyg-nodau penodol (mae gwahaniaeth diagnostig-yn-erbyn-gwerthusol pennod
+diffyg-nodau penodol (mae gwahaniaeth diagnostig-yn-erbyn-gwerthusol pwnc
 1.1 yn perthyn yma), perchennog a ffynhonnell wirionedd pob metrig, a
 chadwedd adolygu. Cadwch hi i un dudalen. Mae'r ffeil
 docs/examples/metrics-charter-example.md yn ystorfa gydymaith y llyfr hwn
@@ -86,7 +86,7 @@ wedi'i enwi'n wahanol i'w ailenwi.
 ### Adeiladwch adolygiad ymddeoliad i mewn i'r gadwedd llywodraethu
 
 Mae rhaglen fetrigau sy'n ychwanegu metrigau'n unig yn cronni gwasgariad
-dangosfwrdd na all neb weithredu arno (pennod 1.1). Ym mhob adolygiad
+dangosfwrdd na all neb weithredu arno (pwnc 1.1). Ym mhob adolygiad
 llywodraethu, ochr yn ochr â chynnig metrigau newydd, gofynnwch pa rai
 presennol nad ydynt wedi llywio penderfyniad yn y ddau gylch diwethaf ac
 sy'n ymgeiswyr ar gyfer ymddeoliad. Nid methiant yw ymddeoliad; yr un
@@ -205,7 +205,7 @@ yn cyfrif dim ond ryddhau cynhyrchu. Roedd arweinyddiaeth wedi bod yn
 cymharu perfformiad cyflenwi'r ddwy uned am dros flwyddyn gan ddefnyddio
 rhifau nad oeddent mewn gwirionedd yn gymaradwy. Y trwsiad oedd bwrdd
 llywodraethu metrigau ledled y cwmni a gyhoeddodd eirfa sengl o
-ddiffiniadau metrig (a adlewyrchir ym mhennod 9.2 y llyfr hwn), a fynnodd
+ddiffiniadau metrig (a adlewyrchir ym mhwnc 9.2 y llyfr hwn), a fynnodd
 fod pob tîm yn ardystio cydymffurfiaeth, ac a ymddeolodd y diffiniadau
 lleol amwys o fewn un chwarter.
 

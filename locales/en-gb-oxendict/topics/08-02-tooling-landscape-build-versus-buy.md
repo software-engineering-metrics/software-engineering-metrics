@@ -5,8 +5,8 @@
 Every organization implementing this book's guidance eventually faces a
 practical infrastructure decision: build metrics tooling internally, buy a
 commercial engineering analytics platform, or, most commonly in practice,
-some combination of both. This chapter treats that decision with the same
-rigor chapter 5.5 applies to any other engineering investment: an honest
+some combination of both. This topic treats that decision with the same
+rigor topic 5.5 applies to any other engineering investment: an honest
 cost-benefit analysis specific to your organization's scale, existing data
 sources, and the specific metrics from this book you actually intend to
 track, rather than a default answer that applies uniformly regardless of
@@ -15,11 +15,11 @@ context.
 The commercial engineering analytics tooling market has matured
 considerably, and many platforms now offer solid, largely automated
 instrumentation for the DORA metrics (Part 2), pull request and review
-data (chapter 2.9), and increasingly, developer experience survey
-infrastructure (chapter 3.7). This maturity has shifted the calculus for
+data (topic 2.9), and increasingly, developer experience survey
+infrastructure (topic 3.7). This maturity has shifted the calculus for
 many organizations toward buying at least the foundational layer, but it
 has not eliminated the build option's genuine advantages for specific,
-customized needs, particularly around the outcome telemetry chapter 7.4
+customized needs, particularly around the outcome telemetry topic 7.4
 argues is now the necessary center of a metrics programme, which is
 frequently the least standardized, most organization-specific category of
 measurement this book covers.
@@ -42,7 +42,7 @@ cost-benefit analysis alone would suggest.
 - **Buy for well-standardized, widely needed metrics; build for
   genuinely organization-specific ones.** DORA metrics and pull request
   analytics are commodity territory; your specific business-outcome
-  correlation (chapter 5.3) usually is not.
+  correlation (topic 5.3) usually is not.
 - **Data ownership and portability matter as much as feature
   comparison.** A tool that locks your metrics data in is a durable risk,
   not just an inconvenience.
@@ -58,8 +58,8 @@ cost-benefit analysis alone would suggest.
 
 For metric families with mature, widely available commercial tooling,
 DORA metrics instrumentation (Part 2), pull request and code review
-analytics (chapter 2.9), and developer experience survey platforms
-(chapter 3.7), buying is usually the better economic choice for most
+analytics (topic 2.9), and developer experience survey platforms
+(topic 3.7), buying is usually the better economic choice for most
 organizations below a certain scale, since building equivalent
 infrastructure duplicates engineering effort many vendors have already
 invested heavily in, with limited genuine differentiation available from
@@ -67,10 +67,10 @@ building your own version.
 
 ### Build for genuinely organization-specific outcome telemetry
 
-For the outcome metrics chapter 7.4 argues should be your metrics
-programme's center of gravity, business outcome correlation (chapter 5.3),
-feature adoption tied to your specific product (chapter 5.2), unit
-economics tied to your specific cost structure (chapter 5.4), commercial
+For the outcome metrics topic 7.4 argues should be your metrics
+programme's center of gravity, business outcome correlation (topic 5.3),
+feature adoption tied to your specific product (topic 5.2), unit
+economics tied to your specific cost structure (topic 5.4), commercial
 tooling is far less standardized and often cannot capture your organization's
 specific business logic and data model without extensive, expensive
 customization that may end up costing more than building the equivalent
@@ -167,7 +167,7 @@ and budget integration cost realistically on both sides of that split.
 custom metrics infrastructure is rarely a good use of scarce early
 engineering capacity when mature, inexpensive commercial options exist for
 DORA and review metrics specifically. Reserve any build effort for the
-single outcome metric (chapter 5.3) that most directly reflects your
+single outcome metric (topic 5.3) that most directly reflects your
 product's core value.
 
 **Small business.** Most commercial tooling options scale down reasonably
@@ -176,7 +176,7 @@ commodity layer is almost always the right choice, and building anything
 custom is rarely justified until your organization has grown considerably
 and developed genuinely specific needs.
 
-**Enterprise.** The hybrid approach this chapter recommends earns its
+**Enterprise.** The hybrid approach this topic recommends earns its
 complexity here: buy the commodity layer at scale (often with meaningful
 negotiating leverage for favourable terms), and invest deliberately in
 building the organization-specific outcome telemetry layer, since your
@@ -201,7 +201,7 @@ and still lagged behind mature commercial offerings for the standardized
 DORA and review metrics specifically. A revised strategy adopted a
 commercial platform for these commodity metrics, freeing the internal
 platform team to focus exclusively on building the business-outcome
-correlation and unit-economics telemetry (chapters 5.3, 5.4) genuinely
+correlation and unit-economics telemetry (topics 5.3, 5.4) genuinely
 specific to the company's business model, which no commercial tool could
 have provided out of the box. This hybrid approach delivered a more
 complete, more genuinely useful metrics programme within a single year than
@@ -223,7 +223,7 @@ addressed regardless of sovereignty considerations.
 ## Business case: motivations, ROI, and TCO
 
 The return on a deliberate, hybrid build-versus-buy strategy is avoiding
-both failure modes this chapter's examples illustrate: the wasted,
+both failure modes this topic's examples illustrate: the wasted,
 multi-year engineering investment of building commodity capability that
 already exists cheaply in the market, and the frustration and eventual
 customization cost of forcing a genuinely organization-specific need into
@@ -303,7 +303,7 @@ for either option.
 ## References and further reading
 
 - *Accelerate: The Science of Lean Software and DevOps*, by Nicole Forsgren,
-  Jez Humble, and Gene Kim (the metric families this chapter's
+  Jez Humble, and Gene Kim (the metric families this topic's
   build-versus-buy analysis is applied to).
 - *Cloud FinOps*, by J.R. Storment and Mike Fuller (cost analysis
   principles applicable to tooling investment decisions).

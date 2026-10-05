@@ -1,5 +1,5 @@
-// A remark plugin that auto-links plain-text chapter cross-references, e.g.
-// "see chapter 2.1" or "chapters 2.3 and 2.4", to the matching /chapters/
+// A remark plugin that auto-links plain-text topic cross-references, e.g.
+// "see topic 2.1" or "topics 2.3 and 2.4", to the matching /chapters/
 // route (locale-prefixed for every locale but the default). This mirrors
 // the guide_xref-style linking used by the sibling
 // software-engineering-guide.github.io site, reimplemented for the mdsvex
@@ -33,8 +33,8 @@ const CHAPTERS_BY_LOCALE = Object.fromEntries(
   LOCALE_CODES.map((locale) => [locale, loadChaptersByDecimal(locale)])
 );
 
-// "chapter(s) 1.2" / "chapter(s) 1.2 and 3.4" / "chapter(s) 1.2, 3.4, and 5.6"
-const MENTION_RE = /\bchapters?\s+(\d{1,2}\.\d{1,2})((?:\s*(?:,|and)\s*\d{1,2}\.\d{1,2})*)/gi;
+// "topic(s) 1.2" / "topic(s) 1.2 and 3.4" / "topic(s) 1.2, 3.4, and 5.6"
+const MENTION_RE = /\btopics?\s+(\d{1,2}\.\d{1,2})((?:\s*(?:,|and)\s*\d{1,2}\.\d{1,2})*)/gi;
 const DECIMAL_RE = /\d{1,2}\.\d{1,2}/g;
 
 export function remarkChapterLinks() {

@@ -16,7 +16,7 @@ análisis estático) normalmente significa que esas señales internas en
 realidad no están capturando los modos de fallo que importan a los usuarios
 reales.
 
-Este capítulo trata los defectos escapados con la seriedad que su coste
+Este tema trata los defectos escapados con la seriedad que su coste
 merece a la vez que resiste la tentación de tratar el recuento bruto como
 un simple marcador. No todos los defectos son iguales: una errata en un
 texto de ayuda raramente visto y un error de corrupción de datos en un
@@ -24,7 +24,7 @@ sistema de transacciones financieras son ambos, técnicamente, defectos
 escapados, y tratarlos de manera idéntica produce una métrica que es
 demasiado ruidosa para actuar sobre ella o, peor aún, activamente engañosa
 sobre dónde vive el riesgo real. La recomendación central de este
-capítulo, un seguimiento ponderado por gravedad con atención cuidadosa a
+tema, un seguimiento ponderado por gravedad con atención cuidadosa a
 cómo se clasifican los defectos, apunta directamente a ese problema.
 
 Para los equipos grandes, la tasa de defectos escapados es uno de los
@@ -50,7 +50,7 @@ interna.
   clasifican la gravedad de forma distinta producen números que no se
   pueden comparar de manera justa.
 - **Esta métrica está expuesta a la manipulación de definiciones**,
-  exactamente como la tasa de fallos de cambio (capítulo 2.10): reducir lo
+  exactamente como la tasa de fallos de cambio (tema 2.10): reducir lo
   que cuenta como "defecto" favorece el número sin reducir el daño real al
   cliente.
 - **La categorización por causa raíz convierte un recuento en una
@@ -79,7 +79,7 @@ conservadores, algunos indulgentes, haciendo que la comparación entre
 equipos carezca de sentido y, peor aún, creando un incentivo para
 clasificar generosamente hacia abajo para que los propios números de un
 equipo se vean mejor (una variante de la manipulación de definiciones del
-capítulo 1.2). Publica criterios de clasificación claros y basados en
+tema 1.2). Publica criterios de clasificación claros y basados en
 ejemplos, y audita periódicamente una muestra de clasificaciones entre
 equipos para comprobar la consistencia.
 
@@ -99,8 +99,8 @@ una llamada general y vaga a "probar más".
 Cuando sea posible, rastrea un defecto escapado hasta el área de código de
 donde provino y comprueba si esa área mostraba señales de advertencia en
 las métricas de la parte 4: ¿era un punto caliente de complejidad
-(capítulo 4.1, capítulo 4.3), tenía una tasa baja de mutantes eliminados
-(capítulo 4.2), señaló algo cerca el análisis estático (capítulo 4.4)?
+(tema 4.1, tema 4.3), tenía una tasa baja de mutantes eliminados
+(tema 4.2), señaló algo cerca el análisis estático (tema 4.4)?
 Esta conexión es lo que valida si tus métricas de calidad interna son
 realmente predictivas de defectos reales orientados al cliente, o si están
 midiendo algo que, en tu contexto específico, no se correlaciona con lo
@@ -109,13 +109,13 @@ que los clientes realmente experimentan.
 ### Protege contra que la clasificación de defectos se convierta en un ejercicio de culpa
 
 Enmarca el análisis de causa raíz de defectos explícitamente como una
-pregunta de sistemas, según el enfoque diagnóstico del capítulo 1.1, no
+pregunta de sistemas, según el enfoque diagnóstico del tema 1.1, no
 como un ejercicio de culpa individual. Un equipo que teme la culpa por un
 defecto escapado tiene un fuerte incentivo para subreportar, clasificar
 hacia abajo de manera indebida, o resistirse a un análisis de causa raíz
 exhaustivo, todo lo cual corrompe precisamente los datos de los que
-depende este capítulo. La práctica de análisis retrospectivo sin culpa,
-cubierta con más profundidad en el capítulo 6.2, se aplica directamente
+depende este tema. La práctica de análisis retrospectivo sin culpa,
+cubierta con más profundidad en el tema 6.2, se aplica directamente
 aquí.
 
 ## Ventajas e inconvenientes
@@ -135,7 +135,7 @@ manera justa a nivel organizacional, y crea un incentivo silencioso para
 que un equipo clasifique con generosidad para proteger sus propias
 métricas. Resuelve la tensión invirtiendo en criterios de clasificación
 estandarizados y documentados y auditorías periódicas entre equipos,
-tratando esto como trabajo de gobernanza (capítulo 1.4) que vale la pena
+tratando esto como trabajo de gobernanza (tema 1.4) que vale la pena
 la inversión dado lo directamente que se conecta esta métrica con el
 impacto real en el cliente.
 
@@ -145,7 +145,7 @@ impacto real en el cliente.
    trata un problema cosmético menor igual que un problema de datos
    crítico?** Revisa tu panel real y compruébalo; si la ponderación por
    gravedad todavía no está en marcha, este es el único cambio de mayor
-   valor que recomienda este capítulo.
+   valor que recomienda este tema.
 
 2. **¿Dos equipos distintos clasificarían la gravedad del mismo defecto de
    la misma manera, o la clasificación se ha ido separando en toda la
@@ -173,7 +173,7 @@ impacto real en el cliente.
 
 6. **¿Nuestra tasa de defectos escapados ha mejorado alguna vez
    sospechosamente rápido sin ningún cambio correspondiente en la práctica
-   de pruebas o revisión?** Como con la tasa de fallos de cambio (capítulo
+   de pruebas o revisión?** Como con la tasa de fallos de cambio (tema
    2.10), esta es la señal más clara de que se movieron los criterios de
    clasificación, no el riesgo real.
 
@@ -190,7 +190,7 @@ análisis más formal.
 **Pequeña empresa.** Una escala de gravedad simple y compartida, incluso
 de tres niveles (crítico, mayor, menor), aplicada de manera consistente
 por quien maneja el soporte y el triaje de errores, captura la mayor
-parte del valor de este capítulo sin necesitar herramientas sofisticadas
+parte del valor de este tema sin necesitar herramientas sofisticadas
 ni una función de calidad dedicada.
 
 **Empresa.** La consistencia de clasificación entre equipos es la
@@ -231,7 +231,7 @@ de desempleo tuvo un defecto escapado que denegó incorrectamente un
 pequeño porcentaje de solicitudes por lo demás elegibles durante varios
 meses antes de su detección. Una investigación de causa raíz encontró que
 el defecto se había originado en un área de código previamente señalada
-como punto caliente de complejidad (capítulo 4.1, capítulo 4.3) en una
+como punto caliente de complejidad (tema 4.1, tema 4.3) en una
 revisión de calidad interna dieciocho meses antes, pero el punto caliente
 nunca se había priorizado para remediación porque todavía no había
 ocurrido ningún defecto que hiciera el riesgo concreto. El proceso
@@ -272,7 +272,7 @@ riesgo de defectos escapados.
   sin valor diagnóstico, dejando invisibles los patrones sistémicos.
 - **Una cultura de reporte propensa a la culpa:** corrompe los datos
   mediante el subreporte y la clasificación indulgente, exactamente el
-  riesgo de exposición a incentivos que advierte el capítulo 1.2.
+  riesgo de exposición a incentivos que advierte el tema 1.2.
 - **No conectar nunca los defectos escapados con las señales de calidad
   interna:** pierde la oportunidad de validar, o invalidar, las métricas
   predictivas de la parte 4 frente a resultados reales.

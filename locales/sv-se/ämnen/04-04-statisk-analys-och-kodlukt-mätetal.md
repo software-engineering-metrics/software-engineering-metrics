@@ -2,9 +2,9 @@
 
 ## Översikt och motivation
 
-**[Statisk analys](https://en.wikipedia.org/wiki/Static_program_analysis)**verktyg skannar källkod utan att exekvera den, flaggande mönster kända att korrelera med defekter, säkerhetssårbarheter, eller underhållbarhetsproblem: oåtkomlig kod, ostängda resurser, misstänkta typtvång, duplicerad logik, och den bredare kategorin **kodlukt**, strukturella mönster som inte nödvändigtvis är buggar men tenderar att göra kod svårare att förstå, testa, eller säkert ändra. Statisk analys är det automatiserade, kontinuerliga lagret under de mer riktade mätetalen i den här delens andra kapitel, körande på varje commit och synliggörande problem i det ögonblick de introduceras snarare än att vänta på en periodisk revision.
+**[Statisk analys](https://en.wikipedia.org/wiki/Static_program_analysis)**verktyg skannar källkod utan att exekvera den, flaggande mönster kända att korrelera med defekter, säkerhetssårbarheter, eller underhållbarhetsproblem: oåtkomlig kod, ostängda resurser, misstänkta typtvång, duplicerad logik, och den bredare kategorin **kodlukt**, strukturella mönster som inte nödvändigtvis är buggar men tenderar att göra kod svårare att förstå, testa, eller säkert ändra. Statisk analys är det automatiserade, kontinuerliga lagret under de mer riktade mätetalen i den här delens andra ämne, körande på varje commit och synliggörande problem i det ögonblick de introduceras snarare än att vänta på en periodisk revision.
 
-Det här kapitlets centrala angelägenhet är gapet mellan vad statiska analysverktyg rapporterar och vad som faktiskt spelar roll. Ett verktyg kan flagga tusentals fynd över en stor kodbas, och antalet fynd ensamt är ett dåligt mätetal, eftersom det sammanblandar triviala stilpreferenser med genuin, allvarlig risk, och det kan drivas ner genom undertryckning lika lätt som genom verkliga fixar. Värdet av statisk analys kommer inte från det råa fyndantalet utan från hur väl en organisation triagerar allvarlighetsgrad, förhindrar tillbakagång, och motstår frestelsen att behandla verktygets omdöme som en ersättning för mänsklig granskning snarare än ett komplement till den.
+Det här ämnets centrala angelägenhet är gapet mellan vad statiska analysverktyg rapporterar och vad som faktiskt spelar roll. Ett verktyg kan flagga tusentals fynd över en stor kodbas, och antalet fynd ensamt är ett dåligt mätetal, eftersom det sammanblandar triviala stilpreferenser med genuin, allvarlig risk, och det kan drivas ner genom undertryckning lika lätt som genom verkliga fixar. Värdet av statisk analys kommer inte från det råa fyndantalet utan från hur väl en organisation triagerar allvarlighetsgrad, förhindrar tillbakagång, och motstår frestelsen att behandla verktygets omdöme som en ersättning för mänsklig granskning snarare än ett komplement till den.
 
 För stora team är statisk analys det enda praktiska sättet att upprätthålla en baslinje av kodkvalitet och säkerhetshygien över en kodbas större än något team kan granska manuellt i sin helhet. Stora företag och myndigheter, som ofta möter efterlevnadskrav runt säker kodningspraxis, beror på statisk analys som dokumenterat, reviderbart bevis att en baslinjenivå av granskning tillämpades konsekvent, inte bara när en mänsklig granskare råkade märka ett problem.
 
@@ -24,7 +24,7 @@ Konfigurera era statiska analysverktyg att klassificera fynd efter allvarlighets
 
 ### Grinda på nya introducerade fynd, inte på den totala historiska backloggen
 
-De flesta etablerade kodbaser bär en legacy-backlogg av fynd som föregår nuvarande praxis och skulle vara oöverkomligt dyra att fixa alla på en gång. Snarare än att blockera allt arbete tills hela backloggen är rensad, grinda CI på om en specifik ändring introducerar nya fynd över en överenskommen allvarlighetströskel, låtande backloggen krympa gradvis genom normalt underhåll medan ytterligare ackumulering förhindras. Den här distinktionen speglar kapitel 4.2:s täckningsgolv-rekommendation: skydda mot tillbakagång snarare än att kräva en orealistisk, allt-på-en-gång-fix.
+De flesta etablerade kodbaser bär en legacy-backlogg av fynd som föregår nuvarande praxis och skulle vara oöverkomligt dyra att fixa alla på en gång. Snarare än att blockera allt arbete tills hela backloggen är rensad, grinda CI på om en specifik ändring introducerar nya fynd över en överenskommen allvarlighetströskel, låtande backloggen krympa gradvis genom normalt underhåll medan ytterligare ackumulering förhindras. Den här distinktionen speglar ämne 4.2:s täckningsgolv-rekommendation: skydda mot tillbakagång snarare än att kräva en orealistisk, allt-på-en-gång-fix.
 
 ### Hantera aktivt falsk-positiv-frekvensen
 
@@ -36,7 +36,7 @@ Granska periodiskt ett urval av fynd, särskilt varje kategori med hög volym, o
 
 ### Kombinera statisk analys med de andra kodkvalitetsmätetalen i den här delen
 
-Statiska analysfynd, komplexitetspoäng (kapitel 4.1), och hotspot-data (kapitel 4.3) är kompletterande bevis, inte konkurrerande mätetal. En fil med en hög koncentration av olösta statiska analysfynd som också är en churn-komplexitet-hotspot är en särskilt stark kandidat för prioriterad uppmärksamhet, eftersom flera oberoende signaler konvergerar på samma slutsats.
+Statiska analysfynd, komplexitetspoäng (ämne 4.1), och hotspot-data (ämne 4.3) är kompletterande bevis, inte konkurrerande mätetal. En fil med en hög koncentration av olösta statiska analysfynd som också är en churn-komplexitet-hotspot är en särskilt stark kandidat för prioriterad uppmärksamhet, eftersom flera oberoende signaler konvergerar på samma slutsats.
 
 ## Avvägningar: fördelar och nackdelar
 
@@ -47,7 +47,7 @@ Statiska analysfynd, komplexitetspoäng (kapitel 4.1), och hotspot-data (kapitel
 | Grinda på hela historiska backloggen | Maximerar slutlig kodrenlighet | Ofta opraktiskt för etablerade kodbaser; kan stoppa allt arbete |
 | Grinda bara på nya fynd | Praktiskt, förhindrar tillbakagång, låter backloggen krympa gradvis | Legacy-problem kvarstår längre utan en medveten åtgärdsplan |
 
-Den centrala spänningen är **grundlighet kontra praktikalitet**. En statisk analyspolicy som kräver att hela den historiska backloggen löses innan något nytt arbete fortsätter är grundlig men vanligtvis opraktisk för varje kodbas med verklig historia, och team under det trycket tenderar att undertrycka fynd i sin helhet snarare än genuint fixa dem. Lös spänningen genom att grinda strikt på nya fynd medan ni kör en separat, medvetet tempad åtgärdsinsats mot legacy-backloggen, prioriterad med hjälp av allvarlighetsgrads- och korsreferenseringsteknikerna det här kapitlet och kapitel 4.3 rekommenderar.
+Den centrala spänningen är **grundlighet kontra praktikalitet**. En statisk analyspolicy som kräver att hela den historiska backloggen löses innan något nytt arbete fortsätter är grundlig men vanligtvis opraktisk för varje kodbas med verklig historia, och team under det trycket tenderar att undertrycka fynd i sin helhet snarare än genuint fixa dem. Lös spänningen genom att grinda strikt på nya fynd medan ni kör en separat, medvetet tempad åtgärdsinsats mot legacy-backloggen, prioriterad med hjälp av allvarlighetsgrads- och korsreferenseringsteknikerna det här ämnet och ämne 4.3 rekommenderar.
 
 ## Frågor att diskutera med ditt team
 
@@ -116,7 +116,7 @@ Den totala ägandekostnaden inkluderar verktyget självt, ofta gratis eller låg
 - Grinda CI på **nya introducerade fynd**, inte hela den historiska backloggen, för att förhindra tillbakagång utan att kräva en opraktisk allt-på-en-gång-fix.
 - Hantera aktivt **falsk-positiv-frekvens**; ohanterat brus förstör förtroende för verktyget och leder till att fynd ignoreras i sin helhet.
 - Behandla fynd som en **uppmaning till mänsklig granskning**, med synliga, dokumenterade undantag, inte en automatisk dom eller tyst undertryckning.
-- Korsreferensera statisk analys med **komplexitets- och hotspot-data** (kapitel 4.1, 4.3) för konvergerande, starkare prioriteringsbevis.
+- Korsreferensera statisk analys med **komplexitets- och hotspot-data** (ämnen 4.1, 4.3) för konvergerande, starkare prioriteringsbevis.
 
 ## Källor och vidare läsning
 

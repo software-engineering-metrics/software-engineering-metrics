@@ -2,7 +2,7 @@
 
 ## Visão geral e motivação
 
-O **tempo de ciclo** é a decomposição interna do tempo de fluxo de uma mudança (capítulo 2.4) nas suas fases constituintes de engenharia: tempo de codificação, tempo de revisão, tempo de teste, e tempo de implementação, por vezes dividido ainda mais em tempo de admissão (quanto tempo uma mudança espera antes de alguém começar a trabalhar nela) e tempo ativo (quanto tempo demora uma vez que alguém o faz). Enquanto o tempo de fluxo lhe dá um único número para quanto tempo uma mudança demora de ponta a ponta através de toda a cadeia de valor, o **[tempo de ciclo](https://en.wikipedia.org/wiki/Cycle_time)** diz-lhe para onde esse tempo realmente vai uma vez que chega à engenharia, que é a camada de diagnóstico que o capítulo 2.4 prometeu estar por baixo do seu próprio número resumido.
+O **tempo de ciclo** é a decomposição interna do tempo de fluxo de uma mudança (tema 2.4) nas suas fases constituintes de engenharia: tempo de codificação, tempo de revisão, tempo de teste, e tempo de implementação, por vezes dividido ainda mais em tempo de admissão (quanto tempo uma mudança espera antes de alguém começar a trabalhar nela) e tempo ativo (quanto tempo demora uma vez que alguém o faz). Enquanto o tempo de fluxo lhe dá um único número para quanto tempo uma mudança demora de ponta a ponta através de toda a cadeia de valor, o **[tempo de ciclo](https://en.wikipedia.org/wiki/Cycle_time)** diz-lhe para onde esse tempo realmente vai uma vez que chega à engenharia, que é a camada de diagnóstico que o tema 2.4 prometeu estar por baixo do seu próprio número resumido.
 
 Esta distinção importa porque "o tempo de espera é demasiado longo" não é acionável por si só. Uma equipa cujo tempo de espera é dominado pelo tempo de codificação precisa de uma intervenção diferente de uma equipa cujo tempo de espera é dominado por uma fila de revisão de três dias, que precisa de uma intervenção novamente diferente de uma equipa a perder a maior parte do seu tempo para uma suite de testes instável e lenta. Sem a decomposição do tempo de ciclo, as equipas tendem a adivinhar o estrangulamento, e a adivinhação está errada frequentemente o suficiente para que corrigir a fase errada desperdice esforço real enquanto a restrição real permanece intocada.
 
@@ -11,16 +11,16 @@ Para equipas grandes, a decomposição do tempo de ciclo é o que transforma uma
 ## Princípios-chave
 
 - **O tempo de ciclo explica o tempo de espera; não o substitui.** Reporte ambos juntos, com o tempo de ciclo como o diagnóstico e o tempo de espera como o resumo.
-- **O tempo de espera normalmente domina o tempo ativo.** A maior parte do atraso na entrega de software vem de trabalho inativo numa fila, não de esforço ativo (o capítulo 2.5 cobre isto diretamente através da eficiência de fluxo).
+- **O tempo de espera normalmente domina o tempo ativo.** A maior parte do atraso na entrega de software vem de trabalho inativo numa fila, não de esforço ativo (o tema 2.5 cobre isto diretamente através da eficiência de fluxo).
 - **Decomponha por fase antes de propor uma correção.** Uma correção dirigida à fase errada desperdiça esforço e pode desmoralizar uma equipa a quem é pedido para "trabalhar mais depressa" quando o verdadeiro estrangulamento estava noutro lugar.
 - **Um estrangulamento partilhado através de muitas equipas é uma oportunidade de investimento em plataforma,** não apenas uma série de problemas individuais de equipa.
-- **Os dados de tempo de ciclo estão expostos aos mesmos riscos de manipulação que o tempo de fluxo** (capítulo 2.4): vigie as fronteiras de fase que mudam silenciosamente para lisonjear um número.
+- **Os dados de tempo de ciclo estão expostos aos mesmos riscos de manipulação que o tempo de fluxo** (tema 2.4): vigie as fronteiras de fase que mudam silenciosamente para lisonjear um número.
 
 ## Recomendações
 
 ### Instrumentar cada fronteira de fase explicitamente
 
-Divida a jornada de uma mudança em fases nomeadas com fronteiras claras e instrumentáveis: codificação (primeiro commit até o pull request ser aberto), admissão (pull request aberto até à primeira revisão), revisão (primeira revisão até à aprovação), e implementação (aprovação até à produção). Capture marcas temporais para cada transição automaticamente a partir de eventos de controlo de versões e CI/CD, não a partir de rastreio de fase autorrelatado, aplicando o mesmo princípio de instrumentação-acima-do-autorrelato do capítulo 1.5.
+Divida a jornada de uma mudança em fases nomeadas com fronteiras claras e instrumentáveis: codificação (primeiro commit até o pull request ser aberto), admissão (pull request aberto até à primeira revisão), revisão (primeira revisão até à aprovação), e implementação (aprovação até à produção). Capture marcas temporais para cada transição automaticamente a partir de eventos de controlo de versões e CI/CD, não a partir de rastreio de fase autorrelatado, aplicando o mesmo princípio de instrumentação-acima-do-autorrelato do tema 1.5.
 
 ### Separar o tempo de espera do tempo ativo dentro de cada fase
 
@@ -36,7 +36,7 @@ Em vez de um único alvo de "reduzir o tempo de espera em 20%", que não dá a u
 
 ### Vigiar a manipulação de fronteira de fase
 
-Tal como os pontos de início e fim do tempo de fluxo podem derivar (capítulo 2.4), as fronteiras individuais de fase do tempo de ciclo podem mudar de formas que lisonjeiam o número de uma fase específica sem nenhuma melhoria real, por exemplo, marcar uma revisão como "iniciada" no momento em que um revisor é atribuído em vez de quando realmente começa a ler a mudança. Audite periodicamente a instrumentação de fronteira de fase contra a sua definição documentada.
+Tal como os pontos de início e fim do tempo de fluxo podem derivar (tema 2.4), as fronteiras individuais de fase do tempo de ciclo podem mudar de formas que lisonjeiam o número de uma fase específica sem nenhuma melhoria real, por exemplo, marcar uma revisão como "iniciada" no momento em que um revisor é atribuído em vez de quando realmente começa a ler a mudança. Audite periodicamente a instrumentação de fronteira de fase contra a sua definição documentada.
 
 ## Trocas: prós e contras
 
@@ -59,7 +59,7 @@ A tensão central é **precisão diagnóstica versus custo de instrumentação**
 
 4. **Definimos alvos de melhoria específicos por fase, ou apenas um único alvo geral de tempo de espera sem orientação sobre onde nos concentrarmos?** Um alvo vago deixa uma equipa a adivinhar onde investir esforço; um específico por fase não. Verifique os seus objetivos atuais contra esta distinção.
 
-5. **Alguma fronteira de fase de tempo de ciclo na nossa instrumentação derivou da sua definição documentada ao longo do tempo?** As fronteiras de fase estão expostas ao mesmo risco de deriva definicional que o próprio tempo de fluxo (capítulo 2.4). Audite uma amostra de eventos recentes de transição de fase contra a definição escrita.
+5. **Alguma fronteira de fase de tempo de ciclo na nossa instrumentação derivou da sua definição documentada ao longo do tempo?** As fronteiras de fase estão expostas ao mesmo risco de deriva definicional que o próprio tempo de fluxo (tema 2.4). Audite uma amostra de eventos recentes de transição de fase contra a definição escrita.
 
 6. **Como é que uma cultura de revisão intensa versus uma cultura de confiança intensa se manifesta de forma diferente nos nossos dados de tempo de ciclo?** Uma equipa com revisão muito minuciosa e de várias rondas mostrará um tempo de fase de revisão mais longo do que uma equipa que confia em integrações de aprovação única; discuta se o seu equilíbrio atual reflete uma escolha deliberada ou uma predefinição não examinada.
 
@@ -88,7 +88,7 @@ O custo total de propriedade é o esforço de instrumentação para capturar mar
 ## Antipadrões e armadilhas
 
 - **Reagir a uma regressão de tempo de espera sem diagnóstico de tempo de ciclo:** leva frequentemente a corrigir a fase errada.
-- **Assumir que o esforço ativo, não o tempo de espera, é o custo dominante:** normalmente errado; o enfileiramento domina na maioria dos pipelines de entrega reais (capítulo 2.5).
+- **Assumir que o esforço ativo, não o tempo de espera, é o custo dominante:** normalmente errado; o enfileiramento domina na maioria dos pipelines de entrega reais (tema 2.5).
 - **Perder um estrangulamento partilhado entre equipas por rever o tempo de ciclo apenas equipa a equipa:** deixa uma correção de plataforma de alta alavancagem por descobrir.
 - **Definir um alvo geral vago de tempo de espera sem orientação específica por fase:** deixa as equipas a adivinhar onde concentrar esforço.
 - **Deriva definicional de fronteira de fase:** lisonjeia o número de uma fase específica sem melhoria real.
@@ -113,11 +113,11 @@ O custo total de propriedade é o esforço de instrumentação para capturar mar
 ## Principais conclusões
 
 - O tempo de ciclo **decompõe o tempo de fluxo** em fases de engenharia, codificação, revisão, teste, implementação, e é a camada de diagnóstico por baixo desse número resumido.
-- Separe o **tempo de espera do tempo ativo** dentro de cada fase; o enfileiramento normalmente domina o esforço ativo (capítulo 2.5).
+- Separe o **tempo de espera do tempo ativo** dentro de cada fase; o enfileiramento normalmente domina o esforço ativo (tema 2.5).
 - Procure **estrangulamentos partilhados entre equipas** antes de assumir que uma lentidão é específica de uma equipa; uma causa partilhada é muitas vezes uma oportunidade de investimento em plataforma.
 - Defina **alvos de melhoria específicos por fase**, não objetivos gerais vagos, para que as equipas saibam exatamente onde se concentrar.
 - As fronteiras de fase estão expostas ao mesmo risco de **deriva definicional** que o próprio tempo de fluxo; audite-as periodicamente.
-- O capítulo 2.7 dá a matemática subjacente, a lei de Little, para porque o trabalho em curso e o tempo de ciclo se movem juntos.
+- O tema 2.7 dá a matemática subjacente, a lei de Little, para porque o trabalho em curso e o tempo de ciclo se movem juntos.
 
 ## Referências e leituras adicionais
 

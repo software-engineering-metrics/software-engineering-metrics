@@ -2,13 +2,13 @@
 
 ## Trosolwg a chymhelliant
 
-Mae'r bennod hon yn cau Rhan 3 â'r mecaneg ymarferol sy'n gwneud data
-hunan-adrodd pob pennod flaenorol yn ddibynadwy: sut i ddylunio arolwg
+Mae'r pwnc hwn yn cau Rhan 3 â'r mecaneg ymarferol sy'n gwneud data
+hunan-adrodd pob pwnc blaenorol yn ddibynadwy: sut i ddylunio arolwg
 profiad datblygwyr (DevEx) sy'n cynhyrchu signal gwirioneddol yn
 hytrach na chystadleuaeth boblogrwydd, a sut i gyfuno data arolwg ag
 offeryno gwrthrychol yn set fetrigau y gall sefydliad weithredu arni
-mewn gwirionedd. Mae pob pennod yn y rhan hon yn dibynnu ar ryw ffurf o
-hunan-adrodd, boddhad a lles (pennod 3.2) yn fwyaf uniongyrchol, ond mae
+mewn gwirionedd. Mae pob pwnc yn y rhan hon yn dibynnu ar ryw ffurf o
+hunan-adrodd, boddhad a lles (pwnc 3.2) yn fwyaf uniongyrchol, ond mae
 perfformiad, cyfathrebu, a llif i gyd yn elwa o arolwg wedi'i ddylunio'n
 dda hefyd, ac mae arolwg wedi'i ddylunio'n wael yn tanseilio gwerth pob
 un ohonynt ar unwaith.
@@ -26,7 +26,7 @@ rhan hon eisoes wedi'u cwmpasu'n fanwl.
 
 I dimau mawr, mae'r gwahaniaeth rhwng arolwg sy'n cynhyrchu signal
 dibynadwy ac un sy'n cynhyrchu sŵn neu, yn waeth, ddata sy'n camarwain yn
-weithredol yn gyfan gwbl yn y manylion dylunio y mae'r bennod hon yn eu
+weithredol yn gyfan gwbl yn y manylion dylunio y mae'r pwnc hwn yn eu
 cwmpasu: geiriad cwestiwn, dewis graddfa ymateb, samplu a chadence, a
 sut mae canlyniadau'n cael eu cyfathrebu'n ôl i ymatebwyr. Ni all
 sefydliadau menter a llywodraeth sy'n rhedeg yr arolygon hyn ar raddfa,
@@ -43,7 +43,7 @@ mae offeryn diffygiol ar y raddfa honno'n cynhyrchu casgliadau anghywir
   data; mae cyfradd ostyngol yn aml yn nodi ymddiriedaeth sy'n erydu yn
   y broses.
 - **Cyfunwch ddata arolwg ag offeryno gwrthrychol** lle bynnag y bo'n
-  bosibl, gan ddilyn egwyddor offeryno pennod 1.5; defnyddiwch ddata
+  bosibl, gan ddilyn egwyddor offeryno pwnc 1.5; defnyddiwch ddata
   arolwg yn benodol ar gyfer yr hyn na all data gwrthrychol ei ddal.
 - **Caewch y ddolen gydag ymatebwyr.** Mae arolwg nad yw byth yn arwain
   yn weladwy at unrhyw newid yn hyfforddi pobl i stopio'i gymryd o
@@ -77,7 +77,7 @@ annisgwyl cyn iddo lygru set ddata lawn.
 
 Olrheiniwch gyfradd ymateb arolwg dros gylchoedd olynol, a thriniwch
 gyfradd ostyngol fel arwydd rhybudd sy'n werth ei archwilio'n
-uniongyrchol, yn debyg i'r signal ymddiriedaeth a drafodwyd ym mhennod
+uniongyrchol, yn debyg i'r signal ymddiriedaeth a drafodwyd ym mhwnc
 3.2. Mae cyfradd ymateb yn gostwng yn aml yn nodi blinder arolwg,
 ymddiriedaeth sy'n erydu bod canlyniadau'n arwain at weithredu, neu
 amheuaeth gynyddol nad yw anhysbysrwydd wedi'i warchod mewn gwirionedd,
@@ -88,7 +88,7 @@ chael ei ddiystyru fel niwsans casglu data yn unig.
 
 Parejwch ymatebion arolwg goddrychol â signalau gwrthrychol lle maent
 yn bodoli: amser adeiladu, amser rhedeg set brofion, amser gosod
-amgylchedd datblygu lleol, a'r data amser-llif ac ymyriad o bennod 3.6.
+amgylchedd datblygu lleol, a'r data amser-llif ac ymyriad o bwnc 3.6.
 Mae ymateb arolwg sy'n dweud "mae ein hadeiladu'n rhy araf" yn dod yn
 llawer mwy gweithredadwy wedi'i parejo â thuedd amser adeiladu wedi'i
 fesur mewn gwirionedd, ac mae'r cyfuniad yn dal achosion lle mae
@@ -231,7 +231,7 @@ anghywir: dau chwarter o ymdrech unioni camgyfeiriedig oherwydd bod un
 cwestiwn wedi'i eirio'n wael wedi cymysgu dau bryder gwahanol.
 
 Mae cost cyfanswm perchnogaeth yn cynnwys offeryn arolwg, y ddisgyblaeth
-dylunio a pheilota y mae'r bennod hon yn ei hargymell, a'r ymrwymiad
+dylunio a pheilota y mae'r pwnc hwn yn ei hargymell, a'r ymrwymiad
 parhaus i gau'r ddolen â gweithredu dilynol gweladwy bob cylch. Yr
 ymrwymiad hwnnw, yn fwy nag unrhyw gost offer, sy'n pennu a yw rhaglen
 arolwg yn aros yn ddefnyddiol am flynyddoedd neu'n dadfeilio'n ymarfer

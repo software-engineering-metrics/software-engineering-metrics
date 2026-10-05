@@ -2,7 +2,7 @@
 
 ## Visión general y motivación
 
-**Comunicación y colaboración**, la C de SPACE (capítulo 3.1), mide cómo
+**Comunicación y colaboración**, la C de SPACE (tema 3.1), mide cómo
 fluye realmente la información entre personas y equipos: qué tan
 descubrible es la documentación, qué tan uniformemente se reparte el
 conocimiento en un equipo, qué tan bien se coordinan las dependencias entre
@@ -14,14 +14,14 @@ ese vacío es un error, porque las rupturas aquí son con frecuencia la
 causa raíz de problemas que aparecen, mal atribuidos, en cada una de las
 otras dimensiones.
 
-Una tasa de fallos de cambio en aumento (capítulo 2.10) que parece un
+Una tasa de fallos de cambio en aumento (tema 2.10) que parece un
 problema de pruebas en realidad a veces es un problema de comunicación: un
 equipo que no supo del cambio de una dependencia hasta que se rompió en
-producción. Una tendencia de satisfacción en declive (capítulo 3.2) que
+producción. Una tendencia de satisfacción en declive (tema 3.2) que
 parece un problema de carga de trabajo en realidad a veces es un problema
 de aislamiento: un ingeniero que ha sido excluido en silencio de las
 conversaciones donde se toman las decisiones. El argumento central de este
-capítulo es que la comunicación y la colaboración merecen una medición
+tema es que la comunicación y la colaboración merecen una medición
 directa precisamente porque sus fallos se disfrazan de otros problemas, y
 un equipo que persigue la causa raíz equivocada desperdicia esfuerzo real
 arreglando lo que no es.
@@ -74,7 +74,7 @@ cambios o respuestas a incidencias en un periodo significativo.
 Rastrea cuánto tarda una solicitud entre equipos, un cambio de API
 necesario, una actualización de biblioteca compartida, una publicación
 coordinada, desde que se plantea hasta que se resuelve, similar en
-espíritu a la descomposición de tiempo de ciclo del capítulo 2.6 pero
+espíritu a la descomposición de tiempo de ciclo del tema 2.6 pero
 aplicada específicamente a la coordinación entre equipos, no dentro de un
 equipo. Un equipo que espera de forma consistente semanas por una
 dependencia que posee otro equipo tiene un problema de colaboración que no
@@ -90,7 +90,7 @@ accede realmente a la documentación, con qué frecuencia un nuevo miembro
 del equipo reporta no poder encontrar una respuesta que necesitaba, o con
 qué frecuencia se hace la misma pregunta repetidamente en un canal de chat
 porque la respuesta, aunque documentada, no era descubrible. Esto conecta
-directamente la calidad de la documentación (capítulo 4.6) con las
+directamente la calidad de la documentación (tema 4.6) con las
 preocupaciones de colaboración de esta dimensión.
 
 ### Rastrea el tiempo de incorporación hasta la contribución productiva como indicador indirecto directo
@@ -196,7 +196,7 @@ concentración de conocimiento escalan mal aquí, ya que más equipos
 significan más superficie de coordinación y más sistemas críticos que
 pueden acabar en manos de un grupo cada vez más reducido de expertos
 veteranos. Invierte deliberadamente en la instrumentación que recomienda
-este capítulo, ya que la conciencia informal genuinamente no puede cubrir
+este tema, ya que la conciencia informal genuinamente no puede cubrir
 una organización a esta escala.
 
 **Sector público.** Los sistemas de larga vida y las largas permanencias de
@@ -268,7 +268,7 @@ equipos crónico y sin abordar.
   precisamente donde viven los cuellos de botella ocultos.
 - **Ignorar el factor de autobús hasta que una crisis fuerza el
   descubrimiento:** el modo de fallo más dañino contra el que advierte
-  este capítulo.
+  este tema.
 - **Asumir que la existencia de documentación equivale a su utilidad:** el
   contenido obsoleto o imposible de encontrar aporta poco valor real de
   comunicación.

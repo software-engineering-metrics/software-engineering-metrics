@@ -1,10 +1,10 @@
 # Part index (shared reference)
 
-The canonical list of parts and their chapter counts. This is a quick
-reference for agents and contributors; the authoritative per-chapter manifest
+The canonical list of parts and their topic counts. This is a quick
+reference for agents and contributors; the authoritative per-topic manifest
 is `spec/structure.md` at the repository root.
 
-| Part | Title | Chapters (including the N.0 introduction) |
+| Part | Title | Topics (including the N.0 introduction) |
 | --- | --- | --- |
 | 1 | Foundations of Measurement | 7 |
 | 2 | Flow Metrics | 11 |
@@ -16,4 +16,4 @@ is `spec/structure.md` at the repository root.
 | 8 | Building a Metrics Program | 6 |
 | 9 | Appendices | 8 |
 
-Total: 9 parts, 63 chapters.
+Total: 9 parts, 63 topics.

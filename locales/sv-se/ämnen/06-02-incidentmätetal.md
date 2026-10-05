@@ -2,25 +2,25 @@
 
 ## Översikt och motivation
 
-Det här kapitlet mäter vad som händer när felbudgeten från kapitel 6.1 spenderas genom ett verkligt fel: en **incident**, ett oplanerat event som försämrar eller avbryter en tjänst. Fyra mätetal bildar standardvokabuläret för att mäta hur väl en organisation hanterar det här: **genomsnittlig tid till upptäckt (MTTD)**, hur lång tid innan organisationen märker att något är fel; **genomsnittlig tid till bekräftelse (MTTA)**, hur lång tid innan någon tar ägarskap för att svara; **genomsnittlig tid till lösning** eller **återställning (MTTR)**, hur lång tid tills tjänsten är återställd, samma koncept kapitel 2.10 täckte specifikt för driftsättningsorsakade fel, nu generaliserat till vilken incident som helst oavsett orsak; och **incidentfrekvens**, helt enkelt hur ofta incidenter inträffar alls.
+Det här ämnet mäter vad som händer när felbudgeten från ämne 6.1 spenderas genom ett verkligt fel: en **incident**, ett oplanerat event som försämrar eller avbryter en tjänst. Fyra mätetal bildar standardvokabuläret för att mäta hur väl en organisation hanterar det här: **genomsnittlig tid till upptäckt (MTTD)**, hur lång tid innan organisationen märker att något är fel; **genomsnittlig tid till bekräftelse (MTTA)**, hur lång tid innan någon tar ägarskap för att svara; **genomsnittlig tid till lösning** eller **återställning (MTTR)**, hur lång tid tills tjänsten är återställd, samma koncept ämne 2.10 täckte specifikt för driftsättningsorsakade fel, nu generaliserat till vilken incident som helst oavsett orsak; och **incidentfrekvens**, helt enkelt hur ofta incidenter inträffar alls.
 
-Det här kapitlets centrala angelägenhet, ekande kapitel 2.10:s behandling av ändringsfelfrekvens, är att de här talen bara är så pålitliga som den organisatoriska kulturen runt att rapportera och klassificera incidenter ärligt. Ett team som fruktar skuld för en incident har varje incitament att underrapportera, fördröja bekräftelse för att undvika att vara "på klockan," eller klassificera ett allvarligt event som mindre för att skydda sina egna mätetal. **[Skuldfri](https://en.wikipedia.org/wiki/Just_culture) postmortem**-praxis, pionjärad på organisationer som Etsy och formaliserad i Googles SRE-litteratur, existerar specifikt för att ta bort det incitamentet, och det här kapitlet behandlar den som en förutsättning för pålitlig incidentdata, inte en valfri kulturell finess lagd ovanpå mätetalen.
+Det här ämnets centrala angelägenhet, ekande ämne 2.10:s behandling av ändringsfelfrekvens, är att de här talen bara är så pålitliga som den organisatoriska kulturen runt att rapportera och klassificera incidenter ärligt. Ett team som fruktar skuld för en incident har varje incitament att underrapportera, fördröja bekräftelse för att undvika att vara "på klockan," eller klassificera ett allvarligt event som mindre för att skydda sina egna mätetal. **[Skuldfri](https://en.wikipedia.org/wiki/Just_culture) postmortem**-praxis, pionjärad på organisationer som Etsy och formaliserad i Googles SRE-litteratur, existerar specifikt för att ta bort det incitamentet, och det här ämnet behandlar den som en förutsättning för pålitlig incidentdata, inte en valfri kulturell finess lagd ovanpå mätetalen.
 
-För stora team avslöjar incidentmätetal om en organisations upptäckts- och responsförmåga, kapitel 2.10:s återrullningsverktyg bland andra investeringar, faktiskt fungerar under verkliga, varierande förhållanden, inte bara det specifika driftsättningsorsakade felscenariot det kapitlet täckte. Stora företag och myndigheter som driver kritisk infrastruktur beror på de här mätetalen både internt, för att driva genuin operativ förbättring, och externt, för att visa för kunder, regulatorer, eller allmänheten att incidenter hanteras kompetent och förbättras över tid.
+För stora team avslöjar incidentmätetal om en organisations upptäckts- och responsförmåga, ämne 2.10:s återrullningsverktyg bland andra investeringar, faktiskt fungerar under verkliga, varierande förhållanden, inte bara det specifika driftsättningsorsakade felscenariot det ämnet täckte. Stora företag och myndigheter som driver kritisk infrastruktur beror på de här mätetalen både internt, för att driva genuin operativ förbättring, och externt, för att visa för kunder, regulatorer, eller allmänheten att incidenter hanteras kompetent och förbättras över tid.
 
 ## Nyckelprinciper
 
 - **Skuldfri kultur är en förutsättning för pålitlig incidentdata**, inte ett valfritt tillägg; fruktan för skuld korrumperar rapportering, bekräftelsehastighet, och allvarlighetsgradsklassificering lika mycket.
 - **Upptäckt, bekräftelse, och lösning är distinkta faser med distinkta fixar.** En långsam övergripande återställningstid kan dölja mycket olika underliggande problem beroende på vilken fas som faktiskt är långsam.
-- **Incidentfrekvens och MTTR är en parad signal**, liknande DORAs ändringsfelfrekvens och återställningstid (kapitel 2.10): varken ensam berättar hela historien.
-- **Allvarlighetsgradsklassificering behöver samma rigör som läckt-defekt-klassificering** (kapitel 5.1): konsekventa, dokumenterade kriterier, inte ad hoc-omdöme.
+- **Incidentfrekvens och MTTR är en parad signal**, liknande DORAs ändringsfelfrekvens och återställningstid (ämne 2.10): varken ensam berättar hela historien.
+- **Allvarlighetsgradsklassificering behöver samma rigör som läckt-defekt-klassificering** (ämne 5.1): konsekventa, dokumenterade kriterier, inte ad hoc-omdöme.
 - **En postmortems värde ligger i systemiskt lärande, inte i att producera ett tal.** Mätetalet är en biprodukt av god praxis, inte dess mål.
 
 ## Rekommendationer
 
 ### Bryt ner incidentresponstid i dess distinkta faser
 
-Mät och rapportera upptäcktstid (från felets faktiska start till någon märker det), bekräftelsetid (från notifiering till någon tar ägarskap), och lösningstid (från ägarskap till genuin återställning) separat, snarare än bara en enda, blandad total. Varje fas pekar på en annan fix: långsam upptäckt pekar på ett övervaknings- och varningsgap, långsam bekräftelse pekar på ett jour- eller eskaleringsproblem, och långsam lösning pekar på ett verktygs-, körbok-, eller diagnostikförmågagap (kapitel 2.10 täcker det här specifikt för driftsättningsorsakade fel).
+Mät och rapportera upptäcktstid (från felets faktiska start till någon märker det), bekräftelsetid (från notifiering till någon tar ägarskap), och lösningstid (från ägarskap till genuin återställning) separat, snarare än bara en enda, blandad total. Varje fas pekar på en annan fix: långsam upptäckt pekar på ett övervaknings- och varningsgap, långsam bekräftelse pekar på ett jour- eller eskaleringsproblem, och långsam lösning pekar på ett verktygs-, körbok-, eller diagnostikförmågagap (ämne 2.10 täcker det här specifikt för driftsättningsorsakade fel).
 
 ### Bygg och skydda en genuint skuldfri postmortem-process
 
@@ -28,7 +28,7 @@ En **skuldfri postmortem** undersöker vad som hände och varför systemet till�
 
 ### Klassificera allvarlighetsgrad med konsekventa, dokumenterade, granskade kriterier
 
-Tillämpa samma disciplin kapitel 5.1 rekommenderar för läckta defekter på incidentallvarlighetsgradsklassificering: en fast, dokumenterad skala baserad på faktisk kund- eller affärspåverkan, tillämpad konsekvent över team, periodiskt granskad för drift. Inkonsekvent klassificering, vissa team generösa, vissa strikta, gör organisationsövergripande incidentdata lika otillförlitlig för jämförelse som inkonsekvent klassificerad defektdata skulle vara.
+Tillämpa samma disciplin ämne 5.1 rekommenderar för läckta defekter på incidentallvarlighetsgradsklassificering: en fast, dokumenterad skala baserad på faktisk kund- eller affärspåverkan, tillämpad konsekvent över team, periodiskt granskad för drift. Inkonsekvent klassificering, vissa team generösa, vissa strikta, gör organisationsövergripande incidentdata lika otillförlitlig för jämförelse som inkonsekvent klassificerad defektdata skulle vara.
 
 ### Spåra incidentfrekvens och MTTR tillsammans, aldrig isolerat
 
@@ -36,7 +36,7 @@ En förbättrad MTTR vid sidan av en stigande incidentfrekvens kan indikera ett 
 
 ### Extrahera och spåra systemiska åtgärdspunkter från postmortems, inte bara mätetal
 
-Det verkliga värdet av postmortem-processen är de specifika, systemiska åtgärdspunkterna den producerar: en saknad varning tillagd, en körbok förbättrad, en enskild felpunkt borttagen. Spåra de här åtgärdspunkterna till slutförande med samma disciplin som den tekniska skuldbackloggen från kapitel 4.5, eftersom en postmortem som producerar insikt men ingen uppföljning slösar det organisatoriska lärandet processen är menad att fånga.
+Det verkliga värdet av postmortem-processen är de specifika, systemiska åtgärdspunkterna den producerar: en saknad varning tillagd, en körbok förbättrad, en enskild felpunkt borttagen. Spåra de här åtgärdspunkterna till slutförande med samma disciplin som den tekniska skuldbackloggen från ämne 4.5, eftersom en postmortem som producerar insikt men ingen uppföljning slösar det organisatoriska lärandet processen är menad att fånga.
 
 ## Avvägningar: fördelar och nackdelar
 
@@ -57,7 +57,7 @@ Den centrala spänningen är **tilldragningen av individuell ansvarighet kontra 
 
 3. **Skulle två olika team klassificera samma incidents allvarlighetsgrad på samma sätt?** Välj en verklig, tvetydig tidigare incident och låt representanter från olika team klassificera den oberoende, jämför sedan resultaten.
 
-4. **Granskar vi incidentfrekvens och MTTR tillsammans, eller får en mer uppmärksamhet än den andra?** Kontrollera er faktiska rapporteringspraxis och granskningar för den här paringen, speglande samma disciplin kapitel 2.10 rekommenderar för DORA-stabilitetsmätetalen.
+4. **Granskar vi incidentfrekvens och MTTR tillsammans, eller får en mer uppmärksamhet än den andra?** Kontrollera er faktiska rapporteringspraxis och granskningar för den här paringen, speglande samma disciplin ämne 2.10 rekommenderar för DORA-stabilitetsmätetalen.
 
 5. **Vilken procentandel av våra postmortem-åtgärdspunkter från de senaste sex månaderna har faktiskt slutförts?** Om ni inte för närvarande spårar det här är det gapet värt att namnge; en postmortem-process med en låg åtgärdspunktsslutförandefrekvens producerar insikt utan uppföljning.
 
@@ -67,7 +67,7 @@ Den centrala spänningen är **tilldragningen av individuell ansvarighet kontra 
 
 **Startup.** Incidentrespons är ofta informell av nödvändighet med ett litet team, och formell fasnedbrytning kan vara onödig till en början. Vanan värd att anta tidigt är skuldfria diskussionsnormer från den allra första incidenten, eftersom kulturella vanor satta tidigt är mycket lättare att upprätthålla än att retroaktivt anpassa när ett skuldbenäget mönster har fått fäste.
 
-**Litet företag.** En enkel, delad incidentlogg, även informell, med en grundläggande allvarlighetsgradsklassificering och en kort skuldfri retrospektiv för allt betydande, fångar det mesta av det här kapitlets värde utan att behöva sofistikerade verktyg eller en dedikerad incidenthanteringsplattform.
+**Litet företag.** En enkel, delad incidentlogg, även informell, med en grundläggande allvarlighetsgradsklassificering och en kort skuldfri retrospektiv för allt betydande, fångar det mesta av det här ämnets värde utan att behöva sofistikerade verktyg eller en dedikerad incidenthanteringsplattform.
 
 **Stort företag.** Konsekvent allvarlighetsgradsklassificering och genuin, upprätthållen skuldfri kultur är båda svårare att underhålla i skala, och båda är väsentliga för pålitlig, jämförbar incidentdata över dussintals team. Investera i dokumenterade klassificeringskriterier, periodisk granskning, och aktiv ledningsmodellering av skuldfri respons, eftersom kulturell drift mot skuld tenderar att smyga sig in gradvis utan medvetet, löpande mottryck.
 
@@ -114,7 +114,7 @@ Den totala ägandekostnaden är mestadels kulturell och processinvestering: uppr
 
 - **Skuldfri postmortem-kultur är en förutsättning** för pålitlig incidentdata; fruktan för skuld korrumperar rapportering, bekräftelsehastighet, och klassificering lika mycket.
 - Bryt ner responstid i **upptäckts-, bekräftelse-, och lösningsfaser**, var och en pekande på en annan fix.
-- Klassificera allvarlighetsgrad med **konsekventa, dokumenterade, granskade kriterier**, speglande kapitel 5.1:s läckt-defekt-disciplin.
+- Klassificera allvarlighetsgrad med **konsekventa, dokumenterade, granskade kriterier**, speglande ämne 5.1:s läckt-defekt-disciplin.
 - Granska **incidentfrekvens och MTTR tillsammans**, aldrig isolerat, samma paringsdisciplin som DORAs stabilitetsmätetal.
 - Spåra **postmortem-åtgärdspunkter till slutförande**; mätetalet är en biprodukt av god praxis, inte dess mål.
 

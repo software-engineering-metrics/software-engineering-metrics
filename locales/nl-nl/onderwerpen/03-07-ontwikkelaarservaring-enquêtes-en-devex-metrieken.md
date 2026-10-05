@@ -2,17 +2,17 @@
 
 ## Overzicht en motivatie
 
-Dit hoofdstuk sluit deel 3 af met de praktische mechanica die de zelfrapportagedata van elk voorgaand hoofdstuk betrouwbaar maakt: hoe een ontwikkelaarservaring (DevEx)-enquête te ontwerpen die een echt signaal produceert in plaats van een populariteitswedstrijd, en hoe enquêtedata te combineren met objectieve instrumentatie in een metriekenset waarop een organisatie daadwerkelijk kan handelen. Elk hoofdstuk in dit deel vertrouwt op een vorm van zelfrapportage, tevredenheid en welzijn (hoofdstuk 3.2) het meest direct, maar prestatie, communicatie, en flow profiteren allemaal ook van een goed ontworpen enquête, en een slecht ontworpen enquête ondermijnt de waarde van alle tegelijk.
+Dit onderwerp sluit deel 3 af met de praktische mechanica die de zelfrapportagedata van elk voorgaand onderwerp betrouwbaar maakt: hoe een ontwikkelaarservaring (DevEx)-enquête te ontwerpen die een echt signaal produceert in plaats van een populariteitswedstrijd, en hoe enquêtedata te combineren met objectieve instrumentatie in een metriekenset waarop een organisatie daadwerkelijk kan handelen. Elk onderwerp in dit deel vertrouwt op een vorm van zelfrapportage, tevredenheid en welzijn (onderwerp 3.2) het meest direct, maar prestatie, communicatie, en flow profiteren allemaal ook van een goed ontworpen enquête, en een slecht ontworpen enquête ondermijnt de waarde van alle tegelijk.
 
 **Ontwikkelaarservaring (DevEx)** is de bredere, recentere framing die opgekomen is rond hetzelfde kernidee dat SPACE formaliseerde: de daadwerkelijke, dagelijkse ervaring van ingenieurs met werk gedaan krijgen, wrijving, tooling, cognitieve last, feedbacklussen, is zelf een meetbaar, verbeterbaar ding, niet alleen een zachte culturele zorg. DevEx-onderzoek, met name het framework voorgesteld door Abi Noda, Margaret-Anne Storey, Nicole Forsgren, en Michaela Greiler, organiseert deze ervaring rond drie dimensies: feedbacklussen, cognitieve last, en flowtoestand, die nauw mappen op en uitbreiden op de SPACE-dimensies die dit deel al diepgaand behandeld heeft.
 
-Voor grote teams is het verschil tussen een enquête die betrouwbaar signaal produceert en een die ruis produceert of, erger, actief misleidende data volledig in de ontwerpdetails die dit hoofdstuk behandelt: vraagformulering, responsschaalkeuze, steekproeftrekking en cadans, en hoe resultaten teruggecommuniceerd worden aan respondenten. Grote bedrijven en overheidsorganisaties die deze enquêtes op schaal draaien, over duizenden ingenieurs, kunnen het zich niet veroorloven dit verkeerd te krijgen, omdat een gebrekkig instrument op die schaal vol-vertrouwen-verkeerde conclusies produceert die echte resourcebeslissingen vormen.
+Voor grote teams is het verschil tussen een enquête die betrouwbaar signaal produceert en een die ruis produceert of, erger, actief misleidende data volledig in de ontwerpdetails die dit onderwerp behandelt: vraagformulering, responsschaalkeuze, steekproeftrekking en cadans, en hoe resultaten teruggecommuniceerd worden aan respondenten. Grote bedrijven en overheidsorganisaties die deze enquêtes op schaal draaien, over duizenden ingenieurs, kunnen het zich niet veroorloven dit verkeerd te krijgen, omdat een gebrekkig instrument op die schaal vol-vertrouwen-verkeerde conclusies produceert die echte resourcebeslissingen vormen.
 
 ## Kernprincipes
 
 - **Enquête-ontwerpkwaliteit bepaalt databetrouwbaarheid veel meer dan enquêtelengte of verfijning.** Een korte, goed ontworpen enquête verslaat een lange, slecht ontworpen een elke keer.
 - **Responstempo is zelf een signaal**, niet alleen een datainzameling-metriek; een dalend tempo duidt vaak op eroderend vertrouwen in het proces.
-- **Combineer enquêtedata met objectieve instrumentatie** waar mogelijk, het instrumentatieprincipe van hoofdstuk 1.5 volgend; gebruik enquêtedata specifiek voor wat objectieve data niet kan vangen.
+- **Combineer enquêtedata met objectieve instrumentatie** waar mogelijk, het instrumentatieprincipe van onderwerp 1.5 volgend; gebruik enquêtedata specifiek voor wat objectieve data niet kan vangen.
 - **Sluit de lus met respondenten.** Een enquête die nooit zichtbaar leidt tot enige verandering traint mensen om het niet meer serieus te nemen.
 - **DevEx en SPACE zijn complementaire framings van dezelfde onderliggende zorg**, geen concurrerende frameworks om tussen te kiezen.
 
@@ -28,11 +28,11 @@ Standaardiseer op een consistente responsschaal (een vijf- of zeven-punts-**[Lik
 
 ### Behandel responstempo als een diagnostisch signaal op eigen recht
 
-Volg enquêteresponstempo over opeenvolgende cycli, en behandel een dalend tempo als een waarschuwingssignaal de moeite waard om direct te onderzoeken, gelijkend op het vertrouwenssignaal besproken in hoofdstuk 3.2. Een dalend responstempo duidt vaak op enquêtevermoeidheid, eroderend vertrouwen dat resultaten tot actie leiden, of een groeiend vermoeden dat anonimiteit niet echt beschermd is, elk waarvan direct onderzoek verdient in plaats van afgewezen te worden als een louter datainzameling-ongemak.
+Volg enquêteresponstempo over opeenvolgende cycli, en behandel een dalend tempo als een waarschuwingssignaal de moeite waard om direct te onderzoeken, gelijkend op het vertrouwenssignaal besproken in onderwerp 3.2. Een dalend responstempo duidt vaak op enquêtevermoeidheid, eroderend vertrouwen dat resultaten tot actie leiden, of een groeiend vermoeden dat anonimiteit niet echt beschermd is, elk waarvan direct onderzoek verdient in plaats van afgewezen te worden als een louter datainzameling-ongemak.
 
 ### Combineer enquêtedata met objectieve DevEx-instrumentatie
 
-Koppel subjectieve enquêteantwoorden met objectieve signalen waar ze bestaan: bouwtijd, testsuite-draaitijd, lokale-ontwikkelomgeving-opzettijd, en de flowtijd- en onderbrekingsdata van hoofdstuk 3.6. Een enquêteantwoord dat zegt "onze build is te traag" wordt veel handelbaarder gekoppeld met de daadwerkelijk gemeten bouwtijdtrend, en de combinatie vangt gevallen waar perceptie en objectieve realiteit uiteenlopen in beide richtingen, de moeite waard om op zich te onderzoeken.
+Koppel subjectieve enquêteantwoorden met objectieve signalen waar ze bestaan: bouwtijd, testsuite-draaitijd, lokale-ontwikkelomgeving-opzettijd, en de flowtijd- en onderbrekingsdata van onderwerp 3.6. Een enquêteantwoord dat zegt "onze build is te traag" wordt veel handelbaarder gekoppeld met de daadwerkelijk gemeten bouwtijdtrend, en de combinatie vangt gevallen waar perceptie en objectieve realiteit uiteenlopen in beide richtingen, de moeite waard om op zich te onderzoeken.
 
 ### Sluit de lus: publiceer resultaten en zichtbare vervolgactie
 
@@ -83,7 +83,7 @@ De centrale spanning is **dekking versus responskwaliteit**. Een langere, uitgeb
 
 Het rendement van een goed ontworpen DevEx-enquêteprogramma is betrouwbare, handelbare data over een dimensie, ontwikkelaarservaring, die anders onzichtbaar blijft totdat het opduikt als verzuim of een leveringsvertraging. Het softwarebedrijfvoorbeeld hierboven toont de kost van ontwerp verkeerd krijgen: twee kwartalen verkeerd-gerichte herstelinspanning omdat een enkele slecht geformuleerde vraag twee onderscheiden zorgen vermengde.
 
-De totale eigendomskosten omvatten enquêtetooling, de ontwerp- en pilotdiscipline die dit hoofdstuk aanbeveelt, en de doorlopende toewijding om de lus te sluiten met zichtbare vervolgactie elke cyclus. Die toewijding, meer dan enige toolingkost, bepaalt of een enquêteprogramma nuttig blijft voor jaren of vervalt tot een vakjes-afvinken-oefening die gestaag minder betrouwbare data produceert over tijd.
+De totale eigendomskosten omvatten enquêtetooling, de ontwerp- en pilotdiscipline die dit onderwerp aanbeveelt, en de doorlopende toewijding om de lus te sluiten met zichtbare vervolgactie elke cyclus. Die toewijding, meer dan enige toolingkost, bepaalt of een enquêteprogramma nuttig blijft voor jaren of vervalt tot een vakjes-afvinken-oefening die gestaag minder betrouwbare data produceert over tijd.
 
 ## Antipatronen en valkuilen
 

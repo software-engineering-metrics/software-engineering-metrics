@@ -13,10 +13,10 @@ end-to-end sequence of activities that turns an idea into value a customer
 receives, borrowing directly from the value stream mapping tradition of
 lean manufacturing.
 
-This book uses the Flow Framework as Part 2's organizing structure. Chapter
-2.2 introduces its four flow items, chapters 2.3 and 2.4 introduce its five
-flow metrics, chapter 2.8 traces those metrics back to their origin in
-classical Lean value stream mapping, and chapter 2.10 covers the DORA
+This book uses the Flow Framework as Part 2's organizing structure. Topic
+2.2 introduces its four flow items, topics 2.3 and 2.4 introduce its five
+flow metrics, topic 2.8 traces those metrics back to their origin in
+classical Lean value stream mapping, and topic 2.10 covers the DORA
 metrics as a narrower, pipeline-focused reference framework this part no
 longer leads with. That is a deliberate choice, not a dismissal of DORA's
 research. DORA measures
@@ -42,7 +42,7 @@ provides.
 - **A value stream is the unit of measurement, not a team or a pipeline.**
   It spans from a customer or business need to the delivered outcome,
   crossing whatever team boundaries the work actually crosses.
-- **Flow items make the "what" visible, not just the "how fast."** Chapter
+- **Flow items make the "what" visible, not just the "how fast."** Topic
   2.2's four categories, features, defects, risks, and debt, turn an
   implicit prioritization decision into an explicit, measurable one.
 - **Capacity allocation across flow items is zero-sum.** More capacity spent
@@ -76,14 +76,14 @@ tracking directly into the tools work already flows through, Jira, Azure
 DevOps, GitHub, rather than building a parallel tracking system teams have
 to update by hand. A flow item's state should update itself as the
 underlying ticket or pull request moves, the same instrumentation-over-
-self-report discipline chapter 1.5 recommends for every metric in this
+self-report discipline topic 1.5 recommends for every metric in this
 book.
 
 ### Present flow distribution to business stakeholders directly, not just engineering leadership
 
 The single biggest missed opportunity with this framework is treating it as
 an internal engineering tool. Flow distribution, the proportion of work
-going to features versus defects, risk, and debt (chapter 2.3), is
+going to features versus defects, risk, and debt (topic 2.3), is
 specifically designed to be a conversation you have with product and
 business leadership, because it makes an implicit prioritization decision,
 how much capacity goes to new value versus keeping the lights on, explicit
@@ -109,7 +109,7 @@ computed against a stale map quietly measures the wrong thing.
 
 | Approach | Pros | Cons |
 | --- | --- | --- |
-| Pipeline metrics only (DORA, chapter 2.10) | Simple, well-validated, cheap to instrument from existing CI/CD data | Silent on what kind of value is being delivered |
+| Pipeline metrics only (DORA, topic 2.10) | Simple, well-validated, cheap to instrument from existing CI/CD data | Silent on what kind of value is being delivered |
 | Full Flow Framework adoption | Connects delivery to business strategy; makes value mix visible and negotiable | Requires an honest value stream map and consistent flow-item classification discipline |
 | Static, one-time value stream mapping | Cheap, quick to run as a workshop exercise | Goes stale quickly; produces a snapshot, not a live metric |
 | Continuous, tool-integrated value stream management | Live, always-current data; scales across many value streams | Requires real tooling integration work up front |
@@ -238,14 +238,14 @@ adopt.
 - **Building a parallel, manually maintained flow-item tracking system:**
   decays quickly under real workload; integrate into existing tools instead.
 - **Classifying flow items retroactively rather than at intake:** the
-  gaming vector at the heart of this chapter. Under delivery pressure, a
+  gaming vector at the heart of this topic. Under delivery pressure, a
   team can quietly relabel debt or risk work as features after the fact to
   look more productive to stakeholders who only see the flow distribution
   chart, without anyone ever making an explicit, visible decision to do so.
   The guardrail is to require classification at intake, before the outcome
   is known, and to periodically audit a sample of classified items against
   what the underlying change actually did, the same audit discipline
-  chapter 1.2 asks for with every metric in this book.
+  topic 1.2 asks for with every metric in this book.
 - **Keeping flow metrics inside engineering only:** forfeits the framework's
   main advantage, a shared vocabulary with business stakeholders.
 - **Mapping the org chart instead of the actual value stream:** hides
@@ -287,7 +287,7 @@ adopt.
 - A **value stream**, not a team or a pipeline, is the framework's unit of
   measurement, and mapping it honestly comes before instrumenting anything.
 - **Flow-item classification at intake, not after the fact**, is the
-  guardrail against this chapter's central gaming vector: quietly relabeling
+  guardrail against this topic's central gaming vector: quietly relabeling
   debt or risk work as features to look more productive.
 - **Connect flow metrics to existing tools**, Jira, Azure DevOps, GitHub,
   rather than a parallel manual tracking system that will not survive real

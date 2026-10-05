@@ -15,8 +15,8 @@ ddechrau.
 
 **[Gwaith ar y gweill](https://en.wikipedia.org/wiki/Work_in_process)**
 (WIP) yw'r cyfrif o eitemau y gweithir arnynt yn weithredol ar unrhyw
-adeg, ar draws tîm neu system, yr un maint y mae pennod 2.4 yn ei alw'n
-"lwyth llif." Y canfyddiad gwrth-reddfol y tu ôl i'r bennod hon, wedi'i
+adeg, ar draws tîm neu system, yr un maint y mae pwnc 2.4 yn ei alw'n
+"lwyth llif." Y canfyddiad gwrth-reddfol y tu ôl i'r pwnc hwn, wedi'i
 gefnogi gan ddegawdau o ymchwil mewn rheolaeth gweithrediadau a'i
 ffurfioli ar gyfer cyflenwi meddalwedd trwy kanban a theori ciwio, yw bod
 cyfyngu WIP yn tueddu i *gynyddu* trwybwn, nid ei leihau, oherwydd mae
@@ -29,7 +29,7 @@ I dimau mawr, mae deall effeithlonrwydd llif yn ail-fframio bron pob
 problem cyflenwi o "mae angen i bobl weithio'n gyflymach" i "mae angen i
 waith aros llai." Mae'r ail-fframio hwnnw'n bwysig oherwydd bod y
 fframiad cyntaf yn gwahodd pwysau ar unigolion, yn union y fagl y mae
-pennod 2.6 yn rhybuddio yn ei herbyn, tra bo'r ail yn gwahodd ymchwiliad
+pwnc 2.6 yn rhybuddio yn ei herbyn, tra bo'r ail yn gwahodd ymchwiliad
 i mewn i strwythur ciwio, capasiti adolygu, a faint o waith sy'n cael ei
 ddechrau ar yr un pryd, sef lle mae'r gwelliant gwirioneddol, cynaliadwy
 fel arfer yn byw. Mae sefydliadau menter sy'n jyglo llawer o fentrau
@@ -60,7 +60,7 @@ eisoes ar hediad.
 
 Cyfrifwch y gymhareb rhwng amser gweithredol a chyfanswm amser a
 dreuliwyd ar gyfer sampl gynrychiadol o newidiadau diweddar, gan
-ddefnyddio'r data cam amser-cylch o bennod 2.6. Mae'r rhan fwyaf o dimau
+ddefnyddio'r data cam amser-cylch o bwnc 2.6. Mae'r rhan fwyaf o dimau
 sy'n mesur hyn am y tro cyntaf yn synnu pa mor isel yw'r rhif, ac mae'r
 syndod hwnnw ei hun yn werthfawr: mae'n ailgyfeirio sylw o "weithio'n
 galetach" tuag at "leihau ciwio," sydd bron bob amser y lifer mwy
@@ -133,7 +133,7 @@ gaeth, ddim-eithriadau neu ryddid-i-bawb diderfyn, hyblyg.
    Nid yw'r rhan fwyaf o dimau erioed wedi cyfrifo hyn ac yn tybio ei fod
    yn llawer uwch nag y mae'n troi allan i fod. Tynnwch sampl o newidiadau
    diweddar a chyfrifwch y gymhareb yn onest cyn trafod unrhyw beth arall
-   yn y bennod hon.
+   yn y pwnc hwn.
 
 2. **Faint o waith ar y gweill sydd gennym mewn gwirionedd ar hyn o bryd,
    ar draws y tîm cyfan, ac a oedd unrhyw un yn gwybod y rhif hwnnw cyn
@@ -303,7 +303,7 @@ uchod yr un mor bwysig â'r mabwysiadu cychwynnol ei hun.
   hytrach na chyhoeddi cyfarwyddyd cyffredinol "lleihau amser aros."
 - Gwyliwch am derfynau WIP yn **erydu trwy eithriadau rheolaidd**;
   triniwch bob eithriad fel penderfyniad bwriadol, gweladwy.
-- Mae pennod 2.4 yn enwi'r maint hwn yn **llwyth llif** ac mae pennod
+- Mae pwnc 2.4 yn enwi'r maint hwn yn **llwyth llif** ac mae pwnc
   2.7 yn ffurfioli'r berthynas fel cyfraith Little: mae gwaith ar y
   gweill yn hafal i gyfradd gyrraedd wedi'i lluosi ag amser cylch, ar
   gyfer unrhyw giw sefydlog.

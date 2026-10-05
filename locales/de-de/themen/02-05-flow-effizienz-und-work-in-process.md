@@ -4,9 +4,9 @@
 
 **Flow-Effizienz** ist das Verhältnis von aktiver Zeit zu Gesamtzeit für ein Stück Arbeit: Wenn eine Änderung zehn Stunden aktiv codiert, überprüft und getestet wird, aber über ihre gesamte Reise insgesamt neunzig Stunden untätig in Warteschlangen sitzt, beträgt die Flow-Effizienz 10 %. Die meisten Software-Lieferpipelines liegen, ehrlich gemessen, irgendwo zwischen 10 % und 25 % Flow-Effizienz, was Menschen überrascht, die erwarten, dass Aufwand dominiert. Die dominante Kostenquelle in den meisten Liefersystemen ist nicht, wie lange Arbeit dauert, sie zu erledigen, sondern wie lange Arbeit wartet, bevor sie begonnen wird.
 
-**[Work in Process](https://en.wikipedia.org/wiki/Work_in_process)** (WIP) ist die Zählung der Items, die zu einem gegebenen Zeitpunkt aktiv bearbeitet werden, über ein Team oder ein System hinweg, dieselbe Größe, die Kapitel 2.4 „Flow-Last" nennt. Der kontraintuitive Befund hinter diesem Kapitel, gestützt durch Jahrzehnte an Forschung im Operations Management und für Softwarelieferung durch Kanban und Warteschlangentheorie formalisiert, ist, dass die Begrenzung von WIP tendenziell den Durchsatz *erhöht*, nicht verringert, weil weniger gleichzeitig in Arbeit befindliche Arbeit weniger Kontextwechsel, kürzere Warteschlangen und schnellere Fertigstellung pro Item bedeutet, obwohl es sich anfühlt, als müsste weniger gleichzeitige Arbeit insgesamt weniger Output erzeugen.
+**[Work in Process](https://en.wikipedia.org/wiki/Work_in_process)** (WIP) ist die Zählung der Items, die zu einem gegebenen Zeitpunkt aktiv bearbeitet werden, über ein Team oder ein System hinweg, dieselbe Größe, die Thema 2.4 „Flow-Last" nennt. Der kontraintuitive Befund hinter diesem Thema, gestützt durch Jahrzehnte an Forschung im Operations Management und für Softwarelieferung durch Kanban und Warteschlangentheorie formalisiert, ist, dass die Begrenzung von WIP tendenziell den Durchsatz *erhöht*, nicht verringert, weil weniger gleichzeitig in Arbeit befindliche Arbeit weniger Kontextwechsel, kürzere Warteschlangen und schnellere Fertigstellung pro Item bedeutet, obwohl es sich anfühlt, als müsste weniger gleichzeitige Arbeit insgesamt weniger Output erzeugen.
 
-Für große Teams rahmt das Verständnis von Flow-Effizienz fast jedes Lieferproblem um, von „Menschen müssen schneller arbeiten" zu „Arbeit muss weniger warten". Diese Umrahmung zählt, weil die erste Rahmung Druck auf Einzelpersonen einlädt, genau die Falle, vor der Kapitel 2.6 warnt, während die zweite zur Untersuchung von Warteschlangenstruktur, Review-Kapazität und wie viel Arbeit gleichzeitig begonnen wird einlädt, wo die echte, nachhaltige Verbesserung meist liegt. Konzerne, die viele gleichzeitige Initiativen über gemeinsam genutzte Teams jonglieren, sind besonders anfällig für hohe WIP und niedrige Flow-Effizienz, weil das Beginnen neuer Arbeit sich immer wie Fortschritt anfühlt, selbst wenn es still alles bereits Laufende verlangsamt.
+Für große Teams rahmt das Verständnis von Flow-Effizienz fast jedes Lieferproblem um, von „Menschen müssen schneller arbeiten" zu „Arbeit muss weniger warten". Diese Umrahmung zählt, weil die erste Rahmung Druck auf Einzelpersonen einlädt, genau die Falle, vor der Thema 2.6 warnt, während die zweite zur Untersuchung von Warteschlangenstruktur, Review-Kapazität und wie viel Arbeit gleichzeitig begonnen wird einlädt, wo die echte, nachhaltige Verbesserung meist liegt. Konzerne, die viele gleichzeitige Initiativen über gemeinsam genutzte Teams jonglieren, sind besonders anfällig für hohe WIP und niedrige Flow-Effizienz, weil das Beginnen neuer Arbeit sich immer wie Fortschritt anfühlt, selbst wenn es still alles bereits Laufende verlangsamt.
 
 ## Kernprinzipien
 
@@ -20,7 +20,7 @@ Für große Teams rahmt das Verständnis von Flow-Effizienz fast jedes Lieferpro
 
 ### Flow-Effizienz messen, bevor angenommen wird, Aufwand sei der Flaschenhals
 
-Das Verhältnis von aktiver Zeit zu gesamter verstrichener Zeit sollte für eine repräsentative Stichprobe jüngster Änderungen berechnet werden, mit den Zykluszeit-Phasendaten aus Kapitel 2.6. Die meisten Teams, die das zum ersten Mal messen, sind überrascht, wie niedrig die Zahl ist, und diese Überraschung ist selbst wertvoll: Sie lenkt die Aufmerksamkeit von „härter arbeiten" zu „Warteschlangen reduzieren", was fast immer der produktivere Hebel ist.
+Das Verhältnis von aktiver Zeit zu gesamter verstrichener Zeit sollte für eine repräsentative Stichprobe jüngster Änderungen berechnet werden, mit den Zykluszeit-Phasendaten aus Thema 2.6. Die meisten Teams, die das zum ersten Mal messen, sind überrascht, wie niedrig die Zahl ist, und diese Überraschung ist selbst wertvoll: Sie lenkt die Aufmerksamkeit von „härter arbeiten" zu „Warteschlangen reduzieren", was fast immer der produktivere Hebel ist.
 
 ### Ein explizites Work-in-Process-Limit festlegen und sichtbar durchsetzen
 
@@ -51,7 +51,7 @@ Die zentrale Spannung ist **Flexibilität gegen Fluss**. Neue Arbeit zu beginnen
 
 ## Fragen für die Diskussion im Team
 
-1. **Wie hoch ist unsere tatsächliche Flow-Effizienz, gemessen an echten Zykluszeit-Daten, und überrascht uns diese Zahl?** Die meisten Teams haben das nie berechnet und nehmen an, es sei weit höher, als es sich herausstellt. Eine Stichprobe jüngster Änderungen sollte gezogen und das Verhältnis ehrlich berechnet werden, bevor irgendetwas anderes in diesem Kapitel diskutiert wird.
+1. **Wie hoch ist unsere tatsächliche Flow-Effizienz, gemessen an echten Zykluszeit-Daten, und überrascht uns diese Zahl?** Die meisten Teams haben das nie berechnet und nehmen an, es sei weit höher, als es sich herausstellt. Eine Stichprobe jüngster Änderungen sollte gezogen und das Verhältnis ehrlich berechnet werden, bevor irgendetwas anderes in diesem Thema diskutiert wird.
 
 2. **Wie viel Work in Process haben wir aktuell tatsächlich, über das gesamte Team hinweg, und kannte jemand diese Zahl, bevor sie gezählt wurde?** Hohe WIP ist oft unsichtbar, bis sie explizit gemessen wird, weil jede Einzelperson nur den eigenen Ausschnitt davon sieht. Alles aktuell Laufende sollte gezählt werden, einschließlich Arbeit, die heute niemand aktiv anfasst.
 
@@ -117,7 +117,7 @@ Die Gesamtkosten der Einführung dieser Disziplin sind größtenteils organisato
 - Ein **WIP-Limit sollte als Systembeschränkung** angewendet werden, nie als individuelle Quote.
 - Der **konkrete Grund**, warum Arbeit untätig liegt, sollte untersucht werden, statt eine generische Anweisung „Wartezeit reduzieren" auszugeben.
 - Darauf sollte geachtet werden, dass WIP-Limits **durch routinemäßige Ausnahmen erodieren**; jede Ausnahme sollte als bewusste, sichtbare Entscheidung behandelt werden.
-- Kapitel 2.4 nennt diese Größe **Flow-Last**, und Kapitel 2.7 formalisiert die Beziehung als Littles Gesetz: Work in Process entspricht Ankunftsrate mal Zykluszeit, für jede stabile Warteschlange.
+- Thema 2.4 nennt diese Größe **Flow-Last**, und Thema 2.7 formalisiert die Beziehung als Littles Gesetz: Work in Process entspricht Ankunftsrate mal Zykluszeit, für jede stabile Warteschlange.
 
 ## Quellen und weiterführende Literatur
 

@@ -2,7 +2,7 @@
 
 ## Überblick und Motivation
 
-**Zykluszeit** ist die interne Aufschlüsselung der Flow-Zeit einer Änderung (Kapitel 2.4) in ihre einzelnen Engineering-Phasen: Codierzeit, Review-Zeit, Testzeit und Deploy-Zeit, manchmal weiter aufgeteilt in Abholzeit (wie lange eine Änderung wartet, bevor jemand mit der Arbeit daran beginnt) und aktive Zeit (wie lange es dauert, sobald jemand beginnt). Wo Flow-Zeit eine einzelne Zahl dafür gibt, wie lange eine Änderung durchgängig durch den gesamten Wertstrom braucht, sagt [Zykluszeit](https://en.wikipedia.org/wiki/Cycle_time), wohin diese Zeit tatsächlich geht, sobald sie das Engineering erreicht, die diagnostische Ebene, die Kapitel 2.4 versprach, liege unter seiner eigenen Zusammenfassungszahl.
+**Zykluszeit** ist die interne Aufschlüsselung der Flow-Zeit einer Änderung (Thema 2.4) in ihre einzelnen Engineering-Phasen: Codierzeit, Review-Zeit, Testzeit und Deploy-Zeit, manchmal weiter aufgeteilt in Abholzeit (wie lange eine Änderung wartet, bevor jemand mit der Arbeit daran beginnt) und aktive Zeit (wie lange es dauert, sobald jemand beginnt). Wo Flow-Zeit eine einzelne Zahl dafür gibt, wie lange eine Änderung durchgängig durch den gesamten Wertstrom braucht, sagt [Zykluszeit](https://en.wikipedia.org/wiki/Cycle_time), wohin diese Zeit tatsächlich geht, sobald sie das Engineering erreicht, die diagnostische Ebene, die Thema 2.4 versprach, liege unter seiner eigenen Zusammenfassungszahl.
 
 Diese Unterscheidung zählt, weil „die Lead Time ist zu lang" für sich genommen nicht handlungsleitend ist. Ein Team, dessen Lead Time von Codierzeit dominiert wird, braucht einen anderen Eingriff als ein Team, dessen Lead Time von einer dreitägigen Review-Warteschlange dominiert wird, was wiederum einen anderen Eingriff braucht als ein Team, das die meiste Zeit an eine instabile, langsame Testsuite verliert. Ohne Zykluszeit-Zerlegung tendieren Teams dazu, den Flaschenhals zu erraten, und die Vermutung liegt oft genug falsch, dass die Behebung der falschen Phase echten Aufwand verschwendet, während der tatsächliche Engpass unangetastet bleibt.
 
@@ -11,16 +11,16 @@ Für große Teams verwandelt Zykluszeit-Zerlegung eine organisationsweite Lead-T
 ## Kernprinzipien
 
 - **Zykluszeit erklärt Lead Time; sie ersetzt sie nicht.** Beide sollten gemeinsam berichtet werden, Zykluszeit als Diagnose und Lead Time als Zusammenfassung.
-- **Wartezeit dominiert meist aktiven Aufwand.** Die meiste Verzögerung in Softwarelieferung kommt von untätig in einer Warteschlange liegender Arbeit, nicht von aktivem Aufwand (Kapitel 2.5 behandelt das direkt über Flow-Effizienz).
+- **Wartezeit dominiert meist aktiven Aufwand.** Die meiste Verzögerung in Softwarelieferung kommt von untätig in einer Warteschlange liegender Arbeit, nicht von aktivem Aufwand (Thema 2.5 behandelt das direkt über Flow-Effizienz).
 - **Nach Phase zerlegen, bevor eine Lösung vorgeschlagen wird.** Eine auf die falsche Phase zielende Lösung verschwendet Aufwand und kann ein Team demoralisieren, das gebeten wird, „schneller zu arbeiten", wenn der echte Flaschenhals woanders lag.
 - **Ein gemeinsamer Flaschenhals über viele Teams ist eine Plattform-Investitionsmöglichkeit,** nicht nur eine Reihe individueller Teamprobleme.
-- **Zykluszeit-Daten sind denselben Manipulationsrisiken ausgesetzt wie Flow-Zeit** (Kapitel 2.4): Es sollte auf Phasengrenzen geachtet werden, die still verschoben werden, um eine Zahl zu schönen.
+- **Zykluszeit-Daten sind denselben Manipulationsrisiken ausgesetzt wie Flow-Zeit** (Thema 2.4): Es sollte auf Phasengrenzen geachtet werden, die still verschoben werden, um eine Zahl zu schönen.
 
 ## Empfehlungen
 
 ### Jede Phasengrenze explizit instrumentieren
 
-Die Reise einer Änderung sollte in benannte Phasen mit klaren, instrumentierbaren Grenzen aufgeteilt werden: Codierung (erster Commit bis Pull Request eröffnet), Abholung (Pull Request eröffnet bis erste Überprüfung), Review (erste Überprüfung bis Freigabe) und Deploy (Freigabe bis Produktion). Zeitstempel für jeden Übergang sollten automatisch aus Versionsverwaltungs- und CI/CD-Ereignissen erfasst werden, nicht aus selbst berichtetem Phasen-Tracking, in Anwendung desselben Instrumentierung-statt-Selbstauskunft-Prinzips aus Kapitel 1.5.
+Die Reise einer Änderung sollte in benannte Phasen mit klaren, instrumentierbaren Grenzen aufgeteilt werden: Codierung (erster Commit bis Pull Request eröffnet), Abholung (Pull Request eröffnet bis erste Überprüfung), Review (erste Überprüfung bis Freigabe) und Deploy (Freigabe bis Produktion). Zeitstempel für jeden Übergang sollten automatisch aus Versionsverwaltungs- und CI/CD-Ereignissen erfasst werden, nicht aus selbst berichtetem Phasen-Tracking, in Anwendung desselben Instrumentierung-statt-Selbstauskunft-Prinzips aus Thema 1.5.
 
 ### Wartezeit von aktiver Zeit innerhalb jeder Phase trennen
 
@@ -36,7 +36,7 @@ Statt eines einzelnen Ziels „Lead Time um 20 % reduzieren", das einem Team kei
 
 ### Auf Manipulation der Phasengrenzen achten
 
-Genau wie Start- und Endpunkt der Flow-Zeit abdriften können (Kapitel 2.4), können sich einzelne Zykluszeit-Phasengrenzen auf Weisen verschieben, die die Zahl einer bestimmten Phase schönen, ohne echte Verbesserung, zum Beispiel indem ein Review in dem Moment als „begonnen" markiert wird, in dem eine Reviewerin oder ein Reviewer zugewiesen wird, statt wenn sie oder er tatsächlich beginnt, die Änderung zu lesen. Die Phasengrenzen-Instrumentierung sollte periodisch gegen ihre dokumentierte Definition geprüft werden.
+Genau wie Start- und Endpunkt der Flow-Zeit abdriften können (Thema 2.4), können sich einzelne Zykluszeit-Phasengrenzen auf Weisen verschieben, die die Zahl einer bestimmten Phase schönen, ohne echte Verbesserung, zum Beispiel indem ein Review in dem Moment als „begonnen" markiert wird, in dem eine Reviewerin oder ein Reviewer zugewiesen wird, statt wenn sie oder er tatsächlich beginnt, die Änderung zu lesen. Die Phasengrenzen-Instrumentierung sollte periodisch gegen ihre dokumentierte Definition geprüft werden.
 
 ## Abwägungen: Vor- und Nachteile
 
@@ -59,7 +59,7 @@ Die zentrale Spannung ist **diagnostische Präzision gegen Instrumentierungskost
 
 4. **Haben wir phasenspezifische Verbesserungsziele festgelegt, oder nur ein einzelnes Gesamt-Lead-Time-Ziel ohne Orientierung, wo der Fokus liegen sollte?** Ein vages Ziel lässt ein Team raten, wo Aufwand investiert werden soll; ein phasenspezifisches nicht. Die aktuellen Ziele sollten gegen diese Unterscheidung geprüft werden.
 
-5. **Ist irgendeine Zykluszeit-Phasengrenze in unserer Instrumentierung über die Zeit von ihrer dokumentierten Definition abgedriftet?** Phasengrenzen sind demselben definitorischen Abdriftrisiko ausgesetzt wie die Flow-Zeit selbst (Kapitel 2.4). Eine Stichprobe jüngster Phasenübergangsereignisse sollte gegen die schriftliche Definition geprüft werden.
+5. **Ist irgendeine Zykluszeit-Phasengrenze in unserer Instrumentierung über die Zeit von ihrer dokumentierten Definition abgedriftet?** Phasengrenzen sind demselben definitorischen Abdriftrisiko ausgesetzt wie die Flow-Zeit selbst (Thema 2.4). Eine Stichprobe jüngster Phasenübergangsereignisse sollte gegen die schriftliche Definition geprüft werden.
 
 6. **Wie zeigt sich eine review-lastige gegenüber einer vertrauensbasierten Kultur unterschiedlich in unseren Zykluszeit-Daten?** Ein Team mit sehr gründlichem, mehrrundigem Review wird längere Review-Phasen-Zeit zeigen als ein Team, das Single-Approval-Merges vertraut; es sollte diskutiert werden, ob die aktuelle Balance eine bewusste Wahl oder einen ungeprüften Standard widerspiegelt.
 
@@ -88,7 +88,7 @@ Die Gesamtbetriebskosten sind der Instrumentierungsaufwand, um phasenbezogene Ze
 ## Antipatterns und Fallstricke
 
 - **Auf eine Lead-Time-Regression ohne Zykluszeit-Diagnose reagieren:** führt häufig dazu, die falsche Phase zu beheben.
-- **Annehmen, aktiver Aufwand, nicht Wartezeit, sei die dominante Kostenquelle:** meist falsch; Warteschlangenbildung dominiert in den meisten echten Lieferpipelines (Kapitel 2.5).
+- **Annehmen, aktiver Aufwand, nicht Wartezeit, sei die dominante Kostenquelle:** meist falsch; Warteschlangenbildung dominiert in den meisten echten Lieferpipelines (Thema 2.5).
 - **Einen gemeinsamen, teamübergreifenden Flaschenhals übersehen, indem Zykluszeit nur Team für Team überprüft wird:** lässt eine Lösung mit hohem Hebel auf Plattformebene unentdeckt.
 - **Ein vages Gesamt-Lead-Time-Ziel ohne phasenspezifische Orientierung festlegen:** lässt Teams raten, wo Aufwand fokussiert werden soll.
 - **Definitorische Abdrift der Phasengrenzen:** schönt die Zahl einer bestimmten Phase ohne echte Verbesserung.
@@ -113,11 +113,11 @@ Die Gesamtbetriebskosten sind der Instrumentierungsaufwand, um phasenbezogene Ze
 ## Die wichtigsten Erkenntnisse
 
 - Zykluszeit **zerlegt Flow-Zeit** in Engineering-Phasen, Codierung, Review, Testing, Deploy, und ist die diagnostische Ebene unter dieser Zusammenfassungszahl.
-- **Wartezeit sollte von aktiver Zeit** innerhalb jeder Phase getrennt werden; Warteschlangenbildung dominiert meist aktiven Aufwand (Kapitel 2.5).
+- **Wartezeit sollte von aktiver Zeit** innerhalb jeder Phase getrennt werden; Warteschlangenbildung dominiert meist aktiven Aufwand (Thema 2.5).
 - Nach **gemeinsamen Flaschenhälsen über Teams hinweg** sollte gesucht werden, bevor angenommen wird, eine Verlangsamung sei teamspezifisch; eine gemeinsame Ursache ist oft eine Plattform-Investitionsmöglichkeit.
 - **Phasenspezifische Verbesserungsziele** sollten festgelegt werden, keine vagen Gesamtziele, damit Teams genau wissen, wo der Fokus liegen sollte.
 - Phasengrenzen sind demselben Risiko **definitorischer Abdrift** ausgesetzt wie die Flow-Zeit selbst; sie sollten periodisch geprüft werden.
-- Kapitel 2.7 liefert die zugrunde liegende Mathematik, Littles Gesetz, dafür, warum sich Work in Process und Zykluszeit gemeinsam bewegen.
+- Thema 2.7 liefert die zugrunde liegende Mathematik, Littles Gesetz, dafür, warum sich Work in Process und Zykluszeit gemeinsam bewegen.
 
 ## Quellen und weiterführende Literatur
 

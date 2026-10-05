@@ -8,7 +8,7 @@ una medida se convierte en un objetivo, deja de ser una buena medida. La
 observación original de Goodhart de 1975 trataba sobre política monetaria,
 pero la reformulación posterior de la antropóloga Marilyn Strathern es la
 versión que los equipos de software realmente necesitan, y es la frase sobre
-la que se construye todo este libro. Cada métrica de cada capítulo
+la que se construye todo este libro. Cada métrica de cada tema
 posterior, la frecuencia de despliegue, la cobertura de pruebas, las
 puntuaciones de satisfacción, carga con este riesgo, y cada recomendación de
 este libro es, de alguna forma, una estrategia para gestionarlo.
@@ -33,7 +33,7 @@ de seiscientas personas, o publicada en un informe de rendimiento del sector
 público leído por una legislatura, viaja a través de capas de personas que
 nunca conocieron a quien la creó y tienen todos los motivos para tratar la
 letra de la métrica como el objetivo. La distorsión se agrava con la
-distancia, que es exactamente por qué este capítulo, y no uno posterior, es
+distancia, que es exactamente por qué este tema, y no uno posterior, es
 donde el libro coloca su centro de gravedad.
 
 ## Principios clave
@@ -64,7 +64,7 @@ directamente: ¿la recompensa, la evaluación, la reputación o el presupuesto
 de alguien depende de que este número se mueva en una dirección concreta? Si
 la respuesta es sí, es una métrica incentivada y necesita una barrera de
 contención (más abajo) antes de publicarse. Si es no, es una métrica
-diagnóstica (capítulo 1.1) y conlleva un riesgo de juego menor, aunque nunca
+diagnóstica (tema 1.1) y conlleva un riesgo de juego menor, aunque nunca
 nulo, porque las personas pueden seguir moldeando un número que simplemente
 esperan que se use para juzgarlas más adelante, incluso sin un incentivo
 formal asociado hoy.
@@ -116,7 +116,7 @@ métrica de la recompensa individual. Una métrica usada puramente para
 entender un sistema, sin que la paga, la calificación o la posición de nadie
 dependa de su dirección, se enfrenta a una presión de manipulación mucho más
 débil que una ligada a una evaluación. Por eso la distinción entre
-diagnóstico y evaluación del capítulo 1.1 importa tanto en la práctica:
+diagnóstico y evaluación del tema 1.1 importa tanto en la práctica:
 mantener una métrica en modo diagnóstico suele ser más barato y más eficaz
 que cualquier cantidad de ingeniería de barreras de contención aplicada a
 posteriori.
@@ -213,7 +213,7 @@ a una evaluación sin identificar antes su barrera de contención.
 diseñada por un equipo de plataforma para diagnóstico interno la recoge tres
 capas de gestión después y se convierte en un indicador clave de rendimiento
 que quien la construyó no reconocería. Gobierna esto explícitamente
-(capítulo 1.4): exige una barrera de contención documentada antes de que se
+(tema 1.4): exige una barrera de contención documentada antes de que se
 apruebe cualquier métrica para su uso en una evaluación de desempeño o en un
 cuadro de mando ejecutivo.
 
@@ -238,7 +238,7 @@ sin lanzar una excepción, únicamente para satisfacer la herramienta de
 cobertura, mientras las pruebas genuinas de casos límite no habían mejorado
 en absoluto. La solución sustituyó el objetivo bruto de cobertura por una
 métrica emparejada: cobertura más una puntuación de pruebas de mutación
-(capítulo 4.2) que mide si las pruebas realmente detectan fallos inyectados,
+(tema 4.2) que mide si las pruebas realmente detectan fallos inyectados,
 algo mucho más difícil de manipular de forma barata.
 
 **Sector público.** Una agencia estatal de seguro de desempleo se medía por
@@ -270,7 +270,7 @@ El coste total de propiedad de una barrera de contención no es gratis: es
 una segunda métrica que definir, instrumentar y revisar. Pero ese coste es
 pequeño y fijo comparado con el coste sin límite de un incentivo que premia
 en silencio el comportamiento equivocado durante meses antes de que alguien
-se dé cuenta. Cada capítulo posterior a este incorpora esa compensación en
+se dé cuenta. Cada tema posterior a este incorpora esa compensación en
 su precio, que es por lo que el emparejamiento con barreras de contención
 aparece como recomendación en el resto de este libro y no solo aquí.
 

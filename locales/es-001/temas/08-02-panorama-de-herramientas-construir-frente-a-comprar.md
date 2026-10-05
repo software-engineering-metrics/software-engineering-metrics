@@ -6,7 +6,7 @@ Cada organización que implementa la orientación de este libro eventualmente
 enfrenta una decisión de infraestructura práctica: construir herramientas
 de métricas internamente, comprar una plataforma comercial de analítica de
 ingeniería, o, lo más común en la práctica, alguna combinación de ambas.
-Este capítulo trata esa decisión con el mismo rigor que aplica el capítulo
+Este tema trata esa decisión con el mismo rigor que aplica el tema
 5.5 a cualquier otra inversión de ingeniería: un análisis honesto de coste
 y beneficio específico para la escala de tu organización, las fuentes de
 datos existentes, y las métricas específicas de este libro que realmente
@@ -17,12 +17,12 @@ El mercado comercial de herramientas de analítica de ingeniería ha
 madurado considerablemente, y muchas plataformas ahora ofrecen una
 instrumentación sólida y en gran medida automatizada para las métricas DORA
 (parte 2), los datos de solicitudes de incorporación de cambios y revisión
-(capítulo 2.9), y, cada vez más, la infraestructura de encuestas de
-experiencia del desarrollador (capítulo 3.7). Esta madurez ha desplazado el
+(tema 2.9), y, cada vez más, la infraestructura de encuestas de
+experiencia del desarrollador (tema 3.7). Esta madurez ha desplazado el
 cálculo para muchas organizaciones hacia comprar al menos la capa
 fundacional, pero no ha eliminado las ventajas genuinas de la opción de
 construir para necesidades específicas y personalizadas, particularmente
-en torno a la telemetría de resultados que argumenta el capítulo 7.4 que
+en torno a la telemetría de resultados que argumenta el tema 7.4 que
 ahora es el centro necesario de un programa de métricas, que
 frecuentemente es la categoría de medición menos estandarizada y más
 específica de la organización que cubre este libro.
@@ -49,7 +49,7 @@ sugiriera por sí solo un análisis puro de coste y beneficio.
   construye para las genuinamente específicas de la organización.** Las
   métricas DORA y la analítica de solicitudes de incorporación de cambios
   son territorio de producto básico; tu correlación de resultados de
-  negocio específica (capítulo 5.3) normalmente no lo es.
+  negocio específica (tema 5.3) normalmente no lo es.
 - **La propiedad y portabilidad de los datos importan tanto como la
   comparación de funcionalidades.** Una herramienta que atrapa tus datos de
   métricas es un riesgo duradero, no solo un inconveniente.
@@ -66,8 +66,8 @@ sugiriera por sí solo un análisis puro de coste y beneficio.
 Para las familias de métricas con herramientas comerciales maduras y
 ampliamente disponibles, la instrumentación de métricas DORA (parte 2), la
 analítica de solicitudes de incorporación de cambios y revisión de código
-(capítulo 2.9), y las plataformas de encuestas de experiencia del
-desarrollador (capítulo 3.7), comprar normalmente es la elección económica
+(tema 2.9), y las plataformas de encuestas de experiencia del
+desarrollador (tema 3.7), comprar normalmente es la elección económica
 mejor para la mayoría de las organizaciones por debajo de cierta escala,
 ya que construir infraestructura equivalente duplica el esfuerzo de
 ingeniería en el que muchos proveedores ya han invertido intensamente, con
@@ -76,11 +76,11 @@ versión.
 
 ### Construye para la telemetría de resultados genuinamente específica de la organización
 
-Para las métricas de resultado que argumenta el capítulo 7.4 que deberían
+Para las métricas de resultado que argumenta el tema 7.4 que deberían
 ser el centro de gravedad de tu programa de métricas, la correlación de
-resultados de negocio (capítulo 5.3), la adopción de funcionalidades
-vinculada a tu producto específico (capítulo 5.2), la economía unitaria
-vinculada a tu estructura de coste específica (capítulo 5.4), las
+resultados de negocio (tema 5.3), la adopción de funcionalidades
+vinculada a tu producto específico (tema 5.2), la economía unitaria
+vinculada a tu estructura de coste específica (tema 5.4), las
 herramientas comerciales son mucho menos estandarizadas y a menudo no
 pueden capturar la lógica de negocio y el modelo de datos específicos de
 tu organización sin una personalización extensa y costosa que puede
@@ -189,7 +189,7 @@ escala; construir infraestructura de métricas personalizada rara vez es
 un buen uso de la escasa capacidad de ingeniería temprana cuando existen
 opciones comerciales maduras y económicas específicamente para las
 métricas DORA y de revisión. Reserva cualquier esfuerzo de construcción
-para la única métrica de resultado (capítulo 5.3) que más directamente
+para la única métrica de resultado (tema 5.3) que más directamente
 refleje el valor central de tu producto.
 
 **Pequeña empresa.** La mayoría de las opciones de herramientas
@@ -200,7 +200,7 @@ personalizado rara vez se justifica hasta que tu organización haya
 crecido considerablemente y desarrollado necesidades genuinamente
 específicas.
 
-**Empresa.** El enfoque híbrido que recomienda este capítulo se gana su
+**Empresa.** El enfoque híbrido que recomienda este tema se gana su
 complejidad aquí: compra la capa de producto básico a escala (a menudo
 con un apalancamiento de negociación significativo para términos
 favorables), e invierte deliberadamente en construir la capa de
@@ -230,7 +230,7 @@ las métricas DORA y de revisión estandarizadas. Una estrategia revisada
 adoptó una plataforma comercial para estas métricas de producto básico,
 liberando al equipo de plataforma interno para enfocarse exclusivamente
 en construir la correlación de resultados de negocio y la telemetría de
-economía unitaria (capítulos 5.3, 5.4) genuinamente específicas del
+economía unitaria (temas 5.3, 5.4) genuinamente específicas del
 modelo de negocio de la empresa, que ninguna herramienta comercial podría
 haber proporcionado lista para usar. Este enfoque híbrido entregó un
 programa de métricas más completo y genuinamente más útil en un solo año
@@ -256,7 +256,7 @@ importar las consideraciones de soberanía.
 
 El retorno de una estrategia híbrida deliberada de construir frente a
 comprar es evitar ambos modos de fallo que ilustran los ejemplos de este
-capítulo: la inversión de ingeniería desperdiciada y plurianual de
+tema: la inversión de ingeniería desperdiciada y plurianual de
 construir capacidad de producto básico que ya existe barata en el
 mercado, y la frustración y el eventual coste de personalización de
 forzar una necesidad genuinamente específica de la organización en una
@@ -349,7 +349,7 @@ coste total mucho más precisa para cualquiera de las dos opciones.
 
 - *Accelerate: The Science of Lean Software and DevOps*, de Nicole
   Forsgren, Jez Humble, y Gene Kim (las familias de métricas a las que se
-  aplica el análisis de construir frente a comprar de este capítulo).
+  aplica el análisis de construir frente a comprar de este tema).
 - *Cloud FinOps*, de J.R. Storment y Mike Fuller (principios de análisis
   de coste aplicables a las decisiones de inversión en herramientas).
 - El FinOps Framework de la FinOps Foundation, [finops.org](https://www.finops.org/)

@@ -10,10 +10,10 @@ duplicated logic, and the broader category of **code smells**, structural
 patterns that are not necessarily bugs but tend to make code harder to
 understand, test, or safely change. Static analysis is the automated,
 continuous layer underneath the more targeted metrics in this part's other
-chapters, running on every commit and surfacing issues at the moment they
+topics, running on every commit and surfacing issues at the moment they
 are introduced rather than waiting for a periodic audit.
 
-This chapter's central concern is the gap between what static analysis
+This topic's central concern is the gap between what static analysis
 tools report and what actually matters. A tool can flag thousands of
 findings across a large codebase, and the number of findings alone is a
 poor metric, since it conflates trivial style preferences with genuine,
@@ -66,7 +66,7 @@ Rather than blocking all work until the entire backlog is cleared, gate CI
 on whether a specific change introduces new findings above an agreed
 severity threshold, letting the backlog shrink gradually through normal
 maintenance while preventing further accumulation. This distinction
-mirrors chapter 4.2's coverage-floor recommendation: protect against
+mirrors topic 4.2's coverage-floor recommendation: protect against
 regression rather than demanding an unrealistic, all-at-once fix.
 
 ### Actively manage the false-positive rate
@@ -94,8 +94,8 @@ tool's value over time.
 ### Combine static analysis with the other code-quality metrics in this
 part
 
-Static analysis findings, complexity scores (chapter 4.1), and hotspot
-data (chapter 4.3) are complementary evidence, not competing metrics. A
+Static analysis findings, complexity scores (topic 4.1), and hotspot
+data (topic 4.3) are complementary evidence, not competing metrics. A
 file with a high concentration of unresolved static analysis findings that
 is also a churn-complexity hotspot is a particularly strong candidate for
 prioritized attention, since multiple independent signals are converging on
@@ -117,7 +117,7 @@ codebase with real history, and teams under that pressure tend to suppress
 findings wholesale rather than genuinely fix them. Resolve the tension by
 gating strictly on new findings while running a separate, deliberately
 paced remediation effort against the legacy backlog, prioritized using the
-severity and cross-referencing techniques this chapter and chapter 4.3
+severity and cross-referencing techniques this topic and topic 4.3
 recommend.
 
 ## Questions to discuss with your team
@@ -278,7 +278,7 @@ value or degrades into ignored noise.
 - Treat findings as a **prompt for human review**, with visible, documented
   waivers, not an automatic verdict or silent suppression.
 - Cross-reference static analysis with **complexity and hotspot data**
-  (chapters 4.1, 4.3) for convergent, stronger prioritization evidence.
+  (topics 4.1, 4.3) for convergent, stronger prioritization evidence.
 
 ## References and further reading
 

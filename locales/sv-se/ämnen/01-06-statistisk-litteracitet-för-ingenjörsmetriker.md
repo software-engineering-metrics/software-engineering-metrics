@@ -2,11 +2,11 @@
 
 ## Översikt och motivation
 
-Du behöver ingen statistikexamen för att driva ett metrikprogram väl, men du behöver undvika ett litet antal specifika, vanliga misstag som gör annars välstyrda, välinstrumenterade mätetal aktivt vilseledande. Ett team kan göra allt rätt, namnge ett tydligt beslut, undvika Goodharts lag, vikta mot utfall, styra ägarskap, instrumentera tillförlitligt, och ändå dra fel slutsats eftersom det läste ett genomsnitt där det behövde en percentil, misstog brus för en trend, eller föll för en slump utklädd till en orsak. Det här kapitlet är det minimala statistiska omdöme den här boken förutsätter att varje senare kapitels läsare redan har.
+Du behöver ingen statistikexamen för att driva ett metrikprogram väl, men du behöver undvika ett litet antal specifika, vanliga misstag som gör annars välstyrda, välinstrumenterade mätetal aktivt vilseledande. Ett team kan göra allt rätt, namnge ett tydligt beslut, undvika Goodharts lag, vikta mot utfall, styra ägarskap, instrumentera tillförlitligt, och ändå dra fel slutsats eftersom det läste ett genomsnitt där det behövde en percentil, misstog brus för en trend, eller föll för en slump utklädd till en orsak. Det här ämnet är det minimala statistiska omdöme den här boken förutsätter att varje senare ämnes läsare redan har.
 
 Kärnproblemet är att ingenjörsmätetal vanligtvis är brusiga, skeva, och har litet urval enligt formell statistiks mått. Ett enskilt teams veckovisa driftsättningsantal är inte en jämn klockformad kurva; det är en handfull datapunkter med ibland stora extremvärden (en stor utgivning, en incidentdriven återställningsvåg). Att tillämpa naiva intuitioner byggda för stora, välartade datamängder på den här sortens data producerar självsäkra, felaktiga slutsatser regelbundet. Att lära sig upptäcka när ett tal är för brusigt att lita på, när ett genomsnitt ljuger för dig, och när två saker som rör sig tillsammans inte säger något om kausalitet är inte valfri rigör, det är det som skiljer ett metrikprogram som lär en organisation något sant från ett som lär den något plausibelt klingande och falskt.
 
-På stora företags och myndigheters skala förstärks statistiska misstag eftersom en vilseledande slutsats, en gång accepterad av ledningen, agerar på genom många team innan någon tänker på att omgranska den underliggande analysen. En statistiskt naiv jämförelse mellan två divisioner, eller mellan före och efter en större omorganisation, kan forma resursbeslut i åratal baserat på inget mer än brus eller en störvariabel ingen kontrollerade för. Det här kapitlet finns för att göra det misslyckandet mindre troligt.
+På stora företags och myndigheters skala förstärks statistiska misstag eftersom en vilseledande slutsats, en gång accepterad av ledningen, agerar på genom många team innan någon tänker på att omgranska den underliggande analysen. En statistiskt naiv jämförelse mellan två divisioner, eller mellan före och efter en större omorganisation, kan forma resursbeslut i åratal baserat på inget mer än brus eller en störvariabel ingen kontrollerade för. Det här ämnet finns för att göra det misslyckandet mindre troligt.
 
 ## Nyckelprinciper
 
@@ -20,7 +20,7 @@ På stora företags och myndigheters skala förstärks statistiska misstag efter
 
 ### Använd median och percentil som standard för skev data
 
-Ingenjörsmätetal baserade på tid, ledtid, incidentåterställningstid, svarslatens, är nästan alltid högerskeva: de flesta värden klustrar lågt, med en lång svans av ibland stora extremvärden. Ett genomsnitt draget av den svansen kan måla en bild som inget typiskt fall faktiskt liknar. Rapportera **medianen** (mittvärdet, där hälften av observationerna är över och hälften under) vid sidan av den **90:e** eller **95:e percentilen** (värdet under vilket 90 % eller 95 % av observationerna faller), som tillsammans visar både det typiska fallet och den värsta-fallets svans ett team faktiskt upplever. KPI-kapitlet i systerboken `software-engineering-guide`, och varje leveransmätetalskapitel i del 2 av den här boken, förutsätter den här vanan genomgående.
+Ingenjörsmätetal baserade på tid, ledtid, incidentåterställningstid, svarslatens, är nästan alltid högerskeva: de flesta värden klustrar lågt, med en lång svans av ibland stora extremvärden. Ett genomsnitt draget av den svansen kan måla en bild som inget typiskt fall faktiskt liknar. Rapportera **medianen** (mittvärdet, där hälften av observationerna är över och hälften under) vid sidan av den **90:e** eller **95:e percentilen** (värdet under vilket 90 % eller 95 % av observationerna faller), som tillsammans visar både det typiska fallet och den värsta-fallets svans ett team faktiskt upplever. KPI-ämnet i systerboken `software-engineering-guide`, och varje leveransmätetalsämne i del 2 av den här boken, förutsätter den här vanan genomgående.
 
 ### Vet när ett urval är för litet att lita på
 
@@ -65,7 +65,7 @@ Den centrala spänningen är **enkelhet kontra rigör**. Genomsnitt och enskilda
 
 ## Sektorperspektiv
 
-**Startup.** Små team genererar små urval nästan överallt, vilket betyder att varningen om litet urval i det här kapitlet spelar roll ständigt. Motstå att dra starka slutsatser från en enskild dålig vecka eller en enskild bra; med bara en handfull datapunkter är det ärliga svaret på "är det här en trend" ofta "vi vet inte än."
+**Startup.** Små team genererar små urval nästan överallt, vilket betyder att varningen om litet urval i det här ämnet spelar roll ständigt. Motstå att dra starka slutsatser från en enskild dålig vecka eller en enskild bra; med bara en handfull datapunkter är det ärliga svaret på "är det här en trend" ofta "vi vet inte än."
 
 **Litet företag.** Inbyggda instrumentpaneler från standardverktyg har ofta genomsnitt och enskilda periodjämförelser som standard eftersom de är enklast att beräkna och visa. Där verktyget tillåter det, byt till medianer för tidbaserade mätetal, och var skeptisk till varje "upp 40 % den här månaden"-rubrik beräknad från ett litet underliggande antal.
 

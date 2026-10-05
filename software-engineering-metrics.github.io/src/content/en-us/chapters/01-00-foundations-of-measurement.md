@@ -26,13 +26,13 @@ become a critical, unquestioned input to decisions made by people who never
 see the pipeline that generated it. Getting the foundations right is what
 makes that weight bearable.
 
-## Chapters in this part
+## Topics in this part
 
 - **1.1 Why measure software engineering:** The case for measurement at all,
   what it is supposed to accomplish, and the difference between measuring to
   learn and measuring to judge.
 - **1.2 Goodhart's law and the psychology of metrics:** The single idea that
-  governs every other chapter in this book: a measure that becomes a target
+  governs every other topic in this book: a measure that becomes a target
   stops being a good measure, and the psychological mechanisms that make
   gaming almost inevitable once people know they are being watched.
 - **1.3 Outcomes over output: choosing what to measure:** How to weight a
@@ -49,25 +49,25 @@ makes that weight bearable.
   versus averages, sample size, regression to the mean, and confounding
   variables.
 
-## How these chapters interrelate
+## How these topics interrelate
 
-These six chapters build in a strict order. Chapter 1.1 asks why to measure
+These six topics build in a strict order. Topic 1.1 asks why to measure
 at all, which matters because a team that has not answered it will collect
-numbers nobody acts on. Chapter 1.2 is the pivot the rest of the book turns
+numbers nobody acts on. Topic 1.2 is the pivot the rest of the book turns
 on: once you accept that any measure can become a target and get gamed, every
-later chapter's recommendations follow from designing against that risk.
-Chapter 1.3 turns that caution into a positive rule: weight toward outcomes,
-because they are the hardest category to game cheaply. Chapter 1.4 makes the
-governance concrete, chapter 1.5 makes the data concrete, and chapter 1.6
+later topic's recommendations follow from designing against that risk.
+Topic 1.3 turns that caution into a positive rule: weight toward outcomes,
+because they are the hardest category to game cheaply. Topic 1.4 makes the
+governance concrete, topic 1.5 makes the data concrete, and topic 1.6
 gives you the statistical judgment to avoid being fooled by noise even after
 governance and instrumentation are sound.
 
 Everything downstream depends on this part. Part 2's flow metrics and DORA
 metrics, and the SPACE framework in Part 3, are all, in effect, worked
 examples of the outcome-weighting and guardrail-pairing principles set out
-in chapters 1.2 and 1.3. The dashboard design guidance in chapter 8.1
+in topics 1.2 and 1.3. The dashboard design guidance in topic 8.1
 assumes the governance model
-from chapter 1.4. And the maturity model that closes every chapter in this
+from topic 1.4. And the maturity model that closes every topic in this
 book is, underneath its five levels, a maturity model for exactly the
 discipline this part introduces: measuring like you mean it, and checking
 your own work.

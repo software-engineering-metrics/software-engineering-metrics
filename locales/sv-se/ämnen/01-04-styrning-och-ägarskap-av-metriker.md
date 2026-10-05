@@ -20,7 +20,7 @@ För stora företag och myndigheter bär styrning extra tyngd eftersom mätetal 
 
 ### Skriv en metrikstadga för varje uppsättning mätetal som korsar en teamgräns
 
-En **metrikstadga** är ett kort, levande dokument som anger en uppsättning mätetals syfte, dess explicita icke-mål (distinktionen mellan diagnostisk och utvärderande användning från kapitel 1.1 hör hemma här), varje mätetals ägare och sanningskälla, och en granskningscadens. Håll den till en sida. Filen docs/examples/metrics-charter-example.md i den här bokens följeslagarförråd visar formen. En stadga så här kort blir läst; en stadga som sväller till ett policydokument blir det inte.
+En **metrikstadga** är ett kort, levande dokument som anger en uppsättning mätetals syfte, dess explicita icke-mål (distinktionen mellan diagnostisk och utvärderande användning från ämne 1.1 hör hemma här), varje mätetals ägare och sanningskälla, och en granskningscadens. Håll den till en sida. Filen docs/examples/metrics-charter-example.md i den här bokens följeslagarförråd visar formen. En stadga så här kort blir läst; en stadga som sväller till ett policydokument blir det inte.
 
 ### Tilldela en namngiven ägare till varje mätetal, inte ett team
 
@@ -32,7 +32,7 @@ När två system beräknar samma nominellt namngivna mätetal olika, till exempe
 
 ### Bygg en utfasningsgranskning in i styrningscadensen
 
-Ett metrikprogram som bara någonsin lägger till mätetal ackumulerar instrumentpanelssvällning som ingen kan agera på (kapitel 1.1). Vid varje styrningsgranskning, vid sidan av att föreslå nya mätetal, fråga vilka befintliga som inte har informerat ett beslut under de senaste två cyklerna och är kandidater för utfasning. Utfasning är inte misslyckande; det är samma disciplin en sund kodbas tillämpar på död kod.
+Ett metrikprogram som bara någonsin lägger till mätetal ackumulerar instrumentpanelssvällning som ingen kan agera på (ämne 1.1). Vid varje styrningsgranskning, vid sidan av att föreslå nya mätetal, fråga vilka befintliga som inte har informerat ett beslut under de senaste två cyklerna och är kandidater för utfasning. Utfasning är inte misslyckande; det är samma disciplin en sund kodbas tillämpar på död kod.
 
 ### Skala styrningens rigör till konsekvens, inte till volym
 
@@ -75,7 +75,7 @@ Den centrala spänningen är **konsekvens kontra hastighet**. Tung central styrn
 
 ## Exempel
 
-**Stort företag.** Ett multinationellt mjukvaruföretag upptäckte, under en integration efter ett förvärv, att dess två största affärsenheter definierade "driftsättningsfrekvens" olika: en räknade varje push till en stagingmiljö, den andra räknade bara produktionsutgivningar. Ledningen hade jämfört de två enheternas leveransprestation i över ett år med tal som faktiskt inte var jämförbara. Lösningen var en företagsomfattande metrikstyrningsnämnd som publicerade en enda ordlista av mätetalsdefinitioner (speglad i den här bokens kapitel 9.2), krävde att varje team certifierade efterlevnad, och fasade ut de tvetydiga lokala definitionerna inom ett kvartal.
+**Stort företag.** Ett multinationellt mjukvaruföretag upptäckte, under en integration efter ett förvärv, att dess två största affärsenheter definierade "driftsättningsfrekvens" olika: en räknade varje push till en stagingmiljö, den andra räknade bara produktionsutgivningar. Ledningen hade jämfört de två enheternas leveransprestation i över ett år med tal som faktiskt inte var jämförbara. Lösningen var en företagsomfattande metrikstyrningsnämnd som publicerade en enda ordlista av mätetalsdefinitioner (speglad i den här bokens ämne 9.2), krävde att varje team certifierade efterlevnad, och fasade ut de tvetydiga lokala definitionerna inom ett kvartal.
 
 **Myndighet.** Ett nationellt statistikkontor ansvarigt för att publicera en instrumentpanel för digitala tjänsters prestation fann att en ändring i hur "löst inom SLA" beräknades, gjord tyst av ett ingenjörsteam som fixade vad de såg som en bugg, hade skiftat en rubriksiffra för efterlevnad med flera procentenheter utan offentlig dokumentation av ändringen. Kontoret etablerade en formell ändringskontrollprocess för alla mätetalsdefinitioner som matar en offentlig rapport: föreslagna ändringar kräver en dokumenterad motivering, en före-och-efter-jämförelse publicerad tillsammans med ändringen, och godkännande från en namngiven ansvarig tjänsteperson, vilket stängde glappet som hade låtit den tidigare ändringen passera obemärkt.
 

@@ -1,6 +1,6 @@
 # 9.6 Cyfeiriadau a darllen pellach
 
-Llyfryddiaeth gyfunol o'r gweithiau a ddyfynnir drwy'r llyfr, wedi'u casglu o adran gyfeiriadau ei hun pob pennod. Wedi'u trefnu'n llac yn ôl thema; dyfynnir llawer o weithiau o benodau lluosog.
+Llyfryddiaeth gyfunol o'r gweithiau a ddyfynnir drwy'r llyfr, wedi'u casglu o adran gyfeiriadau ei hun pob pwnc. Wedi'u trefnu'n llac yn ôl thema; dyfynnir llawer o weithiau o bynciau lluosog.
 
 ## Fframweithiau sylfaenol
 

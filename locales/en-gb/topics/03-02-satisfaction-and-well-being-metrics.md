@@ -2,11 +2,11 @@
 
 ## Overview and motivation
 
-**Satisfaction and well-being**, the S in SPACE (chapter 3.1), is the
+**Satisfaction and well-being**, the S in SPACE (topic 3.1), is the
 dimension no system telemetry can observe directly. Whether an engineer
 finds their work meaningful, whether they feel supported by their team,
 whether they are heading toward burnout, none of this leaves a trace in a
-version control log or a CI pipeline. It has to be asked. This chapter is
+version control log or a CI pipeline. It has to be asked. This topic is
 about asking well: designing measurement that produces a trustworthy signal
 about a genuinely subjective, genuinely important state, rather than a
 number that looks precise while measuring almost nothing real.
@@ -22,7 +22,7 @@ diagnose. Measuring satisfaction and well-being directly is what buys the
 organisation the lead time to act before that happens.
 
 For large teams, this dimension is also where the diagnostic and evaluative
-distinction from chapter 1.1 matters most sharply. Satisfaction data used to
+distinction from topic 1.1 matters most sharply. Satisfaction data used to
 understand and improve team conditions is valuable and low-risk. The same
 data used to rank teams or, worse, individuals against each other corrupts
 the survey instrument almost immediately, because people stop answering
@@ -190,7 +190,7 @@ showed a steady decline across four consecutive quarters. Leadership,
 initially inclined to dismiss the concern because the general satisfaction
 number looked fine, investigated further after a second consecutive quarter
 of decline and found the team had been absorbing an unsustainable on-call
-load (chapter 6.3) for nearly a year following a headcount freeze.
+load (topic 6.3) for nearly a year following a headcount freeze.
 Restoring adequate on-call staffing reversed the burnout trend within two
 quarters, well before it had converted into the attrition spike the
 company's data showed was the typical downstream consequence of this

@@ -14,34 +14,34 @@ it works in CI and as a pre-commit hook.
 
 ## What it checks
 
-- **The expected chapter count** (the constant at the top of the script).
+- **The expected topic count** (the constant at the top of the script).
 - **Contiguous numbering** within each part, starting at N.0.
-- **H1 matches the file name** decimal for every chapter.
+- **H1 matches the file name** decimal for every topic.
 - **H1 titles match `spec/structure.md`** character for character, not just
   the leading decimal.
-- **Required sections** are present in every content chapter (Parts 1 through 8,
-  chapter N.1 and up), **in exactly the template order**.
-- **A minimum word count** for every content chapter (1,500 words), with an
+- **Required sections** are present in every content topic (Parts 1 through 8,
+  topic N.1 and up), **in exactly the template order**.
+- **A minimum word count** for every content topic (1,500 words), with an
   allowlist in the script for intentional exceptions.
 - **No em-dashes** in any Markdown file.
 - **En-dashes only between digits**, so "2.1–2.8" passes and everything else
   fails.
 - **No forbidden phrases** ("not only", "but also", "load-bearing").
 - **All internal `.md` links resolve.**
-- **Prose cross-references point at real chapters**: a reference to a chapter
+- **Prose cross-references point at real topics**: a reference to a topic
   number with no matching file on disk fails, using the same reference
-  pattern the published site's chapter-link auto-linking uses.
+  pattern the published site's topic-link auto-linking uses.
 - **Wikipedia links are well-formed** (`https://en.wikipedia.org/wiki/...`).
 - **`spec/structure.md` matches the files on disk**, in both directions.
-- **README, the home page, and the contents page link every chapter.**
+- **README, the home page, and the contents page link every topic.**
 
 ## When a check fails
 
 The failing line names the file and the problem. Common fixes:
 
 - Em-dash found: reword the sentence to remove the "—". Do not just delete it.
-- Missing section: add the missing `##` section from the chapter template.
-- Structure mismatch: you added or renamed a chapter without updating
+- Missing section: add the missing `##` section from the topic template.
+- Structure mismatch: you added or renamed a topic without updating
   `spec/structure.md`, or vice versa. Bring them back in line.
 - Broken link: fix the path, or update it after a rename.
 - Numbering gap: renumber so the part is contiguous from N.0.
@@ -51,8 +51,8 @@ The failing line names the file and the problem. Common fixes:
 - `just spell` runs [codespell](https://github.com/codespell-project/codespell)
   over the repository. The configuration, including the false-positive ignore
   list, is the `[tool.codespell]` section in `pyproject.toml`.
-- `just stats` prints a Markdown report (per-chapter word counts, thin
-  chapters, Wikipedia links, reference entries) from `tools/stats.py`.
+- `just stats` prints a Markdown report (per-topic word counts, thin
+  topics, Wikipedia links, reference entries) from `tools/stats.py`.
 
 ## Continuous integration
 

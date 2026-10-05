@@ -4,9 +4,9 @@
 
 **Flödeseffektivitet** är ratio mellan aktiv tid och total tid för ett arbete: om en ändring spenderar tio timmar aktivt kodad, granskad, och testad, men sitter sysslolös i köer i nittio timmar totalt över hela sin resa, är flödeseffektiviteten 10 %. De flesta mjukvaruleveranspipelines, ärligt mätta, landar någonstans mellan 10 % och 25 % flödeseffektivitet, vilket överraskar människor som förväntar sig att ansträngning ska dominera. Den dominerande kostnaden i de flesta leveranssystem är inte hur lång tid arbete tar att göra, det är hur länge arbete väntar på att startas.
 
-**[Pågående arbete](https://en.wikipedia.org/wiki/Work_in_process)** (PÅA) är antalet objekt aktivt bearbetade vid vilket ögonblick som helst, över ett team eller ett system, samma kvantitet kapitel 2.4 kallar "flödesbelastning." Det kontraintuitiva fyndet bakom det här kapitlet, backat av årtionden av forskning inom verksamhetsstyrning och formaliserat för mjukvaruleverans genom kanban och könteori, är att begränsa PÅA tenderar att *öka* genomströmning, inte minska den, eftersom mindre arbete i rörelse samtidigt betyder mindre kontextbyte, kortare köer, och snabbare slutförande per objekt, även om det känns som att göra mindre arbete samtidigt borde producera mindre output totalt.
+**[Pågående arbete](https://en.wikipedia.org/wiki/Work_in_process)** (PÅA) är antalet objekt aktivt bearbetade vid vilket ögonblick som helst, över ett team eller ett system, samma kvantitet ämne 2.4 kallar "flödesbelastning." Det kontraintuitiva fyndet bakom det här ämnet, backat av årtionden av forskning inom verksamhetsstyrning och formaliserat för mjukvaruleverans genom kanban och könteori, är att begränsa PÅA tenderar att *öka* genomströmning, inte minska den, eftersom mindre arbete i rörelse samtidigt betyder mindre kontextbyte, kortare köer, och snabbare slutförande per objekt, även om det känns som att göra mindre arbete samtidigt borde producera mindre output totalt.
 
-För stora team omformar förståelse av flödeseffektivitet nästan varje leveransproblem från "människor behöver arbeta snabbare" till "arbete behöver vänta mindre." Den omformuleringen betyder något eftersom den första formuleringen bjuder in press på individer, exakt fällan kapitel 2.6 varnar mot, medan den andra bjuder in undersökning av köstruktur, granskningskapacitet, och hur mycket arbete som startas samtidigt, vilket är där den verkliga, hållbara förbättringen vanligtvis lever. Stora företag som jonglerar många samtidiga initiativ över delade team är särskilt benägna till hög PÅA och låg flödeseffektivitet, eftersom att starta nytt arbete alltid känns som framsteg även när det tyst saktar ner allt redan i rörelse.
+För stora team omformar förståelse av flödeseffektivitet nästan varje leveransproblem från "människor behöver arbeta snabbare" till "arbete behöver vänta mindre." Den omformuleringen betyder något eftersom den första formuleringen bjuder in press på individer, exakt fällan ämne 2.6 varnar mot, medan den andra bjuder in undersökning av köstruktur, granskningskapacitet, och hur mycket arbete som startas samtidigt, vilket är där den verkliga, hållbara förbättringen vanligtvis lever. Stora företag som jonglerar många samtidiga initiativ över delade team är särskilt benägna till hög PÅA och låg flödeseffektivitet, eftersom att starta nytt arbete alltid känns som framsteg även när det tyst saktar ner allt redan i rörelse.
 
 ## Nyckelprinciper
 
@@ -20,7 +20,7 @@ För stora team omformar förståelse av flödeseffektivitet nästan varje lever
 
 ### Mät flödeseffektivitet innan ni antar att ansträngning är flaskhalsen
 
-Beräkna ratio mellan aktiv tid och total förfluten tid för ett representativt urval av nyliga ändringar, med hjälp av cykeltidsstegdata från kapitel 2.6. De flesta team som mäter det här för första gången blir förvånade över hur lågt talet är, och den förvåningen är i sig värdefull: den omdirigerar uppmärksamhet från "arbeta hårdare" mot "minska köande," vilket nästan alltid är den mer produktiva spaken.
+Beräkna ratio mellan aktiv tid och total förfluten tid för ett representativt urval av nyliga ändringar, med hjälp av cykeltidsstegdata från ämne 2.6. De flesta team som mäter det här för första gången blir förvånade över hur lågt talet är, och den förvåningen är i sig värdefull: den omdirigerar uppmärksamhet från "arbeta hårdare" mot "minska köande," vilket nästan alltid är den mer produktiva spaken.
 
 ### Sätt en explicit pågående-arbete-begränsning och tillämpa den synligt
 
@@ -51,7 +51,7 @@ Den centrala spänningen är **flexibilitet kontra flöde**. Att starta nytt arb
 
 ## Frågor att diskutera med ditt team
 
-1. **Vad är vår faktiska flödeseffektivitet, mätt från verklig cykeltidsdata, och överraskar det talet oss?** De flesta team har aldrig beräknat det här och antar att det är mycket högre än det visar sig vara. Ta fram ett urval av nyliga ändringar och beräkna ratio ärligt innan ni diskuterar något annat i det här kapitlet.
+1. **Vad är vår faktiska flödeseffektivitet, mätt från verklig cykeltidsdata, och överraskar det talet oss?** De flesta team har aldrig beräknat det här och antar att det är mycket högre än det visar sig vara. Ta fram ett urval av nyliga ändringar och beräkna ratio ärligt innan ni diskuterar något annat i det här ämnet.
 
 2. **Hur mycket pågående arbete har vi faktiskt just nu, över hela teamet, och visste någon det talet innan räkningen?** Hög PÅA är ofta osynlig tills mätt explicit, eftersom varje individ bara ser sin egen del av den. Räkna allt för närvarande pågående, inklusive arbete ingen aktivt rör idag.
 
@@ -117,7 +117,7 @@ Den totala kostnaden för att anta den här disciplinen är mestadels organisato
 - Tillämpa en **PÅA-begränsning som en systembegränsning**, aldrig som en individuell kvot.
 - Undersök den **specifika anledningen** arbete sitter sysslolöst snarare än att utfärda ett generiskt "minska väntetid"-direktiv.
 - Vaka för PÅA-begränsningar som **eroderas genom rutinmässiga undantag**; behandla varje undantag som ett medvetet, synligt beslut.
-- Kapitel 2.4 namnger den här kvantiteten **flödesbelastning** och kapitel 2.7 formaliserar förhållandet som Littles lag: pågående arbete är lika med ankomsttakt gånger cykeltid, för alla stabila köer.
+- Ämne 2.4 namnger den här kvantiteten **flödesbelastning** och ämne 2.7 formaliserar förhållandet som Littles lag: pågående arbete är lika med ankomsttakt gånger cykeltid, för alla stabila köer.
 
 ## Källor och vidare läsning
 

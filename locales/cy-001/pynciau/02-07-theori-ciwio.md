@@ -7,9 +7,9 @@ Astudiaeth fathemategol o linellau aros yw
 swnio fel ffit od ar gyfer llyfr am fetrigau peirianneg meddalwedd hyd
 nes ichi sylwi faint o biblinell gyflenwi sydd mewn gwirionedd yn giw:
 cais tynnu'n aros am adolygydd, comit yn aros am redwr CI, tocyn yn aros
-i gael ei godi, neges cymorth cwsmer yn aros am ymateb. Cyflwynodd pennod
+i gael ei godi, neges cymorth cwsmer yn aros am ymateb. Cyflwynodd pwnc
 2.4 eisoes lwyth llif ac amser llif a dangosodd fod gorlwytho ffrwd werth
-yn gwneud i gyflenwi arafu'n sydyn, a dangosodd penodau 2.5 a 2.6 mai
+yn gwneud i gyflenwi arafu'n sydyn, a dangosodd pynciau 2.5 a 2.6 mai
 amser aros, nid amser gwaith, yw'r rhan fwyaf o amser cyflenwi. Theori
 ciwio yw'r fathemateg sylfaenol sy'n esbonio pam mae hyn i gyd yn wir,
 nid dim ond patrwm a arsylwyd.
@@ -18,12 +18,12 @@ Y canlyniad mwyaf defnyddiol sengl yw **[cyfraith Little](https://en.wikipedia.o
 theorem a broadwyd gan yr ymchwilydd gweithrediadau John Little ym 1961:
 mae nifer cyfartalog yr eitemau mewn system sefydlog yn hafal i'r
 gyfradd gyfartalog y mae eitemau'n cyrraedd, wedi'i lluosi â'r amser
-cyfartalog y mae pob eitem yn ei dreulio yn y system. Defnyddiodd pennod
+cyfartalog y mae pob eitem yn ei dreulio yn y system. Defnyddiodd pwnc
 2.4 eisoes y canlyniad hwn o dan enwau'r Flow Framework ei hun, mae
 llwyth llif yn hafal i gyfradd gyrraedd wedi'i lluosi ag amser llif. Yn
 eirfa ehangach y llyfr hwn mae hefyd yn darllen fel gwaith ar y gweill
-(pennod 2.5) yn hafal i gyfradd gyrraedd gwaith newydd wedi'i lluosi ag
-amser cylch (pennod 2.6). Nid rheol fysedd na chydberthynas a arsylwyd
+(pwnc 2.5) yn hafal i gyfradd gyrraedd gwaith newydd wedi'i lluosi ag
+amser cylch (pwnc 2.6). Nid rheol fysedd na chydberthynas a arsylwyd
 mewn rhai astudiaethau yw hon. Prawf ydyw sy'n dal ar gyfer unrhyw giw
 sefydlog, waeth beth y mae'r ciw'n ei brosesu na sut mae'n penderfynu
 beth i weithio arno nesaf.
@@ -52,7 +52,7 @@ metrig gwael cyn iddo yrru penderfyniad staffio neu broses gwael.
   hirach nag un sy'n rhedeg ar 80%, nid dim ond "ychydig yn waeth."
 - **Mae cyfartaledd ciw'n cuddio ei achos gwaethaf.** Mae adrodd dim ond
   yr amser aros cymedrig yn cuddio'r gynffon hir, boenus ger capasiti,
-  yn union yr hyn y mae pennod 1.6 yn rhybuddio yn ei erbyn o ran
+  yn union yr hyn y mae pwnc 1.6 yn rhybuddio yn ei erbyn o ran
   defnyddio canraddau yn lle cyfartaleddau.
 - **Gellir twyllo sut mae ciw'n cael ei ddiffinio mor hawdd ag unrhyw
   fetrig arall.** Mae a yw rhywbeth yn cyfrif fel "wedi cyrraedd," "ar y
@@ -85,7 +85,7 @@ mesurwch pa mor brysur mae pob un yn rhedeg fel cyfran o'i gapasiti
 sydd ar gael, cyn ichi gynllunio ei redeg yn agos at ei derfyn. Mae grŵp
 adolygwyr a rennir sy'n rhedeg ger capasiti llawn yn cynhyrchu amseroedd
 aros ciw-adolygu sy'n tyfu lawer cyflymach na'r cynnydd cymedrol mewn
-galw a'u hachosodd, yn union y dynameg y tu ôl i gyngor pennod 2.9 i
+galw a'u hachosodd, yn union y dynameg y tu ôl i gyngor pwnc 2.9 i
 wylio amser-i'r-adolygiad-cyntaf fel dangosydd arweiniol.
 
 ### Gwahanwch gyfradd gyrraedd, cyfradd llwyddiant, cyfradd methiant, a chyfradd hepgor
@@ -136,7 +136,7 @@ peirianneg yn adeiladu ac yn cynnal un, ac mae model nad oes neb yn
 ymddiried ynddo na'i ddiweddaru'n waeth na dim model. Mae cyfraith Little
 a olrhain defnydd sylfaenol yn ildio rhywfaint o fanwl gywirdeb ond nid
 ydynt angen sgil ystadegol arbenigol ac maent yn ffitio'n uniongyrchol i
-mewn i fetrigau y mae tîm eisoes yn eu casglu ar gyfer penodau 2.4 i
+mewn i fetrigau y mae tîm eisoes yn eu casglu ar gyfer pynciau 2.4 i
 2.6. Rhagosodwch i'r gwiriadau rhad, mabwysiadwy hynny, a neilltuwch
 efelychiad llawn ar gyfer yr achos prin lle mae un adnodd a rennir, fflyd
 CI mawr, pwll adolygu arbenigol, yn ddigon drud i gyfiawnhau'r
@@ -222,7 +222,7 @@ cyn iddo gyrraedd y porth.
 ## Enghreifftiau
 
 **Menter.** Sylwodd tîm platfform mewnol darparwr isadeiledd cwmwl fod
-amser arwain ar gyfer newidiadau (pennod 2.10) wedi cropian i fyny ar
+amser arwain ar gyfer newidiadau (pwnc 2.10) wedi cropian i fyny ar
 draws pob tîm cynnyrch a oedd yn dibynnu ar ei fflyd CI a rennir, er na
 newidiodd unrhyw dîm unigol sut yr oedd yn gweithio. Canfu dadansoddiad
 defnydd fod y fflyd yn rhedeg dros 90% prysur yn ystod oriau craidd, ymhell
@@ -262,7 +262,7 @@ amser yn rhatach na gofyn i bob tîm i lawr yr afon symud yn gyflymach o
 gwmpas tagfa na allant ei gweld.
 
 Mae cost mabwysiadu'n wirioneddol isel. Nid oes angen unrhyw offer newydd
-ar gyfraith Little ac olrhain defnydd y tu hwnt i'r hyn y mae penodau
+ar gyfraith Little ac olrhain defnydd y tu hwnt i'r hyn y mae pynciau
 2.4 i 2.6 eisoes yn gofyn i chi ei gasglu: cyfradd gyrraedd, gwaith ar y
 gweill, ac amser cylch. Mae'r buddsoddiad yn bennaf yn ddisgyblaeth
 ddadansoddol, gwirio'r rhifau yn erbyn ei gilydd ac adolygu defnydd ar
@@ -277,12 +277,12 @@ heb ei esbonio nesaf y sefydliad.
 - **Adrodd dim ond amser aros cymedrig, byth canradd:** yn cuddio'r
   gynffon hir sy'n bwysicaf i'r bobl sy'n aros ynddi.
 - **Cymysgu llwyddiant, methiant, a hepgor i mewn i un rhif trwybwn:** y
-  fector twyllo wrth galon y bennod hon. Gall tîm o dan bwysau wneud i
+  fector twyllo wrth galon y pwnc hwn. Gall tîm o dan bwysau wneud i
   drwybwn edrych yn iach trwy adael y gyfradd hepgor godi'n dawel,
   tocynnau wedi'u gadael, ceisiadau wedi'u gollwng yn dawel, gwaith na
   chaiff byth ei gyfrif fel methiant. Y gledr ddiogelwch yw olrhain
   cyfradd gyrraedd, llwyddiant, methiant, a hepgor fel pedwar rhif ar
-  wahân, gweladwy, yr un ddisgyblaeth y mae pennod 1.2 yn gofyn amdani
+  wahân, gweladwy, yr un ddisgyblaeth y mae pwnc 1.2 yn gofyn amdani
   gyda phob metrig yn y llyfr hwn, fel na all cyfradd hepgor gynyddol
   guddio y tu ôl i siart trwybwn gwastad.
 - **Trin "mae ein pobl bob amser yn brysur" fel canmoliaeth:** symptom o
@@ -332,7 +332,7 @@ heb ei esbonio nesaf y sefydliad.
   rhybudd, nid canmoliaeth.
 - Olrheiniwch **gyfradd gyrraedd, cyfradd llwyddiant, cyfradd methiant, a
   chyfradd hepgor** ar wahân; mae eu cymysgu i mewn i un rhif trwybwn yn
-  fector twyllo canolog y bennod hon.
+  fector twyllo canolog y pwnc hwn.
 - Modelwch biblinell aml-gam fel **ciw o giwiau**, a buddsoddwch yn y
   cam â'r cyfuniad gwaethaf o ddefnydd uchel a chyfradd methiant neu
   hepgor uchel, nid y cam sydd hawsaf i'w wella.

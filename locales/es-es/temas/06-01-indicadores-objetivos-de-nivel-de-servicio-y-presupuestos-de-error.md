@@ -5,7 +5,7 @@
 La **[ingeniería de fiabilidad de sitios](https://en.wikipedia.org/wiki/Site_reliability_engineering)
 (SRE)**, la disciplina pionera en Google y documentada en el libro *Site
 Reliability Engineering*, aportó un vocabulario sobre el que se construye
-directamente este capítulo: un **indicador de nivel de servicio (SLI)** es
+directamente este tema: un **indicador de nivel de servicio (SLI)** es
 una señal medida directamente de la salud de un servicio, la latencia de
 solicitud, la tasa de error, la disponibilidad. Un **objetivo de nivel de
 servicio (SLO)** es el rango objetivo para ese indicador, el 99,9% de las
@@ -19,7 +19,7 @@ alcanzable ni, pasado cierto punto, vale su coste.
 
 Esta última idea, el presupuesto de error como un recurso gastable en
 lugar de un número que minimizar hacia cero, es el concepto individual más
-importante de este capítulo y posiblemente de toda esta parte. Resuelve
+importante de este tema y posiblemente de toda esta parte. Resuelve
 una tensión que aqueja a muchas organizaciones: la ingeniería quiere
 entregar funcionalidades y asumir riesgos razonables; las operaciones
 quieren la máxima estabilidad. Sin un presupuesto de error compartido y

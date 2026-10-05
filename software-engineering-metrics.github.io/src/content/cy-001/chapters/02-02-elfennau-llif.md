@@ -9,8 +9,8 @@ bygiau a ganfuwyd gan ddefnyddwyr neu brofi; **risgiau**, gwaith
 diogelwch, cydymffurfiaeth, preifatrwydd, a llywodraethiant sy'n diogelu'r
 busnes; a **dyled**, [dyled dechnegol](https://en.wikipedia.org/wiki/Technical_debt),
 gwelliant pensaernïol, a gwaith isadeiledd sy'n galluogi cyflymder yn y
-dyfodol. Cyflwynodd pennod 2.1 y fframwaith y mae'r pedwar categori hyn yn
-perthyn iddo; mae'r bennod hon yn mynd yn ddwfn i mewn i'r dacsonomi ei
+dyfodol. Cyflwynodd pwnc 2.1 y fframwaith y mae'r pedwar categori hyn yn
+perthyn iddo; mae'r pwnc hwn yn mynd yn ddwfn i mewn i'r dacsonomi ei
 hun, oherwydd dim ond os yw tîm yn dosbarthu ei waith iddynt yn onest ac
 yn gyson y mae'r categorïau'n cyflenwi gwerth.
 
@@ -70,7 +70,7 @@ yr eiliad y mae'n mynd i mewn i'r ffrwd werth, nid ar ôl iddo gael ei
 gwblhau. Mae diffiniad y cytunwyd arno ymlaen llaw yn gwrthsefyll y
 demtasiwn i ddosbarthu'n ôl-weithredol yn seiliedig ar sut mae darn o
 waith wedi troi allan i edrych, sef yn union y risg twyllo y mae'r
-bennod hon yn ei enwi'n uniongyrchol isod.
+bwnc hwn yn ei enwi'n uniongyrchol isod.
 
 ### Adroddwch ddosbarthiad llif fel tuedd, nid instantiad sengl
 
@@ -93,8 +93,8 @@ peirianneg yn ei benderfynu'n dawel ar ei ben ei hun.
 ### Croeswiriwch ddosbarthiad elfen-lif yn erbyn tystiolaeth annibynnol
 
 Cymharwch eich dosbarthiad llif yn gyfnodol yn erbyn metrigau nad ydynt yn
-dibynnu ar hunan-ddosbarthiad: cyfradd defnydd escapiedig (pennod 5.1),
-mesur dyled dechnegol (pennod 4.5), a metrigau rheoli bregusrwydd (pennod
+dibynnu ar hunan-ddosbarthiad: cyfradd defnydd escapiedig (pwnc 5.1),
+mesur dyled dechnegol (pwnc 4.5), a metrigau rheoli bregusrwydd (pwnc
 6.4). Os yw diffygion neu fregusrwyddau'n codi tra bo cyfranddaliadau
 elfen llif "diffygion" a "risg" yn aros yn wastad neu'n crebachu, y
 camgyfateb hwnnw yw'r signal cliriaf sydd ar gael bod dosbarthiad wedi
@@ -168,7 +168,7 @@ cynllun dosbarthiad mwy manwl sy'n erydu o dan lwyth gwaith gwirioneddol.
 
 6. **A allai rhywun ar ein tîm ailenwi'n dawel eitem dyled neu risg fel
    nodwedd o dan bwysau cyflenwi, ac a fyddem yn sylwi ar hynny ar hyn o
-   bryd petaent yn gwneud hynny?** Dyma brif risg twyllo'r bennod wedi'i
+   bryd petaent yn gwneud hynny?** Dyma brif risg twyllo'r pwnc wedi'i
    nodi'n uniongyrchol. Trafodwch a fyddai eich proses gyfredol mewn
    gwirionedd yn dal hyn, nid dim ond a fyddai unrhyw un yn bwriadol yn ei
    wneud.
@@ -253,16 +253,16 @@ annibynnol yn bwysig cymaint â'r fabwysiadu cychwynnol.
 ## Gwrth-batrymau a pheryglon
 
 - **Dosbarthu gwaith yn ôl-weithredol, ar ôl i'r canlyniad fod yn
-  hysbys:** y fector twyllo wrth galon y bennod hon. O dan bwysau
+  hysbys:** y fector twyllo wrth galon y pwnc hwn. O dan bwysau
   cyflenwi, gall tîm labelu'n dawel waith dyled neu risg fel nodwedd ar
   ôl y ffaith, neu dalgrynnu eitem amwys tuag at ba fath bynnag sy'n
   edrych orau ar y siart dosbarthiad, heb i unrhyw benderfyniad sengl
   byth edrych yn anonest ar ei ben ei hun. Y gledr ddiogelwch yw
   dosbarthiad amser-cymryd-i-mewn yn erbyn diffiniad ysgrifenedig, ynghyd
   ag archwiliadau cyfnodol yn cymharu dosbarthiad llif yn erbyn
-  tystiolaeth annibynnol fel cyfradd defnydd escapiedig (pennod 5.1) a
-  metrigau bregusrwydd (pennod 6.4), yr un ddisgyblaeth archwilio-yn-erbyn-
-  tystiolaeth-annibynnol y mae pennod 1.2 yn gofyn amdani gyda phob
+  tystiolaeth annibynnol fel cyfradd defnydd escapiedig (pwnc 5.1) a
+  metrigau bregusrwydd (pwnc 6.4), yr un ddisgyblaeth archwilio-yn-erbyn-
+  tystiolaeth-annibynnol y mae pwnc 1.2 yn gofyn amdani gyda phob
   metrig yn y llyfr hwn.
 - **Gadael i nodweddion amsugno bron pob capasiti'n gyson (patrwm y
   ffatri nodweddion):** yn llwgu gwaith dyled a risg yn dawel hyd nes ei
@@ -312,7 +312,7 @@ annibynnol yn bwysig cymaint â'r fabwysiadu cychwynnol.
 - **Nid oes dosbarthiad iach cyffredinol**; mae'r cymysgedd cywir yn
   dibynnu ar gyfnod cynnyrch a dylai fod yn darged bwriadol, wedi'i
   drafod â rhanddeiliaid busnes.
-- Fector twyllo canolog y bennod yw **dosbarthiad ôl-weithredol**,
+- Fector twyllo canolog y pwnc yw **dosbarthiad ôl-weithredol**,
   ailenwi'n dawel waith dyled neu risg fel nodwedd ar ôl y ffaith; y
   gledr ddiogelwch yw dosbarthiad amser-cymryd-i-mewn ynghyd ag
   archwiliadau cyfnodol yn erbyn tystiolaeth annibynnol.

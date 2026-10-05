@@ -2,7 +2,7 @@
 
 Un ejemplo trabajado de una carta de métricas, el tipo de documento de una
 página que se describe en el
-[capítulo 1.4, Gobernanza y propiedad de las métricas](../chapters/01-04-gobernanza-y-propiedad-de-las-métricas.md).
+[tema 1.4, Gobernanza y propiedad de las métricas](../chapters/01-04-gobernanza-y-propiedad-de-las-métricas.md).
 Lo que importa es la forma: un propósito declarado, un no-objetivo
 explícito, responsables nombrados, y una cadencia de revisión. Una carta
 tan corta está pensada para leerse, no para archivarse.

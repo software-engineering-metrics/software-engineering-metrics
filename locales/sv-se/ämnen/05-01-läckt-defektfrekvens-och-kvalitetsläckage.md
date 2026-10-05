@@ -4,7 +4,7 @@
 
 **Läckt-defektfrekvens** mäter defekterna som når produktion och påverkar verkliga användare, som distinkt från defekterna fångade tidigare genom testning, kodgranskning, eller statisk analys, alla täckta i del 4 av den här boken. Distinktionen spelar enormt stor roll: en defekt fångad i kodgranskning kostar minuter att fixa och ingen användare ser den någonsin; samma defekt, om den läcker till produktion, kan kosta timmar av incidentrespons, verklig kundskada, och en mätbar buckla i förtroende. Det här mätetalet är, i en verklig mening, det slutliga resultatkortet för allt del 4 täcker, eftersom en stigande läckt-defektfrekvens trots starka interna kvalitetsmätetal (komplexitet, täckning, statisk analys) vanligtvis betyder att de interna signalerna faktiskt inte fångar de felmönster som spelar roll för verkliga användare.
 
-Det här kapitlet behandlar läckta defekter med allvaret deras kostnad förtjänar medan det motstår frestelsen att behandla det råa antalet som en enkel resultattavla. Inte alla defekter är lika: en stavfel i sällan visad hjälptext och en databorrupteringsbugg i ett finansiellt transaktionssystem är båda, tekniskt, läckta defekter, och att behandla dem identiskt producerar ett mätetal som antingen är för bullrigt att agera på eller, värre, aktivt vilseledande om var den verkliga risken bor. Det här kapitlets kärnrekommendation, allvarlighetsviktad spårning med noggrann uppmärksamhet på hur defekter klassificeras, siktar direkt på det problemet.
+Det här ämnet behandlar läckta defekter med allvaret deras kostnad förtjänar medan det motstår frestelsen att behandla det råa antalet som en enkel resultattavla. Inte alla defekter är lika: en stavfel i sällan visad hjälptext och en databorrupteringsbugg i ett finansiellt transaktionssystem är båda, tekniskt, läckta defekter, och att behandla dem identiskt producerar ett mätetal som antingen är för bullrigt att agera på eller, värre, aktivt vilseledande om var den verkliga risken bor. Det här ämnets kärnrekommendation, allvarlighetsviktad spårning med noggrann uppmärksamhet på hur defekter klassificeras, siktar direkt på det problemet.
 
 För stora team är läckt-defektfrekvens en av de tydligaste broarna mellan den här bokens interna ingenjörsmätetal och den kundvända världen del 5 som helhet handlar om. Stora företag använder det för att motivera investering i test- och granskningspraxisen från del 4; myndigheter, där en läckt defekt kan betyda en felaktig förmånsberäkning eller en misslyckad offentlig tjänsteinteraktion, behandlar det som ett direkt mått på offentligt förtroende och juridisk exponering, inte bara en intern ingenjörsstatistik.
 
@@ -13,7 +13,7 @@ För stora team är läckt-defektfrekvens en av de tydligaste broarna mellan den
 - **Läckt-defektfrekvens är det slutliga resultatkortet för intern kvalitetspraxis.** En stigande frekvens trots starka del 4-mätetal betyder att de mätetalen inte fångar vad som spelar roll.
 - **Allvarlighetsgrad spelar mer roll än rått antal.** Vikta defekter efter faktisk kund- eller affärspåverkan, inte genom att behandla varje läckage identiskt.
 - **Klassificeringskonsekvens är väsentlig.** Två team som klassificerar allvarlighetsgrad olika producerar tal som inte kan jämföras rättvist.
-- **Det här mätetalet är exponerat för definitionsmanipulation**, exakt som ändringsfelfrekvens (kapitel 2.10): att smalna av vad som räknas som en "defekt" smickrar talet utan att minska verklig kundskada.
+- **Det här mätetalet är exponerat för definitionsmanipulation**, exakt som ändringsfelfrekvens (ämne 2.10): att smalna av vad som räknas som en "defekt" smickrar talet utan att minska verklig kundskada.
 - **Grundorsakskategorisering vänder ett antal till ett diagnostiskt verktyg.** Att veta *varför* defekter läcker är mer handlingsbart än att bara veta hur många som gjorde det.
 
 ## Rekommendationer
@@ -24,7 +24,7 @@ Klassificera varje läckt defekt med en fast allvarlighetsgradskala (vanligtvis 
 
 ### Standardisera klassificeringskriterier över team
 
-Olika team lämnade att klassificera allvarlighetsgrad oberoende kommer driva mot olika standarder, vissa konservativa, vissa generösa, vilket gör teamöverskridande jämförelse meningslös och, värre, skapar ett incitament att klassificera generöst nedåt för att hålla ett teams egna tal ser bättre ut (en variant av kapitel 1.2:s definitionsmanipulation). Publicera tydliga, exempelbaserade klassificeringskriterier, och granska periodiskt ett urval av klassificeringar över team för att kontrollera konsekvens.
+Olika team lämnade att klassificera allvarlighetsgrad oberoende kommer driva mot olika standarder, vissa konservativa, vissa generösa, vilket gör teamöverskridande jämförelse meningslös och, värre, skapar ett incitament att klassificera generöst nedåt för att hålla ett teams egna tal ser bättre ut (en variant av ämne 1.2:s definitionsmanipulation). Publicera tydliga, exempelbaserade klassificeringskriterier, och granska periodiskt ett urval av klassificeringar över team för att kontrollera konsekvens.
 
 ### Spåra [grundorsak](https://en.wikipedia.org/wiki/Root_cause_analysis), inte bara antal och allvarlighetsgrad
 
@@ -32,11 +32,11 @@ För varje läckt defekt, registrera varför den läckte: ett testgap, ett missa
 
 ### Koppla läckta defekter tillbaka till deras ursprungliga interna kvalitetssignaler
 
-Där möjligt, spåra en läckt defekt tillbaka till kodområdet den kom från och kontrollera om det området visade varningssignaler i del 4:s mätetal: var det en komplexitetshotspot (kapitel 4.1, kapitel 4.3), hade den en låg mutantdödningsfrekvens (kapitel 4.2), flaggade statisk analys något i närheten (kapitel 4.4). Den här kopplingen är vad som validerar om era interna kvalitetsmätetal faktiskt är förutsägande för verkliga kundvända defekter, eller om de mäter något som, i ert specifika sammanhang, inte korrelerar med vad kunder faktiskt upplever.
+Där möjligt, spåra en läckt defekt tillbaka till kodområdet den kom från och kontrollera om det området visade varningssignaler i del 4:s mätetal: var det en komplexitetshotspot (ämne 4.1, ämne 4.3), hade den en låg mutantdödningsfrekvens (ämne 4.2), flaggade statisk analys något i närheten (ämne 4.4). Den här kopplingen är vad som validerar om era interna kvalitetsmätetal faktiskt är förutsägande för verkliga kundvända defekter, eller om de mäter något som, i ert specifika sammanhang, inte korrelerar med vad kunder faktiskt upplever.
 
 ### Skydda mot att defektklassificering blir en skuldövning
 
-Rama in defektgrundorsaksanalys explicit som en systemfråga, enligt kapitel 1.1:s diagnostiska inramning, inte en individuell-skuld-övning. Ett team som fruktar skuld för en läckt defekt har ett starkt incitament att underrapportera, feklassificera nedåt, eller motstå grundlig grundorsaksanalys, allt vilket korrumperar just den data det här kapitlet beror på. Skuldfri postmortem-praxis, täckt djupare i kapitel 6.2, tillämpas direkt här.
+Rama in defektgrundorsaksanalys explicit som en systemfråga, enligt ämne 1.1:s diagnostiska inramning, inte en individuell-skuld-övning. Ett team som fruktar skuld för en läckt defekt har ett starkt incitament att underrapportera, feklassificera nedåt, eller motstå grundlig grundorsaksanalys, allt vilket korrumperar just den data det här ämnet beror på. Skuldfri postmortem-praxis, täckt djupare i ämne 6.2, tillämpas direkt här.
 
 ## Avvägningar: fördelar och nackdelar
 
@@ -47,11 +47,11 @@ Rama in defektgrundorsaksanalys explicit som en systemfråga, enligt kapitel 1.1
 | Teamoberoende klassificeringsstandarder | Flexibel, låg koordineringsoverhead | Producerar ojämförbara tal över team; inbjuder generös drift |
 | Standardiserad, granskad klassificering | Rättvis, jämförbar, motstår manipulation | Kräver löpande styrning och periodisk granskningsinsats |
 
-Den centrala spänningen är **lokal flexibilitet kontra teamöverskridande jämförbarhet**. Att låta varje team klassificera defektallvarlighetsgrad på vilket sätt som helst som passar deras eget sammanhang är enklare att implementera men producerar tal som inte kan jämföras eller aggregeras rättvist på organisationsnivå, och skapar ett tyst incitament för ett team att klassificera generöst för att skydda sina egna mätetal. Lös spänningen genom att investera i standardiserade, dokumenterade klassificeringskriterier och periodiska teamöverskridande granskningar, behandlande det här som styrningsarbete (kapitel 1.4) värt investeringen givet hur direkt det här mätetalet kopplar till verklig kundpåverkan.
+Den centrala spänningen är **lokal flexibilitet kontra teamöverskridande jämförbarhet**. Att låta varje team klassificera defektallvarlighetsgrad på vilket sätt som helst som passar deras eget sammanhang är enklare att implementera men producerar tal som inte kan jämföras eller aggregeras rättvist på organisationsnivå, och skapar ett tyst incitament för ett team att klassificera generöst för att skydda sina egna mätetal. Lös spänningen genom att investera i standardiserade, dokumenterade klassificeringskriterier och periodiska teamöverskridande granskningar, behandlande det här som styrningsarbete (ämne 1.4) värt investeringen givet hur direkt det här mätetalet kopplar till verklig kundpåverkan.
 
 ## Frågor att diskutera med ditt team
 
-1. **Spårar vi läckta defekter efter allvarlighetsgrad, eller behandlar ett rått antal ett mindre kosmetiskt problem som samma som ett kritiskt dataproblem?** Dra er faktiska instrumentpanel och kontrollera; om allvarlighetsviktning inte redan är på plats är det här den enskilt högst-värda ändringen det här kapitlet rekommenderar.
+1. **Spårar vi läckta defekter efter allvarlighetsgrad, eller behandlar ett rått antal ett mindre kosmetiskt problem som samma som ett kritiskt dataproblem?** Dra er faktiska instrumentpanel och kontrollera; om allvarlighetsviktning inte redan är på plats är det här den enskilt högst-värda ändringen det här ämnet rekommenderar.
 
 2. **Skulle två olika team klassificera samma defekts allvarlighetsgrad på samma sätt, eller har klassificering drivit isär över organisationen?** Välj en verklig, tvetydig tidigare defekt och låt representanter från två olika team klassificera den oberoende; jämför resultaten ärligt.
 
@@ -61,13 +61,13 @@ Den centrala spänningen är **lokal flexibilitet kontra teamöverskridande jäm
 
 5. **Känns vår defektklassificeringsprocess säker, eller fruktar ingenjörer skuld när de rapporterar eller klassificerar en defekt de är associerade med?** En skuldbenägen kultur korrumperar systematiskt den här datan genom underrapportering och generös klassificering; var ärliga om er nuvarande kultur här.
 
-6. **Har vår läckt-defektfrekvens någonsin förbättrats misstänkt snabbt utan någon motsvarande ändring i test- eller granskningspraxis?** Som med ändringsfelfrekvens (kapitel 2.10) är det här det tydligaste tecknet på att klassificeringskriterier, inte verklig risk, flyttades.
+6. **Har vår läckt-defektfrekvens någonsin förbättrats misstänkt snabbt utan någon motsvarande ändring i test- eller granskningspraxis?** Som med ändringsfelfrekvens (ämne 2.10) är det här det tydligaste tecknet på att klassificeringskriterier, inte verklig risk, flyttades.
 
 ## Sektorperspektiv
 
 **Startup.** Formell allvarlighetsgradsklassificering är ofta onödig med en liten volym defekter och ett litet team som kan diskutera var och en direkt. Vanan värd att anta tidigt är helt enkelt att spåra defekter konsekvent från start, även informellt, så den historiska datan existerar när teamet växer stort nog att behöva mer formell analys.
 
-**Litet företag.** En enkel, delad allvarlighetsgradskala, även tre nivåer (kritisk, major, minor), tillämpad konsekvent av vem som helst som hanterar support och buggtriage, fångar det mesta av det här kapitlets värde utan att behöva sofistikerade verktyg eller en dedikerad kvalitetsfunktion.
+**Litet företag.** En enkel, delad allvarlighetsgradskala, även tre nivåer (kritisk, major, minor), tillämpad konsekvent av vem som helst som hanterar support och buggtriage, fångar det mesta av det här ämnets värde utan att behöva sofistikerade verktyg eller en dedikerad kvalitetsfunktion.
 
 **Stort företag.** Teamöverskridande klassificeringskonsekvens är den högst-inflytelserika investeringen här, eftersom inkonsekventa standarder över dussintals team gör organisationsövergripande kvalitetsjämförelse meningslös. Investera i dokumenterade, exempelbaserade klassificeringskriterier och periodisk granskning, och koppla läckta defekter systematiskt tillbaka till del 4:s interna kvalitetssignaler för att validera vilka av de signalerna som faktiskt är förutsägande för er organisation.
 
@@ -77,7 +77,7 @@ Den centrala spänningen är **lokal flexibilitet kontra teamöverskridande jäm
 
 **Stort företag.** Ett prenumerationsmjukvarubolags läckt-defektantal hade stigit under två kvartal, och initial oro fokuserade på det råa talet. Allvarlighetsviktad analys avslöjade att ökningen nästan helt var i mindre, kosmetiska problem, sammanfallande med en nylig UI-omdesign, medan kritiska och major-defekter faktiskt hade minskat något under samma period. Grundorsaksanalys av spiken i mindre problem pekade på ett gap i visuell regressionstestning specifikt för de nya UI-komponenterna, en riktad, lågkostnadsfix som helt skulle ha missats om teamet hade reagerat på det råa, oviktade talet som en odifferentierad kvalitetskris.
 
-**Myndighet.** En delstatlig arbetslöshetsmyndighets förmånsberäkningssystem hade en läckt defekt som felaktigt avslog en liten procentandel av annars berättigade ansökningar under flera månader innan upptäckt. En grundorsaksundersökning fann att defekten hade sitt ursprung i ett kodområde tidigare flaggat som en komplexitetshotspot (kapitel 4.1, kapitel 4.3) i en intern kvalitetsgranskning arton månader tidigare, men hotspoten hade aldrig prioriterats för åtgärd eftersom ingen defekt ännu hade inträffat för att göra risken konkret. Myndighetens reviderade process viktar nu explicit hotspot-flaggade områden högre i test- och granskningsprioritet specifikt på grund av den här demonstrerade, validerade kopplingen mellan interna komplexitetssignaler och verklig läckt-defektrisk.
+**Myndighet.** En delstatlig arbetslöshetsmyndighets förmånsberäkningssystem hade en läckt defekt som felaktigt avslog en liten procentandel av annars berättigade ansökningar under flera månader innan upptäckt. En grundorsaksundersökning fann att defekten hade sitt ursprung i ett kodområde tidigare flaggat som en komplexitetshotspot (ämne 4.1, ämne 4.3) i en intern kvalitetsgranskning arton månader tidigare, men hotspoten hade aldrig prioriterats för åtgärd eftersom ingen defekt ännu hade inträffat för att göra risken konkret. Myndighetens reviderade process viktar nu explicit hotspot-flaggade områden högre i test- och granskningsprioritet specifikt på grund av den här demonstrerade, validerade kopplingen mellan interna komplexitetssignaler och verklig läckt-defektrisk.
 
 ## Verksamhetsnytta: motiv, ROI och TCO
 
@@ -90,7 +90,7 @@ Den totala ägandekostnaden inkluderar klassificeringsdisciplinen (konsekventa k
 - **Att behandla ett rått defektantal som mätetalet:** sammanblandar triviala och allvarliga problem och döljer den verkliga signalen.
 - **Inkonsekvent allvarlighetsgradsklassificering över team:** gör teamöverskridande jämförelse meningslös och inbjuder generös klassificeringsdrift.
 - **Ingen grundorsaksspårning:** vänder ett antal till ett tal utan diagnostiskt värde, lämnande systemiska mönster osynliga.
-- **En skuldbenägen rapporteringskultur:** korrumperar data genom underrapportering och generös klassificering, exakt den incitamentsexponeringsrisk kapitel 1.2 varnar om.
+- **En skuldbenägen rapporteringskultur:** korrumperar data genom underrapportering och generös klassificering, exakt den incitamentsexponeringsrisk ämne 1.2 varnar om.
 - **Att aldrig koppla läckta defekter tillbaka till interna kvalitetssignaler:** missar chansen att validera, eller invalidera, del 4:s förutsägande mätetal mot verkliga utfall.
 - **En misstänkt snabb förbättring utan någon processändring bakom:** det tydligaste tecknet på att klassificeringskriterier, inte verklig risk, skiftade.
 

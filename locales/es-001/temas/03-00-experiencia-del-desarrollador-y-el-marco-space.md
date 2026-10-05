@@ -36,7 +36,7 @@ particularmente fuertes para tratar la experiencia del desarrollador como
 una preocupación de primer nivel y gestionada activamente en lugar de una
 ocurrencia tardía.
 
-## Capítulos de esta parte
+## Temas de esta parte
 
 - **3.1 El marco SPACE:** Las cinco dimensiones juntas, por qué ninguna es
   fiable por sí sola, y cómo construir a partir de ellas un conjunto de
@@ -59,23 +59,23 @@ ocurrencia tardía.
   realizar una encuesta que produzca una señal fiable en lugar de un
   concurso de popularidad, y cómo combinarla con datos objetivos.
 
-## Cómo se relacionan estos capítulos
+## Cómo se relacionan estos temas
 
-El capítulo 3.1 presenta juntas las cinco dimensiones de SPACE, y los
-capítulos 3.2 a 3.6 después toman cada dimensión por turno con verdadera
+El tema 3.1 presenta juntas las cinco dimensiones de SPACE, y los
+temas 3.2 a 3.6 después toman cada dimensión por turno con verdadera
 profundidad, en el orden en que las presentan los investigadores de SPACE.
-El capítulo 3.7 cierra la parte con la mecánica práctica del diseño de
+El tema 3.7 cierra la parte con la mecánica práctica del diseño de
 encuestas, ya que la satisfacción, el rendimiento y la colaboración
 dependen en parte de datos autoinformados (la distinción entre
-instrumentación y autoinforme del capítulo 1.5 es directamente relevante a
+instrumentación y autoinforme del tema 1.5 es directamente relevante a
 lo largo de esta parte) y una encuesta mal diseñada socava cada uno de los
-capítulos anteriores.
+temas anteriores.
 
 La disciplina central de esta parte, el equilibrio entre dimensiones en
 lugar de la fuerza en una sola, es el ejemplo trabajado más claro que tiene
-este libro del principio de resultados antes que producción del capítulo
+este libro del principio de resultados antes que producción del tema
 1.3 aplicado a las personas en lugar de a una canalización de entrega. La
-actividad (capítulo 3.4) es la dimensión de SPACE más análoga a una métrica
+actividad (tema 3.4) es la dimensión de SPACE más análoga a una métrica
 de producción pura, y esta parte la trata en consecuencia: útil como una
 entrada entre cinco, peligrosa como señal aislada. Leída junto a la parte
 2, esta parte completa la imagen que DORA por sí sola no puede

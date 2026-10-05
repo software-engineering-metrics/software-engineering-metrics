@@ -83,13 +83,13 @@ counts.]
 
 For each metric:
 - Current reading and trend
-- Any movement outside normal variation (chapter 1.6)
+- Any movement outside normal variation (topic 1.6)
 - Paired guardrail status, if applicable
 - Decision this reading informs, if any
 
 ## New metrics proposed
 
-[Run each through the new metric review checklist, chapter 9.3.]
+[Run each through the new metric review checklist, topic 9.3.]
 
 ## Metrics considered for retirement
 
@@ -119,7 +119,7 @@ For each metric:
 
 ## Severity
 
-[Classification against documented criteria, chapter 6.2.]
+[Classification against documented criteria, topic 6.2.]
 
 ## Root cause
 
@@ -147,13 +147,13 @@ next review cycle.]
 ```markdown
 # ROI case: [initiative name]
 
-## Cost (total cost of ownership, chapter 5.5)
+## Cost (total cost of ownership, topic 5.5)
 
 - Upfront: [development cost]
 - Ongoing: [maintenance, infrastructure, support, per year]
 - Opportunity cost: [what else this capacity could have done]
 
-## Benefit (documented evidence, chapters 5.1-5.3)
+## Benefit (documented evidence, topics 5.1-5.3)
 
 - [Benefit 1], evidenced by [data source]
 - [Benefit 2], evidenced by [data source]

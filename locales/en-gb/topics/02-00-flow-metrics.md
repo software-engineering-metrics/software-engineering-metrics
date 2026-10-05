@@ -17,10 +17,10 @@ delivery frameworks available, but they measure the pipeline's mechanics,
 not what is flowing through it. A team can post excellent DORA numbers
 while its actual delivered value has quietly drifted toward rework or away
 from the debt and risk work that protects a system's future. This part
-covers DORA in full, but as a single, consolidated reference chapter at the
-end (chapter 2.10), because the more urgent, more commonly missing question
+covers DORA in full, but as a single, consolidated reference topic at the
+end (topic 2.10), because the more urgent, more commonly missing question
 for most organisations is not "how fast is our pipeline" but "what is our
-pipeline actually delivering." Every chapter in this part still follows the
+pipeline actually delivering." Every topic in this part still follows the
 same discipline established in Part 1: state the metric, name how it gets
 gamed, and pair it with the guardrail that catches that gaming.
 
@@ -35,7 +35,7 @@ to compare the return on competing modernisation efforts, and to
 demonstrate, with evidence rather than anecdote, that engineering capacity
 is allocated the way leadership believes it is.
 
-## Chapters in this part
+## Topics in this part
 
 - **2.1 The Flow Framework:** The framework's origin, its value stream
   model, and why this book uses it, rather than DORA alone, to organise
@@ -67,27 +67,27 @@ is allocated the way leadership believes it is.
   placed last deliberately because they measure the pipeline, not the
   value flowing through it.
 
-## How these chapters interrelate
+## How these topics interrelate
 
-Chapter 2.1 introduces the Flow Framework as a whole; chapter 2.2 gives its
-taxonomy of flow items, and chapters 2.3 and 2.4 cover its five flow
+Topic 2.1 introduces the Flow Framework as a whole; topic 2.2 gives its
+taxonomy of flow items, and topics 2.3 and 2.4 cover its five flow
 metrics between them, velocity and distribution together, then time and
-load together, with load and time tied directly to Little's law. Chapters
+load together, with load and time tied directly to Little's law. Topics
 2.5 through 2.7 zoom in on the mechanics underneath flow time and cycle
 time specifically: flow efficiency and work in process explain why
 engineering stages are often slower than they look, cycle time decomposes
 that engineering portion into its stages, and queueing theory formalises,
-in provable mathematical terms, why all of the preceding chapters' claims
-about load, wait time, and utilisation are true. Chapter 2.8 steps back to
+in provable mathematical terms, why all of the preceding topics' claims
+about load, wait time, and utilisation are true. Topic 2.8 steps back to
 trace all of it to its origin in classical Lean value stream mapping, the
 common vocabulary this part's software-specific metrics generalise from.
-Chapter 2.9 covers the single pipeline stage most teams can improve
-fastest. Chapter 2.10 closes the part with the DORA metrics in full,
+Topic 2.9 covers the single pipeline stage most teams can improve
+fastest. Topic 2.10 closes the part with the DORA metrics in full,
 presented as a well-evidenced but narrower reference layer once the
-broader, business-facing picture from the earlier chapters is already in
+broader, business-facing picture from the earlier topics is already in
 view.
 
-This part's guardrail discipline connects directly back to chapter 1.2:
+This part's guardrail discipline connects directly back to topic 1.2:
 flow velocity is never reported without flow distribution alongside it, and
 DORA's speed metrics remain paired with its stability metrics, so that a
 team cannot improve a speed number by quietly shipping riskier code or a

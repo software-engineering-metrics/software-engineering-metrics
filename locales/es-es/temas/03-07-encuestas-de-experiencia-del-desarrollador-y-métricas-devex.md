@@ -2,14 +2,14 @@
 
 ## Visión general y motivación
 
-Este capítulo cierra la parte 3 con la mecánica práctica que hace fiables
-los datos autoinformados de cada capítulo anterior: cómo diseñar una
+Este tema cierra la parte 3 con la mecánica práctica que hace fiables
+los datos autoinformados de cada tema anterior: cómo diseñar una
 encuesta de experiencia del desarrollador (DevEx) que produzca una señal
 genuina en lugar de un concurso de popularidad, y cómo combinar los datos
 de encuesta con instrumentación objetiva en un conjunto de métricas sobre
-el que una organización realmente pueda actuar. Cada capítulo de esta
+el que una organización realmente pueda actuar. Cada tema de esta
 parte depende de alguna forma de autoinforme, satisfacción y bienestar
-(capítulo 3.2) más directamente, pero el rendimiento, la comunicación y el
+(tema 3.2) más directamente, pero el rendimiento, la comunicación y el
 flujo también se benefician de una encuesta bien diseñada, y una encuesta
 mal diseñada socava el valor de todos ellos a la vez.
 
@@ -27,7 +27,7 @@ parte ya ha cubierto en profundidad, y las extienden.
 
 Para los equipos grandes, la diferencia entre una encuesta que produce una
 señal fiable y una que produce ruido o, peor, datos activamente engañosos
-está por completo en los detalles de diseño que cubre este capítulo:
+está por completo en los detalles de diseño que cubre este tema:
 redacción de preguntas, elección de la escala de respuesta, muestreo y
 cadencia, y cómo se comunican los resultados de vuelta a quienes
 respondieron. Las organizaciones grandes y del sector público que
@@ -46,7 +46,7 @@ decisiones reales de recursos.
   recopilación de datos; una tasa en declive a menudo indica una confianza
   erosionada en el proceso.
 - **Combina los datos de encuesta con instrumentación objetiva** siempre
-  que sea posible, siguiendo el principio de instrumentación del capítulo
+  que sea posible, siguiendo el principio de instrumentación del tema
   1.5; usa los datos de encuesta específicamente para lo que los datos
   objetivos no pueden capturar.
 - **Cierra el ciclo con quienes responden.** Una encuesta que nunca lleva
@@ -85,7 +85,7 @@ completo.
 Rastrea la tasa de respuesta de la encuesta a lo largo de ciclos
 sucesivos, y trata una tasa en declive como una señal de alerta que
 merece investigarse directamente, similar a la señal de confianza
-comentada en el capítulo 3.2. Una tasa de respuesta que cae a menudo
+comentada en el tema 3.2. Una tasa de respuesta que cae a menudo
 indica fatiga de encuesta, confianza erosionada en que los resultados
 lleven a la acción, o una sospecha creciente de que el anonimato no está
 genuinamente protegido, cualquiera de las cuales merece una investigación
@@ -97,7 +97,7 @@ datos.
 Empareja las respuestas subjetivas de encuesta con señales objetivas donde
 existan: tiempo de compilación, tiempo de ejecución de la suite de
 pruebas, tiempo de configuración del entorno de desarrollo local, y los
-datos de tiempo de flujo e interrupción del capítulo 3.6. Una respuesta de
+datos de tiempo de flujo e interrupción del tema 3.6. Una respuesta de
 encuesta que dice "nuestra compilación es demasiado lenta" se vuelve mucho
 más accionable emparejada con la tendencia real medida del tiempo de
 compilación, y la combinación detecta casos donde la percepción y la
@@ -245,7 +245,7 @@ esfuerzo de remediación mal dirigido porque una única pregunta mal
 redactada mezclaba dos preocupaciones distintas.
 
 El coste total de propiedad incluye la herramienta de encuesta, la
-disciplina de diseño y prueba que recomienda este capítulo, y el
+disciplina de diseño y prueba que recomienda este tema, y el
 compromiso continuo de cerrar el ciclo con una acción de seguimiento
 visible en cada ciclo. Ese compromiso, más que cualquier coste de
 herramienta, es lo que determina si un programa de encuesta se mantiene

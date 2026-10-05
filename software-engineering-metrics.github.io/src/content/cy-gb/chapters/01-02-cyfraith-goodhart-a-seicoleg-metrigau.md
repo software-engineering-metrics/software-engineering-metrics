@@ -8,7 +8,7 @@ pan fydd mesur yn dod yn darged, mae'n peidio â bod yn fesur da. Roedd
 arsylwad gwreiddiol Goodhart o 1975 ynghylch polisi ariannol, ond
 ailddatganiad diweddarach yr anthropolegydd Marilyn Strathern yw'r fersiwn
 sydd wir ei angen ar dimau meddalwedd, a dyma'r frawddeg y mae'r llyfr cyfan
-hwn wedi'i adeiladu arni. Mae pob metrig ym mhob pennod ddiweddarach, amlder
+hwn wedi'i adeiladu arni. Mae pob metrig ym mhob pwnc diweddarach, amlder
 defnyddio, cwmpas profi, sgoriau boddhad, yn cario'r risg hon, ac mae pob
 argymhelliad yn y llyfr hwn, mewn rhyw ffurf, yn strategaeth ar gyfer ei
 reoli.
@@ -31,7 +31,7 @@ draws is-adran o chwe chant o bobl, neu a gyhoeddwyd mewn adroddiad
 perfformiad llywodraeth a ddarllenir gan ddeddfwrfa, yn teithio trwy haenau
 o bobl nad ydynt erioed wedi cyfarfod â'i awdur ac sydd â phob rheswm i
 drin llythyren y metrig fel y nod. Mae'r ystumio'n cronni gyda phellter,
-a dyna'n union pam mae'r bennod hon, nid un ddiweddarach, lle mae'r llyfr
+a dyna'n union pam mae'r pwnc hwn, nid un ddiweddarach, lle mae'r llyfr
 yn rhoi ei ganolbwynt disgyrchiant.
 
 ## Egwyddorion allweddol
@@ -59,7 +59,7 @@ Cyn cyhoeddi metrig yn unrhyw le gweladwy, gofynnwch yn uniongyrchol: a yw
 gwobr, adolygiad, enw da, neu gyllideb unrhyw un yn dibynnu ar y rhif hwn
 yn symud i gyfeiriad penodol? Os felly, mae'n fetrig sy'n cael ei gymell ac
 mae angen cledr ddiogelwch (isod) arno cyn iddo fynd yn fyw. Os na, mae'n
-fetrig diagnostig (pennod 1.1) ac mae'n cario risg twyllo is, er byth yn
+fetrig diagnostig (pwnc 1.1) ac mae'n cario risg twyllo is, er byth yn
 sero, oherwydd gall pobl barhau i lunio rhif y maent yn disgwyl yn unig
 gael eu barnu arno'n ddiweddarach hyd yn oed heb gymhelliant ffurfiol
 ynghlwm wrtho heddiw.
@@ -108,7 +108,7 @@ Y gledr ddiogelwch gryfaf oll yw un strwythurol: datgyplu'r metrig oddi
 wrth wobr unigol. Mae metrig a ddefnyddir yn bur i ddeall system, heb i
 gyflog, sgôr, na sefyllfa unrhyw berson ddibynnu ar ei gyfeiriad, yn
 wynebu pwysau twyllo llawer gwannach nag un ynghlwm wrth werthusiad.
-Dyma pam mae gwahaniaeth diagnostig-yn-erbyn-gwerthusol pennod 1.1 mor
+Dyma pam mae gwahaniaeth diagnostig-yn-erbyn-gwerthusol pwnc 1.1 mor
 bwysig yn ymarferol: mae cadw metrig yn ddiagnostig yn aml yn rhatach ac
 yn fwy effeithiol nag unrhyw faint o beirianneg cledr ddiogelwch a
 gymhwysir ar ôl y ffaith.
@@ -201,7 +201,7 @@ gledr ddiogelwch yn gyntaf.
 **Menter.** Pellter yw'r risg dominyddol: mae metrig a ddyluniwyd gan dîm
 platfform ar gyfer diagnosis mewnol yn cael ei godi dair haen reoli'n
 ddiweddarach a'i droi'n KPI na fyddai neb a'i hadeiladodd yn ei adnabod.
-Llywodraethwch hyn yn benodol (pennod 1.4): mynnwch gledr ddiogelwch
+Llywodraethwch hyn yn benodol (pwnc 1.4): mynnwch gledr ddiogelwch
 ddogfennedig cyn i unrhyw fetrig gael ei gymeradwyo i'w ddefnyddio mewn
 adolygiad perfformiad neu sgorgerdyn gweithredol.
 
@@ -222,7 +222,7 @@ cwmpas 99%, a chododd cyfradd digwyddiadau. Canfu archwiliad dimau'n
 ysgrifennu profion dibwys, gan haeru bod ffwythiant wedi dychwelyd heb
 daflu, yn bur i fodloni'r offeryn cwmpas, tra na wellodd profi achosion
 ymyl gwirioneddol o gwbl. Disodlodd y trwsiad y targed cwmpas crai â
-metrig wedi'i barejo: cwmpas ynghyd â sgôr profi-mwtasiwn (pennod 4.2)
+metrig wedi'i barejo: cwmpas ynghyd â sgôr profi-mwtasiwn (pwnc 4.2)
 sy'n mesur a yw profion mewn gwirionedd yn dal namau wedi'u chwistrellu, sy'n
 llawer anos ei dwyllo'n rhad.
 
@@ -252,7 +252,7 @@ atal, drud i'w drwsio.
 Nid yw cost cyfanswm perchnogaeth cledr ddiogelwch yn rhad ac am ddim: mae'n
 ail fetrig i'w ddiffinio, ei gyfrifiannu, a'i adolygu. Ond mae'r gost honno'n
 fach ac yn sefydlog o'i chymharu â chost ddiderfyn cymhelliant sy'n gwobrwyo'n
-dawel yr ymddygiad anghywir am fisoedd cyn i unrhyw un sylwi. Mae pob pennod
+dawel yr ymddygiad anghywir am fisoedd cyn i unrhyw un sylwi. Mae pob pwnc
 ar ôl hon yn prisio'r cyfaddawd hwnnw i mewn, a dyna pam mae parejiad cledr
 ddiogelwch yn ymddangos fel argymhelliad drwy gydol gweddill y llyfr hwn yn
 hytrach na dim ond yma.

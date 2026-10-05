@@ -2,7 +2,7 @@
 
 ## Översikt och motivation
 
-**Cykeltid** är den interna nedbrytningen av en ändrings flödestid (kapitel 2.4) i dess beståndsdelande ingenjörssteg: kodningstid, granskningstid, testningstid, och driftsättningstid, ibland vidare uppdelat i upptagstid (hur länge en ändring väntar innan någon börjar arbeta på den) och aktiv tid (hur lång tid det tar när väl någon gör det). Där flödestid ger er ett enda tal för hur lång tid en ändring tar från början till slut genom hela värdeflödet, berättar [cykeltid](https://en.wikipedia.org/wiki/Cycle_time) var den tiden faktiskt tar vägen när den väl når ingenjörsavdelningen, vilket är det diagnostiska lagret kapitel 2.4 lovade ligger under dess eget sammanfattningstal.
+**Cykeltid** är den interna nedbrytningen av en ändrings flödestid (ämne 2.4) i dess beståndsdelande ingenjörssteg: kodningstid, granskningstid, testningstid, och driftsättningstid, ibland vidare uppdelat i upptagstid (hur länge en ändring väntar innan någon börjar arbeta på den) och aktiv tid (hur lång tid det tar när väl någon gör det). Där flödestid ger er ett enda tal för hur lång tid en ändring tar från början till slut genom hela värdeflödet, berättar [cykeltid](https://en.wikipedia.org/wiki/Cycle_time) var den tiden faktiskt tar vägen när den väl når ingenjörsavdelningen, vilket är det diagnostiska lagret ämne 2.4 lovade ligger under dess eget sammanfattningstal.
 
 Den här distinktionen betyder något eftersom "ledtid är för lång" inte är handlingsbart i sig. Ett team vars ledtid domineras av kodningstid behöver en annan intervention än ett team vars ledtid domineras av en tredagars granskningskö, vilket behöver en annan intervention igen än ett team som förlorar det mesta av sin tid till en instabil, långsam testsvit. Utan cykeltidsnedbrytning tenderar team att gissa på flaskhalsen, och gissningen är fel tillräckligt ofta att fixa fel steg slösar verklig ansträngning medan den faktiska begränsningen förblir orörd.
 
@@ -11,16 +11,16 @@ För stora team är cykeltidsnedbrytning det som förvandlar en organisationsöv
 ## Nyckelprinciper
 
 - **Cykeltid förklarar ledtid; den ersätter den inte.** Rapportera båda tillsammans, med cykeltid som diagnostiken och ledtid som sammanfattningen.
-- **Väntetid dominerar vanligtvis aktiv tid.** Det mesta av fördröjningen i mjukvaruleverans kommer från arbete som sitter sysslolöst i en kö, inte från aktiv ansträngning (kapitel 2.5 täcker det här direkt genom flödeseffektivitet).
+- **Väntetid dominerar vanligtvis aktiv tid.** Det mesta av fördröjningen i mjukvaruleverans kommer från arbete som sitter sysslolöst i en kö, inte från aktiv ansträngning (ämne 2.5 täcker det här direkt genom flödeseffektivitet).
 - **Bryt ner efter steg innan ni föreslår en fix.** En fix riktad mot fel steg slösar ansträngning och kan demoralisera ett team ombett att "arbeta snabbare" när den verkliga flaskhalsen var någon annanstans.
 - **En delad flaskhals över många team är en plattformsinvesteringsmöjlighet,** inte bara en serie individuella teamproblem.
-- **Cykeltidsdata är exponerad för samma manipuleringsrisker som flödestid** (kapitel 2.4): vaka för stegränser som tyst skiftar för att smickra ett tal.
+- **Cykeltidsdata är exponerad för samma manipuleringsrisker som flödestid** (ämne 2.4): vaka för stegränser som tyst skiftar för att smickra ett tal.
 
 ## Rekommendationer
 
 ### Instrumentera varje stegränsgräns explicit
 
-Dela upp en ändrings resa i namngivna steg med tydliga, instrumenterbara gränser: kodning (första commit till öppnad pull request), upptag (öppnad pull request till första granskning), granskning (första granskning till godkännande), och driftsättning (godkännande till produktion). Fånga tidsstämplar för varje övergång automatiskt från versionskontroll- och CI/CD-händelser, inte från självrapporterad stegspårning, och tillämpa samma instrumentering-framför-självrapportering-princip från kapitel 1.5.
+Dela upp en ändrings resa i namngivna steg med tydliga, instrumenterbara gränser: kodning (första commit till öppnad pull request), upptag (öppnad pull request till första granskning), granskning (första granskning till godkännande), och driftsättning (godkännande till produktion). Fånga tidsstämplar för varje övergång automatiskt från versionskontroll- och CI/CD-händelser, inte från självrapporterad stegspårning, och tillämpa samma instrumentering-framför-självrapportering-princip från ämne 1.5.
 
 ### Separera väntetid från aktiv tid inom varje steg
 
@@ -36,7 +36,7 @@ Snarare än ett enda "minska ledtid med 20 %"-mål, som ger ett team ingen vägl
 
 ### Vaka för stegränsmanipulation
 
-Precis som flödestidens start- och slutpunkter kan glida (kapitel 2.4), kan individuella cykeltidsstegränser skifta på sätt som smickrar ett specifikt stegs tal utan någon verklig förbättring, till exempel, att markera en granskning som "startad" i det ögonblick en granskare tilldelas snarare än när de faktiskt börjar läsa ändringen. Granska periodiskt stegränsinstrumentering mot dess dokumenterade definition.
+Precis som flödestidens start- och slutpunkter kan glida (ämne 2.4), kan individuella cykeltidsstegränser skifta på sätt som smickrar ett specifikt stegs tal utan någon verklig förbättring, till exempel, att markera en granskning som "startad" i det ögonblick en granskare tilldelas snarare än när de faktiskt börjar läsa ändringen. Granska periodiskt stegränsinstrumentering mot dess dokumenterade definition.
 
 ## Avvägningar: fördelar och nackdelar
 
@@ -59,7 +59,7 @@ Den centrala spänningen är **diagnostisk precision kontra instrumenteringskost
 
 4. **Har vi satt stegspecifika förbättringsmål, eller bara ett enda övergripande ledtidsmål utan vägledning om var man ska fokusera?** Ett vagt mål lämnar ett team gissande var man ska investera ansträngning; ett stegspecifikt gör det inte. Kontrollera era nuvarande mål mot den här distinktionen.
 
-5. **Har någon cykeltidsstegränsgräns i vår instrumentering glidit från sin dokumenterade definition över tid?** Stegränser är exponerade för samma definitionsdrift som flödestid själv (kapitel 2.4). Granska ett urval av nyliga stegövergångshändelser mot den skriftliga definitionen.
+5. **Har någon cykeltidsstegränsgräns i vår instrumentering glidit från sin dokumenterade definition över tid?** Stegränser är exponerade för samma definitionsdrift som flödestid själv (ämne 2.4). Granska ett urval av nyliga stegövergångshändelser mot den skriftliga definitionen.
 
 6. **Hur visar sig en granskningstung kultur kontra en förtroendetung kultur olika i vår cykeltidsdata?** Ett team med mycket grundlig, flerrundad granskning kommer visa längre granskningsstegstid än ett team som litar på sammanslagningar med enkelt godkännande; diskutera om er nuvarande balans återspeglar ett medvetet val eller ett ogranskat standardläge.
 
@@ -88,7 +88,7 @@ Den totala ägandekostnaden är instrumenteringsinsatsen att fånga stegnivåtid
 ## Antimönster och fallgropar
 
 - **Att reagera på en ledtidsregression utan cykeltidsdiagnos:** leder frekvent till att fixa fel steg.
-- **Att anta att aktiv ansträngning, inte väntetid, är den dominerande kostnaden:** vanligtvis fel; köande dominerar i de flesta verkliga leveranspipelines (kapitel 2.5).
+- **Att anta att aktiv ansträngning, inte väntetid, är den dominerande kostnaden:** vanligtvis fel; köande dominerar i de flesta verkliga leveranspipelines (ämne 2.5).
 - **Att missa en delad, tvärteam-flaskhals genom att bara granska cykeltid team för team:** lämnar en högeffektfull plattformsfix oupptäckt.
 - **Att sätta ett vagt övergripande ledtidsmål utan stegspecifik vägledning:** lämnar team gissande var man ska fokusera ansträngning.
 - **Stegränsdefinitionsdrift:** smickrar ett specifikt stegs tal utan verklig förbättring.
@@ -113,11 +113,11 @@ Den totala ägandekostnaden är instrumenteringsinsatsen att fånga stegnivåtid
 ## Viktiga slutsatser
 
 - Cykeltid **bryter ner flödestid** i ingenjörssteg, kodning, granskning, testning, driftsättning, och är det diagnostiska lagret under det sammanfattningstalet.
-- Separera **väntetid från aktiv tid** inom varje steg; köande dominerar vanligtvis aktiv ansträngning (kapitel 2.5).
+- Separera **väntetid från aktiv tid** inom varje steg; köande dominerar vanligtvis aktiv ansträngning (ämne 2.5).
 - Leta efter **delade flaskhalsar mellan team** innan ni antar att en nedgång är teamspecifik; en delad orsak är ofta en plattformsinvesteringsmöjlighet.
 - Sätt **stegspecifika förbättringsmål**, inte vaga övergripande mål, så att team vet exakt var man ska fokusera.
 - Stegränser är exponerade för samma **definitionsdrift**-risk som flödestid själv; granska dem periodiskt.
-- Kapitel 2.7 ger den underliggande matematiken, Littles lag, för varför pågående arbete och cykeltid rör sig tillsammans.
+- Ämne 2.7 ger den underliggande matematiken, Littles lag, för varför pågående arbete och cykeltid rör sig tillsammans.
 
 ## Källor och vidare läsning
 

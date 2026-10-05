@@ -2,9 +2,9 @@
 
 ## Visão geral e motivação
 
-A **adoção de funcionalidades** mede se as pessoas para quem uma funcionalidade foi construída realmente a usam, a que ritmo, e se essa utilização persiste ao longo do tempo. É, num sentido muito direto, o teste de realidade sobre tudo o que as Partes 2 a 4 deste livro medem: uma organização pode implementar frequentemente, manter excelente experiência do programador, e entregar código impecavelmente testado, e ainda assim estar a construir coisas que ninguém quer. Os dados de adoção são onde uma organização de engenharia descobre se a sua produção se ligou a algum resultado real, o que é exatamente a distinção entrada-produção-resultado que o capítulo 1.3 introduziu, aplicada ao caso mais concreto deste livro: uma funcionalidade específica e entregue.
+A **adoção de funcionalidades** mede se as pessoas para quem uma funcionalidade foi construída realmente a usam, a que ritmo, e se essa utilização persiste ao longo do tempo. É, num sentido muito direto, o teste de realidade sobre tudo o que as Partes 2 a 4 deste livro medem: uma organização pode implementar frequentemente, manter excelente experiência do programador, e entregar código impecavelmente testado, e ainda assim estar a construir coisas que ninguém quer. Os dados de adoção são onde uma organização de engenharia descobre se a sua produção se ligou a algum resultado real, o que é exatamente a distinção entrada-produção-resultado que o tema 1.3 introduziu, aplicada ao caso mais concreto deste livro: uma funcionalidade específica e entregue.
 
-A preocupação central deste capítulo é que os dados de adoção, mais do que quase qualquer outra família de métricas neste livro, são fáceis de medir de uma forma que lisonjeia em vez de informar. Uma funcionalidade pode mostrar adoção inicial impressionante puramente por curiosidade ou exposição forçada (uma janela modal que aparece quer o utilizador a queira ou não), enquanto a entrega genuína e sustentada de valor, medida por se as pessoas continuam a usá-la depois de a novidade desaparecer, conta uma história completamente diferente. Distinguir a adoção genuína de um pico temporário é o desafio técnico central deste capítulo, e errar nisto leva rotineiramente organizações a celebrar funcionalidades que falham silenciosamente e a abandonar outras que estavam apenas a começar a encontrar o seu público.
+A preocupação central deste tema é que os dados de adoção, mais do que quase qualquer outra família de métricas neste livro, são fáceis de medir de uma forma que lisonjeia em vez de informar. Uma funcionalidade pode mostrar adoção inicial impressionante puramente por curiosidade ou exposição forçada (uma janela modal que aparece quer o utilizador a queira ou não), enquanto a entrega genuína e sustentada de valor, medida por se as pessoas continuam a usá-la depois de a novidade desaparecer, conta uma história completamente diferente. Distinguir a adoção genuína de um pico temporário é o desafio técnico central deste tema, e errar nisto leva rotineiramente organizações a celebrar funcionalidades que falham silenciosamente e a abandonar outras que estavam apenas a começar a encontrar o seu público.
 
 Para equipas grandes, os dados de adoção de funcionalidades são o que torna a priorização do roteiro baseada em evidência em vez de impulsionada por quem defende mais persuasivamente o trabalho da sua própria equipa. As organizações empresariais que gerem grandes portefólios de produtos precisam de dados de adoção para identificar quais os investimentos que estão a compensar; as organizações governamentais que constroem serviços digitais voltados para o cidadão precisam deles para demonstrar que o investimento público produziu serviços que as pessoas realmente usam, não apenas serviços que tecnicamente existem.
 
@@ -32,7 +32,7 @@ Um número baixo de adoção tem várias causas possíveis que exigem respostas 
 
 ### Fique atento à adoção inflacionada por exposição forçada ou [padrões obscuros](https://en.wikipedia.org/wiki/Dark_pattern)
 
-Um número de adoção impulsionado por uma funcionalidade ser difícil de evitar, um fluxo de integração intrusivo, uma janela modal que um utilizador tem de dispensar, uma predefinição difícil de mudar, não está a medir entrega genuína de valor, e celebrá-lo como se estivesse repete o padrão de manipulação por substituição do capítulo 1.2 em forma de produto. Combine os números brutos de adoção com um sinal de satisfação ou do estilo Net Promoter para a funcionalidade específica onde for viável, para que a exposição forçada que não se traduz em satisfação genuína seja apanhada em vez de celebrada.
+Um número de adoção impulsionado por uma funcionalidade ser difícil de evitar, um fluxo de integração intrusivo, uma janela modal que um utilizador tem de dispensar, uma predefinição difícil de mudar, não está a medir entrega genuína de valor, e celebrá-lo como se estivesse repete o padrão de manipulação por substituição do tema 1.2 em forma de produto. Combine os números brutos de adoção com um sinal de satisfação ou do estilo Net Promoter para a funcionalidade específica onde for viável, para que a exposição forçada que não se traduz em satisfação genuína seja apanhada em vez de celebrada.
 
 ### Ligue as tendências de adoção de volta a decisões específicas de produto e engenharia
 
@@ -51,7 +51,7 @@ A tensão central é **velocidade versus honestidade**. Os dados de experimenta�
 
 ## Perguntas para debater com a sua equipa
 
-1. **Para a nossa funcionalidade mais recentemente entregue, conhecemos a experimentação inicial e a utilização retida separadamente, ou apenas um único número combinado?** Se apenas existe um número combinado, essa lacuna esconde exatamente a distinção curiosidade-versus-valor que este capítulo trata como central.
+1. **Para a nossa funcionalidade mais recentemente entregue, conhecemos a experimentação inicial e a utilização retida separadamente, ou apenas um único número combinado?** Se apenas existe um número combinado, essa lacuna esconde exatamente a distinção curiosidade-versus-valor que este tema trata como central.
 
 2. **O nosso público-alvo para esta funcionalidade foi definido explicitamente antes do lançamento, e estamos a medir a adoção contra esse grupo específico?** Verifique se o seu denominador atual de adoção corresponde a quem a funcionalidade foi realmente construída para servir, ou se está diluído ao medir contra uma população mais ampla e irrelevante.
 
@@ -90,7 +90,7 @@ O custo total de propriedade é maioritariamente instrumentação de análise, n
 - **Reportar apenas a experimentação inicial, nunca a retenção:** não consegue distinguir curiosidade ou exposição forçada de valor genuíno e duradouro.
 - **Medir a adoção contra o denominador errado:** dilui ou inflaciona o sinal para funcionalidades dirigidas a um segmento específico de público.
 - **Concluir que uma funcionalidade falhou sem investigar a causa específica** da baixa adoção: arrisca abandonar uma funcionalidade genuinamente valiosa mas mal descoberta ou mal cronometrada.
-- **Celebrar a adoção inflacionada por exposição forçada ou padrões obscuros:** uma instância do lado do produto da manipulação por substituição do capítulo 1.2.
+- **Celebrar a adoção inflacionada por exposição forçada ou padrões obscuros:** uma instância do lado do produto da manipulação por substituição do tema 1.2.
 - **Nunca rastrear o movimento de adoção de volta a decisões específicas:** limita a aprendizagem organizacional a partir dos próprios dados da organização.
 - **Rastrear a utilização sem nenhum sinal combinado de satisfação:** perde o caso em que alta utilização coexiste com baixo valor ou satisfação genuínos.
 

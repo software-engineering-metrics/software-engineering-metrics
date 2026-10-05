@@ -4,7 +4,7 @@
 
 Cyfrannodd **[peirianneg dibynadwyedd safle](https://en.wikipedia.org/wiki/Site_reliability_engineering)
 (SRE)**, y ddisgyblaeth a arloeswyd yn Google ac a ddogfennwyd yn y
-llyfr *Site Reliability Engineering*, eirfa y mae'r bennod hon yn
+llyfr *Site Reliability Engineering*, eirfa y mae'r pwnc hwn yn
 adeiladu arni'n uniongyrchol: mae **dangosydd lefel gwasanaeth (SLI)**
 yn signal a fesurir yn uniongyrchol o iechyd gwasanaeth, latenedd cais,
 cyfradd gwall, argaeledd. Mae **amcan lefel gwasanaeth (SLO)** yn ystod
@@ -17,7 +17,7 @@ syml dderbyn nad yw dibynadwyedd perffaith yn gyraeddadwy nac, y tu
 hwnt i bwynt penodol, yn werth ei gost.
 
 Y syniad olaf hwn, cyllideb gwall fel adnodd gwariadwy yn hytrach na
-rhif i'w leihau tuag at sero, yw'r cysyniad sengl pwysicaf yn y bennod
+rhif i'w leihau tuag at sero, yw'r cysyniad sengl pwysicaf yn y pwnc
 hon ac o bosibl yn y rhan gyfan hon. Mae'n datrys tensiwn sy'n poeni
 llawer o sefydliadau: mae peirianneg eisiau rhyddhau nodweddion a
 chymryd peryglon rhesymol; mae gweithrediadau eisiau sefydlogrwydd
@@ -95,7 +95,7 @@ o dan bwysau yn ystod pob digwyddiad unigol.
 
 Nid yw cyllideb gwall iach, heb ei gwario'n rhywbeth i'w chronni; mae'n
 ganiatâd i gymryd peryglon rhesymol, rhyddhau newid â pherygl uwch ond
-derbyniol, rhedeg arbrawf peirianneg-anhrefn (mae pennod peirianneg-
+derbyniol, rhedeg arbrawf peirianneg-anhrefn (mae pwnc peirianneg-
 anhrefn y llyfr chwaer `software-engineering-guide` yn ymdrin â hyn yn
 uniongyrchol), neu dderbyn newid pensaernïaeth mwy peryglus, oherwydd
 mae'r gyllideb yn bodoli'n benodol i gael ei gwario'n fwriadol yn

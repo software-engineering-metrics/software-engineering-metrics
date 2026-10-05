@@ -2,17 +2,17 @@
 
 ## Översikt och motivation
 
-Det här kapitlet avslutar del 3 med den praktiska mekaniken som gör varje föregående kapitels självrapporterade data tillförlitlig: hur man designar en utvecklarupplevelseenkät (DevEx) som producerar en genuin signal snarare än en popularitetstävling, och hur man kombinerar enkätdata med objektiv instrumentering till en mätetalsuppsättning en organisation faktiskt kan agera på. Varje kapitel i den här delen förlitar sig på någon form av självrapportering, nöjdhet och välbefinnande (kapitel 3.2) mest direkt, men prestation, kommunikation, och flöde gynnas alla av en väldesignad enkät också, och en dåligt designad enkät undergräver värdet av alla samtidigt.
+Det här ämnet avslutar del 3 med den praktiska mekaniken som gör varje föregående ämnes självrapporterade data tillförlitlig: hur man designar en utvecklarupplevelseenkät (DevEx) som producerar en genuin signal snarare än en popularitetstävling, och hur man kombinerar enkätdata med objektiv instrumentering till en mätetalsuppsättning en organisation faktiskt kan agera på. Varje ämne i den här delen förlitar sig på någon form av självrapportering, nöjdhet och välbefinnande (ämne 3.2) mest direkt, men prestation, kommunikation, och flöde gynnas alla av en väldesignad enkät också, och en dåligt designad enkät undergräver värdet av alla samtidigt.
 
 **Utvecklarupplevelse (DevEx)** är den bredare, nyare inramningen som har framträtt runt samma kärnidé SPACE formaliserade: ingenjörers faktiska, dagliga upplevelse av att få arbete gjort, friktion, verktyg, kognitiv belastning, återkopplingsslingor, är i sig något mätbart, förbättringsbart, inte bara en mjuk kulturell angelägenhet. DevEx-forskning, notabelt ramverket föreslaget av Abi Noda, Margaret-Anne Storey, Nicole Forsgren, och Michaela Greiler, organiserar den här upplevelsen runt tre dimensioner: återkopplingsslingor, kognitiv belastning, och flödestillstånd, som nära kartlägger på och utökar SPACE-dimensionerna den här delen redan har täckt på djupet.
 
-För stora team ligger skillnaden mellan en enkät som producerar trovärdig signal och en som producerar brus eller, värre, aktivt vilseledande data helt i designdetaljerna det här kapitlet täcker: frågeformulering, svarsskalaval, urval och cadens, och hur resultat kommuniceras tillbaka till respondenter. Stora företag och myndigheter som kör de här enkäterna i skala, över tusentals ingenjörer, har inte råd att få det här fel, eftersom ett bristfälligt instrument på den skalan producerar självsäkert felaktiga slutsatser som formar verkliga resurstilldelningsbeslut.
+För stora team ligger skillnaden mellan en enkät som producerar trovärdig signal och en som producerar brus eller, värre, aktivt vilseledande data helt i designdetaljerna det här ämnet täcker: frågeformulering, svarsskalaval, urval och cadens, och hur resultat kommuniceras tillbaka till respondenter. Stora företag och myndigheter som kör de här enkäterna i skala, över tusentals ingenjörer, har inte råd att få det här fel, eftersom ett bristfälligt instrument på den skalan producerar självsäkert felaktiga slutsatser som formar verkliga resurstilldelningsbeslut.
 
 ## Nyckelprinciper
 
 - **Enkätdesignkvalitet avgör datatillförlitlighet mycket mer än enkätlängd eller sofistikering.** En kort, väldesignad enkät slår en lång, dåligt designad en varje gång.
 - **Svarsfrekvens är i sig en signal**, inte bara ett datainsamlingsmätetal; en fallande frekvens indikerar ofta eroderande förtroende för processen.
-- **Kombinera enkätdata med objektiv instrumentering** där möjligt, följande kapitel 1.5:s instrumenteringsprincip; använd enkätdata specifikt för vad objektiv data inte kan fånga.
+- **Kombinera enkätdata med objektiv instrumentering** där möjligt, följande ämne 1.5:s instrumenteringsprincip; använd enkätdata specifikt för vad objektiv data inte kan fånga.
 - **Slut loopen med respondenter.** En enkät som aldrig synligt leder till någon förändring tränar människor att sluta ta den på allvar.
 - **DevEx och SPACE är kompletterande inramningar av samma underliggande angelägenhet**, inte konkurrerande ramverk att välja mellan.
 
@@ -28,11 +28,11 @@ Standardisera på en konsekvent svarsskala (en fem- eller sjupunkts-[Likert](htt
 
 ### Behandla svarsfrekvens som en diagnostisk signal i sin egen rätt
 
-Spåra enkätsvarsfrekvens över successiva cykler, och behandla en fallande frekvens som en varningssignal värd att undersöka direkt, liknande förtroendesignalen diskuterad i kapitel 3.2. En fallande svarsfrekvens indikerar ofta enkättrötthet, eroderande förtroende för att resultat leder till handling, eller en växande misstanke att anonymitet inte genuint skyddas, vilket som helst av dessa förtjänar direkt undersökning snarare än att avfärdas som bara ett datainsamlingsbesvär.
+Spåra enkätsvarsfrekvens över successiva cykler, och behandla en fallande frekvens som en varningssignal värd att undersöka direkt, liknande förtroendesignalen diskuterad i ämne 3.2. En fallande svarsfrekvens indikerar ofta enkättrötthet, eroderande förtroende för att resultat leder till handling, eller en växande misstanke att anonymitet inte genuint skyddas, vilket som helst av dessa förtjänar direkt undersökning snarare än att avfärdas som bara ett datainsamlingsbesvär.
 
 ### Kombinera enkätdata med objektiv DevEx-instrumentering
 
-Para subjektiva enkätsvar med objektiva signaler där de existerar: byggtid, testsvitkörningstid, lokal utvecklingsmiljö-uppsättningstid, och flödestids- och avbrottsdatan från kapitel 3.6. Ett enkätsvar som säger "vårt bygge är för långsamt" blir mycket mer handlingsbart parat med den faktiska uppmätta byggtidstrenden, och kombinationen fångar fall där uppfattning och objektiv verklighet går isär i endera riktningen, värt att undersöka i sin egen rätt.
+Para subjektiva enkätsvar med objektiva signaler där de existerar: byggtid, testsvitkörningstid, lokal utvecklingsmiljö-uppsättningstid, och flödestids- och avbrottsdatan från ämne 3.6. Ett enkätsvar som säger "vårt bygge är för långsamt" blir mycket mer handlingsbart parat med den faktiska uppmätta byggtidstrenden, och kombinationen fångar fall där uppfattning och objektiv verklighet går isär i endera riktningen, värt att undersöka i sin egen rätt.
 
 ### Slut loopen: publicera resultat och synlig uppföljningshandling
 
@@ -83,7 +83,7 @@ Den centrala spänningen är **täckning kontra svarskvalitet**. En längre, mer
 
 Avkastningen på ett väldesignat DevEx-enkätprogram är trovärdig, handlingsbar data om en dimension, utvecklarupplevelse, som annars förblir osynlig tills den dyker upp som attrition eller en leveransavmattning. Mjukvarubolagsexemplet ovan visar kostnaden av att få designen fel: två kvartal av felriktad åtgärdsinsats eftersom en enda dåligt formulerad fråga sammanblandade två distinkta angelägenheter.
 
-Den totala ägandekostnaden inkluderar enkätverktyg, design- och pilottestningsdisciplinen det här kapitlet rekommenderar, och det löpande åtagandet att sluta loopen med synlig uppföljningshandling varje cykel. Det åtagandet, mer än någon verktygskostnad, är vad som avgör om ett enkätprogram förblir användbart i åratal eller förfaller till en bock-i-rutan-övning som producerar stadigt mindre tillförlitlig data över tid.
+Den totala ägandekostnaden inkluderar enkätverktyg, design- och pilottestningsdisciplinen det här ämnet rekommenderar, och det löpande åtagandet att sluta loopen med synlig uppföljningshandling varje cykel. Det åtagandet, mer än någon verktygskostnad, är vad som avgör om ett enkätprogram förblir användbart i åratal eller förfaller till en bock-i-rutan-övning som producerar stadigt mindre tillförlitlig data över tid.
 
 ## Antimönster och fallgropar
 

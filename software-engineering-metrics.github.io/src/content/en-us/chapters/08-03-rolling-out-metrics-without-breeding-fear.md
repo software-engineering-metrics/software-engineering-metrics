@@ -2,10 +2,10 @@
 
 ## Overview and motivation
 
-This chapter is, in a real sense, the practical culmination of everything
-this book has argued since chapter 1.2 introduced Goodhart's law: a metrics
+This topic is, in a real sense, the practical culmination of everything
+this book has argued since topic 1.2 introduced Goodhart's law: a metrics
 program rolled out badly, in a way that provokes fear rather than trust,
-guarantees the exact gaming behavior every subsequent chapter has warned
+guarantees the exact gaming behavior every subsequent topic has warned
 against, regardless of how carefully each individual metric was designed.
 An organization can get every technical detail right, honest visualization,
 guardrail pairing, careful governance, and still produce a corrupted,
@@ -16,7 +16,7 @@ The mechanism here is straightforward and well documented across the
 organizational-behavior research this book has cited throughout: people
 who fear a metric will be used against them, undermining
 [psychological safety](https://en.wikipedia.org/wiki/Psychological_safety),
-respond exactly as chapter
+respond exactly as topic
 1.2 predicts, they optimize the number rather than the underlying reality,
 because the incentive to protect themselves is immediate and personal while
 the harm to organizational learning is diffuse and delayed. This is not a
@@ -24,7 +24,7 @@ failure of individual character; it is a rational response to a genuine
 threat, and the only durable fix is removing the threat, not asking people
 to behave more honestly despite it.
 
-For large teams, this chapter's guidance matters most acutely at the moment
+For large teams, this topic's guidance matters most acutely at the moment
 of initial rollout, when trust has not yet been established either way and
 early impressions set lasting expectations. Enterprise organizations
 introducing a new, organization-wide metrics program risk a single
@@ -32,7 +32,7 @@ mishandled early incident, one team's metrics used punitively, poisoning
 trust across the whole rollout; government organizations, often introducing
 metrics programs in a context of existing union protections, civil
 service culture, or historical distrust of measurement initiatives, need
-this chapter's guidance applied with particular care and patience.
+this topic's guidance applied with particular care and patience.
 
 ## Key principles
 
@@ -57,10 +57,10 @@ this chapter's guidance applied with particular care and patience.
 ### Communicate purpose and non-goals explicitly, before rollout, not after
 concerns arise
 
-Following chapter 1.4's metrics charter discipline, communicate a new
+Following topic 1.4's metrics charter discipline, communicate a new
 metrics program's purpose and, critically, its explicit non-goals (never
 used for individual performance evaluation without a separately, clearly
-disclosed policy, per chapter 1.1) before launch, not reactively after
+disclosed policy, per topic 1.1) before launch, not reactively after
 engineers have already begun to worry. Proactive, upfront transparency
 about what a metric is not for prevents the anxious speculation that
 otherwise fills the vacuum and shapes early, hard-to-reverse impressions.
@@ -72,12 +72,12 @@ are far less likely to fear or resent those metrics than ones who have a
 system imposed on them with no input. Involve team representatives directly
 in choosing which metrics to track, how they get visualized, and what
 guardrails apply, following this book's consistent emphasis on team-level
-ownership (chapter 1.4) rather than a purely top-down mandate.
+ownership (topic 1.4) rather than a purely top-down mandate.
 
 ### Start with diagnostic-only use and prove it over multiple cycles before
 any evaluative use is even considered
 
-Following chapter 1.1's diagnostic-versus-evaluative distinction directly:
+Following topic 1.1's diagnostic-versus-evaluative distinction directly:
 begin a new metrics program in purely diagnostic mode, used only to
 understand and improve systems, with no connection whatsoever to individual
 or team evaluation, and sustain that discipline visibly over several
@@ -100,7 +100,7 @@ gaming behavior in the first place.
 hidden management concern
 
 Rather than treating gaming risk as something leadership worries about
-privately, share chapter 1.2's guardrail-pairing logic openly with the
+privately, share topic 1.2's guardrail-pairing logic openly with the
 teams being measured: explain directly why a specific guardrail exists,
 what gaming pattern it is designed to catch, and invite the team's own
 input on whether the guardrail is well designed. This transparency, framing
@@ -121,7 +121,7 @@ above without ever discussing the risk openly.
 The central tension is **rollout speed versus trust-building**. A fast,
 top-down rollout gets a metrics program running quickly but at real risk
 of provoking exactly the fear and gaming this book has warned against from
-its opening chapter; a slower, team-involved, diagnostic-first rollout
+its opening topic; a slower, team-involved, diagnostic-first rollout
 takes longer but builds the durable trust that makes the resulting data
 actually worth collecting in the first place. Resolve the tension firmly in
 favor of trust-building, since a metrics program that launches fast but
@@ -158,11 +158,11 @@ this book has argued for, however quickly it was deployed.
 5. **Do the teams being measured understand why each guardrail exists, or
    does gaming-prevention logic stay a private management concern they are
    never told about directly?** Discuss whether your organization's
-   guardrail reasoning (chapter 1.2) has actually been shared transparently
+   guardrail reasoning (topic 1.2) has actually been shared transparently
    or has remained an unstated, behind-the-scenes design consideration.
 
 6. **If we started our metrics rollout over from scratch today, applying
-   this chapter's guidance fully, how different would the process look from
+   this topic's guidance fully, how different would the process look from
    what actually happened?** This retrospective thought experiment often
    reveals specific, nameable places where trust-building was shortcut
    under time pressure, worth learning from even if the original rollout
@@ -171,7 +171,7 @@ this book has argued for, however quickly it was deployed.
 ## Sector lens
 
 **Startup.** Trust is often easier to establish at this scale, since direct
-daily conversation naturally provides the transparency this chapter
+daily conversation naturally provides the transparency this topic
 recommends. The risk is skipping the deliberate communication of purpose
 and non-goals simply because it feels unnecessary in a small, close-knit
 team, an assumption that can quietly break down as the team grows and new
@@ -180,21 +180,21 @@ hires join without the same shared context.
 **Small business.** A simple, direct conversation about why a new metric is
 being introduced and what it will and will not be used for, held before
 rollout rather than after concerns surface, captures most of this
-chapter's value without needing formal process at this scale.
+topic's value without needing formal process at this scale.
 
 **Enterprise.** The scale and impersonality of a large organization make
-this chapter's guidance both harder to execute well and more critical to
+this topic's guidance both harder to execute well and more critical to
 get right, since a single mishandled incident can poison trust across
 dozens of teams who hear about it secondhand rather than experiencing it
 directly. Invest deliberately in the extended, diagnostic-first proving
-period this chapter recommends, and establish a clear, fast, visible
+period this topic recommends, and establish a clear, fast, visible
 response protocol for any metric-misuse incident before one occurs.
 
 **Government.** Public-sector organizations often introduce metrics
 programs into a context of existing union protections, established civil
 service culture, and, in some cases, historical distrust of measurement
 initiatives tied to past performance-management controversies. Apply this
-chapter's guidance with particular patience and formality, potentially
+topic's guidance with particular patience and formality, potentially
 involving union or staff representative input directly in the design
 process, and expect the trust-building timeline to be genuinely longer than
 in a typical private-sector context.
@@ -205,7 +205,7 @@ in a typical private-sector context.
 engineering metrics dashboard, designed entirely by a central platform team
 with no team-level input, was met with widespread, quiet resistance:
 engineers across the organization began informally gaming their own
-reported numbers within weeks, exactly as chapter 1.2 predicts for a
+reported numbers within weeks, exactly as topic 1.2 predicts for a
 mistrusted, top-down metrics system. A relaunch six months later, this time
 involving team representatives directly in metric selection and guardrail
 design, and explicitly committing to and then genuinely sustaining a
@@ -235,7 +235,7 @@ not.
 ## Business case: motivations, ROI, and TCO
 
 The return on a trust-building, fear-avoiding rollout is, quite simply,
-trustworthy data, without which every other chapter in this book's careful
+trustworthy data, without which every other topic in this book's careful
 metric design work produces nothing of real value. The enterprise example
 above shows this concretely and measurably: the relaunched program's
 data was demonstrably more accurate than the original, fear-driven
@@ -246,11 +246,11 @@ The total cost of ownership is primarily time and organizational patience:
 the extended diagnostic-first proving period, the team-involvement effort
 in design, and the sustained discipline of responding fast and visibly to
 any misuse incident. That cost is significant but is the necessary,
-unavoidable price of the trustworthy data every other chapter in this book
+unavoidable price of the trustworthy data every other topic in this book
 depends on; a fast rollout that skips this investment produces a metrics
 program that looks complete but is quietly worthless, corrupted by
 exactly the gaming this book has warned against from its very first
-substantive chapter.
+substantive topic.
 
 ## Anti-patterns and pitfalls
 
@@ -300,7 +300,7 @@ substantive chapter.
 2. Were the people being measured genuinely involved in designing our metrics, or was the system imposed?
 3. Has our organization ever mishandled a metric punitively, and how did we respond?
 4. Do measured teams understand why our guardrails exist, or is that reasoning kept private?
-5. If we relaunched our metrics program today with full attention to this chapter, what would we do differently?
+5. If we relaunched our metrics program today with full attention to this topic, what would we do differently?
 
 ## Key takeaways
 
@@ -325,7 +325,7 @@ substantive chapter.
   costs of poorly implemented metrics programs).
 - *Site Reliability Engineering: How Google Runs Production Systems*, by
   Betsy Beyer, Chris Jones, Jennifer Petoff, and Niall Richard Murphy, eds.
-  (blameless culture principles this chapter extends from incident response
+  (blameless culture principles this topic extends from incident response
   to metrics program rollout generally).
 - *Accelerate: The Science of Lean Software and DevOps*, by Nicole Forsgren,
   Jez Humble, and Gene Kim (the organizational-culture research underlying

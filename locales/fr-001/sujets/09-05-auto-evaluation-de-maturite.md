@@ -1,17 +1,17 @@
 # 9.5 Auto-évaluation de maturité
 
-Chaque chapitre des Parties 1 à 8 se termine avec un modèle de maturité à cinq niveaux : 1 Initiation, 2 Développement, 3 Standardisation, 4 Gestion, 5 Orchestration. Cette annexe les consolide en une seule matrice pour l'auto-évaluation organisationnelle. Évaluez chaque chapitre honnêtement, en utilisant des preuves concrètes, pas l'aspiration. Voir le chapitre 8.4 pour le modèle de programme transversal à cinq dimensions que cette matrice chapitre par chapitre complète, et rappelez-vous que la maturité de programme est le minimum à travers les dimensions, pas la moyenne.
+Chaque sujet des Parties 1 à 8 se termine avec un modèle de maturité à cinq niveaux : 1 Initiation, 2 Développement, 3 Standardisation, 4 Gestion, 5 Orchestration. Cette annexe les consolide en une seule matrice pour l'auto-évaluation organisationnelle. Évaluez chaque sujet honnêtement, en utilisant des preuves concrètes, pas l'aspiration. Voir le sujet 8.4 pour le modèle de programme transversal à cinq dimensions que cette matrice sujet par sujet complète, et rappelez-vous que la maturité de programme est le minimum à travers les dimensions, pas la moyenne.
 
 ## Comment utiliser cette matrice
 
-1. Pour chaque chapitre, lisez son propre modèle de maturité (le chapitre est la source faisant autorité ; ce tableau est un index résumé).
+1. Pour chaque sujet, lisez son propre modèle de maturité (le sujet est la source faisant autorité ; ce tableau est un index résumé).
 2. Évaluez votre organisation de 1 à 5 contre des preuves concrètes, pas l'intention.
-3. Ne faites pas la moyenne entre chapitres au sein d'une partie ; chaque chapitre mesure une capacité distincte.
-4. Alimentez les faibles scores dans la feuille de route d'adoption du chapitre 8.5 comme priorités d'investissement, pas comme un verdict dont se sentir mal (chapitre 1.1).
+3. Ne faites pas la moyenne entre sujets au sein d'une partie ; chaque sujet mesure une capacité distincte.
+4. Alimentez les faibles scores dans la feuille de route d'adoption du sujet 8.5 comme priorités d'investissement, pas comme un verdict dont se sentir mal (sujet 1.1).
 
 ## Partie 1 : Fondations de la mesure
 
-| Chapitre | Capacité | Votre score (1-5) |
+| Sujet | Capacité | Votre score (1-5) |
 | --- | --- | --- |
 | 1.1 | Mesurer pour informer les décisions, pas pour juger | |
 | 1.2 | Discipline d'association de garde-fou contre la loi de Goodhart | |
@@ -22,7 +22,7 @@ Chaque chapitre des Parties 1 à 8 se termine avec un modèle de maturité à ci
 
 ## Partie 2 : Métriques de flux
 
-| Chapitre | Capacité | Votre score (1-5) |
+| Sujet | Capacité | Votre score (1-5) |
 | --- | --- | --- |
 | 2.1 | Adoption du Flow Framework, flux de valeur cartographié honnêtement | |
 | 2.2 | Classification d'éléments de flux, cohérente et au moment de l'admission | |
@@ -37,7 +37,7 @@ Chaque chapitre des Parties 1 à 8 se termine avec un modèle de maturité à ci
 
 ## Partie 3 : Expérience développeur et le cadre SPACE
 
-| Chapitre | Capacité | Votre score (1-5) |
+| Sujet | Capacité | Votre score (1-5) |
 | --- | --- | --- |
 | 3.1 | Adoption SPACE équilibrée et multidimensionnelle | |
 | 3.2 | Mesure de satisfaction et de bien-être | |
@@ -49,7 +49,7 @@ Chaque chapitre des Parties 1 à 8 se termine avec un modèle de maturité à ci
 
 ## Partie 4 : Métriques de code et de qualité
 
-| Chapitre | Capacité | Votre score (1-5) |
+| Sujet | Capacité | Votre score (1-5) |
 | --- | --- | --- |
 | 4.1 | Métriques de complexité utilisées pour le triage, pas le jugement | |
 | 4.2 | Couverture appariée au test de mutation | |
@@ -60,7 +60,7 @@ Chaque chapitre des Parties 1 à 8 se termine avec un modèle de maturité à ci
 
 ## Partie 5 : Métriques de produit et d'affaires
 
-| Chapitre | Capacité | Votre score (1-5) |
+| Sujet | Capacité | Votre score (1-5) |
 | --- | --- | --- |
 | 5.1 | Suivi de défaut échappé pondéré par sévérité | |
 | 5.2 | Adoption mesurée comme essai plus rétention | |
@@ -70,7 +70,7 @@ Chaque chapitre des Parties 1 à 8 se termine avec un modèle de maturité à ci
 
 ## Partie 6 : Métriques de fiabilité, d'exploitation, et de sécurité
 
-| Chapitre | Capacité | Votre score (1-5) |
+| Sujet | Capacité | Votre score (1-5) |
 | --- | --- | --- |
 | 6.1 | SLO fondés sur des preuves et budgets d'erreur dépensables | |
 | 6.2 | Métriques d'incident sans blâme et décomposées par phase | |
@@ -79,7 +79,7 @@ Chaque chapitre des Parties 1 à 8 se termine avec un modèle de maturité à ci
 
 ## Partie 7 : Métriques à l'ère de l'IA
 
-| Chapitre | Capacité | Votre score (1-5) |
+| Sujet | Capacité | Votre score (1-5) |
 | --- | --- | --- |
 | 7.1 | Audit de validité de métrique de l'ère de l'IA mené | |
 | 7.2 | Mesure fondée sur des preuves du développement assisté par IA | |
@@ -88,7 +88,7 @@ Chaque chapitre des Parties 1 à 8 se termine avec un modèle de maturité à ci
 
 ## Partie 8 : Construire un programme de métriques
 
-| Chapitre | Capacité | Votre score (1-5) |
+| Sujet | Capacité | Votre score (1-5) |
 | --- | --- | --- |
 | 8.1 | Tableaux de bord spécifiques au public et honnêtement conçus | |
 | 8.2 | Stratégie d'outillage construire-contre-acheter délibérée et hybride | |
@@ -96,7 +96,7 @@ Chaque chapitre des Parties 1 à 8 se termine avec un modèle de maturité à ci
 | 8.4 | Auto-évaluation de maturité de programme transversale | |
 | 8.5 | Feuille de route d'adoption par phases et fondation-d'abord | |
 
-## Dimensions de programme transversales (chapitre 8.4)
+## Dimensions de programme transversales (sujet 8.4)
 
 | Dimension | Votre score (1-5) |
 | --- | --- |

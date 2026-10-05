@@ -5,7 +5,7 @@ cyflenwi, profiad datblygwyr, ac ansawdd cod. Mae'r rhan hon yn camu y
 tu allan i'r ffin honno ac yn gofyn y cwestiwn y mae pob metrig
 peirianneg yn bodoli i'w wasanaethu yn y pen draw, boed yn uniongyrchol
 neu sawl cam i ffwrdd: a helpodd y gwaith hwn y busnes a'r bobl sy'n
-defnyddio'r hyn y mae'n ei adeiladu mewn gwirionedd. Sefydlodd pennod
+defnyddio'r hyn y mae'n ei adeiladu mewn gwirionedd. Sefydlodd pwnc
 1.3 ganlyniadau dros allbwn fel egwyddor lywodraethol yn gynnar yn y
 llyfr hwn; dyma lle mae'r egwyddor honno'n cyfarfod â'i phrawf mwyaf
 llym, oherwydd mae canlyniadau cynnyrch a busnes ymhellach i ffwrdd na'r
@@ -18,7 +18,7 @@ busnes yn mentro optimeiddio'n hyfryd ar gyfer y peth anghywir:
 rhyddhau'n gyflym, â gorchudd profi ardderchog, ar nodwedd nad oes
 neb yn ei defnyddio, neu gynnal ansawdd cod perffaith mewn system y
 mae ei chynnig gwerth craidd wedi peidio â bod yn bwysig i gwsmeriaid
-yn dawel. Mae pum pennod y rhan hon, diffygion dianc, mabwysiad
+yn dawel. Mae pum pwnc y rhan hon, diffygion dianc, mabwysiad
 nodwedd, canlyniadau cwsmer a busnes, economeg uned, a'r enillion ar
 fuddsoddiad, yn rhoi geirfa i arweinyddiaeth beirianneg ar gyfer y
 cysylltiad hwnnw, ac yn rhoi ffordd i arweinyddiaeth fusnes werthuso
@@ -34,7 +34,7 @@ mae'r metrigau mewnol hynny'n cael eu rheoli. Dyma lle mae metrigau
 gofalus, wedi'u gwarchod-gan-gledr-ddiogelwch gweddill y llyfr yn
 cysylltu'n derfynol â'r sgwrs allanol, canlyniad-wynebedig honno.
 
-## Penodau yn y rhan hon
+## Pynciau yn y rhan hon
 
 - **5.1 Cyfradd diffygion dianc a dihangfeydd ansawdd:** Y metrig
   ansawdd sy'n adlewyrchu'n fwyaf uniongyrchol yr hyn y mae cwsmeriaid
@@ -52,26 +52,26 @@ cysylltu'n derfynol â'r sgwrs allanol, canlyniad-wynebedig honno.
   achos ROI amddiffynadwy, onest ar gyfer buddsoddiad peirianneg mawr,
   a bod yr un mor onest pan nad yw'r achos yn dal dŵr.
 
-## Sut mae'r penodau hyn yn cydberthyn
+## Sut mae'r pynciau hyn yn cydberthyn
 
-Mae pennod 5.1 yn dechrau agosaf at adref, ansawdd fel y mae
+Mae pwnc 5.1 yn dechrau agosaf at adref, ansawdd fel y mae
 cwsmeriaid yn ei brofi'n uniongyrchol, ac yn bont naturiol o fetrigau
-ansawdd mewnol Rhan 4. Mae pennod 5.2 yn gofyn y cwestiwn nesaf unwaith
+ansawdd mewnol Rhan 4. Mae pwnc 5.2 yn gofyn y cwestiwn nesaf unwaith
 y cyfrifir am ansawdd: a yw unrhyw un mewn gwirionedd yn defnyddio'r
-hyn a adeiladwyd. Mae pennod 5.3 yn ehangu'r lens ymhellach i'r ystod
+hyn a adeiladwyd. Mae pwnc 5.3 yn ehangu'r lens ymhellach i'r ystod
 lawn o ganlyniadau cwsmer a busnes y mae sefydliad yn poeni amdanynt,
-lle mae defnydd yn ddim ond un signal ymhlith sawl un. Mae penodau 5.4
+lle mae defnydd yn ddim ond un signal ymhlith sawl un. Mae pynciau 5.4
 a 5.5 wedyn yn troi'r rhan gyfan yn ariannol: mynegi cost ac enillion
 peirianneg yn nhermau sy'n cysylltu'n uniongyrchol â phenderfyniadau
 cyllideb a buddsoddi, gan gau'r ddolen a agorodd y rhan hon trwy ofyn a
 helpodd ymdrech beirianneg mewn gwirionedd.
 
-Mae penodau'r rhan hon yn pwyso'n arbennig o drwm ar lythrennedd
-ystadegol pennod 1.6, gan fod canlyniadau busnes a chynnyrch yn aml yn
+Mae pynciau'r rhan hon yn pwyso'n arbennig o drwm ar lythrennedd
+ystadegol pwnc 1.6, gan fod canlyniadau busnes a chynnyrch yn aml yn
 swnllyd, wedi'u drysu gan amodau marchnad, ac yn araf i'w cadarnhau,
-union yr amodau lle mae'r camgymeriadau y mae pennod 1.6 yn rhybuddio
+union yr amodau lle mae'r camgymeriadau y mae pwnc 1.6 yn rhybuddio
 amdanynt fwyaf tebygol o gynhyrchu casgliad hyderus, anghywir. Darllenwch
 y rhan hon ochr yn ochr â Rhan 7, lle mae'r symudiad i AI cynhyrchiol yn
 codi'r stanciau ar gael mesuriad canlyniad yn iawn yn benodol oherwydd
-na fu cyfaint allbwn erioed, yn ôl dadl benodau'r rhan hon drwyddo draw,
+na fu cyfaint allbwn erioed, yn ôl dadl bynciau'r rhan hon drwyddo draw,
 y peth cywir i'w optimeiddio yn y lle cyntaf.

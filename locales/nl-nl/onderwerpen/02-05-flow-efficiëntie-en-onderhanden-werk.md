@@ -4,9 +4,9 @@
 
 **Flow-efficiëntie** is de verhouding van actieve tijd tot totale tijd voor een stuk werk: als een wijziging tien uur actief wordt gecodeerd, gereviewd, en getest, maar negentig uur totaal inactief in wachtrijen zit over zijn hele reis, is flow-efficiëntie 10%. De meeste softwareleveringspijplijnen, eerlijk gemeten, landen ergens tussen 10% en 25% flow-efficiëntie, wat mensen verrast die verwachten dat inspanning domineert. De dominante kost in de meeste leveringssystemen is niet hoe lang werk duurt om te doen, het is hoe lang werk wacht om gestart te worden.
 
-**[Onderhanden werk](https://en.wikipedia.org/wiki/Work_in_process)** (OHW) is de telling van items actief gewerkt op op enig moment, over een team of een systeem, dezelfde hoeveelheid hoofdstuk 2.4 "flowbelasting" noemt. De contra-intuïtieve bevinding achter dit hoofdstuk, ondersteund door decennia van onderzoek in operations management en geformaliseerd voor softwarelevering door kanban en wachtrijtheorie, is dat het beperken van OHW doorvoer doorgaans *verhoogt*, niet verlaagt, omdat minder werk in beweging op een keer minder contextwisseling, kortere wachtrijen, en snellere voltooiing per item betekent, ook al voelt het alsof minder werk simultaan doen minder output in totaal zou moeten produceren.
+**[Onderhanden werk](https://en.wikipedia.org/wiki/Work_in_process)** (OHW) is de telling van items actief gewerkt op op enig moment, over een team of een systeem, dezelfde hoeveelheid onderwerp 2.4 "flowbelasting" noemt. De contra-intuïtieve bevinding achter dit onderwerp, ondersteund door decennia van onderzoek in operations management en geformaliseerd voor softwarelevering door kanban en wachtrijtheorie, is dat het beperken van OHW doorvoer doorgaans *verhoogt*, niet verlaagt, omdat minder werk in beweging op een keer minder contextwisseling, kortere wachtrijen, en snellere voltooiing per item betekent, ook al voelt het alsof minder werk simultaan doen minder output in totaal zou moeten produceren.
 
-Voor grote teams herkadert het begrijpen van flow-efficiëntie bijna elk leveringsprobleem van "mensen moeten sneller werken" naar "werk moet minder wachten." Die herkadering doet ertoe omdat de eerste framing druk op individuen uitnodigt, precies de val hoofdstuk 2.6 waarschuwt tegen, terwijl de tweede onderzoek uitnodigt naar wachtrijstructuur, reviewcapaciteit, en hoeveel werk simultaan gestart wordt, wat waar de echte, duurzame verbetering doorgaans leeft. Grote bedrijven die veel gelijktijdige initiatieven jongleren over gedeelde teams zijn vooral geneigd tot hoge OHW en lage flow-efficiëntie, omdat nieuw werk starten altijd aanvoelt als vooruitgang zelfs wanneer het stilletjes alles al in beweging vertraagt.
+Voor grote teams herkadert het begrijpen van flow-efficiëntie bijna elk leveringsprobleem van "mensen moeten sneller werken" naar "werk moet minder wachten." Die herkadering doet ertoe omdat de eerste framing druk op individuen uitnodigt, precies de val onderwerp 2.6 waarschuwt tegen, terwijl de tweede onderzoek uitnodigt naar wachtrijstructuur, reviewcapaciteit, en hoeveel werk simultaan gestart wordt, wat waar de echte, duurzame verbetering doorgaans leeft. Grote bedrijven die veel gelijktijdige initiatieven jongleren over gedeelde teams zijn vooral geneigd tot hoge OHW en lage flow-efficiëntie, omdat nieuw werk starten altijd aanvoelt als vooruitgang zelfs wanneer het stilletjes alles al in beweging vertraagt.
 
 ## Kernprincipes
 
@@ -20,7 +20,7 @@ Voor grote teams herkadert het begrijpen van flow-efficiëntie bijna elk leverin
 
 ### Meet flow-efficiëntie voordat je aanneemt dat inspanning het knelpunt is
 
-Bereken de verhouding van actieve tijd tot totale verstreken tijd voor een representatieve steekproef van recente wijzigingen, met de cyclustijd-stadiumdata uit hoofdstuk 2.6. De meeste teams die dit voor de eerste keer meten zijn verrast door hoe laag het cijfer is, en die verrassing is zelf waardevol: het stuurt aandacht om van "harder werken" naar "wachtrij verminderen," wat bijna altijd de productievere hefboom is.
+Bereken de verhouding van actieve tijd tot totale verstreken tijd voor een representatieve steekproef van recente wijzigingen, met de cyclustijd-stadiumdata uit onderwerp 2.6. De meeste teams die dit voor de eerste keer meten zijn verrast door hoe laag het cijfer is, en die verrassing is zelf waardevol: het stuurt aandacht om van "harder werken" naar "wachtrij verminderen," wat bijna altijd de productievere hefboom is.
 
 ### Stel een expliciete onderhanden-werk-limiet en handhaaf hem zichtbaar
 
@@ -51,7 +51,7 @@ De centrale spanning is **flexibiliteit versus flow**. Nieuw werk starten wannee
 
 ## Vragen om met je team te bespreken
 
-1. **Wat is onze daadwerkelijke flow-efficiëntie, gemeten van echte cyclustijddata, en verrast dat cijfer ons?** De meeste teams hebben dit nooit berekend en nemen aan dat het veel hoger is dan het blijkt te zijn. Trek een steekproef van recente wijzigingen en berekenen de verhouding eerlijk voordat je iets anders in dit hoofdstuk bespreekt.
+1. **Wat is onze daadwerkelijke flow-efficiëntie, gemeten van echte cyclustijddata, en verrast dat cijfer ons?** De meeste teams hebben dit nooit berekend en nemen aan dat het veel hoger is dan het blijkt te zijn. Trek een steekproef van recente wijzigingen en berekenen de verhouding eerlijk voordat je iets anders in dit onderwerp bespreekt.
 
 2. **Hoeveel onderhanden werk hebben we daadwerkelijk nu, over het hele team, en wist iemand dat cijfer voordat het geteld werd?** Hoge OHW is vaak onzichtbaar tot expliciet gemeten, omdat elk individu alleen zijn eigen schijf ervan ziet. Tel alles momenteel in uitvoering, inclusief werk niemand vandaag actief aanraakt.
 
@@ -117,7 +117,7 @@ De totale kost van het aannemen van deze discipline is vooral organisatorisch, n
 - Pas een **OHW-limiet toe als een systeembeperking**, nooit als een individuele quota.
 - Onderzoek de **specifieke reden** waarom werk inactief zit in plaats van een generieke "verminder wachttijd"-richtlijn uit te vaardigen.
 - Bewaak OHW-limieten **eroderend door routine-uitzonderingen**; behandel elke uitzondering als een bewuste, zichtbare beslissing.
-- Hoofdstuk 2.4 noemt deze hoeveelheid **flowbelasting** en hoofdstuk 2.7 formaliseert de relatie als de Wet van Little: onderhanden werk is gelijk aan aankomsttempo keer cyclustijd, voor elke stabiele wachtrij.
+- Onderwerp 2.4 noemt deze hoeveelheid **flowbelasting** en onderwerp 2.7 formaliseert de relatie als de Wet van Little: onderhanden werk is gelijk aan aankomsttempo keer cyclustijd, voor elke stabiele wachtrij.
 
 ## Bronnen en verder lezen
 

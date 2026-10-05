@@ -75,13 +75,13 @@ Templedi copïo-a-gludo ar gyfer dogfennau ailadroddus. Mae enghreifftiau wedi'u
 
 Ar gyfer pob metrig:
 - Darlleniad a thuedd gyfredol
-- Unrhyw symudiad y tu allan i amrywiad arferol (pennod 1.6)
+- Unrhyw symudiad y tu allan i amrywiad arferol (pwnc 1.6)
 - Statws rheilen ddiogelwch bâr, os yn berthnasol
 - Penderfyniad y mae'r darlleniad hwn yn ei wybodaethu, os oes un
 
 ## Metrigau newydd wedi'u cynnig
 
-[Rhedwch bob un drwy'r rhestr wirio adolygu metrig newydd, pennod 9.3.]
+[Rhedwch bob un drwy'r rhestr wirio adolygu metrig newydd, pwnc 9.3.]
 
 ## Metrigau wedi'u hystyried ar gyfer diddymu
 
@@ -111,7 +111,7 @@ Ar gyfer pob metrig:
 
 ## Difrifoldeb
 
-[Dosbarthiad yn erbyn meini prawf wedi'u dogfennu, pennod 6.2.]
+[Dosbarthiad yn erbyn meini prawf wedi'u dogfennu, pwnc 6.2.]
 
 ## Prif achos
 
@@ -137,13 +137,13 @@ Ar gyfer pob metrig:
 ```markdown
 # Achos ROI: [enw menter]
 
-## Cost (cost berchnogaeth gyfan, pennod 5.5)
+## Cost (cost berchnogaeth gyfan, pwnc 5.5)
 
 - Ymlaen llaw: [cost datblygu]
 - Parhaus: [cynhaliaeth, seilwaith, cymorth, y flwyddyn]
 - Cost cyfle: [beth arall y gallai'r capasiti hwn fod wedi'i wneud]
 
-## Budd (tystiolaeth wedi'i dogfennu, penodau 5.1-5.3)
+## Budd (tystiolaeth wedi'i dogfennu, pynciau 5.1-5.3)
 
 - [Budd 1], wedi'i brofi gan [ffynhonnell ddata]
 - [Budd 2], wedi'i brofi gan [ffynhonnell ddata]

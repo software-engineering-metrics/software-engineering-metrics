@@ -9,7 +9,7 @@ que contarlas dice algo real. El trabajo de software produce artefactos
 commits, de líneas, de tickets cerrados, no dice casi nada sobre el valor
 entregado. Esa brecha entre la dificultad de medir el trabajo de software y
 la necesidad muy real de saber si va bien es donde vive todo este libro. Este
-capítulo trata de cerrar esa brecha con honestidad: no fingiendo que el
+tema trata de cerrar esa brecha con honestidad: no fingiendo que el
 trabajo de software es tan contable como los productos de una fábrica, sino
 siendo precisos sobre lo que la medición puede y no puede hacer por una
 organización de ingeniería.
@@ -51,7 +51,7 @@ duro" no es evidencia; un número defendible sí lo es.
   entregado de forma más fiable, por un equipo sostenible. Las métricas
   existen solo para servir a ese objetivo.
 - **Toda métrica tiene un coste.** La instrumentación, el tiempo de revisión
-  y el riesgo de distorsión del comportamiento cubierto en el capítulo 1.2
+  y el riesgo de distorsión del comportamiento cubierto en el tema 1.2
   cuestan algo. Una métrica tiene que recuperar ese coste.
 - **El silencio también es una decisión.** Elegir no medir algo es una
   elección con consecuencias, no una opción neutral por defecto.
@@ -65,7 +65,7 @@ Antes de instrumentar nada, nombra la decisión que la métrica va a informar.
 que la herramienta pueda exportar" no lo es. Trabajar hacia atrás desde una
 decisión mantiene el conjunto de métricas pequeño y hace que cada casilla sea
 defendible cuando alguien pregunte por qué existe. Si no puedes nombrar la
-decisión que una métrica informaría, todavía no la construyas. El capítulo
+decisión que una métrica informaría, todavía no la construyas. El tema
 1.3 profundiza en la versión de esta disciplina centrada en resultados sobre
 producción.
 
@@ -81,7 +81,7 @@ asociada. Decide explícitamente, por escrito, para qué uso está pensada una
 métrica, y nunca dejes que una métrica diagnóstica se deslice hacia un uso
 evaluativo sin reconsiderar deliberadamente el riesgo. Esta distinción
 reaparece constantemente a lo largo de este libro y se formaliza en la
-sección de no objetivos de la carta de métricas descrita en el capítulo 1.4.
+sección de no objetivos de la carta de métricas descrita en el tema 1.4.
 
 ### Trata la medición como una hipótesis, no como un hecho
 
@@ -122,7 +122,7 @@ actuar sobre ninguna de ellas, y cada una a la que asocias un peso evaluativo
 invita a la distorsión. Resuélvelo empezando de forma mínima y guiada por
 decisiones, añadiendo una métrica solo cuando una decisión específica y
 nombrada la necesite, y defendiendo explícitamente el límite de solo
-diagnóstico en el trabajo de gobernanza del capítulo 1.4 en lugar de dejar
+diagnóstico en el trabajo de gobernanza del tema 1.4 en lugar de dejar
 que se erosione por defecto.
 
 ## Preguntas para debatir con tu equipo
@@ -175,14 +175,14 @@ que se erosione por defecto.
    de fallo son reales. Un equipo que delega cada decisión a un tablero
    pierde el juicio contextual que detecta lo que el número pasa por alto;
    un equipo que ignora los datos disponibles a favor de la voz más alta en
-   la sala repite el mismo problema con el que abre este capítulo. El
+   la sala repite el mismo problema con el que abre este tema. El
    objetivo son métricas que informen el juicio, no métricas que lo
    reemplacen.
 
 ## Enfoque sectorial
 
 **Startup.** Con un puñado de ingenieros, la mayor parte de lo que este
-capítulo advierte, la deriva hacia el uso evaluativo, los puntos ciegos, la
+tema advierte, la deriva hacia el uso evaluativo, los puntos ciegos, la
 sobrecarga del tablero, es fácil de evitar simplemente porque todos hablan a
 diario. El riesgo es el contrario: saltarse la medición por completo porque
 se siente como una sobrecarga que el equipo no puede permitirse. Elige dos o
@@ -201,7 +201,7 @@ actuarás sobre lo que te diga.
 **Empresa grande.** El riesgo principal son las métricas que derivan en
 silencio de un uso diagnóstico a uno evaluativo a medida que ascienden por
 las capas de gestión, y los tableros que crecen por acumulación porque nadie
-tiene a su cargo la tarea de podarlos. La gobernanza (capítulo 1.4) no es
+tiene a su cargo la tarea de podarlos. La gobernanza (tema 1.4) no es
 opcional a esta escala. Estandariza las definiciones entre unidades de
 negocio y construye una revisión periódica de retiro dentro del propio
 programa de métricas.
@@ -223,7 +223,7 @@ responder una pregunta básica: cuál de nuestras diez inversiones
 estratégicas en la plataforma está entregando software realmente más rápido.
 La solución no fueron más métricas, fueron menos y mejores: la organización
 definió un núcleo compartido y guiado por decisiones de métricas DORA
-(capítulo 2.10) calculado de forma idéntica en todas partes a partir de los
+(tema 2.10) calculado de forma idéntica en todas partes a partir de los
 mismos datos de la canalización, retiró cuarenta tableros específicos de
 equipo y, en dos trimestres, por fin pudo comparar áreas de inversión sobre
 una base común.
@@ -254,7 +254,7 @@ puede señalar un número en el que ambas partes confíen.
 
 El coste de la medición no es el tablero. Es la disciplina continua: la
 instrumentación, el mantenimiento de definiciones y la poda periódica que
-recomienda este capítulo. Ese coste total de propiedad es real pero modesto
+recomienda este tema. Ese coste total de propiedad es real pero modesto
 comparado con el coste de la alternativa, que es una organización grande
 tomando decisiones tecnológicas de varios millones basándose en quien
 argumentó de forma más persuasiva en la sala. El retorno de un programa de

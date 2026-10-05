@@ -7,7 +7,7 @@ fwyaf o raglenni metrigau'n treulio llawer mwy o ymdrech yn dylunio
 dangosfyrddau na gwirio'r biblinell sy'n eu bwydo. Mae hyn tuag yn ôl. Mae
 siart wedi'i ddylunio'n hardd wedi'i adeiladu ar gyfrifianeg anghyson,
 hunan-adroddedig, neu wedi'i thorri'n dawel yn waeth na dim siart o gwbl,
-oherwydd mae'n edrych yn awdurdodol tra'n anghywir. Mae'r bennod hon yn
+oherwydd mae'n edrych yn awdurdodol tra'n anghywir. Mae'r pwnc hwn yn
 ymwneud â'r sylfaen ddi-fawreddog y mae gweddill y llyfr hwn yn ei chymryd
 yn ganiataol: o ble mae data peirianneg mewn gwirionedd yn dod, pryd i
 ymddiried mewn cyfrifianeg awtomataidd dros hunan-adrodd, a'r methiannau
@@ -45,7 +45,7 @@ dyma'r sylfaen y mae popeth arall yn y llyfr hwn yn sefyll arno.
 - **Defnyddiwch hunan-adrodd dim ond ar gyfer yr hyn na ellir ei arsylwi'n
   uniongyrchol.** Nid oes gan foddhad, ffrithiant a ganfyddir, a lles
   ddirprwy system-o-gofnod; gofynnwch yn uniongyrchol a dyluniwch yr
-  arolwg yn dda (pennod 3.7). Neilltuwch hunan-adrodd yn benodol ar gyfer
+  arolwg yn dda (pwnc 3.7). Neilltuwch hunan-adrodd yn benodol ar gyfer
   y categori hwnnw.
 - **Mae gan ddata pob metrig system ffynhonnell, dull casglu, a modd
   methiant hysbys.** Dogfennwch y tri, nid dim ond y diffiniad.
@@ -67,7 +67,7 @@ chyfuno, yr olrheiniwr digwyddiadau ar gyfer cofnodion toriad, y
 platfform arolwg ar gyfer boddhad hunan-adroddedig. Os na allwch enwi'r
 system fanwl gywir, nid ydych mewn gwirionedd yn gwybod o ble mae'r rhif
 yn dod, ac ni allwch werthuso ei ddibynadwyedd. Mae'r mapio hwn yn
-rhagofyniad ar gyfer y siarter lywodraethu ym mhennod 1.4, nid ymarfer
+rhagofyniad ar gyfer y siarter lywodraethu ym mhwnc 1.4, nid ymarfer
 ar wahân.
 
 ### Cyfrifiannwch wrth y digwyddiad, nid wrth yr adroddiad
@@ -87,7 +87,7 @@ dros ddirprwy a adroddwyd gan berson ar gyfer yr un ffaith.
 Ni ellir arsylwi rhai pethau'n wirioneddol o delemetreg system: a yw
 peiriannydd yn teimlo bod ei waith yn ystyrlon, a yw proses yn teimlo'n
 rhwystredig, a yw risg llosgi allan yn codi. Mae'r rhain angen gofyn yn
-uniongyrchol, ac arolwg wedi'i ddylunio'n dda (mae pennod 3.7 yn cwmpasu'r
+uniongyrchol, ac arolwg wedi'i ddylunio'n dda (mae pwnc 3.7 yn cwmpasu'r
 mecaneg) yw'r offeryn cywir. Y camgymeriad yw defnyddio hunan-adrodd ar
 gyfer pethau y gallai system eu harsylwi'n uniongyrchol yn lle hynny, gan
 ofyn i beirianwyr amcangyfrif eu hamlder defnyddio eu hunain yn hytrach na'i
@@ -112,7 +112,7 @@ heb ei ddull casglu (wedi'i fesur o'r stamp amser comit cyntaf mewn
 rheolaeth fersiwn i'r stamp amser defnyddio cynhyrchu yn y biblinell, gan
 eithrio canghennau trwsio-poeth). Bydd dau dîm â'r un diffiniad ond
 dulliau casglu gwahanol yn dal i gynhyrchu rhifau na ellir eu cymharu.
-Cofnodwch y ddau yn y siarter metrigau o bennod 1.4, a thriniwch newid i'r
+Cofnodwch y ddau yn y siarter metrigau o bwnc 1.4, a thriniwch newid i'r
 naill neu'r llall fel newid sy'n gofyn am yr un adolygiad dogfennedig.
 
 ## Cyfaddawdau: manteision ac anfanteision

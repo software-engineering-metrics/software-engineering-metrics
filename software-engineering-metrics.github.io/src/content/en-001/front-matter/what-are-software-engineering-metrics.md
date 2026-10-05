@@ -14,7 +14,7 @@ easy to count, a leadership team starts asking "is this number up or down,"
 and within a quarter the team is optimizing the number instead of the outcome
 it was meant to represent. That failure has a name,
 [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law): when a
-measure becomes a target, it stops being a good measure. Every chapter in
+measure becomes a target, it stops being a good measure. Every topic in
 this book is written with that law standing behind it.
 
 ## The two foundational frameworks
@@ -26,7 +26,7 @@ measuring engineering delivery and team health.
 Research and Assessment programme) measure system throughput and stability:
 deployment frequency, lead time for changes, change failure rate, and failed
 deployment recovery time. Part 2 of this book covers all four in a
-dedicated reference chapter, alongside the Flow Framework it uses to
+dedicated reference topic, alongside the Flow Framework it uses to
 organize delivery and flow metrics more broadly, because DORA measures
 pipeline mechanics well but says nothing about what kind of value is moving
 through the pipeline.
@@ -58,7 +58,7 @@ is being misused.
 
 Start here, then read the [introduction](introduction.md) for how the book
 is organized, or jump straight to the [table of contents](table-of-contents.md).
-Each chapter stands on its own: it states its principles first, gives
+Each topic stands on its own: it states its principles first, gives
 concrete recommendations, names how the metric it covers gets gamed, and ends
 with a maturity model, discussion questions, and references. You do not need
 to read the book cover to cover to use it.

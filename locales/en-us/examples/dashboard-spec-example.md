@@ -1,7 +1,7 @@
 # Example: dashboard specification for a delivery-metrics dashboard
 
 A worked dashboard specification, following
-[chapter 8.1, Designing an engineering metrics dashboard](../topics/08-01-designing-an-engineering-metrics-dashboard.md).
+[topic 8.1, Designing an engineering metrics dashboard](../topics/08-01-designing-an-engineering-metrics-dashboard.md).
 The point is the shape: a named audience, a small number of tiles, an honest
 visualization standard, and a stated refresh cadence.
 
@@ -40,4 +40,4 @@ postmortem close. The dashboard states its own last-refreshed time.
 
 Individual commit counts, individual pull request counts, and lines of code.
 These are activity metrics with a well-documented history of being gamed and
-of measuring effort rather than outcome (chapter 3.4).
+of measuring effort rather than outcome (topic 3.4).

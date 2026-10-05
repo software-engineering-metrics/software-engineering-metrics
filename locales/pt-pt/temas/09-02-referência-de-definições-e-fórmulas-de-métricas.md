@@ -1,10 +1,10 @@
 # 9.2 Referência de definições e fórmulas de métricas
 
-Cada fórmula do livro, reunida num único lugar. Cada entrada nomeia o capítulo com a discussão completa, incluindo o seu risco de manipulação e salvaguarda. Use isto como consulta rápida, não como substituto do próprio capítulo.
+Cada fórmula do livro, reunida num único lugar. Cada entrada nomeia o tema com a discussão completa, incluindo o seu risco de manipulação e salvaguarda. Use isto como consulta rápida, não como substituto do próprio tema.
 
 ## Métricas de fluxo (Parte 2)
 
-| Métrica | Fórmula | Capítulo |
+| Métrica | Fórmula | Tema |
 | --- | --- | --- |
 | Velocidade de fluxo | Contagem de itens de fluxo completados por unidade de tempo | 2.3 |
 | Distribuição de fluxo | (Itens completados de um tipo de item de fluxo) / (Total de itens completados) x 100% | 2.3 |
@@ -25,14 +25,14 @@ Cada fórmula do livro, reunida num único lugar. Cada entrada nomeia o capítul
 
 ## Experiência do programador (Parte 3)
 
-| Métrica | Fórmula | Capítulo |
+| Métrica | Fórmula | Tema |
 | --- | --- | --- |
 | Tempo de foco | Contagem e duração de blocos ininterruptos de mais de duas horas por semana, a partir de dados de calendário | 3.6 |
 | Taxa de resposta | (Respostas de inquérito recebidas) / (Convites de inquérito enviados) x 100% | 3.7 |
 
 ## Código e qualidade (Parte 4)
 
-| Métrica | Fórmula | Capítulo |
+| Métrica | Fórmula | Tema |
 | --- | --- | --- |
 | Complexidade ciclomática | Caminhos independentes através do fluxo de controlo (arestas − nós + 2, segundo McCabe) | 4.1 |
 | Cobertura de testes | (Linhas/ramos executados por testes) / (Total de linhas/ramos) x 100% | 4.2 |
@@ -43,7 +43,7 @@ Cada fórmula do livro, reunida num único lugar. Cada entrada nomeia o capítul
 
 ## Produto e negócio (Parte 5)
 
-| Métrica | Fórmula | Capítulo |
+| Métrica | Fórmula | Tema |
 | --- | --- | --- |
 | Taxa de defeitos escapados | (Defeitos escapados ponderados por gravidade) / (Unidade de entrega ou tempo) | 5.1 |
 | Adoção inicial | (Utilizadores que experimentaram a funcionalidade pelo menos uma vez) / (Público-alvo) x 100% | 5.2 |
@@ -53,7 +53,7 @@ Cada fórmula do livro, reunida num único lugar. Cada entrada nomeia o capítul
 
 ## Fiabilidade, operações, e segurança (Parte 6)
 
-| Métrica | Fórmula | Capítulo |
+| Métrica | Fórmula | Tema |
 | --- | --- | --- |
 | Orçamento de erro | (1 − alvo do SLO) x Janela de tempo (ex., 0,1% de 30 dias ≈ 43 minutos) | 6.1 |
 | Taxa de consumo do orçamento de erro | Orçamento de erro consumido / Orçamento de erro alocado, ao longo de uma dada janela | 6.1 |
@@ -65,7 +65,7 @@ Cada fórmula do livro, reunida num único lugar. Cada entrada nomeia o capítul
 
 ## Notas sobre o uso destas fórmulas
 
-- **Combine sempre uma fórmula de velocidade ou produção com a sua salvaguarda** (capítulo 1.2): taxa de falha de mudanças com frequência de implementação e tempo de espera; taxa de defeitos escapados com velocidade de entrega; consumo de orçamento de erro com atividade de implementação.
-- **Use medianas e percentis, não médias, para fórmulas baseadas em tempo** (capítulo 1.6) a menos que uma fórmula peça explicitamente uma média.
-- **Cada fórmula precisa de um sistema documentado de origem e método de recolha** (capítulo 1.5) ao lado da sua definição matemática; duas equipas a calcular a mesma fórmula a partir de fontes diferentes não produzirão números comparáveis.
-- **A ponderação por gravidade não é mostrada explicitamente em cada fórmula acima** mas aplica-se sempre que aparece "ponderado por gravidade"; veja o capítulo relevante para o esquema completo de classificação.
+- **Combine sempre uma fórmula de velocidade ou produção com a sua salvaguarda** (tema 1.2): taxa de falha de mudanças com frequência de implementação e tempo de espera; taxa de defeitos escapados com velocidade de entrega; consumo de orçamento de erro com atividade de implementação.
+- **Use medianas e percentis, não médias, para fórmulas baseadas em tempo** (tema 1.6) a menos que uma fórmula peça explicitamente uma média.
+- **Cada fórmula precisa de um sistema documentado de origem e método de recolha** (tema 1.5) ao lado da sua definição matemática; duas equipas a calcular a mesma fórmula a partir de fontes diferentes não produzirão números comparáveis.
+- **A ponderação por gravidade não é mostrada explicitamente em cada fórmula acima** mas aplica-se sempre que aparece "ponderado por gravidade"; veja o tema relevante para o esquema completo de classificação.

@@ -2,11 +2,11 @@
 
 ## Översikt och motivation
 
-**Aktivitet**, A:et i SPACE (kapitel 3.1), räknar volymen av ingenjörsarbete observerbart från systemtelemetri: commits, pull requests öppnade, rader kod ändrade, kodgranskningskommentarer lämnade. Det är den enklaste SPACE-dimensionen att mäta, eftersom varje ett av dessa events redan loggas automatiskt av verktyg ingenjörsteam använder dagligen, och den mätlätthet är exakt vad som gör den här dimensionen den farligaste att övervikta. Aktivitet är en verklig, legitim signal använd noggrant. Använd som en fristående produktivitetsrepresentant är det den enskilt mest manipulerade, mest missvisande mätetalsfamiljen i hela historien av [mjukvarutekniks](https://en.wikipedia.org/wiki/Software_engineering) mätning.
+**Aktivitet**, A:et i SPACE (ämne 3.1), räknar volymen av ingenjörsarbete observerbart från systemtelemetri: commits, pull requests öppnade, rader kod ändrade, kodgranskningskommentarer lämnade. Det är den enklaste SPACE-dimensionen att mäta, eftersom varje ett av dessa events redan loggas automatiskt av verktyg ingenjörsteam använder dagligen, och den mätlätthet är exakt vad som gör den här dimensionen den farligaste att övervikta. Aktivitet är en verklig, legitim signal använd noggrant. Använd som en fristående produktivitetsrepresentant är det den enskilt mest manipulerade, mest missvisande mätetalsfamiljen i hela historien av [mjukvarutekniks](https://en.wikipedia.org/wiki/Software_engineering) mätning.
 
-Kärnproblemet är att aktivitet mäter rörelse, inte värde. Ett commit-antal skiljer inte mellan en commit som löste ett svårt problem elegant och en commit som delade upp en meningsfull ändring i fem för att se mer produktiv ut (kapitel 1.2:s substitutionsmanipulation, tillämpad direkt på den här mätetalsfamiljen). Rader kod ändrade belönar ordrikedom över den mycket mer värdefulla förmågan att radera onödig kod. En ingenjör som spenderar en hel dag i djup, ostörd tanke innan de skriver tio eleganta, väl testade rader ser mindre "aktiv" ut enligt dessa mätetal än en som committar ytliga, ogranskade ändringar var tjugo minuter, även om den förste mycket ofta producerar betydligt mer verkligt värde.
+Kärnproblemet är att aktivitet mäter rörelse, inte värde. Ett commit-antal skiljer inte mellan en commit som löste ett svårt problem elegant och en commit som delade upp en meningsfull ändring i fem för att se mer produktiv ut (ämne 1.2:s substitutionsmanipulation, tillämpad direkt på den här mätetalsfamiljen). Rader kod ändrade belönar ordrikedom över den mycket mer värdefulla förmågan att radera onödig kod. En ingenjör som spenderar en hel dag i djup, ostörd tanke innan de skriver tio eleganta, väl testade rader ser mindre "aktiv" ut enligt dessa mätetal än en som committar ytliga, ogranskade ändringar var tjugo minuter, även om den förste mycket ofta producerar betydligt mer verkligt värde.
 
-För stora team är frestelsen att använda aktivitetsmätetal för individuell utvärdering konstant och väldokumenterad, eftersom aktivitet är lätt att tillskriva en specifik person och lätt att beräkna automatiskt, till skillnad från de svårare, mer ärliga signalerna i de andra SPACE-dimensionerna. Det här kapitlet existerar specifikt för att namnge den frestelsen och ge team språk och bevis för att motstå den, eftersom i det ögonblick en organisation börjar individuellt rangordna ingenjörer efter commit-antal eller rader kod, är skadan på samarbete, kodkvalitet, och moral väldokumenterad och svår att vända.
+För stora team är frestelsen att använda aktivitetsmätetal för individuell utvärdering konstant och väldokumenterad, eftersom aktivitet är lätt att tillskriva en specifik person och lätt att beräkna automatiskt, till skillnad från de svårare, mer ärliga signalerna i de andra SPACE-dimensionerna. Det här ämnet existerar specifikt för att namnge den frestelsen och ge team språk och bevis för att motstå den, eftersom i det ögonblick en organisation börjar individuellt rangordna ingenjörer efter commit-antal eller rader kod, är skadan på samarbete, kodkvalitet, och moral väldokumenterad och svår att vända.
 
 ## Nyckelprinciper
 
@@ -20,7 +20,7 @@ För stora team är frestelsen att använda aktivitetsmätetal för individuell 
 
 ### Rangordna eller utvärdera aldrig individer efter rå aktivitetsantal
 
-Det här är den enskilt svåraste, viktigaste regeln i det här kapitlet. Commit-antal, rader kod, och pull-request-antal borde aldrig dyka upp i en individuell prestationsgranskning, en jämförande rangordning, eller något sammanhang där en ingenjörs kompensation, ställning, eller rykte beror på talet. Det här följer direkt kapitel 1.2:s incitamentsexponeringsprincip: i det ögonblick aktivitet blir ett incitamentsbelagt individuellt mätetal följer manipulation nästan omedelbart, och det resulterande beteendet, att stoppa upp commits, dela ändringar trivialt, undvika djupt, oglamoröst arbete som producerar få synliga events, skadar organisationen aktivt.
+Det här är den enskilt svåraste, viktigaste regeln i det här ämnet. Commit-antal, rader kod, och pull-request-antal borde aldrig dyka upp i en individuell prestationsgranskning, en jämförande rangordning, eller något sammanhang där en ingenjörs kompensation, ställning, eller rykte beror på talet. Det här följer direkt ämne 1.2:s incitamentsexponeringsprincip: i det ögonblick aktivitet blir ett incitamentsbelagt individuellt mätetal följer manipulation nästan omedelbart, och det resulterande beteendet, att stoppa upp commits, dela ändringar trivialt, undvika djupt, oglamoröst arbete som producerar få synliga events, skadar organisationen aktivt.
 
 ### Använd aktivitetsdata i aggregat, som kontext, inte som en dom
 
@@ -28,11 +28,11 @@ Aktivitetsdata blir genuint användbar när aggregerad på teamnivå och läst v
 
 ### Föredra kvalitetsnära aktivitetssignaler över rå volym
 
-Där aktivitetsdata är användbar alls, föredra signaler justerade för kvalitet över råa antal: pull-request-storlek relativt granskningsdjup (kapitel 2.9), eller förhållandet mellan ny kod och borttagen kod, som kan avslöja om ett team ackumulerar komplexitet eller aktivt förenklar. De här justerade signalerna är fortfarande aktivitetsdimension-data men motstår den grövsta manipulation råa antal inbjuder.
+Där aktivitetsdata är användbar alls, föredra signaler justerade för kvalitet över råa antal: pull-request-storlek relativt granskningsdjup (ämne 2.9), eller förhållandet mellan ny kod och borttagen kod, som kan avslöja om ett team ackumulerar komplexitet eller aktivt förenklar. De här justerade signalerna är fortfarande aktivitetsdimension-data men motstår den grövsta manipulation råa antal inbjuder.
 
 ### Bevaka specifikt efter substitutionsmanipulationsmönstret i aktivitetsdata
 
-Det vanligaste sättet aktivitetsmätetal manipuleras är exakt kapitel 1.2:s substitutionsmönster: att dela upp genuint meningsfullt arbete i många små, triviala events för att blåsa upp ett antal. Om commit- eller pull-request-frekvens stiger medan den underliggande komplexiteten eller storleken av ändringar faller kraftigt, undersök innan ni krediterar en verklig produktivitetsförbättring, med samma diagnostiska disciplin kapitel 2.10 rekommenderar för driftsättningsfrekvens.
+Det vanligaste sättet aktivitetsmätetal manipuleras är exakt ämne 1.2:s substitutionsmönster: att dela upp genuint meningsfullt arbete i många små, triviala events för att blåsa upp ett antal. Om commit- eller pull-request-frekvens stiger medan den underliggande komplexiteten eller storleken av ändringar faller kraftigt, undersök innan ni krediterar en verklig produktivitetsförbättring, med samma diagnostiska disciplin ämne 2.10 rekommenderar för driftsättningsfrekvens.
 
 ### Namnge och motverka aktivitetsteater explicit
 
@@ -65,25 +65,25 @@ Den centrala spänningen är **användbarhet kontra missbruksrisk**. Aktivitetsd
 
 ## Sektorperspektiv
 
-**Startup.** Med ett litet, tätt samarbetande team är aktivitetsdata vanligtvis synlig utan att behöva en instrumentpanel alls, och individuell-rangordning-risken det här kapitlet varnar mot är mindre trolig helt enkelt eftersom alla redan vet vad alla andra jobbar med. Risken är istället en grundare som omedvetet gynnar synligt "upptaget" beteende när de fattar tidiga anställnings- eller andelsbeslut.
+**Startup.** Med ett litet, tätt samarbetande team är aktivitetsdata vanligtvis synlig utan att behöva en instrumentpanel alls, och individuell-rangordning-risken det här ämnet varnar mot är mindre trolig helt enkelt eftersom alla redan vet vad alla andra jobbar med. Risken är istället en grundare som omedvetet gynnar synligt "upptaget" beteende när de fattar tidiga anställnings- eller andelsbeslut.
 
 **Litet företag.** Aktivitetsdata från era befintliga verktyg är fine att kasta en blick på för en allmän känsla av teamgenomströmning, men motstå att använda den för att jämföra individuella bidragsgivare direkt; ett litet teams verkliga värde koncentreras ofta i ett par personer som gör tyst, högt inflytelserikt arbete som en commit-antal-vy systematiskt skulle undervärdera.
 
 **Stort företag.** Det här är där individuell-rangordning-frestelsen är starkast och mest skadlig, eftersom aktivitetsdata är den enklaste signalen att dra för en prestationsgranskningsprocess som spänner tusentals ingenjörer, och trycket att hitta *någon* kvantifierbar insats är verkligt. Bygg en explicit, kommunicerad, upprätthållen policy mot individuell aktivitetsrangordning, och granska prestationsgranskningspraxis periodiskt för att bekräfta att policyn faktiskt följs i praktiken, inte bara uttalad.
 
-**Myndighet.** Aktivitetsmätetal kan vara lockande att citera i en offentlig rapport som bevis på produktivitet ("tio tusen commits detta år"), men den här typen av rubrik är nästan meningslös och kan inbjuda exakt den fel granskningen när en kunnig granskare påpekar att rå aktivitet säger ingenting om utfall. Rapportera utfalls- och prestationsdata (kapitel 3.3) istället, och undvik aktivitetsantal i all externt vänd kommunikation.
+**Myndighet.** Aktivitetsmätetal kan vara lockande att citera i en offentlig rapport som bevis på produktivitet ("tio tusen commits detta år"), men den här typen av rubrik är nästan meningslös och kan inbjuda exakt den fel granskningen när en kunnig granskare påpekar att rå aktivitet säger ingenting om utfall. Rapportera utfalls- och prestationsdata (ämne 3.3) istället, och undvik aktivitetsantal i all externt vänd kommunikation.
 
 ## Exempel
 
-**Stort företag.** Ett mjukvarubolags ingenjörsledning hade, utan formell policy, börjat informellt referera individuell commit-frekvensdata i befordringsdiskussioner. En intern granskning, föranledd av ett orelaterat attritionsanalysprojekt, fann att ingenjörer som jobbade på företagets mest komplexa, högst-värde-system, krävande långa perioder av noggrant designarbete innan någon kod skrevs, hade systematiskt lägre commit-antal än ingenjörer på enklare, mer inkrementellt utvecklade system, och blev subtilt missgynnade i befordringskonversationer som resultat. Ledningen utfärdade en explicit, kommunicerad policy som förbjöd aktivitetsantal-referenser i prestations- och befordringsdiskussioner, och skiftade befordringsbevis mot flersignal-prestationsmetoden från kapitel 3.3.
+**Stort företag.** Ett mjukvarubolags ingenjörsledning hade, utan formell policy, börjat informellt referera individuell commit-frekvensdata i befordringsdiskussioner. En intern granskning, föranledd av ett orelaterat attritionsanalysprojekt, fann att ingenjörer som jobbade på företagets mest komplexa, högst-värde-system, krävande långa perioder av noggrant designarbete innan någon kod skrevs, hade systematiskt lägre commit-antal än ingenjörer på enklare, mer inkrementellt utvecklade system, och blev subtilt missgynnade i befordringskonversationer som resultat. Ledningen utfärdade en explicit, kommunicerad policy som förbjöd aktivitetsantal-referenser i prestations- och befordringsdiskussioner, och skiftade befordringsbevis mot flersignal-prestationsmetoden från ämne 3.3.
 
-**Myndighet.** En digital tjänstmyndighet, under tryck att visa produktivitet för en lagstiftande tillsynskommitté, föreslog initialt att rapportera totala commits och rader kod skrivna över sitt ingenjörsprogram som bevis på levererat värde. En intern teknisk rådgivare motsatte sig, korrekt noterande att den här inramningen inbjöd exakt den fel granskningen, eftersom en tekniskt litterat kommittémedlem lätt kunde påpeka att rå kodvolym säger ingenting om huruvida koden fungerade eller spelade någon roll. Myndighetens reviderade rapport använde istället utfallsmätetal (kapitel 5.3): minskning i medborgarrapporterade fel och ökning i framgångsrik självbetjäningsslutförande, som höll upp mycket bättre under kommitténs granskning än aktivitetstalen skulle ha gjort.
+**Myndighet.** En digital tjänstmyndighet, under tryck att visa produktivitet för en lagstiftande tillsynskommitté, föreslog initialt att rapportera totala commits och rader kod skrivna över sitt ingenjörsprogram som bevis på levererat värde. En intern teknisk rådgivare motsatte sig, korrekt noterande att den här inramningen inbjöd exakt den fel granskningen, eftersom en tekniskt litterat kommittémedlem lätt kunde påpeka att rå kodvolym säger ingenting om huruvida koden fungerade eller spelade någon roll. Myndighetens reviderade rapport använde istället utfallsmätetal (ämne 5.3): minskning i medborgarrapporterade fel och ökning i framgångsrik självbetjäningsslutförande, som höll upp mycket bättre under kommitténs granskning än aktivitetstalen skulle ha gjort.
 
 ## Verksamhetsnytta: motiv, ROI och TCO
 
 Avkastningen på att få aktivitetsmätetal rätt, använda dem kontextuellt snarare än som individuella resultatkort, är undviken skada: organisationer som individuellt rangordnar ingenjörer efter aktivitet ser tillförlitligt manipulationsbeteende, minskat samarbete (ingenjörer som skyddar sin egen synliga output snarare än att hjälpa en lagkamrat), och en systematisk partiskhet mot det djupa, högt inflytelserika arbetet som ofta producerar mest värde medan det genererar minst synlig aktivitet. Att vända den skadan, väl inrotad i en prestationsgranskningskultur, är genuint svårt och långsamt.
 
-Den totala kostnaden för att undvika den här fällan är mestadels organisatorisk disciplin: en explicit policy, konsekvent upprätthållen, mot individuell aktivitetsrangordning, och ett åtagande att investera i den svårare, mer ärliga prestationsmätningen beskriven i kapitel 3.3 istället. Den disciplinen kostar mindre än de felriktade befordringsbesluten, skadade samarbetet, och manipulationsbeteendet individuella aktivitetsmätetal tillförlitligt producerar över tid.
+Den totala kostnaden för att undvika den här fällan är mestadels organisatorisk disciplin: en explicit policy, konsekvent upprätthållen, mot individuell aktivitetsrangordning, och ett åtagande att investera i den svårare, mer ärliga prestationsmätningen beskriven i ämne 3.3 istället. Den disciplinen kostar mindre än de felriktade befordringsbesluten, skadade samarbetet, och manipulationsbeteendet individuella aktivitetsmätetal tillförlitligt producerar över tid.
 
 ## Antimönster och fallgropar
 
@@ -100,7 +100,7 @@ Den totala kostnaden för att undvika den här fällan är mestadels organisator
 - **Nivå 2, Utveckla:** Viss medvetenhet om risken existerar, men ingen explicit policy förhindrar aktivitetsdata från att informellt påverka granskningar eller befordringsdiskussioner.
 - **Nivå 3, Standardisera:** En explicit, kommunicerad organisationsövergripande policy förbjuder individuell aktivitetsrangordning, och aktivitetsdata används bara i aggregerad, teamnivå-kontext.
 - **Nivå 4, Hantera:** Prestationsgranskning- och befordringspraxis granskas periodiskt för att bekräfta att policyn följs i praktiken, och kvalitetsjusterade aktivitetssignaler ersätter råa antal där aktivitetsdata används alls.
-- **Nivå 5, Orkestrera:** Organisationen har demonstrerbart skiftat utvärderingskultur bort från aktivitetsmätetal mot flersignal-prestationsmetoden i kapitel 3.3, med synlig förbättring i samarbete och minskat manipulationsbeteende som bevis att skiftet fungerade.
+- **Nivå 5, Orkestrera:** Organisationen har demonstrerbart skiftat utvärderingskultur bort från aktivitetsmätetal mot flersignal-prestationsmetoden i ämne 3.3, med synlig förbättring i samarbete och minskat manipulationsbeteende som bevis att skiftet fungerade.
 
 ## Diskussionsidéer
 
@@ -113,9 +113,9 @@ Den totala kostnaden för att undvika den här fällan är mestadels organisator
 ## Viktiga slutsatser
 
 - Aktivitet mäter **rörelse, inte värde**; det är den enskilt mest historiskt missbrukade mätetalsfamiljen i mjukvaruteknik.
-- **Rangordna eller utvärdera aldrig individer** efter råa aktivitetsantal; det här är den svåraste och viktigaste regeln i det här kapitlet.
+- **Rangordna eller utvärdera aldrig individer** efter råa aktivitetsantal; det här är den svåraste och viktigaste regeln i det här ämnet.
 - Använd aktivitetsdata **i aggregat, som kontext** för de andra SPACE-dimensionerna, aldrig som en fristående dom.
-- Bevaka efter **aktivitetsteater** och **substitutionsmanipulationsmönstret** (kapitel 1.2) specifikt inom den här mätetalsfamiljen.
+- Bevaka efter **aktivitetsteater** och **substitutionsmanipulationsmönstret** (ämne 1.2) specifikt inom den här mätetalsfamiljen.
 - Djupt, högvärdigt arbete genererar ofta **minst synlig aktivitetsdata**; skydda det från att systematiskt undervärderas.
 
 ## Källor och vidare läsning

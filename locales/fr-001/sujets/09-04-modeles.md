@@ -75,13 +75,13 @@ Modèles à copier-coller pour les documents récurrents. Des exemples travaill�
 
 Pour chaque métrique :
 - Lecture actuelle et tendance
-- Tout mouvement hors de la variation normale (chapitre 1.6)
+- Tout mouvement hors de la variation normale (sujet 1.6)
 - Statut de garde-fou apparié, si applicable
 - Décision que cette lecture informe, le cas échéant
 
 ## Nouvelles métriques proposées
 
-[Faites passer chacune par la liste de contrôle de revue de nouvelle métrique, chapitre 9.3.]
+[Faites passer chacune par la liste de contrôle de revue de nouvelle métrique, sujet 9.3.]
 
 ## Métriques considérées pour la retraite
 
@@ -111,7 +111,7 @@ Pour chaque métrique :
 
 ## Sévérité
 
-[Classification contre des critères documentés, chapitre 6.2.]
+[Classification contre des critères documentés, sujet 6.2.]
 
 ## Cause racine
 
@@ -137,13 +137,13 @@ Pour chaque métrique :
 ```markdown
 # Dossier de ROI : [nom de l'initiative]
 
-## Coût (coût total de possession, chapitre 5.5)
+## Coût (coût total de possession, sujet 5.5)
 
 - Initial : [coût de développement]
 - Continu : [maintenance, infrastructure, support, par an]
 - Coût d'opportunité : [ce que cette capacité aurait pu faire d'autre]
 
-## Bénéfice (preuve documentée, chapitres 5.1 à 5.3)
+## Bénéfice (preuve documentée, sujets 5.1 à 5.3)
 
 - [Bénéfice 1], étayé par [source de données]
 - [Bénéfice 2], étayé par [source de données]

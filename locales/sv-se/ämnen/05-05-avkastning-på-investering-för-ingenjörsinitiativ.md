@@ -2,15 +2,15 @@
 
 ## Översikt och motivation
 
-Det här kapitlet avslutar del 5 genom att föra samman allt de föregående fyra kapitlen mätte, kvalitet, adoption, utfall, och kostnad, till den enda finansiella inramningen som i slutändan styr de flesta större ingenjörsinvesteringsbeslut: **[avkastning på investering](https://en.wikipedia.org/wiki/Return_on_investment) (ROI)**. Vare sig en organisation beslutar att finansiera en plattformsmodernisering, en större omstruktureringsinsats, eller en ny produktlinje, måste någon så småningom besvara frågan i finansiella termer: är det här värt vad det kostar. Det här kapitlet handlar om att besvara den frågan ärligt, med hjälp av mätetalen den här boken redan har byggt, snarare än att antingen undvika frågan (vilket avstår inflytande över investeringsbeslut till människor mindre utrustade att besvara den väl) eller besvara den med ett uppblåst, ohållbart fall som skadar trovärdighet när det inte håller.
+Det här ämnet avslutar del 5 genom att föra samman allt de föregående fyra ämnena mätte, kvalitet, adoption, utfall, och kostnad, till den enda finansiella inramningen som i slutändan styr de flesta större ingenjörsinvesteringsbeslut: **[avkastning på investering](https://en.wikipedia.org/wiki/Return_on_investment) (ROI)**. Vare sig en organisation beslutar att finansiera en plattformsmodernisering, en större omstruktureringsinsats, eller en ny produktlinje, måste någon så småningom besvara frågan i finansiella termer: är det här värt vad det kostar. Det här ämnet handlar om att besvara den frågan ärligt, med hjälp av mätetalen den här boken redan har byggt, snarare än att antingen undvika frågan (vilket avstår inflytande över investeringsbeslut till människor mindre utrustade att besvara den väl) eller besvara den med ett uppblåst, ohållbart fall som skadar trovärdighet när det inte håller.
 
-Disciplinen det här kapitlet rekommenderar bygger direkt på kapitel 5.4:s enhetsekonomi för kostnadssidan av ekvationen, och kapitel 5.3:s utfallsmätetal, med deras ärliga behandling av tillskrivningsosäkerhet, för förmånssidan. Ett ROI-fall byggt på det här sättet är nödvändigtvis mer blygsamt och mer förbehållet än ett enkelt, tilltalande rubriktal, men det har den avgörande fördelen den här boken har betonat genomgående: det överlever granskning, och en organisation som konsekvent bygger försvarbara ROI-fall förtjänar mer förtroende, och därför mer autonomi, i framtida investeringsbeslut än en som ibland överlovar.
+Disciplinen det här ämnet rekommenderar bygger direkt på ämne 5.4:s enhetsekonomi för kostnadssidan av ekvationen, och ämne 5.3:s utfallsmätetal, med deras ärliga behandling av tillskrivningsosäkerhet, för förmånssidan. Ett ROI-fall byggt på det här sättet är nödvändigtvis mer blygsamt och mer förbehållet än ett enkelt, tilltalande rubriktal, men det har den avgörande fördelen den här boken har betonat genomgående: det överlever granskning, och en organisation som konsekvent bygger försvarbara ROI-fall förtjänar mer förtroende, och därför mer autonomi, i framtida investeringsbeslut än en som ibland överlovar.
 
 För stora team är ROI-disciplin vad som skiljer en ingenjörsorganisation behandlad som en strategisk partner från en behandlad som ett kostnadscenter vars utgift tolereras snarare än aktivt investeras i. Stora företag använder rigorösa ROI-fall för att konkurrera framgångsrikt om kapital mot andra affärsinvesteringar; myndigheter använder motsvarande disciplin, ofta omramad som kostnads-nytta-analys, för att säkra och upprätthålla offentlig teknikfinansiering mot politiskt och budgetärt tryck som har lite tålamod för vaga, ostödda löften.
 
 ## Nyckelprinciper
 
-- **Ett ärligt ROI-fall byggs från den här bokens andra mätetal**, inte uppfunnet separat; kostnad från kapitel 5.4, förmån från kapitel 5.1 till 5.3.
+- **Ett ärligt ROI-fall byggs från den här bokens andra mätetal**, inte uppfunnet separat; kostnad från ämne 5.4, förmån från ämnen 5.1 till 5.3.
 - **Total ägandekostnad, inte bara förhandskostnad, hör hemma på kostnadssidan.** Löpande underhålls-, support-, och infrastrukturkostnad ackumuleras över ett systems livstid.
 - **Förmånsuppskattningar bär osäkerhet; uttala den explicit** snarare än att presentera ett enda, falskt precist tal.
 - **Ett negativt eller marginellt ROI-fynd är ett legitimt, användbart utfall.** Disciplinen existerar för att informera beslut ärligt, inte för att motivera beslut redan fattade.
@@ -20,15 +20,15 @@ För stora team är ROI-disciplin vad som skiljer en ingenjörsorganisation beha
 
 ### Bygg kostnadssidan från total ägandekostnad, inte bara förhandsinvestering
 
-Inkludera inte bara den initiala utvecklingskostnaden utan den fulla **[totala ägandekostnaden](https://en.wikipedia.org/wiki/Total_cost_of_ownership) (TCO)**: löpande underhåll, infrastruktur (kapitel 5.4:s enhetsekonomi är direkt användbar här), support, och alternativkostnaden av ingenjörskapaciteten initiativet konsumerar som kunde ha gått mot alternativt arbete. Ett projekt som ser billigt ut baserat på förhandskostnad ensam kan vara dyrt över sin fulla livstid när löpande underhållsbörda redovisas ärligt.
+Inkludera inte bara den initiala utvecklingskostnaden utan den fulla **[totala ägandekostnaden](https://en.wikipedia.org/wiki/Total_cost_of_ownership) (TCO)**: löpande underhåll, infrastruktur (ämne 5.4:s enhetsekonomi är direkt användbar här), support, och alternativkostnaden av ingenjörskapaciteten initiativet konsumerar som kunde ha gått mot alternativt arbete. Ett projekt som ser billigt ut baserat på förhandskostnad ensam kan vara dyrt över sin fulla livstid när löpande underhållsbörda redovisas ärligt.
 
 ### Bygg förmånssidan från dokumenterat, ärligt utfallsbevis
 
-Dra förmånsuppskattningar från utfallsmätningsdisciplinen i kapitel 5.1 till 5.3: kvalitetsförbättringar översatta till minskad incident- och supportkostnad, adoptionsdata översatt till användningsdrivet värde, och affärsutfallskorrelationer byggda med det ärliga, störvariabelkontrollerade kausalkedjetillvägagångssättet från kapitel 5.3. Undvik att uppfinna en förmånsuppskattning från första principer eller optimistiskt antagande när faktisk uppmätt eller jämförbar historisk data är tillgänglig för att förankra den istället.
+Dra förmånsuppskattningar från utfallsmätningsdisciplinen i ämnen 5.1 till 5.3: kvalitetsförbättringar översatta till minskad incident- och supportkostnad, adoptionsdata översatt till användningsdrivet värde, och affärsutfallskorrelationer byggda med det ärliga, störvariabelkontrollerade kausalkedjetillvägagångssättet från ämne 5.3. Undvik att uppfinna en förmånsuppskattning från första principer eller optimistiskt antagande när faktisk uppmätt eller jämförbar historisk data är tillgänglig för att förankra den istället.
 
 ### Uttala osäkerhet explicit, med ett intervall snarare än ett enda tal
 
-Presentera ROI-uppskattningar som ett intervall (ett konservativt fall och ett optimistiskt fall) snarare än en enda, falskt precis siffra, och förklara vad som driver intervallet: vilket specifikt antagande, om det visar sig optimistiskt eller pessimistiskt, skulle flytta utfallet mest. Det här speglar kapitel 1.6:s statistiska litteracitetsprincip direkt, tillämpad på finansiell projektion, och det skyddar fallets trovärdighet, eftersom en enda punktuppskattning som visar sig fel skadar förtroende mycket mer än ett väl förklarat intervall som det faktiska utfallet faller inom.
+Presentera ROI-uppskattningar som ett intervall (ett konservativt fall och ett optimistiskt fall) snarare än en enda, falskt precis siffra, och förklara vad som driver intervallet: vilket specifikt antagande, om det visar sig optimistiskt eller pessimistiskt, skulle flytta utfallet mest. Det här speglar ämne 1.6:s statistiska litteracitetsprincip direkt, tillämpad på finansiell projektion, och det skyddar fallets trovärdighet, eftersom en enda punktuppskattning som visar sig fel skadar förtroende mycket mer än ett väl förklarat intervall som det faktiska utfallet faller inom.
 
 ### Behandla ett negativt eller marginellt fynd som ett legitimt resultat
 
@@ -36,7 +36,7 @@ Bygg er ROI-analysprocess att vara genuint kapabel att dra slutsatsen "det här 
 
 ### Spåra faktiska utfall mot det projicerade fallet, och slut loopen offentligt
 
-Efter ett initiativ slutförs, eller når en meningsfull milstolpe, jämför faktiska uppmätta utfall mot det ursprungliga projicerade intervallet, och publicera den jämförelsen, inklusive var projektionen var fel. Den här loop-slutande-disciplinen, liknande kapitel 3.7:s rekommendation för enkätuppföljning, är vad som bygger en organisations långsiktiga ROI-prognostrovärdighet och förbättrar noggrannheten hos framtida uppskattningar genom att skapa en verklig, synlig återkopplingsslinga.
+Efter ett initiativ slutförs, eller når en meningsfull milstolpe, jämför faktiska uppmätta utfall mot det ursprungliga projicerade intervallet, och publicera den jämförelsen, inklusive var projektionen var fel. Den här loop-slutande-disciplinen, liknande ämne 3.7:s rekommendation för enkätuppföljning, är vad som bygger en organisations långsiktiga ROI-prognostrovärdighet och förbättrar noggrannheten hos framtida uppskattningar genom att skapa en verklig, synlig återkopplingsslinga.
 
 ## Avvägningar: fördelar och nackdelar
 
@@ -47,7 +47,7 @@ Efter ett initiativ slutförs, eller når en meningsfull milstolpe, jämför fak
 | Endast-förhandskostnad-analys | Enkel, snabb att producera | Underskattar verklig kostnad genom att utelämna löpande underhålls- och supportbörda |
 | Full total-ägandekostnad-analys | Korrekt, komplett bild av verklig investeringskostnad | Kräver mer datainsamling, särskilt för löpande kostnadsprojektion |
 
-Den centrala spänningen är **övertygande enkelhet kontra försvarbar ärlighet**, samma spänning kapitel 5.3 namngav för utfallspåståenden generellt, nu tillämpad specifikt på det finansiella fallet. Ett enkelt, säkert enskilt-tal-ROI-påstående är lättare att sälja till en beslutsfattare i stunden, men ett ärligt, intervallbaserat fall med explicit osäkerhet och full total-ägandekostnad-redovisning är vad som faktiskt håller över investeringens livstid och skyddar organisationens trovärdighet för nästa fall den behöver göra.
+Den centrala spänningen är **övertygande enkelhet kontra försvarbar ärlighet**, samma spänning ämne 5.3 namngav för utfallspåståenden generellt, nu tillämpad specifikt på det finansiella fallet. Ett enkelt, säkert enskilt-tal-ROI-påstående är lättare att sälja till en beslutsfattare i stunden, men ett ärligt, intervallbaserat fall med explicit osäkerhet och full total-ägandekostnad-redovisning är vad som faktiskt håller över investeringens livstid och skyddar organisationens trovärdighet för nästa fall den behöver göra.
 
 ## Frågor att diskutera med ditt team
 
@@ -65,11 +65,11 @@ Den centrala spänningen är **övertygande enkelhet kontra försvarbar ärlighe
 
 ## Sektorperspektiv
 
-**Startup.** Formell ROI-analys är ofta mindre relevant än en enklare överlevnads-och-tillväxt-fråga: hjälper den här investeringen oss nå nästa milstolpe eller finansieringsrunda. Ändå, tillämpa samma ärlighetsprincip, motstå att blåsa upp ett fall för att motivera ett beslut teamet redan emotionellt har åtagit sig till, eftersom investerargranskning så småningom kommer tillämpa samma skepticism det här kapitlet rekommenderar att tillämpa internt först.
+**Startup.** Formell ROI-analys är ofta mindre relevant än en enklare överlevnads-och-tillväxt-fråga: hjälper den här investeringen oss nå nästa milstolpe eller finansieringsrunda. Ändå, tillämpa samma ärlighetsprincip, motstå att blåsa upp ett fall för att motivera ett beslut teamet redan emotionellt har åtagit sig till, eftersom investerargranskning så småningom kommer tillämpa samma skepticism det här ämnet rekommenderar att tillämpa internt först.
 
-**Litet företag.** Håll ROI-analys proportionerlig till storleken av beslutet; en större, flerårig plattformsinvestering förtjänar den fulla disciplinen det här kapitlet rekommenderar, medan ett litet verktygsinköp inte behöver samma rigör. Fokusera formell analysinsats på era få största, mest konsekvensrika beslut.
+**Litet företag.** Håll ROI-analys proportionerlig till storleken av beslutet; en större, flerårig plattformsinvestering förtjänar den fulla disciplinen det här ämnet rekommenderar, medan ett litet verktygsinköp inte behöver samma rigör. Fokusera formell analysinsats på era få största, mest konsekvensrika beslut.
 
-**Stort företag.** ROI-disciplin på den här skalan är vad som avgör om ingenjörskonst konkurrerar framgångsrikt om kapital mot andra affärsinvesteringar med mer etablerade finansanalystraditioner. Bygg den fulla total-ägandekostnad- och intervallbaserade disciplinen det här kapitlet rekommenderar som standardpraxis, och investera i den loop-slutande spårningen som bygger långsiktig prognostrovärdighet.
+**Stort företag.** ROI-disciplin på den här skalan är vad som avgör om ingenjörskonst konkurrerar framgångsrikt om kapital mot andra affärsinvesteringar med mer etablerade finansanalystraditioner. Bygg den fulla total-ägandekostnad- och intervallbaserade disciplinen det här ämnet rekommenderar som standardpraxis, och investera i den loop-slutande spårningen som bygger långsiktig prognostrovärdighet.
 
 **Myndighet.** Kostnads-nytta-analys, offentlig-sektor-motsvarigheten till ROI, är ofta en formell, obligatorisk del av budgetmotivering, och ärlighet om osäkerhet och total ägandekostnad är särskilt viktig där fynd kan möta extern revision eller lagstiftande granskning. En analys som överdrev förmån eller underskattade kostnad, när väl upptäckt, orsakar bestående skada på ett programs trovärdighet med dess finansieringsorgan.
 
@@ -112,7 +112,7 @@ Den totala ägandekostnaden för den här disciplinen är den analytiska insatse
 
 ## Viktiga slutsatser
 
-- Bygg ROI-fall från den här bokens **andra mätetal**, kostnad från enhetsekonomi (kapitel 5.4), förmån från dokumenterat utfallsbevis (kapitel 5.1 till 5.3), inte från uppfunna antaganden.
+- Bygg ROI-fall från den här bokens **andra mätetal**, kostnad från enhetsekonomi (ämne 5.4), förmån från dokumenterat utfallsbevis (ämnen 5.1 till 5.3), inte från uppfunna antaganden.
 - Inkludera **total ägandekostnad**, inte bara förhandskostnad, och uttala förmånsuppskattningar som ett **intervall med explicit osäkerhet**, inte ett enda, falskt precist tal.
 - Bygg en process genuint kapabel att dra slutsatsen att ett initiativ **inte är värt att fortsätta**; en analys som bara någonsin producerar positiva slutsatser är inte trovärdig.
 - **Spåra faktiska utfall mot projektionen** efter slutförande, och publicera jämförelsen för att bygga långsiktig prognostrovärdighet.

@@ -2,11 +2,11 @@
 
 ## Überblick und Motivation
 
-**Leistung**, das P in SPACE (Kapitel 3.1), ist die Dimension, die am häufigsten mit Aktivität verwechselt wird, und genau diese Verwechslung soll dieses Kapitel verhindern. Leistung fragt, ob die Arbeit einer Ingenieurin, eines Ingenieurs oder eines Teams tatsächlich ein gutes [Ergebnis](https://en.wikipedia.org/wiki/Outcome_(probability)) hervorbrachte: ein Feature, das ausgeliefert wurde und funktionierte, ein System, das zuverlässig blieb, eine Änderung, die eine Geschäfts- oder Nutzermetrik in die richtige Richtung bewegte. Aktivität (Kapitel 3.4) fragt nur, wie viel Bewegung stattfand. Ein Team kann hochaktiv und leistungsschwach sein, indem es ständig kleine Änderungen ausliefert, die nie ein Ergebnis bewegen, und das Umgekehrte ist ebenso möglich: ein Team, das selten liefert, dessen Änderungen aber zuverlässig genau richtig landen.
+**Leistung**, das P in SPACE (Thema 3.1), ist die Dimension, die am häufigsten mit Aktivität verwechselt wird, und genau diese Verwechslung soll dieses Thema verhindern. Leistung fragt, ob die Arbeit einer Ingenieurin, eines Ingenieurs oder eines Teams tatsächlich ein gutes [Ergebnis](https://en.wikipedia.org/wiki/Outcome_(probability)) hervorbrachte: ein Feature, das ausgeliefert wurde und funktionierte, ein System, das zuverlässig blieb, eine Änderung, die eine Geschäfts- oder Nutzermetrik in die richtige Richtung bewegte. Aktivität (Thema 3.4) fragt nur, wie viel Bewegung stattfand. Ein Team kann hochaktiv und leistungsschwach sein, indem es ständig kleine Änderungen ausliefert, die nie ein Ergebnis bewegen, und das Umgekehrte ist ebenso möglich: ein Team, das selten liefert, dessen Änderungen aber zuverlässig genau richtig landen.
 
-Die Schwierigkeit bei dieser Dimension ist, dass Ergebnis oft nicht einer einzelnen Person oder auch nur einem einzelnen Team zuschreibbar ist; Software-Ergebnisse entstehen aus Zusammenarbeit, aus Entscheidungen, die Monate zuvor von Menschen getroffen wurden, die inzwischen zu anderen Projekten gewechselt sind, aus Marktbedingungen, die keine Ingenieurin und kein Ingenieur kontrolliert. SPACE-Forscherinnen und -Forscher waren darüber explizit: Leistung sollte auf System- oder Teamebene anhand mehrerer, konvergierender Signale gemessen werden, nicht auf eine einzelne Zahl reduziert und schon gar nicht einer einzelnen Ingenieurin oder einem einzelnen Ingenieur isoliert zugeschrieben werden. Dieses Kapitel nimmt diesen Rat ernst und behandelt individuelle Leistungszuschreibung als eine Falle, die aktiv vermieden werden sollte, nicht als Abkürzung, die genommen wird, wenn es bequem ist.
+Die Schwierigkeit bei dieser Dimension ist, dass Ergebnis oft nicht einer einzelnen Person oder auch nur einem einzelnen Team zuschreibbar ist; Software-Ergebnisse entstehen aus Zusammenarbeit, aus Entscheidungen, die Monate zuvor von Menschen getroffen wurden, die inzwischen zu anderen Projekten gewechselt sind, aus Marktbedingungen, die keine Ingenieurin und kein Ingenieur kontrolliert. SPACE-Forscherinnen und -Forscher waren darüber explizit: Leistung sollte auf System- oder Teamebene anhand mehrerer, konvergierender Signale gemessen werden, nicht auf eine einzelne Zahl reduziert und schon gar nicht einer einzelnen Ingenieurin oder einem einzelnen Ingenieur isoliert zugeschrieben werden. Dieses Thema nimmt diesen Rat ernst und behandelt individuelle Leistungszuschreibung als eine Falle, die aktiv vermieden werden sollte, nicht als Abkürzung, die genommen wird, wenn es bequem ist.
 
-Für große Teams ist es das, was ein Metrikprogramm, das tatsächlich Ergebnisse verbessert, von einem unterscheidet, das lediglich sichtbare Geschäftigkeit belohnt, Leistungsmessung richtig zu machen. Konzerne, die Leistung über viele Teams hinweg vergleichen, brauchen Signale, die Manipulation durch rohes Output-Volumen widerstehen; Behörden, die Technologieinvestitionen gegenüber Aufsichtsgremien rechtfertigen, müssen zeigen, dass Engineering-Aufwand echte Ergebnisse erzeugte, nicht nur gelieferte Artefakte, genau Kapitel 1.3s Ergebnisse-vor-Output-Prinzip, angewendet auf diese konkrete Dimension.
+Für große Teams ist es das, was ein Metrikprogramm, das tatsächlich Ergebnisse verbessert, von einem unterscheidet, das lediglich sichtbare Geschäftigkeit belohnt, Leistungsmessung richtig zu machen. Konzerne, die Leistung über viele Teams hinweg vergleichen, brauchen Signale, die Manipulation durch rohes Output-Volumen widerstehen; Behörden, die Technologieinvestitionen gegenüber Aufsichtsgremien rechtfertigen, müssen zeigen, dass Engineering-Aufwand echte Ergebnisse erzeugte, nicht nur gelieferte Artefakte, genau Thema 1.3s Ergebnisse-vor-Output-Prinzip, angewendet auf diese konkrete Dimension.
 
 ## Kernprinzipien
 
@@ -14,17 +14,17 @@ Für große Teams ist es das, was ein Metrikprogramm, das tatsächlich Ergebniss
 - **Mehrere, konvergierende Signale sollten genutzt werden, nie eine einzelne Leistungszahl.** Kein einzelner Stellvertreter ist zuverlässig genug, um allein zu stehen.
 - **Auf Team- oder Systemebene sollte gemessen werden.** Individuelle Ergebniszuschreibung ist meist unzuverlässig und lädt genau zu der Manipulation ein, vor der dieses Buch durchgängig warnt.
 - **Qualität ist Teil der Leistung, kein separates Anliegen.** Arbeit, die ausgeliefert wird, aber etwas anderes kaputt macht, hat nicht wirklich gut performt.
-- **Ein Leistungssignal ohne angehängte Entscheidung ist Dekoration**, genau gemäß dem allgemeinen Prinzip aus Kapitel 1.1, angewendet auf diese Dimension.
+- **Ein Leistungssignal ohne angehängte Entscheidung ist Dekoration**, genau gemäß dem allgemeinen Prinzip aus Thema 1.1, angewendet auf diese Dimension.
 
 ## Empfehlungen
 
 ### Mehrere konvergierende Signale kombinieren, statt eines Leistungswerts
 
-Leistungsbelege sollten aus mehreren Quellen gezogen werden: Change Failure Rate (Kapitel 2.10) und Rate entwichener Defekte (Kapitel 5.1) für Qualität, Deployment-Ergebnisse verknüpft mit tatsächlicher Feature-Adoption (Kapitel 5.2) dafür, ob die Arbeit etwas bewirkte, und qualitative Peer- oder Führungsbeurteilung des Beitrags eines Teams zu strategischen Zielen für Kontext, den eine reine Metrik nicht erfassen kann. Keines davon ist allein zuverlässig; gemeinsam, wenn sie zur selben Schlussfolgerung konvergieren, sind sie weit vertrauenswürdiger, als es eine einzelne Zahl je sein könnte.
+Leistungsbelege sollten aus mehreren Quellen gezogen werden: Change Failure Rate (Thema 2.10) und Rate entwichener Defekte (Thema 5.1) für Qualität, Deployment-Ergebnisse verknüpft mit tatsächlicher Feature-Adoption (Thema 5.2) dafür, ob die Arbeit etwas bewirkte, und qualitative Peer- oder Führungsbeurteilung des Beitrags eines Teams zu strategischen Zielen für Kontext, den eine reine Metrik nicht erfassen kann. Keines davon ist allein zuverlässig; gemeinsam, wenn sie zur selben Schlussfolgerung konvergieren, sind sie weit vertrauenswürdiger, als es eine einzelne Zahl je sein könnte.
 
 ### Auf Teamebene messen, individuelle Zuschreibung vermeiden
 
-Software-Ergebnisse sind selten das Produkt der Arbeit einer einzelnen Person allein; sie entstehen aus Designentscheidungen, Review-Feedback, vorheriger Arbeit von Menschen, die das Team inzwischen möglicherweise verlassen haben, und Zusammenarbeit über Grenzen hinweg. Ein Ergebnis einer einzelnen Ingenieurin oder einem einzelnen Ingenieur zuzuschreiben, ist meist eine falsche Präzision, die diese Realität ignoriert und einen starken Anreiz für Einzelpersonen schafft, Anerkennung zu schützen statt frei zusammenzuarbeiten, genau die Art von Anreizverzerrung, vor der Kapitel 1.2 warnt.
+Software-Ergebnisse sind selten das Produkt der Arbeit einer einzelnen Person allein; sie entstehen aus Designentscheidungen, Review-Feedback, vorheriger Arbeit von Menschen, die das Team inzwischen möglicherweise verlassen haben, und Zusammenarbeit über Grenzen hinweg. Ein Ergebnis einer einzelnen Ingenieurin oder einem einzelnen Ingenieur zuzuschreiben, ist meist eine falsche Präzision, die diese Realität ignoriert und einen starken Anreiz für Einzelpersonen schafft, Anerkennung zu schützen statt frei zusammenzuarbeiten, genau die Art von Anreizverzerrung, vor der Thema 1.2 warnt.
 
 ### Qualität direkt in die Definition von Leistung einfalten
 
@@ -32,11 +32,11 @@ Ein Feature, das pünktlich ausgeliefert wird, aber eine Welle von Produktions-I
 
 ### Leistungsdaten nutzen, um Investitions- und Prozessentscheidungen zu informieren, nicht individuelle Rankings
 
-Die produktive Nutzung von Leistungsdaten besteht darin zu entscheiden, wo weiter investiert werden sollte (ein Team, das beständig starke Ergebnisse liefert, verdient mehr Ressourcen und Autonomie) und wo untersucht werden sollte (ein Team, dessen Arbeit beständig nicht landet, verdient Hilfe, nicht Schuldzuweisung, gemäß der diagnostischen Rahmung aus Kapitel 1.1). Einzelpersonen oder Teams anhand von Leistungsdaten wettbewerblich gegeneinander zu ranken, lädt genau zu der Manipulation und dem Moralschaden ein, vor denen dieses Buch warnt, und erzeugt selten bessere Ergebnisse als die diagnostische Nutzung.
+Die produktive Nutzung von Leistungsdaten besteht darin zu entscheiden, wo weiter investiert werden sollte (ein Team, das beständig starke Ergebnisse liefert, verdient mehr Ressourcen und Autonomie) und wo untersucht werden sollte (ein Team, dessen Arbeit beständig nicht landet, verdient Hilfe, nicht Schuldzuweisung, gemäß der diagnostischen Rahmung aus Thema 1.1). Einzelpersonen oder Teams anhand von Leistungsdaten wettbewerblich gegeneinander zu ranken, lädt genau zu der Manipulation und dem Moralschaden ein, vor denen dieses Buch warnt, und erzeugt selten bessere Ergebnisse als die diagnostische Nutzung.
 
 ### Ehrlich über Zuschreibungsgrenzen sein, besonders bei Plattform- und ermöglichenden Teams
 
-Teams, die gemeinsame Infrastruktur, interne Tools oder Plattformfähigkeiten bauen (das Kapitel zu Plattform-Engineering im begleitenden Buch `software-engineering-guide` behandelt das direkt), sind mit ihrem Beitrag zu Ergebnissen oft mehrere Schritte von jeder einzelnen kundenseitigen Metrik entfernt. Die Leistung dieser Teams sollte über ihre Wirkung auf die Teams gemessen werden, die sie ermöglichen, Akzeptanz ihrer Plattform, Reduktion der von konsumierenden Teams berichteten Reibung, statt eine schlecht passende direkte Ergebnismetrik auf Arbeit zu zwingen, die von Natur aus indirekt ist.
+Teams, die gemeinsame Infrastruktur, interne Tools oder Plattformfähigkeiten bauen (das Thema zu Plattform-Engineering im begleitenden Buch `software-engineering-guide` behandelt das direkt), sind mit ihrem Beitrag zu Ergebnissen oft mehrere Schritte von jeder einzelnen kundenseitigen Metrik entfernt. Die Leistung dieser Teams sollte über ihre Wirkung auf die Teams gemessen werden, die sie ermöglichen, Akzeptanz ihrer Plattform, Reduktion der von konsumierenden Teams berichteten Reibung, statt eine schlecht passende direkte Ergebnismetrik auf Arbeit zu zwingen, die von Natur aus indirekt ist.
 
 ## Abwägungen: Vor- und Nachteile
 
@@ -59,7 +59,7 @@ Die zentrale Spannung ist **Präzision gegen Ehrlichkeit**. Eine einzelne Leistu
 
 4. **Wie messen wir die Leistung von Plattform- oder ermöglichenden Teams, deren Beitrag zu Ergebnissen indirekt ist?** Wenn die ehrliche Antwort „naja, gar nicht" ist, sollte diese Lücke benannt und direkt angegangen werden, statt diese Teams effektiv ungemessen oder unfair gegen kundenseitige Ergebnismetriken gemessen zu lassen, die nicht zu ihrer Arbeit passen.
 
-5. **Wurden Leistungsdaten je genutzt, um Einzelpersonen wettbewerblich gegeneinander zu ranken, formal oder informell?** Diese Abdrift, ähnlich dem Risiko bei Zufriedenheitsdaten aus Kapitel 3.2, schädigt sowohl die Ehrlichkeit der Daten als auch die Bereitschaft des Teams, offen zusammenzuarbeiten.
+5. **Wurden Leistungsdaten je genutzt, um Einzelpersonen wettbewerblich gegeneinander zu ranken, formal oder informell?** Diese Abdrift, ähnlich dem Risiko bei Zufriedenheitsdaten aus Thema 3.2, schädigt sowohl die Ehrlichkeit der Daten als auch die Bereitschaft des Teams, offen zusammenzuarbeiten.
 
 6. **Was schließen wir, wenn unsere konvergierenden Signale sich widersprechen, hohe Liefergeschwindigkeit, aber steigende Defektrate zum Beispiel, und geht unser Prozess mit diesem Widerspruch gut um?** Widerspruch zwischen Signalen ist selbst wertvolle Information; es sollte diskutiert werden, ob das eigene Team das aktuell als zu ignorierendes Rauschen oder als echten, untersuchungswürdigen Befund behandelt.
 
@@ -67,11 +67,11 @@ Die zentrale Spannung ist **Präzision gegen Ehrlichkeit**. Eine einzelne Leistu
 
 **Startup.** Leistung ist meist direkt sichtbar: Hat das Feature funktioniert, haben Kundinnen und Kunden es übernommen, hat sich die Metrik bewegt. Formale Multi-Signal-Messung ist auf dieser Ebene oft unnötig; das Risiko ist stattdessen, Erfolg oder Misserfolg zu schnell einer Person zuzuschreiben, in einem schnelllebigen, hochkollaborativen kleinen Team, in dem Anerkennung und Schuld selten nur einer Einzelperson gehören.
 
-**Kleinunternehmen.** Vorhandene Liefer- und Qualitätsdaten (Kapitel 2.10, Kapitel 5.1) sollten mit direktem, ehrlichem Gespräch darüber kombiniert werden, ob jüngste Arbeit dem Geschäft tatsächlich geholfen hat, statt formale Multi-Signal-Instrumentierung zu bauen, für deren Pflege keine Kapazität besteht.
+**Kleinunternehmen.** Vorhandene Liefer- und Qualitätsdaten (Thema 2.10, Thema 5.1) sollten mit direktem, ehrlichem Gespräch darüber kombiniert werden, ob jüngste Arbeit dem Geschäft tatsächlich geholfen hat, statt formale Multi-Signal-Instrumentierung zu bauen, für deren Pflege keine Kapazität besteht.
 
 **Enterprise.** Hier verdient sich die Disziplin der Multi-Signal-Messung auf Teamebene ihre Investition, da der Druck, Leistung auf eine einzelne vergleichbare Zahl über Dutzende Teams hinweg zu reduzieren, hier am stärksten ist und der Schaden durch falsche Präzision sich über die Ressourcenentscheidungen der gesamten Organisation summiert. Diesem Druck sollte explizit widerstanden und der Multi-Signal-Fall dafür gebaut werden, warum das zählt.
 
-**Behörden.** Zu zeigen, dass Engineering-Investition echte Ergebnisse erzeugte, nicht nur gelieferte Artefakte, ist oft die zentrale Frage, die ein Aufsichtsgremium stellt. Multi-Signal-Leistungsmessung, explizit an Ergebnismetriken geknüpft (Kapitel 5.3) statt an reine Lieferstellvertreter, gibt eine weit stärkere, vertretbarere Antwort als eine Aktivitäts- oder Lieferzählung allein.
+**Behörden.** Zu zeigen, dass Engineering-Investition echte Ergebnisse erzeugte, nicht nur gelieferte Artefakte, ist oft die zentrale Frage, die ein Aufsichtsgremium stellt. Multi-Signal-Leistungsmessung, explizit an Ergebnismetriken geknüpft (Thema 5.3) statt an reine Lieferstellvertreter, gibt eine weit stärkere, vertretbarere Antwort als eine Aktivitäts- oder Lieferzählung allein.
 
 ## Beispiele
 
@@ -112,7 +112,7 @@ Die Gesamtbetriebskosten sind höher als bei einem Einzelmetrik-Ansatz, weil Dat
 
 ## Die wichtigsten Erkenntnisse
 
-- Leistung misst, ob Arbeit ein **gutes Ergebnis** hervorbrachte, nicht wie viel Bewegung stattfand; sie sollte nicht mit Aktivität verwechselt werden (Kapitel 3.4).
+- Leistung misst, ob Arbeit ein **gutes Ergebnis** hervorbrachte, nicht wie viel Bewegung stattfand; sie sollte nicht mit Aktivität verwechselt werden (Thema 3.4).
 - **Mehrere, konvergierende Signale** sollten genutzt werden, nie eine einzelne Leistungszahl, und falscher Präzision sollte misstraut werden.
 - Gemessen werden sollte auf **Team- oder Systemebene**; individuelle Ergebniszuschreibung ist meist unzuverlässig und schädigt Zusammenarbeit.
 - **Qualität ist Teil der Leistung**, kein separates, unzusammenhängendes Anliegen.

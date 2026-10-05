@@ -40,7 +40,7 @@ WORD_FLOOR_ALLOWLIST: set[str] = set()
 _REF = r"\d{1,2}\.\d{1,2}"
 _DESC = r"(?:\s*\([^()]*\))?"
 _CONN = r"(?:[,;]?\s+(?:and\s+|or\s+|to\s+|through\s+)?|[,;]\s*|\s*[–-]\s*)"
-XREF_CHAIN = re.compile(rf"(?i)\bchapters?[,:]?\s+(?:{_REF}{_DESC}{_CONN}?)+")
+XREF_CHAIN = re.compile(rf"(?i)\btopics?[,:]?\s+(?:{_REF}{_DESC}{_CONN}?)+")
 
 # These files document the style rules, so they are allowed to quote the very
 # tokens the rules forbid (the em-dash character and the banned phrases). Every
@@ -83,13 +83,13 @@ disk = disk_by_locale[REFERENCE_LOCALE]
 
 # 0. Every locale has the identical set of chapter numbers.
 mismatched = {loc: sorted(disk_by_locale[loc] ^ disk) for loc in LOCALES if disk_by_locale[loc] != disk}
-check("every locale has the same chapter set", not mismatched, f"{mismatched}")
+check("every locale has the same topic set", not mismatched, f"{mismatched}")
 
 for loc in LOCALES:
     chapters = chapters_by_locale[loc]
 
     # 1. Exactly 63 chapters.
-    check(f"[{loc}] exactly 63 chapters", len(chapters) == 63, f"found {len(chapters)}")
+    check(f"[{loc}] exactly 63 topics", len(chapters) == 63, f"found {len(chapters)}")
 
     # 2. Per-part numbering is contiguous starting at N.0.
     byp = {}
@@ -114,7 +114,7 @@ for loc in LOCALES:
             t = read(f)
             miss = [s for s in REQUIRED_SECTIONS if s not in t]
             if miss: missing[os.path.basename(f)] = miss
-    check(f"[{loc}] substantive chapters have all required sections", not missing, f"{missing}")
+    check(f"[{loc}] substantive topics have all required sections", not missing, f"{missing}")
 
     # 4b. The required sections appear in exactly the template order (the sequence
     # of recognized ## headings, not just membership). Extra unrecognized headings
@@ -143,7 +143,7 @@ for loc in LOCALES:
             words = len(read(f).split())
             if words < WORD_FLOOR:
                 thin[f"{p}.{c}"] = words
-    check(f"[{loc}] substantive chapters have at least {WORD_FLOOR} words", not thin,
+    check(f"[{loc}] substantive topics have at least {WORD_FLOOR} words", not thin,
           f"offending counts: {dict(sorted(thin.items(), key=lambda kv: kv[1]))}")
 
     # 8. Wikipedia links are well-formed.
@@ -191,9 +191,9 @@ for f in all_md:
             broken.append(f"{os.path.relpath(f, ROOT)} -> {m.group(1)}")
 check("all internal .md links resolve", not broken, f"{broken[:8]}")
 
-# 7b. Prose cross-references ("chapter 2.1", "chapters 2.1-2.8") in the site
-# sources point at chapters that exist on disk, so the site's auto-linking
-# never leaves a reference unlinked and readers never chase a chapter that is
+# 7b. Prose cross-references ("topic 2.1", "topics 2.1-2.8") in the site
+# sources point at topics that exist on disk, so the site's auto-linking
+# never leaves a reference unlinked and readers never chase a topic that is
 # not there.
 dangling = []
 for f in all_md:
@@ -204,7 +204,7 @@ for f in all_md:
     for cm in XREF_CHAIN.finditer(t):
         for num in re.findall(_REF, cm.group(0)):
             if num not in disk:
-                dangling.append(f"{rel}: chapter {num}")
+                dangling.append(f"{rel}: topic {num}")
 check("prose cross-references point at existing chapters", not dangling,
       f"{dangling[:8]}")
 
@@ -227,7 +227,7 @@ if os.path.exists(sp):
         want = f"{d} {spec_titles.get(d, '')}"
         if h1 != want:
             tmm.append(f"{os.path.basename(f)}: {h1!r} != {want!r}")
-    check(f"[{REFERENCE_LOCALE}] chapter H1 titles match spec/structure.md", not tmm, f"{tmm[:4]}")
+    check(f"[{REFERENCE_LOCALE}] topic H1 titles match spec/structure.md", not tmm, f"{tmm[:4]}")
 else:
     check("spec/structure.md exists", False, "file missing")
 

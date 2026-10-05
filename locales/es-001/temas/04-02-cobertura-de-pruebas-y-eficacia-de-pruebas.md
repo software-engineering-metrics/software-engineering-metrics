@@ -7,7 +7,7 @@ mide el porcentaje de código ejecutado por una suite de pruebas: cobertura
 de líneas, cobertura de ramas, o la más estricta cobertura de rutas. Es una
 de las métricas más rastreadas de todo este libro, barata de calcular, fácil
 de visualizar como un único porcentaje, y en consecuencia una de las que más
-se manipula, exactamente de la forma que predice el capítulo 1.2 para
+se manipula, exactamente de la forma que predice el tema 1.2 para
 cualquier métrica que se convierte en un objetivo. Una suite de pruebas
 puede lograr una cobertura alta mientras verifica casi nada significativo,
 porque la cobertura mide si el código se ejecutó durante una ejecución de
@@ -15,18 +15,18 @@ pruebas, no si la prueba realmente comprobó que el código se comportaba
 correctamente.
 
 Esta brecha entre cobertura y eficacia genuina de las pruebas no es una nota
-al pie menor; es la preocupación central de este capítulo. Una prueba que
+al pie menor; es la preocupación central de este tema. Una prueba que
 llama a una función y no afirma nada sobre su resultado aumenta la cobertura
 de forma idéntica a una prueba que verifica a fondo el comportamiento de la
-función en casos límite. La solución que recomienda este capítulo, las
+función en casos límite. La solución que recomienda este tema, las
 **pruebas de mutación**, introduce deliberadamente fallos pequeños y
 artificiales en el código y comprueba si la suite de pruebas realmente los
-detecta, es la respuesta directa a esta brecha, y este capítulo la trata
+detecta, es la respuesta directa a esta brecha, y este tema la trata
 como el complemento necesario de la cobertura, no como algo opcional.
 
 Para los equipos grandes, los objetivos de cobertura a menudo se adoptan en
 toda la organización como una puerta de calidad, precisamente el tipo de
-métrica incentivada y de alta visibilidad que el capítulo 1.2 advierte que
+métrica incentivada y de alta visibilidad que el tema 1.2 advierte que
 es más susceptible de manipulación. Las organizaciones empresariales y
 gubernamentales que establecen un requisito de porcentaje de cobertura
 general sin una comprobación de eficacia emparejada están, en efecto,
@@ -40,7 +40,7 @@ sin la mejora correspondiente en la prevención real de defectos.
   ejecutada por una prueba no dice nada sobre si la prueba comprobó algo
   significativo sobre ella.
 - **Un objetivo de cobertura sin una comprobación de eficacia es un caso de
-  manual de la ley de Goodhart** (capítulo 1.2): el número mejora mientras
+  manual de la ley de Goodhart** (tema 1.2): el número mejora mientras
   la calidad genuina no lo hace.
 - **Las pruebas de mutación son el complemento necesario de la cobertura**,
   no un sustituto; usa ambas juntas.
@@ -93,7 +93,7 @@ descuido.
 Las formas más comunes en que se manipula la cobertura, una vez que se
 convierte en un objetivo, incluyen: pruebas que llaman a una función pero no
 afirman nada significativo sobre el resultado (la manipulación de umbral
-del capítulo 1.2 aplicada a esta métrica), desactivar o eliminar pruebas que
+del tema 1.2 aplicada a esta métrica), desactivar o eliminar pruebas que
 fallan en lugar de corregir el problema subyacente, y excluir por completo
 del cálculo de cobertura el código difícil de probar en lugar de abordar
 por qué es difícil de probar. Audita periódicamente una muestra de pruebas
@@ -190,7 +190,7 @@ para actuar sobre lo que revelan.
 **Empresa.** Los objetivos de cobertura generales, aplicados a toda la
 organización, son un error común y de consecuencias importantes a esta
 escala, ya que incentivan exactamente la manipulación que describe este
-capítulo en docenas de equipos simultáneamente. Establece expectativas de
+tema en docenas de equipos simultáneamente. Establece expectativas de
 cobertura basadas en riesgo que varíen según la criticidad del servicio, e
 invierte en infraestructura de pruebas de mutación específicamente para tus
 sistemas de mayor riesgo.
@@ -201,7 +201,7 @@ contundente y fácil de especificar para el aseguramiento de la calidad.
 Cuando sea posible, empareja cualquier porcentaje de cobertura exigido
 contractualmente con un requisito de eficacia basado en pruebas de mutación
 o defectos, de modo que el incentivo contractual no premie inadvertidamente
-exactamente el relleno de pruebas de bajo valor que advierte este capítulo.
+exactamente el relleno de pruebas de bajo valor que advierte este tema.
 
 ## Ejemplos
 
@@ -260,7 +260,7 @@ brecha no detectada en la eficacia de las pruebas es más alto.
   directo:** mide ejecución, no verificación.
 - **Escribir pruebas principalmente para satisfacer una puerta de
   cobertura:** produce exactamente el patrón de manipulación de umbral de
-  bajo valor que advierte el capítulo 1.2.
+  bajo valor que advierte el tema 1.2.
 - **Desactivar o eliminar pruebas fallidas en lugar de corregir el problema
   subyacente:** elimina protección real mientras apenas afecta al número
   reportado.

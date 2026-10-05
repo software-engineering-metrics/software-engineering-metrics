@@ -10,8 +10,8 @@ usuarios o por pruebas; **riesgos**, trabajo de seguridad, cumplimiento,
 privacidad y gobernanza que protege al negocio; y **deuda**, [deuda
 técnica](https://en.wikipedia.org/wiki/Technical_debt), mejora
 arquitectónica y trabajo de infraestructura que habilita la velocidad
-futura. El capítulo 2.1 presentó el marco al que pertenecen estas cuatro
-categorías; este capítulo profundiza en la propia taxonomía, porque las
+futura. El tema 2.1 presentó el marco al que pertenecen estas cuatro
+categorías; este tema profundiza en la propia taxonomía, porque las
 categorías solo entregan valor si un equipo clasifica su trabajo en ellas
 con honestidad y consistencia.
 
@@ -71,7 +71,7 @@ nueva de trabajo se clasifique frente a esa definición en el momento en que
 entra en la cadena de valor, no después de completarse. Una definición
 acordada de antemano resiste la tentación de clasificar de forma
 retroactiva basándose en cómo acabó viéndose una pieza de trabajo, que es
-precisamente el riesgo de manipulación que este capítulo nombra directamente
+precisamente el riesgo de manipulación que este tema nombra directamente
 más abajo.
 
 ### Reporta la distribución de flujo como una tendencia, no como una instantánea única
@@ -96,9 +96,9 @@ ingeniería decide en silencio por su cuenta.
 ### Contrasta la clasificación de elementos de flujo con evidencia independiente
 
 Compara periódicamente tu distribución de flujo con métricas que no
-dependan de la autoclasificación: la tasa de defectos escapados (capítulo
-5.1), la medición de deuda técnica (capítulo 4.5) y las métricas de gestión
-de vulnerabilidades (capítulo 6.4). Si los defectos o las vulnerabilidades
+dependan de la autoclasificación: la tasa de defectos escapados (tema
+5.1), la medición de deuda técnica (tema 4.5) y las métricas de gestión
+de vulnerabilidades (tema 6.4). Si los defectos o las vulnerabilidades
 suben mientras las cuotas de elementos de flujo de "defectos" y "riesgo" se
 mantienen planas o se reducen, ese desajuste es la señal más clara
 disponible de que la clasificación se ha desviado de la realidad.
@@ -174,7 +174,7 @@ de trabajo real.
 6. **¿Podría alguien de nuestro equipo reetiquetar en silencio un elemento
    de deuda o riesgo como funcionalidad bajo presión de entrega, y lo
    notaríamos actualmente si lo hiciera?** Este es el riesgo de
-   manipulación central del capítulo expuesto directamente. Debate si tu
+   manipulación central del tema expuesto directamente. Debate si tu
    proceso actual realmente lo detectaría, no solo si alguien lo haría de
    forma deliberada.
 
@@ -263,7 +263,7 @@ independiente importa tanto como la adopción inicial.
 ## Antipatrones y errores comunes
 
 - **Clasificar el trabajo de forma retroactiva, después de conocer el
-  resultado:** el vector de manipulación central de este capítulo. Bajo
+  resultado:** el vector de manipulación central de este tema. Bajo
   presión de entrega, un equipo puede etiquetar en silencio trabajo de
   deuda o riesgo como funcionalidad a posteriori, o redondear un elemento
   ambiguo hacia el tipo que mejor se vea en el gráfico de distribución, sin
@@ -271,9 +271,9 @@ independiente importa tanto como la adopción inicial.
   barrera de contención es la clasificación en el momento de la entrada
   frente a una definición escrita, combinada con auditorías periódicas que
   comparan la distribución de flujo con evidencia independiente como la
-  tasa de defectos escapados (capítulo 5.1) y las métricas de
-  vulnerabilidades (capítulo 6.4), la misma disciplina de auditoría contra
-  evidencia independiente que pide el capítulo 1.2 para cada métrica de
+  tasa de defectos escapados (tema 5.1) y las métricas de
+  vulnerabilidades (tema 6.4), la misma disciplina de auditoría contra
+  evidencia independiente que pide el tema 1.2 para cada métrica de
   este libro.
 - **Dejar que las funcionalidades absorban de forma consistente casi toda
   la capacidad (el patrón de fábrica de funcionalidades):** priva en
@@ -327,7 +327,7 @@ independiente importa tanto como la adopción inicial.
 - **No existe una distribución universalmente sana**; la mezcla correcta
   depende de la fase de un producto y debería ser un objetivo deliberado y
   negociado con las partes interesadas de negocio.
-- El vector de manipulación central del capítulo es la **clasificación
+- El vector de manipulación central del tema es la **clasificación
   retroactiva**, reetiquetar en silencio trabajo de deuda o riesgo como
   funcionalidad a posteriori; la barrera de contención es la clasificación
   en el momento de la entrada más auditorías periódicas contra evidencia

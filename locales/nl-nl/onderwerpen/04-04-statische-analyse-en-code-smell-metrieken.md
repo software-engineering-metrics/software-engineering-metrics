@@ -2,9 +2,9 @@
 
 ## Overzicht en motivatie
 
-**[Statische analyse](https://en.wikipedia.org/wiki/Static_program_analysis)**-gereedschappen scannen broncode zonder het uit te voeren, patronen vlaggend bekend te correleren met defecten, beveiligingsvulnerabiliteiten, of onderhoudbaarheidsproblemen: onbereikbare code, ongesloten resources, verdachte typedwang, gedupliceerde logica, en de bredere categorie **code smells**, structurele patronen die niet noodzakelijk bugs zijn maar vaak code moeilijker maken om te begrijpen, te testen, of veilig te wijzigen. Statische analyse is de geautomatiseerde, continue laag onder de meer gerichte metrieken in de andere hoofdstukken van dit deel, draaiend op elke commit en problemen aan de oppervlakte brengend op het moment dat ze geïntroduceerd worden in plaats van te wachten op een periodieke audit.
+**[Statische analyse](https://en.wikipedia.org/wiki/Static_program_analysis)**-gereedschappen scannen broncode zonder het uit te voeren, patronen vlaggend bekend te correleren met defecten, beveiligingsvulnerabiliteiten, of onderhoudbaarheidsproblemen: onbereikbare code, ongesloten resources, verdachte typedwang, gedupliceerde logica, en de bredere categorie **code smells**, structurele patronen die niet noodzakelijk bugs zijn maar vaak code moeilijker maken om te begrijpen, te testen, of veilig te wijzigen. Statische analyse is de geautomatiseerde, continue laag onder de meer gerichte metrieken in de andere onderwerpen van dit deel, draaiend op elke commit en problemen aan de oppervlakte brengend op het moment dat ze geïntroduceerd worden in plaats van te wachten op een periodieke audit.
 
-De centrale zorg van dit hoofdstuk is het gat tussen wat statische-analysegereedschappen rapporteren en wat daadwerkelijk ertoe doet. Een gereedschap kan duizenden bevindingen vlaggen over een grote codebase, en het aantal bevindingen alleen is een slechte metriek, omdat het triviale stijlvoorkeuren vermengt met echt, ernstig risico, en het kan omlaaggedreven worden door suppressie net zo makkelijk als door echte fixes. De waarde van statische analyse komt niet van de ruwe bevindingstelling maar van hoe goed een organisatie ernst trieert, regressie voorkomt, en de verleiding weerstaat om het oordeel van het gereedschap te behandelen als een vervanging voor menselijke review in plaats van een complement erop.
+De centrale zorg van dit onderwerp is het gat tussen wat statische-analysegereedschappen rapporteren en wat daadwerkelijk ertoe doet. Een gereedschap kan duizenden bevindingen vlaggen over een grote codebase, en het aantal bevindingen alleen is een slechte metriek, omdat het triviale stijlvoorkeuren vermengt met echt, ernstig risico, en het kan omlaaggedreven worden door suppressie net zo makkelijk als door echte fixes. De waarde van statische analyse komt niet van de ruwe bevindingstelling maar van hoe goed een organisatie ernst trieert, regressie voorkomt, en de verleiding weerstaat om het oordeel van het gereedschap te behandelen als een vervanging voor menselijke review in plaats van een complement erop.
 
 Voor grote teams is statische analyse de enige praktische manier om een basislijn van codekwaliteit en beveiligingshygiëne af te dwingen over een codebase groter dan enig team handmatig volledig kan reviewen. Grote bedrijven en overheidsorganisaties, vaak compliance-vereisten gezicht gevend rond veilige codeerpraktijken, hangen af van statische analyse als gedocumenteerd, auditeerbaar bewijs dat een basislijnniveau doorlichting consistent toegepast werd, niet alleen wanneer een menselijke reviewer toevallig een probleem opmerkte.
 
@@ -24,7 +24,7 @@ Configureer je statische-analysetooling om bevindingen te classificeren op ernst
 
 ### Poort op nieuwe geïntroduceerde bevindingen, niet op de totale historische backlog
 
-De meeste gevestigde codebases dragen een legacy-backlog bevindingen die van voor huidige praktijk dateren en prohibitief duur zouden zijn om allemaal tegelijk te fixen. In plaats van al het werk te blokkeren totdat de hele backlog gewist is, poort CI op of een specifieke wijziging nieuwe bevindingen introduceert boven een overeengekomen ernstdrempel, de backlog geleidelijk latend krimpen door normaal onderhoud terwijl verdere accumulatie voorkomen wordt. Dit onderscheid weerspiegelt de dekkingsvloer-aanbeveling van hoofdstuk 4.2: beschermen tegen regressie in plaats van een onrealistische, alles-tegelijk-fix te eisen.
+De meeste gevestigde codebases dragen een legacy-backlog bevindingen die van voor huidige praktijk dateren en prohibitief duur zouden zijn om allemaal tegelijk te fixen. In plaats van al het werk te blokkeren totdat de hele backlog gewist is, poort CI op of een specifieke wijziging nieuwe bevindingen introduceert boven een overeengekomen ernstdrempel, de backlog geleidelijk latend krimpen door normaal onderhoud terwijl verdere accumulatie voorkomen wordt. Dit onderscheid weerspiegelt de dekkingsvloer-aanbeveling van onderwerp 4.2: beschermen tegen regressie in plaats van een onrealistische, alles-tegelijk-fix te eisen.
 
 ### Beheer actief het valspositieventempo
 
@@ -36,7 +36,7 @@ Zelfs een legitieme, niet-valspositieve bevinding rechtvaardigt niet altijd een 
 
 ### Combineer statische analyse met de andere codekwaliteitsmetrieken in dit deel
 
-Statische-analysebevindingen, complexiteitsscores (hoofdstuk 4.1), en hotspotdata (hoofdstuk 4.3) zijn complementair bewijs, geen concurrerende metrieken. Een bestand met een hoge concentratie onopgeloste statische-analysebevindingen dat ook een churn-complexiteit-hotspot is, is een bijzonder sterke kandidaat voor geprioriteerde aandacht, omdat meervoudige onafhankelijke signalen convergeren op dezelfde conclusie.
+Statische-analysebevindingen, complexiteitsscores (onderwerp 4.1), en hotspotdata (onderwerp 4.3) zijn complementair bewijs, geen concurrerende metrieken. Een bestand met een hoge concentratie onopgeloste statische-analysebevindingen dat ook een churn-complexiteit-hotspot is, is een bijzonder sterke kandidaat voor geprioriteerde aandacht, omdat meervoudige onafhankelijke signalen convergeren op dezelfde conclusie.
 
 ## Afwegingen: voor- en nadelen
 
@@ -47,7 +47,7 @@ Statische-analysebevindingen, complexiteitsscores (hoofdstuk 4.1), en hotspotdat
 | Poort op hele historische backlog | Maximaliseert uiteindelijke codezuiverheid | Vaak onpraktisch voor gevestigde codebases; kan al het werk stoppen |
 | Poort alleen op nieuwe bevindingen | Praktisch, voorkomt regressie, laat backlog geleidelijk krimpen | Legacy-problemen blijven langer bestaan zonder een doelbewust herstelplan |
 
-De centrale spanning is **grondigheid versus praktischheid**. Een statische-analysebeleid dat eist dat de hele historische backlog opgelost wordt voordat enig nieuw werk doorgaat is grondig maar meestal onpraktisch voor elke codebase met echte geschiedenis, en teams onder die druk neigen bevindingen massaal te onderdrukken in plaats van ze echt te fixen. Los de spanning op door strikt te poorten op nieuwe bevindingen terwijl je een afzonderlijke, doelbewust getempode herstelinspanning draait tegen de legacy-backlog, geprioriteerd met de ernst- en cross-referentietechnieken die dit hoofdstuk en hoofdstuk 4.3 aanbevelen.
+De centrale spanning is **grondigheid versus praktischheid**. Een statische-analysebeleid dat eist dat de hele historische backlog opgelost wordt voordat enig nieuw werk doorgaat is grondig maar meestal onpraktisch voor elke codebase met echte geschiedenis, en teams onder die druk neigen bevindingen massaal te onderdrukken in plaats van ze echt te fixen. Los de spanning op door strikt te poorten op nieuwe bevindingen terwijl je een afzonderlijke, doelbewust getempode herstelinspanning draait tegen de legacy-backlog, geprioriteerd met de ernst- en cross-referentietechnieken die dit onderwerp en onderwerp 4.3 aanbevelen.
 
 ## Vragen om met je team te bespreken
 
@@ -116,7 +116,7 @@ De totale eigendomskosten omvatten de tooling zelf, vaak gratis of laagkostend v
 - Poort CI op **nieuwe geïntroduceerde bevindingen**, niet de hele historische backlog, om regressie te voorkomen zonder een onpraktische alles-tegelijk-fix te eisen.
 - Beheer actief **valspositieventempo**; onbeheerde ruis vernietigt vertrouwen in het gereedschap en leidt tot bevindingen massaal genegeerd worden.
 - Behandel bevindingen als een **prompt voor menselijke review**, met zichtbare, gedocumenteerde afwijzingen, geen automatisch oordeel of stille suppressie.
-- Cross-refereer statische analyse met **complexiteit- en hotspotdata** (hoofdstukken 4.1, 4.3) voor convergent, sterker prioriteringsbewijs.
+- Cross-refereer statische analyse met **complexiteit- en hotspotdata** (onderwerpen 4.1, 4.3) voor convergent, sterker prioriteringsbewijs.
 
 ## Bronnen en verder lezen
 

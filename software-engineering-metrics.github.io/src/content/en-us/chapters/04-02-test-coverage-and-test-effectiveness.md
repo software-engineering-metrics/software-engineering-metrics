@@ -7,24 +7,24 @@ the percentage of code executed by a test suite: line coverage, branch
 coverage, or the stricter path coverage. It is one of the most widely
 tracked metrics in this entire book, cheap to compute, easy to visualize as
 a single percentage, and consequently one of the most frequently gamed, in
-exactly the way chapter 1.2 predicts for any metric that becomes a target.
+exactly the way topic 1.2 predicts for any metric that becomes a target.
 A test suite can achieve high coverage while verifying almost nothing
 meaningful, because coverage measures whether code executed during a test
 run, not whether the test actually checked that the code behaved correctly.
 
 This gap between coverage and genuine test effectiveness is not a minor
-footnote; it is the central concern of this chapter. A test that calls a
+footnote; it is the central concern of this topic. A test that calls a
 function and asserts nothing about its result increases coverage identically
 to a test that thoroughly verifies the function's behavior across edge
-cases. The fix this chapter recommends, **mutation testing**, deliberately
+cases. The fix this topic recommends, **mutation testing**, deliberately
 introduces small, artificial faults into the code and checks whether the
 test suite actually catches them, is the direct answer to this gap, and this
-chapter treats it as coverage's necessary complement, not an optional
+topic treats it as coverage's necessary complement, not an optional
 extra.
 
 For large teams, coverage targets are often adopted organization-wide as a
 quality gate, precisely the kind of incentivized, high-visibility metric
-chapter 1.2 warns is most exposed to gaming. Enterprise and government
+topic 1.2 warns is most exposed to gaming. Enterprise and government
 organizations that set a blanket coverage percentage requirement without a
 paired effectiveness check are, in effect, incentivizing exactly the
 threshold-gaming pattern this book describes: trivial tests written purely
@@ -37,7 +37,7 @@ prevention.
   test says nothing about whether the test checked anything meaningful
   about it.
 - **A coverage target with no effectiveness check is a textbook Goodhart's
-  law setup** (chapter 1.2): the number improves while genuine quality does
+  law setup** (topic 1.2): the number improves while genuine quality does
   not.
 - **Mutation testing is coverage's necessary complement**, not a
   replacement; use both together.
@@ -83,7 +83,7 @@ code as a deliberate, informed trade-off rather than an oversight.
 
 The most common ways coverage gets gamed, once it becomes a target,
 include: tests that call a function but assert nothing meaningful about the
-result (chapter 1.2's threshold gaming applied to this metric), disabling
+result (topic 1.2's threshold gaming applied to this metric), disabling
 or deleting tests that fail rather than fixing the underlying problem, and
 excluding hard-to-test code from coverage calculation entirely rather than
 addressing why it is hard to test. Periodically audit a sample of tests
@@ -169,7 +169,7 @@ it reveals.
 
 **Enterprise.** Blanket, organization-wide coverage targets are a common
 and consequential mistake at this scale, since they incentivize exactly the
-gaming this chapter describes across dozens of teams simultaneously.
+gaming this topic describes across dozens of teams simultaneously.
 Establish risk-based coverage expectations that vary by service criticality,
 and invest in mutation testing infrastructure for your highest-risk systems
 specifically.
@@ -179,7 +179,7 @@ compliance documentation as a blunt, easily specified proxy for quality
 assurance. Where possible, pair any contractually required coverage
 percentage with a mutation-testing or defect-based effectiveness
 requirement, so the contractual incentive does not inadvertently reward
-exactly the low-value test padding this chapter warns against.
+exactly the low-value test padding this topic warns against.
 
 ## Examples
 
@@ -229,7 +229,7 @@ cost of an undetected gap in test effectiveness is highest.
 - **Treating coverage percentage as a direct quality verdict:** it measures
   execution, not verification.
 - **Writing tests primarily to satisfy a coverage gate:** produces exactly
-  the low-value, threshold-gaming pattern chapter 1.2 warns against.
+  the low-value, threshold-gaming pattern topic 1.2 warns against.
 - **Disabling or deleting failing tests instead of fixing the underlying
   problem:** removes real protection while barely affecting the reported
   number.

@@ -11,9 +11,13 @@ straight into an issue. Needs only Python 3, like tests/validate.py.
 import glob
 import os
 import re
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from section_names import section_dir
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CH = os.path.join(ROOT, "locales", "en-gb-oxendict", "chapters")
+CH = os.path.join(ROOT, "locales", "en-gb-oxendict", section_dir("en-gb-oxendict", "chapters"))
 
 # The depth every substantive chapter should reach (spec/conventions.md); the
 # enforced floor in tests/validate.py is lower and shrinks the gap over time.

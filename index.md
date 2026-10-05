@@ -15,17 +15,17 @@ The book is published as a website at
 - **[locales/en-gb-oxendict/front-matter/what-are-software-engineering-metrics.md](locales/en-gb-oxendict/front-matter/what-are-software-engineering-metrics.md)** : the opening essay. Start here.
 - **[locales/en-gb-oxendict/front-matter/introduction.md](locales/en-gb-oxendict/front-matter/introduction.md)** : who the book is for and how it is organized.
 - **[locales/en-gb-oxendict/front-matter/table-of-contents.md](locales/en-gb-oxendict/front-matter/table-of-contents.md)** : the contents page.
-- **[locales/en-gb-oxendict/chapters/](locales/en-gb-oxendict/chapters/)** : the chapter files, named `PP-CC-slug.md`, identical across every locale.
+- **[locales/en-gb-oxendict/topics/](locales/en-gb-oxendict/topics/)** : the chapter files, named `PP-CC-slug.md`, identical across every locale.
 
 ## The appendices (Part 9)
 
-- **[Glossary](locales/en-gb-oxendict/chapters/09-01-glossary.md)** : definitions of key terms and acronyms.
-- **[Metric definitions and formulas reference](locales/en-gb-oxendict/chapters/09-02-metric-definitions-and-formulas-reference.md)** : every formula in the book, in one place.
-- **[Checklists](locales/en-gb-oxendict/chapters/09-03-checklists.md)** : ready-to-use review, launch, and audit checklists.
-- **[Templates](locales/en-gb-oxendict/chapters/09-04-templates.md)** : a metrics charter, a dashboard spec, and a review agenda.
-- **[Maturity self-assessment](locales/en-gb-oxendict/chapters/09-05-maturity-self-assessment.md)** : the maturity model from every chapter, consolidated.
-- **[References and further reading](locales/en-gb-oxendict/chapters/09-06-references-and-further-reading.md)** : the consolidated bibliography.
-- **[Index](locales/en-gb-oxendict/chapters/09-07-index.md)** : a subject index.
+- **[Glossary](locales/en-gb-oxendict/topics/09-01-glossary.md)** : definitions of key terms and acronyms.
+- **[Metric definitions and formulas reference](locales/en-gb-oxendict/topics/09-02-metric-definitions-and-formulas-reference.md)** : every formula in the book, in one place.
+- **[Checklists](locales/en-gb-oxendict/topics/09-03-checklists.md)** : ready-to-use review, launch, and audit checklists.
+- **[Templates](locales/en-gb-oxendict/topics/09-04-templates.md)** : a metrics charter, a dashboard spec, and a review agenda.
+- **[Maturity self-assessment](locales/en-gb-oxendict/topics/09-05-maturity-self-assessment.md)** : the maturity model from every chapter, consolidated.
+- **[References and further reading](locales/en-gb-oxendict/topics/09-06-references-and-further-reading.md)** : the consolidated bibliography.
+- **[Index](locales/en-gb-oxendict/topics/09-07-index.md)** : a subject index.
 
 ## Governance and specification
 

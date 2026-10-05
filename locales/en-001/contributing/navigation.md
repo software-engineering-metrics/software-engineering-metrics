@@ -7,7 +7,7 @@ reference locale, `en-gb-oxendict`):
 - `README.md` (the table of contents on the repository home page; reference locale only)
 - `locales/<locale>/index.md` (the home page of the published site)
 - `locales/<locale>/front-matter/table-of-contents.md`
-- `locales/<locale>/chapters/09-07-index.md` (the subject index, with links)
+- `locales/<locale>/topics/09-07-index.md` (the subject index, with links)
 
 They are produced by
 [`tools/gen_nav.py`](https://github.com/software-engineering-metrics/software-engineering-metrics/blob/main/tools/gen_nav.py).
@@ -28,7 +28,7 @@ generated titles) are up to date before `gen_nav.py` reads them; see
 
 ## How it works
 
-For each locale, `gen_nav.py` reads every `locales/<locale>/chapters/*.md`
+For each locale, `gen_nav.py` reads every `locales/<locale>/topics/*.md`
 file, sorts by decimal number, groups by part, and:
 
 - builds the part-by-part table of contents from each chapter's H1 title,
@@ -36,7 +36,7 @@ file, sorts by decimal number, groups by part, and:
   `locales/<locale>/front-matter/table-of-contents.md` (and, for the
   reference locale only, `README.md`),
 - scans the substantive chapters (Parts 1 through 8) for a fixed list of key
-  terms and writes the subject index to `locales/<locale>/chapters/09-07-index.md`.
+  terms and writes the subject index to `locales/<locale>/topics/09-07-index.md`.
 
 The shared boilerplate text (the intro paragraph, "How to read this book",
 "Cross-cutting themes", and the part titles) is localized the same way as

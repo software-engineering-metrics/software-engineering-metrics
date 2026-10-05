@@ -1,7 +1,7 @@
 # Ejemplo: especificación de panel para un panel de métricas de entrega
 
 Una especificación de panel trabajada, siguiendo el
-[capítulo 8.1, Diseñar un panel de métricas de ingeniería](../chapters/08-01-diseñar-un-panel-de-métricas-de-ingeniería.md).
+[capítulo 8.1, Diseñar un panel de métricas de ingeniería](../temas/08-01-diseñar-un-panel-de-métricas-de-ingeniería.md).
 Lo que importa es la forma: una audiencia nombrada, un número pequeño de
 casillas, un estándar de visualización honesto, y una cadencia de
 actualización declarada.

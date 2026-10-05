@@ -5,6 +5,14 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ## [Unreleased]
 
+### Changed
+
+- Translated every section directory name under `locales/`: `chapters/` is
+  now `topics/` (and its translation in each other locale, e.g. `temas/`,
+  `sujets/`, `themen/`), and `es-001`'s `examples/` is `ejemplos/`. The names
+  live in `spec/section-names.json`; the tools, tests, and the site's content
+  sync read them from there, and the site's URLs are unchanged.
+
 ### Added
 
 - Added Russian (`ru-001`) and Chinese (`zh-001`) as the 21st and 22nd
@@ -158,7 +166,7 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
   `pnpm-workspace.yaml` overrides, working around a real published bug in
   `svelte-picker-bar` 0.1.0's own dependency ranges (see each picker's
   `CHANGELOG.md`, "0.1.2", and this site's `AGENTS.md`).
-- Removed the home page's stat row (parts/chapters/"Free Always") and its
+- Removed the home page's stat row (parts/topics/"Free Always") and its
   "How to read it" section, and replaced the "Browse the nine parts" card
   grid with a plain bullet list.
 

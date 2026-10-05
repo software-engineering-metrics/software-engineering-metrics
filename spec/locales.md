@@ -89,7 +89,7 @@ Portuguese, Portugal (`pt-pt`), Japanese, Japan (`ja-jp`), Russian,
 Russia (`ru-ru`), French, France (`fr-fr`), Swedish, Sweden
 (`sv-se`), Dutch, Netherlands (`nl-nl`), Welsh, Great Britain
 (`cy-gb`), Arabic (`ar-001`), Bengali (`bn-001`), French (`fr-001`), Russian
-(`ru-001`), and Chinese (`zh-001`), each with all 63 chapters and a `locales/<code>/chapters/` directory on disk.
+(`ru-001`), and Chinese (`zh-001`), each with all 63 chapters and a `locales/<code>/topics/` directory on disk.
 `cy-gb` is identical in content to `cy-001`, `ar-001` to `ar-eg`, and
 `bn-001` to `bn-bd`, `fr-001` to `fr-fr`, `ru-001` to `ru-ru`, and
 `zh-001` to `zh-cn` (none has country-specific usage to remove), each with the same relationship as
@@ -115,6 +115,22 @@ the default locale's intro copy), per
 `SERVED_LOCALE_CODES` and served at their own locale-prefixed path;
 `de-de`, `ar-eg`, `bn-bd`, `hi-id`, `ko-kr`, `es-es`, `pt-pt`, `ja-jp`,
 `ru-ru`, `fr-fr`, `sv-se`, and `nl-nl` are not yet wired into the site.
+
+## Section directory names
+
+The section directories inside each locale are named per locale, and the
+names live in [`section-names.json`](section-names.json): a `default` map
+plus per-locale overrides. Locale codes are identifiers and are never
+translated, but the section names are. The `chapters` section is called
+`topics/` in the English locales and is translated in every other locale
+(`temas/` in `es-es`, `sujets/` in `fr-fr`, `themen/` in `de-de`, and so
+on); `es-001` also translates `examples` to `ejemplos/`. The section keys
+(`chapters`, `front-matter`, `examples`, `contributing`, `project`) are
+canonical identifiers: the tools read the real directory through
+`tools/section_names.py`, and the site keeps its canonical names and URLs by
+mapping the directories (and relative links) back in
+`scripts/sync-content.mjs`. Chapter filenames and the book's prose are
+unchanged.
 
 ## Planned translated locales
 

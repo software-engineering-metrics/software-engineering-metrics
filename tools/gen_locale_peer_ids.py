@@ -22,6 +22,9 @@ import os
 import sys
 import uuid
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from section_names import section_dir
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOCALES = ["en-gb-oxendict", "en-001", "en-gb", "en-us"]
 REFERENCE_LOCALE = "en-gb-oxendict"
@@ -29,7 +32,7 @@ SECTIONS = ["chapters", "front-matter", "examples", "contributing", "project"]
 
 
 def sidecar_path(locale, section, basename):
-    return os.path.join(ROOT, "locales", locale, section, basename[: -len(".md")] + ".locale-peer-id")
+    return os.path.join(ROOT, "locales", locale, section_dir(locale, section), basename[: -len(".md")] + ".locale-peer-id")
 
 
 def existing_id(section, basename):
@@ -45,10 +48,10 @@ def main():
     written = 0
     checked = 0
     for section in SECTIONS:
-        section_dir = os.path.join(ROOT, "locales", REFERENCE_LOCALE, section)
-        if not os.path.isdir(section_dir):
+        ref_dir = os.path.join(ROOT, "locales", REFERENCE_LOCALE, section_dir(REFERENCE_LOCALE, section))
+        if not os.path.isdir(ref_dir):
             continue
-        for basename in sorted(os.listdir(section_dir)):
+        for basename in sorted(os.listdir(ref_dir)):
             if not basename.endswith(".md"):
                 continue
             checked += 1

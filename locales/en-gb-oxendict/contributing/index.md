@@ -54,7 +54,7 @@ just stats   # chapter and word counts
 
 - Do not edit the generated files by hand (`README.md`, each locale's
   `index.md`, `front-matter/table-of-contents.md`, and
-  `chapters/09-07-index.md`). Change the chapters and run `just nav` instead.
+  `topics/09-07-index.md`). Change the chapters and run `just nav` instead.
 - Do not edit `en-001`, `en-gb`, or `en-us` directly; they are derived from
   `en-gb-oxendict` by `tools/localize.py`.
 - Do not add a chapter without also updating `spec/structure.md`.

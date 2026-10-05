@@ -14,7 +14,7 @@ The book is written and lives as Markdown chapters. It is authored, read,
 reviewed, and versioned as prose. The published website is a rendering of that
 prose, not the thing itself.
 
-- The **source of truth** is the Markdown in `locales/en-gb-oxendict/chapters/`
+- The **source of truth** is the Markdown in `locales/en-gb-oxendict/topics/`
   (the book is authored in Oxford spelling; see
   [oxford-spelling.md](oxford-spelling.md)), the front matter, the appendices,
   this specification, and the three other locales derived from it (see
@@ -98,7 +98,7 @@ The book is organized as numbered parts, each made of numbered chapters.
   for example `2.3`.
 - Chapter **N.0** is the part introduction. Chapters **N.1, N.2, ...** are the
   content chapters. Numbering within a part is contiguous and starts at N.0.
-- Chapter files live in `locales/<locale>/chapters/` and are named
+- Chapter files live in `locales/<locale>/topics/` and are named
   `PP-CC-slug.md` with a zero-padded, dash-separated, sortable numeric prefix
   (two-digit part, two-digit chapter; the N.0 introduction is `PP-00`), for
   example `02-00-flow-metrics.md` and `02-01-the-flow-framework.md`,

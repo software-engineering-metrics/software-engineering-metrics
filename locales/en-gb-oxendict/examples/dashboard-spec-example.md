@@ -1,7 +1,7 @@
 # Example: dashboard specification for a delivery-metrics dashboard
 
 A worked dashboard specification, following
-[chapter 8.1, Designing an engineering metrics dashboard](../chapters/08-01-designing-an-engineering-metrics-dashboard.md).
+[chapter 8.1, Designing an engineering metrics dashboard](../topics/08-01-designing-an-engineering-metrics-dashboard.md).
 The point is the shape: a named audience, a small number of tiles, an honest
 visualization standard, and a stated refresh cadence.
 

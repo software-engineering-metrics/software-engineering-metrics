@@ -1,7 +1,7 @@
 # Example: metrics charter for a payments platform team
 
 A worked example of a metrics charter, the kind of one-page document
-described in [chapter 1.4, Metrics governance and ownership](../chapters/01-04-metrics-governance-and-ownership.md).
+described in [chapter 1.4, Metrics governance and ownership](../topics/01-04-metrics-governance-and-ownership.md).
 The point is the shape: a stated purpose, an explicit non-goal, named owners,
 and a review cadence. A charter this short is meant to be read, not filed.
 

@@ -12,7 +12,7 @@
 1. Pick the part and the next free decimal number in that part. Numbering is
    contiguous, so a new chapter usually takes the next number after the last one
    in its part.
-2. Create `locales/en-gb-oxendict/chapters/PP-CC-slug.md` (zero-padded,
+2. Create `locales/en-gb-oxendict/topics/PP-CC-slug.md` (zero-padded,
    dash-separated prefix, for example `02-01-...`) from the
    [chapter template](chapter-template.md). Write it in Oxford spelling (see
    `spec/oxford-spelling.md`); never edit the other three locales directly.

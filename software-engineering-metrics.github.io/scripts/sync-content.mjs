@@ -5,7 +5,7 @@
 // exists to regenerate them after the source changes. Never hand-edit files
 // under src/content/; edit ../locales/en-gb-oxendict/ and re-run
 // `pnpm run content` instead.
-import { existsSync, mkdirSync, readdirSync, rmSync, copyFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, rmSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { LOCALE_CODES } from './locales.mjs';
@@ -16,6 +16,30 @@ const sourceLocales = path.resolve(root, '../locales');
 const targetContent = path.resolve(root, 'src/content');
 
 const SECTIONS = ['chapters', 'front-matter', 'examples', 'contributing', 'project'];
+
+// On-disk section directory names are translated per locale (see
+// ../spec/section-names.json). The site keeps the canonical English names in
+// src/content/ and in its URLs, so this script reads each locale's real
+// directory and copies it to the canonical one, rewriting relative Markdown
+// links to the localized names (e.g. "../temas/01-00-x.md") back to the
+// canonical ones ("../chapters/01-00-x.md") so the remark link plugins and
+// the manifest keep working unchanged.
+const sectionNames = JSON.parse(
+  readFileSync(path.resolve(root, '../spec/section-names.json'), 'utf-8')
+);
+/** @param {string} locale @param {string} section */
+const dirName = (locale, section) =>
+  sectionNames.locales[locale]?.[section] ?? sectionNames.default[section];
+/** @param {string} text @param {string} locale */
+function canonicalizeLinks(text, locale) {
+  let out = text;
+  for (const section of SECTIONS) {
+    const local = dirName(locale, section);
+    if (local === section) continue;
+    out = out.replaceAll(`](${local}/`, `](${section}/`).replaceAll(`](../${local}/`, `](../${section}/`);
+  }
+  return out;
+}
 
 if (!existsSync(sourceLocales)) {
   console.error(`Source locales directory not found: ${sourceLocales}`);
@@ -30,7 +54,7 @@ for (const locale of LOCALE_CODES) {
     process.exit(1);
   }
   for (const section of SECTIONS) {
-    const from = path.join(sourceLocale, section);
+    const from = path.join(sourceLocale, dirName(locale, section));
     const to = path.join(targetContent, locale, section);
     if (!existsSync(from)) {
       console.warn(`Skipping missing source section: ${locale}/${section}`);
@@ -40,7 +64,8 @@ for (const locale of LOCALE_CODES) {
     mkdirSync(to, { recursive: true });
     const files = readdirSync(from).filter((f) => f.endsWith('.md'));
     for (const file of files) {
-      copyFileSync(path.join(from, file), path.join(to, file));
+      const text = readFileSync(path.join(from, file), 'utf-8');
+      writeFileSync(path.join(to, file), canonicalizeLinks(text, locale));
     }
     console.log(`Synced ${files.length} file(s) into src/content/${locale}/${section}/`);
   }

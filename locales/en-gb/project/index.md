@@ -8,7 +8,7 @@ check it, and where the source of truth lives. For the book itself, see the
 
 - **The book:** published in four locales under `locales/`; see
   [spec/locales.md](https://github.com/software-engineering-metrics/software-engineering-metrics/blob/main/spec/locales.md).
-  This locale, `en-gb-oxendict/chapters/` (63 files), `en-gb-oxendict/front-matter/`,
+  This locale, `en-gb-oxendict/topics/` (63 files), `en-gb-oxendict/front-matter/`,
   and the appendices in Part 9 are the hand-authored source; `en-001`,
   `en-gb`, and `en-us` are derived from it.
 - **Source of truth:** `spec/` at the repository root (not published to the
@@ -55,7 +55,7 @@ the generated navigation, and the tests all agree.
 ## Design decisions worth knowing
 
 - **Flat, decimal-numbered chapters.** Files are
-  `locales/<locale>/chapters/PP-CC-slug.md`, the same slug in every locale.
+  `locales/<locale>/topics/PP-CC-slug.md`, the same slug in every locale.
   The part is a whole number; the chapter is a decimal; N.0 is the part
   introduction. This keeps stable identifiers and lets tools sort and group
   without a directory tree.

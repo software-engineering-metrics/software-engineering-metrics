@@ -13,6 +13,9 @@ English text that spec/structure.md asserts verbatim.
 """
 import os, re, sys, glob
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tools"))
+from section_names import section_dir
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOCALES = ["en-gb-oxendict", "en-001", "en-gb", "en-us"]
 REFERENCE_LOCALE = "en-gb-oxendict"
@@ -71,7 +74,7 @@ for dirpath, dirnames, filenames in os.walk(ROOT):
 chapters_by_locale = {}
 disk_by_locale = {}
 for loc in LOCALES:
-    ch_dir = os.path.join(ROOT, "locales", loc, "chapters")
+    ch_dir = os.path.join(ROOT, "locales", loc, section_dir(loc, "chapters"))
     chs = sorted(glob.glob(os.path.join(ch_dir, "*.md")), key=dec)
     chapters_by_locale[loc] = chs
     disk_by_locale[loc] = set(f"{dec(f)[0]}.{dec(f)[1]}" for f in chs)
@@ -241,7 +244,7 @@ PEER_ID_SECTIONS = ["chapters", "front-matter", "examples", "contributing", "pro
 PEER_ID_RE = re.compile(r"^[0-9a-f]{32}\n$")
 missing_peer_ids, malformed_peer_ids, mismatched_peer_ids = [], [], []
 for section in PEER_ID_SECTIONS:
-    ref_dir = os.path.join(ROOT, "locales", REFERENCE_LOCALE, section)
+    ref_dir = os.path.join(ROOT, "locales", REFERENCE_LOCALE, section_dir(REFERENCE_LOCALE, section))
     if not os.path.isdir(ref_dir):
         continue
     for basename in sorted(os.listdir(ref_dir)):
@@ -250,7 +253,7 @@ for section in PEER_ID_SECTIONS:
         sidecar_name = basename[: -len(".md")] + ".locale-peer-id"
         ids = {}
         for loc in LOCALES:
-            path = os.path.join(ROOT, "locales", loc, section, sidecar_name)
+            path = os.path.join(ROOT, "locales", loc, section_dir(loc, section), sidecar_name)
             rel = os.path.relpath(path, ROOT)
             if not os.path.exists(path):
                 missing_peer_ids.append(rel)
@@ -275,7 +278,7 @@ for navrel in ["README.md",
                f"locales/{REFERENCE_LOCALE}/index.md",
                f"locales/{REFERENCE_LOCALE}/front-matter/table-of-contents.md"]:
     nav = read(os.path.join(ROOT, navrel))
-    linked = set(f"{int(a)}.{int(b)}" for a, b in re.findall(r"chapters/(\d+)-(\d+)-", nav))
+    linked = set(f"{int(a)}.{int(b)}" for a, b in re.findall(r"topics/(\d+)-(\d+)-", nav))
     check(f"{navrel} links every chapter", not (disk - linked), f"missing {sorted(disk - linked)[:8]}")
 
 print()

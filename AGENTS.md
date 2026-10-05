@@ -56,7 +56,7 @@ and [`spec/conventions.md`](spec/conventions.md).
   `software-engineering-metrics.github.io/` (see below), one subdirectory per
   locale (`en-gb-oxendict`, `en-001`, `en-gb`, `en-us`), each with the
   identical structure below.
-  - `<locale>/chapters/` : the chapter files, named `PP-CC-slug.md` with a zero-padded, dash-separated, sortable prefix (the chapter number in the text stays dotted, e.g. `2.1`), identical across every locale.
+  - `<locale>/topics/` : the chapter files (the directory is named per locale, e.g. `temas/` in `es-es`; see [`spec/section-names.json`](spec/section-names.json)), named `PP-CC-slug.md` with a zero-padded, dash-separated, sortable prefix (the chapter number in the text stays dotted, e.g. `2.1`), identical across every locale.
   - `<locale>/front-matter/` : the opening essay, introduction, and table of contents.
   - `<locale>/examples/` : small illustrative examples (a metrics charter, a dashboard spec).
   - `<locale>/contributing/` : contributor and agent guides, plus shared snippets.

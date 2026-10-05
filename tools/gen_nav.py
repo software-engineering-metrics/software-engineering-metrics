@@ -2,6 +2,7 @@
 import os, re, glob, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import localize
+from section_names import section_dir
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://software-engineering-metrics.github.io/"
@@ -100,7 +101,7 @@ def localize_for(locale, text):
 part_counts = None
 for locale in LOCALES:
     LOC = f"{ROOT}/locales/{locale}"
-    CH = f"{LOC}/chapters"
+    CH = f"{LOC}/{section_dir(locale, 'chapters')}"
     intro = localize_for(locale, INTRO)
     how_to_read = localize_for(locale, HOW_TO_READ)
     themes = localize_for(locale, THEMES)
@@ -132,7 +133,7 @@ The book is published as a website at
 
 ## Table of contents
 
-{toc_body(f"locales/{locale}/chapters/")}
+{toc_body(f"locales/{locale}/{section_dir(locale, 'chapters')}/")}
 {themes}
 
 ## Locales
@@ -164,7 +165,7 @@ repository.
 
 ## Table of contents
 
-{toc_body("chapters/")}
+{toc_body(f"{section_dir(locale, 'chapters')}/")}
 {themes}
 
 ## Beyond the chapters
@@ -181,7 +182,7 @@ repository.
 Parts are whole numbers; chapters are decimals (chapter **N.0** introduces
 each part). See also the [Introduction](introduction.md).
 
-{toc_body("../chapters/")}"""
+{toc_body(f"../{section_dir(locale, 'chapters')}/")}"""
     write(f"{LOC}/front-matter/table-of-contents.md", toc)
 
     # ---- locales/<locale>/chapters/09-07-index.md (subject index) ----

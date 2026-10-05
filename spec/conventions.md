@@ -11,7 +11,7 @@ fail if it is broken.
 - Chapter **N.0** is the part introduction. Chapters **N.1, N.2, ...** are the
   content chapters. Numbering within each part is contiguous and starts at
   N.0. (enforced)
-- Chapter files live in `locales/<locale>/chapters/` (see
+- Chapter files live in `locales/<locale>/topics/` (see
   [locales.md](locales.md) for the locale set) and are named with a
   zero-padded, dash-separated, sortable numeric prefix followed by a
   lowercase-dash slug: `PP-CC-slug.md`, where `PP` is the two-digit part

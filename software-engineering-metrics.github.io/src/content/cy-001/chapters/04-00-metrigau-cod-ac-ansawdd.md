@@ -30,7 +30,7 @@ beirianwyr sy'n cwmpasu degau o wasanaethau i ddod o hyd i'r
 breuder hwnnw'n systematig. Mae sefydliadau menter a llywodraeth, sy'n
 aml yn cario sylfeini cod a fesurir mewn degawdau yn hytrach na
 blynyddoedd, yn dibynnu ar fetrigau'r rhan hon i flaenoriaethu ble
-bydd buddsoddiad cynnal a chadw cyfyngedig yn gwneud y lles mwyaf.
+bydd buddsoddiad cynnal a chadw cyfyngedig yn gwneud y llesiant mwyaf.
 
 ## Pynciau yn y rhan hon
 

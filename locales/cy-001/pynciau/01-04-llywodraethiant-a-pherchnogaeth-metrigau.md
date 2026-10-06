@@ -9,7 +9,7 @@ neb yn ei chynnal yn mynd yn dawel yn hen am fisoedd cyn i unrhyw un sylwi;
 mae metrig a adeiladwyd yn wreiddiol ar gyfer diagnosis un tîm yn cael ei
 fabwysiadu gan dîm arall at bwrpas na chynlluniwyd ei ddiffiniad
 gwreiddiol erioed i'w gefnogi. Nid problem fesur yn yr ystyr ystadegol yw
-hyn i gyd. Problem lywodraethu ydyw, ac fe'i datrysir â'r un ddisgyblaeth
+hyn i gyd. Problem llywodraethiant ydyw, ac fe'i datrysir â'r un ddisgyblaeth
 y mae sefydliadau eisoes yn ei chymhwyso i god: perchnogaeth benodol,
 [ffynhonnell wirionedd](https://en.wikipedia.org/wiki/Single_source_of_truth)
 ddogfennedig, a phroses adolygu.
@@ -39,7 +39,7 @@ heddiw.
   perchnogaeth a rennir; pan fydd pawb yn berchen ar ddiffiniad, nid oes
   neb yn ei gynnal.
 - **Mae gan fetrig un ffynhonnell wirionedd.** Mae dwy system yn cyfrifo'r
-  un metrig yn wahanol yn fethiant llywodraethu sy'n aros i ymddangos.
+  un metrig yn wahanol yn fethiant llywodraethiant sy'n aros i ymddangos.
 - **Mae llywodraethiant wedi'i ysgrifennu i lawr, nid yn wybodaeth
   lwythol.** Nid yw siarter metrigau sy'n byw dim ond yng nghof rhywun yn
   goroesi eu hymadawiad.
@@ -83,16 +83,16 @@ Enwch y system awdurdodol ar gyfer pob metrig yn y siarter, a thriniwch
 unrhyw gyfrifiad arall o'r un metrig naill ai fel bwg i'w drwsio neu fetrig
 wedi'i enwi'n wahanol i'w ailenwi.
 
-### Adeiladwch adolygiad ymddeoliad i mewn i'r gadwedd llywodraethu
+### Adeiladwch adolygiad ymddeoliad i mewn i'r gadwedd llywodraethiant
 
 Mae rhaglen fetrigau sy'n ychwanegu metrigau'n unig yn cronni gwasgariad
 dangosfwrdd na all neb weithredu arno (pwnc 1.1). Ym mhob adolygiad
-llywodraethu, ochr yn ochr â chynnig metrigau newydd, gofynnwch pa rai
+llywodraethiant, ochr yn ochr â chynnig metrigau newydd, gofynnwch pa rai
 presennol nad ydynt wedi llywio penderfyniad yn y ddau gylch diwethaf ac
 sy'n ymgeiswyr ar gyfer ymddeoliad. Nid methiant yw ymddeoliad; yr un
 ddisgyblaeth ydyw y mae sylfaen god iach yn ei chymhwyso i god marw.
 
-### Graddiwch drylwyredd llywodraethu i ganlyniad, nid i gyfaint
+### Graddiwch drylwyredd llywodraethiant i ganlyniad, nid i gyfaint
 
 Nid oes angen yr un broses ar bob metrig. Mae angen bron dim llywodraethiant
 y tu hwnt i'r tîm yn gwybod beth mae'n ei olygu ar fetrig y mae un tîm yn ei
@@ -102,14 +102,14 @@ fyw ar fetrig sy'n bwydo sgorgerdyn gweithredol, adroddiad perfformiad
 cyhoeddus, neu iawndal unigolyn. Paru pwysau eich proses i ganlyniad y
 metrig fod yn anghywir, nid i sawl metrig sy'n bodoli.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Dim llywodraethiant ffurfiol | Cyflym, gorbenion isel ar gyfer timau bach | Mae diffiniadau'n drifftio; mae perchnogaeth yn gwasgaru; mae dangosfyrddau'n gwasgaru'n ddigyfrif |
 | Siarter ysgafn fesul set fetrigau | Rhad, darllenadwy, yn graddio gyda'r sefydliad | Angen disgyblaeth i'w chadw'n gyfredol; gellir ei hepgor o dan bwysau terfyn amser |
-| Bwrdd llywodraethu metrigau canolog trwm | Cysondeb cryf, llwybr archwilio cryf | Araf i gymeradwyo metrigau newydd; gall ddod yn dagfa y mae timau'n ei osgoi |
-| Llywodraethiant wedi'i raddio i ganlyniad | Yn paru ymdrech â risg gwirioneddol | Angen barn i ddosbarthu canlyniad yn gywir; gellir ei dwyllo trwy danddweud y risg |
+| Bwrdd llywodraethiant metrigau canolog trwm | Cysondeb cryf, llwybr archwilio cryf | Araf i gymeradwyo metrigau newydd; gall ddod yn dagfa y mae timau'n ei osgoi |
+| Llywodraethiant wedi'i raddio i ganlyniad | Yn paru ymdrech â risg wirioneddol | Angen barn i ddosbarthu canlyniad yn gywir; gellir ei dwyllo trwy danddweud y risg |
 
 Y tensiwn canolog yw **cysondeb yn erbyn cyflymder**. Mae llywodraethiant
 canolog trwm yn cynhyrchu metrigau dibynadwy, cyson ond yn arafu tîm yn
@@ -131,7 +131,7 @@ defnydd gwerthusol neu gyhoeddus.
 
 2. **Ble ydym ar hyn o bryd yn cyfrifo'r un metrig sydd wedi'i enwi'n
    nominal mewn dwy ffordd wahanol, a faint o amser ydym wedi'i dreulio'n
-   cysoni'r anghytundeb?** Dyma un o'r methiannau llywodraethu mwyaf drud a
+   cysoni'r anghytundeb?** Dyma un o'r methiannau llywodraethiant mwyaf drud a
    mwyaf cyffredin mewn sefydliadau mawr, ac mae'n hollol ataliadwy gydag
    un ffynhonnell wirionedd ddogfennedig. Dewch ag enghraifft wirioneddol
    os oes gennych un ac olrheiniwch ei chost.
@@ -142,11 +142,11 @@ defnydd gwerthusol neu gyhoeddus.
    dangosfwrdd. Os na allwch gofio ymddeoliad, mae'r absenoldeb hwnnw ei
    hun yn ateb i'r cwestiwn hwn.
 
-4. **A yw ein proses lywodraethu'n gyfrannol â chanlyniad, neu a yw pob
+4. **A yw ein proses llywodraethiant'n gyfrannol â chanlyniad, neu a yw pob
    metrig yn mynd trwy'r un pwysau adolygu waeth beth yw'r risg?** Mae
    llywodraethiant gorbwyslas ar fetrig tîm risg isel yn arafu gwaith heb
    fudd diogelwch; mae llywodraethiant gorysgafn ar fetrig sy'n bwydo
-   adroddiad cyhoeddus neu benderfyniad iawndal yn risg gwirioneddol.
+   adroddiad cyhoeddus neu benderfyniad iawndal yn risg wirioneddol.
    Mapiwch eich metrigau presennol yn ôl canlyniad a gwiriwch bwysau'r
    broses yn ei erbyn yn onest.
 
@@ -182,7 +182,7 @@ olygu heb ofyn o gwmpas.
 **Menter.** Dyma lle mae llywodraethiant yn ennill ei le. Safonwch
 ddiffiniadau ar draws unedau busnes, mynnwch siarter ar gyfer unrhyw beth
 sy'n bwydo sgorgerdyn gweithredol, ac adeiladwch adolygiad ymddeoliad i
-mewn i gadwedd llywodraethu reolaidd, oherwydd mae gwasgariad dangosfwrdd
+mewn i gadwedd llywodraethiant reolaidd, oherwydd mae gwasgariad dangosfwrdd
 ar y raddfa hon yn dod yn ddrud yn gyflym, mewn cost cynnal a chadw ac yn
 y golled credadwyedd pan fydd dwy is-adran yn adrodd rhifau gwrthgyferbyniol
 am yr un peth.
@@ -193,7 +193,7 @@ fodloni gofynion adrodd statudol, a gall newid diffiniad gael
 canlyniadau gwleidyddol gwirioneddol. Dogfennwch fethodoleg yn gyhoeddus,
 rhewwch ddiffiniadau ar draws cyfnodau adrodd oni bai bod newid ei hun
 yn cael ei gyfiawnhau'n gyhoeddus, a thriniwch archwiliad annibynnol o
-ddiffiniad y metrig, nid dim ond ei werth cyfredol, fel arfer llywodraethu
+ddiffiniad y metrig, nid dim ond ei werth cyfredol, fel arfer llywodraethiant
 sefydlog.
 
 ## Enghreifftiau
@@ -204,7 +204,7 @@ wahanol: roedd un yn cyfrif pob push i amgylchedd staging, roedd y llall
 yn cyfrif dim ond ryddhau cynhyrchu. Roedd arweinyddiaeth wedi bod yn
 cymharu perfformiad cyflenwi'r ddwy uned am dros flwyddyn gan ddefnyddio
 rhifau nad oeddent mewn gwirionedd yn gymaradwy. Y trwsiad oedd bwrdd
-llywodraethu metrigau ledled y cwmni a gyhoeddodd eirfa sengl o
+llywodraethiant metrigau ledled y cwmni a gyhoeddodd eirfa sengl o
 ddiffiniadau metrig (a adlewyrchir ym mhwnc 9.2 y llyfr hwn), a fynnodd
 fod pob tîm yn ardystio cydymffurfiaeth, ac a ymddeolodd y diffiniadau
 lleol amwys o fewn un chwarter.
@@ -231,7 +231,7 @@ gost hon yn cronni ar draws dwsinau o dimau a gall dreulio cyfran wirioneddol
 sylweddol o sylw arweinyddiaeth ar broblem y byddai siarter un dudalen
 fesul set fetrigau wedi'i hosgoi.
 
-Mae cost cyfanswm perchnogaeth arfer llywodraethu ysgafn, siarter,
+Mae cost cyfanswm perchnogaeth arfer llywodraethiant ysgafn, siarter,
 perchennog wedi'i enwi, adolygiad cyfnodol, yn gymedrol ac yn bennaf
 ymlaen llaw. Mae'r dewis arall, darganfod flwyddyn i mewn i fenter fawr nad
 oedd y rhifau y mae arweinyddiaeth wedi bod yn ymddiried ynddynt erioed
@@ -239,7 +239,7 @@ mewn gwirionedd yn gymaradwy, yn costio'n ddramatig fwy, mewn dadansoddiad
 gwastraffus ac yn y niwed credadwyedd o gywiro'r cofnod cyhoeddus neu
 fewnol ar ôl y ffaith.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Perchnogaeth tîm yn lle perchnogaeth person-wedi'i-enwi:** yn
   gwasgaru atebolrwydd nes nad oes neb mewn gwirionedd yn cynnal y
@@ -250,7 +250,7 @@ fewnol ar ôl y ffaith.
   bydd y person hwnnw'n newid rolau.
 - **Rhaglen fetrigau sy'n ychwanegu'n unig, byth yn ymddeol:** yn
   cynhyrchu gwasgariad dangosfwrdd na all neb weithredu arno.
-- **Pwysau llywodraethu unffurf waeth beth yw'r canlyniad:** yn arafu
+- **Pwysau llywodraethiant unffurf waeth beth yw'r canlyniad:** yn arafu
   gwaith risg isel tra'n tan-ddiogelu metrigau cyhoeddus neu gysylltiedig
   ag iawndal risg uchel.
 - **Newidiadau diffiniad tawel:** mae ystyr metrig yn newid heb gofnod
@@ -266,7 +266,7 @@ fewnol ar ôl y ffaith.
 - **Lefel 3, Safoni:** Mae gan bob metrig sy'n croesi ffin tîm siarter
   ddogfennedig, perchennog wedi'i enwi, ac un ffynhonnell wirionedd
   y cytunwyd arni, wedi'i orfodi'n sefydliadol gyfan.
-- **Lefel 4, Rheoli:** Mae cadwedd llywodraethu reolaidd yn adolygu
+- **Lefel 4, Rheoli:** Mae cadwedd llywodraethiant reolaidd yn adolygu
   metrigau am berthnasedd parhaus, yn ymddeol y rhai nad ydynt bellach yn
   ennill eu lle, ac yn olrhain newidiadau diffiniad â hanes gweladwy.
 - **Lefel 5, Cerddorfaru:** Mae llywodraethiant yn gyfrannol â chanlyniad,
@@ -279,7 +279,7 @@ fewnol ar ôl y ffaith.
 1. A allai cyflogai newydd ddarganfod, o ddogfennaeth yn unig, beth mae ein tri metrig pwysicaf mewn gwirionedd yn ei olygu?
 2. Pa rai o'n metrigau y mae dwy system wahanol ar hyn o bryd yn eu cyfrifo'n wahanol?
 3. Pryd wnaethom ymddeol metrig ddiwethaf, a sut penderfynom wneud hynny?
-4. A yw ein proses lywodraethu'n drymach lle mae'r canlyniad uchaf, neu a yw'n unffurf?
+4. A yw ein proses llywodraethiant'n drymach lle mae'r canlyniad uchaf, neu a yw'n unffurf?
 5. Pwy sy'n berchen ar fetrig cyhoeddus-wynebus mwyaf canlyniadol ein sefydliad, yn ôl enw?
 
 ## Prif gasgliadau
@@ -289,9 +289,9 @@ fewnol ar ôl y ffaith.
 - Ysgrifennwch **siarter metrigau** fer, fyw ar gyfer unrhyw set fetrigau
   sy'n croesi ffin tîm, gan nodi pwrpas, diffyg-nodau, perchnogaeth, a
   chadwedd adolygu.
-- Mae **ymddeoliad** yr un mor bwysig fel disgyblaeth lywodraethu â
+- Mae **ymddeoliad** yr un mor bwysig fel disgyblaeth llywodraethiant â
   mabwysiadu; tociwch yn fwriadol.
-- Graddiwch drylwyredd llywodraethu i **ganlyniad**, nid i gyfrif metrig:
+- Graddiwch drylwyredd llywodraethiant i **ganlyniad**, nid i gyfrif metrig:
   proses drymach ar gyfer metrigau cyhoeddus, gwerthusol, neu gysylltiedig
   ag iawndal.
 - Gall diffiniad metrig ddrifftio'n dawel; olrheiniwch newidiadau â
@@ -301,7 +301,7 @@ fewnol ar ôl y ffaith.
 ## Cyfeiriadau a darllen pellach
 
 - *Data Governance: How to Design, Deploy, and Sustain an Effective Data
-  Governance Program*, gan John Ladley (strwythurau llywodraethu y gellir
+  Governance Program*, gan John Ladley (strwythurau llywodraethiant y gellir
   eu cymhwyso i raglenni metrigau).
 - *Measuring and Managing Performance in Organizations*, gan Robert D.
   Austin (annormaledd sefydliadol o gwmpas perchnogaeth a defnydd

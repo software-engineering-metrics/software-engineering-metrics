@@ -2,7 +2,7 @@
 
 ## Trosolwg a chymhelliant
 
-Mae'r pwnc hwn, mewn ystyr wirioneddol, yn benllanw ymarferol popeth y mae'r llyfr hwn wedi'i ddadlau ers i bwnc 1.2 gyflwyno deddf Goodhart: mae rhaglen fetrigau sy'n cael ei chyflwyno'n wael, mewn ffordd sy'n ennyn ofn yn hytrach nag ymddiriedaeth, yn gwarantu'n union yr ymddygiad chwarae y mae pob pwnc dilynol wedi rhybuddio yn ei erbyn, ni waeth pa mor ofalus y cafodd pob metrig unigol ei ddylunio. Gall sefydliad gael pob manylyn technegol yn iawn, gweledoli onest, paru rheiliau diogelwch, llywodraethu gofalus, a dal cynhyrchu rhaglen fetrigau lygredig, na ellir ymddiried ynddi os yw'r cyflwyniad ei hun yn dysgu peirianwyr fod y rhifau hyn yn bodoli i'w barnu yn hytrach na'u helpu.
+Mae'r pwnc hwn, mewn ystyr wirioneddol, yn benllanw ymarferol popeth y mae'r llyfr hwn wedi'i ddadlau ers i bwnc 1.2 gyflwyno deddf Goodhart: mae rhaglen fetrigau sy'n cael ei chyflwyno'n wael, mewn ffordd sy'n ennyn ofn yn hytrach nag ymddiriedaeth, yn gwarantu'n union yr ymddygiad chwarae y mae pob pwnc dilynol wedi rhybuddio yn ei erbyn, ni waeth pa mor ofalus y cafodd pob metrig unigol ei ddylunio. Gall sefydliad gael pob manylyn technegol yn iawn, gweledoli onest, paru rheiliau diogelwch, llywodraethiant gofalus, a dal cynhyrchu rhaglen fetrigau lygredig, na ellir ymddiried ynddi os yw'r cyflwyniad ei hun yn dysgu peirianwyr fod y rhifau hyn yn bodoli i'w barnu yn hytrach na'u helpu.
 
 Mae'r mecanwaith yma'n syml ac wedi'i ddogfennu'n dda ar draws yr ymchwil ymddygiad sefydliadol y mae'r llyfr hwn wedi'i ddyfynnu drwyddo draw: mae pobl sy'n ofni y bydd metrig yn cael ei ddefnyddio yn eu herbyn, gan danseilio [diogelwch seicolegol](https://en.wikipedia.org/wiki/Psychological_safety), yn ymateb yn union fel y mae pwnc 1.2 yn rhagweld, maent yn optimeiddio'r rhif yn hytrach na'r realiti sylfaenol, gan fod y cymhelliant i amddiffyn eu hunain yn uniongyrchol a phersonol tra bod y niwed i ddysgu sefydliadol yn wasgaredig a hwyrach. Nid methiant cymeriad unigol yw hwn; mae'n ymateb rhesymol i fygythiad gwirioneddol, a'r unig ateb parhaol yw dileu'r bygythiad, nid gofyn i bobl ymddwyn yn fwy onest er gwaethaf y bygythiad.
 
@@ -38,7 +38,7 @@ Os caiff metrig ei gamddefnyddio'n gosbol, hyd yn oed unwaith, hyd yn oed yn anf
 
 Yn hytrach na thrin risg chwarae fel rhywbeth y mae arweinyddiaeth yn poeni amdano'n breifat, rhannwch resymeg paru rheiliau diogelwch pwnc 1.2 yn agored â'r timau sy'n cael eu mesur: esboniwch yn uniongyrchol pam mae rheilen ddiogelwch benodol yn bodoli, pa batrwm chwarae y mae wedi'i dylunio i'w ddal, a gwahoddwch fewnbwn y tîm ei hun ynghylch a yw'r rheilen ddiogelwch wedi'i dylunio'n dda. Mae'r tryloywder hwn, gan fframio'r tîm cyfan fel partneriaid wrth atal chwarae yn hytrach na phynciau'n cael eu gwylio amdano, yn adeiladu perthynas sylfaenol wahanol â'r rhaglen fetrigau na system sy'n plismona'n dawel am chwarae o'r brig heb byth drafod y risg yn agored.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |

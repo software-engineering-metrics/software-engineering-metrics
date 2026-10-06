@@ -10,7 +10,7 @@ pob un o'r digwyddiadau hyn eisoes wedi'i logio'n awtomatig gan offer y
 mae timau peirianneg yn eu defnyddio bob dydd, a'r hawster mesur hwnnw
 yw'n union yr hyn sy'n gwneud y dimensiwn hwn y mwyaf peryglus i'w
 or-bwysoli. Mae gweithgarwch yn signal gwirioneddol, dilys pan gaiff ei
-ddefnyddio'n ofalus. Wedi'i ddefnyddio fel dirprwy cynhyrchedd
+ddefnyddio'n ofalus. Wedi'i ddefnyddio fel dirprwy cynhyrchiant
 annibynnol, dyma'r teulu metrig sengl mwyaf twylledig, mwyaf
 camarweiniol yn hanes cyfan mesur
 **[peirianneg meddalwedd](https://en.wikipedia.org/wiki/Software_engineering)**.
@@ -41,7 +41,7 @@ wrthdroi.
 ## Egwyddorion allweddol
 
 - **Mae gweithgarwch yn mesur symudiad, nid gwerth.** Mae'n signal
-  cyd-destunol dilys, byth yn ddirprwy cynhyrchedd annibynnol.
+  cyd-destunol dilys, byth yn ddirprwy cynhyrchiant annibynnol.
 - **Dyma'r teulu metrig a gamddefnyddiwyd fwyaf yn hanesyddol yn
   mesur peirianneg meddalwedd.** Trinwch yr hanes hwnnw fel rhybudd, nid
   cyd-ddigwyddiad.
@@ -100,7 +100,7 @@ yw union batrwm amnewid pwnc 1.2: hollti gwaith gwirioneddol
 ystyrlon yn nifer o ddigwyddiadau bach, dibwys i chwyddo cyfrif. Os yw
 amlder ymrwymiad neu pull request yn codi tra bo cymhlethdod neu faint
 sylfaenol y newidiadau'n gostwng yn sydyn, archwiliwch cyn rhoi clod am
-welliant cynhyrchedd gwirioneddol, gan ddefnyddio'r un ddisgyblaeth
+welliant cynhyrchiant gwirioneddol, gan ddefnyddio'r un ddisgyblaeth
 ddiagnostig y mae pwnc 2.10 yn ei hargymell ar gyfer amledd defnyddio.
 
 ### Enwch ac anogwch yn erbyn theatr gweithgarwch yn benodol
@@ -113,16 +113,16 @@ hwn yn benodol i'ch tîm, a bod yn dryloyw nad yw arweinyddiaeth yn
 defnyddio gweithgarwch crai i farnu cyfraniad, yn dileu llawer o'r
 cymhelliant iddo ddigwydd yn y lle cyntaf.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Graddiad gweithgarwch unigol | Syml, hawdd ei gyfrifo, yn teimlo'n uniongyrchol weithredadwy | Wedi'i dwyllo bron ar unwaith; yn niweidio cydweithio ac ysbryd; yn mesur y peth anghywir |
-| Dim mesuriad gweithgarwch o gwbl | Yn osgoi'r perygl camddefnydd yn gyfan gwbl | Yn colli signal cyd-destunol gwirioneddol ddefnyddiol ar gyfer sbotio patrymau lefel-tîm |
-| Gweithgarwch cyfanredol lefel-tîm, wedi'i ddarllen mewn cyd-destun | Yn darparu cyd-destun defnyddiol heb berygl unigol | Angen disgyblaeth i'w ddehongli ochr yn ochr â dimensiynau eraill yn hytrach nag ar wahân |
+| Dim mesuriad gweithgarwch o gwbl | Yn osgoi'r risg camddefnydd yn gyfan gwbl | Yn colli signal cyd-destunol gwirioneddol ddefnyddiol ar gyfer sbotio patrymau lefel-tîm |
+| Gweithgarwch cyfanredol lefel-tîm, wedi'i ddarllen mewn cyd-destun | Yn darparu cyd-destun defnyddiol heb risg unigol | Angen disgyblaeth i'w ddehongli ochr yn ochr â dimensiynau eraill yn hytrach nag ar wahân |
 | Signalau gweithgarwch wedi'u haddasu ar gyfer ansawdd | Yn gwrthsefyll y twyllo cyfrif-crai mwyaf bras | Mwy cymhleth i'w cyfrifo a'u hesbonio na chyfrif syml |
 
-Y tensiwn canolog yw **defnyddioldeb yn erbyn perygl camddefnydd**. Mae
+Y tensiwn canolog yw **defnyddioldeb yn erbyn risg camddefnydd**. Mae
 data gweithgarwch, wedi'i ddarllen yn ofalus yn gyfanredol ac mewn
 cyd-destun, yn wirioneddol ddefnyddiol ar gyfer sbotio patrymau fel
 cyflymder anghynaliadwy neu dîm sy'n canfod lle'n dawel i fynd i'r
@@ -156,7 +156,7 @@ annog defnydd meddylgar, cyd-destunol lefel-tîm.
 
 4. **A ydym erioed wedi gweld cynnydd mewn amlder ymrwymiad neu pull
    request ynghyd â maint newid cyfartalog crebachu, gan awgrymu hollti
-   dibwys yn hytrach na chynnydd cynhyrchedd gwirioneddol?** Tynnwch
+   dibwys yn hytrach na chynnydd cynhyrchiant gwirioneddol?** Tynnwch
    ddata gwirioneddol a gwiriwch am y patrwm twyllo-amnewid penodol
    hwn.
 
@@ -179,9 +179,9 @@ annog defnydd meddylgar, cyd-destunol lefel-tîm.
 
 **Cwmni newydd.** Gyda thîm bach, cydweithredol yn agos, mae data
 gweithgarwch fel arfer yn weladwy heb angen dangosfwrdd o gwbl, ac mae'r
-perygl graddio-unigol y mae'r pwnc hwn yn rhybuddio yn ei erbyn yn
+risg graddio-unigol y mae'r pwnc hwn yn rhybuddio yn ei erbyn yn
 llai tebygol yn syml oherwydd bod pawb eisoes yn gwybod ar beth y mae
-pawb arall yn gweithio. Y perygl yn lle hynny yw sylfaenydd yn ffafrio
+pawb arall yn gweithio. Y risg yn lle hynny yw sylfaenydd yn ffafrio
 ymddygiad "prysur" gweladwy yn ddiarwybod wrth wneud penderfyniadau
 cyflogi neu ecwiti cynnar.
 
@@ -202,7 +202,7 @@ yn gyfnodol i gadarnhau bod y polisi'n cael ei ddilyn mewn gwirionedd,
 nid dim ond ei ddatgan.
 
 **Llywodraeth.** Gall metrigau gweithgarwch fod yn ddeniadol i'w
-dyfynnu mewn adroddiad cyhoeddus fel tystiolaeth o gynhyrchedd ("deng
+dyfynnu mewn adroddiad cyhoeddus fel tystiolaeth o gynhyrchiant ("deng
 mil o ymrwymiadau eleni"), ond mae'r math hwn o bennawd bron yn ddiystyr
 ac gall wahodd union y craffu anghywir unwaith y bydd adolygydd
 gwybodus yn nodi nad yw gweithgarwch crai'n dweud dim am ganlyniadau.
@@ -226,7 +226,7 @@ dyrchafiad, a symudodd dystiolaeth dyrchafiad tuag at ddull perfformiad
 aml-signal pwnc 3.3.
 
 **Llywodraeth.** Cynigiodd asiantaeth gwasanaethau digidol, dan bwysau i
-ddangos cynhyrchedd i bwyllgor goruchwylio deddfwriaethol, yn wreiddiol
+ddangos cynhyrchiant i bwyllgor goruchwylio deddfwriaethol, yn wreiddiol
 adrodd cyfanswm ymrwymiadau a llinellau o god a ysgrifennwyd ar draws ei
 rhaglen beirianneg fel tystiolaeth o werth a gyflenwyd. Gwrthwynebodd
 ymgynghorydd technegol mewnol, gan nodi'n gywir bod y fframio hwn yn
@@ -258,7 +258,7 @@ honno'n costio llai na'r penderfyniadau dyrchafiad camgyfeiriedig, y
 cydweithio niweidiedig, a'r ymddygiad twyllo y mae metrigau gweithgarwch
 unigol yn eu cynhyrchu'n ddibynadwy dros amser.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Graddio unigol yn ôl cyfrif ymrwymiad neu linellau o god:** y
   camddefnydd sengl mwyaf niweidiol, mwyaf cyffredin yn hanesyddol yn y
@@ -283,8 +283,8 @@ unigol yn eu cynhyrchu'n ddibynadwy dros amser.
 
 - **Lefel 1, Cychwyn:** Defnyddir metrigau gweithgarwch, yn ffurfiol
   neu'n anffurfiol, i werthuso neu raddio unigolion, heb ymwybyddiaeth
-  o'r perygl.
-- **Lefel 2, Datblygu:** Mae rhywfaint o ymwybyddiaeth o'r perygl yn
+  o'r risg.
+- **Lefel 2, Datblygu:** Mae rhywfaint o ymwybyddiaeth o'r risg yn
   bodoli, ond nid oes polisi penodol yn atal data gweithgarwch rhag
   dylanwadu'n anffurfiol ar adolygiadau neu drafodaethau dyrchafiad.
 - **Lefel 3, Safoni:** Mae polisi penodol, wedi'i gyfathrebu, ar draws y

@@ -81,7 +81,7 @@ nag adroddiad gweinyddol a ddefnyddir yn anaml. Yn hytrach na mynd ar
 drywydd gorchudd unffurf ar draws sylfaen cod gyfan, nodwch eich
 llwybrau cod perygl-uchaf, canlyniad-uchaf a chanolbwyntiwch ymdrech
 gorchudd a phrofi treiglo yno'n gyntaf, gan dderbyn gorchudd is ar god
-gwirioneddol berygl-isel fel cyfaddawd bwriadol, gwybodus yn hytrach na
+gwirioneddol berygl-isel fel cyfnewidiad bwriadol, gwybodus yn hytrach na
 goruchwyliaeth.
 
 ### Gwyliwch am y patrymau twyllo-gorchudd penodol
@@ -106,7 +106,7 @@ Mae'r gwahaniaeth hwn yn bwysig: mae llawr yn gwarchod yn erbyn
 profion gwerth-isel wedi'u hysgrifennu'n bur i symud y rhif ychydig yn
 uwch ymhellach.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |

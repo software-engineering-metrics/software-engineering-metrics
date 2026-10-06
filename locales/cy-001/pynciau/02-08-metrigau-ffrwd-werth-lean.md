@@ -53,7 +53,7 @@ dueddol iddo ac yn anaml yn ei fesur yn uniongyrchol.
 - **Rhaid rolio %C/A i fyny ar draws pob cam, nid ei fesur unwaith ar y
   diwedd.** Mae ailwaith a gyflwynwyd yn gynnar mewn ffrwd a'i ddal yn
   hwyr yn anweledig i fetrig a fesurir dim ond ar gyflenwi terfynol.
-- **Mae amser takt yn ail-fframio cynllunio capasiti o gwmpas galw, nid
+- **Mae amser takt yn ail-fframio cynllunio cynhwysedd o gwmpas galw, nid
   ymdrech.** Mae'r cwestiwn yn newid o "pa mor gyflym allwn ni fynd" i
   "pa mor gyflym mae angen inni fynd," sy'n cysylltu'n uniongyrchol â
   defnydd (pwnc 2.7) a llwyth llif (pwnc 2.4).
@@ -84,7 +84,7 @@ sengl ac sydd fel arfer yn fwy gonest. Y cyfrifiad sengl hwn yw'r ffordd
 gyflymaf o ddatgelu faint o ailwaith y mae piblinell aml-gam yn ei
 amsugno mewn gwirionedd.
 
-### Gosodwch amser takt yn benodol o ddata galw cwsmer gwirioneddol, nid o gapasiti
+### Gosodwch amser takt yn benodol o ddata galw cwsmer gwirioneddol, nid o gynhwysedd
 
 Cyfrifwch amser takt fel amser gwaith sydd ar gael wedi'i rannu â galw
 cwsmer dros y cyfnod hwnnw, yn fwriadol annibynnol ar ba mor gyflym y
@@ -92,7 +92,7 @@ mae eich tîm yn digwydd gallu gweithio heddiw. Cymharwch eich amser
 proses a'ch amser cylch a fesurwyd yn erbyn y rhif hwn: mae amser proses
 yn gyfforddus o dan amser takt yn dangos slac iach, tra bo amser cylch yn
 mynd y tu hwnt i amser takt yn dystiolaeth benodol, wedi'i meintioli o
-brinder capasiti, nid dim ond teimlad bod pethau ar ei hôl hi.
+brinder cynhwysedd, nid dim ond teimlad bod pethau ar ei hôl hi.
 
 ### Dogfennwch y mapio rhwng termau Lean ac eirfa'r llyfr hwn ei hun
 
@@ -115,7 +115,7 @@ ailwaith yn gynyddol yn ddiweddarach, yn union y math o batrwm cyflymder-
 heb-ansawdd y mae pwnc 1.2 yn rhybuddio pob teulu metrig i wylio yn ei
 erbyn.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -151,7 +151,7 @@ timau peirianneg yn ei wneud o ddydd i ddydd.
 3. **A ydym yn gwybod ein hamser takt, wedi'i gyfrifo o alw cwsmer
    gwirioneddol, a sut mae ein hamser cylch a fesurwyd yn cymharu ag
    ef?** Nid yw'r rhan fwyaf o dimau erioed wedi gwneud y gymhariaeth
-   hon yn esblyg, sy'n golygu bod sgyrsiau capasiti'n aros yn anecdotaidd
+   hon yn esblyg, sy'n golygu bod sgyrsiau cynhwysedd'n aros yn anecdotaidd
    yn hytrach na'u meintioli.
 
 4. **Petai rhanddeiliad wedi'i hyfforddi mewn Lean Six Sigma o'r tu allan
@@ -178,7 +178,7 @@ timau peirianneg yn ei wneud o ddydd i ddydd.
 seremoni ar y raddfa hon, ond mae amser takt yn werth ei ddeall yn
 anffurfiol: gwybod yn fras pa mor gyflym y mae wir angen i'r tîm symud i
 gyfateb â galw cwsmer gwirioneddol, yn hytrach na chyflymder mewnol
-mympwyol, yn atal gorlunio capasiti'n rhy gynnar ac o dan-adeiladu unwaith
+mympwyol, yn atal gorlunio cynhwysedd'n rhy gynnar ac o dan-adeiladu unwaith
 y bydd twf yn cyrraedd.
 
 **Busnes bach.** %C/A yw'r mwyaf uniongyrchol ddefnyddiol o'r pum metrig
@@ -249,7 +249,7 @@ yn ychwanegiad syml at olrhain diffyg ac elfen-lif presennol (pwnc
 llyfr hwn a rhai clasurol Lean, sy'n talu amdano'i hun y tro cyntaf y mae'n
 atal camddealltwriaeth traws-swyddogaethol.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Mesur %C/A dim ond ar gyflenwi terfynol:** y fector twyllo wrth galon
   y pwnc hwn. Gall tîm adrodd %C/A cam-terfynol uchel tra bo camau
@@ -262,9 +262,9 @@ atal camddealltwriaeth traws-swyddogaethol.
 - **Tybio bod amser cylch y llyfr hwn a CT clasurol Lean yn golygu'n
   union yr un peth:** yn cynhyrchu dryswch traws-swyddogaethol
   gwirioneddol pan fydd y ddwy eirfa'n cyfarfod heb fapio dogfennedig.
-- **Gosod amser takt o gapasiti cyfredol yn hytrach na galw cwsmer
+- **Gosod amser takt o gynhwysedd cyfredol yn hytrach na galw cwsmer
   gwirioneddol:** yn trechu pwrpas y metrig, sef datgelu bwlch rhwng
-  galw a chapasiti, nid cadarnhau pa gyflymder bynnag sydd eisoes yn
+  galw a chynhwysedd, nid cadarnhau pa gyflymder bynnag sydd eisoes yn
   bodoli.
 - **Trin metrigau Lean clasurol fel rhai anghyfoes unwaith y mabwysiedir
   fframwaith meddalwedd-benodol:** yn taflu pont gredadwy, wedi'i chefnogi
@@ -291,7 +291,7 @@ atal camddealltwriaeth traws-swyddogaethol.
   siarter metrigau a rennir.
 - **Lefel 4, Rheoli:** Cyfrifir rendiment trwybwn cyfanredol ar draws
   pob cam o'r ffrwd werth, a chymherir amser takt yn erbyn amser cylch a
-  fesurwyd i feintioli bylchau capasiti'n benodol.
+  fesurwyd i feintioli bylchau cynhwysedd'n benodol.
 - **Lefel 5, Cerddorfaru:** Mae'r sefydliad wedi cysylltu ei fetrigau
   cyflenwi meddalwedd â rhaglen Lean neu Six Sigma bresennol mewn man
   arall yn y busnes, a gall bwyntio at benderfyniadau buddsoddi neu
@@ -317,7 +317,7 @@ atal camddealltwriaeth traws-swyddogaethol.
 - Fector twyllo canolog y pwnc yw **mesur %C/A dim ond ar gyflenwi
   terfynol**; y gledr ddiogelwch yw ei rolio i fyny'n luosiadol ar
   draws pob cam fel rendiment trwybwn cyfanredol.
-- Mae **amser takt yn ail-fframio capasiti o gwmpas galw cwsmer
+- Mae **amser takt yn ail-fframio cynhwysedd o gwmpas galw cwsmer
   gwirioneddol**, nid cyflymder presennol, ac yn parejo'n uniongyrchol â
   defnydd (pwnc 2.7) a llwyth llif (pwnc 2.4).
 - Ail-fframio cyflenwi meddalwedd mewn termau Lean clasurol yw'r ffordd

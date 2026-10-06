@@ -114,7 +114,7 @@ blaenoriaethu dyled, gan fod eitem ddyled ag effaith cost ddangosedig,
 fesuradwy'n gwneud achos cryfach dros fuddsoddiad unioni na chwyn
 ansawdd heb ei feintioli ar ei ben ei hun.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -236,7 +236,7 @@ llwyddiannus dros fuddsoddiad cwmwl parhaus ac estynedig.
 Ateb amddiffynadwy, dehonglrwyd i'r cwestiwn y mae pob rhanddeiliad
 cyllid yn ei ofyn yn y pen draw yw'r enillion ar economeg uned
 drylwyr: a yw'r gwariant hwn yn effeithlon, ac a yw'n graddio'n
-gynaliadwy. Mae'r enghraifft menter uchod yn dangos perygl cael hyn yn
+gynaliadwy. Mae'r enghraifft menter uchod yn dangos risg cael hyn yn
 anghywir: bu bron i olwg gwariant-cyfan-yn-unig sbarduno mandad torri-
 cost diangen, gwrthgynhyrchiol yn erbyn gwariant a oedd, ar sail uned,
 yn dod yn fwy effeithlon, nid yn llai.
@@ -244,12 +244,12 @@ yn dod yn fwy effeithlon, nid yn llai.
 Mae cost cyfanswm perchnogaeth yn cynnwys offeryno priodoli-cost
 (arferion tagio FinOps) a'r ddisgyblaeth ddadansoddol i wahanu
 cydrannau cost ac olrhain tueddiadau uned dros amser. Mae'r buddsoddiad
-hwnnw'n gymedrol o'i gymharu â'r perygl o wneud penderfyniad cyllideb
+hwnnw'n gymedrol o'i gymharu â'r risg o wneud penderfyniad cyllideb
 sylweddol, torri gwariant a oedd mewn gwirionedd yn effeithlon, neu
 fethu â dal gwariant a oedd wirioneddol yn dod yn aneffeithlon, yn
 seiliedig ar olwg cost-gyfan tan-wybodus yn unig.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Adrodd cost gyfan heb enwadur:** nid yn ddehonglrwyd ac yn cuddio a
   yw cost yn graddio'n effeithlon neu'n aneffeithlon.
@@ -317,7 +317,7 @@ seiliedig ar olwg cost-gyfan tan-wybodus yn unig.
   Forsgren, Jez Humble, a Gene Kim (y berthynas rhwng effeithlonrwydd
   cyflenwi a chost).
 - *Site Reliability Engineering*, gan Betsy Beyer, Chris Jones,
-  Jennifer Petoff, a Niall Richard Murphy, gol. (cost fel cyfaddawd
+  Jennifer Petoff, a Niall Richard Murphy, gol. (cost fel cyfnewidiad
   peirianneg-dibynadwyedd penodol).
 - Fframwaith FinOps y FinOps Foundation, [finops.org](https://www.finops.org/)
   (canllawiau ymarferydd a model aeddfedrwydd ar gyfer rheolaeth

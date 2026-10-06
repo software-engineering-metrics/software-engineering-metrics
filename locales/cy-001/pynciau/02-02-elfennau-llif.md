@@ -15,13 +15,13 @@ hun, oherwydd dim ond os yw tîm yn dosbarthu ei waith iddynt yn onest ac
 yn gyson y mae'r categorïau'n cyflenwi gwerth.
 
 Priodwedd ddiffiniol elfennau llif yw bod dyraniad ar draws y pedwar math
-yn **gêm swm-sero**: mae swm sefydlog o gapasiti peirianneg yn bodoli mewn
+yn **gêm swm-sero**: mae swm sefydlog o gynhwysedd peirianneg yn bodoli mewn
 unrhyw gyfnod penodol, ac mae pob awr a dreulir ar nodwedd yn awr na
 dreulir ar waith dyled, risg, na diffyg. Nid yw hon yn ffaith newydd am
 gyflenwi meddalwedd, mae pob arweinydd peirianneg eisoes yn gwybod bod
-capasiti'n derfynol, ond nid oes gan y rhan fwyaf o sefydliadau unrhyw
+cynhwysedd'n derfynol, ond nid oes gan y rhan fwyaf o sefydliadau unrhyw
 ffordd gyson, onest o weld y rhaniad gwirioneddol. Mae cyflymder sbrint yn
-cyfrif pwyntiau stori waeth beth yw'r math; mae backlog wedi'i losgi i
+cyfrif pwyntiau stori waeth beth yw'r math; mae ôl-groniad wedi'i losgi i
 lawr yn edrych yn union yr un fath p'un a oedd y gwaith y tu ôl iddo'n
 llif talu newydd neu dri mis o remediad diogelwch di-fawreddog. Mae
 elfennau llif yn bodoli'n benodol i wneud y rhaniad anweledig hwnnw'n
@@ -30,12 +30,12 @@ weladwy.
 I dimau mawr, mae'r gwelededd hwn yn newid natur sgwrs adnoddau. Yn lle
 arweinydd peirianneg yn gwneud dadl heb ei meintioli bod "angen mwy o
 amser arnom ar gyfer dyled dechnegol," mae dosbarthiad elfen-lif yn
-cynhyrchu rhif gwirioneddol, defnyddiodd dyled 30% o gapasiti'r chwarter
+cynhyrchu rhif gwirioneddol, defnyddiodd dyled 30% o gynhwysedd'r chwarter
 diwethaf, y gellir ei drafod, ei amddiffyn, a'i addasu'n fwriadol â
 rhanddeiliaid busnes. Mae sefydliadau menter sy'n rhedeg llawer o linellau
 cynnyrch cydredol ac asiantaethau llywodraeth sy'n cydbwyso ymarferoldeb
 dinesig-wynebus newydd yn erbyn risg system etifeddol ill dau'n dibynnu ar
-y math hwn o gyfaddawd amddiffynadwy, wedi'i feintioli lawer mwy na
+y math hwn o gyfnewidiad amddiffynadwy, wedi'i feintioli lawer mwy na
 synnwyr preifat, anffurfiol bod "rydym yn treulio gormod o amser ar gynnal
 a chadw."
 
@@ -44,12 +44,12 @@ a chadw."
 - **Mae pob elfen lif yn perthyn i union un math.** Gorfodi dosbarthiad
   sengl, yn hytrach na chaniatáu un cymysg neu amwys, yw'r hyn sy'n gwneud
   y dacsonomi'n ddefnyddiadwy ar gyfer adrodd cyfanredol.
-- **Mae dyraniad yn swm-sero, nid yn ychwanegol.** Mae mwy o gapasiti ar
-  gyfer nodweddion o reidrwydd yn llai o gapasiti ar gyfer diffygion,
+- **Mae dyraniad yn swm-sero, nid yn ychwanegol.** Mae mwy o gynhwysedd ar
+  gyfer nodweddion o reidrwydd yn llai o gynhwysedd ar gyfer diffygion,
   risg, a dyled yn yr un cyfnod.
 - **Nid oes dosbarthiad iach cyffredinol.** Dylai cynnyrch ifanc mewn
   cyfnod twf yn gyfreithlon sgiwio tuag at nodweddion; dylai system aeddfed
-  sy'n cario risg technegol gwirioneddol yn gyfreithlon sgiwio tuag at
+  sy'n cario risg dechnegol gwirioneddol yn gyfreithlon sgiwio tuag at
   waith dyled a risg.
 - **Mae gwaith dyled a risg yn cael ei dan-adrodd yn gronig heb y
   ddisgyblaeth hon.** Mae'n tueddu i ddigwydd yn dawel, wedi'i amsugno i
@@ -94,7 +94,7 @@ peirianneg yn ei benderfynu'n dawel ar ei ben ei hun.
 
 Cymharwch eich dosbarthiad llif yn gyfnodol yn erbyn metrigau nad ydynt yn
 dibynnu ar hunan-ddosbarthiad: cyfradd defnydd escapiedig (pwnc 5.1),
-mesur dyled dechnegol (pwnc 4.5), a metrigau rheoli bregusrwydd (pwnc
+mesur dyled dechnegol (pwnc 4.5), a metrigau rheoli gwendid (pwnc
 6.4). Os yw diffygion neu fregusrwyddau'n codi tra bo cyfranddaliadau
 elfen llif "diffygion" a "risg" yn aros yn wastad neu'n crebachu, y
 camgyfateb hwnnw yw'r signal cliriaf sydd ar gael bod dosbarthiad wedi
@@ -103,21 +103,21 @@ drifftio oddi wrth realiti.
 ### Gwyliwch am batrwm y ffatri nodweddion yn benodol
 
 Pan fydd dosbarthiad llif yn dangos nodweddion yn amsugno bron pob
-capasiti'n gyson, chwarter ar ôl chwarter, gyda gwaith dyled a risg byth
+cynhwysedd'n gyson, chwarter ar ôl chwarter, gyda gwaith dyled a risg byth
 yn codi uwchben cyfran symbolaidd, mae'r patrwm hwnnw (a elwir weithiau'n
 "ffatri nodweddion") fel arfer yn golygu bod dyled a risg yn cael eu
-llwgu o gapasiti, nid bod y system yn wirioneddol angen dim cynnal a
+llwgu o gynhwysedd, nid bod y system yn wirioneddol angen dim cynnal a
 chadw. Mae'r patrwm hwn yn gyfforddus yn y tymor byr ac yn ddrud yn
 ddiweddarach, gan ymddangos yn y pen draw fel argyfwng ansawdd neu
 ddiogelwch sy'n cyrraedd heb rybudd yn y siart dosbarthiad llif, oherwydd
 nid oedd y cronni sylfaenol byth yn weladwy.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
-| Dim dosbarthiad ffurfiol (backlog cyffredinol) | Dim gorbenion proses | Mae gwaith dyled, risg, a diffyg yn aros yn anweledig; anodd amddiffyn penderfyniadau adnoddau |
-| Dosbarthiad elfen-lif pedwar math | Yn gwneud dyraniad capasiti'n weladwy ac yn drafodadwy â rhanddeiliaid | Angen disgyblaeth amser-cymryd-i-mewn a diffiniad ysgrifenedig, y cytunwyd arno fesul math |
+| Dim dosbarthiad ffurfiol (ôl-groniad cyffredinol) | Dim gorbenion proses | Mae gwaith dyled, risg, a diffyg yn aros yn anweledig; anodd amddiffyn penderfyniadau adnoddau |
+| Dosbarthiad elfen-lif pedwar math | Yn gwneud dyraniad cynhwysedd'n weladwy ac yn drafodadwy â rhanddeiliaid | Angen disgyblaeth amser-cymryd-i-mewn a diffiniad ysgrifenedig, y cytunwyd arno fesul math |
 | Dosbarthiad mwy manwl-gronynnog (llawer o is-fathau) | Mwy o fanylder diagnostig | Mwy o ymdrech dosbarthiad; mwy o rifau i'w hesbonio i randdeiliaid |
 | Dosbarthiad ôl-weithredol | Haws ei gymhwyso, dim newid proses ymlaen llaw | Yn hynod agored i dwyllo; mae dosbarthiad yn drifftio tuag at beth bynnag sy'n edrych orau |
 
@@ -161,7 +161,7 @@ cynllun dosbarthiad mwy manwl sy'n erydu o dan lwyth gwaith gwirioneddol.
    ffwrdd oddi wrtho.
 
 5. **A yw ein dosbarthiad llif yn cyfateb i dystiolaeth annibynnol, fel
-   cyfradd defnydd escapiedig neu gyfrif bregusrwydd agored, neu a oes
+   cyfradd defnydd escapiedig neu gyfrif gwendid agored, neu a oes
    camgyfateb sy'n werth ei ymchwilio?** Camgyfateb yma yw'r arwydd
    cliriaf sydd ar gael bod dosbarthiad wedi drifftio oddi wrth yr hyn y
    mae'r gwaith mewn gwirionedd.
@@ -191,7 +191,7 @@ bwysicach o lawer nag unrhyw soffistigedigrwydd offer.
 **Menter.** Dosbarthiad elfen-lif yw lle mae'r fframwaith hwn yn ennill
 ei werth ar raddfa, oherwydd nid oes gan sefydliad mawr sy'n rhedeg llawer
 o ffrydiau gwerth cydredol unrhyw ffordd ddibynadwy, gyfanredol arall i
-weld sut mae capasiti mewn gwirionedd yn cael ei rannu ar draws
+weld sut mae cynhwysedd mewn gwirionedd yn cael ei rannu ar draws
 nodweddion, diffygion, risg, a dyled. Buddsoddwch mewn dosbarthiad wedi'i
 integreiddio ag offer a chroeswiriadau cyfnodol yn erbyn tystiolaeth
 annibynnol; nid yw dosbarthiad â llaw, ad hoc yn goroesi graddfa
@@ -201,7 +201,7 @@ sefydliadol wirioneddol.
 feintioli i arweinydd technoleg sector cyhoeddus pan ofynnir pam nad oes
 mwy o nodweddion dinesig-wynebus newydd yn cael eu cyflenwi, pan mai'r
 ateb gonest yw bod baich risg a dyled system etifeddol yn defnyddio
-cyfran wirioneddol, gyfiawnadwy o gapasiti. Mae gwneud y cyfaddawd hwnnw'n
+cyfran wirioneddol, gyfiawnadwy o gynhwysedd. Mae gwneud y cyfnewidiad hwnnw'n
 esblyg ac wedi'i drafod, yn hytrach na'i amsugno'n dawel, yn tueddu i
 adeiladu mwy o ymddiriedaeth â chyrff goruchwylio nag apêl heb ei
 meintioli i "reidrwydd technegol."
@@ -213,7 +213,7 @@ yn seiliedig ar gyflymder sbrint, ei fod yn cyflenwi cynnyrch nodwedd
 sefydlog. Canfu ymarfer dosbarthiad elfen-lif onest cyntaf mai dim ond
 40% o'r gwaith cyflawn a wnaeth "nodweddion" mewn gwirionedd, gyda dyled,
 llawer ohono ynghlwm wrth system talu wrth y til sy'n heneiddio, yn
-defnyddio bron traean o gapasiti heb erioed gael ei enwi felly mewn
+defnyddio bron traean o gynhwysedd heb erioed gael ei enwi felly mewn
 unrhyw adroddiad blaenorol. Sicrhaodd cyflwyno'r rhaniad hwn i
 arweinyddiaeth cynnyrch, ochr yn ochr â chyfradd defnydd escapiedig
 gynyddol a gadarnhaodd y baich dyled, gyllideb moderneiddio bwrpasol yr
@@ -221,11 +221,11 @@ oedd y tîm wedi ceisio amdani'n aflwyddiannus am ddwy flynedd gan ddefnyddio
 dadleuon ansoddol yn unig.
 
 **Llywodraeth.** Dosbarthodd tîm trwyddedu digidol asiantaeth cerbydau
-modur talaith ei backlog am y tro cyntaf ar ôl i doriad cyhoeddus dynnu
+modur talaith ei ôl-groniad am y tro cyntaf ar ôl i doriad cyhoeddus dynnu
 craffu at sefydlogrwydd y system sylfaenol. Datgelodd yr ymarfer fod
 gwaith "risg", yn bennaf patsio diogelwch a oedd wedi cael ei
 ddadflaenoriaethu dro ar ôl tro o blaid nodweddion dinesig-wynebus
-gweladwy, wedi crebachu i lai na 5% o gapasiti dros y flwyddyn flaenorol,
+gweladwy, wedi crebachu i lai na 5% o gynhwysedd dros y flwyddyn flaenorol,
 patrwm nad oedd erioed wedi bod yn weladwy yn adrodd safonol y tîm.
 Defnyddiodd arweinyddiaeth yr asiantaeth y canfyddiad i fynnu dyraniad
 gwaith-risg lleiafswm yn y dyfodol, wedi'i gefnogi gan y data dosbarthiad
@@ -237,7 +237,7 @@ Sail amddiffynadwy, wedi'i feintioli ar gyfer penderfyniadau adnoddau a
 ddadleuwyd yn ansoddol o'r blaen ac a gollwyd yn aml i beth bynnag oedd y
 gwaith mwyaf gweladwy i randdeiliaid yw'r enillion ar ddosbarthiad
 elfen-lif. Mae'r enghraifft fanwerthu uchod, gan sicrhau cyllideb
-foderneiddio gyda data capasiti gwirioneddol yn hytrach nag apêl
+foderneiddio gyda data cynhwysedd gwirioneddol yn hytrach nag apêl
 gyffredinol, yn batrwm y mae'r ddisgyblaeth hon yn ei gynhyrchu'n
 ddibynadwy: mae rhif penodol yn llawer anos ei wfftio nag argraff
 gyffredinol bod "angen mwy o amser arnom ar gyfer cynnal a chadw."
@@ -250,7 +250,7 @@ barhaus yw'r ddisgyblaeth o gynnal dosbarthiad onest o dan bwysau
 cyflenwi, a dyna pam mae'r croeswiriad cyfnodol yn erbyn tystiolaeth
 annibynnol yn bwysig cymaint â'r fabwysiadu cychwynnol.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Dosbarthu gwaith yn ôl-weithredol, ar ôl i'r canlyniad fod yn
   hysbys:** y fector twyllo wrth galon y pwnc hwn. O dan bwysau
@@ -261,17 +261,17 @@ annibynnol yn bwysig cymaint â'r fabwysiadu cychwynnol.
   dosbarthiad amser-cymryd-i-mewn yn erbyn diffiniad ysgrifenedig, ynghyd
   ag archwiliadau cyfnodol yn cymharu dosbarthiad llif yn erbyn
   tystiolaeth annibynnol fel cyfradd defnydd escapiedig (pwnc 5.1) a
-  metrigau bregusrwydd (pwnc 6.4), yr un ddisgyblaeth archwilio-yn-erbyn-
+  metrigau gwendid (pwnc 6.4), yr un ddisgyblaeth archwilio-yn-erbyn-
   tystiolaeth-annibynnol y mae pwnc 1.2 yn gofyn amdani gyda phob
   metrig yn y llyfr hwn.
-- **Gadael i nodweddion amsugno bron pob capasiti'n gyson (patrwm y
+- **Gadael i nodweddion amsugno bron pob cynhwysedd'n gyson (patrwm y
   ffatri nodweddion):** yn llwgu gwaith dyled a risg yn dawel hyd nes ei
   fod yn ymddangos fel argyfwng.
 - **Trin dosbarthiad un cyfnod fel y darlun cyfan:** yn colli'r drifft
   araf, cronnol y mae golwg tuedd yn ei ddatgelu'n glir.
 - **Gosod dosbarthiad targed heb randdeiliaid busnes:** yn colli prif
   werth y fframwaith, dealltwriaeth a rennir, wedi'i thrafod o'r
-  cyfaddawd.
+  cyfnewidiad.
 - **Defnyddio diffiniad anghyson neu heb ei ddogfennu fesul math:** yn
   cynhyrchu rhifau sy'n edrych yn fanwl gywir ond nad ydynt mewn
   gwirionedd yn gymaradwy dros amser.
@@ -295,7 +295,7 @@ annibynnol yn bwysig cymaint â'r fabwysiadu cychwynnol.
 - **Lefel 5, Cerddorfaru:** Mae data elfen-lif yn llywio penderfyniadau
   adnoddau a buddsoddiad yn uniongyrchol ar draws y sefydliad, a gall
   arweinyddiaeth bwyntio at benderfyniadau penodol a wnaed oherwydd bod
-  dosbarthiad wedi gwneud cyfaddawd a oedd yn anweledig gynt yn esblyg.
+  dosbarthiad wedi gwneud cyfnewidiad a oedd yn anweledig gynt yn esblyg.
 
 ## Syniadau ar gyfer trafodaeth
 
@@ -307,7 +307,7 @@ annibynnol yn bwysig cymaint â'r fabwysiadu cychwynnol.
 ## Prif gasgliadau
 
 - Mae **elfen lif** yn perthyn i union un o bedwar math, nodweddion,
-  diffygion, risgiau, neu ddyled, ac mae dyraniad capasiti ar eu traws yn
+  diffygion, risgiau, neu ddyled, ac mae dyraniad cynhwysedd ar eu traws yn
   **swm-sero**.
 - **Nid oes dosbarthiad iach cyffredinol**; mae'r cymysgedd cywir yn
   dibynnu ar gyfnod cynnyrch a dylai fod yn darged bwriadol, wedi'i
@@ -317,7 +317,7 @@ annibynnol yn bwysig cymaint â'r fabwysiadu cychwynnol.
   gledr ddiogelwch yw dosbarthiad amser-cymryd-i-mewn ynghyd ag
   archwiliadau cyfnodol yn erbyn tystiolaeth annibynnol.
 - Gwyliwch yn benodol am **batrwm y ffatri nodweddion**, nodweddion yn
-  amsugno bron pob capasiti'n gyson, sy'n llwgu gwaith dyled a risg hyd
+  amsugno bron pob cynhwysedd'n gyson, sy'n llwgu gwaith dyled a risg hyd
   nes ei fod yn ymddangos fel argyfwng.
 - Mae dosbarthiad llif fwyaf gwerthfawr fel **tuedd**, ac mae ei enillion
   mwyaf yn dod o'i rannu'n uniongyrchol â rhanddeiliaid busnes.

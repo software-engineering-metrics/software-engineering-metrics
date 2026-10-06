@@ -112,14 +112,14 @@ gwraidd trylwyr, sy'n llygru'r union ddata y mae'r pwnc hwn yn
 dibynnu arno. Mae arfer post-mortem di-fai, wedi'i gwmpasu'n fanylach
 ym mhwnc 6.2, yn berthnasol yn uniongyrchol yma.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Cyfrif diffyg dianc crai | Syml i'w adrodd | Yn trin camsillafiad a bwg llygru-data yn union yr un fath; swnllyd a chamarweiniol |
 | Olrhain wedi'i bwysoli-yn-ôl-difrifoldeb | Yn adlewyrchu effaith gwsmer wirioneddol yn fwy cywir | Angen dosbarthiad cyson, disgybledig |
 | Safonau dosbarthiad annibynnol-i-dîm | Hyblyg, baich cydlynu isel | Yn cynhyrchu rhifau na ellir eu cymharu ar draws timau; yn gwahodd drifft goddefol |
-| Dosbarthiad safonedig, wedi'i archwilio | Teg, cymharadwy, yn gwrthsefyll twyllo | Angen llywodraethu parhaus ac ymdrech archwilio cyfnodol |
+| Dosbarthiad safonedig, wedi'i archwilio | Teg, cymharadwy, yn gwrthsefyll twyllo | Angen llywodraethiant parhaus ac ymdrech archwilio cyfnodol |
 
 Y tensiwn canolog yw **hyblygrwydd lleol yn erbyn cymharadwyedd draws-
 dîm**. Mae gadael i bob tîm ddosbarthu difrifoldeb diffyg mewn unrhyw
@@ -128,7 +128,7 @@ yn cynhyrchu rhifau na ellir eu cymharu na'u cyfanredu'n deg ar lefel
 sefydliadol, ac yn creu cymhelliant tawel i dîm ddosbarthu'n hael i
 warchod ei fetrigau ei hun. Datryswch y tensiwn trwy fuddsoddi mewn
 meini prawf dosbarthiad safonedig, dogfennedig ac archwiliadau
-traws-dîm cyfnodol, gan drin hyn fel gwaith llywodraethu (pwnc 1.4)
+traws-dîm cyfnodol, gan drin hyn fel gwaith llywodraethiant (pwnc 1.4)
 sy'n werth y buddsoddiad o ystyried pa mor uniongyrchol y mae'r metrig
 hwn yn cysylltu ag effaith cwsmer gwirioneddol.
 

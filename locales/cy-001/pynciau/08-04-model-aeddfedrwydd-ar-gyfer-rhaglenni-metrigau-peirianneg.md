@@ -2,16 +2,16 @@
 
 ## Trosolwg a chymhelliant
 
-Mae pob pwnc yn Rhannau 1 i 7 y llyfr hwn yn gorffen gyda'i [model aeddfedrwydd](https://en.wikipedia.org/wiki/Capability_Maturity_Model) pum lefel ei hun, wedi'i gwmpasu i deulu metrig penodol y pwnc hwnnw. Mae'r pwnc hwn yn gwneud rhywbeth gwahanol: mae'n camu'n ôl ac yn gofyn sut olwg sydd ar aeddfedrwydd ar gyfer *rhaglen* metrigau yn ei chyfanrwydd, y gallu sefydliadol sy'n cynhyrchu, llywodraethu, a gweithredu ar sail yr holl fetrigau unigol hynny gyda'i gilydd. Gall sefydliad fod ar Lefel 4 ar aeddfedrwydd metrig DORA unigol tra'n dal i fod ar Lefel 1 ar aeddfedrwydd rhaglen gyffredinol, os, er enghraifft, mae ganddo offeryniad rhagorol ond dim llywodraethu (pwnc 1.4), neu fetrigau unigol rhagorol ond cyflwyniad wedi'i yrru gan ofn (pwnc 8.3) sydd wedi llygru'r data sylfaenol ni waeth pa mor dda y cafodd pob metrig ei ddylunio.
+Mae pob pwnc yn Rhannau 1 i 7 y llyfr hwn yn gorffen gyda'i [model aeddfedrwydd](https://en.wikipedia.org/wiki/Capability_Maturity_Model) pum lefel ei hun, wedi'i gwmpasu i deulu metrig penodol y pwnc hwnnw. Mae'r pwnc hwn yn gwneud rhywbeth gwahanol: mae'n camu'n ôl ac yn gofyn sut olwg sydd ar aeddfedrwydd ar gyfer *rhaglen* metrigau yn ei chyfanrwydd, y gallu sefydliadol sy'n cynhyrchu, llywodraethu, a gweithredu ar sail yr holl fetrigau unigol hynny gyda'i gilydd. Gall sefydliad fod ar Lefel 4 ar aeddfedrwydd metrig DORA unigol tra'n dal i fod ar Lefel 1 ar aeddfedrwydd rhaglen gyffredinol, os, er enghraifft, mae ganddo offeryniad rhagorol ond dim llywodraethiant (pwnc 1.4), neu fetrigau unigol rhagorol ond cyflwyniad wedi'i yrru gan ofn (pwnc 8.3) sydd wedi llygru'r data sylfaenol ni waeth pa mor dda y cafodd pob metrig ei ddylunio.
 
-Mae model y pwnc hwn wedi'i adeiladu o amgylch pum dimensiwn sy'n torri ar draws pob teulu metrig unigol y mae'r llyfr hwn yn ymdrin ag ef: llywodraethu a pherchnogaeth (pwnc 1.4), ansawdd offeryniad (pwnc 1.5), cydbwysedd canlyniad-yn-erbyn-cynnyrch (pwnc 1.3, pwnc 7.4), ymddiriedaeth ddiwylliannol (pwnc 8.3), a gwelliant parhaus (y ddisgyblaeth ddiddymu ac adolygu a sefydlodd pwnc 1.1 ar ddechrau'r llyfr hwn). Yn realistig, y lleiafswm ar draws y pum dimensiwn hyn yw aeddfedrwydd cyffredinol rhaglen sefydliad, nid y cyfartaledd, gan y gall gwendid difrifol mewn unrhyw un, yn enwedig ymddiriedaeth ddiwylliannol, danseilio gwerth cryfder ym mhob un o'r lleill, yn union fel y dadleuodd pwnc 8.3 yn uniongyrchol.
+Mae model y pwnc hwn wedi'i adeiladu o amgylch pum dimensiwn sy'n torri ar draws pob teulu metrig unigol y mae'r llyfr hwn yn ymdrin ag ef: llywodraethiant a pherchnogaeth (pwnc 1.4), ansawdd offeryniad (pwnc 1.5), cydbwysedd canlyniad-yn-erbyn-cynnyrch (pwnc 1.3, pwnc 7.4), ymddiriedaeth ddiwylliannol (pwnc 8.3), a gwelliant parhaus (y ddisgyblaeth ddiddymu ac adolygu a sefydlodd pwnc 1.1 ar ddechrau'r llyfr hwn). Yn realistig, y lleiafswm ar draws y pum dimensiwn hyn yw aeddfedrwydd cyffredinol rhaglen sefydliad, nid y cyfartaledd, gan y gall gwendid difrifol mewn unrhyw un, yn enwedig ymddiriedaeth ddiwylliannol, danseilio gwerth cryfder ym mhob un o'r lleill, yn union fel y dadleuodd pwnc 8.3 yn uniongyrchol.
 
 I dimau mawr, mae'r model cyfunol hwn yn rhoi offeryn sengl, onest i arweinyddiaeth ar gyfer hunanasesiad sefydliadol, sy'n wahanol i ac yn ategu'r gwiriadau aeddfedrwydd pwnc-wrth-bwnc y mae'r llyfr hwn yn eu darparu drwyddo draw. Mae sefydliadau menter yn cymharu aeddfedrwydd metrigau ar draws unedau busnes, a sefydliadau llywodraeth yn adrodd aeddfedrwydd rhaglen i gyrff goruchwylio, ill dau'n elwa o'r asesiad sengl, croestoriadol hwn yn hytrach na'u bod angen crynhoi deugain a phump o ddarlleniadau aeddfedrwydd lefel pwnc ar wahân yn ddarlun cyffredinol cydlynol eu hunain.
 
 ## Egwyddorion allweddol
 
 - **Lleiafswm ar draws ei ddimensiynau yw aeddfedrwydd rhaglen, nid y cyfartaledd.** Mae gwendid difrifol mewn ymddiriedaeth ddiwylliannol yn tanseilio cryfder ym mhobman arall.
-- **Y pum dimensiwn croestoriadol yw llywodraethu, offeryniad, cydbwysedd canlyniad, ymddiriedaeth ddiwylliannol, a gwelliant parhaus.** Mae pob dimensiwn yn tynnu ynghyd edafedd o lawer o bynciau unigol.
+- **Y pum dimensiwn croestoriadol yw llywodraethiant, offeryniad, cydbwysedd canlyniad, ymddiriedaeth ddiwylliannol, a gwelliant parhaus.** Mae pob dimensiwn yn tynnu ynghyd edafedd o lawer o bynciau unigol.
 - **Mae'r model hwn yn ategu, nid yn disodli, y modelau aeddfedrwydd lefel pwnc unigol.** Defnyddiwch y ddau gyda'i gilydd ar gyfer darlun cyflawn.
 - **Dylai hunanasesiad fod yn onest ac yn benodol, nid yn ymgeisiol.** Sgoriwch lle rydych chi mewn gwirionedd, gan ddefnyddio tystiolaeth bendant, nid lle rydych chi'n bwriadu bod.
 - **Mae symud rhwng lefelau angen buddsoddiad bwriadus**, nid dim ond amser yn mynd heibio; nid yw aeddfedrwydd yn cronni'n awtomatig.
@@ -20,7 +20,7 @@ I dimau mawr, mae'r model cyfunol hwn yn rhoi offeryn sengl, onest i arweinyddia
 
 ### Asesu pob un o'r pum dimensiwn yn annibynnol, gan ddefnyddio tystiolaeth bendant
 
-Ar gyfer llywodraethu, gwiriwch a oes gan bob metrig arwyddocaol berchennog enwedig a siarter wedi'i ddogfennu (pwnc 1.4). Ar gyfer offeryniad, gwiriwch a yw metrigau'n dod o ffynonellau awtomataidd yn hytrach nag hunanadrodd lle bynnag y bo modd (pwnc 1.5). Ar gyfer cydbwysedd canlyniad, cyfrifwch gymhareb wirioneddol metrigau wedi'u pwysoli tuag at ganlyniadau i'r rhai wedi'u pwysoli tuag at gynnyrch ar eich prif ddangosfyrddau (pwnc 7.4). Ar gyfer ymddiriedaeth ddiwylliannol, aseswch yn onest a yw eich hanes cyflwyno erioed wedi cynnwys defnydd cosbol, heb ei drin o fetrig a sut y cafodd ei drin (pwnc 8.3). Ar gyfer gwelliant parhaus, gwiriwch a oes gan eich sefydliad hanes wedi'i ddogfennu o ddiddymu metrigau a beidiodd â bod yn werth eu cadw (pwnc 1.1). Sgoriwch bob dimensiwn yn annibynnol cyn eu cyfuno.
+Ar gyfer llywodraethiant, gwiriwch a oes gan bob metrig arwyddocaol berchennog enwedig a siarter wedi'i ddogfennu (pwnc 1.4). Ar gyfer offeryniad, gwiriwch a yw metrigau'n dod o ffynonellau awtomataidd yn hytrach nag hunanadrodd lle bynnag y bo modd (pwnc 1.5). Ar gyfer cydbwysedd canlyniad, cyfrifwch gymhareb wirioneddol metrigau wedi'u pwysoli tuag at ganlyniadau i'r rhai wedi'u pwysoli tuag at gynnyrch ar eich prif ddangosfyrddau (pwnc 7.4). Ar gyfer ymddiriedaeth ddiwylliannol, aseswch yn onest a yw eich hanes cyflwyno erioed wedi cynnwys defnydd cosbol, heb ei drin o fetrig a sut y cafodd ei drin (pwnc 8.3). Ar gyfer gwelliant parhaus, gwiriwch a oes gan eich sefydliad hanes wedi'i ddogfennu o ddiddymu metrigau a beidiodd â bod yn werth eu cadw (pwnc 1.1). Sgoriwch bob dimensiwn yn annibynnol cyn eu cyfuno.
 
 ### Cymryd y lleiafswm ar draws dimensiynau fel eich sgôr cyffredinol onest
 
@@ -32,13 +32,13 @@ Mae'r model cyfunol hwn yn ateb "pa mor aeddfed yw ein rhaglen gyffredinol"; mae
 
 ### Ail-ymweld â'r asesiad ar gadwyn benodol, nid dim ond pan gaiff ei annog gan argyfwng
 
-Wrth ddilyn disgyblaeth lywodraethu gyson y llyfr hwn (pwnc 1.4), ail-aseswch aeddfedrwydd rhaglen ar gadwyn reolaidd, blynyddol yn gyffredin, yn hytrach na dim ond ar ôl i argyfwng (digwyddiad chwarae a ddarganfyddir, adroddiad cyhoeddus sy'n niweidio hygrededd) orfodi'r cwestiwn. Mae rhaglen sy'n archwilio ei aeddfedrwydd ei hun yn adweithiol yn unig yn colli'r cyfle i ddal a mynd i'r afael â dimensiwn sy'n gwanhau cyn iddo gynhyrchu digwyddiad gwirioneddol, drud.
+Wrth ddilyn disgyblaeth llywodraethiant gyson y llyfr hwn (pwnc 1.4), ail-aseswch aeddfedrwydd rhaglen ar gadwyn reolaidd, blynyddol yn gyffredin, yn hytrach na dim ond ar ôl i argyfwng (digwyddiad chwarae a ddarganfyddir, adroddiad cyhoeddus sy'n niweidio hygrededd) orfodi'r cwestiwn. Mae rhaglen sy'n archwilio ei aeddfedrwydd ei hun yn adweithiol yn unig yn colli'r cyfle i ddal a mynd i'r afael â dimensiwn sy'n gwanhau cyn iddo gynhyrchu digwyddiad gwirioneddol, drud.
 
 ### Trin sgôr isel yn onest fel man cychwyn ar gyfer buddsoddiad, nid gradd fethiant
 
 Wrth ddilyn fframio diagnostig, nid gwerthusol, a sefydlodd pwnc 1.1 ar gyfer y llyfr cyfan hwn, defnyddiwch sgôr aeddfedrwydd isel, ar unrhyw ddimensiwn, fel man cychwyn ar gyfer cynllun buddsoddi bwriadus (map llwybr mabwysiadu pwnc 8.5 yw'r cam nesaf uniongyrchol), nid fel dyfarniad i deimlo'n wael amdano. Bydd y rhan fwyaf o sefydliadau, wedi'u hasesu'n onest, yn canfod gwendidau gwirioneddol yn rhywle yn y model hwn; y buddsoddiad wedi'i dargedu yw'r ymateb cynhyrchiol, nid amddiffynoldeb am y sgôr.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -51,7 +51,7 @@ Y prif densiwn yw **symlrwydd yn erbyn gonestrwydd**, gan adleisio rhybudd pwnc 
 
 ## Cwestiynau i'w trafod gyda'ch tîm
 
-1. **Wedi'u hasesu'n onest ac yn annibynnol, pa lefel y mae pob un o'n pum dimensiwn, llywodraethu, offeryniad, cydbwysedd canlyniad, ymddiriedaeth ddiwylliannol, a gwelliant parhaus, yn ei sgorio mewn gwirionedd?** Ewch drwy bob dimensiwn yn glir, gan ddefnyddio tystiolaeth bendant yn hytrach nag argraff, cyn eu cyfuno'n asesiad cyffredinol.
+1. **Wedi'u hasesu'n onest ac yn annibynnol, pa lefel y mae pob un o'n pum dimensiwn, llywodraethiant, offeryniad, cydbwysedd canlyniad, ymddiriedaeth ddiwylliannol, a gwelliant parhaus, yn ei sgorio mewn gwirionedd?** Ewch drwy bob dimensiwn yn glir, gan ddefnyddio tystiolaeth bendant yn hytrach nag argraff, cyn eu cyfuno'n asesiad cyffredinol.
 
 2. **Beth yw ein dimensiwn gwannaf, ac a yw hynny'n cyd-fynd â'n greddf am iechyd cyffredinol ein rhaglen, neu a yw'n datgelu rhywbeth nad ydym wedi'i enwi'n uniongyrchol o'r blaen?** Gallai sgôr isel mewn ymddiriedaeth ddiwylliannol yn benodol, er enghraifft, danseilio hyder mewn data sydd fel arall yn edrych yn rhagorol yn dechnegol.
 
@@ -77,7 +77,7 @@ Y prif densiwn yw **symlrwydd yn erbyn gonestrwydd**, gan adleisio rhybudd pwnc 
 
 **Menter.** Sgoriodd hunanasesiad cychwynnol cwmni technoleg logisteg ei ddimensiwn offeryniad ar Lefel 4 (ffynonellu data awtomataidd, cynhwysfawr o bibellau a systemau) ond ei ddimensiwn ymddiriedaeth ddiwylliannol ar Lefel 1, yn dilyn digwyddiad camddefnyddio metrig heb ei drin o ddwy flynedd ynghynt na chafodd erioed ei gydnabod na'i drwsio'n uniongyrchol (gan adleisio enghraifft lywodraeth pwnc 8.3 yn uniongyrchol). Greddf gychwynnol yr arweinyddiaeth oedd cyfartaleddu'r rhain yn ddarlun cyffredinol Lefel 2 neu 3 parchus; nododd cymhwysiad mwy onest o sgorio seiliedig-ar-leiafswm y pwnc hwn ymddiriedaeth ddiwylliannol yn gywir fel y cyfyngiad gwirioneddol ar werth y rhaglen gyfan, gan fod hyd yn oed offeryniad rhagorol yn cynhyrchu data nad oedd peirianwyr, yn ymwybodol o'r digwyddiad blaenorol, yn dal i ymddiried ynddo neu'n ei adrodd yn onest. Cafodd buddsoddiad wedi'i dargedu'n benodol mewn trwsio ymddiriedaeth ddiwylliannol, wrth ddilyn arweiniad pwnc 8.3 yn uniongyrchol, ei flaenoriaethu dros fuddsoddiad offeryniad pellach fel canlyniad uniongyrchol o'r asesiad onest, seiliedig-ar-leiafswm hwn.
 
-**Llywodraeth.** Canfu asiantaeth ystadegau genedlaethol, gan gynnal ei hunanasesiad aeddfedrwydd ffurfiol cyntaf, gan ddefnyddio'r model cyfunol hwn fel rhan o adolygiad llywodraethu technoleg ehangach, fod ei dimensiwn llywodraethu'n sgorio'n dda (perchnogaeth glir, siarteri wedi'u dogfennu) ond bod ei dimensiwn cydbwysedd canlyniad yn sgorio'n wael, gyda'r mwyafrif llethol o fetrigau a olrheiniwyd yn seiliedig ar gynnyrch a gweithgaredd er gwaethaf dadl Rhan 7 dros bwysoli canlyniadau wedi'i deall yn dda yn ddeallusol o fewn arweinyddiaeth dechnegol yr asiantaeth. Rhoddodd y canfyddiad onest, penodol hwn, yn hytrach na theimlad cyffredinol amwys "y dylem fesur canlyniadau'n fwy," fan cychwyn pendant, seiliedig-ar-dystiolaeth i gynllun buddsoddi dilynol yr asiantaeth (pwnc 8.5), a dyfynnodd adroddiad dilynol i fwrdd goruchwylio'r asiantaeth yr asesiad aeddfedrwydd hwn yn benodol fel sail i strategaeth fuddsoddi metrigau wedi'i hail-gyfeirio.
+**Llywodraeth.** Canfu asiantaeth ystadegau genedlaethol, gan gynnal ei hunanasesiad aeddfedrwydd ffurfiol cyntaf, gan ddefnyddio'r model cyfunol hwn fel rhan o adolygiad llywodraethiant technoleg ehangach, fod ei dimensiwn llywodraethiant'n sgorio'n dda (perchnogaeth glir, siarteri wedi'u dogfennu) ond bod ei dimensiwn cydbwysedd canlyniad yn sgorio'n wael, gyda'r mwyafrif llethol o fetrigau a olrheiniwyd yn seiliedig ar gynnyrch a gweithgaredd er gwaethaf dadl Rhan 7 dros bwysoli canlyniadau wedi'i deall yn dda yn ddeallusol o fewn arweinyddiaeth dechnegol yr asiantaeth. Rhoddodd y canfyddiad onest, penodol hwn, yn hytrach na theimlad cyffredinol amwys "y dylem fesur canlyniadau'n fwy," fan cychwyn pendant, seiliedig-ar-dystiolaeth i gynllun buddsoddi dilynol yr asiantaeth (pwnc 8.5), a dyfynnodd adroddiad dilynol i fwrdd goruchwylio'r asiantaeth yr asesiad aeddfedrwydd hwn yn benodol fel sail i strategaeth fuddsoddi metrigau wedi'i hail-gyfeirio.
 
 ## Yr achos busnes: cymhellion, ROI, a TCO
 
@@ -85,7 +85,7 @@ Yr enillion ar hunanasesiad aeddfedrwydd onest, seiliedig-ar-leiafswm yw nodi'n 
 
 Y gost berchnogaeth gyfan yw'r ymdrech asesu ei hun, cymedrol a chyfnodol, wedi'i phwyso yn erbyn risg parhau i fuddsoddi mewn dimensiwn sydd eisoes yn gryf tra bod un gwan, heb ei drin, yn enwedig ymddiriedaeth ddiwylliannol, yn parhau i lygru'n dawel werth popeth arall y mae'r rhaglen wedi'i adeiladu.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Cyfartaleddu sgorau dimensiwn i mewn i gyfansawdd mwy dymunol:** yn cuddio'r cyfyngiad gwirioneddol ar werth cyffredinol y rhaglen.
 - **Asesu'n ymgeisiol yn unig, yn seiliedig ar bolisi datganedig yn hytrach nag ymarfer gwirioneddol:** yn cynhyrchu darlun anghywir, gorddisglair.

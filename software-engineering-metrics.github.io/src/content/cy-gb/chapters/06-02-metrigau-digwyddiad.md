@@ -114,7 +114,7 @@ dyled dechnegol pwnc 4.5, gan fod post-mortem sy'n cynhyrchu
 mewnwelediad ond dim dilyniant yn gwastraffu'r dysgu sefydliadol y mae'r
 broses i fod i'w ddal.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |

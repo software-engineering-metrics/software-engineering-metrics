@@ -9,7 +9,7 @@ I dimau mawr, dyma lle mae syniadau'r llyfr hwn naill ai'n dod yn arferiad sefyd
 ## Pynciau yn y rhan hon
 
 - **8.1 Dylunio dangosfwrdd metrigau peirianneg:** Troi llu metrigau'r llyfr hwn yn set gydlynol, onest, weithredadwy o olygfeydd ar gyfer gwahanol gynulleidfaoedd.
-- **8.2 Tirwedd offer: adeiladu yn erbyn prynu:** Y cyfaddawdau gwirioneddol wrth ddewis neu adeiladu offer metrigau, a sut i benderfynu.
+- **8.2 Tirwedd offer: adeiladu yn erbyn prynu:** Y cyfnewidiadau gwirioneddol wrth ddewis neu adeiladu offer metrigau, a sut i benderfynu.
 - **8.3 Cyflwyno metrigau heb feithrin ofn:** Y pwnc ymarferol pwysicaf yn y rhan hon, ynghylch atal rhaglen fetrigau rhag ennyn yr union ymddygiad chwarae y mae'r llyfr hwn wedi rhybuddio yn ei erbyn drwyddo draw.
 - **8.4 Model aeddfedrwydd ar gyfer rhaglenni metrigau peirianneg:** Fframwaith aeddfedrwydd pum lefel wedi'i gyfuno, gan dynnu ynghyd fodel unigol pob pwnc.
 - **8.5 Map llwybr mabwysiadu cynyddrannol:** Llwybr pendant, graddol, wedi'i ddilyniannu o le bynnag y mae eich sefydliad ar hyn o bryd i raglen fetrigau aeddfed.

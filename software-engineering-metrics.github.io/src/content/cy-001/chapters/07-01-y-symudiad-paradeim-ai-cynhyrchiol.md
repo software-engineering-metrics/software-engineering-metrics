@@ -8,7 +8,7 @@ ysgrifennwyd, ymrwymiadau a wnaed, nodweddion a ryddhawyd, yn
 cydberthyn o leiaf yn llac ag ymdrech wirioneddol ac, yn amherffaith, â
 gwerth gwirioneddol. Nid oedd y gydberthynas honno erioed yn berffaith,
 neilltuodd pwnc 3.4 bwnc cyfan i pam mae metrigau gweithgarwch yn
-camarwain hyd yn oed mewn byd cyn-AI, ond roedd yn ddigon cryf fel bod
+camarwain hyd yn oed mewn byd cyn-ddeallusrwydd artiffisial (AI), ond roedd yn ddigon cryf fel bod
 llawer o sefydliadau wedi adeiladu rhaglenni metrigau ar y dybiaeth
 oblygedig bod mwy o god fel arfer yn golygu mwy o waith wedi'i wneud.
 Mae cynorthwywyr codio **[AI cynhyrchiol](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)**
@@ -91,7 +91,7 @@ yn gymesur â pha mor drwm y mae tîm wedi mabwysiadu datblygiad â
 chymorth AI, a gwyliwch dueddiadau maint defnyddio hyd yn oed yn agosach
 nag o'r blaen.
 
-### Triniwch gapasiti adolygu cod fel tagfa newydd, dyngedfennol
+### Triniwch gynhwysedd adolygu cod fel tagfa newydd, dyngedfennol
 
 Os yw cymorth AI'n cynyddu cyfaint y cod a gynigir ar gyfer adolygiad
 yn ddramatig, mae cam yr adolygiad (pwnc 2.9), eisoes yn aml y
@@ -118,19 +118,19 @@ cod gwreiddiol wedi'i gynhyrchu'n sylweddol gan AI, yn hytrach na thybio
 bod y perthnasau cyfradd-diffyg hanesyddol y mae eich sefydliad wedi
 adeiladu ei arferion ansawdd o'u cwmpas yn dal heb newid.
 
-### Diweddarwch eich siarter metrigau a'ch proses lywodraethu'n benodol ar gyfer y symudiad hwn
+### Diweddarwch eich siarter metrigau a'ch proses llywodraethiant'n benodol ar gyfer y symudiad hwn
 
-Gan ddilyn disgyblaeth llywodraethu pwnc 1.4, peidiwch â gadael i'r
+Gan ddilyn disgyblaeth llywodraethiant pwnc 1.4, peidiwch â gadael i'r
 symudiad hwn ddigwydd i'ch rhaglen fetrigau'n oddefol. Ailedrychwch yn
 benodol ar eich siarter metrigau, gan enwi pa fetrigau sydd angen
 cledrau diogelwch newydd, pa rai sydd angen eu hymddeol, a pha rai sy'n
-aros yn ddibynadwy, fel penderfyniad llywodraethu bwriadol yn hytrach
+aros yn ddibynadwy, fel penderfyniad llywodraethiant bwriadol yn hytrach
 na drifft heb ei archwilio. Dogfennwch y rhesymu, gan mai dyma'n union y
 math o symudiad diffiniadol a chyd-destunol y mae pwnc 1.4'n
 rhybuddio y gall ddigwydd yn dawel fel arall a chael ei ddarganfod dim
 ond yn llawer diweddarach.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -145,7 +145,7 @@ ffyrdd cyfarwydd, gan fod gan newid rhaglen fetrigau gost a tharfu
 sefydliadol gwirioneddol. Ond mae parhau i adrodd metrig sydd wedi
 peidio â mesur yr hyn yr oedd yn arfer ei fesur yn dawel yn waeth na
 tharfu, mae'n gamgyfeiriad gweithredol. Datryswch y tensiwn trwy drin
-hyn fel union y math o newid llywodraethu bwriadol, wedi'i ddogfennu y
+hyn fel union y math o newid llywodraethiant bwriadol, wedi'i ddogfennu y
 mae pwnc 1.4'n ei ddisgrifio, yn tarfu yn y tymor byr ond yn
 angenrheidiol i gadw metrigau'r sefydliad yn onest.
 
@@ -163,7 +163,7 @@ angenrheidiol i gadw metrigau'r sefydliad yn onest.
    wedi'i barejo gwirioneddol yn hytrach na thybio canlyniad
    cadarnhaol neu negyddol.
 
-3. **A yw ein capasiti adolygu cod yn cadw i fyny ag unrhyw gynnydd yng
+3. **A yw ein cynhwysedd adolygu cod yn cadw i fyny ag unrhyw gynnydd yng
    nghyfaint cod â chymorth AI, neu a yw dyfnder adolygu'n erydu'n
    dawel o dan bwysau cynyddol?** Gwiriwch fetrigau cam-adolygu
    (pwnc 2.9) yn benodol am arwyddion o'r perygl stamp-rwber yn
@@ -197,10 +197,10 @@ tebygol. Adeiladwch yr arferiad o wirio metrigau canlyniad (Rhan 5)
 ochr yn ochr ag unrhyw enillion effeithlonrwydd yr ydych yn eu hadrodd
 o fabwysiadu AI, yn hytrach nag adrodd gwelliannau cyflymder yn unig.
 
-**Busnes bach.** Gall cymorth codio AI ymestyn capasiti tîm bach yn
+**Busnes bach.** Gall cymorth codio AI ymestyn cynhwysedd tîm bach yn
 ystyrlon, ond gwrthsefyllwch y demtasiwn i adrodd cynnydd allbwn crai
 fel llwyddiant diamwys heb wirio cledrau diogelwch ansawdd; mae gan
-dîm bach lai o gapasiti i amsugno problem ansawdd heb ei chanfod na
+dîm bach lai o gynhwysedd i amsugno problem ansawdd heb ei chanfod na
 sefydliad mwy â mwy o ddiswyddiant.
 
 **Menter.** Mae graddfa'r perygl hwn yn cyfansymio'n sylweddol yma, gan
@@ -208,7 +208,7 @@ y gall mabwysiadu AI ar draws degau neu gannoedd o dimau ar yr un pryd
 symud dilysrwydd metrig ar draws y sefydliad cyfan cyn i unrhyw un tîm
 sylwi ar y patrwm yn lleol. Cynhaliwch yr archwiliad set-fetrigau y
 mae'r pwnc hwn yn ei argymell ar y lefel sefydliadol, nid fesul tîm
-yn unig, a diweddarwch lywodraethu (pwnc 1.4) yn ganolog ac yn benodol.
+yn unig, a diweddarwch llywodraethiant (pwnc 1.4) yn ganolog ac yn benodol.
 
 **Llywodraeth.** Mae sefydliadau sector-cyhoeddus yn aml yn mabwysiadu
 technoleg newydd yn fwy gofalus, ond mae'r metrigau a'r meincnodau a
@@ -224,14 +224,14 @@ perfformiad.
 **Menter.** Sylwodd arweinyddiaeth peirianneg cwmni technoleg ariannol
 fod amledd defnyddio wedi codi bron 40% yn y ddau chwarter yn dilyn
 mabwysiad eang cynorthwyydd codio AI, ac adroddodd hyn yn wreiddiol fel
-llwyddiant cynhyrchedd uniongyrchol mewn cyflwyniad bwrdd. Canfu
+llwyddiant cynhyrchiant uniongyrchol mewn cyflwyniad bwrdd. Canfu
 dadansoddiad dilynol mwy gofalus, wedi'i ysgogi gan gwestiwn aelod
 bwrdd amheugar am a wiriwyd ansawdd, fod cyfradd methiant newid wedi codi
 bron gam am gam ag amledd defnyddio, gan wrthbwyso'r enillion
 ymddangosiadol yn gyfan gwbl unwaith yr archwiliwyd y metrig
 sefydlogrwydd wedi'i barejo mewn gwirionedd. Mae adroddiad diwygiedig y
 cwmni bellach yn cyflwyno amledd defnyddio a chyfradd methiant newid
-gyda'i gilydd yn benodol pryd bynnag y gwneir hawliadau cynhyrchedd â
+gyda'i gilydd yn benodol pryd bynnag y gwneir hawliadau cynhyrchiant â
 chymorth AI, gan osgoi'r hawliad camarweiniol, bron yn gyhoeddus,
 cynharach.
 
@@ -262,14 +262,14 @@ randdeiliaid; mae un sy'n cael ei ddal yn adrodd metrig gwag yn talu
 cost enw da gwirioneddol, ac i raddau helaeth osgoiadwy.
 
 Yr ymdrech ddadansoddol i archwilio'r set fetrigau bresennol, tynhau
-cledrau diogelwch, a diweddaru dogfennaeth lywodraethu, buddsoddiad
+cledrau diogelwch, a diweddaru dogfennaeth llywodraethiant, buddsoddiad
 cymedrol, un-tro mewn perthynas â'r perygl parhaus o barhau i adrodd
 metrigau sydd wedi peidio â mesur yr hyn y maent yn honni ei fesur yn
 dawel, yw cost cyfanswm perchnogaeth. Mae'r gost hon hefyd yn ailadrodd
 ar lefel is, gan fod y symudiad hwn yn barhaus, nid yn ddigwyddiad
 un-tro, ac mae ailarchwiliad cyfnodol wrth i batrymau offeryno a
 mabwysiadu barhau i esblygu'n ychwanegiad rhesymol, parhaol i gadence
-llywodraethu metrigau.
+llywodraethiant metrigau.
 
 ## Gwrth-batrymau a pheryglon
 
@@ -308,7 +308,7 @@ llywodraethu metrigau.
   perthnasau ansawdd hanesyddol y sefydliad yn dal i sefyll.
 - **Lefel 5, Cerddorfaru:** Mae gan y sefydliad arfer aeddfed, parhaus o
   ailarchwilio ei fetrigau wrth i offeryno AI a phatrymau mabwysiadu
-  barhau i esblygu, a gall bwyntio at benderfyniadau llywodraethu
+  barhau i esblygu, a gall bwyntio at benderfyniadau llywodraethiant
   penodol a wnaed yn rhagweithiol mewn ymateb i'r symudiad hwn yn
   hytrach nag yn adweithiol ar ôl i broblem ddod i'r amlwg.
 
@@ -317,7 +317,7 @@ llywodraethu metrigau.
 1. Pa un o'n metrigau cyfredol fyddai'n gwneud i dîm sy'n defnyddio cymorth AI'n drwm ond yn cynhyrchu dim mwy o werth gwirioneddol edrych orau?
 2. A yw ein hamledd defnyddio wedi codi ers mabwysiadu AI, ac a symudodd cyfradd methiant newid gydag ef?
 3. A ydym yn tagio canlyniadau ansawdd yn ôl lefel cymorth-AI, a beth fyddai'r data hwnnw'n ei ddangos?
-4. A yw ein capasiti adolygu'n cadw i fyny ag unrhyw gynnydd mewn cyfaint cod a gynhyrchwyd-gan-AI?
+4. A yw ein cynhwysedd adolygu'n cadw i fyny ag unrhyw gynnydd mewn cyfaint cod a gynhyrchwyd-gan-AI?
 5. Pa feincnod diwydiant ydym ni'n ein cymharu ein hunain yn ei erbyn ar hyn o bryd, ac a yw ef ei hun wedi symud o dan y pwysau hwn?
 
 ## Prif gasgliadau
@@ -333,7 +333,7 @@ llywodraethu metrigau.
 - **Profwch, peidiwch â thybio, a oes gan god a gynhyrchwyd-gan-AI
   broffil diffyg gwahanol** i god a ysgrifennwyd-gan-ddyn, gan
   ddefnyddio data diffyg-dianc wedi'i dagio.
-- Triniwch hyn fel pryder llywodraethu **parhaus, nid un-tro** (pwnc
+- Triniwch hyn fel pryder llywodraethiant **parhaus, nid un-tro** (pwnc
   1.4), gan fod yr offeryno a'i batrymau mabwysiadu'n parhau i esblygu.
 
 ## Cyfeiriadau a darllen pellach
@@ -342,7 +342,7 @@ llywodraethu metrigau.
   Forsgren, Jez Humble, a Gene Kim (y sylfaen mesur seiliedig-ar-
   ganlyniad y mae'r pwnc hwn yn dadlau ei bod yn dod yn fwy, nid yn
   llai, pwysig o dan y symudiad hwn).
-- Ymchwil GitHub ar barau-rhaglennu AI a chynhyrchedd datblygwyr
+- Ymchwil GitHub ar barau-rhaglennu AI a chynhyrchiant datblygwyr
   (ymchwil diwydiant ar effeithiau mesuradwy datblygiad â chymorth AI).
 - Rhaglen Ymchwil ac Asesu DevOps Google Cloud, [dora.dev](https://dora.dev/)
   (ymchwil State of DevOps parhaus yn ymgorffori canfyddiadau

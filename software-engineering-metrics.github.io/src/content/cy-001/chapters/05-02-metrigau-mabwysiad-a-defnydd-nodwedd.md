@@ -112,7 +112,7 @@ cysylltu data mabwysiad â dysgu cynnyrch a pheirianneg gweithredadwy,
 gan gau'r ddolen rhwng newid penodol a'i effaith fesuredig ar ddefnydd
 gwirioneddol.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |

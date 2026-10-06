@@ -111,7 +111,7 @@ gan aml amlygu tagfa anffurfiol (un person y mae pawb yn llwybro
 trwyddo) neu boced ynysig (is-dîm sydd wedi drifftio allan o'r llif
 gwybodaeth ehangach) a fyddai fel arall yn aros yn anweledig.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -219,7 +219,7 @@ Dangosodd y data mai'r aros canolrifol ar gyfer newid dibyniaeth gan
 dîm y gwasanaeth a rennir oedd un diwrnod ar ddeg, yn llawer hirach nag
 y tybiodd y naill dîm neu'r llall pan ofynnwyd yn anffurfiol, a
 throdd yr achos gwraidd allan i fod yn broses gais aneglur, heb ei
-ddogfennu yn hytrach nag unrhyw brinder capasiti. Daeth cyhoeddi
+ddogfennu yn hytrach nag unrhyw brinder cynhwysedd. Daeth cyhoeddi
 proses gais glir, syml a tharged amser-ymateb ymrwymedig ar gyfer y
 gwasanaeth a rennir â'r aros canolrifol i lawr i lai na dau ddiwrnod
 o fewn un chwarter, heb angen staffio ychwanegol.
@@ -317,7 +317,7 @@ neu fethiant cydlynu traws-dîm cronig, heb ei ddatrys.
   rhyngweithio tîm a dyluniad dibyniaeth draws-dîm).
 - *Peopleware: Productive Projects and Teams*, gan Tom DeMarco a
   Timothy Lister (strwythurau cyfathrebu anffurfiol a'u heffaith ar
-  gynhyrchedd).
+  gynhyrchiant).
 - Conway, Melvin E., "How Do Committees Invent?" (1968): tarddiad
   Cyfraith Conway, ar y berthynas rhwng strwythur cyfathrebu a
   strwythur system.

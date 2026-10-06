@@ -37,6 +37,16 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
   live in `spec/section-names.json`; the tools, tests, and the site's content
   sync read them from there, and the site's URLs are unchanged.
 
+### Changed
+
+- Revised the Welsh locales (`cy-001`, `cy-gb`, kept identical) against the Welsh
+  Government's TermCymru terminology list: `llesiant` for well-being,
+  `cynhyrchiant` for productivity, `gwendid`/`gwendidau` for vulnerability,
+  `llywodraethiant` for governance, `cydberthynas` for correlation,
+  `ôl-groniad` for backlog (previously left in English), `cost a budd` for
+  cost-benefit, and `deallusrwydd artiffisial (AI)` at the first mention of AI
+  in each topic.
+
 ### Added
 
 - Added German (`de-001`) as the 26th complete translated locale: all 63

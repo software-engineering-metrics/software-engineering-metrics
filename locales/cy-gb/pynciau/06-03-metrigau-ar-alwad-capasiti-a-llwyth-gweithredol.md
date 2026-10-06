@@ -1,4 +1,4 @@
-# 6.3 Metrigau ar-alwad, capasiti, a llwyth gweithredol
+# 6.3 Metrigau ar-alwad, cynhwysedd, a llwyth gweithredol
 
 ## Trosolwg a chymhelliant
 
@@ -6,7 +6,7 @@ Mae'r dibynadwyedd y cyflwynodd pwnc 6.1 ac a fesurodd yr ymateb
 digwyddiad ym mhwnc 6.2 ill dau'n dibynnu ar system ddynol y mae'r
 pwnc hwn yn ei mesur yn uniongyrchol: y cylchdro ar-alwad, y
 peirianwyr sy'n cario dyfais alwad ac yn ymateb pan fydd rhywbeth yn
-torri, a'r capasiti isadeiledd sy'n pennu faint o lwyth y gall system
+torri, a'r cynhwysedd isadeiledd sy'n pennu faint o lwyth y gall system
 ei amsugno cyn iddi ddechrau torri yn y lle cyntaf. Gall sefydliad gael
 SLOs rhagorol, cyllidebau gwall wedi'u dylunio'n dda, a diwylliant
 digwyddiad gwirioneddol ddi-fai, a dal i losgi allan ei beirianwyr
@@ -14,7 +14,7 @@ ar-alwad trwy lwyth anghynaliadwy sy'n dirywio yn y pen draw yr union
 ddibynadwyedd yr adeiladwyd yr arferion eraill hynny i'w gwarchod.
 
 Mae'r pwnc hwn yn trin llwyth gweithredol fel teulu metrig yn ei
-rinwedd ei hun, wedi'i gysylltu'n uniongyrchol â mesuriad lles a
+rinwedd ei hun, wedi'i gysylltu'n uniongyrchol â mesuriad llesiant a
 **[llosgi allan](https://en.wikipedia.org/wiki/Occupational_burnout)**
 pwnc 3.2 ond yn benodol i straen acíwt, penodol cario dyfais alwad:
 cwsg wedi'i darfu, cost seicolegol bod ar-alwad hyd yn oed pan na
@@ -26,7 +26,7 @@ hanner heb ei fesur yn tueddu i ymddangos yn y pen draw fel traul
 staff, ansawdd ymateb digwyddiad dirywiedig gan ymatebwyr wedi ymlâdd,
 neu'r ddau.
 
-I dimau mawr, mae metrigau ar-alwad a chapasiti'n datgelu problemau
+I dimau mawr, mae metrigau ar-alwad a chynhwysedd'n datgelu problemau
 cydbwyso-llwyth sy'n adlewyrchu pryderon crynhoad-gwybodaeth pwnc
 3.5: nifer fach o beirianwyr yn amsugno cyfran anghymesur o alwadau,
 yn aml y bobl fwyaf profiadol yn union oherwydd y gallant ddatrys
@@ -46,7 +46,7 @@ darganfod y gost wirioneddol dim ond trwy draul staff.
 - **Mae ymyriad yn ystod ar-alwad yn cario cost hyd yn oed pan na
   ddigwydd unrhyw ddigwyddiad mewn gwirionedd**, pwysau seicolegol bod
   yn gyraeddadwy ac yn gyfrifol.
-- **Mae cynllunio capasiti a llwyth ar-alwad yn gysylltiedig.** Mae
+- **Mae cynllunio cynhwysedd a llwyth ar-alwad yn gysylltiedig.** Mae
   isadeiledd tan-ddarparedig yn cynhyrchu mwy o alwadau, gan gynyddu
   baich ar-alwad yn uniongyrchol.
 - **Mae system ar-alwad gynaliadwy'n gwarchod dibynadwyedd ei hun**,
@@ -74,7 +74,7 @@ posibl, gweithgareddau personol wedi'u cyfyngu, a straen gradd isel o
 gyfrifoldeb parhaus. Lle bo'n ymarferol, daliwch hyn trwy ddata arolwg
 (pwnc 3.7) yn benodol am brofiad ar-alwad, ar wahân i foddhad
 cyffredinol, gan y gall tîm adrodd boddhad cyffredinol rhesymol tra bo
-ar-alwad yn benodol yn erydu lles yn dawel.
+ar-alwad yn benodol yn erydu llesiant yn dawel.
 
 ### Gosodwch derfynau penodol ar amlder ar-alwad cynaliadwy
 
@@ -86,15 +86,15 @@ dechnegol ond sy'n dibynnu'n effeithiol ar ddau neu dri ohonynt oherwydd
 bylchau sgil neu gyfyngiadau argaeledd mewn gwirionedd yn bodloni'r
 terfyn, waeth beth mae'r amserlen enwol yn ei ddangos.
 
-### Cysylltwch gynllunio capasiti'n uniongyrchol â llwyth ar-alwad
+### Cysylltwch gynllunio cynhwysedd'n uniongyrchol â llwyth ar-alwad
 
 Mae isadeiledd tan-ddarparedig, lle pen annigonol ar gyfer pigau
 traffig, ffurfweddiad hunan-raddio annigonol, yn cynhyrchu mwy o
 alwadau yn ôl diffiniad, gan gynyddu baich ar-alwad yn uniongyrchol.
-Olrheiniwch ddefnydd capasiti isadeiledd a'i gydberthyn ag amlder
+Olrheiniwch ddefnydd cynhwysedd isadeiledd a'i gydberthyn ag amlder
 galwad: mae gwasanaeth sy'n rhedeg yn rheolaidd yn agos at ei nenfwd
-capasiti ac yn cynhyrchu cyfran anghymesur o alwadau'n ddadl
-uniongyrchol, feintiol dros fuddsoddiad capasiti, nid dim ond cwyn
+cynhwysedd ac yn cynhyrchu cyfran anghymesur o alwadau'n ddadl
+uniongyrchol, feintiol dros fuddsoddiad cynhwysedd, nid dim ond cwyn
 weithredol amwys.
 
 ### Defnyddiwch fetrigau ar-alwad i lywio penderfyniadau staffio a chyflogi, nid gwerthusiad unigol
@@ -108,14 +108,14 @@ defnyddio metrigau ymateb-galwad unigol i werthuso perfformiad
 peiriannydd penodol; y nod yw staffio a dyluniad system cynaliadwy, nid
 cadw sgôr unigol.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Dim olrhain llwyth ar-alwad ffurfiol | Dim baich | Mae perygl llosgi allan a chrynhoad ffactor-bws yn aros yn anweledig tan iddynt ymddangos fel traul staff |
 | Amlder galwad cyfartaledd-tîm yn unig | Syml i'w gyfrifo | Yn cuddio crynhoad unigol difrifol |
 | Olrhain dosbarthiad galwad lefel-unigol | Yn datgelu crynhoad a pherygl llosgi allan yn uniongyrchol | Angen gofal i'w ddefnyddio'n gyfanredol yn unig, byth ar gyfer gwerthusiad unigol |
-| Buddsoddiad capasiti i leihau cyfaint galwad wrth y ffynhonnell | Yn mynd i'r afael â'r achos gwraidd, yn lleihau baich yn gynaliadwy | Angen buddsoddiad isadeiledd ymlaen llaw |
+| Buddsoddiad cynhwysedd i leihau cyfaint galwad wrth y ffynhonnell | Yn mynd i'r afael â'r achos gwraidd, yn lleihau baich yn gynaliadwy | Angen buddsoddiad isadeiledd ymlaen llaw |
 
 Y tensiwn canolog yw **derbyn yn erbyn buddsoddi**. Mae'n hawdd trin
 cyfaint galwad uchel fel dim ond cost anochel rhedeg gwasanaeth
@@ -123,7 +123,7 @@ dibynadwy a gofyn i beirianwyr ar-alwad ei amsugno, ond mae'r derbyn
 hwnnw'n costio i'r sefydliad yn y pen draw trwy draul staff ac ansawdd
 ymateb digwyddiad dirywiedig gan ymatebwyr wedi ymlâdd. Datryswch y
 tensiwn trwy drin llwyth ar-alwad uwch fel signal sy'n galw am
-fuddsoddiad gwirioneddol, gwelliannau capasiti, rhybuddio gwell i
+fuddsoddiad gwirioneddol, gwelliannau cynhwysedd, rhybuddio gwell i
 leihau positifau ffug, staffio cylchdro estynedig, yn hytrach na baich
 anochel i'w ddioddef yn syml yn ddiddiwedd.
 
@@ -148,9 +148,9 @@ anochel i'w ddioddef yn syml yn ddiddiwedd.
    ddau yn bodloni unrhyw derfyn cynaliadwyedd rhesymol.
 
 4. **Pa un o'n gwasanaethau sy'n cynhyrchu cyfran anghymesur o alwadau
-   mewn perthynas â'i le pen capasiti, ac a fyddai buddsoddiad
+   mewn perthynas â'i le pen cynhwysedd, ac a fyddai buddsoddiad
    isadeiledd ychwanegol yn lleihau'r llwyth hwnnw'n uniongyrchol?**
-   Croesgyfeiriwch amlder galwad yn erbyn data defnydd capasiti'n
+   Croesgyfeiriwch amlder galwad yn erbyn data defnydd cynhwysedd'n
    benodol i adeiladu'r achos hwn â thystiolaeth wirioneddol.
 
 5. **A yw data llwyth ar-alwad erioed wedi cael ei ddefnyddio, hyd yn
@@ -188,7 +188,7 @@ ffactor-bws cysylltiedig yn graddio'n wael yma, gan fod mwy o
 wasanaethau a mwy o gymhlethdod fel arfer yn golygu mwy o alwadau
 posibl, ac mae crynhoad arbenigedd yn cyfansymio'r broblem. Buddsoddwch
 mewn olrhain llwyth lefel-unigol (a ddefnyddir yn gyfanredol yn unig ar
-gyfer penderfyniadau staffio), buddsoddiad capasiti i leihau cyfaint
+gyfer penderfyniadau staffio), buddsoddiad cynhwysedd i leihau cyfaint
 galwad wrth y ffynhonnell, ac ailgydbwyso cylchdro bwriadol.
 
 **Llywodraeth.** Mae isadeiledd cyhoeddus dyngedfennol yn aml angen
@@ -196,7 +196,7 @@ sylw ar-alwad rownd-y-cloc â chanlyniadau gwirioneddol os yw ymateb yn
 oedi, sy'n codi pwysigrwydd staffio cynaliadwy a'r anhawster o'i
 gyflawni o dan gyfyngiadau nifer-pennau sector-cyhoeddus nodweddiadol
 fel ei gilydd. Defnyddiwch ddata llwyth ar-alwad yn benodol ac yn
-uniongyrchol i gyfiawnhau ceisiadau staffio, gan fframio capasiti
+uniongyrchol i gyfiawnhau ceisiadau staffio, gan fframio cynhwysedd
 ar-alwad gynaliadwy fel gofyniad dibynadwyedd uniongyrchol, meintiol yn
 hytrach na ffafriaeth staffio ddisgresiynol.
 
@@ -209,25 +209,25 @@ alwadau'n bersonol yn y flwyddyn flaenorol, y ddau oherwydd eu bod
 gyflymaf wrth ddatrys digwyddiadau cymhleth a hefyd oherwydd bod
 aelodau cylchdro eraill wedi dysgu ohirio iddynt yn anffurfiol yn
 hytrach na cheisio datrysiad eu hunain. Adroddodd y ddau beiriannydd
-symptomau llosgi-allan sylweddol yn arolwg lles y cwmni (pwnc 3.2)
+symptomau llosgi-allan sylweddol yn arolwg llesiant y cwmni (pwnc 3.2)
 heb i arweinyddiaeth fod wedi cysylltu'r signal arolwg hwnnw'n flaenorol
 â'r data crynhoad ar-alwad penodol, meintiol. Gostyngodd ymdrech
 ailgydbwyso fwriadol, gan gynnwys hyfforddiant wedi'i dargedu i
 adeiladu hyder datrys ar draws y cylchdro ehangach a chap ffurfiol ar
 faint o alwadau olynol y gallai unrhyw unigolyn eu neilltuo, gyfran y
 ddau beiriannydd i o dan 25% o fewn chwe mis, gyda gwelliant cyfatebol
-yn eu lles a adroddwyd.
+yn eu llesiant a adroddwyd.
 
 **Llywodraeth.** Roedd tîm peirianneg cyfleustod dŵr rhanbarthol wedi
 bod yn gweithredu â chylchdro pedwar-person enwol ar gyfer monitro
-isadeiledd dyngedfennol, ond datgelodd data defnydd-capasiti fod un
+isadeiledd dyngedfennol, ond datgelodd data defnydd-cynhwysedd fod un
 orsaf bwmpio, hynafol benodol, yn rhedeg yn gyson yn agos at ei nenfwd
 gweithredol, wedi cynhyrchu bron hanner yr holl alwadau ar draws y
-cylchdro cyfan. Gostyngodd uwchraddiad capasiti i'r un orsaf bwmpio
-honno, wedi'i ariannu'n uniongyrchol gan ddefnyddio'r cydberthyniad
-amlder-galwad-yn-erbyn-capasiti fel tystiolaeth ategol gonc yn y cais
+cylchdro cyfan. Gostyngodd uwchraddiad cynhwysedd i'r un orsaf bwmpio
+honno, wedi'i ariannu'n uniongyrchol gan ddefnyddio'r gydberthynas
+amlder-galwad-yn-erbyn-cynhwysedd fel tystiolaeth ategol gonc yn y cais
 cyllideb, gyfaint galwad cyfan y sefydliad tua 40% o fewn y flwyddyn
-ganlynol, gan ddangos bod y baich ar-alwad wedi bod yn broblem capasiti
+ganlynol, gan ddangos bod y baich ar-alwad wedi bod yn broblem cynhwysedd
 sylweddol wedi'i chuddio yn hytrach na phroblem staffio neu broses yn
 unig.
 
@@ -235,7 +235,7 @@ unig.
 
 Traul staff osgowyd a dirywiad dibynadwyedd osgowyd rhag ymatebwyr wedi
 ymlâdd yn gwneud penderfyniadau arafach, mwy agored i wall yw'r
-enillion ar reoli llwyth ar-alwad a chapasiti'n fwriadol. Mae'r
+enillion ar reoli llwyth ar-alwad a chynhwysedd'n fwriadol. Mae'r
 enghraifft seilwaith cwmwl uchod yn dangos y perygl cyfansymio'n
 uniongyrchol: creodd crynhoad heb ei reoli amlygiad llosgi allan a
 ffactor-bws ar yr un pryd y gwnaeth ymdrech ailgydbwyso syml, wedi'i
@@ -244,10 +244,10 @@ golli'r naill neu'r llall o'r peirianwyr uwch i draul staff.
 
 Mae cost cyfanswm perchnogaeth yn cynnwys yr offeryno i olrhain
 dosbarthiad galwad lefel-unigol (a ddefnyddir yn ofalus, yn gyfanredol
-yn unig) ac, lle nodir, buddsoddiad capasiti gwirioneddol i leihau
+yn unig) ac, lle nodir, buddsoddiad cynhwysedd gwirioneddol i leihau
 cyfaint galwad wrth y ffynhonnell. Mae'r enghraifft cyfleustod dŵr yn
 dangos y gall y buddsoddiad hwn dalu amdano'i hun yn uniongyrchol ac yn
-fesuradwy, gan i drwsiad capasiti sengl, wedi'i dargedu'n dda leihau
+fesuradwy, gan i drwsiad cynhwysedd sengl, wedi'i dargedu'n dda leihau
 baich gweithredol ar draws y sefydliad yn sylweddol.
 
 ## Gwrth-batrymau a pheryglon
@@ -262,9 +262,9 @@ baich gweithredol ar draws y sefydliad yn sylweddol.
   ailadrodd y trap gwerthuso-unigol y mae'r llyfr hwn yn rhybuddio yn ei
   erbyn drwyddo draw, wedi'i gymhwyso yma i lwyth gweithredol.
 - **Derbyn cyfaint galwad uchel fel cost anochel dibynadwyedd yn
-  hytrach nag ymchwilio capasiti fel achos gwraidd:** yn colli trwsiad
+  hytrach nag ymchwilio cynhwysedd fel achos gwraidd:** yn colli trwsiad
   uniongyrchol sydd ar gael yn aml.
-- **Byth yn cysylltu data llwyth ar-alwad â data arolwg lles:** yn colli'r
+- **Byth yn cysylltu data llwyth ar-alwad â data arolwg llesiant:** yn colli'r
   cyfle i nodi a gweithredu ar berygl llosgi allan cyfansymio cyn iddo
   ymddangos fel traul staff.
 - **Anwybyddu cost seicolegol bod ar-alwad â sero galwadau
@@ -276,17 +276,17 @@ baich gweithredol ar draws y sefydliad yn sylweddol.
   holrheinir dim ond fel cyfartaledd tîm-cyfan sy'n cuddio crynhoad
   unigol.
 - **Lefel 2, Datblygu:** Mae rhywfaint o ddata galwad lefel-unigol yn
-  bodoli, ond nid yw wedi'i gysylltu â data arolwg lles na
-  phenderfyniadau buddsoddi capasiti.
+  bodoli, ond nid yw wedi'i gysylltu â data arolwg llesiant na
+  phenderfyniadau buddsoddi cynhwysedd.
 - **Lefel 3, Safoni:** Olrheinir dosbarthiad galwad lefel-unigol a
-  chydberthyniad defnydd-capasiti'n gyson, gyda therfynau
+  chydberthynas defnydd-cynhwysedd'n gyson, gyda therfynau
   cynaliadwyedd penodol ar amlder cylchdro.
 - **Lefel 4, Rheoli:** Defnyddir data llwyth ar-alwad yn weithredol i
-  yrru buddsoddiad capasiti ac ailgydbwyso cylchdro, wedi'i gysylltu'n
-  benodol â signalau arolwg lles.
+  yrru buddsoddiad cynhwysedd ac ailgydbwyso cylchdro, wedi'i gysylltu'n
+  benodol â signalau arolwg llesiant.
 - **Lefel 5, Cerddorfaru:** Gall y sefydliad bwyntio at welliannau
-  penodol, mesuradwy mewn llwyth gweithredol a lles fel ei gilydd o
-  fuddsoddiad capasiti wedi'i dargedu ac ailddyluniad cylchdro, ac mae
+  penodol, mesuradwy mewn llwyth gweithredol a llesiant fel ei gilydd o
+  fuddsoddiad cynhwysedd wedi'i dargedu ac ailddyluniad cylchdro, ac mae
   staffio ar-alwad cynaliadwy'n fewnbwn rheolaidd, wedi'i gyfiawnhau'n
   dda i gynllunio nifer-pennau ac isadeiledd.
 
@@ -294,8 +294,8 @@ baich gweithredol ar draws y sefydliad yn sylweddol.
 
 1. Sut olwg sydd ar ein dosbarthiad galwad gwirioneddol, lefel-unigol ar hyn o bryd?
 2. A yw ein hamserlen cylchdro enwol yn adlewyrchu pwy sy'n mewn gwirionedd yn datrys y rhan fwyaf o ddigwyddiadau?
-3. Pa fuddsoddiad capasiti sengl fyddai'n lleihau ein cyfaint galwad cyfredol fwyaf?
-4. A ydym erioed wedi cysylltu data llwyth ar-alwad â signalau arolwg lles?
+3. Pa fuddsoddiad cynhwysedd sengl fyddai'n lleihau ein cyfaint galwad cyfredol fwyaf?
+4. A ydym erioed wedi cysylltu data llwyth ar-alwad â signalau arolwg llesiant?
 5. Beth fyddai'n ei gostio i ni golli ein peiriannydd mwyaf galwedig i losgi allan?
 
 ## Prif gasgliadau
@@ -305,11 +305,11 @@ baich gweithredol ar draws y sefydliad yn sylweddol.
   guddio crynhoad difrifol.
 - Mae bod ar-alwad yn cario **cost seicolegol hyd yn oed â sero
   galwadau gwirioneddol**; mesurwch hyn ar wahân i foddhad cyffredinol.
-- **Mae cynllunio capasiti a llwyth ar-alwad yn gysylltiedig yn
+- **Mae cynllunio cynhwysedd a llwyth ar-alwad yn gysylltiedig yn
   uniongyrchol**; mae isadeiledd tan-ddarparedig yn cynhyrchu mwy o
   alwadau a mwy o faich.
 - Defnyddiwch ddata ar-alwad ar gyfer **penderfyniadau staffio a
-  chapasiti**, byth ar gyfer gwerthusiad perfformiad unigol.
+  chynhwysedd**, byth ar gyfer gwerthusiad perfformiad unigol.
 - Mae system ar-alwad gynaliadwy'n **gwarchod dibynadwyedd ei hun**,
   gan fod ymatebwyr wedi ymlâdd yn gwneud penderfyniadau arafach, mwy
   agored i wall.

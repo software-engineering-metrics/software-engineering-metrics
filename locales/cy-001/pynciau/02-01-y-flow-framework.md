@@ -47,9 +47,9 @@ bwriad strategol. Dyna beth mae'r fframwaith hwn yn ei ddarparu.
   gyflym."** Mae pedwar categori pwnc 2.2, nodweddion, diffygion,
   risgiau, a dyled, yn troi penderfyniad blaenoriaethu ymhlyg yn un
   esblyg, mesuradwy.
-- **Mae dyraniad capasiti ar draws elfennau llif yn swm-sero.** Mae mwy o
-  gapasiti a dreulir ar un math o elfen yn llai o gapasiti sydd ar gael
-  ar gyfer y lleill; mae'r fframwaith yn gwneud y cyfaddawd hwnnw'n
+- **Mae dyraniad cynhwysedd ar draws elfennau llif yn swm-sero.** Mae mwy o
+  gynhwysedd a dreulir ar un math o elfen yn llai o gynhwysedd sydd ar gael
+  ar gyfer y lleill; mae'r fframwaith yn gwneud y cyfnewidiad hwnnw'n
   weladwy yn lle ei adael yn ymhlyg.
 - **Mae'r pum metrig llif yn ateb cwestiynau busnes, nid dim ond rhai
   peirianneg.** Fe'u dyluniwyd i'w cyflwyno i randdeiliad anhechnegol, nid
@@ -90,7 +90,7 @@ Y cyfle a gollwyd mwyaf sengl â'r fframwaith hwn yw ei drin fel offeryn
 peirianneg mewnol. Mae dosbarthiad llif, cyfran y gwaith sy'n mynd i
 nodweddion yn erbyn diffygion, risg, a dyled (pwnc 2.3), wedi'i ddylunio'n
 benodol i fod yn sgwrs a gewch â arweinyddiaeth cynnyrch a busnes,
-oherwydd mae'n gwneud penderfyniad blaenoriaethu ymhlyg, faint o gapasiti
+oherwydd mae'n gwneud penderfyniad blaenoriaethu ymhlyg, faint o gynhwysedd
 sy'n mynd i werth newydd yn erbyn cadw'r goleuadau ymlaen, yn esblyg ac
 yn drafodadwy yn lle tybiedig.
 
@@ -100,7 +100,7 @@ Mynnwch fod pob uned waith yn cael ei dosbarthu'n union un o'r pedwar
 math o elfen lif wrth ei chymryd i mewn, nid yn ôl-weithredol. Mae
 dosbarthiad a gymhwysir ar ôl y ffaith, neu a gymhwysir yn llac oherwydd
 "mae'n fasnach yn nodwedd," yn erydu gwerth cyfan y dacsonomi, oherwydd
-holl bwynt hyn yw cofnod gonest, cyson o ble mae'r capasiti mewn
+holl bwynt hyn yw cofnod gonest, cyson o ble mae'r cynhwysedd mewn
 gwirionedd wedi mynd.
 
 ### Ailedrychwch ar eich map ffrwd werth pan fydd y sefydliad yn newid, nid ar amserlen sefydlog
@@ -111,7 +111,7 @@ fympwyol. Triniwch ad-drefniant, mudiad offer mawr, neu drobwynt cynnyrch
 sylweddol fel sbardun i ailgerdded y ffrwd werth, oherwydd mae metrig
 wedi'i gyfrifo yn erbyn map hen yn mesur y peth anghywir yn dawel.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -186,15 +186,15 @@ soffistigedigrwydd yr offer y tu ôl iddo.
 **Menter.** Dyma lle mae'r fframwaith yn ennill ei le, oherwydd nid oes
 gan sefydliad mawr sy'n rhedeg dwsinau o ffrydiau gwerth ar draws llawer o
 linellau cynnyrch unrhyw ffordd ddibynadwy arall i weld, mewn un lle,
-sut mae capasiti peirianneg mewn gwirionedd yn cael ei ddyrannu ar draws
+sut mae cynhwysedd peirianneg mewn gwirionedd yn cael ei ddyrannu ar draws
 nodweddion, diffygion, risg, a dyled. Buddsoddwch yn yr integreiddiad
 offer; nid yw'r dewis â llaw yn goroesi cyswllt â graddfa wirioneddol.
 
 **Llywodraeth.** Mae dosbarthiad llif yn rhoi ateb amddiffynadwy,
 busnes-ddarllenadwy i sefydliad peirianneg sector cyhoeddus i "pam nad
 oes mwy o ymarferoldeb newydd yn cael ei gyflenwi," pan mai'r ateb gonest
-yw cyfran gynyddol o gapasiti'n mynd i remediad diogelwch neu ddyled
-etifeddol. Mae gwneud y cyfaddawd hwnnw'n weladwy ac yn esblyg, yn hytrach
+yw cyfran gynyddol o gynhwysedd'n mynd i remediad diogelwch neu ddyled
+etifeddol. Mae gwneud y cyfnewidiad hwnnw'n weladwy ac yn esblyg, yn hytrach
 nag amsugno'r pwysau'n dawel, yn aml yr un peth mwyaf defnyddiol y mae'r
 fframwaith hwn yn ei gynnig i arweinydd technoleg llywodraeth.
 
@@ -205,7 +205,7 @@ credu ei fod yn bennaf yn cyflenwi nodweddion newydd, yn seiliedig ar ei
 adroddiadau cyflymder sbrint. Datgelodd ymarfer mapio ffrwd werth a
 dosbarthiad elfen-lif cyntaf fod gwaith dyled a risg, llawer ohono'n ddyled
 dechnegol heb ei ddogfennu o system graidd degawd oed, mewn gwirionedd yn
-defnyddio bron hanner cyfanswm capasiti peirianneg, ffaith na wnaeth
+defnyddio bron hanner cyfanswm cynhwysedd peirianneg, ffaith na wnaeth
 unrhyw adrodd blaenorol ei dwyn i'r amlwg oherwydd bod y gwaith hwnnw
 bob amser wedi'i blygu i mewn i "dasgau peirianneg" cyffredinol. Sicrhaodd
 cyflwyno'r rhaniad hwn i'r pwyllgor gweithredol gyllideb lleihau-dyled
@@ -229,9 +229,9 @@ chwarter.
 
 Ateb amddiffynadwy, busnes-ddarllenadwy i gwestiwn na all metrigau
 piblinell ei ateb yw'r enillion ar fabwysiadu'r Flow Framework: a yw
-capasiti peirianneg yn cael ei ddyrannu fel y mae arweinyddiaeth yn credu
+cynhwysedd peirianneg yn cael ei ddyrannu fel y mae arweinyddiaeth yn credu
 ei fod. Mae'r enghraifft yswiriant uchod, gan ddwyn i'r amlwg bron hanner y
-capasiti'n mynd i waith dyled a oedd yn anweledig gynt, yn batrwm cyffredin
+cynhwysedd'n mynd i waith dyled a oedd yn anweledig gynt, yn batrwm cyffredin
 unwaith y bydd sefydliad mewn gwirionedd yn dosbarthu ei waith yn onest,
 ac mae'r gwelededd hwnnw'n rheolaidd yn datgloi buddsoddiad na fyddai
 cais "mae angen mwy o amser arnom ar gyfer dyled dechnegol" amwys byth
@@ -245,7 +245,7 @@ gost yn un-waith neu'n gynnal a chadw isel unwaith y'u gwneir yn dda, sy'n
 gwneud y fframwaith yn sylweddol rhatach i'w gynnal nag ydyw i'w
 fabwysiadu.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Trin mapio ffrwd werth fel gweithdy un-waith, byth wedi'i ailedrych
   arno:** mae'r map yn mynd yn hen yr eiliad y bydd y sefydliad yn newid,
@@ -290,12 +290,12 @@ fabwysiadu.
   peirianneg yn fwriadol ar draws ffrydiau gwerth gan ddefnyddio data
   llif, a gall bwyntio at benderfyniadau strategol penodol, cyllideb
   lleihau-dyled, ad-drefnu tîm, a wnaed oherwydd bod y fframwaith wedi
-  gwneud cyfaddawd a oedd yn anweledig gynt yn weladwy.
+  gwneud cyfnewidiad a oedd yn anweledig gynt yn weladwy.
 
 ## Syniadau ar gyfer trafodaeth
 
 1. A allem dynnu map ffrwd werth cywir ar gyfer ein cynnyrch blaenllaw heddiw, heb ddyfalu?
-2. Pa ganran o gapasiti'r chwarter diwethaf y byddai dosbarthiad elfen-lif gonest yn ei ddatgelu a aeth i ddyled a risg, yn erbyn nodweddion?
+2. Pa ganran o gynhwysedd'r chwarter diwethaf y byddai dosbarthiad elfen-lif gonest yn ei ddatgelu a aeth i ddyled a risg, yn erbyn nodweddion?
 3. A yw ein metrigau llif ar hyn o bryd yn cyrraedd rhanddeiliaid busnes, neu a ydynt yn aros y tu mewn i beirianneg?
 4. Beth yw'r trosglwyddiad traws-dîm mwyaf yn ein ffrwd werth nad yw ein siart sefydliadol yn ei adlewyrchu?
 

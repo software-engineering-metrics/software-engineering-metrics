@@ -48,7 +48,7 @@ unwaith.
   wedyn yn ei ddadelfennu ymhellach.
 - **Llwyth llif cynyddol yw'r arwydd rhybudd cynharaf o amser llif
   cynyddol.** Oherwydd bod y berthynas yn broadadwy, gellir gwylio
-  llwyth llif fel dangosydd arweiniol, nid dim ond ei ddarganfod ar ôl i
+  llwyth llif fel dangosydd rhagfynegi, nid dim ond ei ddarganfod ar ôl i
   amser llif eisoes ddirywio.
 - **Rhaid i bwynt mynediad y ffrwd werth fod yn sefydlog ac wedi'i
   ddogfennu.** Mae ble mae cloc amser-llif yn dechrau'n ddewis
@@ -75,17 +75,17 @@ hon.
 
 ### Olrheiniwch lwyth llif yn barhaus, nid yn gyfnodol
 
-Oherwydd bod llwyth llif yn ddangosydd arweiniol, trwy gyfraith Little, o
+Oherwydd bod llwyth llif yn ddangosydd rhagfynegi, trwy gyfraith Little, o
 amser llif sydd eto i ddod, olrheiniwch ef fel rhif byw, wedi'i ddiweddaru'n
 barhaus yn hytrach nag instantiad cyfnodol. Mae llwyth llif sydd eisoes
 wedi dringo am wythnosau erbyn i unrhyw un ei wirio eisoes wedi bod yn
 ymestyn amser llif yn dawel am yr un cyhyd, yn anweledig, cyn i'r metrig
 ddal i fyny.
 
-### Defnyddiwch gyfraith Little yn benodol wrth ddadlau dros derfyn WIP neu gynnydd capasiti
+### Defnyddiwch gyfraith Little yn benodol wrth ddadlau dros derfyn WIP neu gynnydd cynhwysedd
 
 Wrth wneud yr achos i ddechrau llai o waith cydredol, neu i ychwanegu
-capasiti, cyflwynwch yr hafaliad gwirioneddol, nid dim ond yr
+cynhwysedd, cyflwynwch yr hafaliad gwirioneddol, nid dim ond yr
 argymhelliad: mae llwyth llif yn hafal i gyfradd gyrraedd wedi'i lluosi
 ag amser llif, felly os yw'r gyfradd gyrraedd yn fras sefydlog, mae
 lleihau llwyth llif wedi'i warantu'n fathemategol i leihau amser llif.
@@ -97,7 +97,7 @@ na'i hawlio.
 
 Pan fydd llwyth llif yn uchel, ymchwiliwch pa fath elfen lif (pwnc 2.2)
 sydd mewn gwirionedd yn ei yrru: gormod o nodweddion cydredol wedi
-dechrau ar unwaith, backlog o ddiffygion heb eu trin, neu waith risg yn
+dechrau ar unwaith, ôl-groniad o ddiffygion heb eu trin, neu waith risg yn
 sownd yn aros am gymeradwyaeth a rennir. Mae pob achos yn awgrymu
 trwsiad gwahanol, ac mae trin "mae llwyth llif yn uchel" fel un problem
 ddiwahaniaeth yn tueddu i gynhyrchu ymateb cyffredinol, aneffeithiol.
@@ -108,18 +108,18 @@ Gan fod amser llif yn ymestyn ar draws y ffrwd werth gyfan a bod amser
 cylch (pwnc 2.6) ond yn cwmpasu'r rhan beirianneg ohono, cymharwch y
 ddau'n uniongyrchol. Mae bwlch mawr rhwng amser llif ac amser cylch yn
 golygu bod y rhan fwyaf o'r oedi'n digwydd cyn i beirianneg weld y gwaith
-o gwbl, mewn ciwiau cymeradwyo, backlogiau blaenoriaethu, neu
+o gwbl, mewn ciwiau cymeradwyo, ôl-groniadau blaenoriaethu, neu
 drosglwyddiadau rhwng timau, sy'n pwyntio at drwsiad gwahanol iawn na
 bwlch wedi'i ganolbwyntio y tu mewn i beirianneg ei hun.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Mesur amser llif o godi peirianneg yn unig | Syml, yn cyfateb i offer amser-cylch presennol | Yn colli oedi cyn peirianneg, yn tanddweud ymatebolrwydd gwirioneddol |
 | Mesur amser llif o adnabod angen busnes gwirioneddol | Yn dal ymatebolrwydd o'r naill ben i'r llall gwirioneddol | Angen cyfrifiannu camau y tu allan i reolaeth uniongyrchol peirianneg |
-| Instantiadau llwyth llif cyfnodol | Rhad i'w cyfrifo'n achlysurol | Yn colli gwerth y dangosydd arweiniol; mae cynnydd cyson yn mynd heb ei sylwi am yn rhy hir |
-| Olrhain llwyth llif parhaus | Dangosydd arweiniol byw, gweithredadwy | Angen integreiddiad offer parhaus, nid dim ond adroddiad achlysurol |
+| Instantiadau llwyth llif cyfnodol | Rhad i'w cyfrifo'n achlysurol | Yn colli gwerth y dangosydd rhagfynegi; mae cynnydd cyson yn mynd heb ei sylwi am yn rhy hir |
+| Olrhain llwyth llif parhaus | Dangosydd rhagfynegi byw, gweithredadwy | Angen integreiddiad offer parhaus, nid dim ond adroddiad achlysurol |
 
 Y tensiwn canolog yw **cwmpas yn erbyn cyrhaeddiad cyfrifianeg**. Mae
 mesur amser llif dim ond o godi peirianneg yn llawer haws ei gyfrifiannu,
@@ -151,7 +151,7 @@ parhaol.
    cyson yn mynd heb ei sylwi am wythnosau cyn i unrhyw un ei wirio?**
    Dim ond os yw rhywun mewn gwirionedd yn ei wylio mewn amser bron yn
    real, nid dim ond ei adolygu mewn adroddiad chwarterol, y mae
-   dangosydd arweiniol yn eich amddiffyn.
+   dangosydd rhagfynegi yn eich amddiffyn.
 
 4. **Pan fydd llwyth llif yn codi, allwn ni ddweud pa fath elfen lif sydd
    mewn gwirionedd yn ei yrru, neu a yw'n darllen fel un rhif
@@ -206,7 +206,7 @@ oll yn gyfochrog yn ddiderfyn.
 ## Enghreifftiau
 
 **Menter.** Roedd sefydliad platfform cwmni technoleg cyfryngau'n rhedeg
-dau ddeg dau o fentrau strategol cydredol â chapasiti realistig ar gyfer
+dau ddeg dau o fentrau strategol cydredol â chynhwysedd realistig ar gyfer
 tua deuddeg, camgyfateb nad oedd neb wedi'i feintioli hyd nes i
 Is-lywydd peirianneg newydd ofyn am lwyth llif yn uniongyrchol. Roedd
 amser llif ar gyfer y fenter ganolrifol wedi tyfu 40% dros y flwyddyn
@@ -246,9 +246,9 @@ Mae cost cyfanswm perchnogaeth yn isel o'i chymharu â'i phŵer perswadiol:
 mae llwyth llif ond angen cyfrif byw o eitemau gweithredol ac aros, ac mae
 amser llif angen cyfrifiannu pwynt mynediad y ffrwd werth, gwaith sy'n
 talu amdano'i hun y tro cyntaf y mae'n atal sefydliad rhag ymrwymo i fwy
-o fentrau cydredol nag y gall ei gapasiti gwirioneddol ei gynnal.
+o fentrau cydredol nag y gall ei gynhwysedd gwirioneddol ei gynnal.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Culhau'n dawel bwynt cychwyn amser llif i ffafrio'r rhif:** y fector
   twyllo wrth galon y pwnc hwn. Mae symud cychwyn y cloc o adnabod
@@ -261,7 +261,7 @@ o fentrau cydredol nag y gall ei gapasiti gwirioneddol ei gynnal.
   ddisgyblaeth y mae'r llyfr hwn yn gofyn amdani ar gyfer pob terfyn
   metrig.
 - **Mesur llwyth llif yn gyfnodol yn unig:** yn colli ei werth fel
-  dangosydd arweiniol, gan y gall codiad cyson fynd heb ei sylwi am
+  dangosydd rhagfynegi, gan y gall codiad cyson fynd heb ei sylwi am
   wythnosau.
 - **Trin llwyth llif fel un rhif diwahaniaeth:** yn colli pa fath elfen
   lif sydd mewn gwirionedd yn gyrru gorlwyth, gan gynhyrchu ymateb
@@ -284,9 +284,9 @@ o fentrau cydredol nag y gall ei gapasiti gwirioneddol ei gynnal.
   a gwirir llwyth llif yn gyfnodol yn hytrach nag yn barhaus.
 - **Lefel 3, Safoni:** Mesurir amser llif o bwynt mynediad ffrwd werth
   dogfennedig, sefydliadol-gyfan, ac olrheinir llwyth llif yn barhaus fel
-  dangosydd arweiniol.
+  dangosydd rhagfynegi.
 - **Lefel 4, Rheoli:** Defnyddir cyfraith Little yn benodol i gyfiawnhau
-  penderfyniadau capasiti a dilyniant, a phriodolir llwyth llif cynyddol i
+  penderfyniadau cynhwysedd a dilyniant, a phriodolir llwyth llif cynyddol i
   fath elfen lif penodol cyn cynnig trwsiad.
 - **Lefel 5, Cerddorfaru:** Mae'r sefydliad yn gosod nenfydau llwyth-llif
   esblyg ar draws ei ffrydiau gwerth, a gall bwyntio at benderfyniadau
@@ -312,10 +312,10 @@ o fentrau cydredol nag y gall ei gapasiti gwirioneddol ei gynnal.
   dawel**; y gledr ddiogelwch yw diffiniad pwynt-mynediad dogfennedig,
   wedi'i archwilio.
 - **Olrheiniwch lwyth llif yn barhaus**, nid yn gyfnodol, fel ei fod yn
-  gweithredu fel dangosydd arweiniol gwirioneddol yn hytrach na darganfyddiad
+  gweithredu fel dangosydd rhagfynegi gwirioneddol yn hytrach na darganfyddiad
   hwyrfrydig.
 - Defnyddiwch gyfraith Little **yn benodol**, nid dim ond fel greddf, wrth
-  ddadlau dros derfyn WIP, cynnydd capasiti, neu drefnu gwaith cydredol
+  ddadlau dros derfyn WIP, cynnydd cynhwysedd, neu drefnu gwaith cydredol
   yn ddilyniant.
 
 ## Cyfeiriadau a darllen pellach

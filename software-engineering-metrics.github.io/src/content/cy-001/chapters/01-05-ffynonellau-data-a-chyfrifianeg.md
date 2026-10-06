@@ -43,7 +43,7 @@ dyma'r sylfaen y mae popeth arall yn y llyfr hwn yn sefyll arno.
   arsylwi'r digwyddiad yn uniongyrchol.** Mae stamp amser defnyddio o'r
   biblinell yn fwy dibynadwy na chyfrif defnyddio hunan-adroddedig tîm.
 - **Defnyddiwch hunan-adrodd dim ond ar gyfer yr hyn na ellir ei arsylwi'n
-  uniongyrchol.** Nid oes gan foddhad, ffrithiant a ganfyddir, a lles
+  uniongyrchol.** Nid oes gan foddhad, ffrithiant a ganfyddir, a llesiant
   ddirprwy system-o-gofnod; gofynnwch yn uniongyrchol a dyluniwch yr
   arolwg yn dda (pwnc 3.7). Neilltuwch hunan-adrodd yn benodol ar gyfer
   y categori hwnnw.
@@ -67,7 +67,7 @@ chyfuno, yr olrheiniwr digwyddiadau ar gyfer cofnodion toriad, y
 platfform arolwg ar gyfer boddhad hunan-adroddedig. Os na allwch enwi'r
 system fanwl gywir, nid ydych mewn gwirionedd yn gwybod o ble mae'r rhif
 yn dod, ac ni allwch werthuso ei ddibynadwyedd. Mae'r mapio hwn yn
-rhagofyniad ar gyfer y siarter lywodraethu ym mhwnc 1.4, nid ymarfer
+rhagofyniad ar gyfer y siarter llywodraethiant ym mhwnc 1.4, nid ymarfer
 ar wahân.
 
 ### Cyfrifiannwch wrth y digwyddiad, nid wrth yr adroddiad
@@ -115,13 +115,13 @@ dulliau casglu gwahanol yn dal i gynhyrchu rhifau na ellir eu cymharu.
 Cofnodwch y ddau yn y siarter metrigau o bwnc 1.4, a thriniwch newid i'r
 naill neu'r llall fel newid sy'n gofyn am yr un adolygiad dogfennedig.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Math ffynhonnell | Manteision | Anfanteision |
 | --- | --- | --- |
 | Cyfrifianeg biblinell awtomataidd (CI/CD, rheolaeth fersiwn) | Gwrthrychol, wedi'i stampio amser, anodd ei ffugio, ymdrech barhaus isel | Angen buddsoddiad peirianneg ymlaen llaw i'w adeiladu a'i gynnal |
 | Data olrheiniwr materion a rheoli prosiect | Ar gael yn eang, cyfarwydd i dimau | Yn dibynnu ar ddyfalbarhad dynol; yn aml yn anghyson ar draws timau |
-| Arolygon a hunan-adrodd | Yr unig ffynhonnell ar gyfer profiad goddrychol (boddhad, lles) | Tuedd cof, tuedd dymunoldeb cymdeithasol, blinder ymateb |
+| Arolygon a hunan-adrodd | Yr unig ffynhonnell ar gyfer profiad goddrychol (boddhad, llesiant) | Tuedd cof, tuedd dymunoldeb cymdeithasol, blinder ymateb |
 | Platfformau arsylladwyedd a thelemetreg | Signal cyfoethog, amser real, lefel-system | Dim ond yn cwmpasu'r hyn a gyfrifiannwyd yn benodol; gall fod yn ddrud ar raddfa |
 
 Y tensiwn canolog yw **gwrthrychedd yn erbyn cwmpas**. Cyfrifianeg
@@ -229,7 +229,7 @@ ganlynol.
 wynebus asiantaeth trafnidiaeth yn dibynnu ar gymysgedd o delemetreg
 synhwyrydd awtomataidd ac adroddiadau digwyddiad a fewnbynnwyd â llaw o
 swyddfeydd rhanbarthol. Canfu archwiliad fod rhanbarthau â llai o
-gapasiti staff yn tan-adrodd digwyddiadau bach yn systematig, nid o
+gynhwysedd staff yn tan-adrodd digwyddiadau bach yn systematig, nid o
 anonestrwydd ond yn syml oherwydd bod mewnbwn â llaw yn cystadlu am amser
 â gwaith mwy brys, sy'n golygu bod y ffigur dibynadwyedd a gyhoeddwyd yn
 well na realiti yn union yn y rhanbarthau a allai fforddio leiaf i gynnal

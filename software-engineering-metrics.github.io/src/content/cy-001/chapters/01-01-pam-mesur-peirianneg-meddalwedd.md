@@ -104,7 +104,7 @@ hytrach na gadael iddynt aros yn anweledig yn ddiofyn. Mae sefydliad sy'n
 gwybod beth nad yw'n ei fesur, a pham, mewn safle llawer cryfach nag un
 sydd wedi anghofio'n dawel fod yr ardaloedd hynny'n bodoli.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -120,7 +120,7 @@ ar unrhyw un ohonynt, tra bo pob un y rhowch bwysau gwerthuso arno'n gwahodd
 ystumio. Datryswch ef trwy ddechrau'n leiafswm ac wedi'i yrru gan
 benderfyniad, gan ychwanegu metrig dim ond pan fydd penderfyniad penodol, wedi'i
 enwi ei angen, a thrwy amddiffyn y ffin diagnostig-yn-unig yn benodol yng
-ngwaith llywodraethu pwnc 1.4 yn hytrach na gadael iddi erydu'n ddiofyn.
+ngwaith llywodraethiant pwnc 1.4 yn hytrach na gadael iddi erydu'n ddiofyn.
 
 ## Cwestiynau i'w trafod gyda'ch tîm
 
@@ -197,7 +197,7 @@ gweithredu ar yr hyn y mae'n ei ddweud wrthych.
 **Menter.** Y prif risg yw metrigau sy'n drifftio'n dawel o ddefnydd
 diagnostig i ddefnydd gwerthuso wrth iddynt rolio i fyny trwy haenau
 rheolaeth, a dangosfyrddau sy'n tyfu trwy gronni oherwydd nad oes neb yn
-berchen ar y swydd o'u tocio. Nid yw llywodraethu (pwnc 1.4) yn ddewisol
+berchen ar y swydd o'u tocio. Nid yw llywodraethiant (pwnc 1.4) yn ddewisol
 ar y raddfa hon. Safonwch ddiffiniadau ar draws unedau busnes, ac adeiladwch
 adolygiad ymddeol rheolaidd i mewn i'r rhaglen fetrigau ei hun.
 

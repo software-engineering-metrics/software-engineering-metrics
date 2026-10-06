@@ -1,8 +1,8 @@
-# 3.2 Metrigau boddhad a lles
+# 3.2 Metrigau boddhad a llesiant
 
 ## Trosolwg a chymhelliant
 
-**Boddhad a lles**, yr S yn SPACE (pwnc 3.1), yw'r dimensiwn na all
+**Boddhad a llesiant**, yr S yn SPACE (pwnc 3.1), yw'r dimensiwn na all
 unrhyw delemetreg system ei arsylwi'n uniongyrchol. A yw peiriannydd yn
 canfod ei waith yn ystyrlon, a yw'n teimlo cefnogaeth ei dîm, a yw'n
 symud tuag at losgi allan, nid yw'r un o'r rhain yn gadael ôl mewn log
@@ -12,7 +12,7 @@ dibynadwy am gyflwr gwirioneddol oddrychol, gwirioneddol bwysig, yn
 hytrach na rhif sy'n edrych yn fanwl gywir tra'n mesur bron dim byd
 gwirioneddol.
 
-Mae'r dimensiwn hwn yn bwysig oherwydd dyma'r dangosydd blaenllaw ar
+Mae'r dimensiwn hwn yn bwysig oherwydd dyma'r dangosydd rhagfynegi ar
 gyfer costau sy'n ymddangos mewn man arall, yn llawer diweddarach, ac yn
 llawer drutach. Mae boddhad gostyngol yn rhagfynegi traul staff cyn i
 gyfweliad ymadael wneud hynny. Mae perygl llosgi allan cynyddol yn
@@ -20,7 +20,7 @@ rhagfynegi cwymp ansawdd cyn i'r gyfradd diffygion ei ddangos. Mae
 sefydliad sy'n gwylio dim ond metrigau cyflenwi a gweithgarwch yn
 darganfod am broblem les dim ond unwaith y mae eisoes wedi dod yn
 ymadawiad, digwyddiad, neu ostyngiad tawel, parhaus mewn allbwn sy'n
-cymryd misoedd i'w ddiagnosio. Mesur boddhad a lles yn uniongyrchol yw'r
+cymryd misoedd i'w ddiagnosio. Mesur boddhad a llesiant yn uniongyrchol yw'r
 hyn sy'n prynu i'r sefydliad yr amser arwain i weithredu cyn i hynny
 ddigwydd.
 
@@ -36,11 +36,11 @@ o dueddol i'r drifft hwn ac angen gwarchod yn ei erbyn yn benodol.
 
 ## Egwyddorion allweddol
 
-- **Ni ellir arsylwi boddhad a lles o delemetreg system.** Rhaid gofyn
+- **Ni ellir arsylwi boddhad a llesiant o delemetreg system.** Rhaid gofyn
   am y dimensiwn hwn, yn fwriadol ac yn dda.
 - **Nid yw anhysbysrwydd yn ddewisol.** Mae unrhyw gyswllt canfyddedig
   rhwng ateb onest a chanlyniad personol yn dinistrio'r signal.
-- **Mae'r dimensiwn hwn yn ddangosydd blaenllaw, nid un ôl-ddyddiedig.**
+- **Mae'r dimensiwn hwn yn ddangosydd rhagfynegi, nid un ôl-ddyddiedig.**
   Mae'n rhagfynegi traul staff a phroblemau ansawdd cyn iddynt ymddangos
   mewn man arall.
 - **Mae llosgi allan yn batrwm penodol, adnabyddadwy, nid dim ond
@@ -106,7 +106,7 @@ ar gyfer gofyn yn uniongyrchol, a byddwch yn ofalus nad yw'r gwiriad hwn
 yn dod yn fecanwaith gwyliadwriaeth sy'n niweidio ymddiriedaeth ac, yn
 eironig, boddhad ei hun.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -226,10 +226,10 @@ mynnu.
 
 ## Achos busnes: cymhellion, ROI, a TCO
 
-Rhybudd cynnar yw'r enillion ar fesur boddhad a lles yn uniongyrchol: gall
+Rhybudd cynnar yw'r enillion ar fesur boddhad a llesiant yn uniongyrchol: gall
 sefydliad sy'n dal tuedd llosgi allan flwyddyn gyfan cyn iddi drosi'n
 draul staff ymyrryd am ffracsiwn o gost recriwtio a chynefino disodliad,
-sydd fel arfer yn cymryd misoedd i gyrraedd cynhyrchedd llawn hyd yn oed
+sydd fel arfer yn cymryd misoedd i gyrraedd cynhyrchiant llawn hyd yn oed
 ar ôl ei gyflogi. Mae traul staff gwirfoddol peiriannydd profiadol yn
 costio i sefydliad lawer mwy na'r isadeiledd arolwg a allai fod wedi
 darparu'r rhybudd.
@@ -262,7 +262,7 @@ wedi'i thorri.
 
 ## Model aeddfedrwydd
 
-- **Lefel 1, Cychwyn:** Ni fesurir boddhad a lles o gwbl, neu dim ond
+- **Lefel 1, Cychwyn:** Ni fesurir boddhad a llesiant o gwbl, neu dim ond
   trwy sgwrs anffurfiol, ddi-strwythur.
 - **Lefel 2, Datblygu:** Mae arolwg ad hoc yn bodoli ond mae'n brin o
   ddilysiad, cadence cyson, neu warant anhysbysrwydd cryf.
@@ -289,11 +289,11 @@ wedi'i thorri.
 
 ## Prif gasgliadau
 
-- Rhaid **gofyn yn uniongyrchol** am foddhad a lles; ni all unrhyw
+- Rhaid **gofyn yn uniongyrchol** am foddhad a llesiant; ni all unrhyw
   delemetreg system arsylwi'r dimensiwn hwn.
 - Defnyddiwch **offeryn wedi'i ddilysu** lle bo'n bosibl, a gwarantwch
   **anhysbysrwydd** gwirioneddol, wedi'i gyfathrebu'n dda.
-- Mae'r dimensiwn hwn yn **ddangosydd blaenllaw** ar gyfer problemau
+- Mae'r dimensiwn hwn yn **ddangosydd rhagfynegi** ar gyfer problemau
   traul staff ac ansawdd a fyddai fel arall yn ymddangos yn llawer
   diweddarach ac yn llawer drutach.
 - Gwahaniaethwch **foddhad cyffredinol o berygl llosgi allan penodol**,

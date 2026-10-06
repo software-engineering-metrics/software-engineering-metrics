@@ -1,7 +1,7 @@
 # 7.0 Cyflwyniad i Ran 7: Metrigau yn Oes AI
 
 Cafodd pob metrig yn y llyfr hwn hyd yn hyn ei adeiladu ar gyfer byd lle
-roedd ysgrifennu cod yn adnodd prin, llafurus. Mae offer AI cynhyrchiol
+roedd ysgrifennu cod yn adnodd prin, llafurus. Mae offer deallusrwydd artiffisial cynhyrchiol (AI)
 wedi newid y rhagosodiad hwnnw'n gyflymach nag y mae metrigau'r rhan
 fwyaf o sefydliadau wedi dal i fyny ag ef. Pan all offeryn gynhyrchu
 pull request sy'n edrych yn gredadwy mewn eiliadau, mae sawl metrig y
@@ -19,7 +19,7 @@ yn enwi'r symudiad yn uniongyrchol ac yn egluro pam ei fod yn newid
 paradeim, nid addasiad cynyddrannol. Mae pwnc 7.2'n ymdrin â sut i
 fesur mewn gwirionedd a yw datblygiad â chymorth AI yn helpu, gan
 ddefnyddio'r ddisgyblaeth canlyniadau-dros-allbwn a sefydlodd pwnc
-1.3 o ddechrau'r llyfr hwn. Mae pwnc 7.3'n enwi'r peryglon newydd
+1.3 o ddechrau'r llyfr hwn. Mae pwnc 7.3'n enwi'r risgiau newydd
 penodol y mae'r symudiad hwn yn eu cyflwyno: metrigau sy'n chwyddo heb
 werth cyfatebol, a gwanhad ansawdd sy'n rhagori ar allu cyfredol y
 diwydiant i'w ganfod. Mae pwnc 7.4'n cau'r rhan ag ateb y llyfr hwn
@@ -47,7 +47,7 @@ hunain symud o dan yr un pwysau.
 - **7.2 Mesur datblygiad meddalwedd â chymorth AI:** Sut i fesur a yw
   cymorth AI mewn gwirionedd yn helpu, gan ddefnyddio data canlyniad yn
   hytrach na chyfaint allbwn.
-- **7.3 Peryglon chwyddiant metrig a gwanhad ansawdd:** Y peryglon
+- **7.3 Risgiau chwyddiant metrig a gwanhad ansawdd:** Y risgiau
   twyllo ac ansawdd newydd penodol y mae'r symudiad hwn yn eu cyflwyno,
   a sut i warchod yn eu herbyn.
 - **7.4 Telemetreg canlyniad fel y seren arweiniol newydd:** Ateb y

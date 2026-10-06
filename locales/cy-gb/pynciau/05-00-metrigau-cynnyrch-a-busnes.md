@@ -71,7 +71,7 @@ ystadegol pwnc 1.6, gan fod canlyniadau busnes a chynnyrch yn aml yn
 swnllyd, wedi'u drysu gan amodau marchnad, ac yn araf i'w cadarnhau,
 union yr amodau lle mae'r camgymeriadau y mae pwnc 1.6 yn rhybuddio
 amdanynt fwyaf tebygol o gynhyrchu casgliad hyderus, anghywir. Darllenwch
-y rhan hon ochr yn ochr â Rhan 7, lle mae'r symudiad i AI cynhyrchiol yn
+y rhan hon ochr yn ochr â Rhan 7, lle mae'r symudiad i ddeallusrwydd artiffisial cynhyrchiol (AI) yn
 codi'r stanciau ar gael mesuriad canlyniad yn iawn yn benodol oherwydd
 na fu cyfaint allbwn erioed, yn ôl dadl bynciau'r rhan hon drwyddo draw,
 y peth cywir i'w optimeiddio yn y lle cyntaf.

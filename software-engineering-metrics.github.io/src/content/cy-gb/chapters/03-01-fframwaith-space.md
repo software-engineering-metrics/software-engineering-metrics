@@ -6,34 +6,34 @@ Cafodd **[fframwaith SPACE](https://queue.acm.org/detail.cfm?id=3454124)**,
 a gyhoeddwyd yn 2021 gan yr ymchwilwyr Nicole Forsgren, Margaret-Anne
 Storey, Chandra Maddila, Thomas Zimmermann, Brian Houck, a Jenna
 Butler, ei adeiladu i ateb problem benodol: mae metrigau
-**[cynhyrchedd datblygwyr](https://en.wikipedia.org/wiki/Productivity)**
+**[cynhyrchiant datblygwyr](https://en.wikipedia.org/wiki/Productivity)**
 rhif-sengl, llinellau o god, cyfrif ymrwymiad, pwyntiau stori, yn cael
 eu twyllo'n ddibwys ac yn camarwain yn rheolaidd. Yn lle hynny, mae
-SPACE yn cynnig mesur ar draws pum dimensiwn: **Boddhad a lles**,
+SPACE yn cynnig mesur ar draws pum dimensiwn: **Boddhad a llesiant**,
 **Perfformiad**, **Gweithgarwch**, **Cyfathrebu a chydweithio**, ac
 **Effeithlonrwydd a llif**. Ni fwriedir i'r un llythyren sengl sefyll ar
 ei phen ei hun; cyfraniad gwirioneddol y fframwaith yw'r ddisgyblaeth o
 ddal pob un o'r pump mewn golwg gyda'i gilydd, fel na all tîm edrych yn
 gynhyrchiol ar un echel tra'n niweidio un arall yn dawel.
 
-Mae hyn yn bwysig oherwydd nid un peth yw cynhyrchedd datblygwyr. Gall
+Mae hyn yn bwysig oherwydd nid un peth yw cynhyrchiant datblygwyr. Gall
 tîm fod yn hynod weithgar (llawer o ymrwymiadau, llawer o pull
 requests) tra'n perfformio'n wael (nid yw'r gwaith yn symud y
 canlyniadau sy'n bwysig). Gall tîm berfformio'n dda yn y tymor byr tra
-bo boddhad yn suddo, dangosydd blaenllaw o'r traul staff a'r cwymp
+bo boddhad yn suddo, dangosydd rhagfynegi o'r traul staff a'r cwymp
 ansawdd sy'n ymddangos fisoedd yn ddiweddarach. Mewnwelediad SPACE,
 sy'n adeiladu'n uniongyrchol ar bwnc 1.2 a phwnc 1.3 y llyfr hwn,
 yw y bydd unrhyw un o'r dimensiynau hyn, wedi'i ddilyn fel targed
 annibynnol, yn cael ei dwyllo ar draul y lleill, ac mae'r fframwaith yn
-bodoli'n benodol i wneud y cyfaddawd hwnnw'n weladwy cyn iddo wneud
+bodoli'n benodol i wneud y cyfnewidiad hwnnw'n weladwy cyn iddo wneud
 niwed gwirioneddol.
 
 I dimau mawr, mae SPACE yn rhoi geirfa a rennir i arweinyddiaeth ar
 gyfer sgwrs sydd fel arall yn ddiofyn i ba bynnag ddimensiwn sydd
 haws ei fesur, gweithgarwch bron bob amser. Mae angen fframwaith sy'n
 gwrthsefyll y tynfa tuag at gyfrif ymrwymiadau ar sefydliadau menter
-sy'n cymharu cynhyrchedd ar draws llawer o dimau; mae angen data
-boddhad a lles ar sefydliadau llywodraeth sy'n wynebu pwysau recriwtio
+sy'n cymharu cynhyrchiant ar draws llawer o dimau; mae angen data
+boddhad a llesiant ar sefydliadau llywodraeth sy'n wynebu pwysau recriwtio
 a chadw mewn marchnad lafur gystadleuol lawn cymaint â data cyflenwi,
 oherwydd bod colli peiriannydd profiadol i losgi allan yn costio llawer
 mwy nag y mae allbwn unrhyw sbrint sengl erioed wedi'i arbed.
@@ -54,7 +54,7 @@ mwy nag y mae allbwn unrhyw sbrint sengl erioed wedi'i arbed.
   Cafodd SPACE ei ddylunio'n bennaf ar gyfer mewnwelediad lefel-tîm a
   lefel-system, nid ar gyfer cardiau sgorio unigol.
 - **Mae'r pum dimensiwn yn rhyngweithio.** Gall newid sy'n gwella un
-  ddirywio un arall, ac mae'r fframwaith yn bodoli i ddal y cyfaddawd
+  ddirywio un arall, ac mae'r fframwaith yn bodoli i ddal y cyfnewidiad
   hwnnw.
 
 ## Argymhellion
@@ -65,7 +65,7 @@ Peidiwch â mabwysiadu SPACE trwy ddewis un dimensiwn ffefryn sengl,
 gweithgarwch neu berfformiad fel arfer, a'i alw'n gyflawn. Dewiswch yn
 fwriadol o leiaf un metrig o o leiaf dri o'r pum dimensiwn, gan
 gymysgu offeryno gwrthrychol (pwnc 1.5) â data arolwg goddrychol
-(pwnc 3.7), cyn cyflwyno unrhyw gasgliad am gynhyrchedd tîm. Y
+(pwnc 3.7), cyn cyflwyno unrhyw gasgliad am gynhyrchiant tîm. Y
 cyfansoddiad lleiafswm hwn sy'n atal SPACE rhag cwympo'n ôl i'r broblem
 dirprwy-sengl yr oedd wedi'i ddylunio i'w datrys.
 
@@ -73,7 +73,7 @@ dirprwy-sengl yr oedd wedi'i ddylunio i'w datrys.
 
 Mae cyfrifon ymrwymiad, llinellau o god, a chyfrifon pull request yn
 ddata dimensiwn-gweithgarwch SPACE dilys, ond ni ddylent byth fod y
-metrig cynradd na'r unig fetrig a gyflwynir am gynhyrchedd tîm.
+metrig cynradd na'r unig fetrig a gyflwynir am gynhyrchiant tîm.
 Defnyddiwch ddata gweithgarwch i ddarparu cyd-destun ar gyfer y
 dimensiynau eraill, er enghraifft sylwi bod gostyngiad mewn gweithgarwch
 yn cyd-daro â chodiad mewn boddhad oherwydd bod y tîm o'r diwedd wedi
@@ -84,14 +84,14 @@ yn fanwl.
 ### Cymhwyswch SPACE ar lefel y tîm a'r system, nid lefel yr unigolyn
 
 Mae ymchwil wreiddiol SPACE a'i fabwysiad diwydiannol dilynol fel ei
-gilydd yn trin y fframwaith fel lens ar gyfer deall cynhyrchedd tîm a
+gilydd yn trin y fframwaith fel lens ar gyfer deall cynhyrchiant tîm a
 sefydliadol, nid fel cerdyn sgorio perfformiad unigol. Mae cymhwyso
 dimensiynau SPACE i raddio unigolion, yn enwedig y dimensiwn
 gweithgarwch, yn ailgreu union y perygl twyllo y mae pwnc 1.2 yn
 rhybuddio yn ei erbyn ac yn camgymhwyso fframwaith na chafodd erioed ei
 ddilysu ar gyfer y defnydd hwnnw.
 
-### Gwyliwch am gyfaddawdau rhwng dimensiynau, nid dim ond symudiad o fewn un
+### Gwyliwch am gyfnewidiadau rhwng dimensiynau, nid dim ond symudiad o fewn un
 
 Daw pŵer diagnostig gwirioneddol y fframwaith o wylio sut mae
 dimensiynau'n symud yn gymharol i'w gilydd. Mae metrig perfformiad
@@ -112,12 +112,12 @@ effeithlonrwydd a llif, y ddau'n bennaf offerynadwy o systemau
 presennol). Paru eich cadence mesur â chyfradd newid naturiol pob
 dimensiwn yn hytrach na gorfodi pob metrig ar yr un amserlen adrodd.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Set fetrigau un-dimensiwn (gweithgarwch fel arfer) | Syml, rhad, cyfarwydd | Yn hawdd ei dwyllo, yn colli cost ddynol arferion anghynaliadwy |
-| Mabwysiad SPACE pum dimensiwn llawn | Cytbwys, yn gwrthsefyll twyllo un-echel, yn dal cyfaddawdau | Angen mwy o offeryno a buddsoddiad arolwg |
+| Mabwysiad SPACE pum dimensiwn llawn | Cytbwys, yn gwrthsefyll twyllo un-echel, yn dal cyfnewidiadau | Angen mwy o offeryno a buddsoddiad arolwg |
 | Cymhwysiad SPACE lefel-tîm | Yn cyfateb â defnydd dilyswyd y fframwaith, yn diogelu unigolion rhag camgymhwysiad | Ni all ateb cwestiynau lefel-unigol y mae arweinyddiaeth weithiau eu heisiau |
 | Cymhwysiad SPACE lefel-unigol | Yn teimlo'n fwy uniongyrchol weithredadwy i rai rheolwyr | Yn camgymhwyso'r fframwaith; perygl twyllo ac ysbryd cryf |
 
@@ -132,7 +132,7 @@ llawn o bob un o'r pum dimensiwn ar y diwrnod cyntaf.
 
 ## Cwestiynau i'w trafod gyda'ch tîm
 
-1. **A yw ein set fetrigau cynhyrchedd gyfredol yn tynnu o o leiaf dri
+1. **A yw ein set fetrigau cynhyrchiant gyfredol yn tynnu o o leiaf dri
    dimensiwn SPACE, neu a yw'n cael ei dominyddu gan ddata gweithgarwch
    yn unig?** Archwiliwch eich dangosfwrdd yn erbyn y pum dimensiwn yn
    benodol; mae'r rhan fwyaf o sefydliadau, o'u hasesu'n onest, yn llawer
@@ -140,7 +140,7 @@ llawn o bob un o'r pum dimensiwn ar y diwrnod cyntaf.
 
 2. **A ydym erioed wedi gweld un dimensiwn SPACE yn gwella tra bo un
    arall yn dirywio'n dawel, ac a wnaethom sylwi ar y pryd?** Dyma union
-   y cyfaddawd traws-ddimensiwn y mae'r fframwaith wedi'i ddylunio i'w
+   y cyfnewidiad traws-ddimensiwn y mae'r fframwaith wedi'i ddylunio i'w
    ddal. Edrychwch yn ôl dros y flwyddyn ddiwethaf am gyfnod pan wellodd
    metrigau cyflenwi a gofynnwch beth ddangosodd data boddhad neu les
    yn ystod yr un ffenestr.
@@ -153,9 +153,9 @@ llawn o bob un o'r pum dimensiwn ar y diwrnod cyntaf.
    dylent gael eu defnyddio.
 
 4. **Sut fyddem yn sylwi petai tîm wedi gwella ei fetrigau perfformiad
-   ar draul cyflymder anghynaliadwy?** Heb ddata boddhad a lles yn cael
+   ar draul cyflymder anghynaliadwy?** Heb ddata boddhad a llesiant yn cael
    ei adolygu ochr yn ochr â data perfformiad, mae'r math hwn o
-   gyfaddawd yn anweledig tan iddo ymddangos fel traul staff neu gwymp
+   gyfnewidiad yn anweledig tan iddo ymddangos fel traul staff neu gwymp
    ansawdd fisoedd yn ddiweddarach.
 
 5. **Beth yw ein cadence mesur ar gyfer pob un o'r pum dimensiwn, ac a
@@ -166,7 +166,7 @@ llawn o bob un o'r pum dimensiwn ar y diwrnod cyntaf.
 
 6. **Petai rheolwr peirianneg newydd yn ymuno yfory ac yn edrych dim
    ond ar ein dangosfwrdd, a fyddent yn cael darlun cytbwys o
-   gynhyrchedd tîm, neu un sgiw?** Mae hwn yn brawf ymarferol o pa un a
+   gynhyrchiant tîm, neu un sgiw?** Mae hwn yn brawf ymarferol o pa un a
    yw eich set fetrigau wedi cyflawni cydbwysedd SPACE mewn gwirionedd,
    neu a yw'n dim ond ystumio tuag at y fframwaith tra'n aros yn
    dominyddu gan weithgarwch yn ymarferol.
@@ -189,14 +189,14 @@ gweithgarwch-yn-unig.
 
 **Menter.** Dyma lle mae'r fframwaith llawn yn ennill ei gymhlethdod.
 Safonwch set fetrigau SPACE gytbwys ar draws timau fel y gall
-arweinyddiaeth gymharu cynhyrchedd yn deg yn hytrach na bod yn ddiofyn i
+arweinyddiaeth gymharu cynhyrchiant yn deg yn hytrach na bod yn ddiofyn i
 ba bynnag dîm sydd â'r graff ymrwymiad mwyaf trawiadol yr olwg, a
 buddsoddwch yn yr isadeiledd arolwg y mae pwnc 3.7 yn ymdrin ag ef i
 wneud data boddhad a chydweithio mor ddibynadwy â'r offeryno gwrthrychol.
 
 **Llywodraeth.** Mae pwysau recriwtio a chadw, yn enwedig lle na all
 cyflog sector cyhoeddus gystadlu bob amser â chynigion sector preifat, yn
-gwneud data boddhad a lles yn bryder strategol gwirioneddol, nid
+gwneud data boddhad a llesiant yn bryder strategol gwirioneddol, nid
 ychwanegiad meddal. Triniwch SPACE lawn mor ddifrifol â metrigau
 cyflenwi mewn cynllunio gweithlu a chyfiawnhad cyllideb, gan fod cost
 colli peiriannydd profiadol i losgi allan yn cael ei fesur mewn misoedd
@@ -206,7 +206,7 @@ o wybodaeth sefydliadol na all disodliad ei ddarparu ar unwaith.
 
 **Menter.** Roedd arweinyddiaeth peirianneg cwmni meddalwedd wedi bod
 yn olrhain cyfrifon ymrwymiad a phwyntiau stori a gwblhawyd fel ei brif
-signal cynhyrchedd am flynyddoedd. Ar ôl mabwysiadu set fetrigau SPACE
+signal cynhyrchiant am flynyddoedd. Ar ôl mabwysiadu set fetrigau SPACE
 lawnach, gan gynnwys arolwg boddhad chwarterol a dadansoddiad
 rhwydwaith-cydweithio (pwnc 3.5), darganfu arweinyddiaeth fod gan y
 tîm â'r rhifau gweithgarwch uchaf hefyd y sgoriau boddhad isaf a'r
@@ -236,7 +236,7 @@ yw'r enillion ar fabwysiadu SPACE yn llawn, y ddau'n llawer drutach na
 chost offeryno'r fframwaith. Gall set fetrigau gweithgarwch-yn-unig
 edrych yn rhagorol am flwyddyn neu ddwy hyd nes i'r gost ddynol ddal i
 fyny ar unwaith, ac ar y pwynt hwnnw mae cost disodli arbenigedd
-coll ac ailadeiladu iechyd tîm yn gwneud i unrhyw enillion cynhyrchedd
+coll ac ailadeiladu iechyd tîm yn gwneud i unrhyw enillion cynhyrchiant
 yr oedd y set fetrigau gul erioed yn ymddangos ei ddangos edrych yn fach.
 
 Mae cost cyfanswm perchnogaeth yn cynnwys isadeiledd arolwg (pwnc 3.7)
@@ -255,7 +255,7 @@ ddatgelu tan i'r niwed gael ei wneud eisoes.
 - **Cymhwyso dimensiynau SPACE at gardiau sgorio unigol:** yn
   camgymhwyso fframwaith a ddilyswyd ar gyfer mewnwelediad lefel-tîm a
   lefel-system.
-- **Adolygu dimensiynau ar wahân yn hytrach na gwylio am gyfaddawdau
+- **Adolygu dimensiynau ar wahân yn hytrach na gwylio am gyfnewidiadau
   traws-ddimensiwn:** yn colli'r patrwm y mae SPACE wedi'i ddylunio'n
   benodol i'w ddal.
 - **Gorfodi pob dimensiwn ar yr un cadence mesur:** yn gwastraffu
@@ -270,7 +270,7 @@ ddatgelu tan i'r niwed gael ei wneud eisoes.
 
 ## Model aeddfedrwydd
 
-- **Lefel 1, Cychwyn:** Mesurir cynhyrchedd trwy fetrigau gweithgarwch
+- **Lefel 1, Cychwyn:** Mesurir cynhyrchiant trwy fetrigau gweithgarwch
   yn unig, heb ddim data boddhad, cydweithio, nac effeithlonrwydd yn
   cael ei gasglu.
 - **Lefel 2, Datblygu:** Mesurir rhai dimensiynau ychwanegol yn
@@ -280,13 +280,13 @@ ddatgelu tan i'r niwed gael ei wneud eisoes.
   leiaf dri dimensiwn SPACE yn gyson ar lefel y tîm ar draws y
   sefydliad.
 - **Lefel 4, Rheoli:** Adolygir pob un o'r pum dimensiwn gyda'i gilydd
-  ar gadence rheolaidd, archwilir cyfaddawdau traws-ddimensiwn yn
+  ar gadence rheolaidd, archwilir cyfnewidiadau traws-ddimensiwn yn
   weithredol, ac mae'r fframwaith yn llywio penderfyniadau staffio a
   phroses gwirioneddol.
 - **Lefel 5, Cerddorfaru:** Mae data SPACE yn llunio cynllunio gweithlu
   a buddsoddiad cadw'n uniongyrchol, a gall y sefydliad bwyntio at
   ymyriadau penodol, wedi'u llywio gan batrymau traws-ddimensiwn, a
-  wellodd gyflenwi a lles datblygwyr gyda'i gilydd mewn ffordd
+  wellodd gyflenwi a llesiant datblygwyr gyda'i gilydd mewn ffordd
   fesuradwy.
 
 ## Syniadau ar gyfer trafodaeth
@@ -295,20 +295,20 @@ ddatgelu tan i'r niwed gael ei wneud eisoes.
 2. A ydym erioed wedi gweld gweithgarwch tîm yn codi tra bo boddhad yn gostwng yn dawel?
 3. Sut fyddem yn dal tîm yn masnachu cynaliadwyedd tymor-hir am allbwn tymor-byr heddiw?
 4. A yw unrhyw ddata cyfagos-SPACE yn cael ei ddefnyddio ar hyn o bryd i werthuso unigolion yn hytrach na thimau?
-5. Sut olwg fyddai ar ddangosfwrdd cynhyrchedd wirioneddol gytbwys i ni, yn benodol?
+5. Sut olwg fyddai ar ddangosfwrdd cynhyrchiant wirioneddol gytbwys i ni, yn benodol?
 
 ## Prif gasgliadau
 
-- Mae SPACE yn cwmpasu pum dimensiwn, **Boddhad a lles, Perfformiad,
+- Mae SPACE yn cwmpasu pum dimensiwn, **Boddhad a llesiant, Perfformiad,
   Gweithgarwch, Cyfathrebu a chydweithio, ac Effeithlonrwydd a llif**,
   ac nid yw'r un sengl yn ddibynadwy ar ei ben ei hun.
 - Adeiladwch set fetrigau o **o leiaf dri dimensiwn**, gan gymysgu
   ffynonellau data gwrthrychol a goddrychol.
 - Triniwch **fetrigau gweithgarwch fel cyd-destun**, byth fel y signal
-  cynhyrchedd pennawd (pwnc 3.4).
+  cynhyrchiant pennawd (pwnc 3.4).
 - Cymhwyswch SPACE ar **lefel y tîm a'r system**, nid fel cerdyn sgorio
   unigol.
-- Adolygwch ddimensiynau gyda'i gilydd, gan wylio am **gyfaddawdau
+- Adolygwch ddimensiynau gyda'i gilydd, gan wylio am **gyfnewidiadau
   traws-ddimensiwn**, nid dim ond symudiad o fewn yr un sengl.
 
 ## Cyfeiriadau a darllen pellach
@@ -321,7 +321,7 @@ ddatgelu tan i'r niwed gael ei wneud eisoes.
   Forsgren, Jez Humble, a Gene Kim (y sylfaen ymchwil a rennir â
   metrigau DORA).
 - *Peopleware: Productive Projects and Teams*, gan Tom DeMarco a
-  Timothy Lister (yr achos clasurol dros drin cynhyrchedd datblygwyr
+  Timothy Lister (yr achos clasurol dros drin cynhyrchiant datblygwyr
   fel cwestiwn dynol, nid un mecanyddol yn unig).
 - *Drive: The Surprising Truth About What Motivates Us*, gan Daniel H.
-  Pink (ymchwil cymhelliant sy'n berthnasol i fesur boddhad a lles).
+  Pink (ymchwil cymhelliant sy'n berthnasol i fesur boddhad a llesiant).

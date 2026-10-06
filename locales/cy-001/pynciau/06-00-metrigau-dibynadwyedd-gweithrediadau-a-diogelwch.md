@@ -14,10 +14,10 @@ Mae pedwar pwnc y rhan hon yn dilyn arc bwriadol. Mae dangosyddion ac
 amcanion lefel gwasanaeth (pwnc 6.1) yn sefydlu'r eirfa a'r
 ddisgyblaeth gosod-targed y mae popeth arall yn y rhan hon yn dibynnu
 arni. Mae metrigau digwyddiad (pwnc 6.2) yn mesur beth sy'n digwydd
-pan gollir y targed hwnnw. Mae metrigau ar-alwad a chapasiti (pwnc
+pan gollir y targed hwnnw. Mae metrigau ar-alwad a chynhwysedd (pwnc
 6.3) yn mesur cost ddynol a seilwaith cadw'r targed wedi'i fodloni.
 Mae metrigau diogelwch a gwendidau (pwnc 6.4) yn ymestyn yr un
-ddisgyblaeth dibynadwyedd i berygl gwahanol ond yn agos gysylltiedig:
+ddisgyblaeth dibynadwyedd i risg wahanol ond yn agos gysylltiedig:
 nid "a fydd hyn yn methu ar ei ben ei hun" ond "a fydd rhywun yn ei
 wneud yn methu'n fwriadol." Mae pob un o'r pedwar pwnc yn rhannu
 disgyblaeth ganolog y llyfr hwn: enwch y metrig, enwch sut mae'n cael
@@ -42,12 +42,12 @@ rhan hon yn trin y pwysau hwnnw o ddifrif drwyddo draw.
 - **6.2 Metrigau digwyddiad: canfod, ymateb, ac adfer:** Mesur pa mor
   gyflym y mae sefydliad yn sylwi ar, yn ymateb i, ac yn datrys
   methiant, a'r ddisgyblaeth ddi-fai sy'n cadw'r mesuriad hwnnw'n onest.
-- **6.3 Metrigau ar-alwad, capasiti, a llwyth gweithredol:** Cost ddynol
+- **6.3 Metrigau ar-alwad, cynhwysedd, a llwyth gweithredol:** Cost ddynol
   a seilwaith cynnal dibynadwyedd, a pham mae baich ar-alwad
   anghynaliadwy'n ymddangos yn y pen draw fel problem ddibynadwyedd ei
   hun.
 - **6.4 Metrigau rheoli diogelwch a gwendidau:** Ymestyn yr un dull
-  disgybledig, wedi'i barejo-â-chledr-ddiogelwch i berygl diogelwch, o
+  disgybledig, wedi'i barejo-â-chledr-ddiogelwch i risg diogelwch, o
   ddarganfod gwendid trwy unioni.
 
 ## Sut mae'r pynciau hyn yn cydberthyn
@@ -66,7 +66,7 @@ digwyddiad, yn hytrach nag yn rhagweithiol.
 
 Mae'r rhan hon yn cysylltu'n uniongyrchol yn ôl â Rhan 2: mae cyfradd
 methiant newid DORA ac amser adfer defnyddio wedi methu (y ddau wedi'u
-cwmpasu ym mhwnc 2.10) yn, yn eu tro, ddangosydd blaenllaw ar gyfer,
+cwmpasu ym mhwnc 2.10) yn, yn eu tro, ddangosydd rhagfynegi ar gyfer,
 ac enghraifft o, fetrigau digwyddiad y rhan hon. Mae hefyd yn cysylltu
 ymlaen â Rhan 8, lle mae'r canllaw dangosfwrdd ac aeddfedrwydd-rhaglen
 yn tynnu'n drwm ar fodel cyllideb-gwall y rhan hon fel enghraifft

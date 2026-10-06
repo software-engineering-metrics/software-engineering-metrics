@@ -113,7 +113,7 @@ platfform, gostyngiad mewn ffrithiant a adroddir gan dimau defnyddio,
 yn hytrach na gorfodi metrig canlyniad-uniongyrchol anaddas ar waith
 sydd'n gynhenid anuniongyrchol.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -213,7 +213,7 @@ nodwedd isaf yn y cwmni: roeddent yn rhyddhau'n gyflym ond yn adeiladu
 pethau nad oedd cwsmeriaid yn eu defnyddio. Ailddyrannodd
 blaenoriaethau'r map ffordd i'r tîm hwnnw, yn seiliedig ar y darlun
 perfformiad llawnach yn hytrach na'r graddiad rhif-sengl camarweiniol,
-gapasiti peirianneg sylweddol tuag at waith effaith-uwch o fewn un
+gynhwysedd peirianneg sylweddol tuag at waith effaith-uwch o fewn un
 chwarter.
 
 **Llywodraeth.** Roedd angen i raglen beirianneg asiantaeth dreth

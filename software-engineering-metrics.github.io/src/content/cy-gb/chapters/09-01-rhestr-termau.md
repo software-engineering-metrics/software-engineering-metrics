@@ -12,7 +12,7 @@ Diffiniadau o dermau ac acronymau a ddefnyddir ar draws y llyfr. Mae pob cofnod 
 
 **Amser cylchred (cycle time).** Dadelfeniad mewnol amser arwain i mewn i gamau: codio, adolygu, profi, a defnyddio. Gweler pwnc 2.6.
 
-**CVSS (System Sgorio Bregusrwydd Cyffredin, Common Vulnerability Scoring System).** Graddfa safonedig ar gyfer sgorio difrifoldeb bregusrwydd diogelwch. Gweler pwnc 6.4.
+**CVSS (System Sgorio Gwendidau Cyffredin, Common Vulnerability Scoring System).** Graddfa safonedig ar gyfer sgorio difrifoldeb gwendid diogelwch. Gweler pwnc 6.4.
 
 **Cymhlethdod cyclomatig (cyclomatic complexity).** Cyfrif o'r llwybrau annibynnol drwy lif rheolaeth darn o god, a gyflwynwyd gan Thomas J. McCabe ym 1976. Gweler pwnc 4.1.
 
@@ -40,7 +40,7 @@ Diffiniadau o dermau ac acronymau a ddefnyddir ar draws y llyfr. Mae pob cofnod 
 
 **Amser llif (flow time).** Cyfanswm yr amser a aeth heibio o eitem llif yn mynd i mewn i'r ffrwd werth i'w thraddodi, gan gwmpasu'r ffrwd werth gyfan yn hytrach na pheirianneg yn unig. Gweler pwnc 2.4.
 
-**Cyflymder llif (flow velocity).** Nifer yr eitemau llif a gwblhawyd dros gyfnod penodol, mesur Fframwaith Llif o gynhyrchedd. Gweler pwnc 2.3.
+**Cyflymder llif (flow velocity).** Nifer yr eitemau llif a gwblhawyd dros gyfnod penodol, mesur Fframwaith Llif o gynhyrchiant. Gweler pwnc 2.3.
 
 **Deddf Goodhart (Goodhart's law).** Yr egwyddor pan fydd mesur yn dod yn darged, mae'n peidio â bod yn fesur da. Prif syniad llywodraethol y llyfr hwn. Gweler pwnc 1.2.
 
@@ -80,19 +80,19 @@ Diffiniadau o dermau ac acronymau a ddefnyddir ar draws y llyfr. Mae pob cofnod 
 
 **SLO (amcan lefel gwasanaeth, service level objective).** Yr ystod darged ar gyfer dangosydd lefel gwasanaeth. Gweler pwnc 6.1.
 
-**Fframwaith SPACE (SPACE framework).** Fframwaith pum dimensiwn ar gyfer cynhyrchedd datblygwyr: Boddhad a lles, Perfformiad, Gweithgaredd, Cyfathrebu a chydweithio, ac Effeithlonrwydd a llif. Gweler pwnc 3.1.
+**Fframwaith SPACE (SPACE framework).** Fframwaith pum dimensiwn ar gyfer cynhyrchiant datblygwyr: Boddhad a llesiant, Perfformiad, Gweithgaredd, Cyfathrebu a chydweithio, ac Effeithlonrwydd a llif. Gweler pwnc 3.1.
 
 **SRE (peirianneg dibynadwyedd safle, site reliability engineering).** Y ddisgyblaeth, a arloeswyd yn Google, o gymhwyso dulliau peirianneg meddalwedd i weithrediadau a dibynadwyedd. Gweler pwnc 6.1.
 
 **Amser takt (takt time).** Yr amser mwyaf derbyniol i gwblhau uned o waith i gyd-fynd yn lân â galw cwsmeriaid, o fapio ffrwd werth Lean clasurol. Gweler pwnc 2.8.
 
-**Dyled dechnegol (technical debt).** Cost gronedig llwybrau byr y gorffennol mewn cronfa god, trosiad ar gyfer cyfaddawd y gellir ei reoli, nid cyfrinach gywilyddus. Gweler pwnc 4.5.
+**Dyled dechnegol (technical debt).** Cost gronedig llwybrau byr y gorffennol mewn cronfa god, trosiad ar gyfer cyfnewidiad y gellir ei reoli, nid cyfrinach gywilyddus. Gweler pwnc 4.5.
 
 **TCO (cost berchnogaeth gyfan, total cost of ownership).** Cost lawn menter neu system dros ei hoes, gan gynnwys cynhaliaeth a seilwaith parhaus, nid cost ymlaen llaw yn unig. Gweler pwnc 5.5.
 
 **Economeg uned (unit economics).** Cost wedi'i mynegi fesul uned ystyrlon o werth wedi'i draddodi (fesul cwsmer, fesul trafodiad), yn hytrach nag fel cyfanswm anhryloyw. Gweler pwnc 5.4.
 
-**Defnydd (utilization).** Y gyfran o gapasiti ar gael adnodd sy'n brysur, wedi'i gyfrifo fel cyfradd cyrraedd wedi'i rannu â chyfradd gwasanaeth. Mae amser aros yn tyfu'n sydyn, nid yn raddol, wrth i ddefnydd nesáu at gapasiti llawn. Gweler pwnc 2.7.
+**Defnydd (utilization).** Y gyfran o gynhwysedd ar gael adnodd sy'n brysur, wedi'i gyfrifo fel cyfradd cyrraedd wedi'i rannu â chyfradd gwasanaeth. Mae amser aros yn tyfu'n sydyn, nid yn raddol, wrth i ddefnydd nesáu at gynhwysedd llawn. Gweler pwnc 2.7.
 
 **Ffrwd werth (value stream).** Y dilyniant pen-i-ben o weithgareddau sy'n troi syniad yn werth y mae cwsmer yn ei dderbyn, uned fesur Fframwaith Llif. Gweler pwnc 2.1.
 

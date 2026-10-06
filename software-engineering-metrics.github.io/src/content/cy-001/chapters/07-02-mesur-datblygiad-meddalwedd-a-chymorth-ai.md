@@ -4,7 +4,7 @@
 
 Sefydlodd pwnc 7.1 pam nad yw sawl metrig presennol bellach yn mesur
 yr hyn yr oeddent yn arfer ei fesur yn ddibynadwy o dan ddatblygiad â
-chymorth AI. Mae'r pwnc hwn yn ymwneud â beth i'w fesur yn lle hynny:
+chymorth deallusrwydd artiffisial (AI). Mae'r pwnc hwn yn ymwneud â beth i'w fesur yn lle hynny:
 sut i wybod, â thystiolaeth wirioneddol yn hytrach nag argraff neu
 farchnata gwerthwr, a yw cymorth codio AI mewn gwirionedd yn helpu eich
 sefydliad, a faint. Dyma gwestiwn gwirioneddol bwysig â chanlyniadau
@@ -24,7 +24,7 @@ gan ddatblygwyr eu hunain, yn union y metrigau y rhybuddiodd pwnc
 pwnc hwn yn ei argymell yn mesur canlyniadau: a leihaodd cymorth AI
 amser cylch yn wirioneddol heb ddirywio ansawdd, a leihaodd amser a
 dreuliwyd ar waith ailadroddus, gwerth-isel gwirioneddol, gan ryddhau
-capasiti ar gyfer gwaith gwerth-uwch, ac a effeithiodd yn fesuradwy ar
+cynhwysedd ar gyfer gwaith gwerth-uwch, ac a effeithiodd yn fesuradwy ar
 ganlyniadau busnes a chynnyrch Rhan 5.
 
 I dimau mawr, mae cael y mesuriad hwn yn iawn yn penderfynu a wneir
@@ -75,7 +75,7 @@ Cymhwyswch ddisgyblaeth pwnc 2.6 a phwnc 2.10'n uniongyrchol:
 olrheiniwch a yw gwaith â chymorth AI yn symud yn gyflymach trwy
 gamau amser-cylch, ac ar yr un pryd a yw cyfradd methiant newid neu
 gyfradd diffygion dianc (pwnc 5.1) ar gyfer y gwaith hwnnw'n symud i'r
-cyfeiriad anghywir. Mae enillion cynhyrchedd gwirioneddol yn dangos
+cyfeiriad anghywir. Mae enillion cynhyrchiant gwirioneddol yn dangos
 amser cylch cyflymach ag ansawdd sefydlog neu well; mae enillion ffug yn
 dangos amser cylch cyflymach ag ansawdd dirywiedig, union y fasnach y
 rhybuddiodd pwnc 7.1 yn ei erbyn, wedi'i darganfod yma trwy'r un
@@ -115,7 +115,7 @@ guddio'r ffaith bod cymorth yn darparu gwerth cryf mewn un categori tra'n
 darparu ychydig neu hyd yn oed werth negyddol mewn categori arall,
 gwybodaeth y byddai rhif cymysg yn ei chuddio'n gyfan gwbl.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -199,7 +199,7 @@ llwyddiannus.
 
 **Llywodraeth.** Mae penderfyniadau gwariant technoleg gyhoeddus, gan
 gynnwys caffael offeryno AI, yn aml yn wynebu craffu penodol ac efallai
-y bydd angen cyfiawnhad cost-budd ffurfiol (pwnc 5.5). Adeiladwch y
+y bydd angen cyfiawnhad cost a budd ffurfiol (pwnc 5.5). Adeiladwch y
 ddisgyblaeth fesur y mae'r pwnc hwn yn ei hargymell i mewn i unrhyw
 gyfnod peilot o'r dechrau, gan fod methodoleg gwerthuso trylwyr,
 ddogfennedig yn cryfhau'r achos cyllido neu gaffael terfynol yn
@@ -218,7 +218,7 @@ y canfyddiad wedi'i segmentu-yn-ôl-tasg hwn, dim ond yn weladwy
 oherwydd y dyluniad cymharu gwirioneddol a'r dadansoddiad categori-
 tasg, y cwmni i dargedu negeseuon cyflwyno cymorth AI a hyfforddiant
 yn benodol tuag at y categorïau tasg lle helpodd yn ddangosadwy, yn
-hytrach na'i gyflwyno fel hwb cynhyrchedd unffurf ar draws pob gwaith.
+hytrach na'i gyflwyno fel hwb cynhyrchiant unffurf ar draws pob gwaith.
 
 **Llywodraeth.** Dibynnodd asiantaeth ffederal oedd yn peilota cymorth
 codio AI ar gyfer is-set o'i thimau rhaglen foderneiddio yn wreiddiol
@@ -246,7 +246,7 @@ darparu ychydig o werth, yn union y mewnwelediad segmentu-tasg y mae'r
 enghraifft cwmni meddalwedd uchod yn ei ddangos. Mae hyn yn cysylltu'n
 uniongyrchol ag economeg uned pwnc 5.4 a disgyblaeth ROI pwnc 5.5,
 gan fod cost offeryno AI, sy'n aml wedi'i thrwyddedu fesul-sedd, angen
-yr un driniaeth cost-budd drylwyr y mae'r llyfr hwn yn ei chymhwyso i
+yr un driniaeth cost a budd drylwyr y mae'r llyfr hwn yn ei chymhwyso i
 unrhyw fuddsoddiad peirianneg mawr arall.
 
 Yr ymdrech ddadansoddol i adeiladu cymariaethau gwirioneddol, mesur
@@ -268,7 +268,7 @@ dda yn seiliedig ar argraff yn hytrach na data.
   lawr yr afon.
 - **Mesur dim ond y cam cyflymder-cynhyrchu, gan anwybyddu amser cylch
   llawn:** yn cynhyrchu cyfrifo anghyflawn, o bosibl camarweiniol o'r
-  effaith cynhyrchedd gwirioneddol.
+  effaith cynhyrchiant gwirioneddol.
 - **Adrodd un rhif cymysg, ar draws y sefydliad:** yn cuddio amrywiad
   gwirioneddol mewn gwerth ar draws gwahanol gategorïau tasg.
 - **Dim grŵp cymharu na llinell sylfaen hanesyddol:** ni all
@@ -326,7 +326,7 @@ dda yn seiliedig ar argraff yn hytrach na data.
 - *Accelerate: The Science of Lean Software and DevOps*, gan Nicole
   Forsgren, Jez Humble, a Gene Kim (y ddisgyblaeth mesur-canlyniad y
   mae'r pwnc hwn yn ei chymhwyso i werthuso offeryno AI).
-- Ymchwil GitHub ar barau-rhaglennu AI a chynhyrchedd datblygwyr
+- Ymchwil GitHub ar barau-rhaglennu AI a chynhyrchiant datblygwyr
   (ymchwil empirig ar raddfa diwydiant ar ganlyniadau datblygiad â
   chymorth AI).
 - Forsgren, Nicole, Margaret-Anne Storey, Chandra Maddila, Thomas

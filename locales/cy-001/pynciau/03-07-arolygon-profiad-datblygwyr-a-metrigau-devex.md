@@ -8,7 +8,7 @@ profiad datblygwyr (DevEx) sy'n cynhyrchu signal gwirioneddol yn
 hytrach na chystadleuaeth boblogrwydd, a sut i gyfuno data arolwg ag
 offeryno gwrthrychol yn set fetrigau y gall sefydliad weithredu arni
 mewn gwirionedd. Mae pob pwnc yn y rhan hon yn dibynnu ar ryw ffurf o
-hunan-adrodd, boddhad a lles (pwnc 3.2) yn fwyaf uniongyrchol, ond mae
+hunan-adrodd, boddhad a llesiant (pwnc 3.2) yn fwyaf uniongyrchol, ond mae
 perfformiad, cyfathrebu, a llif i gyd yn elwa o arolwg wedi'i ddylunio'n
 dda hefyd, ac mae arolwg wedi'i ddylunio'n wael yn tanseilio gwerth pob
 un ohonynt ar unwaith.
@@ -108,7 +108,7 @@ penderfynydd sengl mwyaf yn aml ar a yw rhaglen arolwg DevEx yn aros
 yn ddefnyddiol dros sawl blwyddyn neu'n dadfeilio'n araf yn ymarfer
 ticio-blychau.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -119,7 +119,7 @@ ticio-blychau.
 
 Y tensiwn canolog yw **cwmpas yn erbyn ansawdd ymateb**. Mae arolwg
 hirach, mwy cynhwysfawr yn dal mwy o dir ond yn dirywio cyfradd ymateb ac
-yn cynyddu'r perygl o gwestiynau wedi'u dylunio'n wael yn llithro trwodd;
+yn cynyddu'r risg o gwestiynau wedi'u dylunio'n wael yn llithro trwodd;
 mae arolwg byr, ffocysedig yn cael ymatebion o ansawdd gwell ond yn
 peryglu colli rhywbeth pwysig y tu allan i'w gwmpas. Datryswch y tensiwn
 trwy gadw'r arolwg craidd, rheolaidd yn fyr ac wedi'i beilota'n dda, a
@@ -237,7 +237,7 @@ ymrwymiad hwnnw, yn fwy nag unrhyw gost offer, sy'n pennu a yw rhaglen
 arolwg yn aros yn ddefnyddiol am flynyddoedd neu'n dadfeilio'n ymarfer
 ticio-blychau sy'n cynhyrchu data cynyddol llai dibynadwy dros amser.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Cwestiynau dwy-ran neu arweiniol:** yn cymysgu pryderon gwahanol
   neu'n gogwyddo ymatebion, ac yn aml yn mynd heb eu canfod heb

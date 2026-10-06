@@ -12,10 +12,10 @@ hon yw'r gwrthbwysau.
 
 Y prif ffocws yw'r **[fframwaith SPACE](https://queue.acm.org/detail.cfm?id=3454124)**,
 a ddatblygwyd gan ymchwilwyr o Microsoft, GitHub, a Phrifysgol Victoria
-yn benodol fel cywiriad i arfer y diwydiant o fesur cynhyrchedd
+yn benodol fel cywiriad i arfer y diwydiant o fesur cynhyrchiant
 datblygwyr trwy un dirprwy syml, hawdd ei dwyllo, fel llinellau o god
 neu gyfrif ymrwymiad. Mae SPACE yn cwmpasu pum dimensiwn: boddhad a
-lles, perfformiad, gweithgarwch, cyfathrebu a chydweithio, ac
+llesiant, perfformiad, gweithgarwch, cyfathrebu a chydweithio, ac
 effeithlonrwydd a llif. Disgyblaeth ganolog y fframwaith, a'r rheswm y
 mae'r rhan hon yn ei drin â'r un trylwyredd ag y mae Rhan 2 yn ei
 gymhwyso i'w metrigau llif ei hun, yw nad yw'r un dimensiwn sengl ar ei
@@ -39,8 +39,8 @@ pryder dosbarth-cyntaf, wedi'i reoli'n weithredol yn hytrach nag
 - **3.1 Y fframwaith SPACE:** Y pum dimensiwn gyda'i gilydd, pam nad
   yw'r un sengl yn ddibynadwy ar ei ben ei hun, a sut i adeiladu set
   fetrigau wirioneddol gytbwys ohonynt.
-- **3.2 Metrigau boddhad a lles:** Mesur cyflawniad, rhwystredigaeth, a
-  pherygl llosgi allan, y dimensiwn na all unrhyw delemetreg system ei
+- **3.2 Metrigau boddhad a llesiant:** Mesur cyflawniad, rhwystredigaeth, a
+  risg llosgi allan, y dimensiwn na all unrhyw delemetreg system ei
   arsylwi'n uniongyrchol.
 - **3.3 Metrigau perfformiad a dirprwyon canlyniad:** Y dimensiwn a
   ddrysir hawsaf â gweithgarwch, a sut i fesur cyfraniad canlyniad

@@ -114,7 +114,7 @@ blaenoriaethu dyled, gan fod eitem ddyled ag effaith cost ddangosedig,
 fesuradwy'n gwneud achos cryfach dros fuddsoddiad unioni na chwyn
 ansawdd heb ei feintioli ar ei ben ei hun.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -317,7 +317,7 @@ seiliedig ar olwg cost-gyfan tan-wybodus yn unig.
   Forsgren, Jez Humble, a Gene Kim (y berthynas rhwng effeithlonrwydd
   cyflenwi a chost).
 - *Site Reliability Engineering*, gan Betsy Beyer, Chris Jones,
-  Jennifer Petoff, a Niall Richard Murphy, gol. (cost fel cyfaddawd
+  Jennifer Petoff, a Niall Richard Murphy, gol. (cost fel cyfnewidiad
   peirianneg-dibynadwyedd penodol).
 - Fframwaith FinOps y FinOps Foundation, [finops.org](https://www.finops.org/)
   (canllawiau ymarferydd a model aeddfedrwydd ar gyfer rheolaeth

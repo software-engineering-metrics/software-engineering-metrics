@@ -33,7 +33,7 @@ ffeiliau, sydd fwyaf tebygol o wobrwyo golwg agosach, nid fel dyfarniad
 annibynnol ar ansawdd cod. Mae sefydliadau menter a llywodraeth sy'n
 cynnal sylfeini cod rhy fawr i unrhyw unigolyn eu darllen yn llawn yn
 dibynnu ar y swyddogaeth driniaeth hon i gyfeirio ymdrech ad-drefnu ac
-adolygu prin lle bydd yn gwneud y lles mwyaf.
+adolygu prin lle bydd yn gwneud y llesiant mwyaf.
 
 ## Egwyddorion allweddol
 
@@ -78,7 +78,7 @@ nodweddiadol. Calibrwch eich trothwyon eich hun yn erbyn dosbarthiad
 gwirioneddol eich sylfaen cod, a thriniwch dorri trothwy fel anogaeth i
 edrych yn agosach, nid methiant adeiladu awtomatig, oni bai bod eich
 tîm wedi dewis y polisi llymach hwnnw'n fwriadol â llawn ymwybyddiaeth
-o'i gyfaddawdau.
+o'i gyfnewidiadau.
 
 ### Gwyliwch am dwyllo trwy ddadelfennu heb symleiddio gwirioneddol
 
@@ -115,7 +115,7 @@ allanolion fel ei gilydd, a defnyddiwch nhw i sbarduno ymchwiliad
 penodol, wedi'i dargedu yn hytrach na menter lleihau-cymhlethdod
 eang, heb ffocws.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |

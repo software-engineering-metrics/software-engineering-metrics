@@ -29,7 +29,7 @@ mae DORA yn mesur pa mor gyflym a pha mor ddiogel y mae piblinell yn
 symud, ond mae'n dawel ynghylch beth sy'n symud trwy'r biblinell. Gall
 tîm bostio rhifau DORA rhagorol tra bo'i allbwn gwirioneddol wedi drifftio'n
 dawel tuag at ailwaith diffygion neu wedi llwgu dyled dechnegol a gwaith
-diogelwch o gapasiti, patrwm y mae Fframwaith Llif pynciau 2.1 i 2.4 wedi'i
+diogelwch o gynhwysedd, patrwm y mae Fframwaith Llif pynciau 2.1 i 2.4 wedi'i
 adeiladu'n benodol i'w ddatgelu ac na all DORA ei weld. Defnyddiwch DORA
 fel y mae'r pwnc hwn yn ei gyflwyno: mesur cyfeirnod cul, wedi'i
 ddilysu'n dda, o fecaneg piblinell, nid darlun cyfan iechyd cyflenwi.
@@ -119,7 +119,7 @@ ddiagnostig o dan rifau crynodeb DORA, a pheidiwch byth â defnyddio
 metrig DORA mewn adolygiad perfformiad unigol, y camddefnydd sengl mwyaf
 niweidiol y mae'r fframwaith hwn yn agored iddo.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -235,7 +235,7 @@ methiant bron deirgwaith yn uwch na'i gymheiriaid, gwybodaeth a lywiodd
 benderfyniad adnewyddu contract y swyddfa'n uniongyrchol. Ychwanegodd y
 swyddfa ofyniad dosbarthiad-llif at yr un contractau'n ddiweddarach ar
 ôl darganfod mai'r gwerthwr â'r rhifau DORA gorau hefyd oedd yr un a
-oedd yn gwario'r gyfran leiaf o gapasiti ar y gwaith unioni diogelwch yr
+oedd yn gwario'r gyfran leiaf o gynhwysedd ar y gwaith unioni diogelwch yr
 oedd y contract yn ei fynnu'n benodol.
 
 ## Achos busnes: cymhellion, ROI, a TCO

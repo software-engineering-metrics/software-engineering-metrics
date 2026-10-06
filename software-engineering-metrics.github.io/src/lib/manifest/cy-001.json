@@ -203,8 +203,8 @@
           "chapter": 2,
           "decimal": "3.2",
           "slug": "03-02-metrigau-boddhad-a-lles",
-          "title": "Metrigau boddhad a lles",
-          "heading": "3.2 Metrigau boddhad a lles",
+          "title": "Metrigau boddhad a llesiant",
+          "heading": "3.2 Metrigau boddhad a llesiant",
           "file": "chapters/03-02-metrigau-boddhad-a-lles.md"
         },
         {
@@ -419,8 +419,8 @@
           "chapter": 3,
           "decimal": "6.3",
           "slug": "06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol",
-          "title": "Metrigau ar-alwad, capasiti, a llwyth gweithredol",
-          "heading": "6.3 Metrigau ar-alwad, capasiti, a llwyth gweithredol",
+          "title": "Metrigau ar-alwad, cynhwysedd, a llwyth gweithredol",
+          "heading": "6.3 Metrigau ar-alwad, cynhwysedd, a llwyth gweithredol",
           "file": "chapters/06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol.md"
         },
         {
@@ -810,8 +810,8 @@
       "chapter": 2,
       "decimal": "3.2",
       "slug": "03-02-metrigau-boddhad-a-lles",
-      "title": "Metrigau boddhad a lles",
-      "heading": "3.2 Metrigau boddhad a lles",
+      "title": "Metrigau boddhad a llesiant",
+      "heading": "3.2 Metrigau boddhad a llesiant",
       "file": "chapters/03-02-metrigau-boddhad-a-lles.md"
     },
     {
@@ -1008,8 +1008,8 @@
       "chapter": 3,
       "decimal": "6.3",
       "slug": "06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol",
-      "title": "Metrigau ar-alwad, capasiti, a llwyth gweithredol",
-      "heading": "6.3 Metrigau ar-alwad, capasiti, a llwyth gweithredol",
+      "title": "Metrigau ar-alwad, cynhwysedd, a llwyth gweithredol",
+      "heading": "6.3 Metrigau ar-alwad, cynhwysedd, a llwyth gweithredol",
       "file": "chapters/06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol.md"
     },
     {
@@ -1379,8 +1379,8 @@
       "chapter": 2,
       "decimal": "3.2",
       "slug": "03-02-metrigau-boddhad-a-lles",
-      "title": "Metrigau boddhad a lles",
-      "heading": "3.2 Metrigau boddhad a lles",
+      "title": "Metrigau boddhad a llesiant",
+      "heading": "3.2 Metrigau boddhad a llesiant",
       "file": "chapters/03-02-metrigau-boddhad-a-lles.md"
     },
     "3.3": {
@@ -1577,8 +1577,8 @@
       "chapter": 3,
       "decimal": "6.3",
       "slug": "06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol",
-      "title": "Metrigau ar-alwad, capasiti, a llwyth gweithredol",
-      "heading": "6.3 Metrigau ar-alwad, capasiti, a llwyth gweithredol",
+      "title": "Metrigau ar-alwad, cynhwysedd, a llwyth gweithredol",
+      "heading": "6.3 Metrigau ar-alwad, cynhwysedd, a llwyth gweithredol",
       "file": "chapters/06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol.md"
     },
     "6.4": {

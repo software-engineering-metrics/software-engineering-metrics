@@ -141,7 +141,7 @@ Ar gyfer pob metrig:
 
 - Ymlaen llaw: [cost datblygu]
 - Parhaus: [cynhaliaeth, seilwaith, cymorth, y flwyddyn]
-- Cost cyfle: [beth arall y gallai'r capasiti hwn fod wedi'i wneud]
+- Cost cyfle: [beth arall y gallai'r cynhwysedd hwn fod wedi'i wneud]
 
 ## Budd (tystiolaeth wedi'i dogfennu, pynciau 5.1-5.3)
 

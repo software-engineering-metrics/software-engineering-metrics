@@ -36,7 +36,7 @@ yn cyflenwi'r math o werth y mae ei gyfnod cyfredol mewn gwirionedd yn ei
 alw amdano. Mae sefydliadau menter a llywodraeth yn dibynnu ar fetrigau'r
 rhan hon i gyfiawnhau buddsoddiad platfform, i gymharu'r enillion ar
 ymdrechion moderneiddio cystadleuol, ac i ddangos, gyda thystiolaeth yn
-hytrach na straeon, fod capasiti peirianneg yn cael ei ddyrannu fel y mae
+hytrach na straeon, fod cynhwysedd peirianneg yn cael ei ddyrannu fel y mae
 arweinyddiaeth yn credu ei fod.
 
 ## Pynciau yn y rhan hon
@@ -45,7 +45,7 @@ arweinyddiaeth yn credu ei fod.
   a pham mae'r llyfr hwn yn ei ddefnyddio, yn hytrach na DORA yn unig, i
   drefnu metrigau cyflenwi a llif.
 - **2.2 Elfennau llif: nodweddion, diffygion, risgiau, a dyled:** Tacsonomi
-  pedwar math y fframwaith, ei ddyraniad capasiti swm-sero, a sut mae
+  pedwar math y fframwaith, ei ddyraniad cynhwysedd swm-sero, a sut mae
   dosbarthiad yn cael ei dwyllo os cymhwysir yn ôl-weithredol.
 - **2.3 Cyflymder llif a dosbarthiad llif:** Faint a gyflenwyd a pha fath
   o werth ydoedd, bob amser wedi'u darllen gyda'i gilydd.
@@ -54,7 +54,7 @@ arweinyddiaeth yn credu ei fod.
   pob tebyg.
 - **2.5 Effeithlonrwydd llif a gwaith ar y gweill:** Pam nad yw prysur yr
   un peth â chyflym, a sut mae cyfyngu gwaith ar y gweill yn gwella
-  cynhyrchedd yn wrth-reddfol.
+  cynhyrchiant yn wrth-reddfol.
 - **2.6 Amser cylch a'i gydrannau:** Torri amser peirianneg newid i lawr
   i mewn i'w gamau cyfansoddol fel bod tîm yn gwybod yn union ble mae'r
   amser mewn gwirionedd yn mynd.

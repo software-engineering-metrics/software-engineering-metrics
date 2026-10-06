@@ -24,7 +24,7 @@ mewn testun cymorth a welir yn anaml a bwg llygru-data mewn system
 trafodion ariannol ill dau, yn dechnegol, yn ddiffygion dianc, ac mae
 eu trin yn union yr un fath yn cynhyrchu metrig sydd naill ai'n rhy
 swnllyd i weithredu arno neu, yn waeth, yn camarwain yn weithredol am
-ble mae'r perygl gwirioneddol yn byw. Mae prif argymhelliad y pwnc
+ble mae'r risg wirioneddol yn byw. Mae prif argymhelliad y pwnc
 hon, olrhain wedi'i bwysoli-yn-ôl-difrifoldeb â sylw gofalus i sut mae
 diffygion yn cael eu dosbarthu, wedi'i anelu'n uniongyrchol at y
 broblem honno.
@@ -112,14 +112,14 @@ gwraidd trylwyr, sy'n llygru'r union ddata y mae'r pwnc hwn yn
 dibynnu arno. Mae arfer post-mortem di-fai, wedi'i gwmpasu'n fanylach
 ym mhwnc 6.2, yn berthnasol yn uniongyrchol yma.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Cyfrif diffyg dianc crai | Syml i'w adrodd | Yn trin camsillafiad a bwg llygru-data yn union yr un fath; swnllyd a chamarweiniol |
 | Olrhain wedi'i bwysoli-yn-ôl-difrifoldeb | Yn adlewyrchu effaith gwsmer wirioneddol yn fwy cywir | Angen dosbarthiad cyson, disgybledig |
 | Safonau dosbarthiad annibynnol-i-dîm | Hyblyg, baich cydlynu isel | Yn cynhyrchu rhifau na ellir eu cymharu ar draws timau; yn gwahodd drifft goddefol |
-| Dosbarthiad safonedig, wedi'i archwilio | Teg, cymharadwy, yn gwrthsefyll twyllo | Angen llywodraethu parhaus ac ymdrech archwilio cyfnodol |
+| Dosbarthiad safonedig, wedi'i archwilio | Teg, cymharadwy, yn gwrthsefyll twyllo | Angen llywodraethiant parhaus ac ymdrech archwilio cyfnodol |
 
 Y tensiwn canolog yw **hyblygrwydd lleol yn erbyn cymharadwyedd draws-
 dîm**. Mae gadael i bob tîm ddosbarthu difrifoldeb diffyg mewn unrhyw
@@ -128,7 +128,7 @@ yn cynhyrchu rhifau na ellir eu cymharu na'u cyfanredu'n deg ar lefel
 sefydliadol, ac yn creu cymhelliant tawel i dîm ddosbarthu'n hael i
 warchod ei fetrigau ei hun. Datryswch y tensiwn trwy fuddsoddi mewn
 meini prawf dosbarthiad safonedig, dogfennedig ac archwiliadau
-traws-dîm cyfnodol, gan drin hyn fel gwaith llywodraethu (pwnc 1.4)
+traws-dîm cyfnodol, gan drin hyn fel gwaith llywodraethiant (pwnc 1.4)
 sy'n werth y buddsoddiad o ystyried pa mor uniongyrchol y mae'r metrig
 hwn yn cysylltu ag effaith cwsmer gwirioneddol.
 
@@ -168,7 +168,7 @@ hwn yn cysylltu ag effaith cwsmer gwirioneddol.
 6. **A yw ein cyfradd diffygion dianc erioed wedi gwella'n amheus o
    gyflym heb newid cyfatebol mewn arfer profi neu adolygu?** Fel gyda
    chyfradd methiant newid (pwnc 2.10), dyma'r arwydd cliriaf mai
-   meini prawf dosbarthiad, nid perygl gwirioneddol, a symudodd.
+   meini prawf dosbarthiad, nid risg wirioneddol, a symudodd.
 
 ## Golwg sector
 
@@ -222,11 +222,11 @@ Canfu ymchwiliad achos-gwraidd fod y diffyg wedi tarddu mewn ardal god
 a fflagiwyd yn flaenorol fel man poeth cymhlethdod (pwnc 4.1, pwnc
 4.3) mewn adolygiad ansawdd mewnol ddeunaw mis ynghynt, ond ni
 chafodd y man poeth erioed ei flaenoriaethu ar gyfer unioni oherwydd
-na ddigwyddodd unrhyw ddiffyg eto i wneud y perygl yn gonc. Mae proses
+na ddigwyddodd unrhyw ddiffyg eto i wneud y risg yn gonc. Mae proses
 ddiwygiedig yr asiantaeth bellach yn pwysoli ardaloedd wedi'u fflagio-
 fel-man-poeth yn uwch mewn blaenoriaeth profi ac adolygu'n benodol
 oherwydd y cysylltiad hwn, wedi'i ddangos, wedi'i ddilysu rhwng
-signalau cymhlethdod mewnol a pherygl diffyg-dianc gwirioneddol.
+signalau cymhlethdod mewnol a risg diffyg-dianc gwirioneddol.
 
 ## Achos busnes: cymhellion, ROI, a TCO
 
@@ -246,9 +246,9 @@ gwraidd, y ddau'n bennaf yn fuddsoddiadau proses yn hytrach na chostau
 offeryno. Mae'r buddsoddiad hwnnw'n talu amdano'i hun yn uniongyrchol
 yng nghost niwed cwsmer ac ymateb digwyddiad osgowyd trwy gyfeirio
 ymdrech ansawdd tuag at ffynonellau gwirioneddol, wedi'u dilysu o
-berygl diffyg-dianc.
+risg diffyg-dianc.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Trin cyfrif diffyg crai fel y metrig:** yn cymysgu materion dibwys
   a difrifol ac yn cuddio'r signal gwirioneddol.
@@ -258,13 +258,13 @@ berygl diffyg-dianc.
 - **Dim olrhain achos-gwraidd:** yn troi cyfrif yn rif heb werth
   diagnostig, gan adael patrymau systemig yn anweledig.
 - **Diwylliant adrodd beio-dueddol:** yn llygru data trwy dan-adrodd a
-  dosbarthiad goddefol, yn union y perygl amlygiad-cymhelliant y mae
+  dosbarthiad goddefol, yn union y risg amlygiad-cymhelliant y mae
   pwnc 1.2 yn rhybuddio amdano.
 - **Byth yn cysylltu diffygion dianc yn ôl â signalau ansawdd mewnol:**
   yn colli'r cyfle i ddilysu, neu ddad-ddilysu, metrigau rhagfynegol
   Rhan 4 yn erbyn canlyniadau gwirioneddol.
 - **Gwelliant amheus o gyflym heb newid proses y tu ôl iddo:** yr
-  arwydd cliriaf mai meini prawf dosbarthiad, nid perygl gwirioneddol, a
+  arwydd cliriaf mai meini prawf dosbarthiad, nid risg wirioneddol, a
   symudodd.
 
 ## Model aeddfedrwydd

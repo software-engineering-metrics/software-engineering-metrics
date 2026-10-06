@@ -8,7 +8,7 @@ profiad datblygwyr (DevEx) sy'n cynhyrchu signal gwirioneddol yn
 hytrach na chystadleuaeth boblogrwydd, a sut i gyfuno data arolwg ag
 offeryno gwrthrychol yn set fetrigau y gall sefydliad weithredu arni
 mewn gwirionedd. Mae pob pwnc yn y rhan hon yn dibynnu ar ryw ffurf o
-hunan-adrodd, boddhad a lles (pwnc 3.2) yn fwyaf uniongyrchol, ond mae
+hunan-adrodd, boddhad a llesiant (pwnc 3.2) yn fwyaf uniongyrchol, ond mae
 perfformiad, cyfathrebu, a llif i gyd yn elwa o arolwg wedi'i ddylunio'n
 dda hefyd, ac mae arolwg wedi'i ddylunio'n wael yn tanseilio gwerth pob
 un ohonynt ar unwaith.
@@ -108,7 +108,7 @@ penderfynydd sengl mwyaf yn aml ar a yw rhaglen arolwg DevEx yn aros
 yn ddefnyddiol dros sawl blwyddyn neu'n dadfeilio'n araf yn ymarfer
 ticio-blychau.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |

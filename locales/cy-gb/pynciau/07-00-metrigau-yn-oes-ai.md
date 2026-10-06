@@ -1,7 +1,7 @@
 # 7.0 Cyflwyniad i Ran 7: Metrigau yn Oes AI
 
 Cafodd pob metrig yn y llyfr hwn hyd yn hyn ei adeiladu ar gyfer byd lle
-roedd ysgrifennu cod yn adnodd prin, llafurus. Mae offer AI cynhyrchiol
+roedd ysgrifennu cod yn adnodd prin, llafurus. Mae offer deallusrwydd artiffisial cynhyrchiol (AI)
 wedi newid y rhagosodiad hwnnw'n gyflymach nag y mae metrigau'r rhan
 fwyaf o sefydliadau wedi dal i fyny ag ef. Pan all offeryn gynhyrchu
 pull request sy'n edrych yn gredadwy mewn eiliadau, mae sawl metrig y

@@ -2,11 +2,11 @@
 
 ## Trosolwg a chymhelliant
 
-Mae pob sefydliad sy'n gweithredu arweiniad y llyfr hwn yn y pen draw yn wynebu penderfyniad seilwaith ymarferol: adeiladu offer metrigau yn fewnol, prynu platfform dadansoddeg peirianneg masnachol, neu, yn fwyaf cyffredin mewn ymarfer, gyfuniad o'r ddau. Mae'r pwnc hwn yn trin y penderfyniad hwnnw â'r un trylwyredd y mae pwnc 5.5 yn ei gymhwyso i unrhyw fuddsoddiad peirianneg arall: dadansoddiad cost-budd onest sy'n benodol i raddfa eich sefydliad, ffynonellau data presennol, a'r metrigau penodol o'r llyfr hwn yr ydych mewn gwirionedd yn bwriadu eu tracio, yn hytrach nag ateb rhagosodedig sy'n gymwys yn unffurf ni waeth beth y cyd-destun.
+Mae pob sefydliad sy'n gweithredu arweiniad y llyfr hwn yn y pen draw yn wynebu penderfyniad seilwaith ymarferol: adeiladu offer metrigau yn fewnol, prynu platfform dadansoddeg peirianneg masnachol, neu, yn fwyaf cyffredin mewn ymarfer, gyfuniad o'r ddau. Mae'r pwnc hwn yn trin y penderfyniad hwnnw â'r un trylwyredd y mae pwnc 5.5 yn ei gymhwyso i unrhyw fuddsoddiad peirianneg arall: dadansoddiad cost a budd onest sy'n benodol i raddfa eich sefydliad, ffynonellau data presennol, a'r metrigau penodol o'r llyfr hwn yr ydych mewn gwirionedd yn bwriadu eu tracio, yn hytrach nag ateb rhagosodedig sy'n gymwys yn unffurf ni waeth beth y cyd-destun.
 
 Mae'r farchnad offer dadansoddeg peirianneg masnachol wedi aeddfedu'n sylweddol, ac mae llawer o blatfformau bellach yn cynnig offeryniad cadarn, wedi'i awtomeiddio i raddau helaeth ar gyfer metrigau DORA (Rhan 2), data tynnu-cais ac adolygu (pwnc 2.9), a chynyddol, seilwaith arolwg profiad datblygwyr (pwnc 3.7). Mae'r aeddfedrwydd hwn wedi symud y cyfrifiad i lawer o sefydliadau tuag at brynu o leiaf yr haen sylfaenol, ond nid yw wedi dileu manteision gwirioneddol yr opsiwn adeiladu ar gyfer anghenion penodol, wedi'u haddasu, yn enwedig o amgylch y rhesymegu canlyniadau y mae pwnc 7.4 yn dadlau sydd bellach yn ganolbwynt angenrheidiol rhaglen fetrigau, sy'n aml y categori mesur lleiaf safonedig, mwyaf penodol i sefydliad y mae'r llyfr hwn yn ymdrin ag ef.
 
-I dimau mawr, mae gan y penderfyniad hwn ganlyniadau cyllideb a chapasiti peirianneg gwirioneddol, parhaus. Mae angen i sefydliadau menter yn aml integreiddio offer metrigau ar draws tirwedd wirioneddol amrywiol o systemau treftadaeth a modern, sy'n siapio'r cyfrifiad adeiladu-yn-erbyn-prynu yn sylweddol; mae sefydliadau llywodraeth yn aml yn wynebu cyfyngiadau caffael a gofynion sofraniaeth data neu ddiogelwch sy'n effeithio'n sylweddol ar ba opsiynau masnachol sy'n hyfyw hyd yn oed, weithiau'n gogwyddo'r penderfyniad tuag at adeiladu neu tuag at set fwy penodol o werthwyr wedi'u gwirio, ni waeth beth fyddai dadansoddiad cost-budd pur ar ei ben ei hun yn ei awgrymu.
+I dimau mawr, mae gan y penderfyniad hwn ganlyniadau cyllideb a chynhwysedd peirianneg gwirioneddol, parhaus. Mae angen i sefydliadau menter yn aml integreiddio offer metrigau ar draws tirwedd wirioneddol amrywiol o systemau treftadaeth a modern, sy'n siapio'r cyfrifiad adeiladu-yn-erbyn-prynu yn sylweddol; mae sefydliadau llywodraeth yn aml yn wynebu cyfyngiadau caffael a gofynion sofraniaeth data neu ddiogelwch sy'n effeithio'n sylweddol ar ba opsiynau masnachol sy'n hyfyw hyd yn oed, weithiau'n gogwyddo'r penderfyniad tuag at adeiladu neu tuag at set fwy penodol o werthwyr wedi'u gwirio, ni waeth beth fyddai dadansoddiad cost a budd pur ar ei ben ei hun yn ei awgrymu.
 
 ## Egwyddorion allweddol
 
@@ -14,7 +14,7 @@ I dimau mawr, mae gan y penderfyniad hwn ganlyniadau cyllideb a chapasiti peiria
 - **Prynwch ar gyfer metrigau safonedig, gofynnol yn eang; adeiladwch ar gyfer rhai gwirioneddol benodol i sefydliad.** Mae metrigau DORA a dadansoddeg tynnu-cais yn dir nwyddau; nid yw eich cydberthynas canlyniad busnes penodol (pwnc 5.3) fel arfer.
 - **Mae perchnogaeth a chludadwyedd data yr un mor bwysig â chymharu nodweddion.** Mae offeryn sy'n cloi eich data metrigau i mewn yn risg barhaol, nid dim ond anghyfleustra.
 - **Mae cost integreiddio yn aml wedi'i thanamcangyfrif** mewn dadansoddiad adeiladu-yn-erbyn-prynu, ar gyfer y ddau opsiwn.
-- **Gall cyfyngiadau caffael, diogelwch, a sofraniaeth data drechu cyfrifiad cost-budd pur**, yn enwedig ar gyfer sefydliadau llywodraeth.
+- **Gall cyfyngiadau caffael, diogelwch, a sofraniaeth data drechu cyfrifiad cost a budd pur**, yn enwedig ar gyfer sefydliadau llywodraeth.
 
 ## Argymhellion
 
@@ -38,7 +38,7 @@ P'un a ydych yn adeiladu neu'n prynu, mae cost integreiddio, cysylltu'r offeryn 
 
 Ar gyfer sefydliadau llywodraeth a menter reoledig, gall gofynion sofraniaeth data, anghenion ardystio diogelwch, a phrosesau caffael gulhau neu ddileu'n sylweddol rai opsiynau masnachol ni waeth beth eu hansawdd nodwedd, weithiau'n gogwyddo'r penderfyniad tuag at adeiladu neu tuag at set lai o werthwyr wedi'u gwirio'n benodol. Nodwch y cyfyngiadau hyn yn glir ac yn gynnar yn y broses werthuso, yn hytrach na'u darganfod dim ond ar ôl i ymdrech werthuso sylweddol fynd i mewn i opsiwn sy'n troi allan i fod yn anhyfyw am resymau nad ydynt yn ymwneud â'i allu gwirioneddol.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ Y prif densiwn yw **angen addasu yn erbyn cost datblygu**. Mae'r metrigau sy'n e
 
 ## Lens sector
 
-**Cwmni newydd.** Prynwch offer nwyddau yn ddiofyn ar y raddfa hon; anaml y mae adeiladu seilwaith metrigau wedi'i addasu yn ddefnydd da o gapasiti peirianneg cynnar prin pan fydd opsiynau masnachol aeddfed, rhad ar gael ar gyfer metrigau DORA ac adolygu yn benodol. Neilltuwch unrhyw ymdrech adeiladu ar gyfer y metrig canlyniad unigol (pwnc 5.3) sy'n adlewyrchu'n fwyaf uniongyrchol werth craidd eich cynnyrch.
+**Cwmni newydd.** Prynwch offer nwyddau yn ddiofyn ar y raddfa hon; anaml y mae adeiladu seilwaith metrigau wedi'i addasu yn ddefnydd da o gynhwysedd peirianneg cynnar prin pan fydd opsiynau masnachol aeddfed, rhad ar gael ar gyfer metrigau DORA ac adolygu yn benodol. Neilltuwch unrhyw ymdrech adeiladu ar gyfer y metrig canlyniad unigol (pwnc 5.3) sy'n adlewyrchu'n fwyaf uniongyrchol werth craidd eich cynnyrch.
 
 **Busnes bach.** Mae'r rhan fwyaf o opsiynau offer masnachol yn graddio i lawr yn rhesymol dda ac wedi'u prisio'n hygyrch ar gyfer sefydliadau llai; prynu'r haen nwyddau bron bob amser yw'r dewis cywir, ac anaml y mae adeiladu unrhyw beth wedi'i addasu yn cael ei gyfiawnhau nes bod eich sefydliad wedi tyfu'n sylweddol a datblygu anghenion gwirioneddol benodol.
 
@@ -75,7 +75,7 @@ Y prif densiwn yw **angen addasu yn erbyn cost datblygu**. Mae'r metrigau sy'n e
 
 ## Enghreifftiau
 
-**Menter.** Ceisiodd cwmni meddalwedd yn wreiddiol adeiladu platfform metrigau wedi'i addasu'n llawn yn ymdrin â phob teulu metrig o Ran 2 i Ran 6, ymdrech aml-flwyddyn a ddefnyddiodd gapasiti peirianneg sylweddol ac a oedd yn dal i fod ar ei hôl hi o gymharu â chynigion masnachol aeddfed ar gyfer metrigau DORA ac adolygu safonedig yn benodol. Mabwysiadodd strategaeth wedi'i hadolygu blatfform masnachol ar gyfer y metrigau nwyddau hyn, gan ryddhau'r tîm platfform mewnol i ganolbwyntio'n gyfan gwbl ar adeiladu cydberthynas canlyniad busnes ac offeryniad economeg uned (pynciau 5.3, 5.4) gwirioneddol benodol i fodel busnes y cwmni, na allai unrhyw offeryn masnachol fod wedi'i ddarparu allan-o'r-blwch. Cyflwynodd y dull hybrid hwn raglen fetrigau fwy cyflawn, mwy gwirioneddol ddefnyddiol o fewn un flwyddyn na'r hyn a gyflawnodd y strategaeth adeiladu-popeth ar ôl dwy.
+**Menter.** Ceisiodd cwmni meddalwedd yn wreiddiol adeiladu platfform metrigau wedi'i addasu'n llawn yn ymdrin â phob teulu metrig o Ran 2 i Ran 6, ymdrech aml-flwyddyn a ddefnyddiodd gynhwysedd peirianneg sylweddol ac a oedd yn dal i fod ar ei hôl hi o gymharu â chynigion masnachol aeddfed ar gyfer metrigau DORA ac adolygu safonedig yn benodol. Mabwysiadodd strategaeth wedi'i hadolygu blatfform masnachol ar gyfer y metrigau nwyddau hyn, gan ryddhau'r tîm platfform mewnol i ganolbwyntio'n gyfan gwbl ar adeiladu cydberthynas canlyniad busnes ac offeryniad economeg uned (pynciau 5.3, 5.4) gwirioneddol benodol i fodel busnes y cwmni, na allai unrhyw offeryn masnachol fod wedi'i ddarparu allan-o'r-blwch. Cyflwynodd y dull hybrid hwn raglen fetrigau fwy cyflawn, mwy gwirioneddol ddefnyddiol o fewn un flwyddyn na'r hyn a gyflawnodd y strategaeth adeiladu-popeth ar ôl dwy.
 
 **Llywodraeth.** Canfu gwerthusiad cychwynnol asiantaeth ffederal o blatfformau dadansoddeg peirianneg masnachol nad oedd yr un o'r gwerthwyr ar gael yn gallu bodloni gofynion sofraniaeth data'r asiantaeth, a oedd yn mynnu bod pob data metrigau peirianneg yn aros o fewn canolfannau data llywodraeth penodol, wedi'u hardystio. Yn hytrach na gadael yr opsiwn prynu yn gyfan gwbl, nododd yr asiantaeth is-set lai o werthwyr yn cynnig opsiynau defnyddio cwmwl sofran, wedi'u hardystio gan y llywodraeth, am bremiwm cost cymedrol dros brisio masnachol safonol, a defnyddiodd yn llwyddiannus raglen hybrid: offer wedi'u prynu ar gyfer yr haen metrig nwyddau o fewn y ffin sofraniaeth ofynnol, ac offer mewnol wedi'u hadeiladu ar gyfer anghenion rhesymegu canlyniadau dinesydd penodol yr asiantaeth, na wnaeth unrhyw werthwr masnachol ar gael fynd i'r afael â hwy ni waeth beth y cyfrifon sofraniaeth.
 
@@ -85,7 +85,7 @@ Yr enillion ar strategaeth adeiladu-yn-erbyn-prynu fwriadus, hybrid yw osgoi'r d
 
 Mae cost berchnogaeth gyfan y naill lwybr neu'r llall yn cynnwys cost integreiddio, sy'n aml wedi'i thanamcangyfrif, ac, ar gyfer offer wedi'u prynu yn benodol, cost risg barhaus clo gwerthwr posibl oni bai bod cludadwyedd data'n cael ei gadarnhau a'i ddiogelu'n gontractiol ymlaen llaw. Mae cyllidebu'n realistig ar gyfer y ddau hyn, yn hytrach na chanolbwyntio'n gul ar ffioedd trwyddedu neu oriau datblygu yn unig, yn cynhyrchu darlun cost gyfan llawer mwy cywir ar gyfer y naill opsiwn neu'r llall.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Adeiladu offer wedi'i addasu ar gyfer metrigau nwyddau, wedi'u safoni'n dda:** yn dyblygu ymdrech beirianneg y mae llawer o werthwyr eisoes wedi buddsoddi'n helaeth ynddi.
 - **Prynu offer masnachol ar gyfer rhesymegu canlyniadau gwirioneddol benodol i sefydliad heb wirio ffit yn gyntaf:** yn risgio addasu drud, amhriodol neu angen sydd heb ei ddiwallu.
@@ -116,7 +116,7 @@ Mae cost berchnogaeth gyfan y naill lwybr neu'r llall yn cynnwys cost integreidd
 - **Prynwch ar gyfer metrigau safonedig** (DORA, dadansoddeg adolygu, seilwaith arolwg); **adeiladwch ar gyfer** fesur canlyniadau **gwirioneddol benodol i sefydliad**.
 - Gwerthuswch **berchnogaeth a chludadwyedd data** cyn ymrwymo i werthwr; mae clo yn risg barhaol, nid dim ond anghyfleustra.
 - **Cyllidebwch yn realistig ar gyfer cost integreiddio** ar y ddwy ochr o'r penderfyniad; mae'n aml wedi'i thanamcangyfrif.
-- Gall **cyfyngiadau caffael, diogelwch, a sofraniaeth** drechu cyfrifiad cost-budd pur, yn enwedig ar gyfer sefydliadau llywodraeth.
+- Gall **cyfyngiadau caffael, diogelwch, a sofraniaeth** drechu cyfrifiad cost a budd pur, yn enwedig ar gyfer sefydliadau llywodraeth.
 
 ## Cyfeiriadau a darllen pellach
 

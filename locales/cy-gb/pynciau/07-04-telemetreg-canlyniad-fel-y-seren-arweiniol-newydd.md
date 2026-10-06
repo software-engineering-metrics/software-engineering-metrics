@@ -4,7 +4,7 @@
 
 Mae'r pwnc hwn yn cau Rhan 7, ac mewn ystyr wirioneddol yn cau'r
 ddadl y mae'r llyfr cyfan hwn wedi bod yn ei hadeiladu ers pwnc 1.3,
-â hawliad sengl, uniongyrchol: wrth i AI cynhyrchiol wneud allbwn crai'n
+â hawliad sengl, uniongyrchol: wrth i ddeallusrwydd artiffisial cynhyrchiol (AI) wneud allbwn crai'n
 rhad, mae **[telemetreg](https://en.wikipedia.org/wiki/Telemetry)
 canlyniad**, mesuriad parhaus, wedi'i offryno o ganlyniadau
 gwirioneddol yn hytrach na gweithgarwch neu allbwn, yn peidio â bod yn
@@ -27,7 +27,7 @@ gyd-fodoli ag ansawdd dirywiedig. Y metrigau sy'n goroesi'r symudiad
 hwn yn gyfan yw'n union y rhai y mae'r llyfr hwn wedi pwysleisio
 adeiladu tuag atynt o'i bynciau agoriadol: cyfradd diffygion dianc
 (pwnc 5.1), mabwysiad nodwedd (pwnc 5.2), canlyniadau cwsmer a
-busnes (pwnc 5.3), dibynadwyedd (Rhan 6), a lles datblygwyr (Rhan 3).
+busnes (pwnc 5.3), dibynadwyedd (Rhan 6), a llesiant datblygwyr (Rhan 3).
 Nid yw'r un o'r rhain yn dibynnu ar sut y cynhyrchwyd y cod sylfaenol;
 mae pob un ohonynt yn mesur yr hyn a ddigwyddodd mewn gwirionedd o
 ganlyniad.
@@ -50,7 +50,7 @@ credadwy, gwrth-ddyfodol.
   pwnc 1.3, yn frys nawr yn hytrach nag uchelgeisiol.
 - **Y metrigau sy'n goroesi'r symudiad hwn yw'r rhai y mae'r llyfr hwn
   wedi adeiladu tuag atynt drwyddo draw**: diffygion dianc, mabwysiad,
-  canlyniadau busnes, dibynadwyedd, a lles.
+  canlyniadau busnes, dibynadwyedd, a llesiant.
 - **Mae rhaglen fetrigau wedi'i hadeiladu'n bennaf o gwmpas metrigau
   allbwn bellach yn rhwymedigaeth, nid dim ond dewis isaddas.** Gellir
   chwyddo metrigau allbwn yn rhad ac yn gyflym ar raddfa.
@@ -68,7 +68,7 @@ credadwy, gwrth-ddyfodol.
 
 Cyfrifwch yn fras pa gyfran o'ch isadeiledd metrigau cyfredol, ymdrech
 offeryno, gofod dangosfwrdd, amser cyfarfod-adolygu, sy'n mynd tuag at
-fetrigau canlyniad (Rhan 5, Rhan 6, lles datblygwyr o Ran 3) yn erbyn
+fetrigau canlyniad (Rhan 5, Rhan 6, llesiant datblygwyr o Ran 3) yn erbyn
 metrigau allbwn a gweithgarwch (cyfrif defnyddio, cyfaint ymrwymiad,
 trwybwn pull request). Os yw olrhain allbwn yn dominyddu, mae'r
 gymhareb honno ei hun bellach yn rhwymedigaeth o gofio dadl y pwnc
@@ -77,7 +77,7 @@ hon yn ei argymell.
 
 ### Buddsoddwch mewn isadeiledd telemetreg canlyniad yn fwriadol, fel buddsoddiad peirianneg dosbarth-cyntaf
 
-Mae mesuriad canlyniad, olrhain mabwysiad nodwedd, cydberthyniad
+Mae mesuriad canlyniad, olrhain mabwysiad nodwedd, cydberthynas
 canlyniad busnes (pwnc 5.3), offeryno dibynadwyedd (Rhan 6), angen
 buddsoddiad peirianneg gwirioneddol, parhaus y mae llawer o
 sefydliadau wedi'i dan-adnoddu'n hanesyddol mewn perthynas â'r
@@ -119,7 +119,7 @@ neu genhedlaeth offeryno benodol, ac mae ei adeiladu fel gallu parhaol
 yn gwarchod eich rhaglen fetrigau yn erbyn y symudiad technolegol
 nesaf gymaint â'r un cyfredol.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -132,7 +132,7 @@ Y tensiwn canolog, mewn ystyr wirioneddol, yw'r un y agorodd y llyfr
 hwn ag ef ym mhwnc 1.3, wedi'i finiogi nawr i'w ffurf fwyaf brys:
 **adborth cyflym, cyfarwydd yn erbyn signal arafach, onest**. Bu
 metrigau allbwn bob amser yn haws ac yn gyflymach i'w cynhyrchu; dadl y
-pwnc hwn yw bod AI cynhyrchiol wedi symud y cyfaddawd hwnnw o fod dim
+pwnc hwn yw bod AI cynhyrchiol wedi symud y cyfnewidiad hwnnw o fod dim
 ond yn isaddas i fod yn weithredol beryglus. Datryswch y tensiwn yn y
 ffordd y mae'r llyfr hwn wedi'i hargymell ers ei bwnc agoriadol:
 pwyswch yn benderfynol tuag at ganlyniadau, derbyniwch yr adborth arafach
@@ -151,7 +151,7 @@ hytrach na rhywbeth dim ond cyfleus.
 2. **Pa fuddsoddiad isadeiledd telemetreg-canlyniad penodol ydym wedi
    bod yn ei ohirio o blaid olrhain allbwn cyflymach, rhatach?** Enwch
    enghraifft goncrid, offeryno mabwysiad nodwedd, offeryno
-   cydberthyniad canlyniad busnes, a thrafodwch beth fyddai ei angen i
+   cydberthynas canlyniad busnes, a thrafodwch beth fyddai ei angen i
    mewn gwirionedd ei adeiladu.
 
 3. **A yw ein sefydliad wedi adeiladu amynedd gwirioneddol am adborth
@@ -227,7 +227,7 @@ gweithgarwch, gyda dim ond buddsoddiad cymedrol, anghyson mewn
 telemetreg canlyniad. Dros y flwyddyn ganlynol, ailgydbwyodd y cwmni'r
 gymhareb hon yn fwriadol, gan ymddeol sawl metrig allbwn yr oedd
 archwiliad pwnc 7.1 wedi'u fflagio fel rhai mwyaf agored a buddsoddi'r
-capasiti a ryddhawyd mewn offeryno mabwysiad nodwedd a chanlyniad
+cynhwysedd a ryddhawyd mewn offeryno mabwysiad nodwedd a chanlyniad
 busnes (pynciau 5.2, 5.3). Cafodd y dangosfwrdd canlyniadol, a
 gyflwynwyd yng nghyfarfod bwrdd y flwyddyn ganlynol, ei gredydu'n benodol
 gan yr un aelod bwrdd a fu'n amheugar yn flaenorol fel sylfaen sylweddol
@@ -328,7 +328,7 @@ llyfr yn gofyn i chi ei wneud.
   dyma egwyddor sylfaen pwnc 1.3, yn frys nawr.
 - Y metrigau sy'n **goroesi'r symudiad hwn** yw'r rhai y mae'r llyfr hwn
   yn adeiladu tuag atynt drwyddo draw: diffygion dianc, mabwysiad,
-  canlyniadau busnes, dibynadwyedd, a lles.
+  canlyniadau busnes, dibynadwyedd, a llesiant.
 - **Archwiliwch ac ailgydbwyswch eich cymhareb buddsoddi metrigau'n**
   fwriadol, gan ymddeol metrigau allbwn gwirioneddol hen ffasiwn yn
   hytrach na dim ond eu hychwanegu ochr yn ochr â metrigau canlyniad.

@@ -4,7 +4,7 @@
 
 Mae'r pwnc hwn yn enwi, yn uniongyrchol ac yn benodol, y ddau fodd
 methiant y rhybuddiodd pwnc 7.1 fod yn rhaid i fframwaith cyfan y
-llyfr hwn warchod yn eu herbyn wrth i ddatblygiad â chymorth AI ddod yn
+llyfr hwn warchod yn eu herbyn wrth i ddatblygiad â chymorth deallusrwydd artiffisial (AI) ddod yn
 arfer safonol: **chwyddiant metrig**, rhifau'n codi heb werth
 gwirioneddol cyfatebol, a **gwanhad ansawdd**, erydiad graddol mewn
 ansawdd cod sy'n rhagori ar allu cyfredol y diwydiant i'w ganfod trwy
@@ -34,7 +34,7 @@ gwirionedd ai peidio.
 I dimau mawr, mae peryglon y pwnc hwn yn cyfansymio â graddfa mewn
 ffordd a ddylai bryderu sefydliadau menter a llywodraeth yn benodol:
 gall chwyddiant metrig ar draws degau o dimau ar yr un pryd gynhyrchu
-signal ffug, ar draws y sefydliad o gynhyrchedd well sy'n cymryd amser a
+signal ffug, ar draws y sefydliad o gynhyrchiant gwell sy'n cymryd amser a
 dadansoddiad sylweddol i'w ddadwneud, yn union fel y dangosodd enghraifft
 technoleg ariannol pwnc 7.1. Mae gwanhad ansawdd sy'n rhagori ar allu
 canfod hyd yn oed yn fwy difrifol mewn cyd-destunau rheoledig, diogelwch-
@@ -125,7 +125,7 @@ cymorth AI'n fwy diogel ac yn fwy cynaliadwy nag un sy'n naill ai'n
 anwybyddu'r perygl neu'n ei drin fel rheswm dros wrthwynebiad
 diwahân i set o offer gwirioneddol ddefnyddiol.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -156,7 +156,7 @@ byd wedi newid.
 2. **A oes gennym ddulliau canfod, fel profi treiglo, nad ydynt yn
    dibynnu ar baru-patrwm gweledol adolygydd, neu a yw ein proses
    adolygu'n gyfan gwbl yn ddibynnol ar lygaid dynol yn asesu a yw cod
-   yn "edrych yn iawn"?** Dyma'r bregusrwydd penodol y mae'r pwnc hwn
+   yn "edrych yn iawn"?** Dyma'r gwendid penodol y mae'r pwnc hwn
    yn ei nodi; aseswch eich gallu canfod cyfredol yn ei erbyn yn onest.
 
 3. **A yw chwyddiant metrig wedi lledaenu y tu hwnt i'r cam codio i mewn
@@ -188,7 +188,7 @@ byd wedi newid.
 
 ## Golwg sector
 
-**Cwmni newydd.** Mae mabwysiadu cyflym â chapasiti adolygu cyfyngedig
+**Cwmni newydd.** Mae mabwysiadu cyflym â chynhwysedd adolygu cyfyngedig
 yn gwneud peryglon y pwnc hwn yn arbennig o acíwt ar gyfer tîm bach;
 mae'r broblem ganfod "edrych yn gywir" yn anos ei dal â llai o
 adolygwyr, llai arbenigol. Buddsoddwch yn gynnar mewn profi treiglo
@@ -347,7 +347,7 @@ prosesau adolygu yr oedd gan sefydliad eisoes ar waith.
   Mutation Testing," *IEEE Transactions on Software Engineering*
   (2011): y dull canfod y mae'r pwnc hwn yn dadlau ei fod yn dod yn
   anghymesur o werthfawr.
-- Ymchwil GitHub ar barau-rhaglennu AI a chynhyrchedd datblygwyr (data
+- Ymchwil GitHub ar barau-rhaglennu AI a chynhyrchiant datblygwyr (data
   diwydiant ar ganlyniadau a pherygl datblygiad â chymorth AI).
 - *The Tyranny of Metrics*, gan Jerry Z. Muller (obsesiwn metrig a
   pherygl twyllo, yn uniongyrchol berthnasol i bryder chwyddiant metrig

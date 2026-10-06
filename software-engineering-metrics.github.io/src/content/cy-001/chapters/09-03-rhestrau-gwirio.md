@@ -30,7 +30,7 @@ Rhestrau gwirio cyfeirio cyflym, parod-i'w-defnyddio. Copïwch un i mewn i'ch pr
 - [ ] Mae'r rhaglen yn dechrau mewn modd diagnostig yn unig, gyda chyfnod profi lleiafswm ymrwymedig (pwnc 8.3)
 - [ ] Mae protocol ymateb cyflym, gweladwy'n bodoli ar gyfer unrhyw ddigwyddiad camddefnyddio yn y dyfodol (pwnc 8.3)
 - [ ] Dewiswyd tîm treialu sydd wedi gwirfoddoli mewn gwirionedd, nid un a fandadwyd (pwnc 8.5)
-- [ ] Mae llywodraethu sylfaenol (siarter, perchnogaeth, polisi diagnostig) ar waith cyn i offeryniad ddechrau (pynciau 1.4, 8.5)
+- [ ] Mae llywodraethiant sylfaenol (siarter, perchnogaeth, polisi diagnostig) ar waith cyn i offeryniad ddechrau (pynciau 1.4, 8.5)
 
 ## Rhestr wirio digwyddiadau ac ôl-drafodaethau
 
@@ -42,9 +42,9 @@ Rhestrau gwirio cyfeirio cyflym, parod-i'w-defnyddio. Copïwch un i mewn i'ch pr
 
 ## Rhestr wirio archwilio metrig oes AI
 
-- [ ] Mae pob metrig dangosfwrdd wedi'i brofi yn erbyn: "a fyddai tîm sy'n defnyddio cymorth AI trwm ond yn cynhyrchu dim mwy o werth gwirioneddol yn dangos darlleniad gwell yma" (pwnc 7.1)
+- [ ] Mae pob metrig dangosfwrdd wedi'i brofi yn erbyn: "a fyddai tîm sy'n defnyddio cymorth deallusrwydd artiffisial (AI) trwm ond yn cynhyrchu dim mwy o werth gwirioneddol yn dangos darlleniad gwell yma" (pwnc 7.1)
 - [ ] Adolygir cyfradd methiant newid a chyfradd diffygion ochr yn ochr ag unrhyw godiad mewn amlder defnyddio â chymorth AI neu gyfaint ymrwymo (pwnc 7.1)
-- [ ] Monitorir capasiti a dyfnder adolygu wrth i gyfaint cod a gynhyrchwyd gan AI newid (pwnc 7.1)
+- [ ] Monitorir cynhwysedd a dyfnder adolygu wrth i gyfaint cod a gynhyrchwyd gan AI newid (pwnc 7.1)
 - [ ] Rhoddir tag i ddiffygion dianc yn ôl lefel cymorth AI i brofi, nid tybio, a yw'r berthynas cyfradd diffygion hanesyddol yn dal i sefyll (pynciau 7.1, 7.3)
 - [ ] Mae dulliau canfod sy'n gwrthsefyll diffygion "sy'n edrych yn gywir" (profi treiglo, profi seiliedig ar briodwedd) ar waith ar gyfer llwybrau cod AI-trwm (pwnc 7.3)
 - [ ] Ail-ymwelwyd a diweddarwyd siarter y metrigau'n glir ar gyfer y shifft hon, heb ei adael i grwydro heb ei archwilio (pynciau 1.4, 7.1)

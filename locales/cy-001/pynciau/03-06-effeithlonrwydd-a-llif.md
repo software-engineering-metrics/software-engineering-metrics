@@ -29,7 +29,7 @@ I dimau mawr, mae cost ymyriad yn cyfansymio'n strwythurol: mwy o
 gyfarfodydd, mwy o gostau uwchben cydlynu traws-dîm, mwy o sianeli Slack
 a hysbysiadau, mwy o wiriadau proses, pob un yn ymddangos yn rhesymol
 ar wahân ond gyda'i gilydd yn darnio'r diwrnod yn ddrwg. Mae sefydliadau
-menter a llywodraeth, gyda'u hanghenion llywodraethu a chydlynu trymach,
+menter a llywodraeth, gyda'u hanghenion llywodraethiant a chydlynu trymach,
 yn arbennig o dueddol i'r darniad hwn, ac mae'r dimensiwn hwn yn rhoi
 ffordd gonc i arweinyddiaeth ei fesur a gwarchod yn ei erbyn, yn
 hytrach na thrin "amser ffocws" fel dyhead diwylliannol amwys nad oes
@@ -105,11 +105,11 @@ dimensiwn hwn i lywio normau a diofynion lefel-tîm, blociau diogel sy'n
 optio-allan yn hytrach na gorfodol, yn hytrach nag un amserlen orfodedig
 sy'n tybio anghenion unfath ar draws pawb.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
-| Dim gwarchodaeth amser-ffocws | Hyblygrwydd amserlennu mwyaf ar gyfer cyfarfodydd | Mae diwrnodau darniedig yn lleihau capasiti ar gyfer gwaith gwirioneddol anodd |
+| Dim gwarchodaeth amser-ffocws | Hyblygrwydd amserlennu mwyaf ar gyfer cyfarfodydd | Mae diwrnodau darniedig yn lleihau cynhwysedd ar gyfer gwaith gwirioneddol anodd |
 | Blociau ffocws diogel lefel-tîm | Cost isel, enillion uchel, yn amddiffyn gwaith dwfn yn uniongyrchol | Angen cefnogaeth gydlynu y tu hwnt i un tîm |
 | Cyfnodau di-gyfarfod ar draws y sefydliad | Y warchodaeth gryfaf, anoddaf ei herydu | Angen ymrwymiad sefydliadol eang a gall deimlo'n anystwyth ar gyfer rolau angen mwy o gydlynu |
 | Amserlennu ffocws optio-i-mewn unigol | Yn parchu amrywiad unigol mewn arddull gwaith | Gwarchodaeth ddiofyn wannach; hawdd ei herydu o dan bwysau amserlennu |
@@ -157,14 +157,14 @@ ffocws fel adnodd i'w amddiffyn yn fwriadol yn hytrach na gweddill.
 
 6. **Petaem yn gwarchod dau brynhawn llawn yr wythnos ar gyfer gwaith
    dwfn ar draws y sefydliad, beth fyddai'n rhaid i ni ddweud na
-   wrtho, ac a fyddai'n werth chweil?** Mae'r cwestiwn cyfaddawd
+   wrtho, ac a fyddai'n werth chweil?** Mae'r cwestiwn cyfnewidiad
    concrid hwn yn gorfodi'r tensiwn cydlynu-yn-erbyn-ffocws i'r amlwg
    yn hytrach na'i adael fel dyhead haniaethol.
 
 ## Golwg sector
 
 **Cwmni newydd.** Mae llwyth cyfarfod fel arfer yn isel yn naturiol
-gyda thîm bach, a'r perygl yn lle hynny yw newid cyd-destun wedi'i yrru
+gyda thîm bach, a'r risg yn lle hynny yw newid cyd-destun wedi'i yrru
 gan wisgo llawer o hetiau ar yr un pryd yn hytrach na chan gyfarfodydd
 wedi'u hamserlennu'n benodol. Gwarchodwch amser ffocws yn fwriadol hyd
 yn oed ar raddfa fach, gan ei bod yn haws sefydlu'r arferiad yn gynnar
@@ -183,13 +183,13 @@ gan ddefnyddio data calendr ar draws y sefydliad, a thriniwch flociau
 ffocws diogel fel polisi ar draws y sefydliad, nid opsiwn fesul-tîm sy'n
 cael ei drechu gan arferion amserlennu traws-dîm.
 
-**Llywodraeth.** Mae gofynion llywodraethu a chydlynu trwm sy'n gyffredin
+**Llywodraeth.** Mae gofynion llywodraethiant a chydlynu trwm sy'n gyffredin
 mewn sefydliadau sector cyhoeddus yn gwneud y dimensiwn hwn yn arbennig
 o bwysig i'w warchod yn fwriadol, gan fod y dynfa naturiol tuag at fwy
 o broses a mwy o gyfarfodydd adolygu'n gryf. Fframiwch warchodaeth
-amser-ffocws yn benodol fel buddsoddiad cynhyrchedd wrth wneud yr achos
+amser-ffocws yn benodol fel buddsoddiad cynhyrchiant wrth wneud yr achos
 i randdeiliaid a allai weld lleihad cyfarfodydd fel lleihau
-goruchwyliaeth yn hytrach na gwarchod capasiti peirianneg gwirioneddol.
+goruchwyliaeth yn hytrach na gwarchod cynhwysedd peirianneg gwirioneddol.
 
 ## Enghreifftiau
 
@@ -207,11 +207,11 @@ gwell a gostyngiad mesuradwy mewn amser cylch (pwnc 2.6) ar gyfer
 nodweddion cymhleth, aml-ddiwrnod yn benodol.
 
 **Llywodraeth.** Canfu tîm peirianneg asiantaeth ffederal, yn gweithredu
-o dan ofynion llywodraethu trwm, fod peirianwyr yn treulio bron 40% o'u
+o dan ofynion llywodraethiant trwm, fod peirianwyr yn treulio bron 40% o'u
 horiau gwaith mewn cyfarfodydd statws a hadolygu-cydymffurfio, yn
 seiliedig ar archwiliad calendr a gynhaliwyd ar ôl i sawl peiriannydd
 godi pryderon mewn cyfweliadau ymadael. Yn hytrach na dileu'r gofynion
-llywodraethu, a oedd yn gwasanaethu dibenion goruchwylio gwirioneddol,
+llywodraethiant, a oedd yn gwasanaethu dibenion goruchwylio gwirioneddol,
 cyfunodd y tîm gyfarfodydd statws diangen yn un adolygiad wythnosol
 sengl a symudodd wiriadau cydymffurfio rheolaidd i adolygiad dogfennaeth
 anghydamserol yn lle cyfarfodydd byw, gan dorri llwyth cyfarfod bron yn
@@ -226,7 +226,7 @@ mesuradwy o newid nad oedd yn costio dim y tu hwnt i ddisgyblaeth
 amserlennu, dau brynhawn di-gyfarfod yr wythnos. Oherwydd bod gwaith
 dwfn, cymhleth yn dibynnu'n benodol ar sylw parhaus, di-dor, gall hyd
 yn oed cynnydd cymedrol mewn argaeledd amser-ffocws gwirioneddol
-gynhyrchu gwelliant anghymesur o fawr yng nghapasiti'r sefydliad ar
+gynhyrchu gwelliant anghymesur o fawr yng nghynhwysedd'r sefydliad ar
 gyfer ei waith anoddaf, gwerth-uchaf.
 
 Disgyblaeth sefydliadol bron yn gyfan gwbl, yn hytrach na buddsoddiad
@@ -237,7 +237,7 @@ cyfarfodydd yn ystod y blociau hynny. Y brif gost barhaus yw amddiffyn
 yr amser gwarchodedig yn erbyn erydiad graddol wrth i anghenion cydlynu
 newydd godi'n anochel.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Trin diwrnodau darniedig fel cost anochel graddfa:** mae'n
   cyfansymio'n raddol ac yn anaml yn ganlyniad un penderfyniad bwriadol,
@@ -247,13 +247,13 @@ newydd godi'n anochel.
 - **Gorfodi un amserlen amser-ffocws anystwyth ar bawb:** yn anwybyddu
   amrywiad unigol gwirioneddol mewn sut mae pobl yn gweithio orau.
 - **Defnyddio data ymyriad neu hysbysiad fel gwyliadwriaeth unigol:** yn
-  ailadrodd union y perygl camddefnydd y mae pwnc 3.4 yn rhybuddio yn
+  ailadrodd union y risg camddefnydd y mae pwnc 3.4 yn rhybuddio yn
   ei erbyn ar gyfer data gweithgarwch.
 - **Gadael i amser ffocws gwarchodedig erydu'n raddol trwy
-  eithriadau:** yr un perygl erydiad y mae pwnc 2.5 yn rhybuddio
+  eithriadau:** yr un risg erydiad y mae pwnc 2.5 yn rhybuddio
   amdano ar gyfer terfynau gwaith-ar-y-gweill, wedi'i gymhwyso i
   warchodaeth amser-ffocws.
-- **Ychwanegu gofynion llywodraethu neu gydlynu heb byth fesur eu cost
+- **Ychwanegu gofynion llywodraethiant neu gydlynu heb byth fesur eu cost
   llwyth-cyfarfod cronnus:** mae darniad yn ymgripian i mewn un
   ychwanegiad sy'n ymddangos yn rhesymol ar y tro.
 
@@ -271,7 +271,7 @@ newydd godi'n anochel.
   gweithgarwch-perfformiad i ddiagnosio tandwylio wedi'i yrru gan
   ddarniad, a monitro amser gwarchodedig am erydiad.
 - **Lefel 5, Cerddorfaru:** Mae'r sefydliad yn trin gwarchodaeth amser-
-  ffocws fel buddsoddiad cynhyrchedd dosbarth-cyntaf, gall bwyntio at
+  ffocws fel buddsoddiad cynhyrchiant dosbarth-cyntaf, gall bwyntio at
   welliannau cyflenwi a boddhad penodol wedi'u holrhain ato, ac yn ei
   amddiffyn yn rhagweithiol yn erbyn y pwysau graddol, cynyddrannol a
   fyddai fel arall yn ei erydu.

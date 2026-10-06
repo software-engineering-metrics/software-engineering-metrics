@@ -113,7 +113,7 @@ bwysig yn ymarferol: mae cadw metrig yn ddiagnostig yn aml yn rhatach ac
 yn fwy effeithiol nag unrhyw faint o beirianneg cledr ddiogelwch a
 gymhwysir ar ôl y ffaith.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -253,7 +253,7 @@ Nid yw cost cyfanswm perchnogaeth cledr ddiogelwch yn rhad ac am ddim: mae'n
 ail fetrig i'w ddiffinio, ei gyfrifiannu, a'i adolygu. Ond mae'r gost honno'n
 fach ac yn sefydlog o'i chymharu â chost ddiderfyn cymhelliant sy'n gwobrwyo'n
 dawel yr ymddygiad anghywir am fisoedd cyn i unrhyw un sylwi. Mae pob pwnc
-ar ôl hon yn prisio'r cyfaddawd hwnnw i mewn, a dyna pam mae parejiad cledr
+ar ôl hon yn prisio'r cyfnewidiad hwnnw i mewn, a dyna pam mae parejiad cledr
 ddiogelwch yn ymddangos fel argymhelliad drwy gydol gweddill y llyfr hwn yn
 hytrach na dim ond yma.
 

@@ -107,11 +107,11 @@ Yn hytrach nag olrhain bylchau dogfennaeth ar wahân ac yn anffurfiol,
 plygwch fylchau dogfennaeth sylweddol i mewn i'r un gronfa-waith
 weladwy, wedi'i meintioli a ddisgrifir ym mhwnc 4.5, yn enwedig ar
 gyfer systemau dyngedfennol, ffactor-bws-isel, fel bod gwaith
-dogfennaeth yn cystadlu'n deg am gapasiti wedi'i flaenoriaethu yn
+dogfennaeth yn cystadlu'n deg am gynhwysedd wedi'i flaenoriaethu yn
 hytrach na chael ei ohirio'n barhaus fel tasg statws-is o'i gymharu ag
 unioni dyled sy'n canolbwyntio ar god.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -163,7 +163,7 @@ ystyrlon na chyfrif bodolaeth yn unig.
    bylchau dogfennaeth, neu a yw gwaith dogfennaeth yn cael ei ohirio'n
    barhaus fel tasg statws-is o'i gymharu â thrwsiadau cod?** Gwiriwch
    eich cronfa-waith wirioneddol a gwelwch a yw dyled dogfennaeth yn
-   weladwy ac yn cystadlu am gapasiti wedi'i flaenoriaethu neu'n
+   weladwy ac yn cystadlu am gynhwysedd wedi'i flaenoriaethu neu'n
    effeithiol anweledig.
 
 6. **Beth fyddai'n ei gostio i ni petai'r un neu ddau berson sy'n deall
@@ -314,7 +314,7 @@ ariannol yn ei ddangos fel y dewis arall.
   yn enwedig wedi'i gyfuno â ffactor bws isel (pwnc 3.5); mae'n
   costio dim yn weladwy hyd nes iddo gostio llawer ar unwaith.
 - Plygwch **fylchau dogfennaeth i mewn i'ch cronfa-waith dyled
-  dechnegol** (pwnc 4.5) fel eu bod yn cystadlu'n deg am gapasiti
+  dechnegol** (pwnc 4.5) fel eu bod yn cystadlu'n deg am gynhwysedd
   wedi'i flaenoriaethu.
 
 ## Cyfeiriadau a darllen pellach

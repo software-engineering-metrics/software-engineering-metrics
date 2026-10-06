@@ -61,7 +61,7 @@ Pob fformwla o'r llyfr, wedi'u casglu mewn un lle. Mae pob cofnod yn enwi'r pwnc
 | MTTA | Amser o hysbysiad digwyddiad i gydnabod | 6.2 |
 | MTTR (digwyddiad) | Amser o gydnabod i adfer gwasanaeth gwirioneddol | 6.2 |
 | Dosbarthiad galwadau ar alwad | Galwadau a dderbyniwyd fesul unigolyn, dros ffenestr symudol (nid cyfartaledd tîm) | 6.3 |
-| Amser i unioni bregusrwydd | Amser o ganfod i unioni gwirioneddol, wedi'i dracio yn ôl difrifoldeb | 6.4 |
+| Amser i unioni gwendid | Amser o ganfod i unioni gwirioneddol, wedi'i dracio yn ôl difrifoldeb | 6.4 |
 
 ## Nodiadau ar ddefnyddio'r fformwlâu hyn
 

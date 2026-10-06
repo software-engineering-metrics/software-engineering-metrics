@@ -51,7 +51,7 @@ metrig gwael cyn iddo yrru penderfyniad staffio neu broses gwael.
   raddol. Mae adnodd sy'n rhedeg ar 95% prysur yn aml yn aros lawer gwaith
   hirach nag un sy'n rhedeg ar 80%, nid dim ond "ychydig yn waeth."
 - **Mae cyfartaledd ciw'n cuddio ei achos gwaethaf.** Mae adrodd dim ond
-  yr amser aros cymedrig yn cuddio'r gynffon hir, boenus ger capasiti,
+  yr amser aros cymedrig yn cuddio'r gynffon hir, boenus ger cynhwysedd,
   yn union yr hyn y mae pwnc 1.6 yn rhybuddio yn ei erbyn o ran
   defnyddio canraddau yn lle cyfartaleddau.
 - **Gellir twyllo sut mae ciw'n cael ei ddiffinio mor hawdd ag unrhyw
@@ -77,16 +77,16 @@ ffenestr wahanol i'r amser cylch. Mae'r un gwiriad hwn yn dal mwy o
 gyfrifianeg wael nag y mae'r rhan fwyaf o dimau'n ei ganfod unrhyw ffordd
 arall.
 
-### Olrheiniwch ddefnydd yn uniongyrchol ar gyfer pob adnodd a rennir, wedi'i gyfyngu gan gapasiti
+### Olrheiniwch ddefnydd yn uniongyrchol ar gyfer pob adnodd a rennir, wedi'i gyfyngu gan gynhwysedd
 
 Nodwch yr adnoddau y mae eich piblinell gyflenwi'n eu rhannu ar draws
 llawer o dimau, pwll adolygu cod, clwstwr CI, amgylchedd staging, a
-mesurwch pa mor brysur mae pob un yn rhedeg fel cyfran o'i gapasiti
+mesurwch pa mor brysur mae pob un yn rhedeg fel cyfran o'i gynhwysedd
 sydd ar gael, cyn ichi gynllunio ei redeg yn agos at ei derfyn. Mae grŵp
-adolygwyr a rennir sy'n rhedeg ger capasiti llawn yn cynhyrchu amseroedd
+adolygwyr a rennir sy'n rhedeg ger cynhwysedd llawn yn cynhyrchu amseroedd
 aros ciw-adolygu sy'n tyfu lawer cyflymach na'r cynnydd cymedrol mewn
 galw a'u hachosodd, yn union y dynameg y tu ôl i gyngor pwnc 2.9 i
-wylio amser-i'r-adolygiad-cyntaf fel dangosydd arweiniol.
+wylio amser-i'r-adolygiad-cyntaf fel dangosydd rhagfynegi.
 
 ### Gwahanwch gyfradd gyrraedd, cyfradd llwyddiant, cyfradd methiant, a chyfradd hepgor
 
@@ -113,7 +113,7 @@ neu hepgor uchel, nid yr un sy'n digwydd bod hawsaf i'w gyfrifiannu.
 ### Gosodwch derfynau staffio a WIP gan gadw defnydd mewn cof, nid dim ond trwybwn
 
 Pan fyddwch yn penderfynu faint o adolygwyr neu redwyr CI sydd angen ar
-dîm, peidiwch â meintioli capasiti i gyfateb yn union â'r gyfradd
+dîm, peidiwch â meintioli cynhwysedd i gyfateb yn union â'r gyfradd
 gyrraedd gyfartalog. Mae gan giw sy'n rhedeg ar 100% defnydd ar
 gyfartaledd amser aros anfeidraidd yn effeithiol yn ymarferol, oherwydd
 nid yw cyrraeddiadau gwirioneddol yn wastad, nid yn berffaith llyfn.
@@ -121,11 +121,11 @@ Cynlluniwch yn fwriadol ar gyfer pen uwch, a thriniwch "mae ein
 hadolygwyr bron bob amser yn brysur" fel arwydd rhybudd am amseroedd
 aros sydd i ddod, nid fel tystiolaeth o adnoddau effeithlon.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
-| Dim model ciwio ffurfiol, staffio ar deimlad perfedd | Cyflym i ddechrau; dim eirfa newydd i'r tîm | Yn gyson yn tanamcangyfrif sut mae amser aros yn ffrwydro ger capasiti llawn |
+| Dim model ciwio ffurfiol, staffio ar deimlad perfedd | Cyflym i ddechrau; dim eirfa newydd i'r tîm | Yn gyson yn tanamcangyfrif sut mae amser aros yn ffrwydro ger cynhwysedd llawn |
 | Cyfraith Little fel gwiriad synnwyr cyffredin ar fetrigau presennol | Rhad, angen dim offer newydd, yn dal diffiniadau gwael yn gyflym | Dim ond yn gwirio cysondeb, nid yn gwneud diagnosis o'r achos ar ei ben ei hun |
 | Efelychiad ciwio llawn (dosraniadau cyrraedd, sawl gweinydd) | Y rhagfynegiad mwyaf cywir o ymddygiad amser-aros o dan lwyth | Angen sgil ystadegol gwirioneddol a chynnal a chadw na fydd y rhan fwyaf o dimau'n ei gynnal |
 | Olrhain defnydd ar adnoddau a rennir heb fodelu dyfnach | Syml, gweithredadwy, yn dal yr achos mwyaf sengl o amseroedd aros rhemp | Yn dweud dim ynghylch pam mae defnydd yn uchel na beth i'w wneud am yr achos sylfaenol |
@@ -173,10 +173,10 @@ buddsoddiad.
    cyfuniad gwaethaf o ddefnydd uchel a chyfradd methiant neu hepgor
    uchel.
 
-5. **Petaem yn ychwanegu capasiti i'n hadnodd a rennir mwyaf cyfyngedig, a
+5. **Petaem yn ychwanegu cynhwysedd i'n hadnodd a rennir mwyaf cyfyngedig, a
    fyddai amser aros mewn gwirionedd yn gwella, neu a fyddai galw'n
    syml yn ehangu i'w lenwi?** Mae'r cwestiwn hwn yn gwahanu prinder
-   capasiti gwirioneddol oddi wrth broblem galw, ac mae'r ateb yn newid a
+   cynhwysedd gwirioneddol oddi wrth broblem galw, ac mae'r ateb yn newid a
    yw'r trwsiad cywir yn fwy o bennau staff, terfyn WIP, neu newid i sut
    mae gwaith yn cael ei flaenoriaethu cyn iddo fynd i mewn i'r ciw.
 
@@ -214,9 +214,9 @@ achos sy'n byw y tu allan i'w biblinell ei hun.
 aml yn llwybro gwaith trwy fyrddau cymeradwyo a rennir, prosesau
 achrediad diogelwch a rennir, ac amgylcheddau profi a rennir nad oes
 gan unrhyw un tîm eu rheoli na'u haddasu ar ei ben ei hun. Mae
-dadansoddiad ciwio o'r pyrth a rennir hyn, cyfradd gyrraedd, capasiti,
+dadansoddiad ciwio o'r pyrth a rennir hyn, cyfradd gyrraedd, cynhwysedd,
 defnydd, yn aml y dystiolaeth gliriaf sydd ar gael ar gyfer achos busnes
-i ychwanegu capasiti neu i newid sut mae gwaith yn cael ei swp-brosesu
+i ychwanegu cynhwysedd neu i newid sut mae gwaith yn cael ei swp-brosesu
 cyn iddo gyrraedd y porth.
 
 ## Enghreifftiau
@@ -227,7 +227,7 @@ draws pob tîm cynnyrch a oedd yn dibynnu ar ei fflyd CI a rennir, er na
 newidiodd unrhyw dîm unigol sut yr oedd yn gweithio. Canfu dadansoddiad
 defnydd fod y fflyd yn rhedeg dros 90% prysur yn ystod oriau craidd, ymhell
 y tu hwnt i'r pwynt lle mae theori ciwio'n rhagfynegi bod amser aros yn
-tyfu'n sydyn yn hytrach na graddol. Ychwanegodd y tîm platfform gapasiti
+tyfu'n sydyn yn hytrach na graddol. Ychwanegodd y tîm platfform gynhwysedd
 CI a chyflwynodd bolisi amserlennu cyfran-deg fel na allai bwrst
 gweithgarwch unrhyw dîm sengl fonopoleiddio'r ciw. Syrthiodd amser aros
 CI canolrifol dros hanner o fewn mis, tystiolaeth mai ciw a rennir,
@@ -244,7 +244,7 @@ gweithiwr achos, fod gwaith ar y gweill wedi tyfu ymhell y tu hwnt i'r
 hyn yr oedd amser prosesu cyfartalog datganedig y tîm yn ei awgrymu, gan
 olygu bod achosion yn pentyrru'n dawel mewn statws nad oedd yn cael ei
 gyfrif fel "aros." Ailstrwythurodd yr asiantaeth ei diffiniadau olrhain-
-achosion i gyfrif pob achos agored yn onest ac ychwanegodd gapasiti
+achosion i gyfrif pob achos agored yn onest ac ychwanegodd gynhwysedd
 gweithiwr achos wedi'i feintio i gadw defnydd o dan 85%, a olrheinir
 bellach fel targed gweithredol sefydlog ochr yn ochr â'r rhif trwybwn.
 
@@ -255,7 +255,7 @@ biblinell yn teimlo'n araf" yn benderfyniad penodol, amddiffynadwy,
 ychwanegu pen uwch i'r adnodd a rennir hwn, hollti'r metrig cymysg hwn i
 mewn i'w gydrannau gwirioneddol, yn hytrach na gwthiad amwys i "weithio'n
 gyflymach" sy'n colli'r achos gwirioneddol. Mae enghraifft isadeiledd
-cwmwl uchod, gan haneru amser aros o drwsiad capasiti ac amserlennu yn
+cwmwl uchod, gan haneru amser aros o drwsiad cynhwysedd ac amserlennu yn
 hytrach nag unrhyw newid i ymddygiad timau unigol, yn batrwm y mae'r
 dadansoddiad hwn yn ei gynhyrchu'n ddibynadwy: mae'r trwsiad bron bob
 amser yn rhatach na gofyn i bob tîm i lawr yr afon symud yn gyflymach o
@@ -271,7 +271,7 @@ heb ei esbonio nesaf y sefydliad.
 
 ## Gwrth-batrymau a pheryglon
 
-- **Meintioli capasiti adnodd a rennir i gyfateb yn union â'i gyfradd
+- **Meintioli cynhwysedd adnodd a rennir i gyfateb yn union â'i gyfradd
   gyrraedd gyfartalog:** yn gwarantu defnydd uchel ac amseroedd aros
   rhemp pryd bynnag y mae galw hyd yn oed ychydig yn anwastad.
 - **Adrodd dim ond amser aros cymedrig, byth canradd:** yn cuddio'r
@@ -292,7 +292,7 @@ heb ei esbonio nesaf y sefydliad.
   ddal," heb newid pa mor hir mae'n ei gymryd i orffen, ac yn torri'r
   gwiriad cyfraith Little a fyddai fel arall wedi ei ddal.
 - **Tybio nad oes angen unrhyw gynnal a chadw ar fodel ciwio unwaith ei
-  adeiladu:** mae patrymau cyrraedd a chapasiti'n newid yn gyson, ac mae
+  adeiladu:** mae patrymau cyrraedd a chynhwysedd'n newid yn gyson, ac mae
   model hen yn cynhyrchu rhagfynegiadau hyderus, anghywir.
 
 ## Model aeddfedrwydd
@@ -306,11 +306,11 @@ heb ei esbonio nesaf y sefydliad.
   draws piblinellau cyflenwi, ac olrheinir defnydd yn benodol ar gyfer yr
   adnoddau a rennir mwyaf sylweddol.
 - **Lefel 4, Rheoli:** Olrheinir cyfradd llwyddiant, methiant, a hepgor ar
-  wahân ar gyfer pob ciw sylweddol, ac mae penderfyniadau capasiti'n
+  wahân ar gyfer pob ciw sylweddol, ac mae penderfyniadau cynhwysedd'n
   defnyddio targedau defnydd, nid dim ond galw cyfartalog.
 - **Lefel 5, Cerddorfaru:** Mae'r sefydliad yn modelu ei brif
   biblinellau fel ciwiau o giwiau, yn nodi tagfeydd gwirioneddol yn
-  systematig, a gall bwyntio at newidiadau capasiti neu broses penodol a
+  systematig, a gall bwyntio at newidiadau cynhwysedd neu broses penodol a
   wnaed oherwydd dadansoddiad ciwio, gyda gwelliant amser-aros wedi'i
   fesur i'w ddangos amdano.
 
@@ -319,7 +319,7 @@ heb ei esbonio nesaf y sefydliad.
 1. Dewiswch un o'n piblinellau cyflenwi a gwiriwch a yw ei rifau'n bodloni cyfraith Little heddiw.
 2. Enwch yr adnodd a rennir sengl yn ein sefydliad y byddai'r rhan fwyaf o bobl yn cytuno ei fod "bob amser yn brysur," a dewch o hyd i'w rif defnydd gwirioneddol.
 3. Sut fyddai ein siart trwybwn yn edrych petaem yn ei hollti'n gyfraddau llwyddiant, methiant, a hepgor ar gyfer y chwarter diwethaf?
-4. Petai'n rhaid inni ychwanegu capasiti i union un adnodd a rennir eleni, pa un, a pha dystiolaeth fyddai'n ei gyfiawnhau?
+4. Petai'n rhaid inni ychwanegu cynhwysedd i union un adnodd a rennir eleni, pa un, a pha dystiolaeth fyddai'n ei gyfiawnhau?
 
 ## Prif gasgliadau
 
@@ -328,7 +328,7 @@ heb ei esbonio nesaf y sefydliad.
   a dyma'r gwiriad rhataf sydd ar gael ar a yw eich metrigau cyflenwi'n
   gyson yn fewnol.
 - **Mae amser aros yn tyfu'n sydyn, nid yn raddol, wrth i ddefnydd nesáu
-  at gapasiti llawn.** Triniwch "bob amser yn brysur" fel arwydd
+  at gynhwysedd llawn.** Triniwch "bob amser yn brysur" fel arwydd
   rhybudd, nid canmoliaeth.
 - Olrheiniwch **gyfradd gyrraedd, cyfradd llwyddiant, cyfradd methiant, a
   chyfradd hepgor** ar wahân; mae eu cymysgu i mewn i un rhif trwybwn yn

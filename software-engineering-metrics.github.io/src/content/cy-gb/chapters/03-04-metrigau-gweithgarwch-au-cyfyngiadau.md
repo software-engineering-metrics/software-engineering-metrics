@@ -10,7 +10,7 @@ pob un o'r digwyddiadau hyn eisoes wedi'i logio'n awtomatig gan offer y
 mae timau peirianneg yn eu defnyddio bob dydd, a'r hawster mesur hwnnw
 yw'n union yr hyn sy'n gwneud y dimensiwn hwn y mwyaf peryglus i'w
 or-bwysoli. Mae gweithgarwch yn signal gwirioneddol, dilys pan gaiff ei
-ddefnyddio'n ofalus. Wedi'i ddefnyddio fel dirprwy cynhyrchedd
+ddefnyddio'n ofalus. Wedi'i ddefnyddio fel dirprwy cynhyrchiant
 annibynnol, dyma'r teulu metrig sengl mwyaf twylledig, mwyaf
 camarweiniol yn hanes cyfan mesur
 **[peirianneg meddalwedd](https://en.wikipedia.org/wiki/Software_engineering)**.
@@ -41,7 +41,7 @@ wrthdroi.
 ## Egwyddorion allweddol
 
 - **Mae gweithgarwch yn mesur symudiad, nid gwerth.** Mae'n signal
-  cyd-destunol dilys, byth yn ddirprwy cynhyrchedd annibynnol.
+  cyd-destunol dilys, byth yn ddirprwy cynhyrchiant annibynnol.
 - **Dyma'r teulu metrig a gamddefnyddiwyd fwyaf yn hanesyddol yn
   mesur peirianneg meddalwedd.** Trinwch yr hanes hwnnw fel rhybudd, nid
   cyd-ddigwyddiad.
@@ -100,7 +100,7 @@ yw union batrwm amnewid pwnc 1.2: hollti gwaith gwirioneddol
 ystyrlon yn nifer o ddigwyddiadau bach, dibwys i chwyddo cyfrif. Os yw
 amlder ymrwymiad neu pull request yn codi tra bo cymhlethdod neu faint
 sylfaenol y newidiadau'n gostwng yn sydyn, archwiliwch cyn rhoi clod am
-welliant cynhyrchedd gwirioneddol, gan ddefnyddio'r un ddisgyblaeth
+welliant cynhyrchiant gwirioneddol, gan ddefnyddio'r un ddisgyblaeth
 ddiagnostig y mae pwnc 2.10 yn ei hargymell ar gyfer amledd defnyddio.
 
 ### Enwch ac anogwch yn erbyn theatr gweithgarwch yn benodol
@@ -113,7 +113,7 @@ hwn yn benodol i'ch tîm, a bod yn dryloyw nad yw arweinyddiaeth yn
 defnyddio gweithgarwch crai i farnu cyfraniad, yn dileu llawer o'r
 cymhelliant iddo ddigwydd yn y lle cyntaf.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -156,7 +156,7 @@ annog defnydd meddylgar, cyd-destunol lefel-tîm.
 
 4. **A ydym erioed wedi gweld cynnydd mewn amlder ymrwymiad neu pull
    request ynghyd â maint newid cyfartalog crebachu, gan awgrymu hollti
-   dibwys yn hytrach na chynnydd cynhyrchedd gwirioneddol?** Tynnwch
+   dibwys yn hytrach na chynnydd cynhyrchiant gwirioneddol?** Tynnwch
    ddata gwirioneddol a gwiriwch am y patrwm twyllo-amnewid penodol
    hwn.
 
@@ -202,7 +202,7 @@ yn gyfnodol i gadarnhau bod y polisi'n cael ei ddilyn mewn gwirionedd,
 nid dim ond ei ddatgan.
 
 **Llywodraeth.** Gall metrigau gweithgarwch fod yn ddeniadol i'w
-dyfynnu mewn adroddiad cyhoeddus fel tystiolaeth o gynhyrchedd ("deng
+dyfynnu mewn adroddiad cyhoeddus fel tystiolaeth o gynhyrchiant ("deng
 mil o ymrwymiadau eleni"), ond mae'r math hwn o bennawd bron yn ddiystyr
 ac gall wahodd union y craffu anghywir unwaith y bydd adolygydd
 gwybodus yn nodi nad yw gweithgarwch crai'n dweud dim am ganlyniadau.
@@ -226,7 +226,7 @@ dyrchafiad, a symudodd dystiolaeth dyrchafiad tuag at ddull perfformiad
 aml-signal pwnc 3.3.
 
 **Llywodraeth.** Cynigiodd asiantaeth gwasanaethau digidol, dan bwysau i
-ddangos cynhyrchedd i bwyllgor goruchwylio deddfwriaethol, yn wreiddiol
+ddangos cynhyrchiant i bwyllgor goruchwylio deddfwriaethol, yn wreiddiol
 adrodd cyfanswm ymrwymiadau a llinellau o god a ysgrifennwyd ar draws ei
 rhaglen beirianneg fel tystiolaeth o werth a gyflenwyd. Gwrthwynebodd
 ymgynghorydd technegol mewnol, gan nodi'n gywir bod y fframio hwn yn

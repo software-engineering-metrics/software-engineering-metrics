@@ -53,7 +53,7 @@ gyfatebol pan fydd y twyllo hwnnw'n llwyddo.
   iach, nid methiant i'w guddio.** Mae cosbi datgeliad yn digalonni'r
   adrodd y mae'r system gyfan hon yn dibynnu arno.
 - **Mae dyled diogelwch yn gategori o ddyled dechnegol** (pwnc 4.5) a
-  dylai gystadlu am gapasiti unioni wedi'i flaenoriaethu ar yr un sail
+  dylai gystadlu am gynhwysedd unioni wedi'i flaenoriaethu ar yr un sail
   benodol, wedi'i meintioli.
 
 ## Argymhellion
@@ -112,10 +112,10 @@ gwirioneddol: mae gwendid critigol mewn offeryn mewnol heb amlygiad
 rhwydwaith allanol yn berygl gwahanol na'r un difrifoldeb enwol mewn
 gwasanaeth rhyngrwyd-wynebedig yn trin data cwsmer. Lle bo'n ymarferol,
 pwysolwch flaenoriaethu yn ôl cyd-destun amlygiad a chamfanteisioldeb
-gwirioneddol, nid sgôr difrifoldeb yn unig, fel bod capasiti unioni'n
+gwirioneddol, nid sgôr difrifoldeb yn unig, fel bod cynhwysedd unioni'n
 canolbwyntio ar yr eitemau gwirioneddol berygl-uchaf yn gyntaf.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -192,7 +192,7 @@ swyddogaeth diogelwch bwrpasol nac offeryno soffistigedig.
 datgeliad gwirioneddol ddi-gosb ill dau'n hanfodol ac ill dau'n anos eu
 cynnal ar raddfa, lle mae anghysondeb ar draws degau o dimau a drifft
 diwylliannol tuag at geisio-beio ar ôl digwyddiad difrifol yn beryglon
-cyson. Buddsoddwch mewn swyddogaeth llywodraethu diogelwch bwrpasol i
+cyson. Buddsoddwch mewn swyddogaeth llywodraethiant diogelwch bwrpasol i
 gynnal cysondeb dosbarthiad a gwarchod diwylliant datgeliad yn
 weithredol.
 
@@ -216,9 +216,9 @@ dadansoddiad diwygiedig, wedi'i bwysoli-yn-ôl-difrifoldeb, amser-i-
 unioni, er bod y cyfrif cyfan yn fflat, fod gwendidau critigol yn cymryd
 cyfartaledd o dros naw deg diwrnod i'w hunioni, ymhell y tu hwnt i
 unrhyw darged rhesymol, oherwydd eu bod yn cystadlu'n aflwyddiannus yn
-erbyn gwaith nodweddion ym mhob cylch cynllunio heb gapasiti pwrpasol,
+erbyn gwaith nodweddion ym mhob cylch cynllunio heb gynhwysedd pwrpasol,
 gwarchodedig. Daeth sefydlu targed unioni caled o 7 diwrnod ar gyfer
-gwendidau critigol, wedi'i gefnogi gan gapasiti unioni dyled-diogelwch
+gwendidau critigol, wedi'i gefnogi gan gynhwysedd unioni dyled-diogelwch
 gwarchodedig yn adlewyrchu model dyrannu dyled dechnegol pwnc 4.5, ag
 amser unioni critigol cyfartalog i lawr i lai na phum diwrnod o fewn
 dau chwarter.
@@ -247,11 +247,11 @@ wedi'i adrodd yn onest. Mae'r enghraifft cwmni meddalwedd uchod yn
 dangos y mecanwaith penodol: roedd dyled diogelwch wedi bod yn colli'r
 gystadleuaeth flaenoriaethu'n dawel yn erbyn gwaith nodweddion am
 flynyddoedd, yn union y patrwm y mae pwnc 4.5'n rhybuddio amdano ar
-gyfer dyled dechnegol yn gyffredinol, hyd nes i gapasiti unioni
+gyfer dyled dechnegol yn gyffredinol, hyd nes i gynhwysedd unioni
 gwarchodedig ei drwsio'n uniongyrchol.
 
 Mae cost cyfanswm perchnogaeth yn cynnwys offeryno sganio awtomataidd,
-y capasiti unioni gwarchodedig y mae'r pwnc hwn yn argymell ei
+y cynhwysedd unioni gwarchodedig y mae'r pwnc hwn yn argymell ei
 ddyrannu, a'r buddsoddiad diwylliannol parhaus mewn arfer datgeliad
 di-gosb. Mae'r gost honno'n gymedrol o'i chymharu â chost gwendid
 difrifol, wedi'i gamfanteisio'n llwyddiannus y byddai unioni rhagweithiol,
@@ -271,7 +271,7 @@ cael ei gamfanteisio.
   colli'r gystadleuaeth flaenoriaethu yn erbyn gwaith nodweddion yn
   ddiofyn.
 - **Blaenoriaethu yn ôl sgôr difrifoldeb enwol yn unig, gan anwybyddu
-  cyd-destun amlygiad a chamfanteisioldeb:** yn camgyfeirio capasiti
+  cyd-destun amlygiad a chamfanteisioldeb:** yn camgyfeirio cynhwysedd
   unioni cyfyngedig.
 - **Dehongli cyfrif adrodd gwendid cynyddol fel tystiolaeth o ansawdd
   dirywiedig heb wirio a wellodd adrodd ei hun:** enghraifft benodol o
@@ -289,7 +289,7 @@ cael ei gamfanteisio.
   angori'n allanol a thargedau amser-unioni penodol yn ôl difrifoldeb
   yn gyson, gyda diwylliant datgeliad gwirioneddol ddi-gosb.
 - **Lefel 4, Rheoli:** Olrheinir dyled diogelwch mewn cronfa-waith
-  weladwy, wedi'i meintioli â chapasiti unioni gwarchodedig; mae
+  weladwy, wedi'i meintioli â chynhwysedd unioni gwarchodedig; mae
   blaenoriaethu'n cyfrifo am gyd-destun amlygiad a chamfanteisioldeb,
   nid difrifoldeb yn unig.
 - **Lefel 5, Cerddorfaru:** Gall y sefydliad bwyntio at ostyngiadau
@@ -315,7 +315,7 @@ cael ei gamfanteisio.
 - Adeiladwch ddiwylliant **datgeliad gwirioneddol ddi-gosb**; mae
   cosbi adrodd yn gyrru perygl gwirioneddol o dan ddaear.
 - Triniwch **ddyled diogelwch fel categori o ddyled dechnegol** (pwnc
-  4.5), gan gystadlu'n deg am gapasiti unioni gwarchodedig.
+  4.5), gan gystadlu'n deg am gynhwysedd unioni gwarchodedig.
 - Pwysolwch flaenoriaethu yn ôl **amlygiad a chamfanteisioldeb
   gwirioneddol**, nid sgôr difrifoldeb yn unig.
 

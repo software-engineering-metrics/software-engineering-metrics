@@ -30,7 +30,7 @@ problem cyflenwi o "mae angen i bobl weithio'n gyflymach" i "mae angen i
 waith aros llai." Mae'r ail-fframio hwnnw'n bwysig oherwydd bod y
 fframiad cyntaf yn gwahodd pwysau ar unigolion, yn union y fagl y mae
 pwnc 2.6 yn rhybuddio yn ei herbyn, tra bo'r ail yn gwahodd ymchwiliad
-i mewn i strwythur ciwio, capasiti adolygu, a faint o waith sy'n cael ei
+i mewn i strwythur ciwio, cynhwysedd adolygu, a faint o waith sy'n cael ei
 ddechrau ar yr un pryd, sef lle mae'r gwelliant gwirioneddol, cynaliadwy
 fel arfer yn byw. Mae sefydliadau menter sy'n jyglo llawer o fentrau
 cydredol ar draws timau a rennir yn arbennig o dueddol i WIP uchel ac
@@ -107,7 +107,7 @@ Triniwch bob eithriad terfyn-WIP fel penderfyniad bwriadol, gweladwy â
 rheswm datganedig, nid rhagafael tawel, rheolaidd, fel nad yw disgyblaeth
 y terfyn yn dadfeilio'n dawel yn ôl i'w gyflwr gwreiddiol.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -184,7 +184,7 @@ ddisgyblaeth.
 
 **Menter.** Mae WIP uchel yn arbennig o gyffredin ac yn arbennig o ddrud
 yma, oherwydd mae llawer o fentrau strategol cydredol yn cystadlu am yr
-un capasiti peirianneg a rennir, ac mae dechrau un newydd bob amser yn
+un cynhwysedd peirianneg a rennir, ac mae dechrau un newydd bob amser yn
 edrych fel cynnydd i bwy bynnag a'i noddodd. Gwnewch WIP yn weladwy ar y
 lefel portffolio, nid dim ond lefel tîm, fel y gall arweinyddiaeth weld
 cost dechrau menter arall eto cyn gorffen y rhai cyfredol.
@@ -201,12 +201,12 @@ yn cronni'n weladwy unwaith y'i mesurir.
 
 **Menter.** Roedd tîm platfform cwmni gwasanaethau ariannol yn jyglo un
 deg wyth o fentrau cydredol gyda dim ond deuddeg peiriannydd, cymhareb
-WIP-i-gapasiti na wnaeth neb ei chyfrifo mewn gwirionedd hyd nes i
+WIP-i-gynhwysedd na wnaeth neb ei chyfrifo mewn gwirionedd hyd nes i
 gyfarwyddwr peirianneg newydd ofyn amdani'n uniongyrchol. Mesurodd
 effeithlonrwydd llif ar draws gwaith y tîm o dan 12%. Mabwysiadodd y tîm
 derfyn WIP esblyg o un fenter weithredol fesul dau beiriannydd, gan
 oedi'n fwriadol sawl menter blaenoriaeth-is yn hytrach na pharhau i
-daenu capasiti'n denau. Mwy na dyblodd trwybwn, wedi'i fesur fel mentrau
+daenu cynhwysedd'n denau. Mwy na dyblodd trwybwn, wedi'i fesur fel mentrau
 a gwblhawyd yn wirioneddol fesul chwarter, o fewn dau chwarter, er bod y
 tîm yn weladwy'n "gwneud llai" ar unrhyw foment benodol.
 

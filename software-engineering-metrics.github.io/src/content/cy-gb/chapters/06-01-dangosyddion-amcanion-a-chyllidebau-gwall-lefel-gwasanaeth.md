@@ -88,7 +88,7 @@ ymlaen llaw a chyn unrhyw ddigwyddiad penodol, beth sy'n digwydd pan
 ddisbyddir y gyllideb: mae polisi cyffredin, effeithiol yn nodi bod
 gwaith nodweddion yn oedi a blaenoriaeth y tîm yn symud yn awtomatig i
 waith dibynadwyedd hyd nes i'r gyllideb adfer. Mae'r rheol wedi'i
-phenderfynu ymlaen llaw hon yn dileu'r angen i ail-ddadlau'r cyfaddawd
+phenderfynu ymlaen llaw hon yn dileu'r angen i ail-ddadlau'r cyfnewidiad
 o dan bwysau yn ystod pob digwyddiad unigol.
 
 ### Defnyddiwch y gyllideb gwall i wneud penderfyniadau perygl bwriadol, gwybodus
@@ -110,12 +110,12 @@ Efallai na fydd SLO a osodwyd flynyddoedd yn ôl bellach yn adlewyrchu
 disgwyliadau defnyddiwr cyfredol, pensaernïaeth system, na
 blaenoriaethau busnes. Adolygwch SLOs ar gadence rheolaidd, gan wirio
 dibynadwyedd hanesyddol a gyflawnwyd, adborth defnyddiwr, ac a yw'r
-targed yn dal i gynrychioli pwynt cyfaddawd ystyrlon yn hytrach na naill
+targed yn dal i gynrychioli pwynt cyfnewidiad ystyrlon yn hytrach na naill
 ai darged hawdd ei fodloni y gellid ei dynhau i alluogi mwy o gyflymder
 mewn man arall, neu un afrealistig y mae'r tîm i bob pwrpas wedi rhoi'r
 gorau i geisio'i fodloni.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -146,7 +146,7 @@ drylwyr ar gerdyn sgorio.
    neu reddf beirianneg yn unig.
 
 2. **A oes gennym ymateb wedi'i benderfynu ymlaen llaw, y cytunwyd
-   arno i ddisbyddiad cyllideb-gwall, neu a yw'r cyfaddawd yn cael ei
+   arno i ddisbyddiad cyllideb-gwall, neu a yw'r cyfnewidiad yn cael ei
    ail-ddadlau bob tro y mae'n digwydd?** Os yw'r ateb onest yn yr
    ail, mae'r bwlch hwnnw'n werth ei gau cyn i'r digwyddiad nesaf
    orfodi'r ddadl o dan bwysau.
@@ -191,7 +191,7 @@ nodweddion yn gynt na mae'r rhan fwyaf o gwmnïau ifanc yn meddwl amdano.
 yn adrodd data amser-i-fyny a latenedd sylfaenol gyda lleiafswm o osod;
 defnyddiwch hyn i osod SLO syml, cyraeddadwy yn hytrach nag un
 uchelgeisiol na allwch ei olrhain neu weithredu arno'n realistig â
-chapasiti gweithredol cyfyngedig.
+chynhwysedd gweithredol cyfyngedig.
 
 **Menter.** Mae SLOs ar y raddfa hon yn aml yn sail i gytundebau lefel
 gwasanaeth contractiol â chanlyniadau ariannol gwirioneddol, sy'n
@@ -208,7 +208,7 @@ mae targed afrealistig, heb ei gyflawni a ddarganfyddir yn ystod
 archwiliad neu ddigwyddiad cyhoeddus yn niweidio credadwyedd
 sefydliadol yn sylweddol. Gosodwch dargedau yn seiliedig ar angen
 defnyddiwr a chenhadaeth gwirioneddol, wedi'i ddogfennu, a byddwch yn
-dryloyw'n gyhoeddus am y cyfaddawd bwriadol y mae cyllideb gwall yn ei
+dryloyw'n gyhoeddus am y cyfnewidiad bwriadol y mae cyllideb gwall yn ei
 gynrychioli, yn hytrach na goblygu safon berffeithrwydd na ellir ei
 chyrraedd.
 
@@ -252,7 +252,7 @@ fabwysiadu SLOs a chyllidebau gwall yn ffurfiol. Mae'r enghraifft storio
 cwmwl uchod yn dangos hyn yn gonc: datryswyd blynyddoedd o densiwn
 ailadroddus, heb ei ddatrys rhwng dau dîm gan un targed ffurfiol sengl
 a pholisi wedi'i benderfynu ymlaen llaw, gan ryddhau egni sefydliadol
-sylweddol a oedd wedi mynd yn flaenorol i ail-ddadlau'r un cyfaddawd yn
+sylweddol a oedd wedi mynd yn flaenorol i ail-ddadlau'r un cyfnewidiad yn
 ailadroddus.
 
 Mae cost cyfanswm perchnogaeth yn cynnwys yr ymdrech ddadansoddi i
@@ -270,7 +270,7 @@ ym mhob cylch cynllunio'n ddiddiwedd.
   yn ddiangen ddrud yn mynd ar drywydd budd nad yw defnyddwyr yn sylwi
   arno.
 - **Dim ymateb wedi'i benderfynu ymlaen llaw i ddisbyddiad cyllideb-
-  gwall:** yn gorfodi'r un ddadl cyfaddawd anodd o dan bwysau bob tro y
+  gwall:** yn gorfodi'r un ddadl cyfnewidiad anodd o dan bwysau bob tro y
   mae'n digwydd.
 - **Mesur SLIs o iechyd system fewnol yn hytrach na phrofiad defnyddiwr
   gwirioneddol:** gall adrodd "iach" tra bo defnyddwyr yn profi

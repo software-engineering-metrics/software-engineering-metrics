@@ -32,13 +32,13 @@ Wrth gymhwyso egwyddor paru rheiliau diogelwch pwnc 1.2 fel rheol ddylunio dango
 
 ### Neilltuo perchennog enwedig a chadwyn adolygu i bob dangosfwrdd
 
-Cymhwyswch ddisgyblaeth lywodraethu pwnc 1.4 yn uniongyrchol i'r arteffact dangosfwrdd ei hun, nid dim ond i'r metrigau unigol y mae'n eu harddangos: enwch berchennog sy'n gyfrifol am gywirdeb a pherthnasedd parhaus y dangosfwrdd, a gosodwch gadwyn adolygu lle mae metrigau'n cael eu hychwanegu, eu diddymu, neu eu hailystyried. Mae dangosfwrdd heb berchennog yn dadfeilio yn union fel y mae metrig heb berchennog (pwnc 1.4), gan gronni teils henaidd nad oes gan neb yr awdurdod na'r cyfrifoldeb i'w tocio.
+Cymhwyswch ddisgyblaeth llywodraethiant pwnc 1.4 yn uniongyrchol i'r arteffact dangosfwrdd ei hun, nid dim ond i'r metrigau unigol y mae'n eu harddangos: enwch berchennog sy'n gyfrifol am gywirdeb a pherthnasedd parhaus y dangosfwrdd, a gosodwch gadwyn adolygu lle mae metrigau'n cael eu hychwanegu, eu diddymu, neu eu hailystyried. Mae dangosfwrdd heb berchennog yn dadfeilio yn union fel y mae metrig heb berchennog (pwnc 1.4), gan gronni teils henaidd nad oes gan neb yr awdurdod na'r cyfrifoldeb i'w tocio.
 
 ### Adeiladu datganiad clir, gweladwy o'r hyn nad yw dangosfwrdd ar ei gyfer
 
 Wrth ddilyn gwahaniaeth diagnostig-yn-erbyn-gwerthusol pwnc 1.1, datganwch yn uniongyrchol a gweladwy ar unrhyw ddangosfwrdd y gallai ei fetrigau gael eu camddefnyddio'n gredadwy ar gyfer gwerthusiad unigol, yn union beth nad yw'r dangosfwrdd ar ei gyfer: "mae'r metrigau hyn yn disgrifio iechyd tîm a system; nid ydynt yn cael eu defnyddio mewn adolygiadau perfformiad unigol." Mae'r datganiad clir hwn, wedi'i gymhwyso'n arbennig i unrhyw ddangosfwrdd sy'n cynnwys data gweithgaredd (pwnc 3.4) neu ddata llwyth ar alwad (pwnc 6.3), yn ddewis dylunio bach gydag effaith anghymesur o fawr ar atal yn union y llithriad gwerthusol y mae'r llyfr hwn yn rhybuddio yn ei erbyn drwyddo draw.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -69,9 +69,9 @@ Y prif densiwn yw **cynhwysfawredd yn erbyn ffocws**, tensiwn sylfaenol pwnc 1.1
 
 **Busnes bach.** Mae'r rhan fwyaf o offer parod yn darparu dangosfyrddau rhagosodedig rhesymol; y ddisgyblaeth bwysicaf yw eu curadu i lawr i'r ychydig fetrigau sy'n gwybodaethu penderfyniad gwirioneddol i'ch busnes penodol, yn hytrach na dangos pob metrig y mae'r offeryn yn digwydd ei gyfrifo yn ddiofyn.
 
-**Menter.** Cysondeb heb anhyblygrwydd yw'r her ganolog yma: mae angen digon o safon a rennir ar ddwsinau o ddangosfyrddau tîm (rheolau gweledoli onest, paru rheiliau diogelwch, disgyblaeth berchnogaeth) i fod yn ddibynadwy a chymharol, tra'n dal i ganiatáu i anghenion gweithredol penodol pob tîm siapio ei olygfa ei hun. Buddsoddwch mewn safon dylunio dangosfwrdd a rennir, wedi'i orfodi drwy lywodraethu (pwnc 1.4), yn hytrach na naill ai templed anhyblyg, un-maint-i-bawb neu ddangosfyrddau lleol cwbl anstrwythuredig, anghyson.
+**Menter.** Cysondeb heb anhyblygrwydd yw'r her ganolog yma: mae angen digon o safon a rennir ar ddwsinau o ddangosfyrddau tîm (rheolau gweledoli onest, paru rheiliau diogelwch, disgyblaeth berchnogaeth) i fod yn ddibynadwy a chymharol, tra'n dal i ganiatáu i anghenion gweithredol penodol pob tîm siapio ei olygfa ei hun. Buddsoddwch mewn safon dylunio dangosfwrdd a rennir, wedi'i orfodi drwy lywodraethiant (pwnc 1.4), yn hytrach na naill ai templed anhyblyg, un-maint-i-bawb neu ddangosfyrddau lleol cwbl anstrwythuredig, anghyson.
 
-**Llywodraeth.** Mae angen trylwyredd penodol ar ddangosfyrddau sy'n wynebu craffu allanol neu oruchwyliaeth mewn gweledoli onest a dogfennaeth lywodraethu glir, gan fod siart camarweiniol a ddarganfyddir gan adolygydd allanol yn niweidio hygrededd sefydliadol ymhell y tu hwnt i'r metrig penodol dan sylw. Cymhwyswch y safon uchaf o argymhellion y pwnc hwn yn benodol i unrhyw ddangosfwrdd sy'n wynebu'r cyhoedd.
+**Llywodraeth.** Mae angen trylwyredd penodol ar ddangosfyrddau sy'n wynebu craffu allanol neu oruchwyliaeth mewn gweledoli onest a dogfennaeth llywodraethiant glir, gan fod siart camarweiniol a ddarganfyddir gan adolygydd allanol yn niweidio hygrededd sefydliadol ymhell y tu hwnt i'r metrig penodol dan sylw. Cymhwyswch y safon uchaf o argymhellion y pwnc hwn yn benodol i unrhyw ddangosfwrdd sy'n wynebu'r cyhoedd.
 
 ## Enghreifftiau
 
@@ -83,7 +83,7 @@ Y prif densiwn yw **cynhwysfawredd yn erbyn ffocws**, tensiwn sylfaenol pwnc 1.1
 
 Yr enillion ar ddangosfyrddau bwriadus, penodol i gynulleidfa, wedi'u dylunio'n onest yw defnydd gwirioneddol ac ymddiriedaeth wirioneddol: mae enghraifft y cwmni logisteg uchod yn dangos cost uniongyrchol un dangosfwrdd wedi'i ddylunio'n wael, ymgysylltiad isel gan y ddwy gynulleidfa fwriadedig, a budd uniongyrchol yr ailddyluniad, ymgysylltiad mesuradwy uwch unwaith y cafodd pob cynulleidfa olygfa a adeiladwyd yn wirioneddol ar gyfer ei phenderfyniadau ei hun.
 
-Y gost berchnogaeth gyfan yw'r ymdrech ddylunio a chynnal ar gyfer dangosfyrddau lluosog, penodol i bwrpas yn hytrach nag un arteffact cynhwysfawr, ynghyd â'r ddisgyblaeth lywodraethu barhaus (perchnogaeth enwedig, cadwyn adolygu) y mae'r pwnc hwn yn ei hargymell. Mae'r gost honno'n gymedrol o'i chymharu â risg dangosfwrdd nad yw'n cael ei ddefnyddio, neu'n waeth, un sy'n camarwain ei gynulleidfa'n weithredol ac yn niweidio hygrededd, fel y dengys enghraifft y llywodraeth uchod yn gyffredig.
+Y gost berchnogaeth gyfan yw'r ymdrech ddylunio a chynnal ar gyfer dangosfyrddau lluosog, penodol i bwrpas yn hytrach nag un arteffact cynhwysfawr, ynghyd â'r ddisgyblaeth llywodraethiant barhaus (perchnogaeth enwedig, cadwyn adolygu) y mae'r pwnc hwn yn ei hargymell. Mae'r gost honno'n gymedrol o'i chymharu â risg dangosfwrdd nad yw'n cael ei ddefnyddio, neu'n waeth, un sy'n camarwain ei gynulleidfa'n weithredol ac yn niweidio hygrededd, fel y dengys enghraifft y llywodraeth uchod yn gyffredig.
 
 ## Gwrth-batrymau a pheryglon
 

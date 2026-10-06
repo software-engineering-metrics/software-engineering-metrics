@@ -7,7 +7,7 @@ mae angen i chi osgoi nifer bach o gamgymeriadau penodol, cyffredin sy'n
 gwneud metrigau fel arall wedi'u llywodraethu'n dda, wedi'u cyfrifiannu'n
 dda yn weithredol gamarweiniol. Gall tîm wneud popeth yn iawn, enwi
 penderfyniad clir, osgoi cyfraith Goodhart, pwysoli tuag at ganlyniadau,
-llywodraethu perchnogaeth, cyfrifiannu'n ddibynadwy, a dal i dynnu'r
+llywodraethiant perchnogaeth, cyfrifiannu'n ddibynadwy, a dal i dynnu'r
 casgliad anghywir oherwydd iddo ddarllen cyfartaledd lle roedd angen
 canradd, camgymryd sŵn am duedd, neu syrthio am gyd-ddigwyddiad wedi'i
 wisgo fel achos. Y pwnc hwn yw'r farn ystadegol leiafswm y mae'r llyfr
@@ -118,7 +118,7 @@ Cyn datgan "gwellodd y rhif ar ôl y newid," plotiwch ddigon o ddata
 hanesyddol i weld sut mae amrywiant normal yn edrych, a gwiriwch a yw'r
 darlleniad ar ôl y newid mewn gwirionedd yn syrthio y tu allan iddo.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |

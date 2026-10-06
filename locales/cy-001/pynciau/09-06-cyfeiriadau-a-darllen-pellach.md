@@ -90,7 +90,7 @@ Llyfryddiaeth gyfunol o'r gweithiau a ddyfynnir drwy'r llyfr, wedi'u casglu o ad
 - Parmenter, David. *Key Performance Indicators: Developing, Implementing, and Using Winning KPIs*. Wiley, 2015.
 - Storment, J.R., and Mike Fuller. *Cloud FinOps: Collaborative, Real-Time Cloud Financial Management*. O'Reilly Media, 2020.
 - Sefydliad FinOps. Fframwaith FinOps. [finops.org](https://www.finops.org/).
-- Swyddfa Rheoli a Chyllideb yr Unol Daleithiau. Cylchlythyr A-94: Canllawiau a Chyfraddau Disgownt ar gyfer Dadansoddiad Cost-Budd Rhaglenni Ffederal.
+- Swyddfa Rheoli a Chyllideb yr Unol Daleithiau. Cylchlythyr A-94: Canllawiau a Chyfraddau Disgownt ar gyfer Dadansoddiad Cost a Budd Rhaglenni Ffederal.
 
 ## Dibynadwyedd, gweithrediadau, a diogelwch
 
@@ -101,11 +101,11 @@ Llyfryddiaeth gyfunol o'r gweithiau a ddyfynnir drwy'r llyfr, wedi'u casglu o ad
 - Dekker, Sidney. *The Field Guide to Understanding Human Error*. CRC Press, 2014.
 - Allspaw, John. "Blameless PostMortems and a Just Culture." Etsy Engineering Blog, 2012.
 - Nygard, Michael T. *Release It! Design and Deploy Production-Ready Software*. Pragmatic Bookshelf, 2018.
-- FIRST.org. Manyleb System Sgorio Bregusrwydd Cyffredin (CVSS).
+- FIRST.org. Manyleb System Sgorio Gwendidau Cyffredin (CVSS).
 - Cyhoeddiad Arbennig NIST 800-40. *Guide to Enterprise Patch Management Planning*.
 - Dogfennaeth Rhaglen Rheoli Risg ac Awdurdodi Ffederal yr Unol Daleithiau (FedRAMP).
 
-## Newid sefydliadol a llywodraethu
+## Newid sefydliadol a llywodraethiant
 
 - Kotter, John P. *Leading Change*. Harvard Business Review Press, 2012.
 - Senge, Peter M. *The Fifth Discipline: The Art and Practice of the Learning Organization*. Doubleday, 1990.
@@ -116,5 +116,5 @@ Llyfryddiaeth gyfunol o'r gweithiau a ddyfynnir drwy'r llyfr, wedi'u casglu o ad
 
 ## Oes AI
 
-- GitHub. Ymchwil ar raglennu parau AI a chynhyrchedd datblygwyr.
+- GitHub. Ymchwil ar raglennu parau deallusrwydd artiffisial (AI) a chynhyrchiant datblygwyr.
 - Google Cloud. Rhaglen Ymchwil ac Asesu DevOps, adroddiadau Cyflwr DevOps (blynyddoedd diweddar yn cynnwys canfyddiadau mabwysiadu AI).

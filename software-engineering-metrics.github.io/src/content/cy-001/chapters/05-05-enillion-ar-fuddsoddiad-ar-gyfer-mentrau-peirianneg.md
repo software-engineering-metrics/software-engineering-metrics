@@ -34,7 +34,7 @@ canolfan gost y goddefir ei wariant yn hytrach na buddsoddi ynddo'n
 weithredol. Mae sefydliadau menter yn defnyddio achosion ROI trylwyr i
 gystadlu'n llwyddiannus am gyfalaf yn erbyn buddsoddiadau busnes eraill;
 mae sefydliadau llywodraeth yn defnyddio'r ddisgyblaeth gyfatebol, yn
-aml wedi'i hail-fframio fel dadansoddiad cost-budd, i sicrhau a chynnal
+aml wedi'i hail-fframio fel dadansoddiad cost a budd, i sicrhau a chynnal
 cyllid technoleg gyhoeddus yn erbyn pwysau gwleidyddol a chyllidebol
 sydd ag ychydig o amynedd ar gyfer addewidion amwys, heb eu cadarnhau.
 
@@ -63,7 +63,7 @@ Cynhwyswch nid dim ond y gost ddatblygu gychwynnol ond y
 **[cost cyfanswm perchnogaeth](https://en.wikipedia.org/wiki/Total_cost_of_ownership)
 (TCO)** llawn: cynnal a chadw parhaus, isadeiledd (mae economeg uned
 pwnc 5.4'n uniongyrchol ddefnyddiol yma), cymorth, a chost cyfle'r
-capasiti peirianneg y mae'r fenter yn ei ddefnyddio a allai fod wedi
+cynhwysedd peirianneg y mae'r fenter yn ei ddefnyddio a allai fod wedi
 mynd tuag at waith arall. Gall prosiect sy'n edrych yn rhad yn seiliedig
 ar gost ymlaen llaw yn unig fod yn ddrud dros ei oes gyfan unwaith y
 cyfrifir am faich cynnal a chadw parhaus yn onest.
@@ -73,7 +73,7 @@ cyfrifir am faich cynnal a chadw parhaus yn onest.
 Tynnwch amcangyfrifon budd o ddisgyblaeth mesur-canlyniad pynciau 5.1 i
 5.3: gwelliannau ansawdd wedi'u trosi'n gost digwyddiad a chymorth
 leihaedig, data mabwysiad wedi'i drosi'n werth wedi'i yrru-gan-ddefnydd,
-a chydberthyniadau canlyniad busnes wedi'u hadeiladu â'r dull cadwyn-
+a chydberthnasau canlyniad busnes wedi'u hadeiladu â'r dull cadwyn-
 achosol onest, wedi'i wirio-am-ffactorau-drysu o bwnc 5.3. Osgowch
 ddyfeisio amcangyfrif budd o egwyddorion cyntaf neu dybiaeth optimistaidd
 pan fo data hanesyddol gwirioneddol wedi'i fesur neu gymharadwy ar gael
@@ -114,7 +114,7 @@ adeiladu credadwyedd rhagolwg-ROI tymor-hir sefydliad ac yn gwella
 cywirdeb amcangyfrifon y dyfodol trwy greu dolen adborth wirioneddol,
 weladwy.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -198,7 +198,7 @@ ar-ystod y mae'r pwnc hwn yn ei hargymell fel arfer safonol, a
 buddsoddwch yn yr olrhain cau-y-ddolen sy'n adeiladu credadwyedd
 rhagolwg tymor-hir.
 
-**Llywodraeth.** Mae dadansoddiad cost-budd, cyfatebiaeth sector-
+**Llywodraeth.** Mae dadansoddiad cost a budd, cyfatebiaeth sector-
 cyhoeddus ROI, yn aml yn rhan ffurfiol, ofynnol o gyfiawnhad cyllideb,
 ac mae gonestrwydd am ansicrwydd a chost cyfanswm perchnogaeth yn
 arbennig o bwysig lle gallai canfyddiadau wynebu archwiliad allanol neu
@@ -223,7 +223,7 @@ cyllid, lle na fyddai'r achos gwreiddiol, wedi'i orddweud yn debygol o
 fod wedi gwneud hynny.
 
 **Llywodraeth.** Adeiladodd rhaglen ddigidoleiddio cofnodion-llys
-llywodraeth talaith ei hachos cost-budd cychwynnol o gwmpas arbedion
+llywodraeth talaith ei hachos cost a budd cychwynnol o gwmpas arbedion
 cost gweinyddol yn unig, gyda ffigur ROI sengl, manwl gywir. Canfu
 adolygiad swyddfa gyllideb annibynnol nad oedd y rhagamcan wedi
 cyfrifo am arbedion amser ochr-dinesydd na chyfraddau gwall leihaedig
@@ -336,5 +336,5 @@ bydd angen iddo ei wneud yn y dyfodol.
   Forsgren, Jez Humble, a Gene Kim (y sylfaen ymchwil ar gyfer
   cysylltu buddsoddiad arfer cyflenwi ag enillion busnes).
 - Cylchlythyr A-94 Swyddfa Rheoli a Chyllideb UDA, canllawiau ar
-  ddadansoddiad cost-budd ar gyfer rhaglenni ffederal (disgyblaeth ROI
+  ddadansoddiad cost a budd ar gyfer rhaglenni ffederal (disgyblaeth ROI
   sector-cyhoeddus).

@@ -114,7 +114,7 @@ dyled dechnegol pwnc 4.5, gan fod post-mortem sy'n cynhyrchu
 mewnwelediad ond dim dilyniant yn gwastraffu'r dysgu sefydliadol y mae'r
 broses i fod i'w ddal.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -248,7 +248,7 @@ buddsoddiad hwnnw'n costio llai na'r dewis arall, rhaglen fetrigau
 digwyddiad sy'n cynhyrchu data anghywir â hyder oherwydd bod ofn wedi
 llygru pob mewnbwn iddo.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Adolygiad digwyddiad wedi'i gyfeirio-gan-fai:** yn llygru
   gonestrwydd adrodd, cyflymder cydnabyddiaeth, a dosbarthiad

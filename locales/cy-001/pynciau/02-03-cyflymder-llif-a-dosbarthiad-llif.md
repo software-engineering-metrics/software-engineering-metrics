@@ -29,7 +29,7 @@ I dimau mawr sy'n rhedeg llawer o ffrydiau gwerth cydredol, mae'r
 parejiad hwn yn dinoethi patrwm y mae un rhif trwybwn yn ei guddio'n
 gyfan gwbl: ffrwd werth y mae ei chyflymder yn edrych yn iach tra bo'i
 dosbarthiad wedi drifftio'n dawel tuag at waith nodwedd bron yn bur, gan
-lwgu'n dawel y capasiti dyled a risg y rhybuddiodd pwnc 2.2 sydd angen
+lwgu'n dawel y cynhwysedd dyled a risg y rhybuddiodd pwnc 2.2 sydd angen
 diogelwch bwriadol. Mae sefydliadau menter sy'n cymharu trwybwn ar draws
 llinellau cynnyrch, ac asiantaethau llywodraeth sy'n adrodd cynnyrch
 cyflenwi i gyrff goruchwylio, ill dau angen y parejiad hwn i osgoi camgymryd
@@ -70,7 +70,7 @@ Triniwch hyn fel rheol gaeth ar gyfer unrhyw ddangosfwrdd neu adroddiad,
 nid rhywbeth braf i'w gael. Mae siart cyflymder a ddangosir ar ei ben ei
 hun yn gwahodd yn union y camddarllen y mae'r pwnc hwn yn agor ag ef:
 trwybwn cynyddol sydd mewn gwirionedd yn gyfran gynyddol o ailwaith neu
-waith nodwedd hawdd sy'n gwthio allan gapasiti dyled a risg. Rhowch y
+waith nodwedd hawdd sy'n gwthio allan gynhwysedd dyled a risg. Rhowch y
 ddau ar yr un olwg, bob amser.
 
 ### Pwysolwch gyflymder yn ôl maint neu gymhlethdod pan fydd meintiau eitem yn amrywio'n eang
@@ -104,7 +104,7 @@ gyfer tuedd ffrwd werth ei hun yn gyntaf, a dim ond ceisiwch gymhariaeth
 traws-ffrwd-werth ar ôl cadarnhau diffiniadau a graddoldeb eitem sy'n
 wirioneddol gymaradwy.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -209,7 +209,7 @@ darganfu'r tîm nad oedd erioed wedi torri'r rhif i lawr yn ôl math elfen
 lif ac ni allai ateb yn uniongyrchol. Mabwysiadodd yr asiantaeth wedyn
 adrodd cyflymder-a-dosbarthiad wedi'i barejo, a ddatgelodd fod gwaith
 risg a chydymffurfiaeth, wedi'i yrru gan reoliad diogelu-data newydd, wedi
-defnyddio'n gyfreithlon gyfran gynyddol o gapasiti, dyraniad amddiffynadwy
+defnyddio'n gyfreithlon gyfran gynyddol o gynhwysedd, dyraniad amddiffynadwy
 y derbyniodd y bwrdd yn barod unwaith y'i dangoswyd yn esblyg yn hytrach
 na'i adael yn ymhlyg mewn gostyngiad cyflymder heb ei esbonio.
 
@@ -232,7 +232,7 @@ technegol. Talwyd y rhan fwyaf o gost argymhellion y pwnc hwn eisoes
 pan fabwysiadodd y sefydliad ddosbarthiad elfen-lif gonest yn y lle
 cyntaf.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Adrodd cyflymder llif heb ddosbarthiad:** y fector twyllo wrth galon
   y pwnc hwn. Gall tîm o dan bwysau cyflenwi godi cyfrif eitem trwy

@@ -112,7 +112,7 @@ cysylltu data mabwysiad â dysgu cynnyrch a pheirianneg gweithredadwy,
 gan gau'r ddolen rhwng newid penodol a'i effaith fesuredig ar ddefnydd
 gwirioneddol.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -251,7 +251,7 @@ cyfanswm perchnogaeth yn bennaf. Mae'r ddisgyblaeth honno'n costio
 ychydig ac yn atal y camgymeriad llawer mwy costus o gamddarllen naill
 ai lwyddiant ffug neu fethiant ffug.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Adrodd cynnig cychwynnol yn unig, byth cadw-ateb:** ni all
   wahaniaethu chwilfrydedd neu amlygiad gorfodol o werth gwirioneddol,

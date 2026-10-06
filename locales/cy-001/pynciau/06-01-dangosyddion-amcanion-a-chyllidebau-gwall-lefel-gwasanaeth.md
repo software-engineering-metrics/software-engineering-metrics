@@ -12,7 +12,7 @@ darged ar gyfer y dangosydd hwnnw, 99.9% o geisiadau'n llwyddo o fewn
 200 milieiliad, er enghraifft. Ac mae **cyllideb gwall** yn ddiffyg a
 ganiateir, y 0.1% o geisiadau a ganiateir i fethu, wedi'i drin nid fel
 diffyg i'w ddileu ond fel adnodd gwariadwy y gellir ei ddefnyddio'n
-fwriadol i gymryd perygl: rhyddhau newid peryglus, rhedeg arbrawf, neu'n
+fwriadol i gymryd risg: rhyddhau newid peryglus, rhedeg arbrawf, neu'n
 syml dderbyn nad yw dibynadwyedd perffaith yn gyraeddadwy nac, y tu
 hwnt i bwynt penodol, yn werth ei gost.
 
@@ -20,7 +20,7 @@ Y syniad olaf hwn, cyllideb gwall fel adnodd gwariadwy yn hytrach na
 rhif i'w leihau tuag at sero, yw'r cysyniad sengl pwysicaf yn y pwnc
 hon ac o bosibl yn y rhan gyfan hon. Mae'n datrys tensiwn sy'n poeni
 llawer o sefydliadau: mae peirianneg eisiau rhyddhau nodweddion a
-chymryd peryglon rhesymol; mae gweithrediadau eisiau sefydlogrwydd
+chymryd risgiau rhesymol; mae gweithrediadau eisiau sefydlogrwydd
 mwyaf. Heb gyllideb gwall a rennir, wedi'i meintioli, mae hyn yn dod yn
 negodiad diddiwedd, wedi'i wleidyddoli. Gydag un, mae'n dod yn rheol
 syml, wrthrychol: gwariwch yn rhydd tra bo cyllideb yn aros, arafwch a
@@ -88,13 +88,13 @@ ymlaen llaw a chyn unrhyw ddigwyddiad penodol, beth sy'n digwydd pan
 ddisbyddir y gyllideb: mae polisi cyffredin, effeithiol yn nodi bod
 gwaith nodweddion yn oedi a blaenoriaeth y tîm yn symud yn awtomatig i
 waith dibynadwyedd hyd nes i'r gyllideb adfer. Mae'r rheol wedi'i
-phenderfynu ymlaen llaw hon yn dileu'r angen i ail-ddadlau'r cyfaddawd
+phenderfynu ymlaen llaw hon yn dileu'r angen i ail-ddadlau'r cyfnewidiad
 o dan bwysau yn ystod pob digwyddiad unigol.
 
-### Defnyddiwch y gyllideb gwall i wneud penderfyniadau perygl bwriadol, gwybodus
+### Defnyddiwch y gyllideb gwall i wneud penderfyniadau risg bwriadol, gwybodus
 
 Nid yw cyllideb gwall iach, heb ei gwario'n rhywbeth i'w chronni; mae'n
-ganiatâd i gymryd peryglon rhesymol, rhyddhau newid â pherygl uwch ond
+ganiatâd i gymryd risgiau rhesymol, rhyddhau newid â risg uwch ond
 derbyniol, rhedeg arbrawf peirianneg-anhrefn (mae pwnc peirianneg-
 anhrefn y llyfr chwaer `software-engineering-guide` yn ymdrin â hyn yn
 uniongyrchol), neu dderbyn newid pensaernïaeth mwy peryglus, oherwydd
@@ -110,12 +110,12 @@ Efallai na fydd SLO a osodwyd flynyddoedd yn ôl bellach yn adlewyrchu
 disgwyliadau defnyddiwr cyfredol, pensaernïaeth system, na
 blaenoriaethau busnes. Adolygwch SLOs ar gadence rheolaidd, gan wirio
 dibynadwyedd hanesyddol a gyflawnwyd, adborth defnyddiwr, ac a yw'r
-targed yn dal i gynrychioli pwynt cyfaddawd ystyrlon yn hytrach na naill
+targed yn dal i gynrychioli pwynt cyfnewidiad ystyrlon yn hytrach na naill
 ai darged hawdd ei fodloni y gellid ei dynhau i alluogi mwy o gyflymder
 mewn man arall, neu un afrealistig y mae'r tîm i bob pwrpas wedi rhoi'r
 gorau i geisio'i fodloni.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -146,13 +146,13 @@ drylwyr ar gerdyn sgorio.
    neu reddf beirianneg yn unig.
 
 2. **A oes gennym ymateb wedi'i benderfynu ymlaen llaw, y cytunwyd
-   arno i ddisbyddiad cyllideb-gwall, neu a yw'r cyfaddawd yn cael ei
+   arno i ddisbyddiad cyllideb-gwall, neu a yw'r cyfnewidiad yn cael ei
    ail-ddadlau bob tro y mae'n digwydd?** Os yw'r ateb onest yn yr
    ail, mae'r bwlch hwnnw'n werth ei gau cyn i'r digwyddiad nesaf
    orfodi'r ddadl o dan bwysau.
 
 3. **A yw ein cyllideb gwall erioed mewn gwirionedd yn cael ei gwario'n
-   fwriadol, ar newid perygl-cyfrifedig neu arbrawf, neu a yw dim ond
+   fwriadol, ar newid risg-cyfrifedig neu arbrawf, neu a yw dim ond
    byth yn cael ei defnyddio'n ddamweiniol trwy ddigwyddiadau?** Gallai
    cyllideb nad yw byth yn cael ei gwario'n fwriadol nodi tîm
    gorwyliadwrus sy'n colli cyfleoedd dilys y mae'r gyllideb yn bodoli
@@ -191,7 +191,7 @@ nodweddion yn gynt na mae'r rhan fwyaf o gwmnïau ifanc yn meddwl amdano.
 yn adrodd data amser-i-fyny a latenedd sylfaenol gyda lleiafswm o osod;
 defnyddiwch hyn i osod SLO syml, cyraeddadwy yn hytrach nag un
 uchelgeisiol na allwch ei olrhain neu weithredu arno'n realistig â
-chapasiti gweithredol cyfyngedig.
+chynhwysedd gweithredol cyfyngedig.
 
 **Menter.** Mae SLOs ar y raddfa hon yn aml yn sail i gytundebau lefel
 gwasanaeth contractiol â chanlyniadau ariannol gwirioneddol, sy'n
@@ -208,7 +208,7 @@ mae targed afrealistig, heb ei gyflawni a ddarganfyddir yn ystod
 archwiliad neu ddigwyddiad cyhoeddus yn niweidio credadwyedd
 sefydliadol yn sylweddol. Gosodwch dargedau yn seiliedig ar angen
 defnyddiwr a chenhadaeth gwirioneddol, wedi'i ddogfennu, a byddwch yn
-dryloyw'n gyhoeddus am y cyfaddawd bwriadol y mae cyllideb gwall yn ei
+dryloyw'n gyhoeddus am y cyfnewidiad bwriadol y mae cyllideb gwall yn ei
 gynrychioli, yn hytrach na goblygu safon berffeithrwydd na ellir ei
 chyrraedd.
 
@@ -252,7 +252,7 @@ fabwysiadu SLOs a chyllidebau gwall yn ffurfiol. Mae'r enghraifft storio
 cwmwl uchod yn dangos hyn yn gonc: datryswyd blynyddoedd o densiwn
 ailadroddus, heb ei ddatrys rhwng dau dîm gan un targed ffurfiol sengl
 a pholisi wedi'i benderfynu ymlaen llaw, gan ryddhau egni sefydliadol
-sylweddol a oedd wedi mynd yn flaenorol i ail-ddadlau'r un cyfaddawd yn
+sylweddol a oedd wedi mynd yn flaenorol i ail-ddadlau'r un cyfnewidiad yn
 ailadroddus.
 
 Mae cost cyfanswm perchnogaeth yn cynnwys yr ymdrech ddadansoddi i
@@ -263,14 +263,14 @@ gost ddisgyblaeth honno'n wirioneddol, ond mae'n llawer is na chost
 barhaus negodiad cronig, heb ei ddatrys sy'n defnyddio egni sefydliadol
 ym mhob cylch cynllunio'n ddiddiwedd.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Gosod SLO uchelgeisiol heb dystiolaeth y tu ôl iddo:** yn cynhyrchu
   targed afrealistig nad yw'r tîm yn ei gymryd o ddifrif mwyach, neu un
   yn ddiangen ddrud yn mynd ar drywydd budd nad yw defnyddwyr yn sylwi
   arno.
 - **Dim ymateb wedi'i benderfynu ymlaen llaw i ddisbyddiad cyllideb-
-  gwall:** yn gorfodi'r un ddadl cyfaddawd anodd o dan bwysau bob tro y
+  gwall:** yn gorfodi'r un ddadl cyfnewidiad anodd o dan bwysau bob tro y
   mae'n digwydd.
 - **Mesur SLIs o iechyd system fewnol yn hytrach na phrofiad defnyddiwr
   gwirioneddol:** gall adrodd "iach" tra bo defnyddwyr yn profi
@@ -298,7 +298,7 @@ ym mhob cylch cynllunio'n ddiddiwedd.
   wedi'i benderfynu ymlaen llaw'n gyson ar draws gwasanaethau
   dyngedfennol.
 - **Lefel 4, Rheoli:** Gwerir cyllidebau gwall yn weithredol ac yn
-  fwriadol ar gymryd perygl wedi'i gyfrifo, ac adolygir a diwygir SLOs
+  fwriadol ar gymryd risg wedi'i gyfrifo, ac adolygir a diwygir SLOs
   ar gadence rheolaidd, seiliedig-ar-dystiolaeth.
 - **Lefel 5, Cerddorfaru:** Integreiddir SLOs a chyllidebau gwall ar
   draws y sefydliad fel y mecanwaith gwrthrychol, a rennir ar gyfer
@@ -310,7 +310,7 @@ ym mhob cylch cynllunio'n ddiddiwedd.
 
 1. A yw ein SLO cyfredol wedi'i seilio mewn tystiolaeth, neu mewn uchelgais?
 2. A oes gennym ymateb wedi'i benderfynu ymlaen llaw i ddisbyddiad cyllideb-gwall y byddem mewn gwirionedd yn ei anrhydeddu o dan bwysau?
-3. Pryd wnaethom fwriadol wario cyllideb gwall iach ddiwethaf ar berygl wedi'i gyfrifo?
+3. Pryd wnaethom fwriadol wario cyllideb gwall iach ddiwethaf ar risg wedi'i gyfrifo?
 4. A yw ein SLIs yn mesur profiad defnyddiwr gwirioneddol neu wiriadau iechyd mewnol cyfleus?
 5. Beth fyddai ei gostio i ni godi ein SLO un "naw" ychwanegol, ac a fyddai'r gost honno'n gyfiawn?
 

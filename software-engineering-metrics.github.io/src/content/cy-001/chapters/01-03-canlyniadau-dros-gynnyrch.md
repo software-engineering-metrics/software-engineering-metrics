@@ -46,7 +46,7 @@ wahaniaethu rhwng y ddau.
   i'w cyfrif fel arfer yw mewnbynnau a chynnyrch, nid oherwydd eu bod
   bwysicaf ond oherwydd eu bod yn syml yn fecanyddol i'w dal.
 - **Mae priodoli'n mynd yn anos wrth i chi symud tuag at ganlyniadau.**
-  Derbyniwch y cyfaddawd hwnnw'n fwriadol yn hytrach na chilio i gynnyrch
+  Derbyniwch y cyfnewidiad hwnnw'n fwriadol yn hytrach na chilio i gynnyrch
   oherwydd bod canlyniadau'n anos eu priodoli.
 - **Gall tîm reoli ei fewnbynnau a'i gynnyrch ond dim ond dylanwadu ar
   ganlyniadau.** Dyluniwch atebolrwydd yn unol â hynny: dalwch dimau'n
@@ -96,20 +96,20 @@ gwaith yn bwysig; mae tîm sy'n adrodd "syrthiodd diffygion dianc 30% a
 dyma'r buddsoddiad profi a'i gyrrodd" wedi dweud rhywbeth gwirioneddol
 wrthych.
 
-### Derbyniwch adborth arafach ar gyfer metrigau canlyniad, a pharejwch nhw â dangosyddion arweiniol cyflymach
+### Derbyniwch adborth arafach ar gyfer metrigau canlyniad, a pharejwch nhw â dangosyddion rhagfynegi cyflymach
 
 Mae metrigau canlyniad yn aml yn hwyrfrydig: maent yn cadarnhau canlyniad
 ar ôl i ddigon o amser fynd heibio i fod yn sicr. Mae'r oedi hwnnw'n gost
 wirioneddol, gan ei fod yn oedi dysgu. Parejwch bob metrig canlyniad ag
-o leiaf un dangosydd arweiniol, metrig sy'n symud yn gynharach ac sy'n
+o leiaf un dangosydd rhagfynegi, metrig sy'n symud yn gynharach ac sy'n
 rhagfynegi'r canlyniad, fel y gall tîm lywio cyn i'r rhif awdurdodol, araf
-lanio o'r diwedd. Mae amlder defnyddio'n ddangosydd arweiniol ar gyfer
+lanio o'r diwedd. Mae amlder defnyddio'n ddangosydd rhagfynegi ar gyfer
 canlyniadau cyflenwi; mae tuedd cynyddol o ddiffygion yn dianc yn
-ddangosydd arweiniol ar gyfer canlyniad dibynadwyedd sy'n dod. Defnyddiwch
-ddangosyddion arweiniol i weithredu'n gynnar a metrigau canlyniad
+ddangosydd rhagfynegi ar gyfer canlyniad dibynadwyedd sy'n dod. Defnyddiwch
+ddangosyddion rhagfynegi i weithredu'n gynnar a metrigau canlyniad
 hwyrfrydig i gadarnhau eich bod yn iawn.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Categori | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -156,12 +156,12 @@ rhwng "gwnaethom y gwaith" a "wnaeth e helpu."
    y camgyfateb hyn a naill ai addaswch yr atebolrwydd neu ychwanegwch y
    lifelau coll.
 
-4. **Pa ddangosydd arweiniol sydd gennym ar gyfer pob un o'n metrigau
+4. **Pa ddangosydd rhagfynegi sydd gennym ar gyfer pob un o'n metrigau
    canlyniad hwyrfrydig, a pha mor bell ymlaen llaw mae'n eu rhagfynegi?**
    Mae set fetrigau sy'n hollol hwyrfrydig yn golygu dim ond eich bod yn
    darganfod eich bod yn anghywir ar ôl iddi fod yn rhy hwyr i newid cwrs yn
    rhad. Dewch â'ch metrigau canlyniad a gwiriwch a oes dangosydd
-   arweiniol gwirioneddol yn bodoli ar gyfer pob un, neu a ydych yn hedfan
+   rhagfynegi gwirioneddol yn bodoli ar gyfer pob un, neu a ydych yn hedfan
    yn ddall rhwng cyfnodau adrodd.
 
 5. **Faint o'r hyn a ddathlwn mewn adolygiadau ac ôl-drafodaethau sy'n
@@ -262,7 +262,7 @@ ymlaen llaw.
   ac yn ei gyflwyno fel perfformiad.
 - **Dal tîm yn gyfan gwbl atebol am ganlyniad na all ei reoli:** yn magu
   rhwystredigaeth ac yn gwahodd twyllo i amddiffyn yn erbyn beio annheg.
-- **Dim dangosydd arweiniol ar gyfer canlyniad hwyrfrydig:** mae'r tîm yn
+- **Dim dangosydd rhagfynegi ar gyfer canlyniad hwyrfrydig:** mae'r tîm yn
   dysgu ei fod yn anghywir dim ond ar ôl iddi fod yn rhy ddrud i'w
   drwsio.
 - **Dathlu iaith cynnyrch mewn adolygiadau tra'n hawlio gwerthfawrogi
@@ -280,11 +280,11 @@ ymlaen llaw.
   llinell atynt.
 - **Lefel 2, Datblygu:** Mae rhai timau wedi nodi metrigau canlyniad yn
   anffurfiol, ond nid oes coeden fetrigau a rennir a dim dangosyddion
-  arweiniol cyson.
+  rhagfynegi cyson.
 - **Lefel 3, Safoni:** Mae coeden fetrigau ddogfennedig yn cysylltu
   canlyniad seren-y-gogledd a rennir i lawr at gynnyrch a berchnogir gan
   dimau, wedi'i gymhwyso'n gyson ar draws y sefydliad.
-- **Lefel 4, Rheoli:** Olrheinir dangosyddion arweiniol a hwyrfrydig
+- **Lefel 4, Rheoli:** Olrheinir dangosyddion rhagfynegi a hwyrfrydig
   gyda'i gilydd ac fe'u hadolygir gyda'i gilydd; dim ond am yr hyn y
   maent yn ei reoli y dalir timau'n atebol, ac ariennir mesur canlyniad
   yn weithredol.
@@ -310,7 +310,7 @@ ymlaen llaw.
 - Daliwch dimau'n atebol am yr hyn y maent yn ei **reoli** (mewnbynnau,
   cynnyrch); olrheiniwch ganlyniadau fel signalau a rennir y mae'r
   sefydliad cyfan yn eu dylanwadu gyda'i gilydd.
-- Parejwch bob **metrig canlyniad** hwyrfrydig â **dangosydd arweiniol**
+- Parejwch bob **metrig canlyniad** hwyrfrydig â **dangosydd rhagfynegi**
   cyflymach fel y gallwch lywio cyn i'r rhif araf gadarnhau eich bod yn
   anghywir.
 - Mae dangosfwrdd cynnyrch-yn-unig yn mesur gweithgarwch ac yn ei alw'n

@@ -5,7 +5,7 @@
 Mae'r pwnc hwn yn ehangu'r lens y tu hwnt i fabwysiad lefel-nodwedd
 pwnc 5.2 i'r ystod lawn o ganlyniadau cwsmer a busnes y mae sefydliad
 mewn gwirionedd yn poeni amdanynt: refeniw wedi'i gadw neu wedi'i dyfu,
-boddhad a theyrngarwch cwsmer, gostyngiad cost, perygl osgowyd, ac, ar
+boddhad a theyrngarwch cwsmer, gostyngiad cost, risg osgowyd, ac, ar
 gyfer sefydliadau sector cyhoeddus, y canlyniadau dinesydd y mae
 cenhadaeth yn bodoli i'w gwasanaethu. Dyma'r metrigau canlyniad y gosododd
 pwnc 1.3 ar frig hierarchaeth mewnbwn-allbwn-canlyniad, a dyma lle mae'r
@@ -41,7 +41,7 @@ iddi fwyfwy.
 ## Egwyddorion allweddol
 
 - **Yn anaml y gellir priodoli canlyniadau i beirianneg ar ei ben ei
-  hun.** Defnyddiwch dystiolaeth gydgyfeiriol ac iaith gydberthyniad
+  hun.** Defnyddiwch dystiolaeth gydgyfeiriol ac iaith cydberthynas
   onest, nid hawliadau ffug o unig achosiaeth.
 - **Cysylltwch fetrigau peirianneg â metrigau canlyniad yn benodol, trwy
   gadwyn achosol ddogfennedig**, nid dim ond cyfosodiad ar yr un
@@ -71,13 +71,13 @@ cyffredinol yn gadwyn o gysylltiadau unigol amddiffynadwy yn hytrach
 na naid sengl, heb ei chefnogi o "gwellaethom amledd defnyddio" i
 "tyfodd refeniw."
 
-### Defnyddiwch iaith [gydberthyniad](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation) onest, a chwiliwch yn weithredol am ffactorau drysu
+### Defnyddiwch iaith [cydberthynas](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation) onest, a chwiliwch yn weithredol am ffactorau drysu
 
 Gan ddilyn canllawiau pwnc 1.6'n uniongyrchol, gwrthsefyllwch hawlio
 bod newid peirianneg wedi *achosi* gwelliant canlyniad busnes heb
 ystyried beth arall a newidiodd ar yr un pryd: newid prisio, tramgwydd
 cystadleuydd, effaith dymhorol, ymgyrch farchnata. Datganwch ganfyddiadau
-fel cydberthyniadau wedi'u cefnogi gan gadwyn achosol gredadwy, a byddwch
+fel cydberthnasau wedi'u cefnogi gan gadwyn achosol gredadwy, a byddwch
 yn benodol am ba ffactorau drysu y gwnaethoch eu hystyried a'u
 diystyru, yn hytrach na chyflwyno un gymhariaeth cyn-ac-ar-ôl fel prawf.
 
@@ -113,13 +113,13 @@ dim ond fel tystiolaeth ategol ar gyfer sut y cyflawnwyd y canlyniad
 hwnnw, nid fel y pennawd. Mae hyn yn gymhwysiad uniongyrchol o egwyddor
 pwysoli-canlyniad pwnc 1.3 i'r sgil benodol o gyfathrebu rhanddeiliaid.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Hawlio achosiaeth uniongyrchol o fetrigau peirianneg i ganlyniadau busnes | Naratif syml, deniadol | Fel arfer yn gorddweud sicrwydd; agored i gael ei ddadwneud gan gynulleidfa amheugar |
-| Cydberthyniad onest, wedi'i ddogfennu-mewn-cadwyn | Amddiffynadwy, yn adeiladu credadwyedd tymor-hir | Mwy cymhleth i'w gyflwyno; angen mwy o ddisgyblaeth casglu tystiolaeth |
-| Adrodd cyflenwi-yn-unig (osgoi hawliadau canlyniad yn gyfan gwbl) | Syml, yn osgoi perygl priodoli | Yn methu â dangos gwerth busnes gwirioneddol peirianneg; gwan mewn sgyrsiau buddsoddi |
+| Cydberthynas onest, wedi'i dogfennu-mewn-cadwyn | Amddiffynadwy, yn adeiladu credadwyedd tymor-hir | Mwy cymhleth i'w gyflwyno; angen mwy o ddisgyblaeth casglu tystiolaeth |
+| Adrodd cyflenwi-yn-unig (osgoi hawliadau canlyniad yn gyfan gwbl) | Syml, yn osgoi risg priodoli | Yn methu â dangos gwerth busnes gwirioneddol peirianneg; gwan mewn sgyrsiau buddsoddi |
 | Tystiolaeth canlyniad meintiol ac ansoddol wedi'u cyfuno | Mwy cyfoethog, mwy esboniadol, yn dal yr hyn na all rifau ar eu pen eu hunain ei weld | Angen mwy o ymdrech i gasglu a syntheseiddio'r ddau fath o dystiolaeth |
 
 Y tensiwn canolog yw **naratif deniadol yn erbyn gonestrwydd
@@ -214,7 +214,7 @@ gyflymder nodweddion. Yn hytrach na hawlio achosiaeth uniongyrchol o
 welliannau dibynadwyedd i refeniw, adeiladodd y tîm gadwyn ddogfennedig:
 gostyngodd buddsoddiad dibynadwyedd ddigwyddiadau amser-i-lawr a
 adroddwyd gan gwsmeriaid, cydberthynodd digwyddiadau amser-i-lawr yn
-gryf â pherygl traul cwsmeriaid uchel yn y deg diwrnod ar hugain
+gryf â risg traul cwsmeriaid uchel yn y deg diwrnod ar hugain
 canlynol yn ôl model traul-cwsmeriaid y cwmni ei hun, a dangosodd y
 garfan o gwsmeriaid a brofodd lai o ddigwyddiadau ar ôl y buddsoddiad
 draul is yn fesuradwy na charfan gyfatebol cyn-y-buddsoddiad, gyda
@@ -249,13 +249,13 @@ gwbl (ac yn edrych fel canolfan gost heb werth busnes dangosadwy).
 
 Yr ymdrech ddadansoddol i adeiladu a dogfennu cadwynau achosol, gwirio
 ffactorau drysu, a chyfuno tystiolaeth feintiol ag un ansoddol, sy'n
-wirioneddol fwy o waith na hawliad cydberthyniad syml, heb ei gefnogi,
+wirioneddol fwy o waith na hawliad cydberthynas syml, heb ei gefnogi,
 yw cost cyfanswm perchnogaeth. Mae'r buddsoddiad hwnnw'n werth ei wneud
 yn benodol oherwydd bod y dewis arall, hawliad wedi'i orddweud sy'n
 methu craffu'n ddiweddarach, yn costio llawer mwy mewn credadwyedd
 tymor-hir na'r trylwyredd ychwanegol yn ei gostio ymlaen llaw.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Hawlio achosiaeth uniongyrchol heb wirio am ffactorau drysu:** yn
   gorddweud sicrwydd ac yn peryglu niwed credadwyedd os caiff ei herio.
@@ -305,7 +305,7 @@ tymor-hir na'r trylwyredd ychwanegol yn ei gostio ymlaen llaw.
 ## Prif gasgliadau
 
 - Yn anaml y gellir **priodoli canlyniadau i beirianneg ar ei ben ei
-  hun**; defnyddiwch dystiolaeth gydgyfeiriol ac iaith gydberthyniad
+  hun**; defnyddiwch dystiolaeth gydgyfeiriol ac iaith cydberthynas
   onest, nid hawliadau ffug o unig achosiaeth.
 - Adeiladwch **gadwyn achosol benodol, ddogfennedig** o fetrigau
   peirianneg i ganlyniadau busnes, gan wirio ffactorau drysu ym mhob

@@ -70,7 +70,7 @@ eistedd heb ei gyffwrdd yn aros i adolygydd ddechrau (amser aros) oddi
 wrth yr amser y mae sgwrs adolygu weithredol yn ei gymryd unwaith y
 bydd yn dechrau (amser gweithredol). Mae'r gwahaniaeth hwn fel arfer yn
 datgelu mai ciwio, nid ymdrech, yw'r gost ddominyddol, sy'n pwyntio at
-drwsiad gwahanol iawn (mwy o gapasiti adolygydd, hysbysu gwell, ceisiadau
+drwsiad gwahanol iawn (mwy o gynhwysedd adolygydd, hysbysu gwell, ceisiadau
 tynnu llai i'w hadolygu) na thrwsiad wedi'i anelu at wneud sgyrsiau
 adolygu eu hunain yn gyflymach.
 
@@ -102,7 +102,7 @@ adolygiad fel "wedi dechrau" yr eiliad y neilltuir adolygydd yn hytrach
 na phan fyddant mewn gwirionedd yn dechrau darllen y newid. Archwiliwch
 gyfrifianeg terfyn-cam yn gyfnodol yn erbyn ei ddiffiniad dogfennedig.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |

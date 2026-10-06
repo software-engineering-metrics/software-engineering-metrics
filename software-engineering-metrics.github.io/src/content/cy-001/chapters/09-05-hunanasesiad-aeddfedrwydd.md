@@ -16,7 +16,7 @@ Mae pob pwnc yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 Cy
 | 1.1 | Mesur i wybodaethu penderfyniadau, nid i farnu | |
 | 1.2 | Disgyblaeth paru rheiliau diogelwch yn erbyn deddf Goodhart | |
 | 1.3 | Setiau metrig wedi'u pwysoli tuag at ganlyniad, nid tuag at gynnyrch | |
-| 1.4 | Llywodraethu: perchnogaeth, siarteri, disgyblaeth ddiddymu | |
+| 1.4 | Llywodraethiant: perchnogaeth, siarteri, disgyblaeth ddiddymu | |
 | 1.5 | Ansawdd offeryniad a dibynadwyedd ffynhonnell ddata | |
 | 1.6 | Llythrennedd ystadegol wrth ddehongli metrigau | |
 
@@ -40,7 +40,7 @@ Mae pob pwnc yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 Cy
 | Pwnc | Gallu | Eich sgôr (1-5) |
 | --- | --- | --- |
 | 3.1 | Mabwysiadu SPACE cytbwys, aml-ddimensiwn | |
-| 3.2 | Mesur boddhad a lles | |
+| 3.2 | Mesur boddhad a llesiant | |
 | 3.3 | Mesur perfformiad aml-signal | |
 | 3.4 | Metrigau gweithgaredd wedi'u defnyddio mewn cyd-destun cyfun yn unig | |
 | 3.5 | Tracio cyfathrebu a chrynodiad gwybodaeth | |
@@ -74,14 +74,14 @@ Mae pob pwnc yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 Cy
 | --- | --- | --- |
 | 6.1 | SLOs seiliedig ar dystiolaeth a chyllidebau gwall y gellir eu gwario | |
 | 6.2 | Metrigau digwyddiad anghosbol, wedi'u dadelfennu'n gamau | |
-| 6.3 | Ar alwad a chapasiti cynaliadwy, wedi'u mesur | |
+| 6.3 | Ar alwad a chynhwysedd cynaliadwy, wedi'u mesur | |
 | 6.4 | Metrigau diogelwch amser-i-unioni, anghosbol | |
 
 ## Rhan 7: Metrigau yn Oes AI
 
 | Pwnc | Gallu | Eich sgôr (1-5) |
 | --- | --- | --- |
-| 7.1 | Cynhaliwyd archwiliad dilysrwydd metrig oes AI | |
+| 7.1 | Cynhaliwyd archwiliad dilysrwydd metrig oes deallusrwydd artiffisial (AI) | |
 | 7.2 | Mesur datblygu â chymorth AI seiliedig ar dystiolaeth | |
 | 7.3 | Rheiliau diogelwch yn erbyn chwyddiant metrig a gwanhad ansawdd | |
 | 7.4 | Buddsoddiad metrigau wedi'i arwain gan delemetreg canlyniad | |
@@ -100,7 +100,7 @@ Mae pob pwnc yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 Cy
 
 | Dimensiwn | Eich sgôr (1-5) |
 | --- | --- |
-| Llywodraethu a pherchnogaeth | |
+| Llywodraethiant a pherchnogaeth | |
 | Ansawdd offeryniad | |
 | Cydbwysedd canlyniad-yn-erbyn-cynnyrch | |
 | Ymddiriedaeth ddiwylliannol | |

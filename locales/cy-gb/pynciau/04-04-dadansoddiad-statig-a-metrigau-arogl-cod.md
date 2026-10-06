@@ -108,7 +108,7 @@ statig heb eu datrys sydd hefyd yn fan poeth trosiant-cymhlethdod yn
 ymgeisydd arbennig o gryf ar gyfer sylw wedi'i flaenoriaethu, gan fod
 sawl signal annibynnol yn cydgyfeirio ar yr un casgliad.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -225,7 +225,7 @@ Roedd polisi diwygiedig yn mynnu sero canfyddiadau critigol neu
 ddifrifoldeb-uchel newydd a gyflwynwyd gan unrhyw ryddhad penodol,
 ynghyd â chynllun ac amserlen unioni wedi'u dogfennu, eu holrhain ar
 gyfer y gronfa-waith waddol, wedi'u hadolygu'n chwarterol gan fwrdd
-llywodraethu diogelwch. Adferodd y dull ymarferol, wedi'i gamu hwn graffu
+llywodraethiant diogelwch. Adferodd y dull ymarferol, wedi'i gamu hwn graffu
 diogelwch gwirioneddol i god newydd a gwneud cynnydd gwirioneddol,
 mesuradwy yn erbyn y gronfa-waith waddol dros ddeunaw mis, yn wahanol
 i'r polisi blaenorol anymarferol a oedd wedi cynhyrchu atal yn bennaf

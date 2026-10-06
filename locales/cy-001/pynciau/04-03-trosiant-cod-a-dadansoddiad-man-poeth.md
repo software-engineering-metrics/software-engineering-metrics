@@ -109,7 +109,7 @@ ailysgrifennu wedi'i gynllunio ar y gweill yn gwneud ad-drefnu
 cynyddrannol yn ymdrech wastraffus, er enghraifft, a dylai'r
 dadansoddiad lywio'r sgwrs honno, nid ei disodli.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -125,7 +125,7 @@ mawr, anghyfarwydd, neu hirhoedlog, ond mae'n brin o'r farn gyd-destunol
 sydd gan dîm am pam mae man poeth penodol yn bwysig, neu beidio, ar
 hyn o bryd. Datryswch y tensiwn trwy drin dadansoddiad man-poeth fel
 sylfaen dystiolaeth ar gyfer sgwrs flaenoriaethu, wedi'i gyfuno â, byth
-yn disodli, barn gyd-destunol tîm ei hun am amseru a chyfaddawdau.
+yn disodli, barn gyd-destunol tîm ei hun am amseru a chyfnewidiadau.
 
 ## Cwestiynau i'w trafod gyda'ch tîm
 
@@ -245,7 +245,7 @@ fuddsoddiad yw'r ymdrech dadansoddi cyfnodol a'r amser barn ddynol i
 ddehongli canlyniadau a phenderfynu pa weithred y mae pob man poeth a
 nodwyd yn ei mynnu.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Defnyddio trosiant yn unig heb gymhlethdod:** signal gwan ar ei ben
   ei hun a all fflagio cod iach, wedi'i ddatblygu'n weithredol fel

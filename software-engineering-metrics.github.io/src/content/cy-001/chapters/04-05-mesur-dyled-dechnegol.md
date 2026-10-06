@@ -9,9 +9,9 @@ rywbeth yn gynt ond a adawodd y sylfaen cod yn anos ei newid wedyn, yn
 yr un modd ag y mae dyled ariannol yn caniatáu i chi wario nawr am
 gost llog yn ddiweddarach. Mae gan bob sylfaen cod ryw ddyled dechnegol,
 ac nid yw hynny'n fethiant yn awtomatig; gwerth gwirioneddol y trosiad
-yw ei fod yn fframio dyled fel cyfaddawd rheoladwy yn hytrach na naill
+yw ei fod yn fframio dyled fel cyfnewidiad rheoladwy yn hytrach na naill
 ai gyfrinach gywilyddus neu faich parhaol, anochel. Mae'r pwnc hwn yn
-ymwneud â gwneud y cyfaddawd hwnnw'n weladwy a rheoladwy trwy fesur, yn
+ymwneud â gwneud y cyfnewidiad hwnnw'n weladwy a rheoladwy trwy fesur, yn
 hytrach na'i adael fel pryder amwys, wedi'i dan-flaenoriaethu'n barhaus y
 mae pob peiriannydd yn ei synhwyro ond na all neb weithredu arno â
 thystiolaeth.
@@ -35,11 +35,11 @@ sefydliadau menter a llywodraeth sy'n cynnal systemau dros flynyddoedd
 lawer yn arbennig o agored i'r effaith gyfansymio hon, a phrif argymhelliad
 y pwnc hwn, cronfa-waith dyled weladwy, wedi'i meintioli, wedi'i
 blaenoriaethu, yw'r mecanwaith sy'n caniatáu i sefydliad wirioneddol
-reoli'r cyfaddawd yn fwriadol yn lle drifftio i mewn i argyfwng.
+reoli'r cyfnewidiad yn fwriadol yn lle drifftio i mewn i argyfwng.
 
 ## Egwyddorion allweddol
 
-- **Mae dyled dechnegol yn drosiad bwriadol ar gyfer cyfaddawd
+- **Mae dyled dechnegol yn drosiad bwriadol ar gyfer cyfnewidiad
   rheoladwy, nid cyfrinach gywilyddus.** Mae rhywfaint o ddyled, a
   gymerwyd yn wybodus, yn benderfyniad busnes rhesymol.
 - **Mae dyled heb ei mesur yn colli'r gystadleuaeth flaenoriaethu yn
@@ -91,13 +91,13 @@ ar y gronfa-waith hiraf neu ba beiriannydd sy'n ei heiriol yn fwyaf
 parhaus, gan nad yw'r naill na'r llall yn cydberthyn yn ddibynadwy ag
 effaith busnes gwirioneddol.
 
-### Dyrannwch gapasiti unioni pwrpasol, gwarchodedig
+### Dyrannwch gynhwysedd unioni pwrpasol, gwarchodedig
 
 Mae cronfa-waith dyled sy'n gorfod cystadlu eitem-wrth-eitem yn erbyn
 pob cais nodwedd sy'n dod i mewn ym mhob cylch cynllunio'n tueddu i
 golli'n gyson, oherwydd bod gan waith nodweddion bencampwr busnes
 cliriach, mwy uniongyrchol fel arfer. Dyrannwch ganran warchodedig o
-gapasiti peirianneg, mae patrwm cyffredin rhwng 10% a 20%, yn benodol
+gynhwysedd peirianneg, mae patrwm cyffredin rhwng 10% a 20%, yn benodol
 ar gyfer unioni dyled, wedi'i benderfynu ymlaen llaw yn hytrach na'i
 negodi o'r newydd bob sbrint, fel bod talu dyled i lawr yn digwydd fel
 mater o drefn yn hytrach nag ond yn dilyn argyfwng.
@@ -113,14 +113,14 @@ gadael iddi eistedd yn ddiddiwedd ar gronfa-waith weithredol lle mae ei
 phresenoldeb parhaus yn awgrymu'n dawel waith na fydd byth mewn
 gwirionedd yn digwydd.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Dim olrhain dyled ffurfiol | Dim baich | Mae dyled yn colli'r gystadleuaeth flaenoriaethu yn ddiofyn; yn cyfansymio'n anweledig |
 | Ymwybyddiaeth dyled anffurfiol, ad hoc | Baich isel, rhywfaint o welededd | Anghyson; yn dibynnu ar gof ac eiriolaeth unigol |
-| Cronfa-waith dyled ffurfiol, wedi'i meintioli | Yn cystadlu'n deg am fuddsoddiad; yn galluogi cyfaddawdau gwybodus | Angen cynnal a chadw parhaus a disgyblaeth meintioli |
-| Capasiti unioni gwarchodedig, pwrpasol | Yn sicrhau bod talu i lawr yn digwydd yn gyson, nid dim ond yn adweithiol | Yn lleihau capasiti sydd ar gael ar gyfer gwaith nodweddion yn y tymor byr |
+| Cronfa-waith dyled ffurfiol, wedi'i meintioli | Yn cystadlu'n deg am fuddsoddiad; yn galluogi cyfnewidiadau gwybodus | Angen cynnal a chadw parhaus a disgyblaeth meintioli |
+| Cynhwysedd unioni gwarchodedig, pwrpasol | Yn sicrhau bod talu i lawr yn digwydd yn gyson, nid dim ond yn adweithiol | Yn lleihau cynhwysedd sydd ar gael ar gyfer gwaith nodweddion yn y tymor byr |
 
 Y tensiwn canolog yw **pwysau cyflenwi ar unwaith yn erbyn cynaliadwyedd
 tymor-hir**. Mae gan waith nodweddion bron bob amser bencampwr busnes
@@ -128,7 +128,7 @@ cliriach, mwy uniongyrchol nag unioni dyled, sy'n creu pwysau
 strwythurol i ddyled golli pob penderfyniad blaenoriaethu unigol hyd
 yn oed pan fo'i chost gronedig yn uchel. Datryswch y tensiwn trwy dynnu
 unioni dyled o'r gystadleuaeth eitem-wrth-eitem yn gyfan gwbl trwy
-gapasiti gwarchodedig, wedi'i ragddyrannu, fel bod y cyfaddawd yn cael
+gynhwysedd gwarchodedig, wedi'i ragddyrannu, fel bod y cyfnewidiad yn cael
 ei benderfynu'n fwriadol ac ymlaen llaw yn hytrach na'i ail-ddadlau, ac
 fel arfer ei golli, ym mhob cylch cynllunio unigol.
 
@@ -144,7 +144,7 @@ fel arfer ei golli, ym mhob cylch cynllunio unigol.
    deg yn erbyn cais nodwedd?** Os na, ymarferwch y meintioli hwn gyda'ch
    gilydd fel ymarfer grŵp gan ddefnyddio eitem wirioneddol, gyfredol.
 
-3. **Pa ganran o'n capasiti peirianneg sy'n mynd tuag at unioni dyled
+3. **Pa ganran o'n cynhwysedd peirianneg sy'n mynd tuag at unioni dyled
    mewn gwirionedd, ac a benderfynwyd ar y ganran honno'n fwriadol neu
    ai dim ond yr hyn sy'n digwydd goroesi ar ôl dyrannu gwaith
    nodweddion ydyw?** Edrychwch ar eich sbrintiau diweddar gwirioneddol
@@ -184,7 +184,7 @@ yn ddigonol ar y raddfa hon. Y ddisgyblaeth bwysicaf sy'n werth ei
 mabwysiadu yw ailedrych ar y rhestr honno'n gyfnodol yn hytrach na
 gadael iddi gronni'n dawel a dod yn anweledig trwy gyfarwydd-deb.
 
-**Menter.** Mae capasiti unioni gwarchodedig, wedi'i ragddyrannu'n
+**Menter.** Mae cynhwysedd unioni gwarchodedig, wedi'i ragddyrannu'n
 bwysicaf yma, gan fod y gystadleuaeth flaenoriaethu unigol rhwng dyled a
 gwaith nodweddion yn ffafrio nodweddion yn ddibynadwy ar draws degau o
 dimau ar yr un pryd heb wrthbwysau strwythurol. Safonwch arfer
@@ -210,7 +210,7 @@ peiriant bilio'n llanast" yn rheolaidd mewn ôl-drafodaethau heb unrhyw
 ddilyniant. Mynnodd cyfarwyddwr peirianneg newydd fod pob tîm yn
 adeiladu cronfa-waith dyled wedi'i meintioli, gan amcangyfrif cost
 trwsio a chost cario ar gyfer pob eitem, a dyrannodd 15% sefydlog o
-gapasiti peirianneg ar gyfer unioni dyled o hynny ymlaen. O fewn
+gynhwysedd peirianneg ar gyfer unioni dyled o hynny ymlaen. O fewn
 blwyddyn, roedd y pum eitem cost-cario-uchaf, yn cynrychioli ffracsiwn
 bach o'r gronfa-waith gyfan yn ôl cyfrif, wedi'u datrys, a gwellodd
 cyfradd methiant newid (pwnc 2.10) ar gyfer defnyddiadau
@@ -245,7 +245,7 @@ targedu nifer fach o'r eitemau cost-cario-uchaf welliant cyflenwi ac
 ansawdd mesuradwy, yn anghymesur â'r ffracsiwn cymedrol o'r gronfa-waith
 gyfan yr oedd yr eitemau hynny'n ei gynrychioli.
 
-Y capasiti gwarchodedig a ddyrannwyd i unioni, fel arfer 10% i 20% o
+Y cynhwysedd gwarchodedig a ddyrannwyd i unioni, fel arfer 10% i 20% o
 amser peirianneg, sy'n gost wirioneddol, weladwy sy'n cystadlu â
 chyflymder nodwedd yn y tymor byr, yw cost cyfanswm perchnogaeth. Mae'r
 gost honno'n werth ei thalu oherwydd bod y dewis arall, dyled heb ei
@@ -262,8 +262,8 @@ ond yr eitemau penodol a adawyd heb eu trin.
   dda yn erbyn ceisiadau nodwedd concrid, wedi'u meintioli mewn
   cynllunio.
 - **Blaenoriaethu dyled yn ôl oedran neu gyfaint eiriolaeth yn hytrach
-  nag effaith:** yn camgyfeirio capasiti unioni cyfyngedig.
-- **Dim capasiti gwarchodedig ar gyfer unioni:** dim ond yn adweithiol,
+  nag effaith:** yn camgyfeirio cynhwysedd unioni cyfyngedig.
+- **Dim cynhwysedd gwarchodedig ar gyfer unioni:** dim ond yn adweithiol,
   ar ôl argyfwng, y mae talu dyled i lawr yn digwydd, yn hytrach nag fel
   arfer rheolaidd, bwriadol.
 - **Trin pob dyled fel un yr un mor werth ei thrwsio:** yn gwastraffu
@@ -280,10 +280,10 @@ ond yr eitemau penodol a adawyd heb eu trin.
   gronfa-waith wedi'i holrhain na meintioli; mae'n colli'n gyson i waith
   nodweddion.
 - **Lefel 2, Datblygu:** Mae rhai timau'n olrhain dyled yn anffurfiol,
-  ond nid oes meintioli cyson, gwelededd traws-dîm, na chapasiti unioni
+  ond nid oes meintioli cyson, gwelededd traws-dîm, na chynhwysedd unioni
   gwarchodedig.
 - **Lefel 3, Safoni:** Mae cronfa-waith dyled weladwy, wedi'i meintioli'n
-  bodoli ar draws y sefydliad, gyda chapasiti unioni gwarchodedig wedi'i
+  bodoli ar draws y sefydliad, gyda chynhwysedd unioni gwarchodedig wedi'i
   ddyrannu'n gyson.
 - **Lefel 4, Rheoli:** Blaenoriaethir eitemau dyled yn ôl effaith wedi'i
   mesur (cost cario wedi'i chyfuno â throsiant), a dogfennir dyled a
@@ -297,21 +297,21 @@ ond yr eitemau penodol a adawyd heb eu trin.
 ## Syniadau ar gyfer trafodaeth
 
 1. Beth yw ein heitem ddyled cost-cario-uchaf sengl ar hyn o bryd, a allem ei meintioli?
-2. Pa ganran o'n capasiti sy'n mynd i unioni dyled mewn gwirionedd heddiw?
+2. Pa ganran o'n cynhwysedd sy'n mynd i unioni dyled mewn gwirionedd heddiw?
 3. Pa eitem ddyled y dylem ei derbyn yn benodol fel un barhaol yn hytrach na'i gadael yn amwys ar ein cronfa-waith?
 4. A yw ein cronfa-waith dyled wedi tyfu, wedi crebachu, neu wedi aros yn fflat dros y flwyddyn ddiwethaf?
 5. Beth fyddai asesiad dyled wedi'i feintioli'n ei ddatgelu nad yw ein hymwybyddiaeth anffurfiol gyfredol yn ei ddal?
 
 ## Prif gasgliadau
 
-- Mae dyled dechnegol yn **gyfaddawd rheoladwy, nid cyfrinach
+- Mae dyled dechnegol yn **gyfnewidiad rheoladwy, nid cyfrinach
   gywilyddus**; meintiolwch hi yn hytrach na'i gadael fel pryder amwys,
   wedi'i dan-flaenoriaethu'n barhaus.
 - **Meintiolwch gost i'w thrwsio yn erbyn cost i'w chario** ar gyfer pob
   eitem fel ei bod yn cystadlu'n deg yn erbyn gwaith nodweddion.
 - **Blaenoriaethwch yn ôl effaith** (cost cario wedi'i chyfuno â
   throsiant), nid oedran na chyfaint eiriolaeth.
-- Dyrannwch **gapasiti unioni gwarchodedig, pwrpasol**, wedi'i
+- Dyrannwch **gynhwysedd unioni gwarchodedig, pwrpasol**, wedi'i
   benderfynu ymlaen llaw, gan fod dyled yn colli'r gystadleuaeth
   eitem-wrth-eitem yn erbyn gwaith nodweddion yn ddibynadwy fel arall.
 - **Derbyniwch rywfaint o ddyled yn benodol fel un barhaol** lle mae'r

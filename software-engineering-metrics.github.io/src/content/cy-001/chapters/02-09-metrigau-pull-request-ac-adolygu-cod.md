@@ -17,7 +17,7 @@ wedi'i drafod yn uniongyrchol eto: gall optimeiddio cyflymder adolygu
 erydu ansawdd adolygu'n dawel os dilynir yn ddiofal. Mae tîm sy'n haneru
 ei amser-i'r-adolygiad-cyntaf trwy gymeradwyo popeth â stamp rwber wedi
 gwella metrig tra'n dinistrio gwerth gwirioneddol yr arfer. Mae pob
-argymhelliad yn y pwnc hwn wedi'i ysgrifennu â'r cyfaddawd hwnnw mewn
+argymhelliad yn y pwnc hwn wedi'i ysgrifennu â'r cyfnewidiad hwnnw mewn
 golwg, oherwydd mae metrigau pull request ymhlith y rhai haws yn y llyfr
 hwn i'w twyllo mewn ffordd sy'n edrych yn dda ar ddangosfwrdd tra'n
 gwneud y sylfaen cod sylfaenol yn wirioneddol waeth.
@@ -80,7 +80,7 @@ dreigl, a gwyliwch yn benodol am nifer fach o bobl yn amsugno cyfran
 anghymesur. Mae'r patrwm hwn yn gyffredin, yn aml yn disgyn ar y
 peirianwyr mwyaf profiadol neu ymddiriedol, ac yn creu tagfa (mae eu
 argaeledd yn capio trwybwn adolygu'r tîm cyfan) a pherygl llosgi allan
-(mae pwnc 3.2 yn ymdrin â metrigau lles yn fwy manwl) fel ei gilydd.
+(mae pwnc 3.2 yn ymdrin â metrigau llesiant yn fwy manwl) fel ei gilydd.
 Cylchdrowch gyfrifoldeb adolygu'n fwriadol yn hytrach na gadael iddo
 grynhoi'n ddiofal o gwmpas pwy bynnag sydd gyflymaf i ymateb.
 
@@ -106,7 +106,7 @@ system neu gyfathrebu na signal personol, ac mae ei drin fel cerdyn
 sgorio unigol yn peryglu union y drifft gwerthuso y mae pwnc 1.1 yn
 rhybuddio yn ei erbyn.
 
-## Cyfaddawdau: manteision ac anfanteision
+## Cyfnewidiadau: manteision ac anfanteision
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
@@ -192,7 +192,7 @@ adolygiadau'n arafach yn ôl dyluniad. Lle mae gofynion cydymffurfio
 gwirioneddol yn galw am adolygu trylwyr, canolbwyntiwch ymdrech
 gwella ar leihau amser aros (neilltuo adolygu cyflymach, triniaeth
 gliriach) yn hytrach na chyfaddawdu dyfnder gwirioneddol yr adolygu, a
-dogfennwch y cyfaddawd yn benodol os oes rhaid i graffu aros yn drwm am
+dogfennwch y cyfnewidiad yn benodol os oes rhaid i graffu aros yn drwm am
 resymau rheoleiddiol.
 
 ## Enghreifftiau
@@ -308,6 +308,6 @@ costio disgyblaeth yn bennaf yn hytrach na buddsoddiad offer.
 - Ymchwil *Modern Code Review* gan Alberto Bacchelli a Christian Bird
   (astudiaeth empirig o arferion adolygu cod ar raddfa).
 - *Peer Reviews in Software: A Practical Guide*, gan Karl E. Wiegers
-  (dylunio proses adolygu a'i gyfaddawdau).
+  (dylunio proses adolygu a'i gyfnewidiadau).
 - *The Principles of Product Development Flow*, gan Donald G. Reinertsen
   (rhesymu maint-swp wedi'i gymhwyso i faint pull request).

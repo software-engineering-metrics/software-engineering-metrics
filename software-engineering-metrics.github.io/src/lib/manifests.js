@@ -14,6 +14,9 @@ import es001 from './manifest/es-001.json';
 import fr001 from './manifest/fr-001.json';
 import hi001 from './manifest/hi-001.json';
 import id001 from './manifest/id-001.json';
+import ja001 from './manifest/ja-001.json';
+import ko001 from './manifest/ko-001.json';
+import nl001 from './manifest/nl-001.json';
 import pt001 from './manifest/pt-001.json';
 import ru001 from './manifest/ru-001.json';
 import ur001 from './manifest/ur-001.json';
@@ -65,6 +68,9 @@ const MANIFESTS = {
   'fr-001': fr001,
   'hi-001': hi001,
   'id-001': id001,
+  'ja-001': ja001,
+  'ko-001': ko001,
+  'nl-001': nl001,
   'pt-001': pt001,
   'ru-001': ru001,
   'ur-001': ur001,

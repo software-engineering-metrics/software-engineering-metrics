@@ -4200,6 +4200,972 @@
    ]
   },
   {
+   "code": "ja-001",
+   "label": "日本語",
+   "home": "https://software-engineering-metrics.github.io/ja-001/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "第1部序論：測定の基礎",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/01-00-測定の基礎/"
+    },
+    {
+     "number": "1.1",
+     "title": "なぜソフトウェアエンジニアリングを測定するのか",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/01-01-なぜソフトウェアエンジニアリングを測定するのか/"
+    },
+    {
+     "number": "1.2",
+     "title": "グッドハートの法則と指標の心理学",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/01-02-グッドハートの法則と指標の心理学/"
+    },
+    {
+     "number": "1.3",
+     "title": "産出より成果を:何を測定するかを選ぶ",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/01-03-産出より成果を-何を測定するかを選ぶ/"
+    },
+    {
+     "number": "1.4",
+     "title": "指標のガバナンスと所有権",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/01-04-指標のガバナンスと所有権/"
+    },
+    {
+     "number": "1.5",
+     "title": "データソースと計測基盤",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/01-05-データソースと計測基盤/"
+    },
+    {
+     "number": "1.6",
+     "title": "エンジニアリング指標のための統計リテラシー",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/01-06-エンジニアリング指標のための統計リテラシー/"
+    },
+    {
+     "number": "2.0",
+     "title": "第2部序論:フロー指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/02-00-フロー指標/"
+    },
+    {
+     "number": "2.1",
+     "title": "Flow Framework",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/02-01-Flow-Framework/"
+    },
+    {
+     "number": "2.2",
+     "title": "フローアイテム:機能、欠陥、リスク、負債",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/02-02-フローアイテム-機能-欠陥-リスク-負債/"
+    },
+    {
+     "number": "2.3",
+     "title": "フロー速度とフロー分布",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/02-03-フロー速度とフロー分布/"
+    },
+    {
+     "number": "2.4",
+     "title": "フロータイムとフロー負荷",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/02-04-フロータイムとフロー負荷/"
+    },
+    {
+     "number": "2.5",
+     "title": "フロー効率と仕掛かり作業",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/02-05-フロー効率と仕掛かり作業/"
+    },
+    {
+     "number": "2.6",
+     "title": "サイクルタイムとその構成要素",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/02-06-サイクルタイムとその構成要素/"
+    },
+    {
+     "number": "2.7",
+     "title": "待ち行列理論",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/02-07-待ち行列理論/"
+    },
+    {
+     "number": "2.8",
+     "title": "リーンのバリューストリーム指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/02-08-リーンのバリューストリーム指標/"
+    },
+    {
+     "number": "2.9",
+     "title": "プルリクエストとコードレビューの指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/02-09-プルリクエストとコードレビューの指標/"
+    },
+    {
+     "number": "2.10",
+     "title": "DORA指標フレームワーク",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/02-10-DORA指標フレームワーク/"
+    },
+    {
+     "number": "3.0",
+     "title": "第3部序論:開発者体験とSPACEフレームワーク",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/03-00-開発者体験とSPACEフレームワーク/"
+    },
+    {
+     "number": "3.1",
+     "title": "SPACEフレームワーク",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/03-01-SPACEフレームワーク/"
+    },
+    {
+     "number": "3.2",
+     "title": "満足度と幸福感の指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/03-02-満足度と幸福感の指標/"
+    },
+    {
+     "number": "3.3",
+     "title": "パフォーマンスの指標と成果の代理",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/03-03-パフォーマンスの指標と成果の代理/"
+    },
+    {
+     "number": "3.4",
+     "title": "活動の指標とその限界",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/03-04-活動の指標とその限界/"
+    },
+    {
+     "number": "3.5",
+     "title": "コミュニケーションと協働の指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/03-05-コミュニケーションと協働の指標/"
+    },
+    {
+     "number": "3.6",
+     "title": "効率性とフロー:深い仕事と中断",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/03-06-効率性とフロー-深い仕事と中断/"
+    },
+    {
+     "number": "3.7",
+     "title": "開発者体験の調査とDevEx指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/03-07-開発者体験の調査とDevEx指標/"
+    },
+    {
+     "number": "4.0",
+     "title": "第4部序論:コードと品質の指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/04-00-コードと品質の指標/"
+    },
+    {
+     "number": "4.1",
+     "title": "コードの複雑さの指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/04-01-コードの複雑さの指標/"
+    },
+    {
+     "number": "4.2",
+     "title": "テストカバレッジとテストの有効性",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/04-02-テストカバレッジとテストの有効性/"
+    },
+    {
+     "number": "4.3",
+     "title": "コードチャーンとホットスポット分析",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/04-03-コードチャーンとホットスポット分析/"
+    },
+    {
+     "number": "4.4",
+     "title": "静的解析とコードの臭いの指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/04-04-静的解析とコードの臭いの指標/"
+    },
+    {
+     "number": "4.5",
+     "title": "技術的負債の測定",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/04-05-技術的負債の測定/"
+    },
+    {
+     "number": "4.6",
+     "title": "文書化と知識の指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/04-06-文書化と知識の指標/"
+    },
+    {
+     "number": "5.0",
+     "title": "第5部への導入:製品とビジネスの指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/05-00-製品とビジネスの指標/"
+    },
+    {
+     "number": "5.1",
+     "title": "エスケープした欠陥率と品質のエスケープ",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/05-01-エスケープした欠陥率と品質のエスケープ/"
+    },
+    {
+     "number": "5.2",
+     "title": "機能の採用と利用の指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/05-02-機能の採用と利用の指標/"
+    },
+    {
+     "number": "5.3",
+     "title": "顧客とビジネスの成果の指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/05-03-顧客とビジネスの成果の指標/"
+    },
+    {
+     "number": "5.4",
+     "title": "エンジニアリングのコストと単位経済性",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/05-04-エンジニアリングのコストと単位経済性/"
+    },
+    {
+     "number": "5.5",
+     "title": "エンジニアリングの取り組みへの投資収益率",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/05-05-エンジニアリングの取り組みへの投資収益率/"
+    },
+    {
+     "number": "6.0",
+     "title": "第6部への導入:信頼性、運用、セキュリティの指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/06-00-信頼性-運用-セキュリティの指標/"
+    },
+    {
+     "number": "6.1",
+     "title": "サービスレベルの指標、目標、エラーバジェット",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/06-01-サービスレベルの指標-目標-エラーバジェット/"
+    },
+    {
+     "number": "6.2",
+     "title": "インシデントの指標:検知、対応、復旧",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/06-02-インシデントの指標/"
+    },
+    {
+     "number": "6.3",
+     "title": "オンコール、容量、運用負荷の指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/06-03-オンコール-容量-運用負荷の指標/"
+    },
+    {
+     "number": "6.4",
+     "title": "セキュリティと脆弱性管理の指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/06-04-セキュリティと脆弱性管理の指標/"
+    },
+    {
+     "number": "7.0",
+     "title": "第7部への導入:AI時代の指標",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/07-00-AI時代の指標/"
+    },
+    {
+     "number": "7.1",
+     "title": "生成AIのパラダイムシフト",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/07-01-生成AIのパラダイムシフト/"
+    },
+    {
+     "number": "7.2",
+     "title": "AI支援のソフトウェア開発の測定",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/07-02-AI支援のソフトウェア開発の測定/"
+    },
+    {
+     "number": "7.3",
+     "title": "指標のインフレと品質の希釈のリスク",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/07-03-指標のインフレと品質の希釈のリスク/"
+    },
+    {
+     "number": "7.4",
+     "title": "新しい北極星としての成果のテレメトリー",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/07-04-新しい北極星としての成果のテレメトリー/"
+    },
+    {
+     "number": "8.0",
+     "title": "第8部への導入:指標プログラムの構築",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/08-00-指標プログラムの構築/"
+    },
+    {
+     "number": "8.1",
+     "title": "エンジニアリング指標ダッシュボードの設計",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/08-01-エンジニアリング指標ダッシュボードの設計/"
+    },
+    {
+     "number": "8.2",
+     "title": "ツールの状況:構築対購入",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/08-02-ツールの状況-構築対購入/"
+    },
+    {
+     "number": "8.3",
+     "title": "恐怖を生まずに指標を展開する",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/08-03-恐怖を生まずに指標を展開する/"
+    },
+    {
+     "number": "8.4",
+     "title": "エンジニアリング指標プログラムの成熟度モデル",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/08-04-エンジニアリング指標プログラムの成熟度モデル/"
+    },
+    {
+     "number": "8.5",
+     "title": "段階的な採用のロードマップ",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/08-05-段階的な採用のロードマップ/"
+    },
+    {
+     "number": "9.0",
+     "title": "付録",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/09-00-付録/"
+    },
+    {
+     "number": "9.1",
+     "title": "用語集",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/09-01-用語集/"
+    },
+    {
+     "number": "9.2",
+     "title": "指標の定義と公式のリファレンス",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/09-02-指標の定義と公式のリファレンス/"
+    },
+    {
+     "number": "9.3",
+     "title": "チェックリスト",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/09-03-チェックリスト/"
+    },
+    {
+     "number": "9.4",
+     "title": "テンプレート",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/09-04-テンプレート/"
+    },
+    {
+     "number": "9.5",
+     "title": "成熟度の自己評価",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/09-05-成熟度の自己評価/"
+    },
+    {
+     "number": "9.6",
+     "title": "参考文献とさらなる読書",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/09-06-参考文献とさらなる読書/"
+    },
+    {
+     "number": "9.7",
+     "title": "索引",
+     "url": "https://software-engineering-metrics.github.io/ja-001/chapters/09-07-索引/"
+    }
+   ]
+  },
+  {
+   "code": "ko-001",
+   "label": "한국어",
+   "home": "https://software-engineering-metrics.github.io/ko-001/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "1부 소개: 측정의 기초",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/01-00-측정의-기초/"
+    },
+    {
+     "number": "1.1",
+     "title": "소프트웨어 공학을 왜 측정하는가",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/01-01-소프트웨어-공학을-왜-측정하는가/"
+    },
+    {
+     "number": "1.2",
+     "title": "굿하트의 법칙과 메트릭의 심리학",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/01-02-굿하트의-법칙과-메트릭의-심리학/"
+    },
+    {
+     "number": "1.3",
+     "title": "산출물보다 결과: 무엇을 측정할지 선택하기",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/01-03-산출물보다-결과-무엇을-측정할지-선택하기/"
+    },
+    {
+     "number": "1.4",
+     "title": "메트릭 거버넌스와 소유권",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/01-04-메트릭-거버넌스와-소유권/"
+    },
+    {
+     "number": "1.5",
+     "title": "데이터 출처와 계측",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/01-05-데이터-출처와-계측/"
+    },
+    {
+     "number": "1.6",
+     "title": "엔지니어링 메트릭을 위한 통계적 소양",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/01-06-엔지니어링-메트릭을-위한-통계적-소양/"
+    },
+    {
+     "number": "2.0",
+     "title": "2부 소개: 플로우 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/02-00-플로우-메트릭/"
+    },
+    {
+     "number": "2.1",
+     "title": "플로우 프레임워크",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/02-01-플로우-프레임워크/"
+    },
+    {
+     "number": "2.2",
+     "title": "플로우 아이템: 기능, 결함, 위험, 부채",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/02-02-플로우-아이템-기능-결함-위험-부채/"
+    },
+    {
+     "number": "2.3",
+     "title": "플로우 속도와 플로우 분포",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/02-03-플로우-속도와-플로우-분포/"
+    },
+    {
+     "number": "2.4",
+     "title": "플로우 타임과 플로우 로드",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/02-04-플로우-타임과-플로우-로드/"
+    },
+    {
+     "number": "2.5",
+     "title": "플로우 효율과 진행 중 작업",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/02-05-플로우-효율과-진행-중-작업/"
+    },
+    {
+     "number": "2.6",
+     "title": "사이클 타임과 그 구성 요소",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/02-06-사이클-타임과-그-구성-요소/"
+    },
+    {
+     "number": "2.7",
+     "title": "대기 행렬 이론",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/02-07-대기-행렬-이론/"
+    },
+    {
+     "number": "2.8",
+     "title": "린 가치 흐름 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/02-08-린-가치-흐름-메트릭/"
+    },
+    {
+     "number": "2.9",
+     "title": "풀 리퀘스트와 코드 리뷰 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/02-09-풀-리퀘스트와-코드-리뷰-메트릭/"
+    },
+    {
+     "number": "2.10",
+     "title": "DORA 메트릭 프레임워크",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/02-10-DORA-메트릭-프레임워크/"
+    },
+    {
+     "number": "3.0",
+     "title": "3부 소개: 개발자 경험과 SPACE 프레임워크",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/03-00-개발자-경험과-SPACE/"
+    },
+    {
+     "number": "3.1",
+     "title": "SPACE 프레임워크",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/03-01-SPACE-프레임워크/"
+    },
+    {
+     "number": "3.2",
+     "title": "만족도와 웰빙 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/03-02-만족도와-웰빙-메트릭/"
+    },
+    {
+     "number": "3.3",
+     "title": "성과 메트릭과 결과 대리 지표",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/03-03-성과-메트릭과-결과-대리-지표/"
+    },
+    {
+     "number": "3.4",
+     "title": "활동 메트릭과 그 한계",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/03-04-활동-메트릭과-그-한계/"
+    },
+    {
+     "number": "3.5",
+     "title": "소통과 협업 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/03-05-소통과-협업-메트릭/"
+    },
+    {
+     "number": "3.6",
+     "title": "효율과 플로우: 깊은 작업과 방해",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/03-06-효율과-플로우-깊은-작업과-방해/"
+    },
+    {
+     "number": "3.7",
+     "title": "개발자 경험 설문과 DevEx 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/03-07-개발자-경험-설문과-DevEx-메트릭/"
+    },
+    {
+     "number": "4.0",
+     "title": "4부 소개: 코드와 품질 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/04-00-코드와-품질-메트릭/"
+    },
+    {
+     "number": "4.1",
+     "title": "코드 복잡도 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/04-01-코드-복잡도-메트릭/"
+    },
+    {
+     "number": "4.2",
+     "title": "테스트 커버리지와 테스트 효과성",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/04-02-테스트-커버리지와-테스트-효과성/"
+    },
+    {
+     "number": "4.3",
+     "title": "코드 처닝과 핫스팟 분석",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/04-03-코드-처닝과-핫스팟-분석/"
+    },
+    {
+     "number": "4.4",
+     "title": "정적 분석과 코드 스멜 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/04-04-정적-분석과-코드-스멜-메트릭/"
+    },
+    {
+     "number": "4.5",
+     "title": "기술 부채 측정",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/04-05-기술-부채-측정/"
+    },
+    {
+     "number": "4.6",
+     "title": "문서화와 지식 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/04-06-문서화와-지식-메트릭/"
+    },
+    {
+     "number": "5.0",
+     "title": "5부 소개: 제품과 비즈니스 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/05-00-제품과-비즈니스-메트릭/"
+    },
+    {
+     "number": "5.1",
+     "title": "누락된 결함률과 품질 누락",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/05-01-누락된-결함률과-품질-누락/"
+    },
+    {
+     "number": "5.2",
+     "title": "기능 채택과 사용 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/05-02-기능-채택과-사용-메트릭/"
+    },
+    {
+     "number": "5.3",
+     "title": "고객과 비즈니스 결과 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/05-03-고객과-비즈니스-결과-메트릭/"
+    },
+    {
+     "number": "5.4",
+     "title": "엔지니어링의 비용과 단위 경제성",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/05-04-엔지니어링의-비용과-단위-경제성/"
+    },
+    {
+     "number": "5.5",
+     "title": "엔지니어링 이니셔티브를 위한 투자 수익률",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/05-05-엔지니어링-이니셔티브를-위한-투자-수익률/"
+    },
+    {
+     "number": "6.0",
+     "title": "6부 소개: 신뢰성, 운영, 보안 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/06-00-신뢰성-운영-보안-메트릭/"
+    },
+    {
+     "number": "6.1",
+     "title": "서비스 수준 지표, 목표, 오류 예산",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/06-01-서비스-수준-지표-목표-오류-예산/"
+    },
+    {
+     "number": "6.2",
+     "title": "인시던트 메트릭: 감지, 대응, 복구",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/06-02-인시던트-메트릭/"
+    },
+    {
+     "number": "6.3",
+     "title": "온콜, 용량, 운영 부담 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/06-03-온콜-용량-운영-부담-메트릭/"
+    },
+    {
+     "number": "6.4",
+     "title": "보안과 취약점 관리 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/06-04-보안과-취약점-관리-메트릭/"
+    },
+    {
+     "number": "7.0",
+     "title": "7부 소개: AI 시대의 메트릭",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/07-00-AI-시대의-메트릭/"
+    },
+    {
+     "number": "7.1",
+     "title": "생성형 AI 패러다임 전환",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/07-01-생성형-AI-패러다임-전환/"
+    },
+    {
+     "number": "7.2",
+     "title": "AI 지원 소프트웨어 개발 측정하기",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/07-02-AI-지원-소프트웨어-개발-측정하기/"
+    },
+    {
+     "number": "7.3",
+     "title": "메트릭 부풀림과 품질 희석 위험",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/07-03-메트릭-부풀림과-품질-희석-위험/"
+    },
+    {
+     "number": "7.4",
+     "title": "새로운 북극성으로서의 결과 원격 측정",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/07-04-새로운-북극성으로서의-결과-원격-측정/"
+    },
+    {
+     "number": "8.0",
+     "title": "8부 소개: 메트릭 프로그램 구축하기",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/08-00-메트릭-프로그램-구축하기/"
+    },
+    {
+     "number": "8.1",
+     "title": "엔지니어링 메트릭 대시보드 설계하기",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/08-01-엔지니어링-메트릭-대시보드-설계하기/"
+    },
+    {
+     "number": "8.2",
+     "title": "도구 환경: 구축 대 구매",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/08-02-도구-환경-구축-대-구매/"
+    },
+    {
+     "number": "8.3",
+     "title": "두려움을 키우지 않고 메트릭 롤아웃하기",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/08-03-두려움을-키우지-않고-메트릭-롤아웃하기/"
+    },
+    {
+     "number": "8.4",
+     "title": "엔지니어링 메트릭 프로그램을 위한 성숙도 모델",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/08-04-엔지니어링-메트릭-프로그램을-위한-성숙도-모델/"
+    },
+    {
+     "number": "8.5",
+     "title": "점진적 채택 로드맵",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/08-05-점진적-채택-로드맵/"
+    },
+    {
+     "number": "9.0",
+     "title": "부록",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/09-00-부록/"
+    },
+    {
+     "number": "9.1",
+     "title": "용어집",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/09-01-용어집/"
+    },
+    {
+     "number": "9.2",
+     "title": "메트릭 정의 및 공식 참조",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/09-02-메트릭-정의-및-공식-참조/"
+    },
+    {
+     "number": "9.3",
+     "title": "체크리스트",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/09-03-체크리스트/"
+    },
+    {
+     "number": "9.4",
+     "title": "템플릿",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/09-04-템플릿/"
+    },
+    {
+     "number": "9.5",
+     "title": "성숙도 자가 평가",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/09-05-성숙도-자가-평가/"
+    },
+    {
+     "number": "9.6",
+     "title": "참고 문헌 및 추가 자료",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/09-06-참고-문헌-및-추가-자료/"
+    },
+    {
+     "number": "9.7",
+     "title": "색인",
+     "url": "https://software-engineering-metrics.github.io/ko-001/chapters/09-07-색인/"
+    }
+   ]
+  },
+  {
+   "code": "nl-001",
+   "label": "Nederlands",
+   "home": "https://software-engineering-metrics.github.io/nl-001/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "Inleiding tot deel 1: De grondslagen van meten",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/01-00-grondslagen-van-meten/"
+    },
+    {
+     "number": "1.1",
+     "title": "Waarom softwareontwikkeling meten",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/01-01-waarom-softwareontwikkeling-meten/"
+    },
+    {
+     "number": "1.2",
+     "title": "Goodharts wet en de psychologie van metrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/01-02-goodharts-wet-en-de-psychologie-van-metrieken/"
+    },
+    {
+     "number": "1.3",
+     "title": "Uitkomsten boven output: kiezen wat je meet",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/01-03-uitkomsten-boven-output-kiezen-wat-je-meet/"
+    },
+    {
+     "number": "1.4",
+     "title": "Metriekengovernance en eigenaarschap",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/01-04-metriekengovernance-en-eigenaarschap/"
+    },
+    {
+     "number": "1.5",
+     "title": "Databronnen en instrumentatie",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/01-05-databronnen-en-instrumentatie/"
+    },
+    {
+     "number": "1.6",
+     "title": "Statistische geletterdheid voor technische metrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/01-06-statistische-geletterdheid-voor-technische-metrieken/"
+    },
+    {
+     "number": "2.0",
+     "title": "Inleiding tot deel 2: Flowmetrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/02-00-flowmetrieken/"
+    },
+    {
+     "number": "2.1",
+     "title": "Het Flow Framework",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/02-01-het-flow-framework/"
+    },
+    {
+     "number": "2.2",
+     "title": "Flowitems: functies, defecten, risico's, en schuld",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/02-02-flowitems-functies-defecten-risicos-en-schuld/"
+    },
+    {
+     "number": "2.3",
+     "title": "Flowsnelheid en flowverdeling",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/02-03-flowsnelheid-en-flowverdeling/"
+    },
+    {
+     "number": "2.4",
+     "title": "Flowtijd en flowbelasting",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/02-04-flowtijd-en-flowbelasting/"
+    },
+    {
+     "number": "2.5",
+     "title": "Flow-efficiëntie en onderhanden werk",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/02-05-flow-efficiëntie-en-onderhanden-werk/"
+    },
+    {
+     "number": "2.6",
+     "title": "Cyclustijd en zijn componenten",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/02-06-cyclustijd-en-zijn-componenten/"
+    },
+    {
+     "number": "2.7",
+     "title": "Wachtrijtheorie",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/02-07-wachtrijtheorie/"
+    },
+    {
+     "number": "2.8",
+     "title": "Lean-waardestroommetrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/02-08-lean-waardestroommetrieken/"
+    },
+    {
+     "number": "2.9",
+     "title": "Pull request- en codereviewmetrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/02-09-pull-request-en-codereviewmetrieken/"
+    },
+    {
+     "number": "2.10",
+     "title": "Het DORA-metriekenframework",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/02-10-het-dora-metriekenframework/"
+    },
+    {
+     "number": "3.0",
+     "title": "Introductie tot deel 3: ontwikkelaarservaring en het SPACE-framework",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/03-00-ontwikkelaarservaring-en-space/"
+    },
+    {
+     "number": "3.1",
+     "title": "Het SPACE-framework",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/03-01-het-space-framework/"
+    },
+    {
+     "number": "3.2",
+     "title": "Tevredenheid- en welzijnsmetrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/03-02-tevredenheid-en-welzijnsmetrieken/"
+    },
+    {
+     "number": "3.3",
+     "title": "Prestatiemetrieken en uitkomstproxy's",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/03-03-prestatiemetrieken-en-uitkomstproxys/"
+    },
+    {
+     "number": "3.4",
+     "title": "Activiteitsmetrieken en hun beperkingen",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/03-04-activiteitsmetrieken-en-hun-beperkingen/"
+    },
+    {
+     "number": "3.5",
+     "title": "Communicatie- en samenwerkingsmetrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/03-05-communicatie-en-samenwerkingsmetrieken/"
+    },
+    {
+     "number": "3.6",
+     "title": "Efficiëntie en flow: diep werk en onderbrekingen",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/03-06-efficiëntie-en-flow/"
+    },
+    {
+     "number": "3.7",
+     "title": "Ontwikkelaarservaring-enquêtes en DevEx-metrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/03-07-ontwikkelaarservaring-enquêtes-en-devex-metrieken/"
+    },
+    {
+     "number": "4.0",
+     "title": "Introductie tot deel 4: code- en kwaliteitsmetrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/04-00-code-en-kwaliteitsmetrieken/"
+    },
+    {
+     "number": "4.1",
+     "title": "Codecomplexiteitsmetrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/04-01-codecomplexiteitsmetrieken/"
+    },
+    {
+     "number": "4.2",
+     "title": "Testdekking en testeffectiviteit",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/04-02-testdekking-en-testeffectiviteit/"
+    },
+    {
+     "number": "4.3",
+     "title": "Codechurn en hotspotanalyse",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/04-03-codechurn-en-hotspotanalyse/"
+    },
+    {
+     "number": "4.4",
+     "title": "Statische analyse en code-smell-metrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/04-04-statische-analyse-en-code-smell-metrieken/"
+    },
+    {
+     "number": "4.5",
+     "title": "Technische-schuld-meting",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/04-05-technische-schuld-meting/"
+    },
+    {
+     "number": "4.6",
+     "title": "Documentatie- en kennismetrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/04-06-documentatie-en-kennismetrieken/"
+    },
+    {
+     "number": "5.0",
+     "title": "Introductie tot deel 5: product- en bedrijfsmetrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/05-00-product-en-bedrijfsmetrieken/"
+    },
+    {
+     "number": "5.1",
+     "title": "Ontsnapte-defectfrekvens en kwaliteitsontsnappingen",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/05-01-ontsnapte-defectfrekvens-en-kwaliteitsontsnappingen/"
+    },
+    {
+     "number": "5.2",
+     "title": "Functieadoptie- en gebruiksmetrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/05-02-functieadoptie-en-gebruiksmetrieken/"
+    },
+    {
+     "number": "5.3",
+     "title": "Klant- en bedrijfsuitkomstmetrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/05-03-klant-en-bedrijfsuitkomstmetrieken/"
+    },
+    {
+     "number": "5.4",
+     "title": "Kost en eenheidseconomie van ingenieurswerk",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/05-04-kost-en-eenheidseconomie-van-ingenieurswerk/"
+    },
+    {
+     "number": "5.5",
+     "title": "Rendement op investering voor ingenieursinitiatieven",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/05-05-rendement-op-investering-voor-ingenieursinitiatieven/"
+    },
+    {
+     "number": "6.0",
+     "title": "Introductie tot deel 6: betrouwbaarheid, operaties, en beveiligingsmetrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/06-00-betrouwbaarheid-operaties-en-beveiligingsmetrieken/"
+    },
+    {
+     "number": "6.1",
+     "title": "SLI's, SLO's, en felbudgetten",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/06-01-slis-slos-en-felbudgetten/"
+    },
+    {
+     "number": "6.2",
+     "title": "Incidentmetrieken: detectie, respons, en herstel",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/06-02-incidentmetrieken/"
+    },
+    {
+     "number": "6.3",
+     "title": "Wachtdienst-, capaciteits-, en operationele-belasting-metrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/06-03-wachtdienst-capaciteits-en-operationele-belasting-metrieken/"
+    },
+    {
+     "number": "6.4",
+     "title": "Beveiligings- en vulnerabiliteitsbeheer-metrieken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/06-04-beveiligings-en-vulnerabiliteitsbeheer-metrieken/"
+    },
+    {
+     "number": "7.0",
+     "title": "Introductie tot deel 7: metrieken in het tijdperk van AI",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/07-00-metrieken-in-het-tijdperk-van-ai/"
+    },
+    {
+     "number": "7.1",
+     "title": "De generatieve-AI-paradigmaverschuiving",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/07-01-de-generatieve-ai-paradigmaverschuiving/"
+    },
+    {
+     "number": "7.2",
+     "title": "AI-geassisteerde softwareontwikkeling meten",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/07-02-ai-geassisteerde-softwareontwikkeling-meten/"
+    },
+    {
+     "number": "7.3",
+     "title": "Metriekinflatie- en kwaliteitsverdunningsrisico's",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/07-03-metriekinflatie-en-kwaliteitsverdunningsrisicos/"
+    },
+    {
+     "number": "7.4",
+     "title": "Uitkomsttelemetrie als de nieuwe noorderstermetriek",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/07-04-uitkomsttelemetrie-als-de-nieuwe-noorderstermetriek/"
+    },
+    {
+     "number": "8.0",
+     "title": "Introductie tot deel 8: een metriekenprogramma bouwen",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/08-00-een-metriekenprogramma-bouwen/"
+    },
+    {
+     "number": "8.1",
+     "title": "Een ingenieursmetrieken-dashboard ontwerpen",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/08-01-een-ingenieursmetrieken-dashboard-ontwerpen/"
+    },
+    {
+     "number": "8.2",
+     "title": "Toolinglandschap: bouwen versus kopen",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/08-02-toolinglandschap-bouwen-versus-kopen/"
+    },
+    {
+     "number": "8.3",
+     "title": "Metrieken uitrollen zonder vrees te kweken",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/08-03-metrieken-uitrollen-zonder-vrees-te-kweken/"
+    },
+    {
+     "number": "8.4",
+     "title": "Volwassenheidsmodel voor ingenieursmetrieken-programma's",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/08-04-volwassenheidsmodel-voor-ingenieursmetrieken-programmas/"
+    },
+    {
+     "number": "8.5",
+     "title": "Een incrementele adoptieroadmap",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/08-05-een-incrementele-adoptieroadmap/"
+    },
+    {
+     "number": "9.0",
+     "title": "Bijlagen",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/09-00-bijlagen/"
+    },
+    {
+     "number": "9.1",
+     "title": "Glossarium",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/09-01-glossarium/"
+    },
+    {
+     "number": "9.2",
+     "title": "Referentie voor metriekdefinities en formules",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/09-02-referentie-voor-metriekdefinities-en-formules/"
+    },
+    {
+     "number": "9.3",
+     "title": "Controlelijsten",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/09-03-controlelijsten/"
+    },
+    {
+     "number": "9.4",
+     "title": "Sjablonen",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/09-04-sjablonen/"
+    },
+    {
+     "number": "9.5",
+     "title": "Volwassenheidszelfbeoordeling",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/09-05-volwassenheidszelfbeoordeling/"
+    },
+    {
+     "number": "9.6",
+     "title": "Bronnen en verder lezen",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/09-06-bronnen-en-verder-lezen/"
+    },
+    {
+     "number": "9.7",
+     "title": "Index",
+     "url": "https://software-engineering-metrics.github.io/nl-001/chapters/09-07-index/"
+    }
+   ]
+  },
+  {
    "code": "pt-001",
    "label": "Português",
    "home": "https://software-engineering-metrics.github.io/pt-001/",

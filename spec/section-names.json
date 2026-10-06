@@ -113,6 +113,13 @@
       "contributing": "kontribusi",
       "project": "proyek"
     },
+    "ja-001": {
+      "chapters": "トピック",
+      "front-matter": "前付",
+      "examples": "例",
+      "contributing": "貢献",
+      "project": "プロジェクト"
+    },
     "ja-jp": {
       "chapters": "トピック",
       "front-matter": "前付",
@@ -120,12 +127,26 @@
       "contributing": "貢献",
       "project": "プロジェクト"
     },
+    "ko-001": {
+      "chapters": "주제",
+      "front-matter": "머리말",
+      "examples": "예시",
+      "contributing": "기여",
+      "project": "프로젝트"
+    },
     "ko-kr": {
       "chapters": "주제",
       "front-matter": "머리말",
       "examples": "예시",
       "contributing": "기여",
       "project": "프로젝트"
+    },
+    "nl-001": {
+      "chapters": "onderwerpen",
+      "front-matter": "voorwerk",
+      "examples": "voorbeelden",
+      "contributing": "bijdragen",
+      "project": "project"
     },
     "nl-nl": {
       "chapters": "onderwerpen",

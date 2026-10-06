@@ -1,0 +1,1902 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "ko-001",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-측정의-기초",
+          "title": "1부 소개: 측정의 기초",
+          "heading": "1.0 1부 소개: 측정의 기초",
+          "file": "chapters/01-00-측정의-기초.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-소프트웨어-공학을-왜-측정하는가",
+          "title": "소프트웨어 공학을 왜 측정하는가",
+          "heading": "1.1 소프트웨어 공학을 왜 측정하는가",
+          "file": "chapters/01-01-소프트웨어-공학을-왜-측정하는가.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-굿하트의-법칙과-메트릭의-심리학",
+          "title": "굿하트의 법칙과 메트릭의 심리학",
+          "heading": "1.2 굿하트의 법칙과 메트릭의 심리학",
+          "file": "chapters/01-02-굿하트의-법칙과-메트릭의-심리학.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-산출물보다-결과-무엇을-측정할지-선택하기",
+          "title": "산출물보다 결과: 무엇을 측정할지 선택하기",
+          "heading": "1.3 산출물보다 결과: 무엇을 측정할지 선택하기",
+          "file": "chapters/01-03-산출물보다-결과-무엇을-측정할지-선택하기.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-메트릭-거버넌스와-소유권",
+          "title": "메트릭 거버넌스와 소유권",
+          "heading": "1.4 메트릭 거버넌스와 소유권",
+          "file": "chapters/01-04-메트릭-거버넌스와-소유권.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-데이터-출처와-계측",
+          "title": "데이터 출처와 계측",
+          "heading": "1.5 데이터 출처와 계측",
+          "file": "chapters/01-05-데이터-출처와-계측.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-엔지니어링-메트릭을-위한-통계적-소양",
+          "title": "엔지니어링 메트릭을 위한 통계적 소양",
+          "heading": "1.6 엔지니어링 메트릭을 위한 통계적 소양",
+          "file": "chapters/01-06-엔지니어링-메트릭을-위한-통계적-소양.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-플로우-메트릭",
+          "title": "2부 소개: 플로우 메트릭",
+          "heading": "2.0 2부 소개: 플로우 메트릭",
+          "file": "chapters/02-00-플로우-메트릭.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-플로우-프레임워크",
+          "title": "플로우 프레임워크",
+          "heading": "2.1 플로우 프레임워크",
+          "file": "chapters/02-01-플로우-프레임워크.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-플로우-아이템-기능-결함-위험-부채",
+          "title": "플로우 아이템: 기능, 결함, 위험, 부채",
+          "heading": "2.2 플로우 아이템: 기능, 결함, 위험, 부채",
+          "file": "chapters/02-02-플로우-아이템-기능-결함-위험-부채.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-플로우-속도와-플로우-분포",
+          "title": "플로우 속도와 플로우 분포",
+          "heading": "2.3 플로우 속도와 플로우 분포",
+          "file": "chapters/02-03-플로우-속도와-플로우-분포.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-플로우-타임과-플로우-로드",
+          "title": "플로우 타임과 플로우 로드",
+          "heading": "2.4 플로우 타임과 플로우 로드",
+          "file": "chapters/02-04-플로우-타임과-플로우-로드.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-플로우-효율과-진행-중-작업",
+          "title": "플로우 효율과 진행 중 작업",
+          "heading": "2.5 플로우 효율과 진행 중 작업",
+          "file": "chapters/02-05-플로우-효율과-진행-중-작업.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-사이클-타임과-그-구성-요소",
+          "title": "사이클 타임과 그 구성 요소",
+          "heading": "2.6 사이클 타임과 그 구성 요소",
+          "file": "chapters/02-06-사이클-타임과-그-구성-요소.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-대기-행렬-이론",
+          "title": "대기 행렬 이론",
+          "heading": "2.7 대기 행렬 이론",
+          "file": "chapters/02-07-대기-행렬-이론.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-린-가치-흐름-메트릭",
+          "title": "린 가치 흐름 메트릭",
+          "heading": "2.8 린 가치 흐름 메트릭",
+          "file": "chapters/02-08-린-가치-흐름-메트릭.md"
+        },
+        {
+          "part": 2,
+          "chapter": 9,
+          "decimal": "2.9",
+          "slug": "02-09-풀-리퀘스트와-코드-리뷰-메트릭",
+          "title": "풀 리퀘스트와 코드 리뷰 메트릭",
+          "heading": "2.9 풀 리퀘스트와 코드 리뷰 메트릭",
+          "file": "chapters/02-09-풀-리퀘스트와-코드-리뷰-메트릭.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-DORA-메트릭-프레임워크",
+          "title": "DORA 메트릭 프레임워크",
+          "heading": "2.10 DORA 메트릭 프레임워크",
+          "file": "chapters/02-10-DORA-메트릭-프레임워크.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-개발자-경험과-SPACE",
+          "title": "3부 소개: 개발자 경험과 SPACE 프레임워크",
+          "heading": "3.0 3부 소개: 개발자 경험과 SPACE 프레임워크",
+          "file": "chapters/03-00-개발자-경험과-SPACE.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-SPACE-프레임워크",
+          "title": "SPACE 프레임워크",
+          "heading": "3.1 SPACE 프레임워크",
+          "file": "chapters/03-01-SPACE-프레임워크.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-만족도와-웰빙-메트릭",
+          "title": "만족도와 웰빙 메트릭",
+          "heading": "3.2 만족도와 웰빙 메트릭",
+          "file": "chapters/03-02-만족도와-웰빙-메트릭.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-성과-메트릭과-결과-대리-지표",
+          "title": "성과 메트릭과 결과 대리 지표",
+          "heading": "3.3 성과 메트릭과 결과 대리 지표",
+          "file": "chapters/03-03-성과-메트릭과-결과-대리-지표.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-활동-메트릭과-그-한계",
+          "title": "활동 메트릭과 그 한계",
+          "heading": "3.4 활동 메트릭과 그 한계",
+          "file": "chapters/03-04-활동-메트릭과-그-한계.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-소통과-협업-메트릭",
+          "title": "소통과 협업 메트릭",
+          "heading": "3.5 소통과 협업 메트릭",
+          "file": "chapters/03-05-소통과-협업-메트릭.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-효율과-플로우-깊은-작업과-방해",
+          "title": "효율과 플로우: 깊은 작업과 방해",
+          "heading": "3.6 효율과 플로우: 깊은 작업과 방해",
+          "file": "chapters/03-06-효율과-플로우-깊은-작업과-방해.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-개발자-경험-설문과-DevEx-메트릭",
+          "title": "개발자 경험 설문과 DevEx 메트릭",
+          "heading": "3.7 개발자 경험 설문과 DevEx 메트릭",
+          "file": "chapters/03-07-개발자-경험-설문과-DevEx-메트릭.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-코드와-품질-메트릭",
+          "title": "4부 소개: 코드와 품질 메트릭",
+          "heading": "4.0 4부 소개: 코드와 품질 메트릭",
+          "file": "chapters/04-00-코드와-품질-메트릭.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-코드-복잡도-메트릭",
+          "title": "코드 복잡도 메트릭",
+          "heading": "4.1 코드 복잡도 메트릭",
+          "file": "chapters/04-01-코드-복잡도-메트릭.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-테스트-커버리지와-테스트-효과성",
+          "title": "테스트 커버리지와 테스트 효과성",
+          "heading": "4.2 테스트 커버리지와 테스트 효과성",
+          "file": "chapters/04-02-테스트-커버리지와-테스트-효과성.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-코드-처닝과-핫스팟-분석",
+          "title": "코드 처닝과 핫스팟 분석",
+          "heading": "4.3 코드 처닝과 핫스팟 분석",
+          "file": "chapters/04-03-코드-처닝과-핫스팟-분석.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-정적-분석과-코드-스멜-메트릭",
+          "title": "정적 분석과 코드 스멜 메트릭",
+          "heading": "4.4 정적 분석과 코드 스멜 메트릭",
+          "file": "chapters/04-04-정적-분석과-코드-스멜-메트릭.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-기술-부채-측정",
+          "title": "기술 부채 측정",
+          "heading": "4.5 기술 부채 측정",
+          "file": "chapters/04-05-기술-부채-측정.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-문서화와-지식-메트릭",
+          "title": "문서화와 지식 메트릭",
+          "heading": "4.6 문서화와 지식 메트릭",
+          "file": "chapters/04-06-문서화와-지식-메트릭.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-제품과-비즈니스-메트릭",
+          "title": "5부 소개: 제품과 비즈니스 메트릭",
+          "heading": "5.0 5부 소개: 제품과 비즈니스 메트릭",
+          "file": "chapters/05-00-제품과-비즈니스-메트릭.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-누락된-결함률과-품질-누락",
+          "title": "누락된 결함률과 품질 누락",
+          "heading": "5.1 누락된 결함률과 품질 누락",
+          "file": "chapters/05-01-누락된-결함률과-품질-누락.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-기능-채택과-사용-메트릭",
+          "title": "기능 채택과 사용 메트릭",
+          "heading": "5.2 기능 채택과 사용 메트릭",
+          "file": "chapters/05-02-기능-채택과-사용-메트릭.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-고객과-비즈니스-결과-메트릭",
+          "title": "고객과 비즈니스 결과 메트릭",
+          "heading": "5.3 고객과 비즈니스 결과 메트릭",
+          "file": "chapters/05-03-고객과-비즈니스-결과-메트릭.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-엔지니어링의-비용과-단위-경제성",
+          "title": "엔지니어링의 비용과 단위 경제성",
+          "heading": "5.4 엔지니어링의 비용과 단위 경제성",
+          "file": "chapters/05-04-엔지니어링의-비용과-단위-경제성.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-엔지니어링-이니셔티브를-위한-투자-수익률",
+          "title": "엔지니어링 이니셔티브를 위한 투자 수익률",
+          "heading": "5.5 엔지니어링 이니셔티브를 위한 투자 수익률",
+          "file": "chapters/05-05-엔지니어링-이니셔티브를-위한-투자-수익률.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-신뢰성-운영-보안-메트릭",
+          "title": "6부 소개: 신뢰성, 운영, 보안 메트릭",
+          "heading": "6.0 6부 소개: 신뢰성, 운영, 보안 메트릭",
+          "file": "chapters/06-00-신뢰성-운영-보안-메트릭.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-서비스-수준-지표-목표-오류-예산",
+          "title": "서비스 수준 지표, 목표, 오류 예산",
+          "heading": "6.1 서비스 수준 지표, 목표, 오류 예산",
+          "file": "chapters/06-01-서비스-수준-지표-목표-오류-예산.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-인시던트-메트릭",
+          "title": "인시던트 메트릭: 감지, 대응, 복구",
+          "heading": "6.2 인시던트 메트릭: 감지, 대응, 복구",
+          "file": "chapters/06-02-인시던트-메트릭.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-온콜-용량-운영-부담-메트릭",
+          "title": "온콜, 용량, 운영 부담 메트릭",
+          "heading": "6.3 온콜, 용량, 운영 부담 메트릭",
+          "file": "chapters/06-03-온콜-용량-운영-부담-메트릭.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-보안과-취약점-관리-메트릭",
+          "title": "보안과 취약점 관리 메트릭",
+          "heading": "6.4 보안과 취약점 관리 메트릭",
+          "file": "chapters/06-04-보안과-취약점-관리-메트릭.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-AI-시대의-메트릭",
+          "title": "7부 소개: AI 시대의 메트릭",
+          "heading": "7.0 7부 소개: AI 시대의 메트릭",
+          "file": "chapters/07-00-AI-시대의-메트릭.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-생성형-AI-패러다임-전환",
+          "title": "생성형 AI 패러다임 전환",
+          "heading": "7.1 생성형 AI 패러다임 전환",
+          "file": "chapters/07-01-생성형-AI-패러다임-전환.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-AI-지원-소프트웨어-개발-측정하기",
+          "title": "AI 지원 소프트웨어 개발 측정하기",
+          "heading": "7.2 AI 지원 소프트웨어 개발 측정하기",
+          "file": "chapters/07-02-AI-지원-소프트웨어-개발-측정하기.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-메트릭-부풀림과-품질-희석-위험",
+          "title": "메트릭 부풀림과 품질 희석 위험",
+          "heading": "7.3 메트릭 부풀림과 품질 희석 위험",
+          "file": "chapters/07-03-메트릭-부풀림과-품질-희석-위험.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-새로운-북극성으로서의-결과-원격-측정",
+          "title": "새로운 북극성으로서의 결과 원격 측정",
+          "heading": "7.4 새로운 북극성으로서의 결과 원격 측정",
+          "file": "chapters/07-04-새로운-북극성으로서의-결과-원격-측정.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-메트릭-프로그램-구축하기",
+          "title": "8부 소개: 메트릭 프로그램 구축하기",
+          "heading": "8.0 8부 소개: 메트릭 프로그램 구축하기",
+          "file": "chapters/08-00-메트릭-프로그램-구축하기.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-엔지니어링-메트릭-대시보드-설계하기",
+          "title": "엔지니어링 메트릭 대시보드 설계하기",
+          "heading": "8.1 엔지니어링 메트릭 대시보드 설계하기",
+          "file": "chapters/08-01-엔지니어링-메트릭-대시보드-설계하기.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-도구-환경-구축-대-구매",
+          "title": "도구 환경: 구축 대 구매",
+          "heading": "8.2 도구 환경: 구축 대 구매",
+          "file": "chapters/08-02-도구-환경-구축-대-구매.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-두려움을-키우지-않고-메트릭-롤아웃하기",
+          "title": "두려움을 키우지 않고 메트릭 롤아웃하기",
+          "heading": "8.3 두려움을 키우지 않고 메트릭 롤아웃하기",
+          "file": "chapters/08-03-두려움을-키우지-않고-메트릭-롤아웃하기.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-엔지니어링-메트릭-프로그램을-위한-성숙도-모델",
+          "title": "엔지니어링 메트릭 프로그램을 위한 성숙도 모델",
+          "heading": "8.4 엔지니어링 메트릭 프로그램을 위한 성숙도 모델",
+          "file": "chapters/08-04-엔지니어링-메트릭-프로그램을-위한-성숙도-모델.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-점진적-채택-로드맵",
+          "title": "점진적 채택 로드맵",
+          "heading": "8.5 점진적 채택 로드맵",
+          "file": "chapters/08-05-점진적-채택-로드맵.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-부록",
+          "title": "부록",
+          "heading": "9.0 부록",
+          "file": "chapters/09-00-부록.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-용어집",
+          "title": "용어집",
+          "heading": "9.1 용어집",
+          "file": "chapters/09-01-용어집.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-메트릭-정의-및-공식-참조",
+          "title": "메트릭 정의 및 공식 참조",
+          "heading": "9.2 메트릭 정의 및 공식 참조",
+          "file": "chapters/09-02-메트릭-정의-및-공식-참조.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-체크리스트",
+          "title": "체크리스트",
+          "heading": "9.3 체크리스트",
+          "file": "chapters/09-03-체크리스트.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-템플릿",
+          "title": "템플릿",
+          "heading": "9.4 템플릿",
+          "file": "chapters/09-04-템플릿.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-성숙도-자가-평가",
+          "title": "성숙도 자가 평가",
+          "heading": "9.5 성숙도 자가 평가",
+          "file": "chapters/09-05-성숙도-자가-평가.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-참고-문헌-및-추가-자료",
+          "title": "참고 문헌 및 추가 자료",
+          "heading": "9.6 참고 문헌 및 추가 자료",
+          "file": "chapters/09-06-참고-문헌-및-추가-자료.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-색인",
+          "title": "색인",
+          "heading": "9.7 색인",
+          "file": "chapters/09-07-색인.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-측정의-기초",
+      "title": "1부 소개: 측정의 기초",
+      "heading": "1.0 1부 소개: 측정의 기초",
+      "file": "chapters/01-00-측정의-기초.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-소프트웨어-공학을-왜-측정하는가",
+      "title": "소프트웨어 공학을 왜 측정하는가",
+      "heading": "1.1 소프트웨어 공학을 왜 측정하는가",
+      "file": "chapters/01-01-소프트웨어-공학을-왜-측정하는가.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-굿하트의-법칙과-메트릭의-심리학",
+      "title": "굿하트의 법칙과 메트릭의 심리학",
+      "heading": "1.2 굿하트의 법칙과 메트릭의 심리학",
+      "file": "chapters/01-02-굿하트의-법칙과-메트릭의-심리학.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-산출물보다-결과-무엇을-측정할지-선택하기",
+      "title": "산출물보다 결과: 무엇을 측정할지 선택하기",
+      "heading": "1.3 산출물보다 결과: 무엇을 측정할지 선택하기",
+      "file": "chapters/01-03-산출물보다-결과-무엇을-측정할지-선택하기.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-메트릭-거버넌스와-소유권",
+      "title": "메트릭 거버넌스와 소유권",
+      "heading": "1.4 메트릭 거버넌스와 소유권",
+      "file": "chapters/01-04-메트릭-거버넌스와-소유권.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-데이터-출처와-계측",
+      "title": "데이터 출처와 계측",
+      "heading": "1.5 데이터 출처와 계측",
+      "file": "chapters/01-05-데이터-출처와-계측.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-엔지니어링-메트릭을-위한-통계적-소양",
+      "title": "엔지니어링 메트릭을 위한 통계적 소양",
+      "heading": "1.6 엔지니어링 메트릭을 위한 통계적 소양",
+      "file": "chapters/01-06-엔지니어링-메트릭을-위한-통계적-소양.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-플로우-메트릭",
+      "title": "2부 소개: 플로우 메트릭",
+      "heading": "2.0 2부 소개: 플로우 메트릭",
+      "file": "chapters/02-00-플로우-메트릭.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-플로우-프레임워크",
+      "title": "플로우 프레임워크",
+      "heading": "2.1 플로우 프레임워크",
+      "file": "chapters/02-01-플로우-프레임워크.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-플로우-아이템-기능-결함-위험-부채",
+      "title": "플로우 아이템: 기능, 결함, 위험, 부채",
+      "heading": "2.2 플로우 아이템: 기능, 결함, 위험, 부채",
+      "file": "chapters/02-02-플로우-아이템-기능-결함-위험-부채.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-플로우-속도와-플로우-분포",
+      "title": "플로우 속도와 플로우 분포",
+      "heading": "2.3 플로우 속도와 플로우 분포",
+      "file": "chapters/02-03-플로우-속도와-플로우-분포.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-플로우-타임과-플로우-로드",
+      "title": "플로우 타임과 플로우 로드",
+      "heading": "2.4 플로우 타임과 플로우 로드",
+      "file": "chapters/02-04-플로우-타임과-플로우-로드.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-플로우-효율과-진행-중-작업",
+      "title": "플로우 효율과 진행 중 작업",
+      "heading": "2.5 플로우 효율과 진행 중 작업",
+      "file": "chapters/02-05-플로우-효율과-진행-중-작업.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-사이클-타임과-그-구성-요소",
+      "title": "사이클 타임과 그 구성 요소",
+      "heading": "2.6 사이클 타임과 그 구성 요소",
+      "file": "chapters/02-06-사이클-타임과-그-구성-요소.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-대기-행렬-이론",
+      "title": "대기 행렬 이론",
+      "heading": "2.7 대기 행렬 이론",
+      "file": "chapters/02-07-대기-행렬-이론.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-린-가치-흐름-메트릭",
+      "title": "린 가치 흐름 메트릭",
+      "heading": "2.8 린 가치 흐름 메트릭",
+      "file": "chapters/02-08-린-가치-흐름-메트릭.md"
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-풀-리퀘스트와-코드-리뷰-메트릭",
+      "title": "풀 리퀘스트와 코드 리뷰 메트릭",
+      "heading": "2.9 풀 리퀘스트와 코드 리뷰 메트릭",
+      "file": "chapters/02-09-풀-리퀘스트와-코드-리뷰-메트릭.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-DORA-메트릭-프레임워크",
+      "title": "DORA 메트릭 프레임워크",
+      "heading": "2.10 DORA 메트릭 프레임워크",
+      "file": "chapters/02-10-DORA-메트릭-프레임워크.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-개발자-경험과-SPACE",
+      "title": "3부 소개: 개발자 경험과 SPACE 프레임워크",
+      "heading": "3.0 3부 소개: 개발자 경험과 SPACE 프레임워크",
+      "file": "chapters/03-00-개발자-경험과-SPACE.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-SPACE-프레임워크",
+      "title": "SPACE 프레임워크",
+      "heading": "3.1 SPACE 프레임워크",
+      "file": "chapters/03-01-SPACE-프레임워크.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-만족도와-웰빙-메트릭",
+      "title": "만족도와 웰빙 메트릭",
+      "heading": "3.2 만족도와 웰빙 메트릭",
+      "file": "chapters/03-02-만족도와-웰빙-메트릭.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-성과-메트릭과-결과-대리-지표",
+      "title": "성과 메트릭과 결과 대리 지표",
+      "heading": "3.3 성과 메트릭과 결과 대리 지표",
+      "file": "chapters/03-03-성과-메트릭과-결과-대리-지표.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-활동-메트릭과-그-한계",
+      "title": "활동 메트릭과 그 한계",
+      "heading": "3.4 활동 메트릭과 그 한계",
+      "file": "chapters/03-04-활동-메트릭과-그-한계.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-소통과-협업-메트릭",
+      "title": "소통과 협업 메트릭",
+      "heading": "3.5 소통과 협업 메트릭",
+      "file": "chapters/03-05-소통과-협업-메트릭.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-효율과-플로우-깊은-작업과-방해",
+      "title": "효율과 플로우: 깊은 작업과 방해",
+      "heading": "3.6 효율과 플로우: 깊은 작업과 방해",
+      "file": "chapters/03-06-효율과-플로우-깊은-작업과-방해.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-개발자-경험-설문과-DevEx-메트릭",
+      "title": "개발자 경험 설문과 DevEx 메트릭",
+      "heading": "3.7 개발자 경험 설문과 DevEx 메트릭",
+      "file": "chapters/03-07-개발자-경험-설문과-DevEx-메트릭.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-코드와-품질-메트릭",
+      "title": "4부 소개: 코드와 품질 메트릭",
+      "heading": "4.0 4부 소개: 코드와 품질 메트릭",
+      "file": "chapters/04-00-코드와-품질-메트릭.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-코드-복잡도-메트릭",
+      "title": "코드 복잡도 메트릭",
+      "heading": "4.1 코드 복잡도 메트릭",
+      "file": "chapters/04-01-코드-복잡도-메트릭.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-테스트-커버리지와-테스트-효과성",
+      "title": "테스트 커버리지와 테스트 효과성",
+      "heading": "4.2 테스트 커버리지와 테스트 효과성",
+      "file": "chapters/04-02-테스트-커버리지와-테스트-효과성.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-코드-처닝과-핫스팟-분석",
+      "title": "코드 처닝과 핫스팟 분석",
+      "heading": "4.3 코드 처닝과 핫스팟 분석",
+      "file": "chapters/04-03-코드-처닝과-핫스팟-분석.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-정적-분석과-코드-스멜-메트릭",
+      "title": "정적 분석과 코드 스멜 메트릭",
+      "heading": "4.4 정적 분석과 코드 스멜 메트릭",
+      "file": "chapters/04-04-정적-분석과-코드-스멜-메트릭.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-기술-부채-측정",
+      "title": "기술 부채 측정",
+      "heading": "4.5 기술 부채 측정",
+      "file": "chapters/04-05-기술-부채-측정.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-문서화와-지식-메트릭",
+      "title": "문서화와 지식 메트릭",
+      "heading": "4.6 문서화와 지식 메트릭",
+      "file": "chapters/04-06-문서화와-지식-메트릭.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-제품과-비즈니스-메트릭",
+      "title": "5부 소개: 제품과 비즈니스 메트릭",
+      "heading": "5.0 5부 소개: 제품과 비즈니스 메트릭",
+      "file": "chapters/05-00-제품과-비즈니스-메트릭.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-누락된-결함률과-품질-누락",
+      "title": "누락된 결함률과 품질 누락",
+      "heading": "5.1 누락된 결함률과 품질 누락",
+      "file": "chapters/05-01-누락된-결함률과-품질-누락.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-기능-채택과-사용-메트릭",
+      "title": "기능 채택과 사용 메트릭",
+      "heading": "5.2 기능 채택과 사용 메트릭",
+      "file": "chapters/05-02-기능-채택과-사용-메트릭.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-고객과-비즈니스-결과-메트릭",
+      "title": "고객과 비즈니스 결과 메트릭",
+      "heading": "5.3 고객과 비즈니스 결과 메트릭",
+      "file": "chapters/05-03-고객과-비즈니스-결과-메트릭.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-엔지니어링의-비용과-단위-경제성",
+      "title": "엔지니어링의 비용과 단위 경제성",
+      "heading": "5.4 엔지니어링의 비용과 단위 경제성",
+      "file": "chapters/05-04-엔지니어링의-비용과-단위-경제성.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-엔지니어링-이니셔티브를-위한-투자-수익률",
+      "title": "엔지니어링 이니셔티브를 위한 투자 수익률",
+      "heading": "5.5 엔지니어링 이니셔티브를 위한 투자 수익률",
+      "file": "chapters/05-05-엔지니어링-이니셔티브를-위한-투자-수익률.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-신뢰성-운영-보안-메트릭",
+      "title": "6부 소개: 신뢰성, 운영, 보안 메트릭",
+      "heading": "6.0 6부 소개: 신뢰성, 운영, 보안 메트릭",
+      "file": "chapters/06-00-신뢰성-운영-보안-메트릭.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-서비스-수준-지표-목표-오류-예산",
+      "title": "서비스 수준 지표, 목표, 오류 예산",
+      "heading": "6.1 서비스 수준 지표, 목표, 오류 예산",
+      "file": "chapters/06-01-서비스-수준-지표-목표-오류-예산.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-인시던트-메트릭",
+      "title": "인시던트 메트릭: 감지, 대응, 복구",
+      "heading": "6.2 인시던트 메트릭: 감지, 대응, 복구",
+      "file": "chapters/06-02-인시던트-메트릭.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-온콜-용량-운영-부담-메트릭",
+      "title": "온콜, 용량, 운영 부담 메트릭",
+      "heading": "6.3 온콜, 용량, 운영 부담 메트릭",
+      "file": "chapters/06-03-온콜-용량-운영-부담-메트릭.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-보안과-취약점-관리-메트릭",
+      "title": "보안과 취약점 관리 메트릭",
+      "heading": "6.4 보안과 취약점 관리 메트릭",
+      "file": "chapters/06-04-보안과-취약점-관리-메트릭.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-AI-시대의-메트릭",
+      "title": "7부 소개: AI 시대의 메트릭",
+      "heading": "7.0 7부 소개: AI 시대의 메트릭",
+      "file": "chapters/07-00-AI-시대의-메트릭.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-생성형-AI-패러다임-전환",
+      "title": "생성형 AI 패러다임 전환",
+      "heading": "7.1 생성형 AI 패러다임 전환",
+      "file": "chapters/07-01-생성형-AI-패러다임-전환.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-AI-지원-소프트웨어-개발-측정하기",
+      "title": "AI 지원 소프트웨어 개발 측정하기",
+      "heading": "7.2 AI 지원 소프트웨어 개발 측정하기",
+      "file": "chapters/07-02-AI-지원-소프트웨어-개발-측정하기.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-메트릭-부풀림과-품질-희석-위험",
+      "title": "메트릭 부풀림과 품질 희석 위험",
+      "heading": "7.3 메트릭 부풀림과 품질 희석 위험",
+      "file": "chapters/07-03-메트릭-부풀림과-품질-희석-위험.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-새로운-북극성으로서의-결과-원격-측정",
+      "title": "새로운 북극성으로서의 결과 원격 측정",
+      "heading": "7.4 새로운 북극성으로서의 결과 원격 측정",
+      "file": "chapters/07-04-새로운-북극성으로서의-결과-원격-측정.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-메트릭-프로그램-구축하기",
+      "title": "8부 소개: 메트릭 프로그램 구축하기",
+      "heading": "8.0 8부 소개: 메트릭 프로그램 구축하기",
+      "file": "chapters/08-00-메트릭-프로그램-구축하기.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-엔지니어링-메트릭-대시보드-설계하기",
+      "title": "엔지니어링 메트릭 대시보드 설계하기",
+      "heading": "8.1 엔지니어링 메트릭 대시보드 설계하기",
+      "file": "chapters/08-01-엔지니어링-메트릭-대시보드-설계하기.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-도구-환경-구축-대-구매",
+      "title": "도구 환경: 구축 대 구매",
+      "heading": "8.2 도구 환경: 구축 대 구매",
+      "file": "chapters/08-02-도구-환경-구축-대-구매.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-두려움을-키우지-않고-메트릭-롤아웃하기",
+      "title": "두려움을 키우지 않고 메트릭 롤아웃하기",
+      "heading": "8.3 두려움을 키우지 않고 메트릭 롤아웃하기",
+      "file": "chapters/08-03-두려움을-키우지-않고-메트릭-롤아웃하기.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-엔지니어링-메트릭-프로그램을-위한-성숙도-모델",
+      "title": "엔지니어링 메트릭 프로그램을 위한 성숙도 모델",
+      "heading": "8.4 엔지니어링 메트릭 프로그램을 위한 성숙도 모델",
+      "file": "chapters/08-04-엔지니어링-메트릭-프로그램을-위한-성숙도-모델.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-점진적-채택-로드맵",
+      "title": "점진적 채택 로드맵",
+      "heading": "8.5 점진적 채택 로드맵",
+      "file": "chapters/08-05-점진적-채택-로드맵.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-부록",
+      "title": "부록",
+      "heading": "9.0 부록",
+      "file": "chapters/09-00-부록.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-용어집",
+      "title": "용어집",
+      "heading": "9.1 용어집",
+      "file": "chapters/09-01-용어집.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-메트릭-정의-및-공식-참조",
+      "title": "메트릭 정의 및 공식 참조",
+      "heading": "9.2 메트릭 정의 및 공식 참조",
+      "file": "chapters/09-02-메트릭-정의-및-공식-참조.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-체크리스트",
+      "title": "체크리스트",
+      "heading": "9.3 체크리스트",
+      "file": "chapters/09-03-체크리스트.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-템플릿",
+      "title": "템플릿",
+      "heading": "9.4 템플릿",
+      "file": "chapters/09-04-템플릿.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-성숙도-자가-평가",
+      "title": "성숙도 자가 평가",
+      "heading": "9.5 성숙도 자가 평가",
+      "file": "chapters/09-05-성숙도-자가-평가.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-참고-문헌-및-추가-자료",
+      "title": "참고 문헌 및 추가 자료",
+      "heading": "9.6 참고 문헌 및 추가 자료",
+      "file": "chapters/09-06-참고-문헌-및-추가-자료.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-색인",
+      "title": "색인",
+      "heading": "9.7 색인",
+      "file": "chapters/09-07-색인.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-측정의-기초",
+      "title": "1부 소개: 측정의 기초",
+      "heading": "1.0 1부 소개: 측정의 기초",
+      "file": "chapters/01-00-측정의-기초.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-소프트웨어-공학을-왜-측정하는가",
+      "title": "소프트웨어 공학을 왜 측정하는가",
+      "heading": "1.1 소프트웨어 공학을 왜 측정하는가",
+      "file": "chapters/01-01-소프트웨어-공학을-왜-측정하는가.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-굿하트의-법칙과-메트릭의-심리학",
+      "title": "굿하트의 법칙과 메트릭의 심리학",
+      "heading": "1.2 굿하트의 법칙과 메트릭의 심리학",
+      "file": "chapters/01-02-굿하트의-법칙과-메트릭의-심리학.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-산출물보다-결과-무엇을-측정할지-선택하기",
+      "title": "산출물보다 결과: 무엇을 측정할지 선택하기",
+      "heading": "1.3 산출물보다 결과: 무엇을 측정할지 선택하기",
+      "file": "chapters/01-03-산출물보다-결과-무엇을-측정할지-선택하기.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-메트릭-거버넌스와-소유권",
+      "title": "메트릭 거버넌스와 소유권",
+      "heading": "1.4 메트릭 거버넌스와 소유권",
+      "file": "chapters/01-04-메트릭-거버넌스와-소유권.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-데이터-출처와-계측",
+      "title": "데이터 출처와 계측",
+      "heading": "1.5 데이터 출처와 계측",
+      "file": "chapters/01-05-데이터-출처와-계측.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-엔지니어링-메트릭을-위한-통계적-소양",
+      "title": "엔지니어링 메트릭을 위한 통계적 소양",
+      "heading": "1.6 엔지니어링 메트릭을 위한 통계적 소양",
+      "file": "chapters/01-06-엔지니어링-메트릭을-위한-통계적-소양.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-플로우-메트릭",
+      "title": "2부 소개: 플로우 메트릭",
+      "heading": "2.0 2부 소개: 플로우 메트릭",
+      "file": "chapters/02-00-플로우-메트릭.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-플로우-프레임워크",
+      "title": "플로우 프레임워크",
+      "heading": "2.1 플로우 프레임워크",
+      "file": "chapters/02-01-플로우-프레임워크.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-플로우-아이템-기능-결함-위험-부채",
+      "title": "플로우 아이템: 기능, 결함, 위험, 부채",
+      "heading": "2.2 플로우 아이템: 기능, 결함, 위험, 부채",
+      "file": "chapters/02-02-플로우-아이템-기능-결함-위험-부채.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-플로우-속도와-플로우-분포",
+      "title": "플로우 속도와 플로우 분포",
+      "heading": "2.3 플로우 속도와 플로우 분포",
+      "file": "chapters/02-03-플로우-속도와-플로우-분포.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-플로우-타임과-플로우-로드",
+      "title": "플로우 타임과 플로우 로드",
+      "heading": "2.4 플로우 타임과 플로우 로드",
+      "file": "chapters/02-04-플로우-타임과-플로우-로드.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-플로우-효율과-진행-중-작업",
+      "title": "플로우 효율과 진행 중 작업",
+      "heading": "2.5 플로우 효율과 진행 중 작업",
+      "file": "chapters/02-05-플로우-효율과-진행-중-작업.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-사이클-타임과-그-구성-요소",
+      "title": "사이클 타임과 그 구성 요소",
+      "heading": "2.6 사이클 타임과 그 구성 요소",
+      "file": "chapters/02-06-사이클-타임과-그-구성-요소.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-대기-행렬-이론",
+      "title": "대기 행렬 이론",
+      "heading": "2.7 대기 행렬 이론",
+      "file": "chapters/02-07-대기-행렬-이론.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-린-가치-흐름-메트릭",
+      "title": "린 가치 흐름 메트릭",
+      "heading": "2.8 린 가치 흐름 메트릭",
+      "file": "chapters/02-08-린-가치-흐름-메트릭.md"
+    },
+    "2.9": {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-풀-리퀘스트와-코드-리뷰-메트릭",
+      "title": "풀 리퀘스트와 코드 리뷰 메트릭",
+      "heading": "2.9 풀 리퀘스트와 코드 리뷰 메트릭",
+      "file": "chapters/02-09-풀-리퀘스트와-코드-리뷰-메트릭.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-DORA-메트릭-프레임워크",
+      "title": "DORA 메트릭 프레임워크",
+      "heading": "2.10 DORA 메트릭 프레임워크",
+      "file": "chapters/02-10-DORA-메트릭-프레임워크.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-개발자-경험과-SPACE",
+      "title": "3부 소개: 개발자 경험과 SPACE 프레임워크",
+      "heading": "3.0 3부 소개: 개발자 경험과 SPACE 프레임워크",
+      "file": "chapters/03-00-개발자-경험과-SPACE.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-SPACE-프레임워크",
+      "title": "SPACE 프레임워크",
+      "heading": "3.1 SPACE 프레임워크",
+      "file": "chapters/03-01-SPACE-프레임워크.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-만족도와-웰빙-메트릭",
+      "title": "만족도와 웰빙 메트릭",
+      "heading": "3.2 만족도와 웰빙 메트릭",
+      "file": "chapters/03-02-만족도와-웰빙-메트릭.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-성과-메트릭과-결과-대리-지표",
+      "title": "성과 메트릭과 결과 대리 지표",
+      "heading": "3.3 성과 메트릭과 결과 대리 지표",
+      "file": "chapters/03-03-성과-메트릭과-결과-대리-지표.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-활동-메트릭과-그-한계",
+      "title": "활동 메트릭과 그 한계",
+      "heading": "3.4 활동 메트릭과 그 한계",
+      "file": "chapters/03-04-활동-메트릭과-그-한계.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-소통과-협업-메트릭",
+      "title": "소통과 협업 메트릭",
+      "heading": "3.5 소통과 협업 메트릭",
+      "file": "chapters/03-05-소통과-협업-메트릭.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-효율과-플로우-깊은-작업과-방해",
+      "title": "효율과 플로우: 깊은 작업과 방해",
+      "heading": "3.6 효율과 플로우: 깊은 작업과 방해",
+      "file": "chapters/03-06-효율과-플로우-깊은-작업과-방해.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-개발자-경험-설문과-DevEx-메트릭",
+      "title": "개발자 경험 설문과 DevEx 메트릭",
+      "heading": "3.7 개발자 경험 설문과 DevEx 메트릭",
+      "file": "chapters/03-07-개발자-경험-설문과-DevEx-메트릭.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-코드와-품질-메트릭",
+      "title": "4부 소개: 코드와 품질 메트릭",
+      "heading": "4.0 4부 소개: 코드와 품질 메트릭",
+      "file": "chapters/04-00-코드와-품질-메트릭.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-코드-복잡도-메트릭",
+      "title": "코드 복잡도 메트릭",
+      "heading": "4.1 코드 복잡도 메트릭",
+      "file": "chapters/04-01-코드-복잡도-메트릭.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-테스트-커버리지와-테스트-효과성",
+      "title": "테스트 커버리지와 테스트 효과성",
+      "heading": "4.2 테스트 커버리지와 테스트 효과성",
+      "file": "chapters/04-02-테스트-커버리지와-테스트-효과성.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-코드-처닝과-핫스팟-분석",
+      "title": "코드 처닝과 핫스팟 분석",
+      "heading": "4.3 코드 처닝과 핫스팟 분석",
+      "file": "chapters/04-03-코드-처닝과-핫스팟-분석.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-정적-분석과-코드-스멜-메트릭",
+      "title": "정적 분석과 코드 스멜 메트릭",
+      "heading": "4.4 정적 분석과 코드 스멜 메트릭",
+      "file": "chapters/04-04-정적-분석과-코드-스멜-메트릭.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-기술-부채-측정",
+      "title": "기술 부채 측정",
+      "heading": "4.5 기술 부채 측정",
+      "file": "chapters/04-05-기술-부채-측정.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-문서화와-지식-메트릭",
+      "title": "문서화와 지식 메트릭",
+      "heading": "4.6 문서화와 지식 메트릭",
+      "file": "chapters/04-06-문서화와-지식-메트릭.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-제품과-비즈니스-메트릭",
+      "title": "5부 소개: 제품과 비즈니스 메트릭",
+      "heading": "5.0 5부 소개: 제품과 비즈니스 메트릭",
+      "file": "chapters/05-00-제품과-비즈니스-메트릭.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-누락된-결함률과-품질-누락",
+      "title": "누락된 결함률과 품질 누락",
+      "heading": "5.1 누락된 결함률과 품질 누락",
+      "file": "chapters/05-01-누락된-결함률과-품질-누락.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-기능-채택과-사용-메트릭",
+      "title": "기능 채택과 사용 메트릭",
+      "heading": "5.2 기능 채택과 사용 메트릭",
+      "file": "chapters/05-02-기능-채택과-사용-메트릭.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-고객과-비즈니스-결과-메트릭",
+      "title": "고객과 비즈니스 결과 메트릭",
+      "heading": "5.3 고객과 비즈니스 결과 메트릭",
+      "file": "chapters/05-03-고객과-비즈니스-결과-메트릭.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-엔지니어링의-비용과-단위-경제성",
+      "title": "엔지니어링의 비용과 단위 경제성",
+      "heading": "5.4 엔지니어링의 비용과 단위 경제성",
+      "file": "chapters/05-04-엔지니어링의-비용과-단위-경제성.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-엔지니어링-이니셔티브를-위한-투자-수익률",
+      "title": "엔지니어링 이니셔티브를 위한 투자 수익률",
+      "heading": "5.5 엔지니어링 이니셔티브를 위한 투자 수익률",
+      "file": "chapters/05-05-엔지니어링-이니셔티브를-위한-투자-수익률.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-신뢰성-운영-보안-메트릭",
+      "title": "6부 소개: 신뢰성, 운영, 보안 메트릭",
+      "heading": "6.0 6부 소개: 신뢰성, 운영, 보안 메트릭",
+      "file": "chapters/06-00-신뢰성-운영-보안-메트릭.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-서비스-수준-지표-목표-오류-예산",
+      "title": "서비스 수준 지표, 목표, 오류 예산",
+      "heading": "6.1 서비스 수준 지표, 목표, 오류 예산",
+      "file": "chapters/06-01-서비스-수준-지표-목표-오류-예산.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-인시던트-메트릭",
+      "title": "인시던트 메트릭: 감지, 대응, 복구",
+      "heading": "6.2 인시던트 메트릭: 감지, 대응, 복구",
+      "file": "chapters/06-02-인시던트-메트릭.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-온콜-용량-운영-부담-메트릭",
+      "title": "온콜, 용량, 운영 부담 메트릭",
+      "heading": "6.3 온콜, 용량, 운영 부담 메트릭",
+      "file": "chapters/06-03-온콜-용량-운영-부담-메트릭.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-보안과-취약점-관리-메트릭",
+      "title": "보안과 취약점 관리 메트릭",
+      "heading": "6.4 보안과 취약점 관리 메트릭",
+      "file": "chapters/06-04-보안과-취약점-관리-메트릭.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-AI-시대의-메트릭",
+      "title": "7부 소개: AI 시대의 메트릭",
+      "heading": "7.0 7부 소개: AI 시대의 메트릭",
+      "file": "chapters/07-00-AI-시대의-메트릭.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-생성형-AI-패러다임-전환",
+      "title": "생성형 AI 패러다임 전환",
+      "heading": "7.1 생성형 AI 패러다임 전환",
+      "file": "chapters/07-01-생성형-AI-패러다임-전환.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-AI-지원-소프트웨어-개발-측정하기",
+      "title": "AI 지원 소프트웨어 개발 측정하기",
+      "heading": "7.2 AI 지원 소프트웨어 개발 측정하기",
+      "file": "chapters/07-02-AI-지원-소프트웨어-개발-측정하기.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-메트릭-부풀림과-품질-희석-위험",
+      "title": "메트릭 부풀림과 품질 희석 위험",
+      "heading": "7.3 메트릭 부풀림과 품질 희석 위험",
+      "file": "chapters/07-03-메트릭-부풀림과-품질-희석-위험.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-새로운-북극성으로서의-결과-원격-측정",
+      "title": "새로운 북극성으로서의 결과 원격 측정",
+      "heading": "7.4 새로운 북극성으로서의 결과 원격 측정",
+      "file": "chapters/07-04-새로운-북극성으로서의-결과-원격-측정.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-메트릭-프로그램-구축하기",
+      "title": "8부 소개: 메트릭 프로그램 구축하기",
+      "heading": "8.0 8부 소개: 메트릭 프로그램 구축하기",
+      "file": "chapters/08-00-메트릭-프로그램-구축하기.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-엔지니어링-메트릭-대시보드-설계하기",
+      "title": "엔지니어링 메트릭 대시보드 설계하기",
+      "heading": "8.1 엔지니어링 메트릭 대시보드 설계하기",
+      "file": "chapters/08-01-엔지니어링-메트릭-대시보드-설계하기.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-도구-환경-구축-대-구매",
+      "title": "도구 환경: 구축 대 구매",
+      "heading": "8.2 도구 환경: 구축 대 구매",
+      "file": "chapters/08-02-도구-환경-구축-대-구매.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-두려움을-키우지-않고-메트릭-롤아웃하기",
+      "title": "두려움을 키우지 않고 메트릭 롤아웃하기",
+      "heading": "8.3 두려움을 키우지 않고 메트릭 롤아웃하기",
+      "file": "chapters/08-03-두려움을-키우지-않고-메트릭-롤아웃하기.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-엔지니어링-메트릭-프로그램을-위한-성숙도-모델",
+      "title": "엔지니어링 메트릭 프로그램을 위한 성숙도 모델",
+      "heading": "8.4 엔지니어링 메트릭 프로그램을 위한 성숙도 모델",
+      "file": "chapters/08-04-엔지니어링-메트릭-프로그램을-위한-성숙도-모델.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-점진적-채택-로드맵",
+      "title": "점진적 채택 로드맵",
+      "heading": "8.5 점진적 채택 로드맵",
+      "file": "chapters/08-05-점진적-채택-로드맵.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-부록",
+      "title": "부록",
+      "heading": "9.0 부록",
+      "file": "chapters/09-00-부록.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-용어집",
+      "title": "용어집",
+      "heading": "9.1 용어집",
+      "file": "chapters/09-01-용어집.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-메트릭-정의-및-공식-참조",
+      "title": "메트릭 정의 및 공식 참조",
+      "heading": "9.2 메트릭 정의 및 공식 참조",
+      "file": "chapters/09-02-메트릭-정의-및-공식-참조.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-체크리스트",
+      "title": "체크리스트",
+      "heading": "9.3 체크리스트",
+      "file": "chapters/09-03-체크리스트.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-템플릿",
+      "title": "템플릿",
+      "heading": "9.4 템플릿",
+      "file": "chapters/09-04-템플릿.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-성숙도-자가-평가",
+      "title": "성숙도 자가 평가",
+      "heading": "9.5 성숙도 자가 평가",
+      "file": "chapters/09-05-성숙도-자가-평가.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-참고-문헌-및-추가-자료",
+      "title": "참고 문헌 및 추가 자료",
+      "heading": "9.6 참고 문헌 및 추가 자료",
+      "file": "chapters/09-06-참고-문헌-및-추가-자료.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-색인",
+      "title": "색인",
+      "heading": "9.7 색인",
+      "file": "chapters/09-07-색인.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "서론",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "목차",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "소프트웨어 엔지니어링 메트릭이란 무엇인가",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "예시: 전달 메트릭 대시보드의 대시보드 명세",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "예시: 결제 플랫폼 팀의 메트릭 헌장",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "집필: 주제 쓰고 편집하기",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "주제 템플릿(공유)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "내비게이션: 생성 파일이 작동하는 방식",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "부 색인(공유 참조)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "스타일 규칙(공유, 강제 가능)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "테스트: 검증 스위트",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "변경 이력",
+      "file": "project/changelog.md"
+    }
+  ],
+  "totals": {
+    "parts": 9,
+    "chapters": 63
+  }
+}

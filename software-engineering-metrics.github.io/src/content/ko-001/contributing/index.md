@@ -1,0 +1,55 @@
+# 기여
+
+이 책을 개선하는 데 도움을 주셔서 감사하다. 오타 수정부터 새 주제 집필까지 모든 규모의 기여를 환영한다.
+
+## 기본 규칙
+
+이 책은 엄격한 하우스 스타일을 따른다. 요점은 다음과 같다.
+
+- 엠 대시 금지. 쉼표, 콜론, 괄호, 또는 두 개의 문장을 쓴다.
+- 상투적 문구 금지("not only ... but also", "load-bearing" 등).
+- 따뜻하고, 평이하고, 직접적인 글. 독자에게 직접 말을 건다. 짧은 문장.
+- 용어는 처음 쓸 때 정의한다. 핵심 개념은 처음 언급할 때 Wikipedia에 링크한다.
+- 실제로 존재하는 참고 문헌만.
+- 모든 메트릭 패밀리 주제는 조작 경로와 가드레일을 밝힌다.
+
+전체 규칙은 저장소 루트의 `spec/conventions.md`에 있고, 짧은 버전은 [스타일 규칙](style-rules.md)이다. 기계적인 부분은 테스트가 강제한다.
+
+## 설정
+
+Python 3와 [just](https://github.com/casey/just)가 필요하다. 이 저장소는 책의 내용과 명세, 그리고 이를 게시된 웹사이트로 렌더링하는 SvelteKit 사이트
+(`software-engineering-metrics.github.io/`)를 담고 있다.
+
+```sh
+just         # list tasks
+just test    # run the validation suite
+just nav     # regenerate the generated navigation files
+just stats   # topic and word counts
+```
+
+## 변경하기
+
+1. 관련 안내서를 읽는다. 주제는 [집필](authoring.md), 생성 파일은 [내비게이션](navigation.md), 테스트는 [테스트](testing.md).
+2. 일을 해내는 가장 작은 변경을 한다.
+3. 주제를 추가, 삭제, 이름 변경, 또는 번호 재부여했다면 저장소 루트의 `spec/structure.md`를 갱신하고 `just nav`를 실행한다.
+4. `just test`를 실행한다. 통과해야 한다.
+5. [변경 이력](../project/changelog.md)의 **Unreleased** 아래에 한 줄짜리 항목을 추가한다.
+
+## 할 수 있는 일
+
+- 오류, 불분명한 대목, 낡은 참조를 고친다.
+- 예시, 특히 구체적인 기업과 정부 예시를 개선한다.
+- 인용을 실제 출처와 대조해 검증한다.
+- 템플릿을 깨지 않고 주제가 다루는 범위의 빈틈을 메운다.
+
+## 피할 것
+
+- 생성된 파일(`README.md`, 각 로케일의 `index.md`, `front-matter/table-of-contents.md`, `topics/09-07-index.md`)을 손으로 편집하지 않는다.
+  대신 주제를 바꾸고 `just nav`를 실행한다.
+- `en-001`, `en-gb`, `en-us`를 직접 편집하지 않는다. 이들은 `tools/localize.py`가 `en-gb-oxendict`에서 파생한다.
+- `spec/structure.md`도 갱신하지 않고 주제를 추가하지 않는다.
+- 엠 대시나 금지된 문구를 들여오지 않는다. 테스트가 실패한다.
+
+## 문제 보고
+
+문제, 파일과 주제, 그리고 해당한다면 올바른 출처나 참고 문헌을 설명하는 이슈를 열어라. 작고 구체적인 보고일수록 처리하기 쉽다.

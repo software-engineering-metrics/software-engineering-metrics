@@ -7,6 +7,13 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Added Japanese (`ja-001`), Korean (`ko-001`), and Dutch (`nl-001`) as the 27th to 29th complete translated
+  locales: all 63 topics and every other section, with matching `.locale-peer-id` sidecars, identical in content to
+  `ja-jp`, `ko-kr`, and `nl-nl`. Wired into the site and served at `/ja-001/`, `/ko-001/`, and `/nl-001/`
+  (aliases `/ja/`, `/ko/`, and `/nl/`).
+
+### Added
+
 - Translated the front-matter, examples, contributing, and project sections (14 files, plus a changelog, a
   home `index.md`, and a table of contents per locale) into every translated locale: `ar`, `bn`, `cy`, `de`,
   `es`, `fr`, `hi`, `id`, `ja`, `ko`, `nl`, `pt`, `ru`, `sv`, `ur`, and `zh`, with duplicate-pair locales

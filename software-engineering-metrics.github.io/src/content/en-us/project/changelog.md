@@ -7,6 +7,8 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Dutch (`nl-nl`): translated the remaining English titles and slugs of topics 9.0, 9.3, and 9.4
+  (`bijlagen`, `controlelijsten`, `sjablonen`).
 - Welsh (`cy-001`, `cy-gb`): terminology aligned with TermCymru: `risg` (risk, replacing
   `perygl`, with gender agreement), `cyfnewidiad` (trade-off), `dangosydd rhagfynegi` and
   `dangosydd ôl-fynegi` (leading and lagging indicator, replacing `hwyrfrydig`), `cynhwysedd`

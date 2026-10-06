@@ -9,83 +9,186 @@
   },
   "locales": {
     "ar-001": {
-      "chapters": "المواضيع"
+      "chapters": "المواضيع",
+      "front-matter": "تمهيد",
+      "examples": "أمثلة",
+      "contributing": "المساهمة",
+      "project": "المشروع"
     },
     "ar-eg": {
-      "chapters": "المواضيع"
+      "chapters": "المواضيع",
+      "front-matter": "تمهيد",
+      "examples": "أمثلة",
+      "contributing": "المساهمة",
+      "project": "المشروع"
     },
     "bn-001": {
-      "chapters": "বিষয়সমূহ"
+      "chapters": "বিষয়সমূহ",
+      "front-matter": "প্রারম্ভিক-অংশ",
+      "examples": "উদাহরণ",
+      "contributing": "অবদান",
+      "project": "প্রকল্প"
     },
     "bn-bd": {
-      "chapters": "বিষয়সমূহ"
+      "chapters": "বিষয়সমূহ",
+      "front-matter": "প্রারম্ভিক-অংশ",
+      "examples": "উদাহরণ",
+      "contributing": "অবদান",
+      "project": "প্রকল্প"
     },
     "cy-001": {
-      "chapters": "pynciau"
+      "chapters": "pynciau",
+      "front-matter": "blaenddeunydd",
+      "examples": "enghreifftiau",
+      "contributing": "cyfrannu",
+      "project": "prosiect"
     },
     "cy-gb": {
-      "chapters": "pynciau"
+      "chapters": "pynciau",
+      "front-matter": "blaenddeunydd",
+      "examples": "enghreifftiau",
+      "contributing": "cyfrannu",
+      "project": "prosiect"
     },
     "de-001": {
-      "chapters": "themen"
+      "chapters": "themen",
+      "front-matter": "vorspann",
+      "examples": "beispiele",
+      "contributing": "mitwirken",
+      "project": "projekt"
     },
     "de-de": {
-      "chapters": "themen"
+      "chapters": "themen",
+      "front-matter": "vorspann",
+      "examples": "beispiele",
+      "contributing": "mitwirken",
+      "project": "projekt"
     },
     "es-001": {
       "chapters": "temas",
-      "examples": "ejemplos"
+      "front-matter": "preliminares",
+      "examples": "ejemplos",
+      "contributing": "contribuir",
+      "project": "proyecto"
     },
     "es-es": {
-      "chapters": "temas"
+      "chapters": "temas",
+      "front-matter": "preliminares",
+      "examples": "ejemplos",
+      "contributing": "contribuir",
+      "project": "proyecto"
     },
     "fr-001": {
-      "chapters": "sujets"
+      "chapters": "sujets",
+      "front-matter": "liminaires",
+      "examples": "exemples",
+      "contributing": "contribuer",
+      "project": "projet"
     },
     "fr-fr": {
-      "chapters": "sujets"
+      "chapters": "sujets",
+      "front-matter": "liminaires",
+      "examples": "exemples",
+      "contributing": "contribuer",
+      "project": "projet"
     },
     "hi-001": {
-      "chapters": "विषय"
+      "chapters": "विषय",
+      "front-matter": "प्रारंभिक",
+      "examples": "उदाहरण",
+      "contributing": "योगदान",
+      "project": "परियोजना"
     },
     "hi-id": {
-      "chapters": "विषय"
+      "chapters": "विषय",
+      "front-matter": "प्रारंभिक",
+      "examples": "उदाहरण",
+      "contributing": "योगदान",
+      "project": "परियोजना"
     },
     "id-001": {
-      "chapters": "topik"
+      "chapters": "topik",
+      "front-matter": "pendahuluan",
+      "examples": "contoh",
+      "contributing": "kontribusi",
+      "project": "proyek"
     },
     "ja-jp": {
-      "chapters": "トピック"
+      "chapters": "トピック",
+      "front-matter": "前付",
+      "examples": "例",
+      "contributing": "貢献",
+      "project": "プロジェクト"
     },
     "ko-kr": {
-      "chapters": "주제"
+      "chapters": "주제",
+      "front-matter": "머리말",
+      "examples": "예시",
+      "contributing": "기여",
+      "project": "프로젝트"
     },
     "nl-nl": {
-      "chapters": "onderwerpen"
+      "chapters": "onderwerpen",
+      "front-matter": "voorwerk",
+      "examples": "voorbeelden",
+      "contributing": "bijdragen",
+      "project": "project"
     },
     "pt-001": {
-      "chapters": "temas"
+      "chapters": "temas",
+      "front-matter": "preliminares",
+      "examples": "exemplos",
+      "contributing": "contribuir",
+      "project": "projeto"
     },
     "pt-pt": {
-      "chapters": "temas"
+      "chapters": "temas",
+      "front-matter": "preliminares",
+      "examples": "exemplos",
+      "contributing": "contribuir",
+      "project": "projeto"
     },
     "ru-001": {
-      "chapters": "темы"
+      "chapters": "темы",
+      "front-matter": "предисловие",
+      "examples": "примеры",
+      "contributing": "участие",
+      "project": "проект"
     },
     "ru-ru": {
-      "chapters": "темы"
+      "chapters": "темы",
+      "front-matter": "предисловие",
+      "examples": "примеры",
+      "contributing": "участие",
+      "project": "проект"
     },
     "sv-se": {
-      "chapters": "ämnen"
+      "chapters": "ämnen",
+      "front-matter": "förtext",
+      "examples": "exempel",
+      "contributing": "bidra",
+      "project": "projekt"
     },
     "ur-001": {
-      "chapters": "موضوعات"
+      "chapters": "موضوعات",
+      "front-matter": "ابتدائی-مواد",
+      "examples": "مثالیں",
+      "contributing": "شراکت",
+      "project": "منصوبہ"
     },
     "zh-001": {
-      "chapters": "主题"
+      "chapters": "主题",
+      "front-matter": "前言",
+      "examples": "示例",
+      "contributing": "贡献",
+      "project": "项目"
     },
     "zh-cn": {
-      "chapters": "主题"
+      "chapters": "主题",
+      "front-matter": "前言",
+      "examples": "示例",
+      "contributing": "贡献",
+      "project": "项目"
     }
   }
 }

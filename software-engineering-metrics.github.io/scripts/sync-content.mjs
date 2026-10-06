@@ -41,6 +41,50 @@ function canonicalizeLinks(text, locale) {
   return out;
 }
 
+// Non-topic sections (front-matter, examples, contributing, project) keep
+// translated file names on disk, but the site hardcodes a few canonical
+// English slugs (e.g. front-matter/introduction), so each translated file is
+// copied to the English file name that carries the same .locale-peer-id.
+const REFERENCE_LOCALE = 'en-gb-oxendict';
+/** @param {string} dir */
+function peerIds(dir) {
+  /** @type {Map<string, string>} */
+  const byId = new Map();
+  if (!existsSync(dir)) return byId;
+  for (const f of readdirSync(dir)) {
+    if (!f.endsWith('.locale-peer-id')) continue;
+    byId.set(readFileSync(path.join(dir, f), 'utf-8').trim(), f.replace(/\.locale-peer-id$/, '.md'));
+  }
+  return byId;
+}
+/** Map of on-disk file name to canonical file name for one locale section. @param {string} locale @param {string} section */
+function canonicalNames(locale, section) {
+  /** @type {Map<string, string>} */
+  const out = new Map();
+  if (section === 'chapters' || locale === REFERENCE_LOCALE) return out;
+  const reference = peerIds(path.join(sourceLocales, REFERENCE_LOCALE, dirName(REFERENCE_LOCALE, section)));
+  const local = peerIds(path.join(sourceLocales, locale, dirName(locale, section)));
+  for (const [id, file] of local) {
+    const canonical = reference.get(id);
+    if (canonical && canonical !== file) out.set(file, canonical);
+  }
+  return out;
+}
+/** @param {string} text @param {string} locale @param {string} section */
+function canonicalizeFileLinks(text, locale, section) {
+  let out = text;
+  for (const s of SECTIONS) {
+    if (s === 'chapters') continue;
+    for (const [file, canonical] of canonicalNames(locale, s)) {
+      const stem = file.replace(/\.md$/, '');
+      const canon = canonical.replace(/\.md$/, '');
+      const prefix = s === section ? '' : `../${s}/`;
+      out = out.replaceAll(`](${prefix}${stem}.md`, `](${prefix}${canon}.md`).replaceAll(`](${prefix}${stem}.md#`, `](${prefix}${canon}.md#`);
+    }
+  }
+  return out;
+}
+
 if (!existsSync(sourceLocales)) {
   console.error(`Source locales directory not found: ${sourceLocales}`);
   console.error('Expected a locales/ directory at the repository root.');
@@ -63,9 +107,13 @@ for (const locale of LOCALE_CODES) {
     rmSync(to, { recursive: true, force: true });
     mkdirSync(to, { recursive: true });
     const files = readdirSync(from).filter((f) => f.endsWith('.md'));
+    const names = canonicalNames(locale, section);
     for (const file of files) {
       const text = readFileSync(path.join(from, file), 'utf-8');
-      writeFileSync(path.join(to, file), canonicalizeLinks(text, locale));
+      writeFileSync(
+        path.join(to, names.get(file) ?? file),
+        canonicalizeFileLinks(canonicalizeLinks(text, locale), locale, section)
+      );
     }
     console.log(`Synced ${files.length} file(s) into src/content/${locale}/${section}/`);
   }

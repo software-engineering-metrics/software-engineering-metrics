@@ -55,7 +55,7 @@ De centrale spanning is **uitgebreidheid versus focus**, de fundamentele spannin
 
 2. **Scheidt enig van onze dashboards een gestimuleerde metriek van zijn gekoppelde beschermmetriek over verschillende weergaven?** Audit je huidige dashboards specifiek voor dit patroon, elk van de DORA-metrieken van deel 2 en hun koppelingen checkend als een startpunt.
 
-3. **Zouden de visualisaties van ons dashboard de eerlijke-visualisatie-standaarden van onderwerp 1.6 passeren: nul-gebaseerde assen, trend over momentopname, medianen over gemiddelden voor scheve data?** Review je daadwerkelijke huidige grafieken direct tegen deze checklist.
+3. **Zouden de visualisaties van ons dashboard de eerlijke-visualisatie-standaarden van onderwerp 1.6 passeren: nul-gebaseerde assen, trend over momentopname, medianen over gemiddelden voor scheve data?** Review je daadwerkelijke huidige grafieken direct tegen deze controlelijst.
 
 4. **Heeft elk dashboard dat we onderhouden een genoemde eigenaar en een reviewcadans, of bestaan sommige simpelweg zonder dat iemand verantwoordelijk is om ze accuraat en relevant te houden?** Als enig dashboard een genoemde eigenaar mist, is dat gat de moeite waard om onmiddellijk te sluiten, omdat een ongeëigend dashboard vervalt precies zoals een ongeëigend metriek doet.
 

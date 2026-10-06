@@ -1,8 +1,8 @@
-# 9.3 Checklists
+# 9.3 Controlelijsten
 
-Klaar-voor-gebruik-snelreferentiechecklists. Kopieer een in je eigen proces en pas het aan; het punt is dekking, niet exacte formulering.
+Klaar-voor-gebruik-snelreferentiecontrolelijsten. Kopieer een in je eigen proces en pas het aan; het punt is dekking, niet exacte formulering.
 
-## Nieuwe-metriek-reviewchecklist (voordat je enige metriek aan een dashboard toevoegt)
+## Nieuwe-metriek-reviewcontrolelijst (voordat je enige metriek aan een dashboard toevoegt)
 
 - [ ] De metriek heeft een genoemde beslissing die het informeert (onderwerp 1.1)
 - [ ] De metriek is geclassificeerd als diagnostisch of evaluatief, schriftelijk (onderwerp 1.1)
@@ -13,7 +13,7 @@ Klaar-voor-gebruik-snelreferentiechecklists. Kopieer een in je eigen proces en p
 - [ ] De metriek zal een mediaan of percentiel gebruiken, geen gemiddelde, als de onderliggende data scheef is (onderwerp 1.6)
 - [ ] De metriek wordt nooit gebruikt voor individuele evaluatie, of dat gebruik is afzonderlijk en expliciet bekendgemaakt (onderwerp 1.1)
 
-## Dashboardlanceringschecklist
+## Dashboardlanceringscontrolelijst
 
 - [ ] Het dashboard heeft een genoemd, specifiek publiek en beslissing (onderwerp 8.1)
 - [ ] Elke gestimuleerde metriek verschijnt op dezelfde weergave als zijn beschermmetriek (onderwerpen 1.2, 8.1)
@@ -23,7 +23,7 @@ Klaar-voor-gebruik-snelreferentiechecklists. Kopieer een in je eigen proces en p
 - [ ] Een zichtbare verklaring stelt waarvoor het dashboard niet is, indien relevant (onderwerp 1.1)
 - [ ] Databronnen hebben basis-gezondheidschecks zodat een gebroken pijplijn niet stilletjes als actueel oogt (onderwerp 1.5)
 
-## Metriekenprogramma-uitrolchecklist
+## Metriekenprogramma-uitrolcontrolelijst
 
 - [ ] Doel en expliciete niet-doelen worden gecommuniceerd voor lancering, niet reactief (onderwerp 8.3)
 - [ ] De mensen die gemeten worden waren betrokken bij metriekselectie (onderwerp 8.3)
@@ -32,7 +32,7 @@ Klaar-voor-gebruik-snelreferentiechecklists. Kopieer een in je eigen proces en p
 - [ ] Een pilotteam is geselecteerd dat echt vrijwillig deelnam, geen een dat gemandateerd was (onderwerp 8.5)
 - [ ] Fundamentele governance (charter, eigenaarschap, diagnostisch beleid) is op zijn plaats voordat instrumentatie begint (onderwerpen 1.4, 8.5)
 
-## Incident- en postmortemchecklist
+## Incident- en postmortemcontrolelijst
 
 - [ ] De postmortem onderzoekt het systeem, niet het individu (onderwerp 6.2)
 - [ ] Ernst werd geclassificeerd tegen gedocumenteerde, gestandaardiseerde criteria (onderwerp 6.2)
@@ -40,7 +40,7 @@ Klaar-voor-gebruik-snelreferentiechecklists. Kopieer een in je eigen proces en p
 - [ ] Actiepunten zijn specifiek, toegewezen, en gevolgd tot voltooiing (onderwerp 6.2)
 - [ ] De postmortem wordt gedeeld zonder vrees voor individueel gevolg (onderwerpen 6.2, 8.3)
 
-## AI-era-metriekauditchecklist
+## AI-era-metriekauditcontrolelijst
 
 - [ ] Elke dashboardmetriek is getest tegen: "zou een team dat zware AI-assistentie gebruikt maar niet meer echte waarde produceert een verbeterde aflezing hier tonen" (onderwerp 7.1)
 - [ ] Wijzigingsfoutpercentage en defecttempo worden gereviewd naast enige stijging in AI-geassisteerde deploymentfrequentie of commitvolume (onderwerp 7.1)
@@ -49,7 +49,7 @@ Klaar-voor-gebruik-snelreferentiechecklists. Kopieer een in je eigen proces en p
 - [ ] Detectiemethoden resistent tegen "oogt correct"-defecten (mutatietesten, property-based-testen) zijn op zijn plaats voor AI-zware codepaden (onderwerp 7.3)
 - [ ] Het metriekcharter is expliciet herbezocht en geüpdatet voor deze verschuiving, niet ongeëxamineerd gelaten te drijven (onderwerpen 1.4, 7.1)
 
-## Metriekenprogramma-auditchecklist (jaarlijks)
+## Metriekenprogramma-auditcontrolelijst (jaarlijks)
 
 - [ ] Elke metriek heeft nog een genoemde eigenaar (onderwerp 1.4)
 - [ ] Ten minste een metriek is gepensioneerd in de laatste cyclus als het zijn plaats niet meer verdiende (onderwerp 1.1)

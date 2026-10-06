@@ -1,8 +1,8 @@
-# 9.4 Templates
+# 9.4 Sjablonen
 
-Kopieer-plak-templates voor terugkerende documenten. Doorgewerkte, ingevulde voorbeelden van de eerste twee leven in `docs/examples/`.
+Kopieer-plak-sjablonen voor terugkerende documenten. Doorgewerkte, ingevulde voorbeelden van de eerste twee leven in `docs/examples/`.
 
-## Metriekcharter-template
+## Metriekcharter-sjabloon
 
 ```markdown
 # Metriekcharter: [team- of metriekenset-naam]
@@ -34,7 +34,7 @@ Kopieer-plak-templates voor terugkerende documenten. Doorgewerkte, ingevulde voo
 [Wanneer en hoe dit charter herbezocht wordt; wat de pensionering van een metriek triggert.]
 ```
 
-## Dashboardspecificatie-template
+## Dashboardspecificatie-sjabloon
 
 ```markdown
 # Dashboardspecificatie: [dashboardnaam]
@@ -62,7 +62,7 @@ Kopieer-plak-templates voor terugkerende documenten. Doorgewerkte, ingevulde voo
 [Benoem alles doelbewust weggelaten, en waarom, bijv. individuele activiteitstellingen.]
 ```
 
-## Metriekreview-vergaderagenda-template
+## Metriekreview-vergaderagenda-sjabloon
 
 ```markdown
 # Metriekreview: [datum]
@@ -81,7 +81,7 @@ Voor elke metriek:
 
 ## Nieuwe voorgestelde metrieken
 
-[Loop elke door de nieuwe-metriek-reviewchecklist, onderwerp 9.3.]
+[Loop elke door de nieuwe-metriek-reviewcontrolelijst, onderwerp 9.3.]
 
 ## Metrieken overwogen voor pensioen
 
@@ -94,7 +94,7 @@ Voor elke metriek:
 | | | |
 ```
 
-## Schuldloze-postmortem-template
+## Schuldloze-postmortem-sjabloon
 
 ```markdown
 # Postmortem: [incidentnaam], [datum]
@@ -132,7 +132,7 @@ Voor elke metriek:
 [Bevestiging dat actiepunten gevolgd werden tot voltooiing, volgens de volgende reviewcyclus.]
 ```
 
-## ROI-zaak-template
+## ROI-zaak-sjabloon
 
 ```markdown
 # ROI-zaak: [initiatiefnaam]

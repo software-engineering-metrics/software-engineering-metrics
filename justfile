@@ -16,8 +16,12 @@ test:
 nav:
     python3 tools/gen_nav.py
 
+# Regenerate llms.txt and llms.json (AI agent index) for the site.
+llms:
+    python3 tools/gen_llms.py
+
 # Regenerate navigation, then validate.
-check: nav test
+check: nav llms test
 
 # List any em-dashes left in the repository (should be none).
 emdash:

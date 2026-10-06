@@ -281,6 +281,34 @@ for navrel in ["README.md",
     linked = set(f"{int(a)}.{int(b)}" for a, b in re.findall(r"topics/(\d+)-(\d+)-", nav))
     check(f"{navrel} links every chapter", not (disk - linked), f"missing {sorted(disk - linked)[:8]}")
 
+# 11. llms.txt and llms.json (the AI agent index served by the site) are
+# current: regenerating them into a temp directory reproduces the committed
+# files byte for byte.
+import subprocess, tempfile
+with tempfile.TemporaryDirectory() as _tmp:
+    _env = dict(os.environ, LLMS_OUT=_tmp)
+    _run = subprocess.run([sys.executable, os.path.join(ROOT, "tools", "gen_llms.py")],
+                          env=_env, capture_output=True, text=True)
+    _stale = []
+    for _name in ("llms.txt", "llms.json"):
+        _committed = os.path.join(ROOT, "software-engineering-metrics.github.io", "static", _name)
+        _fresh = os.path.join(_tmp, _name)
+        if _run.returncode != 0 or not os.path.exists(_committed) or not os.path.exists(_fresh) \
+                or read(_committed) != read(_fresh):
+            _stale.append(_name)
+    check("llms.txt and llms.json are up to date (run `just llms`)", not _stale, f"{_stale} {_run.stderr[-200:]}")
+
+# 12. The skills folder is the canonical copy of the agent skills; the copy
+# Claude Code loads from .claude/skills must be identical to it.
+_skill_diffs = []
+for _skill in sorted(os.listdir(os.path.join(ROOT, "skills"))):
+    _a = os.path.join(ROOT, "skills", _skill, "SKILL.md")
+    _b = os.path.join(ROOT, ".claude", "skills", _skill, "SKILL.md")
+    if not os.path.exists(_b) or read(_a) != read(_b):
+        _skill_diffs.append(_skill)
+check("skills/ and .claude/skills/ are identical (copy skills/ over .claude/skills/)",
+      not _skill_diffs, f"{_skill_diffs}")
+
 print()
 if failures:
     print(f"RESULT: {len(failures)} check(s) FAILED")

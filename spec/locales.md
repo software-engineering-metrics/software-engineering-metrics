@@ -1,8 +1,9 @@
 # Locales
 
-The book is published in four locales, each a complete copy of every topic,
-front-matter file, example, contributing guide, and project file, differing
-only in spelling. All four keep identical structure, section order, word
+The book is published in four English spelling-variant locales, each a
+complete copy of every topic, front-matter file, example, contributing guide,
+and project file, differing only in spelling, plus 23 hand-translated locales
+(see "Translated locales" below). All four keep identical structure, section order, word
 counts, and file names; see [structure.md](structure.md) and
 [conventions.md](conventions.md), which govern all four equally.
 

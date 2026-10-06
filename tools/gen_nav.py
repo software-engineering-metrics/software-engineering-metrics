@@ -138,10 +138,15 @@ The book is published as a website at
 
 ## Locales
 
-The book is published in four locales; see
+The book is published in 27 locales; see
 [spec/locales.md](spec/locales.md). The table of contents above links the
-`{locale}` (Oxford spelling) locale, the authoring source. The others are
-`locales/en-001/`, `locales/en-gb/`, and `locales/en-us/`.
+`{locale}` (Oxford spelling) locale, the authoring source. The other English
+variants are `locales/en-001/`, `locales/en-gb/`, and `locales/en-us/`; the
+23 hand-translated locales (Welsh, Spanish, Hindi, Chinese, German, Arabic,
+Bengali, Korean, Portuguese, Japanese, Russian, French, Swedish, Dutch, and
+Indonesian) each have their own directory under `locales/`. AI agents can read
+the site's [llms.txt](https://software-engineering-metrics.github.io/llms.txt)
+and [llms.json](https://software-engineering-metrics.github.io/llms.json).
 
 ## The documentation site
 

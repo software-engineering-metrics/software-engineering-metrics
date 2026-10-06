@@ -16,11 +16,16 @@ holds the book's content and specification, plus the SvelteKit site
 published website. The site is its own project with its own AGENTS.md; it is
 not governed by the content rules below.
 
-The book is published in four locales (see [`spec/locales.md`](spec/locales.md)):
-`en-gb-oxendict` (British English, Oxford spelling; the authoring source),
-`en-001` (international English), `en-gb` (mainstream British English), and
-`en-us` (American English). Only `en-gb-oxendict` is hand-edited; the other
-three are mechanically derived from it by `tools/localize.py`.
+The book is published in 27 locales (see [`spec/locales.md`](spec/locales.md)):
+four English spelling variants, `en-gb-oxendict` (British English, Oxford
+spelling; the authoring source), `en-001` (international English), `en-gb`
+(mainstream British English), and `en-us` (American English), plus 23
+hand-translated locales (Welsh, Spanish, Hindi, Chinese, German, Arabic,
+Bengali, Korean, Portuguese, Japanese, Russian, French, Swedish, Dutch,
+Indonesian). Only `en-gb-oxendict` is hand-edited; the other three English
+variants are mechanically derived from it by `tools/localize.py`. Each
+translated locale is maintained by hand and ships only its `topics` section
+(named in its own language, see below); 15 locales are served on the site.
 
 ## Golden rules (do not break these)
 
@@ -61,7 +66,8 @@ and [`spec/conventions.md`](spec/conventions.md).
   - `<locale>/examples/` : small illustrative examples (a metrics charter, a dashboard spec).
   - `<locale>/contributing/` : contributor and agent guides, plus shared snippets.
   - `<locale>/project/` : project documentation and the changelog.
-  - Edit only `locales/en-gb-oxendict/`; run `python3 tools/localize.py` to re-derive the other three.
+  - Section directory names are per locale (`topics/` in English, `temas/` in `es-es`, and so on); they are declared in [`spec/section-names.json`](spec/section-names.json) and read through `tools/section_names.py`.
+  - Edit only `locales/en-gb-oxendict/`; run `python3 tools/localize.py` to re-derive the other three English variants.
 - `spec/` : the specification-driven source of truth (structure, conventions,
   spelling, locales, roadmap). It is hand-authored and not published to the
   site; the book is what it governs.
@@ -69,12 +75,15 @@ and [`spec/conventions.md`](spec/conventions.md).
   the `en-gb-oxendict` source; `gen_nav.py`, which generates the README TOC,
   the per-locale site home pages, contents pages, and subject indexes;
   `gen_locale_peer_ids.py`, which assigns and writes each content file's
-  `.locale-peer-id` sidecar (see `spec/locales.md`); and `stats.py`, the
-  Markdown stats report behind `just stats`.
-- `tests/` : `validate.py`, the enforcement suite (checks all four locales,
-  including that every content file's `.locale-peer-id` sidecar exists and
-  matches across locales; it skips `software-engineering-metrics.github.io/`
-  entirely).
+  `.locale-peer-id` sidecar (see `spec/locales.md`); `gen_llms.py`, which
+  writes the site's `llms.txt` and `llms.json` AI-agent index (`just llms`);
+  `section_names.py`, the shared reader for `spec/section-names.json`; and
+  `stats.py`, the Markdown stats report behind `just stats`.
+- `tests/` : `validate.py`, the enforcement suite (checks the four English
+  locales, including that every content file's `.locale-peer-id` sidecar
+  exists and matches across locales, that `llms.txt` and `llms.json` are
+  current, and that `skills/` matches `.claude/skills/`; it skips the site's
+  sources).
 - `software-engineering-metrics.github.io/` : the SvelteKit site that
   prerenders the book into the published website, deployed by GitHub Pages.
   It copies `locales/` into its own `src/content/` (see its README and
@@ -85,6 +94,10 @@ and [`spec/conventions.md`](spec/conventions.md).
   asks the `software-engineering-metrics.github.io` repo to redeploy from it,
   since GitHub Pages can only publish the naked domain from a repo with that
   exact name).
+- `skills/` : the agent skills (`software-engineering-metrics-skill` for
+  readers applying the book, `...-maintainer-skill` for contributors).
+  `skills/` is canonical; copy it over `.claude/skills/` after editing.
+- `CLAUDE.md` : a one-line pointer to this file for Claude Code.
 - `justfile`, `pyproject.toml` : the task runner and the Python dev-tooling
   dependencies (codespell; see `just spell`).
 

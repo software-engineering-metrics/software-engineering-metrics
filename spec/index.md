@@ -65,7 +65,7 @@ lives in three companion files.
 - **[oxford-spelling.md](oxford-spelling.md)** is the spelling standard for
   the authoring locale: Oxford spelling (British English with `-ize`
   endings), with the word lists and the rules for the spelling sweep.
-- **[locales.md](locales.md)** defines the four published locales
+- **[locales.md](locales.md)** defines the four English spelling-variant locales, the 23 hand-translated locales, and the per-locale section directory names
   (`en-gb-oxendict`, `en-001`, `en-gb`, `en-us`), how the other three are
   mechanically derived from the Oxford-spelled source, and the tooling that
   does it.
@@ -133,7 +133,7 @@ in this order. All are required and checked.
 14. `## References and further reading`
 
 Part introductions (N.0) use a lighter shape: two or three framing paragraphs,
-a `## Chapters in this part` list, and a `## How these chapters interrelate`
+a `## Topics in this part` list, and a `## How these topics interrelate`
 section. The full definition of each section, including what belongs inside
 it, is in [conventions.md](conventions.md).
 

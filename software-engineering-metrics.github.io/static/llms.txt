@@ -1,0 +1,125 @@
+# Software Engineering Metrics
+
+> A working book about measuring software engineering well: 47 metric topics across 8 parts, plus front matter and appendices. Every metric family names its gaming vector and the guardrail that catches it, because of Goodhart's law: a measure that becomes a target stops being a good measure.
+
+The book is published in several locales. The English locale below is the default; every other locale uses the same URL pattern with its own code, and the full list of topics per locale is in llms.json.
+
+## Start here
+
+- [Home](https://software-engineering-metrics.github.io/en-us/): the opening page
+- [What are software engineering metrics?](https://software-engineering-metrics.github.io/en-us/front-matter/what-are-software-engineering-metrics/): the opening essay
+- [Table of contents](https://software-engineering-metrics.github.io/en-us/contents/): all parts and topics
+
+## Part 1
+
+- [1.0 Introduction to Part 1: Foundations of Measurement](https://software-engineering-metrics.github.io/en-us/chapters/01-00-foundations-of-measurement/)
+- [1.1 Why measure software engineering](https://software-engineering-metrics.github.io/en-us/chapters/01-01-why-measure-software-engineering/)
+- [1.2 Goodhart's law and the psychology of metrics](https://software-engineering-metrics.github.io/en-us/chapters/01-02-goodharts-law-and-the-psychology-of-metrics/)
+- [1.3 Outcomes over output: choosing what to measure](https://software-engineering-metrics.github.io/en-us/chapters/01-03-outcomes-over-output/)
+- [1.4 Metrics governance and ownership](https://software-engineering-metrics.github.io/en-us/chapters/01-04-metrics-governance-and-ownership/)
+- [1.5 Data sources and instrumentation](https://software-engineering-metrics.github.io/en-us/chapters/01-05-data-sources-and-instrumentation/)
+- [1.6 Statistical literacy for engineering metrics](https://software-engineering-metrics.github.io/en-us/chapters/01-06-statistical-literacy-for-engineering-metrics/)
+
+## Part 2
+
+- [2.0 Introduction to Part 2: Flow Metrics](https://software-engineering-metrics.github.io/en-us/chapters/02-00-flow-metrics/)
+- [2.1 The Flow Framework](https://software-engineering-metrics.github.io/en-us/chapters/02-01-the-flow-framework/)
+- [2.2 Flow items: features, defects, risks, and debt](https://software-engineering-metrics.github.io/en-us/chapters/02-02-flow-items/)
+- [2.3 Flow velocity and flow distribution](https://software-engineering-metrics.github.io/en-us/chapters/02-03-flow-velocity-and-flow-distribution/)
+- [2.4 Flow time and flow load](https://software-engineering-metrics.github.io/en-us/chapters/02-04-flow-time-and-flow-load/)
+- [2.5 Flow efficiency and work in process](https://software-engineering-metrics.github.io/en-us/chapters/02-05-flow-efficiency-and-work-in-process/)
+- [2.6 Cycle time and its components](https://software-engineering-metrics.github.io/en-us/chapters/02-06-cycle-time-and-its-components/)
+- [2.7 Queueing theory](https://software-engineering-metrics.github.io/en-us/chapters/02-07-queueing-theory/)
+- [2.8 Lean value stream metrics](https://software-engineering-metrics.github.io/en-us/chapters/02-08-lean-value-stream-metrics/)
+- [2.9 Pull request and code review metrics](https://software-engineering-metrics.github.io/en-us/chapters/02-09-pull-request-and-code-review-metrics/)
+- [2.10 The DORA metrics framework](https://software-engineering-metrics.github.io/en-us/chapters/02-10-the-dora-metrics-framework/)
+
+## Part 3
+
+- [3.0 Introduction to Part 3: Developer Experience and the SPACE Framework](https://software-engineering-metrics.github.io/en-us/chapters/03-00-developer-experience-and-space/)
+- [3.1 The SPACE framework](https://software-engineering-metrics.github.io/en-us/chapters/03-01-the-space-framework/)
+- [3.2 Satisfaction and well-being metrics](https://software-engineering-metrics.github.io/en-us/chapters/03-02-satisfaction-and-well-being-metrics/)
+- [3.3 Performance metrics and outcome proxies](https://software-engineering-metrics.github.io/en-us/chapters/03-03-performance-metrics-and-outcome-proxies/)
+- [3.4 Activity metrics and their limits](https://software-engineering-metrics.github.io/en-us/chapters/03-04-activity-metrics-and-their-limits/)
+- [3.5 Communication and collaboration metrics](https://software-engineering-metrics.github.io/en-us/chapters/03-05-communication-and-collaboration-metrics/)
+- [3.6 Efficiency and flow: deep work and interruptions](https://software-engineering-metrics.github.io/en-us/chapters/03-06-efficiency-and-flow/)
+- [3.7 Developer experience surveys and DevEx metrics](https://software-engineering-metrics.github.io/en-us/chapters/03-07-developer-experience-surveys-and-devex-metrics/)
+
+## Part 4
+
+- [4.0 Introduction to Part 4: Code and Quality Metrics](https://software-engineering-metrics.github.io/en-us/chapters/04-00-code-and-quality-metrics/)
+- [4.1 Code complexity metrics](https://software-engineering-metrics.github.io/en-us/chapters/04-01-code-complexity-metrics/)
+- [4.2 Test coverage and test effectiveness](https://software-engineering-metrics.github.io/en-us/chapters/04-02-test-coverage-and-test-effectiveness/)
+- [4.3 Code churn and hotspot analysis](https://software-engineering-metrics.github.io/en-us/chapters/04-03-code-churn-and-hotspot-analysis/)
+- [4.4 Static analysis and code smell metrics](https://software-engineering-metrics.github.io/en-us/chapters/04-04-static-analysis-and-code-smell-metrics/)
+- [4.5 Technical debt measurement](https://software-engineering-metrics.github.io/en-us/chapters/04-05-technical-debt-measurement/)
+- [4.6 Documentation and knowledge metrics](https://software-engineering-metrics.github.io/en-us/chapters/04-06-documentation-and-knowledge-metrics/)
+
+## Part 5
+
+- [5.0 Introduction to Part 5: Product and Business Metrics](https://software-engineering-metrics.github.io/en-us/chapters/05-00-product-and-business-metrics/)
+- [5.1 Escaped defect rate and quality escapes](https://software-engineering-metrics.github.io/en-us/chapters/05-01-escaped-defect-rate-and-quality-escapes/)
+- [5.2 Feature adoption and usage metrics](https://software-engineering-metrics.github.io/en-us/chapters/05-02-feature-adoption-and-usage-metrics/)
+- [5.3 Customer and business outcome metrics](https://software-engineering-metrics.github.io/en-us/chapters/05-03-customer-and-business-outcome-metrics/)
+- [5.4 Cost and unit economics of engineering](https://software-engineering-metrics.github.io/en-us/chapters/05-04-cost-and-unit-economics-of-engineering/)
+- [5.5 Return on investment for engineering initiatives](https://software-engineering-metrics.github.io/en-us/chapters/05-05-return-on-investment-for-engineering-initiatives/)
+
+## Part 6
+
+- [6.0 Introduction to Part 6: Reliability, Operations, and Security Metrics](https://software-engineering-metrics.github.io/en-us/chapters/06-00-reliability-operations-and-security-metrics/)
+- [6.1 Service level indicators, objectives, and error budgets](https://software-engineering-metrics.github.io/en-us/chapters/06-01-slis-slos-and-error-budgets/)
+- [6.2 Incident metrics: detection, response, and recovery](https://software-engineering-metrics.github.io/en-us/chapters/06-02-incident-metrics/)
+- [6.3 On-call, capacity, and operational load metrics](https://software-engineering-metrics.github.io/en-us/chapters/06-03-on-call-capacity-and-operational-load-metrics/)
+- [6.4 Security and vulnerability management metrics](https://software-engineering-metrics.github.io/en-us/chapters/06-04-security-and-vulnerability-management-metrics/)
+
+## Part 7
+
+- [7.0 Introduction to Part 7: Metrics in the Age of AI](https://software-engineering-metrics.github.io/en-us/chapters/07-00-metrics-in-the-age-of-ai/)
+- [7.1 The generative AI paradigm shift](https://software-engineering-metrics.github.io/en-us/chapters/07-01-the-generative-ai-paradigm-shift/)
+- [7.2 Measuring AI-assisted software development](https://software-engineering-metrics.github.io/en-us/chapters/07-02-measuring-ai-assisted-software-development/)
+- [7.3 Metric inflation and quality dilution risks](https://software-engineering-metrics.github.io/en-us/chapters/07-03-metric-inflation-and-quality-dilution-risks/)
+- [7.4 Outcome telemetry as the new north star](https://software-engineering-metrics.github.io/en-us/chapters/07-04-outcome-telemetry-as-the-new-north-star/)
+
+## Part 8
+
+- [8.0 Introduction to Part 8: Building a Metrics Program](https://software-engineering-metrics.github.io/en-us/chapters/08-00-building-a-metrics-program/)
+- [8.1 Designing an engineering metrics dashboard](https://software-engineering-metrics.github.io/en-us/chapters/08-01-designing-an-engineering-metrics-dashboard/)
+- [8.2 Tooling landscape: build versus buy](https://software-engineering-metrics.github.io/en-us/chapters/08-02-tooling-landscape-build-versus-buy/)
+- [8.3 Rolling out metrics without breeding fear](https://software-engineering-metrics.github.io/en-us/chapters/08-03-rolling-out-metrics-without-breeding-fear/)
+- [8.4 Maturity model for engineering metrics programs](https://software-engineering-metrics.github.io/en-us/chapters/08-04-maturity-model-for-engineering-metrics-programs/)
+- [8.5 An incremental adoption roadmap](https://software-engineering-metrics.github.io/en-us/chapters/08-05-an-incremental-adoption-roadmap/)
+
+## Part 9
+
+- [9.0 Appendices](https://software-engineering-metrics.github.io/en-us/chapters/09-00-appendices/)
+- [9.1 Glossary](https://software-engineering-metrics.github.io/en-us/chapters/09-01-glossary/)
+- [9.2 Metric definitions and formulas reference](https://software-engineering-metrics.github.io/en-us/chapters/09-02-metric-definitions-and-formulas-reference/)
+- [9.3 Checklists](https://software-engineering-metrics.github.io/en-us/chapters/09-03-checklists/)
+- [9.4 Templates](https://software-engineering-metrics.github.io/en-us/chapters/09-04-templates/)
+- [9.5 Maturity self-assessment](https://software-engineering-metrics.github.io/en-us/chapters/09-05-maturity-self-assessment/)
+- [9.6 References and further reading](https://software-engineering-metrics.github.io/en-us/chapters/09-06-references-and-further-reading/)
+- [9.7 Index](https://software-engineering-metrics.github.io/en-us/chapters/09-07-index/)
+
+## Locales
+
+- [English (US) (en-us)](https://software-engineering-metrics.github.io/en-us/)
+- [English (UK, Oxford spelling) (en-gb-oxendict)](https://software-engineering-metrics.github.io/en-gb-oxendict/)
+- [English (UK) (en-gb)](https://software-engineering-metrics.github.io/en-gb/)
+- [English (international) (en-001)](https://software-engineering-metrics.github.io/en-001/)
+- [العربية (ar-001)](https://software-engineering-metrics.github.io/ar-001/)
+- [বাংলা (bn-001)](https://software-engineering-metrics.github.io/bn-001/)
+- [Cymraeg (cy-001)](https://software-engineering-metrics.github.io/cy-001/)
+- [Cymraeg (Prydain Fawr) (cy-gb)](https://software-engineering-metrics.github.io/cy-gb/)
+- [Español (es-001)](https://software-engineering-metrics.github.io/es-001/)
+- [Français (fr-001)](https://software-engineering-metrics.github.io/fr-001/)
+- [हिन्दी (hi-001)](https://software-engineering-metrics.github.io/hi-001/)
+- [Bahasa Indonesia (id-001)](https://software-engineering-metrics.github.io/id-001/)
+- [Русский (ru-001)](https://software-engineering-metrics.github.io/ru-001/)
+- [中文 (zh-001)](https://software-engineering-metrics.github.io/zh-001/)
+- [中文 (中国) (zh-cn)](https://software-engineering-metrics.github.io/zh-cn/)
+
+## For contributors and agents
+
+- [AGENTS.md](https://github.com/software-engineering-metrics/software-engineering-metrics/blob/main/AGENTS.md): repository orientation and the golden rules
+- [spec/](https://github.com/software-engineering-metrics/software-engineering-metrics/tree/main/spec): the specification, the single source of truth
+- [llms.json](https://software-engineering-metrics.github.io/llms.json): the same information, machine-readable, for every locale

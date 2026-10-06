@@ -55,13 +55,13 @@ question:
 
 ## Reusable assets to pull from directly
 
-- `docs/chapters/09-01-glossary.md` : term definitions.
-- `docs/chapters/09-02-metric-definitions-and-formulas-reference.md` : formulas.
-- `docs/chapters/09-03-checklists.md` and `09-04-templates.md` : ready-to-copy
+- `locales/en-gb-oxendict/topics/09-01-glossary.md` : term definitions.
+- `locales/en-gb-oxendict/topics/09-02-metric-definitions-and-formulas-reference.md` : formulas.
+- `locales/en-gb-oxendict/topics/09-03-checklists.md` and `09-04-templates.md` : ready-to-copy
   checklists and templates.
-- `docs/chapters/09-05-maturity-self-assessment.md` : a scored self-assessment.
-- `docs/examples/metrics-charter-example.md` : a worked metrics charter.
-- `docs/examples/dashboard-spec-example.md` : a worked dashboard specification.
+- `locales/en-gb-oxendict/topics/09-05-maturity-self-assessment.md` : a scored self-assessment.
+- `locales/en-gb-oxendict/examples/metrics-charter-example.md` : a worked metrics charter.
+- `locales/en-gb-oxendict/examples/dashboard-spec-example.md` : a worked dashboard specification.
 
 ## A typical workflow: "what metrics should we track for X"
 
@@ -73,7 +73,7 @@ question:
 4. Pull the paragraph from that topic's "Sector lens" matching the reader's
    context.
 5. If they're building a program rather than answering one question, start
-   from `docs/examples/metrics-charter-example.md` or
+   from `locales/en-gb-oxendict/examples/metrics-charter-example.md` or
    `dashboard-spec-example.md`, and point them at the topic 9.5 maturity
    self-assessment to locate where they actually are before recommending
    where to go next.

@@ -1,21 +1,21 @@
 # Repository index
 
 A map of everything in this repository. For the book itself, start with the
-[table of contents](README.md) or the opening chapter,
+[table of contents](README.md) or the opening topic,
 [What are software engineering metrics?](locales/en-gb-oxendict/front-matter/what-are-software-engineering-metrics.md).
 The book is published as a website at
 <https://software-engineering-metrics.github.io/>.
 
-## The book (published in four locales; see spec/locales.md)
+## The book (published in 27 locales; see spec/locales.md)
 
-- **[README.md](README.md)** : the full table of contents (9 parts, 47 substantive chapters), in the reference locale.
+- **[README.md](README.md)** : the full table of contents (9 parts, 47 substantive topics), in the reference locale.
 - **[locales/en-gb-oxendict/](locales/en-gb-oxendict/)** : British English, Oxford spelling. The authoring source; hand-edit here.
 - **[locales/en-001/](locales/en-001/)**, **[locales/en-gb/](locales/en-gb/)**, **[locales/en-us/](locales/en-us/)** : international, mainstream British, and American English. Mechanically derived by `tools/localize.py`; never hand-edited.
 - **[locales/en-gb-oxendict/index.md](locales/en-gb-oxendict/index.md)** : the home page of the published site (reference locale).
 - **[locales/en-gb-oxendict/front-matter/what-are-software-engineering-metrics.md](locales/en-gb-oxendict/front-matter/what-are-software-engineering-metrics.md)** : the opening essay. Start here.
 - **[locales/en-gb-oxendict/front-matter/introduction.md](locales/en-gb-oxendict/front-matter/introduction.md)** : who the book is for and how it is organized.
 - **[locales/en-gb-oxendict/front-matter/table-of-contents.md](locales/en-gb-oxendict/front-matter/table-of-contents.md)** : the contents page.
-- **[locales/en-gb-oxendict/topics/](locales/en-gb-oxendict/topics/)** : the chapter files, named `PP-CC-slug.md`, identical across every locale.
+- **[locales/en-gb-oxendict/topics/](locales/en-gb-oxendict/topics/)** : the topic files, named `PP-CC-slug.md` (the section directory is named per locale, see [spec/section-names.json](spec/section-names.json)).
 
 ## The appendices (Part 9)
 
@@ -23,14 +23,14 @@ The book is published as a website at
 - **[Metric definitions and formulas reference](locales/en-gb-oxendict/topics/09-02-metric-definitions-and-formulas-reference.md)** : every formula in the book, in one place.
 - **[Checklists](locales/en-gb-oxendict/topics/09-03-checklists.md)** : ready-to-use review, launch, and audit checklists.
 - **[Templates](locales/en-gb-oxendict/topics/09-04-templates.md)** : a metrics charter, a dashboard spec, and a review agenda.
-- **[Maturity self-assessment](locales/en-gb-oxendict/topics/09-05-maturity-self-assessment.md)** : the maturity model from every chapter, consolidated.
+- **[Maturity self-assessment](locales/en-gb-oxendict/topics/09-05-maturity-self-assessment.md)** : the maturity model from every topic, consolidated.
 - **[References and further reading](locales/en-gb-oxendict/topics/09-06-references-and-further-reading.md)** : the consolidated bibliography.
 - **[Index](locales/en-gb-oxendict/topics/09-07-index.md)** : a subject index.
 
 ## Governance and specification
 
 - **[spec/index.md](spec/index.md)** : start here for how spec-driven development works in this repository.
-- **[spec/structure.md](spec/structure.md)** : the canonical chapter manifest.
+- **[spec/structure.md](spec/structure.md)** : the canonical topic manifest.
 - **[spec/conventions.md](spec/conventions.md)** : the writing and format specification.
 - **[spec/oxford-spelling.md](spec/oxford-spelling.md)** : the spelling standard for the authoring locale.
 - **[spec/locales.md](spec/locales.md)** : the four published locales and how the derived three are built.
@@ -46,9 +46,11 @@ The book is published as a website at
 
 - **[tools/localize.py](tools/localize.py)** : derives `en-001`, `en-gb`, and `en-us` from the `en-gb-oxendict` source.
 - **[tools/gen_nav.py](tools/gen_nav.py)** : regenerates the TOC, home page, contents page, and subject index, per locale.
-- **[tools/stats.py](tools/stats.py)** : per-chapter word-count and reference statistics.
-- **[tests/validate.py](tests/validate.py)** : the validation suite (`just test`), checked across all four locales.
-- **[justfile](justfile)** : task runner (`just`, `just test`, `just nav`, `just stats`).
+- **[tools/gen_llms.py](tools/gen_llms.py)** : writes the site's `llms.txt` and `llms.json` (`just llms`).
+- **[tools/section_names.py](tools/section_names.py)** : reads the per-locale section directory names.
+- **[tools/stats.py](tools/stats.py)** : per-topic word-count and reference statistics.
+- **[tests/validate.py](tests/validate.py)** : the validation suite (`just test`), checks the four English locales plus the llms files and skills copies.
+- **[justfile](justfile)** : task runner (`just`, `just test`, `just nav`, `just llms`, `just stats`).
 
 ## Project
 

@@ -7,6 +7,8 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Site: upgraded `@lilydesignsystem/svelte-picker-bar` to 0.2.0, which adds a search
+  picker to the header bar; it submits to the existing `/?<query>` site search.
 - Added `scripts/generate-sitemap.mjs`, run at the end of `pnpm build`, which
   writes `sitemap.xml` from the prerendered pages (canonical locale URLs only,
   no two-letter alias duplicates) so the `Sitemap:` line in `robots.txt`

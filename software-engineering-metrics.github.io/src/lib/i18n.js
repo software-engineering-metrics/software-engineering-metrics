@@ -44,6 +44,9 @@ const en = {
     ariaLabel: 'Breadcrumb'
   },
   pickerBar: {
+    search: 'Search',
+    searchInput: 'Search the site',
+    searchSubmit: 'Search',
     theme: 'Theme',
     locale: 'Language',
     textSize: 'Text size',

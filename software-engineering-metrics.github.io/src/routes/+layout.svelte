@@ -79,11 +79,15 @@
     </nav>
     <PickerBar
       labels={{
+        search: t.pickerBar.search,
+        searchInput: t.pickerBar.searchInput,
+        searchSubmit: t.pickerBar.searchSubmit,
         theme: t.pickerBar.theme,
         locale: t.pickerBar.locale,
         textSize: t.pickerBar.textSize,
         share: t.pickerBar.share
       }}
+      searchProps={{ navigate: goto }}
       themesUrl="/assets/themes/"
       themes={['light', 'dark']}
       themeProps={{ storageKey: 'lily-theme', detectFromSystem: true }}

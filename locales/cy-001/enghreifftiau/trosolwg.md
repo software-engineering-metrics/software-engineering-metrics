@@ -6,10 +6,10 @@ ydynt, nid cynhwysfawr. Mae'r templedi llawn yn yr atodiadau
 
 ## Cynnwys
 
-- **[metrics-charter-example.md](enghraifft-siarter-metrigau.md)** : siarter
+- **[enghraifft-siarter-metrigau.md](enghraifft-siarter-metrigau.md)** : siarter
   metrigau wedi'i llenwi, o'r math a ddisgrifir ym
   [mhwnc 1.4](../pynciau/01-04-llywodraethiant-a-pherchnogaeth-metrigau.md).
-- **[dashboard-spec-example.md](enghraifft-manyleb-dangosfwrdd.md)** : manyleb
+- **[enghraifft-manyleb-dangosfwrdd.md](enghraifft-manyleb-dangosfwrdd.md)** : manyleb
   dangosfwrdd weithiedig ar gyfer dangosfwrdd metrigau cyflenwi, yn dilyn
   [pwnc 8.1](../pynciau/08-01-dylunio-dangosfwrdd-metrigau-peirianneg.md).
 - **Sgerbwd pwnc** : i ddechrau pwnc newydd, copïwch y

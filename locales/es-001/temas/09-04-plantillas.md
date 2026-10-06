@@ -2,7 +2,7 @@
 
 Plantillas de copiar y pegar para documentos recurrentes. Ejemplos
 trabajados y rellenados de las dos primeras viven en
-[`docs/examples/`](../ejemplos/index.md).
+[`docs/examples/`](../ejemplos/resumen.md).
 
 ## Plantilla de carta de métricas
 

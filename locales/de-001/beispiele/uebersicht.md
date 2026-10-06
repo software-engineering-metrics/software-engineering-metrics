@@ -6,10 +6,10 @@ Anhängen ([Thema 9.4, Vorlagen](../themen/09-04-vorlagen.md)).
 
 ## Inhalt
 
-- **[metrics-charter-example.md](beispiel-metrik-charta.md)** : eine
+- **[beispiel-metrik-charta.md](beispiel-metrik-charta.md)** : eine
   ausgefüllte Metrik-Charta, wie sie in
   [Thema 1.4](../themen/01-04-metrik-governance-und-eigentuemerschaft.md) beschrieben ist.
-- **[dashboard-spec-example.md](beispiel-dashboard-spezifikation.md)** : eine
+- **[beispiel-dashboard-spezifikation.md](beispiel-dashboard-spezifikation.md)** : eine
   ausgearbeitete Dashboard-Spezifikation für ein Dashboard mit
   Lieferkennzahlen, nach
   [Thema 8.1](../themen/08-01-ein-engineering-metrik-dashboard-gestalten.md).

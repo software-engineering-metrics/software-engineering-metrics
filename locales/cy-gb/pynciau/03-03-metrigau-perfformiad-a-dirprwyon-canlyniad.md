@@ -120,7 +120,7 @@ sydd'n gynhenid anuniongyrchol.
 | Sgôr perfformiad sengl fesul tîm | Syml i'w gyflwyno a'i gymharu | Manwl gywirdeb ffug; yn cuddio pa signal sylfaenol a lywiodd y sgôr mewn gwirionedd |
 | Sawl signal cydgyfeiriol | Mwy dibynadwy, yn gwrthsefyll twyllo un-metrig | Anos ei grynhoi mewn un rhif; angen mwy o gyd-destun i'w ddehongli |
 | Mesuriad perfformiad lefel-tîm | Yn cyfateb â sut mae canlyniadau meddalwedd mewn gwirionedd yn dod i'r amlwg | Ni all ateb cwestiynau am gyfraniad unigol yn uniongyrchol |
-| Priodoliad perfformiad lefel-unigol | Yn teimlo'n fwy uniongyrchol weithredadwy ar gyfer adolygiadau | Fel arfer yn fanwl gywirdeb ffug; perygl twyllo a gwarchod-clod cryf |
+| Priodoliad perfformiad lefel-unigol | Yn teimlo'n fwy uniongyrchol weithredadwy ar gyfer adolygiadau | Fel arfer yn fanwl gywirdeb ffug; risg twyllo a gwarchod-clod cryf |
 
 Y tensiwn canolog yw **manwl gywirdeb yn erbyn gonestrwydd**. Mae un rhif
 perfformiad fesul tîm, neu'n waeth, fesul unigolyn, yn hawdd ei gymharu
@@ -160,7 +160,7 @@ fanwl gywir.
 
 5. **A yw data perfformiad erioed wedi cael ei ddefnyddio i raddio
    unigolion yn gystadleuol yn erbyn ei gilydd, yn ffurfiol neu'n
-   anffurfiol?** Mae'r drifft hwn, sy'n debyg i'r perygl data-boddhad ym
+   anffurfiol?** Mae'r drifft hwn, sy'n debyg i'r risg data-boddhad ym
    mhwnc 3.2, yn niweidio gonestrwydd y data a pharodrwydd y tîm i
    gydweithio'n agored fel ei gilydd.
 
@@ -176,7 +176,7 @@ fanwl gywir.
 **Cwmni newydd.** Mae perfformiad fel arfer yn weladwy'n uniongyrchol: a
 weithiodd y nodwedd, a fabwysiadodd cwsmeriaid hi, a symudodd y metrig.
 Mae mesuriad ffurfiol aml-signal yn aml yn ddiangen ar y raddfa hon; y
-perygl yn lle hynny yw priodoli llwyddiant neu fethiant yn rhy gyflym i
+risg yn lle hynny yw priodoli llwyddiant neu fethiant yn rhy gyflym i
 un person mewn tîm bach, cyflym symud, hynod gydweithredol lle nad yw
 clod na bai bron byth yn perthyn i un unigolyn yn unig.
 
@@ -246,7 +246,7 @@ cymharadwy. Mae'r gost honno'n werth ei thalu oherwydd bod y dewis
 arall, sgôr sengl ffug o fanwl gywir, yn camarwain penderfyniadau
 adnoddu y mae data perfformiad i fod i'w llywio'n weithredol.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Drysu gweithgarwch â pherfformiad:** y gwall mwyaf cyffredin y mae'r
   dimensiwn hwn wedi'i ddylunio'n benodol i'w atal.
@@ -316,4 +316,4 @@ adnoddu y mae data perfformiad i fod i'w llywio'n weithredol.
 - *Team Topologies*, gan Matthew Skelton a Manuel Pais (strwythurau
   timau platfform a galluogi a sut i fesur eu cyfraniad).
 - *Measuring and Managing Performance in Organizations*, gan Robert D.
-  Austin (peryglon metrigau perfformiad manwl gywirdeb ffug).
+  Austin (risgiau metrigau perfformiad manwl gywirdeb ffug).

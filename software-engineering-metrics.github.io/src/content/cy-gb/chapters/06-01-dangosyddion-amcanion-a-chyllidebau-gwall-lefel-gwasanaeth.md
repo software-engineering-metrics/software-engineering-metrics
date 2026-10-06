@@ -12,7 +12,7 @@ darged ar gyfer y dangosydd hwnnw, 99.9% o geisiadau'n llwyddo o fewn
 200 milieiliad, er enghraifft. Ac mae **cyllideb gwall** yn ddiffyg a
 ganiateir, y 0.1% o geisiadau a ganiateir i fethu, wedi'i drin nid fel
 diffyg i'w ddileu ond fel adnodd gwariadwy y gellir ei ddefnyddio'n
-fwriadol i gymryd perygl: rhyddhau newid peryglus, rhedeg arbrawf, neu'n
+fwriadol i gymryd risg: rhyddhau newid peryglus, rhedeg arbrawf, neu'n
 syml dderbyn nad yw dibynadwyedd perffaith yn gyraeddadwy nac, y tu
 hwnt i bwynt penodol, yn werth ei gost.
 
@@ -20,7 +20,7 @@ Y syniad olaf hwn, cyllideb gwall fel adnodd gwariadwy yn hytrach na
 rhif i'w leihau tuag at sero, yw'r cysyniad sengl pwysicaf yn y pwnc
 hon ac o bosibl yn y rhan gyfan hon. Mae'n datrys tensiwn sy'n poeni
 llawer o sefydliadau: mae peirianneg eisiau rhyddhau nodweddion a
-chymryd peryglon rhesymol; mae gweithrediadau eisiau sefydlogrwydd
+chymryd risgiau rhesymol; mae gweithrediadau eisiau sefydlogrwydd
 mwyaf. Heb gyllideb gwall a rennir, wedi'i meintioli, mae hyn yn dod yn
 negodiad diddiwedd, wedi'i wleidyddoli. Gydag un, mae'n dod yn rheol
 syml, wrthrychol: gwariwch yn rhydd tra bo cyllideb yn aros, arafwch a
@@ -91,10 +91,10 @@ waith dibynadwyedd hyd nes i'r gyllideb adfer. Mae'r rheol wedi'i
 phenderfynu ymlaen llaw hon yn dileu'r angen i ail-ddadlau'r cyfnewidiad
 o dan bwysau yn ystod pob digwyddiad unigol.
 
-### Defnyddiwch y gyllideb gwall i wneud penderfyniadau perygl bwriadol, gwybodus
+### Defnyddiwch y gyllideb gwall i wneud penderfyniadau risg bwriadol, gwybodus
 
 Nid yw cyllideb gwall iach, heb ei gwario'n rhywbeth i'w chronni; mae'n
-ganiatâd i gymryd peryglon rhesymol, rhyddhau newid â pherygl uwch ond
+ganiatâd i gymryd risgiau rhesymol, rhyddhau newid â risg uwch ond
 derbyniol, rhedeg arbrawf peirianneg-anhrefn (mae pwnc peirianneg-
 anhrefn y llyfr chwaer `software-engineering-guide` yn ymdrin â hyn yn
 uniongyrchol), neu dderbyn newid pensaernïaeth mwy peryglus, oherwydd
@@ -152,7 +152,7 @@ drylwyr ar gerdyn sgorio.
    orfodi'r ddadl o dan bwysau.
 
 3. **A yw ein cyllideb gwall erioed mewn gwirionedd yn cael ei gwario'n
-   fwriadol, ar newid perygl-cyfrifedig neu arbrawf, neu a yw dim ond
+   fwriadol, ar newid risg-cyfrifedig neu arbrawf, neu a yw dim ond
    byth yn cael ei defnyddio'n ddamweiniol trwy ddigwyddiadau?** Gallai
    cyllideb nad yw byth yn cael ei gwario'n fwriadol nodi tîm
    gorwyliadwrus sy'n colli cyfleoedd dilys y mae'r gyllideb yn bodoli
@@ -263,7 +263,7 @@ gost ddisgyblaeth honno'n wirioneddol, ond mae'n llawer is na chost
 barhaus negodiad cronig, heb ei ddatrys sy'n defnyddio egni sefydliadol
 ym mhob cylch cynllunio'n ddiddiwedd.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Gosod SLO uchelgeisiol heb dystiolaeth y tu ôl iddo:** yn cynhyrchu
   targed afrealistig nad yw'r tîm yn ei gymryd o ddifrif mwyach, neu un
@@ -298,7 +298,7 @@ ym mhob cylch cynllunio'n ddiddiwedd.
   wedi'i benderfynu ymlaen llaw'n gyson ar draws gwasanaethau
   dyngedfennol.
 - **Lefel 4, Rheoli:** Gwerir cyllidebau gwall yn weithredol ac yn
-  fwriadol ar gymryd perygl wedi'i gyfrifo, ac adolygir a diwygir SLOs
+  fwriadol ar gymryd risg wedi'i gyfrifo, ac adolygir a diwygir SLOs
   ar gadence rheolaidd, seiliedig-ar-dystiolaeth.
 - **Lefel 5, Cerddorfaru:** Integreiddir SLOs a chyllidebau gwall ar
   draws y sefydliad fel y mecanwaith gwrthrychol, a rennir ar gyfer
@@ -310,7 +310,7 @@ ym mhob cylch cynllunio'n ddiddiwedd.
 
 1. A yw ein SLO cyfredol wedi'i seilio mewn tystiolaeth, neu mewn uchelgais?
 2. A oes gennym ymateb wedi'i benderfynu ymlaen llaw i ddisbyddiad cyllideb-gwall y byddem mewn gwirionedd yn ei anrhydeddu o dan bwysau?
-3. Pryd wnaethom fwriadol wario cyllideb gwall iach ddiwethaf ar berygl wedi'i gyfrifo?
+3. Pryd wnaethom fwriadol wario cyllideb gwall iach ddiwethaf ar risg wedi'i gyfrifo?
 4. A yw ein SLIs yn mesur profiad defnyddiwr gwirioneddol neu wiriadau iechyd mewnol cyfleus?
 5. Beth fyddai ei gostio i ni godi ein SLO un "naw" ychwanegol, ac a fyddai'r gost honno'n gyfiawn?
 

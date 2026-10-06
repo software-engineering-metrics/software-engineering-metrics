@@ -20,7 +20,7 @@ Mae hyn yn bwysig oherwydd nid un peth yw cynhyrchiant datblygwyr. Gall
 tîm fod yn hynod weithgar (llawer o ymrwymiadau, llawer o pull
 requests) tra'n perfformio'n wael (nid yw'r gwaith yn symud y
 canlyniadau sy'n bwysig). Gall tîm berfformio'n dda yn y tymor byr tra
-bo boddhad yn suddo, dangosydd rhagfynegi o'r traul staff a'r cwymp
+bo boddhad yn suddo, dangosydd rhagfynegi o'r cyfradd gadael staff a'r cwymp
 ansawdd sy'n ymddangos fisoedd yn ddiweddarach. Mewnwelediad SPACE,
 sy'n adeiladu'n uniongyrchol ar bwnc 1.2 a phwnc 1.3 y llyfr hwn,
 yw y bydd unrhyw un o'r dimensiynau hyn, wedi'i ddilyn fel targed
@@ -155,7 +155,7 @@ llawn o bob un o'r pum dimensiwn ar y diwrnod cyntaf.
 4. **Sut fyddem yn sylwi petai tîm wedi gwella ei fetrigau perfformiad
    ar draul cyflymder anghynaliadwy?** Heb ddata boddhad a llesiant yn cael
    ei adolygu ochr yn ochr â data perfformiad, mae'r math hwn o
-   gyfnewidiad yn anweledig tan iddo ymddangos fel traul staff neu gwymp
+   gyfnewidiad yn anweledig tan iddo ymddangos fel cyfradd gadael staff neu gwymp
    ansawdd fisoedd yn ddiweddarach.
 
 5. **Beth yw ein cadence mesur ar gyfer pob un o'r pum dimensiwn, ac a
@@ -210,7 +210,7 @@ signal cynhyrchiant am flynyddoedd. Ar ôl mabwysiadu set fetrigau SPACE
 lawnach, gan gynnwys arolwg boddhad chwarterol a dadansoddiad
 rhwydwaith-cydweithio (pwnc 3.5), darganfu arweinyddiaeth fod gan y
 tîm â'r rhifau gweithgarwch uchaf hefyd y sgoriau boddhad isaf a'r
-gyfradd traul staff wirfoddol uchaf dros y flwyddyn ganlynol. Roedd y
+gyfradd gadael staff wirfoddol uchaf dros y flwyddyn ganlynol. Roedd y
 rhifau gweithgarwch ar eu pen eu hunain wedi bod yn camarwain yn
 weithredol; arweiniodd y darlun llawnach at ostyngiad bwriadol yng
 ngwaith cydamserol y tîm hwnnw (egwyddor gwaith-ar-y-gweill pwnc 2.5
@@ -231,7 +231,7 @@ mewn cadw dros y deunaw mis canlynol.
 
 ## Achos busnes: cymhellion, ROI, a TCO
 
-Traul staff osgowyd a chwymp ansawdd wedi'i yrru gan losgi allan osgowyd
+Cyfradd gadael staff osgowyd a chwymp ansawdd wedi'i yrru gan losgi allan osgowyd
 yw'r enillion ar fabwysiadu SPACE yn llawn, y ddau'n llawer drutach na
 chost offeryno'r fframwaith. Gall set fetrigau gweithgarwch-yn-unig
 edrych yn rhagorol am flwyddyn neu ddwy hyd nes i'r gost ddynol ddal i
@@ -244,7 +244,7 @@ a'r ddisgyblaeth o adolygu pob un o'r pum dimensiwn gyda'i gilydd yn
 hytrach na bod yn ddiofyn i ba bynnag sydd hawsaf. Mae'r gost honno'n
 werth ei thalu mewn gwirionedd: mae'r enghraifft menter uchod yn dangos
 patrwm gwirioneddol, darganfyddadwy, gweithgarwch uchel yn cuddio
-risg traul staff uchel, na fyddai set fetrigau gulach erioed wedi'i
+risg cyfradd gadael staff uchel, na fyddai set fetrigau gulach erioed wedi'i
 ddatgelu tan i'r niwed gael ei wneud eisoes.
 
 ## Gwrth-batrymau a risgiau

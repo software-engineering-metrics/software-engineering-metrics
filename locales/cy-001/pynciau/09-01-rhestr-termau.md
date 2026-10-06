@@ -28,7 +28,7 @@ Diffiniadau o dermau ac acronymau a ddefnyddir ar draws y llyfr. Mae pob cofnod 
 
 **FinOps.** Y ddisgyblaeth o ddod ag atebolrwydd ariannol i wariant seilwaith cwmwl amrywiol. Gweler pwnc 5.4.
 
-**Dosbarthiad llif (flow distribution).** Y gyfran o eitemau llif wedi'u cwblhau sy'n perthyn i bob math eitem llif mewn cyfnod penodol. Gweler pwnc 2.3.
+**Dosraniad llif (flow distribution).** Y gyfran o eitemau llif wedi'u cwblhau sy'n perthyn i bob math eitem llif mewn cyfnod penodol. Gweler pwnc 2.3.
 
 **Effeithlonrwydd llif (flow efficiency).** Y gymhareb o amser gwaith gweithredol i gyfanswm yr amser a aeth heibio ar gyfer darn o waith yn symud drwy bibell traddodi. Gweler pwnc 2.5.
 
@@ -64,7 +64,7 @@ Diffiniadau o dermau ac acronymau a ddefnyddir ar draws y llyfr. Mae pob cofnod 
 
 **Metrig seren y gogledd (north-star metric).** Y mesur sengl sy'n cyfleu orau'r gwerth craidd y mae sefydliad yn ei draddodi, gan eistedd ar frig coeden fetrig. Gweler pwnc 1.3.
 
-**Telemetreg canlyniad (outcome telemetry).** Mesur parhaus, wedi'i offeryniad o ganlyniadau gwirioneddol yn hytrach na gweithgaredd neu gynnyrch. Gweler pwnc 7.4.
+**Telemetreg canlyniad (outcome telemetry).** Mesur parhaus, wedi'i offeryniad o ganlyniadau gwirioneddol yn hytrach na gweithgaredd neu allbwn. Gweler pwnc 7.4.
 
 **Canran cyflawn a chywir (percent complete and accurate, %C/A).** Y ganran o unedau y gall tîm i lawr yr afon eu prosesu heb angen ailwaith, o fapio ffrwd werth Lean clasurol. Gweler pwnc 2.8.
 

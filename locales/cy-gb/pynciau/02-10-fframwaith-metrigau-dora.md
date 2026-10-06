@@ -50,7 +50,7 @@ o pa un a yw'r pethau cywir yn cael eu cyflenwi o gwbl.
 
 - **Mae DORA yn mesur y biblinell, nid y gwerth sy'n llifo trwyddi.** Mae
   pwnc 2.1 yn enwi'r bwlch hwn yn uniongyrchol; defnyddiwch
-  ddosbarthiad llif (pwnc 2.3) i weld yr hyn na all DORA ei weld.
+  ddosraniad llif (pwnc 2.3) i weld yr hyn na all DORA ei weld.
 - **Mesurir cyflymder a sefydlogrwydd gyda'i gilydd, byth ar wahân.**
   Nid yw dangosfwrdd wedi'i lywio gan DORA heb y ddau hanner mewn
   gwirionedd yn defnyddio'r fframwaith.
@@ -114,7 +114,7 @@ yn hytrach na thrwy ddatgan digwyddiad wedi'i ddatrys yn gynamserol.
 
 Pan fydd metrig DORA yn symud, mae'r pedwar rhif ar eu pen eu hunain yn
 anaml yn egluro pam. Defnyddiwch ddadelfeniad amser cylch (pwnc 2.6),
-llwyth llif (pwnc 2.4), a dosbarthiad llif (pwnc 2.3) fel yr haen
+llwyth llif (pwnc 2.4), a dosraniad llif (pwnc 2.3) fel yr haen
 ddiagnostig o dan rifau crynodeb DORA, a pheidiwch byth â defnyddio
 metrig DORA mewn adolygiad perfformiad unigol, y camddefnydd sengl mwyaf
 niweidiol y mae'r fframwaith hwn yn agored iddo.
@@ -160,7 +160,7 @@ DORA ateb cwestiwn na chafodd erioed ei ddylunio i'w ateb.
    dawel yn aml. Gofynnwch yn uniongyrchol a byddwch yn barod am ateb
    anghyfforddus ond angenrheidiol.
 
-4. **A allai ein rhifau DORA fod yn ardderchog tra bo'n dosbarthiad llif
+4. **A allai ein rhifau DORA fod yn ardderchog tra bo'n dosraniad llif
    (pwnc 2.3) wedi drifftio'n dawel tuag at ailwaith neu i ffwrdd o
    nodweddion?** Dyma'n union y bwlch na all DORA ei weld ar ei ben ei
    hun. Tynnwch y ddwy set o rifau gyda'i gilydd a gwiriwch a ydynt yn
@@ -198,7 +198,7 @@ bydd log digwyddiad anffurfiol yn bodoli i gysylltu ag ef.
 **Menter.** Cymhariaeth deg, gyson draws-dîm ar gyfer penderfyniadau
 buddsoddi platfform yw gwerth mwyaf parhaus DORA ar y raddfa hon.
 Safonwch ddiffiniadau ar draws y sefydliad (pwnc 1.4), awtomeiddiwch
-offeryno'n ganolog, a pharejwch bob adroddiad DORA â golwg dosbarthiad
+offeryno'n ganolog, a pharejwch bob adroddiad DORA â golwg dosraniad
 llif fel bod arweinyddiaeth yn gweld cyflymder piblinell a chymysgedd
 gwerth gyda'i gilydd, nid y naill heb y llall.
 
@@ -206,7 +206,7 @@ gwerth gyda'i gilydd, nid y naill heb y llall.
 wedi'i chefnogi gan ymchwil, i raglen foderneiddio ddangos gwelliant
 mecaneg cyflenwi i gyrff goruchwylio. Adroddwch bob un o'r pedwar metrig
 gyda'i gilydd, byth yn dewis-a-dethol yr hanner mwy deniadol, a
-pharejwch nhw â dosbarthiad llif fel bod yr adroddiad hefyd yn ateb y
+pharejwch nhw â dosraniad llif fel bod yr adroddiad hefyd yn ateb y
 cwestiwn anoddach, pwysicach o beth mae'r biblinell gyflymach yn ei
 gyflenwi mewn gwirionedd.
 
@@ -258,7 +258,7 @@ presennol, nid system fesur gyfochrog, ac mae'r enillion, dal yn union y
 man dall cymysgedd-gwerth y mae'r enghraifft telegyfathrebu uchod yn ei
 ddangos, yn werth chweil am y buddsoddiad cymedrol ychwanegol hwnnw.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Trin DORA fel darlun cyfan iechyd cyflenwi:** y fector twyllo y mae
   lleoliad y pwnc hwn wedi'i ddylunio i'w wrthweithio. Gall sefydliad
@@ -267,7 +267,7 @@ ddangos, yn werth chweil am y buddsoddiad cymedrol ychwanegol hwnnw.
   dawel tuag at ailwaith neu i ffwrdd o nodweddion, ac ni fydd pedwar
   metrig DORA ar eu pen eu hunain byth yn datgelu'r symudiad hwnnw
   oherwydd na chawsant erioed eu dylunio i'w fesur. Y gledr ddiogelwch
-  yw parejo pob adroddiad DORA â dosbarthiad llif (pwnc 2.3), fel bod
+  yw parejo pob adroddiad DORA â dosraniad llif (pwnc 2.3), fel bod
   piblinell gyflym, sefydlog sy'n cyflenwi'r cymysgedd anghywir o waith
   yn weladwy yn hytrach na chael ei gamgymryd am iechyd cyflenwi
   gwirioneddol.
@@ -295,12 +295,12 @@ ddangos, yn werth chweil am y buddsoddiad cymedrol ychwanegol hwnnw.
   wirio yn ei erbyn.
 - **Lefel 3, Safoni:** Offerynir pob un o'r pedwar metrig DORA yn gyson
   o ddata piblinell a digwyddiad, gyda diffiniadau a rennir, ac fe'u
-  dangosir yn rheolaidd ochr yn ochr â dosbarthiad llif.
+  dangosir yn rheolaidd ochr yn ochr â dosraniad llif.
 - **Lefel 4, Rheoli:** Adolygir metrigau DORA a llif gyda'i gilydd fel
   parejad safonol ar bob lefel o'r sefydliad, ac ni ddefnyddir DORA
   byth ar gyfer gwerthuso unigol.
 - **Lefel 5, Cerddorfaru:** Gall y sefydliad bwyntio at achosion
-  penodol lle daliodd dosbarthiad llif broblem cymysgedd-gwerth yr oedd
+  penodol lle daliodd dosraniad llif broblem cymysgedd-gwerth yr oedd
   rhifau DORA rhagorol ar eu pen eu hunain wedi'i chuddio, ac mae'n
   defnyddio'r ddau fframwaith yn fwriadol ar gyfer y cwestiynau
   gwahanol y mae pob un yn eu hateb.
@@ -308,7 +308,7 @@ ddangos, yn werth chweil am y buddsoddiad cymedrol ychwanegol hwnnw.
 ## Syniadau ar gyfer trafodaeth
 
 1. Ble mae ein pedwar metrig DORA yn ein gosod ar y sbectrwm haenau-perfformiad ar hyn o bryd, yn onest?
-2. A allai ein rhifau DORA edrych yn ragorol tra bo'n dosbarthiad llif wedi drifftio'n dawel? A ydym erioed wedi gwirio?
+2. A allai ein rhifau DORA edrych yn ragorol tra bo'n dosraniad llif wedi drifftio'n dawel? A ydym erioed wedi gwirio?
 3. A oes unrhyw un erioed wedi defnyddio rhif DORA i farnu unigolyn, hyd yn oed yn anffurfiol?
 4. Petai cystadleuydd yn cyhoeddi ei rifau DORA, a fyddai ein rhai ni'n cymharu'n ffafriol, ac a fyddai'r gymhariaeth honno mewn gwirionedd yn dweud wrthym pwy sy'n cyflenwi mwy o werth gwirioneddol?
 
@@ -320,10 +320,10 @@ ddangos, yn werth chweil am y buddsoddiad cymedrol ychwanegol hwnnw.
   gwirionedd.
 - Mae'r llyfr hwn yn gosod DORA **olaf yn y rhan hon** oherwydd ei fod
   yn mesur y biblinell, nid y gwerth sy'n llifo trwyddi; parejwch ef â
-  dosbarthiad llif (pwnc 2.3) am y darlun cyflawnach.
+  dosraniad llif (pwnc 2.3) am y darlun cyflawnach.
 - Fector twyllo canolog y pwnc yw **camgymryd rhifau DORA rhagorol am
   iechyd cyflenwi cyflawn**; y gledr ddiogelwch yw adrodd DORA bob amser
-  ochr yn ochr â dosbarthiad llif.
+  ochr yn ochr â dosraniad llif.
 - **Peidiwch byth â defnyddio metrigau DORA mewn adolygiadau perfformiad
   unigol**; mae dilysrwydd y fframwaith yn dibynnu ar fesuriad lefel-
   system, nid unigol.

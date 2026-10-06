@@ -26,8 +26,8 @@ trwy niweidio un arall yn dawel.
 I dimau mawr, mae metrigau profiad datblygwyr yn ateb cwestiwn na all
 DORA ei ateb: a yw'r perfformiad cyflenwi hwn yn gynaliadwy, ac a yw'r
 sefydliad yn cadw'r bobl sy'n ei gynhyrchu. Mae sefydliadau menter sy'n
-anwybyddu'r rhan hon yn tueddu i ddarganfod y gost trwy ddata traul
-staff a chyfweliadau ymadael, ymhell ar ôl i'r niwed gael ei wneud; mae
+anwybyddu'r rhan hon yn tueddu i ddarganfod y gost trwy ddata cyfradd
+gadael staff a chyfweliadau ymadael, ymhell ar ôl i'r niwed gael ei wneud; mae
 gan sefydliadau llywodraeth, sy'n aml yn gweithredu o dan gyfyngiadau
 cyflog sector cyhoeddus sy'n cyfyngu ar eu gallu i gystadlu ar sail cyflog
 yn unig, resymau arbennig o gryf dros drin profiad datblygwyr fel
@@ -40,7 +40,7 @@ pryder dosbarth-cyntaf, wedi'i reoli'n weithredol yn hytrach nag
   yw'r un sengl yn ddibynadwy ar ei ben ei hun, a sut i adeiladu set
   fetrigau wirioneddol gytbwys ohonynt.
 - **3.2 Metrigau boddhad a llesiant:** Mesur cyflawniad, rhwystredigaeth, a
-  pherygl llosgi allan, y dimensiwn na all unrhyw delemetreg system ei
+  risg llosgi allan, y dimensiwn na all unrhyw delemetreg system ei
   arsylwi'n uniongyrchol.
 - **3.3 Metrigau perfformiad a dirprwyon canlyniad:** Y dimensiwn a
   ddrysir hawsaf â gweithgarwch, a sut i fesur cyfraniad canlyniad

@@ -214,7 +214,7 @@ osgowch gyfrifon gweithgarwch mewn unrhyw gyfathrebu allanol-wynebedig.
 **Menter.** Roedd arweinyddiaeth peirianneg cwmni meddalwedd, heb bolisi
 ffurfiol, wedi dechrau cyfeirio'n anffurfiol at ddata amlder-ymrwymiad
 unigol mewn trafodaethau dyrchafiad. Canfu adolygiad mewnol, wedi'i
-sbarduno gan brosiect dadansoddi-traul-staff diberthynas, fod
+sbarduno gan brosiect dadansoddi-cyfradd-gadael-staff diberthynas, fod
 peirianwyr yn gweithio ar systemau mwyaf cymhleth, gwerth-uchaf y
 cwmni, oedd angen cyfnodau hir o waith dylunio gofalus cyn ysgrifennu
 unrhyw god, â chyfrifon ymrwymiad is yn systematig na pheirianwyr ar

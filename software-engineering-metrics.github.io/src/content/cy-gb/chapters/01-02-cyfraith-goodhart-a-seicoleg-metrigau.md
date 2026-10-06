@@ -257,7 +257,7 @@ ar ôl hon yn prisio'r cyfnewidiad hwnnw i mewn, a dyna pam mae parejiad cledr
 ddiogelwch yn ymddangos fel argymhelliad drwy gydol gweddill y llyfr hwn yn
 hytrach na dim ond yma.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Cyhoeddi metrig a gymhellir heb gledr ddiogelwch:** yr achos gwraidd
   mwyaf cyffredin o ddangosfwrdd wedi'i ystumio yn y llyfr hwn.

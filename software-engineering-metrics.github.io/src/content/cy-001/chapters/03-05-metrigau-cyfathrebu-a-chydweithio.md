@@ -41,7 +41,7 @@ ar raddfa fach yn syml yn cyrraedd mor bell.
 - **Dyma'r dimensiwn anoddaf i'w offeryno'n awtomatig**, a'r demtasiwn
   yw ei hepgor yn gyfan gwbl; gwrthsefyllwch y demtasiwn honno'n
   fwriadol.
-- **Mae crynhoad gwybodaeth yn berygl mesuradwy, nid dim ond pryder
+- **Mae crynhoad gwybodaeth yn risg fesuradwy, nid dim ond pryder
   amwys.** Olrheiniwch pa mor gul y cedwir gwybodaeth dyngedfennol.
 - **Mae ffrithiant dibyniaeth draws-dîm yn aml yn anweledig i'r timau
   dan sylw** tan i rywun ei fesur yn uniongyrchol.
@@ -56,7 +56,7 @@ ar raddfa fach yn syml yn cyrraedd mor bell.
 Olrheiniwch faint o bobl a all adolygu, addasu, neu weithredu pob
 cydran system dyngedfennol yn gymwys: mae cydran ag un person cymwys yn
 unig yn **[ffactor bws](https://en.wikipedia.org/wiki/Bus_factor)** o
-un, perygl difrifol ac yn aml anweledig (mae pwnc y llyfr chwaer
+un, risg ddifrifol ac yn aml anweledig (mae pwnc y llyfr chwaer
 `software-engineering-guide` ar gynnal systemau hirhoedlog yn ymdrin â
 hyn yn fanylach). Gall data bai rheoli fersiwn, wedi'i gyfuno â
 chofnodion cylchdroi ar-alwad, ddatgelu'r crynhoad hwn yn awtomatig:
@@ -115,8 +115,8 @@ gwybodaeth ehangach) a fyddai fel arall yn aros yn anweledig.
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
-| Dim mesuriad cydweithio uniongyrchol | Baich isel | Camfriodolir achosion gwraidd i ddimensiynau eraill; mae peryglon yn aros yn anweledig |
-| Olrhain crynhoad gwybodaeth | Yn datgelu perygl gwirioneddol, difrifol (ffactor bws) yn uniongyrchol | Angen cyfuno data o sawl system (rheoli fersiwn, ar-alwad) |
+| Dim mesuriad cydweithio uniongyrchol | Baich isel | Camfriodolir achosion gwraidd i ddimensiynau eraill; mae risgiau yn aros yn anweledig |
+| Olrhain crynhoad gwybodaeth | Yn datgelu risg wirioneddol, difrifol (ffactor bws) yn uniongyrchol | Angen cyfuno data o sawl system (rheoli fersiwn, ar-alwad) |
 | Olrhain ffrithiant dibyniaeth draws-dîm | Yn datgelu problemau cydlynu anweledig o fewn y naill dîm neu'r llall | Angen offeryno bwriadol; nid yn awtomatig o offer presennol |
 | Mapio rhwydwaith-cyfathrebu | Yn datgelu'r strwythur anffurfiol, gwirioneddol y tu ôl i'r siart sefydliadol | Gall deimlo'n ymwthiol os na chaiff ei drin â'r un gofal â data boddhad |
 
@@ -173,12 +173,12 @@ dadansoddiad rhwydwaith-cyfathrebu mwy uchelgeisiol.
 
 **Cwmni newydd.** Mae cyfathrebu'n digwydd yn naturiol trwy agosrwydd a
 sgwrs ddyddiol mewn tîm bach, ac mae mesuriad ffurfiol fel arfer yn
-ddiangen. Y perygl i'w wylio yw ffactor bws yn crynhoi'n beryglus wrth
+ddiangen. Y risg i'w wylio yw ffactor bws yn crynhoi'n beryglus wrth
 i'r tîm dyfu heibio'r maint lle mae osmosis anffurfiol yn dal i
 gyrraedd pawb, yn aml o gwmpas wyth i ddeuddeg o bobl.
 
 **Busnes bach.** Mae sgwrs syml, gyfnodol, onest, "pwy yw'r unig berson
-sy'n deall y system hon," yn aml yn dwyn y peryglon crynhoad-gwybodaeth
+sy'n deall y system hon," yn aml yn dwyn y risgiau crynhoad-gwybodaeth
 mwyaf dyngedfennol i'r wyneb heb angen offeryno ffurfiol. Blaenoriaethwch
 ddogfennu'r ddwy neu dair ardal wybodaeth fwyaf bregus, mwyaf crynodedig
 yn gyntaf.
@@ -191,7 +191,7 @@ pwnc hwn yn ei argymell yn fwriadol, gan na all ymwybyddiaeth
 anffurfiol wirioneddol gwmpasu sefydliad ar y raddfa hon.
 
 **Llywodraeth.** Gall systemau hirhoedlog a chyfnodau cyflogaeth hir sy'n
-gyffredin mewn sefydliadau sector cyhoeddus greu perygl ffactor-bws
+gyffredin mewn sefydliadau sector cyhoeddus greu risg ffactor-bws
 difrifol yn cuddio y tu ôl i sefydlogrwydd ymddangosiadol, gan y gallai
 system nad yw wedi newid dwylo mewn degawd ddibynnu'n gyfan gwbl ar un
 neu ddau berson sy'n nesáu at ymddeoliad. Triniwch fesuriad crynhoad-
@@ -233,7 +233,7 @@ gyfathrebu yn gwastraffu ymdrech pan fydd tîm yn ceisio ei thrwsio trwy
 ychwanegu mwy o brofion yn hytrach na thrwsio'r methiant cydlynu
 sylfaenol. Mae'r enghraifft ffactor-bws uchod yn dangos fersiwn fwyaf
 llym o'r enillion hwn: mae sefydliad sy'n darganfod ac yn trwsio
-perygl crynhoad-gwybodaeth difrifol yn rhagweithiol yn osgoi cost
+risg crynhoad-gwybodaeth difrifol yn rhagweithiol yn osgoi cost
 drychinebus ei ddarganfod yn ystod argyfwng gwirioneddol, pan fo'r un
 person a ddeallodd system dyngedfennol yn wirioneddol anargaeledig.
 
@@ -244,7 +244,7 @@ crynhoad gwybodaeth a ffrithiant dibyniaeth yn benodol. Mae'r gost
 honno'n gymedrol o'i chymharu â chost argyfwng ffactor-bws gwirioneddol
 neu fethiant cydlynu traws-dîm cronig, heb ei ddatrys.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Hepgor y dimensiwn hwn oherwydd ei fod yn anodd ei offeryno'n
   awtomatig:** yn gadael achosion gwraidd wedi'u camfriodoli i
@@ -278,7 +278,7 @@ neu fethiant cydlynu traws-dîm cronig, heb ei ddatrys.
 - **Lefel 4, Rheoli:** Mae mapio rhwydwaith-cyfathrebu cyfnodol yn
   datgelu tagfeydd cudd a phocedi ynysig, ac olrheinir amser cynefino
   fel dirprwy uniongyrchol ar gyfer iechyd dealltwriaeth-a-rennir.
-- **Lefel 5, Cerddorfaru:** Mae'r sefydliad yn lleihau perygl crynhoad-
+- **Lefel 5, Cerddorfaru:** Mae'r sefydliad yn lleihau risg crynhoad-
   gwybodaeth a ffrithiant traws-dîm yn rhagweithiol cyn iddynt achosi
   digwyddiadau, a gall bwyntio at ymyriadau penodol, lledaenu gwybodaeth
   bwriadol, prosesau dibyniaeth wedi'u hegluro, a wellodd y dimensiwn

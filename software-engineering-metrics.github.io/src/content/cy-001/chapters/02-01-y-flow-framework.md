@@ -30,7 +30,7 @@ bodoli'n benodol i wneud y cymysgedd hwnnw'n weladwy.
 
 I dimau mawr, nid yw'r gwahaniaeth hwn yn academaidd. Gall sefydliad
 platfform sy'n rhedeg dwsinau o ffrydiau gwerth gael rhifau DORA
-rhagorol, defnyddiadau cyflym, aml, sefydlog, tra bo'i gynnyrch cynnyrch
+rhagorol, defnyddiadau cyflym, aml, sefydlog, tra bo'i allbwn
 gwirioneddol wedi drifftio'n dawel tuag at waith cynnal a chadw bron yn
 bur, patrwm anweledig i ddangosfwrdd sy'n mesur mecaneg piblinell yn
 unig. Mae sefydliadau menter a llywodraeth, sy'n gorfod cyfiawnhau
@@ -84,10 +84,10 @@ Dylai statws elfen lif ei ddiweddaru ei hun wrth i'r tocyn neu'r cais
 tynnu sylfaenol symud, yr un ddisgyblaeth cyfrifianeg-dros-hunan-adrodd y
 mae pwnc 1.5 yn ei hargymell ar gyfer pob metrig yn y llyfr hwn.
 
-### Cyflwynwch ddosbarthiad llif i randdeiliaid busnes yn uniongyrchol, nid dim ond arweinyddiaeth beirianneg
+### Cyflwynwch ddosraniad llif i randdeiliaid busnes yn uniongyrchol, nid dim ond arweinyddiaeth beirianneg
 
 Y cyfle a gollwyd mwyaf sengl â'r fframwaith hwn yw ei drin fel offeryn
-peirianneg mewnol. Mae dosbarthiad llif, cyfran y gwaith sy'n mynd i
+peirianneg mewnol. Mae dosraniad llif, cyfran y gwaith sy'n mynd i
 nodweddion yn erbyn diffygion, risg, a dyled (pwnc 2.3), wedi'i ddylunio'n
 benodol i fod yn sgwrs a gewch â arweinyddiaeth cynnyrch a busnes,
 oherwydd mae'n gwneud penderfyniad blaenoriaethu ymhlyg, faint o gynhwysedd
@@ -190,7 +190,7 @@ sut mae cynhwysedd peirianneg mewn gwirionedd yn cael ei ddyrannu ar draws
 nodweddion, diffygion, risg, a dyled. Buddsoddwch yn yr integreiddiad
 offer; nid yw'r dewis â llaw yn goroesi cyswllt â graddfa wirioneddol.
 
-**Llywodraeth.** Mae dosbarthiad llif yn rhoi ateb amddiffynadwy,
+**Llywodraeth.** Mae dosraniad llif yn rhoi ateb amddiffynadwy,
 busnes-ddarllenadwy i sefydliad peirianneg sector cyhoeddus i "pam nad
 oes mwy o ymarferoldeb newydd yn cael ei gyflenwi," pan mai'r ateb gonest
 yw cyfran gynyddol o gynhwysedd'n mynd i remediad diogelwch neu ddyled
@@ -245,7 +245,7 @@ gost yn un-waith neu'n gynnal a chadw isel unwaith y'u gwneir yn dda, sy'n
 gwneud y fframwaith yn sylweddol rhatach i'w gynnal nag ydyw i'w
 fabwysiadu.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Trin mapio ffrwd werth fel gweithdy un-waith, byth wedi'i ailedrych
   arno:** mae'r map yn mynd yn hen yr eiliad y bydd y sefydliad yn newid,
@@ -257,7 +257,7 @@ fabwysiadu.
   cymryd i mewn:** y fector twyllo wrth galon y pwnc hwn. O dan bwysau
   cyflenwi, gall tîm ailenwi'n dawel waith dyled neu risg fel nodweddion
   ar ôl y ffaith i edrych yn fwy cynhyrchiol i randdeiliaid nad ydynt ond
-  yn gweld y siart dosbarthiad llif, heb i unrhyw un byth wneud
+  yn gweld y siart dosraniad llif, heb i unrhyw un byth wneud
   penderfyniad esblyg, gweladwy i wneud hynny. Y gledr ddiogelwch yw mynnu
   dosbarthiad wrth gymryd i mewn, cyn i'r canlyniad fod yn hysbys, ac
   archwilio sampl o eitemau wedi'u dosbarthu'n gyfnodol yn erbyn yr hyn a
@@ -283,7 +283,7 @@ fabwysiadu.
 - **Lefel 3, Safoni:** Mae dosbarthiad elfen-lif wedi'i integreiddio i
   mewn i offer presennol ac wedi'i gymhwyso'n gyson wrth gymryd i mewn ar
   draws prif ffrydiau gwerth.
-- **Lefel 4, Rheoli:** Adolygir dosbarthiad llif yn rheolaidd â
+- **Lefel 4, Rheoli:** Adolygir dosraniad llif yn rheolaidd â
   rhanddeiliaid busnes, a chedwir mapiau ffrwd werth yn gyfredol yn
   weithredol wrth i'r sefydliad newid.
 - **Lefel 5, Cerddorfaru:** Mae'r sefydliad yn dyrannu buddsoddiad

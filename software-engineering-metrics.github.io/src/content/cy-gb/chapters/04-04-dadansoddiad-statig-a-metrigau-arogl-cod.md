@@ -18,7 +18,7 @@ Pryder canolog y pwnc hwn yw'r bwlch rhwng yr hyn y mae offer
 dadansoddiad statig yn ei adrodd a'r hyn sydd mewn gwirionedd yn bwysig.
 Gall offeryn fflagio miloedd o ganfyddiadau ar draws sylfaen cod fawr,
 ac mae nifer y canfyddiadau ar ei ben ei hun yn fetrig gwael, gan ei
-fod yn cymysgu ffafriaethau arddull dibwys â pherygl gwirioneddol,
+fod yn cymysgu ffafriaethau arddull dibwys â risg wirioneddol,
 difrifol, a gellir ei ostwng trwy atal cystal â thrwy drwsiadau
 gwirioneddol. Daw gwerth dadansoddiad statig nid o'r cyfrif canfyddiad
 crai ond o ba mor dda y mae sefydliad yn didoli difrifoldeb, yn atal
@@ -113,7 +113,7 @@ sawl signal annibynnol yn cydgyfeirio ar yr un casgliad.
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Cyfrif canfyddiad crai fel y metrig | Syml i'w adrodd | Yn cymysgu materion dibwys a difrifol; yn hawdd ei dwyllo trwy atal |
-| Tuedd wedi'i phwysoli-yn-ôl-difrifoldeb | Yn adlewyrchu perygl gwirioneddol yn fwy cywir | Angen cynnal a chadw dosbarthiad-difrifoldeb parhaus |
+| Tuedd wedi'i phwysoli-yn-ôl-difrifoldeb | Yn adlewyrchu risg wirioneddol yn fwy cywir | Angen cynnal a chadw dosbarthiad-difrifoldeb parhaus |
 | Giatio ar y gronfa-waith hanesyddol gyfan | Yn mwyafu glendid cod terfynol | Yn aml yn anymarferol ar gyfer sylfeini cod sefydledig; gall atal pob gwaith |
 | Giatio ar ganfyddiadau newydd yn unig | Ymarferol, yn atal ôl-gwympiad, yn gadael i'r gronfa-waith grebachu'n raddol | Mae materion gwaddol yn parhau'n hirach heb gynllun unioni bwriadol |
 
@@ -248,7 +248,7 @@ cronfa-waith-waddol. Y ddisgyblaeth barhaus honno, yn fwy na'r offeryn
 ei hun, sy'n pennu a yw rhaglen dadansoddiad statig yn darparu gwerth
 gwirioneddol, ymddiriedol neu'n dirywio'n sŵn wedi'i anwybyddu.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Trin cyfrif canfyddiad crai fel y metrig:** yn cymysgu materion
   dibwys a difrifol ac yn hawdd ei dwyllo trwy atal.

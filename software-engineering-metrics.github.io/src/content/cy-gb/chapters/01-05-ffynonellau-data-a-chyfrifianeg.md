@@ -258,7 +258,7 @@ piblinell wedi torri'n dawel ar ôl misoedd o benderfyniadau wedi'u
 gwneud ar ddata gwael yn llawer uwch na chost adeiladu'r gwiriadau
 iechyd a fyddai wedi'i ddal ar y diwrnod cyntaf.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Ymddiried mewn rhif heb wybod ei system ffynhonnell:** metrig a
   fabwysiadwyd o fframwaith neu ddiofyn gwerthwr heb i unrhyw un olrhain

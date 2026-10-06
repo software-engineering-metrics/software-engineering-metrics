@@ -14,8 +14,8 @@ gwirioneddol.
 
 Mae'r dimensiwn hwn yn bwysig oherwydd dyma'r dangosydd rhagfynegi ar
 gyfer costau sy'n ymddangos mewn man arall, yn llawer diweddarach, ac yn
-llawer drutach. Mae boddhad gostyngol yn rhagfynegi traul staff cyn i
-gyfweliad ymadael wneud hynny. Mae perygl llosgi allan cynyddol yn
+llawer drutach. Mae boddhad gostyngol yn rhagfynegi cyfradd gadael staff cyn i
+gyfweliad ymadael wneud hynny. Mae risg llosgi allan cynyddol yn
 rhagfynegi cwymp ansawdd cyn i'r gyfradd diffygion ei ddangos. Mae
 sefydliad sy'n gwylio dim ond metrigau cyflenwi a gweithgarwch yn
 darganfod am broblem les dim ond unwaith y mae eisoes wedi dod yn
@@ -26,7 +26,7 @@ ddigwydd.
 
 I dimau mawr, dyma hefyd lle mae'r gwahaniaeth diagnostig-a-gwerthuso o
 bwnc 1.1 yn bwysicaf yn finiog. Mae data boddhad a ddefnyddir i ddeall
-a gwella amodau tîm yn werthfawr ac yn berygl isel. Mae'r un data a
+a gwella amodau tîm yn werthfawr ac yn risg isel. Mae'r un data a
 ddefnyddir i raddio timau neu, yn waeth, unigolion yn erbyn ei gilydd yn
 llygru'r offeryn arolwg bron ar unwaith, oherwydd bod pobl yn peidio ag
 ateb yn onest y foment y maent yn amau y bydd yr ateb yn cael ei
@@ -40,8 +40,8 @@ o dueddol i'r drifft hwn ac angen gwarchod yn ei erbyn yn benodol.
   am y dimensiwn hwn, yn fwriadol ac yn dda.
 - **Nid yw anhysbysrwydd yn ddewisol.** Mae unrhyw gyswllt canfyddedig
   rhwng ateb onest a chanlyniad personol yn dinistrio'r signal.
-- **Mae'r dimensiwn hwn yn ddangosydd rhagfynegi, nid un ôl-ddyddiedig.**
-  Mae'n rhagfynegi traul staff a phroblemau ansawdd cyn iddynt ymddangos
+- **Mae'r dimensiwn hwn yn ddangosydd rhagfynegi, nid un ôl-fynegi.**
+  Mae'n rhagfynegi cyfradd gadael staff a phroblemau ansawdd cyn iddynt ymddangos
   mewn man arall.
 - **Mae llosgi allan yn batrwm penodol, adnabyddadwy, nid dim ond
   anhapusrwydd cyffredinol.** Mesurwch ar ei gyfer yn benodol yn hytrach
@@ -86,7 +86,7 @@ ochr yn ochr â'r llinell duedd hanesyddol yn hytrach na fel rhif ar
 wahân, fel y gall darllenwyr ac ymatebwyr fel ei gilydd galibro yn erbyn
 newid gwirioneddol yn hytrach na sŵn un-tro.
 
-### Gwahaniaethwch foddhad cyffredinol o berygl llosgi allan penodol
+### Gwahaniaethwch foddhad cyffredinol o risg llosgi allan penodol
 
 Mae cwestiwn boddhad cyffredinol ("pa mor fodlon ydych chi â'ch gwaith?")
 a chwestiwn llosgi-allan-penodol ("a ydych yn teimlo blinder emosiynol
@@ -99,7 +99,7 @@ cyflymach, mwy uniongyrchol na gostyngiad boddhad cyffredinol.
 ### Parejwch ddata arolwg â signalau gwirio gwrthrychol, yn ofalus
 
 Lle bo ar gael, gwiriwch dueddiadau boddhad â signalau gwrthrychol sy'n
-berthnasol yn gredadwy i les: cyfradd traul staff wirfoddol, patrymau
+berthnasol yn gredadwy i les: cyfradd gadael staff wirfoddol, patrymau
 gwaith y tu allan i oriau parhaus, neu gyfradd gynyddol o amser gwyliau
 heb ei ddefnyddio. Defnyddiwch y rhain fel gwiriad, byth fel disodliad
 ar gyfer gofyn yn uniongyrchol, a byddwch yn ofalus nad yw'r gwiriad hwn
@@ -112,7 +112,7 @@ eironig, boddhad ei hun.
 | --- | --- | --- |
 | Cwestiynau arolwg mewnol ad hoc | Cyflym i'w adeiladu, wedi'i deilwra i'r cyd-destun | Heb ei ddilysu; aneglur a yw mewn gwirionedd yn mesur yr hyn y mae'n ei honni |
 | Offeryn wedi'i ddilysu (e.e. Maslach Burnout Inventory, wedi'i addasu) | Wedi'i brofi, yn gymharadwy, signal mwy dibynadwy | Angen mwy o osod ac efallai bydd angen ei addasu ar gyfer cyd-destun peirianneg |
-| Arolygon pyls byr aml | Blinder ymatebwr isel, signal bron-amser-real | Llai o ddyfnder fesul arolwg; perygl sŵn os camddehonglir |
+| Arolygon pyls byr aml | Blinder ymatebwr isel, signal bron-amser-real | Llai o ddyfnder fesul arolwg; risg sŵn os camddehonglir |
 | Arolygon anaml, dwfn | Signal cyfoethog, manwl | Yn arafach i ddal problem sy'n datblygu'n gyflym fel llosgi allan acíwt |
 
 Y tensiwn canolog yw **dyfnder yn erbyn amlder**. Mae arolwg dwfn, wedi'i
@@ -139,14 +139,14 @@ ymgysylltiad bob tro.
    rheolwr penderfynol, yn ymarferol, ddyfalu atebion unigolyn, hyd yn
    oed os yw'r polisi'n dweud na ddylai fedru gwneud hynny.
 
-3. **A ydym erioed wedi gweld data boddhad yn rhagargoeli pigyn traul
-   staff neu broblem ansawdd a ymddangosodd yn ddiweddarach mewn
+3. **A ydym erioed wedi gweld data boddhad yn rhagargoeli pigyn cyfradd
+   gadael staff neu broblem ansawdd a ymddangosodd yn ddiweddarach mewn
    metrigau eraill?** Edrychwch yn ôl ar eich hanes arolwg yn erbyn eich
-   data traul staff a digwyddiad a gwelwch a yw patrwm dangosydd-blaenllaw
+   data cyfradd gadael staff a digwyddiad a gwelwch a yw patrwm dangosydd-rhagfynegi
    yn weladwy wrth edrych yn ôl. Os na wnaethoch erioed wirio, mae
    hynny ei hun yn werth ei drafod.
 
-4. **A ydym yn gwahaniaethu boddhad cyffredinol o berygl llosgi allan
+4. **A ydym yn gwahaniaethu boddhad cyffredinol o risg llosgi allan
    penodol yn ein harolwg, neu a ydym yn dibynnu ar un cwestiwn
    cymysg?** Gall tîm edrych yn iawn ar foddhad cyffredinol tra'n
    dangos arwyddion rhybudd llosgi allan gwirioneddol oddi tano;
@@ -171,7 +171,7 @@ ymgysylltiad bob tro.
 **Cwmni newydd.** Gyda llond llaw o bobl, gall arolygon anhysbys
 ffurfiol deimlo'n ddiangen, ac mae sgwrs uniongyrchol yn aml yn dwyn
 materion boddhad i'r wyneb yn gyflymach nag y byddai offeryn chwarterol.
-Y perygl yw sylfaenydd yn camgymryd absenoldeb cwynion am absenoldeb
+Y risg yw sylfaenydd yn camgymryd absenoldeb cwynion am absenoldeb
 problem; cyflwynwch check-in ysgafn, anhysbys hyd yn oed unwaith y mae'r
 tîm yn tyfu heibio'r maint lle mae pawb yn siarad bob dydd.
 
@@ -186,7 +186,7 @@ onest yn anos ei roi'n uniongyrchol.
 gwirioneddol: offeryn trydydd parti priodol, polisi cyfanredu maint-
 grŵp-lleiafswm, a pholisi defnydd-heb-wertheuso clir, wedi'i gyfathrebu'n
 gyson. Mae'r enillion yn gymesur yn fwy hefyd, gan fod dal tuedd llosgi
-allan mewn sefydliad nifer-pennau mawr cyn iddo yrru traul staff yn
+allan mewn sefydliad nifer-pennau mawr cyn iddo yrru cyfradd gadael staff yn
 diogelu llawer mwy o wybodaeth sefydliadol.
 
 **Llywodraeth.** Mae pwysau cadw o gyfyngiadau cyflog sector cyhoeddus
@@ -208,7 +208,7 @@ ar ôl ail chwarter olynol o ostyngiad a chanfod bod y tîm wedi bod yn
 amsugno llwyth ar-alwad anghynaliadwy (pwnc 6.3) am bron i flwyddyn ar
 ôl rhewi nifer pennau. Gwrthdroddodd adfer staffio ar-alwad digonol y
 duedd llosgi allan o fewn dau chwarter, ymhell cyn iddo drosi i'r pigyn
-traul staff yr oedd data'r cwmni'n dangos oedd y canlyniad nodweddiadol
+cyfradd gadael staff yr oedd data'r cwmni'n dangos oedd y canlyniad nodweddiadol
 i lawr yr afon o'r patrwm hwn.
 
 **Llywodraeth.** Defnyddiodd asiantaeth TG llywodraeth talaith, oedd yn
@@ -230,7 +230,7 @@ Rhybudd cynnar yw'r enillion ar fesur boddhad a llesiant yn uniongyrchol: gall
 sefydliad sy'n dal tuedd llosgi allan flwyddyn gyfan cyn iddi drosi'n
 draul staff ymyrryd am ffracsiwn o gost recriwtio a chynefino disodliad,
 sydd fel arfer yn cymryd misoedd i gyrraedd cynhyrchiant llawn hyd yn oed
-ar ôl ei gyflogi. Mae traul staff gwirfoddol peiriannydd profiadol yn
+ar ôl ei gyflogi. Mae cyfradd gadael staff gwirfoddol peiriannydd profiadol yn
 costio i sefydliad lawer mwy na'r isadeiledd arolwg a allai fod wedi
 darparu'r rhybudd.
 
@@ -243,7 +243,7 @@ hun; mae arolwg sy'n datgelu problem nad oes neb yn mynd i'r afael â hi
 yn erydu ymddiriedaeth yn yr offeryn cyn sicred â gwarant anhysbysrwydd
 wedi'i thorri.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Cwestiynau arolwg ad hoc, heb eu dilysu:** yn cynhyrchu data o
   ddibynadwyedd aneglur.
@@ -284,7 +284,7 @@ wedi'i thorri.
 1. A fyddai ein hofferyn arolwg cyfredol yn goroesi craffu fel un gwirioneddol anhysbys?
 2. A yw tuedd boddhad neu losgi allan erioed wedi rhagfynegi problem a ymddangosodd yn ddiweddarach mewn man arall?
 3. Beth yw ein proses ar gyfer gweithredu ar ganlyniad arolwg nad ydym eisiau ei glywed?
-4. A ydym yn gwahaniaethu perygl llosgi allan o foddhad cyffredinol yn ein mesuriad ar hyn o bryd?
+4. A ydym yn gwahaniaethu risg llosgi allan o foddhad cyffredinol yn ein mesuriad ar hyn o bryd?
 5. Pa fuddsoddiad an-ariannol y byddai ein data les yn ei gyfiawnhau orau ar hyn o bryd?
 
 ## Prif gasgliadau
@@ -294,9 +294,9 @@ wedi'i thorri.
 - Defnyddiwch **offeryn wedi'i ddilysu** lle bo'n bosibl, a gwarantwch
   **anhysbysrwydd** gwirioneddol, wedi'i gyfathrebu'n dda.
 - Mae'r dimensiwn hwn yn **ddangosydd rhagfynegi** ar gyfer problemau
-  traul staff ac ansawdd a fyddai fel arall yn ymddangos yn llawer
+  cyfradd gadael staff ac ansawdd a fyddai fel arall yn ymddangos yn llawer
   diweddarach ac yn llawer drutach.
-- Gwahaniaethwch **foddhad cyffredinol o berygl llosgi allan penodol**,
+- Gwahaniaethwch **foddhad cyffredinol o risg llosgi allan penodol**,
   ac olrheiniwch **duedd dros amser**, nid darlleniad sengl.
 - Peidiwch byth â defnyddio'r data hwn i **raddio neu gymharu timau**;
   mae'r drifft hwnnw'n llygru ymateb onest bron ar unwaith.

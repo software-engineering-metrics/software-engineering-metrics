@@ -22,8 +22,8 @@ ddigwydd dim byd, a tholl gronedig llwyth digwyddiad aml, wedi'i
 ddosbarthu'n wael. Mae sefydliad sy'n mesur dibynadwyedd ei systemau'n
 fanwl gywir tra byth yn mesur cynaliadwyedd y bodau dynol sy'n cadw'r
 systemau hynny'n ddibynadwy yn mesur dim ond hanner y darlun, ac mae'r
-hanner heb ei fesur yn tueddu i ymddangos yn y pen draw fel traul
-staff, ansawdd ymateb digwyddiad dirywiedig gan ymatebwyr wedi ymlâdd,
+hanner heb ei fesur yn tueddu i ymddangos yn y pen draw fel cyfradd
+gadael staff, ansawdd ymateb digwyddiad dirywiedig gan ymatebwyr wedi ymlâdd,
 neu'r ddau.
 
 I dimau mawr, mae metrigau ar-alwad a chynhwysedd'n datgelu problemau
@@ -40,7 +40,7 @@ darganfod y gost wirioneddol dim ond trwy draul staff.
 
 - **Mae llwyth ar-alwad yn adnodd mesuradwy, rheoladwy**, nid baich
   anochel, diderfyn y mae'n rhaid i beirianwyr ei amsugno'n syml.
-- **Mae amlder galwad a dosbarthiad galwad ill dau'n bwysig.** Gall
+- **Mae amlder galwad a dosraniad galwad ill dau'n bwysig.** Gall
   cyfartaledd tîm-cyfan guddio crynhoad difrifol ar nifer fach o
   unigolion.
 - **Mae ymyriad yn ystod ar-alwad yn cario cost hyd yn oed pan na
@@ -55,7 +55,7 @@ darganfod y gost wirioneddol dim ond trwy draul staff.
 
 ## Argymhellion
 
-### Olrheiniwch amlder a dosbarthiad galwad, nid dim ond cyfartaledd lefel-tîm
+### Olrheiniwch amlder a dosraniad galwad, nid dim ond cyfartaledd lefel-tîm
 
 Mesurwch faint o alwadau y mae pob peiriannydd ar-alwad unigol yn eu
 derbyn, nid dim ond cyfartaledd tîm-cyfan a all guddio crynhoad
@@ -112,9 +112,9 @@ cadw sgôr unigol.
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
-| Dim olrhain llwyth ar-alwad ffurfiol | Dim baich | Mae risg llosgi allan a chrynhoad ffactor-bws yn aros yn anweledig tan iddynt ymddangos fel traul staff |
+| Dim olrhain llwyth ar-alwad ffurfiol | Dim baich | Mae risg llosgi allan a chrynhoad ffactor-bws yn aros yn anweledig tan iddynt ymddangos fel cyfradd gadael staff |
 | Amlder galwad cyfartaledd-tîm yn unig | Syml i'w gyfrifo | Yn cuddio crynhoad unigol difrifol |
-| Olrhain dosbarthiad galwad lefel-unigol | Yn datgelu crynhoad a risg llosgi allan yn uniongyrchol | Angen gofal i'w ddefnyddio'n gyfanredol yn unig, byth ar gyfer gwerthusiad unigol |
+| Olrhain dosraniad galwad lefel-unigol | Yn datgelu crynhoad a risg llosgi allan yn uniongyrchol | Angen gofal i'w ddefnyddio'n gyfanredol yn unig, byth ar gyfer gwerthusiad unigol |
 | Buddsoddiad cynhwysedd i leihau cyfaint galwad wrth y ffynhonnell | Yn mynd i'r afael â'r achos gwraidd, yn lleihau baich yn gynaliadwy | Angen buddsoddiad isadeiledd ymlaen llaw |
 
 Y tensiwn canolog yw **derbyn yn erbyn buddsoddi**. Mae'n hawdd trin
@@ -129,7 +129,7 @@ anochel i'w ddioddef yn syml yn ddiddiwedd.
 
 ## Cwestiynau i'w trafod gyda'ch tîm
 
-1. **Beth yw ein dosbarthiad galwad gwirioneddol ar draws unigolion yn
+1. **Beth yw ein dosraniad galwad gwirioneddol ar draws unigolion yn
    y cylchdro, nid dim ond cyfartaledd y tîm?** Tynnwch y data
    gwirioneddol, lefel-unigol; gall cyfartaledd tîm sy'n edrych yn
    rhesymol guddio un neu ddau berson yn amsugno cyfran ddramatig o
@@ -233,7 +233,7 @@ unig.
 
 ## Achos busnes: cymhellion, ROI, a TCO
 
-Traul staff osgowyd a dirywiad dibynadwyedd osgowyd rhag ymatebwyr wedi
+Cyfradd gadael staff osgowyd a dirywiad dibynadwyedd osgowyd rhag ymatebwyr wedi
 ymlâdd yn gwneud penderfyniadau arafach, mwy agored i wall yw'r
 enillion ar reoli llwyth ar-alwad a chynhwysedd'n fwriadol. Mae'r
 enghraifft seilwaith cwmwl uchod yn dangos y risg cyfansymio'n
@@ -243,7 +243,7 @@ lywio gan ddata ei datrys am gost gymedrol o'i chymharu â'r risg o
 golli'r naill neu'r llall o'r peirianwyr uwch i draul staff.
 
 Mae cost cyfanswm perchnogaeth yn cynnwys yr offeryno i olrhain
-dosbarthiad galwad lefel-unigol (a ddefnyddir yn ofalus, yn gyfanredol
+dosraniad galwad lefel-unigol (a ddefnyddir yn ofalus, yn gyfanredol
 yn unig) ac, lle nodir, buddsoddiad cynhwysedd gwirioneddol i leihau
 cyfaint galwad wrth y ffynhonnell. Mae'r enghraifft cyfleustod dŵr yn
 dangos y gall y buddsoddiad hwn dalu amdano'i hun yn uniongyrchol ac yn
@@ -266,7 +266,7 @@ baich gweithredol ar draws y sefydliad yn sylweddol.
   uniongyrchol sydd ar gael yn aml.
 - **Byth yn cysylltu data llwyth ar-alwad â data arolwg llesiant:** yn colli'r
   cyfle i nodi a gweithredu ar risg llosgi allan cyfansymio cyn iddo
-  ymddangos fel traul staff.
+  ymddangos fel cyfradd gadael staff.
 - **Anwybyddu cost seicolegol bod ar-alwad â sero galwadau
   gwirioneddol:** yn tanamcangyfrif baich gwirioneddol cylchdro.
 
@@ -278,7 +278,7 @@ baich gweithredol ar draws y sefydliad yn sylweddol.
 - **Lefel 2, Datblygu:** Mae rhywfaint o ddata galwad lefel-unigol yn
   bodoli, ond nid yw wedi'i gysylltu â data arolwg llesiant na
   phenderfyniadau buddsoddi cynhwysedd.
-- **Lefel 3, Safoni:** Olrheinir dosbarthiad galwad lefel-unigol a
+- **Lefel 3, Safoni:** Olrheinir dosraniad galwad lefel-unigol a
   chydberthynas defnydd-cynhwysedd'n gyson, gyda therfynau
   cynaliadwyedd penodol ar amlder cylchdro.
 - **Lefel 4, Rheoli:** Defnyddir data llwyth ar-alwad yn weithredol i
@@ -292,7 +292,7 @@ baich gweithredol ar draws y sefydliad yn sylweddol.
 
 ## Syniadau ar gyfer trafodaeth
 
-1. Sut olwg sydd ar ein dosbarthiad galwad gwirioneddol, lefel-unigol ar hyn o bryd?
+1. Sut olwg sydd ar ein dosraniad galwad gwirioneddol, lefel-unigol ar hyn o bryd?
 2. A yw ein hamserlen cylchdro enwol yn adlewyrchu pwy sy'n mewn gwirionedd yn datrys y rhan fwyaf o ddigwyddiadau?
 3. Pa fuddsoddiad cynhwysedd sengl fyddai'n lleihau ein cyfaint galwad cyfredol fwyaf?
 4. A ydym erioed wedi cysylltu data llwyth ar-alwad â signalau arolwg llesiant?

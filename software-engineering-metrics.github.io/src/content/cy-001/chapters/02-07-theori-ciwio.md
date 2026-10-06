@@ -269,7 +269,7 @@ ddadansoddol, gwirio'r rhifau yn erbyn ei gilydd ac adolygu defnydd ar
 adnoddau a rennir yn gyfnodol cyn iddynt ddod yn ddirywiad amser-arwain
 heb ei esbonio nesaf y sefydliad.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Meintioli cynhwysedd adnodd a rennir i gyfateb yn union â'i gyfradd
   gyrraedd gyfartalog:** yn gwarantu defnydd uchel ac amseroedd aros

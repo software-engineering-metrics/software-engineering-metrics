@@ -254,7 +254,7 @@ arferion hyn yn costio ychydig i'w mabwysiadu ac yn atal y gost llawer
 mwy, anos ei ganfod o benderfyniadau a wnaed ar gasgliadau hyderus,
 anghywir.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Adrodd cyfartaledd ar ddata wedi'i seilio ar amser cam:** yn cuddio'r
   achos nodweddiadol a'r gynffon y tu ôl i un rhif camarweiniol.

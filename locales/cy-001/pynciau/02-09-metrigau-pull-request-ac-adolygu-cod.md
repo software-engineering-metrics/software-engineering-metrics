@@ -8,7 +8,7 @@ cyfrannwr amser-aros mwyaf sengl o fewn dadansoddiad amser cylch pwnc
 hun i'w wella, yn wahanol i dagfa platfform a rennir neu ddibyniaeth
 allanol. Mae'r pwnc hwn yn ymdrin â'r metrigau penodol sy'n byw o fewn
 cam yr adolygu: amser i'r adolygiad cyntaf, maint pull request, cyfrif
-ailadroddiadau adolygu, a dosbarthiad llwyth adolygwyr, a sut i'w
+ailadroddiadau adolygu, a dosraniad llwyth adolygwyr, a sut i'w
 defnyddio i wella cyflymder adolygu heb aberthu'r budd ansawdd
 gwirioneddol y mae adolygu i fod i'w ddarparu.
 
@@ -73,7 +73,7 @@ maint-swp y tu ôl i amledd defnyddio ym mhwnc 2.10. Anogwch hollti
 newidiadau mawr yn ddilyniant o pull requests llai, adolygadwy'n
 annibynnol lle bynnag y mae'r gwaith yn caniatáu hynny.
 
-### Monitro dosbarthiad llwyth adolygwyr yn benodol
+### Monitro dosraniad llwyth adolygwyr yn benodol
 
 Olrheiniwch nifer yr adolygiadau a gwblhawyd fesul person dros ffenestr
 dreigl, a gwyliwch yn benodol am nifer fach o bobl yn amsugno cyfran
@@ -227,7 +227,7 @@ request llai.
 Y ffordd o gyflenwi'n gyflymach heb aberthu ansawdd yw'r enillion ar
 fetrigau adolygu wedi'u rheoli'n dda, sy'n gyfuniad prin: mae'r rhan
 fwyaf o welliannau cyflenwi'n masnachu cyflymder yn erbyn risg yn
-rhywle, ond mae gwelliannau cam-adolygu, pull requests llai, dosbarthiad
+rhywle, ond mae gwelliannau cam-adolygu, pull requests llai, dosraniad
 llwyth gwell, ymateb cyntaf cyflymach, yn gwella'r ddau'n wirioneddol ar
 yr un pryd pan ddilynir gyda'r gledr ddiogelwch ansawdd y mae'r pwnc
 hon yn ei hargymell. Mae'r enghraifft seiberddiogelwch uchod yn nodweddiadol:
@@ -261,7 +261,7 @@ costio disgyblaeth yn bennaf yn hytrach na buddsoddiad offer.
 
 ## Model aeddfedrwydd
 
-- **Lefel 1, Cychwyn:** Ni olrheinir metrigau adolygu; mae dosbarthiad
+- **Lefel 1, Cychwyn:** Ni olrheinir metrigau adolygu; mae dosraniad
   llwyth adolygu a maint pull request yn anweledig.
 - **Lefel 2, Datblygu:** Mae rhywfaint o ddata cyflymder-adolygu'n bodoli
   o ddiofyn platfform, ond nid oes cledr ddiogelwch ansawdd na rheolaeth

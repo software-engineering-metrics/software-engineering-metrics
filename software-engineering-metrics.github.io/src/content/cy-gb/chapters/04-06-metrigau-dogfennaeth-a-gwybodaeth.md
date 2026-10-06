@@ -34,7 +34,7 @@ ysgrifenedig, hyd nes i'r ddau beiriannydd hynny adael o fewn yr un
 flwyddyn, ar y pwynt hwnnw mae'r sefydliad yn darganfod na chafodd y
 wybodaeth ei chapio erioed unrhyw le parhaol. Mae sefydliadau menter a
 llywodraeth, â hydoedd system fel arfer yn hirach a pharhad staff yn
-llai sicr na chwmni newydd, yn cario'r perygl hwn yn fwy dwys na'r rhan
+llai sicr na chwmni newydd, yn cario'r risg hon yn fwy dwys na'r rhan
 fwyaf.
 
 ## Egwyddorion allweddol
@@ -48,7 +48,7 @@ fwyaf.
 - **Mae amser cynefino i gyfraniad cynhyrchiol yn ddirprwy cryf,
   ymarferol** ar gyfer iechyd gwybodaeth cyffredinol, gan gysylltu'n
   uniongyrchol â metrigau cydweithio pwnc 3.5.
-- **Mae gwybodaeth sy'n byw dim ond ym mhennaethiaid pobl yn berygl
+- **Mae gwybodaeth sy'n byw dim ond ym mhennaethiaid pobl yn risg
   parhad,** nid cyflwr sefydlog, cynaliadwy, waeth pa mor dda y mae'n
   gweithredu ar hyn o bryd.
 - **Mae dogfennaeth yn dadfeilio.** Gall tudalen a oedd yn gywir
@@ -96,7 +96,7 @@ cof unigol yn hytrach na ffurf ysgrifenedig, barhaol.
 Croesgyfeiriwch eich data crynhoad-gwybodaeth (dadansoddiad
 [ffactor-bws](https://en.wikipedia.org/wiki/Bus_factor) pwnc 3.5) â
 gorchudd dogfennaeth: mae system â ffactor bws o un a dim dogfennaeth
-ystyrlon yn berygl difrifol, cyfansymio sy'n haeddu sylw blaenoriaeth
+ystyrlon yn risg ddifrifol, cyfansymio sy'n haeddu sylw blaenoriaeth
 dros system â dogfennaeth dda â'r un ffactor bws isel, gan fod y
 ddogfennaeth o leiaf yn darparu lliniaru rhannol tra bo olynydd pwrpasol
 yn cael ei hyfforddi.
@@ -115,7 +115,7 @@ unioni dyled sy'n canolbwyntio ar god.
 
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
-| Dim mesuriad dogfennaeth | Baich isel | Mae perygl gwybodaeth yn aros yn anweledig tan i argyfwng orfodi darganfyddiad |
+| Dim mesuriad dogfennaeth | Baich isel | Mae risg gwybodaeth yn aros yn anweledig tan i argyfwng orfodi darganfyddiad |
 | Cyfrif bodolaeth dogfennaeth (cyfrif tudalen, presenoldeb README) | Syml, hawdd ei adrodd | Yn dweud dim am ddefnyddioldeb, cywirdeb, na darganfyddadwyedd |
 | Olrhain mynediad a hynafedd | Yn datgelu defnyddioldeb a dadfeiliad gwirioneddol | Angen dadansoddeg platfform-dogfennaeth a disgyblaeth adolygu barhaus |
 | Amser cynefino fel dirprwy | Ymarferol, concrid, yn clymu'n uniongyrchol wrth effaith busnes wirioneddol | Anuniongyrchol; mae ffactorau eraill heblaw dogfennaeth hefyd yn effeithio ar gyflymder cynefino |
@@ -138,7 +138,7 @@ ystyrlon na chyfrif bodolaeth yn unig.
    arbenigwr sy'n gadael yn mynd â'r rhan fwyaf o'r wybodaeth
    wirioneddol gyda nhw?** Dyma'r fersiwn cliriaf, mwyaf concrid o
    bryder canolog y pwnc hwn; atebwch ef yn onest ar gyfer eich system
-   perygl-uchaf sengl yn gyntaf.
+   risg-uchaf sengl yn gyntaf.
 
 2. **Pa gwestiwn a ofynnir drosodd a throsodd yn ein sgwrs tîm er
    gwaethaf bod ateb dogfennedig yn bodoli yn rhywle?** Os gallwch enwi
@@ -156,7 +156,7 @@ ystyrlon na chyfrif bodolaeth yn unig.
 4. **Pryd wnaethom wirio ddiwethaf a oedd darn o ddogfennaeth yn dal yn
    gywir, mewn perthynas â faint mae'r system sylfaenol wedi newid ers
    iddi gael ei hysgrifennu?** Os yw'r ateb onest yn "nid ydym yn
-   gwirio hyn yn systematig," mae'r perygl hynafedd hwnnw'n debygol yn
+   gwirio hyn yn systematig," mae'r risg hynafedd hwnnw'n debygol yn
    fwy nag y mae unrhyw un yn ei dybio ar hyn o bryd.
 
 5. **A yw ein cronfa-waith dyled dechnegol (pwnc 4.5) yn cynnwys
@@ -169,14 +169,14 @@ ystyrlon na chyfrif bodolaeth yn unig.
 6. **Beth fyddai'n ei gostio i ni petai'r un neu ddau berson sy'n deall
    ein system fwyaf dyngedfennol, leiaf ei dogfennu'n gadael o fewn yr
    un flwyddyn?** Mae'r cwestiwn concrid, anghyfforddus hwn yn werth ei
-   ateb yn onest yn hytrach na thrin y perygl fel un haniaethol neu
+   ateb yn onest yn hytrach na thrin y risg fel un haniaethol neu
    annhebygol.
 
 ## Golwg sector
 
 **Cwmni newydd.** Mae metrigau dogfennaeth ffurfiol fel arfer yn ddiangen
 gyda thîm bach lle mae gwybodaeth yn lledaenu trwy sgwrs gyson,
-uniongyrchol. Y perygl i'w wylio yw'r un crynhoad ffactor-bws y mae
+uniongyrchol. Y risg i'w wylio yw'r un crynhoad ffactor-bws y mae
 pwnc 3.5 yn rhybuddio yn ei erbyn, wedi'i gymhwyso'n benodol i
 ddogfennaeth nawr: wrth i'r tîm dyfu heibio'r maint lle mae pawb yn
 siarad bob dydd, mae gwybodaeth heb ei dogfennu a weithiodd yn iawn yn
@@ -198,7 +198,7 @@ raddfa, a thriniwch ddyled dogfennaeth fel categori dosbarth-cyntaf yn
 eich cronfa-waith dyled ar draws y sefydliad.
 
 **Llywodraeth.** Gall deiliadaeth gyflogaeth hir sy'n gyffredin mewn
-sefydliadau sector cyhoeddus guddio perygl gwybodaeth-heb-ei-dogfennu
+sefydliadau sector cyhoeddus guddio risg gwybodaeth-heb-ei-dogfennu
 difrifol y tu ôl i sefydlogrwydd ymddangosiadol, gan y gallai system a
 gynhelir gan yr un person am bymtheg mlynedd weithredu'n berffaith iawn
 hyd nes i'r person hwnnw ymddeol. Triniwch iechyd dogfennaeth yn
@@ -208,7 +208,7 @@ benodol fel pryder parhad-gweithrediadau, wedi'i gysylltu'n uniongyrchol
 ## Enghreifftiau
 
 **Menter.** Darganfu cwmni gwasanaethau ariannol, yn ystod ad-drefnu
-diberthynas, nad oedd gan ei beiriant cyfrifo-perygl craidd unrhyw
+diberthynas, nad oedd gan ei beiriant cyfrifo-risg craidd unrhyw
 ddogfennaeth ystyrlon y tu hwnt i ychydig o sylwadau cod hen ffasiwn,
 ac roedd y ddau beiriannydd a'i deallodd orau ill dau'n cael eu
 hail-neilltuo i fenter newydd ar yr un pryd. Tynnodd ymdrech ddogfennaeth
@@ -251,7 +251,7 @@ perchnogaeth. Mae'r ddisgyblaeth honno'n costio llawer llai na'r
 echdynnu gwybodaeth modd-argyfwng y mae'r enghraifft gwasanaethau
 ariannol yn ei ddangos fel y dewis arall.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Cyfrif bodolaeth dogfennaeth yn hytrach na defnyddioldeb:** yn
   dweud bron dim byd wrthych am a yw gwybodaeth mewn gwirionedd yn
@@ -266,7 +266,7 @@ ariannol yn ei ddangos fel y dewis arall.
   yn ei gadael wedi'i dan-flaenoriaethu'n gronig ac yn anweledig ar y
   gronfa-waith.
 - **Camgymryd sefydlogrwydd ymddangosiadol, system nad yw wedi newid
-  mewn blynyddoedd, am berygl isel:** gall guddio problem ffactor-bws
+  mewn blynyddoedd, am risg isel:** gall guddio problem ffactor-bws
   difrifol, heb ei dogfennu y tu ôl i system nad yw ond eto wedi bod
   angen ei harbenigwr unigol.
 - **Darganfod gwybodaeth ddyngedfennol heb ei dogfennu dim ond yn
@@ -276,7 +276,7 @@ ariannol yn ei ddangos fel y dewis arall.
 ## Model aeddfedrwydd
 
 - **Lefel 1, Cychwyn:** Ni fesurir iechyd dogfennaeth; darganfyddir
-  crynhoad gwybodaeth a pherygl hynafedd dim ond trwy argyfwng.
+  crynhoad gwybodaeth a risg hynafedd dim ond trwy argyfwng.
 - **Lefel 2, Datblygu:** Mae rhywfaint o ddogfennaeth yn bodoli, ond
   nid oes olrhain systematig o fynediad, hynafedd, na
   darganfyddadwyedd.
@@ -285,9 +285,9 @@ ariannol yn ei ddangos fel y dewis arall.
   gwybodaeth ar draws y sefydliad.
 - **Lefel 4, Rheoli:** Plygir bylchau dogfennaeth i mewn i'r gronfa-
   waith dyled dechnegol wedi'i blaenoriaethu, wedi'u croesgyfeirio â
-  pherygl ffactor-bws i nodi'r peryglon cyfun mwyaf difrifol.
+  risg ffactor-bws i nodi'r risgiau cyfun mwyaf difrifol.
 - **Lefel 5, Cerddorfaru:** Mae'r sefydliad yn nodi ac yn mynd i'r afael
-  â pherygl gwybodaeth-ddyngedfennol heb ei dogfennu'n rhagweithiol cyn
+  â risg gwybodaeth-ddyngedfennol heb ei dogfennu'n rhagweithiol cyn
   i drosglwyddiad staffio orfodi'r mater, a gall bwyntio at welliannau
   cynefino neu ymateb-digwyddiad penodol, mesuradwy wedi'u holrhain at
   fuddsoddiad dogfennaeth.
@@ -310,7 +310,7 @@ ariannol yn ei ddangos fel y dewis arall.
   gynnwys.
 - Mae **amser cynefino i gyfraniad cynhyrchiol** yn ddirprwy cryf,
   ymarferol ar gyfer iechyd gwybodaeth cyffredinol.
-- Mae **gwybodaeth ddyngedfennol heb ei dogfennu'n berygl cyfansymio**,
+- Mae **gwybodaeth ddyngedfennol heb ei dogfennu'n risg cyfansymio**,
   yn enwedig wedi'i gyfuno â ffactor bws isel (pwnc 3.5); mae'n
   costio dim yn weladwy hyd nes iddo gostio llawer ar unwaith.
 - Plygwch **fylchau dogfennaeth i mewn i'ch cronfa-waith dyled

@@ -15,7 +15,7 @@ Mae pob pwnc yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 Cy
 | --- | --- | --- |
 | 1.1 | Mesur i wybodaethu penderfyniadau, nid i farnu | |
 | 1.2 | Disgyblaeth paru rheiliau diogelwch yn erbyn deddf Goodhart | |
-| 1.3 | Setiau metrig wedi'u pwysoli tuag at ganlyniad, nid tuag at gynnyrch | |
+| 1.3 | Setiau metrig wedi'u pwysoli tuag at ganlyniad, nid tuag at allbwn | |
 | 1.4 | Llywodraethiant: perchnogaeth, siarteri, disgyblaeth ddiddymu | |
 | 1.5 | Ansawdd offeryniad a dibynadwyedd ffynhonnell ddata | |
 | 1.6 | Llythrennedd ystadegol wrth ddehongli metrigau | |
@@ -26,7 +26,7 @@ Mae pob pwnc yn Rhannau 1 i 8 yn gorffen gyda model aeddfedrwydd pum lefel: 1 Cy
 | --- | --- | --- |
 | 2.1 | Mabwysiadu Fframwaith Llif, ffrwd werth wedi'i mapio'n onest | |
 | 2.2 | Dosbarthiad eitem llif, cyson ac ar amser derbyn | |
-| 2.3 | Cyflymder a dosbarthiad llif, wedi'u paru bob amser | |
+| 2.3 | Cyflymder a dosraniad llif, wedi'u paru bob amser | |
 | 2.4 | Amser llif a llwyth llif, wedi'u tracio yn erbyn deddf Little | |
 | 2.5 | Effeithlonrwydd llif a rheoli WIP | |
 | 2.6 | Dadelfeniad a diagnosis amser cylchred | |

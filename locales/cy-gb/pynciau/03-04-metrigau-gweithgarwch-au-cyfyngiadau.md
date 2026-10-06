@@ -118,11 +118,11 @@ cymhelliant iddo ddigwydd yn y lle cyntaf.
 | Dull | Manteision | Anfanteision |
 | --- | --- | --- |
 | Graddiad gweithgarwch unigol | Syml, hawdd ei gyfrifo, yn teimlo'n uniongyrchol weithredadwy | Wedi'i dwyllo bron ar unwaith; yn niweidio cydweithio ac ysbryd; yn mesur y peth anghywir |
-| Dim mesuriad gweithgarwch o gwbl | Yn osgoi'r perygl camddefnydd yn gyfan gwbl | Yn colli signal cyd-destunol gwirioneddol ddefnyddiol ar gyfer sbotio patrymau lefel-tîm |
-| Gweithgarwch cyfanredol lefel-tîm, wedi'i ddarllen mewn cyd-destun | Yn darparu cyd-destun defnyddiol heb berygl unigol | Angen disgyblaeth i'w ddehongli ochr yn ochr â dimensiynau eraill yn hytrach nag ar wahân |
+| Dim mesuriad gweithgarwch o gwbl | Yn osgoi'r risg camddefnydd yn gyfan gwbl | Yn colli signal cyd-destunol gwirioneddol ddefnyddiol ar gyfer sbotio patrymau lefel-tîm |
+| Gweithgarwch cyfanredol lefel-tîm, wedi'i ddarllen mewn cyd-destun | Yn darparu cyd-destun defnyddiol heb risg unigol | Angen disgyblaeth i'w ddehongli ochr yn ochr â dimensiynau eraill yn hytrach nag ar wahân |
 | Signalau gweithgarwch wedi'u haddasu ar gyfer ansawdd | Yn gwrthsefyll y twyllo cyfrif-crai mwyaf bras | Mwy cymhleth i'w cyfrifo a'u hesbonio na chyfrif syml |
 
-Y tensiwn canolog yw **defnyddioldeb yn erbyn perygl camddefnydd**. Mae
+Y tensiwn canolog yw **defnyddioldeb yn erbyn risg camddefnydd**. Mae
 data gweithgarwch, wedi'i ddarllen yn ofalus yn gyfanredol ac mewn
 cyd-destun, yn wirioneddol ddefnyddiol ar gyfer sbotio patrymau fel
 cyflymder anghynaliadwy neu dîm sy'n canfod lle'n dawel i fynd i'r
@@ -179,9 +179,9 @@ annog defnydd meddylgar, cyd-destunol lefel-tîm.
 
 **Cwmni newydd.** Gyda thîm bach, cydweithredol yn agos, mae data
 gweithgarwch fel arfer yn weladwy heb angen dangosfwrdd o gwbl, ac mae'r
-perygl graddio-unigol y mae'r pwnc hwn yn rhybuddio yn ei erbyn yn
+risg graddio-unigol y mae'r pwnc hwn yn rhybuddio yn ei erbyn yn
 llai tebygol yn syml oherwydd bod pawb eisoes yn gwybod ar beth y mae
-pawb arall yn gweithio. Y perygl yn lle hynny yw sylfaenydd yn ffafrio
+pawb arall yn gweithio. Y risg yn lle hynny yw sylfaenydd yn ffafrio
 ymddygiad "prysur" gweladwy yn ddiarwybod wrth wneud penderfyniadau
 cyflogi neu ecwiti cynnar.
 
@@ -214,7 +214,7 @@ osgowch gyfrifon gweithgarwch mewn unrhyw gyfathrebu allanol-wynebedig.
 **Menter.** Roedd arweinyddiaeth peirianneg cwmni meddalwedd, heb bolisi
 ffurfiol, wedi dechrau cyfeirio'n anffurfiol at ddata amlder-ymrwymiad
 unigol mewn trafodaethau dyrchafiad. Canfu adolygiad mewnol, wedi'i
-sbarduno gan brosiect dadansoddi-traul-staff diberthynas, fod
+sbarduno gan brosiect dadansoddi-cyfradd-gadael-staff diberthynas, fod
 peirianwyr yn gweithio ar systemau mwyaf cymhleth, gwerth-uchaf y
 cwmni, oedd angen cyfnodau hir o waith dylunio gofalus cyn ysgrifennu
 unrhyw god, â chyfrifon ymrwymiad is yn systematig na pheirianwyr ar
@@ -258,7 +258,7 @@ honno'n costio llai na'r penderfyniadau dyrchafiad camgyfeiriedig, y
 cydweithio niweidiedig, a'r ymddygiad twyllo y mae metrigau gweithgarwch
 unigol yn eu cynhyrchu'n ddibynadwy dros amser.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Graddio unigol yn ôl cyfrif ymrwymiad neu linellau o god:** y
   camddefnydd sengl mwyaf niweidiol, mwyaf cyffredin yn hanesyddol yn y
@@ -283,8 +283,8 @@ unigol yn eu cynhyrchu'n ddibynadwy dros amser.
 
 - **Lefel 1, Cychwyn:** Defnyddir metrigau gweithgarwch, yn ffurfiol
   neu'n anffurfiol, i werthuso neu raddio unigolion, heb ymwybyddiaeth
-  o'r perygl.
-- **Lefel 2, Datblygu:** Mae rhywfaint o ymwybyddiaeth o'r perygl yn
+  o'r risg.
+- **Lefel 2, Datblygu:** Mae rhywfaint o ymwybyddiaeth o'r risg yn
   bodoli, ond nid oes polisi penodol yn atal data gweithgarwch rhag
   dylanwadu'n anffurfiol ar adolygiadau neu drafodaethau dyrchafiad.
 - **Lefel 3, Safoni:** Mae polisi penodol, wedi'i gyfathrebu, ar draws y

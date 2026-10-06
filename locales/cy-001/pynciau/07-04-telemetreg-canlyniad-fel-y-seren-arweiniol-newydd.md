@@ -89,8 +89,8 @@ offeryno AI ei hun.
 
 ### Derbyniwch a chyfathrebwch fod telemetreg canlyniad yn arafach, ac adeiladwch amynedd am hynny i mewn i ddisgwyliadau eich sefydliad
 
-Mae metrigau canlyniad, bron wrth eu natur, yn fwy ôl-ddyddiedig ac yn
-swnllyd na metrigau allbwn (gwahaniaeth blaenllaw-yn-erbyn-ôl-ddyddiedig
+Mae metrigau canlyniad, bron wrth eu natur, yn fwy ôl-fynegi ac yn
+swnllyd na metrigau allbwn (gwahaniaeth rhagfynegi-yn-erbyn-ôl-fynegi
 pwnc 1.3, gofal ystadegol pwnc 1.6). Mae angen i sefydliad sy'n
 gyfarwydd ag adborth cyflym, boddhaus o wylio rhif allbwn yn codi
 adeiladu amynedd gwirioneddol am y signal arafach, mwy onest y mae

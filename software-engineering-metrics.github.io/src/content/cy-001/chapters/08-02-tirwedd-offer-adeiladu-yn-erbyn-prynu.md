@@ -85,7 +85,7 @@ Yr enillion ar strategaeth adeiladu-yn-erbyn-prynu fwriadus, hybrid yw osgoi'r d
 
 Mae cost berchnogaeth gyfan y naill lwybr neu'r llall yn cynnwys cost integreiddio, sy'n aml wedi'i thanamcangyfrif, ac, ar gyfer offer wedi'u prynu yn benodol, cost risg barhaus clo gwerthwr posibl oni bai bod cludadwyedd data'n cael ei gadarnhau a'i ddiogelu'n gontractiol ymlaen llaw. Mae cyllidebu'n realistig ar gyfer y ddau hyn, yn hytrach na chanolbwyntio'n gul ar ffioedd trwyddedu neu oriau datblygu yn unig, yn cynhyrchu darlun cost gyfan llawer mwy cywir ar gyfer y naill opsiwn neu'r llall.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Adeiladu offer wedi'i addasu ar gyfer metrigau nwyddau, wedi'u safoni'n dda:** yn dyblygu ymdrech beirianneg y mae llawer o werthwyr eisoes wedi buddsoddi'n helaeth ynddi.
 - **Prynu offer masnachol ar gyfer rhesymegu canlyniadau gwirioneddol benodol i sefydliad heb wirio ffit yn gyntaf:** yn risgio addasu drud, amhriodol neu angen sydd heb ei ddiwallu.

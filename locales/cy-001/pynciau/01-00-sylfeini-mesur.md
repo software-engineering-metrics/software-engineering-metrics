@@ -37,7 +37,7 @@ oddefadwy.
   pob pwnc arall yn y llyfr hwn: mae mesur sy'n dod yn darged yn peidio â
   bod yn fesur da, a'r mecanweithiau seicolegol sy'n gwneud twyllo bron yn
   anochel unwaith y bydd pobl yn gwybod eu bod yn cael eu gwylio.
-- **1.3 Canlyniadau dros gynnyrch: dewis beth i'w fesur:** Sut i bwysoli set
+- **1.3 Canlyniadau dros allbwn: dewis beth i'w fesur:** Sut i bwysoli set
   o fetrigau tuag at ganlyniadau yn hytrach na gweithgarwch, gan ddefnyddio'r
   gwahaniaeth clasurol mewnbwn/cynnyrch/canlyniad a'r patrwm seren y gogledd.
 - **1.4 Llywodraethiant a pherchnogaeth metrigau:** Pwy sy'n penderfynu beth

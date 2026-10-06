@@ -245,7 +245,7 @@ fuddsoddiad yw'r ymdrech dadansoddi cyfnodol a'r amser barn ddynol i
 ddehongli canlyniadau a phenderfynu pa weithred y mae pob man poeth a
 nodwyd yn ei mynnu.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Defnyddio trosiant yn unig heb gymhlethdod:** signal gwan ar ei ben
   ei hun a all fflagio cod iach, wedi'i ddatblygu'n weithredol fel

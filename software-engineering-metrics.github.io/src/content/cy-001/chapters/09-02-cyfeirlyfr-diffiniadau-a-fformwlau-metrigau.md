@@ -7,7 +7,7 @@ Pob fformwla o'r llyfr, wedi'u casglu mewn un lle. Mae pob cofnod yn enwi'r pwnc
 | Metrig | Fformwla | Pwnc |
 | --- | --- | --- |
 | Cyflymder llif | Cyfrif eitemau llif wedi'u cwblhau fesul uned amser | 2.3 |
-| Dosbarthiad llif | (Eitemau wedi'u cwblhau o un math eitem llif) / (Cyfanswm eitemau wedi'u cwblhau) x 100% | 2.3 |
+| Dosraniad llif | (Eitemau wedi'u cwblhau o un math eitem llif) / (Cyfanswm eitemau wedi'u cwblhau) x 100% | 2.3 |
 | Amser llif | Amser o eitem llif yn mynd i mewn i'r ffrwd werth i'w thraddodi | 2.4 |
 | Llwyth llif | Cyfrif eitemau llif sy'n weithredol neu'n aros ar hyn o bryd yn y ffrwd werth | 2.4 |
 | Deddf Little | Llwyth llif (gwaith ar y gweill) = Cyfradd cyrraedd x Amser llif (amser cylchred) | 2.4, 2.7 |
@@ -65,7 +65,7 @@ Pob fformwla o'r llyfr, wedi'u casglu mewn un lle. Mae pob cofnod yn enwi'r pwnc
 
 ## Nodiadau ar ddefnyddio'r fformwlâu hyn
 
-- **Parwch fformwla cyflymder neu gynnyrch bob amser â'i reilen ddiogelwch** (pwnc 1.2): cyfradd methiant newid ag amlder defnyddio ac amser arwain; cyfradd diffygion dianc â chyflymder traddodi; llosgi cyllideb gwall â gweithgaredd defnyddio.
+- **Parwch fformwla cyflymder neu allbwn bob amser â'i reilen ddiogelwch** (pwnc 1.2): cyfradd methiant newid ag amlder defnyddio ac amser arwain; cyfradd diffygion dianc â chyflymder traddodi; llosgi cyllideb gwall â gweithgaredd defnyddio.
 - **Defnyddiwch ganolrifau a chanraddau, nid cyfartaleddau, ar gyfer fformwlâu seiliedig ar amser** (pwnc 1.6) oni bai bod fformwla'n galw'n benodol am gyfartaledd.
 - **Mae angen system ffynhonnell a dull casglu wedi'u dogfennu ar bob fformwla** (pwnc 1.5) ochr yn ochr â'i ddiffiniad mathemategol; ni fydd dau dîm yn cyfrifo'r un fformwla o wahanol ffynonellau yn cynhyrchu rhifau y gellir eu cymharu.
 - **Ni ddangosir pwysoli difrifoldeb yn glir ym mhob fformwla uchod** ond mae'n gymwys lle bynnag y mae "wedi'i bwysoli yn ôl difrifoldeb" yn ymddangos; gweler y pwnc perthnasol am y cynllun dosbarthu llawn.

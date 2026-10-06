@@ -229,7 +229,7 @@ oherwydd bod y dewis arall, dyfalu wrth dagfeydd a thrwsio'r cam
 anghywir, yn gwastraffu llawer mwy o ymdrech peirianneg dros amser nag y
 mae'r gyfrifianeg ei hun yn ei gostio.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Ymateb i ddirywiad amser-arwain heb ddiagnosis amser-cylch:** yn aml
   yn arwain at drwsio'r cam anghywir.

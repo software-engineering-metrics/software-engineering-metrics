@@ -89,8 +89,8 @@ offeryno AI ei hun.
 
 ### Derbyniwch a chyfathrebwch fod telemetreg canlyniad yn arafach, ac adeiladwch amynedd am hynny i mewn i ddisgwyliadau eich sefydliad
 
-Mae metrigau canlyniad, bron wrth eu natur, yn fwy ôl-ddyddiedig ac yn
-swnllyd na metrigau allbwn (gwahaniaeth blaenllaw-yn-erbyn-ôl-ddyddiedig
+Mae metrigau canlyniad, bron wrth eu natur, yn fwy ôl-fynegi ac yn
+swnllyd na metrigau allbwn (gwahaniaeth rhagfynegi-yn-erbyn-ôl-fynegi
 pwnc 1.3, gofal ystadegol pwnc 1.6). Mae angen i sefydliad sy'n
 gyfarwydd ag adborth cyflym, boddhaus o wylio rhif allbwn yn codi
 adeiladu amynedd gwirioneddol am y signal arafach, mwy onest y mae
@@ -262,14 +262,14 @@ ar-allbwn wedi'i beryglu'n wirioneddol.
 
 Buddsoddiad isadeiledd telemetreg-canlyniad y mae'r pwnc hwn yn ei
 argymell, gwaith gwirioneddol sylweddol, aml-chwarter i sefydliad mawr,
-wedi'i bwyso yn erbyn perygl tymor-hir, parhaol rhaglen fetrigau sy'n
+wedi'i bwyso yn erbyn risg tymor-hir, parhaol rhaglen fetrigau sy'n
 dod yn gynyddol lai dibynadwy wrth i allbwn barhau i ddod yn rhatach,
 yw cost cyfanswm perchnogaeth. Nid dyma gost y mae'r llyfr hwn yn gofyn
 i chi ei derbyn yn ysgafn; dyma ganlyniad uniongyrchol, angenrheidiol o
 gymryd dadl sylfaen pwnc 1.3 mor ddifrifol ag y mae rhan olaf hon o'r
 llyfr yn gofyn i chi ei wneud.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Trin y symudiad hwn fel un sydd angen dim ond addasiad
   cynyddrannol yn hytrach nag ailgydbwyso gwirioneddol:** yn

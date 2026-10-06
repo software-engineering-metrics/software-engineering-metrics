@@ -31,12 +31,12 @@ ben ei hun wahaniaethu'r ddau mwyach, mewn ffordd y gallai'n bennaf, â
 gofal priodol, o'r blaen. Mae'r un rhesymeg yn gymwys ag hyd yn oed mwy
 o rym i gyfrifon ymrwymiad crai, llinellau o god, a chyfaint pull
 request, y cyfan y rhybuddiodd pwnc 3.4 yn eu herbyn eisoes fel
-metrigau unigol, wedi'u mwyhau nawr i berygl sy'n berthnasol ar lefel y
+metrigau unigol, wedi'u mwyhau nawr i risg sy'n berthnasol ar lefel y
 tîm a'r sefydliad hefyd.
 
 I dimau mawr, cyrhaeddodd y symudiad hwn yn gyflymach nag y gallai
 arfer mesur y rhan fwyaf o sefydliadau addasu iddo, a'r bwlch rhwng
-cyflymder mabwysiadu ac addasiad mesur yw lle mae'r perygl gwirioneddol
+cyflymder mabwysiadu ac addasiad mesur yw lle mae'r risg wirioneddol
 yn y rhan hon yn byw. Mae sefydliadau menter sy'n parhau i adrodd
 metrigau gweithgarwch cyn-oes-AI heb addasiad yn mentro dathlu metrig
 sydd wedi peidio â chydberthyn â gwerth yn dawel; mae angen dealltwriaeth
@@ -55,7 +55,7 @@ dybiaethau mesur hen ffasiwn.
   pwnc 3.4 bob amser yn gywir; mae'r symudiad hwn yn gwneud ei
   anwybyddu'n llawer mwy costus.
 - **Y bwlch rhwng cyflymder mabwysiadu AI a chyflymder addasiad mesur
-  yw'r perygl gwirioneddol.** Mae sefydliadau'n mabwysiadu'r offeryno'n
+  yw'r risg wirioneddol.** Mae sefydliadau'n mabwysiadu'r offeryno'n
   gyflymach nag y maent yn ailystyried eu metrigau.
 - **Ni effeithir yr un fath ar bob metrig yn y llyfr hwn.** Mae
   metrigau canlyniad (Rhan 5) yn llawer mwy gwydn i'r symudiad hwn na
@@ -99,7 +99,7 @@ cyfrannwr amser-aros mwyaf yn y biblinell gyflenwi, yn dod yn gyfyngiad
 hyd yn oed mwy llym. Bydd adolygydd sy'n cael ei ofyn i werthuso cyfaint
 llawer uwch o god a gynhyrchwyd-gan-AI ar yr un cyflymder ag o'r blaen
 yn anochel naill ai'n arafu'r biblinell neu'n lleihau dyfnder adolygu,
-union y perygl stamp-rwber y rhybuddiodd pwnc 2.9 amdano eisoes, o
+union y risg stamp-rwber y rhybuddiodd pwnc 2.9 amdano eisoes, o
 dan bwysau sylweddol fwy nawr. Monitrwch gledrau diogelwch dyfnder ac
 ansawdd adolygu â sylw uwch wrth i gyfaint cod a gynhyrchwyd-gan-AI godi.
 
@@ -136,7 +136,7 @@ ond yn llawer diweddarach.
 | --- | --- | --- |
 | Parhau i adrodd metrigau cyn-oes-AI heb eu newid | Dim tarfu, adrodd cyfarwydd | Yn mentro dathlu metrigau sydd wedi peidio â chydberthyn â gwerth yn dawel |
 | Archwiliad set fetrigau lawn ac adolygiad bwriadol | Yn adfer mesuriad dibynadwy | Angen ymdrech ddadansoddol wirioneddol a rheolaeth newid sefydliadol |
-| Rhoi'r gorau i fetrigau gweithgarwch ac allbwn yn gyfan gwbl | Yn dileu'r perygl mwyaf agored yn uniongyrchol | Yn colli rhywfaint o signal cyd-destunol dilys ddefnyddiol (rhybudd pwnc 3.4) |
+| Rhoi'r gorau i fetrigau gweithgarwch ac allbwn yn gyfan gwbl | Yn dileu'r risg fwyaf agored yn uniongyrchol | Yn colli rhywfaint o signal cyd-destunol dilys ddefnyddiol (rhybudd pwnc 3.4) |
 | Tynhau cledrau diogelwch heb archwiliad llawn | Cyflymach i'w weithredu | Gall golli metrigau y mae eu hamlygiad yn llai amlwg na'r achosion cliriaf |
 
 Y tensiwn canolog yw **parhad mesur yn erbyn dilysrwydd mesur**. Mae
@@ -166,7 +166,7 @@ angenrheidiol i gadw metrigau'r sefydliad yn onest.
 3. **A yw ein cynhwysedd adolygu cod yn cadw i fyny ag unrhyw gynnydd yng
    nghyfaint cod â chymorth AI, neu a yw dyfnder adolygu'n erydu'n
    dawel o dan bwysau cynyddol?** Gwiriwch fetrigau cam-adolygu
-   (pwnc 2.9) yn benodol am arwyddion o'r perygl stamp-rwber yn
+   (pwnc 2.9) yn benodol am arwyddion o'r risg stamp-rwber yn
    dwysáu.
 
 4. **A ydym yn tagio diffygion yn ôl a oedd y cod gwreiddiol wedi'i
@@ -203,7 +203,7 @@ fel llwyddiant diamwys heb wirio cledrau diogelwch ansawdd; mae gan
 dîm bach lai o gynhwysedd i amsugno problem ansawdd heb ei chanfod na
 sefydliad mwy â mwy o ddiswyddiant.
 
-**Menter.** Mae graddfa'r perygl hwn yn cyfansymio'n sylweddol yma, gan
+**Menter.** Mae graddfa'r risg hon yn cyfansymio'n sylweddol yma, gan
 y gall mabwysiadu AI ar draws degau neu gannoedd o dimau ar yr un pryd
 symud dilysrwydd metrig ar draws y sefydliad cyfan cyn i unrhyw un tîm
 sylwi ar y patrwm yn lleol. Cynhaliwch yr archwiliad set-fetrigau y
@@ -248,7 +248,7 @@ nad oedd yr offeryno AI wedi'i amlygu iddynt yn ystod hyfforddi. Ni
 wnaeth y canfyddiad hwn atal y peilot ond arweiniodd at gynnydd
 penodol, wedi'i dargedu mewn trylwyredd adolygu ar gyfer newidiadau â
 chymorth-AI yn cyffwrdd rhesymeg achos-ymyl cymhwysedd, gan fynd i'r
-afael â'r perygl gwirioneddol na fyddai'r metrig allbwn crai ar ei ben
+afael â'r risg wirioneddol na fyddai'r metrig allbwn crai ar ei ben
 ei hun byth wedi'i ddatgelu.
 
 ## Achos busnes: cymhellion, ROI, a TCO
@@ -263,7 +263,7 @@ cost enw da gwirioneddol, ac i raddau helaeth osgoiadwy.
 
 Yr ymdrech ddadansoddol i archwilio'r set fetrigau bresennol, tynhau
 cledrau diogelwch, a diweddaru dogfennaeth llywodraethiant, buddsoddiad
-cymedrol, un-tro mewn perthynas â'r perygl parhaus o barhau i adrodd
+cymedrol, un-tro mewn perthynas â'r risg barhaus o barhau i adrodd
 metrigau sydd wedi peidio â mesur yr hyn y maent yn honni ei fesur yn
 dawel, yw cost cyfanswm perchnogaeth. Mae'r gost hon hefyd yn ailadrodd
 ar lefel is, gan fod y symudiad hwn yn barhaus, nid yn ddigwyddiad
@@ -271,7 +271,7 @@ un-tro, ac mae ailarchwiliad cyfnodol wrth i batrymau offeryno a
 mabwysiadu barhau i esblygu'n ychwanegiad rhesymol, parhaol i gadence
 llywodraethiant metrigau.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Parhau i adrodd metrigau gweithgarwch cyn-oes-AI heb eu newid ac
   yn ddi-feirniadol:** yn mentro dathlu metrig sydd wedi peidio â
@@ -283,7 +283,7 @@ llywodraethiant metrigau.
   a ysgrifennwyd-gan-ddyn heb wirio:** tybiaeth heb ei phrofi a allai
   fod yn weithredol anghywir.
 - **Gadael i ddyfnder adolygu erydu'n dawel o dan gyfaint cod a
-  gynhyrchwyd-gan-AI cynyddol:** perygl stamp-rwber pwnc 2.9, wedi'i
+  gynhyrchwyd-gan-AI cynyddol:** risg stamp-rwber pwnc 2.9, wedi'i
   ddwysau.
 - **Trin y symudiad hwn fel addasiad un-tro yn hytrach na phryder
   parhaus:** mae'r offeryno a'i batrymau mabwysiadu'n parhau i esblygu,

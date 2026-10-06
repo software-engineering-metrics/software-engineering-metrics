@@ -35,7 +35,7 @@ bydd buddsoddiad cynnal a chadw cyfyngedig yn gwneud y llesiant mwyaf.
 ## Pynciau yn y rhan hon
 
 - **4.1 Metrigau cymhlethdod cod:** Cymhlethdod cyclomatig a'i berthnasau,
-  yr hyn y maent mewn gwirionedd yn ei ragfynegi, a'u perygl twyllo
+  yr hyn y maent mewn gwirionedd yn ei ragfynegi, a'u risg twyllo
   wedi'i ddogfennu'n dda.
 - **4.2 Gorchudd profi ac effeithiolrwydd profi:** Pam mae canran
   gorchudd ar ei ben ei hun yn dweud llai wrthych nag y mae'n ymddangos,

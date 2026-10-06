@@ -67,7 +67,7 @@ gweithio'n ôl o benderfyniad yn cadw'r set fetrigau'n fach ac yn cadw pob
 teilsen yn amddiffynadwy pan fydd rhywun yn gofyn pam mae'n bodoli. Os na
 allwch enwi'r penderfyniad y byddai metrig yn ei lywio, peidiwch â'i adeiladu
 eto. Mae pwnc 1.3 yn mynd yn ddyfnach i mewn i'r fersiwn canlyniadau-dros-
-gynnyrch o'r ddisgyblaeth hon.
+allbwn o'r ddisgyblaeth hon.
 
 ### Gwahanwch ddefnydd diagnostig oddi wrth ddefnydd gwerthuso
 
@@ -253,7 +253,7 @@ ddadleuodd fwyaf perswadiol yn yr ystafell. Nid y metrigau eu hunain yw'r
 enillion ar raglen fetrigau; y penderfyniadau a wneir yn well o'u herwydd
 ydyw.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Mesur popeth y mae'r offeryn yn ei allforio:** yn troi dangosfwrdd yn
   sŵn ac yn gwahodd twyllo ar draws arwyneb enfawr heb werth penderfyniad

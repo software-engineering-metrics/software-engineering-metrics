@@ -74,7 +74,7 @@ gonfensiwn diwydiant (mae sgôr cymhlethdod o ddeg yn rheol bawd a
 ddyfynnir yn gyffredin) fod naill ai'n rhy oddefol neu'n rhy llym yn
 dibynnu ar eich parth: gall gan barsiwr neu beiriant rheolau
 gymhlethdod llinell-sylfaen uwch yn ddilys na gwasanaeth CRUD
-nodweddiadol. Calibrwch eich trothwyon eich hun yn erbyn dosbarthiad
+nodweddiadol. Calibrwch eich trothwyon eich hun yn erbyn dosraniad
 gwirioneddol eich sylfaen cod, a thriniwch dorri trothwy fel anogaeth i
 edrych yn agosach, nid methiant adeiladu awtomatig, oni bai bod eich
 tîm wedi dewis y polisi llymach hwnnw'n fwriadol â llawn ymwybyddiaeth
@@ -137,7 +137,7 @@ galed ar ei ben ei hun.
 
 ## Cwestiynau i'w trafod gyda'ch tîm
 
-1. **A yw ein trothwyon cymhlethdod wedi'u calibro i ddosbarthiad
+1. **A yw ein trothwyon cymhlethdod wedi'u calibro i ddosraniad
    gwirioneddol ein sylfaen cod ein hun, neu wedi'u benthyca'n
    ddi-feirniadol o gonfensiwn diwydiant generig?** Tynnwch ddosbarthiad
    cymhlethdod gwirioneddol eich sylfaen cod a gwiriwch a yw eich

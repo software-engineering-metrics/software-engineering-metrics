@@ -47,7 +47,7 @@ a chadw."
 - **Mae dyraniad yn swm-sero, nid yn ychwanegol.** Mae mwy o gynhwysedd ar
   gyfer nodweddion o reidrwydd yn llai o gynhwysedd ar gyfer diffygion,
   risg, a dyled yn yr un cyfnod.
-- **Nid oes dosbarthiad iach cyffredinol.** Dylai cynnyrch ifanc mewn
+- **Nid oes dosraniad iach cyffredinol.** Dylai cynnyrch ifanc mewn
   cyfnod twf yn gyfreithlon sgiwio tuag at nodweddion; dylai system aeddfed
   sy'n cario risg dechnegol gwirioneddol yn gyfreithlon sgiwio tuag at
   waith dyled a risg.
@@ -72,7 +72,7 @@ demtasiwn i ddosbarthu'n ôl-weithredol yn seiliedig ar sut mae darn o
 waith wedi troi allan i edrych, sef yn union y risg twyllo y mae'r
 pwnc hwn yn ei enwi'n uniongyrchol isod.
 
-### Adroddwch ddosbarthiad llif fel tuedd, nid instantiad sengl
+### Adroddwch ddosraniad llif fel tuedd, nid instantiad sengl
 
 Mae dosbarthiad un cyfnod yn dweud llai wrthych na'r duedd ar draws sawl
 cyfnod. Mae drifft cyson tuag at un math o elfen, nodweddion yn dringo tra
@@ -80,10 +80,10 @@ bo dyled yn crebachu'n dawel chwarter wrth chwarter, yn signal llawer
 cryfach nag unrhyw rif un cyfnod, ac fel arfer dyma'r patrwm sy'n werth ei
 godi â rhanddeiliaid cyn iddo ddod yn argyfwng yn hytrach nag wedyn.
 
-### Gosodwch ddosbarthiad targed bwriadol â rhanddeiliaid busnes, nid dim ond peirianneg
+### Gosodwch ddosraniad targed bwriadol â rhanddeiliaid busnes, nid dim ond peirianneg
 
 Penderfynwch, ynghyd â arweinyddiaeth cynnyrch a busnes, sut olwg sydd ar
-ddosbarthiad iach ar gyfer cyfnod cyfredol eich ffrwd werth benodol, ac
+ddosraniad iach ar gyfer cyfnod cyfredol eich ffrwd werth benodol, ac
 ailedrychwch ar y targed hwnnw'n gyfnodol yn hytrach na gadael iddo
 ddrifftio'n ddiofyn. Mae gan gynnyrch ifanc, cyfnod-twf a system aeddfed,
 cyfnod-sefydlogrwydd dargedau iach gyfreithlon wahanol, a dylai'r targed
@@ -92,7 +92,7 @@ peirianneg yn ei benderfynu'n dawel ar ei ben ei hun.
 
 ### Croeswiriwch ddosbarthiad elfen-lif yn erbyn tystiolaeth annibynnol
 
-Cymharwch eich dosbarthiad llif yn gyfnodol yn erbyn metrigau nad ydynt yn
+Cymharwch eich dosraniad llif yn gyfnodol yn erbyn metrigau nad ydynt yn
 dibynnu ar hunan-ddosbarthiad: cyfradd defnydd escapiedig (pwnc 5.1),
 mesur dyled dechnegol (pwnc 4.5), a metrigau rheoli gwendid (pwnc
 6.4). Os yw diffygion neu fregusrwyddau'n codi tra bo cyfranddaliadau
@@ -102,14 +102,14 @@ drifftio oddi wrth realiti.
 
 ### Gwyliwch am batrwm y ffatri nodweddion yn benodol
 
-Pan fydd dosbarthiad llif yn dangos nodweddion yn amsugno bron pob
+Pan fydd dosraniad llif yn dangos nodweddion yn amsugno bron pob
 cynhwysedd'n gyson, chwarter ar ôl chwarter, gyda gwaith dyled a risg byth
 yn codi uwchben cyfran symbolaidd, mae'r patrwm hwnnw (a elwir weithiau'n
 "ffatri nodweddion") fel arfer yn golygu bod dyled a risg yn cael eu
 llwgu o gynhwysedd, nid bod y system yn wirioneddol angen dim cynnal a
 chadw. Mae'r patrwm hwn yn gyfforddus yn y tymor byr ac yn ddrud yn
 ddiweddarach, gan ymddangos yn y pen draw fel argyfwng ansawdd neu
-ddiogelwch sy'n cyrraedd heb rybudd yn y siart dosbarthiad llif, oherwydd
+ddiogelwch sy'n cyrraedd heb rybudd yn y siart dosraniad llif, oherwydd
 nid oedd y cronni sylfaenol byth yn weladwy.
 
 ## Cyfnewidiadau: manteision ac anfanteision
@@ -147,20 +147,20 @@ cynllun dosbarthiad mwy manwl sy'n erydu o dan lwyth gwaith gwirioneddol.
    rhifau sy'n edrych yn fanwl gywir ond nad ydynt mewn gwirionedd yn
    gymaradwy cyfnod wrth gyfnod.
 
-3. **A yw ein dosbarthiad llif erioed wedi drifftio'n gyson tuag at un
+3. **A yw ein dosraniad llif erioed wedi drifftio'n gyson tuag at un
    math o elfen heb i unrhyw un benderfynu hynny'n fwriadol?** Mae drifft
    araf yn hawdd ei golli cyfnod wrth gyfnod ond yn amlwg unwaith y'i
    plotir fel tuedd. Tynnwch sawl cyfnod o ddata, os oes gennych, a
    chwiliwch yn onest am y patrwm hwn.
 
-4. **Sut olwg fyddai ar ddosbarthiad llif iach ar gyfer cyfnod cyfredol
+4. **Sut olwg fyddai ar ddosraniad llif iach ar gyfer cyfnod cyfredol
    ein cynnyrch, ac a ydym mewn gwirionedd wedi cytuno ar y targed hwnnw
    â rhanddeiliaid busnes?** Nid yw'r rhan fwyaf o sefydliadau erioed
    wedi gwneud y targed hwn yn esblyg, sy'n golygu nad oes sail a rennir
-   ar gyfer sylwi pan fydd y dosbarthiad gwirioneddol yn drifftio i
+   ar gyfer sylwi pan fydd y dosraniad gwirioneddol yn drifftio i
    ffwrdd oddi wrtho.
 
-5. **A yw ein dosbarthiad llif yn cyfateb i dystiolaeth annibynnol, fel
+5. **A yw ein dosraniad llif yn cyfateb i dystiolaeth annibynnol, fel
    cyfradd defnydd escapiedig neu gyfrif gwendid agored, neu a oes
    camgyfateb sy'n werth ei ymchwilio?** Camgyfateb yma yw'r arwydd
    cliriaf sydd ar gael bod dosbarthiad wedi drifftio oddi wrth yr hyn y
@@ -197,7 +197,7 @@ integreiddio ag offer a chroeswiriadau cyfnodol yn erbyn tystiolaeth
 annibynnol; nid yw dosbarthiad â llaw, ad hoc yn goroesi graddfa
 sefydliadol wirioneddol.
 
-**Llywodraeth.** Mae dosbarthiad llif yn rhoi ateb amddiffynadwy, wedi'i
+**Llywodraeth.** Mae dosraniad llif yn rhoi ateb amddiffynadwy, wedi'i
 feintioli i arweinydd technoleg sector cyhoeddus pan ofynnir pam nad oes
 mwy o nodweddion dinesig-wynebus newydd yn cael eu cyflenwi, pan mai'r
 ateb gonest yw bod baich risg a dyled system etifeddol yn defnyddio
@@ -228,7 +228,7 @@ ddadflaenoriaethu dro ar ôl tro o blaid nodweddion dinesig-wynebus
 gweladwy, wedi crebachu i lai na 5% o gynhwysedd dros y flwyddyn flaenorol,
 patrwm nad oedd erioed wedi bod yn weladwy yn adrodd safonol y tîm.
 Defnyddiodd arweinyddiaeth yr asiantaeth y canfyddiad i fynnu dyraniad
-gwaith-risg lleiafswm yn y dyfodol, wedi'i gefnogi gan y data dosbarthiad
+gwaith-risg lleiafswm yn y dyfodol, wedi'i gefnogi gan y data dosraniad
 llif yn hytrach na datganiad polisi cyffredinol yn unig.
 
 ## Achos busnes: cymhellion, ROI, a TCO
@@ -259,7 +259,7 @@ annibynnol yn bwysig cymaint â'r fabwysiadu cychwynnol.
   edrych orau ar y siart dosbarthiad, heb i unrhyw benderfyniad sengl
   byth edrych yn anonest ar ei ben ei hun. Y gledr ddiogelwch yw
   dosbarthiad amser-cymryd-i-mewn yn erbyn diffiniad ysgrifenedig, ynghyd
-  ag archwiliadau cyfnodol yn cymharu dosbarthiad llif yn erbyn
+  ag archwiliadau cyfnodol yn cymharu dosraniad llif yn erbyn
   tystiolaeth annibynnol fel cyfradd defnydd escapiedig (pwnc 5.1) a
   metrigau gwendid (pwnc 6.4), yr un ddisgyblaeth archwilio-yn-erbyn-
   tystiolaeth-annibynnol y mae pwnc 1.2 yn gofyn amdani gyda phob
@@ -269,7 +269,7 @@ annibynnol yn bwysig cymaint â'r fabwysiadu cychwynnol.
   fod yn ymddangos fel argyfwng.
 - **Trin dosbarthiad un cyfnod fel y darlun cyfan:** yn colli'r drifft
   araf, cronnol y mae golwg tuedd yn ei ddatgelu'n glir.
-- **Gosod dosbarthiad targed heb randdeiliaid busnes:** yn colli prif
+- **Gosod dosraniad targed heb randdeiliaid busnes:** yn colli prif
   werth y fframwaith, dealltwriaeth a rennir, wedi'i thrafod o'r
   cyfnewidiad.
 - **Defnyddio diffiniad anghyson neu heb ei ddogfennu fesul math:** yn
@@ -287,10 +287,10 @@ annibynnol yn bwysig cymaint â'r fabwysiadu cychwynnol.
   anffurfiol, ond mae diffiniadau'n anghyson ac mae dosbarthiad yn aml yn
   digwydd yn ôl-weithredol.
 - **Lefel 3, Safoni:** Mae pob tîm yn dosbarthu wrth gymryd i mewn yn
-  erbyn diffiniad a rennir, ysgrifenedig, a rhestrir dosbarthiad llif fel
+  erbyn diffiniad a rennir, ysgrifenedig, a rhestrir dosraniad llif fel
   tuedd.
-- **Lefel 4, Rheoli:** Croeswiritir dosbarthiad llif yn gyfnodol yn erbyn
-  tystiolaeth annibynnol, a gosodir dosbarthiadau targed yn fwriadol â
+- **Lefel 4, Rheoli:** Croeswiritir dosraniad llif yn gyfnodol yn erbyn
+  tystiolaeth annibynnol, a gosodir dosraniadau targed yn fwriadol â
   rhanddeiliaid busnes.
 - **Lefel 5, Cerddorfaru:** Mae data elfen-lif yn llywio penderfyniadau
   adnoddau a buddsoddiad yn uniongyrchol ar draws y sefydliad, a gall
@@ -301,15 +301,15 @@ annibynnol yn bwysig cymaint â'r fabwysiadu cychwynnol.
 
 1. Beth fyddai rhaniad elfen-lif gonest o waith y chwarter diwethaf yn ei ddangos, ac a fyddai'n synnu unrhyw un?
 2. A oes gennym ddiffiniad ysgrifenedig ar gyfer pob un o'r pedwar math elfen lif, neu a yw dosbarthiad yn dibynnu ar bwy sy'n labelu'r gwaith?
-3. A yw ein dosbarthiad llif erioed wedi drifftio tuag at un math o elfen heb benderfyniad bwriadol y tu ôl iddo?
-4. Pa dystiolaeth annibynnol y gallem groeswirio ein dosbarthiad llif yn ei erbyn heddiw?
+3. A yw ein dosraniad llif erioed wedi drifftio tuag at un math o elfen heb benderfyniad bwriadol y tu ôl iddo?
+4. Pa dystiolaeth annibynnol y gallem groeswirio ein dosraniad llif yn ei erbyn heddiw?
 
 ## Prif gasgliadau
 
 - Mae **elfen lif** yn perthyn i union un o bedwar math, nodweddion,
   diffygion, risgiau, neu ddyled, ac mae dyraniad cynhwysedd ar eu traws yn
   **swm-sero**.
-- **Nid oes dosbarthiad iach cyffredinol**; mae'r cymysgedd cywir yn
+- **Nid oes dosraniad iach cyffredinol**; mae'r cymysgedd cywir yn
   dibynnu ar gyfnod cynnyrch a dylai fod yn darged bwriadol, wedi'i
   drafod â rhanddeiliaid busnes.
 - Fector twyllo canolog y pwnc yw **dosbarthiad ôl-weithredol**,
@@ -319,7 +319,7 @@ annibynnol yn bwysig cymaint â'r fabwysiadu cychwynnol.
 - Gwyliwch yn benodol am **batrwm y ffatri nodweddion**, nodweddion yn
   amsugno bron pob cynhwysedd'n gyson, sy'n llwgu gwaith dyled a risg hyd
   nes ei fod yn ymddangos fel argyfwng.
-- Mae dosbarthiad llif fwyaf gwerthfawr fel **tuedd**, ac mae ei enillion
+- Mae dosraniad llif fwyaf gwerthfawr fel **tuedd**, ac mae ei enillion
   mwyaf yn dod o'i rannu'n uniongyrchol â rhanddeiliaid busnes.
 
 ## Cyfeiriadau a darllen pellach

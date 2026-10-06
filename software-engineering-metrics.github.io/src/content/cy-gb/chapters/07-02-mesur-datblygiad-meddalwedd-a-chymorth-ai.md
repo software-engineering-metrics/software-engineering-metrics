@@ -255,10 +255,10 @@ math tasg, sy'n fwy o waith na derbyn ystadegau defnydd a adroddir
 gan werthwr neu argraffiadau a adroddir gan hunan ar wyneb gwerth, yw
 cost cyfanswm perchnogaeth. Mae'r ymdrech honno'n gyfiawn yn
 uniongyrchol gan raddfa cost trwyddedu offeryno AI ar draws sefydliad
-mawr a'r perygl o ymrwymiad drud, ar draws y sefydliad heb ei brofi'n
+mawr a'r risg o ymrwymiad drud, ar draws y sefydliad heb ei brofi'n
 dda yn seiliedig ar argraff yn hytrach na data.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Mesur cymorth AI yn ôl cyfaint allbwn neu ystadegau defnydd
   gwerthwr yn unig:** yn ailadrodd rhybudd canolog pwnc 7.1'n

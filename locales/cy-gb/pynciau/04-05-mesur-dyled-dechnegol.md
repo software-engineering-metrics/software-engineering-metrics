@@ -71,9 +71,9 @@ bob pwrpas yn bodoli at ddibenion blaenoriaethu.
 ### Meintiolwch gost pob eitem dyled a'i chost cario
 
 Ar gyfer pob eitem, amcangyfrifwch ddau ffigwr: y gost i'w thrwsio
-(amser peirianneg, perygl y trwsiad ei hun) a chost ei chario heb ei
+(amser peirianneg, risg y trwsiad ei hun) a chost ei chario heb ei
 thrwsio (faint yn arafach y mae gwaith cysylltiedig yn mynd, faint o
-berygl diffyg ychwanegol y mae'n ei gario, faint y mae'n rhwystro
+risg diffyg ychwanegol y mae'n ei gario, faint y mae'n rhwystro
 gwaith arall). Mae'r fframio hwn, wedi'i fenthyca'n uniongyrchol o
 resymeg trosiad y ddyled ariannol ei hun, yn rhoi sylfaen wirioneddol i
 benderfynwyr ar gyfer cymhariaeth yn erbyn cost a gwerth disgwyliedig
@@ -173,7 +173,7 @@ fel arfer ei golli, ym mhob cylch cynllunio unigol.
 **Cwmni newydd.** Mae dyled fwriadol, wybodus yn aml yn strategaeth
 resymol ar y cam hwn: rhyddhau'n gyflym i ddilysu rhagdybiaeth, gyda
 chynllun clir i ailedrych ar lwybrau byrion penodol os yw'r cynnyrch yn
-profi ei hun, yn fasnach ddilys, nid methiant. Y perygl yw colli
+profi ei hun, yn fasnach ddilys, nid methiant. Y risg yw colli
 trywydd pa lwybrau byrion oedd yn fwriadol ac yn wrthdroadwy yn erbyn
 pa rai sydd wedi dod yn rhwymedigaethau parhaol, heb eu harchwilio'n
 dawel wrth i'r sylfaen cod dyfu.
@@ -253,7 +253,7 @@ rheoli, gyfansymio, yn y pen draw'n costio llawer mwy mewn cyflenwi
 arafach a chyfraddau diffyg uwch ar draws y sylfaen cod gyfan, nid dim
 ond yr eitemau penodol a adawyd heb eu trin.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Dim cronfa-waith dyled weladwy, wedi'i holrhain:** mae dyled yn
   colli'r gystadleuaeth flaenoriaethu'n ddiofyn ac yn cyfansymio'n

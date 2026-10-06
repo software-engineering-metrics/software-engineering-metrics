@@ -22,7 +22,7 @@ ffurfioli ar gyfer cyflenwi meddalwedd trwy kanban a theori ciwio, yw bod
 cyfyngu WIP yn tueddu i *gynyddu* trwybwn, nid ei leihau, oherwydd mae
 llai o waith ar hediad ar unwaith yn golygu llai o gyfnewid cyd-destun,
 ciwiau byrrach, a chwblhau cyflymach fesul eitem, er ei fod yn teimlo fel
-petai gwneud llai o waith ar yr un pryd i fod i gynhyrchu llai o gynnyrch
+petai gwneud llai o waith ar yr un pryd i fod i gynhyrchu llai o allbwn
 yn gyffredinol.
 
 I dimau mawr, mae deall effeithlonrwydd llif yn ail-fframio bron pob

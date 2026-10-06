@@ -119,7 +119,7 @@ ticio-blychau.
 
 Y tensiwn canolog yw **cwmpas yn erbyn ansawdd ymateb**. Mae arolwg
 hirach, mwy cynhwysfawr yn dal mwy o dir ond yn dirywio cyfradd ymateb ac
-yn cynyddu'r perygl o gwestiynau wedi'u dylunio'n wael yn llithro trwodd;
+yn cynyddu'r risg o gwestiynau wedi'u dylunio'n wael yn llithro trwodd;
 mae arolwg byr, ffocysedig yn cael ymatebion o ansawdd gwell ond yn
 peryglu colli rhywbeth pwysig y tu allan i'w gwmpas. Datryswch y tensiwn
 trwy gadw'r arolwg craidd, rheolaidd yn fyr ac wedi'i beilota'n dda, a
@@ -224,7 +224,7 @@ rheswm i ymddiriedaeth yn yr offeryn adfer.
 ## Achos busnes: cymhellion, ROI, a TCO
 
 Data dibynadwy, gweithredadwy am ddimensiwn, profiad datblygwyr, sydd fel
-arall yn aros yn anweledig tan iddo ymddangos fel traul staff neu
+arall yn aros yn anweledig tan iddo ymddangos fel cyfradd gadael staff neu
 arafiad cyflenwi yw'r enillion ar raglen arolwg DevEx wedi'i dylunio'n
 dda. Mae'r enghraifft cwmni meddalwedd uchod yn dangos cost cael dylunio'n
 anghywir: dau chwarter o ymdrech unioni camgyfeiriedig oherwydd bod un
@@ -237,7 +237,7 @@ ymrwymiad hwnnw, yn fwy nag unrhyw gost offer, sy'n pennu a yw rhaglen
 arolwg yn aros yn ddefnyddiol am flynyddoedd neu'n dadfeilio'n ymarfer
 ticio-blychau sy'n cynhyrchu data cynyddol llai dibynadwy dros amser.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Cwestiynau dwy-ran neu arweiniol:** yn cymysgu pryderon gwahanol
   neu'n gogwyddo ymatebion, ac yn aml yn mynd heb eu canfod heb

@@ -306,7 +306,7 @@ prosesau adolygu yr oedd gan sefydliad eisoes ar waith.
   gyrru-gan-dystiolaeth yn addasu craffu'n weithredol yn seiliedig ar
   ddata cronedig, a monitrir lledaeniad chwyddiant metrig yn weithredol
   ar draws y biblinell gyfan.
-- **Lefel 5, Cerddorfaru:** Mae gan y sefydliad ystum rheoli-perygl
+- **Lefel 5, Cerddorfaru:** Mae gan y sefydliad ystum rheoli-risg
   aeddfed, cymesur, sy'n esblygu'n barhaus tuag at ddatblygiad â
   chymorth AI, wedi'i gyfathrebu'n dryloyw, nad yw'n gwastraffu ei werth
   trwy ofal gormodol nac yn amlygu'r sefydliad i wanhad ansawdd heb ei

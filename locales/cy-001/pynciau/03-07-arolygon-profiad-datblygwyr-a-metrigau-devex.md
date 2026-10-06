@@ -224,7 +224,7 @@ rheswm i ymddiriedaeth yn yr offeryn adfer.
 ## Achos busnes: cymhellion, ROI, a TCO
 
 Data dibynadwy, gweithredadwy am ddimensiwn, profiad datblygwyr, sydd fel
-arall yn aros yn anweledig tan iddo ymddangos fel traul staff neu
+arall yn aros yn anweledig tan iddo ymddangos fel cyfradd gadael staff neu
 arafiad cyflenwi yw'r enillion ar raglen arolwg DevEx wedi'i dylunio'n
 dda. Mae'r enghraifft cwmni meddalwedd uchod yn dangos cost cael dylunio'n
 anghywir: dau chwarter o ymdrech unioni camgyfeiriedig oherwydd bod un

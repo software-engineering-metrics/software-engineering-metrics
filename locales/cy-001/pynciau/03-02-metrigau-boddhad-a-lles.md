@@ -14,7 +14,7 @@ gwirioneddol.
 
 Mae'r dimensiwn hwn yn bwysig oherwydd dyma'r dangosydd rhagfynegi ar
 gyfer costau sy'n ymddangos mewn man arall, yn llawer diweddarach, ac yn
-llawer drutach. Mae boddhad gostyngol yn rhagfynegi traul staff cyn i
+llawer drutach. Mae boddhad gostyngol yn rhagfynegi cyfradd gadael staff cyn i
 gyfweliad ymadael wneud hynny. Mae risg llosgi allan cynyddol yn
 rhagfynegi cwymp ansawdd cyn i'r gyfradd diffygion ei ddangos. Mae
 sefydliad sy'n gwylio dim ond metrigau cyflenwi a gweithgarwch yn
@@ -40,8 +40,8 @@ o dueddol i'r drifft hwn ac angen gwarchod yn ei erbyn yn benodol.
   am y dimensiwn hwn, yn fwriadol ac yn dda.
 - **Nid yw anhysbysrwydd yn ddewisol.** Mae unrhyw gyswllt canfyddedig
   rhwng ateb onest a chanlyniad personol yn dinistrio'r signal.
-- **Mae'r dimensiwn hwn yn ddangosydd rhagfynegi, nid un ôl-ddyddiedig.**
-  Mae'n rhagfynegi traul staff a phroblemau ansawdd cyn iddynt ymddangos
+- **Mae'r dimensiwn hwn yn ddangosydd rhagfynegi, nid un ôl-fynegi.**
+  Mae'n rhagfynegi cyfradd gadael staff a phroblemau ansawdd cyn iddynt ymddangos
   mewn man arall.
 - **Mae llosgi allan yn batrwm penodol, adnabyddadwy, nid dim ond
   anhapusrwydd cyffredinol.** Mesurwch ar ei gyfer yn benodol yn hytrach
@@ -99,7 +99,7 @@ cyflymach, mwy uniongyrchol na gostyngiad boddhad cyffredinol.
 ### Parejwch ddata arolwg â signalau gwirio gwrthrychol, yn ofalus
 
 Lle bo ar gael, gwiriwch dueddiadau boddhad â signalau gwrthrychol sy'n
-berthnasol yn gredadwy i les: cyfradd traul staff wirfoddol, patrymau
+berthnasol yn gredadwy i les: cyfradd gadael staff wirfoddol, patrymau
 gwaith y tu allan i oriau parhaus, neu gyfradd gynyddol o amser gwyliau
 heb ei ddefnyddio. Defnyddiwch y rhain fel gwiriad, byth fel disodliad
 ar gyfer gofyn yn uniongyrchol, a byddwch yn ofalus nad yw'r gwiriad hwn
@@ -139,10 +139,10 @@ ymgysylltiad bob tro.
    rheolwr penderfynol, yn ymarferol, ddyfalu atebion unigolyn, hyd yn
    oed os yw'r polisi'n dweud na ddylai fedru gwneud hynny.
 
-3. **A ydym erioed wedi gweld data boddhad yn rhagargoeli pigyn traul
-   staff neu broblem ansawdd a ymddangosodd yn ddiweddarach mewn
+3. **A ydym erioed wedi gweld data boddhad yn rhagargoeli pigyn cyfradd
+   gadael staff neu broblem ansawdd a ymddangosodd yn ddiweddarach mewn
    metrigau eraill?** Edrychwch yn ôl ar eich hanes arolwg yn erbyn eich
-   data traul staff a digwyddiad a gwelwch a yw patrwm dangosydd-blaenllaw
+   data cyfradd gadael staff a digwyddiad a gwelwch a yw patrwm dangosydd-rhagfynegi
    yn weladwy wrth edrych yn ôl. Os na wnaethoch erioed wirio, mae
    hynny ei hun yn werth ei drafod.
 
@@ -186,7 +186,7 @@ onest yn anos ei roi'n uniongyrchol.
 gwirioneddol: offeryn trydydd parti priodol, polisi cyfanredu maint-
 grŵp-lleiafswm, a pholisi defnydd-heb-wertheuso clir, wedi'i gyfathrebu'n
 gyson. Mae'r enillion yn gymesur yn fwy hefyd, gan fod dal tuedd llosgi
-allan mewn sefydliad nifer-pennau mawr cyn iddo yrru traul staff yn
+allan mewn sefydliad nifer-pennau mawr cyn iddo yrru cyfradd gadael staff yn
 diogelu llawer mwy o wybodaeth sefydliadol.
 
 **Llywodraeth.** Mae pwysau cadw o gyfyngiadau cyflog sector cyhoeddus
@@ -208,7 +208,7 @@ ar ôl ail chwarter olynol o ostyngiad a chanfod bod y tîm wedi bod yn
 amsugno llwyth ar-alwad anghynaliadwy (pwnc 6.3) am bron i flwyddyn ar
 ôl rhewi nifer pennau. Gwrthdroddodd adfer staffio ar-alwad digonol y
 duedd llosgi allan o fewn dau chwarter, ymhell cyn iddo drosi i'r pigyn
-traul staff yr oedd data'r cwmni'n dangos oedd y canlyniad nodweddiadol
+cyfradd gadael staff yr oedd data'r cwmni'n dangos oedd y canlyniad nodweddiadol
 i lawr yr afon o'r patrwm hwn.
 
 **Llywodraeth.** Defnyddiodd asiantaeth TG llywodraeth talaith, oedd yn
@@ -230,7 +230,7 @@ Rhybudd cynnar yw'r enillion ar fesur boddhad a llesiant yn uniongyrchol: gall
 sefydliad sy'n dal tuedd llosgi allan flwyddyn gyfan cyn iddi drosi'n
 draul staff ymyrryd am ffracsiwn o gost recriwtio a chynefino disodliad,
 sydd fel arfer yn cymryd misoedd i gyrraedd cynhyrchiant llawn hyd yn oed
-ar ôl ei gyflogi. Mae traul staff gwirfoddol peiriannydd profiadol yn
+ar ôl ei gyflogi. Mae cyfradd gadael staff gwirfoddol peiriannydd profiadol yn
 costio i sefydliad lawer mwy na'r isadeiledd arolwg a allai fod wedi
 darparu'r rhybudd.
 
@@ -294,7 +294,7 @@ wedi'i thorri.
 - Defnyddiwch **offeryn wedi'i ddilysu** lle bo'n bosibl, a gwarantwch
   **anhysbysrwydd** gwirioneddol, wedi'i gyfathrebu'n dda.
 - Mae'r dimensiwn hwn yn **ddangosydd rhagfynegi** ar gyfer problemau
-  traul staff ac ansawdd a fyddai fel arall yn ymddangos yn llawer
+  cyfradd gadael staff ac ansawdd a fyddai fel arall yn ymddangos yn llawer
   diweddarach ac yn llawer drutach.
 - Gwahaniaethwch **foddhad cyffredinol o risg llosgi allan penodol**,
   ac olrheiniwch **duedd dros amser**, nid darlleniad sengl.

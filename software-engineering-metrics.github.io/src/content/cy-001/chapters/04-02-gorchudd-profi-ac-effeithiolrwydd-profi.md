@@ -47,7 +47,7 @@ rhif, heb unrhyw welliant cyfatebol mewn atal diffyg gwirioneddol.
   mae mynd ar drywydd 100% yn aml yn cynhyrchu enillion lleihaol neu
   negyddol.
 - **Mae gorchudd llwybr-dyngedfennol yn bwysicach na gorchudd unffurf,
-  cyffredinol.** Nid yw pob cod yn cario'r un perygl os yw'n methu.
+  cyffredinol.** Nid yw pob cod yn cario'r un risg os yw'n methu.
 
 ## Argymhellion
 
@@ -75,13 +75,13 @@ arfer safonol, nid techneg uwch neu ddewisol.
 
 ### Blaenoriaethwch orchudd a phrofi treiglo ar lwybrau dyngedfennol yn gyntaf
 
-Nid yw pob cod yn cario'r un perygl. Mae llwybr prosesu-taliadau,
+Nid yw pob cod yn cario'r un risg. Mae llwybr prosesu-taliadau,
 gwiriad dilysu, neu sgript mudo-data'n haeddu profi llawer mwy trylwyr
 nag adroddiad gweinyddol a ddefnyddir yn anaml. Yn hytrach na mynd ar
 drywydd gorchudd unffurf ar draws sylfaen cod gyfan, nodwch eich
-llwybrau cod perygl-uchaf, canlyniad-uchaf a chanolbwyntiwch ymdrech
+llwybrau cod risg-uchaf, canlyniad-uchaf a chanolbwyntiwch ymdrech
 gorchudd a phrofi treiglo yno'n gyntaf, gan dderbyn gorchudd is ar god
-gwirioneddol berygl-isel fel cyfnewidiad bwriadol, gwybodus yn hytrach na
+gwirioneddol risg-isel fel cyfnewidiad bwriadol, gwybodus yn hytrach na
 goruchwyliaeth.
 
 ### Gwyliwch am y patrymau twyllo-gorchudd penodol
@@ -112,15 +112,15 @@ uwch ymhellach.
 | --- | --- | --- |
 | Canran gorchudd yn unig | Rhad, syml, wedi'i gefnogi'n eang gan offeryno | Yn hawdd ei dwyllo; yn mesur gweithrediad, nid gwiriad |
 | Gorchudd ynghyd â phrofi treiglo | Yn gwirio bod profion mewn gwirionedd yn gwirio ymddygiad, yn gwrthsefyll twyllo | Yn fwy costus yn gyfrifiadol; angen buddsoddiad offeryno |
-| Targed gorchudd unffurf ar draws y sylfaen cod | Syml i'w ddatgan a'i orfodi | Yn gwastraffu ymdrech ar god perygl-isel; yn tan-fuddsoddi mewn perthynas â pherygl mewn mannau eraill |
-| Gorchudd seiliedig-ar-berygl, llwybr-dyngedfennol-yn-gyntaf | Yn canolbwyntio ymdrech lle mae'n bwysicaf | Angen barn i nodi llwybrau gwirioneddol ddyngedfennol yn gywir |
+| Targed gorchudd unffurf ar draws y sylfaen cod | Syml i'w ddatgan a'i orfodi | Yn gwastraffu ymdrech ar god risg-isel; yn tan-fuddsoddi mewn perthynas â risg mewn mannau eraill |
+| Gorchudd seiliedig-ar-risg, llwybr-dyngedfennol-yn-gyntaf | Yn canolbwyntio ymdrech lle mae'n bwysicaf | Angen barn i nodi llwybrau gwirioneddol ddyngedfennol yn gywir |
 
 Y tensiwn canolog yw **symlrwydd yn erbyn gonestrwydd**. Mae un canran
 gorchudd yn hawdd ei adrodd ac yn hawdd ei osod fel targed, ond y
 symlrwydd hwnnw yw'n union yr hyn sy'n ei gwneud mor hawdd ei dwyllo
 unwaith y daw'n rif wedi'i gymell. Datryswch y tensiwn trwy dderbyn y
 cymhlethdod ychwanegol o brofi treiglo a blaenoriaethu seiliedig-ar-
-berygl fel cost signal gonest, a thrwy gyfathrebu'n benodol i'ch tîm pam
+risg fel cost signal gonest, a thrwy gyfathrebu'n benodol i'ch tîm pam
 mae rhif gorchudd cyffredinol is, wedi'i ganolbwyntio'n gywir ar
 lwybrau dyngedfennol ac wedi'i gefnogi gan gyfradd lladd-treiglo gref,
 yn fwy gwerthfawr nag un uwch, wedi'i ddosbarthu'n fwy unffurf ond wedi'i
@@ -128,7 +128,7 @@ wirio'n llai effeithiol.
 
 ## Cwestiynau i'w trafod gyda'ch tîm
 
-1. **Beth yw ein cyfradd lladd-treiglo ar ein llwybrau cod perygl-uchaf,
+1. **Beth yw ein cyfradd lladd-treiglo ar ein llwybrau cod risg-uchaf,
    a sut mae'n cymharu â'n canran gorchudd ar yr un cod?** Mae bwlch
    mawr rhwng rhif gorchudd uchel a chyfradd lladd-treiglo isel yn
    arwydd cliriaf posibl nad yw gorchudd ar ei ben ei hun yn dweud
@@ -141,9 +141,9 @@ wirio'n llai effeithiol.
    pan fydd giât gorchudd yn rhwystro uno.
 
 3. **A yw ein hymdrech orchudd wedi'i chanolbwyntio ar ein llwybrau cod
-   perygl-uchaf, neu wedi'i lledaenu'n unffurf waeth beth fo'r canlyniad
+   risg-uchaf, neu wedi'i lledaenu'n unffurf waeth beth fo'r canlyniad
    os yw'r cod hwnnw'n methu?** Mapiwch eich dosbarthiad gorchudd
-   cyfredol yn erbyn asesiad perygl onest o'ch sylfaen cod a chwiliwch
+   cyfredol yn erbyn asesiad risg onest o'ch sylfaen cod a chwiliwch
    am y camgyfateb.
 
 4. **A ydym erioed wedi analluogi neu ddileu prawf sy'n methu yn hytrach
@@ -184,9 +184,9 @@ gennych y gallu peirianneg i weithredu ar yr hyn y mae'n ei ddatgelu.
 gamgymeriad cyffredin a chanlyniadol ar y raddfa hon, gan eu bod yn
 cymell union y twyllo y mae'r pwnc hwn yn ei ddisgrifio ar draws
 degau o dimau ar yr un pryd. Sefydlwch ddisgwyliadau gorchudd
-seiliedig-ar-berygl sy'n amrywio yn ôl dyngedfennoldeb gwasanaeth, a
+seiliedig-ar-risg sy'n amrywio yn ôl dyngedfennoldeb gwasanaeth, a
 buddsoddwch mewn isadeiledd profi treiglo ar gyfer eich systemau
-perygl-uchaf yn benodol.
+risg-uchaf yn benodol.
 
 **Llywodraeth.** Mae gofynion gorchudd weithiau'n ymddangos mewn
 dogfennaeth caffael neu gydymffurfio fel dirprwy pŵl, hawdd ei
@@ -206,10 +206,10 @@ brofi'n dda, gyfradd lladd-treiglo o dan 40% ar draws llawer o'r
 sylfaen cod: roedd timau wedi bod yn ysgrifennu profion a weithredai
 lwybrau cod heb haeru'n ystyrlon ar eu hymddygiad, yn bur i fodloni'r
 giât o dan bwysau terfyn amser. Disodlodd y cwmni'r gofyniad gorchudd
-cyffredinol â pholisi wedi'i haenu-yn-ôl-perygl: gorchudd llym ynghyd â
+cyffredinol â pholisi wedi'i haenu-yn-ôl-risg: gorchudd llym ynghyd â
 phrofi treiglo gorfodol uwchlaw trothwy cyfradd-lladd 80% ar gyfer cod
 talu a dilysu, a llawr gorchudd llawer ysgafnach ar gyfer offeryno
-mewnol perygl-isel, a leihaodd ymdrech brofi wastraffus a gwella
+mewnol risg-isel, a leihaodd ymdrech brofi wastraffus a gwella
 cyfraddau diffyg yn fesuradwy yn y llwybrau gwirioneddol ddyngedfennol
 fel ei gilydd.
 
@@ -240,10 +240,10 @@ treiglo, sy'n fwy costus i'w redeg nag offeryno gorchudd syml ac felly
 fel arfer yn cael ei neilltuo ar gyfer cod llwybr-dyngedfennol yn
 hytrach na sylfaen cod gyfan, ynghyd ag amser peirianneg i ddehongli a
 gweithredu ar ganlyniadau. Mae'r gost honno'n gyfiawn yn benodol ar
-gyfer y cod perygl-uchaf, lle mae cost bwlch heb ei ganfod mewn
+gyfer y cod risg-uchaf, lle mae cost bwlch heb ei ganfod mewn
 effeithiolrwydd profi ar ei uchaf.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Trin canran gorchudd fel dyfarniad ansawdd uniongyrchol:** mae'n
   mesur gweithrediad, nid gwiriad.
@@ -253,8 +253,8 @@ effeithiolrwydd profi ar ei uchaf.
 - **Analluogi neu ddileu profion sy'n methu yn lle trwsio'r broblem
   sylfaenol:** yn dileu diogelwch gwirioneddol tra prin yn effeithio
   ar y rhif a adroddir.
-- **Cymhwyso targed gorchudd unffurf waeth beth fo perygl y cod:** yn
-  gwastraffu ymdrech ar god perygl-isel ac yn tan-fuddsoddi mewn
+- **Cymhwyso targed gorchudd unffurf waeth beth fo risg y cod:** yn
+  gwastraffu ymdrech ar god risg-isel ac yn tan-fuddsoddi mewn
   llwybrau gwirioneddol ddyngedfennol.
 - **Tyfu rhestr eithrio'n dawel dros amser:** yn cuddio bylchau profi
   gwirioneddol y tu ôl i ffigur gorchudd sy'n dechnegol gywir ond yn
@@ -269,9 +269,9 @@ effeithiolrwydd profi ar ei uchaf.
   anghyson heb lawr, targed, na gwiriad effeithiolrwydd.
 - **Lefel 2, Datblygu:** Mae targed gorchudd yn bodoli ac yn cael ei
   olrhain, ond nid oes profi treiglo na blaenoriaethu seiliedig-ar-
-  berygl yn llywio sut mae ymdrech yn cael ei dyrannu.
+  risg yn llywio sut mae ymdrech yn cael ei dyrannu.
 - **Lefel 3, Safoni:** Gorfodir llorau gorchudd yn gyson yn CI, gyda
-  blaenoriaethu seiliedig-ar-berygl yn cyfeirio ble mae ymdrech
+  blaenoriaethu seiliedig-ar-risg yn cyfeirio ble mae ymdrech
   gorchudd yn canolbwyntio.
 - **Lefel 4, Rheoli:** Rhedir profi treiglo ar god llwybr-dyngedfennol,
   gyda throthwy cyfradd-lladd a olrheinir y mae'n rhaid ei fodloni
@@ -285,9 +285,9 @@ effeithiolrwydd profi ar ei uchaf.
 
 1. Beth yw ein cyfradd lladd-treiglo ar ein llwybr cod mwyaf dyngedfennol sengl, ac a ydym hyd yn oed yn ei wybod?
 2. A ydym erioed wedi ysgrifennu prawf gwerth-isel yn bur i fodloni giât gorchudd?
-3. A yw ein hymdrech orchudd gyfredol wedi'i chanolbwyntio lle mae perygl uchaf, neu wedi'i lledaenu'n unffurf?
+3. A yw ein hymdrech orchudd gyfredol wedi'i chanolbwyntio lle mae risg uchaf, neu wedi'i lledaenu'n unffurf?
 4. Pa god sydd wedi'i eithrio o'r cyfrifiad gorchudd ar hyn o bryd, ac a yw'r eithriad hwnnw'n dal yn gyfiawn?
-5. A fyddai buddsoddiad profi-treiglo ar ein system perygl-uchaf yn werth ei gost gyfrifiadurol?
+5. A fyddai buddsoddiad profi-treiglo ar ein system risg-uchaf yn werth ei gost gyfrifiadurol?
 
 ## Prif gasgliadau
 
@@ -296,7 +296,7 @@ effeithiolrwydd profi ar ei uchaf.
 - Parejwch orchudd â **phrofi treiglo** i wirio bod profion mewn
   gwirionedd yn dal beiau gwirioneddol, nid dim ond eu bod yn rhedeg y
   cod.
-- Canolbwyntiwch ymdrech brofi ar **lwybrau dyngedfennol, perygl-uchel**
+- Canolbwyntiwch ymdrech brofi ar **lwybrau dyngedfennol, risg-uchel**
   yn hytrach na mynd ar drywydd gorchudd unffurf ar draws sylfaen cod
   gyfan.
 - Defnyddiwch orchudd fel **llawr i warchod yn erbyn ôl-gwympiad**, nid

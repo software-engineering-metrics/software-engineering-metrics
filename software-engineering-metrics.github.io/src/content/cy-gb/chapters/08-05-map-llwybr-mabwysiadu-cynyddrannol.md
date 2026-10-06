@@ -63,7 +63,7 @@ Y prif densiwn yw **cyflymder tuag at sylw cynhwysfawr yn erbyn dilyniant sylfei
 
 4. **Pa ganlyniad y gellir ei ddangos wnaeth pob cam yr ydym wedi'i gwblhau ei gynhyrchu mewn gwirionedd, ac a wnaethom ei ddefnyddio i gyfiawnhau buddsoddiad y cam nesaf?** Os na allwch nodi canlyniad penodol, wedi'i gyfathrebu o gam a gwblhawyd, mae'r bwlch hwnnw'n werth ei enwi.
 
-5. **A yw Cam 4 a Cham 5 yn rhedeg yn gyfochrog priodol i ni, neu a gaiff un ei esgeuluso o blaid y llall?** Trafodwch a ddylai proffil risg penodol eich sefydliad, mwy canolbwyntiedig ar draddodi neu fwy canolbwyntiedig ar ddibynadwyedd, siapio'r dilyniant cyfochrog hwn yn wahanol i'r rhagosodiad y mae'r pwnc hwn yn ei ddisgrifio.
+5. **A yw Cam 4 a Cham 5 yn rhedeg yn gyfochrog priodol i ni, neu a gaiff un ei esgeuluso o blaid y llall?** Trafodwch a ddylai proffil risg benodol eich sefydliad, mwy canolbwyntiedig ar draddodi neu fwy canolbwyntiedig ar ddibynadwyedd, siapio'r dilyniant cyfochrog hwn yn wahanol i'r rhagosodiad y mae'r pwnc hwn yn ei ddisgrifio.
 
 6. **A ydym wedi sefydlu'r ymarfer asesu aeddfedrwydd parhaus, ailadroddus o bwnc 8.4, neu a yw ein map llwybr yn dod i ben yn effeithiol unwaith y bydd y camau cychwynnol yn dechnegol gyflawn?** Mae map llwybr heb y cam parhaus hwn yn risgio trin y rhaglen fetrigau fel prosiect gorffenedig yn hytrach na'r gallu parhaus y mae'r llyfr hwn yn dadlau y mae angen iddo fod.
 
@@ -89,14 +89,14 @@ Yr enillion ar fap llwybr graddol, sylfeini-yn-gyntaf yw rhaglen fetrigau sy'n g
 
 Y gost berchnogaeth gyfan yw amser: mae'r map llwybr hwn mewn gwirionedd yn cymryd yn hirach i gyrraedd cwmpas llawn nag y byddai cyflwyniad mawr-a-sydyn yn ei wneud. Mae'r gost amser honno'n bris uniongyrchol, angenrheidiol y sylfaen ymddiriedaeth a llywodraethiant y mae'r llyfr cyfan hwn wedi dadlau drosti ers ei bynciau agoriadol, ac mae enghraifft y llywodraeth uchod yn dangos budd eilaidd gwirioneddol, ymarferol: mae camau cynyddrannol, seiliedig-ar-dystiolaeth yn aml yn haws eu cyllido a'u cyfiawnhau na chais ymlaen llaw mawr, sengl, heb ei brofi.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Cyflwyniad mawr-a-sydyn, cynhwysfawr wedi'i geisio ar unwaith:** yn torri arweiniad craidd pwnc 8.3 ac yn risgio ennyn ofn a chwarae o'r dechrau.
 - **Hepgor sylfaen llywodraethiant Cam 1 er mwyn symud yn gyflymach:** yn etifeddu llywodraethiant gwan i mewn i bob cam diweddarach, yn ddrud i'w ôl-ffitio'n ddiweddarach.
 - **Dewis tîm treialu anfoddog neu wedi'i fandadu ar gyfer Cam 2:** yn tanseilio'r pwrpas adeiladu ymddiriedaeth y mae treial gwirioneddol i fod i'w wasanaethu.
 - **Methu â chynhyrchu neu gyfathrebu canlyniad y gellir ei ddangos o bob cam:** yn colli'r sail dystiolaeth sydd ei angen i gyfiawnhau buddsoddiad parhaus yn y cam nesaf.
 - **Trin y map llwybr fel un cyflawn unwaith y bydd pob cam yn dechnegol wedi'i gyffwrdd:** yn colli'r ymarfer asesu aeddfedrwydd parhaus y mae pwnc 8.4 yn ei argymell fel disgyblaeth barhaol, nid un-tro.
-- **Dilyn dilyniant rhagosodedig y pwnc hwn yn anhyblyg ni waeth beth y proffil risg gwirioneddol eich sefydliad:** dylid addasu'r map llwybr hwn, nid ei gymhwyso'n fecanyddol heb farn.
+- **Dilyn dilyniant rhagosodedig y pwnc hwn yn anhyblyg ni waeth beth y proffil risg wirioneddol eich sefydliad:** dylid addasu'r map llwybr hwn, nid ei gymhwyso'n fecanyddol heb farn.
 
 ## Model aeddfedrwydd
 

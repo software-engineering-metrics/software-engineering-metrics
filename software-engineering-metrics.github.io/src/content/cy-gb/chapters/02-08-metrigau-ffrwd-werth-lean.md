@@ -249,7 +249,7 @@ yn ychwanegiad syml at olrhain diffyg ac elfen-lif presennol (pwnc
 llyfr hwn a rhai clasurol Lean, sy'n talu amdano'i hun y tro cyntaf y mae'n
 atal camddealltwriaeth traws-swyddogaethol.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Mesur %C/A dim ond ar gyflenwi terfynol:** y fector twyllo wrth galon
   y pwnc hwn. Gall tîm adrodd %C/A cam-terfynol uchel tra bo camau

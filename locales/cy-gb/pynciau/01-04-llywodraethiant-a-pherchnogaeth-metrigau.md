@@ -109,7 +109,7 @@ metrig fod yn anghywir, nid i sawl metrig sy'n bodoli.
 | Dim llywodraethiant ffurfiol | Cyflym, gorbenion isel ar gyfer timau bach | Mae diffiniadau'n drifftio; mae perchnogaeth yn gwasgaru; mae dangosfyrddau'n gwasgaru'n ddigyfrif |
 | Siarter ysgafn fesul set fetrigau | Rhad, darllenadwy, yn graddio gyda'r sefydliad | Angen disgyblaeth i'w chadw'n gyfredol; gellir ei hepgor o dan bwysau terfyn amser |
 | Bwrdd llywodraethiant metrigau canolog trwm | Cysondeb cryf, llwybr archwilio cryf | Araf i gymeradwyo metrigau newydd; gall ddod yn dagfa y mae timau'n ei osgoi |
-| Llywodraethiant wedi'i raddio i ganlyniad | Yn paru ymdrech â risg gwirioneddol | Angen barn i ddosbarthu canlyniad yn gywir; gellir ei dwyllo trwy danddweud y risg |
+| Llywodraethiant wedi'i raddio i ganlyniad | Yn paru ymdrech â risg wirioneddol | Angen barn i ddosbarthu canlyniad yn gywir; gellir ei dwyllo trwy danddweud y risg |
 
 Y tensiwn canolog yw **cysondeb yn erbyn cyflymder**. Mae llywodraethiant
 canolog trwm yn cynhyrchu metrigau dibynadwy, cyson ond yn arafu tîm yn
@@ -146,7 +146,7 @@ defnydd gwerthusol neu gyhoeddus.
    metrig yn mynd trwy'r un pwysau adolygu waeth beth yw'r risg?** Mae
    llywodraethiant gorbwyslas ar fetrig tîm risg isel yn arafu gwaith heb
    fudd diogelwch; mae llywodraethiant gorysgafn ar fetrig sy'n bwydo
-   adroddiad cyhoeddus neu benderfyniad iawndal yn risg gwirioneddol.
+   adroddiad cyhoeddus neu benderfyniad iawndal yn risg wirioneddol.
    Mapiwch eich metrigau presennol yn ôl canlyniad a gwiriwch bwysau'r
    broses yn ei erbyn yn onest.
 
@@ -239,7 +239,7 @@ mewn gwirionedd yn gymaradwy, yn costio'n ddramatig fwy, mewn dadansoddiad
 gwastraffus ac yn y niwed credadwyedd o gywiro'r cofnod cyhoeddus neu
 fewnol ar ôl y ffaith.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Perchnogaeth tîm yn lle perchnogaeth person-wedi'i-enwi:** yn
   gwasgaru atebolrwydd nes nad oes neb mewn gwirionedd yn cynnal y

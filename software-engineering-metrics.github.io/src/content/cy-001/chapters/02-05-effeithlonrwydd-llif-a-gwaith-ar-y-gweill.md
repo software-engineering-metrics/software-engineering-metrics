@@ -22,7 +22,7 @@ ffurfioli ar gyfer cyflenwi meddalwedd trwy kanban a theori ciwio, yw bod
 cyfyngu WIP yn tueddu i *gynyddu* trwybwn, nid ei leihau, oherwydd mae
 llai o waith ar hediad ar unwaith yn golygu llai o gyfnewid cyd-destun,
 ciwiau byrrach, a chwblhau cyflymach fesul eitem, er ei fod yn teimlo fel
-petai gwneud llai o waith ar yr un pryd i fod i gynhyrchu llai o gynnyrch
+petai gwneud llai o waith ar yr un pryd i fod i gynhyrchu llai o allbwn
 yn gyffredinol.
 
 I dimau mawr, mae deall effeithlonrwydd llif yn ail-fframio bron pob
@@ -244,7 +244,7 @@ terfyn. Mae'r ddisgyblaeth honno'n anos ei chynnal na'i mabwysiadu, a
 dyna pam mae'r argymhelliad "gwyliwch am WIP yn cropian yn ôl i fyny"
 uchod yr un mor bwysig â'r mabwysiadu cychwynnol ei hun.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Tybio bod ymdrech weithredol yn dominyddu amser cyflenwi heb fesur
   effeithlonrwydd llif:** fel arfer yn anghywir, ac mae'n camgyfeirio

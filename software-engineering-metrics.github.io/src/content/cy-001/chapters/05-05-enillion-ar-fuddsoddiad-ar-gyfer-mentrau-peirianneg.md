@@ -257,7 +257,7 @@ un-rhif, hyderus, cyflym, ac mae'n werth chweil yn benodol oherwydd bod
 y dewis arall yn peryglu credadwyedd y sefydliad ar gyfer pob achos y
 bydd angen iddo ei wneud yn y dyfodol.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Dadansoddiad cost-ymlaen-llaw-yn-unig, gan hepgor cost cyfanswm
   perchnogaeth:** yn tanddweud cost fuddsoddi wirioneddol, yn enwedig

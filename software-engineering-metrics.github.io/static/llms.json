@@ -1967,8 +1967,8 @@
     },
     {
      "number": "1.3",
-     "title": "Canlyniadau dros gynnyrch: dewis beth i'w fesur",
-     "url": "https://software-engineering-metrics.github.io/cy-001/chapters/01-03-canlyniadau-dros-gynnyrch/"
+     "title": "Canlyniadau dros allbwn: dewis beth i'w fesur",
+     "url": "https://software-engineering-metrics.github.io/cy-001/chapters/01-03-canlyniadau-dros-allbwn/"
     },
     {
      "number": "1.4",
@@ -2002,8 +2002,8 @@
     },
     {
      "number": "2.3",
-     "title": "Cyflymder llif a dosbarthiad llif",
-     "url": "https://software-engineering-metrics.github.io/cy-001/chapters/02-03-cyflymder-llif-a-dosbarthiad-llif/"
+     "title": "Cyflymder llif a dosraniad llif",
+     "url": "https://software-engineering-metrics.github.io/cy-001/chapters/02-03-cyflymder-llif-a-dosraniad-llif/"
     },
     {
      "number": "2.4",
@@ -2163,7 +2163,7 @@
     {
      "number": "6.3",
      "title": "Metrigau ar-alwad, cynhwysedd, a llwyth gweithredol",
-     "url": "https://software-engineering-metrics.github.io/cy-001/chapters/06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol/"
+     "url": "https://software-engineering-metrics.github.io/cy-001/chapters/06-03-metrigau-ar-alwad-cynhwysedd-a-llwyth-gweithredol/"
     },
     {
      "number": "6.4",
@@ -2187,8 +2187,8 @@
     },
     {
      "number": "7.3",
-     "title": "Peryglon chwyddiant metrig a gwanhad ansawdd",
-     "url": "https://software-engineering-metrics.github.io/cy-001/chapters/07-03-peryglon-chwyddiant-metrig-a-gwanhad-ansawdd/"
+     "title": "Risgiau chwyddiant metrig a gwanhad ansawdd",
+     "url": "https://software-engineering-metrics.github.io/cy-001/chapters/07-03-risgiau-chwyddiant-metrig-a-gwanhad-ansawdd/"
     },
     {
      "number": "7.4",
@@ -2289,8 +2289,8 @@
     },
     {
      "number": "1.3",
-     "title": "Canlyniadau dros gynnyrch: dewis beth i'w fesur",
-     "url": "https://software-engineering-metrics.github.io/cy-gb/chapters/01-03-canlyniadau-dros-gynnyrch/"
+     "title": "Canlyniadau dros allbwn: dewis beth i'w fesur",
+     "url": "https://software-engineering-metrics.github.io/cy-gb/chapters/01-03-canlyniadau-dros-allbwn/"
     },
     {
      "number": "1.4",
@@ -2324,8 +2324,8 @@
     },
     {
      "number": "2.3",
-     "title": "Cyflymder llif a dosbarthiad llif",
-     "url": "https://software-engineering-metrics.github.io/cy-gb/chapters/02-03-cyflymder-llif-a-dosbarthiad-llif/"
+     "title": "Cyflymder llif a dosraniad llif",
+     "url": "https://software-engineering-metrics.github.io/cy-gb/chapters/02-03-cyflymder-llif-a-dosraniad-llif/"
     },
     {
      "number": "2.4",
@@ -2485,7 +2485,7 @@
     {
      "number": "6.3",
      "title": "Metrigau ar-alwad, cynhwysedd, a llwyth gweithredol",
-     "url": "https://software-engineering-metrics.github.io/cy-gb/chapters/06-03-metrigau-ar-alwad-capasiti-a-llwyth-gweithredol/"
+     "url": "https://software-engineering-metrics.github.io/cy-gb/chapters/06-03-metrigau-ar-alwad-cynhwysedd-a-llwyth-gweithredol/"
     },
     {
      "number": "6.4",
@@ -2509,8 +2509,8 @@
     },
     {
      "number": "7.3",
-     "title": "Peryglon chwyddiant metrig a gwanhad ansawdd",
-     "url": "https://software-engineering-metrics.github.io/cy-gb/chapters/07-03-peryglon-chwyddiant-metrig-a-gwanhad-ansawdd/"
+     "title": "Risgiau chwyddiant metrig a gwanhad ansawdd",
+     "url": "https://software-engineering-metrics.github.io/cy-gb/chapters/07-03-risgiau-chwyddiant-metrig-a-gwanhad-ansawdd/"
     },
     {
      "number": "7.4",

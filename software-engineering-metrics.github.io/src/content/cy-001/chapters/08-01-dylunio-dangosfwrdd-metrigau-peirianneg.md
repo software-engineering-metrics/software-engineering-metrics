@@ -85,7 +85,7 @@ Yr enillion ar ddangosfyrddau bwriadus, penodol i gynulleidfa, wedi'u dylunio'n 
 
 Y gost berchnogaeth gyfan yw'r ymdrech ddylunio a chynnal ar gyfer dangosfyrddau lluosog, penodol i bwrpas yn hytrach nag un arteffact cynhwysfawr, ynghyd â'r ddisgyblaeth llywodraethiant barhaus (perchnogaeth enwedig, cadwyn adolygu) y mae'r pwnc hwn yn ei hargymell. Mae'r gost honno'n gymedrol o'i chymharu â risg dangosfwrdd nad yw'n cael ei ddefnyddio, neu'n waeth, un sy'n camarwain ei gynulleidfa'n weithredol ac yn niweidio hygrededd, fel y dengys enghraifft y llywodraeth uchod yn gyffredig.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Un dangosfwrdd yn ceisio gwasanaethu pob cynulleidfa:** fel arfer nid yw'n gwasanaethu neb yn dda.
 - **Gwahanu metrig cymhellol oddi wrth ei reilen ddiogelwch ar draws gwahanol olygfeydd:** yn ailgreu'r risg amlygiad cymhelliant y mae pwnc 1.2 yn rhybuddio yn ei erbyn.

@@ -1,10 +1,10 @@
-# 2.3 Cyflymder llif a dosbarthiad llif
+# 2.3 Cyflymder llif a dosraniad llif
 
 ## Trosolwg a chymhelliant
 
 **Cyflymder llif** yw nifer yr elfennau llif (pwnc 2.2) a gwblhawyd
 dros gyfnod penodol, mesur [trwybwn](https://en.wikipedia.org/wiki/Throughput)
-y Flow Framework. **Dosbarthiad llif** yw cyfran pob math o elfen lif,
+y Flow Framework. **Dosraniad llif** yw cyfran pob math o elfen lif,
 nodweddion, diffygion, risg, a dyled, ymhlith yr eitemau a gwblhawyd yn
 yr un cyfnod hwnnw. Mae'r ddwy fetrig wedi'u dylunio i'w darllen gyda'i
 gilydd: mae cyflymder yn unig yn ateb "faint a gyflenwom," ac mae
@@ -50,7 +50,7 @@ cynnyrch crai am gynnydd gwirioneddol, cynaliadwy.
 - **Mae cyflymder yn agored i'r un twyllo amnewid ag unrhyw fetrig
   cyfrif-eitem.** Mae hollti gwaith caled yn nifer o eitemau bach, hawdd
   yn chwyddo'r cyfrif heb gyflenwi gwerth cyfrannol mwy.
-- **Mae dosbarthiad iach yn dibynnu ar gyd-destun, nid yn darged
+- **Mae dosraniad iach yn dibynnu ar gyd-destun, nid yn darged
   sefydlog.** Mae pwnc 2.2 yn cwmpasu hyn yn ddyfn; dylid dehongli
   cyflymder a dosbarthiad bob amser yn erbyn y targed y mae'r cyd-destun
   hwnnw'n ei awgrymu.
@@ -85,9 +85,9 @@ bras, neu olrheiniwch faint eitem cyfartalog ochr yn ochr â'r cyfrif
 crai, fel bod maint cyfartalog crebachu wrth ochr cyfrif cynyddol yn
 weladwy yn hytrach na chudd.
 
-### Gwyliwch ddosbarthiad llif am ddrifft, nid dim ond ei instantiad cyfredol
+### Gwyliwch ddosraniad llif am ddrifft, nid dim ond ei instantiad cyfredol
 
-Yn anaml y mae'r signal mwyaf defnyddiol mewn dosbarthiad llif yn union
+Yn anaml y mae'r signal mwyaf defnyddiol mewn dosraniad llif yn union
 ganrannau'r cyfnod hwn; y cyfeiriad newid dros sawl cyfnod ydyw. Mae
 drifft cyson, nodweddion yn dringo tra bo dyled a risg yn crebachu'n
 dawel, yn werth ei godi â rhanddeiliaid ymhell cyn iddo ddod yn fath o
@@ -123,7 +123,7 @@ bod y cyfrif syml wedi dod yn weithredol gamarweiniol.
 
 ## Cwestiynau i'w trafod gyda'ch tîm
 
-1. **Pan fyddwn yn adrodd cyflymder llif, a yw dosbarthiad llif bob amser
+1. **Pan fyddwn yn adrodd cyflymder llif, a yw dosraniad llif bob amser
    yn cael ei ddangos ochr yn ochr ag ef, neu a yw cyflymder weithiau'n
    sefyll ar ei ben ei hun?** Mae rhif cyflymder heb ei ddosbarthiad yn
    ddarlun anghyflawn yn ôl egwyddor ganolog y pwnc hwn ei hun. Gwiriwch
@@ -141,7 +141,7 @@ bod y cyfrif syml wedi dod yn weithredol gamarweiniol.
    rifau ei hun dim ond i edrych yn gymaradwy, gan adleisio'r un risg y
    mae'r llyfr hwn eisoes yn ei enwi ar gyfer amlder defnyddio.
 
-4. **A yw ein dosbarthiad llif wedi drifftio i un cyfeiriad dros yr
+4. **A yw ein dosraniad llif wedi drifftio i un cyfeiriad dros yr
    ychydig gyfnodau diwethaf, ac a benderfynodd unrhyw un hynny'n
    fwriadol?** Mae drifft araf yn hawdd ei golli cyfnod wrth gyfnod.
    Plotiwch sawl cyfnod gyda'i gilydd a chwiliwch yn onest am duedd cyn
@@ -193,7 +193,7 @@ ymarferoldeb newydd, remediad diffyg, a rheoli risg.
 **Menter.** Adroddodd tîm platfform gwerthwr meddalwedd gyflymder llif
 cynyddol yn gyson am dri chwarter yn olynol, tuedd a ddathlodd
 arweinyddiaeth fel cyflenwi'n cyflymu. Datgelodd golwg agosach ar
-ddosbarthiad llif, a geisiwyd dim ond ar ôl uwchgyfeirio cwsmer am
+ddosraniad llif, a geisiwyd dim ond ar ôl uwchgyfeirio cwsmer am
 fygiau ailadroddus, fod cyfran "nodweddion" y cyflymder cynyddol hwnnw
 mewn gwirionedd wedi syrthio o 70% i 45% dros yr un cyfnod, gyda eitemau
 trwsio-diffyg yn llenwi'r bwlch. Roedd y tîm wedi bod yn cyflenwi mwy o
@@ -215,7 +215,7 @@ na'i adael yn ymhlyg mewn gostyngiad cyflymder heb ei esbonio.
 
 ## Achos busnes: cymhellion, ROI, a TCO
 
-Cyfrif mwy gonest, mwy amddiffynadwy o gynnyrch cyflenwi nag y mae'r naill
+Cyfrif mwy gonest, mwy amddiffynadwy o allbwn cyflenwi nag y mae'r naill
 rif na'r llall yn ei ddarparu ar ei ben ei hun yw'r enillion ar barejo
 cyflymder â dosbarthiad. Mae enghraifft y gwerthwr meddalwedd uchod, gan
 ddarganfod bod cyflymder cynyddol mewn gwirionedd yn adlewyrchu cynnyrch
@@ -232,7 +232,7 @@ technegol. Talwyd y rhan fwyaf o gost argymhellion y pwnc hwn eisoes
 pan fabwysiadodd y sefydliad ddosbarthiad elfen-lif gonest yn y lle
 cyntaf.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Adrodd cyflymder llif heb ddosbarthiad:** y fector twyllo wrth galon
   y pwnc hwn. Gall tîm o dan bwysau cyflenwi godi cyfrif eitem trwy
@@ -279,12 +279,12 @@ cyntaf.
 
 1. A yw ein hadrodd cyflymder llif bob amser yn cynnwys dosbarthiad, neu a ydym erioed wedi dangos un heb y llall?
 2. A yw maint elfen-lif cyfartalog wedi symud ochr yn ochr â newid mewn cyflymder yn ddiweddar?
-3. A fyddem yn gwybod petai ein dosbarthiad llif wedi drifftio'n gyson dros yr ychydig chwarteri diwethaf?
+3. A fyddem yn gwybod petai ein dosraniad llif wedi drifftio'n gyson dros yr ychydig chwarteri diwethaf?
 4. Beth fyddai ei angen i rywun chwyddo ein cyflymder heb gyflenwi mwy o werth gwirioneddol, ac a fyddem yn sylwi?
 
 ## Prif gasgliadau
 
-- Mae **cyflymder llif** yn mesur trwybwn; mae **dosbarthiad llif** yn
+- Mae **cyflymder llif** yn mesur trwybwn; mae **dosraniad llif** yn
   mesur pa fath o waith y mae'r trwybwn hwnnw'n ei gynrychioli.
   Adroddwch nhw gyda'i gilydd, bob amser.
 - Mae'r parejiad hwn yn gymhwysiad uniongyrchol o **egwyddor cledr

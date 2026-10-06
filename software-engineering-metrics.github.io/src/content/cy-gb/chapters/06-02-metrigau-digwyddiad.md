@@ -248,7 +248,7 @@ buddsoddiad hwnnw'n costio llai na'r dewis arall, rhaglen fetrigau
 digwyddiad sy'n cynhyrchu data anghywir â hyder oherwydd bod ofn wedi
 llygru pob mewnbwn iddo.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Adolygiad digwyddiad wedi'i gyfeirio-gan-fai:** yn llygru
   gonestrwydd adrodd, cyflymder cydnabyddiaeth, a dosbarthiad

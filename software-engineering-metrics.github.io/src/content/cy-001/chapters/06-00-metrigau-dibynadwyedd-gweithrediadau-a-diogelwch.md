@@ -17,7 +17,7 @@ arni. Mae metrigau digwyddiad (pwnc 6.2) yn mesur beth sy'n digwydd
 pan gollir y targed hwnnw. Mae metrigau ar-alwad a chynhwysedd (pwnc
 6.3) yn mesur cost ddynol a seilwaith cadw'r targed wedi'i fodloni.
 Mae metrigau diogelwch a gwendidau (pwnc 6.4) yn ymestyn yr un
-ddisgyblaeth dibynadwyedd i berygl gwahanol ond yn agos gysylltiedig:
+ddisgyblaeth dibynadwyedd i risg wahanol ond yn agos gysylltiedig:
 nid "a fydd hyn yn methu ar ei ben ei hun" ond "a fydd rhywun yn ei
 wneud yn methu'n fwriadol." Mae pob un o'r pedwar pwnc yn rhannu
 disgyblaeth ganolog y llyfr hwn: enwch y metrig, enwch sut mae'n cael
@@ -47,7 +47,7 @@ rhan hon yn trin y pwysau hwnnw o ddifrif drwyddo draw.
   anghynaliadwy'n ymddangos yn y pen draw fel problem ddibynadwyedd ei
   hun.
 - **6.4 Metrigau rheoli diogelwch a gwendidau:** Ymestyn yr un dull
-  disgybledig, wedi'i barejo-â-chledr-ddiogelwch i berygl diogelwch, o
+  disgybledig, wedi'i barejo-â-chledr-ddiogelwch i risg diogelwch, o
   ddarganfod gwendid trwy unioni.
 
 ## Sut mae'r pynciau hyn yn cydberthyn

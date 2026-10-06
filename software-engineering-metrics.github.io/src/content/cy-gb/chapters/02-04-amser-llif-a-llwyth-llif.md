@@ -55,7 +55,7 @@ unwaith.
   diffiniadol sy'n agored i'r un risg twyllo ag unrhyw derfyn metrig arall
   yn y llyfr hwn.
 - **Gall arweinydd busnes weithredu ar lwyth llif yn uniongyrchol.** Yn
-  wahanol i amser llif, sy'n fesuriad hwyrfrydig, mae llwyth llif yn
+  wahanol i amser llif, sy'n fesuriad ôl-fynegi, mae llwyth llif yn
   lifer: mae dweud na wrth ddechrau gwaith newydd yn weithred sydd ar
   gael heddiw.
 
@@ -248,7 +248,7 @@ amser llif angen cyfrifiannu pwynt mynediad y ffrwd werth, gwaith sy'n
 talu amdano'i hun y tro cyntaf y mae'n atal sefydliad rhag ymrwymo i fwy
 o fentrau cydredol nag y gall ei gynhwysedd gwirioneddol ei gynnal.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Culhau'n dawel bwynt cychwyn amser llif i ffafrio'r rhif:** y fector
   twyllo wrth galon y pwnc hwn. Mae symud cychwyn y cloc o adnabod
@@ -313,7 +313,7 @@ o fentrau cydredol nag y gall ei gynhwysedd gwirioneddol ei gynnal.
   wedi'i archwilio.
 - **Olrheiniwch lwyth llif yn barhaus**, nid yn gyfnodol, fel ei fod yn
   gweithredu fel dangosydd rhagfynegi gwirioneddol yn hytrach na darganfyddiad
-  hwyrfrydig.
+  ôl-fynegi.
 - Defnyddiwch gyfraith Little **yn benodol**, nid dim ond fel greddf, wrth
   ddadlau dros derfyn WIP, cynnydd cynhwysedd, neu drefnu gwaith cydredol
   yn ddilyniant.

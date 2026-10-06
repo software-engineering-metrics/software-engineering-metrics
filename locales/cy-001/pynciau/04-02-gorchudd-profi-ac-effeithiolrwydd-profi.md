@@ -113,7 +113,7 @@ uwch ymhellach.
 | Canran gorchudd yn unig | Rhad, syml, wedi'i gefnogi'n eang gan offeryno | Yn hawdd ei dwyllo; yn mesur gweithrediad, nid gwiriad |
 | Gorchudd ynghyd â phrofi treiglo | Yn gwirio bod profion mewn gwirionedd yn gwirio ymddygiad, yn gwrthsefyll twyllo | Yn fwy costus yn gyfrifiadol; angen buddsoddiad offeryno |
 | Targed gorchudd unffurf ar draws y sylfaen cod | Syml i'w ddatgan a'i orfodi | Yn gwastraffu ymdrech ar god risg-isel; yn tan-fuddsoddi mewn perthynas â risg mewn mannau eraill |
-| Gorchudd seiliedig-ar-berygl, llwybr-dyngedfennol-yn-gyntaf | Yn canolbwyntio ymdrech lle mae'n bwysicaf | Angen barn i nodi llwybrau gwirioneddol ddyngedfennol yn gywir |
+| Gorchudd seiliedig-ar-risg, llwybr-dyngedfennol-yn-gyntaf | Yn canolbwyntio ymdrech lle mae'n bwysicaf | Angen barn i nodi llwybrau gwirioneddol ddyngedfennol yn gywir |
 
 Y tensiwn canolog yw **symlrwydd yn erbyn gonestrwydd**. Mae un canran
 gorchudd yn hawdd ei adrodd ac yn hawdd ei osod fel targed, ond y
@@ -184,7 +184,7 @@ gennych y gallu peirianneg i weithredu ar yr hyn y mae'n ei ddatgelu.
 gamgymeriad cyffredin a chanlyniadol ar y raddfa hon, gan eu bod yn
 cymell union y twyllo y mae'r pwnc hwn yn ei ddisgrifio ar draws
 degau o dimau ar yr un pryd. Sefydlwch ddisgwyliadau gorchudd
-seiliedig-ar-berygl sy'n amrywio yn ôl dyngedfennoldeb gwasanaeth, a
+seiliedig-ar-risg sy'n amrywio yn ôl dyngedfennoldeb gwasanaeth, a
 buddsoddwch mewn isadeiledd profi treiglo ar gyfer eich systemau
 risg-uchaf yn benodol.
 
@@ -206,7 +206,7 @@ brofi'n dda, gyfradd lladd-treiglo o dan 40% ar draws llawer o'r
 sylfaen cod: roedd timau wedi bod yn ysgrifennu profion a weithredai
 lwybrau cod heb haeru'n ystyrlon ar eu hymddygiad, yn bur i fodloni'r
 giât o dan bwysau terfyn amser. Disodlodd y cwmni'r gofyniad gorchudd
-cyffredinol â pholisi wedi'i haenu-yn-ôl-perygl: gorchudd llym ynghyd â
+cyffredinol â pholisi wedi'i haenu-yn-ôl-risg: gorchudd llym ynghyd â
 phrofi treiglo gorfodol uwchlaw trothwy cyfradd-lladd 80% ar gyfer cod
 talu a dilysu, a llawr gorchudd llawer ysgafnach ar gyfer offeryno
 mewnol risg-isel, a leihaodd ymdrech brofi wastraffus a gwella
@@ -271,7 +271,7 @@ effeithiolrwydd profi ar ei uchaf.
   olrhain, ond nid oes profi treiglo na blaenoriaethu seiliedig-ar-
   risg yn llywio sut mae ymdrech yn cael ei dyrannu.
 - **Lefel 3, Safoni:** Gorfodir llorau gorchudd yn gyson yn CI, gyda
-  blaenoriaethu seiliedig-ar-berygl yn cyfeirio ble mae ymdrech
+  blaenoriaethu seiliedig-ar-risg yn cyfeirio ble mae ymdrech
   gorchudd yn canolbwyntio.
 - **Lefel 4, Rheoli:** Rhedir profi treiglo ar god llwybr-dyngedfennol,
   gyda throthwy cyfradd-lladd a olrheinir y mae'n rhaid ei fodloni

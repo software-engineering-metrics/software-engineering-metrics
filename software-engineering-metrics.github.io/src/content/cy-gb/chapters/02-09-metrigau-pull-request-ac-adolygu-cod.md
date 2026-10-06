@@ -8,11 +8,11 @@ cyfrannwr amser-aros mwyaf sengl o fewn dadansoddiad amser cylch pwnc
 hun i'w wella, yn wahanol i dagfa platfform a rennir neu ddibyniaeth
 allanol. Mae'r pwnc hwn yn ymdrin â'r metrigau penodol sy'n byw o fewn
 cam yr adolygu: amser i'r adolygiad cyntaf, maint pull request, cyfrif
-ailadroddiadau adolygu, a dosbarthiad llwyth adolygwyr, a sut i'w
+ailadroddiadau adolygu, a dosraniad llwyth adolygwyr, a sut i'w
 defnyddio i wella cyflymder adolygu heb aberthu'r budd ansawdd
 gwirioneddol y mae adolygu i fod i'w ddarparu.
 
-Y perygl y mae'r pwnc hwn fwyaf effro iddo yw un nad yw'r llyfr hwn
+Y risg y mae'r pwnc hwn fwyaf effro iddo yw un nad yw'r llyfr hwn
 wedi'i drafod yn uniongyrchol eto: gall optimeiddio cyflymder adolygu
 erydu ansawdd adolygu'n dawel os dilynir yn ddiofal. Mae tîm sy'n haneru
 ei amser-i'r-adolygiad-cyntaf trwy gymeradwyo popeth â stamp rwber wedi
@@ -46,7 +46,7 @@ heb angen metrig i'w ddatgelu.
 - **Mae anghydbwysedd llwyth adolygwyr yn gyffredin ac fel arfer yn
   anweledig heb fetrig.** Yn aml mae nifer fach o bobl yn amsugno cyfran
   anghymesur.
-- **Mae'r metrigau hyn yn agored i'r perygl twyllo stamp-rwber.** Mae
+- **Mae'r metrigau hyn yn agored i'r risg twyllo stamp-rwber.** Mae
   cymeradwyaeth gyflym heb wir graffu yn trechu holl bwrpas adolygu.
 
 ## Argymhellion
@@ -73,18 +73,18 @@ maint-swp y tu ôl i amledd defnyddio ym mhwnc 2.10. Anogwch hollti
 newidiadau mawr yn ddilyniant o pull requests llai, adolygadwy'n
 annibynnol lle bynnag y mae'r gwaith yn caniatáu hynny.
 
-### Monitro dosbarthiad llwyth adolygwyr yn benodol
+### Monitro dosraniad llwyth adolygwyr yn benodol
 
 Olrheiniwch nifer yr adolygiadau a gwblhawyd fesul person dros ffenestr
 dreigl, a gwyliwch yn benodol am nifer fach o bobl yn amsugno cyfran
 anghymesur. Mae'r patrwm hwn yn gyffredin, yn aml yn disgyn ar y
 peirianwyr mwyaf profiadol neu ymddiriedol, ac yn creu tagfa (mae eu
-argaeledd yn capio trwybwn adolygu'r tîm cyfan) a pherygl llosgi allan
+argaeledd yn capio trwybwn adolygu'r tîm cyfan) a risg llosgi allan
 (mae pwnc 3.2 yn ymdrin â metrigau llesiant yn fwy manwl) fel ei gilydd.
 Cylchdrowch gyfrifoldeb adolygu'n fwriadol yn hytrach na gadael iddo
 grynhoi'n ddiofal o gwmpas pwy bynnag sydd gyflymaf i ymateb.
 
-### Gwarchodwch yn erbyn y perygl twyllo stamp-rwber yn benodol
+### Gwarchodwch yn erbyn y risg twyllo stamp-rwber yn benodol
 
 Parejwch amser-i'r-adolygiad-cyntaf â signal ansawdd: cyfradd diffygion
 neu ddigwyddiadau a olrheiniwyd yn ôl i newidiadau a gymeradwywyd heb
@@ -112,13 +112,13 @@ rhybuddio yn ei erbyn.
 | --- | --- | --- |
 | Optimeiddio'n bur ar gyfer amser i'r adolygiad cyntaf | Signal cyflym, clir, hawdd ei offeryno | Gall gymell adolygu arwynebol, stamp-rwber os na chaiff ei warchod |
 | Optimeiddio'n bur ar gyfer lleihau maint pull request | Yn gwella cyflymder a thrylwyredd ar yr un pryd | Nid yw pob gwaith yn hollti'n lân yn gynyddiadau bach |
-| Cylchdroi llwyth adolygu'n gyfartal | Yn lleihau tagfa a pherygl llosgi allan | Gall arafu adolygu ar gyfer cod arbenigol, anodd ei adolygu sydd angen arbenigedd penodol |
-| Crynhoi adolygu ymhlith peirianwyr uwch | Arbenigedd parth dwfn wedi'i gymhwyso'n gyson | Yn creu tagfa a pherygl llosgi allan dros amser |
+| Cylchdroi llwyth adolygu'n gyfartal | Yn lleihau tagfa a risg llosgi allan | Gall arafu adolygu ar gyfer cod arbenigol, anodd ei adolygu sydd angen arbenigedd penodol |
+| Crynhoi adolygu ymhlith peirianwyr uwch | Arbenigedd parth dwfn wedi'i gymhwyso'n gyson | Yn creu tagfa a risg llosgi allan dros amser |
 
 Y tensiwn canolog yw **cyflymder yn erbyn dyfnder graffu**. Mae pob
 techneg yn y pwnc hwn ar gyfer cyflymu adolygu, ymateb cyntaf
 cyflymach, pull requests llai, llwyth adolygwyr mwy dosbarthedig, yn
-cario rhywfaint o berygl o fasnachu gwir graffu i ffwrdd os dilynir heb
+cario rhywfaint o risg o fasnachu gwir graffu i ffwrdd os dilynir heb
 gledr ddiogelwch ansawdd y mae'r pwnc hwn yn ei hargymell. Datryswch y
 tensiwn trwy barejo pob metrig cyflymder â signal ansawdd, wedi'i
 olrhain dros yr un cyfnod, fel y gall tîm wahaniaethu gwelliant proses
@@ -142,13 +142,13 @@ gwirioneddol oddi wrth safon adolygu sy'n erydu'n dawel.
 
 3. **A yw llwyth adolygu wedi'i grynhoi ymhlith nifer fach o bobl, a beth
    fyddai'n digwydd i'n trwybwn adolygu petai un ohonynt yn anargaeledig
-   am bythefnos?** Mae'r cwestiwn hwn yn datgelu perygl tagfa a pherygl
+   am bythefnos?** Mae'r cwestiwn hwn yn datgelu risg tagfa a risg
    llosgi allan ar yr un pryd. Tynnwch ddata llwyth-adolygwr
    gwirioneddol yn hytrach na dibynnu ar argraff.
 
 4. **A ydym erioed wedi gwella metrig cyflymder-adolygu mewn ffordd a
    leihaodd, o edrych yn ôl, wir graffu?** Byddwch yn onest yma; dyma
-   union y perygl stamp-rwber y mae'r pwnc hwn yn ei enwi, ac mae'n
+   union y risg stamp-rwber y mae'r pwnc hwn yn ei enwi, ac mae'n
    hawdd llithro iddo heb unrhyw benderfyniad bwriadol i wneud hynny.
 
 5. **Beth fel arfer y mae cyfrif ailadrodd adolygu uchel yn ei
@@ -168,7 +168,7 @@ gwirioneddol oddi wrth safon adolygu sy'n erydu'n dawel.
 
 **Cwmni newydd.** Mae adolygu'n aml yn gyflym yn ddiofal gyda thîm bach,
 weithiau bron yn rhy gyflym, adolygu un-cymeradwywr â graffu lleiaf
-oherwydd bod pawb yn ymddiried yn ei gilydd. Y perygl i'w wylio wrth i'r
+oherwydd bod pawb yn ymddiried yn ei gilydd. Y risg i'w wylio wrth i'r
 tîm dyfu yw ansawdd adolygu heb raddio ochr yn ochr â maint y tîm,
 oherwydd nid yw ymddiriedaeth anffurfiol a weithiodd i bum peiriannydd
 yn gweithio'n awtomatig i hanner cant.
@@ -184,7 +184,7 @@ gwybodaeth-arbenigol yn arbennig o gyffredin yma, lle gall arbenigedd
 parth dwfn mewn system dyngedfennol grynhoi cyfrifoldeb adolygu ar grŵp
 bach waeth beth fo maint y tîm. Buddsoddwch mewn rhannu gwybodaeth
 bwriadol a chylchdroi adolygu i ledaenu arbenigedd, gan leihau'r dagfa a
-pherygl ffactor-bws yr arbenigedd hwnnw'n byw mewn rhy ychydig o bobl.
+risg ffactor-bws yr arbenigedd hwnnw'n byw mewn rhy ychydig o bobl.
 
 **Llywodraeth.** Mae prosesau adolygu yma'n aml yn cario pwysau cydymffurfio
 ochr yn ochr â nodau ansawdd, sy'n gallu gwneud pull requests yn fwy ac
@@ -202,7 +202,7 @@ llond llaw o beirianwyr pennaf yn cwblhau dros 40% o'r holl adolygiadau
 cod ar draws sefydliad dau gant o bobl, anghydbwysedd na wnaeth neb ei
 fesur yn uniongyrchol tan i ddata llwyth-adolygwr gael ei dynnu. Roedd y
 crynhoad hwn yn dagfa, gan fod argaeledd y peirianwyr hynny'n capio
-trwybwn adolygu ar gyfer y sefydliad cyfan, a hefyd yn berygl llosgi
+trwybwn adolygu ar gyfer y sefydliad cyfan, a hefyd yn risg llosgi
 allan a nodwyd ar wahân gan arolwg ymgysylltu (pwnc 3.2). Cyflwynodd
 y sefydliad raglen cylchdroi-adolygu strwythuredig wedi'i pharejo â
 sesiynau rhannu gwybodaeth wedi'u targedu, ac o fewn dau chwarter roedd
@@ -226,8 +226,8 @@ request llai.
 
 Y ffordd o gyflenwi'n gyflymach heb aberthu ansawdd yw'r enillion ar
 fetrigau adolygu wedi'u rheoli'n dda, sy'n gyfuniad prin: mae'r rhan
-fwyaf o welliannau cyflenwi'n masnachu cyflymder yn erbyn perygl yn
-rhywle, ond mae gwelliannau cam-adolygu, pull requests llai, dosbarthiad
+fwyaf o welliannau cyflenwi'n masnachu cyflymder yn erbyn risg yn
+rhywle, ond mae gwelliannau cam-adolygu, pull requests llai, dosraniad
 llwyth gwell, ymateb cyntaf cyflymach, yn gwella'r ddau'n wirioneddol ar
 yr un pryd pan ddilynir gyda'r gledr ddiogelwch ansawdd y mae'r pwnc
 hon yn ei hargymell. Mae'r enghraifft seiberddiogelwch uchod yn nodweddiadol:
@@ -240,28 +240,28 @@ lleiafswm o offeryno ychwanegol, ac mae'r newidiadau proses y maent yn
 pwyntio tuag atynt, cylchdroi adolygu, annog pull requests llai, yn
 costio disgyblaeth yn bennaf yn hytrach na buddsoddiad offer.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Optimeiddio amser i'r adolygiad cyntaf heb gledr ddiogelwch ansawdd
   wedi'i pharejo:** yn gwahodd cymeradwyaeth stamp-rwber sy'n trechu
   pwrpas adolygu.
-- **Anwybyddu crynhoad llwyth adolygwyr:** yn creu tagfa a pherygl
+- **Anwybyddu crynhoad llwyth adolygwyr:** yn creu tagfa a risg
   llosgi allan sy'n aros yn anweledig tan ei fesur.
 - **Trin cyfrif ailadroddiadau adolygu fel cerdyn sgorio unigol:** yn
   amlach yn signal system neu gyfathrebu na signal personol.
 - **Derbyn pull requests mawr parhaus fel rhai anochel:** gall y rhan
   fwyaf o newidiadau mawr hollti ymhellach nag y mae timau'n ei dybio'n
   gyntaf.
-- **Cymhwyso dyfnder adolygu unffurf waeth beth fo perygl y newid:** yn
-  gwastraffu graffu ar newidiadau perygl-isel tra'n danadolygu rhai
-  perygl-uchel o bosibl.
+- **Cymhwyso dyfnder adolygu unffurf waeth beth fo risg y newid:** yn
+  gwastraffu graffu ar newidiadau risg-isel tra'n danadolygu rhai
+  risg-uchel o bosibl.
 - **Mesur cyflymder adolygu ond byth yn gwirio a wnaeth gwir graffu
   ddirywio ochr yn ochr ag ef:** y ffordd fwyaf cyffredin y mae'r teulu
   metrig hwn yn cael ei dwyllo'n anfwriadol.
 
 ## Model aeddfedrwydd
 
-- **Lefel 1, Cychwyn:** Ni olrheinir metrigau adolygu; mae dosbarthiad
+- **Lefel 1, Cychwyn:** Ni olrheinir metrigau adolygu; mae dosraniad
   llwyth adolygu a maint pull request yn anweledig.
 - **Lefel 2, Datblygu:** Mae rhywfaint o ddata cyflymder-adolygu'n bodoli
   o ddiofyn platfform, ond nid oes cledr ddiogelwch ansawdd na rheolaeth
@@ -280,7 +280,7 @@ costio disgyblaeth yn bennaf yn hytrach na buddsoddiad offer.
 ## Syniadau ar gyfer trafodaeth
 
 1. Beth yw ein hamser canolrifol cyfredol i'r adolygiad cyntaf, ac i ble mae'r amser hwnnw'n mynd mewn gwirionedd?
-2. A yw ein llwyth adolygu wedi'i grynhoi ar nifer fach o bobl, a beth yw'r perygl os yw un yn anargaeledig?
+2. A yw ein llwyth adolygu wedi'i grynhoi ar nifer fach o bobl, a beth yw'r risg os yw un yn anargaeledig?
 3. A ydym erioed wedi gwella cyflymder adolygu ar draul gwir graffu, hyd yn oed yn anfwriadol?
 4. Beth yw ein maint pull request canolrifol, a faint yn llai y gallai'r rhan fwyaf o newidiadau fod mewn gwirionedd?
 5. A ydym yn trin cyfrif ailadrodd adolygu uchel fel signal system neu farn unigol?
@@ -292,10 +292,10 @@ costio disgyblaeth yn bennaf yn hytrach na buddsoddiad offer.
 - Mae **pull requests llai** yn gwella cyflymder a thrylwyredd adolygu
   ar yr un pryd.
 - Mae **anghydbwysedd llwyth adolygwyr** yn gyffredin ac fel arfer yn
-  anweledig heb fesuriad uniongyrchol; mae'n creu tagfa a pherygl llosgi
+  anweledig heb fesuriad uniongyrchol; mae'n creu tagfa a risg llosgi
   allan fel ei gilydd.
 - Parejwch bob metrig cyflymder-adolygu â **chledr ddiogelwch ansawdd**
-  benodol i ddal y perygl twyllo stamp-rwber y mae'r teulu metrig hwn yn
+  benodol i ddal y risg twyllo stamp-rwber y mae'r teulu metrig hwn yn
   arbennig o dueddol iddo.
 - Defnyddiwch **gyfrif ailadroddiadau adolygu** i ddiagnosio ffrithiant
   lefel-system, nid i farnu awduron neu adolygwyr unigol.

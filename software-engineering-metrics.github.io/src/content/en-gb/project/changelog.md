@@ -7,6 +7,11 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Welsh (`cy-001`, `cy-gb`): terminology aligned with TermCymru: `risg` (risk, replacing
+  `perygl`, with gender agreement), `cyfnewidiad` (trade-off), `dangosydd rhagfynegi` and
+  `dangosydd ôl-fynegi` (leading and lagging indicator, replacing `hwyrfrydig`), `cynhwysedd`
+  (capacity), `dosraniad` (distribution), `cydberthynas` (correlation), `allbwn` for output in
+  topic 1.3, and `cyfradd gadael staff` (attrition). Four topic slugs renamed to match.
 - Site: upgraded `@lilydesignsystem/svelte-picker-bar` to 0.2.0, which adds a search
   picker to the header bar; it submits to the existing `/?<query>` site search.
 - Added `scripts/generate-sitemap.mjs`, run at the end of `pnpm build`, which

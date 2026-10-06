@@ -56,4 +56,4 @@ Rhestrau gwirio cyfeirio cyflym, parod-i'w-defnyddio. Copïwch un i mewn i'ch pr
 - [ ] Cynhaliwyd yr asesiad aeddfedrwydd pum dimensiwn yn onest, wedi'i sgorio yn ôl y lleiafswm, nid y cyfartaledd (pwnc 8.4)
 - [ ] Nid oes unrhyw fetrig wedi crwydro o ddefnydd diagnostig i ddefnydd gwerthusol heb benderfyniad clir, wedi'i ddatgelu (pwnc 1.1)
 - [ ] Gwiriwyd diffiniadau'n ddetholedig yn erbyn offeryniad gwirioneddol am grwydro (pynciau 1.2, 2.4, 5.1, 6.2, 6.4)
-- [ ] Cyfrifwyd ac adolygwyd y gymhareb canlyniad-i-gynnyrch ar brif ddangosfyrddau (pwnc 7.4)
+- [ ] Cyfrifwyd ac adolygwyd y gymhareb canlyniad-i-allbwn ar brif ddangosfyrddau (pwnc 7.4)

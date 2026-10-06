@@ -30,7 +30,7 @@ twyllo hwnnw.
 I dimau mawr, metrigau llif yw'r hyn sy'n gwneud cymhariaeth traws-dîm yn
 bosibl heb golli golwg ar werth. Gall tîm platfform, tîm symudol, a thîm
 data gael bron ddim yn gyffredin yn eu gwaith dydd i ddydd, ond mae
-cyflymder llif a dosbarthiad llif, wedi'u cyfrifo'n gyson, yn gadael i
+cyflymder llif a dosraniad llif, wedi'u cyfrifo'n gyson, yn gadael i
 arweinyddiaeth ofyn cwestiwn teg ar draws pob un o'r tri: a yw'r tîm hwn
 yn cyflenwi'r math o werth y mae ei gyfnod cyfredol mewn gwirionedd yn ei
 alw amdano. Mae sefydliadau menter a llywodraeth yn dibynnu ar fetrigau'r
@@ -47,7 +47,7 @@ arweinyddiaeth yn credu ei fod.
 - **2.2 Elfennau llif: nodweddion, diffygion, risgiau, a dyled:** Tacsonomi
   pedwar math y fframwaith, ei ddyraniad cynhwysedd swm-sero, a sut mae
   dosbarthiad yn cael ei dwyllo os cymhwysir yn ôl-weithredol.
-- **2.3 Cyflymder llif a dosbarthiad llif:** Faint a gyflenwyd a pha fath
+- **2.3 Cyflymder llif a dosraniad llif:** Faint a gyflenwyd a pha fath
   o werth ydoedd, bob amser wedi'u darllen gyda'i gilydd.
 - **2.4 Amser llif a llwyth llif:** Sut mae cyfraith Little yn profi bod
   ffrwd werth wedi'i gorlwytho'n arafu'n fathemategol, nid dim ond yn ôl
@@ -95,7 +95,7 @@ busnes-wynebus o'r pynciau cynharach eisoes yng ngolwg.
 
 Mae disgyblaeth cledr ddiogelwch y rhan hon yn cysylltu'n uniongyrchol yn
 ôl at bwnc 1.2: nid yw cyflymder llif byth yn cael ei adrodd heb
-ddosbarthiad llif ochr yn ochr ag ef, ac mae metrigau cyflymder DORA'n
+ddosraniad llif ochr yn ochr ag ef, ac mae metrigau cyflymder DORA'n
 aros wedi'u parejo â'i fetrigau sefydlogrwydd, fel na all tîm wella rhif
 cyflymder trwy gyflenwi cod mwy peryglus neu gymysgedd culach o werth yn
 dawel. Nid yw'r parejiad hwnnw'n achlysurol i'r naill fframwaith na'r

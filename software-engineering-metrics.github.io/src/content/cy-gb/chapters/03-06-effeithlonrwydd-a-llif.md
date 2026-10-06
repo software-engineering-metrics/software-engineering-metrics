@@ -164,7 +164,7 @@ ffocws fel adnodd i'w amddiffyn yn fwriadol yn hytrach na gweddill.
 ## Golwg sector
 
 **Cwmni newydd.** Mae llwyth cyfarfod fel arfer yn isel yn naturiol
-gyda thîm bach, a'r perygl yn lle hynny yw newid cyd-destun wedi'i yrru
+gyda thîm bach, a'r risg yn lle hynny yw newid cyd-destun wedi'i yrru
 gan wisgo llawer o hetiau ar yr un pryd yn hytrach na chan gyfarfodydd
 wedi'u hamserlennu'n benodol. Gwarchodwch amser ffocws yn fwriadol hyd
 yn oed ar raddfa fach, gan ei bod yn haws sefydlu'r arferiad yn gynnar
@@ -237,7 +237,7 @@ cyfarfodydd yn ystod y blociau hynny. Y brif gost barhaus yw amddiffyn
 yr amser gwarchodedig yn erbyn erydiad graddol wrth i anghenion cydlynu
 newydd godi'n anochel.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Trin diwrnodau darniedig fel cost anochel graddfa:** mae'n
   cyfansymio'n raddol ac yn anaml yn ganlyniad un penderfyniad bwriadol,
@@ -247,10 +247,10 @@ newydd godi'n anochel.
 - **Gorfodi un amserlen amser-ffocws anystwyth ar bawb:** yn anwybyddu
   amrywiad unigol gwirioneddol mewn sut mae pobl yn gweithio orau.
 - **Defnyddio data ymyriad neu hysbysiad fel gwyliadwriaeth unigol:** yn
-  ailadrodd union y perygl camddefnydd y mae pwnc 3.4 yn rhybuddio yn
+  ailadrodd union y risg camddefnydd y mae pwnc 3.4 yn rhybuddio yn
   ei erbyn ar gyfer data gweithgarwch.
 - **Gadael i amser ffocws gwarchodedig erydu'n raddol trwy
-  eithriadau:** yr un perygl erydiad y mae pwnc 2.5 yn rhybuddio
+  eithriadau:** yr un risg erydiad y mae pwnc 2.5 yn rhybuddio
   amdano ar gyfer terfynau gwaith-ar-y-gweill, wedi'i gymhwyso i
   warchodaeth amser-ffocws.
 - **Ychwanegu gofynion llywodraethiant neu gydlynu heb byth fesur eu cost

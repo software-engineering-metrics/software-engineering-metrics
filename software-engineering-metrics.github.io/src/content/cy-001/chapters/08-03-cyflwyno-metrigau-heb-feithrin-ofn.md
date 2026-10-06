@@ -85,7 +85,7 @@ Yr enillion ar gyflwyniad sy'n adeiladu ymddiriedaeth, sy'n osgoi ofn yw, yn sym
 
 Y gost berchnogaeth gyfan yn bennaf yw amser ac amynedd sefydliadol: y cyfnod profi diagnostig-yn-gyntaf estynedig, yr ymdrech cyfranogiad tîm mewn dylunio, a'r ddisgyblaeth barhaus o ymateb yn gyflym ac yn weladwy i unrhyw ddigwyddiad camddefnyddio. Mae'r gost honno'n sylweddol ond dyma bris angenrheidiol, anochel y data y gellir ymddiried ynddo y mae pob pwnc arall yn y llyfr hwn yn dibynnu arno; mae cyflwyniad cyflym sy'n hepgor y buddsoddiad hwn yn cynhyrchu rhaglen fetrigau sy'n edrych yn gyflawn ond sy'n ddiwerth yn dawel, wedi'i llygru gan yn union y chwarae y mae'r llyfr hwn wedi rhybuddio yn ei erbyn ers ei bwnc sylweddol cyntaf.
 
-## Gwrth-batrymau a pheryglon
+## Gwrth-batrymau a risgiau
 
 - **Cyflwyniad o'r brig i lawr heb gyfranogiad tîm mewn dylunio metrig:** yn ennyn ofn a chwarae o'r dechrau, ni waeth pa mor dda y cafodd y metrigau eu hunain eu dylunio.
 - **Cyfathrebu adweithiol yn hytrach na rhagweithiol o bwrpas ac amcanion negyddol:** yn gadael i ddyfalu pryderus lenwi'r gwacter a siapio argraffiadau cynnar, anodd eu gwrthdroi.

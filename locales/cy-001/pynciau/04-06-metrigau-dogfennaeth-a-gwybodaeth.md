@@ -208,7 +208,7 @@ benodol fel pryder parhad-gweithrediadau, wedi'i gysylltu'n uniongyrchol
 ## Enghreifftiau
 
 **Menter.** Darganfu cwmni gwasanaethau ariannol, yn ystod ad-drefnu
-diberthynas, nad oedd gan ei beiriant cyfrifo-perygl craidd unrhyw
+diberthynas, nad oedd gan ei beiriant cyfrifo-risg craidd unrhyw
 ddogfennaeth ystyrlon y tu hwnt i ychydig o sylwadau cod hen ffasiwn,
 ac roedd y ddau beiriannydd a'i deallodd orau ill dau'n cael eu
 hail-neilltuo i fenter newydd ar yr un pryd. Tynnodd ymdrech ddogfennaeth

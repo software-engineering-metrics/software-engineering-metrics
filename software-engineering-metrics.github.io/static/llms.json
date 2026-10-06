@@ -3878,6 +3878,328 @@
    ]
   },
   {
+   "code": "pt-001",
+   "label": "Português",
+   "home": "https://software-engineering-metrics.github.io/pt-001/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "Introdução à Parte 1: Fundamentos da Medição",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/01-00-fundamentos-da-medição/"
+    },
+    {
+     "number": "1.1",
+     "title": "Porquê medir a engenharia de software",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/01-01-porquê-medir-a-engenharia-de-software/"
+    },
+    {
+     "number": "1.2",
+     "title": "A lei de Goodhart e a psicologia das métricas",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/01-02-a-lei-de-goodhart-e-a-psicologia-das-métricas/"
+    },
+    {
+     "number": "1.3",
+     "title": "Resultados acima do produto: escolher o que medir",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/01-03-resultados-acima-do-produto-escolher-o-que-medir/"
+    },
+    {
+     "number": "1.4",
+     "title": "Governação e propriedade das métricas",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/01-04-governação-e-propriedade-das-métricas/"
+    },
+    {
+     "number": "1.5",
+     "title": "Fontes de dados e instrumentação",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/01-05-fontes-de-dados-e-instrumentação/"
+    },
+    {
+     "number": "1.6",
+     "title": "Literacia estatística para métricas de engenharia",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/01-06-literacia-estatística-para-métricas-de-engenharia/"
+    },
+    {
+     "number": "2.0",
+     "title": "Introdução à Parte 2: Métricas de Fluxo",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/02-00-métricas-de-fluxo/"
+    },
+    {
+     "number": "2.1",
+     "title": "O Flow Framework",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/02-01-o-flow-framework/"
+    },
+    {
+     "number": "2.2",
+     "title": "Itens de fluxo: funcionalidades, defeitos, riscos, e dívida",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/02-02-itens-de-fluxo-funcionalidades-defeitos-riscos-e-dívida/"
+    },
+    {
+     "number": "2.3",
+     "title": "Velocidade de fluxo e distribuição de fluxo",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/02-03-velocidade-de-fluxo-e-distribuição-de-fluxo/"
+    },
+    {
+     "number": "2.4",
+     "title": "Tempo de fluxo e carga de fluxo",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/02-04-tempo-de-fluxo-e-carga-de-fluxo/"
+    },
+    {
+     "number": "2.5",
+     "title": "Eficiência de fluxo e trabalho em curso",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/02-05-eficiência-de-fluxo-e-trabalho-em-curso/"
+    },
+    {
+     "number": "2.6",
+     "title": "Tempo de ciclo e os seus componentes",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/02-06-tempo-de-ciclo-e-os-seus-componentes/"
+    },
+    {
+     "number": "2.7",
+     "title": "Teoria das filas",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/02-07-teoria-das-filas/"
+    },
+    {
+     "number": "2.8",
+     "title": "Métricas lean de cadeia de valor",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/02-08-métricas-lean-de-cadeia-de-valor/"
+    },
+    {
+     "number": "2.9",
+     "title": "Métricas de pull request e revisão de código",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/02-09-métricas-de-pull-request-e-revisão-de-código/"
+    },
+    {
+     "number": "2.10",
+     "title": "O framework de métricas DORA",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/02-10-o-framework-de-métricas-dora/"
+    },
+    {
+     "number": "3.0",
+     "title": "Introdução à Parte 3: Experiência do Programador e o Framework SPACE",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/03-00-experiência-do-programador-e-o-framework-space/"
+    },
+    {
+     "number": "3.1",
+     "title": "O framework SPACE",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/03-01-o-framework-space/"
+    },
+    {
+     "number": "3.2",
+     "title": "Métricas de satisfação e bem-estar",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/03-02-métricas-de-satisfação-e-bem-estar/"
+    },
+    {
+     "number": "3.3",
+     "title": "Métricas de desempenho e proxies de resultado",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/03-03-métricas-de-desempenho-e-proxies-de-resultado/"
+    },
+    {
+     "number": "3.4",
+     "title": "Métricas de atividade e os seus limites",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/03-04-métricas-de-atividade-e-os-seus-limites/"
+    },
+    {
+     "number": "3.5",
+     "title": "Métricas de comunicação e colaboração",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/03-05-métricas-de-comunicação-e-colaboração/"
+    },
+    {
+     "number": "3.6",
+     "title": "Eficiência e fluxo: trabalho profundo e interrupções",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/03-06-eficiência-e-fluxo-trabalho-profundo-e-interrupções/"
+    },
+    {
+     "number": "3.7",
+     "title": "Inquéritos de experiência do programador e métricas DevEx",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/03-07-inquéritos-de-experiência-do-programador-e-métricas-devex/"
+    },
+    {
+     "number": "4.0",
+     "title": "Introdução à Parte 4: Métricas de Código e Qualidade",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/04-00-métricas-de-código-e-qualidade/"
+    },
+    {
+     "number": "4.1",
+     "title": "Métricas de complexidade de código",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/04-01-métricas-de-complexidade-de-código/"
+    },
+    {
+     "number": "4.2",
+     "title": "Cobertura de testes e eficácia de testes",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/04-02-cobertura-de-testes-e-eficácia-de-testes/"
+    },
+    {
+     "number": "4.3",
+     "title": "Processamento de código e análise de pontos quentes",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/04-03-processamento-de-código-e-análise-de-pontos-quentes/"
+    },
+    {
+     "number": "4.4",
+     "title": "Análise estática e métricas de odores de código",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/04-04-análise-estática-e-métricas-de-odores-de-código/"
+    },
+    {
+     "number": "4.5",
+     "title": "Medição de dívida técnica",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/04-05-medição-de-dívida-técnica/"
+    },
+    {
+     "number": "4.6",
+     "title": "Métricas de documentação e conhecimento",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/04-06-métricas-de-documentação-e-conhecimento/"
+    },
+    {
+     "number": "5.0",
+     "title": "Introdução à Parte 5: Métricas de produto e negócio",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/05-00-métricas-de-produto-e-negócio/"
+    },
+    {
+     "number": "5.1",
+     "title": "Taxa de defeitos escapados e escapes de qualidade",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/05-01-taxa-de-defeitos-escapados-e-escapes-de-qualidade/"
+    },
+    {
+     "number": "5.2",
+     "title": "Métricas de adoção e utilização de funcionalidades",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/05-02-métricas-de-adoção-e-utilização-de-funcionalidades/"
+    },
+    {
+     "number": "5.3",
+     "title": "Métricas de resultado de cliente e negócio",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/05-03-métricas-de-resultado-de-cliente-e-negócio/"
+    },
+    {
+     "number": "5.4",
+     "title": "Custo e economia unitária da engenharia",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/05-04-custo-e-economia-unitária-da-engenharia/"
+    },
+    {
+     "number": "5.5",
+     "title": "Retorno sobre o investimento para iniciativas de engenharia",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/05-05-retorno-sobre-o-investimento-para-iniciativas-de-engenharia/"
+    },
+    {
+     "number": "6.0",
+     "title": "Introdução à Parte 6: Métricas de fiabilidade, operações, e segurança",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/06-00-métricas-de-fiabilidade-operações-e-segurança/"
+    },
+    {
+     "number": "6.1",
+     "title": "Indicadores de nível de serviço, objetivos, e orçamentos de erro",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/06-01-indicadores-de-nível-de-serviço-objetivos-e-orçamentos-de-erro/"
+    },
+    {
+     "number": "6.2",
+     "title": "Métricas de incidentes: deteção, resposta, e recuperação",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/06-02-métricas-de-incidentes-deteção-resposta-e-recuperação/"
+    },
+    {
+     "number": "6.3",
+     "title": "Métricas de prevenção, capacidade, e carga operacional",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/06-03-métricas-de-prevenção-capacidade-e-carga-operacional/"
+    },
+    {
+     "number": "6.4",
+     "title": "Métricas de gestão de segurança e vulnerabilidade",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/06-04-métricas-de-gestão-de-segurança-e-vulnerabilidade/"
+    },
+    {
+     "number": "7.0",
+     "title": "Introdução à Parte 7: Métricas na era da IA",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/07-00-métricas-na-era-da-ia/"
+    },
+    {
+     "number": "7.1",
+     "title": "A mudança de paradigma da IA generativa",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/07-01-a-mudança-de-paradigma-da-ia-generativa/"
+    },
+    {
+     "number": "7.2",
+     "title": "Medir o desenvolvimento de software assistido por IA",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/07-02-medir-o-desenvolvimento-de-software-assistido-por-ia/"
+    },
+    {
+     "number": "7.3",
+     "title": "Riscos de inflação de métricas e diluição de qualidade",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/07-03-riscos-de-inflação-de-métricas-e-diluição-de-qualidade/"
+    },
+    {
+     "number": "7.4",
+     "title": "A telemetria de resultado como a nova estrela-guia",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/07-04-a-telemetria-de-resultado-como-a-nova-estrela-guia/"
+    },
+    {
+     "number": "8.0",
+     "title": "Introdução à Parte 8: Construir um programa de métricas",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/08-00-construir-um-programa-de-métricas/"
+    },
+    {
+     "number": "8.1",
+     "title": "Desenhar um painel de métricas de engenharia",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/08-01-desenhar-um-painel-de-métricas-de-engenharia/"
+    },
+    {
+     "number": "8.2",
+     "title": "Panorama de ferramentas: construir versus comprar",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/08-02-panorama-de-ferramentas-construir-versus-comprar/"
+    },
+    {
+     "number": "8.3",
+     "title": "Implementar métricas sem gerar medo",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/08-03-implementar-métricas-sem-gerar-medo/"
+    },
+    {
+     "number": "8.4",
+     "title": "Modelo de maturidade para programas de métricas de engenharia",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/08-04-modelo-de-maturidade-para-programas-de-métricas-de-engenharia/"
+    },
+    {
+     "number": "8.5",
+     "title": "Um roteiro incremental de adoção",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/08-05-um-roteiro-incremental-de-adoção/"
+    },
+    {
+     "number": "9.0",
+     "title": "Apêndices",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/09-00-apêndices/"
+    },
+    {
+     "number": "9.1",
+     "title": "Glossário",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/09-01-glossário/"
+    },
+    {
+     "number": "9.2",
+     "title": "Referência de definições e fórmulas de métricas",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/09-02-referência-de-definições-e-fórmulas-de-métricas/"
+    },
+    {
+     "number": "9.3",
+     "title": "Listas de verificação",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/09-03-listas-de-verificação/"
+    },
+    {
+     "number": "9.4",
+     "title": "Modelos",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/09-04-modelos/"
+    },
+    {
+     "number": "9.5",
+     "title": "Autoavaliação de maturidade",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/09-05-autoavaliação-de-maturidade/"
+    },
+    {
+     "number": "9.6",
+     "title": "Referências e leituras adicionais",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/09-06-referências-e-leituras-adicionais/"
+    },
+    {
+     "number": "9.7",
+     "title": "Índice",
+     "url": "https://software-engineering-metrics.github.io/pt-001/chapters/09-07-índice/"
+    }
+   ]
+  },
+  {
    "code": "ru-001",
    "label": "Русский",
    "home": "https://software-engineering-metrics.github.io/ru-001/",

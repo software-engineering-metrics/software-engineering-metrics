@@ -39,6 +39,9 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Added Portuguese (`pt-001`) as the 25th complete translated locale: all 63
+  topics with matching `.locale-peer-id` sidecars, identical in content to
+  `pt-pt`. Wired into the site and served at `/pt-001/` (alias `/pt/`).
 - Completed a full, from-scratch hand translation of all 63 topics into
   Urdu (`ur-001`, right-to-left), the 24th complete translated locale, with
   matching `.locale-peer-id` sidecars. Every topic was translated directly

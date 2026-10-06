@@ -13,12 +13,12 @@ the book's content — see below.
 
 ## Locales
 
-The book exists in 28 locales (see `../spec/locales.md` at the repository
-root), of which this site serves 16: four mechanically-derived English
-spelling variants (`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`) and twelve
+The book exists in 29 locales (see `../spec/locales.md` at the repository
+root), of which this site serves 17: four mechanically-derived English
+spelling variants (`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`) and thirteen
 genuinely translated locales (`ar-001` Arabic, `bn-001` Bengali, `cy-001` and
 `cy-gb` Welsh, `es-001` Spanish, `fr-001` French, `hi-001` Hindi, `id-001`
-Indonesian, `ru-001` Russian, `ur-001` Urdu, `zh-001` and `zh-cn` Chinese). The other 12
+Indonesian, `pt-001` Portuguese, `ru-001` Russian, `ur-001` Urdu, `zh-001` and `zh-cn` Chinese). The other 12
 translated locales (`ar-eg`, `bn-bd`, `de-de`, `es-es`, `fr-fr`, `hi-id`,
 `ja-jp`, `ko-kr`, `nl-nl`, `pt-pt`, `ru-ru`, `sv-se`) exist on disk but are not in
 `SERVED_LOCALE_CODES` yet.
@@ -55,7 +55,7 @@ below.
 
 ## Translated locales
 
-The twelve translated locales (`ar-001`, `bn-001`, `cy-001`, `cy-gb`, `es-001`, `fr-001`, `hi-001`, `id-001`, `ru-001`, `ur-001`, `zh-001`, `zh-cn`) are wired
+The thirteen translated locales (`ar-001`, `bn-001`, `cy-001`, `cy-gb`, `es-001`, `fr-001`, `hi-001`, `id-001`, `pt-001`, `ru-001`, `ur-001`, `zh-001`, `zh-cn`) are wired
 into `SERVED_LOCALE_CODES` in `scripts/locales.mjs` and routed like any other
 locale. Each currently ships only its topics section (`es-001` also has
 examples); none has `front-matter/`, `contributing/`, or `project/` yet.

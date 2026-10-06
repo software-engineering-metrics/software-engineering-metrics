@@ -114,6 +114,7 @@ The book is published in several locales. The English locale below is the defaul
 - [Français (fr-001)](https://software-engineering-metrics.github.io/fr-001/)
 - [हिन्दी (hi-001)](https://software-engineering-metrics.github.io/hi-001/)
 - [Bahasa Indonesia (id-001)](https://software-engineering-metrics.github.io/id-001/)
+- [Português (pt-001)](https://software-engineering-metrics.github.io/pt-001/)
 - [Русский (ru-001)](https://software-engineering-metrics.github.io/ru-001/)
 - [اردو (ur-001)](https://software-engineering-metrics.github.io/ur-001/)
 - [中文 (zh-001)](https://software-engineering-metrics.github.io/zh-001/)

@@ -110,6 +110,7 @@ The book is published in several locales. The English locale below is the defaul
 - [বাংলা (bn-001)](https://software-engineering-metrics.github.io/bn-001/)
 - [Cymraeg (cy-001)](https://software-engineering-metrics.github.io/cy-001/)
 - [Cymraeg (Prydain Fawr) (cy-gb)](https://software-engineering-metrics.github.io/cy-gb/)
+- [Deutsch (de-001)](https://software-engineering-metrics.github.io/de-001/)
 - [Español (es-001)](https://software-engineering-metrics.github.io/es-001/)
 - [Français (fr-001)](https://software-engineering-metrics.github.io/fr-001/)
 - [हिन्दी (hi-001)](https://software-engineering-metrics.github.io/hi-001/)

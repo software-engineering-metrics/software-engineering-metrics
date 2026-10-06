@@ -39,6 +39,9 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Added German (`de-001`) as the 26th complete translated locale: all 63
+  topics with matching `.locale-peer-id` sidecars, identical in content to
+  `de-de`. Wired into the site and served at `/de-001/` (alias `/de/`).
 - Added Portuguese (`pt-001`) as the 25th complete translated locale: all 63
   topics with matching `.locale-peer-id` sidecars, identical in content to
   `pt-pt`. Wired into the site and served at `/pt-001/` (alias `/pt/`).

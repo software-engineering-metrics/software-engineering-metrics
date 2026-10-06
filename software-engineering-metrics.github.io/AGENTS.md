@@ -13,11 +13,11 @@ the book's content — see below.
 
 ## Locales
 
-The book exists in 29 locales (see `../spec/locales.md` at the repository
-root), of which this site serves 17: four mechanically-derived English
-spelling variants (`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`) and thirteen
+The book exists in 30 locales (see `../spec/locales.md` at the repository
+root), of which this site serves 18: four mechanically-derived English
+spelling variants (`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`) and fourteen
 genuinely translated locales (`ar-001` Arabic, `bn-001` Bengali, `cy-001` and
-`cy-gb` Welsh, `es-001` Spanish, `fr-001` French, `hi-001` Hindi, `id-001`
+`cy-gb` Welsh, `de-001` German, `es-001` Spanish, `fr-001` French, `hi-001` Hindi, `id-001`
 Indonesian, `pt-001` Portuguese, `ru-001` Russian, `ur-001` Urdu, `zh-001` and `zh-cn` Chinese). The other 12
 translated locales (`ar-eg`, `bn-bd`, `de-de`, `es-es`, `fr-fr`, `hi-id`,
 `ja-jp`, `ko-kr`, `nl-nl`, `pt-pt`, `ru-ru`, `sv-se`) exist on disk but are not in
@@ -55,12 +55,12 @@ below.
 
 ## Translated locales
 
-The thirteen translated locales (`ar-001`, `bn-001`, `cy-001`, `cy-gb`, `es-001`, `fr-001`, `hi-001`, `id-001`, `pt-001`, `ru-001`, `ur-001`, `zh-001`, `zh-cn`) are wired
+The fourteen translated locales (`ar-001`, `bn-001`, `cy-001`, `cy-gb`, `de-001`, `es-001`, `fr-001`, `hi-001`, `id-001`, `pt-001`, `ru-001`, `ur-001`, `zh-001`, `zh-cn`) are wired
 into `SERVED_LOCALE_CODES` in `scripts/locales.mjs` and routed like any other
 locale. Each currently ships only its topics section (`es-001` also has
 examples); none has `front-matter/`, `contributing/`, or `project/` yet.
-The locales that `../spec/locales.md` still lists as planned (`pt-001` Portuguese) has no `locales/<code>/` directory yet, so it is not in
-`SERVED_LOCALE_CODES` and is not routed.
+No locale in `../spec/locales.md` is still planned; every one has a
+`locales/<code>/` directory.
 
 **How a locale missing a section degrades**, since `entries()` for every
 `[slug]` route now reads each locale's own manifest (not a shared default),

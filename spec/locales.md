@@ -2,7 +2,7 @@
 
 The book is published in four English spelling-variant locales, each a
 complete copy of every topic, front-matter file, example, contributing guide,
-and project file, differing only in spelling, plus 25 hand-translated locales
+and project file, differing only in spelling, plus 26 hand-translated locales
 (see "Translated locales" below). All four keep identical structure, section order, word
 counts, and file names; see [structure.md](structure.md) and
 [conventions.md](conventions.md), which govern all four equally.
@@ -81,7 +81,7 @@ adding a topic, before `just test`.
 
 ## Translated locales
 
-Twenty-five translated locales (a different language, hand-translated,
+Twenty-six translated locales (a different language, hand-translated,
 with their own slugs) are complete: Welsh (`cy-001`), Spanish (`es-001`),
 Hindi (`hi-001`), Chinese, China (`zh-cn`), German, Germany (`de-de`),
 Arabic, Egypt (`ar-eg`), Bengali, Bangladesh (`bn-bd`), Hindi, India
@@ -90,11 +90,11 @@ Portuguese, Portugal (`pt-pt`), Japanese, Japan (`ja-jp`), Russian,
 Russia (`ru-ru`), French, France (`fr-fr`), Swedish, Sweden
 (`sv-se`), Dutch, Netherlands (`nl-nl`), Welsh, Great Britain
 (`cy-gb`), Arabic (`ar-001`), Bengali (`bn-001`), French (`fr-001`), Russian
-(`ru-001`), Chinese (`zh-001`), Indonesian (`id-001`), Urdu (`ur-001`), and Portuguese (`pt-001`), each with all 63
+(`ru-001`), Chinese (`zh-001`), Indonesian (`id-001`), Urdu (`ur-001`), Portuguese (`pt-001`), and German (`de-001`), each with all 63
 topics and a section directory on disk (see [Section directory names](#section-directory-names)).
 `cy-gb` is identical in content to `cy-001`, `ar-001` to `ar-eg`,
 `bn-001` to `bn-bd`, `fr-001` to `fr-fr`, `ru-001` to `ru-ru`, and
-`zh-001` to `zh-cn`, `pt-001` to `pt-pt` (none has country-specific usage to remove), each with
+`zh-001` to `zh-cn`, `pt-001` to `pt-pt`, `de-001` to `de-de` (none has country-specific usage to remove), each with
 the same relationship as `hi-id` to `hi-001`. `id-001` is, by contrast, a
 genuine from-scratch hand translation, since no prior Indonesian locale
 existed to build from, and so is `ur-001` (Urdu, right-to-left). `hi-id` is identical in content to `hi-001` (standard Hindi has no distinct
@@ -114,8 +114,8 @@ locales has a `front-matter/`, `examples/`, `contributing/`, or `project/`
 section yet (`es-001` is the exception: it has `examples/`); the site
 degrades gracefully for a missing section (an empty list, or a fallback to
 the default locale's intro copy), per
-`software-engineering-metrics.github.io/AGENTS.md`. All thirteen of `ar-001`, `bn-001`,
-`cy-001`, `cy-gb`, `es-001`, `fr-001`, `hi-001`, `id-001`, `pt-001`, `ru-001`, `ur-001`, `zh-001`, and `zh-cn` are wired into the site's
+`software-engineering-metrics.github.io/AGENTS.md`. All fourteen of `ar-001`, `bn-001`,
+`cy-001`, `cy-gb`, `de-001`, `es-001`, `fr-001`, `hi-001`, `id-001`, `pt-001`, `ru-001`, `ur-001`, `zh-001`, and `zh-cn` are wired into the site's
 `SERVED_LOCALE_CODES` and served at their own locale-prefixed path;
 `de-de`, `ar-eg`, `bn-bd`, `hi-id`, `ko-kr`, `es-es`, `pt-pt`, `ja-jp`,
 `ru-ru`, `fr-fr`, `sv-se`, and `nl-nl` are not yet wired into the site.

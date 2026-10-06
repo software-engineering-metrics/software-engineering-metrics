@@ -16,6 +16,7 @@ export const LOCALE_LABELS = {
   'bn-001': 'বাংলা',
   'cy-001': 'Cymraeg',
   'cy-gb': 'Cymraeg (Prydain Fawr)',
+  'de-001': 'Deutsch',
   'es-001': 'Español',
   'fr-001': 'Français',
   'hi-001': 'हिन्दी',
@@ -39,7 +40,7 @@ export function localeLabel(code) {
 // have a locales/<code>/ directory with real content; the remaining planned
 // locales in spec/locales.md's "Planned translated locales" are deliberately
 // not here yet, since none has a locales/<code>/ directory on disk. ar-001, bn-001, cy-001,
-// cy-gb, es-001, fr-001, hi-001, id-001, pt-001, ru-001, ur-001, zh-001, and zh-cn are genuinely translated locales (not English
+// cy-gb, de-001, es-001, fr-001, hi-001, id-001, pt-001, ru-001, ur-001, zh-001, and zh-cn are genuinely translated locales (not English
 // spelling variants) that ship only chapters/ so far, with no front-matter/,
 // examples/, contributing/, or project/ section yet; the pages that read
 // those sections degrade to an empty list or a chapter-page fallback rather
@@ -53,6 +54,7 @@ const SERVED_LOCALE_CODES = [
   'bn-001',
   'cy-001',
   'cy-gb',
+  'de-001',
   'es-001',
   'fr-001',
   'hi-001',

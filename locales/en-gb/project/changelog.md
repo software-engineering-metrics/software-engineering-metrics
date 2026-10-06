@@ -7,6 +7,8 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- `AGENTS.md` is now a short index; details moved to `AGENTS/layout.md`, `style.md`,
+  `locales.md`, and `workflow.md`.
 - Documentation sweep: refreshed `AGENTS.md`, `index.md`, the generated
   README locale text, `spec/index.md`, `spec/locales.md`, and the site's
   `AGENTS.md` and `README.md` for 27 locales, per-locale section directory

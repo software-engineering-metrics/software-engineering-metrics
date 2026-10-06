@@ -45,7 +45,7 @@ XREF_CHAIN = re.compile(rf"(?i)\btopics?[,:]?\s+(?:{_REF}{_DESC}{_CONN}?)+")
 # These files document the style rules, so they are allowed to quote the very
 # tokens the rules forbid (the em-dash character and the banned phrases). Every
 # other file, including all chapters and examples, must stay clean.
-STYLE_EXEMPT = {"AGENTS.md", "spec/conventions.md", "spec/index.md", "spec/README.md"}
+STYLE_EXEMPT = {"AGENTS.md", "AGENTS/style.md", "spec/conventions.md", "spec/index.md", "spec/README.md"}
 for _loc in LOCALES:
     STYLE_EXEMPT.add(f"locales/{_loc}/contributing/testing.md")
     STYLE_EXEMPT.add(f"locales/{_loc}/contributing/style-rules.md")

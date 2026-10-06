@@ -5810,6 +5810,328 @@
    ]
   },
   {
+   "code": "sv-001",
+   "label": "Svenska",
+   "home": "https://software-engineering-metrics.github.io/sv-001/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "Introduktion till del 1: Mätningens grunder",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/01-00-mätningens-grunder/"
+    },
+    {
+     "number": "1.1",
+     "title": "Varför mäta mjukvaruteknik",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/01-01-varför-mäta-mjukvaruteknik/"
+    },
+    {
+     "number": "1.2",
+     "title": "Goodharts lag och mätetalens psykologi",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/01-02-goodharts-lag-och-mätetalens-psykologi/"
+    },
+    {
+     "number": "1.3",
+     "title": "Utfall före output: att välja vad som ska mätas",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/01-03-utfall-före-output-att-välja-vad-som-ska-mätas/"
+    },
+    {
+     "number": "1.4",
+     "title": "Styrning och ägarskap av metriker",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/01-04-styrning-och-ägarskap-av-metriker/"
+    },
+    {
+     "number": "1.5",
+     "title": "Datakällor och instrumentering",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/01-05-datakällor-och-instrumentering/"
+    },
+    {
+     "number": "1.6",
+     "title": "Statistisk litteracitet för ingenjörsmetriker",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/01-06-statistisk-litteracitet-för-ingenjörsmetriker/"
+    },
+    {
+     "number": "2.0",
+     "title": "Introduktion till del 2: Flödesmätetal",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/02-00-flödesmätetal/"
+    },
+    {
+     "number": "2.1",
+     "title": "Flow Framework",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/02-01-flow-framework/"
+    },
+    {
+     "number": "2.2",
+     "title": "Flödesobjekt: funktioner, defekter, risker, och skuld",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/02-02-flödesobjekt-funktioner-defekter-risker-och-skuld/"
+    },
+    {
+     "number": "2.3",
+     "title": "Flödeshastighet och flödesfördelning",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/02-03-flödeshastighet-och-flödesfördelning/"
+    },
+    {
+     "number": "2.4",
+     "title": "Flödestid och flödesbelastning",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/02-04-flödestid-och-flödesbelastning/"
+    },
+    {
+     "number": "2.5",
+     "title": "Flödeseffektivitet och pågående arbete",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/02-05-flödeseffektivitet-och-pågående-arbete/"
+    },
+    {
+     "number": "2.6",
+     "title": "Cykeltid och dess komponenter",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/02-06-cykeltid-och-dess-komponenter/"
+    },
+    {
+     "number": "2.7",
+     "title": "Könteori",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/02-07-könteori/"
+    },
+    {
+     "number": "2.8",
+     "title": "Lean-värdeflödesmätetal",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/02-08-lean-värdeflödesmätetal/"
+    },
+    {
+     "number": "2.9",
+     "title": "Mätetal för pull request och kodgranskning",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/02-09-mätetal-för-pull-request-och-kodgranskning/"
+    },
+    {
+     "number": "2.10",
+     "title": "DORA-mätetalsramverket",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/02-10-dora-mätetalsramverket/"
+    },
+    {
+     "number": "3.0",
+     "title": "Introduktion till del 3: Utvecklarupplevelse och SPACE-ramverket",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/03-00-utvecklarupplevelse-och-space-ramverket/"
+    },
+    {
+     "number": "3.1",
+     "title": "SPACE-ramverket",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/03-01-space-ramverket/"
+    },
+    {
+     "number": "3.2",
+     "title": "Mätetal för nöjdhet och välbefinnande",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/03-02-mätetal-för-nöjdhet-och-välbefinnande/"
+    },
+    {
+     "number": "3.3",
+     "title": "Prestationsmätetal och utfallsrepresentanter",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/03-03-prestationsmätetal-och-utfallsrepresentanter/"
+    },
+    {
+     "number": "3.4",
+     "title": "Aktivitetsmätetal och deras begränsningar",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/03-04-aktivitetsmätetal-och-deras-begränsningar/"
+    },
+    {
+     "number": "3.5",
+     "title": "Mätetal för kommunikation och samarbete",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/03-05-mätetal-för-kommunikation-och-samarbete/"
+    },
+    {
+     "number": "3.6",
+     "title": "Effektivitet och flöde: djuparbete och avbrott",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/03-06-effektivitet-och-flöde/"
+    },
+    {
+     "number": "3.7",
+     "title": "Utvecklarupplevelseenkäter och DevEx-mätetal",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/03-07-utvecklarupplevelseenkäter-och-devex-mätetal/"
+    },
+    {
+     "number": "4.0",
+     "title": "Introduktion till del 4: Kod- och kvalitetsmätetal",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/04-00-kod-och-kvalitetsmätetal/"
+    },
+    {
+     "number": "4.1",
+     "title": "Kodkomplexitetsmätetal",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/04-01-kodkomplexitetsmätetal/"
+    },
+    {
+     "number": "4.2",
+     "title": "Testtäckning och testeffektivitet",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/04-02-testtäckning-och-testeffektivitet/"
+    },
+    {
+     "number": "4.3",
+     "title": "Kodchurn och hotspot-analys",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/04-03-kodchurn-och-hotspot-analys/"
+    },
+    {
+     "number": "4.4",
+     "title": "Statisk analys och kodlukt-mätetal",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/04-04-statisk-analys-och-kodlukt-mätetal/"
+    },
+    {
+     "number": "4.5",
+     "title": "Mätning av teknisk skuld",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/04-05-mätning-av-teknisk-skuld/"
+    },
+    {
+     "number": "4.6",
+     "title": "Dokumentations- och kunskapsmätetal",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/04-06-dokumentations-och-kunskapsmätetal/"
+    },
+    {
+     "number": "5.0",
+     "title": "Introduktion till del 5: Produkt- och affärsmätetal",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/05-00-produkt-och-affärsmätetal/"
+    },
+    {
+     "number": "5.1",
+     "title": "Läckt-defektfrekvens och kvalitetsläckage",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/05-01-läckt-defektfrekvens-och-kvalitetsläckage/"
+    },
+    {
+     "number": "5.2",
+     "title": "Funktionsadoption och användningsmätetal",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/05-02-funktionsadoption-och-användningsmätetal/"
+    },
+    {
+     "number": "5.3",
+     "title": "Kund- och affärsutfallsmätetal",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/05-03-kund-och-affärsutfallsmätetal/"
+    },
+    {
+     "number": "5.4",
+     "title": "Kostnad och enhetsekonomi för ingenjörsarbete",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/05-04-kostnad-och-enhetsekonomi-för-ingenjörsarbete/"
+    },
+    {
+     "number": "5.5",
+     "title": "Avkastning på investering för ingenjörsinitiativ",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/05-05-avkastning-på-investering-för-ingenjörsinitiativ/"
+    },
+    {
+     "number": "6.0",
+     "title": "Introduktion till del 6: Mätetal för tillförlitlighet, drift, och säkerhet",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/06-00-mätetal-för-tillförlitlighet-drift-och-säkerhet/"
+    },
+    {
+     "number": "6.1",
+     "title": "Tjänstnivåindikatorer, -mål, och felbudgetar",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/06-01-tjänstnivåindikatorer-mål-och-felbudgetar/"
+    },
+    {
+     "number": "6.2",
+     "title": "Incidentmätetal: upptäckt, respons, och återställning",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/06-02-incidentmätetal/"
+    },
+    {
+     "number": "6.3",
+     "title": "Jour-, kapacitets-, och driftsbelastningsmätetal",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/06-03-jour-kapacitets-och-driftsbelastningsmätetal/"
+    },
+    {
+     "number": "6.4",
+     "title": "Mätetal för säkerhet och sårbarhetshantering",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/06-04-mätetal-för-säkerhet-och-sårbarhetshantering/"
+    },
+    {
+     "number": "7.0",
+     "title": "Introduktion till del 7: Mätetal i AI-eran",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/07-00-mätetal-i-ai-eran/"
+    },
+    {
+     "number": "7.1",
+     "title": "Det generativa AI-paradigmskiftet",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/07-01-det-generativa-ai-paradigmskiftet/"
+    },
+    {
+     "number": "7.2",
+     "title": "Att mäta AI-assisterad mjukvaruutveckling",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/07-02-att-mäta-ai-assisterad-mjukvaruutveckling/"
+    },
+    {
+     "number": "7.3",
+     "title": "Mätetalsinflation och kvalitetsutspädningsrisker",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/07-03-mätetalsinflation-och-kvalitetsutspädningsrisker/"
+    },
+    {
+     "number": "7.4",
+     "title": "Utfallstelemetri som den nya nordstjärnan",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/07-04-utfallstelemetri-som-den-nya-nordstjärnan/"
+    },
+    {
+     "number": "8.0",
+     "title": "Introduktion till del 8: Att bygga ett mätetalsprogram",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/08-00-att-bygga-ett-mätetalsprogram/"
+    },
+    {
+     "number": "8.1",
+     "title": "Att designa en ingenjörsmätetalsinstrumentpanel",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/08-01-att-designa-en-ingenjörsmätetalsinstrumentpanel/"
+    },
+    {
+     "number": "8.2",
+     "title": "Verktygslandskap: att bygga kontra köpa",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/08-02-verktygslandskap-att-bygga-kontra-köpa/"
+    },
+    {
+     "number": "8.3",
+     "title": "Att rulla ut mätetal utan att föda fruktan",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/08-03-att-rulla-ut-mätetal-utan-att-föda-fruktan/"
+    },
+    {
+     "number": "8.4",
+     "title": "Mognadsmodell för ingenjörsmätetalsprogram",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/08-04-mognadsmodell-för-ingenjörsmätetalsprogram/"
+    },
+    {
+     "number": "8.5",
+     "title": "En inkrementell antagandefärdplan",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/08-05-en-inkrementell-antagandefärdplan/"
+    },
+    {
+     "number": "9.0",
+     "title": "Bilagor",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/09-00-bilagor/"
+    },
+    {
+     "number": "9.1",
+     "title": "Glossarium",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/09-01-glossarium/"
+    },
+    {
+     "number": "9.2",
+     "title": "Referens för mätetalsdefinitioner och formler",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/09-02-referens-för-mätetalsdefinitioner-och-formler/"
+    },
+    {
+     "number": "9.3",
+     "title": "Checklistor",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/09-03-checklistor/"
+    },
+    {
+     "number": "9.4",
+     "title": "Mallar",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/09-04-mallar/"
+    },
+    {
+     "number": "9.5",
+     "title": "Mognadssjälvbedömning",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/09-05-mognadssjälvbedömning/"
+    },
+    {
+     "number": "9.6",
+     "title": "Källor och vidare läsning",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/09-06-källor-och-vidare-läsning/"
+    },
+    {
+     "number": "9.7",
+     "title": "Index",
+     "url": "https://software-engineering-metrics.github.io/sv-001/chapters/09-07-index/"
+    }
+   ]
+  },
+  {
    "code": "ur-001",
    "label": "اردو",
    "home": "https://software-engineering-metrics.github.io/ur-001/",

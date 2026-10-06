@@ -183,6 +183,13 @@
       "contributing": "участие",
       "project": "проект"
     },
+    "sv-001": {
+      "chapters": "ämnen",
+      "front-matter": "förtext",
+      "examples": "exempel",
+      "contributing": "bidra",
+      "project": "projekt"
+    },
     "sv-se": {
       "chapters": "ämnen",
       "front-matter": "förtext",

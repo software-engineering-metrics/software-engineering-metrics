@@ -5,7 +5,7 @@ Focused guides for AI agents and human contributors, one task per file. Read
 repository layout. These files hold the procedures that would make it too long.
 Each is kept small so it loads cheaply into an agent's context.
 
-- [locales.md](locales.md): the 33 locales, which ones are hand-edited, which
+- [locales.md](locales.md): the 34 locales, which ones are hand-edited, which
   are served, and the per-locale section directory names.
 - [translating.md](translating.md): adding a translated locale, either as a
   copy of an existing one or as a from-scratch translation, and wiring it into

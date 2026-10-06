@@ -2,7 +2,7 @@
 
 The book is published in four English spelling-variant locales, each a
 complete copy of every topic, front-matter file, example, contributing guide,
-and project file, differing only in spelling, plus 29 hand-translated locales
+and project file, differing only in spelling, plus 30 hand-translated locales
 (see "Translated locales" below). All four keep identical structure, section order, word
 counts, and file names; see [structure.md](structure.md) and
 [conventions.md](conventions.md), which govern all four equally.
@@ -116,8 +116,8 @@ locale's own language (see `section-names.json`), plus a translated home
 `index.md` and table of contents; `tools/gen_translated_nav.py` refreshes their
 topic lists from the topic titles. The site still degrades gracefully for a
 missing section (an empty list, or a fallback to the default locale's intro
-copy), per `software-engineering-metrics.github.io/AGENTS.md`. All seventeen of `ar-001`, `bn-001`,
-`cy-001`, `cy-gb`, `de-001`, `es-001`, `fr-001`, `hi-001`, `id-001`, `ja-001`, `ko-001`, `nl-001`, `pt-001`, `ru-001`, `ur-001`, `zh-001`, and `zh-cn` are wired into the site's
+copy), per `software-engineering-metrics.github.io/AGENTS.md`. All eighteen of `ar-001`, `bn-001`,
+`cy-001`, `cy-gb`, `de-001`, `es-001`, `fr-001`, `hi-001`, `id-001`, `ja-001`, `ko-001`, `nl-001`, `pt-001`, `ru-001`, `sv-001`, `ur-001`, `zh-001`, and `zh-cn` are wired into the site's
 `SERVED_LOCALE_CODES` and served at their own locale-prefixed path;
 `de-de`, `ar-eg`, `bn-bd`, `hi-id`, `ko-kr`, `es-es`, `pt-pt`, `ja-jp`,
 `ru-ru`, `fr-fr`, `sv-se`, and `nl-nl` are not wired into the site.

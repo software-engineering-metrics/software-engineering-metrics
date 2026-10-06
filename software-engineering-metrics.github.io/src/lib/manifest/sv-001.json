@@ -1,0 +1,1902 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "sv-001",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-mätningens-grunder",
+          "title": "Introduktion till del 1: Mätningens grunder",
+          "heading": "1.0 Introduktion till del 1: Mätningens grunder",
+          "file": "chapters/01-00-mätningens-grunder.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-varför-mäta-mjukvaruteknik",
+          "title": "Varför mäta mjukvaruteknik",
+          "heading": "1.1 Varför mäta mjukvaruteknik",
+          "file": "chapters/01-01-varför-mäta-mjukvaruteknik.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-goodharts-lag-och-mätetalens-psykologi",
+          "title": "Goodharts lag och mätetalens psykologi",
+          "heading": "1.2 Goodharts lag och mätetalens psykologi",
+          "file": "chapters/01-02-goodharts-lag-och-mätetalens-psykologi.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-utfall-före-output-att-välja-vad-som-ska-mätas",
+          "title": "Utfall före output: att välja vad som ska mätas",
+          "heading": "1.3 Utfall före output: att välja vad som ska mätas",
+          "file": "chapters/01-03-utfall-före-output-att-välja-vad-som-ska-mätas.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-styrning-och-ägarskap-av-metriker",
+          "title": "Styrning och ägarskap av metriker",
+          "heading": "1.4 Styrning och ägarskap av metriker",
+          "file": "chapters/01-04-styrning-och-ägarskap-av-metriker.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-datakällor-och-instrumentering",
+          "title": "Datakällor och instrumentering",
+          "heading": "1.5 Datakällor och instrumentering",
+          "file": "chapters/01-05-datakällor-och-instrumentering.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-statistisk-litteracitet-för-ingenjörsmetriker",
+          "title": "Statistisk litteracitet för ingenjörsmetriker",
+          "heading": "1.6 Statistisk litteracitet för ingenjörsmetriker",
+          "file": "chapters/01-06-statistisk-litteracitet-för-ingenjörsmetriker.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-flödesmätetal",
+          "title": "Introduktion till del 2: Flödesmätetal",
+          "heading": "2.0 Introduktion till del 2: Flödesmätetal",
+          "file": "chapters/02-00-flödesmätetal.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-flow-framework",
+          "title": "Flow Framework",
+          "heading": "2.1 Flow Framework",
+          "file": "chapters/02-01-flow-framework.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-flödesobjekt-funktioner-defekter-risker-och-skuld",
+          "title": "Flödesobjekt: funktioner, defekter, risker, och skuld",
+          "heading": "2.2 Flödesobjekt: funktioner, defekter, risker, och skuld",
+          "file": "chapters/02-02-flödesobjekt-funktioner-defekter-risker-och-skuld.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-flödeshastighet-och-flödesfördelning",
+          "title": "Flödeshastighet och flödesfördelning",
+          "heading": "2.3 Flödeshastighet och flödesfördelning",
+          "file": "chapters/02-03-flödeshastighet-och-flödesfördelning.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-flödestid-och-flödesbelastning",
+          "title": "Flödestid och flödesbelastning",
+          "heading": "2.4 Flödestid och flödesbelastning",
+          "file": "chapters/02-04-flödestid-och-flödesbelastning.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-flödeseffektivitet-och-pågående-arbete",
+          "title": "Flödeseffektivitet och pågående arbete",
+          "heading": "2.5 Flödeseffektivitet och pågående arbete",
+          "file": "chapters/02-05-flödeseffektivitet-och-pågående-arbete.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-cykeltid-och-dess-komponenter",
+          "title": "Cykeltid och dess komponenter",
+          "heading": "2.6 Cykeltid och dess komponenter",
+          "file": "chapters/02-06-cykeltid-och-dess-komponenter.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-könteori",
+          "title": "Könteori",
+          "heading": "2.7 Könteori",
+          "file": "chapters/02-07-könteori.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-lean-värdeflödesmätetal",
+          "title": "Lean-värdeflödesmätetal",
+          "heading": "2.8 Lean-värdeflödesmätetal",
+          "file": "chapters/02-08-lean-värdeflödesmätetal.md"
+        },
+        {
+          "part": 2,
+          "chapter": 9,
+          "decimal": "2.9",
+          "slug": "02-09-mätetal-för-pull-request-och-kodgranskning",
+          "title": "Mätetal för pull request och kodgranskning",
+          "heading": "2.9 Mätetal för pull request och kodgranskning",
+          "file": "chapters/02-09-mätetal-för-pull-request-och-kodgranskning.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-dora-mätetalsramverket",
+          "title": "DORA-mätetalsramverket",
+          "heading": "2.10 DORA-mätetalsramverket",
+          "file": "chapters/02-10-dora-mätetalsramverket.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-utvecklarupplevelse-och-space-ramverket",
+          "title": "Introduktion till del 3: Utvecklarupplevelse och SPACE-ramverket",
+          "heading": "3.0 Introduktion till del 3: Utvecklarupplevelse och SPACE-ramverket",
+          "file": "chapters/03-00-utvecklarupplevelse-och-space-ramverket.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-space-ramverket",
+          "title": "SPACE-ramverket",
+          "heading": "3.1 SPACE-ramverket",
+          "file": "chapters/03-01-space-ramverket.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-mätetal-för-nöjdhet-och-välbefinnande",
+          "title": "Mätetal för nöjdhet och välbefinnande",
+          "heading": "3.2 Mätetal för nöjdhet och välbefinnande",
+          "file": "chapters/03-02-mätetal-för-nöjdhet-och-välbefinnande.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-prestationsmätetal-och-utfallsrepresentanter",
+          "title": "Prestationsmätetal och utfallsrepresentanter",
+          "heading": "3.3 Prestationsmätetal och utfallsrepresentanter",
+          "file": "chapters/03-03-prestationsmätetal-och-utfallsrepresentanter.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-aktivitetsmätetal-och-deras-begränsningar",
+          "title": "Aktivitetsmätetal och deras begränsningar",
+          "heading": "3.4 Aktivitetsmätetal och deras begränsningar",
+          "file": "chapters/03-04-aktivitetsmätetal-och-deras-begränsningar.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-mätetal-för-kommunikation-och-samarbete",
+          "title": "Mätetal för kommunikation och samarbete",
+          "heading": "3.5 Mätetal för kommunikation och samarbete",
+          "file": "chapters/03-05-mätetal-för-kommunikation-och-samarbete.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-effektivitet-och-flöde",
+          "title": "Effektivitet och flöde: djuparbete och avbrott",
+          "heading": "3.6 Effektivitet och flöde: djuparbete och avbrott",
+          "file": "chapters/03-06-effektivitet-och-flöde.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-utvecklarupplevelseenkäter-och-devex-mätetal",
+          "title": "Utvecklarupplevelseenkäter och DevEx-mätetal",
+          "heading": "3.7 Utvecklarupplevelseenkäter och DevEx-mätetal",
+          "file": "chapters/03-07-utvecklarupplevelseenkäter-och-devex-mätetal.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-kod-och-kvalitetsmätetal",
+          "title": "Introduktion till del 4: Kod- och kvalitetsmätetal",
+          "heading": "4.0 Introduktion till del 4: Kod- och kvalitetsmätetal",
+          "file": "chapters/04-00-kod-och-kvalitetsmätetal.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-kodkomplexitetsmätetal",
+          "title": "Kodkomplexitetsmätetal",
+          "heading": "4.1 Kodkomplexitetsmätetal",
+          "file": "chapters/04-01-kodkomplexitetsmätetal.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-testtäckning-och-testeffektivitet",
+          "title": "Testtäckning och testeffektivitet",
+          "heading": "4.2 Testtäckning och testeffektivitet",
+          "file": "chapters/04-02-testtäckning-och-testeffektivitet.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-kodchurn-och-hotspot-analys",
+          "title": "Kodchurn och hotspot-analys",
+          "heading": "4.3 Kodchurn och hotspot-analys",
+          "file": "chapters/04-03-kodchurn-och-hotspot-analys.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-statisk-analys-och-kodlukt-mätetal",
+          "title": "Statisk analys och kodlukt-mätetal",
+          "heading": "4.4 Statisk analys och kodlukt-mätetal",
+          "file": "chapters/04-04-statisk-analys-och-kodlukt-mätetal.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-mätning-av-teknisk-skuld",
+          "title": "Mätning av teknisk skuld",
+          "heading": "4.5 Mätning av teknisk skuld",
+          "file": "chapters/04-05-mätning-av-teknisk-skuld.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-dokumentations-och-kunskapsmätetal",
+          "title": "Dokumentations- och kunskapsmätetal",
+          "heading": "4.6 Dokumentations- och kunskapsmätetal",
+          "file": "chapters/04-06-dokumentations-och-kunskapsmätetal.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-produkt-och-affärsmätetal",
+          "title": "Introduktion till del 5: Produkt- och affärsmätetal",
+          "heading": "5.0 Introduktion till del 5: Produkt- och affärsmätetal",
+          "file": "chapters/05-00-produkt-och-affärsmätetal.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-läckt-defektfrekvens-och-kvalitetsläckage",
+          "title": "Läckt-defektfrekvens och kvalitetsläckage",
+          "heading": "5.1 Läckt-defektfrekvens och kvalitetsläckage",
+          "file": "chapters/05-01-läckt-defektfrekvens-och-kvalitetsläckage.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-funktionsadoption-och-användningsmätetal",
+          "title": "Funktionsadoption och användningsmätetal",
+          "heading": "5.2 Funktionsadoption och användningsmätetal",
+          "file": "chapters/05-02-funktionsadoption-och-användningsmätetal.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-kund-och-affärsutfallsmätetal",
+          "title": "Kund- och affärsutfallsmätetal",
+          "heading": "5.3 Kund- och affärsutfallsmätetal",
+          "file": "chapters/05-03-kund-och-affärsutfallsmätetal.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-kostnad-och-enhetsekonomi-för-ingenjörsarbete",
+          "title": "Kostnad och enhetsekonomi för ingenjörsarbete",
+          "heading": "5.4 Kostnad och enhetsekonomi för ingenjörsarbete",
+          "file": "chapters/05-04-kostnad-och-enhetsekonomi-för-ingenjörsarbete.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-avkastning-på-investering-för-ingenjörsinitiativ",
+          "title": "Avkastning på investering för ingenjörsinitiativ",
+          "heading": "5.5 Avkastning på investering för ingenjörsinitiativ",
+          "file": "chapters/05-05-avkastning-på-investering-för-ingenjörsinitiativ.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-mätetal-för-tillförlitlighet-drift-och-säkerhet",
+          "title": "Introduktion till del 6: Mätetal för tillförlitlighet, drift, och säkerhet",
+          "heading": "6.0 Introduktion till del 6: Mätetal för tillförlitlighet, drift, och säkerhet",
+          "file": "chapters/06-00-mätetal-för-tillförlitlighet-drift-och-säkerhet.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-tjänstnivåindikatorer-mål-och-felbudgetar",
+          "title": "Tjänstnivåindikatorer, -mål, och felbudgetar",
+          "heading": "6.1 Tjänstnivåindikatorer, -mål, och felbudgetar",
+          "file": "chapters/06-01-tjänstnivåindikatorer-mål-och-felbudgetar.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-incidentmätetal",
+          "title": "Incidentmätetal: upptäckt, respons, och återställning",
+          "heading": "6.2 Incidentmätetal: upptäckt, respons, och återställning",
+          "file": "chapters/06-02-incidentmätetal.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-jour-kapacitets-och-driftsbelastningsmätetal",
+          "title": "Jour-, kapacitets-, och driftsbelastningsmätetal",
+          "heading": "6.3 Jour-, kapacitets-, och driftsbelastningsmätetal",
+          "file": "chapters/06-03-jour-kapacitets-och-driftsbelastningsmätetal.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-mätetal-för-säkerhet-och-sårbarhetshantering",
+          "title": "Mätetal för säkerhet och sårbarhetshantering",
+          "heading": "6.4 Mätetal för säkerhet och sårbarhetshantering",
+          "file": "chapters/06-04-mätetal-för-säkerhet-och-sårbarhetshantering.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-mätetal-i-ai-eran",
+          "title": "Introduktion till del 7: Mätetal i AI-eran",
+          "heading": "7.0 Introduktion till del 7: Mätetal i AI-eran",
+          "file": "chapters/07-00-mätetal-i-ai-eran.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-det-generativa-ai-paradigmskiftet",
+          "title": "Det generativa AI-paradigmskiftet",
+          "heading": "7.1 Det generativa AI-paradigmskiftet",
+          "file": "chapters/07-01-det-generativa-ai-paradigmskiftet.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-att-mäta-ai-assisterad-mjukvaruutveckling",
+          "title": "Att mäta AI-assisterad mjukvaruutveckling",
+          "heading": "7.2 Att mäta AI-assisterad mjukvaruutveckling",
+          "file": "chapters/07-02-att-mäta-ai-assisterad-mjukvaruutveckling.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-mätetalsinflation-och-kvalitetsutspädningsrisker",
+          "title": "Mätetalsinflation och kvalitetsutspädningsrisker",
+          "heading": "7.3 Mätetalsinflation och kvalitetsutspädningsrisker",
+          "file": "chapters/07-03-mätetalsinflation-och-kvalitetsutspädningsrisker.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-utfallstelemetri-som-den-nya-nordstjärnan",
+          "title": "Utfallstelemetri som den nya nordstjärnan",
+          "heading": "7.4 Utfallstelemetri som den nya nordstjärnan",
+          "file": "chapters/07-04-utfallstelemetri-som-den-nya-nordstjärnan.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-att-bygga-ett-mätetalsprogram",
+          "title": "Introduktion till del 8: Att bygga ett mätetalsprogram",
+          "heading": "8.0 Introduktion till del 8: Att bygga ett mätetalsprogram",
+          "file": "chapters/08-00-att-bygga-ett-mätetalsprogram.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-att-designa-en-ingenjörsmätetalsinstrumentpanel",
+          "title": "Att designa en ingenjörsmätetalsinstrumentpanel",
+          "heading": "8.1 Att designa en ingenjörsmätetalsinstrumentpanel",
+          "file": "chapters/08-01-att-designa-en-ingenjörsmätetalsinstrumentpanel.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-verktygslandskap-att-bygga-kontra-köpa",
+          "title": "Verktygslandskap: att bygga kontra köpa",
+          "heading": "8.2 Verktygslandskap: att bygga kontra köpa",
+          "file": "chapters/08-02-verktygslandskap-att-bygga-kontra-köpa.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-att-rulla-ut-mätetal-utan-att-föda-fruktan",
+          "title": "Att rulla ut mätetal utan att föda fruktan",
+          "heading": "8.3 Att rulla ut mätetal utan att föda fruktan",
+          "file": "chapters/08-03-att-rulla-ut-mätetal-utan-att-föda-fruktan.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-mognadsmodell-för-ingenjörsmätetalsprogram",
+          "title": "Mognadsmodell för ingenjörsmätetalsprogram",
+          "heading": "8.4 Mognadsmodell för ingenjörsmätetalsprogram",
+          "file": "chapters/08-04-mognadsmodell-för-ingenjörsmätetalsprogram.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-en-inkrementell-antagandefärdplan",
+          "title": "En inkrementell antagandefärdplan",
+          "heading": "8.5 En inkrementell antagandefärdplan",
+          "file": "chapters/08-05-en-inkrementell-antagandefärdplan.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-bilagor",
+          "title": "Bilagor",
+          "heading": "9.0 Bilagor",
+          "file": "chapters/09-00-bilagor.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-glossarium",
+          "title": "Glossarium",
+          "heading": "9.1 Glossarium",
+          "file": "chapters/09-01-glossarium.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-referens-för-mätetalsdefinitioner-och-formler",
+          "title": "Referens för mätetalsdefinitioner och formler",
+          "heading": "9.2 Referens för mätetalsdefinitioner och formler",
+          "file": "chapters/09-02-referens-för-mätetalsdefinitioner-och-formler.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-checklistor",
+          "title": "Checklistor",
+          "heading": "9.3 Checklistor",
+          "file": "chapters/09-03-checklistor.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-mallar",
+          "title": "Mallar",
+          "heading": "9.4 Mallar",
+          "file": "chapters/09-04-mallar.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-mognadssjälvbedömning",
+          "title": "Mognadssjälvbedömning",
+          "heading": "9.5 Mognadssjälvbedömning",
+          "file": "chapters/09-05-mognadssjälvbedömning.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-källor-och-vidare-läsning",
+          "title": "Källor och vidare läsning",
+          "heading": "9.6 Källor och vidare läsning",
+          "file": "chapters/09-06-källor-och-vidare-läsning.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-index",
+          "title": "Index",
+          "heading": "9.7 Index",
+          "file": "chapters/09-07-index.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-mätningens-grunder",
+      "title": "Introduktion till del 1: Mätningens grunder",
+      "heading": "1.0 Introduktion till del 1: Mätningens grunder",
+      "file": "chapters/01-00-mätningens-grunder.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-varför-mäta-mjukvaruteknik",
+      "title": "Varför mäta mjukvaruteknik",
+      "heading": "1.1 Varför mäta mjukvaruteknik",
+      "file": "chapters/01-01-varför-mäta-mjukvaruteknik.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-goodharts-lag-och-mätetalens-psykologi",
+      "title": "Goodharts lag och mätetalens psykologi",
+      "heading": "1.2 Goodharts lag och mätetalens psykologi",
+      "file": "chapters/01-02-goodharts-lag-och-mätetalens-psykologi.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-utfall-före-output-att-välja-vad-som-ska-mätas",
+      "title": "Utfall före output: att välja vad som ska mätas",
+      "heading": "1.3 Utfall före output: att välja vad som ska mätas",
+      "file": "chapters/01-03-utfall-före-output-att-välja-vad-som-ska-mätas.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-styrning-och-ägarskap-av-metriker",
+      "title": "Styrning och ägarskap av metriker",
+      "heading": "1.4 Styrning och ägarskap av metriker",
+      "file": "chapters/01-04-styrning-och-ägarskap-av-metriker.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-datakällor-och-instrumentering",
+      "title": "Datakällor och instrumentering",
+      "heading": "1.5 Datakällor och instrumentering",
+      "file": "chapters/01-05-datakällor-och-instrumentering.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-statistisk-litteracitet-för-ingenjörsmetriker",
+      "title": "Statistisk litteracitet för ingenjörsmetriker",
+      "heading": "1.6 Statistisk litteracitet för ingenjörsmetriker",
+      "file": "chapters/01-06-statistisk-litteracitet-för-ingenjörsmetriker.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-flödesmätetal",
+      "title": "Introduktion till del 2: Flödesmätetal",
+      "heading": "2.0 Introduktion till del 2: Flödesmätetal",
+      "file": "chapters/02-00-flödesmätetal.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-flow-framework.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-flödesobjekt-funktioner-defekter-risker-och-skuld",
+      "title": "Flödesobjekt: funktioner, defekter, risker, och skuld",
+      "heading": "2.2 Flödesobjekt: funktioner, defekter, risker, och skuld",
+      "file": "chapters/02-02-flödesobjekt-funktioner-defekter-risker-och-skuld.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-flödeshastighet-och-flödesfördelning",
+      "title": "Flödeshastighet och flödesfördelning",
+      "heading": "2.3 Flödeshastighet och flödesfördelning",
+      "file": "chapters/02-03-flödeshastighet-och-flödesfördelning.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-flödestid-och-flödesbelastning",
+      "title": "Flödestid och flödesbelastning",
+      "heading": "2.4 Flödestid och flödesbelastning",
+      "file": "chapters/02-04-flödestid-och-flödesbelastning.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-flödeseffektivitet-och-pågående-arbete",
+      "title": "Flödeseffektivitet och pågående arbete",
+      "heading": "2.5 Flödeseffektivitet och pågående arbete",
+      "file": "chapters/02-05-flödeseffektivitet-och-pågående-arbete.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-cykeltid-och-dess-komponenter",
+      "title": "Cykeltid och dess komponenter",
+      "heading": "2.6 Cykeltid och dess komponenter",
+      "file": "chapters/02-06-cykeltid-och-dess-komponenter.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-könteori",
+      "title": "Könteori",
+      "heading": "2.7 Könteori",
+      "file": "chapters/02-07-könteori.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-lean-värdeflödesmätetal",
+      "title": "Lean-värdeflödesmätetal",
+      "heading": "2.8 Lean-värdeflödesmätetal",
+      "file": "chapters/02-08-lean-värdeflödesmätetal.md"
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-mätetal-för-pull-request-och-kodgranskning",
+      "title": "Mätetal för pull request och kodgranskning",
+      "heading": "2.9 Mätetal för pull request och kodgranskning",
+      "file": "chapters/02-09-mätetal-för-pull-request-och-kodgranskning.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-dora-mätetalsramverket",
+      "title": "DORA-mätetalsramverket",
+      "heading": "2.10 DORA-mätetalsramverket",
+      "file": "chapters/02-10-dora-mätetalsramverket.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-utvecklarupplevelse-och-space-ramverket",
+      "title": "Introduktion till del 3: Utvecklarupplevelse och SPACE-ramverket",
+      "heading": "3.0 Introduktion till del 3: Utvecklarupplevelse och SPACE-ramverket",
+      "file": "chapters/03-00-utvecklarupplevelse-och-space-ramverket.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-space-ramverket",
+      "title": "SPACE-ramverket",
+      "heading": "3.1 SPACE-ramverket",
+      "file": "chapters/03-01-space-ramverket.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-mätetal-för-nöjdhet-och-välbefinnande",
+      "title": "Mätetal för nöjdhet och välbefinnande",
+      "heading": "3.2 Mätetal för nöjdhet och välbefinnande",
+      "file": "chapters/03-02-mätetal-för-nöjdhet-och-välbefinnande.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-prestationsmätetal-och-utfallsrepresentanter",
+      "title": "Prestationsmätetal och utfallsrepresentanter",
+      "heading": "3.3 Prestationsmätetal och utfallsrepresentanter",
+      "file": "chapters/03-03-prestationsmätetal-och-utfallsrepresentanter.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-aktivitetsmätetal-och-deras-begränsningar",
+      "title": "Aktivitetsmätetal och deras begränsningar",
+      "heading": "3.4 Aktivitetsmätetal och deras begränsningar",
+      "file": "chapters/03-04-aktivitetsmätetal-och-deras-begränsningar.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-mätetal-för-kommunikation-och-samarbete",
+      "title": "Mätetal för kommunikation och samarbete",
+      "heading": "3.5 Mätetal för kommunikation och samarbete",
+      "file": "chapters/03-05-mätetal-för-kommunikation-och-samarbete.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-effektivitet-och-flöde",
+      "title": "Effektivitet och flöde: djuparbete och avbrott",
+      "heading": "3.6 Effektivitet och flöde: djuparbete och avbrott",
+      "file": "chapters/03-06-effektivitet-och-flöde.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-utvecklarupplevelseenkäter-och-devex-mätetal",
+      "title": "Utvecklarupplevelseenkäter och DevEx-mätetal",
+      "heading": "3.7 Utvecklarupplevelseenkäter och DevEx-mätetal",
+      "file": "chapters/03-07-utvecklarupplevelseenkäter-och-devex-mätetal.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-kod-och-kvalitetsmätetal",
+      "title": "Introduktion till del 4: Kod- och kvalitetsmätetal",
+      "heading": "4.0 Introduktion till del 4: Kod- och kvalitetsmätetal",
+      "file": "chapters/04-00-kod-och-kvalitetsmätetal.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-kodkomplexitetsmätetal",
+      "title": "Kodkomplexitetsmätetal",
+      "heading": "4.1 Kodkomplexitetsmätetal",
+      "file": "chapters/04-01-kodkomplexitetsmätetal.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-testtäckning-och-testeffektivitet",
+      "title": "Testtäckning och testeffektivitet",
+      "heading": "4.2 Testtäckning och testeffektivitet",
+      "file": "chapters/04-02-testtäckning-och-testeffektivitet.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-kodchurn-och-hotspot-analys",
+      "title": "Kodchurn och hotspot-analys",
+      "heading": "4.3 Kodchurn och hotspot-analys",
+      "file": "chapters/04-03-kodchurn-och-hotspot-analys.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-statisk-analys-och-kodlukt-mätetal",
+      "title": "Statisk analys och kodlukt-mätetal",
+      "heading": "4.4 Statisk analys och kodlukt-mätetal",
+      "file": "chapters/04-04-statisk-analys-och-kodlukt-mätetal.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-mätning-av-teknisk-skuld",
+      "title": "Mätning av teknisk skuld",
+      "heading": "4.5 Mätning av teknisk skuld",
+      "file": "chapters/04-05-mätning-av-teknisk-skuld.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-dokumentations-och-kunskapsmätetal",
+      "title": "Dokumentations- och kunskapsmätetal",
+      "heading": "4.6 Dokumentations- och kunskapsmätetal",
+      "file": "chapters/04-06-dokumentations-och-kunskapsmätetal.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-produkt-och-affärsmätetal",
+      "title": "Introduktion till del 5: Produkt- och affärsmätetal",
+      "heading": "5.0 Introduktion till del 5: Produkt- och affärsmätetal",
+      "file": "chapters/05-00-produkt-och-affärsmätetal.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-läckt-defektfrekvens-och-kvalitetsläckage",
+      "title": "Läckt-defektfrekvens och kvalitetsläckage",
+      "heading": "5.1 Läckt-defektfrekvens och kvalitetsläckage",
+      "file": "chapters/05-01-läckt-defektfrekvens-och-kvalitetsläckage.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-funktionsadoption-och-användningsmätetal",
+      "title": "Funktionsadoption och användningsmätetal",
+      "heading": "5.2 Funktionsadoption och användningsmätetal",
+      "file": "chapters/05-02-funktionsadoption-och-användningsmätetal.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-kund-och-affärsutfallsmätetal",
+      "title": "Kund- och affärsutfallsmätetal",
+      "heading": "5.3 Kund- och affärsutfallsmätetal",
+      "file": "chapters/05-03-kund-och-affärsutfallsmätetal.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-kostnad-och-enhetsekonomi-för-ingenjörsarbete",
+      "title": "Kostnad och enhetsekonomi för ingenjörsarbete",
+      "heading": "5.4 Kostnad och enhetsekonomi för ingenjörsarbete",
+      "file": "chapters/05-04-kostnad-och-enhetsekonomi-för-ingenjörsarbete.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-avkastning-på-investering-för-ingenjörsinitiativ",
+      "title": "Avkastning på investering för ingenjörsinitiativ",
+      "heading": "5.5 Avkastning på investering för ingenjörsinitiativ",
+      "file": "chapters/05-05-avkastning-på-investering-för-ingenjörsinitiativ.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-mätetal-för-tillförlitlighet-drift-och-säkerhet",
+      "title": "Introduktion till del 6: Mätetal för tillförlitlighet, drift, och säkerhet",
+      "heading": "6.0 Introduktion till del 6: Mätetal för tillförlitlighet, drift, och säkerhet",
+      "file": "chapters/06-00-mätetal-för-tillförlitlighet-drift-och-säkerhet.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-tjänstnivåindikatorer-mål-och-felbudgetar",
+      "title": "Tjänstnivåindikatorer, -mål, och felbudgetar",
+      "heading": "6.1 Tjänstnivåindikatorer, -mål, och felbudgetar",
+      "file": "chapters/06-01-tjänstnivåindikatorer-mål-och-felbudgetar.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-incidentmätetal",
+      "title": "Incidentmätetal: upptäckt, respons, och återställning",
+      "heading": "6.2 Incidentmätetal: upptäckt, respons, och återställning",
+      "file": "chapters/06-02-incidentmätetal.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-jour-kapacitets-och-driftsbelastningsmätetal",
+      "title": "Jour-, kapacitets-, och driftsbelastningsmätetal",
+      "heading": "6.3 Jour-, kapacitets-, och driftsbelastningsmätetal",
+      "file": "chapters/06-03-jour-kapacitets-och-driftsbelastningsmätetal.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-mätetal-för-säkerhet-och-sårbarhetshantering",
+      "title": "Mätetal för säkerhet och sårbarhetshantering",
+      "heading": "6.4 Mätetal för säkerhet och sårbarhetshantering",
+      "file": "chapters/06-04-mätetal-för-säkerhet-och-sårbarhetshantering.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-mätetal-i-ai-eran",
+      "title": "Introduktion till del 7: Mätetal i AI-eran",
+      "heading": "7.0 Introduktion till del 7: Mätetal i AI-eran",
+      "file": "chapters/07-00-mätetal-i-ai-eran.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-det-generativa-ai-paradigmskiftet",
+      "title": "Det generativa AI-paradigmskiftet",
+      "heading": "7.1 Det generativa AI-paradigmskiftet",
+      "file": "chapters/07-01-det-generativa-ai-paradigmskiftet.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-att-mäta-ai-assisterad-mjukvaruutveckling",
+      "title": "Att mäta AI-assisterad mjukvaruutveckling",
+      "heading": "7.2 Att mäta AI-assisterad mjukvaruutveckling",
+      "file": "chapters/07-02-att-mäta-ai-assisterad-mjukvaruutveckling.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-mätetalsinflation-och-kvalitetsutspädningsrisker",
+      "title": "Mätetalsinflation och kvalitetsutspädningsrisker",
+      "heading": "7.3 Mätetalsinflation och kvalitetsutspädningsrisker",
+      "file": "chapters/07-03-mätetalsinflation-och-kvalitetsutspädningsrisker.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-utfallstelemetri-som-den-nya-nordstjärnan",
+      "title": "Utfallstelemetri som den nya nordstjärnan",
+      "heading": "7.4 Utfallstelemetri som den nya nordstjärnan",
+      "file": "chapters/07-04-utfallstelemetri-som-den-nya-nordstjärnan.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-att-bygga-ett-mätetalsprogram",
+      "title": "Introduktion till del 8: Att bygga ett mätetalsprogram",
+      "heading": "8.0 Introduktion till del 8: Att bygga ett mätetalsprogram",
+      "file": "chapters/08-00-att-bygga-ett-mätetalsprogram.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-att-designa-en-ingenjörsmätetalsinstrumentpanel",
+      "title": "Att designa en ingenjörsmätetalsinstrumentpanel",
+      "heading": "8.1 Att designa en ingenjörsmätetalsinstrumentpanel",
+      "file": "chapters/08-01-att-designa-en-ingenjörsmätetalsinstrumentpanel.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-verktygslandskap-att-bygga-kontra-köpa",
+      "title": "Verktygslandskap: att bygga kontra köpa",
+      "heading": "8.2 Verktygslandskap: att bygga kontra köpa",
+      "file": "chapters/08-02-verktygslandskap-att-bygga-kontra-köpa.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-att-rulla-ut-mätetal-utan-att-föda-fruktan",
+      "title": "Att rulla ut mätetal utan att föda fruktan",
+      "heading": "8.3 Att rulla ut mätetal utan att föda fruktan",
+      "file": "chapters/08-03-att-rulla-ut-mätetal-utan-att-föda-fruktan.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-mognadsmodell-för-ingenjörsmätetalsprogram",
+      "title": "Mognadsmodell för ingenjörsmätetalsprogram",
+      "heading": "8.4 Mognadsmodell för ingenjörsmätetalsprogram",
+      "file": "chapters/08-04-mognadsmodell-för-ingenjörsmätetalsprogram.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-en-inkrementell-antagandefärdplan",
+      "title": "En inkrementell antagandefärdplan",
+      "heading": "8.5 En inkrementell antagandefärdplan",
+      "file": "chapters/08-05-en-inkrementell-antagandefärdplan.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-bilagor",
+      "title": "Bilagor",
+      "heading": "9.0 Bilagor",
+      "file": "chapters/09-00-bilagor.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-glossarium",
+      "title": "Glossarium",
+      "heading": "9.1 Glossarium",
+      "file": "chapters/09-01-glossarium.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-referens-för-mätetalsdefinitioner-och-formler",
+      "title": "Referens för mätetalsdefinitioner och formler",
+      "heading": "9.2 Referens för mätetalsdefinitioner och formler",
+      "file": "chapters/09-02-referens-för-mätetalsdefinitioner-och-formler.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-checklistor",
+      "title": "Checklistor",
+      "heading": "9.3 Checklistor",
+      "file": "chapters/09-03-checklistor.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-mallar",
+      "title": "Mallar",
+      "heading": "9.4 Mallar",
+      "file": "chapters/09-04-mallar.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-mognadssjälvbedömning",
+      "title": "Mognadssjälvbedömning",
+      "heading": "9.5 Mognadssjälvbedömning",
+      "file": "chapters/09-05-mognadssjälvbedömning.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-källor-och-vidare-läsning",
+      "title": "Källor och vidare läsning",
+      "heading": "9.6 Källor och vidare läsning",
+      "file": "chapters/09-06-källor-och-vidare-läsning.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-index",
+      "title": "Index",
+      "heading": "9.7 Index",
+      "file": "chapters/09-07-index.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-mätningens-grunder",
+      "title": "Introduktion till del 1: Mätningens grunder",
+      "heading": "1.0 Introduktion till del 1: Mätningens grunder",
+      "file": "chapters/01-00-mätningens-grunder.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-varför-mäta-mjukvaruteknik",
+      "title": "Varför mäta mjukvaruteknik",
+      "heading": "1.1 Varför mäta mjukvaruteknik",
+      "file": "chapters/01-01-varför-mäta-mjukvaruteknik.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-goodharts-lag-och-mätetalens-psykologi",
+      "title": "Goodharts lag och mätetalens psykologi",
+      "heading": "1.2 Goodharts lag och mätetalens psykologi",
+      "file": "chapters/01-02-goodharts-lag-och-mätetalens-psykologi.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-utfall-före-output-att-välja-vad-som-ska-mätas",
+      "title": "Utfall före output: att välja vad som ska mätas",
+      "heading": "1.3 Utfall före output: att välja vad som ska mätas",
+      "file": "chapters/01-03-utfall-före-output-att-välja-vad-som-ska-mätas.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-styrning-och-ägarskap-av-metriker",
+      "title": "Styrning och ägarskap av metriker",
+      "heading": "1.4 Styrning och ägarskap av metriker",
+      "file": "chapters/01-04-styrning-och-ägarskap-av-metriker.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-datakällor-och-instrumentering",
+      "title": "Datakällor och instrumentering",
+      "heading": "1.5 Datakällor och instrumentering",
+      "file": "chapters/01-05-datakällor-och-instrumentering.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-statistisk-litteracitet-för-ingenjörsmetriker",
+      "title": "Statistisk litteracitet för ingenjörsmetriker",
+      "heading": "1.6 Statistisk litteracitet för ingenjörsmetriker",
+      "file": "chapters/01-06-statistisk-litteracitet-för-ingenjörsmetriker.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-flödesmätetal",
+      "title": "Introduktion till del 2: Flödesmätetal",
+      "heading": "2.0 Introduktion till del 2: Flödesmätetal",
+      "file": "chapters/02-00-flödesmätetal.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-flow-framework.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-flödesobjekt-funktioner-defekter-risker-och-skuld",
+      "title": "Flödesobjekt: funktioner, defekter, risker, och skuld",
+      "heading": "2.2 Flödesobjekt: funktioner, defekter, risker, och skuld",
+      "file": "chapters/02-02-flödesobjekt-funktioner-defekter-risker-och-skuld.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-flödeshastighet-och-flödesfördelning",
+      "title": "Flödeshastighet och flödesfördelning",
+      "heading": "2.3 Flödeshastighet och flödesfördelning",
+      "file": "chapters/02-03-flödeshastighet-och-flödesfördelning.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-flödestid-och-flödesbelastning",
+      "title": "Flödestid och flödesbelastning",
+      "heading": "2.4 Flödestid och flödesbelastning",
+      "file": "chapters/02-04-flödestid-och-flödesbelastning.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-flödeseffektivitet-och-pågående-arbete",
+      "title": "Flödeseffektivitet och pågående arbete",
+      "heading": "2.5 Flödeseffektivitet och pågående arbete",
+      "file": "chapters/02-05-flödeseffektivitet-och-pågående-arbete.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-cykeltid-och-dess-komponenter",
+      "title": "Cykeltid och dess komponenter",
+      "heading": "2.6 Cykeltid och dess komponenter",
+      "file": "chapters/02-06-cykeltid-och-dess-komponenter.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-könteori",
+      "title": "Könteori",
+      "heading": "2.7 Könteori",
+      "file": "chapters/02-07-könteori.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-lean-värdeflödesmätetal",
+      "title": "Lean-värdeflödesmätetal",
+      "heading": "2.8 Lean-värdeflödesmätetal",
+      "file": "chapters/02-08-lean-värdeflödesmätetal.md"
+    },
+    "2.9": {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-mätetal-för-pull-request-och-kodgranskning",
+      "title": "Mätetal för pull request och kodgranskning",
+      "heading": "2.9 Mätetal för pull request och kodgranskning",
+      "file": "chapters/02-09-mätetal-för-pull-request-och-kodgranskning.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-dora-mätetalsramverket",
+      "title": "DORA-mätetalsramverket",
+      "heading": "2.10 DORA-mätetalsramverket",
+      "file": "chapters/02-10-dora-mätetalsramverket.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-utvecklarupplevelse-och-space-ramverket",
+      "title": "Introduktion till del 3: Utvecklarupplevelse och SPACE-ramverket",
+      "heading": "3.0 Introduktion till del 3: Utvecklarupplevelse och SPACE-ramverket",
+      "file": "chapters/03-00-utvecklarupplevelse-och-space-ramverket.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-space-ramverket",
+      "title": "SPACE-ramverket",
+      "heading": "3.1 SPACE-ramverket",
+      "file": "chapters/03-01-space-ramverket.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-mätetal-för-nöjdhet-och-välbefinnande",
+      "title": "Mätetal för nöjdhet och välbefinnande",
+      "heading": "3.2 Mätetal för nöjdhet och välbefinnande",
+      "file": "chapters/03-02-mätetal-för-nöjdhet-och-välbefinnande.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-prestationsmätetal-och-utfallsrepresentanter",
+      "title": "Prestationsmätetal och utfallsrepresentanter",
+      "heading": "3.3 Prestationsmätetal och utfallsrepresentanter",
+      "file": "chapters/03-03-prestationsmätetal-och-utfallsrepresentanter.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-aktivitetsmätetal-och-deras-begränsningar",
+      "title": "Aktivitetsmätetal och deras begränsningar",
+      "heading": "3.4 Aktivitetsmätetal och deras begränsningar",
+      "file": "chapters/03-04-aktivitetsmätetal-och-deras-begränsningar.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-mätetal-för-kommunikation-och-samarbete",
+      "title": "Mätetal för kommunikation och samarbete",
+      "heading": "3.5 Mätetal för kommunikation och samarbete",
+      "file": "chapters/03-05-mätetal-för-kommunikation-och-samarbete.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-effektivitet-och-flöde",
+      "title": "Effektivitet och flöde: djuparbete och avbrott",
+      "heading": "3.6 Effektivitet och flöde: djuparbete och avbrott",
+      "file": "chapters/03-06-effektivitet-och-flöde.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-utvecklarupplevelseenkäter-och-devex-mätetal",
+      "title": "Utvecklarupplevelseenkäter och DevEx-mätetal",
+      "heading": "3.7 Utvecklarupplevelseenkäter och DevEx-mätetal",
+      "file": "chapters/03-07-utvecklarupplevelseenkäter-och-devex-mätetal.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-kod-och-kvalitetsmätetal",
+      "title": "Introduktion till del 4: Kod- och kvalitetsmätetal",
+      "heading": "4.0 Introduktion till del 4: Kod- och kvalitetsmätetal",
+      "file": "chapters/04-00-kod-och-kvalitetsmätetal.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-kodkomplexitetsmätetal",
+      "title": "Kodkomplexitetsmätetal",
+      "heading": "4.1 Kodkomplexitetsmätetal",
+      "file": "chapters/04-01-kodkomplexitetsmätetal.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-testtäckning-och-testeffektivitet",
+      "title": "Testtäckning och testeffektivitet",
+      "heading": "4.2 Testtäckning och testeffektivitet",
+      "file": "chapters/04-02-testtäckning-och-testeffektivitet.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-kodchurn-och-hotspot-analys",
+      "title": "Kodchurn och hotspot-analys",
+      "heading": "4.3 Kodchurn och hotspot-analys",
+      "file": "chapters/04-03-kodchurn-och-hotspot-analys.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-statisk-analys-och-kodlukt-mätetal",
+      "title": "Statisk analys och kodlukt-mätetal",
+      "heading": "4.4 Statisk analys och kodlukt-mätetal",
+      "file": "chapters/04-04-statisk-analys-och-kodlukt-mätetal.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-mätning-av-teknisk-skuld",
+      "title": "Mätning av teknisk skuld",
+      "heading": "4.5 Mätning av teknisk skuld",
+      "file": "chapters/04-05-mätning-av-teknisk-skuld.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-dokumentations-och-kunskapsmätetal",
+      "title": "Dokumentations- och kunskapsmätetal",
+      "heading": "4.6 Dokumentations- och kunskapsmätetal",
+      "file": "chapters/04-06-dokumentations-och-kunskapsmätetal.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-produkt-och-affärsmätetal",
+      "title": "Introduktion till del 5: Produkt- och affärsmätetal",
+      "heading": "5.0 Introduktion till del 5: Produkt- och affärsmätetal",
+      "file": "chapters/05-00-produkt-och-affärsmätetal.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-läckt-defektfrekvens-och-kvalitetsläckage",
+      "title": "Läckt-defektfrekvens och kvalitetsläckage",
+      "heading": "5.1 Läckt-defektfrekvens och kvalitetsläckage",
+      "file": "chapters/05-01-läckt-defektfrekvens-och-kvalitetsläckage.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-funktionsadoption-och-användningsmätetal",
+      "title": "Funktionsadoption och användningsmätetal",
+      "heading": "5.2 Funktionsadoption och användningsmätetal",
+      "file": "chapters/05-02-funktionsadoption-och-användningsmätetal.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-kund-och-affärsutfallsmätetal",
+      "title": "Kund- och affärsutfallsmätetal",
+      "heading": "5.3 Kund- och affärsutfallsmätetal",
+      "file": "chapters/05-03-kund-och-affärsutfallsmätetal.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-kostnad-och-enhetsekonomi-för-ingenjörsarbete",
+      "title": "Kostnad och enhetsekonomi för ingenjörsarbete",
+      "heading": "5.4 Kostnad och enhetsekonomi för ingenjörsarbete",
+      "file": "chapters/05-04-kostnad-och-enhetsekonomi-för-ingenjörsarbete.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-avkastning-på-investering-för-ingenjörsinitiativ",
+      "title": "Avkastning på investering för ingenjörsinitiativ",
+      "heading": "5.5 Avkastning på investering för ingenjörsinitiativ",
+      "file": "chapters/05-05-avkastning-på-investering-för-ingenjörsinitiativ.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-mätetal-för-tillförlitlighet-drift-och-säkerhet",
+      "title": "Introduktion till del 6: Mätetal för tillförlitlighet, drift, och säkerhet",
+      "heading": "6.0 Introduktion till del 6: Mätetal för tillförlitlighet, drift, och säkerhet",
+      "file": "chapters/06-00-mätetal-för-tillförlitlighet-drift-och-säkerhet.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-tjänstnivåindikatorer-mål-och-felbudgetar",
+      "title": "Tjänstnivåindikatorer, -mål, och felbudgetar",
+      "heading": "6.1 Tjänstnivåindikatorer, -mål, och felbudgetar",
+      "file": "chapters/06-01-tjänstnivåindikatorer-mål-och-felbudgetar.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-incidentmätetal",
+      "title": "Incidentmätetal: upptäckt, respons, och återställning",
+      "heading": "6.2 Incidentmätetal: upptäckt, respons, och återställning",
+      "file": "chapters/06-02-incidentmätetal.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-jour-kapacitets-och-driftsbelastningsmätetal",
+      "title": "Jour-, kapacitets-, och driftsbelastningsmätetal",
+      "heading": "6.3 Jour-, kapacitets-, och driftsbelastningsmätetal",
+      "file": "chapters/06-03-jour-kapacitets-och-driftsbelastningsmätetal.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-mätetal-för-säkerhet-och-sårbarhetshantering",
+      "title": "Mätetal för säkerhet och sårbarhetshantering",
+      "heading": "6.4 Mätetal för säkerhet och sårbarhetshantering",
+      "file": "chapters/06-04-mätetal-för-säkerhet-och-sårbarhetshantering.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-mätetal-i-ai-eran",
+      "title": "Introduktion till del 7: Mätetal i AI-eran",
+      "heading": "7.0 Introduktion till del 7: Mätetal i AI-eran",
+      "file": "chapters/07-00-mätetal-i-ai-eran.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-det-generativa-ai-paradigmskiftet",
+      "title": "Det generativa AI-paradigmskiftet",
+      "heading": "7.1 Det generativa AI-paradigmskiftet",
+      "file": "chapters/07-01-det-generativa-ai-paradigmskiftet.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-att-mäta-ai-assisterad-mjukvaruutveckling",
+      "title": "Att mäta AI-assisterad mjukvaruutveckling",
+      "heading": "7.2 Att mäta AI-assisterad mjukvaruutveckling",
+      "file": "chapters/07-02-att-mäta-ai-assisterad-mjukvaruutveckling.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-mätetalsinflation-och-kvalitetsutspädningsrisker",
+      "title": "Mätetalsinflation och kvalitetsutspädningsrisker",
+      "heading": "7.3 Mätetalsinflation och kvalitetsutspädningsrisker",
+      "file": "chapters/07-03-mätetalsinflation-och-kvalitetsutspädningsrisker.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-utfallstelemetri-som-den-nya-nordstjärnan",
+      "title": "Utfallstelemetri som den nya nordstjärnan",
+      "heading": "7.4 Utfallstelemetri som den nya nordstjärnan",
+      "file": "chapters/07-04-utfallstelemetri-som-den-nya-nordstjärnan.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-att-bygga-ett-mätetalsprogram",
+      "title": "Introduktion till del 8: Att bygga ett mätetalsprogram",
+      "heading": "8.0 Introduktion till del 8: Att bygga ett mätetalsprogram",
+      "file": "chapters/08-00-att-bygga-ett-mätetalsprogram.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-att-designa-en-ingenjörsmätetalsinstrumentpanel",
+      "title": "Att designa en ingenjörsmätetalsinstrumentpanel",
+      "heading": "8.1 Att designa en ingenjörsmätetalsinstrumentpanel",
+      "file": "chapters/08-01-att-designa-en-ingenjörsmätetalsinstrumentpanel.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-verktygslandskap-att-bygga-kontra-köpa",
+      "title": "Verktygslandskap: att bygga kontra köpa",
+      "heading": "8.2 Verktygslandskap: att bygga kontra köpa",
+      "file": "chapters/08-02-verktygslandskap-att-bygga-kontra-köpa.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-att-rulla-ut-mätetal-utan-att-föda-fruktan",
+      "title": "Att rulla ut mätetal utan att föda fruktan",
+      "heading": "8.3 Att rulla ut mätetal utan att föda fruktan",
+      "file": "chapters/08-03-att-rulla-ut-mätetal-utan-att-föda-fruktan.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-mognadsmodell-för-ingenjörsmätetalsprogram",
+      "title": "Mognadsmodell för ingenjörsmätetalsprogram",
+      "heading": "8.4 Mognadsmodell för ingenjörsmätetalsprogram",
+      "file": "chapters/08-04-mognadsmodell-för-ingenjörsmätetalsprogram.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-en-inkrementell-antagandefärdplan",
+      "title": "En inkrementell antagandefärdplan",
+      "heading": "8.5 En inkrementell antagandefärdplan",
+      "file": "chapters/08-05-en-inkrementell-antagandefärdplan.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-bilagor",
+      "title": "Bilagor",
+      "heading": "9.0 Bilagor",
+      "file": "chapters/09-00-bilagor.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-glossarium",
+      "title": "Glossarium",
+      "heading": "9.1 Glossarium",
+      "file": "chapters/09-01-glossarium.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-referens-för-mätetalsdefinitioner-och-formler",
+      "title": "Referens för mätetalsdefinitioner och formler",
+      "heading": "9.2 Referens för mätetalsdefinitioner och formler",
+      "file": "chapters/09-02-referens-för-mätetalsdefinitioner-och-formler.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-checklistor",
+      "title": "Checklistor",
+      "heading": "9.3 Checklistor",
+      "file": "chapters/09-03-checklistor.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-mallar",
+      "title": "Mallar",
+      "heading": "9.4 Mallar",
+      "file": "chapters/09-04-mallar.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-mognadssjälvbedömning",
+      "title": "Mognadssjälvbedömning",
+      "heading": "9.5 Mognadssjälvbedömning",
+      "file": "chapters/09-05-mognadssjälvbedömning.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-källor-och-vidare-läsning",
+      "title": "Källor och vidare läsning",
+      "heading": "9.6 Källor och vidare läsning",
+      "file": "chapters/09-06-källor-och-vidare-läsning.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-index",
+      "title": "Index",
+      "heading": "9.7 Index",
+      "file": "chapters/09-07-index.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "Introduktion",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "Innehållsförteckning",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "Vad är mätetal för programvaruutveckling?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "Exempel: specifikation för en instrumentpanel med leveransmätetal",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "Exempel: metrikstadga för ett team för betalningsplattformen",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "Författande: att skriva och redigera ämnen",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "Ämnesmall (delad)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "Navigering: hur de genererade filerna fungerar",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "Delindex (delad referens)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "Stilregler (delade, upprätthållna)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "Testning: valideringssviten",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "Ändringslogg",
+      "file": "project/changelog.md"
+    }
+  ],
+  "totals": {
+    "parts": 9,
+    "chapters": 63
+  }
+}

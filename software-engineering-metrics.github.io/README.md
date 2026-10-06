@@ -15,7 +15,7 @@ is Markdown, compiled with [mdsvex](https://mdsvex.pngwn.io/).
 ## Where the content comes from
 
 The book's Markdown lives at the repository root, under `locales/<locale>/`,
-published in 33 locales (see the root `spec/locales.md`), 21 of them served
+published in 34 locales (see the root `spec/locales.md`), 22 of them served
 here: four mechanically-derived English spelling variants, `en-us` (American English),
 `en-gb-oxendict` (British English, Oxford spelling; the authoring source),
 `en-gb` (mainstream British English), and `en-001` (international English);

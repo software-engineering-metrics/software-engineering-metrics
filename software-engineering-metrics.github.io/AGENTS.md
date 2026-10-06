@@ -13,12 +13,12 @@ the book's content — see below.
 
 ## Locales
 
-The book exists in 33 locales (see `../spec/locales.md` at the repository
-root), of which this site serves 21: four mechanically-derived English
-spelling variants (`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`) and seventeen
+The book exists in 34 locales (see `../spec/locales.md` at the repository
+root), of which this site serves 22: four mechanically-derived English
+spelling variants (`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`) and eighteen
 genuinely translated locales (`ar-001` Arabic, `bn-001` Bengali, `cy-001` and
 `cy-gb` Welsh, `de-001` German, `es-001` Spanish, `fr-001` French, `hi-001` Hindi, `id-001`
-Indonesian, `ja-001` Japanese, `ko-001` Korean, `nl-001` Dutch, `pt-001` Portuguese, `ru-001` Russian, `ur-001` Urdu, `zh-001` and `zh-cn` Chinese). The other 12
+Indonesian, `ja-001` Japanese, `ko-001` Korean, `nl-001` Dutch, `pt-001` Portuguese, `ru-001` Russian, `sv-001` Swedish, `ur-001` Urdu, `zh-001` and `zh-cn` Chinese). The other 12
 translated locales (`ar-eg`, `bn-bd`, `de-de`, `es-es`, `fr-fr`, `hi-id`,
 `ja-jp`, `ko-kr`, `nl-nl`, `pt-pt`, `ru-ru`, `sv-se`) exist on disk but are not in
 `SERVED_LOCALE_CODES` yet.

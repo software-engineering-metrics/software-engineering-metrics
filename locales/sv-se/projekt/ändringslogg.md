@@ -34,6 +34,7 @@ Anmärkningsvärda ändringar i boken och dess verktyg. De nyaste posterna står
 
 ### Added
 
+- Avsnitten förtext, exempel, bidra och projekt (14 filer, plus ändringslogg, startsida och innehållsförteckning) har översatts till den här lokalen, med översatta katalognamn.
 - Tyska (`de-001`) lades till som 26:e fullt översatta lokal: alla 63 ämnen med matchande `.locale-peer-id`-sidofiler, identisk i innehåll med `de-de`.
   Kopplad till webbplatsen och betjänad på `/de-001/` (alias `/de/`).
 - Portugisiska (`pt-001`) lades till som 25:e fullt översatta lokal: alla 63 ämnen med matchande `.locale-peer-id`-sidofiler, identisk i innehåll med `pt-pt`.

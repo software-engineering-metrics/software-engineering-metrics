@@ -1,0 +1,62 @@
+# 关于本项目
+
+本书的项目文档：它是如何组装的，如何构建和检查，以及事实来源在哪里。关于书本身，请参阅[目录](../index.md)。
+
+## 项目地图
+
+- **书：**以四个语言区域（locale）发布在 `locales/` 下；参见
+  [spec/locales.md](https://github.com/software-engineering-metrics/software-engineering-metrics/blob/main/spec/locales.md)。
+  该语言区域 `en-gb-oxendict/topics/`（63 个文件）、`en-gb-oxendict/front-matter/` 以及第 9 部分的附录是手写的源头；
+  `en-001`、`en-gb` 和 `en-us` 由它派生。
+- **事实来源：**仓库根目录的 `spec/`（不发布到站点）。结构声明在 `spec/structure.md`，写作规则在
+  `spec/conventions.md`，拼写在 `spec/oxford-spelling.md`。其余一切都据此构建。
+- **工具：**`tools/localize.py` 派生另外三个语言区域；`tools/gen_nav.py` 生成导航；`tests/validate.py` 执行规格；
+  `justfile` 把它们串在一起。
+- **贡献者指南：**
+  仓库根目录的 [`AGENTS.md`](https://github.com/software-engineering-metrics/software-engineering-metrics/blob/main/AGENTS.md)，以及
+  [贡献部分](../contributing/index.md)中的指南。
+
+## 构建与检查
+
+验证套件运行在 Python 3 上，没有其他依赖，也不需要网络访问。任务通过 [just](https://github.com/casey/just) 运行。
+
+```sh
+just test    # validate structure, style, links, and spec-vs-disk
+just nav     # regenerate the generated navigation files
+just check   # nav, then test
+just stats   # topic and word counts
+```
+
+这个仓库保存书的内容和规格。它由另一个独立的
+[`software-engineering-metrics.github.io`](https://github.com/software-engineering-metrics/software-engineering-metrics.github.io)
+仓库渲染成网站。
+
+## 规格驱动开发在这里如何运作
+
+规格优先。`spec/structure.md` 声明有哪些主题以及如何编号。`spec/conventions.md` 声明主题应如何书写。
+主题的撰写要同时满足两者。`tools/gen_nav.py` 从主题中派生导航，`tests/validate.py` 再对照规格检查结果。
+如果主题与规格有一天出现分歧，测试就会失败，这就是让它们重新对齐的信号。
+
+这样可以防止漂移：只有当规格、主题、生成的导航和测试全部一致时，一次变更才算“完成”。
+
+## 值得了解的设计决策
+
+- **扁平、小数编号的主题。**文件是 `locales/<locale>/topics/PP-CC-slug.md`，每个语言区域使用相同的 slug。部分是整数；主题是
+  小数；N.0 是部分的导言。这让标识符保持稳定，并让工具无需目录树即可排序和分组。
+- **一个手写的语言区域，三个派生的。**`en-gb-oxendict` 是牛津拼写，大多数国际标准机构的内部风格（参见
+  `spec/oxford-spelling.md`）；`en-001`、`en-gb` 和 `en-us` 从它机械派生，因此译文永远不会偏离源头。
+- **生成的导航。**目录、内容页和主题索引都是生成的，因此永远不会偏离主题。
+- **离线、无依赖的测试。**套件只使用标准库，因此哪里都能运行，包括 CI 和 pre-commit 钩子。
+- **交叉引用保持纯文本。**正文按小数编号引用主题（“见主题 2.1”），这是规格的要求；负责渲染的站点
+  负责把这些引用变成链接。
+- **不使用长破折号，既是规则也是测试。**一项有意的风格选择，通过强制执行，使其在书增长时依然成立。
+- **每个指标家族都点明自己的操纵路径。**这是模板中唯一一条在姊妹项目 `software-engineering-guide` 中没有对应项的规则：
+  它的存在是因为本书的全部主题就是度量，所以度量本身的风险必须是一等公民，而不是隐含的。
+
+## 延伸阅读
+
+- [写作](../contributing/authoring.md) : 撰写和编辑主题。
+- [导航](../contributing/navigation.md) : 生成的文件如何运作。
+- [测试](../contributing/testing.md) : 测试检查什么，以及如何修复失败。
+- [示例](../examples/index.md) : 小而具体的示例。
+- [变更日志](changelog.md) : 重要变更的历史。

@@ -34,6 +34,7 @@ Alterações relevantes ao livro e às suas ferramentas. As entradas mais recent
 
 ### Added
 
+- As secções de preliminares, exemplos, contribuir e projeto (14 ficheiros, mais registo de alterações, página inicial e índice) foram traduzidas para este locale, com nomes de diretórios traduzidos.
 - Alemão (`de-001`) acrescentado como 26.º locale totalmente traduzido: todos os 63 temas com os ficheiros auxiliares `.locale-peer-id` correspondentes, idêntico em conteúdo a `de-de`.
   Ligado ao site e servido em `/de-001/` (alias `/de/`).
 - Português (`pt-001`) acrescentado como 25.º locale totalmente traduzido: todos os 63 temas com os ficheiros auxiliares `.locale-peer-id` correspondentes, idêntico em conteúdo a `pt-pt`.

@@ -1827,10 +1827,74 @@
     "9.6",
     "9.7"
   ],
-  "frontMatter": [],
-  "examples": [],
-  "contributing": [],
-  "project": [],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "Einleitung",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "Inhaltsverzeichnis",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "Was sind Software-Engineering-Metriken?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "Beispiel: Dashboard-Spezifikation für ein Dashboard mit Lieferkennzahlen",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "Beispiel: Metrik-Charta für ein Payments-Plattform-Team",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "Verfassen: Themen schreiben und bearbeiten",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "Themenvorlage (gemeinsam)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "Navigation: wie die generierten Dateien funktionieren",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "Teileindex (gemeinsame Referenz)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "Stilregeln (gemeinsam, durchsetzbar)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "Testen: die Validierungssuite",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "Änderungsprotokoll",
+      "file": "project/changelog.md"
+    }
+  ],
   "totals": {
     "parts": 9,
     "chapters": 63

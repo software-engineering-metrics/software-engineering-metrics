@@ -109,12 +109,14 @@ usages, most notably "incidente" to "incidencia" for this book's
 incident-metrics domain, with corresponding gender-agreement fixes
 throughout. `pt-pt`, `ja-jp`, `ru-ru`, `fr-fr`, `sv-se`, and `nl-nl` are, by contrast,
 genuine from-scratch hand translations, since no prior Portuguese, Japanese,
-Russian, French, Swedish, or Dutch locale existed to build from. None of these
-locales has a `front-matter/`, `examples/`, `contributing/`, or `project/`
-section yet (`es-001` is the exception: it has `examples/`); the site
-degrades gracefully for a missing section (an empty list, or a fallback to
-the default locale's intro copy), per
-`software-engineering-metrics.github.io/AGENTS.md`. All fourteen of `ar-001`, `bn-001`,
+Russian, French, Swedish, or Dutch locale existed to build from. Every
+translated locale carries all five sections (`topics`, `front-matter`,
+`examples`, `contributing`, `project`), each under a directory named in the
+locale's own language (see `section-names.json`), plus a translated home
+`index.md` and table of contents; `tools/gen_translated_nav.py` refreshes their
+topic lists from the topic titles. The site still degrades gracefully for a
+missing section (an empty list, or a fallback to the default locale's intro
+copy), per `software-engineering-metrics.github.io/AGENTS.md`. All fourteen of `ar-001`, `bn-001`,
 `cy-001`, `cy-gb`, `de-001`, `es-001`, `fr-001`, `hi-001`, `id-001`, `pt-001`, `ru-001`, `ur-001`, `zh-001`, and `zh-cn` are wired into the site's
 `SERVED_LOCALE_CODES` and served at their own locale-prefixed path;
 `de-de`, `ar-eg`, `bn-bd`, `hi-id`, `ko-kr`, `es-es`, `pt-pt`, `ja-jp`,

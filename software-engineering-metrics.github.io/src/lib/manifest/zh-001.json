@@ -1827,10 +1827,74 @@
     "9.6",
     "9.7"
   ],
-  "frontMatter": [],
-  "examples": [],
-  "contributing": [],
-  "project": [],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "导言",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "目录",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "什么是软件工程指标",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "示例：交付指标仪表盘的仪表盘规格",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "示例：支付平台团队的指标章程",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "写作：撰写和编辑主题",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "主题模板（共享）",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "导航：生成的文件如何运作",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "部分索引（共享参考）",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "风格规则（共享，可强制执行）",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "测试：验证套件",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "变更日志",
+      "file": "project/changelog.md"
+    }
+  ],
   "totals": {
     "parts": 9,
     "chapters": 63

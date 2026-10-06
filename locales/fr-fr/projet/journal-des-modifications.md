@@ -56,6 +56,7 @@ récentes figurent en haut. Les dates suivent la norme ISO 8601 (AAAA-MM-JJ).
 
 ### Added
 
+- Les sections liminaires, exemples, contribution et projet (14 fichiers, plus un journal des modifications, une page d'accueil et une table des matières) ont été traduites dans cette locale, avec des noms de répertoires traduits.
 - Ajout de l'allemand (`de-001`) comme 26e locale entièrement traduite : les 63
   sujets avec les fichiers annexes `.locale-peer-id` correspondants, identique en contenu à
   `de-de`. Raccordée au site et servie sur `/de-001/` (alias `/de/`).

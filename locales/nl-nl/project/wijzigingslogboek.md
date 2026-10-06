@@ -33,6 +33,7 @@ Opvallende wijzigingen aan het boek en zijn tooling. De nieuwste vermeldingen st
 
 ### Added
 
+- De secties voorwerk, voorbeelden, bijdragen en project (14 bestanden, plus wijzigingslogboek, startpagina en inhoudsopgave) zijn in deze locale vertaald, met vertaalde mapnamen.
 - Duits (`de-001`) toegevoegd als 26e volledig vertaalde locale: alle 63 onderwerpen met bijpassende `.locale-peer-id`-sidecars, inhoudelijk identiek aan `de-de`.
   Gekoppeld aan de site en aangeboden op `/de-001/` (alias `/de/`).
 - Portugees (`pt-001`) toegevoegd als 25e volledig vertaalde locale: alle 63 onderwerpen met bijpassende `.locale-peer-id`-sidecars, inhoudelijk identiek aan `pt-pt`.

@@ -56,6 +56,7 @@ oben. Daten verwenden ISO 8601 (JJJJ-MM-TT).
 
 ### Added
 
+- Die Abschnitte Vorspann, Beispiele, Mitwirken und Projekt (14 Dateien, dazu Änderungsprotokoll, Startseite und Inhaltsverzeichnis) wurden in diese Locale übersetzt, mit übersetzten Verzeichnisnamen.
 - Deutsch (`de-001`) als 26. vollständig übersetzte Locale hinzugefügt: alle 63
   Themen mit passenden `.locale-peer-id`-Sidecars, inhaltsgleich mit
   `de-de`. An die Website angebunden und unter `/de-001/` (Alias `/de/`) ausgeliefert.

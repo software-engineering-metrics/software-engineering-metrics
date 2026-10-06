@@ -1827,10 +1827,74 @@
     "9.6",
     "9.7"
   ],
-  "frontMatter": [],
-  "examples": [],
-  "contributing": [],
-  "project": [],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "परिचय",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "विषय-सूची",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "सॉफ़्टवेयर इंजीनियरिंग मेट्रिक्स क्या हैं?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "उदाहरण: डिलीवरी-मेट्रिक्स डैशबोर्ड के लिए डैशबोर्ड विनिर्देश",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "उदाहरण: एक पेमेंट प्लेटफ़ॉर्म टीम के लिए मेट्रिक्स चार्टर",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "लेखन: विषय लिखना और संपादित करना",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "विषय टेम्पलेट (साझा)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "नेविगेशन: उत्पन्न फ़ाइलें कैसे काम करती हैं",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "भाग सूची (साझा संदर्भ)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "शैली नियम (साझा, लागू करने योग्य)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "परीक्षण: सत्यापन सूट",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "परिवर्तन लॉग",
+      "file": "project/changelog.md"
+    }
+  ],
   "totals": {
     "parts": 9,
     "chapters": 63

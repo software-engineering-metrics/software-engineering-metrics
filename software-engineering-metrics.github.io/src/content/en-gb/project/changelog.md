@@ -5,6 +5,17 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ## [Unreleased]
 
+### Added
+
+- Translated the front-matter, examples, contributing, and project sections (14 files, plus a changelog, a
+  home `index.md`, and a table of contents per locale) into every translated locale: `ar`, `bn`, `cy`, `de`,
+  `es`, `fr`, `hi`, `id`, `ja`, `ko`, `nl`, `pt`, `ru`, `sv`, `ur`, and `zh`, with duplicate-pair locales
+  (`ar-001`/`ar-eg` and so on) kept identical. Directories use the per-locale names in
+  `spec/section-names.json`. New `tools/gen_translated_nav.py` refreshes each translated home page and table of
+  contents from its topic titles, `tests/validate.py` exempts the translated testing, style-rules, and index
+  documents by peer id, and the site's `scripts/sync-content.mjs` maps translated filenames in these
+  sections back to their canonical English names through the `.locale-peer-id` sidecars.
+
 ### Changed
 
 - Dutch (`nl-nl`): translated the remaining English titles and slugs of topics 9.0, 9.3, and 9.4

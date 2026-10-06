@@ -1827,10 +1827,74 @@
     "9.6",
     "9.7"
   ],
-  "frontMatter": [],
-  "examples": [],
-  "contributing": [],
-  "project": [],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "تعارف",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "فہرستِ مضامین",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "سافٹ ویئر انجینئرنگ میٹرکس کیا ہیں؟",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "مثال: ترسیل کے میٹرکس کے ڈیش بورڈ کی تفصیل",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "مثال: ادائیگیوں کے پلیٹ فارم کی ٹیم کے لیے میٹرکس کا چارٹر",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "تصنیف: موضوعات لکھنا اور ترمیم کرنا",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "موضوع کا ٹیمپلیٹ (مشترکہ)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "نیویگیشن: تیار کردہ فائلیں کیسے کام کرتی ہیں",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "حصوں کا اشاریہ (مشترکہ حوالہ)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "اسلوب کے اصول (مشترکہ، قابلِ نفاذ)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "ٹیسٹنگ: توثیق کا سیٹ",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "تبدیلیوں کا لاگ",
+      "file": "project/changelog.md"
+    }
+  ],
   "totals": {
     "parts": 9,
     "chapters": 63

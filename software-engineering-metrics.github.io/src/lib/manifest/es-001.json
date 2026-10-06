@@ -1827,7 +1827,23 @@
     "9.6",
     "9.7"
   ],
-  "frontMatter": [],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "Introducción",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "Tabla de contenidos",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "¿Qué son las métricas de ingeniería de software?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
   "examples": [
     {
       "slug": "dashboard-spec-example",
@@ -1840,8 +1856,45 @@
       "file": "examples/metrics-charter-example.md"
     }
   ],
-  "contributing": [],
-  "project": [],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "Redacción: escribir y editar temas",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "Plantilla de tema (compartida)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "Navegación: cómo funcionan los archivos generados",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "Índice de partes (referencia compartida)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "Reglas de estilo (compartidas, exigibles)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "Pruebas: la suite de validación",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "Registro de cambios",
+      "file": "project/changelog.md"
+    }
+  ],
   "totals": {
     "parts": 9,
     "chapters": 63

@@ -56,6 +56,7 @@ están arriba. Las fechas usan ISO 8601 (AAAA-MM-DD).
 
 ### Added
 
+- Se tradujeron a esta configuración regional las secciones de preliminares, ejemplos, contribución y proyecto (14 archivos, más un registro de cambios, una página de inicio y un índice), con nombres de directorio traducidos.
 - Añadido el alemán (`de-001`) como el 26.º local completamente traducido: los 63
   temas con los sidecars `.locale-peer-id` correspondientes, idéntico en contenido a
   `de-de`. Conectado al sitio y servido en `/de-001/` (alias `/de/`).

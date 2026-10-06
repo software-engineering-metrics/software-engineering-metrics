@@ -58,3 +58,13 @@ language. File names keep the `PP-CC-slug.md` form, and the template file is
 still `chapter-template.md`. A translated locale uses its own word for topic,
 the same one as its section directory (`tema`, `sujet`, `Thema`, `тема`, and
 so on).
+
+## Translated locales carry every section
+
+Each hand-translated locale has all five sections (topics, front-matter,
+examples, contributing, project) under directory names from
+`spec/section-names.json`, plus a translated home `index.md` and table of
+contents. After a topic title changes, run `python3 tools/gen_translated_nav.py`
+to refresh those topic lists. Translated testing, style-rules, and index
+documents are exempt from the English style checks by peer id in
+`tests/validate.py`.

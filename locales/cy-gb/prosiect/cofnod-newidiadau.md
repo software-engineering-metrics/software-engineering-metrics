@@ -55,6 +55,7 @@ Mae dyddiadau'n defnyddio ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- Cyfieithwyd yr adrannau pwnc agoriadol, enghreifftiau, cyfrannu a phrosiect (14 ffeil, ynghyd â chofnod newidiadau, hafan a chynnwys) i'r locale hwn, gydag enwau cyfeiriaduron wedi'u cyfieithu.
 - Ychwanegwyd Almaeneg (`de-001`) fel y 26ain locale a gyfieithwyd yn gyflawn: pob un o'r 63
   pwnc gyda ffeiliau ochr `.locale-peer-id` cyfatebol, yn union yr un cynnwys â
   `de-de`. Cysylltwyd â'r wefan a'i gwasanaethu ar `/de-001/` (alias `/de/`).

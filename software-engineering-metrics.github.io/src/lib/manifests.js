@@ -14,6 +14,7 @@ import fr001 from './manifest/fr-001.json';
 import hi001 from './manifest/hi-001.json';
 import id001 from './manifest/id-001.json';
 import ru001 from './manifest/ru-001.json';
+import ur001 from './manifest/ur-001.json';
 import zh001 from './manifest/zh-001.json';
 import zhCn from './manifest/zh-cn.json';
 import { DEFAULT_LOCALE, canonicalLocale } from './locales.js';
@@ -62,6 +63,7 @@ const MANIFESTS = {
   'hi-001': hi001,
   'id-001': id001,
   'ru-001': ru001,
+  'ur-001': ur001,
   'zh-001': zh001,
   'zh-cn': zhCn
 };

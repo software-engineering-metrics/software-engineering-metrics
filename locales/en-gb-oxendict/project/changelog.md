@@ -40,6 +40,12 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 ### Added
 
 - Completed a full, from-scratch hand translation of all 63 topics into
+  Urdu (`ur-001`, right-to-left), the 24th complete translated locale, with
+  matching `.locale-peer-id` sidecars. Every topic was translated directly
+  from the English source, the index (topic 9.7) remaps every internal link
+  to its Urdu filename, and the section directory is `موضوعات`. Wired into
+  the site and served at `/ur-001/` (alias `/ur/`).
+- Completed a full, from-scratch hand translation of all 63 topics into
   Indonesian (`id-001`), with matching `.locale-peer-id` sidecars. No prior
   Indonesian locale existed to build from, so every topic was translated
   directly from the English source, and the index (topic 9.7) remaps every

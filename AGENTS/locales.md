@@ -1,6 +1,6 @@
 # Locales
 
-The book exists in 27 locales under `locales/`. The policy lives in
+The book exists in 28 locales under `locales/`. The policy lives in
 [`../spec/locales.md`](../spec/locales.md); this file is the short version.
 
 ## Two kinds of locale
@@ -8,22 +8,22 @@ The book exists in 27 locales under `locales/`. The policy lives in
 - **Four English spelling variants**: `en-gb-oxendict` (Oxford spelling, the
   authoring source), `en-001`, `en-gb`, and `en-us`. Only `en-gb-oxendict` is
   hand-edited. Run `python3 tools/localize.py` to re-derive the other three.
-- **23 hand-translated locales**: `ar-001`, `ar-eg`, `bn-001`, `bn-bd`,
+- **24 hand-translated locales**: `ar-001`, `ar-eg`, `bn-001`, `bn-bd`,
   `cy-001`, `cy-gb`, `de-de`, `es-001`, `es-es`, `fr-001`, `fr-fr`, `hi-001`,
   `hi-id`, `id-001`, `ja-jp`, `ko-kr`, `nl-nl`, `pt-pt`, `ru-001`, `ru-ru`,
-  `sv-se`, `zh-001`, `zh-cn`. None of them is touched by `localize.py`.
+  `sv-se`, `ur-001`, `zh-001`, `zh-cn`. None of them is touched by `localize.py`.
   Several are exact copies of a sibling (`cy-gb` of `cy-001`, `ar-001` of
   `ar-eg`, `bn-001` of `bn-bd`, `fr-001` of `fr-fr`, `hi-id` of `hi-001`,
   `ru-001` of `ru-ru`, `zh-001` of `zh-cn`); when you edit one half of a pair,
   copy the result to the other so they stay identical.
 
-Planned but not started: `pt-001` and `ur-001`.
+Planned but not started: `pt-001`.
 
 ## Served on the site
 
-The site serves 15 locales: the four English variants plus `ar-001`,
+The site serves 16 locales: the four English variants plus `ar-001`,
 `bn-001`, `cy-001`, `cy-gb`, `es-001`, `fr-001`, `hi-001`, `id-001`,
-`ru-001`, `zh-001`, and `zh-cn`. The list is `SERVED_LOCALE_CODES` in
+`ru-001`, `ur-001`, `zh-001`, and `zh-cn`. The list is `SERVED_LOCALE_CODES` in
 `software-engineering-metrics.github.io/scripts/locales.mjs`. A `-001` locale
 also gets a two-letter alias (`/ar/`, `/fr/`, ...) automatically.
 

@@ -7,6 +7,10 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Added `scripts/generate-sitemap.mjs`, run at the end of `pnpm build`, which
+  writes `sitemap.xml` from the prerendered pages (canonical locale URLs only,
+  no two-letter alias duplicates) so the `Sitemap:` line in `robots.txt`
+  resolves.
 - `AGENTS.md` is now a short index; details moved to `AGENTS/layout.md`, `style.md`,
   `locales.md`, and `workflow.md`.
 - Documentation sweep: refreshed `AGENTS.md`, `index.md`, the generated
@@ -196,6 +200,10 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Added `scripts/generate-sitemap.mjs`, run at the end of `pnpm build`, which
+  writes `sitemap.xml` from the prerendered pages (canonical locale URLs only,
+  no two-letter alias duplicates) so the `Sitemap:` line in `robots.txt`
+  resolves.
 - Added topic 2.8, Lean value stream metrics (lead time, process time,
   cycle time, percent complete and accurate, and takt time from classical
   Lean value stream mapping, plus the rolled throughput yield calculation),

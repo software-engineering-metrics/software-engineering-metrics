@@ -17,5 +17,6 @@ for book content in the root `AGENTS.md` do not govern it.
 - URLs are `/<locale>/chapters/<file-name>/`. The site keeps the word
   `chapters` in URLs and routes even though the prose says "topics".
 - It publishes `llms.txt` and `llms.json` at the site root (generated, see
-  [tooling.md](tooling.md)). `robots.txt` references a `sitemap.xml` that the
-  build does not currently produce.
+  [tooling.md](tooling.md)). `pnpm build` also writes `build/sitemap.xml` (about 1,100 canonical URLs,
+  alias routes excluded) with `scripts/generate-sitemap.mjs`, which
+  `static/robots.txt` points crawlers at.

@@ -1827,10 +1827,74 @@
     "9.6",
     "9.7"
   ],
-  "frontMatter": [],
-  "examples": [],
-  "contributing": [],
-  "project": [],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "مقدمة",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "جدول المحتويات",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "ما هي مقاييس هندسة البرمجيات؟",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "مثال: مواصفات لوحة معلومات لمقاييس التسليم",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "مثال: ميثاق مقاييس لفريق منصة المدفوعات",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "التأليف: كتابة المواضيع وتحريرها",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "قالب الموضوع (مشترك)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "التنقل: كيف تعمل الملفات المولَّدة",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "فهرس الأجزاء (مرجع مشترك)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "قواعد الأسلوب (مشتركة، قابلة للفرض)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "الاختبار: حزمة التحقق",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "سجل التغييرات",
+      "file": "project/changelog.md"
+    }
+  ],
   "totals": {
     "parts": 9,
     "chapters": 63

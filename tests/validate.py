@@ -51,6 +51,23 @@ for _loc in LOCALES:
     STYLE_EXEMPT.add(f"locales/{_loc}/contributing/style-rules.md")
     STYLE_EXEMPT.add(f"locales/{_loc}/contributing/index.md")
 
+def _peer_id_files(directory):
+    out = {}
+    for _sc in glob.glob(os.path.join(directory, "*.locale-peer-id")):
+        out[open(_sc, encoding="utf-8").read().strip()] = _sc[: -len(".locale-peer-id")] + ".md"
+    return out
+
+# Hand-translated locales keep translated file and directory names, so their
+# copies of those three files are found through the shared .locale-peer-id.
+_ref_contrib = _peer_id_files(os.path.join(ROOT, "locales", REFERENCE_LOCALE, "contributing"))
+_exempt_ids = {i for i, f in _ref_contrib.items()
+               if os.path.basename(f) in ("testing.md", "style-rules.md", "index.md")}
+for _loc_dir in glob.glob(os.path.join(ROOT, "locales", "*")):
+    _loc = os.path.basename(_loc_dir)
+    for _id, _f in _peer_id_files(os.path.join(_loc_dir, section_dir(_loc, "contributing"))).items():
+        if _id in _exempt_ids:
+            STYLE_EXEMPT.add(os.path.relpath(_f, ROOT))
+
 failures = []
 def check(name, ok, detail=""):
     print(f"[{'PASS' if ok else 'FAIL'}] {name}" + (f"  {detail}" if detail and not ok else ""))

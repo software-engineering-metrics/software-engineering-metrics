@@ -50,10 +50,20 @@ jobs:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
-      - name: Ask software-engineering-metrics.github.io to redeploy
+      - name: Push a deploy trigger to software-engineering-metrics.github.io
         env:
-          GH_TOKEN: ${{ secrets.PAGES_DISPATCH_TOKEN }}
+          DEPLOY_KEY: ${{ secrets.PAGES_DEPLOY_KEY }}
         run: |
-          gh api repos/software-engineering-metrics/software-engineering-metrics.github.io/dispatches \
-            --method POST \
-            --input - <<< '{"event_type":"monorepo-updated","client_payload":{"ref":"main"}}'
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          export GIT_SSH_COMMAND="ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes"
+          git clone --depth 1 git@github.com:software-engineering-metrics/software-engineering-metrics.github.io.git pages
+          cd pages
+          printf 'monorepo %s\n' "$GITHUB_SHA" > .deploy-trigger
+          git config user.name "monorepo deploy"
+          git config user.email "noreply@github.com"
+          git add .deploy-trigger
+          git commit -m "Deploy monorepo ${GITHUB_SHA::7}"
+          git push origin HEAD:main

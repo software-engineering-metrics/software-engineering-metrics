@@ -4,7 +4,7 @@
   import { page } from '$app/state';
   import PickerBar from '@lilydesignsystem/svelte-picker-bar';
   import Sidebar from '#lib/Sidebar.svelte';
-  import { LOCALE_CODES, LOCALE_LABELS, DEFAULT_LOCALE, localePrefix, canonicalLocale } from '#lib/locales.js';
+  import { LOCALE_CODES, LOCALE_LABELS, DEFAULT_LOCALE, localePrefix } from '#lib/locales.js';
   import { ui } from '#lib/i18n.js';
 
   let { children } = $props();
@@ -18,10 +18,7 @@
   let prefix = $derived(localePrefix(currentLocale));
   let t = $derived(ui(page.params.locale));
 
-  // currentLocale may be a two-letter alias ("en"), which LOCALE_CODES
-  // doesn't list; the picker's own selection display needs the canonical
-  // code to match an entry, while every link above keeps using the alias.
-  let pickerLocale = $derived(canonicalLocale(currentLocale));
+  let pickerLocale = $derived(currentLocale);
 
   // The picker bar's LocalePicker only sets `lang`/`dir` on <html> by
   // default; this site's locales are separate prerendered routes, so
@@ -31,8 +28,6 @@
   // and onChange navigates when the *picker* is what changed it.
   /** @param {string} nextLocale */
   function onLocaleChange(nextLocale) {
-    // Compare canonical codes: the picker reports "en-001" while the URL may
-    // legitimately be the alias "/en/", which must not bounce to "/en-001/".
     if (nextLocale === pickerLocale) return;
     // A search (/?<target>) is on the root page: the picker's automatic
     // restore of the stored locale must not navigate away and drop it.

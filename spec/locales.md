@@ -66,9 +66,9 @@ Every directory under `locales/` is named `<language>-<region>`, a lowercase
 two-letter language code, a hyphen, and a region (`cy-gb`, `de-de`) or the
 UN M49 "world" code `001` for an international variant (`en-001`, `fr-001`).
 `en-gb-oxendict` adds one trailing variant subtag. A bare two-letter name
-(`locales/en/`) is never a directory: two-letter forms exist only as the
-site's URL aliases for `-001` locales (`/en/` renders `/en-001/`), and
-`tests/validate.py` fails if one appears.
+(`locales/en/`) is never a directory, and is never a site route either (`/en/` is a
+404): a locale is served only at its own code. `tests/validate.py` fails if a
+two-letter directory appears.
 
 ## Every content file carries a `.locale-peer-id`
 
@@ -146,9 +146,8 @@ the default locale's intro copy), per
 ### Routing
 
 - Each served locale is reachable at its own prefix: `/en-001/`, `/cy-gb/`.
-- Every served `-001` locale also has a two-letter alias that renders the
-  same content: `/en/` renders `/en-001/` (see the site's
-  `spec/locale-aliases/index.md`). Neither address redirects to the other.
+- There are no two-letter alias routes: `/en/` is a 404, and `/en-001/` is
+  English (world). Nothing redirects between them.
 - The root `/` redirects client-side by the browser's `navigator.languages`
   then `navigator.language`: an exact match (`cy_GB` to `/cy-gb/`), else the
   language's `-001` locale itself (`en-AU` to `/en-001/`, not `/en/`), else

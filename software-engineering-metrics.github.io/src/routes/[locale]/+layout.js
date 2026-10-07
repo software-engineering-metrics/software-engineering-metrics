@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { ROUTABLE_LOCALE_CODES } from '#lib/locales.js';
+import { LOCALE_CODES } from '#lib/locales.js';
 
 export const prerender = true;
 
@@ -10,13 +10,12 @@ export const prerender = true;
 // for [slug] leaves, by its own entries() (see spec/locales.md in the
 // sibling content repo).
 //
-// ROUTABLE_LOCALE_CODES (not LOCALE_CODES) so a two-letter "-001" alias
-// ("/en") validates too, not just its canonical locale ("/en-001"); params.
-// locale stays whatever the visitor's URL actually had, alias or canonical,
-// for every link generated further down the tree (see localePrefix() call
+// A locale segment is valid only when it is exactly a served locale code
+// (LOCALE_CODES): "/en-001/" is a locale, "/en/" is a 404. params.locale is
+// used as-is for every link generated further down the tree (see localePrefix() call
 // sites) to keep pointing at that same prefix.
 export function load({ params }) {
-  if (!ROUTABLE_LOCALE_CODES.includes(params.locale)) {
+  if (!LOCALE_CODES.includes(params.locale)) {
     error(404, 'Locale not found');
   }
   return { locale: params.locale };

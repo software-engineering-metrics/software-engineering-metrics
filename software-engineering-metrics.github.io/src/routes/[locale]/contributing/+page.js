@@ -1,15 +1,14 @@
 import { error } from '@sveltejs/kit';
-import { DEFAULT_LOCALE, canonicalLocale } from '#lib/locales.js';
+import { DEFAULT_LOCALE } from '#lib/locales.js';
 
 export const prerender = true;
 
 // See [locale]/examples/+page.js for why this uses import.meta.glob rather
-// than a locale-parameterized dynamic import, and why params.locale needs
-// canonicalLocale() before it is used as a lookup key.
+// than a locale-parameterized dynamic import.
 const modules = import.meta.glob('/src/content/*/contributing/index.md');
 
 export async function load({ params }) {
-  const locale = canonicalLocale(params.locale);
+  const locale = params.locale;
   const key =
     Object.keys(modules).find((k) => k.includes(`/content/${locale}/contributing/index.md`)) ??
     Object.keys(modules).find((k) => k.includes(`/content/${DEFAULT_LOCALE}/contributing/index.md`));

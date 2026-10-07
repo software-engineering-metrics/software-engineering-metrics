@@ -22,7 +22,7 @@
 //   a. an exact, case-insensitive match against a served code
 //      ("en-GB" -> "en-gb"), then
 //   b. the language's international superset: "<language>-001" if served
-//      ("en-AU" -> "en-001", never the "/en/" alias), then
+//      ("en-AU" -> "en-001"), then
 //   c. a primary-language match against the first "-"-delimited segment of
 //      each served code (first served code starting "<language>-",
 //      preferring defaultCode if it is one of the candidates).

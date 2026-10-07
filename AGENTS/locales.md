@@ -24,8 +24,8 @@ No locale is planned but not started.
 The site serves 22 locales: the four English variants plus `ar-001`,
 `bn-001`, `cy-001`, `cy-gb`, `de-001`, `es-001`, `fr-001`, `hi-001`, `id-001`,
 `ja-001`, `ko-001`, `nl-001`, `pt-001`, `ru-001`, `sv-001`, `ur-001`, `zh-001`, and `zh-cn`. The list is `SERVED_LOCALE_CODES` in
-`software-engineering-metrics.github.io/scripts/locales.mjs`. A `-001` locale
-also gets a two-letter alias (`/ar/`, `/fr/`, ...) automatically.
+`software-engineering-metrics.github.io/scripts/locales.mjs`. A locale is served
+only at its own code: `/ar-001/` exists, `/ar/` is a 404.
 
 ## Section directory names are per locale
 

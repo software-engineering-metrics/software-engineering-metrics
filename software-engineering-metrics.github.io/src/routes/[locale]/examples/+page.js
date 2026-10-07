@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { DEFAULT_LOCALE, canonicalLocale } from '#lib/locales.js';
+import { DEFAULT_LOCALE } from '#lib/locales.js';
 
 export const prerender = true;
 
@@ -11,10 +11,7 @@ export const prerender = true;
 const modules = import.meta.glob('/src/content/*/examples/index.md');
 
 export async function load({ params }) {
-  // canonicalLocale(): the glob above only ever discovers canonical locale
-  // directories (src/content/en-001/..., never src/content/en/...), so an
-  // alias param ("en") must resolve before it is used as a lookup key.
-  const locale = canonicalLocale(params.locale);
+  const locale = params.locale;
   const key =
     Object.keys(modules).find((k) => k.includes(`/content/${locale}/examples/index.md`)) ??
     Object.keys(modules).find((k) => k.includes(`/content/${DEFAULT_LOCALE}/examples/index.md`));

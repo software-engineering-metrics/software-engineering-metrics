@@ -80,7 +80,7 @@ trying each served locale code:
 2. **International superset.** If no code matched exactly, take the
    tag's primary language subtag (everything before the first `-`) and
    use `<language>-001` if it is served. `"en-AU"` → `en-001`, so the root
-   page redirects to `/en-001/` (not the `/en/` alias).
+   page redirects to `/en-001/`.
 3. **Primary-language match.** If the language has no `-001` locale, find
    served codes whose own primary subtag (same rule) matches the language.
    `"ko-US"` with only `ko-kr` served → language `ko` → `ko-kr`. When more

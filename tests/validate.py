@@ -328,7 +328,7 @@ check("skills/ and .claude/skills/ are identical (copy skills/ over .claude/skil
 
 # 13. Every directory under locales/ is named "<language>-<region>" (for
 # example "en-001", "cy-gb"; "en-gb-oxendict" adds a variant). Bare
-# two-letter names ("en") are site URL aliases only, never directories.
+# two-letter names ("en") are never directories, and never site routes.
 _bad_locale_dirs = [d for d in sorted(os.listdir(os.path.join(ROOT, "locales")))
                     if os.path.isdir(os.path.join(ROOT, "locales", d))
                     and not re.fullmatch(r"[a-z]{2}-[a-z0-9]{2,3}(-[a-z]+)?", d)]

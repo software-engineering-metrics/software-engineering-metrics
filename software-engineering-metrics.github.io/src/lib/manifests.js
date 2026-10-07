@@ -23,7 +23,7 @@ import sv001 from './manifest/sv-001.json';
 import ur001 from './manifest/ur-001.json';
 import zh001 from './manifest/zh-001.json';
 import zhCn from './manifest/zh-cn.json';
-import { DEFAULT_LOCALE, canonicalLocale } from './locales.js';
+import { DEFAULT_LOCALE } from './locales.js';
 
 /**
  * @typedef {object} Chapter
@@ -85,6 +85,5 @@ const MANIFESTS = {
  * @returns {Manifest}
  */
 export function getManifest(locale) {
-  const resolved = canonicalLocale(locale) ?? DEFAULT_LOCALE;
-  return MANIFESTS[resolved] ?? MANIFESTS[DEFAULT_LOCALE];
+  return MANIFESTS[locale ?? DEFAULT_LOCALE] ?? MANIFESTS[DEFAULT_LOCALE];
 }

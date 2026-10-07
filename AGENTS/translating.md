@@ -45,7 +45,7 @@ glossary file, so terminology and the required section headings stay consistent.
    usually in `LOCALE_LABELS` already), add an `import` and an entry in
    `src/lib/manifests.js`, then run `pnpm content` and `pnpm build` from the
    site directory. Update the locale counts in `AGENTS.md`,
-   `AGENTS/locales.md`, and the site's `AGENTS.md` and `README.md`.
+   `AGENTS/locales.md`, and the site's `AGENTS/locales.md` and `README.md`.
 4. Run `just llms` so `llms.txt` and `llms.json` list it.
 5. Run `just test`.
 

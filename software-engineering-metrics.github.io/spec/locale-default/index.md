@@ -77,14 +77,17 @@ trying each served locale code:
 1. **Exact, case-insensitive match.** Normalize the tag (trim,
    lowercase, underscores to hyphens) and compare it directly against
    each served code. `"en-GB"` → `en-gb`. `"zh-CN"` → `zh-cn`.
-2. **Primary-language match.** If no code matched exactly, take the
+2. **International superset.** If no code matched exactly, take the
    tag's primary language subtag (everything before the first `-`) and
-   find served codes whose own primary subtag (same rule) matches it.
-   `"es-MX"` → language `es` → `es-001` (the only served code starting
-   `es-`). `"en-NZ"` → language `en` → four candidates
-   (`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`); when more than one
-   served code shares a language, prefer `defaultCode` if it is among
-   the candidates, otherwise take the first candidate in
+   serve the language's bare alias route `/<language>/` when
+   `<language>-001` is served (the alias renders the same content as
+   `/<language>-001/`). `"en-AU"` → `en`, so the root page redirects to
+   `/en/`.
+3. **Primary-language match.** If the language has no `-001` locale, find
+   served codes whose own primary subtag (same rule) matches the language.
+   `"ko-US"` with only `ko-kr` served → language `ko` → `ko-kr`. When more
+   than one served code shares a language, prefer `defaultCode` if it is
+   among the candidates, otherwise take the first candidate in
    `SERVED_LOCALE_CODES` order.
 
 A tag that matches nothing (step 1 and step 2 both empty) is skipped and
@@ -95,10 +98,10 @@ the next tag in priority order is tried.
 | Input tags | Result | Why |
 | --- | --- | --- |
 | `["zh-CN"]` | `zh-cn` | exact match |
-| `["zh-TW", "zh"]` | `zh-cn` | `zh-TW` matches nothing exactly or by language (no `zh-tw` served); `zh` → language `zh` → `zh-cn` |
+| `["zh-TW"]` | `zh` (redirects to `/zh/`) | no `zh-tw` served; superset `zh-001` is served, via its alias |
 | `["en-GB"]` | `en-gb` | exact match (not `en-gb-oxendict`, even though it also starts `en-gb`) |
-| `["en-NZ"]` | `en-us` | language `en` has four candidates; `en-us` is `defaultCode` so it wins |
-| `["es-MX"]` | `es-001` | language `es` → only served `es-` code |
+| `["en-AU"]` | `en` (redirects to `/en/`) | no `en-au` served; superset `en-001` is served, via its alias |
+| `["es-MX"]` | `es` (redirects to `/es/`) | no `es-mx` served; superset `es-001` is served, via its alias |
 | `["fr-FR", "fr"]` | `en-us` (`defaultCode`) | French is not a served locale; nothing matches at either tier |
 | `[]` or `undefined` | `en-us` (`defaultCode`) | no tags to try |
 

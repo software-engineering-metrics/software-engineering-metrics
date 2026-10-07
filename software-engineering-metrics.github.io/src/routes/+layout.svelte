@@ -31,7 +31,9 @@
   // and onChange navigates when the *picker* is what changed it.
   /** @param {string} nextLocale */
   function onLocaleChange(nextLocale) {
-    if (nextLocale === currentLocale) return;
+    // Compare canonical codes: the picker reports "en-001" while the URL may
+    // legitimately be the alias "/en/", which must not bounce to "/en-001/".
+    if (nextLocale === pickerLocale) return;
     // A search (/?<target>) is on the root page: the picker's automatic
     // restore of the stored locale must not navigate away and drop it.
     if (page.url.pathname === '/' && page.url.search) return;

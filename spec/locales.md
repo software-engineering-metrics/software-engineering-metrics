@@ -60,6 +60,16 @@ Every substitution list in `tools/localize.py` is restricted to word forms
 verified present in the source text, not the full theoretical vocabulary of
 each spelling variant, to keep the derivation auditable.
 
+## Locale directory names
+
+Every directory under `locales/` is named `<language>-<region>`, a lowercase
+two-letter language code, a hyphen, and a region (`cy-gb`, `de-de`) or the
+UN M49 "world" code `001` for an international variant (`en-001`, `fr-001`).
+`en-gb-oxendict` adds one trailing variant subtag. A bare two-letter name
+(`locales/en/`) is never a directory: two-letter forms exist only as the
+site's URL aliases for `-001` locales (`/en/` renders `/en-001/`), and
+`tests/validate.py` fails if one appears.
+
 ## Every content file carries a `.locale-peer-id`
 
 Alongside its content, every topic, front-matter file, example, contributing

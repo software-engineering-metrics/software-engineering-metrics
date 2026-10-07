@@ -13,6 +13,8 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Added
 
+- `spec/locales.md` now requires every `locales/` directory to be named `<language>-<region>`; bare two-letter names are
+  site URL aliases only, and `tests/validate.py` enforces it. No two-letter directory existed, so nothing was deleted.
 - Added Swedish (`sv-001`) as the 30th complete translated locale: all 63 topics and every other section, with matching
   `.locale-peer-id` sidecars, identical in content to `sv-se`. Wired into the site and served at `/sv-001/` (alias `/sv/`).
 - Added Japanese (`ja-001`), Korean (`ko-001`), and Dutch (`nl-001`) as the 27th to 29th complete translated

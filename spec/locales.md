@@ -91,46 +91,69 @@ adding a topic, before `just test`.
 
 ## Translated locales
 
-Twenty-six translated locales (a different language, hand-translated,
-with their own slugs) are complete: Welsh (`cy-001`), Spanish (`es-001`),
-Hindi (`hi-001`), Chinese, China (`zh-cn`), German, Germany (`de-de`),
-Arabic, Egypt (`ar-eg`), Bengali, Bangladesh (`bn-bd`), Hindi, India
-(`hi-id`), Korean, Korea (`ko-kr`), Spanish, Spain (`es-es`),
-Portuguese, Portugal (`pt-pt`), Japanese, Japan (`ja-jp`), Russian,
-Russia (`ru-ru`), French, France (`fr-fr`), Swedish, Sweden
-(`sv-se`), Dutch, Netherlands (`nl-nl`), Welsh, Great Britain
-(`cy-gb`), Arabic (`ar-001`), Bengali (`bn-001`), French (`fr-001`), Russian
-(`ru-001`), Chinese (`zh-001`), Indonesian (`id-001`), Urdu (`ur-001`), Portuguese (`pt-001`), and German (`de-001`), each with all 63
-topics and a section directory on disk (see [Section directory names](#section-directory-names)).
-`cy-gb` is identical in content to `cy-001`, `ar-001` to `ar-eg`,
-`bn-001` to `bn-bd`, `fr-001` to `fr-fr`, `ru-001` to `ru-ru`, and
-`zh-001` to `zh-cn`, `pt-001` to `pt-pt`, `de-001` to `de-de` (none has country-specific usage to remove), each with
-the same relationship as `hi-id` to `hi-001`. `id-001` is, by contrast, a
-genuine from-scratch hand translation, since no prior Indonesian locale
-existed to build from, and so is `ur-001` (Urdu, right-to-left). `hi-id` is identical in content to `hi-001` (standard Hindi has no distinct
-India-specific variant the way some other languages do; `hi-id` simply
-gives the same translation a country-tagged locale code, the same
-relationship `en-001` has to `en-gb-oxendict`). `es-es` started from a copy
-of `es-001` (which turned out, on inspection, to already be grammatically
-neutral: no `vosotros`/`ustedes` forms, and vocabulary mostly already
-Spain-leaning, "fallo" over "falla", "rendimiento" over "desempeño") and
-then received a targeted terminology pass to the remaining minority
-usages, most notably "incidente" to "incidencia" for this book's
-incident-metrics domain, with corresponding gender-agreement fixes
-throughout. `pt-pt`, `ja-jp`, `ru-ru`, `fr-fr`, `sv-se`, and `nl-nl` are, by contrast,
-genuine from-scratch hand translations, since no prior Portuguese, Japanese,
-Russian, French, Swedish, or Dutch locale existed to build from. Every
-translated locale carries all five sections (`topics`, `front-matter`,
-`examples`, `contributing`, `project`), each under a directory named in the
-locale's own language (see `section-names.json`), plus a translated home
-`index.md` and table of contents; `tools/gen_translated_nav.py` refreshes their
-topic lists from the topic titles. The site still degrades gracefully for a
-missing section (an empty list, or a fallback to the default locale's intro
-copy), per `software-engineering-metrics.github.io/AGENTS.md`. All eighteen of `ar-001`, `bn-001`,
-`cy-001`, `cy-gb`, `de-001`, `es-001`, `fr-001`, `hi-001`, `id-001`, `ja-001`, `ko-001`, `nl-001`, `pt-001`, `ru-001`, `sv-001`, `ur-001`, `zh-001`, and `zh-cn` are wired into the site's
-`SERVED_LOCALE_CODES` and served at their own locale-prefixed path;
-`de-de`, `ar-eg`, `bn-bd`, `hi-id`, `ko-kr`, `es-es`, `pt-pt`, `ja-jp`,
-`ru-ru`, `fr-fr`, `sv-se`, and `nl-nl` are not wired into the site.
+Thirty hand-translated locales (a different language, with their own
+slugs) are complete. Each has all 63 topics plus the other four sections,
+a translated home `index.md` and table of contents, and a section directory
+named in its own language (see [Section directory names](#section-directory-names));
+`tools/gen_translated_nav.py` refreshes the topic lists from the topic
+titles. None is touched by `tools/localize.py`.
+
+| Language | Locales | Relationship |
+| --- | --- | --- |
+| Arabic | `ar-001`, `ar-eg` | identical copies; `ar-eg` is the hand translation |
+| Bengali | `bn-001`, `bn-bd` | identical copies; `bn-bd` is the hand translation |
+| Welsh | `cy-001`, `cy-gb` | identical copies; `cy-001` is the hand translation |
+| German | `de-001`, `de-de` | identical copies; `de-de` is the hand translation |
+| Spanish | `es-001`, `es-es` | `es-es` started as a copy of `es-001` plus a terminology pass (below) |
+| French | `fr-001`, `fr-fr` | identical copies; `fr-fr` is the hand translation |
+| Hindi | `hi-001`, `hi-id` | identical copies; `hi-001` is the hand translation |
+| Indonesian | `id-001` | single locale, hand translation |
+| Japanese | `ja-001`, `ja-jp` | identical copies; `ja-jp` is the hand translation |
+| Korean | `ko-001`, `ko-kr` | identical copies; `ko-kr` is the hand translation |
+| Dutch | `nl-001`, `nl-nl` | identical copies; `nl-nl` is the hand translation |
+| Portuguese | `pt-001`, `pt-pt` | identical copies; `pt-pt` is the hand translation |
+| Russian | `ru-001`, `ru-ru` | identical copies; `ru-ru` is the hand translation |
+| Swedish | `sv-001`, `sv-se` | identical copies; `sv-se` is the hand translation |
+| Urdu | `ur-001` | single locale, hand translation (right-to-left) |
+| Chinese | `zh-001`, `zh-cn` | identical copies; `zh-cn` is the hand translation |
+
+A `-001` copy exists so the site can serve a language-wide international
+locale; standard languages such as Hindi have no distinct country-specific
+variant to translate separately. When you edit one half of a pair, copy
+the result to the other so they stay identical.
+
+`es-es` started from a copy of `es-001` (which turned out, on inspection,
+to already be grammatically neutral: no `vosotros`/`ustedes` forms, and
+vocabulary mostly already Spain-leaning, "fallo" over "falla",
+"rendimiento" over "desempeño") and then received a targeted terminology
+pass on the remaining minority usages, most notably "incidente" to
+"incidencia" for this book's incident-metrics domain, with corresponding
+gender-agreement fixes throughout. Every other language was translated
+from the English source directly, since no prior locale existed to build
+from. Welsh terminology follows the Welsh Government's TermCymru list.
+
+### Served on the site
+
+Eighteen translated locales are wired into the site's
+`SERVED_LOCALE_CODES` (`scripts/locales.mjs`): every `-001` locale, plus
+`cy-gb` and `zh-cn`. The country-tagged hand translations (`ar-eg`,
+`bn-bd`, `de-de`, `es-es`, `fr-fr`, `hi-id`, `ja-jp`, `ko-kr`, `nl-nl`,
+`pt-pt`, `ru-ru`, `sv-se`) exist on disk but are not served. A missing
+section degrades gracefully on the site (an empty list, or a fallback to
+the default locale's intro copy), per
+`software-engineering-metrics.github.io/AGENTS.md`.
+
+### Routing
+
+- Each served locale is reachable at its own prefix: `/en-001/`, `/cy-gb/`.
+- Every served `-001` locale also has a two-letter alias that renders the
+  same content: `/en/` renders `/en-001/` (see the site's
+  `spec/locale-aliases/index.md`). Neither address redirects to the other.
+- The root `/` redirects client-side by the browser's `navigator.languages`
+  then `navigator.language`: an exact match (`cy_GB` to `/cy-gb/`), else the
+  language's `-001` locale itself (`en-AU` to `/en-001/`, not `/en/`), else
+  any served locale of that language, else `/en-us/`. See the site's
+  `spec/locale-default/index.md`.
 
 ## Section directory names
 

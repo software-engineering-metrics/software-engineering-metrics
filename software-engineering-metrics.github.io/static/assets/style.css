@@ -286,7 +286,7 @@ kbd {
   position: absolute;
   z-index: 20;
   inset-block-start: calc(100% + 0.35rem);
-  inset-inline-end: 0;
+  inset-inline-start: 0;
   padding: 0.35rem;
   background: var(--lily-surface-alt);
   border: 1px solid var(--lily-border);
@@ -313,6 +313,32 @@ kbd {
   border: 1px solid var(--lily-border-strong);
   border-radius: var(--lily-radius-md);
   cursor: pointer;
+}
+
+/* Narrow screens: the search field opens over the row of picker buttons,
+ * full width inside the header, so it covers neither the nav links nor the
+ * content. The other pickers are hidden only while searching. The theme
+ * positions the panel inside :where() (no specificity), so these plain class
+ * selectors override it. */
+@media (max-width: 40rem) {
+  .picker-bar { position: relative; }
+  .search-picker { position: static; }
+  .search-picker-panel {
+    inset-block: 0;
+    inset-inline: 0;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background: var(--lily-surface-alt);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .search-picker-panel[hidden] { display: none; }
+  .search-picker-form { inline-size: 100%; }
+  .search-picker-input { flex: 1; min-inline-size: 0; }
+  .picker-bar:has(.search-picker-button[aria-expanded="true"]) > :not(.search-picker) { visibility: hidden; }
+  .search-picker-button[aria-expanded="true"] { visibility: hidden; }
 }
 .search-picker-tooltip, .theme-picker-tooltip, .locale-picker-tooltip, .text-size-picker-tooltip, .share-picker-tooltip {
   position: absolute;

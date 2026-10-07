@@ -21,10 +21,8 @@
 // Matching a tag against the served codes tries, per tag:
 //   a. an exact, case-insensitive match against a served code
 //      ("en-GB" -> "en-gb"), then
-//   b. the language's international superset route: when "<language>-001"
-//      is served, its bare language alias "<language>", which renders the
-//      same content ("en-AU" with no "en-au" -> "en", which renders
-//      "en-001"), then
+//   b. the language's international superset: "<language>-001" if served
+//      ("en-AU" -> "en-001", never the "/en/" alias), then
 //   c. a primary-language match against the first "-"-delimited segment of
 //      each served code (first served code starting "<language>-",
 //      preferring defaultCode if it is one of the candidates).
@@ -49,9 +47,8 @@ function matchTag(tag, servedCodes, defaultCode) {
   const language = normalized.split('-')[0];
   if (!language) return undefined;
 
-  // "<language>" is an alias route of "<language>-001" (LOCALE_ALIASES), so it
-  // exists exactly when "<language>-001" is served.
-  if (servedCodes.some((code) => code.toLowerCase() === `${language}-001`)) return language;
+  const superset = servedCodes.find((code) => code.toLowerCase() === `${language}-001`);
+  if (superset) return superset;
 
   const candidates = servedCodes.filter((code) => code.toLowerCase().split('-')[0] === language);
   if (candidates.length === 0) return undefined;

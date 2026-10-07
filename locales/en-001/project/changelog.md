@@ -8,8 +8,8 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 ### Changed
 
 - Site: the root page's browser-language redirect now falls back to a language's international superset
-  when there is no exact match: `en-AU` goes to `/en/` (the same content as `/en-001/`), `es-MX` to `/es/`, and
-  `zh-TW` to `/zh/`. An alias URL such as `/en/` no longer bounces to `/en-001/` through the locale picker.
+  when there is no exact match: `en-AU` goes to `/en-001/`, `es-MX` to `/es-001/`, and
+  `zh-TW` to `/zh-001/`. An alias URL such as `/en/` no longer bounces to `/en-001/` through the locale picker.
 
 ### Added
 

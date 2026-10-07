@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import { browser } from '$app/env';
-  import { LOCALE_CODES, LOCALE_ALIASES, DEFAULT_LOCALE, localePrefix } from '#lib/locales.js';
+  import { LOCALE_CODES, DEFAULT_LOCALE, localePrefix } from '#lib/locales.js';
   import { pickLocale } from '#lib/detect-locale.js';
 
   const fallbackHref = `${localePrefix(DEFAULT_LOCALE)}/`;
@@ -12,10 +12,7 @@
     // /?<target> is a site search (spec/search); SearchGate shows the results.
     if (location.search) return;
     const locale = pickLocale(LOCALE_CODES, DEFAULT_LOCALE);
-    // A -001 superset locale is reached through its short alias ("/en/"),
-    // which renders the same content as "/en-001/".
-    const alias = Object.keys(LOCALE_ALIASES).find((a) => LOCALE_ALIASES[a] === locale);
-    goto(`${localePrefix(alias ?? locale)}/`, { replaceState: true });
+    goto(`${localePrefix(locale)}/`, { replaceState: true });
   });
 </script>
 

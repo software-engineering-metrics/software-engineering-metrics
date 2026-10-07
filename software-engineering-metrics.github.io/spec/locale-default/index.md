@@ -79,10 +79,8 @@ trying each served locale code:
    each served code. `"en-GB"` → `en-gb`. `"zh-CN"` → `zh-cn`.
 2. **International superset.** If no code matched exactly, take the
    tag's primary language subtag (everything before the first `-`) and
-   serve the language's bare alias route `/<language>/` when
-   `<language>-001` is served (the alias renders the same content as
-   `/<language>-001/`). `"en-AU"` → `en`, so the root page redirects to
-   `/en/`.
+   use `<language>-001` if it is served. `"en-AU"` → `en-001`, so the root
+   page redirects to `/en-001/` (not the `/en/` alias).
 3. **Primary-language match.** If the language has no `-001` locale, find
    served codes whose own primary subtag (same rule) matches the language.
    `"ko-US"` with only `ko-kr` served → language `ko` → `ko-kr`. When more
@@ -98,10 +96,10 @@ the next tag in priority order is tried.
 | Input tags | Result | Why |
 | --- | --- | --- |
 | `["zh-CN"]` | `zh-cn` | exact match |
-| `["zh-TW"]` | `zh` (redirects to `/zh/`) | no `zh-tw` served; superset `zh-001` is served, via its alias |
+| `["zh-TW"]` | `zh-001` | no `zh-tw` served; superset `zh-001` is served |
 | `["en-GB"]` | `en-gb` | exact match (not `en-gb-oxendict`, even though it also starts `en-gb`) |
-| `["en-AU"]` | `en` (redirects to `/en/`) | no `en-au` served; superset `en-001` is served, via its alias |
-| `["es-MX"]` | `es` (redirects to `/es/`) | no `es-mx` served; superset `es-001` is served, via its alias |
+| `["en-AU"]` | `en-001` (redirects to `/en-001/`) | no `en-au` served; superset `en-001` is served |
+| `["es-MX"]` | `es-001` | no `es-mx` served; superset `es-001` is served |
 | `["fr-FR", "fr"]` | `en-us` (`defaultCode`) | French is not a served locale; nothing matches at either tier |
 | `[]` or `undefined` | `en-us` (`defaultCode`) | no tags to try |
 

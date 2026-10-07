@@ -314,20 +314,21 @@ kbd {
   border-radius: var(--lily-radius-md);
   cursor: pointer;
 }
-.search-picker-tooltip {
+.search-picker-tooltip, .theme-picker-tooltip, .locale-picker-tooltip, .text-size-picker-tooltip, .share-picker-tooltip {
   position: absolute;
   z-index: 20;
   inset-block-start: calc(100% + 0.35rem);
   inset-inline-end: 0;
   padding: 0.2rem 0.5rem;
   font-size: 0.8rem;
+  inline-size: max-content;
   white-space: nowrap;
   color: var(--lily-text);
   background: var(--lily-surface-alt);
   border: 1px solid var(--lily-border);
   border-radius: var(--lily-radius-md);
 }
-.search-picker-tooltip[hidden] { display: none; }
+.search-picker-tooltip[hidden], .theme-picker-tooltip[hidden], .locale-picker-tooltip[hidden], .text-size-picker-tooltip[hidden], .share-picker-tooltip[hidden] { display: none; }
 
 .share-picker-target, .share-picker-copy {
   display: block;

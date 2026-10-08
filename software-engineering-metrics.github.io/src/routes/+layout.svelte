@@ -39,6 +39,18 @@
     goto(`${localePrefix(nextLocale)}${remainder}`);
   }
 
+  const REPO = 'https://github.com/software-engineering-metrics/software-engineering-metrics';
+  let pickerLinks = $derived([
+    { label: t.pickerLinks.home, href: `${prefix}/`, current: page.url.pathname === `${prefix}/` },
+    { label: t.pickerLinks.contentSource, href: REPO, newTab: true },
+    { label: t.pickerLinks.siteSource, href: `${REPO}.github.io`, newTab: true },
+    { label: t.pickerLinks.issues, href: `${REPO}/issues`, newTab: true },
+    { label: t.pickerLinks.llms, href: '/llms.txt', newTab: true },
+    { label: t.pickerLinks.dora, href: 'https://dora.dev/', newTab: true },
+    { label: t.pickerLinks.space, href: 'https://queue.acm.org/detail.cfm?id=3454124', newTab: true },
+    { label: t.pickerLinks.goodhart, href: 'https://en.wikipedia.org/wiki/Goodhart%27s_law', newTab: true }
+  ]);
+
   let navLinks = $derived([
     { href: `${prefix}/`, label: t.nav.home },
     { href: `${prefix}/contents/`, label: t.nav.contents },
@@ -76,6 +88,7 @@
     </nav>
     <PickerBar
       labels={{
+        link: t.pickerBar.link,
         search: t.pickerBar.search,
         searchInput: t.pickerBar.searchInput,
         searchSubmit: t.pickerBar.searchSubmit,
@@ -84,6 +97,8 @@
         textSize: t.pickerBar.textSize,
         share: t.pickerBar.share
       }}
+      links={pickerLinks}
+      linkProps={{ navigate: goto }}
       searchProps={{ navigate: goto }}
       themesUrl="/assets/themes/"
       themes={['light', 'dark']}

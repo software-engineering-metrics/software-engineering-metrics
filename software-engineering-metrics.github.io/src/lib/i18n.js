@@ -44,6 +44,7 @@ const en = {
     ariaLabel: 'Breadcrumb'
   },
   pickerBar: {
+    link: 'Links',
     search: 'Search',
     searchInput: 'Search the site',
     searchSubmit: 'Search',
@@ -53,6 +54,16 @@ const en = {
     share: 'Share',
     copyLink: 'Copy link',
     copied: 'Copied'
+  },
+  pickerLinks: {
+    home: 'Home',
+    contentSource: 'Book source on GitHub',
+    siteSource: 'Website source on GitHub',
+    issues: 'Report an issue',
+    llms: 'Index for AI agents (llms.txt)',
+    dora: 'DORA metrics',
+    space: 'The SPACE framework (ACM Queue)',
+    goodhart: "Goodhart's law (Wikipedia)"
   },
   footer: {
     byline: 'Led by {author}.',

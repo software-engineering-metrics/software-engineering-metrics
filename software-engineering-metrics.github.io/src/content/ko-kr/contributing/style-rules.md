@@ -1,0 +1,32 @@
+# 스타일 규칙(공유, 강제 가능)
+
+하우스 스타일을 한곳에 모은 것이다. "(test)"로 표시된 항목은 `tests/validate.py`가 강제하며, 위반하면 빌드가 실패한다.
+전체 서술 버전은 저장소 루트의 `spec/conventions.md`다.
+
+## 엄격한 규칙
+
+- **엠 대시 금지.** "—"(U+2014)는 절대 쓰지 않는다. 쉼표, 콜론, 괄호, 또는 두 개의 문장을 쓴다.
+  엔 대시 "–"는 `1–9`나 `2.1–2.8` 같은 숫자 범위에서만 허용된다. (test)
+- **상투적 문구 금지.** "not only ... but also", "but also", "load-bearing"은 쓰지 않는다. "It's important to note", "In today's fast-paced world",
+  "It's crucial to consider", "It appears that", "One could argue", "it's not just X, it's Y" 공식은 피한다. (test, 앞의 세 가지에 대해)
+- **용어는 처음 쓸 때 정의한다.** 각 주제에서 처음 쓸 때 약어를 풀어 쓰고 전문 용어를 정의한다. 예: "mean time to recovery (MTTR)".
+- **핵심 개념은 처음 언급할 때 Wikipedia에 링크한다.** 주제당 한 번, 본문에서만. 형식:
+  `[term](https://en.wikipedia.org/wiki/Article_Title)`. 제목, 표, 코드, 참고 문헌 섹션에서는 절대 하지 않는다. (링크 형식은 test)
+- **실제로 존재하는 참고 문헌만.** 실제 저작의 저자와 제목. 지어낸 제목, 저자, URL은 쓰지 않는다.
+- **조작 경로를 밝힌다.** 메트릭 패밀리 주제는 메트릭이 어떻게 조작되는지, 어떤 가드레일이 그것을 잡아내는지 서술한다(주제 1.2).
+
+## 어조
+
+- 따뜻하고, 직접적이고, 북돋운다. 독자에게 직접 말을 건다. 짧은 문장, 쉬운 말. 핵심부터 시작한다.
+- 견해가 분명하고 실용적이다. 벤더 중립. 제품은 사실적인 예시로만 언급한다.
+
+## 구조(test)
+
+- 내용 주제는 [`chapter-template.md`](chapter-template.md)의 섹션 순서를 그대로 쓴다.
+- 첫 제목은 `# N.M Title`(점이 있는 주제 번호)이며, 파일의 0으로 채운 `PP-CC` 접두사와 일치한다.
+- 각 부 안의 번호는 연속적이며 N.0에서 시작한다.
+
+## 편집 후
+
+- 주제 집합을 바꿨다면 `spec/structure.md`를 갱신하고 `just nav`를 실행한다.
+- 항상 `just test`를 실행한다.

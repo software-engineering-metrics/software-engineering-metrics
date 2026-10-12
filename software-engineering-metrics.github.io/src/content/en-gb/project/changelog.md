@@ -5,8 +5,16 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ## [Unreleased]
 
+### Changed
+
+- Site: the root page's browser-language redirect now falls back to a language's international superset
+  when there is no exact match: `en-AU` goes to `/en-001/`, `es-MX` to `/es-001/`, and
+  `zh-TW` to `/zh-001/`. An alias URL such as `/en/` no longer bounces to `/en-001/` through the locale picker.
+
 ### Added
 
+- `spec/locales.md` now requires every `locales/` directory to be named `<language>-<region>`; bare two-letter names are
+  site URL aliases only, and `tests/validate.py` enforces it. No two-letter directory existed, so nothing was deleted.
 - Added Swedish (`sv-001`) as the 30th complete translated locale: all 63 topics and every other section, with matching
   `.locale-peer-id` sidecars, identical in content to `sv-se`. Wired into the site and served at `/sv-001/` (alias `/sv/`).
 - Added Japanese (`ja-001`), Korean (`ko-001`), and Dutch (`nl-001`) as the 27th to 29th complete translated

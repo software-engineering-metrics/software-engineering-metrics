@@ -8,7 +8,7 @@
   let prefix = $derived(localePrefix(page.params.locale));
   let manifest = $derived(getManifest(page.params.locale));
   let t = $derived(ui(page.params.locale));
-  let hero = $derived(HERO[page.params.locale] ?? HERO['en-001']);
+  let hero = $derived(HERO[/** @type {string} */ (page.params.locale)] ?? HERO['en-001']);
   const translations = LOCALE_CODES.filter((code) => code in ENDONYMS);
   // Some locales (genuinely translated, not just a spelling variant) ship
   // only chapters/, with no front-matter/ section yet; fall back to the

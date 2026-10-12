@@ -1,5 +1,5 @@
 // Hand-authored hero strings (subheadline, intro, and the Translations label) and locale endonyms.
-/** @type {Record<string, {tagline: string, intro?: string, translations: string}>} */
+/** @type {Record<string, Record<string, string>>} */
 export const HERO = {
  "ar-001": {
   "headline": "قِس هندسة البرمجيات قياسًا جيدًا.",

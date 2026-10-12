@@ -1,12 +1,15 @@
 <script>
   import { page } from '$app/state';
   import { getManifest } from '#lib/manifests.js';
-  import { localePrefix } from '#lib/locales.js';
+  import { localePrefix, LOCALE_CODES } from '#lib/locales.js';
   import { ui } from '#lib/i18n.js';
+  import { HERO, ENDONYMS } from '#lib/hero.js';
 
   let prefix = $derived(localePrefix(page.params.locale));
   let manifest = $derived(getManifest(page.params.locale));
   let t = $derived(ui(page.params.locale));
+  let hero = $derived(HERO[page.params.locale] ?? HERO['en-001']);
+  const translations = LOCALE_CODES.filter((code) => code in ENDONYMS);
   // Some locales (genuinely translated, not just a spelling variant) ship
   // only chapters/, with no front-matter/ section yet; fall back to the
   // first chapter so "Start reading" never links to a 404.
@@ -18,27 +21,25 @@
 </script>
 
 <svelte:head>
-  <title>Software Engineering Metrics</title>
-  <meta
-    name="description"
-    content="A book about measuring software engineering well: {manifest.totals.parts} parts, {manifest.totals.chapters} chapters spanning the Flow Framework, the SPACE framework, queueing theory, and DORA metrics, code quality, product and business outcomes, reliability and security, and the AI era."
-  />
+  <title>{hero.headline}</title>
+  <meta name="description" content={hero.intro} />
 </svelte:head>
 
 <section class="hero">
-  <p class="hero-eyebrow">Free · open · specification-driven</p>
-  <h1>Measure software engineering well.</h1>
-  <p class="hero-tagline">
-    A working book on choosing metrics that reflect real outcomes rather than activity: the Flow
-    Framework, the SPACE framework, queueing theory, and DORA metrics, code and quality metrics,
-    product and business outcomes, reliability and security, and how generative AI is reshaping
-    what these numbers mean.
-  </p>
+  <p class="hero-eyebrow">{hero.tagline}</p>
+  <h1>{hero.headline}</h1>
+  <p class="hero-tagline">{hero.intro}</p>
   <div class="button-row">
-    <a class="button button-primary" href={startReadingHref}>Start reading</a>
-    <a class="button button-secondary" href="{prefix}/contents/">Contents</a>
-    <a class="button button-secondary" href="{prefix}/examples/">Worked examples</a>
+    <a class="button button-primary" href={startReadingHref}>{hero.start}</a>
+    <a class="button button-secondary" href="{prefix}/contents/">{hero.contents}</a>
+    <a class="button button-secondary" href="{prefix}/examples/">{hero.examples}</a>
   </div>
+  <p class="hero-translations">
+    {hero.translations}{#each translations as code, i (code)}{i ? ', ' : ''}<a
+        href="/{code}/"
+        aria-current={code === page.params.locale ? 'page' : undefined}>{ENDONYMS[code]}</a
+      >{/each}
+  </p>
 </section>
 
 <section class="section prose" style="margin: 0 auto;" aria-labelledby="home-contents">

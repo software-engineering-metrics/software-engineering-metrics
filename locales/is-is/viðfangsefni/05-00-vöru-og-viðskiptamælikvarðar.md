@@ -1,0 +1,21 @@
+# 5.0 Inngangur að 5. hluta: Vöru- og viðskiptamælikvarðar
+
+Fyrstu fjórir hlutar þessarar bókar mæla innri heim verkfræðinnar: afhendingu, þróunarupplifun og kóðagæði. Þessi hluti stígur út fyrir þau mörk og spyr spurningarinnar sem hver verkfræðimælikvarði er að lokum til í þágu, hvort sem er beint eða nokkrum skrefum frá: hjálpaði þessi vinna í raun rekstrinum og fólkinu sem notar það sem hún smíðar. Viðfangsefni 1.3 setti niðurstöður fram yfir afurðir sem stjórnandi meginreglu snemma í þessari bók; þessi hluti er þar sem sú meginregla mætir skörpustu prófraun sinni, því vöru- og viðskiptaniðurstöður eru lengst frá beinni stjórn nokkurs eins verkfræðings og erfiðastar að eigna hreint aftur til verkfræðifyrirhafnar.
+
+Sá erfiðleiki er einmitt ástæða þess að þessi hluti skiptir máli. Skipulagsheild sem tengir aldrei afhendingar- og gæðamælikvarða sína við vöru- og viðskiptaniðurstöður hættir á að fínstilla fallega fyrir röngum hlut: að afhenda hratt, með framúrskarandi prófþekju, eiginleika sem enginn notar, eða viðhalda óaðfinnanlegum kóðagæðum í kerfi þar sem kjarnagildistilboðið hefur hljóðlega hætt að skipta viðskiptavini máli. Fimm viðfangsefni þessa hluta, sloppnir gallar, upptaka eiginleika, niðurstöður viðskiptavina og reksturs, einingarhagfræði og ávöxtun fjárfestingar, gefa verkfræðiforystu orðaforða fyrir þá tengingu, og gefa viðskiptaforystu leið til að meta verkfræðifjárfestingu á skilmálum sem raunverulega skipta þau máli.
+
+Fyrir stór teymi er þessi hluti oft þar sem trúverðugleiki heillar mælikvarðaáætlunar vinnst eða tapast gagnvart framkvæmdahagsmunaaðilum. Forysta stórfyrirtækis sem samþykkir margmilljóna dollara vettvangsfjárfestingar, og opinberir eftirlitsaðilar sem samþykkja opinber tæknifjárlög, þurfa báðir svör orðuð í viðskipta- eða borgaraniðurstöðum, ekki afhendingartíðni eða prófþekju, hversu vel sem þessir innri mælikvarðar eru stýrðir. Þessi hluti er þar sem vandlega mótaðir, varnarmælikvarðaverndaðir mælikvarðar annarra hluta bókarinnar tengjast loks þessu ytra, niðurstöðumiðaða samtali.
+
+## Viðfangsefni í þessum hluta
+
+- **5.1 Hlutfall sloppinna galla og gæðaleka:** Gæðamælikvarðinn sem endurspeglar beinna það sem viðskiptavinir upplifa í raun, ólíkt innri gæðamælikvörðum 4. hluta.
+- **5.2 Mælikvarðar á upptöku og notkun eiginleika:** Hvort það sem verkfræði smíðaði er í raun notað, og sértæku leiðirnar sem upptökugögn eru misskilin.
+- **5.3 Mælikvarðar á niðurstöður viðskiptavina og rekstrar:** Að tengja verkfræðivinnu við niðurstöðurnar sem rekstri eða opinberu hlutverki er í raun umhugað um.
+- **5.4 Kostnaður og einingarhagfræði verkfræði:** Að tjá verkfræðikostnað í hugtökum sem fjármálahagsmunaaðili getur notað beint.
+- **5.5 Ávöxtun fjárfestingar í verkfræðiframtökum:** Að byggja verjanleg, heiðarleg ávöxtunarrök fyrir stóra verkfræðifjárfestingu, og vera jafn heiðarlegur þegar rökin standast ekki.
+
+## Hvernig þessi viðfangsefni tengjast
+
+Viðfangsefni 5.1 byrjar næst heimahögum, gæði eins og viðskiptavinir upplifa þau beint, og er eðlilega brúin frá innri gæðamælikvörðum 4. hluta. Viðfangsefni 5.2 spyr næstu spurningar þegar gæði hafa verið tekin með í reikninginn: notar einhver í raun það sem var smíðað. Viðfangsefni 5.3 víkkar linsuna enn frekar að öllu sviði viðskiptavina- og rekstrarniðurstaðna sem skipulagsheild lætur sig varða, þar sem notkun er aðeins eitt merki af nokkrum. Viðfangsefni 5.4 og 5.5 snúa síðan öllum hlutanum í fjármálalegt: að tjá verkfræðikostnað og ávöxtun í hugtökum sem tengjast beint fjárlaga- og fjárfestingarákvörðunum, sem lokar lykkjunni sem þessi hluti opnaði með því að spyrja hvort verkfræðifyrirhöfn hjálpaði í raun.
+
+Viðfangsefni þessa hluta styðjast sérstaklega þungt við tölfræðilæsi viðfangsefnis 1.6, því viðskipta- og vöruniðurstöður eru oft hávaðasamar, truflaðar af markaðsaðstæðum og hægar að staðfesta, einmitt aðstæðurnar þar sem mistökin sem viðfangsefni 1.6 varar við eru líklegust til að framleiða sjálfsörugga, ranga ályktun. Lestu þennan hluta samhliða 7. hluta, þar sem breytingin yfir í kynslóðargervigreind hækkar hagsmuni þess að fá niðurstöðumælingu rétta einmitt því afurðamagn, eins og viðfangsefni þessa hluta halda fram í gegnum allt, var aldrei rétti hluturinn til að fínstilla í upphafi.

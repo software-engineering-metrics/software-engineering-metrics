@@ -120,6 +120,20 @@
       "contributing": "kontribusi",
       "project": "proyek"
     },
+    "is-001": {
+      "chapters": "viðfangsefni",
+      "front-matter": "forefni",
+      "examples": "dæmi",
+      "contributing": "framlag",
+      "project": "verkefni"
+    },
+    "is-is": {
+      "chapters": "viðfangsefni",
+      "front-matter": "forefni",
+      "examples": "dæmi",
+      "contributing": "framlag",
+      "project": "verkefni"
+    },
     "ja-001": {
       "chapters": "トピック",
       "front-matter": "前付",

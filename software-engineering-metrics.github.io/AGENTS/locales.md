@@ -2,9 +2,9 @@
 
 Part of [AGENTS.md](../AGENTS.md).
 
-The book exists in 34 locales (see `../spec/locales.md` at the repository
-root), of which this site serves 25: four mechanically-derived English
-spelling variants (`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`) and twenty-one
+The book exists in 36 locales (see `../spec/locales.md` at the repository
+root), of which this site serves 26: four mechanically-derived English
+spelling variants (`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`) and twenty-two
 genuinely translated locales (`ar-001` Arabic, `bn-001` Bengali, `cy-001` and
 `cy-gb` Welsh, `de-001` German, `es-001` Spanish, `fr-001` French, `hi-001` and `hi-in` Hindi, `id-001`
 Indonesian, `ja-001` and `ja-jp` Japanese, `ko-001` and `ko-kr` Korean, `nl-001` Dutch, `pt-001` Portuguese, `ru-001` Russian, `sv-001` Swedish, `ur-001` Urdu, `zh-001` and `zh-cn` Chinese). The other 9

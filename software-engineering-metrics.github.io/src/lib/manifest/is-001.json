@@ -1,0 +1,1902 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "is-001",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-grundvöllur-mælinga",
+          "title": "Inngangur að 1. hluta: Grundvöllur mælinga",
+          "heading": "1.0 Inngangur að 1. hluta: Grundvöllur mælinga",
+          "file": "chapters/01-00-grundvöllur-mælinga.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-hvers-vegna-að-mæla-hugbúnaðarverkfræði",
+          "title": "Hvers vegna að mæla hugbúnaðarverkfræði",
+          "heading": "1.1 Hvers vegna að mæla hugbúnaðarverkfræði",
+          "file": "chapters/01-01-hvers-vegna-að-mæla-hugbúnaðarverkfræði.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-lögmál-goodharts-og-sálfræði-mælikvarða",
+          "title": "Lögmál Goodharts og sálfræði mælikvarða",
+          "heading": "1.2 Lögmál Goodharts og sálfræði mælikvarða",
+          "file": "chapters/01-02-lögmál-goodharts-og-sálfræði-mælikvarða.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-niðurstöður-fram-yfir-afurðir",
+          "title": "Niðurstöður fram yfir afurðir: að velja hvað á að mæla",
+          "heading": "1.3 Niðurstöður fram yfir afurðir: að velja hvað á að mæla",
+          "file": "chapters/01-03-niðurstöður-fram-yfir-afurðir.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-stjórnarhættir-og-eignarhald-mælikvarða",
+          "title": "Stjórnarhættir og eignarhald mælikvarða",
+          "heading": "1.4 Stjórnarhættir og eignarhald mælikvarða",
+          "file": "chapters/01-04-stjórnarhættir-og-eignarhald-mælikvarða.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-gagnauppsprettur-og-tækjavæðing",
+          "title": "Gagnauppsprettur og tækjavæðing",
+          "heading": "1.5 Gagnauppsprettur og tækjavæðing",
+          "file": "chapters/01-05-gagnauppsprettur-og-tækjavæðing.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-tölfræðilæsi-fyrir-verkfræðimælikvarða",
+          "title": "Tölfræðilæsi fyrir verkfræðimælikvarða",
+          "heading": "1.6 Tölfræðilæsi fyrir verkfræðimælikvarða",
+          "file": "chapters/01-06-tölfræðilæsi-fyrir-verkfræðimælikvarða.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-flæðimælikvarðar",
+          "title": "Inngangur að 2. hluta: Flæðimælikvarðar",
+          "heading": "2.0 Inngangur að 2. hluta: Flæðimælikvarðar",
+          "file": "chapters/02-00-flæðimælikvarðar.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-flæðiramminn",
+          "title": "Flæðiramminn",
+          "heading": "2.1 Flæðiramminn",
+          "file": "chapters/02-01-flæðiramminn.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-flæðiatriði",
+          "title": "Flæðiatriði: eiginleikar, gallar, áhættur og skuld",
+          "heading": "2.2 Flæðiatriði: eiginleikar, gallar, áhættur og skuld",
+          "file": "chapters/02-02-flæðiatriði.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-flæðishraði-og-flæðisdreifing",
+          "title": "Flæðishraði og flæðisdreifing",
+          "heading": "2.3 Flæðishraði og flæðisdreifing",
+          "file": "chapters/02-03-flæðishraði-og-flæðisdreifing.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-flæðistími-og-flæðisálag",
+          "title": "Flæðistími og flæðisálag",
+          "heading": "2.4 Flæðistími og flæðisálag",
+          "file": "chapters/02-04-flæðistími-og-flæðisálag.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-flæðinýtni-og-vinna-í-vinnslu",
+          "title": "Flæðinýtni og vinna í vinnslu",
+          "heading": "2.5 Flæðinýtni og vinna í vinnslu",
+          "file": "chapters/02-05-flæðinýtni-og-vinna-í-vinnslu.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-ferlitími-og-þættir-hans",
+          "title": "Ferlitími og þættir hans",
+          "heading": "2.6 Ferlitími og þættir hans",
+          "file": "chapters/02-06-ferlitími-og-þættir-hans.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-biðraðafræði",
+          "title": "Biðraðafræði",
+          "heading": "2.7 Biðraðafræði",
+          "file": "chapters/02-07-biðraðafræði.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-lean-virðisstraumsmælikvarðar",
+          "title": "Lean-virðisstraumsmælikvarðar",
+          "heading": "2.8 Lean-virðisstraumsmælikvarðar",
+          "file": "chapters/02-08-lean-virðisstraumsmælikvarðar.md"
+        },
+        {
+          "part": 2,
+          "chapter": 9,
+          "decimal": "2.9",
+          "slug": "02-09-mælikvarðar-sameiningarbeiðna-og-kóðayfirferðar",
+          "title": "Mælikvarðar sameiningarbeiðna og kóðayfirferðar",
+          "heading": "2.9 Mælikvarðar sameiningarbeiðna og kóðayfirferðar",
+          "file": "chapters/02-09-mælikvarðar-sameiningarbeiðna-og-kóðayfirferðar.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-dora-mælikvarðaramminn",
+          "title": "DORA-mælikvarðaramminn",
+          "heading": "2.10 DORA-mælikvarðaramminn",
+          "file": "chapters/02-10-dora-mælikvarðaramminn.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-þróunarupplifun-og-space",
+          "title": "Inngangur að 3. hluta: Þróunarupplifun og SPACE-ramminn",
+          "heading": "3.0 Inngangur að 3. hluta: Þróunarupplifun og SPACE-ramminn",
+          "file": "chapters/03-00-þróunarupplifun-og-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-space-ramminn",
+          "title": "SPACE-ramminn",
+          "heading": "3.1 SPACE-ramminn",
+          "file": "chapters/03-01-space-ramminn.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-mælikvarðar-ánægju-og-vellíðanar",
+          "title": "Mælikvarðar ánægju og vellíðanar",
+          "heading": "3.2 Mælikvarðar ánægju og vellíðanar",
+          "file": "chapters/03-02-mælikvarðar-ánægju-og-vellíðanar.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-frammistöðumælikvarðar-og-staðgenglar-niðurstaðna",
+          "title": "Frammistöðumælikvarðar og staðgenglar niðurstaðna",
+          "heading": "3.3 Frammistöðumælikvarðar og staðgenglar niðurstaðna",
+          "file": "chapters/03-03-frammistöðumælikvarðar-og-staðgenglar-niðurstaðna.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-virknimælikvarðar-og-takmörk-þeirra",
+          "title": "Virknimælikvarðar og takmörk þeirra",
+          "heading": "3.4 Virknimælikvarðar og takmörk þeirra",
+          "file": "chapters/03-04-virknimælikvarðar-og-takmörk-þeirra.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-mælikvarðar-samskipta-og-samvinnu",
+          "title": "Mælikvarðar samskipta og samvinnu",
+          "heading": "3.5 Mælikvarðar samskipta og samvinnu",
+          "file": "chapters/03-05-mælikvarðar-samskipta-og-samvinnu.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-skilvirkni-og-flæði",
+          "title": "Skilvirkni og flæði: djúpvinna og truflanir",
+          "heading": "3.6 Skilvirkni og flæði: djúpvinna og truflanir",
+          "file": "chapters/03-06-skilvirkni-og-flæði.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-kannanir-á-þróunarupplifun-og-devex-mælikvarðar",
+          "title": "Kannanir á þróunarupplifun og DevEx-mælikvarðar",
+          "heading": "3.7 Kannanir á þróunarupplifun og DevEx-mælikvarðar",
+          "file": "chapters/03-07-kannanir-á-þróunarupplifun-og-devex-mælikvarðar.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-kóða-og-gæðamælikvarðar",
+          "title": "Inngangur að 4. hluta: Kóða- og gæðamælikvarðar",
+          "heading": "4.0 Inngangur að 4. hluta: Kóða- og gæðamælikvarðar",
+          "file": "chapters/04-00-kóða-og-gæðamælikvarðar.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-mælikvarðar-á-flækjustig-kóða",
+          "title": "Mælikvarðar á flækjustig kóða",
+          "heading": "4.1 Mælikvarðar á flækjustig kóða",
+          "file": "chapters/04-01-mælikvarðar-á-flækjustig-kóða.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-prófþekja-og-skilvirkni-prófana",
+          "title": "Prófþekja og skilvirkni prófana",
+          "heading": "4.2 Prófþekja og skilvirkni prófana",
+          "file": "chapters/04-02-prófþekja-og-skilvirkni-prófana.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-kóðavelta-og-heitreitagreining",
+          "title": "Kóðavelta og heitreitagreining",
+          "heading": "4.3 Kóðavelta og heitreitagreining",
+          "file": "chapters/04-03-kóðavelta-og-heitreitagreining.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-stöðugreining-og-kóðalyktarmælikvarðar",
+          "title": "Stöðugreining og kóðalyktarmælikvarðar",
+          "heading": "4.4 Stöðugreining og kóðalyktarmælikvarðar",
+          "file": "chapters/04-04-stöðugreining-og-kóðalyktarmælikvarðar.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-mæling-tæknilegrar-skuldar",
+          "title": "Mæling tæknilegrar skuldar",
+          "heading": "4.5 Mæling tæknilegrar skuldar",
+          "file": "chapters/04-05-mæling-tæknilegrar-skuldar.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-skjölunar-og-þekkingarmælikvarðar",
+          "title": "Skjölunar- og þekkingarmælikvarðar",
+          "heading": "4.6 Skjölunar- og þekkingarmælikvarðar",
+          "file": "chapters/04-06-skjölunar-og-þekkingarmælikvarðar.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-vöru-og-viðskiptamælikvarðar",
+          "title": "Inngangur að 5. hluta: Vöru- og viðskiptamælikvarðar",
+          "heading": "5.0 Inngangur að 5. hluta: Vöru- og viðskiptamælikvarðar",
+          "file": "chapters/05-00-vöru-og-viðskiptamælikvarðar.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-hlutfall-sloppinna-galla-og-gæðaleka",
+          "title": "Hlutfall sloppinna galla og gæðaleka",
+          "heading": "5.1 Hlutfall sloppinna galla og gæðaleka",
+          "file": "chapters/05-01-hlutfall-sloppinna-galla-og-gæðaleka.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-mælikvarðar-á-upptöku-og-notkun-eiginleika",
+          "title": "Mælikvarðar á upptöku og notkun eiginleika",
+          "heading": "5.2 Mælikvarðar á upptöku og notkun eiginleika",
+          "file": "chapters/05-02-mælikvarðar-á-upptöku-og-notkun-eiginleika.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-mælikvarðar-á-niðurstöður-viðskiptavina-og-rekstrar",
+          "title": "Mælikvarðar á niðurstöður viðskiptavina og rekstrar",
+          "heading": "5.3 Mælikvarðar á niðurstöður viðskiptavina og rekstrar",
+          "file": "chapters/05-03-mælikvarðar-á-niðurstöður-viðskiptavina-og-rekstrar.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-kostnaður-og-einingarhagfræði-verkfræði",
+          "title": "Kostnaður og einingarhagfræði verkfræði",
+          "heading": "5.4 Kostnaður og einingarhagfræði verkfræði",
+          "file": "chapters/05-04-kostnaður-og-einingarhagfræði-verkfræði.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-ávöxtun-fjárfestingar-í-verkfræðiframtökum",
+          "title": "Ávöxtun fjárfestingar í verkfræðiframtökum",
+          "heading": "5.5 Ávöxtun fjárfestingar í verkfræðiframtökum",
+          "file": "chapters/05-05-ávöxtun-fjárfestingar-í-verkfræðiframtökum.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-áreiðanleika-rekstrar-og-öryggismælikvarðar",
+          "title": "Inngangur að 6. hluta: Áreiðanleika-, rekstrar- og öryggismælikvarðar",
+          "heading": "6.0 Inngangur að 6. hluta: Áreiðanleika-, rekstrar- og öryggismælikvarðar",
+          "file": "chapters/06-00-áreiðanleika-rekstrar-og-öryggismælikvarðar.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-þjónustustigsvísar-markmið-og-villuheimildir",
+          "title": "Þjónustustigsvísar, markmið og villuheimildir",
+          "heading": "6.1 Þjónustustigsvísar, markmið og villuheimildir",
+          "file": "chapters/06-01-þjónustustigsvísar-markmið-og-villuheimildir.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-atvikamælikvarðar",
+          "title": "Atvikamælikvarðar: greining, viðbragð og bati",
+          "heading": "6.2 Atvikamælikvarðar: greining, viðbragð og bati",
+          "file": "chapters/06-02-atvikamælikvarðar.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-bakvakta-getu-og-rekstrarálagsmælikvarðar",
+          "title": "Bakvakta-, getu- og rekstrarálagsmælikvarðar",
+          "heading": "6.3 Bakvakta-, getu- og rekstrarálagsmælikvarðar",
+          "file": "chapters/06-03-bakvakta-getu-og-rekstrarálagsmælikvarðar.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-öryggis-og-veikleikastjórnunarmælikvarðar",
+          "title": "Öryggis- og veikleikastjórnunarmælikvarðar",
+          "heading": "6.4 Öryggis- og veikleikastjórnunarmælikvarðar",
+          "file": "chapters/06-04-öryggis-og-veikleikastjórnunarmælikvarðar.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-mælikvarðar-á-öld-gervigreindar",
+          "title": "Inngangur að 7. hluta: Mælikvarðar á öld gervigreindar",
+          "heading": "7.0 Inngangur að 7. hluta: Mælikvarðar á öld gervigreindar",
+          "file": "chapters/07-00-mælikvarðar-á-öld-gervigreindar.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-viðmiðaskipti-skapandi-gervigreindar",
+          "title": "Viðmiðaskipti kynslóðargervigreindar",
+          "heading": "7.1 Viðmiðaskipti kynslóðargervigreindar",
+          "file": "chapters/07-01-viðmiðaskipti-skapandi-gervigreindar.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-mæling-gervigreindaraðstoðaðrar-hugbúnaðarþróunar",
+          "title": "Mæling gervigreindaraðstoðaðrar hugbúnaðarþróunar",
+          "heading": "7.2 Mæling gervigreindaraðstoðaðrar hugbúnaðarþróunar",
+          "file": "chapters/07-02-mæling-gervigreindaraðstoðaðrar-hugbúnaðarþróunar.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-mælikvarðaverðbólga-og-áhætta-gæðaþynningar",
+          "title": "Mælikvarðaverðbólga og áhætta gæðaþynningar",
+          "heading": "7.3 Mælikvarðaverðbólga og áhætta gæðaþynningar",
+          "file": "chapters/07-03-mælikvarðaverðbólga-og-áhætta-gæðaþynningar.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-niðurstöðufjarmæling-sem-nýja-pólstjarnan",
+          "title": "Niðurstöðufjarmæling sem nýja pólstjarnan",
+          "heading": "7.4 Niðurstöðufjarmæling sem nýja pólstjarnan",
+          "file": "chapters/07-04-niðurstöðufjarmæling-sem-nýja-pólstjarnan.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-að-byggja-mælikvarðaáætlun",
+          "title": "Inngangur að 8. hluta: Að byggja mælikvarðaáætlun",
+          "heading": "8.0 Inngangur að 8. hluta: Að byggja mælikvarðaáætlun",
+          "file": "chapters/08-00-að-byggja-mælikvarðaáætlun.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-að-hanna-mælaborð-verkfræðimælikvarða",
+          "title": "Að hanna mælaborð verkfræðimælikvarða",
+          "heading": "8.1 Að hanna mælaborð verkfræðimælikvarða",
+          "file": "chapters/08-01-að-hanna-mælaborð-verkfræðimælikvarða.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-tólalandslag-smíða-eða-kaupa",
+          "title": "Tólalandslag: smíða eða kaupa",
+          "heading": "8.2 Tólalandslag: smíða eða kaupa",
+          "file": "chapters/08-02-tólalandslag-smíða-eða-kaupa.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-að-útfæra-mælikvarða-án-þess-að-ala-á-ótta",
+          "title": "Að útfæra mælikvarða án þess að ala á ótta",
+          "heading": "8.3 Að útfæra mælikvarða án þess að ala á ótta",
+          "file": "chapters/08-03-að-útfæra-mælikvarða-án-þess-að-ala-á-ótta.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-þroskalíkan-fyrir-verkfræðimælikvarðaáætlanir",
+          "title": "Þroskalíkan fyrir verkfræðimælikvarðaáætlanir",
+          "heading": "8.4 Þroskalíkan fyrir verkfræðimælikvarðaáætlanir",
+          "file": "chapters/08-04-þroskalíkan-fyrir-verkfræðimælikvarðaáætlanir.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-stigvaxandi-upptökuvegvísir",
+          "title": "Stigvaxandi upptökuvegvísir",
+          "heading": "8.5 Stigvaxandi upptökuvegvísir",
+          "file": "chapters/08-05-stigvaxandi-upptökuvegvísir.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-viðaukar",
+          "title": "Viðaukar",
+          "heading": "9.0 Viðaukar",
+          "file": "chapters/09-00-viðaukar.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-orðalisti",
+          "title": "Orðalisti",
+          "heading": "9.1 Orðalisti",
+          "file": "chapters/09-01-orðalisti.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-skilgreiningar-mælikvarða-og-formúluyfirlit",
+          "title": "Skilgreiningar mælikvarða og formúluyfirlit",
+          "heading": "9.2 Skilgreiningar mælikvarða og formúluyfirlit",
+          "file": "chapters/09-02-skilgreiningar-mælikvarða-og-formúluyfirlit.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-gátlistar",
+          "title": "Gátlistar",
+          "heading": "9.3 Gátlistar",
+          "file": "chapters/09-03-gátlistar.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-sniðmát",
+          "title": "Sniðmát",
+          "heading": "9.4 Sniðmát",
+          "file": "chapters/09-04-sniðmát.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-þroskasjálfsmat",
+          "title": "Þroskasjálfsmat",
+          "heading": "9.5 Þroskasjálfsmat",
+          "file": "chapters/09-05-þroskasjálfsmat.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-heimildir-og-frekara-lesefni",
+          "title": "Heimildir og frekara lesefni",
+          "heading": "9.6 Heimildir og frekara lesefni",
+          "file": "chapters/09-06-heimildir-og-frekara-lesefni.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-atriðisorðaskrá",
+          "title": "Atriðisorðaskrá",
+          "heading": "9.7 Atriðisorðaskrá",
+          "file": "chapters/09-07-atriðisorðaskrá.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-grundvöllur-mælinga",
+      "title": "Inngangur að 1. hluta: Grundvöllur mælinga",
+      "heading": "1.0 Inngangur að 1. hluta: Grundvöllur mælinga",
+      "file": "chapters/01-00-grundvöllur-mælinga.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-hvers-vegna-að-mæla-hugbúnaðarverkfræði",
+      "title": "Hvers vegna að mæla hugbúnaðarverkfræði",
+      "heading": "1.1 Hvers vegna að mæla hugbúnaðarverkfræði",
+      "file": "chapters/01-01-hvers-vegna-að-mæla-hugbúnaðarverkfræði.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-lögmál-goodharts-og-sálfræði-mælikvarða",
+      "title": "Lögmál Goodharts og sálfræði mælikvarða",
+      "heading": "1.2 Lögmál Goodharts og sálfræði mælikvarða",
+      "file": "chapters/01-02-lögmál-goodharts-og-sálfræði-mælikvarða.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-niðurstöður-fram-yfir-afurðir",
+      "title": "Niðurstöður fram yfir afurðir: að velja hvað á að mæla",
+      "heading": "1.3 Niðurstöður fram yfir afurðir: að velja hvað á að mæla",
+      "file": "chapters/01-03-niðurstöður-fram-yfir-afurðir.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-stjórnarhættir-og-eignarhald-mælikvarða",
+      "title": "Stjórnarhættir og eignarhald mælikvarða",
+      "heading": "1.4 Stjórnarhættir og eignarhald mælikvarða",
+      "file": "chapters/01-04-stjórnarhættir-og-eignarhald-mælikvarða.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-gagnauppsprettur-og-tækjavæðing",
+      "title": "Gagnauppsprettur og tækjavæðing",
+      "heading": "1.5 Gagnauppsprettur og tækjavæðing",
+      "file": "chapters/01-05-gagnauppsprettur-og-tækjavæðing.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-tölfræðilæsi-fyrir-verkfræðimælikvarða",
+      "title": "Tölfræðilæsi fyrir verkfræðimælikvarða",
+      "heading": "1.6 Tölfræðilæsi fyrir verkfræðimælikvarða",
+      "file": "chapters/01-06-tölfræðilæsi-fyrir-verkfræðimælikvarða.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-flæðimælikvarðar",
+      "title": "Inngangur að 2. hluta: Flæðimælikvarðar",
+      "heading": "2.0 Inngangur að 2. hluta: Flæðimælikvarðar",
+      "file": "chapters/02-00-flæðimælikvarðar.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flæðiramminn",
+      "title": "Flæðiramminn",
+      "heading": "2.1 Flæðiramminn",
+      "file": "chapters/02-01-flæðiramminn.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-flæðiatriði",
+      "title": "Flæðiatriði: eiginleikar, gallar, áhættur og skuld",
+      "heading": "2.2 Flæðiatriði: eiginleikar, gallar, áhættur og skuld",
+      "file": "chapters/02-02-flæðiatriði.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-flæðishraði-og-flæðisdreifing",
+      "title": "Flæðishraði og flæðisdreifing",
+      "heading": "2.3 Flæðishraði og flæðisdreifing",
+      "file": "chapters/02-03-flæðishraði-og-flæðisdreifing.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-flæðistími-og-flæðisálag",
+      "title": "Flæðistími og flæðisálag",
+      "heading": "2.4 Flæðistími og flæðisálag",
+      "file": "chapters/02-04-flæðistími-og-flæðisálag.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-flæðinýtni-og-vinna-í-vinnslu",
+      "title": "Flæðinýtni og vinna í vinnslu",
+      "heading": "2.5 Flæðinýtni og vinna í vinnslu",
+      "file": "chapters/02-05-flæðinýtni-og-vinna-í-vinnslu.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-ferlitími-og-þættir-hans",
+      "title": "Ferlitími og þættir hans",
+      "heading": "2.6 Ferlitími og þættir hans",
+      "file": "chapters/02-06-ferlitími-og-þættir-hans.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-biðraðafræði",
+      "title": "Biðraðafræði",
+      "heading": "2.7 Biðraðafræði",
+      "file": "chapters/02-07-biðraðafræði.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-lean-virðisstraumsmælikvarðar",
+      "title": "Lean-virðisstraumsmælikvarðar",
+      "heading": "2.8 Lean-virðisstraumsmælikvarðar",
+      "file": "chapters/02-08-lean-virðisstraumsmælikvarðar.md"
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-mælikvarðar-sameiningarbeiðna-og-kóðayfirferðar",
+      "title": "Mælikvarðar sameiningarbeiðna og kóðayfirferðar",
+      "heading": "2.9 Mælikvarðar sameiningarbeiðna og kóðayfirferðar",
+      "file": "chapters/02-09-mælikvarðar-sameiningarbeiðna-og-kóðayfirferðar.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-dora-mælikvarðaramminn",
+      "title": "DORA-mælikvarðaramminn",
+      "heading": "2.10 DORA-mælikvarðaramminn",
+      "file": "chapters/02-10-dora-mælikvarðaramminn.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-þróunarupplifun-og-space",
+      "title": "Inngangur að 3. hluta: Þróunarupplifun og SPACE-ramminn",
+      "heading": "3.0 Inngangur að 3. hluta: Þróunarupplifun og SPACE-ramminn",
+      "file": "chapters/03-00-þróunarupplifun-og-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-space-ramminn",
+      "title": "SPACE-ramminn",
+      "heading": "3.1 SPACE-ramminn",
+      "file": "chapters/03-01-space-ramminn.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-mælikvarðar-ánægju-og-vellíðanar",
+      "title": "Mælikvarðar ánægju og vellíðanar",
+      "heading": "3.2 Mælikvarðar ánægju og vellíðanar",
+      "file": "chapters/03-02-mælikvarðar-ánægju-og-vellíðanar.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-frammistöðumælikvarðar-og-staðgenglar-niðurstaðna",
+      "title": "Frammistöðumælikvarðar og staðgenglar niðurstaðna",
+      "heading": "3.3 Frammistöðumælikvarðar og staðgenglar niðurstaðna",
+      "file": "chapters/03-03-frammistöðumælikvarðar-og-staðgenglar-niðurstaðna.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-virknimælikvarðar-og-takmörk-þeirra",
+      "title": "Virknimælikvarðar og takmörk þeirra",
+      "heading": "3.4 Virknimælikvarðar og takmörk þeirra",
+      "file": "chapters/03-04-virknimælikvarðar-og-takmörk-þeirra.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-mælikvarðar-samskipta-og-samvinnu",
+      "title": "Mælikvarðar samskipta og samvinnu",
+      "heading": "3.5 Mælikvarðar samskipta og samvinnu",
+      "file": "chapters/03-05-mælikvarðar-samskipta-og-samvinnu.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-skilvirkni-og-flæði",
+      "title": "Skilvirkni og flæði: djúpvinna og truflanir",
+      "heading": "3.6 Skilvirkni og flæði: djúpvinna og truflanir",
+      "file": "chapters/03-06-skilvirkni-og-flæði.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-kannanir-á-þróunarupplifun-og-devex-mælikvarðar",
+      "title": "Kannanir á þróunarupplifun og DevEx-mælikvarðar",
+      "heading": "3.7 Kannanir á þróunarupplifun og DevEx-mælikvarðar",
+      "file": "chapters/03-07-kannanir-á-þróunarupplifun-og-devex-mælikvarðar.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-kóða-og-gæðamælikvarðar",
+      "title": "Inngangur að 4. hluta: Kóða- og gæðamælikvarðar",
+      "heading": "4.0 Inngangur að 4. hluta: Kóða- og gæðamælikvarðar",
+      "file": "chapters/04-00-kóða-og-gæðamælikvarðar.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-mælikvarðar-á-flækjustig-kóða",
+      "title": "Mælikvarðar á flækjustig kóða",
+      "heading": "4.1 Mælikvarðar á flækjustig kóða",
+      "file": "chapters/04-01-mælikvarðar-á-flækjustig-kóða.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-prófþekja-og-skilvirkni-prófana",
+      "title": "Prófþekja og skilvirkni prófana",
+      "heading": "4.2 Prófþekja og skilvirkni prófana",
+      "file": "chapters/04-02-prófþekja-og-skilvirkni-prófana.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-kóðavelta-og-heitreitagreining",
+      "title": "Kóðavelta og heitreitagreining",
+      "heading": "4.3 Kóðavelta og heitreitagreining",
+      "file": "chapters/04-03-kóðavelta-og-heitreitagreining.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-stöðugreining-og-kóðalyktarmælikvarðar",
+      "title": "Stöðugreining og kóðalyktarmælikvarðar",
+      "heading": "4.4 Stöðugreining og kóðalyktarmælikvarðar",
+      "file": "chapters/04-04-stöðugreining-og-kóðalyktarmælikvarðar.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-mæling-tæknilegrar-skuldar",
+      "title": "Mæling tæknilegrar skuldar",
+      "heading": "4.5 Mæling tæknilegrar skuldar",
+      "file": "chapters/04-05-mæling-tæknilegrar-skuldar.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-skjölunar-og-þekkingarmælikvarðar",
+      "title": "Skjölunar- og þekkingarmælikvarðar",
+      "heading": "4.6 Skjölunar- og þekkingarmælikvarðar",
+      "file": "chapters/04-06-skjölunar-og-þekkingarmælikvarðar.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-vöru-og-viðskiptamælikvarðar",
+      "title": "Inngangur að 5. hluta: Vöru- og viðskiptamælikvarðar",
+      "heading": "5.0 Inngangur að 5. hluta: Vöru- og viðskiptamælikvarðar",
+      "file": "chapters/05-00-vöru-og-viðskiptamælikvarðar.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-hlutfall-sloppinna-galla-og-gæðaleka",
+      "title": "Hlutfall sloppinna galla og gæðaleka",
+      "heading": "5.1 Hlutfall sloppinna galla og gæðaleka",
+      "file": "chapters/05-01-hlutfall-sloppinna-galla-og-gæðaleka.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-mælikvarðar-á-upptöku-og-notkun-eiginleika",
+      "title": "Mælikvarðar á upptöku og notkun eiginleika",
+      "heading": "5.2 Mælikvarðar á upptöku og notkun eiginleika",
+      "file": "chapters/05-02-mælikvarðar-á-upptöku-og-notkun-eiginleika.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-mælikvarðar-á-niðurstöður-viðskiptavina-og-rekstrar",
+      "title": "Mælikvarðar á niðurstöður viðskiptavina og rekstrar",
+      "heading": "5.3 Mælikvarðar á niðurstöður viðskiptavina og rekstrar",
+      "file": "chapters/05-03-mælikvarðar-á-niðurstöður-viðskiptavina-og-rekstrar.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-kostnaður-og-einingarhagfræði-verkfræði",
+      "title": "Kostnaður og einingarhagfræði verkfræði",
+      "heading": "5.4 Kostnaður og einingarhagfræði verkfræði",
+      "file": "chapters/05-04-kostnaður-og-einingarhagfræði-verkfræði.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-ávöxtun-fjárfestingar-í-verkfræðiframtökum",
+      "title": "Ávöxtun fjárfestingar í verkfræðiframtökum",
+      "heading": "5.5 Ávöxtun fjárfestingar í verkfræðiframtökum",
+      "file": "chapters/05-05-ávöxtun-fjárfestingar-í-verkfræðiframtökum.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-áreiðanleika-rekstrar-og-öryggismælikvarðar",
+      "title": "Inngangur að 6. hluta: Áreiðanleika-, rekstrar- og öryggismælikvarðar",
+      "heading": "6.0 Inngangur að 6. hluta: Áreiðanleika-, rekstrar- og öryggismælikvarðar",
+      "file": "chapters/06-00-áreiðanleika-rekstrar-og-öryggismælikvarðar.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-þjónustustigsvísar-markmið-og-villuheimildir",
+      "title": "Þjónustustigsvísar, markmið og villuheimildir",
+      "heading": "6.1 Þjónustustigsvísar, markmið og villuheimildir",
+      "file": "chapters/06-01-þjónustustigsvísar-markmið-og-villuheimildir.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-atvikamælikvarðar",
+      "title": "Atvikamælikvarðar: greining, viðbragð og bati",
+      "heading": "6.2 Atvikamælikvarðar: greining, viðbragð og bati",
+      "file": "chapters/06-02-atvikamælikvarðar.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-bakvakta-getu-og-rekstrarálagsmælikvarðar",
+      "title": "Bakvakta-, getu- og rekstrarálagsmælikvarðar",
+      "heading": "6.3 Bakvakta-, getu- og rekstrarálagsmælikvarðar",
+      "file": "chapters/06-03-bakvakta-getu-og-rekstrarálagsmælikvarðar.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-öryggis-og-veikleikastjórnunarmælikvarðar",
+      "title": "Öryggis- og veikleikastjórnunarmælikvarðar",
+      "heading": "6.4 Öryggis- og veikleikastjórnunarmælikvarðar",
+      "file": "chapters/06-04-öryggis-og-veikleikastjórnunarmælikvarðar.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-mælikvarðar-á-öld-gervigreindar",
+      "title": "Inngangur að 7. hluta: Mælikvarðar á öld gervigreindar",
+      "heading": "7.0 Inngangur að 7. hluta: Mælikvarðar á öld gervigreindar",
+      "file": "chapters/07-00-mælikvarðar-á-öld-gervigreindar.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-viðmiðaskipti-skapandi-gervigreindar",
+      "title": "Viðmiðaskipti kynslóðargervigreindar",
+      "heading": "7.1 Viðmiðaskipti kynslóðargervigreindar",
+      "file": "chapters/07-01-viðmiðaskipti-skapandi-gervigreindar.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-mæling-gervigreindaraðstoðaðrar-hugbúnaðarþróunar",
+      "title": "Mæling gervigreindaraðstoðaðrar hugbúnaðarþróunar",
+      "heading": "7.2 Mæling gervigreindaraðstoðaðrar hugbúnaðarþróunar",
+      "file": "chapters/07-02-mæling-gervigreindaraðstoðaðrar-hugbúnaðarþróunar.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-mælikvarðaverðbólga-og-áhætta-gæðaþynningar",
+      "title": "Mælikvarðaverðbólga og áhætta gæðaþynningar",
+      "heading": "7.3 Mælikvarðaverðbólga og áhætta gæðaþynningar",
+      "file": "chapters/07-03-mælikvarðaverðbólga-og-áhætta-gæðaþynningar.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-niðurstöðufjarmæling-sem-nýja-pólstjarnan",
+      "title": "Niðurstöðufjarmæling sem nýja pólstjarnan",
+      "heading": "7.4 Niðurstöðufjarmæling sem nýja pólstjarnan",
+      "file": "chapters/07-04-niðurstöðufjarmæling-sem-nýja-pólstjarnan.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-að-byggja-mælikvarðaáætlun",
+      "title": "Inngangur að 8. hluta: Að byggja mælikvarðaáætlun",
+      "heading": "8.0 Inngangur að 8. hluta: Að byggja mælikvarðaáætlun",
+      "file": "chapters/08-00-að-byggja-mælikvarðaáætlun.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-að-hanna-mælaborð-verkfræðimælikvarða",
+      "title": "Að hanna mælaborð verkfræðimælikvarða",
+      "heading": "8.1 Að hanna mælaborð verkfræðimælikvarða",
+      "file": "chapters/08-01-að-hanna-mælaborð-verkfræðimælikvarða.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-tólalandslag-smíða-eða-kaupa",
+      "title": "Tólalandslag: smíða eða kaupa",
+      "heading": "8.2 Tólalandslag: smíða eða kaupa",
+      "file": "chapters/08-02-tólalandslag-smíða-eða-kaupa.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-að-útfæra-mælikvarða-án-þess-að-ala-á-ótta",
+      "title": "Að útfæra mælikvarða án þess að ala á ótta",
+      "heading": "8.3 Að útfæra mælikvarða án þess að ala á ótta",
+      "file": "chapters/08-03-að-útfæra-mælikvarða-án-þess-að-ala-á-ótta.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-þroskalíkan-fyrir-verkfræðimælikvarðaáætlanir",
+      "title": "Þroskalíkan fyrir verkfræðimælikvarðaáætlanir",
+      "heading": "8.4 Þroskalíkan fyrir verkfræðimælikvarðaáætlanir",
+      "file": "chapters/08-04-þroskalíkan-fyrir-verkfræðimælikvarðaáætlanir.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-stigvaxandi-upptökuvegvísir",
+      "title": "Stigvaxandi upptökuvegvísir",
+      "heading": "8.5 Stigvaxandi upptökuvegvísir",
+      "file": "chapters/08-05-stigvaxandi-upptökuvegvísir.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-viðaukar",
+      "title": "Viðaukar",
+      "heading": "9.0 Viðaukar",
+      "file": "chapters/09-00-viðaukar.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-orðalisti",
+      "title": "Orðalisti",
+      "heading": "9.1 Orðalisti",
+      "file": "chapters/09-01-orðalisti.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-skilgreiningar-mælikvarða-og-formúluyfirlit",
+      "title": "Skilgreiningar mælikvarða og formúluyfirlit",
+      "heading": "9.2 Skilgreiningar mælikvarða og formúluyfirlit",
+      "file": "chapters/09-02-skilgreiningar-mælikvarða-og-formúluyfirlit.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-gátlistar",
+      "title": "Gátlistar",
+      "heading": "9.3 Gátlistar",
+      "file": "chapters/09-03-gátlistar.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-sniðmát",
+      "title": "Sniðmát",
+      "heading": "9.4 Sniðmát",
+      "file": "chapters/09-04-sniðmát.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-þroskasjálfsmat",
+      "title": "Þroskasjálfsmat",
+      "heading": "9.5 Þroskasjálfsmat",
+      "file": "chapters/09-05-þroskasjálfsmat.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-heimildir-og-frekara-lesefni",
+      "title": "Heimildir og frekara lesefni",
+      "heading": "9.6 Heimildir og frekara lesefni",
+      "file": "chapters/09-06-heimildir-og-frekara-lesefni.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-atriðisorðaskrá",
+      "title": "Atriðisorðaskrá",
+      "heading": "9.7 Atriðisorðaskrá",
+      "file": "chapters/09-07-atriðisorðaskrá.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-grundvöllur-mælinga",
+      "title": "Inngangur að 1. hluta: Grundvöllur mælinga",
+      "heading": "1.0 Inngangur að 1. hluta: Grundvöllur mælinga",
+      "file": "chapters/01-00-grundvöllur-mælinga.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-hvers-vegna-að-mæla-hugbúnaðarverkfræði",
+      "title": "Hvers vegna að mæla hugbúnaðarverkfræði",
+      "heading": "1.1 Hvers vegna að mæla hugbúnaðarverkfræði",
+      "file": "chapters/01-01-hvers-vegna-að-mæla-hugbúnaðarverkfræði.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-lögmál-goodharts-og-sálfræði-mælikvarða",
+      "title": "Lögmál Goodharts og sálfræði mælikvarða",
+      "heading": "1.2 Lögmál Goodharts og sálfræði mælikvarða",
+      "file": "chapters/01-02-lögmál-goodharts-og-sálfræði-mælikvarða.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-niðurstöður-fram-yfir-afurðir",
+      "title": "Niðurstöður fram yfir afurðir: að velja hvað á að mæla",
+      "heading": "1.3 Niðurstöður fram yfir afurðir: að velja hvað á að mæla",
+      "file": "chapters/01-03-niðurstöður-fram-yfir-afurðir.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-stjórnarhættir-og-eignarhald-mælikvarða",
+      "title": "Stjórnarhættir og eignarhald mælikvarða",
+      "heading": "1.4 Stjórnarhættir og eignarhald mælikvarða",
+      "file": "chapters/01-04-stjórnarhættir-og-eignarhald-mælikvarða.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-gagnauppsprettur-og-tækjavæðing",
+      "title": "Gagnauppsprettur og tækjavæðing",
+      "heading": "1.5 Gagnauppsprettur og tækjavæðing",
+      "file": "chapters/01-05-gagnauppsprettur-og-tækjavæðing.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-tölfræðilæsi-fyrir-verkfræðimælikvarða",
+      "title": "Tölfræðilæsi fyrir verkfræðimælikvarða",
+      "heading": "1.6 Tölfræðilæsi fyrir verkfræðimælikvarða",
+      "file": "chapters/01-06-tölfræðilæsi-fyrir-verkfræðimælikvarða.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-flæðimælikvarðar",
+      "title": "Inngangur að 2. hluta: Flæðimælikvarðar",
+      "heading": "2.0 Inngangur að 2. hluta: Flæðimælikvarðar",
+      "file": "chapters/02-00-flæðimælikvarðar.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flæðiramminn",
+      "title": "Flæðiramminn",
+      "heading": "2.1 Flæðiramminn",
+      "file": "chapters/02-01-flæðiramminn.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-flæðiatriði",
+      "title": "Flæðiatriði: eiginleikar, gallar, áhættur og skuld",
+      "heading": "2.2 Flæðiatriði: eiginleikar, gallar, áhættur og skuld",
+      "file": "chapters/02-02-flæðiatriði.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-flæðishraði-og-flæðisdreifing",
+      "title": "Flæðishraði og flæðisdreifing",
+      "heading": "2.3 Flæðishraði og flæðisdreifing",
+      "file": "chapters/02-03-flæðishraði-og-flæðisdreifing.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-flæðistími-og-flæðisálag",
+      "title": "Flæðistími og flæðisálag",
+      "heading": "2.4 Flæðistími og flæðisálag",
+      "file": "chapters/02-04-flæðistími-og-flæðisálag.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-flæðinýtni-og-vinna-í-vinnslu",
+      "title": "Flæðinýtni og vinna í vinnslu",
+      "heading": "2.5 Flæðinýtni og vinna í vinnslu",
+      "file": "chapters/02-05-flæðinýtni-og-vinna-í-vinnslu.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-ferlitími-og-þættir-hans",
+      "title": "Ferlitími og þættir hans",
+      "heading": "2.6 Ferlitími og þættir hans",
+      "file": "chapters/02-06-ferlitími-og-þættir-hans.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-biðraðafræði",
+      "title": "Biðraðafræði",
+      "heading": "2.7 Biðraðafræði",
+      "file": "chapters/02-07-biðraðafræði.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-lean-virðisstraumsmælikvarðar",
+      "title": "Lean-virðisstraumsmælikvarðar",
+      "heading": "2.8 Lean-virðisstraumsmælikvarðar",
+      "file": "chapters/02-08-lean-virðisstraumsmælikvarðar.md"
+    },
+    "2.9": {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-mælikvarðar-sameiningarbeiðna-og-kóðayfirferðar",
+      "title": "Mælikvarðar sameiningarbeiðna og kóðayfirferðar",
+      "heading": "2.9 Mælikvarðar sameiningarbeiðna og kóðayfirferðar",
+      "file": "chapters/02-09-mælikvarðar-sameiningarbeiðna-og-kóðayfirferðar.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-dora-mælikvarðaramminn",
+      "title": "DORA-mælikvarðaramminn",
+      "heading": "2.10 DORA-mælikvarðaramminn",
+      "file": "chapters/02-10-dora-mælikvarðaramminn.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-þróunarupplifun-og-space",
+      "title": "Inngangur að 3. hluta: Þróunarupplifun og SPACE-ramminn",
+      "heading": "3.0 Inngangur að 3. hluta: Þróunarupplifun og SPACE-ramminn",
+      "file": "chapters/03-00-þróunarupplifun-og-space.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-space-ramminn",
+      "title": "SPACE-ramminn",
+      "heading": "3.1 SPACE-ramminn",
+      "file": "chapters/03-01-space-ramminn.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-mælikvarðar-ánægju-og-vellíðanar",
+      "title": "Mælikvarðar ánægju og vellíðanar",
+      "heading": "3.2 Mælikvarðar ánægju og vellíðanar",
+      "file": "chapters/03-02-mælikvarðar-ánægju-og-vellíðanar.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-frammistöðumælikvarðar-og-staðgenglar-niðurstaðna",
+      "title": "Frammistöðumælikvarðar og staðgenglar niðurstaðna",
+      "heading": "3.3 Frammistöðumælikvarðar og staðgenglar niðurstaðna",
+      "file": "chapters/03-03-frammistöðumælikvarðar-og-staðgenglar-niðurstaðna.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-virknimælikvarðar-og-takmörk-þeirra",
+      "title": "Virknimælikvarðar og takmörk þeirra",
+      "heading": "3.4 Virknimælikvarðar og takmörk þeirra",
+      "file": "chapters/03-04-virknimælikvarðar-og-takmörk-þeirra.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-mælikvarðar-samskipta-og-samvinnu",
+      "title": "Mælikvarðar samskipta og samvinnu",
+      "heading": "3.5 Mælikvarðar samskipta og samvinnu",
+      "file": "chapters/03-05-mælikvarðar-samskipta-og-samvinnu.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-skilvirkni-og-flæði",
+      "title": "Skilvirkni og flæði: djúpvinna og truflanir",
+      "heading": "3.6 Skilvirkni og flæði: djúpvinna og truflanir",
+      "file": "chapters/03-06-skilvirkni-og-flæði.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-kannanir-á-þróunarupplifun-og-devex-mælikvarðar",
+      "title": "Kannanir á þróunarupplifun og DevEx-mælikvarðar",
+      "heading": "3.7 Kannanir á þróunarupplifun og DevEx-mælikvarðar",
+      "file": "chapters/03-07-kannanir-á-þróunarupplifun-og-devex-mælikvarðar.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-kóða-og-gæðamælikvarðar",
+      "title": "Inngangur að 4. hluta: Kóða- og gæðamælikvarðar",
+      "heading": "4.0 Inngangur að 4. hluta: Kóða- og gæðamælikvarðar",
+      "file": "chapters/04-00-kóða-og-gæðamælikvarðar.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-mælikvarðar-á-flækjustig-kóða",
+      "title": "Mælikvarðar á flækjustig kóða",
+      "heading": "4.1 Mælikvarðar á flækjustig kóða",
+      "file": "chapters/04-01-mælikvarðar-á-flækjustig-kóða.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-prófþekja-og-skilvirkni-prófana",
+      "title": "Prófþekja og skilvirkni prófana",
+      "heading": "4.2 Prófþekja og skilvirkni prófana",
+      "file": "chapters/04-02-prófþekja-og-skilvirkni-prófana.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-kóðavelta-og-heitreitagreining",
+      "title": "Kóðavelta og heitreitagreining",
+      "heading": "4.3 Kóðavelta og heitreitagreining",
+      "file": "chapters/04-03-kóðavelta-og-heitreitagreining.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-stöðugreining-og-kóðalyktarmælikvarðar",
+      "title": "Stöðugreining og kóðalyktarmælikvarðar",
+      "heading": "4.4 Stöðugreining og kóðalyktarmælikvarðar",
+      "file": "chapters/04-04-stöðugreining-og-kóðalyktarmælikvarðar.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-mæling-tæknilegrar-skuldar",
+      "title": "Mæling tæknilegrar skuldar",
+      "heading": "4.5 Mæling tæknilegrar skuldar",
+      "file": "chapters/04-05-mæling-tæknilegrar-skuldar.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-skjölunar-og-þekkingarmælikvarðar",
+      "title": "Skjölunar- og þekkingarmælikvarðar",
+      "heading": "4.6 Skjölunar- og þekkingarmælikvarðar",
+      "file": "chapters/04-06-skjölunar-og-þekkingarmælikvarðar.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-vöru-og-viðskiptamælikvarðar",
+      "title": "Inngangur að 5. hluta: Vöru- og viðskiptamælikvarðar",
+      "heading": "5.0 Inngangur að 5. hluta: Vöru- og viðskiptamælikvarðar",
+      "file": "chapters/05-00-vöru-og-viðskiptamælikvarðar.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-hlutfall-sloppinna-galla-og-gæðaleka",
+      "title": "Hlutfall sloppinna galla og gæðaleka",
+      "heading": "5.1 Hlutfall sloppinna galla og gæðaleka",
+      "file": "chapters/05-01-hlutfall-sloppinna-galla-og-gæðaleka.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-mælikvarðar-á-upptöku-og-notkun-eiginleika",
+      "title": "Mælikvarðar á upptöku og notkun eiginleika",
+      "heading": "5.2 Mælikvarðar á upptöku og notkun eiginleika",
+      "file": "chapters/05-02-mælikvarðar-á-upptöku-og-notkun-eiginleika.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-mælikvarðar-á-niðurstöður-viðskiptavina-og-rekstrar",
+      "title": "Mælikvarðar á niðurstöður viðskiptavina og rekstrar",
+      "heading": "5.3 Mælikvarðar á niðurstöður viðskiptavina og rekstrar",
+      "file": "chapters/05-03-mælikvarðar-á-niðurstöður-viðskiptavina-og-rekstrar.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-kostnaður-og-einingarhagfræði-verkfræði",
+      "title": "Kostnaður og einingarhagfræði verkfræði",
+      "heading": "5.4 Kostnaður og einingarhagfræði verkfræði",
+      "file": "chapters/05-04-kostnaður-og-einingarhagfræði-verkfræði.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-ávöxtun-fjárfestingar-í-verkfræðiframtökum",
+      "title": "Ávöxtun fjárfestingar í verkfræðiframtökum",
+      "heading": "5.5 Ávöxtun fjárfestingar í verkfræðiframtökum",
+      "file": "chapters/05-05-ávöxtun-fjárfestingar-í-verkfræðiframtökum.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-áreiðanleika-rekstrar-og-öryggismælikvarðar",
+      "title": "Inngangur að 6. hluta: Áreiðanleika-, rekstrar- og öryggismælikvarðar",
+      "heading": "6.0 Inngangur að 6. hluta: Áreiðanleika-, rekstrar- og öryggismælikvarðar",
+      "file": "chapters/06-00-áreiðanleika-rekstrar-og-öryggismælikvarðar.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-þjónustustigsvísar-markmið-og-villuheimildir",
+      "title": "Þjónustustigsvísar, markmið og villuheimildir",
+      "heading": "6.1 Þjónustustigsvísar, markmið og villuheimildir",
+      "file": "chapters/06-01-þjónustustigsvísar-markmið-og-villuheimildir.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-atvikamælikvarðar",
+      "title": "Atvikamælikvarðar: greining, viðbragð og bati",
+      "heading": "6.2 Atvikamælikvarðar: greining, viðbragð og bati",
+      "file": "chapters/06-02-atvikamælikvarðar.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-bakvakta-getu-og-rekstrarálagsmælikvarðar",
+      "title": "Bakvakta-, getu- og rekstrarálagsmælikvarðar",
+      "heading": "6.3 Bakvakta-, getu- og rekstrarálagsmælikvarðar",
+      "file": "chapters/06-03-bakvakta-getu-og-rekstrarálagsmælikvarðar.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-öryggis-og-veikleikastjórnunarmælikvarðar",
+      "title": "Öryggis- og veikleikastjórnunarmælikvarðar",
+      "heading": "6.4 Öryggis- og veikleikastjórnunarmælikvarðar",
+      "file": "chapters/06-04-öryggis-og-veikleikastjórnunarmælikvarðar.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-mælikvarðar-á-öld-gervigreindar",
+      "title": "Inngangur að 7. hluta: Mælikvarðar á öld gervigreindar",
+      "heading": "7.0 Inngangur að 7. hluta: Mælikvarðar á öld gervigreindar",
+      "file": "chapters/07-00-mælikvarðar-á-öld-gervigreindar.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-viðmiðaskipti-skapandi-gervigreindar",
+      "title": "Viðmiðaskipti kynslóðargervigreindar",
+      "heading": "7.1 Viðmiðaskipti kynslóðargervigreindar",
+      "file": "chapters/07-01-viðmiðaskipti-skapandi-gervigreindar.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-mæling-gervigreindaraðstoðaðrar-hugbúnaðarþróunar",
+      "title": "Mæling gervigreindaraðstoðaðrar hugbúnaðarþróunar",
+      "heading": "7.2 Mæling gervigreindaraðstoðaðrar hugbúnaðarþróunar",
+      "file": "chapters/07-02-mæling-gervigreindaraðstoðaðrar-hugbúnaðarþróunar.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-mælikvarðaverðbólga-og-áhætta-gæðaþynningar",
+      "title": "Mælikvarðaverðbólga og áhætta gæðaþynningar",
+      "heading": "7.3 Mælikvarðaverðbólga og áhætta gæðaþynningar",
+      "file": "chapters/07-03-mælikvarðaverðbólga-og-áhætta-gæðaþynningar.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-niðurstöðufjarmæling-sem-nýja-pólstjarnan",
+      "title": "Niðurstöðufjarmæling sem nýja pólstjarnan",
+      "heading": "7.4 Niðurstöðufjarmæling sem nýja pólstjarnan",
+      "file": "chapters/07-04-niðurstöðufjarmæling-sem-nýja-pólstjarnan.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-að-byggja-mælikvarðaáætlun",
+      "title": "Inngangur að 8. hluta: Að byggja mælikvarðaáætlun",
+      "heading": "8.0 Inngangur að 8. hluta: Að byggja mælikvarðaáætlun",
+      "file": "chapters/08-00-að-byggja-mælikvarðaáætlun.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-að-hanna-mælaborð-verkfræðimælikvarða",
+      "title": "Að hanna mælaborð verkfræðimælikvarða",
+      "heading": "8.1 Að hanna mælaborð verkfræðimælikvarða",
+      "file": "chapters/08-01-að-hanna-mælaborð-verkfræðimælikvarða.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-tólalandslag-smíða-eða-kaupa",
+      "title": "Tólalandslag: smíða eða kaupa",
+      "heading": "8.2 Tólalandslag: smíða eða kaupa",
+      "file": "chapters/08-02-tólalandslag-smíða-eða-kaupa.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-að-útfæra-mælikvarða-án-þess-að-ala-á-ótta",
+      "title": "Að útfæra mælikvarða án þess að ala á ótta",
+      "heading": "8.3 Að útfæra mælikvarða án þess að ala á ótta",
+      "file": "chapters/08-03-að-útfæra-mælikvarða-án-þess-að-ala-á-ótta.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-þroskalíkan-fyrir-verkfræðimælikvarðaáætlanir",
+      "title": "Þroskalíkan fyrir verkfræðimælikvarðaáætlanir",
+      "heading": "8.4 Þroskalíkan fyrir verkfræðimælikvarðaáætlanir",
+      "file": "chapters/08-04-þroskalíkan-fyrir-verkfræðimælikvarðaáætlanir.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-stigvaxandi-upptökuvegvísir",
+      "title": "Stigvaxandi upptökuvegvísir",
+      "heading": "8.5 Stigvaxandi upptökuvegvísir",
+      "file": "chapters/08-05-stigvaxandi-upptökuvegvísir.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-viðaukar",
+      "title": "Viðaukar",
+      "heading": "9.0 Viðaukar",
+      "file": "chapters/09-00-viðaukar.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-orðalisti",
+      "title": "Orðalisti",
+      "heading": "9.1 Orðalisti",
+      "file": "chapters/09-01-orðalisti.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-skilgreiningar-mælikvarða-og-formúluyfirlit",
+      "title": "Skilgreiningar mælikvarða og formúluyfirlit",
+      "heading": "9.2 Skilgreiningar mælikvarða og formúluyfirlit",
+      "file": "chapters/09-02-skilgreiningar-mælikvarða-og-formúluyfirlit.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-gátlistar",
+      "title": "Gátlistar",
+      "heading": "9.3 Gátlistar",
+      "file": "chapters/09-03-gátlistar.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-sniðmát",
+      "title": "Sniðmát",
+      "heading": "9.4 Sniðmát",
+      "file": "chapters/09-04-sniðmát.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-þroskasjálfsmat",
+      "title": "Þroskasjálfsmat",
+      "heading": "9.5 Þroskasjálfsmat",
+      "file": "chapters/09-05-þroskasjálfsmat.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-heimildir-og-frekara-lesefni",
+      "title": "Heimildir og frekara lesefni",
+      "heading": "9.6 Heimildir og frekara lesefni",
+      "file": "chapters/09-06-heimildir-og-frekara-lesefni.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-atriðisorðaskrá",
+      "title": "Atriðisorðaskrá",
+      "heading": "9.7 Atriðisorðaskrá",
+      "file": "chapters/09-07-atriðisorðaskrá.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "Inngangur",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "Efnisyfirlit",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "Hvað eru mælikvarðar hugbúnaðarverkfræði?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "Dæmi: mælaborðslýsing fyrir afhendingarmælikvarðamælaborð",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "Dæmi: mælikvarðasáttmáli fyrir greiðsluvettvangsteymi",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "Ritun: að skrifa og breyta viðfangsefnum",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "Viðfangsefnissniðmát (sameiginlegt)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "Leiðsögn: hvernig myndaðar skrár virka",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "Hlutayfirlit (sameiginleg tilvísun)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "Stílreglur (sameiginlegar, framfylgjanlegar)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "Prófanir: sannprófunarsafnið",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "Breytingaskrá",
+      "file": "project/changelog.md"
+    }
+  ],
+  "totals": {
+    "parts": 9,
+    "chapters": 63
+  }
+}

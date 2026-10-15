@@ -2,7 +2,7 @@
 
 The book is published in four English spelling-variant locales, each a
 complete copy of every topic, front-matter file, example, contributing guide,
-and project file, differing only in spelling, plus 30 hand-translated locales
+and project file, differing only in spelling, plus 32 hand-translated locales
 (see "Translated locales" below). All four keep identical structure, section order, word
 counts, and file names; see [structure.md](structure.md) and
 [conventions.md](conventions.md), which govern all four equally.
@@ -91,7 +91,7 @@ adding a topic, before `just test`.
 
 ## Translated locales
 
-Thirty hand-translated locales (a different language, with their own
+Thirty-two hand-translated locales (a different language, with their own
 slugs) are complete. Each has all 63 topics plus the other four sections,
 a translated home `index.md` and table of contents, and a section directory
 named in its own language (see [Section directory names](#section-directory-names));
@@ -108,6 +108,7 @@ titles. None is touched by `tools/localize.py`.
 | French | `fr-001`, `fr-fr` | identical copies; `fr-fr` is the hand translation |
 | Hindi | `hi-001`, `hi-id` | identical copies; `hi-001` is the hand translation |
 | Indonesian | `id-001` | single locale, hand translation |
+| Icelandic | `is-001`, `is-is` | identical copies; `is-is` is the hand translation |
 | Japanese | `ja-001`, `ja-jp` | identical copies; `ja-jp` is the hand translation |
 | Korean | `ko-001`, `ko-kr` | identical copies; `ko-kr` is the hand translation |
 | Dutch | `nl-001`, `nl-nl` | identical copies; `nl-nl` is the hand translation |
@@ -134,7 +135,7 @@ from. Welsh terminology follows the Welsh Government's TermCymru list.
 
 ### Served on the site
 
-Eighteen translated locales are wired into the site's
+Nineteen translated locales are wired into the site's
 `SERVED_LOCALE_CODES` (`scripts/locales.mjs`): every `-001` locale, plus
 `cy-gb` and `zh-cn`. The country-tagged hand translations (`ar-eg`,
 `bn-bd`, `de-de`, `es-es`, `fr-fr`, `hi-id`, `ja-jp`, `ko-kr`, `nl-nl`,

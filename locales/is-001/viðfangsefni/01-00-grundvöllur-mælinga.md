@@ -1,0 +1,22 @@
+# 1.0 Inngangur að 1. hluta: Grundvöllur mælinga
+
+Áður en þessi bók nefnir nokkurn einn mælikvarða verður hún að svara erfiðari spurningu: til hvers eru mælingar? Sérhvert teymi sem hefur smíðað mælaborð hefur líka, að lokum, horft á tölu batna meðan það sem hún átti að tákna versnaði. Það er ekki bilun í tólum. Það er fyrirsjáanleg afleiðing þess að sleppa grunninum sem þessi hluti fjallar um: hvers vegna þú mælir yfirleitt, hvað verður um mælikvarða þegar fólk veit að fylgst er með honum, hvernig á að vega niðurstöður þyngra en virkni, hver á tölu og skilgreiningu hennar, hvaðan gögnin koma í raun og hvernig á að lesa hávaðasamt merki án þess að blekkja sjálfan sig.
+
+Fyrir stór teymi hætta þessi undirstöðuatriði að vera valkvæð. Eitt teymi kemst upp með tilfallandi tölu sem stjórnandi lítur á einu sinni í viku. Skipulagsheild með hundruð verkfræðinga, tugi mælaborða og forystu sem skýrir upp á við getur það ekki. Í þeim mæli villir eigandalaus eða illa skilgreindur mælikvarði ekki aðeins eitt teymi, hann villir alla niðurstreymis sem treysta tölunni án þess að athuga hvernig hún var smíðuð, og það er dýrt að vinda ofan af honum þegar hegðun hefur aðlagast því að leika hann.
+
+Stórfyrirtæki og hið opinbera finna þetta sárast, því mælikvarðar þeirra bera oft afleiðingar umfram teymið sem framleiðir þá: fjárlagaákvarðanir, opinberar frammistöðuskýrslur, endurskoðunarniðurstöður og birgjasamninga. Mælikvarði sem lítur út eins og innri verkfræðiþægindi getur hljóðlega orðið mikilvægt, óvéfengt inntak í ákvarðanir fólks sem sér aldrei leiðsluna sem framleiddi hann. Að fá grunninn réttan er það sem gerir þá þyngd viðráðanlega.
+
+## Viðfangsefni í þessum hluta
+
+- **1.1 Hvers vegna að mæla hugbúnaðarverkfræði:** Rökin fyrir mælingu yfirleitt, hverju hún á að skila og munurinn á að mæla til að læra og að mæla til að dæma.
+- **1.2 Lögmál Goodharts og sálfræði mælikvarða:** Hin eina hugmynd sem stýrir sérhverju öðru viðfangsefni þessarar bókar: mælikvarði sem verður markmið hættir að vera góður mælikvarði, og sálfræðilegu vélbúnaðirnir sem gera leik næstum óhjákvæmilegan þegar fólk veit að fylgst er með því.
+- **1.3 Niðurstöður fram yfir afurðir: að velja hvað á að mæla:** Hvernig á að vega mælikvarðasafn í átt að niðurstöðum frekar en virkni, með klassíska inntaks-/afurða-/niðurstöðugreinarmuninum og pólstjörnumynstrinu.
+- **1.4 Stjórnarhættir og eignarhald mælikvarða:** Hver ákveður hvað er mælt, hver á skilgreiningu og hvernig mælikvarðasáttmáli heldur vaxandi mælaborði frá því að verða ábyrgðarlaus óreiða.
+- **1.5 Gagnauppsprettur og tækjavæðing:** Hvaðan verkfræðimælikvarðar koma í raun, tækjavæðing á móti sjálfsskýrslu og gagnagæðavandamálin sem hljóðlega ógilda mælaborð áður en nokkur tekur eftir.
+- **1.6 Tölfræðilæsi fyrir verkfræðimælikvarða:** Lágmarks tölfræðileg dómgreind sem teymi þarf til að lesa mælikvarða heiðarlega: hundraðshlutamörk á móti meðaltölum, úrtaksstærð, aftursnúningur til meðaltals og truflunarbreytur.
+
+## Hvernig þessi viðfangsefni tengjast
+
+Þessi sex viðfangsefni byggjast upp í ströngri röð. Viðfangsefni 1.1 spyr hvers vegna á að mæla yfirleitt, sem skiptir máli því teymi sem hefur ekki svarað því mun safna tölum sem enginn bregst við. Viðfangsefni 1.2 er snúningspunkturinn sem restin af bókinni snýst um: þegar þú samþykkir að hver mælikvarði geti orðið markmið og verið leikinn, fylgja ráðleggingar hvers síðara viðfangsefnis af því að hanna gegn þeirri áhættu. Viðfangsefni 1.3 breytir þeirri varúð í jákvæða reglu: vegðu í átt að niðurstöðum, því þær eru sá flokkur sem er erfiðast að leika ódýrt. Viðfangsefni 1.4 gerir stjórnarhættina áþreifanlega, viðfangsefni 1.5 gerir gögnin áþreifanleg og viðfangsefni 1.6 gefur þér tölfræðilegu dómgreindina til að forðast að láta hávaða blekkja þig jafnvel eftir að stjórnarhættir og tækjavæðing eru traust.
+
+Allt niðurstreymis veltur á þessum hluta. Flæðimælikvarðar 2. hluta og DORA-mælikvarðar, og SPACE-ramminn í 3. hluta, eru í reynd allt unnin dæmi um meginreglurnar um niðurstöðuvigtun og pörun við varnarmælikvarða sem settar eru fram í viðfangsefnum 1.2 og 1.3. Leiðbeiningarnar um hönnun mælaborðs í viðfangsefni 8.1 gera ráð fyrir stjórnarhættalíkaninu úr viðfangsefni 1.4. Og þroskalíkanið sem lokar hverju viðfangsefni þessarar bókar er, undir stigunum fimm, þroskalíkan fyrir nákvæmlega þann aga sem þessi hluti kynnir: að mæla eins og þú meinar það, og að athuga eigin vinnu.

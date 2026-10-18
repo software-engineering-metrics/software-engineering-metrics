@@ -211,6 +211,13 @@
       "contributing": "bidra",
       "project": "projekt"
     },
+    "sw-001": {
+      "chapters": "mada",
+      "front-matter": "utangulizi",
+      "examples": "mifano",
+      "contributing": "kuchangia",
+      "project": "mradi"
+    },
     "sv-se": {
       "chapters": "ämnen",
       "front-matter": "förtext",

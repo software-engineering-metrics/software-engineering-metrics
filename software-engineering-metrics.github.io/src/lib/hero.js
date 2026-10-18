@@ -181,6 +181,24 @@ export const HERO = {
   "contents": "Daftar isi",
   "translations": "Terjemahan: "
  },
+ "is-001": {
+  "headline": "Mældu hugbúnaðarverkfræði vel.",
+  "tagline": "Ókeypis · opið · byggt á forskrift",
+  "intro": "Vinnubók um val á mælikvörðum sem endurspegla raunverulegar niðurstöður frekar en virkni: Flæðiramminn (Flow Framework), SPACE-ramminn, biðraðafræði og DORA-mælikvarðar, kóða- og gæðamælikvarðar, vöru- og rekstrarniðurstöður, áreiðanleiki og öryggi, og hvernig kynslóðargervigreind breytir merkingu þessara talna.",
+  "start": "Byrjaðu að lesa",
+  "examples": "Unnin dæmi",
+  "contents": "Efnisyfirlit",
+  "translations": "Þýðingar: "
+ },
+ "is-is": {
+  "headline": "Mældu hugbúnaðarverkfræði vel.",
+  "tagline": "Ókeypis · opið · byggt á forskrift",
+  "intro": "Vinnubók um val á mælikvörðum sem endurspegla raunverulegar niðurstöður frekar en virkni: Flæðiramminn (Flow Framework), SPACE-ramminn, biðraðafræði og DORA-mælikvarðar, kóða- og gæðamælikvarðar, vöru- og rekstrarniðurstöður, áreiðanleiki og öryggi, og hvernig kynslóðargervigreind breytir merkingu þessara talna.",
+  "start": "Byrjaðu að lesa",
+  "examples": "Unnin dæmi",
+  "contents": "Efnisyfirlit",
+  "translations": "Þýðingar: "
+ },
  "ja-001": {
   "headline": "ソフトウェア工学を正しく測る。",
   "tagline": "無料 · オープン · 仕様駆動",
@@ -289,6 +307,15 @@ export const HERO = {
   "contents": "Innehåll",
   "translations": "Översättningar: "
  },
+ "sw-001": {
+  "headline": "Pima uhandisi wa programu vizuri.",
+  "tagline": "Bure · wazi · unaoendeshwa na maelezo ya kiufundi",
+  "intro": "Kitabu cha kazi kuhusu kuchagua vipimo vinavyoakisi matokeo halisi badala ya shughuli: Flow Framework, mfumo wa SPACE, nadharia ya foleni na vipimo vya DORA, vipimo vya msimbo na ubora, matokeo ya bidhaa na biashara, kutegemewa na usalama, na jinsi akili bandia ya kizazi inavyobadilisha maana ya namba hizi.",
+  "start": "Anza kusoma",
+  "examples": "Mifano iliyofanyiwa kazi",
+  "contents": "Yaliyomo",
+  "translations": "Tafsiri: "
+ },
  "ur-001": {
   "headline": "سافٹ ویئر انجینئرنگ کو اچھی طرح ناپیں۔",
   "tagline": "مفت · کھلا · تفصیلات پر مبنی",
@@ -339,6 +366,8 @@ export const ENDONYMS = {
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
+ "is-001": "Íslenska",
+ "is-is": "Íslenska (Ísland)",
  "ja-001": "日本語",
  "ja-jp": "日本語 (日本)",
  "ko-001": "한국어",
@@ -351,6 +380,7 @@ export const ENDONYMS = {
  "ru-ru": "Русский (Россия)",
  "sv-001": "Svenska",
  "sv-se": "Svenska (Sverige)",
+ "sw-001": "Kiswahili",
  "ur-001": "اردو",
  "zh-001": "中文",
  "zh-cn": "简体中文"

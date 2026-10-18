@@ -7,6 +7,7 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Added Swahili (`sw-001`) as the 33rd complete translated locale: all 63 topics and every other section, with matching `.locale-peer-id` sidecars. `sw-001` is wired into the site and served at `/sw-001/`.
 - Added Icelandic (`is-is`) and `is-001` as the 31st and 32nd complete translated locales: all 63 topics and every other section, with matching `.locale-peer-id` sidecars, `is-001` identical in content to `is-is`. `is-001` is wired into the site and served at `/is-001/`.
 - Site: the root page's browser-language redirect now falls back to a language's international superset
   when there is no exact match: `en-AU` goes to `/en-001/`, `es-MX` to `/es-001/`, and

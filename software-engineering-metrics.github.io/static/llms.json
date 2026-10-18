@@ -7420,6 +7420,328 @@
    ]
   },
   {
+   "code": "sw-001",
+   "label": "Kiswahili",
+   "home": "https://software-engineering-metrics.github.io/sw-001/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "Utangulizi wa Sehemu ya 1: Misingi ya kipimo",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/01-00-misingi-ya-kipimo/"
+    },
+    {
+     "number": "1.1",
+     "title": "Kwa nini kupima uhandisi wa programu",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/01-01-kwa-nini-kupima-uhandisi-wa-programu/"
+    },
+    {
+     "number": "1.2",
+     "title": "Sheria ya Goodhart na saikolojia ya vipimo",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/01-02-sheria-ya-goodhart-na-saikolojia-ya-vipimo/"
+    },
+    {
+     "number": "1.3",
+     "title": "Matokeo kuliko pato: kuchagua cha kupima",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/01-03-matokeo-kuliko-pato-kuchagua-cha-kupima/"
+    },
+    {
+     "number": "1.4",
+     "title": "Utawala na umiliki wa vipimo",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/01-04-utawala-na-umiliki-wa-vipimo/"
+    },
+    {
+     "number": "1.5",
+     "title": "Vyanzo vya data na upimaji",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/01-05-vyanzo-vya-data-na-upimaji/"
+    },
+    {
+     "number": "1.6",
+     "title": "Ujuzi wa takwimu kwa vipimo vya uhandisi",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/01-06-ujuzi-wa-takwimu-kwa-vipimo-vya-uhandisi/"
+    },
+    {
+     "number": "2.0",
+     "title": "Utangulizi wa Sehemu ya 2: Vipimo vya mtiririko",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/02-00-vipimo-vya-mtiririko/"
+    },
+    {
+     "number": "2.1",
+     "title": "Flow Framework",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/02-01-flow-framework/"
+    },
+    {
+     "number": "2.2",
+     "title": "Vipengee vya mtiririko: vipengele, kasoro, hatari, na deni",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/02-02-vipengee-vya-mtiririko-vipengele-kasoro-hatari-na-deni/"
+    },
+    {
+     "number": "2.3",
+     "title": "Kasi ya mtiririko na mgawanyo wa mtiririko",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/02-03-kasi-ya-mtiririko-na-mgawanyo-wa-mtiririko/"
+    },
+    {
+     "number": "2.4",
+     "title": "Muda wa mtiririko na mzigo wa mtiririko",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/02-04-muda-wa-mtiririko-na-mzigo-wa-mtiririko/"
+    },
+    {
+     "number": "2.5",
+     "title": "Ufanisi wa mtiririko na kazi inayoendelea",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/02-05-ufanisi-wa-mtiririko-na-kazi-inayoendelea/"
+    },
+    {
+     "number": "2.6",
+     "title": "Muda wa mzunguko na vijenzi vyake",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/02-06-muda-wa-mzunguko-na-vijenzi-vyake/"
+    },
+    {
+     "number": "2.7",
+     "title": "Nadharia ya foleni",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/02-07-nadharia-ya-foleni/"
+    },
+    {
+     "number": "2.8",
+     "title": "Vipimo vya mkondo wa thamani wa Lean",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/02-08-vipimo-vya-mkondo-wa-thamani-wa-lean/"
+    },
+    {
+     "number": "2.9",
+     "title": "Vipimo vya maombi ya kuvuta na mapitio ya msimbo",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/02-09-vipimo-vya-maombi-ya-kuvuta-na-mapitio-ya-msimbo/"
+    },
+    {
+     "number": "2.10",
+     "title": "Mfumo wa vipimo vya DORA",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/02-10-mfumo-wa-vipimo-vya-dora/"
+    },
+    {
+     "number": "3.0",
+     "title": "Utangulizi wa Sehemu ya 3: Uzoefu wa msanidi na mfumo wa SPACE",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/03-00-uzoefu-wa-msanidi-na-mfumo-wa-space/"
+    },
+    {
+     "number": "3.1",
+     "title": "Mfumo wa SPACE",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/03-01-mfumo-wa-space/"
+    },
+    {
+     "number": "3.2",
+     "title": "Vipimo vya kuridhika na ustawi",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/03-02-vipimo-vya-kuridhika-na-ustawi/"
+    },
+    {
+     "number": "3.3",
+     "title": "Vipimo vya utendaji na wawakilishi wa matokeo",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/03-03-vipimo-vya-utendaji-na-wawakilishi-wa-matokeo/"
+    },
+    {
+     "number": "3.4",
+     "title": "Vipimo vya shughuli na mipaka yake",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/03-04-vipimo-vya-shughuli-na-mipaka-yake/"
+    },
+    {
+     "number": "3.5",
+     "title": "Vipimo vya mawasiliano na ushirikiano",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/03-05-vipimo-vya-mawasiliano-na-ushirikiano/"
+    },
+    {
+     "number": "3.6",
+     "title": "Ufanisi na mtiririko: kazi ya kina na usumbufu",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/03-06-ufanisi-na-mtiririko-kazi-ya-kina-na-usumbufu/"
+    },
+    {
+     "number": "3.7",
+     "title": "Tafiti za uzoefu wa msanidi na vipimo vya DevEx",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/03-07-tafiti-za-uzoefu-wa-msanidi-na-vipimo-vya-devex/"
+    },
+    {
+     "number": "4.0",
+     "title": "Utangulizi wa Sehemu ya 4: Vipimo vya msimbo na ubora",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/04-00-vipimo-vya-msimbo-na-ubora/"
+    },
+    {
+     "number": "4.1",
+     "title": "Vipimo vya ugumu wa msimbo",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/04-01-vipimo-vya-ugumu-wa-msimbo/"
+    },
+    {
+     "number": "4.2",
+     "title": "Ufunikaji wa majaribio na ufanisi wa majaribio",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/04-02-ufunikaji-wa-majaribio-na-ufanisi-wa-majaribio/"
+    },
+    {
+     "number": "4.3",
+     "title": "Mabadiliko ya mara kwa mara ya msimbo na uchambuzi wa sehemu moto",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/04-03-mabadiliko-ya-mara-kwa-mara-ya-msimbo-na-uchambuzi-wa-sehemu-moto/"
+    },
+    {
+     "number": "4.4",
+     "title": "Uchambuzi tuli na vipimo vya harufu ya msimbo",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/04-04-uchambuzi-tuli-na-vipimo-vya-harufu-ya-msimbo/"
+    },
+    {
+     "number": "4.5",
+     "title": "Kipimo cha deni la kiufundi",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/04-05-kipimo-cha-deni-la-kiufundi/"
+    },
+    {
+     "number": "4.6",
+     "title": "Vipimo vya nyaraka na maarifa",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/04-06-vipimo-vya-nyaraka-na-maarifa/"
+    },
+    {
+     "number": "5.0",
+     "title": "Utangulizi wa Sehemu ya 5: Vipimo vya bidhaa na biashara",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/05-00-vipimo-vya-bidhaa-na-biashara/"
+    },
+    {
+     "number": "5.1",
+     "title": "Kiwango cha kasoro zilizotoroka na kutoroka kwa ubora",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/05-01-kiwango-cha-kasoro-zilizotoroka-na-kutoroka-kwa-ubora/"
+    },
+    {
+     "number": "5.2",
+     "title": "Vipimo vya upokeaji na matumizi ya vipengele",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/05-02-vipimo-vya-upokeaji-na-matumizi-ya-vipengele/"
+    },
+    {
+     "number": "5.3",
+     "title": "Vipimo vya matokeo ya wateja na biashara",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/05-03-vipimo-vya-matokeo-ya-wateja-na-biashara/"
+    },
+    {
+     "number": "5.4",
+     "title": "Gharama na uchumi wa kitengo wa uhandisi",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/05-04-gharama-na-uchumi-wa-kitengo-wa-uhandisi/"
+    },
+    {
+     "number": "5.5",
+     "title": "Faida ya uwekezaji kwa mipango ya uhandisi",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/05-05-faida-ya-uwekezaji-kwa-mipango-ya-uhandisi/"
+    },
+    {
+     "number": "6.0",
+     "title": "Utangulizi wa Sehemu ya 6: Vipimo vya kutegemewa, uendeshaji, na usalama",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/06-00-vipimo-vya-kutegemewa-uendeshaji-na-usalama/"
+    },
+    {
+     "number": "6.1",
+     "title": "Viashiria vya kiwango cha huduma, malengo, na bajeti za makosa",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/06-01-viashiria-vya-kiwango-cha-huduma-malengo-na-bajeti-za-makosa/"
+    },
+    {
+     "number": "6.2",
+     "title": "Vipimo vya matukio: ugunduzi, mwitikio, na kupona",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/06-02-vipimo-vya-matukio-ugunduzi-mwitikio-na-kupona/"
+    },
+    {
+     "number": "6.3",
+     "title": "Vipimo vya simu ya dharura, uwezo, na mzigo wa kiuendeshaji",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/06-03-vipimo-vya-simu-ya-dharura-uwezo-na-mzigo-wa-kiuendeshaji/"
+    },
+    {
+     "number": "6.4",
+     "title": "Vipimo vya usalama na usimamizi wa udhaifu",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/06-04-vipimo-vya-usalama-na-usimamizi-wa-udhaifu/"
+    },
+    {
+     "number": "7.0",
+     "title": "Utangulizi wa Sehemu ya 7: Vipimo katika enzi ya akili bandia",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/07-00-vipimo-katika-enzi-ya-akili-bandia/"
+    },
+    {
+     "number": "7.1",
+     "title": "Mabadiliko ya dhana ya akili bandia ya kizazi",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/07-01-mabadiliko-ya-dhana-ya-akili-bandia-ya-kizazi/"
+    },
+    {
+     "number": "7.2",
+     "title": "Kupima uendelezaji wa programu unaosaidiwa na akili bandia",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/07-02-kupima-uendelezaji-wa-programu-unaosaidiwa-na-akili-bandia/"
+    },
+    {
+     "number": "7.3",
+     "title": "Hatari za kuvimba kwa vipimo na kupunguzwa kwa ubora",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/07-03-hatari-za-kuvimba-kwa-vipimo-na-kupunguzwa-kwa-ubora/"
+    },
+    {
+     "number": "7.4",
+     "title": "Telemetria ya matokeo kama nyota mpya ya kaskazini",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/07-04-telemetria-ya-matokeo-kama-nyota-mpya-ya-kaskazini/"
+    },
+    {
+     "number": "8.0",
+     "title": "Utangulizi wa Sehemu ya 8: Kujenga programu ya vipimo",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/08-00-kujenga-programu-ya-vipimo/"
+    },
+    {
+     "number": "8.1",
+     "title": "Kubuni dashibodi ya vipimo vya uhandisi",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/08-01-kubuni-dashibodi-ya-vipimo-vya-uhandisi/"
+    },
+    {
+     "number": "8.2",
+     "title": "Mandhari ya zana: kujenga dhidi ya kununua",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/08-02-mandhari-ya-zana-kujenga-dhidi-ya-kununua/"
+    },
+    {
+     "number": "8.3",
+     "title": "Kusambaza vipimo bila kuzaa hofu",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/08-03-kusambaza-vipimo-bila-kuzaa-hofu/"
+    },
+    {
+     "number": "8.4",
+     "title": "Kielelezo cha ukomavu kwa programu za vipimo vya uhandisi",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/08-04-kielelezo-cha-ukomavu-kwa-programu-za-vipimo-vya-uhandisi/"
+    },
+    {
+     "number": "8.5",
+     "title": "Ramani ya kupokea kwa nyongeza",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/08-05-ramani-ya-kupokea-kwa-nyongeza/"
+    },
+    {
+     "number": "9.0",
+     "title": "Viambatisho",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/09-00-viambatisho/"
+    },
+    {
+     "number": "9.1",
+     "title": "Faharasa",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/09-01-faharasa/"
+    },
+    {
+     "number": "9.2",
+     "title": "Marejeo ya fasili na fomula za vipimo",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/09-02-marejeo-ya-fasili-na-fomula-za-vipimo/"
+    },
+    {
+     "number": "9.3",
+     "title": "Orodha za ukaguzi",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/09-03-orodha-za-ukaguzi/"
+    },
+    {
+     "number": "9.4",
+     "title": "Violezo",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/09-04-violezo/"
+    },
+    {
+     "number": "9.5",
+     "title": "Tathmini ya kibinafsi ya ukomavu",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/09-05-tathmini-ya-kibinafsi-ya-ukomavu/"
+    },
+    {
+     "number": "9.6",
+     "title": "Marejeo na usomaji zaidi",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/09-06-marejeo-na-usomaji-zaidi/"
+    },
+    {
+     "number": "9.7",
+     "title": "Faharasa ya mada",
+     "url": "https://software-engineering-metrics.github.io/sw-001/chapters/09-07-faharasa-ya-mada/"
+    }
+   ]
+  },
+  {
    "code": "ur-001",
    "label": "اردو",
    "home": "https://software-engineering-metrics.github.io/ur-001/",

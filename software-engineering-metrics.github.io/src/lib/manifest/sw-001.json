@@ -1,0 +1,1902 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "sw-001",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-misingi-ya-kipimo",
+          "title": "Utangulizi wa Sehemu ya 1: Misingi ya kipimo",
+          "heading": "1.0 Utangulizi wa Sehemu ya 1: Misingi ya kipimo",
+          "file": "chapters/01-00-misingi-ya-kipimo.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-kwa-nini-kupima-uhandisi-wa-programu",
+          "title": "Kwa nini kupima uhandisi wa programu",
+          "heading": "1.1 Kwa nini kupima uhandisi wa programu",
+          "file": "chapters/01-01-kwa-nini-kupima-uhandisi-wa-programu.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-sheria-ya-goodhart-na-saikolojia-ya-vipimo",
+          "title": "Sheria ya Goodhart na saikolojia ya vipimo",
+          "heading": "1.2 Sheria ya Goodhart na saikolojia ya vipimo",
+          "file": "chapters/01-02-sheria-ya-goodhart-na-saikolojia-ya-vipimo.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-matokeo-kuliko-pato-kuchagua-cha-kupima",
+          "title": "Matokeo kuliko pato: kuchagua cha kupima",
+          "heading": "1.3 Matokeo kuliko pato: kuchagua cha kupima",
+          "file": "chapters/01-03-matokeo-kuliko-pato-kuchagua-cha-kupima.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-utawala-na-umiliki-wa-vipimo",
+          "title": "Utawala na umiliki wa vipimo",
+          "heading": "1.4 Utawala na umiliki wa vipimo",
+          "file": "chapters/01-04-utawala-na-umiliki-wa-vipimo.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-vyanzo-vya-data-na-upimaji",
+          "title": "Vyanzo vya data na upimaji",
+          "heading": "1.5 Vyanzo vya data na upimaji",
+          "file": "chapters/01-05-vyanzo-vya-data-na-upimaji.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-ujuzi-wa-takwimu-kwa-vipimo-vya-uhandisi",
+          "title": "Ujuzi wa takwimu kwa vipimo vya uhandisi",
+          "heading": "1.6 Ujuzi wa takwimu kwa vipimo vya uhandisi",
+          "file": "chapters/01-06-ujuzi-wa-takwimu-kwa-vipimo-vya-uhandisi.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-vipimo-vya-mtiririko",
+          "title": "Utangulizi wa Sehemu ya 2: Vipimo vya mtiririko",
+          "heading": "2.0 Utangulizi wa Sehemu ya 2: Vipimo vya mtiririko",
+          "file": "chapters/02-00-vipimo-vya-mtiririko.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-flow-framework",
+          "title": "Flow Framework",
+          "heading": "2.1 Flow Framework",
+          "file": "chapters/02-01-flow-framework.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-vipengee-vya-mtiririko-vipengele-kasoro-hatari-na-deni",
+          "title": "Vipengee vya mtiririko: vipengele, kasoro, hatari, na deni",
+          "heading": "2.2 Vipengee vya mtiririko: vipengele, kasoro, hatari, na deni",
+          "file": "chapters/02-02-vipengee-vya-mtiririko-vipengele-kasoro-hatari-na-deni.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-kasi-ya-mtiririko-na-mgawanyo-wa-mtiririko",
+          "title": "Kasi ya mtiririko na mgawanyo wa mtiririko",
+          "heading": "2.3 Kasi ya mtiririko na mgawanyo wa mtiririko",
+          "file": "chapters/02-03-kasi-ya-mtiririko-na-mgawanyo-wa-mtiririko.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-muda-wa-mtiririko-na-mzigo-wa-mtiririko",
+          "title": "Muda wa mtiririko na mzigo wa mtiririko",
+          "heading": "2.4 Muda wa mtiririko na mzigo wa mtiririko",
+          "file": "chapters/02-04-muda-wa-mtiririko-na-mzigo-wa-mtiririko.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-ufanisi-wa-mtiririko-na-kazi-inayoendelea",
+          "title": "Ufanisi wa mtiririko na kazi inayoendelea",
+          "heading": "2.5 Ufanisi wa mtiririko na kazi inayoendelea",
+          "file": "chapters/02-05-ufanisi-wa-mtiririko-na-kazi-inayoendelea.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-muda-wa-mzunguko-na-vijenzi-vyake",
+          "title": "Muda wa mzunguko na vijenzi vyake",
+          "heading": "2.6 Muda wa mzunguko na vijenzi vyake",
+          "file": "chapters/02-06-muda-wa-mzunguko-na-vijenzi-vyake.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-nadharia-ya-foleni",
+          "title": "Nadharia ya foleni",
+          "heading": "2.7 Nadharia ya foleni",
+          "file": "chapters/02-07-nadharia-ya-foleni.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-vipimo-vya-mkondo-wa-thamani-wa-lean",
+          "title": "Vipimo vya mkondo wa thamani wa Lean",
+          "heading": "2.8 Vipimo vya mkondo wa thamani wa Lean",
+          "file": "chapters/02-08-vipimo-vya-mkondo-wa-thamani-wa-lean.md"
+        },
+        {
+          "part": 2,
+          "chapter": 9,
+          "decimal": "2.9",
+          "slug": "02-09-vipimo-vya-maombi-ya-kuvuta-na-mapitio-ya-msimbo",
+          "title": "Vipimo vya maombi ya kuvuta na mapitio ya msimbo",
+          "heading": "2.9 Vipimo vya maombi ya kuvuta na mapitio ya msimbo",
+          "file": "chapters/02-09-vipimo-vya-maombi-ya-kuvuta-na-mapitio-ya-msimbo.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-mfumo-wa-vipimo-vya-dora",
+          "title": "Mfumo wa vipimo vya DORA",
+          "heading": "2.10 Mfumo wa vipimo vya DORA",
+          "file": "chapters/02-10-mfumo-wa-vipimo-vya-dora.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-uzoefu-wa-msanidi-na-mfumo-wa-space",
+          "title": "Utangulizi wa Sehemu ya 3: Uzoefu wa msanidi na mfumo wa SPACE",
+          "heading": "3.0 Utangulizi wa Sehemu ya 3: Uzoefu wa msanidi na mfumo wa SPACE",
+          "file": "chapters/03-00-uzoefu-wa-msanidi-na-mfumo-wa-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-mfumo-wa-space",
+          "title": "Mfumo wa SPACE",
+          "heading": "3.1 Mfumo wa SPACE",
+          "file": "chapters/03-01-mfumo-wa-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-vipimo-vya-kuridhika-na-ustawi",
+          "title": "Vipimo vya kuridhika na ustawi",
+          "heading": "3.2 Vipimo vya kuridhika na ustawi",
+          "file": "chapters/03-02-vipimo-vya-kuridhika-na-ustawi.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-vipimo-vya-utendaji-na-wawakilishi-wa-matokeo",
+          "title": "Vipimo vya utendaji na wawakilishi wa matokeo",
+          "heading": "3.3 Vipimo vya utendaji na wawakilishi wa matokeo",
+          "file": "chapters/03-03-vipimo-vya-utendaji-na-wawakilishi-wa-matokeo.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-vipimo-vya-shughuli-na-mipaka-yake",
+          "title": "Vipimo vya shughuli na mipaka yake",
+          "heading": "3.4 Vipimo vya shughuli na mipaka yake",
+          "file": "chapters/03-04-vipimo-vya-shughuli-na-mipaka-yake.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-vipimo-vya-mawasiliano-na-ushirikiano",
+          "title": "Vipimo vya mawasiliano na ushirikiano",
+          "heading": "3.5 Vipimo vya mawasiliano na ushirikiano",
+          "file": "chapters/03-05-vipimo-vya-mawasiliano-na-ushirikiano.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-ufanisi-na-mtiririko-kazi-ya-kina-na-usumbufu",
+          "title": "Ufanisi na mtiririko: kazi ya kina na usumbufu",
+          "heading": "3.6 Ufanisi na mtiririko: kazi ya kina na usumbufu",
+          "file": "chapters/03-06-ufanisi-na-mtiririko-kazi-ya-kina-na-usumbufu.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-tafiti-za-uzoefu-wa-msanidi-na-vipimo-vya-devex",
+          "title": "Tafiti za uzoefu wa msanidi na vipimo vya DevEx",
+          "heading": "3.7 Tafiti za uzoefu wa msanidi na vipimo vya DevEx",
+          "file": "chapters/03-07-tafiti-za-uzoefu-wa-msanidi-na-vipimo-vya-devex.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-vipimo-vya-msimbo-na-ubora",
+          "title": "Utangulizi wa Sehemu ya 4: Vipimo vya msimbo na ubora",
+          "heading": "4.0 Utangulizi wa Sehemu ya 4: Vipimo vya msimbo na ubora",
+          "file": "chapters/04-00-vipimo-vya-msimbo-na-ubora.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-vipimo-vya-ugumu-wa-msimbo",
+          "title": "Vipimo vya ugumu wa msimbo",
+          "heading": "4.1 Vipimo vya ugumu wa msimbo",
+          "file": "chapters/04-01-vipimo-vya-ugumu-wa-msimbo.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-ufunikaji-wa-majaribio-na-ufanisi-wa-majaribio",
+          "title": "Ufunikaji wa majaribio na ufanisi wa majaribio",
+          "heading": "4.2 Ufunikaji wa majaribio na ufanisi wa majaribio",
+          "file": "chapters/04-02-ufunikaji-wa-majaribio-na-ufanisi-wa-majaribio.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-mabadiliko-ya-mara-kwa-mara-ya-msimbo-na-uchambuzi-wa-sehemu-moto",
+          "title": "Mabadiliko ya mara kwa mara ya msimbo na uchambuzi wa sehemu moto",
+          "heading": "4.3 Mabadiliko ya mara kwa mara ya msimbo na uchambuzi wa sehemu moto",
+          "file": "chapters/04-03-mabadiliko-ya-mara-kwa-mara-ya-msimbo-na-uchambuzi-wa-sehemu-moto.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-uchambuzi-tuli-na-vipimo-vya-harufu-ya-msimbo",
+          "title": "Uchambuzi tuli na vipimo vya harufu ya msimbo",
+          "heading": "4.4 Uchambuzi tuli na vipimo vya harufu ya msimbo",
+          "file": "chapters/04-04-uchambuzi-tuli-na-vipimo-vya-harufu-ya-msimbo.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-kipimo-cha-deni-la-kiufundi",
+          "title": "Kipimo cha deni la kiufundi",
+          "heading": "4.5 Kipimo cha deni la kiufundi",
+          "file": "chapters/04-05-kipimo-cha-deni-la-kiufundi.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-vipimo-vya-nyaraka-na-maarifa",
+          "title": "Vipimo vya nyaraka na maarifa",
+          "heading": "4.6 Vipimo vya nyaraka na maarifa",
+          "file": "chapters/04-06-vipimo-vya-nyaraka-na-maarifa.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-vipimo-vya-bidhaa-na-biashara",
+          "title": "Utangulizi wa Sehemu ya 5: Vipimo vya bidhaa na biashara",
+          "heading": "5.0 Utangulizi wa Sehemu ya 5: Vipimo vya bidhaa na biashara",
+          "file": "chapters/05-00-vipimo-vya-bidhaa-na-biashara.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-kiwango-cha-kasoro-zilizotoroka-na-kutoroka-kwa-ubora",
+          "title": "Kiwango cha kasoro zilizotoroka na kutoroka kwa ubora",
+          "heading": "5.1 Kiwango cha kasoro zilizotoroka na kutoroka kwa ubora",
+          "file": "chapters/05-01-kiwango-cha-kasoro-zilizotoroka-na-kutoroka-kwa-ubora.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-vipimo-vya-upokeaji-na-matumizi-ya-vipengele",
+          "title": "Vipimo vya upokeaji na matumizi ya vipengele",
+          "heading": "5.2 Vipimo vya upokeaji na matumizi ya vipengele",
+          "file": "chapters/05-02-vipimo-vya-upokeaji-na-matumizi-ya-vipengele.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-vipimo-vya-matokeo-ya-wateja-na-biashara",
+          "title": "Vipimo vya matokeo ya wateja na biashara",
+          "heading": "5.3 Vipimo vya matokeo ya wateja na biashara",
+          "file": "chapters/05-03-vipimo-vya-matokeo-ya-wateja-na-biashara.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-gharama-na-uchumi-wa-kitengo-wa-uhandisi",
+          "title": "Gharama na uchumi wa kitengo wa uhandisi",
+          "heading": "5.4 Gharama na uchumi wa kitengo wa uhandisi",
+          "file": "chapters/05-04-gharama-na-uchumi-wa-kitengo-wa-uhandisi.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-faida-ya-uwekezaji-kwa-mipango-ya-uhandisi",
+          "title": "Faida ya uwekezaji kwa mipango ya uhandisi",
+          "heading": "5.5 Faida ya uwekezaji kwa mipango ya uhandisi",
+          "file": "chapters/05-05-faida-ya-uwekezaji-kwa-mipango-ya-uhandisi.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-vipimo-vya-kutegemewa-uendeshaji-na-usalama",
+          "title": "Utangulizi wa Sehemu ya 6: Vipimo vya kutegemewa, uendeshaji, na usalama",
+          "heading": "6.0 Utangulizi wa Sehemu ya 6: Vipimo vya kutegemewa, uendeshaji, na usalama",
+          "file": "chapters/06-00-vipimo-vya-kutegemewa-uendeshaji-na-usalama.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-viashiria-vya-kiwango-cha-huduma-malengo-na-bajeti-za-makosa",
+          "title": "Viashiria vya kiwango cha huduma, malengo, na bajeti za makosa",
+          "heading": "6.1 Viashiria vya kiwango cha huduma, malengo, na bajeti za makosa",
+          "file": "chapters/06-01-viashiria-vya-kiwango-cha-huduma-malengo-na-bajeti-za-makosa.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-vipimo-vya-matukio-ugunduzi-mwitikio-na-kupona",
+          "title": "Vipimo vya matukio: ugunduzi, mwitikio, na kupona",
+          "heading": "6.2 Vipimo vya matukio: ugunduzi, mwitikio, na kupona",
+          "file": "chapters/06-02-vipimo-vya-matukio-ugunduzi-mwitikio-na-kupona.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-vipimo-vya-simu-ya-dharura-uwezo-na-mzigo-wa-kiuendeshaji",
+          "title": "Vipimo vya simu ya dharura, uwezo, na mzigo wa kiuendeshaji",
+          "heading": "6.3 Vipimo vya simu ya dharura, uwezo, na mzigo wa kiuendeshaji",
+          "file": "chapters/06-03-vipimo-vya-simu-ya-dharura-uwezo-na-mzigo-wa-kiuendeshaji.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-vipimo-vya-usalama-na-usimamizi-wa-udhaifu",
+          "title": "Vipimo vya usalama na usimamizi wa udhaifu",
+          "heading": "6.4 Vipimo vya usalama na usimamizi wa udhaifu",
+          "file": "chapters/06-04-vipimo-vya-usalama-na-usimamizi-wa-udhaifu.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-vipimo-katika-enzi-ya-akili-bandia",
+          "title": "Utangulizi wa Sehemu ya 7: Vipimo katika enzi ya akili bandia",
+          "heading": "7.0 Utangulizi wa Sehemu ya 7: Vipimo katika enzi ya akili bandia",
+          "file": "chapters/07-00-vipimo-katika-enzi-ya-akili-bandia.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-mabadiliko-ya-dhana-ya-akili-bandia-ya-kizazi",
+          "title": "Mabadiliko ya dhana ya akili bandia ya kizazi",
+          "heading": "7.1 Mabadiliko ya dhana ya akili bandia ya kizazi",
+          "file": "chapters/07-01-mabadiliko-ya-dhana-ya-akili-bandia-ya-kizazi.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-kupima-uendelezaji-wa-programu-unaosaidiwa-na-akili-bandia",
+          "title": "Kupima uendelezaji wa programu unaosaidiwa na akili bandia",
+          "heading": "7.2 Kupima uendelezaji wa programu unaosaidiwa na akili bandia",
+          "file": "chapters/07-02-kupima-uendelezaji-wa-programu-unaosaidiwa-na-akili-bandia.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-hatari-za-kuvimba-kwa-vipimo-na-kupunguzwa-kwa-ubora",
+          "title": "Hatari za kuvimba kwa vipimo na kupunguzwa kwa ubora",
+          "heading": "7.3 Hatari za kuvimba kwa vipimo na kupunguzwa kwa ubora",
+          "file": "chapters/07-03-hatari-za-kuvimba-kwa-vipimo-na-kupunguzwa-kwa-ubora.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-telemetria-ya-matokeo-kama-nyota-mpya-ya-kaskazini",
+          "title": "Telemetria ya matokeo kama nyota mpya ya kaskazini",
+          "heading": "7.4 Telemetria ya matokeo kama nyota mpya ya kaskazini",
+          "file": "chapters/07-04-telemetria-ya-matokeo-kama-nyota-mpya-ya-kaskazini.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-kujenga-programu-ya-vipimo",
+          "title": "Utangulizi wa Sehemu ya 8: Kujenga programu ya vipimo",
+          "heading": "8.0 Utangulizi wa Sehemu ya 8: Kujenga programu ya vipimo",
+          "file": "chapters/08-00-kujenga-programu-ya-vipimo.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-kubuni-dashibodi-ya-vipimo-vya-uhandisi",
+          "title": "Kubuni dashibodi ya vipimo vya uhandisi",
+          "heading": "8.1 Kubuni dashibodi ya vipimo vya uhandisi",
+          "file": "chapters/08-01-kubuni-dashibodi-ya-vipimo-vya-uhandisi.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-mandhari-ya-zana-kujenga-dhidi-ya-kununua",
+          "title": "Mandhari ya zana: kujenga dhidi ya kununua",
+          "heading": "8.2 Mandhari ya zana: kujenga dhidi ya kununua",
+          "file": "chapters/08-02-mandhari-ya-zana-kujenga-dhidi-ya-kununua.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-kusambaza-vipimo-bila-kuzaa-hofu",
+          "title": "Kusambaza vipimo bila kuzaa hofu",
+          "heading": "8.3 Kusambaza vipimo bila kuzaa hofu",
+          "file": "chapters/08-03-kusambaza-vipimo-bila-kuzaa-hofu.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-kielelezo-cha-ukomavu-kwa-programu-za-vipimo-vya-uhandisi",
+          "title": "Kielelezo cha ukomavu kwa programu za vipimo vya uhandisi",
+          "heading": "8.4 Kielelezo cha ukomavu kwa programu za vipimo vya uhandisi",
+          "file": "chapters/08-04-kielelezo-cha-ukomavu-kwa-programu-za-vipimo-vya-uhandisi.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-ramani-ya-kupokea-kwa-nyongeza",
+          "title": "Ramani ya kupokea kwa nyongeza",
+          "heading": "8.5 Ramani ya kupokea kwa nyongeza",
+          "file": "chapters/08-05-ramani-ya-kupokea-kwa-nyongeza.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-viambatisho",
+          "title": "Viambatisho",
+          "heading": "9.0 Viambatisho",
+          "file": "chapters/09-00-viambatisho.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-faharasa",
+          "title": "Faharasa",
+          "heading": "9.1 Faharasa",
+          "file": "chapters/09-01-faharasa.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-marejeo-ya-fasili-na-fomula-za-vipimo",
+          "title": "Marejeo ya fasili na fomula za vipimo",
+          "heading": "9.2 Marejeo ya fasili na fomula za vipimo",
+          "file": "chapters/09-02-marejeo-ya-fasili-na-fomula-za-vipimo.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-orodha-za-ukaguzi",
+          "title": "Orodha za ukaguzi",
+          "heading": "9.3 Orodha za ukaguzi",
+          "file": "chapters/09-03-orodha-za-ukaguzi.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-violezo",
+          "title": "Violezo",
+          "heading": "9.4 Violezo",
+          "file": "chapters/09-04-violezo.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-tathmini-ya-kibinafsi-ya-ukomavu",
+          "title": "Tathmini ya kibinafsi ya ukomavu",
+          "heading": "9.5 Tathmini ya kibinafsi ya ukomavu",
+          "file": "chapters/09-05-tathmini-ya-kibinafsi-ya-ukomavu.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-marejeo-na-usomaji-zaidi",
+          "title": "Marejeo na usomaji zaidi",
+          "heading": "9.6 Marejeo na usomaji zaidi",
+          "file": "chapters/09-06-marejeo-na-usomaji-zaidi.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-faharasa-ya-mada",
+          "title": "Faharasa ya mada",
+          "heading": "9.7 Faharasa ya mada",
+          "file": "chapters/09-07-faharasa-ya-mada.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-misingi-ya-kipimo",
+      "title": "Utangulizi wa Sehemu ya 1: Misingi ya kipimo",
+      "heading": "1.0 Utangulizi wa Sehemu ya 1: Misingi ya kipimo",
+      "file": "chapters/01-00-misingi-ya-kipimo.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-kwa-nini-kupima-uhandisi-wa-programu",
+      "title": "Kwa nini kupima uhandisi wa programu",
+      "heading": "1.1 Kwa nini kupima uhandisi wa programu",
+      "file": "chapters/01-01-kwa-nini-kupima-uhandisi-wa-programu.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-sheria-ya-goodhart-na-saikolojia-ya-vipimo",
+      "title": "Sheria ya Goodhart na saikolojia ya vipimo",
+      "heading": "1.2 Sheria ya Goodhart na saikolojia ya vipimo",
+      "file": "chapters/01-02-sheria-ya-goodhart-na-saikolojia-ya-vipimo.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-matokeo-kuliko-pato-kuchagua-cha-kupima",
+      "title": "Matokeo kuliko pato: kuchagua cha kupima",
+      "heading": "1.3 Matokeo kuliko pato: kuchagua cha kupima",
+      "file": "chapters/01-03-matokeo-kuliko-pato-kuchagua-cha-kupima.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-utawala-na-umiliki-wa-vipimo",
+      "title": "Utawala na umiliki wa vipimo",
+      "heading": "1.4 Utawala na umiliki wa vipimo",
+      "file": "chapters/01-04-utawala-na-umiliki-wa-vipimo.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-vyanzo-vya-data-na-upimaji",
+      "title": "Vyanzo vya data na upimaji",
+      "heading": "1.5 Vyanzo vya data na upimaji",
+      "file": "chapters/01-05-vyanzo-vya-data-na-upimaji.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-ujuzi-wa-takwimu-kwa-vipimo-vya-uhandisi",
+      "title": "Ujuzi wa takwimu kwa vipimo vya uhandisi",
+      "heading": "1.6 Ujuzi wa takwimu kwa vipimo vya uhandisi",
+      "file": "chapters/01-06-ujuzi-wa-takwimu-kwa-vipimo-vya-uhandisi.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-vipimo-vya-mtiririko",
+      "title": "Utangulizi wa Sehemu ya 2: Vipimo vya mtiririko",
+      "heading": "2.0 Utangulizi wa Sehemu ya 2: Vipimo vya mtiririko",
+      "file": "chapters/02-00-vipimo-vya-mtiririko.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-flow-framework.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-vipengee-vya-mtiririko-vipengele-kasoro-hatari-na-deni",
+      "title": "Vipengee vya mtiririko: vipengele, kasoro, hatari, na deni",
+      "heading": "2.2 Vipengee vya mtiririko: vipengele, kasoro, hatari, na deni",
+      "file": "chapters/02-02-vipengee-vya-mtiririko-vipengele-kasoro-hatari-na-deni.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-kasi-ya-mtiririko-na-mgawanyo-wa-mtiririko",
+      "title": "Kasi ya mtiririko na mgawanyo wa mtiririko",
+      "heading": "2.3 Kasi ya mtiririko na mgawanyo wa mtiririko",
+      "file": "chapters/02-03-kasi-ya-mtiririko-na-mgawanyo-wa-mtiririko.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-muda-wa-mtiririko-na-mzigo-wa-mtiririko",
+      "title": "Muda wa mtiririko na mzigo wa mtiririko",
+      "heading": "2.4 Muda wa mtiririko na mzigo wa mtiririko",
+      "file": "chapters/02-04-muda-wa-mtiririko-na-mzigo-wa-mtiririko.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-ufanisi-wa-mtiririko-na-kazi-inayoendelea",
+      "title": "Ufanisi wa mtiririko na kazi inayoendelea",
+      "heading": "2.5 Ufanisi wa mtiririko na kazi inayoendelea",
+      "file": "chapters/02-05-ufanisi-wa-mtiririko-na-kazi-inayoendelea.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-muda-wa-mzunguko-na-vijenzi-vyake",
+      "title": "Muda wa mzunguko na vijenzi vyake",
+      "heading": "2.6 Muda wa mzunguko na vijenzi vyake",
+      "file": "chapters/02-06-muda-wa-mzunguko-na-vijenzi-vyake.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-nadharia-ya-foleni",
+      "title": "Nadharia ya foleni",
+      "heading": "2.7 Nadharia ya foleni",
+      "file": "chapters/02-07-nadharia-ya-foleni.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-vipimo-vya-mkondo-wa-thamani-wa-lean",
+      "title": "Vipimo vya mkondo wa thamani wa Lean",
+      "heading": "2.8 Vipimo vya mkondo wa thamani wa Lean",
+      "file": "chapters/02-08-vipimo-vya-mkondo-wa-thamani-wa-lean.md"
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-vipimo-vya-maombi-ya-kuvuta-na-mapitio-ya-msimbo",
+      "title": "Vipimo vya maombi ya kuvuta na mapitio ya msimbo",
+      "heading": "2.9 Vipimo vya maombi ya kuvuta na mapitio ya msimbo",
+      "file": "chapters/02-09-vipimo-vya-maombi-ya-kuvuta-na-mapitio-ya-msimbo.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-mfumo-wa-vipimo-vya-dora",
+      "title": "Mfumo wa vipimo vya DORA",
+      "heading": "2.10 Mfumo wa vipimo vya DORA",
+      "file": "chapters/02-10-mfumo-wa-vipimo-vya-dora.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-uzoefu-wa-msanidi-na-mfumo-wa-space",
+      "title": "Utangulizi wa Sehemu ya 3: Uzoefu wa msanidi na mfumo wa SPACE",
+      "heading": "3.0 Utangulizi wa Sehemu ya 3: Uzoefu wa msanidi na mfumo wa SPACE",
+      "file": "chapters/03-00-uzoefu-wa-msanidi-na-mfumo-wa-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-mfumo-wa-space",
+      "title": "Mfumo wa SPACE",
+      "heading": "3.1 Mfumo wa SPACE",
+      "file": "chapters/03-01-mfumo-wa-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-vipimo-vya-kuridhika-na-ustawi",
+      "title": "Vipimo vya kuridhika na ustawi",
+      "heading": "3.2 Vipimo vya kuridhika na ustawi",
+      "file": "chapters/03-02-vipimo-vya-kuridhika-na-ustawi.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-vipimo-vya-utendaji-na-wawakilishi-wa-matokeo",
+      "title": "Vipimo vya utendaji na wawakilishi wa matokeo",
+      "heading": "3.3 Vipimo vya utendaji na wawakilishi wa matokeo",
+      "file": "chapters/03-03-vipimo-vya-utendaji-na-wawakilishi-wa-matokeo.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-vipimo-vya-shughuli-na-mipaka-yake",
+      "title": "Vipimo vya shughuli na mipaka yake",
+      "heading": "3.4 Vipimo vya shughuli na mipaka yake",
+      "file": "chapters/03-04-vipimo-vya-shughuli-na-mipaka-yake.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-vipimo-vya-mawasiliano-na-ushirikiano",
+      "title": "Vipimo vya mawasiliano na ushirikiano",
+      "heading": "3.5 Vipimo vya mawasiliano na ushirikiano",
+      "file": "chapters/03-05-vipimo-vya-mawasiliano-na-ushirikiano.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-ufanisi-na-mtiririko-kazi-ya-kina-na-usumbufu",
+      "title": "Ufanisi na mtiririko: kazi ya kina na usumbufu",
+      "heading": "3.6 Ufanisi na mtiririko: kazi ya kina na usumbufu",
+      "file": "chapters/03-06-ufanisi-na-mtiririko-kazi-ya-kina-na-usumbufu.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-tafiti-za-uzoefu-wa-msanidi-na-vipimo-vya-devex",
+      "title": "Tafiti za uzoefu wa msanidi na vipimo vya DevEx",
+      "heading": "3.7 Tafiti za uzoefu wa msanidi na vipimo vya DevEx",
+      "file": "chapters/03-07-tafiti-za-uzoefu-wa-msanidi-na-vipimo-vya-devex.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-vipimo-vya-msimbo-na-ubora",
+      "title": "Utangulizi wa Sehemu ya 4: Vipimo vya msimbo na ubora",
+      "heading": "4.0 Utangulizi wa Sehemu ya 4: Vipimo vya msimbo na ubora",
+      "file": "chapters/04-00-vipimo-vya-msimbo-na-ubora.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-vipimo-vya-ugumu-wa-msimbo",
+      "title": "Vipimo vya ugumu wa msimbo",
+      "heading": "4.1 Vipimo vya ugumu wa msimbo",
+      "file": "chapters/04-01-vipimo-vya-ugumu-wa-msimbo.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-ufunikaji-wa-majaribio-na-ufanisi-wa-majaribio",
+      "title": "Ufunikaji wa majaribio na ufanisi wa majaribio",
+      "heading": "4.2 Ufunikaji wa majaribio na ufanisi wa majaribio",
+      "file": "chapters/04-02-ufunikaji-wa-majaribio-na-ufanisi-wa-majaribio.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-mabadiliko-ya-mara-kwa-mara-ya-msimbo-na-uchambuzi-wa-sehemu-moto",
+      "title": "Mabadiliko ya mara kwa mara ya msimbo na uchambuzi wa sehemu moto",
+      "heading": "4.3 Mabadiliko ya mara kwa mara ya msimbo na uchambuzi wa sehemu moto",
+      "file": "chapters/04-03-mabadiliko-ya-mara-kwa-mara-ya-msimbo-na-uchambuzi-wa-sehemu-moto.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-uchambuzi-tuli-na-vipimo-vya-harufu-ya-msimbo",
+      "title": "Uchambuzi tuli na vipimo vya harufu ya msimbo",
+      "heading": "4.4 Uchambuzi tuli na vipimo vya harufu ya msimbo",
+      "file": "chapters/04-04-uchambuzi-tuli-na-vipimo-vya-harufu-ya-msimbo.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-kipimo-cha-deni-la-kiufundi",
+      "title": "Kipimo cha deni la kiufundi",
+      "heading": "4.5 Kipimo cha deni la kiufundi",
+      "file": "chapters/04-05-kipimo-cha-deni-la-kiufundi.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-vipimo-vya-nyaraka-na-maarifa",
+      "title": "Vipimo vya nyaraka na maarifa",
+      "heading": "4.6 Vipimo vya nyaraka na maarifa",
+      "file": "chapters/04-06-vipimo-vya-nyaraka-na-maarifa.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-vipimo-vya-bidhaa-na-biashara",
+      "title": "Utangulizi wa Sehemu ya 5: Vipimo vya bidhaa na biashara",
+      "heading": "5.0 Utangulizi wa Sehemu ya 5: Vipimo vya bidhaa na biashara",
+      "file": "chapters/05-00-vipimo-vya-bidhaa-na-biashara.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-kiwango-cha-kasoro-zilizotoroka-na-kutoroka-kwa-ubora",
+      "title": "Kiwango cha kasoro zilizotoroka na kutoroka kwa ubora",
+      "heading": "5.1 Kiwango cha kasoro zilizotoroka na kutoroka kwa ubora",
+      "file": "chapters/05-01-kiwango-cha-kasoro-zilizotoroka-na-kutoroka-kwa-ubora.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-vipimo-vya-upokeaji-na-matumizi-ya-vipengele",
+      "title": "Vipimo vya upokeaji na matumizi ya vipengele",
+      "heading": "5.2 Vipimo vya upokeaji na matumizi ya vipengele",
+      "file": "chapters/05-02-vipimo-vya-upokeaji-na-matumizi-ya-vipengele.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-vipimo-vya-matokeo-ya-wateja-na-biashara",
+      "title": "Vipimo vya matokeo ya wateja na biashara",
+      "heading": "5.3 Vipimo vya matokeo ya wateja na biashara",
+      "file": "chapters/05-03-vipimo-vya-matokeo-ya-wateja-na-biashara.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-gharama-na-uchumi-wa-kitengo-wa-uhandisi",
+      "title": "Gharama na uchumi wa kitengo wa uhandisi",
+      "heading": "5.4 Gharama na uchumi wa kitengo wa uhandisi",
+      "file": "chapters/05-04-gharama-na-uchumi-wa-kitengo-wa-uhandisi.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-faida-ya-uwekezaji-kwa-mipango-ya-uhandisi",
+      "title": "Faida ya uwekezaji kwa mipango ya uhandisi",
+      "heading": "5.5 Faida ya uwekezaji kwa mipango ya uhandisi",
+      "file": "chapters/05-05-faida-ya-uwekezaji-kwa-mipango-ya-uhandisi.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-vipimo-vya-kutegemewa-uendeshaji-na-usalama",
+      "title": "Utangulizi wa Sehemu ya 6: Vipimo vya kutegemewa, uendeshaji, na usalama",
+      "heading": "6.0 Utangulizi wa Sehemu ya 6: Vipimo vya kutegemewa, uendeshaji, na usalama",
+      "file": "chapters/06-00-vipimo-vya-kutegemewa-uendeshaji-na-usalama.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-viashiria-vya-kiwango-cha-huduma-malengo-na-bajeti-za-makosa",
+      "title": "Viashiria vya kiwango cha huduma, malengo, na bajeti za makosa",
+      "heading": "6.1 Viashiria vya kiwango cha huduma, malengo, na bajeti za makosa",
+      "file": "chapters/06-01-viashiria-vya-kiwango-cha-huduma-malengo-na-bajeti-za-makosa.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-vipimo-vya-matukio-ugunduzi-mwitikio-na-kupona",
+      "title": "Vipimo vya matukio: ugunduzi, mwitikio, na kupona",
+      "heading": "6.2 Vipimo vya matukio: ugunduzi, mwitikio, na kupona",
+      "file": "chapters/06-02-vipimo-vya-matukio-ugunduzi-mwitikio-na-kupona.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-vipimo-vya-simu-ya-dharura-uwezo-na-mzigo-wa-kiuendeshaji",
+      "title": "Vipimo vya simu ya dharura, uwezo, na mzigo wa kiuendeshaji",
+      "heading": "6.3 Vipimo vya simu ya dharura, uwezo, na mzigo wa kiuendeshaji",
+      "file": "chapters/06-03-vipimo-vya-simu-ya-dharura-uwezo-na-mzigo-wa-kiuendeshaji.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-vipimo-vya-usalama-na-usimamizi-wa-udhaifu",
+      "title": "Vipimo vya usalama na usimamizi wa udhaifu",
+      "heading": "6.4 Vipimo vya usalama na usimamizi wa udhaifu",
+      "file": "chapters/06-04-vipimo-vya-usalama-na-usimamizi-wa-udhaifu.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-vipimo-katika-enzi-ya-akili-bandia",
+      "title": "Utangulizi wa Sehemu ya 7: Vipimo katika enzi ya akili bandia",
+      "heading": "7.0 Utangulizi wa Sehemu ya 7: Vipimo katika enzi ya akili bandia",
+      "file": "chapters/07-00-vipimo-katika-enzi-ya-akili-bandia.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-mabadiliko-ya-dhana-ya-akili-bandia-ya-kizazi",
+      "title": "Mabadiliko ya dhana ya akili bandia ya kizazi",
+      "heading": "7.1 Mabadiliko ya dhana ya akili bandia ya kizazi",
+      "file": "chapters/07-01-mabadiliko-ya-dhana-ya-akili-bandia-ya-kizazi.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-kupima-uendelezaji-wa-programu-unaosaidiwa-na-akili-bandia",
+      "title": "Kupima uendelezaji wa programu unaosaidiwa na akili bandia",
+      "heading": "7.2 Kupima uendelezaji wa programu unaosaidiwa na akili bandia",
+      "file": "chapters/07-02-kupima-uendelezaji-wa-programu-unaosaidiwa-na-akili-bandia.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-hatari-za-kuvimba-kwa-vipimo-na-kupunguzwa-kwa-ubora",
+      "title": "Hatari za kuvimba kwa vipimo na kupunguzwa kwa ubora",
+      "heading": "7.3 Hatari za kuvimba kwa vipimo na kupunguzwa kwa ubora",
+      "file": "chapters/07-03-hatari-za-kuvimba-kwa-vipimo-na-kupunguzwa-kwa-ubora.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-telemetria-ya-matokeo-kama-nyota-mpya-ya-kaskazini",
+      "title": "Telemetria ya matokeo kama nyota mpya ya kaskazini",
+      "heading": "7.4 Telemetria ya matokeo kama nyota mpya ya kaskazini",
+      "file": "chapters/07-04-telemetria-ya-matokeo-kama-nyota-mpya-ya-kaskazini.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-kujenga-programu-ya-vipimo",
+      "title": "Utangulizi wa Sehemu ya 8: Kujenga programu ya vipimo",
+      "heading": "8.0 Utangulizi wa Sehemu ya 8: Kujenga programu ya vipimo",
+      "file": "chapters/08-00-kujenga-programu-ya-vipimo.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-kubuni-dashibodi-ya-vipimo-vya-uhandisi",
+      "title": "Kubuni dashibodi ya vipimo vya uhandisi",
+      "heading": "8.1 Kubuni dashibodi ya vipimo vya uhandisi",
+      "file": "chapters/08-01-kubuni-dashibodi-ya-vipimo-vya-uhandisi.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-mandhari-ya-zana-kujenga-dhidi-ya-kununua",
+      "title": "Mandhari ya zana: kujenga dhidi ya kununua",
+      "heading": "8.2 Mandhari ya zana: kujenga dhidi ya kununua",
+      "file": "chapters/08-02-mandhari-ya-zana-kujenga-dhidi-ya-kununua.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-kusambaza-vipimo-bila-kuzaa-hofu",
+      "title": "Kusambaza vipimo bila kuzaa hofu",
+      "heading": "8.3 Kusambaza vipimo bila kuzaa hofu",
+      "file": "chapters/08-03-kusambaza-vipimo-bila-kuzaa-hofu.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-kielelezo-cha-ukomavu-kwa-programu-za-vipimo-vya-uhandisi",
+      "title": "Kielelezo cha ukomavu kwa programu za vipimo vya uhandisi",
+      "heading": "8.4 Kielelezo cha ukomavu kwa programu za vipimo vya uhandisi",
+      "file": "chapters/08-04-kielelezo-cha-ukomavu-kwa-programu-za-vipimo-vya-uhandisi.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-ramani-ya-kupokea-kwa-nyongeza",
+      "title": "Ramani ya kupokea kwa nyongeza",
+      "heading": "8.5 Ramani ya kupokea kwa nyongeza",
+      "file": "chapters/08-05-ramani-ya-kupokea-kwa-nyongeza.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-viambatisho",
+      "title": "Viambatisho",
+      "heading": "9.0 Viambatisho",
+      "file": "chapters/09-00-viambatisho.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-faharasa",
+      "title": "Faharasa",
+      "heading": "9.1 Faharasa",
+      "file": "chapters/09-01-faharasa.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-marejeo-ya-fasili-na-fomula-za-vipimo",
+      "title": "Marejeo ya fasili na fomula za vipimo",
+      "heading": "9.2 Marejeo ya fasili na fomula za vipimo",
+      "file": "chapters/09-02-marejeo-ya-fasili-na-fomula-za-vipimo.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-orodha-za-ukaguzi",
+      "title": "Orodha za ukaguzi",
+      "heading": "9.3 Orodha za ukaguzi",
+      "file": "chapters/09-03-orodha-za-ukaguzi.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-violezo",
+      "title": "Violezo",
+      "heading": "9.4 Violezo",
+      "file": "chapters/09-04-violezo.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-tathmini-ya-kibinafsi-ya-ukomavu",
+      "title": "Tathmini ya kibinafsi ya ukomavu",
+      "heading": "9.5 Tathmini ya kibinafsi ya ukomavu",
+      "file": "chapters/09-05-tathmini-ya-kibinafsi-ya-ukomavu.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-marejeo-na-usomaji-zaidi",
+      "title": "Marejeo na usomaji zaidi",
+      "heading": "9.6 Marejeo na usomaji zaidi",
+      "file": "chapters/09-06-marejeo-na-usomaji-zaidi.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-faharasa-ya-mada",
+      "title": "Faharasa ya mada",
+      "heading": "9.7 Faharasa ya mada",
+      "file": "chapters/09-07-faharasa-ya-mada.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-misingi-ya-kipimo",
+      "title": "Utangulizi wa Sehemu ya 1: Misingi ya kipimo",
+      "heading": "1.0 Utangulizi wa Sehemu ya 1: Misingi ya kipimo",
+      "file": "chapters/01-00-misingi-ya-kipimo.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-kwa-nini-kupima-uhandisi-wa-programu",
+      "title": "Kwa nini kupima uhandisi wa programu",
+      "heading": "1.1 Kwa nini kupima uhandisi wa programu",
+      "file": "chapters/01-01-kwa-nini-kupima-uhandisi-wa-programu.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-sheria-ya-goodhart-na-saikolojia-ya-vipimo",
+      "title": "Sheria ya Goodhart na saikolojia ya vipimo",
+      "heading": "1.2 Sheria ya Goodhart na saikolojia ya vipimo",
+      "file": "chapters/01-02-sheria-ya-goodhart-na-saikolojia-ya-vipimo.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-matokeo-kuliko-pato-kuchagua-cha-kupima",
+      "title": "Matokeo kuliko pato: kuchagua cha kupima",
+      "heading": "1.3 Matokeo kuliko pato: kuchagua cha kupima",
+      "file": "chapters/01-03-matokeo-kuliko-pato-kuchagua-cha-kupima.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-utawala-na-umiliki-wa-vipimo",
+      "title": "Utawala na umiliki wa vipimo",
+      "heading": "1.4 Utawala na umiliki wa vipimo",
+      "file": "chapters/01-04-utawala-na-umiliki-wa-vipimo.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-vyanzo-vya-data-na-upimaji",
+      "title": "Vyanzo vya data na upimaji",
+      "heading": "1.5 Vyanzo vya data na upimaji",
+      "file": "chapters/01-05-vyanzo-vya-data-na-upimaji.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-ujuzi-wa-takwimu-kwa-vipimo-vya-uhandisi",
+      "title": "Ujuzi wa takwimu kwa vipimo vya uhandisi",
+      "heading": "1.6 Ujuzi wa takwimu kwa vipimo vya uhandisi",
+      "file": "chapters/01-06-ujuzi-wa-takwimu-kwa-vipimo-vya-uhandisi.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-vipimo-vya-mtiririko",
+      "title": "Utangulizi wa Sehemu ya 2: Vipimo vya mtiririko",
+      "heading": "2.0 Utangulizi wa Sehemu ya 2: Vipimo vya mtiririko",
+      "file": "chapters/02-00-vipimo-vya-mtiririko.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-flow-framework.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-vipengee-vya-mtiririko-vipengele-kasoro-hatari-na-deni",
+      "title": "Vipengee vya mtiririko: vipengele, kasoro, hatari, na deni",
+      "heading": "2.2 Vipengee vya mtiririko: vipengele, kasoro, hatari, na deni",
+      "file": "chapters/02-02-vipengee-vya-mtiririko-vipengele-kasoro-hatari-na-deni.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-kasi-ya-mtiririko-na-mgawanyo-wa-mtiririko",
+      "title": "Kasi ya mtiririko na mgawanyo wa mtiririko",
+      "heading": "2.3 Kasi ya mtiririko na mgawanyo wa mtiririko",
+      "file": "chapters/02-03-kasi-ya-mtiririko-na-mgawanyo-wa-mtiririko.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-muda-wa-mtiririko-na-mzigo-wa-mtiririko",
+      "title": "Muda wa mtiririko na mzigo wa mtiririko",
+      "heading": "2.4 Muda wa mtiririko na mzigo wa mtiririko",
+      "file": "chapters/02-04-muda-wa-mtiririko-na-mzigo-wa-mtiririko.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-ufanisi-wa-mtiririko-na-kazi-inayoendelea",
+      "title": "Ufanisi wa mtiririko na kazi inayoendelea",
+      "heading": "2.5 Ufanisi wa mtiririko na kazi inayoendelea",
+      "file": "chapters/02-05-ufanisi-wa-mtiririko-na-kazi-inayoendelea.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-muda-wa-mzunguko-na-vijenzi-vyake",
+      "title": "Muda wa mzunguko na vijenzi vyake",
+      "heading": "2.6 Muda wa mzunguko na vijenzi vyake",
+      "file": "chapters/02-06-muda-wa-mzunguko-na-vijenzi-vyake.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-nadharia-ya-foleni",
+      "title": "Nadharia ya foleni",
+      "heading": "2.7 Nadharia ya foleni",
+      "file": "chapters/02-07-nadharia-ya-foleni.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-vipimo-vya-mkondo-wa-thamani-wa-lean",
+      "title": "Vipimo vya mkondo wa thamani wa Lean",
+      "heading": "2.8 Vipimo vya mkondo wa thamani wa Lean",
+      "file": "chapters/02-08-vipimo-vya-mkondo-wa-thamani-wa-lean.md"
+    },
+    "2.9": {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-vipimo-vya-maombi-ya-kuvuta-na-mapitio-ya-msimbo",
+      "title": "Vipimo vya maombi ya kuvuta na mapitio ya msimbo",
+      "heading": "2.9 Vipimo vya maombi ya kuvuta na mapitio ya msimbo",
+      "file": "chapters/02-09-vipimo-vya-maombi-ya-kuvuta-na-mapitio-ya-msimbo.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-mfumo-wa-vipimo-vya-dora",
+      "title": "Mfumo wa vipimo vya DORA",
+      "heading": "2.10 Mfumo wa vipimo vya DORA",
+      "file": "chapters/02-10-mfumo-wa-vipimo-vya-dora.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-uzoefu-wa-msanidi-na-mfumo-wa-space",
+      "title": "Utangulizi wa Sehemu ya 3: Uzoefu wa msanidi na mfumo wa SPACE",
+      "heading": "3.0 Utangulizi wa Sehemu ya 3: Uzoefu wa msanidi na mfumo wa SPACE",
+      "file": "chapters/03-00-uzoefu-wa-msanidi-na-mfumo-wa-space.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-mfumo-wa-space",
+      "title": "Mfumo wa SPACE",
+      "heading": "3.1 Mfumo wa SPACE",
+      "file": "chapters/03-01-mfumo-wa-space.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-vipimo-vya-kuridhika-na-ustawi",
+      "title": "Vipimo vya kuridhika na ustawi",
+      "heading": "3.2 Vipimo vya kuridhika na ustawi",
+      "file": "chapters/03-02-vipimo-vya-kuridhika-na-ustawi.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-vipimo-vya-utendaji-na-wawakilishi-wa-matokeo",
+      "title": "Vipimo vya utendaji na wawakilishi wa matokeo",
+      "heading": "3.3 Vipimo vya utendaji na wawakilishi wa matokeo",
+      "file": "chapters/03-03-vipimo-vya-utendaji-na-wawakilishi-wa-matokeo.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-vipimo-vya-shughuli-na-mipaka-yake",
+      "title": "Vipimo vya shughuli na mipaka yake",
+      "heading": "3.4 Vipimo vya shughuli na mipaka yake",
+      "file": "chapters/03-04-vipimo-vya-shughuli-na-mipaka-yake.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-vipimo-vya-mawasiliano-na-ushirikiano",
+      "title": "Vipimo vya mawasiliano na ushirikiano",
+      "heading": "3.5 Vipimo vya mawasiliano na ushirikiano",
+      "file": "chapters/03-05-vipimo-vya-mawasiliano-na-ushirikiano.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-ufanisi-na-mtiririko-kazi-ya-kina-na-usumbufu",
+      "title": "Ufanisi na mtiririko: kazi ya kina na usumbufu",
+      "heading": "3.6 Ufanisi na mtiririko: kazi ya kina na usumbufu",
+      "file": "chapters/03-06-ufanisi-na-mtiririko-kazi-ya-kina-na-usumbufu.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-tafiti-za-uzoefu-wa-msanidi-na-vipimo-vya-devex",
+      "title": "Tafiti za uzoefu wa msanidi na vipimo vya DevEx",
+      "heading": "3.7 Tafiti za uzoefu wa msanidi na vipimo vya DevEx",
+      "file": "chapters/03-07-tafiti-za-uzoefu-wa-msanidi-na-vipimo-vya-devex.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-vipimo-vya-msimbo-na-ubora",
+      "title": "Utangulizi wa Sehemu ya 4: Vipimo vya msimbo na ubora",
+      "heading": "4.0 Utangulizi wa Sehemu ya 4: Vipimo vya msimbo na ubora",
+      "file": "chapters/04-00-vipimo-vya-msimbo-na-ubora.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-vipimo-vya-ugumu-wa-msimbo",
+      "title": "Vipimo vya ugumu wa msimbo",
+      "heading": "4.1 Vipimo vya ugumu wa msimbo",
+      "file": "chapters/04-01-vipimo-vya-ugumu-wa-msimbo.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-ufunikaji-wa-majaribio-na-ufanisi-wa-majaribio",
+      "title": "Ufunikaji wa majaribio na ufanisi wa majaribio",
+      "heading": "4.2 Ufunikaji wa majaribio na ufanisi wa majaribio",
+      "file": "chapters/04-02-ufunikaji-wa-majaribio-na-ufanisi-wa-majaribio.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-mabadiliko-ya-mara-kwa-mara-ya-msimbo-na-uchambuzi-wa-sehemu-moto",
+      "title": "Mabadiliko ya mara kwa mara ya msimbo na uchambuzi wa sehemu moto",
+      "heading": "4.3 Mabadiliko ya mara kwa mara ya msimbo na uchambuzi wa sehemu moto",
+      "file": "chapters/04-03-mabadiliko-ya-mara-kwa-mara-ya-msimbo-na-uchambuzi-wa-sehemu-moto.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-uchambuzi-tuli-na-vipimo-vya-harufu-ya-msimbo",
+      "title": "Uchambuzi tuli na vipimo vya harufu ya msimbo",
+      "heading": "4.4 Uchambuzi tuli na vipimo vya harufu ya msimbo",
+      "file": "chapters/04-04-uchambuzi-tuli-na-vipimo-vya-harufu-ya-msimbo.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-kipimo-cha-deni-la-kiufundi",
+      "title": "Kipimo cha deni la kiufundi",
+      "heading": "4.5 Kipimo cha deni la kiufundi",
+      "file": "chapters/04-05-kipimo-cha-deni-la-kiufundi.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-vipimo-vya-nyaraka-na-maarifa",
+      "title": "Vipimo vya nyaraka na maarifa",
+      "heading": "4.6 Vipimo vya nyaraka na maarifa",
+      "file": "chapters/04-06-vipimo-vya-nyaraka-na-maarifa.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-vipimo-vya-bidhaa-na-biashara",
+      "title": "Utangulizi wa Sehemu ya 5: Vipimo vya bidhaa na biashara",
+      "heading": "5.0 Utangulizi wa Sehemu ya 5: Vipimo vya bidhaa na biashara",
+      "file": "chapters/05-00-vipimo-vya-bidhaa-na-biashara.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-kiwango-cha-kasoro-zilizotoroka-na-kutoroka-kwa-ubora",
+      "title": "Kiwango cha kasoro zilizotoroka na kutoroka kwa ubora",
+      "heading": "5.1 Kiwango cha kasoro zilizotoroka na kutoroka kwa ubora",
+      "file": "chapters/05-01-kiwango-cha-kasoro-zilizotoroka-na-kutoroka-kwa-ubora.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-vipimo-vya-upokeaji-na-matumizi-ya-vipengele",
+      "title": "Vipimo vya upokeaji na matumizi ya vipengele",
+      "heading": "5.2 Vipimo vya upokeaji na matumizi ya vipengele",
+      "file": "chapters/05-02-vipimo-vya-upokeaji-na-matumizi-ya-vipengele.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-vipimo-vya-matokeo-ya-wateja-na-biashara",
+      "title": "Vipimo vya matokeo ya wateja na biashara",
+      "heading": "5.3 Vipimo vya matokeo ya wateja na biashara",
+      "file": "chapters/05-03-vipimo-vya-matokeo-ya-wateja-na-biashara.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-gharama-na-uchumi-wa-kitengo-wa-uhandisi",
+      "title": "Gharama na uchumi wa kitengo wa uhandisi",
+      "heading": "5.4 Gharama na uchumi wa kitengo wa uhandisi",
+      "file": "chapters/05-04-gharama-na-uchumi-wa-kitengo-wa-uhandisi.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-faida-ya-uwekezaji-kwa-mipango-ya-uhandisi",
+      "title": "Faida ya uwekezaji kwa mipango ya uhandisi",
+      "heading": "5.5 Faida ya uwekezaji kwa mipango ya uhandisi",
+      "file": "chapters/05-05-faida-ya-uwekezaji-kwa-mipango-ya-uhandisi.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-vipimo-vya-kutegemewa-uendeshaji-na-usalama",
+      "title": "Utangulizi wa Sehemu ya 6: Vipimo vya kutegemewa, uendeshaji, na usalama",
+      "heading": "6.0 Utangulizi wa Sehemu ya 6: Vipimo vya kutegemewa, uendeshaji, na usalama",
+      "file": "chapters/06-00-vipimo-vya-kutegemewa-uendeshaji-na-usalama.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-viashiria-vya-kiwango-cha-huduma-malengo-na-bajeti-za-makosa",
+      "title": "Viashiria vya kiwango cha huduma, malengo, na bajeti za makosa",
+      "heading": "6.1 Viashiria vya kiwango cha huduma, malengo, na bajeti za makosa",
+      "file": "chapters/06-01-viashiria-vya-kiwango-cha-huduma-malengo-na-bajeti-za-makosa.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-vipimo-vya-matukio-ugunduzi-mwitikio-na-kupona",
+      "title": "Vipimo vya matukio: ugunduzi, mwitikio, na kupona",
+      "heading": "6.2 Vipimo vya matukio: ugunduzi, mwitikio, na kupona",
+      "file": "chapters/06-02-vipimo-vya-matukio-ugunduzi-mwitikio-na-kupona.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-vipimo-vya-simu-ya-dharura-uwezo-na-mzigo-wa-kiuendeshaji",
+      "title": "Vipimo vya simu ya dharura, uwezo, na mzigo wa kiuendeshaji",
+      "heading": "6.3 Vipimo vya simu ya dharura, uwezo, na mzigo wa kiuendeshaji",
+      "file": "chapters/06-03-vipimo-vya-simu-ya-dharura-uwezo-na-mzigo-wa-kiuendeshaji.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-vipimo-vya-usalama-na-usimamizi-wa-udhaifu",
+      "title": "Vipimo vya usalama na usimamizi wa udhaifu",
+      "heading": "6.4 Vipimo vya usalama na usimamizi wa udhaifu",
+      "file": "chapters/06-04-vipimo-vya-usalama-na-usimamizi-wa-udhaifu.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-vipimo-katika-enzi-ya-akili-bandia",
+      "title": "Utangulizi wa Sehemu ya 7: Vipimo katika enzi ya akili bandia",
+      "heading": "7.0 Utangulizi wa Sehemu ya 7: Vipimo katika enzi ya akili bandia",
+      "file": "chapters/07-00-vipimo-katika-enzi-ya-akili-bandia.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-mabadiliko-ya-dhana-ya-akili-bandia-ya-kizazi",
+      "title": "Mabadiliko ya dhana ya akili bandia ya kizazi",
+      "heading": "7.1 Mabadiliko ya dhana ya akili bandia ya kizazi",
+      "file": "chapters/07-01-mabadiliko-ya-dhana-ya-akili-bandia-ya-kizazi.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-kupima-uendelezaji-wa-programu-unaosaidiwa-na-akili-bandia",
+      "title": "Kupima uendelezaji wa programu unaosaidiwa na akili bandia",
+      "heading": "7.2 Kupima uendelezaji wa programu unaosaidiwa na akili bandia",
+      "file": "chapters/07-02-kupima-uendelezaji-wa-programu-unaosaidiwa-na-akili-bandia.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-hatari-za-kuvimba-kwa-vipimo-na-kupunguzwa-kwa-ubora",
+      "title": "Hatari za kuvimba kwa vipimo na kupunguzwa kwa ubora",
+      "heading": "7.3 Hatari za kuvimba kwa vipimo na kupunguzwa kwa ubora",
+      "file": "chapters/07-03-hatari-za-kuvimba-kwa-vipimo-na-kupunguzwa-kwa-ubora.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-telemetria-ya-matokeo-kama-nyota-mpya-ya-kaskazini",
+      "title": "Telemetria ya matokeo kama nyota mpya ya kaskazini",
+      "heading": "7.4 Telemetria ya matokeo kama nyota mpya ya kaskazini",
+      "file": "chapters/07-04-telemetria-ya-matokeo-kama-nyota-mpya-ya-kaskazini.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-kujenga-programu-ya-vipimo",
+      "title": "Utangulizi wa Sehemu ya 8: Kujenga programu ya vipimo",
+      "heading": "8.0 Utangulizi wa Sehemu ya 8: Kujenga programu ya vipimo",
+      "file": "chapters/08-00-kujenga-programu-ya-vipimo.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-kubuni-dashibodi-ya-vipimo-vya-uhandisi",
+      "title": "Kubuni dashibodi ya vipimo vya uhandisi",
+      "heading": "8.1 Kubuni dashibodi ya vipimo vya uhandisi",
+      "file": "chapters/08-01-kubuni-dashibodi-ya-vipimo-vya-uhandisi.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-mandhari-ya-zana-kujenga-dhidi-ya-kununua",
+      "title": "Mandhari ya zana: kujenga dhidi ya kununua",
+      "heading": "8.2 Mandhari ya zana: kujenga dhidi ya kununua",
+      "file": "chapters/08-02-mandhari-ya-zana-kujenga-dhidi-ya-kununua.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-kusambaza-vipimo-bila-kuzaa-hofu",
+      "title": "Kusambaza vipimo bila kuzaa hofu",
+      "heading": "8.3 Kusambaza vipimo bila kuzaa hofu",
+      "file": "chapters/08-03-kusambaza-vipimo-bila-kuzaa-hofu.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-kielelezo-cha-ukomavu-kwa-programu-za-vipimo-vya-uhandisi",
+      "title": "Kielelezo cha ukomavu kwa programu za vipimo vya uhandisi",
+      "heading": "8.4 Kielelezo cha ukomavu kwa programu za vipimo vya uhandisi",
+      "file": "chapters/08-04-kielelezo-cha-ukomavu-kwa-programu-za-vipimo-vya-uhandisi.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-ramani-ya-kupokea-kwa-nyongeza",
+      "title": "Ramani ya kupokea kwa nyongeza",
+      "heading": "8.5 Ramani ya kupokea kwa nyongeza",
+      "file": "chapters/08-05-ramani-ya-kupokea-kwa-nyongeza.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-viambatisho",
+      "title": "Viambatisho",
+      "heading": "9.0 Viambatisho",
+      "file": "chapters/09-00-viambatisho.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-faharasa",
+      "title": "Faharasa",
+      "heading": "9.1 Faharasa",
+      "file": "chapters/09-01-faharasa.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-marejeo-ya-fasili-na-fomula-za-vipimo",
+      "title": "Marejeo ya fasili na fomula za vipimo",
+      "heading": "9.2 Marejeo ya fasili na fomula za vipimo",
+      "file": "chapters/09-02-marejeo-ya-fasili-na-fomula-za-vipimo.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-orodha-za-ukaguzi",
+      "title": "Orodha za ukaguzi",
+      "heading": "9.3 Orodha za ukaguzi",
+      "file": "chapters/09-03-orodha-za-ukaguzi.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-violezo",
+      "title": "Violezo",
+      "heading": "9.4 Violezo",
+      "file": "chapters/09-04-violezo.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-tathmini-ya-kibinafsi-ya-ukomavu",
+      "title": "Tathmini ya kibinafsi ya ukomavu",
+      "heading": "9.5 Tathmini ya kibinafsi ya ukomavu",
+      "file": "chapters/09-05-tathmini-ya-kibinafsi-ya-ukomavu.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-marejeo-na-usomaji-zaidi",
+      "title": "Marejeo na usomaji zaidi",
+      "heading": "9.6 Marejeo na usomaji zaidi",
+      "file": "chapters/09-06-marejeo-na-usomaji-zaidi.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-faharasa-ya-mada",
+      "title": "Faharasa ya mada",
+      "heading": "9.7 Faharasa ya mada",
+      "file": "chapters/09-07-faharasa-ya-mada.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "Utangulizi",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "Yaliyomo",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "Vipimo vya uhandisi wa programu ni nini?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "Mfano: vipimo vya dashibodi ya vipimo vya utoaji",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "Mfano: waraka wa vipimo kwa timu ya jukwaa la malipo",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "Uandishi: kuandika na kuhariri mada",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "Kiolezo cha mada (cha pamoja)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "Uelekezaji: jinsi faili zinazozalishwa zinavyofanya kazi",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "Faharasa ya sehemu (marejeo ya pamoja)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "Kanuni za mtindo (za pamoja, zinazotekelezeka)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "Majaribio: mkusanyiko wa uthibitishaji",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "Orodha ya mabadiliko",
+      "file": "project/changelog.md"
+    }
+  ],
+  "totals": {
+    "parts": 9,
+    "chapters": 63
+  }
+}

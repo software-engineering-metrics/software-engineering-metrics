@@ -1,0 +1,21 @@
+# 5.0 Utangulizi wa Sehemu ya 5: Vipimo vya bidhaa na biashara
+
+Sehemu nne za kwanza za kitabu hiki zinapima ulimwengu wa ndani wa uhandisi: utoaji, uzoefu wa msanidi, na ubora wa msimbo. Sehemu hii inatoka nje ya mpaka huo na kuuliza swali ambalo kila kipimo cha uhandisi hatimaye kipo kulitumikia, iwe moja kwa moja au hatua kadhaa mbali: je, kazi hii ilisaidia kweli biashara na watu wanaotumia kile inachojenga. Mada ya 1.3 ilianzisha matokeo-kuliko-pato kama kanuni inayotawala mapema katika kitabu hiki; sehemu hii ndipo kanuni hiyo inapokutana na jaribio lake kali zaidi, kwa sababu matokeo ya bidhaa na biashara yako mbali zaidi na udhibiti wa moja kwa moja wa mhandisi yeyote mmoja na ni magumu zaidi kugawa kwa usafi kwa juhudi ya uhandisi.
+
+Ugumu huo ndio hasa sababu sehemu hii inajali. Shirika ambalo halioanishi kamwe vipimo vyake vya utoaji na ubora na matokeo ya bidhaa na biashara linahatarisha kuboresha kwa uzuri kitu kisicho sahihi: kusafirisha haraka, kwa ufunikaji bora wa majaribio, kipengele ambacho hakuna anayekitumia, au kudumisha ubora safi wa msimbo katika mfumo ambao pendekezo lake kuu la thamani limeacha kujali wateja kimyakimya. Mada tano za sehemu hii, kasoro zilizotoroka, upokeaji wa vipengele, matokeo ya wateja na biashara, uchumi wa kitengo, na faida ya uwekezaji, zinawapa uongozi wa uhandisi msamiati wa uhusiano huo, na zinawapa uongozi wa biashara njia ya kutathmini uwekezaji wa uhandisi kwa maneno yanayojali kweli kwao.
+
+Kwa timu kubwa, sehemu hii mara nyingi ndipo uaminifu wa programu nzima ya vipimo unapopatikana au kupotea kwa wadau watendaji. Uongozi wa biashara kubwa unaoidhinisha uwekezaji wa jukwaa wa mamilioni ya dola, na vyombo vya usimamizi vya serikali vinavyoidhinisha bajeti za teknolojia za umma, vyote vinahitaji majibu yaliyoandikwa kwa maneno ya matokeo ya biashara au ya raia, si mzunguko wa usambazaji au ufunikaji wa majaribio, vyovyote vilivyosimamiwa vizuri vipimo hivyo vya ndani. Sehemu hii ndipo vipimo vya kitabu kingine, vilivyolindwa kwa uangalifu na vizuizi, hatimaye vinapounganishwa na mazungumzo hayo ya nje yanayoelekezwa na matokeo.
+
+## Mada katika sehemu hii
+
+- **5.1 Kiwango cha kasoro zilizotoroka na kutoroka kwa ubora:** Kipimo cha ubora kinachoakisi moja kwa moja zaidi kile wateja wanachopitia kweli, tofauti na vipimo vya ubora vya ndani vya Sehemu ya 4.
+- **5.2 Vipimo vya upokeaji na matumizi ya vipengele:** Kama kile uhandisi ulichojenga kinatumiwa kweli, na njia mahususi ambazo data ya upokeaji hufasiriwa vibaya.
+- **5.3 Vipimo vya matokeo ya wateja na biashara:** Kuunganisha kazi ya uhandisi na matokeo ambayo biashara au dhamira ya umma inajali kweli.
+- **5.4 Gharama na uchumi wa kitengo wa uhandisi:** Kueleza gharama ya uhandisi kwa maneno ambayo mdau wa kifedha anaweza kutumia moja kwa moja.
+- **5.5 Faida ya uwekezaji kwa mipango ya uhandisi:** Kujenga kesi ya ROI inayoweza kutetewa, ya uaminifu kwa uwekezaji mkubwa wa uhandisi, na kuwa wa uaminifu vilevile kesi isiposimama.
+
+## Jinsi mada hizi zinavyohusiana
+
+Mada ya 5.1 inaanza karibu zaidi na nyumbani, ubora kama wateja wanavyoupitia moja kwa moja, na ni daraja la asili kutoka vipimo vya ubora vya ndani vya Sehemu ya 4. Mada ya 5.2 inauliza swali linalofuata mara ubora unapohesabiwa: je, yeyote anatumia kile kilichojengwa kweli. Mada ya 5.3 inapanua lenzi zaidi hadi wigo mzima wa matokeo ya wateja na biashara ambayo shirika linajali, ambamo matumizi ni ishara moja tu kati ya kadhaa. Mada za 5.4 na 5.5 kisha zinageuza sehemu nzima kuwa ya kifedha: kueleza gharama na faida ya uhandisi kwa maneno yanayounganishwa moja kwa moja na maamuzi ya bajeti na uwekezaji, kufunga mzunguko ambao sehemu hii ilifungua kwa kuuliza kama juhudi ya uhandisi ilisaidia kweli.
+
+Mada za sehemu hii zinategemea hasa ujuzi wa takwimu wa mada ya 1.6, kwa kuwa matokeo ya bidhaa na biashara mara nyingi yana kelele, yamechanganywa na hali za soko, na ni ya polepole kuthibitisha, hasa hali ambapo makosa ambayo mada ya 1.6 inaonya dhidi yake yana uwezekano mkubwa zaidi wa kuzalisha hitimisho la ujasiri, lisilo sahihi. Soma sehemu hii kando ya Sehemu ya 7, ambapo mabadiliko kuelekea AI ya kuzalisha yanaongeza dau la kupata kipimo cha matokeo sawa hasa kwa sababu kiasi cha pato, kama mada za sehemu hii zinavyobishana kote, hakikuwahi kuwa kitu sahihi cha kuboresha tangu mwanzo.

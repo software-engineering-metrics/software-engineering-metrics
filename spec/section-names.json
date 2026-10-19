@@ -134,6 +134,13 @@
       "contributing": "framlag",
       "project": "verkefni"
     },
+    "it-001": {
+      "chapters": "argomenti",
+      "front-matter": "premessa",
+      "examples": "esempi",
+      "contributing": "contribuire",
+      "project": "progetto"
+    },
     "ja-001": {
       "chapters": "トピック",
       "front-matter": "前付",

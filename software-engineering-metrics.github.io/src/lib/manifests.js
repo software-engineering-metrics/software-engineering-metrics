@@ -16,6 +16,7 @@ import hi001 from './manifest/hi-001.json';
 import hiIn from './manifest/hi-in.json';
 import id001 from './manifest/id-001.json';
 import is001 from './manifest/is-001.json';
+import it001 from './manifest/it-001.json';
 import ja001 from './manifest/ja-001.json';
 import jaJp from './manifest/ja-jp.json';
 import ko001 from './manifest/ko-001.json';
@@ -76,6 +77,7 @@ const MANIFESTS = {
   'hi-in': hiIn,
   'id-001': id001,
   'is-001': is001,
+  'it-001': it001,
   'ja-001': ja001,
   'ja-jp': jaJp,
   'ko-001': ko001,

@@ -15,12 +15,12 @@ is Markdown, compiled with [mdsvex](https://mdsvex.pngwn.io/).
 ## Where the content comes from
 
 The book's Markdown lives at the repository root, under `locales/<locale>/`,
-published in 37 locales (see the root `spec/locales.md`), 24 of them served
+published in 38 locales (see the root `spec/locales.md`), 25 of them served
 here: four mechanically-derived English spelling variants, `en-us` (American English),
 `en-gb-oxendict` (British English, Oxford spelling; the authoring source),
 `en-gb` (mainstream British English), and `en-001` (international English);
 and fourteen genuinely translated locales (`ar-001`, `bn-001`, `cy-001`,
-`cy-gb`, `de-001`, `es-001`, `fr-001`, `hi-001`, `id-001`, `is-001`, `pt-001`, `ru-001`, `sw-001`, `ur-001`, `zh-001`,
+`cy-gb`, `de-001`, `es-001`, `fr-001`, `hi-001`, `id-001`, `is-001`, `it-001`, `pt-001`, `ru-001`, `sw-001`, `ur-001`, `zh-001`,
 `zh-cn`). This directory copies each into
 `src/content/<locale>/` (see
 [`scripts/sync-content.mjs`](scripts/sync-content.mjs)) and generates one

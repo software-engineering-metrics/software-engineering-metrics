@@ -2,7 +2,7 @@
 
 The book is published in four English spelling-variant locales, each a
 complete copy of every topic, front-matter file, example, contributing guide,
-and project file, differing only in spelling, plus 33 hand-translated locales
+and project file, differing only in spelling, plus 34 hand-translated locales
 (see "Translated locales" below). All four keep identical structure, section order, word
 counts, and file names; see [structure.md](structure.md) and
 [conventions.md](conventions.md), which govern all four equally.
@@ -109,6 +109,7 @@ titles. None is touched by `tools/localize.py`.
 | Hindi | `hi-001`, `hi-id` | identical copies; `hi-001` is the hand translation |
 | Indonesian | `id-001` | single locale, hand translation |
 | Icelandic | `is-001`, `is-is` | identical copies; `is-is` is the hand translation |
+| Italian | `it-001` | single locale, hand translation |
 | Japanese | `ja-001`, `ja-jp` | identical copies; `ja-jp` is the hand translation |
 | Korean | `ko-001`, `ko-kr` | identical copies; `ko-kr` is the hand translation |
 | Dutch | `nl-001`, `nl-nl` | identical copies; `nl-nl` is the hand translation |

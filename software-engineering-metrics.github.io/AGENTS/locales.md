@@ -2,12 +2,12 @@
 
 Part of [AGENTS.md](../AGENTS.md).
 
-The book exists in 37 locales (see `../spec/locales.md` at the repository
-root), of which this site serves 27: four mechanically-derived English
-spelling variants (`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`) and twenty-three
+The book exists in 38 locales (see `../spec/locales.md` at the repository
+root), of which this site serves 28: four mechanically-derived English
+spelling variants (`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`) and twenty-four
 genuinely translated locales (`ar-001` Arabic, `bn-001` Bengali, `cy-001` and
 `cy-gb` Welsh, `de-001` German, `es-001` Spanish, `fr-001` French, `hi-001` and `hi-in` Hindi, `id-001`
-Indonesian, `ja-001` and `ja-jp` Japanese, `ko-001` and `ko-kr` Korean, `nl-001` Dutch, `pt-001` Portuguese, `ru-001` Russian, `sv-001` Swedish, `sw-001` Swahili, `ur-001` Urdu, `zh-001` and `zh-cn` Chinese). The other 9
+Indonesian, `ja-001` and `ja-jp` Japanese, `ko-001` and `ko-kr` Korean, `nl-001` Dutch, `pt-001` Portuguese, `ru-001` Russian, `sv-001` Swedish, `it-001` Italian, `sw-001` Swahili, `ur-001` Urdu, `zh-001` and `zh-cn` Chinese). The other 9
 translated locales (`ar-eg`, `bn-bd`, `de-de`, `es-es`, `fr-fr`, `hi-id`,
 `nl-nl`, `pt-pt`, `ru-ru`, `sv-se`) exist on disk but are not in
 `SERVED_LOCALE_CODES` yet.

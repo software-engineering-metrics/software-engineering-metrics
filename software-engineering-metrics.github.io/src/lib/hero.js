@@ -190,6 +190,15 @@ export const HERO = {
   "contents": "Efnisyfirlit",
   "translations": "Þýðingar: "
  },
+ "it-001": {
+  "headline": "Misura bene l'ingegneria del software.",
+  "tagline": "Gratuito · aperto · guidato dalla specifica",
+  "intro": "Un libro di lavoro su come scegliere metriche che riflettano i risultati reali anziché l'attività: il Flow Framework, il framework SPACE, la teoria delle code e le metriche DORA, metriche di codice e qualità, risultati di prodotto e di business, affidabilità e sicurezza, e come l'IA generativa cambia il significato di questi numeri.",
+  "start": "Inizia a leggere",
+  "examples": "Esempi svolti",
+  "contents": "Sommario",
+  "translations": "Traduzioni: "
+ },
  "is-is": {
   "headline": "Mældu hugbúnaðarverkfræði vel.",
   "tagline": "Ókeypis · opið · byggt á forskrift",
@@ -367,6 +376,7 @@ export const ENDONYMS = {
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
  "is-001": "Íslenska",
+ "it-001": "Italiano",
  "is-is": "Íslenska (Ísland)",
  "ja-001": "日本語",
  "ja-jp": "日本語 (日本)",

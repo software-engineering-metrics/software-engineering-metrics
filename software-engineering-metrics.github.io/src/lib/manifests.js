@@ -16,15 +16,18 @@ import hi001 from './manifest/hi-001.json';
 import hiIn from './manifest/hi-in.json';
 import id001 from './manifest/id-001.json';
 import is001 from './manifest/is-001.json';
+import isIs from './manifest/is-is.json';
 import it001 from './manifest/it-001.json';
 import ja001 from './manifest/ja-001.json';
 import jaJp from './manifest/ja-jp.json';
 import ko001 from './manifest/ko-001.json';
 import koKr from './manifest/ko-kr.json';
 import nl001 from './manifest/nl-001.json';
+import nlNl from './manifest/nl-nl.json';
 import pt001 from './manifest/pt-001.json';
 import ru001 from './manifest/ru-001.json';
 import sv001 from './manifest/sv-001.json';
+import svSe from './manifest/sv-se.json';
 import sw001 from './manifest/sw-001.json';
 import swTz from './manifest/sw-tz.json';
 import ur001 from './manifest/ur-001.json';
@@ -78,15 +81,18 @@ const MANIFESTS = {
   'hi-in': hiIn,
   'id-001': id001,
   'is-001': is001,
+  'is-is': isIs,
   'it-001': it001,
   'ja-001': ja001,
   'ja-jp': jaJp,
   'ko-001': ko001,
   'ko-kr': koKr,
   'nl-001': nl001,
+  'nl-nl': nlNl,
   'pt-001': pt001,
   'ru-001': ru001,
   'sv-001': sv001,
+  'sv-se': svSe,
   'sw-001': sw001,
   'sw-tz': swTz,
   'ur-001': ur001,

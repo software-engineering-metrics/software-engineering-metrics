@@ -137,11 +137,11 @@ from. Welsh terminology follows the Welsh Government's TermCymru list.
 
 ### Served on the site
 
-Nineteen translated locales are wired into the site's
-`SERVED_LOCALE_CODES` (`scripts/locales.mjs`): every `-001` locale, plus
-`cy-gb` and `zh-cn`. The country-tagged hand translations (`ar-eg`,
-`bn-bd`, `de-de`, `es-es`, `fr-fr`, `hi-id`, `ja-jp`, `ko-kr`, `nl-nl`,
-`pt-pt`, `ru-ru`, `sv-se`) exist on disk but are not served. A missing
+Every `-001` locale is wired into the site's `SERVED_LOCALE_CODES`
+(`scripts/locales.mjs`), plus `cy-gb`, `zh-cn`, `ja-jp`, `ko-kr`, `is-is`,
+`nl-nl`, `sv-se` and `sw-tz`. The other country-tagged hand translations
+(`ar-eg`, `bn-bd`, `de-de`, `es-es`, `fr-fr`, `hi-id`, `pt-pt`, `ru-ru`) exist
+on disk but are not served. A missing
 section degrades gracefully on the site (an empty list, or a fallback to
 the default locale's intro copy), per
 `software-engineering-metrics.github.io/AGENTS.md`.

@@ -21,9 +21,9 @@ No locale is planned but not started.
 
 ## Served on the site
 
-The site serves 26 locales: the four English variants plus `ar-001`,
+The site serves 29 locales: the four English variants plus `ar-001`,
 `bn-001`, `cy-001`, `cy-gb`, `de-001`, `es-001`, `fr-001`, `hi-001`, `id-001`,
-`is-001`, `it-001`, `ja-001`, `ko-001`, `nl-001`, `pt-001`, `ru-001`, `sv-001`, `sw-001`, `sw-tz`, `ur-001`, `zh-001`, and `zh-cn`. The list is `SERVED_LOCALE_CODES` in
+`is-001`, `is-is`, `it-001`, `ja-001`, `ko-001`, `nl-001`, `nl-nl`, `pt-001`, `ru-001`, `sv-001`, `sv-se`, `sw-001`, `sw-tz`, `ur-001`, `zh-001`, and `zh-cn`. The list is `SERVED_LOCALE_CODES` in
 `software-engineering-metrics.github.io/scripts/locales.mjs`. A locale is served
 only at its own code: `/ar-001/` exists, `/ar/` is a 404.
 

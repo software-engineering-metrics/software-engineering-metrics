@@ -1,0 +1,20 @@
+# 6.0 Inngangur að 6. hluta: Áreiðanleika-, rekstrar- og öryggismælikvarðar
+
+Í 2. hluta var fjallað um hvernig breyting kemst frá innsendingu í framleiðslu; þessi hluti fjallar um hvað gerist þegar hún er þar í gangi, endalaust, við raunverulegar aðstæður sem teymið getur ekki stjórnað að fullu. Áreiðanleika-, rekstrar- og öryggismælikvarðar eru þar sem loforð hugbúnaðarverkfræði mæta viðvarandi raunveruleika: ekki „heppnaðist þessi afhending“ heldur „heldur þetta kerfi áfram að virka, nótt eftir nótt, undir álagi, undir árás og undir álagi bakvaktaskiptingar sem verður að vera sjálfbær árum saman, ekki bara fram að næsta atviki“.
+
+Fjögur viðfangsefni þessa hluta fylgja viljandi boga. Þjónustustigsvísar og -markmið (viðfangsefni 6.1) koma á orðaforðanum og markasetningaragann sem allt annað í þessum hluta veltur á. Atvikamælikvarðar (viðfangsefni 6.2) mæla hvað gerist þegar markinu er missað. Bakvakta- og getumælikvarðar (viðfangsefni 6.3) mæla mannlega og innviðakostnaðinn við að halda markinu. Öryggis- og veikleikamælikvarðar (viðfangsefni 6.4) víkka sama áreiðanleikaaga yfir í aðgreinda en náskylda áhættu: ekki „mun þetta bila af sjálfu sér“ heldur „mun einhver láta þetta bila af ásettu ráði“. Öll fjögur viðfangsefnin deila meginaga þessarar bókar: nefndu mælikvarðann, nefndu hvernig hann er leikinn og paraðu hann við varnarmælikvarðann sem grípur þann leik.
+
+Fyrir stór teymi eru mælikvarðar þessa hluta þar sem loforð verkfræðinnar verða samningsbundin og, í opinberu samhengi, stundum lagaleg. Stórfyrirtæki skrifa þjónustustigssamninga gegn mælikvörðunum sem viðfangsefni 6.1 kynnir, með raunverulegum fjárhagslegum viðurlögum fyrir að missa þá; opinberar skipulagsheildir reka mikilvæga opinbera innviði þar sem áreiðanleika- eða öryggisbrestur ber afleiðingar langt umfram efnahagsreikning eins fyrirtækis. Þessi hluti meðhöndlar þá þyngd alvarlega í gegnum allt.
+
+## Viðfangsefni í þessum hluta
+
+- **6.1 Þjónustustigsvísar, markmið og villuheimildir:** Orðaforðinn og markasetningaraginn sem liggur til grundvallar allri áreiðanleikaverkfræði þjónustu, og hvernig villuheimild breytir áreiðanleika í eyðanlega, viðráðanlega auðlind frekar en óaðgengilegt algildi.
+- **6.2 Atvikamælikvarðar: greining, viðbragð og bati:** Að mæla hve fljótt skipulagsheild tekur eftir, bregst við og leysir bilun, og sakleysisaginn sem heldur þeirri mælingu heiðarlegri.
+- **6.3 Bakvakta-, getu- og rekstrarálagsmælikvarðar:** Mannlegi og innviðakostnaðurinn við að viðhalda áreiðanleika, og hvers vegna ósjálfbær bakvaktabyrði birtist að lokum sjálf sem áreiðanleikavandi.
+- **6.4 Öryggis- og veikleikastjórnunarmælikvarðar:** Að víkka sömu agaða, varnarmælikvarðapöruðu nálgun yfir í öryggisáhættu, frá uppgötvun veikleika til úrbóta.
+
+## Hvernig þessi viðfangsefni tengjast
+
+Viðfangsefni 6.1 leggur grunninn sem hvert síðara viðfangsefni þessa hluta byggir á: án skýrs þjónustustigsmarkmiðs hafa „hve slæmt var þetta atvik“ (viðfangsefni 6.2) og „er bakvaktaálag okkar sjálfbært“ (viðfangsefni 6.3) engan sameiginlegan viðmiðunarpunkt til að mæla gegn. Atvikamælikvarðar viðfangsefnis 6.2 eru, í raunverulegum skilningi, skrá yfir villuheimildareyðslu sem viðfangsefni 6.1 kynnir; viðfangsefni 6.3 mælir sjálfbærni mannlega kerfisins sem ber ábyrgð á að halda þeirri eyðslu innan heimildar; og viðfangsefni 6.4 beitir sömu marka-og-heimildar hugsun á öryggisstöðu sem, ómæld, hneigist til að fá athygli aðeins viðbragðsbundið, eftir atvik, frekar en fyrirbyggjandi.
+
+Þessi hluti tengist beint aftur við 2. hluta: breytingabilunarhlutfall DORA og batatími misheppnaðra afhendinga (hvort tveggja fjallað um í viðfangsefni 2.10) eru, í sömu röð, leiðandi vísir fyrir og dæmi um atvikamælikvarða þessa hluta. Hann tengist líka fram á við við 8. hluta, þar sem leiðsögn um mælaborð og þroska áætlunar sækir mikið í villuheimildarlíkan þessa hluta sem unnið dæmi um að breyta óhlutstæðu markmiði (áreiðanleika, öryggi) í áþreifanlegt, rakið, ekki-algilt mark sem teymi getur í raun stýrt dag frá degi.

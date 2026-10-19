@@ -26,7 +26,7 @@ Indonesian, Icelandic, Swahili, Italian, Urdu). Only `en-gb-oxendict` is hand-ed
 variants are mechanically derived from it by `tools/localize.py`. Each
 translated locale is maintained by hand and ships all five sections (topics,
 front-matter, examples, contributing, project), each in a directory named in
-its own language, plus a translated home page and table of contents; 26 locales are served on the site.
+its own language, plus a translated home page and table of contents; 29 locales are served on the site.
 
 ## Golden rules (do not break these)
 

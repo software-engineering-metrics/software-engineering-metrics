@@ -1,0 +1,84 @@
+# Efnisyfirlit
+
+Hlutar eru heilar tölur; viðfangsefni eru tugabrot (viðfangsefni **N.0** kynnir hvern hluta). Sjá einnig [Innganginn](introduction.md).
+
+### 1. hluti: Grundvöllur mælinga
+- [1.0 Inngangur](../chapters/01-00-grundvöllur-mælinga.md)
+- [1.1 Hvers vegna að mæla hugbúnaðarverkfræði](../chapters/01-01-hvers-vegna-að-mæla-hugbúnaðarverkfræði.md)
+- [1.2 Lögmál Goodharts og sálfræði mælikvarða](../chapters/01-02-lögmál-goodharts-og-sálfræði-mælikvarða.md)
+- [1.3 Niðurstöður fram yfir afurðir: að velja hvað á að mæla](../chapters/01-03-niðurstöður-fram-yfir-afurðir.md)
+- [1.4 Stjórnarhættir og eignarhald mælikvarða](../chapters/01-04-stjórnarhættir-og-eignarhald-mælikvarða.md)
+- [1.5 Gagnauppsprettur og tækjavæðing](../chapters/01-05-gagnauppsprettur-og-tækjavæðing.md)
+- [1.6 Tölfræðilæsi fyrir verkfræðimælikvarða](../chapters/01-06-tölfræðilæsi-fyrir-verkfræðimælikvarða.md)
+
+### 2. hluti: Flæðimælikvarðar
+- [2.0 Inngangur](../chapters/02-00-flæðimælikvarðar.md)
+- [2.1 Flæðiramminn](../chapters/02-01-flæðiramminn.md)
+- [2.2 Flæðiatriði: eiginleikar, gallar, áhættur og skuld](../chapters/02-02-flæðiatriði.md)
+- [2.3 Flæðishraði og flæðisdreifing](../chapters/02-03-flæðishraði-og-flæðisdreifing.md)
+- [2.4 Flæðistími og flæðisálag](../chapters/02-04-flæðistími-og-flæðisálag.md)
+- [2.5 Flæðinýtni og vinna í vinnslu](../chapters/02-05-flæðinýtni-og-vinna-í-vinnslu.md)
+- [2.6 Ferlitími og þættir hans](../chapters/02-06-ferlitími-og-þættir-hans.md)
+- [2.7 Biðraðafræði](../chapters/02-07-biðraðafræði.md)
+- [2.8 Lean-virðisstraumsmælikvarðar](../chapters/02-08-lean-virðisstraumsmælikvarðar.md)
+- [2.9 Mælikvarðar sameiningarbeiðna og kóðayfirferðar](../chapters/02-09-mælikvarðar-sameiningarbeiðna-og-kóðayfirferðar.md)
+- [2.10 DORA-mælikvarðaramminn](../chapters/02-10-dora-mælikvarðaramminn.md)
+
+### 3. hluti: Þróunarupplifun og SPACE-ramminn
+- [3.0 Inngangur](../chapters/03-00-þróunarupplifun-og-space.md)
+- [3.1 SPACE-ramminn](../chapters/03-01-space-ramminn.md)
+- [3.2 Mælikvarðar ánægju og vellíðanar](../chapters/03-02-mælikvarðar-ánægju-og-vellíðanar.md)
+- [3.3 Frammistöðumælikvarðar og staðgenglar niðurstaðna](../chapters/03-03-frammistöðumælikvarðar-og-staðgenglar-niðurstaðna.md)
+- [3.4 Virknimælikvarðar og takmörk þeirra](../chapters/03-04-virknimælikvarðar-og-takmörk-þeirra.md)
+- [3.5 Mælikvarðar samskipta og samvinnu](../chapters/03-05-mælikvarðar-samskipta-og-samvinnu.md)
+- [3.6 Skilvirkni og flæði: djúpvinna og truflanir](../chapters/03-06-skilvirkni-og-flæði.md)
+- [3.7 Kannanir á þróunarupplifun og DevEx-mælikvarðar](../chapters/03-07-kannanir-á-þróunarupplifun-og-devex-mælikvarðar.md)
+
+### 4. hluti: Kóða- og gæðamælikvarðar
+- [4.0 Inngangur](../chapters/04-00-kóða-og-gæðamælikvarðar.md)
+- [4.1 Mælikvarðar á flækjustig kóða](../chapters/04-01-mælikvarðar-á-flækjustig-kóða.md)
+- [4.2 Prófþekja og skilvirkni prófana](../chapters/04-02-prófþekja-og-skilvirkni-prófana.md)
+- [4.3 Kóðavelta og heitreitagreining](../chapters/04-03-kóðavelta-og-heitreitagreining.md)
+- [4.4 Stöðugreining og kóðalyktarmælikvarðar](../chapters/04-04-stöðugreining-og-kóðalyktarmælikvarðar.md)
+- [4.5 Mæling tæknilegrar skuldar](../chapters/04-05-mæling-tæknilegrar-skuldar.md)
+- [4.6 Skjölunar- og þekkingarmælikvarðar](../chapters/04-06-skjölunar-og-þekkingarmælikvarðar.md)
+
+### 5. hluti: Vöru- og viðskiptamælikvarðar
+- [5.0 Inngangur](../chapters/05-00-vöru-og-viðskiptamælikvarðar.md)
+- [5.1 Hlutfall sloppinna galla og gæðaleka](../chapters/05-01-hlutfall-sloppinna-galla-og-gæðaleka.md)
+- [5.2 Mælikvarðar á upptöku og notkun eiginleika](../chapters/05-02-mælikvarðar-á-upptöku-og-notkun-eiginleika.md)
+- [5.3 Mælikvarðar á niðurstöður viðskiptavina og rekstrar](../chapters/05-03-mælikvarðar-á-niðurstöður-viðskiptavina-og-rekstrar.md)
+- [5.4 Kostnaður og einingarhagfræði verkfræði](../chapters/05-04-kostnaður-og-einingarhagfræði-verkfræði.md)
+- [5.5 Ávöxtun fjárfestingar í verkfræðiframtökum](../chapters/05-05-ávöxtun-fjárfestingar-í-verkfræðiframtökum.md)
+
+### 6. hluti: Áreiðanleika-, rekstrar- og öryggismælikvarðar
+- [6.0 Inngangur](../chapters/06-00-áreiðanleika-rekstrar-og-öryggismælikvarðar.md)
+- [6.1 Þjónustustigsvísar, markmið og villuheimildir](../chapters/06-01-þjónustustigsvísar-markmið-og-villuheimildir.md)
+- [6.2 Atvikamælikvarðar: greining, viðbragð og bati](../chapters/06-02-atvikamælikvarðar.md)
+- [6.3 Bakvakta-, getu- og rekstrarálagsmælikvarðar](../chapters/06-03-bakvakta-getu-og-rekstrarálagsmælikvarðar.md)
+- [6.4 Öryggis- og veikleikastjórnunarmælikvarðar](../chapters/06-04-öryggis-og-veikleikastjórnunarmælikvarðar.md)
+
+### 7. hluti: Mælikvarðar á öld gervigreindar
+- [7.0 Inngangur](../chapters/07-00-mælikvarðar-á-öld-gervigreindar.md)
+- [7.1 Viðmiðaskipti kynslóðargervigreindar](../chapters/07-01-viðmiðaskipti-skapandi-gervigreindar.md)
+- [7.2 Mæling gervigreindaraðstoðaðrar hugbúnaðarþróunar](../chapters/07-02-mæling-gervigreindaraðstoðaðrar-hugbúnaðarþróunar.md)
+- [7.3 Mælikvarðaverðbólga og áhætta gæðaþynningar](../chapters/07-03-mælikvarðaverðbólga-og-áhætta-gæðaþynningar.md)
+- [7.4 Niðurstöðufjarmæling sem nýja pólstjarnan](../chapters/07-04-niðurstöðufjarmæling-sem-nýja-pólstjarnan.md)
+
+### 8. hluti: Að byggja mælikvarðaáætlun
+- [8.0 Inngangur](../chapters/08-00-að-byggja-mælikvarðaáætlun.md)
+- [8.1 Að hanna mælaborð verkfræðimælikvarða](../chapters/08-01-að-hanna-mælaborð-verkfræðimælikvarða.md)
+- [8.2 Tólalandslag: smíða eða kaupa](../chapters/08-02-tólalandslag-smíða-eða-kaupa.md)
+- [8.3 Að útfæra mælikvarða án þess að ala á ótta](../chapters/08-03-að-útfæra-mælikvarða-án-þess-að-ala-á-ótta.md)
+- [8.4 Þroskalíkan fyrir verkfræðimælikvarðaáætlanir](../chapters/08-04-þroskalíkan-fyrir-verkfræðimælikvarðaáætlanir.md)
+- [8.5 Stigvaxandi upptökuvegvísir](../chapters/08-05-stigvaxandi-upptökuvegvísir.md)
+
+### 9. hluti: Viðaukar
+- [9.0 Viðaukar](../chapters/09-00-viðaukar.md)
+- [9.1 Orðalisti](../chapters/09-01-orðalisti.md)
+- [9.2 Skilgreiningar mælikvarða og formúluyfirlit](../chapters/09-02-skilgreiningar-mælikvarða-og-formúluyfirlit.md)
+- [9.3 Gátlistar](../chapters/09-03-gátlistar.md)
+- [9.4 Sniðmát](../chapters/09-04-sniðmát.md)
+- [9.5 Þroskasjálfsmat](../chapters/09-05-þroskasjálfsmat.md)
+- [9.6 Heimildir og frekara lesefni](../chapters/09-06-heimildir-og-frekara-lesefni.md)
+- [9.7 Atriðisorðaskrá](../chapters/09-07-atriðisorðaskrá.md)

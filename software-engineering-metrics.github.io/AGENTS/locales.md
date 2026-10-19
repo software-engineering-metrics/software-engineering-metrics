@@ -2,7 +2,7 @@
 
 Part of [AGENTS.md](../AGENTS.md).
 
-The book exists in 38 locales (see `../spec/locales.md` at the repository
+The book exists in 39 locales (see `../spec/locales.md` at the repository
 root), of which this site serves 28: four mechanically-derived English
 spelling variants (`en-us`, `en-gb-oxendict`, `en-gb`, `en-001`) and twenty-four
 genuinely translated locales (`ar-001` Arabic, `bn-001` Bengali, `cy-001` and

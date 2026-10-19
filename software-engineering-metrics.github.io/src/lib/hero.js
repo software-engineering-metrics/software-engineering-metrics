@@ -325,6 +325,15 @@ export const HERO = {
   "contents": "Yaliyomo",
   "translations": "Tafsiri: "
  },
+ "sw-tz": {
+  "headline": "Pima uhandisi wa programu vizuri.",
+  "tagline": "Bure · wazi · unaoendeshwa na maelezo ya kiufundi",
+  "intro": "Kitabu cha kazi kuhusu kuchagua vipimo vinavyoakisi matokeo halisi badala ya shughuli: Flow Framework, mfumo wa SPACE, nadharia ya foleni na vipimo vya DORA, vipimo vya msimbo na ubora, matokeo ya bidhaa na biashara, kutegemewa na usalama, na jinsi akili bandia ya kizazi inavyobadilisha maana ya namba hizi.",
+  "start": "Anza kusoma",
+  "examples": "Mifano iliyofanyiwa kazi",
+  "contents": "Yaliyomo",
+  "translations": "Tafsiri: "
+ },
  "ur-001": {
   "headline": "سافٹ ویئر انجینئرنگ کو اچھی طرح ناپیں۔",
   "tagline": "مفت · کھلا · تفصیلات پر مبنی",
@@ -391,6 +400,7 @@ export const ENDONYMS = {
  "sv-001": "Svenska",
  "sv-se": "Svenska (Sverige)",
  "sw-001": "Kiswahili",
+ "sw-tz": "Kiswahili (Tanzania)",
  "ur-001": "اردو",
  "zh-001": "中文",
  "zh-cn": "简体中文"

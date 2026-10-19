@@ -26,6 +26,7 @@ import pt001 from './manifest/pt-001.json';
 import ru001 from './manifest/ru-001.json';
 import sv001 from './manifest/sv-001.json';
 import sw001 from './manifest/sw-001.json';
+import swTz from './manifest/sw-tz.json';
 import ur001 from './manifest/ur-001.json';
 import zh001 from './manifest/zh-001.json';
 import zhCn from './manifest/zh-cn.json';
@@ -87,6 +88,7 @@ const MANIFESTS = {
   'ru-001': ru001,
   'sv-001': sv001,
   'sw-001': sw001,
+  'sw-tz': swTz,
   'ur-001': ur001,
   'zh-001': zh001,
   'zh-cn': zhCn

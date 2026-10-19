@@ -33,6 +33,7 @@ export const LOCALE_LABELS = {
   'ru-001': 'Русский',
   'sv-001': 'Svenska',
   'sw-001': 'Kiswahili',
+  'sw-tz': 'Kiswahili (Tanzania)',
   'ur-001': 'اردو',
   'zh-001': '中文',
   'zh-cn': '中文 (中国)'
@@ -50,7 +51,7 @@ export function localeLabel(code) {
 // have a locales/<code>/ directory with real content; the remaining planned
 // locales in spec/locales.md's "Planned translated locales" are deliberately
 // not here yet, since none has a locales/<code>/ directory on disk. ar-001, bn-001, cy-001,
-// cy-gb, de-001, es-001, fr-001, hi-001, hi-in, id-001, is-001, it-001, ja-001, ja-jp, ko-001, ko-kr, nl-001, pt-001, ru-001, sv-001, sw-001, ur-001, zh-001, and zh-cn are genuinely translated locales (not English
+// cy-gb, de-001, es-001, fr-001, hi-001, hi-in, id-001, is-001, it-001, ja-001, ja-jp, ko-001, ko-kr, nl-001, pt-001, ru-001, sv-001, sw-001, sw-tz, ur-001, zh-001, and zh-cn are genuinely translated locales (not English
 // spelling variants) that ship only chapters/ so far, with no front-matter/,
 // examples/, contributing/, or project/ section yet; the pages that read
 // those sections degrade to an empty list or a chapter-page fallback rather
@@ -81,6 +82,7 @@ const SERVED_LOCALE_CODES = [
   'ru-001',
   'sv-001',
   'sw-001',
+  'sw-tz',
   'ur-001',
   'zh-001',
   'zh-cn'

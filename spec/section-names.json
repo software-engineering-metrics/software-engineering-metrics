@@ -259,6 +259,20 @@
       "examples": "示例",
       "contributing": "贡献",
       "project": "项目"
+    },
+    "it-it": {
+      "chapters": "argomenti",
+      "front-matter": "premessa",
+      "examples": "esempi",
+      "contributing": "contribuire",
+      "project": "progetto"
+    },
+    "id-id": {
+      "chapters": "topik",
+      "front-matter": "pendahuluan",
+      "examples": "contoh",
+      "contributing": "kontribusi",
+      "project": "proyek"
     }
   }
 }

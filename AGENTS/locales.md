@@ -1,6 +1,6 @@
 # Locales
 
-The book exists in 39 locales under `locales/`. The policy lives in
+The book exists in 42 locales under `locales/`. The policy lives in
 [`../spec/locales.md`](../spec/locales.md); this file is the short version.
 
 ## Two kinds of locale
@@ -8,7 +8,7 @@ The book exists in 39 locales under `locales/`. The policy lives in
 - **Four English spelling variants**: `en-gb-oxendict` (Oxford spelling, the
   authoring source), `en-001`, `en-gb`, and `en-us`. Only `en-gb-oxendict` is
   hand-edited. Run `python3 tools/localize.py` to re-derive the other three.
-- **35 hand-translated locales**: `ar-001`, `ar-eg`, `bn-001`, `bn-bd`,
+- **38 hand-translated locales**: `ar-001`, `ar-eg`, `bn-001`, `bn-bd`,
   `cy-001`, `cy-gb`, `de-001`, `de-de`, `es-001`, `es-es`, `fr-001`, `fr-fr`, `hi-001`,
   `hi-id`, `id-001`, `is-is`, `is-001`, `it-001`, `ja-001`, `ja-jp`, `ko-001`, `ko-kr`, `nl-001`, `nl-nl`, `pt-001`, `pt-pt`, `ru-001`, `ru-ru`,
   `sv-001`, `sv-se`, `sw-001`, `sw-tz`, `ur-001`, `zh-001`, `zh-cn`. None of them is touched by `localize.py`.
@@ -21,7 +21,7 @@ No locale is planned but not started.
 
 ## Served on the site
 
-The site serves 29 locales: the four English variants plus `ar-001`,
+The site serves 34 locales: the four English variants plus `ar-001`,
 `bn-001`, `cy-001`, `cy-gb`, `de-001`, `es-001`, `fr-001`, `hi-001`, `id-001`,
 `is-001`, `is-is`, `it-001`, `ja-001`, `ko-001`, `nl-001`, `nl-nl`, `pt-001`, `ru-001`, `sv-001`, `sv-se`, `sw-001`, `sw-tz`, `ur-001`, `zh-001`, and `zh-cn`. The list is `SERVED_LOCALE_CODES` in
 `software-engineering-metrics.github.io/scripts/locales.mjs`. A locale is served

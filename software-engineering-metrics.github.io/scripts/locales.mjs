@@ -39,7 +39,9 @@ export const LOCALE_LABELS = {
   'sw-tz': 'Kiswahili (Tanzania)',
   'ur-001': 'اردو',
   'zh-001': '中文',
-  'zh-cn': '中文 (中国)'
+  'zh-cn': '中文 (中国)',
+  'it-it': 'Italiano (Italia)',
+  'id-id': 'Bahasa Indonesia (Indonesia)'
 };
 
 /** @param {string} code */
@@ -91,7 +93,9 @@ const SERVED_LOCALE_CODES = [
   'sw-tz',
   'ur-001',
   'zh-001',
-  'zh-cn'
+  'zh-cn',
+  'it-it',
+  'id-id'
 ];
 
 export const LOCALES = SERVED_LOCALE_CODES.map((code) => ({ code, label: localeLabel(code) }));

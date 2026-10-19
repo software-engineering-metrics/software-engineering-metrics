@@ -2,7 +2,7 @@
 
 The book is published in four English spelling-variant locales, each a
 complete copy of every topic, front-matter file, example, contributing guide,
-and project file, differing only in spelling, plus 35 hand-translated locales
+and project file, differing only in spelling, plus 38 hand-translated locales
 (see "Translated locales" below). All four keep identical structure, section order, word
 counts, and file names; see [structure.md](structure.md) and
 [conventions.md](conventions.md), which govern all four equally.
@@ -107,9 +107,9 @@ titles. None is touched by `tools/localize.py`.
 | Spanish | `es-001`, `es-es` | `es-es` started as a copy of `es-001` plus a terminology pass (below) |
 | French | `fr-001`, `fr-fr` | identical copies; `fr-fr` is the hand translation |
 | Hindi | `hi-001`, `hi-id` | identical copies; `hi-001` is the hand translation |
-| Indonesian | `id-001` | single locale, hand translation |
+| Indonesian | `id-001`, `id-id` | identical copies; `id-id` is the hand translation |
 | Icelandic | `is-001`, `is-is` | identical copies; `is-is` is the hand translation |
-| Italian | `it-001` | single locale, hand translation |
+| Italian | `it-001`, `it-it` | identical copies; `it-it` is the hand translation |
 | Japanese | `ja-001`, `ja-jp` | identical copies; `ja-jp` is the hand translation |
 | Korean | `ko-001`, `ko-kr` | identical copies; `ko-kr` is the hand translation |
 | Dutch | `nl-001`, `nl-nl` | identical copies; `nl-nl` is the hand translation |
@@ -139,7 +139,7 @@ from. Welsh terminology follows the Welsh Government's TermCymru list.
 
 Every `-001` locale is wired into the site's `SERVED_LOCALE_CODES`
 (`scripts/locales.mjs`), plus `cy-gb`, `zh-cn`, `ja-jp`, `ko-kr`, `is-is`,
-`nl-nl`, `sv-se` and `sw-tz`. The other country-tagged hand translations
+`nl-nl`, `sv-se`, `sw-tz`, `id-id` and `it-it`. The other country-tagged hand translations
 (`ar-eg`, `bn-bd`, `de-de`, `es-es`, `fr-fr`, `hi-id`, `pt-pt`, `ru-ru`) exist
 on disk but are not served. A missing
 section degrades gracefully on the site (an empty list, or a fallback to

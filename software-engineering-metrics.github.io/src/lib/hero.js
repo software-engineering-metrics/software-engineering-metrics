@@ -360,7 +360,25 @@ export const HERO = {
   "examples": "带解答的示例",
   "contents": "目录",
   "translations": "翻译： "
- }
+ },
+ "it-it": {
+  "headline": "Misura bene l'ingegneria del software.",
+  "tagline": "Gratuito · aperto · guidato dalla specifica",
+  "intro": "Un libro di lavoro su come scegliere metriche che riflettano i risultati reali anziché l'attività: il Flow Framework, il framework SPACE, la teoria delle code e le metriche DORA, metriche di codice e qualità, risultati di prodotto e di business, affidabilità e sicurezza, e come l'IA generativa cambia il significato di questi numeri.",
+  "start": "Inizia a leggere",
+  "examples": "Esempi svolti",
+  "contents": "Sommario",
+  "translations": "Traduzioni: "
+ },
+ "id-id": {
+  "headline": "Ukur rekayasa perangkat lunak dengan baik.",
+  "tagline": "Gratis · terbuka · digerakkan spesifikasi",
+  "intro": "Buku kerja tentang memilih metrik yang mencerminkan hasil nyata, bukan sekadar aktivitas: Flow Framework, kerangka SPACE, teori antrean, dan metrik DORA, metrik kode dan kualitas, hasil produk dan bisnis, keandalan dan keamanan, serta bagaimana AI generatif mengubah makna angka-angka ini.",
+  "start": "Mulai membaca",
+  "examples": "Contoh terselesaikan",
+  "contents": "Daftar isi",
+  "translations": "Terjemahan: "
+ },
 };
 
 /** @type {Record<string, string>} */
@@ -403,5 +421,7 @@ export const ENDONYMS = {
  "sw-tz": "Kiswahili (Tanzania)",
  "ur-001": "اردو",
  "zh-001": "中文",
- "zh-cn": "简体中文"
+ "zh-cn": "简体中文",
+ "it-it": "Italiano (Italia)",
+ "id-id": "Bahasa Indonesia (Indonesia)"
 };

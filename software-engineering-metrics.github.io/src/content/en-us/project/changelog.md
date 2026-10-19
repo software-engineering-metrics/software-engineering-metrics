@@ -7,6 +7,7 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Added `id-id` and `it-it` as identical copies of `id-001` and `it-001`, wired into the site and served at `/id-id/` and `/it-it/`.
 - Site: `is-is`, `nl-nl` and `sv-se` are now wired in and served at `/is-is/`, `/nl-nl/` and `/sv-se/`, alongside their `-001` copies.
 - Added Swahili (Tanzania) as `sw-tz`, an identical copy of `sw-001` with matching `.locale-peer-id` sidecars and its own `sitemap.xml`. `sw-tz` is wired into the site and served at `/sw-tz/`.
 - Added Italian (`it-001`) as the 34th complete translated locale: all 63 topics and every other section, with matching `.locale-peer-id` sidecars. `it-001` is wired into the site and served at `/it-001/`.

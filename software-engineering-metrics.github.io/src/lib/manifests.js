@@ -33,6 +33,8 @@ import swTz from './manifest/sw-tz.json';
 import ur001 from './manifest/ur-001.json';
 import zh001 from './manifest/zh-001.json';
 import zhCn from './manifest/zh-cn.json';
+import itIt from './manifest/it-it.json';
+import idId from './manifest/id-id.json';
 import { DEFAULT_LOCALE } from './locales.js';
 
 /**
@@ -97,7 +99,9 @@ const MANIFESTS = {
   'sw-tz': swTz,
   'ur-001': ur001,
   'zh-001': zh001,
-  'zh-cn': zhCn
+  'zh-cn': zhCn,
+  'it-it': itIt,
+  'id-id': idId
 };
 
 /**

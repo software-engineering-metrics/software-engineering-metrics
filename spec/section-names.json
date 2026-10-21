@@ -280,6 +280,20 @@
       "examples": "contoh",
       "contributing": "kontribusi",
       "project": "proyek"
+    },
+    "vi-001": {
+      "chapters": "chủ-đề",
+      "front-matter": "phần-mở-đầu",
+      "examples": "ví-dụ",
+      "contributing": "đóng-góp",
+      "project": "dự-án"
+    },
+    "vi-vn": {
+      "chapters": "chủ-đề",
+      "front-matter": "phần-mở-đầu",
+      "examples": "ví-dụ",
+      "contributing": "đóng-góp",
+      "project": "dự-án"
     }
   }
 }

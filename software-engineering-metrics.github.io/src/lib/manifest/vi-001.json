@@ -1,0 +1,1902 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "vi-001",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-nền-tảng-của-đo-lường",
+          "title": "Giới thiệu Phần 1: Nền tảng của đo lường",
+          "heading": "1.0 Giới thiệu Phần 1: Nền tảng của đo lường",
+          "file": "chapters/01-00-nền-tảng-của-đo-lường.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-vì-sao-đo-lường-kỹ-thuật-phần-mềm",
+          "title": "Vì sao đo lường kỹ thuật phần mềm",
+          "heading": "1.1 Vì sao đo lường kỹ thuật phần mềm",
+          "file": "chapters/01-01-vì-sao-đo-lường-kỹ-thuật-phần-mềm.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-định-luật-goodhart-và-tâm-lý-học-của-chỉ-số",
+          "title": "Định luật Goodhart và tâm lý học của chỉ số",
+          "heading": "1.2 Định luật Goodhart và tâm lý học của chỉ số",
+          "file": "chapters/01-02-định-luật-goodhart-và-tâm-lý-học-của-chỉ-số.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-kết-quả-thay-vì-đầu-ra-chọn-đo-lường-điều-gì",
+          "title": "Kết quả thay vì đầu ra: chọn đo lường điều gì",
+          "heading": "1.3 Kết quả thay vì đầu ra: chọn đo lường điều gì",
+          "file": "chapters/01-03-kết-quả-thay-vì-đầu-ra-chọn-đo-lường-điều-gì.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-quản-trị-và-quyền-sở-hữu-chỉ-số",
+          "title": "Quản trị và quyền sở hữu chỉ số",
+          "heading": "1.4 Quản trị và quyền sở hữu chỉ số",
+          "file": "chapters/01-04-quản-trị-và-quyền-sở-hữu-chỉ-số.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-nguồn-dữ-liệu-và-công-cụ-đo-đạc",
+          "title": "Nguồn dữ liệu và công cụ đo đạc",
+          "heading": "1.5 Nguồn dữ liệu và công cụ đo đạc",
+          "file": "chapters/01-05-nguồn-dữ-liệu-và-công-cụ-đo-đạc.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-hiểu-biết-thống-kê-cho-chỉ-số-kỹ-thuật",
+          "title": "Hiểu biết thống kê cho chỉ số kỹ thuật",
+          "heading": "1.6 Hiểu biết thống kê cho chỉ số kỹ thuật",
+          "file": "chapters/01-06-hiểu-biết-thống-kê-cho-chỉ-số-kỹ-thuật.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-chỉ-số-luồng",
+          "title": "Giới thiệu Phần 2: Chỉ số luồng",
+          "heading": "2.0 Giới thiệu Phần 2: Chỉ số luồng",
+          "file": "chapters/02-00-chỉ-số-luồng.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-flow-framework",
+          "title": "Flow Framework",
+          "heading": "2.1 Flow Framework",
+          "file": "chapters/02-01-flow-framework.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-mục-luồng",
+          "title": "Mục luồng: tính năng, lỗi, rủi ro và nợ",
+          "heading": "2.2 Mục luồng: tính năng, lỗi, rủi ro và nợ",
+          "file": "chapters/02-02-mục-luồng.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-vận-tốc-luồng-và-phân-bổ-luồng",
+          "title": "Vận tốc luồng và phân bổ luồng",
+          "heading": "2.3 Vận tốc luồng và phân bổ luồng",
+          "file": "chapters/02-03-vận-tốc-luồng-và-phân-bổ-luồng.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-thời-gian-luồng-và-tải-luồng",
+          "title": "Thời gian luồng và tải luồng",
+          "heading": "2.4 Thời gian luồng và tải luồng",
+          "file": "chapters/02-04-thời-gian-luồng-và-tải-luồng.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-hiệu-suất-luồng-và-công-việc-đang-thực-hiện",
+          "title": "Hiệu suất luồng và công việc đang thực hiện",
+          "heading": "2.5 Hiệu suất luồng và công việc đang thực hiện",
+          "file": "chapters/02-05-hiệu-suất-luồng-và-công-việc-đang-thực-hiện.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-thời-gian-chu-kỳ-và-các-thành-phần-của-nó",
+          "title": "Thời gian chu kỳ và các thành phần của nó",
+          "heading": "2.6 Thời gian chu kỳ và các thành phần của nó",
+          "file": "chapters/02-06-thời-gian-chu-kỳ-và-các-thành-phần-của-nó.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-lý-thuyết-hàng-đợi",
+          "title": "Lý thuyết hàng đợi",
+          "heading": "2.7 Lý thuyết hàng đợi",
+          "file": "chapters/02-07-lý-thuyết-hàng-đợi.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-chỉ-số-chuỗi-giá-trị-lean",
+          "title": "Chỉ số chuỗi giá trị Lean",
+          "heading": "2.8 Chỉ số chuỗi giá trị Lean",
+          "file": "chapters/02-08-chỉ-số-chuỗi-giá-trị-lean.md"
+        },
+        {
+          "part": 2,
+          "chapter": 9,
+          "decimal": "2.9",
+          "slug": "02-09-chỉ-số-pull-request-và-đánh-giá-mã",
+          "title": "Chỉ số pull request và đánh giá mã",
+          "heading": "2.9 Chỉ số pull request và đánh giá mã",
+          "file": "chapters/02-09-chỉ-số-pull-request-và-đánh-giá-mã.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-khung-chỉ-số-dora",
+          "title": "Khung chỉ số DORA",
+          "heading": "2.10 Khung chỉ số DORA",
+          "file": "chapters/02-10-khung-chỉ-số-dora.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-trải-nghiệm-lập-trình-viên-và-space",
+          "title": "Giới thiệu Phần 3: Trải nghiệm lập trình viên và khung SPACE",
+          "heading": "3.0 Giới thiệu Phần 3: Trải nghiệm lập trình viên và khung SPACE",
+          "file": "chapters/03-00-trải-nghiệm-lập-trình-viên-và-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-khung-space",
+          "title": "Khung SPACE",
+          "heading": "3.1 Khung SPACE",
+          "file": "chapters/03-01-khung-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-chỉ-số-hài-lòng-và-sức-khỏe-tinh-thần",
+          "title": "Chỉ số hài lòng và sức khỏe tinh thần",
+          "heading": "3.2 Chỉ số hài lòng và sức khỏe tinh thần",
+          "file": "chapters/03-02-chỉ-số-hài-lòng-và-sức-khỏe-tinh-thần.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-chỉ-số-hiệu-suất-và-đại-diện-kết-quả",
+          "title": "Chỉ số hiệu suất và đại diện kết quả",
+          "heading": "3.3 Chỉ số hiệu suất và đại diện kết quả",
+          "file": "chapters/03-03-chỉ-số-hiệu-suất-và-đại-diện-kết-quả.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-chỉ-số-hoạt-động-và-giới-hạn-của-chúng",
+          "title": "Chỉ số hoạt động và giới hạn của chúng",
+          "heading": "3.4 Chỉ số hoạt động và giới hạn của chúng",
+          "file": "chapters/03-04-chỉ-số-hoạt-động-và-giới-hạn-của-chúng.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-chỉ-số-giao-tiếp-và-cộng-tác",
+          "title": "Chỉ số giao tiếp và cộng tác",
+          "heading": "3.5 Chỉ số giao tiếp và cộng tác",
+          "file": "chapters/03-05-chỉ-số-giao-tiếp-và-cộng-tác.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-hiệu-quả-và-luồng",
+          "title": "Hiệu quả và luồng: làm việc sâu và gián đoạn",
+          "heading": "3.6 Hiệu quả và luồng: làm việc sâu và gián đoạn",
+          "file": "chapters/03-06-hiệu-quả-và-luồng.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-khảo-sát-trải-nghiệm-lập-trình-viên-và-chỉ-số-devex",
+          "title": "Khảo sát trải nghiệm lập trình viên và chỉ số DevEx",
+          "heading": "3.7 Khảo sát trải nghiệm lập trình viên và chỉ số DevEx",
+          "file": "chapters/03-07-khảo-sát-trải-nghiệm-lập-trình-viên-và-chỉ-số-devex.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-chỉ-số-mã-và-chất-lượng",
+          "title": "Giới thiệu Phần 4: Chỉ số mã và chất lượng",
+          "heading": "4.0 Giới thiệu Phần 4: Chỉ số mã và chất lượng",
+          "file": "chapters/04-00-chỉ-số-mã-và-chất-lượng.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-chỉ-số-độ-phức-tạp-của-mã",
+          "title": "Chỉ số độ phức tạp của mã",
+          "heading": "4.1 Chỉ số độ phức tạp của mã",
+          "file": "chapters/04-01-chỉ-số-độ-phức-tạp-của-mã.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-độ-bao-phủ-kiểm-thử-và-hiệu-quả-kiểm-thử",
+          "title": "Độ bao phủ kiểm thử và hiệu quả kiểm thử",
+          "heading": "4.2 Độ bao phủ kiểm thử và hiệu quả kiểm thử",
+          "file": "chapters/04-02-độ-bao-phủ-kiểm-thử-và-hiệu-quả-kiểm-thử.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-mức-thay-đổi-mã-và-phân-tích-điểm-nóng",
+          "title": "Mức thay đổi mã và phân tích điểm nóng",
+          "heading": "4.3 Mức thay đổi mã và phân tích điểm nóng",
+          "file": "chapters/04-03-mức-thay-đổi-mã-và-phân-tích-điểm-nóng.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-phân-tích-tĩnh-và-chỉ-số-code-smell",
+          "title": "Phân tích tĩnh và chỉ số code smell",
+          "heading": "4.4 Phân tích tĩnh và chỉ số code smell",
+          "file": "chapters/04-04-phân-tích-tĩnh-và-chỉ-số-code-smell.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-đo-lường-nợ-kỹ-thuật",
+          "title": "Đo lường nợ kỹ thuật",
+          "heading": "4.5 Đo lường nợ kỹ thuật",
+          "file": "chapters/04-05-đo-lường-nợ-kỹ-thuật.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-chỉ-số-tài-liệu-và-tri-thức",
+          "title": "Chỉ số tài liệu và tri thức",
+          "heading": "4.6 Chỉ số tài liệu và tri thức",
+          "file": "chapters/04-06-chỉ-số-tài-liệu-và-tri-thức.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-chỉ-số-sản-phẩm-và-kinh-doanh",
+          "title": "Giới thiệu Phần 5: Chỉ số sản phẩm và kinh doanh",
+          "heading": "5.0 Giới thiệu Phần 5: Chỉ số sản phẩm và kinh doanh",
+          "file": "chapters/05-00-chỉ-số-sản-phẩm-và-kinh-doanh.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-tỷ-lệ-lỗi-lọt-và-lỗi-chất-lượng-thoát",
+          "title": "Tỷ lệ lỗi lọt và lỗi chất lượng thoát",
+          "heading": "5.1 Tỷ lệ lỗi lọt và lỗi chất lượng thoát",
+          "file": "chapters/05-01-tỷ-lệ-lỗi-lọt-và-lỗi-chất-lượng-thoát.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-chỉ-số-áp-dụng-và-sử-dụng-tính-năng",
+          "title": "Chỉ số áp dụng và sử dụng tính năng",
+          "heading": "5.2 Chỉ số áp dụng và sử dụng tính năng",
+          "file": "chapters/05-02-chỉ-số-áp-dụng-và-sử-dụng-tính-năng.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-chỉ-số-kết-quả-khách-hàng-và-kinh-doanh",
+          "title": "Chỉ số kết quả khách hàng và kinh doanh",
+          "heading": "5.3 Chỉ số kết quả khách hàng và kinh doanh",
+          "file": "chapters/05-03-chỉ-số-kết-quả-khách-hàng-và-kinh-doanh.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-chi-phí-và-kinh-tế-đơn-vị-của-kỹ-thuật",
+          "title": "Chi phí và kinh tế đơn vị của kỹ thuật",
+          "heading": "5.4 Chi phí và kinh tế đơn vị của kỹ thuật",
+          "file": "chapters/05-04-chi-phí-và-kinh-tế-đơn-vị-của-kỹ-thuật.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-lợi-tức-đầu-tư-cho-các-sáng-kiến-kỹ-thuật",
+          "title": "Lợi tức đầu tư cho các sáng kiến kỹ thuật",
+          "heading": "5.5 Lợi tức đầu tư cho các sáng kiến kỹ thuật",
+          "file": "chapters/05-05-lợi-tức-đầu-tư-cho-các-sáng-kiến-kỹ-thuật.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-chỉ-số-độ-tin-cậy-vận-hành-và-bảo-mật",
+          "title": "Giới thiệu Phần 6: Chỉ số độ tin cậy, vận hành và bảo mật",
+          "heading": "6.0 Giới thiệu Phần 6: Chỉ số độ tin cậy, vận hành và bảo mật",
+          "file": "chapters/06-00-chỉ-số-độ-tin-cậy-vận-hành-và-bảo-mật.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-sli-slo-và-ngân-sách-lỗi",
+          "title": "Chỉ báo mức dịch vụ, mục tiêu mức dịch vụ và ngân sách lỗi",
+          "heading": "6.1 Chỉ báo mức dịch vụ, mục tiêu mức dịch vụ và ngân sách lỗi",
+          "file": "chapters/06-01-sli-slo-và-ngân-sách-lỗi.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-chỉ-số-sự-cố",
+          "title": "Chỉ số sự cố: phát hiện, ứng phó và khôi phục",
+          "heading": "6.2 Chỉ số sự cố: phát hiện, ứng phó và khôi phục",
+          "file": "chapters/06-02-chỉ-số-sự-cố.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-chỉ-số-trực-ca-năng-lực-và-tải-vận-hành",
+          "title": "Chỉ số trực ca, năng lực và tải vận hành",
+          "heading": "6.3 Chỉ số trực ca, năng lực và tải vận hành",
+          "file": "chapters/06-03-chỉ-số-trực-ca-năng-lực-và-tải-vận-hành.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-chỉ-số-bảo-mật-và-quản-lý-lỗ-hổng",
+          "title": "Chỉ số bảo mật và quản lý lỗ hổng",
+          "heading": "6.4 Chỉ số bảo mật và quản lý lỗ hổng",
+          "file": "chapters/06-04-chỉ-số-bảo-mật-và-quản-lý-lỗ-hổng.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-chỉ-số-trong-kỷ-nguyên-ai",
+          "title": "Giới thiệu Phần 7: Chỉ số trong kỷ nguyên AI",
+          "heading": "7.0 Giới thiệu Phần 7: Chỉ số trong kỷ nguyên AI",
+          "file": "chapters/07-00-chỉ-số-trong-kỷ-nguyên-ai.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-sự-chuyển-dịch-mô-hình-của-ai-sinh-tạo",
+          "title": "Sự chuyển dịch mô hình của AI sinh tạo",
+          "heading": "7.1 Sự chuyển dịch mô hình của AI sinh tạo",
+          "file": "chapters/07-01-sự-chuyển-dịch-mô-hình-của-ai-sinh-tạo.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-đo-lường-phát-triển-phần-mềm-có-ai-hỗ-trợ",
+          "title": "Đo lường phát triển phần mềm có AI hỗ trợ",
+          "heading": "7.2 Đo lường phát triển phần mềm có AI hỗ trợ",
+          "file": "chapters/07-02-đo-lường-phát-triển-phần-mềm-có-ai-hỗ-trợ.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-rủi-ro-thổi-phồng-chỉ-số-và-pha-loãng-chất-lượng",
+          "title": "Rủi ro thổi phồng chỉ số và pha loãng chất lượng",
+          "heading": "7.3 Rủi ro thổi phồng chỉ số và pha loãng chất lượng",
+          "file": "chapters/07-03-rủi-ro-thổi-phồng-chỉ-số-và-pha-loãng-chất-lượng.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-dữ-liệu-viễn-trắc-kết-quả-như-kim-chỉ-nam-mới",
+          "title": "Dữ liệu viễn trắc kết quả như kim chỉ nam mới",
+          "heading": "7.4 Dữ liệu viễn trắc kết quả như kim chỉ nam mới",
+          "file": "chapters/07-04-dữ-liệu-viễn-trắc-kết-quả-như-kim-chỉ-nam-mới.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-xây-dựng-chương-trình-chỉ-số",
+          "title": "Giới thiệu Phần 8: Xây dựng chương trình chỉ số",
+          "heading": "8.0 Giới thiệu Phần 8: Xây dựng chương trình chỉ số",
+          "file": "chapters/08-00-xây-dựng-chương-trình-chỉ-số.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-thiết-kế-bảng-điều-khiển-chỉ-số-kỹ-thuật",
+          "title": "Thiết kế bảng điều khiển chỉ số kỹ thuật",
+          "heading": "8.1 Thiết kế bảng điều khiển chỉ số kỹ thuật",
+          "file": "chapters/08-01-thiết-kế-bảng-điều-khiển-chỉ-số-kỹ-thuật.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-bức-tranh-công-cụ-tự-xây-hay-mua",
+          "title": "Bức tranh công cụ: tự xây hay mua",
+          "heading": "8.2 Bức tranh công cụ: tự xây hay mua",
+          "file": "chapters/08-02-bức-tranh-công-cụ-tự-xây-hay-mua.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-triển-khai-chỉ-số-mà-không-gây-nỗi-sợ",
+          "title": "Triển khai chỉ số mà không gây nỗi sợ",
+          "heading": "8.3 Triển khai chỉ số mà không gây nỗi sợ",
+          "file": "chapters/08-03-triển-khai-chỉ-số-mà-không-gây-nỗi-sợ.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-mô-hình-trưởng-thành-cho-chương-trình-chỉ-số-kỹ-thuật",
+          "title": "Mô hình trưởng thành cho các chương trình chỉ số kỹ thuật",
+          "heading": "8.4 Mô hình trưởng thành cho các chương trình chỉ số kỹ thuật",
+          "file": "chapters/08-04-mô-hình-trưởng-thành-cho-chương-trình-chỉ-số-kỹ-thuật.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-lộ-trình-áp-dụng-từng-bước",
+          "title": "Lộ trình áp dụng từng bước",
+          "heading": "8.5 Lộ trình áp dụng từng bước",
+          "file": "chapters/08-05-lộ-trình-áp-dụng-từng-bước.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-phụ-lục",
+          "title": "Phụ lục",
+          "heading": "9.0 Phụ lục",
+          "file": "chapters/09-00-phụ-lục.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-bảng-thuật-ngữ",
+          "title": "Bảng thuật ngữ",
+          "heading": "9.1 Bảng thuật ngữ",
+          "file": "chapters/09-01-bảng-thuật-ngữ.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-tham-chiếu-định-nghĩa-chỉ-số-và-công-thức",
+          "title": "Tham chiếu định nghĩa chỉ số và công thức",
+          "heading": "9.2 Tham chiếu định nghĩa chỉ số và công thức",
+          "file": "chapters/09-02-tham-chiếu-định-nghĩa-chỉ-số-và-công-thức.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-danh-sách-kiểm-tra",
+          "title": "Danh sách kiểm tra",
+          "heading": "9.3 Danh sách kiểm tra",
+          "file": "chapters/09-03-danh-sách-kiểm-tra.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-mẫu",
+          "title": "Mẫu",
+          "heading": "9.4 Mẫu",
+          "file": "chapters/09-04-mẫu.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-tự-đánh-giá-mức-trưởng-thành",
+          "title": "Tự đánh giá mức trưởng thành",
+          "heading": "9.5 Tự đánh giá mức trưởng thành",
+          "file": "chapters/09-05-tự-đánh-giá-mức-trưởng-thành.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-tài-liệu-tham-khảo-và-đọc-thêm",
+          "title": "Tài liệu tham khảo và đọc thêm",
+          "heading": "9.6 Tài liệu tham khảo và đọc thêm",
+          "file": "chapters/09-06-tài-liệu-tham-khảo-và-đọc-thêm.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-chỉ-mục",
+          "title": "Chỉ mục",
+          "heading": "9.7 Chỉ mục",
+          "file": "chapters/09-07-chỉ-mục.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-nền-tảng-của-đo-lường",
+      "title": "Giới thiệu Phần 1: Nền tảng của đo lường",
+      "heading": "1.0 Giới thiệu Phần 1: Nền tảng của đo lường",
+      "file": "chapters/01-00-nền-tảng-của-đo-lường.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-vì-sao-đo-lường-kỹ-thuật-phần-mềm",
+      "title": "Vì sao đo lường kỹ thuật phần mềm",
+      "heading": "1.1 Vì sao đo lường kỹ thuật phần mềm",
+      "file": "chapters/01-01-vì-sao-đo-lường-kỹ-thuật-phần-mềm.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-định-luật-goodhart-và-tâm-lý-học-của-chỉ-số",
+      "title": "Định luật Goodhart và tâm lý học của chỉ số",
+      "heading": "1.2 Định luật Goodhart và tâm lý học của chỉ số",
+      "file": "chapters/01-02-định-luật-goodhart-và-tâm-lý-học-của-chỉ-số.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-kết-quả-thay-vì-đầu-ra-chọn-đo-lường-điều-gì",
+      "title": "Kết quả thay vì đầu ra: chọn đo lường điều gì",
+      "heading": "1.3 Kết quả thay vì đầu ra: chọn đo lường điều gì",
+      "file": "chapters/01-03-kết-quả-thay-vì-đầu-ra-chọn-đo-lường-điều-gì.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-quản-trị-và-quyền-sở-hữu-chỉ-số",
+      "title": "Quản trị và quyền sở hữu chỉ số",
+      "heading": "1.4 Quản trị và quyền sở hữu chỉ số",
+      "file": "chapters/01-04-quản-trị-và-quyền-sở-hữu-chỉ-số.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-nguồn-dữ-liệu-và-công-cụ-đo-đạc",
+      "title": "Nguồn dữ liệu và công cụ đo đạc",
+      "heading": "1.5 Nguồn dữ liệu và công cụ đo đạc",
+      "file": "chapters/01-05-nguồn-dữ-liệu-và-công-cụ-đo-đạc.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-hiểu-biết-thống-kê-cho-chỉ-số-kỹ-thuật",
+      "title": "Hiểu biết thống kê cho chỉ số kỹ thuật",
+      "heading": "1.6 Hiểu biết thống kê cho chỉ số kỹ thuật",
+      "file": "chapters/01-06-hiểu-biết-thống-kê-cho-chỉ-số-kỹ-thuật.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-chỉ-số-luồng",
+      "title": "Giới thiệu Phần 2: Chỉ số luồng",
+      "heading": "2.0 Giới thiệu Phần 2: Chỉ số luồng",
+      "file": "chapters/02-00-chỉ-số-luồng.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-flow-framework.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-mục-luồng",
+      "title": "Mục luồng: tính năng, lỗi, rủi ro và nợ",
+      "heading": "2.2 Mục luồng: tính năng, lỗi, rủi ro và nợ",
+      "file": "chapters/02-02-mục-luồng.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-vận-tốc-luồng-và-phân-bổ-luồng",
+      "title": "Vận tốc luồng và phân bổ luồng",
+      "heading": "2.3 Vận tốc luồng và phân bổ luồng",
+      "file": "chapters/02-03-vận-tốc-luồng-và-phân-bổ-luồng.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-thời-gian-luồng-và-tải-luồng",
+      "title": "Thời gian luồng và tải luồng",
+      "heading": "2.4 Thời gian luồng và tải luồng",
+      "file": "chapters/02-04-thời-gian-luồng-và-tải-luồng.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-hiệu-suất-luồng-và-công-việc-đang-thực-hiện",
+      "title": "Hiệu suất luồng và công việc đang thực hiện",
+      "heading": "2.5 Hiệu suất luồng và công việc đang thực hiện",
+      "file": "chapters/02-05-hiệu-suất-luồng-và-công-việc-đang-thực-hiện.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-thời-gian-chu-kỳ-và-các-thành-phần-của-nó",
+      "title": "Thời gian chu kỳ và các thành phần của nó",
+      "heading": "2.6 Thời gian chu kỳ và các thành phần của nó",
+      "file": "chapters/02-06-thời-gian-chu-kỳ-và-các-thành-phần-của-nó.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-lý-thuyết-hàng-đợi",
+      "title": "Lý thuyết hàng đợi",
+      "heading": "2.7 Lý thuyết hàng đợi",
+      "file": "chapters/02-07-lý-thuyết-hàng-đợi.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-chỉ-số-chuỗi-giá-trị-lean",
+      "title": "Chỉ số chuỗi giá trị Lean",
+      "heading": "2.8 Chỉ số chuỗi giá trị Lean",
+      "file": "chapters/02-08-chỉ-số-chuỗi-giá-trị-lean.md"
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-chỉ-số-pull-request-và-đánh-giá-mã",
+      "title": "Chỉ số pull request và đánh giá mã",
+      "heading": "2.9 Chỉ số pull request và đánh giá mã",
+      "file": "chapters/02-09-chỉ-số-pull-request-và-đánh-giá-mã.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-khung-chỉ-số-dora",
+      "title": "Khung chỉ số DORA",
+      "heading": "2.10 Khung chỉ số DORA",
+      "file": "chapters/02-10-khung-chỉ-số-dora.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-trải-nghiệm-lập-trình-viên-và-space",
+      "title": "Giới thiệu Phần 3: Trải nghiệm lập trình viên và khung SPACE",
+      "heading": "3.0 Giới thiệu Phần 3: Trải nghiệm lập trình viên và khung SPACE",
+      "file": "chapters/03-00-trải-nghiệm-lập-trình-viên-và-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-khung-space",
+      "title": "Khung SPACE",
+      "heading": "3.1 Khung SPACE",
+      "file": "chapters/03-01-khung-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-chỉ-số-hài-lòng-và-sức-khỏe-tinh-thần",
+      "title": "Chỉ số hài lòng và sức khỏe tinh thần",
+      "heading": "3.2 Chỉ số hài lòng và sức khỏe tinh thần",
+      "file": "chapters/03-02-chỉ-số-hài-lòng-và-sức-khỏe-tinh-thần.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-chỉ-số-hiệu-suất-và-đại-diện-kết-quả",
+      "title": "Chỉ số hiệu suất và đại diện kết quả",
+      "heading": "3.3 Chỉ số hiệu suất và đại diện kết quả",
+      "file": "chapters/03-03-chỉ-số-hiệu-suất-và-đại-diện-kết-quả.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-chỉ-số-hoạt-động-và-giới-hạn-của-chúng",
+      "title": "Chỉ số hoạt động và giới hạn của chúng",
+      "heading": "3.4 Chỉ số hoạt động và giới hạn của chúng",
+      "file": "chapters/03-04-chỉ-số-hoạt-động-và-giới-hạn-của-chúng.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-chỉ-số-giao-tiếp-và-cộng-tác",
+      "title": "Chỉ số giao tiếp và cộng tác",
+      "heading": "3.5 Chỉ số giao tiếp và cộng tác",
+      "file": "chapters/03-05-chỉ-số-giao-tiếp-và-cộng-tác.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-hiệu-quả-và-luồng",
+      "title": "Hiệu quả và luồng: làm việc sâu và gián đoạn",
+      "heading": "3.6 Hiệu quả và luồng: làm việc sâu và gián đoạn",
+      "file": "chapters/03-06-hiệu-quả-và-luồng.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-khảo-sát-trải-nghiệm-lập-trình-viên-và-chỉ-số-devex",
+      "title": "Khảo sát trải nghiệm lập trình viên và chỉ số DevEx",
+      "heading": "3.7 Khảo sát trải nghiệm lập trình viên và chỉ số DevEx",
+      "file": "chapters/03-07-khảo-sát-trải-nghiệm-lập-trình-viên-và-chỉ-số-devex.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-chỉ-số-mã-và-chất-lượng",
+      "title": "Giới thiệu Phần 4: Chỉ số mã và chất lượng",
+      "heading": "4.0 Giới thiệu Phần 4: Chỉ số mã và chất lượng",
+      "file": "chapters/04-00-chỉ-số-mã-và-chất-lượng.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-chỉ-số-độ-phức-tạp-của-mã",
+      "title": "Chỉ số độ phức tạp của mã",
+      "heading": "4.1 Chỉ số độ phức tạp của mã",
+      "file": "chapters/04-01-chỉ-số-độ-phức-tạp-của-mã.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-độ-bao-phủ-kiểm-thử-và-hiệu-quả-kiểm-thử",
+      "title": "Độ bao phủ kiểm thử và hiệu quả kiểm thử",
+      "heading": "4.2 Độ bao phủ kiểm thử và hiệu quả kiểm thử",
+      "file": "chapters/04-02-độ-bao-phủ-kiểm-thử-và-hiệu-quả-kiểm-thử.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-mức-thay-đổi-mã-và-phân-tích-điểm-nóng",
+      "title": "Mức thay đổi mã và phân tích điểm nóng",
+      "heading": "4.3 Mức thay đổi mã và phân tích điểm nóng",
+      "file": "chapters/04-03-mức-thay-đổi-mã-và-phân-tích-điểm-nóng.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-phân-tích-tĩnh-và-chỉ-số-code-smell",
+      "title": "Phân tích tĩnh và chỉ số code smell",
+      "heading": "4.4 Phân tích tĩnh và chỉ số code smell",
+      "file": "chapters/04-04-phân-tích-tĩnh-và-chỉ-số-code-smell.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-đo-lường-nợ-kỹ-thuật",
+      "title": "Đo lường nợ kỹ thuật",
+      "heading": "4.5 Đo lường nợ kỹ thuật",
+      "file": "chapters/04-05-đo-lường-nợ-kỹ-thuật.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-chỉ-số-tài-liệu-và-tri-thức",
+      "title": "Chỉ số tài liệu và tri thức",
+      "heading": "4.6 Chỉ số tài liệu và tri thức",
+      "file": "chapters/04-06-chỉ-số-tài-liệu-và-tri-thức.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-chỉ-số-sản-phẩm-và-kinh-doanh",
+      "title": "Giới thiệu Phần 5: Chỉ số sản phẩm và kinh doanh",
+      "heading": "5.0 Giới thiệu Phần 5: Chỉ số sản phẩm và kinh doanh",
+      "file": "chapters/05-00-chỉ-số-sản-phẩm-và-kinh-doanh.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-tỷ-lệ-lỗi-lọt-và-lỗi-chất-lượng-thoát",
+      "title": "Tỷ lệ lỗi lọt và lỗi chất lượng thoát",
+      "heading": "5.1 Tỷ lệ lỗi lọt và lỗi chất lượng thoát",
+      "file": "chapters/05-01-tỷ-lệ-lỗi-lọt-và-lỗi-chất-lượng-thoát.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-chỉ-số-áp-dụng-và-sử-dụng-tính-năng",
+      "title": "Chỉ số áp dụng và sử dụng tính năng",
+      "heading": "5.2 Chỉ số áp dụng và sử dụng tính năng",
+      "file": "chapters/05-02-chỉ-số-áp-dụng-và-sử-dụng-tính-năng.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-chỉ-số-kết-quả-khách-hàng-và-kinh-doanh",
+      "title": "Chỉ số kết quả khách hàng và kinh doanh",
+      "heading": "5.3 Chỉ số kết quả khách hàng và kinh doanh",
+      "file": "chapters/05-03-chỉ-số-kết-quả-khách-hàng-và-kinh-doanh.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-chi-phí-và-kinh-tế-đơn-vị-của-kỹ-thuật",
+      "title": "Chi phí và kinh tế đơn vị của kỹ thuật",
+      "heading": "5.4 Chi phí và kinh tế đơn vị của kỹ thuật",
+      "file": "chapters/05-04-chi-phí-và-kinh-tế-đơn-vị-của-kỹ-thuật.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-lợi-tức-đầu-tư-cho-các-sáng-kiến-kỹ-thuật",
+      "title": "Lợi tức đầu tư cho các sáng kiến kỹ thuật",
+      "heading": "5.5 Lợi tức đầu tư cho các sáng kiến kỹ thuật",
+      "file": "chapters/05-05-lợi-tức-đầu-tư-cho-các-sáng-kiến-kỹ-thuật.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-chỉ-số-độ-tin-cậy-vận-hành-và-bảo-mật",
+      "title": "Giới thiệu Phần 6: Chỉ số độ tin cậy, vận hành và bảo mật",
+      "heading": "6.0 Giới thiệu Phần 6: Chỉ số độ tin cậy, vận hành và bảo mật",
+      "file": "chapters/06-00-chỉ-số-độ-tin-cậy-vận-hành-và-bảo-mật.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-sli-slo-và-ngân-sách-lỗi",
+      "title": "Chỉ báo mức dịch vụ, mục tiêu mức dịch vụ và ngân sách lỗi",
+      "heading": "6.1 Chỉ báo mức dịch vụ, mục tiêu mức dịch vụ và ngân sách lỗi",
+      "file": "chapters/06-01-sli-slo-và-ngân-sách-lỗi.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-chỉ-số-sự-cố",
+      "title": "Chỉ số sự cố: phát hiện, ứng phó và khôi phục",
+      "heading": "6.2 Chỉ số sự cố: phát hiện, ứng phó và khôi phục",
+      "file": "chapters/06-02-chỉ-số-sự-cố.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-chỉ-số-trực-ca-năng-lực-và-tải-vận-hành",
+      "title": "Chỉ số trực ca, năng lực và tải vận hành",
+      "heading": "6.3 Chỉ số trực ca, năng lực và tải vận hành",
+      "file": "chapters/06-03-chỉ-số-trực-ca-năng-lực-và-tải-vận-hành.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-chỉ-số-bảo-mật-và-quản-lý-lỗ-hổng",
+      "title": "Chỉ số bảo mật và quản lý lỗ hổng",
+      "heading": "6.4 Chỉ số bảo mật và quản lý lỗ hổng",
+      "file": "chapters/06-04-chỉ-số-bảo-mật-và-quản-lý-lỗ-hổng.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-chỉ-số-trong-kỷ-nguyên-ai",
+      "title": "Giới thiệu Phần 7: Chỉ số trong kỷ nguyên AI",
+      "heading": "7.0 Giới thiệu Phần 7: Chỉ số trong kỷ nguyên AI",
+      "file": "chapters/07-00-chỉ-số-trong-kỷ-nguyên-ai.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-sự-chuyển-dịch-mô-hình-của-ai-sinh-tạo",
+      "title": "Sự chuyển dịch mô hình của AI sinh tạo",
+      "heading": "7.1 Sự chuyển dịch mô hình của AI sinh tạo",
+      "file": "chapters/07-01-sự-chuyển-dịch-mô-hình-của-ai-sinh-tạo.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-đo-lường-phát-triển-phần-mềm-có-ai-hỗ-trợ",
+      "title": "Đo lường phát triển phần mềm có AI hỗ trợ",
+      "heading": "7.2 Đo lường phát triển phần mềm có AI hỗ trợ",
+      "file": "chapters/07-02-đo-lường-phát-triển-phần-mềm-có-ai-hỗ-trợ.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-rủi-ro-thổi-phồng-chỉ-số-và-pha-loãng-chất-lượng",
+      "title": "Rủi ro thổi phồng chỉ số và pha loãng chất lượng",
+      "heading": "7.3 Rủi ro thổi phồng chỉ số và pha loãng chất lượng",
+      "file": "chapters/07-03-rủi-ro-thổi-phồng-chỉ-số-và-pha-loãng-chất-lượng.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-dữ-liệu-viễn-trắc-kết-quả-như-kim-chỉ-nam-mới",
+      "title": "Dữ liệu viễn trắc kết quả như kim chỉ nam mới",
+      "heading": "7.4 Dữ liệu viễn trắc kết quả như kim chỉ nam mới",
+      "file": "chapters/07-04-dữ-liệu-viễn-trắc-kết-quả-như-kim-chỉ-nam-mới.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-xây-dựng-chương-trình-chỉ-số",
+      "title": "Giới thiệu Phần 8: Xây dựng chương trình chỉ số",
+      "heading": "8.0 Giới thiệu Phần 8: Xây dựng chương trình chỉ số",
+      "file": "chapters/08-00-xây-dựng-chương-trình-chỉ-số.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-thiết-kế-bảng-điều-khiển-chỉ-số-kỹ-thuật",
+      "title": "Thiết kế bảng điều khiển chỉ số kỹ thuật",
+      "heading": "8.1 Thiết kế bảng điều khiển chỉ số kỹ thuật",
+      "file": "chapters/08-01-thiết-kế-bảng-điều-khiển-chỉ-số-kỹ-thuật.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-bức-tranh-công-cụ-tự-xây-hay-mua",
+      "title": "Bức tranh công cụ: tự xây hay mua",
+      "heading": "8.2 Bức tranh công cụ: tự xây hay mua",
+      "file": "chapters/08-02-bức-tranh-công-cụ-tự-xây-hay-mua.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-triển-khai-chỉ-số-mà-không-gây-nỗi-sợ",
+      "title": "Triển khai chỉ số mà không gây nỗi sợ",
+      "heading": "8.3 Triển khai chỉ số mà không gây nỗi sợ",
+      "file": "chapters/08-03-triển-khai-chỉ-số-mà-không-gây-nỗi-sợ.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-mô-hình-trưởng-thành-cho-chương-trình-chỉ-số-kỹ-thuật",
+      "title": "Mô hình trưởng thành cho các chương trình chỉ số kỹ thuật",
+      "heading": "8.4 Mô hình trưởng thành cho các chương trình chỉ số kỹ thuật",
+      "file": "chapters/08-04-mô-hình-trưởng-thành-cho-chương-trình-chỉ-số-kỹ-thuật.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-lộ-trình-áp-dụng-từng-bước",
+      "title": "Lộ trình áp dụng từng bước",
+      "heading": "8.5 Lộ trình áp dụng từng bước",
+      "file": "chapters/08-05-lộ-trình-áp-dụng-từng-bước.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-phụ-lục",
+      "title": "Phụ lục",
+      "heading": "9.0 Phụ lục",
+      "file": "chapters/09-00-phụ-lục.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-bảng-thuật-ngữ",
+      "title": "Bảng thuật ngữ",
+      "heading": "9.1 Bảng thuật ngữ",
+      "file": "chapters/09-01-bảng-thuật-ngữ.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-tham-chiếu-định-nghĩa-chỉ-số-và-công-thức",
+      "title": "Tham chiếu định nghĩa chỉ số và công thức",
+      "heading": "9.2 Tham chiếu định nghĩa chỉ số và công thức",
+      "file": "chapters/09-02-tham-chiếu-định-nghĩa-chỉ-số-và-công-thức.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-danh-sách-kiểm-tra",
+      "title": "Danh sách kiểm tra",
+      "heading": "9.3 Danh sách kiểm tra",
+      "file": "chapters/09-03-danh-sách-kiểm-tra.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-mẫu",
+      "title": "Mẫu",
+      "heading": "9.4 Mẫu",
+      "file": "chapters/09-04-mẫu.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-tự-đánh-giá-mức-trưởng-thành",
+      "title": "Tự đánh giá mức trưởng thành",
+      "heading": "9.5 Tự đánh giá mức trưởng thành",
+      "file": "chapters/09-05-tự-đánh-giá-mức-trưởng-thành.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-tài-liệu-tham-khảo-và-đọc-thêm",
+      "title": "Tài liệu tham khảo và đọc thêm",
+      "heading": "9.6 Tài liệu tham khảo và đọc thêm",
+      "file": "chapters/09-06-tài-liệu-tham-khảo-và-đọc-thêm.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-chỉ-mục",
+      "title": "Chỉ mục",
+      "heading": "9.7 Chỉ mục",
+      "file": "chapters/09-07-chỉ-mục.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-nền-tảng-của-đo-lường",
+      "title": "Giới thiệu Phần 1: Nền tảng của đo lường",
+      "heading": "1.0 Giới thiệu Phần 1: Nền tảng của đo lường",
+      "file": "chapters/01-00-nền-tảng-của-đo-lường.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-vì-sao-đo-lường-kỹ-thuật-phần-mềm",
+      "title": "Vì sao đo lường kỹ thuật phần mềm",
+      "heading": "1.1 Vì sao đo lường kỹ thuật phần mềm",
+      "file": "chapters/01-01-vì-sao-đo-lường-kỹ-thuật-phần-mềm.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-định-luật-goodhart-và-tâm-lý-học-của-chỉ-số",
+      "title": "Định luật Goodhart và tâm lý học của chỉ số",
+      "heading": "1.2 Định luật Goodhart và tâm lý học của chỉ số",
+      "file": "chapters/01-02-định-luật-goodhart-và-tâm-lý-học-của-chỉ-số.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-kết-quả-thay-vì-đầu-ra-chọn-đo-lường-điều-gì",
+      "title": "Kết quả thay vì đầu ra: chọn đo lường điều gì",
+      "heading": "1.3 Kết quả thay vì đầu ra: chọn đo lường điều gì",
+      "file": "chapters/01-03-kết-quả-thay-vì-đầu-ra-chọn-đo-lường-điều-gì.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-quản-trị-và-quyền-sở-hữu-chỉ-số",
+      "title": "Quản trị và quyền sở hữu chỉ số",
+      "heading": "1.4 Quản trị và quyền sở hữu chỉ số",
+      "file": "chapters/01-04-quản-trị-và-quyền-sở-hữu-chỉ-số.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-nguồn-dữ-liệu-và-công-cụ-đo-đạc",
+      "title": "Nguồn dữ liệu và công cụ đo đạc",
+      "heading": "1.5 Nguồn dữ liệu và công cụ đo đạc",
+      "file": "chapters/01-05-nguồn-dữ-liệu-và-công-cụ-đo-đạc.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-hiểu-biết-thống-kê-cho-chỉ-số-kỹ-thuật",
+      "title": "Hiểu biết thống kê cho chỉ số kỹ thuật",
+      "heading": "1.6 Hiểu biết thống kê cho chỉ số kỹ thuật",
+      "file": "chapters/01-06-hiểu-biết-thống-kê-cho-chỉ-số-kỹ-thuật.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-chỉ-số-luồng",
+      "title": "Giới thiệu Phần 2: Chỉ số luồng",
+      "heading": "2.0 Giới thiệu Phần 2: Chỉ số luồng",
+      "file": "chapters/02-00-chỉ-số-luồng.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-flow-framework.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-mục-luồng",
+      "title": "Mục luồng: tính năng, lỗi, rủi ro và nợ",
+      "heading": "2.2 Mục luồng: tính năng, lỗi, rủi ro và nợ",
+      "file": "chapters/02-02-mục-luồng.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-vận-tốc-luồng-và-phân-bổ-luồng",
+      "title": "Vận tốc luồng và phân bổ luồng",
+      "heading": "2.3 Vận tốc luồng và phân bổ luồng",
+      "file": "chapters/02-03-vận-tốc-luồng-và-phân-bổ-luồng.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-thời-gian-luồng-và-tải-luồng",
+      "title": "Thời gian luồng và tải luồng",
+      "heading": "2.4 Thời gian luồng và tải luồng",
+      "file": "chapters/02-04-thời-gian-luồng-và-tải-luồng.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-hiệu-suất-luồng-và-công-việc-đang-thực-hiện",
+      "title": "Hiệu suất luồng và công việc đang thực hiện",
+      "heading": "2.5 Hiệu suất luồng và công việc đang thực hiện",
+      "file": "chapters/02-05-hiệu-suất-luồng-và-công-việc-đang-thực-hiện.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-thời-gian-chu-kỳ-và-các-thành-phần-của-nó",
+      "title": "Thời gian chu kỳ và các thành phần của nó",
+      "heading": "2.6 Thời gian chu kỳ và các thành phần của nó",
+      "file": "chapters/02-06-thời-gian-chu-kỳ-và-các-thành-phần-của-nó.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-lý-thuyết-hàng-đợi",
+      "title": "Lý thuyết hàng đợi",
+      "heading": "2.7 Lý thuyết hàng đợi",
+      "file": "chapters/02-07-lý-thuyết-hàng-đợi.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-chỉ-số-chuỗi-giá-trị-lean",
+      "title": "Chỉ số chuỗi giá trị Lean",
+      "heading": "2.8 Chỉ số chuỗi giá trị Lean",
+      "file": "chapters/02-08-chỉ-số-chuỗi-giá-trị-lean.md"
+    },
+    "2.9": {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-chỉ-số-pull-request-và-đánh-giá-mã",
+      "title": "Chỉ số pull request và đánh giá mã",
+      "heading": "2.9 Chỉ số pull request và đánh giá mã",
+      "file": "chapters/02-09-chỉ-số-pull-request-và-đánh-giá-mã.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-khung-chỉ-số-dora",
+      "title": "Khung chỉ số DORA",
+      "heading": "2.10 Khung chỉ số DORA",
+      "file": "chapters/02-10-khung-chỉ-số-dora.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-trải-nghiệm-lập-trình-viên-và-space",
+      "title": "Giới thiệu Phần 3: Trải nghiệm lập trình viên và khung SPACE",
+      "heading": "3.0 Giới thiệu Phần 3: Trải nghiệm lập trình viên và khung SPACE",
+      "file": "chapters/03-00-trải-nghiệm-lập-trình-viên-và-space.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-khung-space",
+      "title": "Khung SPACE",
+      "heading": "3.1 Khung SPACE",
+      "file": "chapters/03-01-khung-space.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-chỉ-số-hài-lòng-và-sức-khỏe-tinh-thần",
+      "title": "Chỉ số hài lòng và sức khỏe tinh thần",
+      "heading": "3.2 Chỉ số hài lòng và sức khỏe tinh thần",
+      "file": "chapters/03-02-chỉ-số-hài-lòng-và-sức-khỏe-tinh-thần.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-chỉ-số-hiệu-suất-và-đại-diện-kết-quả",
+      "title": "Chỉ số hiệu suất và đại diện kết quả",
+      "heading": "3.3 Chỉ số hiệu suất và đại diện kết quả",
+      "file": "chapters/03-03-chỉ-số-hiệu-suất-và-đại-diện-kết-quả.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-chỉ-số-hoạt-động-và-giới-hạn-của-chúng",
+      "title": "Chỉ số hoạt động và giới hạn của chúng",
+      "heading": "3.4 Chỉ số hoạt động và giới hạn của chúng",
+      "file": "chapters/03-04-chỉ-số-hoạt-động-và-giới-hạn-của-chúng.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-chỉ-số-giao-tiếp-và-cộng-tác",
+      "title": "Chỉ số giao tiếp và cộng tác",
+      "heading": "3.5 Chỉ số giao tiếp và cộng tác",
+      "file": "chapters/03-05-chỉ-số-giao-tiếp-và-cộng-tác.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-hiệu-quả-và-luồng",
+      "title": "Hiệu quả và luồng: làm việc sâu và gián đoạn",
+      "heading": "3.6 Hiệu quả và luồng: làm việc sâu và gián đoạn",
+      "file": "chapters/03-06-hiệu-quả-và-luồng.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-khảo-sát-trải-nghiệm-lập-trình-viên-và-chỉ-số-devex",
+      "title": "Khảo sát trải nghiệm lập trình viên và chỉ số DevEx",
+      "heading": "3.7 Khảo sát trải nghiệm lập trình viên và chỉ số DevEx",
+      "file": "chapters/03-07-khảo-sát-trải-nghiệm-lập-trình-viên-và-chỉ-số-devex.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-chỉ-số-mã-và-chất-lượng",
+      "title": "Giới thiệu Phần 4: Chỉ số mã và chất lượng",
+      "heading": "4.0 Giới thiệu Phần 4: Chỉ số mã và chất lượng",
+      "file": "chapters/04-00-chỉ-số-mã-và-chất-lượng.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-chỉ-số-độ-phức-tạp-của-mã",
+      "title": "Chỉ số độ phức tạp của mã",
+      "heading": "4.1 Chỉ số độ phức tạp của mã",
+      "file": "chapters/04-01-chỉ-số-độ-phức-tạp-của-mã.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-độ-bao-phủ-kiểm-thử-và-hiệu-quả-kiểm-thử",
+      "title": "Độ bao phủ kiểm thử và hiệu quả kiểm thử",
+      "heading": "4.2 Độ bao phủ kiểm thử và hiệu quả kiểm thử",
+      "file": "chapters/04-02-độ-bao-phủ-kiểm-thử-và-hiệu-quả-kiểm-thử.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-mức-thay-đổi-mã-và-phân-tích-điểm-nóng",
+      "title": "Mức thay đổi mã và phân tích điểm nóng",
+      "heading": "4.3 Mức thay đổi mã và phân tích điểm nóng",
+      "file": "chapters/04-03-mức-thay-đổi-mã-và-phân-tích-điểm-nóng.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-phân-tích-tĩnh-và-chỉ-số-code-smell",
+      "title": "Phân tích tĩnh và chỉ số code smell",
+      "heading": "4.4 Phân tích tĩnh và chỉ số code smell",
+      "file": "chapters/04-04-phân-tích-tĩnh-và-chỉ-số-code-smell.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-đo-lường-nợ-kỹ-thuật",
+      "title": "Đo lường nợ kỹ thuật",
+      "heading": "4.5 Đo lường nợ kỹ thuật",
+      "file": "chapters/04-05-đo-lường-nợ-kỹ-thuật.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-chỉ-số-tài-liệu-và-tri-thức",
+      "title": "Chỉ số tài liệu và tri thức",
+      "heading": "4.6 Chỉ số tài liệu và tri thức",
+      "file": "chapters/04-06-chỉ-số-tài-liệu-và-tri-thức.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-chỉ-số-sản-phẩm-và-kinh-doanh",
+      "title": "Giới thiệu Phần 5: Chỉ số sản phẩm và kinh doanh",
+      "heading": "5.0 Giới thiệu Phần 5: Chỉ số sản phẩm và kinh doanh",
+      "file": "chapters/05-00-chỉ-số-sản-phẩm-và-kinh-doanh.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-tỷ-lệ-lỗi-lọt-và-lỗi-chất-lượng-thoát",
+      "title": "Tỷ lệ lỗi lọt và lỗi chất lượng thoát",
+      "heading": "5.1 Tỷ lệ lỗi lọt và lỗi chất lượng thoát",
+      "file": "chapters/05-01-tỷ-lệ-lỗi-lọt-và-lỗi-chất-lượng-thoát.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-chỉ-số-áp-dụng-và-sử-dụng-tính-năng",
+      "title": "Chỉ số áp dụng và sử dụng tính năng",
+      "heading": "5.2 Chỉ số áp dụng và sử dụng tính năng",
+      "file": "chapters/05-02-chỉ-số-áp-dụng-và-sử-dụng-tính-năng.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-chỉ-số-kết-quả-khách-hàng-và-kinh-doanh",
+      "title": "Chỉ số kết quả khách hàng và kinh doanh",
+      "heading": "5.3 Chỉ số kết quả khách hàng và kinh doanh",
+      "file": "chapters/05-03-chỉ-số-kết-quả-khách-hàng-và-kinh-doanh.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-chi-phí-và-kinh-tế-đơn-vị-của-kỹ-thuật",
+      "title": "Chi phí và kinh tế đơn vị của kỹ thuật",
+      "heading": "5.4 Chi phí và kinh tế đơn vị của kỹ thuật",
+      "file": "chapters/05-04-chi-phí-và-kinh-tế-đơn-vị-của-kỹ-thuật.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-lợi-tức-đầu-tư-cho-các-sáng-kiến-kỹ-thuật",
+      "title": "Lợi tức đầu tư cho các sáng kiến kỹ thuật",
+      "heading": "5.5 Lợi tức đầu tư cho các sáng kiến kỹ thuật",
+      "file": "chapters/05-05-lợi-tức-đầu-tư-cho-các-sáng-kiến-kỹ-thuật.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-chỉ-số-độ-tin-cậy-vận-hành-và-bảo-mật",
+      "title": "Giới thiệu Phần 6: Chỉ số độ tin cậy, vận hành và bảo mật",
+      "heading": "6.0 Giới thiệu Phần 6: Chỉ số độ tin cậy, vận hành và bảo mật",
+      "file": "chapters/06-00-chỉ-số-độ-tin-cậy-vận-hành-và-bảo-mật.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-sli-slo-và-ngân-sách-lỗi",
+      "title": "Chỉ báo mức dịch vụ, mục tiêu mức dịch vụ và ngân sách lỗi",
+      "heading": "6.1 Chỉ báo mức dịch vụ, mục tiêu mức dịch vụ và ngân sách lỗi",
+      "file": "chapters/06-01-sli-slo-và-ngân-sách-lỗi.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-chỉ-số-sự-cố",
+      "title": "Chỉ số sự cố: phát hiện, ứng phó và khôi phục",
+      "heading": "6.2 Chỉ số sự cố: phát hiện, ứng phó và khôi phục",
+      "file": "chapters/06-02-chỉ-số-sự-cố.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-chỉ-số-trực-ca-năng-lực-và-tải-vận-hành",
+      "title": "Chỉ số trực ca, năng lực và tải vận hành",
+      "heading": "6.3 Chỉ số trực ca, năng lực và tải vận hành",
+      "file": "chapters/06-03-chỉ-số-trực-ca-năng-lực-và-tải-vận-hành.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-chỉ-số-bảo-mật-và-quản-lý-lỗ-hổng",
+      "title": "Chỉ số bảo mật và quản lý lỗ hổng",
+      "heading": "6.4 Chỉ số bảo mật và quản lý lỗ hổng",
+      "file": "chapters/06-04-chỉ-số-bảo-mật-và-quản-lý-lỗ-hổng.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-chỉ-số-trong-kỷ-nguyên-ai",
+      "title": "Giới thiệu Phần 7: Chỉ số trong kỷ nguyên AI",
+      "heading": "7.0 Giới thiệu Phần 7: Chỉ số trong kỷ nguyên AI",
+      "file": "chapters/07-00-chỉ-số-trong-kỷ-nguyên-ai.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-sự-chuyển-dịch-mô-hình-của-ai-sinh-tạo",
+      "title": "Sự chuyển dịch mô hình của AI sinh tạo",
+      "heading": "7.1 Sự chuyển dịch mô hình của AI sinh tạo",
+      "file": "chapters/07-01-sự-chuyển-dịch-mô-hình-của-ai-sinh-tạo.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-đo-lường-phát-triển-phần-mềm-có-ai-hỗ-trợ",
+      "title": "Đo lường phát triển phần mềm có AI hỗ trợ",
+      "heading": "7.2 Đo lường phát triển phần mềm có AI hỗ trợ",
+      "file": "chapters/07-02-đo-lường-phát-triển-phần-mềm-có-ai-hỗ-trợ.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-rủi-ro-thổi-phồng-chỉ-số-và-pha-loãng-chất-lượng",
+      "title": "Rủi ro thổi phồng chỉ số và pha loãng chất lượng",
+      "heading": "7.3 Rủi ro thổi phồng chỉ số và pha loãng chất lượng",
+      "file": "chapters/07-03-rủi-ro-thổi-phồng-chỉ-số-và-pha-loãng-chất-lượng.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-dữ-liệu-viễn-trắc-kết-quả-như-kim-chỉ-nam-mới",
+      "title": "Dữ liệu viễn trắc kết quả như kim chỉ nam mới",
+      "heading": "7.4 Dữ liệu viễn trắc kết quả như kim chỉ nam mới",
+      "file": "chapters/07-04-dữ-liệu-viễn-trắc-kết-quả-như-kim-chỉ-nam-mới.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-xây-dựng-chương-trình-chỉ-số",
+      "title": "Giới thiệu Phần 8: Xây dựng chương trình chỉ số",
+      "heading": "8.0 Giới thiệu Phần 8: Xây dựng chương trình chỉ số",
+      "file": "chapters/08-00-xây-dựng-chương-trình-chỉ-số.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-thiết-kế-bảng-điều-khiển-chỉ-số-kỹ-thuật",
+      "title": "Thiết kế bảng điều khiển chỉ số kỹ thuật",
+      "heading": "8.1 Thiết kế bảng điều khiển chỉ số kỹ thuật",
+      "file": "chapters/08-01-thiết-kế-bảng-điều-khiển-chỉ-số-kỹ-thuật.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-bức-tranh-công-cụ-tự-xây-hay-mua",
+      "title": "Bức tranh công cụ: tự xây hay mua",
+      "heading": "8.2 Bức tranh công cụ: tự xây hay mua",
+      "file": "chapters/08-02-bức-tranh-công-cụ-tự-xây-hay-mua.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-triển-khai-chỉ-số-mà-không-gây-nỗi-sợ",
+      "title": "Triển khai chỉ số mà không gây nỗi sợ",
+      "heading": "8.3 Triển khai chỉ số mà không gây nỗi sợ",
+      "file": "chapters/08-03-triển-khai-chỉ-số-mà-không-gây-nỗi-sợ.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-mô-hình-trưởng-thành-cho-chương-trình-chỉ-số-kỹ-thuật",
+      "title": "Mô hình trưởng thành cho các chương trình chỉ số kỹ thuật",
+      "heading": "8.4 Mô hình trưởng thành cho các chương trình chỉ số kỹ thuật",
+      "file": "chapters/08-04-mô-hình-trưởng-thành-cho-chương-trình-chỉ-số-kỹ-thuật.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-lộ-trình-áp-dụng-từng-bước",
+      "title": "Lộ trình áp dụng từng bước",
+      "heading": "8.5 Lộ trình áp dụng từng bước",
+      "file": "chapters/08-05-lộ-trình-áp-dụng-từng-bước.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-phụ-lục",
+      "title": "Phụ lục",
+      "heading": "9.0 Phụ lục",
+      "file": "chapters/09-00-phụ-lục.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-bảng-thuật-ngữ",
+      "title": "Bảng thuật ngữ",
+      "heading": "9.1 Bảng thuật ngữ",
+      "file": "chapters/09-01-bảng-thuật-ngữ.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-tham-chiếu-định-nghĩa-chỉ-số-và-công-thức",
+      "title": "Tham chiếu định nghĩa chỉ số và công thức",
+      "heading": "9.2 Tham chiếu định nghĩa chỉ số và công thức",
+      "file": "chapters/09-02-tham-chiếu-định-nghĩa-chỉ-số-và-công-thức.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-danh-sách-kiểm-tra",
+      "title": "Danh sách kiểm tra",
+      "heading": "9.3 Danh sách kiểm tra",
+      "file": "chapters/09-03-danh-sách-kiểm-tra.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-mẫu",
+      "title": "Mẫu",
+      "heading": "9.4 Mẫu",
+      "file": "chapters/09-04-mẫu.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-tự-đánh-giá-mức-trưởng-thành",
+      "title": "Tự đánh giá mức trưởng thành",
+      "heading": "9.5 Tự đánh giá mức trưởng thành",
+      "file": "chapters/09-05-tự-đánh-giá-mức-trưởng-thành.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-tài-liệu-tham-khảo-và-đọc-thêm",
+      "title": "Tài liệu tham khảo và đọc thêm",
+      "heading": "9.6 Tài liệu tham khảo và đọc thêm",
+      "file": "chapters/09-06-tài-liệu-tham-khảo-và-đọc-thêm.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-chỉ-mục",
+      "title": "Chỉ mục",
+      "heading": "9.7 Chỉ mục",
+      "file": "chapters/09-07-chỉ-mục.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "Giới thiệu",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "Mục lục",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "Chỉ số kỹ thuật phần mềm là gì?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "Ví dụ: đặc tả bảng điều khiển cho bảng điều khiển chỉ số phân phối",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "Ví dụ: hiến chương chỉ số cho đội nền tảng thanh toán",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "Biên soạn: viết và sửa chủ đề",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "Mẫu chủ đề (dùng chung)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "Điều hướng: các tệp được sinh ra hoạt động như thế nào",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "Chỉ mục các phần (tham chiếu dùng chung)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "Quy tắc văn phong (dùng chung, có thể thực thi)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "Kiểm thử: bộ xác thực",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "Nhật ký thay đổi",
+      "file": "project/changelog.md"
+    }
+  ],
+  "totals": {
+    "parts": 9,
+    "chapters": 63
+  }
+}

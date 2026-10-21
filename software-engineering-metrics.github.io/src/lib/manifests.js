@@ -32,6 +32,8 @@ import svSe from './manifest/sv-se.json';
 import sw001 from './manifest/sw-001.json';
 import swTz from './manifest/sw-tz.json';
 import ur001 from './manifest/ur-001.json';
+import vi001 from './manifest/vi-001.json';
+import viVn from './manifest/vi-vn.json';
 import zh001 from './manifest/zh-001.json';
 import zhCn from './manifest/zh-cn.json';
 import itIt from './manifest/it-it.json';
@@ -100,6 +102,8 @@ const MANIFESTS = {
   'sw-001': sw001,
   'sw-tz': swTz,
   'ur-001': ur001,
+  'vi-001': vi001,
+  'vi-vn': viVn,
   'zh-001': zh001,
   'zh-cn': zhCn,
   'it-it': itIt,

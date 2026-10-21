@@ -337,7 +337,7 @@
   },
   {
    "code": "en-gb-oxendict",
-   "label": "English (UK, Oxford spelling)",
+   "label": "English (Great Britain, Oxford)",
    "home": "https://software-engineering-metrics.github.io/en-gb-oxendict/",
    "topics": [
     {
@@ -659,7 +659,7 @@
   },
   {
    "code": "en-gb",
-   "label": "English (UK)",
+   "label": "English (Great Britain)",
    "home": "https://software-engineering-metrics.github.io/en-gb/",
    "topics": [
     {
@@ -9992,6 +9992,650 @@
      "number": "9.7",
      "title": "اشاریہ",
      "url": "https://software-engineering-metrics.github.io/ur-001/chapters/09-07-اشاریہ/"
+    }
+   ]
+  },
+  {
+   "code": "vi-001",
+   "label": "Tiếng Việt",
+   "home": "https://software-engineering-metrics.github.io/vi-001/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "Giới thiệu Phần 1: Nền tảng của đo lường",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/01-00-nền-tảng-của-đo-lường/"
+    },
+    {
+     "number": "1.1",
+     "title": "Vì sao đo lường kỹ thuật phần mềm",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/01-01-vì-sao-đo-lường-kỹ-thuật-phần-mềm/"
+    },
+    {
+     "number": "1.2",
+     "title": "Định luật Goodhart và tâm lý học của chỉ số",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/01-02-định-luật-goodhart-và-tâm-lý-học-của-chỉ-số/"
+    },
+    {
+     "number": "1.3",
+     "title": "Kết quả thay vì đầu ra: chọn đo lường điều gì",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/01-03-kết-quả-thay-vì-đầu-ra-chọn-đo-lường-điều-gì/"
+    },
+    {
+     "number": "1.4",
+     "title": "Quản trị và quyền sở hữu chỉ số",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/01-04-quản-trị-và-quyền-sở-hữu-chỉ-số/"
+    },
+    {
+     "number": "1.5",
+     "title": "Nguồn dữ liệu và công cụ đo đạc",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/01-05-nguồn-dữ-liệu-và-công-cụ-đo-đạc/"
+    },
+    {
+     "number": "1.6",
+     "title": "Hiểu biết thống kê cho chỉ số kỹ thuật",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/01-06-hiểu-biết-thống-kê-cho-chỉ-số-kỹ-thuật/"
+    },
+    {
+     "number": "2.0",
+     "title": "Giới thiệu Phần 2: Chỉ số luồng",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/02-00-chỉ-số-luồng/"
+    },
+    {
+     "number": "2.1",
+     "title": "Flow Framework",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/02-01-flow-framework/"
+    },
+    {
+     "number": "2.2",
+     "title": "Mục luồng: tính năng, lỗi, rủi ro và nợ",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/02-02-mục-luồng/"
+    },
+    {
+     "number": "2.3",
+     "title": "Vận tốc luồng và phân bổ luồng",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/02-03-vận-tốc-luồng-và-phân-bổ-luồng/"
+    },
+    {
+     "number": "2.4",
+     "title": "Thời gian luồng và tải luồng",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/02-04-thời-gian-luồng-và-tải-luồng/"
+    },
+    {
+     "number": "2.5",
+     "title": "Hiệu suất luồng và công việc đang thực hiện",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/02-05-hiệu-suất-luồng-và-công-việc-đang-thực-hiện/"
+    },
+    {
+     "number": "2.6",
+     "title": "Thời gian chu kỳ và các thành phần của nó",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/02-06-thời-gian-chu-kỳ-và-các-thành-phần-của-nó/"
+    },
+    {
+     "number": "2.7",
+     "title": "Lý thuyết hàng đợi",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/02-07-lý-thuyết-hàng-đợi/"
+    },
+    {
+     "number": "2.8",
+     "title": "Chỉ số chuỗi giá trị Lean",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/02-08-chỉ-số-chuỗi-giá-trị-lean/"
+    },
+    {
+     "number": "2.9",
+     "title": "Chỉ số pull request và đánh giá mã",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/02-09-chỉ-số-pull-request-và-đánh-giá-mã/"
+    },
+    {
+     "number": "2.10",
+     "title": "Khung chỉ số DORA",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/02-10-khung-chỉ-số-dora/"
+    },
+    {
+     "number": "3.0",
+     "title": "Giới thiệu Phần 3: Trải nghiệm lập trình viên và khung SPACE",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/03-00-trải-nghiệm-lập-trình-viên-và-space/"
+    },
+    {
+     "number": "3.1",
+     "title": "Khung SPACE",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/03-01-khung-space/"
+    },
+    {
+     "number": "3.2",
+     "title": "Chỉ số hài lòng và sức khỏe tinh thần",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/03-02-chỉ-số-hài-lòng-và-sức-khỏe-tinh-thần/"
+    },
+    {
+     "number": "3.3",
+     "title": "Chỉ số hiệu suất và đại diện kết quả",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/03-03-chỉ-số-hiệu-suất-và-đại-diện-kết-quả/"
+    },
+    {
+     "number": "3.4",
+     "title": "Chỉ số hoạt động và giới hạn của chúng",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/03-04-chỉ-số-hoạt-động-và-giới-hạn-của-chúng/"
+    },
+    {
+     "number": "3.5",
+     "title": "Chỉ số giao tiếp và cộng tác",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/03-05-chỉ-số-giao-tiếp-và-cộng-tác/"
+    },
+    {
+     "number": "3.6",
+     "title": "Hiệu quả và luồng: làm việc sâu và gián đoạn",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/03-06-hiệu-quả-và-luồng/"
+    },
+    {
+     "number": "3.7",
+     "title": "Khảo sát trải nghiệm lập trình viên và chỉ số DevEx",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/03-07-khảo-sát-trải-nghiệm-lập-trình-viên-và-chỉ-số-devex/"
+    },
+    {
+     "number": "4.0",
+     "title": "Giới thiệu Phần 4: Chỉ số mã và chất lượng",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/04-00-chỉ-số-mã-và-chất-lượng/"
+    },
+    {
+     "number": "4.1",
+     "title": "Chỉ số độ phức tạp của mã",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/04-01-chỉ-số-độ-phức-tạp-của-mã/"
+    },
+    {
+     "number": "4.2",
+     "title": "Độ bao phủ kiểm thử và hiệu quả kiểm thử",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/04-02-độ-bao-phủ-kiểm-thử-và-hiệu-quả-kiểm-thử/"
+    },
+    {
+     "number": "4.3",
+     "title": "Mức thay đổi mã và phân tích điểm nóng",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/04-03-mức-thay-đổi-mã-và-phân-tích-điểm-nóng/"
+    },
+    {
+     "number": "4.4",
+     "title": "Phân tích tĩnh và chỉ số code smell",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/04-04-phân-tích-tĩnh-và-chỉ-số-code-smell/"
+    },
+    {
+     "number": "4.5",
+     "title": "Đo lường nợ kỹ thuật",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/04-05-đo-lường-nợ-kỹ-thuật/"
+    },
+    {
+     "number": "4.6",
+     "title": "Chỉ số tài liệu và tri thức",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/04-06-chỉ-số-tài-liệu-và-tri-thức/"
+    },
+    {
+     "number": "5.0",
+     "title": "Giới thiệu Phần 5: Chỉ số sản phẩm và kinh doanh",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/05-00-chỉ-số-sản-phẩm-và-kinh-doanh/"
+    },
+    {
+     "number": "5.1",
+     "title": "Tỷ lệ lỗi lọt và lỗi chất lượng thoát",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/05-01-tỷ-lệ-lỗi-lọt-và-lỗi-chất-lượng-thoát/"
+    },
+    {
+     "number": "5.2",
+     "title": "Chỉ số áp dụng và sử dụng tính năng",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/05-02-chỉ-số-áp-dụng-và-sử-dụng-tính-năng/"
+    },
+    {
+     "number": "5.3",
+     "title": "Chỉ số kết quả khách hàng và kinh doanh",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/05-03-chỉ-số-kết-quả-khách-hàng-và-kinh-doanh/"
+    },
+    {
+     "number": "5.4",
+     "title": "Chi phí và kinh tế đơn vị của kỹ thuật",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/05-04-chi-phí-và-kinh-tế-đơn-vị-của-kỹ-thuật/"
+    },
+    {
+     "number": "5.5",
+     "title": "Lợi tức đầu tư cho các sáng kiến kỹ thuật",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/05-05-lợi-tức-đầu-tư-cho-các-sáng-kiến-kỹ-thuật/"
+    },
+    {
+     "number": "6.0",
+     "title": "Giới thiệu Phần 6: Chỉ số độ tin cậy, vận hành và bảo mật",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/06-00-chỉ-số-độ-tin-cậy-vận-hành-và-bảo-mật/"
+    },
+    {
+     "number": "6.1",
+     "title": "Chỉ báo mức dịch vụ, mục tiêu mức dịch vụ và ngân sách lỗi",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/06-01-sli-slo-và-ngân-sách-lỗi/"
+    },
+    {
+     "number": "6.2",
+     "title": "Chỉ số sự cố: phát hiện, ứng phó và khôi phục",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/06-02-chỉ-số-sự-cố/"
+    },
+    {
+     "number": "6.3",
+     "title": "Chỉ số trực ca, năng lực và tải vận hành",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/06-03-chỉ-số-trực-ca-năng-lực-và-tải-vận-hành/"
+    },
+    {
+     "number": "6.4",
+     "title": "Chỉ số bảo mật và quản lý lỗ hổng",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/06-04-chỉ-số-bảo-mật-và-quản-lý-lỗ-hổng/"
+    },
+    {
+     "number": "7.0",
+     "title": "Giới thiệu Phần 7: Chỉ số trong kỷ nguyên AI",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/07-00-chỉ-số-trong-kỷ-nguyên-ai/"
+    },
+    {
+     "number": "7.1",
+     "title": "Sự chuyển dịch mô hình của AI sinh tạo",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/07-01-sự-chuyển-dịch-mô-hình-của-ai-sinh-tạo/"
+    },
+    {
+     "number": "7.2",
+     "title": "Đo lường phát triển phần mềm có AI hỗ trợ",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/07-02-đo-lường-phát-triển-phần-mềm-có-ai-hỗ-trợ/"
+    },
+    {
+     "number": "7.3",
+     "title": "Rủi ro thổi phồng chỉ số và pha loãng chất lượng",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/07-03-rủi-ro-thổi-phồng-chỉ-số-và-pha-loãng-chất-lượng/"
+    },
+    {
+     "number": "7.4",
+     "title": "Dữ liệu viễn trắc kết quả như kim chỉ nam mới",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/07-04-dữ-liệu-viễn-trắc-kết-quả-như-kim-chỉ-nam-mới/"
+    },
+    {
+     "number": "8.0",
+     "title": "Giới thiệu Phần 8: Xây dựng chương trình chỉ số",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/08-00-xây-dựng-chương-trình-chỉ-số/"
+    },
+    {
+     "number": "8.1",
+     "title": "Thiết kế bảng điều khiển chỉ số kỹ thuật",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/08-01-thiết-kế-bảng-điều-khiển-chỉ-số-kỹ-thuật/"
+    },
+    {
+     "number": "8.2",
+     "title": "Bức tranh công cụ: tự xây hay mua",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/08-02-bức-tranh-công-cụ-tự-xây-hay-mua/"
+    },
+    {
+     "number": "8.3",
+     "title": "Triển khai chỉ số mà không gây nỗi sợ",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/08-03-triển-khai-chỉ-số-mà-không-gây-nỗi-sợ/"
+    },
+    {
+     "number": "8.4",
+     "title": "Mô hình trưởng thành cho các chương trình chỉ số kỹ thuật",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/08-04-mô-hình-trưởng-thành-cho-chương-trình-chỉ-số-kỹ-thuật/"
+    },
+    {
+     "number": "8.5",
+     "title": "Lộ trình áp dụng từng bước",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/08-05-lộ-trình-áp-dụng-từng-bước/"
+    },
+    {
+     "number": "9.0",
+     "title": "Phụ lục",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/09-00-phụ-lục/"
+    },
+    {
+     "number": "9.1",
+     "title": "Bảng thuật ngữ",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/09-01-bảng-thuật-ngữ/"
+    },
+    {
+     "number": "9.2",
+     "title": "Tham chiếu định nghĩa chỉ số và công thức",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/09-02-tham-chiếu-định-nghĩa-chỉ-số-và-công-thức/"
+    },
+    {
+     "number": "9.3",
+     "title": "Danh sách kiểm tra",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/09-03-danh-sách-kiểm-tra/"
+    },
+    {
+     "number": "9.4",
+     "title": "Mẫu",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/09-04-mẫu/"
+    },
+    {
+     "number": "9.5",
+     "title": "Tự đánh giá mức trưởng thành",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/09-05-tự-đánh-giá-mức-trưởng-thành/"
+    },
+    {
+     "number": "9.6",
+     "title": "Tài liệu tham khảo và đọc thêm",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/09-06-tài-liệu-tham-khảo-và-đọc-thêm/"
+    },
+    {
+     "number": "9.7",
+     "title": "Chỉ mục",
+     "url": "https://software-engineering-metrics.github.io/vi-001/chapters/09-07-chỉ-mục/"
+    }
+   ]
+  },
+  {
+   "code": "vi-vn",
+   "label": "Tiếng Việt (Việt Nam)",
+   "home": "https://software-engineering-metrics.github.io/vi-vn/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "Giới thiệu Phần 1: Nền tảng của đo lường",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/01-00-nền-tảng-của-đo-lường/"
+    },
+    {
+     "number": "1.1",
+     "title": "Vì sao đo lường kỹ thuật phần mềm",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/01-01-vì-sao-đo-lường-kỹ-thuật-phần-mềm/"
+    },
+    {
+     "number": "1.2",
+     "title": "Định luật Goodhart và tâm lý học của chỉ số",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/01-02-định-luật-goodhart-và-tâm-lý-học-của-chỉ-số/"
+    },
+    {
+     "number": "1.3",
+     "title": "Kết quả thay vì đầu ra: chọn đo lường điều gì",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/01-03-kết-quả-thay-vì-đầu-ra-chọn-đo-lường-điều-gì/"
+    },
+    {
+     "number": "1.4",
+     "title": "Quản trị và quyền sở hữu chỉ số",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/01-04-quản-trị-và-quyền-sở-hữu-chỉ-số/"
+    },
+    {
+     "number": "1.5",
+     "title": "Nguồn dữ liệu và công cụ đo đạc",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/01-05-nguồn-dữ-liệu-và-công-cụ-đo-đạc/"
+    },
+    {
+     "number": "1.6",
+     "title": "Hiểu biết thống kê cho chỉ số kỹ thuật",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/01-06-hiểu-biết-thống-kê-cho-chỉ-số-kỹ-thuật/"
+    },
+    {
+     "number": "2.0",
+     "title": "Giới thiệu Phần 2: Chỉ số luồng",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/02-00-chỉ-số-luồng/"
+    },
+    {
+     "number": "2.1",
+     "title": "Flow Framework",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/02-01-flow-framework/"
+    },
+    {
+     "number": "2.2",
+     "title": "Mục luồng: tính năng, lỗi, rủi ro và nợ",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/02-02-mục-luồng/"
+    },
+    {
+     "number": "2.3",
+     "title": "Vận tốc luồng và phân bổ luồng",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/02-03-vận-tốc-luồng-và-phân-bổ-luồng/"
+    },
+    {
+     "number": "2.4",
+     "title": "Thời gian luồng và tải luồng",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/02-04-thời-gian-luồng-và-tải-luồng/"
+    },
+    {
+     "number": "2.5",
+     "title": "Hiệu suất luồng và công việc đang thực hiện",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/02-05-hiệu-suất-luồng-và-công-việc-đang-thực-hiện/"
+    },
+    {
+     "number": "2.6",
+     "title": "Thời gian chu kỳ và các thành phần của nó",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/02-06-thời-gian-chu-kỳ-và-các-thành-phần-của-nó/"
+    },
+    {
+     "number": "2.7",
+     "title": "Lý thuyết hàng đợi",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/02-07-lý-thuyết-hàng-đợi/"
+    },
+    {
+     "number": "2.8",
+     "title": "Chỉ số chuỗi giá trị Lean",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/02-08-chỉ-số-chuỗi-giá-trị-lean/"
+    },
+    {
+     "number": "2.9",
+     "title": "Chỉ số pull request và đánh giá mã",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/02-09-chỉ-số-pull-request-và-đánh-giá-mã/"
+    },
+    {
+     "number": "2.10",
+     "title": "Khung chỉ số DORA",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/02-10-khung-chỉ-số-dora/"
+    },
+    {
+     "number": "3.0",
+     "title": "Giới thiệu Phần 3: Trải nghiệm lập trình viên và khung SPACE",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/03-00-trải-nghiệm-lập-trình-viên-và-space/"
+    },
+    {
+     "number": "3.1",
+     "title": "Khung SPACE",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/03-01-khung-space/"
+    },
+    {
+     "number": "3.2",
+     "title": "Chỉ số hài lòng và sức khỏe tinh thần",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/03-02-chỉ-số-hài-lòng-và-sức-khỏe-tinh-thần/"
+    },
+    {
+     "number": "3.3",
+     "title": "Chỉ số hiệu suất và đại diện kết quả",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/03-03-chỉ-số-hiệu-suất-và-đại-diện-kết-quả/"
+    },
+    {
+     "number": "3.4",
+     "title": "Chỉ số hoạt động và giới hạn của chúng",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/03-04-chỉ-số-hoạt-động-và-giới-hạn-của-chúng/"
+    },
+    {
+     "number": "3.5",
+     "title": "Chỉ số giao tiếp và cộng tác",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/03-05-chỉ-số-giao-tiếp-và-cộng-tác/"
+    },
+    {
+     "number": "3.6",
+     "title": "Hiệu quả và luồng: làm việc sâu và gián đoạn",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/03-06-hiệu-quả-và-luồng/"
+    },
+    {
+     "number": "3.7",
+     "title": "Khảo sát trải nghiệm lập trình viên và chỉ số DevEx",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/03-07-khảo-sát-trải-nghiệm-lập-trình-viên-và-chỉ-số-devex/"
+    },
+    {
+     "number": "4.0",
+     "title": "Giới thiệu Phần 4: Chỉ số mã và chất lượng",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/04-00-chỉ-số-mã-và-chất-lượng/"
+    },
+    {
+     "number": "4.1",
+     "title": "Chỉ số độ phức tạp của mã",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/04-01-chỉ-số-độ-phức-tạp-của-mã/"
+    },
+    {
+     "number": "4.2",
+     "title": "Độ bao phủ kiểm thử và hiệu quả kiểm thử",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/04-02-độ-bao-phủ-kiểm-thử-và-hiệu-quả-kiểm-thử/"
+    },
+    {
+     "number": "4.3",
+     "title": "Mức thay đổi mã và phân tích điểm nóng",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/04-03-mức-thay-đổi-mã-và-phân-tích-điểm-nóng/"
+    },
+    {
+     "number": "4.4",
+     "title": "Phân tích tĩnh và chỉ số code smell",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/04-04-phân-tích-tĩnh-và-chỉ-số-code-smell/"
+    },
+    {
+     "number": "4.5",
+     "title": "Đo lường nợ kỹ thuật",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/04-05-đo-lường-nợ-kỹ-thuật/"
+    },
+    {
+     "number": "4.6",
+     "title": "Chỉ số tài liệu và tri thức",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/04-06-chỉ-số-tài-liệu-và-tri-thức/"
+    },
+    {
+     "number": "5.0",
+     "title": "Giới thiệu Phần 5: Chỉ số sản phẩm và kinh doanh",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/05-00-chỉ-số-sản-phẩm-và-kinh-doanh/"
+    },
+    {
+     "number": "5.1",
+     "title": "Tỷ lệ lỗi lọt và lỗi chất lượng thoát",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/05-01-tỷ-lệ-lỗi-lọt-và-lỗi-chất-lượng-thoát/"
+    },
+    {
+     "number": "5.2",
+     "title": "Chỉ số áp dụng và sử dụng tính năng",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/05-02-chỉ-số-áp-dụng-và-sử-dụng-tính-năng/"
+    },
+    {
+     "number": "5.3",
+     "title": "Chỉ số kết quả khách hàng và kinh doanh",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/05-03-chỉ-số-kết-quả-khách-hàng-và-kinh-doanh/"
+    },
+    {
+     "number": "5.4",
+     "title": "Chi phí và kinh tế đơn vị của kỹ thuật",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/05-04-chi-phí-và-kinh-tế-đơn-vị-của-kỹ-thuật/"
+    },
+    {
+     "number": "5.5",
+     "title": "Lợi tức đầu tư cho các sáng kiến kỹ thuật",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/05-05-lợi-tức-đầu-tư-cho-các-sáng-kiến-kỹ-thuật/"
+    },
+    {
+     "number": "6.0",
+     "title": "Giới thiệu Phần 6: Chỉ số độ tin cậy, vận hành và bảo mật",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/06-00-chỉ-số-độ-tin-cậy-vận-hành-và-bảo-mật/"
+    },
+    {
+     "number": "6.1",
+     "title": "Chỉ báo mức dịch vụ, mục tiêu mức dịch vụ và ngân sách lỗi",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/06-01-sli-slo-và-ngân-sách-lỗi/"
+    },
+    {
+     "number": "6.2",
+     "title": "Chỉ số sự cố: phát hiện, ứng phó và khôi phục",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/06-02-chỉ-số-sự-cố/"
+    },
+    {
+     "number": "6.3",
+     "title": "Chỉ số trực ca, năng lực và tải vận hành",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/06-03-chỉ-số-trực-ca-năng-lực-và-tải-vận-hành/"
+    },
+    {
+     "number": "6.4",
+     "title": "Chỉ số bảo mật và quản lý lỗ hổng",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/06-04-chỉ-số-bảo-mật-và-quản-lý-lỗ-hổng/"
+    },
+    {
+     "number": "7.0",
+     "title": "Giới thiệu Phần 7: Chỉ số trong kỷ nguyên AI",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/07-00-chỉ-số-trong-kỷ-nguyên-ai/"
+    },
+    {
+     "number": "7.1",
+     "title": "Sự chuyển dịch mô hình của AI sinh tạo",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/07-01-sự-chuyển-dịch-mô-hình-của-ai-sinh-tạo/"
+    },
+    {
+     "number": "7.2",
+     "title": "Đo lường phát triển phần mềm có AI hỗ trợ",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/07-02-đo-lường-phát-triển-phần-mềm-có-ai-hỗ-trợ/"
+    },
+    {
+     "number": "7.3",
+     "title": "Rủi ro thổi phồng chỉ số và pha loãng chất lượng",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/07-03-rủi-ro-thổi-phồng-chỉ-số-và-pha-loãng-chất-lượng/"
+    },
+    {
+     "number": "7.4",
+     "title": "Dữ liệu viễn trắc kết quả như kim chỉ nam mới",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/07-04-dữ-liệu-viễn-trắc-kết-quả-như-kim-chỉ-nam-mới/"
+    },
+    {
+     "number": "8.0",
+     "title": "Giới thiệu Phần 8: Xây dựng chương trình chỉ số",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/08-00-xây-dựng-chương-trình-chỉ-số/"
+    },
+    {
+     "number": "8.1",
+     "title": "Thiết kế bảng điều khiển chỉ số kỹ thuật",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/08-01-thiết-kế-bảng-điều-khiển-chỉ-số-kỹ-thuật/"
+    },
+    {
+     "number": "8.2",
+     "title": "Bức tranh công cụ: tự xây hay mua",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/08-02-bức-tranh-công-cụ-tự-xây-hay-mua/"
+    },
+    {
+     "number": "8.3",
+     "title": "Triển khai chỉ số mà không gây nỗi sợ",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/08-03-triển-khai-chỉ-số-mà-không-gây-nỗi-sợ/"
+    },
+    {
+     "number": "8.4",
+     "title": "Mô hình trưởng thành cho các chương trình chỉ số kỹ thuật",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/08-04-mô-hình-trưởng-thành-cho-chương-trình-chỉ-số-kỹ-thuật/"
+    },
+    {
+     "number": "8.5",
+     "title": "Lộ trình áp dụng từng bước",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/08-05-lộ-trình-áp-dụng-từng-bước/"
+    },
+    {
+     "number": "9.0",
+     "title": "Phụ lục",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/09-00-phụ-lục/"
+    },
+    {
+     "number": "9.1",
+     "title": "Bảng thuật ngữ",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/09-01-bảng-thuật-ngữ/"
+    },
+    {
+     "number": "9.2",
+     "title": "Tham chiếu định nghĩa chỉ số và công thức",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/09-02-tham-chiếu-định-nghĩa-chỉ-số-và-công-thức/"
+    },
+    {
+     "number": "9.3",
+     "title": "Danh sách kiểm tra",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/09-03-danh-sách-kiểm-tra/"
+    },
+    {
+     "number": "9.4",
+     "title": "Mẫu",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/09-04-mẫu/"
+    },
+    {
+     "number": "9.5",
+     "title": "Tự đánh giá mức trưởng thành",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/09-05-tự-đánh-giá-mức-trưởng-thành/"
+    },
+    {
+     "number": "9.6",
+     "title": "Tài liệu tham khảo và đọc thêm",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/09-06-tài-liệu-tham-khảo-và-đọc-thêm/"
+    },
+    {
+     "number": "9.7",
+     "title": "Chỉ mục",
+     "url": "https://software-engineering-metrics.github.io/vi-vn/chapters/09-07-chỉ-mục/"
     }
    ]
   },

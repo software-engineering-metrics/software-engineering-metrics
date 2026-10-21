@@ -7,6 +7,7 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Added Vietnamese (`vi-001`, an exact copy of `vi-vn`) as a complete translated locale: all 63 topics and every other section, with matching `.locale-peer-id` sidecars and its own `sitemap.xml`. `vi-001` and `vi-vn` are wired into the site and served at `/vi-001/` and `/vi-vn/`. This is an AI-generated draft that has not been reviewed by a fluent Vietnamese speaker.
 - Added Danish (`da-001`) as a complete translated locale: all 63 topics and every other section, with matching `.locale-peer-id` sidecars and its own `sitemap.xml`. `da-001` is wired into the site and served at `/da-001/`.
 - Added `id-id` and `it-it` as identical copies of `id-001` and `it-001`, wired into the site and served at `/id-id/` and `/it-it/`.
 - Site: `is-is`, `nl-nl` and `sv-se` are now wired in and served at `/is-is/`, `/nl-nl/` and `/sv-se/`, alongside their `-001` copies.

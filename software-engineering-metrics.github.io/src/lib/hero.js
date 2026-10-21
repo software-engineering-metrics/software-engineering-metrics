@@ -352,6 +352,24 @@ export const HERO = {
   "contents": "فہرست",
   "translations": "تراجم: "
  },
+ "vi-001": {
+  "headline": "Đo lường kỹ thuật phần mềm cho tốt.",
+  "tagline": "Miễn phí · mở · dựa trên đặc tả",
+  "intro": "Một cuốn sách thực hành về cách chọn các chỉ số phản ánh kết quả thật thay vì hoạt động: Flow Framework, khung SPACE, lý thuyết hàng đợi và các chỉ số DORA, chỉ số mã và chất lượng, kết quả sản phẩm và kinh doanh, độ tin cậy và bảo mật, và cách AI sinh tạo đang định hình lại ý nghĩa của những con số này.",
+  "start": "Bắt đầu đọc",
+  "examples": "Các ví dụ thực hành",
+  "contents": "Mục lục",
+  "translations": "Bản dịch: "
+ },
+ "vi-vn": {
+  "headline": "Đo lường kỹ thuật phần mềm cho tốt.",
+  "tagline": "Miễn phí · mở · dựa trên đặc tả",
+  "intro": "Một cuốn sách thực hành về cách chọn các chỉ số phản ánh kết quả thật thay vì hoạt động: Flow Framework, khung SPACE, lý thuyết hàng đợi và các chỉ số DORA, chỉ số mã và chất lượng, kết quả sản phẩm và kinh doanh, độ tin cậy và bảo mật, và cách AI sinh tạo đang định hình lại ý nghĩa của những con số này.",
+  "start": "Bắt đầu đọc",
+  "examples": "Các ví dụ thực hành",
+  "contents": "Mục lục",
+  "translations": "Bản dịch: "
+ },
  "zh-001": {
   "headline": "把软件工程度量好。",
   "tagline": "免费 · 开放 · 规范驱动",
@@ -430,6 +448,8 @@ export const ENDONYMS = {
  "sw-001": "Kiswahili",
  "sw-tz": "Kiswahili (Tanzania)",
  "ur-001": "اردو",
+ "vi-001": "Tiếng Việt",
+ "vi-vn": "Tiếng Việt (Việt Nam)",
  "zh-001": "中文",
  "zh-cn": "简体中文",
  "it-it": "Italiano (Italia)",

@@ -1,0 +1,22 @@
+# 1.0 Introduktion til del 1: Målingens grundlag
+
+Før denne bog navngiver en eneste metrik, skal den besvare et sværere spørgsmål: hvad er måling *til*? Ethvert team, der nogensinde har bygget et dashboard, har også før eller siden set et tal forbedres, mens det, tallet skulle repræsentere, blev værre. Det er ikke en fejl i værktøjerne. Det er det forudsigelige resultat af at springe de grundlæggende forudsætninger over, som denne del dækker: hvorfor du overhovedet måler, hvad der sker med en metrik, når folk ved, at den overvåges, hvordan resultater vægtes højere end aktivitet, hvem der ejer et tal og dets definition, hvor dataene egentlig kommer fra, og hvordan man læser et støjende signal uden at narre sig selv.
+
+For store teams holder disse forudsætninger op med at være valgfrie. Et enkelt team kan slippe afsted med et ad hoc-tal, som en leder kigger på en gang om ugen. En organisation med hundredvis af ingeniører, snesevis af dashboards og en ledelse, der rapporterer opad, kan ikke. I den skala vildleder en metrik uden ejer eller med en dårlig definition ikke blot ét team, den vildleder alle nedstrøms, som stoler på tallet uden at kontrollere, hvordan det blev bygget, og det er dyrt at rulle tilbage, når adfærden først har tilpasset sig for at manipulere det.
+
+Store virksomheder og offentlige organisationer mærker det stærkest, fordi deres metrikker ofte har konsekvenser ud over det team, der producerer dem: budgetbeslutninger, offentlige præstationsrapporter, revisionsfund og leverandørkontrakter. En metrik, der ligner en intern ingeniørbekvemmelighed, kan i det stille blive et kritisk, ubestridt input til beslutninger truffet af folk, der aldrig ser den pipeline, der genererede det. At få forudsætningerne rigtige er det, der gør den vægt til at bære.
+
+## Emner i denne del
+
+- **1.1 Hvorfor måle softwareudvikling:** Argumentet for overhovedet at måle, hvad det skal opnå, og forskellen på at måle for at lære og at måle for at dømme.
+- **1.2 Goodharts lov og metrikkernes psykologi:** Den ene idé, der styrer alle andre emner i denne bog: et mål, der bliver til et mål at ramme, holder op med at være et godt mål, og de psykologiske mekanismer, der gør manipulation næsten uundgåelig, når folk ved, at de overvåges.
+- **1.3 Resultater frem for output: at vælge, hvad man skal måle:** Hvordan man vægter et metriksæt mod resultater frem for aktivitet, ved hjælp af det klassiske skel mellem input, output og resultat og nordstjerne-mønstret.
+- **1.4 Metrikstyring og ejerskab:** Hvem der afgør, hvad der måles, hvem der ejer en definition, og hvordan et metrikcharter forhindrer et voksende dashboard i at blive en uansvarlig vildtvoksende samling.
+- **1.5 Datakilder og instrumentering:** Hvor ingeniørmetrikker egentlig kommer fra, instrumentering versus selvrapportering, og de datakvalitetsproblemer, der i det stille ugyldiggør et dashboard, før nogen opdager det.
+- **1.6 Statistisk forståelse for ingeniørmetrikker:** Det mindste statistiske dømmekraft, et team har brug for for at læse en metrik ærligt: percentiler versus gennemsnit, stikprøvestørrelse, regression mod middelværdien og forstyrrende variabler.
+
+## Hvordan disse emner hænger sammen
+
+Disse seks emner bygger på hinanden i en streng rækkefølge. Emne 1.1 spørger, hvorfor man overhovedet skal måle, hvilket betyder noget, fordi et team, der ikke har besvaret det, vil indsamle tal, ingen handler på. Emne 1.2 er omdrejningspunktet, resten af bogen drejer om: når du først accepterer, at ethvert mål kan blive et mål at ramme og blive manipuleret, følger hvert senere emnes anbefalinger af at designe mod den risiko. Emne 1.3 gør den forsigtighed til en positiv regel: vægt mod resultater, fordi de er den kategori, der er sværest at manipulere billigt. Emne 1.4 gør styringen konkret, emne 1.5 gør dataene konkrete, og emne 1.6 giver dig den statistiske dømmekraft til at undgå at lade dig narre af støj, selv når styring og instrumentering er i orden.
+
+Alt nedstrøms afhænger af denne del. Del 2's flowmetrikker og DORA-metrikker og SPACE-frameworket i del 3 er alle i realiteten gennemarbejdede eksempler på principperne om resultatvægtning og parring af værn, der er fremlagt i emne 1.2 og 1.3. Vejledningen til design af dashboards i emne 8.1 forudsætter den styringsmodel, der er fra emne 1.4. Og modenhedsmodellen, der afslutter hvert emne i denne bog, er under sine fem niveauer en modenhedsmodel for netop den disciplin, denne del introducerer: at måle, som om man mener det, og at kontrollere sit eget arbejde.

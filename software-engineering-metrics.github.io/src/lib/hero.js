@@ -55,6 +55,15 @@ export const HERO = {
   "contents": "Cynnwys",
   "translations": "Cyfieithiadau: "
  },
+ "da-001": {
+  "headline": "Mål softwareudvikling godt.",
+  "tagline": "Gratis · åben · specifikationsdrevet",
+  "intro": "En arbejdsbog om at vælge metrikker, der afspejler reelle resultater frem for aktivitet: Flow Framework, SPACE-frameworket, køteori og DORA-metrikker, kode- og kvalitetsmetrikker, produkt- og forretningsresultater, pålidelighed og sikkerhed, samt hvordan generativ AI ændrer, hvad disse tal betyder.",
+  "start": "Begynd at læse",
+  "examples": "Gennemarbejdede eksempler",
+  "contents": "Indhold",
+  "translations": "Oversættelser: "
+ },
  "de-001": {
   "headline": "Softwareentwicklung gut messen.",
   "tagline": "Kostenlos · offen · spezifikationsgetrieben",
@@ -389,6 +398,7 @@ export const ENDONYMS = {
  "bn-bd": "বাংলা (বাংলাদেশ)",
  "cy-001": "Cymraeg",
  "cy-gb": "Cymraeg (Y Deyrnas Unedig)",
+ "da-001": "Dansk",
  "de-001": "Deutsch",
  "de-de": "Deutsch (Deutschland)",
  "en-001": "English",

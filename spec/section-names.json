@@ -211,6 +211,13 @@
       "contributing": "участие",
       "project": "проект"
     },
+    "da-001": {
+      "chapters": "emner",
+      "front-matter": "forord",
+      "examples": "eksempler",
+      "contributing": "bidrag",
+      "project": "projekt"
+    },
     "sv-001": {
       "chapters": "ämnen",
       "front-matter": "förtext",

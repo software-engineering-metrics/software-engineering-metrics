@@ -9,6 +9,7 @@ import ar001 from './manifest/ar-001.json';
 import bn001 from './manifest/bn-001.json';
 import cy001 from './manifest/cy-001.json';
 import cyGb from './manifest/cy-gb.json';
+import da001 from './manifest/da-001.json';
 import de001 from './manifest/de-001.json';
 import es001 from './manifest/es-001.json';
 import fr001 from './manifest/fr-001.json';
@@ -76,6 +77,7 @@ const MANIFESTS = {
   'bn-001': bn001,
   'cy-001': cy001,
   'cy-gb': cyGb,
+  'da-001': da001,
   'de-001': de001,
   'es-001': es001,
   'fr-001': fr001,

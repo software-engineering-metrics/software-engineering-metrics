@@ -1,0 +1,21 @@
+# 5.0 Introduktion til del 5: Produkt- og forretningsmetrikker
+
+De første fire dele af denne bog måler ingeniørarbejdets indre verden: levering, udvikleroplevelse og kodekvalitet. Denne del træder uden for den grænse og stiller det spørgsmål, som enhver ingeniørmetrik i sidste ende findes for at tjene, enten direkte eller flere skridt fjernet: hjalp dette arbejde faktisk virksomheden og de mennesker, der bruger det, det bygger. Emne 1.3 etablerede resultater frem for output som et styrende princip tidligt i denne bog; denne del er der, hvor princippet møder sin skarpeste prøve, fordi produkt- og forretningsresultater er længst væk fra nogen enkelt ingeniørs direkte kontrol og sværest at tilskrive rent tilbage til ingeniørindsatsen.
+
+Den vanskelighed er netop grunden til, at denne del betyder noget. En organisation, der aldrig forbinder sine leverings- og kvalitetsmetrikker med produkt- og forretningsresultater, risikerer at optimere smukt for det forkerte: at levere hurtigt, med fremragende testdækning, en funktion ingen bruger, eller at opretholde uplettet kodekvalitet i et system, hvis centrale værdiforslag i det stille er holdt op med at betyde noget for kunderne. Denne dels fem emner, undslupne fejl, adoption af funktioner, kunde- og forretningsresultater, enhedsøkonomi og investeringsafkast, giver ingeniørledelsen et ordforråd til den forbindelse og giver forretningsledelsen en måde at vurdere ingeniørinvesteringer på i termer, der faktisk betyder noget for dem.
+
+For store teams er denne del ofte der, hvor troværdigheden af et helt metrikprogram vindes eller tabes over for direktionens interessenter. Ledelsen i store virksomheder, der godkender platformsinvesteringer for millioner af dollars, og offentlige tilsynsorganer, der godkender offentlige teknologibudgetter, har begge brug for svar formuleret i termer af forretnings- eller borgerresultater, ikke udrulningsfrekvens eller testdækning, uanset hvor godt de interne metrikker end styres. Denne del er der, hvor resten af bogens omhyggelige, værnbeskyttede metrikker endelig forbinder sig med den eksterne, resultatvendte samtale.
+
+## Emner i denne del
+
+- **5.1 Undslupne fejl og kvalitetsudslip:** Den kvalitetsmetrik, der mest direkte afspejler det, kunderne faktisk oplever, i modsætning til de interne kvalitetsmetrikker i del 4.
+- **5.2 Metrikker for funktionsadoption og brug:** Om det, ingeniørerne byggede, faktisk bliver brugt, og de specifikke måder, hvorpå adoptionsdata bliver misfortolket.
+- **5.3 Metrikker for kunde- og forretningsresultater:** At forbinde ingeniørarbejde med de resultater, en virksomhed eller en offentlig mission faktisk bekymrer sig om.
+- **5.4 Omkostninger og enhedsøkonomi i softwareudvikling:** At udtrykke ingeniøromkostninger i termer, en finansiel interessent direkte kan bruge.
+- **5.5 Investeringsafkast for ingeniørinitiativer:** At bygge en forsvarlig, ærlig ROI-sag for en større ingeniørinvestering, og at være lige så ærlig, når sagen ikke holder.
+
+## Hvordan disse emner hænger sammen
+
+Emne 5.1 starter tættest på hjemmet, kvalitet, som kunderne direkte oplever den, og er den naturlige bro fra del 4's interne kvalitetsmetrikker. Emne 5.2 stiller det næste spørgsmål, når kvalitet er taget i betragtning: bruger nogen faktisk det, der blev bygget. Emne 5.3 udvider linsen yderligere til hele spektret af kunde- og forretningsresultater, en organisation bekymrer sig om, hvoraf brug kun er ét signal blandt flere. Emnerne 5.4 og 5.5 gør derefter hele delen finansiel: at udtrykke ingeniøromkostninger og afkast i termer, der hænger direkte sammen med budget- og investeringsbeslutninger, og lukker den løkke, denne del åbnede, ved at spørge, om ingeniørindsatsen faktisk hjalp.
+
+Denne dels emner læner sig særligt kraftigt op ad emne 1.6's statistiske forståelse, da forretnings- og produktresultater ofte er støjende, forstyrret af markedsforhold og langsomme at bekræfte, netop de forhold, hvor de fejl, emne 1.6 advarer om, er mest tilbøjelige til at producere en selvsikker, forkert konklusion. Læs denne del sammen med del 7, hvor skiftet til generativ AI hæver indsatsen for at få måling af resultater rigtig netop fordi outputvolumen, som denne dels emner argumenterer hele vejen igennem, aldrig var det rette at optimere for i første omgang.

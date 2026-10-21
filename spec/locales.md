@@ -2,7 +2,7 @@
 
 The book is published in four English spelling-variant locales, each a
 complete copy of every topic, front-matter file, example, contributing guide,
-and project file, differing only in spelling, plus 38 hand-translated locales
+and project file, differing only in spelling, plus 39 hand-translated locales
 (see "Translated locales" below). All four keep identical structure, section order, word
 counts, and file names; see [structure.md](structure.md) and
 [conventions.md](conventions.md), which govern all four equally.
@@ -103,6 +103,7 @@ titles. None is touched by `tools/localize.py`.
 | Arabic | `ar-001`, `ar-eg` | identical copies; `ar-eg` is the hand translation |
 | Bengali | `bn-001`, `bn-bd` | identical copies; `bn-bd` is the hand translation |
 | Welsh | `cy-001`, `cy-gb` | identical copies; `cy-001` is the hand translation |
+| Danish | `da-001` | single locale, hand translation |
 | German | `de-001`, `de-de` | identical copies; `de-de` is the hand translation |
 | Spanish | `es-001`, `es-es` | `es-es` started as a copy of `es-001` plus a terminology pass (below) |
 | French | `fr-001`, `fr-fr` | identical copies; `fr-fr` is the hand translation |

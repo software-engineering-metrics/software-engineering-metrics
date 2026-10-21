@@ -1,0 +1,20 @@
+# 6.0 Introduktion til del 6: Pålidelighed-, drifts- og sikkerhedsmetrikker
+
+Del 2 dækkede, hvordan en ændring kommer fra en commit til produktion; denne del dækker, hvad der sker, når den kører der, på ubestemt tid, under reelle forhold, som teamet ikke fuldt ud kan kontrollere. Metrikker for pålidelighed, drift og sikkerhed er der, hvor softwareudviklingens løfter møder vedvarende virkelighed: ikke "lykkedes denne udrulning", men "bliver dette system ved med at virke, nat efter nat, under belastning, under angreb og under presset fra en vagtrotation, der skal være bæredygtig i årevis og ikke blot til næste hændelse."
+
+Delens fire emner følger en bevidst bue. Serviceniveauindikatorer og -mål (emne 6.1) etablerer det ordforråd og den målsætningsdisciplin, som alt andet i denne del hviler på. Hændelsesmetrikker (emne 6.2) måler, hvad der sker, når målet overskrides. Metrikker for vagt og kapacitet (emne 6.3) måler de menneskelige og infrastrukturmæssige omkostninger ved at holde målet opfyldt. Sikkerheds- og sårbarhedsmetrikker (emne 6.4) udvider den samme pålidelighedsdisciplin til en adskilt, men nært beslægtet risiko: ikke "vil dette fejle af sig selv", men "vil nogen få det til at fejle med vilje." Alle fire emner deler denne bogs centrale disciplin: navngiv metrikken, navngiv hvordan den manipuleres, og par den med det værn, der fanger den manipulation.
+
+For store teams er denne dels metrikker der, hvor ingeniørarbejdets løfter bliver kontraktlige og, i offentlige sammenhænge, nogle gange juridiske. Store virksomheder skriver serviceniveauaftaler mod de metrikker, emne 6.1 introducerer, med reelle økonomiske sanktioner for at misse dem; offentlige organisationer driver kritisk offentlig infrastruktur, hvor et pålideligheds- eller sikkerhedssvigt har konsekvenser langt ud over en enkelt virksomheds regnskab. Denne del tager den vægt alvorligt hele vejen igennem.
+
+## Emner i denne del
+
+- **6.1 Serviceniveauindikatorer, -mål og fejlbudgetter:** Det ordforråd og den målsætningsdisciplin, der ligger til grund for al site reliability engineering, og hvordan et fejlbudget gør pålidelighed til en forbrugelig, håndterbar ressource frem for et uopnåeligt absolut.
+- **6.2 Hændelsesmetrikker: opdagelse, respons og genopretning:** At måle, hvor hurtigt en organisation opdager, reagerer på og løser en fejl, og den skyldfri disciplin, der holder målingen ærlig.
+- **6.3 Metrikker for vagt, kapacitet og driftsbelastning:** De menneskelige og infrastrukturmæssige omkostninger ved at opretholde pålidelighed, og hvorfor en uholdbar vagtbyrde til sidst selv viser sig som et pålidelighedsproblem.
+- **6.4 Metrikker for sikkerhed og sårbarhedshåndtering:** At udvide den samme disciplinerede, værnparrede tilgang til sikkerhedsrisiko, fra opdagelse af sårbarheder til afhjælpning.
+
+## Hvordan disse emner hænger sammen
+
+Emne 6.1 lægger det fundament, som alle senere emner i denne del bygger på: uden et klart serviceniveaumål har "hvor slem var denne hændelse" (emne 6.2) og "er vores vagtbelastning bæredygtig" (emne 6.3) intet fælles referencepunkt at måle mod. Emne 6.2's hændelsesmetrikker er i en reel forstand optegnelsen over det forbrug af fejlbudget, som emne 6.1 introducerer; emne 6.3 måler bæredygtigheden af det menneskelige system, der er ansvarligt for at holde dette forbrug inden for budgettet; og emne 6.4 anvender det samme tænkemåde med mål og budget på en sikkerhedstilstand, der, hvis den ikke måles, har tendens til kun at få opmærksomhed reaktivt, efter en hændelse, frem for proaktivt.
+
+Denne del hænger direkte sammen med del 2: DORA's ændringsfejlrate og genopretningstid efter mislykket udrulning (begge dækket i emne 2.10) er henholdsvis en førende indikator for og en instans af denne dels hændelsesmetrikker. Den hænger også fremad sammen med del 8, hvor vejledningen om dashboards og programmodenhed trækker kraftigt på denne dels fejlbudgetmodel som et gennemarbejdet eksempel på at omsætte et abstrakt mål (pålidelighed, sikkerhed) til et konkret, sporbart, ikke-absolut mål, som et team faktisk kan styre fra dag til dag.

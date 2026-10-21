@@ -2590,6 +2590,328 @@
    ]
   },
   {
+   "code": "da-001",
+   "label": "Dansk",
+   "home": "https://software-engineering-metrics.github.io/da-001/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "Introduktion til del 1: Målingens grundlag",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/01-00-målingens-grundlag/"
+    },
+    {
+     "number": "1.1",
+     "title": "Hvorfor måle softwareudvikling",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/01-01-hvorfor-måle-softwareudvikling/"
+    },
+    {
+     "number": "1.2",
+     "title": "Goodharts lov og metrikkernes psykologi",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/01-02-goodharts-lov-og-metrikkernes-psykologi/"
+    },
+    {
+     "number": "1.3",
+     "title": "Resultater frem for output: at vælge, hvad man skal måle",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/01-03-resultater-frem-for-output/"
+    },
+    {
+     "number": "1.4",
+     "title": "Metrikstyring og ejerskab",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/01-04-metrikstyring-og-ejerskab/"
+    },
+    {
+     "number": "1.5",
+     "title": "Datakilder og instrumentering",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/01-05-datakilder-og-instrumentering/"
+    },
+    {
+     "number": "1.6",
+     "title": "Statistisk forståelse for ingeniørmetrikker",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/01-06-statistisk-forståelse-for-ingeniørmetrikker/"
+    },
+    {
+     "number": "2.0",
+     "title": "Introduktion til del 2: Flowmetrikker",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/02-00-flowmetrikker/"
+    },
+    {
+     "number": "2.1",
+     "title": "Flow Framework",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/02-01-flow-framework/"
+    },
+    {
+     "number": "2.2",
+     "title": "Flowelementer: funktioner, fejl, risici og gæld",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/02-02-flowelementer/"
+    },
+    {
+     "number": "2.3",
+     "title": "Flowhastighed og flowfordeling",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/02-03-flowhastighed-og-flowfordeling/"
+    },
+    {
+     "number": "2.4",
+     "title": "Flowtid og flowbelastning",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/02-04-flowtid-og-flowbelastning/"
+    },
+    {
+     "number": "2.5",
+     "title": "Floweffektivitet og igangværende arbejde",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/02-05-floweffektivitet-og-igangværende-arbejde/"
+    },
+    {
+     "number": "2.6",
+     "title": "Cyklustid og dens komponenter",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/02-06-cyklustid-og-dens-komponenter/"
+    },
+    {
+     "number": "2.7",
+     "title": "Køteori",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/02-07-køteori/"
+    },
+    {
+     "number": "2.8",
+     "title": "Lean-værdistrømsmetrikker",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/02-08-lean-værdistrømsmetrikker/"
+    },
+    {
+     "number": "2.9",
+     "title": "Metrikker for pull requests og kodegennemgang",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/02-09-metrikker-for-pull-requests-og-kodegennemgang/"
+    },
+    {
+     "number": "2.10",
+     "title": "DORA-metrikframeworket",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/02-10-dora-metrikframeworket/"
+    },
+    {
+     "number": "3.0",
+     "title": "Introduktion til del 3: Udvikleroplevelse og SPACE-frameworket",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/03-00-udvikleroplevelse-og-space/"
+    },
+    {
+     "number": "3.1",
+     "title": "SPACE-frameworket",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/03-01-space-frameworket/"
+    },
+    {
+     "number": "3.2",
+     "title": "Metrikker for tilfredshed og trivsel",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/03-02-metrikker-for-tilfredshed-og-trivsel/"
+    },
+    {
+     "number": "3.3",
+     "title": "Præstationsmetrikker og resultatproxyer",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/03-03-præstationsmetrikker-og-resultatproxyer/"
+    },
+    {
+     "number": "3.4",
+     "title": "Aktivitetsmetrikker og deres grænser",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/03-04-aktivitetsmetrikker-og-deres-grænser/"
+    },
+    {
+     "number": "3.5",
+     "title": "Metrikker for kommunikation og samarbejde",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/03-05-metrikker-for-kommunikation-og-samarbejde/"
+    },
+    {
+     "number": "3.6",
+     "title": "Effektivitet og flow: dybt arbejde og afbrydelser",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/03-06-effektivitet-og-flow/"
+    },
+    {
+     "number": "3.7",
+     "title": "Undersøgelser af udvikleroplevelse og DevEx-metrikker",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/03-07-udvikleroplevelsesundersøgelser-og-devex-metrikker/"
+    },
+    {
+     "number": "4.0",
+     "title": "Introduktion til del 4: Kode- og kvalitetsmetrikker",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/04-00-kode-og-kvalitetsmetrikker/"
+    },
+    {
+     "number": "4.1",
+     "title": "Kodekompleksitetsmetrikker",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/04-01-kodekompleksitetsmetrikker/"
+    },
+    {
+     "number": "4.2",
+     "title": "Testdækning og testeffektivitet",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/04-02-testdækning-og-testeffektivitet/"
+    },
+    {
+     "number": "4.3",
+     "title": "Kodeomsætning og hotspotanalyse",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/04-03-kodeomsætning-og-hotspotanalyse/"
+    },
+    {
+     "number": "4.4",
+     "title": "Statisk analyse og code smell-metrikker",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/04-04-statisk-analyse-og-code-smell-metrikker/"
+    },
+    {
+     "number": "4.5",
+     "title": "Måling af teknisk gæld",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/04-05-måling-af-teknisk-gæld/"
+    },
+    {
+     "number": "4.6",
+     "title": "Metrikker for dokumentation og viden",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/04-06-metrikker-for-dokumentation-og-viden/"
+    },
+    {
+     "number": "5.0",
+     "title": "Introduktion til del 5: Produkt- og forretningsmetrikker",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/05-00-produkt-og-forretningsmetrikker/"
+    },
+    {
+     "number": "5.1",
+     "title": "Undslupne fejl og kvalitetsudslip",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/05-01-undslupne-fejl-og-kvalitetsudslip/"
+    },
+    {
+     "number": "5.2",
+     "title": "Metrikker for funktionsadoption og brug",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/05-02-metrikker-for-funktionsadoption-og-brug/"
+    },
+    {
+     "number": "5.3",
+     "title": "Kunde- og forretningsresultatmetrikker",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/05-03-kunde-og-forretningsresultatmetrikker/"
+    },
+    {
+     "number": "5.4",
+     "title": "Omkostninger og enhedsøkonomi i ingeniørarbejde",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/05-04-omkostninger-og-enhedsøkonomi-i-ingeniørarbejde/"
+    },
+    {
+     "number": "5.5",
+     "title": "Investeringsafkast for ingeniørinitiativer",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/05-05-investeringsafkast-for-ingeniørinitiativer/"
+    },
+    {
+     "number": "6.0",
+     "title": "Introduktion til del 6: Pålidelighed-, drifts- og sikkerhedsmetrikker",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/06-00-pålidelighed-drift-og-sikkerhedsmetrikker/"
+    },
+    {
+     "number": "6.1",
+     "title": "Serviceniveauindikatorer, -mål og fejlbudgetter",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/06-01-slier-slo-er-og-fejlbudgetter/"
+    },
+    {
+     "number": "6.2",
+     "title": "Hændelsesmetrikker: opdagelse, respons og genopretning",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/06-02-hændelsesmetrikker/"
+    },
+    {
+     "number": "6.3",
+     "title": "Metrikker for vagt, kapacitet og driftsbelastning",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/06-03-metrikker-for-vagt-kapacitet-og-driftsbelastning/"
+    },
+    {
+     "number": "6.4",
+     "title": "Metrikker for sikkerhed og sårbarhedshåndtering",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/06-04-metrikker-for-sikkerhed-og-sårbarhedshåndtering/"
+    },
+    {
+     "number": "7.0",
+     "title": "Introduktion til del 7: Metrikker i AI-alderen",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/07-00-metrikker-i-ai-alderen/"
+    },
+    {
+     "number": "7.1",
+     "title": "Paradigmeskiftet med generativ AI",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/07-01-paradigmeskiftet-med-generativ-ai/"
+    },
+    {
+     "number": "7.2",
+     "title": "Måling af AI-assisteret softwareudvikling",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/07-02-måling-af-ai-assisteret-softwareudvikling/"
+    },
+    {
+     "number": "7.3",
+     "title": "Risici ved metrikinflation og kvalitetsudvanding",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/07-03-risici-ved-metrikinflation-og-kvalitetsudvanding/"
+    },
+    {
+     "number": "7.4",
+     "title": "Resultattelemetri som den nye nordstjerne",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/07-04-resultattelemetri-som-den-nye-nordstjerne/"
+    },
+    {
+     "number": "8.0",
+     "title": "Introduktion til del 8: Opbygning af et metrikprogram",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/08-00-opbygning-af-et-metrikprogram/"
+    },
+    {
+     "number": "8.1",
+     "title": "Design af et ingeniørmetrikdashboard",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/08-01-design-af-et-ingeniørmetrikdashboard/"
+    },
+    {
+     "number": "8.2",
+     "title": "Værktøjslandskabet: bygge versus købe",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/08-02-værktøjslandskabet-bygge-versus-købe/"
+    },
+    {
+     "number": "8.3",
+     "title": "Udrulning af metrikker uden at fremkalde frygt",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/08-03-udrulning-af-metrikker-uden-at-fremkalde-frygt/"
+    },
+    {
+     "number": "8.4",
+     "title": "Modenhedsmodel for ingeniørmetrikprogrammer",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/08-04-modenhedsmodel-for-ingeniørmetrikprogrammer/"
+    },
+    {
+     "number": "8.5",
+     "title": "En trinvis køreplan for indførelse",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/08-05-en-trinvis-køreplan-for-indførelse/"
+    },
+    {
+     "number": "9.0",
+     "title": "Bilag",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/09-00-bilag/"
+    },
+    {
+     "number": "9.1",
+     "title": "Ordliste",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/09-01-ordliste/"
+    },
+    {
+     "number": "9.2",
+     "title": "Reference for metrikdefinitioner og formler",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/09-02-reference-for-metrikdefinitioner-og-formler/"
+    },
+    {
+     "number": "9.3",
+     "title": "Tjeklister",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/09-03-tjeklister/"
+    },
+    {
+     "number": "9.4",
+     "title": "Skabeloner",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/09-04-skabeloner/"
+    },
+    {
+     "number": "9.5",
+     "title": "Selvvurdering af modenhed",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/09-05-selvvurdering-af-modenhed/"
+    },
+    {
+     "number": "9.6",
+     "title": "Kilder og videre læsning",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/09-06-kilder-og-videre-læsning/"
+    },
+    {
+     "number": "9.7",
+     "title": "Indeks",
+     "url": "https://software-engineering-metrics.github.io/da-001/chapters/09-07-indeks/"
+    }
+   ]
+  },
+  {
    "code": "de-001",
    "label": "Deutsch",
    "home": "https://software-engineering-metrics.github.io/de-001/",

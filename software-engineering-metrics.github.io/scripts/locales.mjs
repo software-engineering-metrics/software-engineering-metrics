@@ -9,8 +9,8 @@
 /** @type {Record<string, string>} */
 export const LOCALE_LABELS = {
   'en-us': 'English (US)',
-  'en-gb-oxendict': 'English (UK, Oxford spelling)',
-  'en-gb': 'English (UK)',
+  'en-gb-oxendict': 'English (Great Britain, Oxford)',
+  'en-gb': 'English (Great Britain)',
   'en-001': 'English (international)',
   'ar-001': 'العربية',
   'bn-001': 'বাংলা',

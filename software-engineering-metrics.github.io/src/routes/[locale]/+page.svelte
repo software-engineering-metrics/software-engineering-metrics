@@ -9,7 +9,7 @@
   let manifest = $derived(getManifest(page.params.locale));
   let t = $derived(ui(page.params.locale));
   let hero = $derived(HERO[/** @type {string} */ (page.params.locale)] ?? HERO['en-001']);
-  const translations = LOCALE_CODES.filter((code) => code.endsWith('-001') && code in ENDONYMS);
+  const translations = LOCALE_CODES.filter((code) => code.endsWith('-001') && code in ENDONYMS).sort();
   // Some locales (genuinely translated, not just a spelling variant) ship
   // only chapters/, with no front-matter/ section yet; fall back to the
   // first chapter so "Start reading" never links to a 404.

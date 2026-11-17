@@ -2,7 +2,7 @@
 
 The book is published in four English spelling-variant locales, each a
 complete copy of every topic, front-matter file, example, contributing guide,
-and project file, differing only in spelling, plus 41 hand-translated locales
+and project file, differing only in spelling, plus 48 hand-translated locales
 (see "Translated locales" below). All four keep identical structure, section order, word
 counts, and file names; see [structure.md](structure.md) and
 [conventions.md](conventions.md), which govern all four equally.
@@ -91,7 +91,7 @@ adding a topic, before `just test`.
 
 ## Translated locales
 
-Thirty-two hand-translated locales (a different language, with their own
+Forty-eight hand-translated locales (a different language, with their own
 slugs) are complete. Each has all 63 topics plus the other four sections,
 a translated home `index.md` and table of contents, and a section directory
 named in its own language (see [Section directory names](#section-directory-names));
@@ -100,22 +100,22 @@ titles. None is touched by `tools/localize.py`.
 
 | Language | Locales | Relationship |
 | --- | --- | --- |
-| Arabic | `ar-001`, `ar-eg` | identical copies; `ar-eg` is the hand translation |
-| Bengali | `bn-001`, `bn-bd` | identical copies; `bn-bd` is the hand translation |
+| Arabic | `ar-001`, `ar-eg`, `ar-dz` | identical copies; `ar-eg` is the hand translation; `ar-dz` is a regional locale |
+| Bengali | `bn-001`, `bn-bd`, `bn-in` | identical copies; `bn-bd` is the hand translation; `bn-in` is a regional locale |
 | Welsh | `cy-001`, `cy-gb` | identical copies; `cy-001` is the hand translation |
 | Danish | `da-001` | single locale, hand translation |
 | German | `de-001`, `de-de` | identical copies; `de-de` is the hand translation |
-| Spanish | `es-001`, `es-es` | `es-es` started as a copy of `es-001` plus a terminology pass (below) |
-| French | `fr-001`, `fr-fr` | identical copies; `fr-fr` is the hand translation |
-| Hindi | `hi-001`, `hi-id` | identical copies; `hi-001` is the hand translation |
-| Indonesian | `id-001`, `id-id` | identical copies; `id-id` is the hand translation |
+| Spanish | `es-001`, `es-es`, `es-mx` | `es-es` started as a copy of `es-001` plus a terminology pass (below); `es-mx` is a regional locale |
+| French | `fr-001`, `fr-fr`, `fr-ca` | identical copies; `fr-fr` is the hand translation; `fr-ca` is a regional locale |
+| Hindi | `hi-001`, `hi-in` | identical copies; `hi-001` is the hand translation. The directory `locales/hi-id` is a stale duplicate from before `hi-in` existed (`id` is Indonesia, not India); it is not served and should be deleted. |
+| Indonesian | `id-001`, `id-id`, `id-my` | identical copies; `id-id` is the hand translation; `id-my` is a regional locale |
 | Icelandic | `is-001`, `is-is` | identical copies; `is-is` is the hand translation |
 | Italian | `it-001`, `it-it` | identical copies; `it-it` is the hand translation |
 | Japanese | `ja-001`, `ja-jp` | identical copies; `ja-jp` is the hand translation |
 | Korean | `ko-001`, `ko-kr` | identical copies; `ko-kr` is the hand translation |
 | Dutch | `nl-001`, `nl-nl` | identical copies; `nl-nl` is the hand translation |
-| Portuguese | `pt-001`, `pt-pt` | identical copies; `pt-pt` is the hand translation |
-| Russian | `ru-001`, `ru-ru` | identical copies; `ru-ru` is the hand translation |
+| Portuguese | `pt-001`, `pt-pt`, `pt-br` | identical copies; `pt-pt` is the hand translation; `pt-br` is a regional locale |
+| Russian | `ru-001`, `ru-ru`, `ru-by` | identical copies; `ru-ru` is the hand translation; `ru-by` is a regional locale |
 | Swedish | `sv-001`, `sv-se` | identical copies; `sv-se` is the hand translation |
 | Vietnamese | `vi-001`, `vi-vn` | identical copies; `vi-vn` is the hand translation |
 | Swahili | `sw-001`, `sw-tz` | identical copies; `sw-tz` is the hand translation |
@@ -141,8 +141,8 @@ from. Welsh terminology follows the Welsh Government's TermCymru list.
 
 Every `-001` locale is wired into the site's `SERVED_LOCALE_CODES`
 (`scripts/locales.mjs`), plus `cy-gb`, `zh-cn`, `ja-jp`, `ko-kr`, `is-is`,
-`nl-nl`, `sv-se`, `sw-tz`, `id-id` and `it-it`. The other country-tagged hand translations
-(`ar-eg`, `bn-bd`, `de-de`, `es-es`, `fr-fr`, `hi-id`, `pt-pt`, `ru-ru`) exist
+`nl-nl`, `sv-se`, `sw-tz`, `id-id`, `it-it` and `hi-in`. The other country-tagged locales
+(`ar-eg`, `ar-dz`, `bn-bd`, `bn-in`, `de-de`, `es-es`, `es-mx`, `fr-fr`, `fr-ca`, `id-my`, `pt-pt`, `pt-br`, `ru-ru`, `ru-by`) exist
 on disk but are not served. A missing
 section degrades gracefully on the site (an empty list, or a fallback to
 the default locale's intro copy), per

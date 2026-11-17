@@ -1,6 +1,6 @@
 # Locales
 
-The book exists in 45 locales under `locales/`. The policy lives in
+The book exists in 52 locales under `locales/`. The policy lives in
 [`../spec/locales.md`](../spec/locales.md); this file is the short version.
 
 ## Two kinds of locale
@@ -8,10 +8,10 @@ The book exists in 45 locales under `locales/`. The policy lives in
 - **Four English spelling variants**: `en-gb-oxendict` (Oxford spelling, the
   authoring source), `en-001`, `en-gb`, and `en-us`. Only `en-gb-oxendict` is
   hand-edited. Run `python3 tools/localize.py` to re-derive the other three.
-- **41 hand-translated locales**: `ar-001`, `ar-eg`, `bn-001`, `bn-bd`,
+- **48 hand-translated locales**: `ar-001`, `ar-eg`, `bn-001`, `bn-bd`,
   `cy-001`, `cy-gb`, `da-001`, `de-001`, `de-de`, `es-001`, `es-es`, `fr-001`, `fr-fr`, `hi-001`,
   `hi-id`, `id-001`, `is-is`, `is-001`, `it-001`, `ja-001`, `ja-jp`, `ko-001`, `ko-kr`, `nl-001`, `nl-nl`, `pt-001`, `pt-pt`, `ru-001`, `ru-ru`,
-  `sv-001`, `sv-se`, `sw-001`, `sw-tz`, `ur-001`, `vi-001`, `vi-vn`, `zh-001`, `zh-cn`. None of them is touched by `localize.py`.
+  `sv-001`, `sv-se`, `sw-001`, `sw-tz`, `ur-001`, `vi-001`, `vi-vn`, `zh-001`, `zh-cn`, and the regional adaptations `ar-dz`, `es-mx`, `fr-ca`, `ru-by`, `bn-in`, `id-my` and `pt-br` (own vocabulary and directory names, same peer ids; adapted from their `-001` sibling with a vocabulary map; `ru-by` has no differences yet). None of them is touched by `localize.py`.
   Several are exact copies of a sibling (`cy-gb` of `cy-001`, `ar-001` of
   `ar-eg`, `bn-001` of `bn-bd`, `fr-001` of `fr-fr`, `hi-id` of `hi-001`,
   `ru-001` of `ru-ru`, `zh-001` of `zh-cn`, `pt-001` of `pt-pt`, `de-001` of `de-de`, `ja-001` of `ja-jp`, `ko-001` of `ko-kr`, `nl-001` of `nl-nl`, `sv-001` of `sv-se`, `sw-001` of `sw-tz`, `is-001` of `is-is`, `vi-001` of `vi-vn`); when you edit one half of a pair,

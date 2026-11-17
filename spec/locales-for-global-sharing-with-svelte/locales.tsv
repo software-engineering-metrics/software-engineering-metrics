@@ -1,8 +1,10 @@
 slug_lowercase  endodymn	exonym_en_001
 ar-001	العربية Arabic
 ar-eg	العربية - مصر	Arabic - Egypt
+ar-dz	العربية - الجزائر	Arabic (Algeria)
 bn-001	বাংলা   Bengali
 bn-bd	বাংলা - বাংলাদেশ	Bengali - Bangladesh
+bn-in	বাংলা - ভারত	Bengali (India)
 cy-001	Cymraeg	Cymraeg
 cy-gb	Cymraeg - Great Britain	Cymraeg - Great Britain
 de-001	Deutsch	German
@@ -13,8 +15,10 @@ en-gb-oxendict	English - Great Britain - Oxford	English - Great Britain - Oxford
 en-us	English - United States	English - United States
 es-001	Español	Spanish
 es-es	Español - España	Spanish - Spain
+es-mx	Español - México	Spanish (Mexico)
 fr-001	Français	French
 fr-fr	Français - France	French - France
+fr-ca	Français - Canada	French (Canada)
 hi-001	हिन्दी	Hindi
 hi-id	हिन्दी - भारत	Hindi - India
 id-001	Bahasa Indonesia	Indonesian
@@ -27,8 +31,10 @@ nl-001	Nederlands	Dutch
 nl-nl	Nederlands - Nederland	Dutch - Netherlands
 pt-001	Português	Portuguese
 pt-pt	Português - Portugal	Portuguese - Portugal
+pt-br	Português - Brasil	Portuguese (Brazil)
 ru-001	Русский	Russian
 ru-ru	Русский - Россия	Russian - Russia
+ru-by	Русский - Беларусь	Russian (Belarus)
 sv-001	Svenska	Swedish
 sv-se	Svenska - Sverige	Swedish - Sweden
 sw-001	Kiswahili	Swahili
@@ -38,6 +44,7 @@ zh-001	中文	Chinese
 zh-cn	中文	Chinese - China
 it-it	Italiano - Italia	Italian - Italy
 id-id	Bahasa Indonesia - Indonesia	Indonesian - Indonesia
+id-my	Bahasa Indonesia - Malaysia	Indonesian (Malaysia)
 da-001	Dansk	Danish
 vi-001	Tiếng Việt	Vietnamese
 vi-vn	Tiếng Việt (Việt Nam)	Vietnamese (Vietnam)

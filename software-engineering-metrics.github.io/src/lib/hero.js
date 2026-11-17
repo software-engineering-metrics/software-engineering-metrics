@@ -19,6 +19,15 @@ export const HERO = {
   "contents": "المحتويات",
   "translations": "الترجمات: "
  },
+ "ar-dz": {
+  "headline": "قِس هندسة البرمجيات قياسًا جيدًا.",
+  "tagline": "مجاني · مفتوح · قائم على المواصفات",
+  "intro": "كتاب عملي في اختيار مقاييس تعكس النتائج الحقيقية لا النشاط: إطار التدفق (Flow Framework) وإطار SPACE ونظرية الطوابير ومقاييس DORA، ومقاييس الشيفرة والجودة، ونتائج المنتج والأعمال، والموثوقية والأمن، وكيف يعيد الذكاء الاصطناعي التوليدي تشكيل معنى هذه الأرقام.",
+  "start": "ابدأ القراءة",
+  "examples": "أمثلة محلولة",
+  "contents": "المحتويات",
+  "translations": "الترجمات: "
+ },
  "bn-001": {
   "headline": "সফটওয়্যার প্রকৌশল ভালোভাবে পরিমাপ করুন।",
   "tagline": "বিনামূল্যে · উন্মুক্ত · স্পেসিফিকেশনভিত্তিক",
@@ -29,6 +38,15 @@ export const HERO = {
   "translations": "অনুবাদ: "
  },
  "bn-bd": {
+  "headline": "সফটওয়্যার প্রকৌশল ভালোভাবে পরিমাপ করুন।",
+  "tagline": "বিনামূল্যে · উন্মুক্ত · স্পেসিফিকেশনভিত্তিক",
+  "intro": "কার্যকলাপের বদলে প্রকৃত ফলাফল প্রতিফলিত করে এমন মেট্রিক বাছাই নিয়ে একটি ব্যবহারিক বই: ফ্লো ফ্রেমওয়ার্ক, SPACE ফ্রেমওয়ার্ক, সারিতত্ত্ব ও DORA মেট্রিক, কোড ও মানের মেট্রিক, পণ্য ও ব্যবসায়িক ফলাফল, নির্ভরযোগ্যতা ও নিরাপত্তা, এবং জেনারেটিভ এআই কীভাবে এই সংখ্যাগুলোর অর্থ বদলে দিচ্ছে।",
+  "start": "পড়া শুরু করুন",
+  "examples": "সমাধানসহ উদাহরণ",
+  "contents": "সূচিপত্র",
+  "translations": "অনুবাদ: "
+ },
+ "bn-in": {
   "headline": "সফটওয়্যার প্রকৌশল ভালোভাবে পরিমাপ করুন।",
   "tagline": "বিনামূল্যে · উন্মুক্ত · স্পেসিফিকেশনভিত্তিক",
   "intro": "কার্যকলাপের বদলে প্রকৃত ফলাফল প্রতিফলিত করে এমন মেট্রিক বাছাই নিয়ে একটি ব্যবহারিক বই: ফ্লো ফ্রেমওয়ার্ক, SPACE ফ্রেমওয়ার্ক, সারিতত্ত্ব ও DORA মেট্রিক, কোড ও মানের মেট্রিক, পণ্য ও ব্যবসায়িক ফলাফল, নির্ভরযোগ্যতা ও নিরাপত্তা, এবং জেনারেটিভ এআই কীভাবে এই সংখ্যাগুলোর অর্থ বদলে দিচ্ছে।",
@@ -136,6 +154,15 @@ export const HERO = {
   "contents": "Contenido",
   "translations": "Traducciones: "
  },
+ "es-mx": {
+  "headline": "Mide bien la ingeniería de software.",
+  "tagline": "Gratis · abierto · guiado por especificaciones",
+  "intro": "Un libro de trabajo para elegir métricas que reflejen resultados reales y no actividad: el Flow Framework, el marco SPACE, la teoría de colas y las métricas DORA, métricas de código y calidad, resultados de producto y negocio, fiabilidad y seguridad, y cómo la IA generativa está cambiando el significado de estas cifras.",
+  "start": "Empezar a leer",
+  "examples": "Ejemplos resueltos",
+  "contents": "Contenido",
+  "translations": "Traducciones: "
+ },
  "fr-001": {
   "headline": "Bien mesurer l'ingénierie logicielle.",
   "tagline": "Gratuit · ouvert · piloté par des spécifications",
@@ -146,6 +173,15 @@ export const HERO = {
   "translations": "Traductions: "
  },
  "fr-fr": {
+  "headline": "Bien mesurer l'ingénierie logicielle.",
+  "tagline": "Gratuit · ouvert · piloté par des spécifications",
+  "intro": "Un livre de travail pour choisir des indicateurs qui reflètent des résultats réels plutôt que de l'activité : le Flow Framework, le cadre SPACE, la théorie des files d'attente et les indicateurs DORA, les indicateurs de code et de qualité, les résultats produit et métier, la fiabilité et la sécurité, et la façon dont l'IA générative transforme le sens de ces chiffres.",
+  "start": "Commencer la lecture",
+  "examples": "Exemples détaillés",
+  "contents": "Sommaire",
+  "translations": "Traductions: "
+ },
+ "fr-ca": {
   "headline": "Bien mesurer l'ingénierie logicielle.",
   "tagline": "Gratuit · ouvert · piloté par des spécifications",
   "intro": "Un livre de travail pour choisir des indicateurs qui reflètent des résultats réels plutôt que de l'activité : le Flow Framework, le cadre SPACE, la théorie des files d'attente et les indicateurs DORA, les indicateurs de code et de qualité, les résultats produit et métier, la fiabilité et la sécurité, et la façon dont l'IA générative transforme le sens de ces chiffres.",
@@ -289,6 +325,15 @@ export const HERO = {
   "contents": "Sumário",
   "translations": "Traduções: "
  },
+ "pt-br": {
+  "headline": "Meça bem a engenharia de software.",
+  "tagline": "Gratuito · aberto · orientado por especificações",
+  "intro": "Um livro de trabalho sobre como escolher métricas que reflitam resultados reais, e não atividade: o Flow Framework, o framework SPACE, a teoria das filas e as métricas DORA, métricas de código e qualidade, resultados de produto e de negócio, confiabilidade e segurança, e como a IA generativa está mudando o significado desses números.",
+  "start": "Começar a ler",
+  "examples": "Exemplos resolvidos",
+  "contents": "Sumário",
+  "translations": "Traduções: "
+ },
  "ru-001": {
   "headline": "Хорошо измеряйте программную инженерию.",
   "tagline": "Бесплатно · открыто · на основе спецификаций",
@@ -299,6 +344,15 @@ export const HERO = {
   "translations": "Переводы: "
  },
  "ru-ru": {
+  "headline": "Хорошо измеряйте программную инженерию.",
+  "tagline": "Бесплатно · открыто · на основе спецификаций",
+  "intro": "Рабочая книга о выборе метрик, отражающих реальные результаты, а не активность: Flow Framework, фреймворк SPACE, теория очередей и метрики DORA, метрики кода и качества, результаты продукта и бизнеса, надёжность и безопасность, а также то, как генеративный ИИ меняет смысл этих цифр.",
+  "start": "Начать читать",
+  "examples": "Разобранные примеры",
+  "contents": "Содержание",
+  "translations": "Переводы: "
+ },
+ "ru-by": {
   "headline": "Хорошо измеряйте программную инженерию.",
   "tagline": "Бесплатно · открыто · на основе спецификаций",
   "intro": "Рабочая книга о выборе метрик, отражающих реальные результаты, а не активность: Flow Framework, фреймворк SPACE, теория очередей и метрики DORA, метрики кода и качества, результаты продукта и бизнеса, надёжность и безопасность, а также то, как генеративный ИИ меняет смысл этих цифр.",
@@ -406,14 +460,25 @@ export const HERO = {
   "contents": "Daftar isi",
   "translations": "Terjemahan: "
  },
+ "id-my": {
+  "headline": "Ukur rekayasa perangkat lunak dengan baik.",
+  "tagline": "Gratis · terbuka · digerakkan spesifikasi",
+  "intro": "Buku kerja tentang memilih metrik yang mencerminkan hasil nyata, bukan sekadar aktivitas: Flow Framework, kerangka SPACE, teori antrean, dan metrik DORA, metrik kode dan kualitas, hasil produk dan bisnis, keandalan dan keamanan, serta bagaimana AI generatif mengubah makna angka-angka ini.",
+  "start": "Mulai membaca",
+  "examples": "Contoh terselesaikan",
+  "contents": "Daftar isi",
+  "translations": "Terjemahan: "
+ },
 };
 
 /** @type {Record<string, string>} */
 export const ENDONYMS = {
  "ar-001": "العربية",
  "ar-eg": "العربية (مصر)",
+ "ar-dz": "العربية - الجزائر",
  "bn-001": "বাংলা",
  "bn-bd": "বাংলা (বাংলাদেশ)",
+ "bn-in": "বাংলা - ভারত",
  "cy-001": "Cymraeg",
  "cy-gb": "Cymraeg (Prydain Fawr)",
  "da-001": "Dansk",
@@ -425,8 +490,10 @@ export const ENDONYMS = {
  "en-us": "English (United States)",
  "es-001": "Español",
  "es-es": "Español (España)",
+ "es-mx": "Español - México",
  "fr-001": "Français",
  "fr-fr": "Français (France)",
+ "fr-ca": "Français - Canada",
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
@@ -441,8 +508,10 @@ export const ENDONYMS = {
  "nl-nl": "Nederlands (Nederland)",
  "pt-001": "Português",
  "pt-pt": "Português (Portugal)",
+ "pt-br": "Português - Brasil",
  "ru-001": "Русский",
  "ru-ru": "Русский (Россия)",
+ "ru-by": "Русский - Беларусь",
  "sv-001": "Svenska",
  "sv-se": "Svenska (Sverige)",
  "sw-001": "Kiswahili",
@@ -453,5 +522,6 @@ export const ENDONYMS = {
  "zh-001": "中文",
  "zh-cn": "简体中文",
  "it-it": "Italiano (Italia)",
- "id-id": "Bahasa Indonesia (Indonesia)"
+ "id-id": "Bahasa Indonesia (Indonesia)",
+ "id-my": "Bahasa Indonesia - Malaysia"
 };

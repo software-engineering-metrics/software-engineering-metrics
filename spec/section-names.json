@@ -22,6 +22,13 @@
       "contributing": "المساهمة",
       "project": "المشروع"
     },
+    "ar-dz": {
+      "chapters": "المواضيع",
+      "front-matter": "تمهيد",
+      "examples": "أمثلة",
+      "contributing": "المساهمة",
+      "project": "المشروع"
+    },
     "bn-001": {
       "chapters": "বিষয়সমূহ",
       "front-matter": "প্রারম্ভিক-অংশ",
@@ -30,6 +37,13 @@
       "project": "প্রকল্প"
     },
     "bn-bd": {
+      "chapters": "বিষয়সমূহ",
+      "front-matter": "প্রারম্ভিক-অংশ",
+      "examples": "উদাহরণ",
+      "contributing": "অবদান",
+      "project": "প্রকল্প"
+    },
+    "bn-in": {
       "chapters": "বিষয়সমূহ",
       "front-matter": "প্রারম্ভিক-অংশ",
       "examples": "উদাহরণ",
@@ -78,6 +92,13 @@
       "contributing": "contribuir",
       "project": "proyecto"
     },
+    "es-mx": {
+      "chapters": "temas",
+      "front-matter": "preliminares",
+      "examples": "ejemplos",
+      "contributing": "contribuir",
+      "project": "proyecto"
+    },
     "fr-001": {
       "chapters": "sujets",
       "front-matter": "liminaires",
@@ -86,6 +107,13 @@
       "project": "projet"
     },
     "fr-fr": {
+      "chapters": "sujets",
+      "front-matter": "liminaires",
+      "examples": "exemples",
+      "contributing": "contribuer",
+      "project": "projet"
+    },
+    "fr-ca": {
       "chapters": "sujets",
       "front-matter": "liminaires",
       "examples": "exemples",
@@ -197,6 +225,13 @@
       "contributing": "contribuir",
       "project": "projeto"
     },
+    "pt-br": {
+      "chapters": "temas",
+      "front-matter": "preliminares",
+      "examples": "exemplos",
+      "contributing": "contribuir",
+      "project": "projeto"
+    },
     "ru-001": {
       "chapters": "темы",
       "front-matter": "предисловие",
@@ -205,6 +240,13 @@
       "project": "проект"
     },
     "ru-ru": {
+      "chapters": "темы",
+      "front-matter": "предисловие",
+      "examples": "примеры",
+      "contributing": "участие",
+      "project": "проект"
+    },
+    "ru-by": {
       "chapters": "темы",
       "front-matter": "предисловие",
       "examples": "примеры",
@@ -275,6 +317,13 @@
       "project": "progetto"
     },
     "id-id": {
+      "chapters": "topik",
+      "front-matter": "pendahuluan",
+      "examples": "contoh",
+      "contributing": "kontribusi",
+      "project": "proyek"
+    },
+    "id-my": {
       "chapters": "topik",
       "front-matter": "pendahuluan",
       "examples": "contoh",

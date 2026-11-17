@@ -109,13 +109,11 @@ re-examine what these metrics mean, not just a new column on the dashboard.
 
 ## Locales
 
-The book is published in 27 locales; see
+The book is published in 52 locales; see
 [spec/locales.md](spec/locales.md). The table of contents above links the
 `en-gb-oxendict` (Oxford spelling) locale, the authoring source. The other English
 variants are `locales/en-001/`, `locales/en-gb/`, and `locales/en-us/`; the
-23 hand-translated locales (Welsh, Spanish, Hindi, Chinese, German, Arabic,
-Bengali, Korean, Portuguese, Japanese, Russian, French, Swedish, Dutch, and
-Indonesian) each have their own directory under `locales/`. AI agents can read
+48 translated locales each have their own directory under `locales/`. AI agents can read
 the site's [llms.txt](https://software-engineering-metrics.github.io/llms.txt)
 and [llms.json](https://software-engineering-metrics.github.io/llms.json).
 

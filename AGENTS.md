@@ -23,13 +23,11 @@ holds the book's content and specification, plus the SvelteKit site
 published website. The site is its own project with its own AGENTS.md; it is
 not governed by the content rules below.
 
-The book is published in 45 locales (see [`spec/locales.md`](spec/locales.md)):
+The book is published in 52 locales (see [`spec/locales.md`](spec/locales.md)):
 four English spelling variants, `en-gb-oxendict` (British English, Oxford
 spelling; the authoring source), `en-001` (international English), `en-gb`
-(mainstream British English), and `en-us` (American English), plus 41
-hand-translated locales (Welsh, Spanish, Hindi, Chinese, German, Arabic,
-Bengali, Korean, Portuguese, Japanese, Russian, French, Swedish, Dutch,
-Indonesian, Icelandic, Swahili, Italian, Urdu, Vietnamese). Only `en-gb-oxendict` is hand-edited; the other three English
+(mainstream British English), and `en-us` (American English), plus 48
+translated locales (listed in `AGENTS/locales.md`). Only `en-gb-oxendict` is hand-edited; the other three English
 variants are mechanically derived from it by `tools/localize.py`. Each
 translated locale is maintained by hand and ships all five sections (topics,
 front-matter, examples, contributing, project), each in a directory named in

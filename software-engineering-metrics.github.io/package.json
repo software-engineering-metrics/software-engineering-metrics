@@ -33,8 +33,8 @@
     ]
   },
   "dependencies": {
-    "@lilydesignsystem/svelte-picker-bar": "^0.3.0",
-    "@lilydesignsystem/themes": "0.4.0"
+    "@lilydesignsystem/svelte-picker-bar": "^0.6.0",
+    "@lilydesignsystem/themes": "0.6.2"
   },
   "imports": {
     "#lib": "./src/lib/index.js",

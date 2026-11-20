@@ -48,7 +48,11 @@ export const LOCALE_LABELS = {
   'tr-001': 'Türkçe',
   'tr-tr': 'Türkçe (Türkiye)',
   'th-001': 'ไทย',
-  'th-th': 'ไทย (ประเทศไทย)'
+  'th-th': 'ไทย (ประเทศไทย)',
+  'zh-th': '中文 (泰国)',
+  'hi-np': 'हिन्दी (नेपाल)',
+  'cy-ar': 'Cymraeg (Ariannin)',
+  'de-at': 'Deutsch (Österreich)'
 };
 
 /** @param {string} code */
@@ -109,7 +113,11 @@ const SERVED_LOCALE_CODES = [
   'tr-001',
   'tr-tr',
   'th-001',
-  'th-th'
+  'th-th',
+  'zh-th',
+  'hi-np',
+  'cy-ar',
+  'de-at'
 ];
 
 export const LOCALES = SERVED_LOCALE_CODES.map((code) => ({ code, label: localeLabel(code) }));

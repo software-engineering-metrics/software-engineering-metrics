@@ -1,0 +1,55 @@
+# 贡献
+
+感谢你帮助改进这本书。欢迎任何规模的贡献，从修正一个拼写错误到撰写一个新主题。
+
+## 基本规则
+
+本书遵循严格的内部风格。要点：
+
+- 不使用长破折号。使用逗号、冒号、括号或两个句子。
+- 不使用陈词滥调（“not only ... but also”、“load-bearing”及类似说法）。
+- 温暖、朴素、直接的文字。直接对读者说话。句子要短。
+- 术语在首次使用时给出定义。关键概念在首次提及时链接到维基百科。
+- 只使用真实的参考文献。
+- 每个指标家族的主题都点明操纵路径和护栏。
+
+完整规则在仓库根目录的 `spec/conventions.md` 中，简版是[风格规则](style-rules.md)。测试会强制执行其中机械的部分。
+
+## 准备工作
+
+你需要 Python 3 和 [just](https://github.com/casey/just)。这个仓库保存书的内容和规格，另有 SvelteKit 站点
+（`software-engineering-metrics.github.io/`），把它渲染成已发布的网站。
+
+```sh
+just         # list tasks
+just test    # run the validation suite
+just nav     # regenerate the generated navigation files
+just stats   # topic and word counts
+```
+
+## 做出变更
+
+1. 阅读相关指南：主题看[写作](authoring.md)，生成的文件看[导航](navigation.md)，测试看[测试](testing.md)。
+2. 做出能完成任务的最小变更。
+3. 如果你添加、删除、重命名或重新编号某个主题，请更新仓库根目录的 `spec/structure.md` 并运行 `just nav`。
+4. 运行 `just test`。它必须通过。
+5. 在[变更日志](../project/changelog.md)的 **Unreleased** 下添加一行条目。
+
+## 可以做什么
+
+- 修正错误、含糊之处或过时的参考文献。
+- 改进示例，尤其是具体的企业和政府示例。
+- 对照真实来源核实引文。
+- 在不破坏模板的前提下，填补某个主题覆盖范围中的空白。
+
+## 应避免什么
+
+- 不要手工编辑生成的文件（`README.md`、各语言区域的 `index.md`、`front-matter/table-of-contents.md` 和 `topics/09-07-index.md`）。
+  请改动主题，然后运行 `just nav`。
+- 不要直接编辑 `en-001`、`en-gb` 或 `en-us`；它们由 `tools/localize.py` 从 `en-gb-oxendict` 派生。
+- 不要在不同时更新 `spec/structure.md` 的情况下添加主题。
+- 不要引入长破折号或被禁用的措辞；测试会失败。
+
+## 报告问题
+
+提交一个 issue，描述问题、所涉文件和主题，并在相关时给出正确的来源或参考文献。小而具体的报告最容易处理。

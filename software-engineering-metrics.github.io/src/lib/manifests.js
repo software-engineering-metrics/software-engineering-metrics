@@ -42,6 +42,10 @@ import trTr from './manifest/tr-tr.json';
 import th001 from './manifest/th-001.json';
 import thTh from './manifest/th-th.json';
 import idId from './manifest/id-id.json';
+import zhTh from './manifest/zh-th.json';
+import hiNp from './manifest/hi-np.json';
+import cyAr from './manifest/cy-ar.json';
+import deAt from './manifest/de-at.json';
 import { DEFAULT_LOCALE } from './locales.js';
 
 /**
@@ -115,7 +119,11 @@ const MANIFESTS = {
   'tr-tr': trTr,
   'th-001': th001,
   'th-th': thTh,
-  'id-id': idId
+  'id-id': idId,
+  'zh-th': zhTh,
+  'hi-np': hiNp,
+  'cy-ar': cyAr,
+  'de-at': deAt
 };
 
 /**

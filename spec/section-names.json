@@ -371,6 +371,34 @@
       "examples": "ตัวอย่าง",
       "contributing": "การมีส่วนร่วม",
       "project": "โครงการ"
+    },
+    "zh-th": {
+      "chapters": "主题",
+      "front-matter": "前言",
+      "examples": "示例",
+      "contributing": "贡献",
+      "project": "项目"
+    },
+    "hi-np": {
+      "chapters": "विषय",
+      "front-matter": "प्रारंभिक",
+      "examples": "उदाहरण",
+      "contributing": "योगदान",
+      "project": "परियोजना"
+    },
+    "cy-ar": {
+      "chapters": "pynciau",
+      "front-matter": "blaenddeunydd",
+      "examples": "enghreifftiau",
+      "contributing": "cyfrannu",
+      "project": "prosiect"
+    },
+    "de-at": {
+      "chapters": "themen",
+      "front-matter": "vorspann",
+      "examples": "beispiele",
+      "contributing": "mitwirken",
+      "project": "projekt"
     }
   }
 }

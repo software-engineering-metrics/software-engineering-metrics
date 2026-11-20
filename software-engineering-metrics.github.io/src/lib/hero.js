@@ -73,6 +73,15 @@ export const HERO = {
   "contents": "Cynnwys",
   "translations": "Cyfieithiadau: "
  },
+ "cy-ar": {
+  "headline": "Mesurwch beirianneg meddalwedd yn dda.",
+  "tagline": "Rhad ac am ddim · agored · wedi'i yrru gan fanyleb",
+  "intro": "Llyfr gwaith ar ddewis metrigau sy'n adlewyrchu canlyniadau go iawn yn hytrach na gweithgarwch: y Fframwaith Llif, fframwaith SPACE, damcaniaeth ciwio a metrigau DORA, metrigau cod ac ansawdd, canlyniadau cynnyrch a busnes, dibynadwyedd a diogelwch, a sut mae deallusrwydd artiffisial cynhyrchiol yn ail-lunio ystyr y niferoedd hyn.",
+  "start": "Dechrau darllen",
+  "examples": "Enghreifftiau wedi'u gweithio",
+  "contents": "Cynnwys",
+  "translations": "Cyfieithiadau: "
+ },
  "da-001": {
   "headline": "Mål softwareudvikling godt.",
   "tagline": "Gratis · åben · specifikationsdrevet",
@@ -92,6 +101,15 @@ export const HERO = {
   "translations": "Übersetzungen: "
  },
  "de-de": {
+  "headline": "Softwareentwicklung gut messen.",
+  "tagline": "Kostenlos · offen · spezifikationsgetrieben",
+  "intro": "Ein Arbeitsbuch zur Auswahl von Kennzahlen, die echte Ergebnisse statt Aktivität abbilden: das Flow Framework, das SPACE-Framework, Warteschlangentheorie und DORA-Kennzahlen, Code- und Qualitätskennzahlen, Produkt- und Geschäftsergebnisse, Zuverlässigkeit und Sicherheit sowie die Frage, wie generative KI die Bedeutung dieser Zahlen verändert.",
+  "start": "Mit dem Lesen beginnen",
+  "examples": "Durchgerechnete Beispiele",
+  "contents": "Inhalt",
+  "translations": "Übersetzungen: "
+ },
+ "de-at": {
   "headline": "Softwareentwicklung gut messen.",
   "tagline": "Kostenlos · offen · spezifikationsgetrieben",
   "intro": "Ein Arbeitsbuch zur Auswahl von Kennzahlen, die echte Ergebnisse statt Aktivität abbilden: das Flow Framework, das SPACE-Framework, Warteschlangentheorie und DORA-Kennzahlen, Code- und Qualitätskennzahlen, Produkt- und Geschäftsergebnisse, Zuverlässigkeit und Sicherheit sowie die Frage, wie generative KI die Bedeutung dieser Zahlen verändert.",
@@ -209,6 +227,15 @@ export const HERO = {
   "translations": "अनुवाद: "
  },
  "hi-in": {
+  "headline": "सॉफ़्टवेयर इंजीनियरिंग को अच्छी तरह मापें।",
+  "tagline": "मुफ़्त · खुला · विनिर्देश-आधारित",
+  "intro": "गतिविधि के बजाय वास्तविक परिणामों को दर्शाने वाले मीट्रिक चुनने पर एक कार्य-पुस्तिका: फ़्लो फ़्रेमवर्क, SPACE फ़्रेमवर्क, कतार सिद्धांत और DORA मीट्रिक, कोड और गुणवत्ता मीट्रिक, उत्पाद और व्यावसायिक परिणाम, विश्वसनीयता और सुरक्षा, और जनरेटिव एआई इन संख्याओं के अर्थ को कैसे बदल रहा है।",
+  "start": "पढ़ना शुरू करें",
+  "examples": "हल किए गए उदाहरण",
+  "contents": "विषय-सूची",
+  "translations": "अनुवाद: "
+ },
+ "hi-np": {
   "headline": "सॉफ़्टवेयर इंजीनियरिंग को अच्छी तरह मापें।",
   "tagline": "मुफ़्त · खुला · विनिर्देश-आधारित",
   "intro": "गतिविधि के बजाय वास्तविक परिणामों को दर्शाने वाले मीट्रिक चुनने पर एक कार्य-पुस्तिका: फ़्लो फ़्रेमवर्क, SPACE फ़्रेमवर्क, कतार सिद्धांत और DORA मीट्रिक, कोड और गुणवत्ता मीट्रिक, उत्पाद और व्यावसायिक परिणाम, विश्वसनीयता और सुरक्षा, और जनरेटिव एआई इन संख्याओं के अर्थ को कैसे बदल रहा है।",
@@ -442,6 +469,15 @@ export const HERO = {
   "contents": "目录",
   "translations": "翻译： "
  },
+ "zh-th": {
+  "headline": "把软件工程度量好。",
+  "tagline": "免费 · 开放 · 规范驱动",
+  "intro": "一本关于如何选择反映真实成果而非活动量的度量指标的实践之书：流框架（Flow Framework）、SPACE 框架、排队论与 DORA 指标、代码与质量指标、产品与业务成果、可靠性与安全，以及生成式 AI 如何改变这些数字的含义。",
+  "start": "开始阅读",
+  "examples": "带解答的示例",
+  "contents": "目录",
+  "translations": "翻译： "
+ },
  "it-it": {
   "headline": "Misura bene l'ingegneria del software.",
   "tagline": "Gratuito · aperto · guidato dalla specifica",
@@ -523,5 +559,9 @@ export const ENDONYMS = {
  "zh-cn": "简体中文",
  "it-it": "Italiano (Italia)",
  "id-id": "Bahasa Indonesia (Indonesia)",
- "id-my": "Bahasa Indonesia - Malaysia"
+ "id-my": "Bahasa Indonesia - Malaysia",
+ "zh-th": "简体中文 (泰国)",
+ "hi-np": "हिन्दी (नेपाल)",
+ "cy-ar": "Cymraeg (Ariannin)",
+ "de-at": "Deutsch (Österreich)"
 };

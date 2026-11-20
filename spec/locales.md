@@ -2,7 +2,7 @@
 
 The book is published in four English spelling-variant locales, each a
 complete copy of every topic, front-matter file, example, contributing guide,
-and project file, differing only in spelling, plus 48 hand-translated locales
+and project file, differing only in spelling, plus 52 hand-translated locales
 (see "Translated locales" below). All four keep identical structure, section order, word
 counts, and file names; see [structure.md](structure.md) and
 [conventions.md](conventions.md), which govern all four equally.
@@ -91,7 +91,7 @@ adding a topic, before `just test`.
 
 ## Translated locales
 
-Forty-eight hand-translated locales (a different language, with their own
+Fifty-two hand-translated locales (a different language, with their own
 slugs) are complete. Each has all 63 topics plus the other four sections,
 a translated home `index.md` and table of contents, and a section directory
 named in its own language (see [Section directory names](#section-directory-names));
@@ -121,6 +121,8 @@ titles. None is touched by `tools/localize.py`.
 | Swahili | `sw-001`, `sw-tz` | identical copies; `sw-tz` is the hand translation |
 | Urdu | `ur-001` | single locale, hand translation (right-to-left) |
 | Chinese | `zh-001`, `zh-cn` | identical copies; `zh-cn` is the hand translation |
+| Turkish | `tr-001`, `tr-tr` | identical copies; `tr-tr` is the hand translation |
+| Thai | `th-001`, `th-th` | identical copies; `th-th` is the hand translation |
 
 A `-001` copy exists so the site can serve a language-wide international
 locale; standard languages such as Hindi have no distinct country-specific
@@ -141,7 +143,7 @@ from. Welsh terminology follows the Welsh Government's TermCymru list.
 
 Every `-001` locale is wired into the site's `SERVED_LOCALE_CODES`
 (`scripts/locales.mjs`), plus `cy-gb`, `zh-cn`, `ja-jp`, `ko-kr`, `is-is`,
-`nl-nl`, `sv-se`, `sw-tz`, `id-id`, `it-it` and `hi-in`. The other country-tagged locales
+`nl-nl`, `sv-se`, `sw-tz`, `id-id`, `it-it`, `hi-in`, `tr-tr` and `th-th`. The other country-tagged locales
 (`ar-eg`, `ar-dz`, `bn-bd`, `bn-in`, `de-de`, `es-es`, `es-mx`, `fr-fr`, `fr-ca`, `id-my`, `pt-pt`, `pt-br`, `ru-ru`, `ru-by`) exist
 on disk but are not served. A missing
 section degrades gracefully on the site (an empty list, or a fallback to

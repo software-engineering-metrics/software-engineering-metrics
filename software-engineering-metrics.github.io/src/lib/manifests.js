@@ -37,6 +37,10 @@ import viVn from './manifest/vi-vn.json';
 import zh001 from './manifest/zh-001.json';
 import zhCn from './manifest/zh-cn.json';
 import itIt from './manifest/it-it.json';
+import tr001 from './manifest/tr-001.json';
+import trTr from './manifest/tr-tr.json';
+import th001 from './manifest/th-001.json';
+import thTh from './manifest/th-th.json';
 import idId from './manifest/id-id.json';
 import { DEFAULT_LOCALE } from './locales.js';
 
@@ -107,6 +111,10 @@ const MANIFESTS = {
   'zh-001': zh001,
   'zh-cn': zhCn,
   'it-it': itIt,
+  'tr-001': tr001,
+  'tr-tr': trTr,
+  'th-001': th001,
+  'th-th': thTh,
   'id-id': idId
 };
 

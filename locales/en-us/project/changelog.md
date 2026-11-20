@@ -7,6 +7,7 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Added Turkish (`tr-tr`) and Thai (`th-th`) as complete translated locales, each with an identical copy (`tr-001`, `th-001`): all 63 topics and every other section, with matching `.locale-peer-id` sidecars. All four are wired into the site and served at `/tr-tr/`, `/tr-001/`, `/th-th/` and `/th-001/`. `it-it` and `it-001` already existed. These are AI-generated drafts that have not been reviewed by fluent Turkish or Thai speakers.
 - Added Vietnamese (`vi-001`, an exact copy of `vi-vn`) as a complete translated locale: all 63 topics and every other section, with matching `.locale-peer-id` sidecars and its own `sitemap.xml`. `vi-001` and `vi-vn` are wired into the site and served at `/vi-001/` and `/vi-vn/`. This is an AI-generated draft that has not been reviewed by a fluent Vietnamese speaker.
 - Added Danish (`da-001`) as a complete translated locale: all 63 topics and every other section, with matching `.locale-peer-id` sidecars and its own `sitemap.xml`. `da-001` is wired into the site and served at `/da-001/`.
 - Added `id-id` and `it-it` as identical copies of `id-001` and `it-001`, wired into the site and served at `/id-id/` and `/it-it/`.
@@ -43,6 +44,7 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Added Turkish (`tr-tr`) and Thai (`th-th`) as complete translated locales, each with an identical copy (`tr-001`, `th-001`): all 63 topics and every other section, with matching `.locale-peer-id` sidecars. All four are wired into the site and served at `/tr-tr/`, `/tr-001/`, `/th-th/` and `/th-001/`. `it-it` and `it-001` already existed. These are AI-generated drafts that have not been reviewed by fluent Turkish or Thai speakers.
 - Dutch (`nl-nl`): translated the remaining English titles and slugs of topics 9.0, 9.3, and 9.4
   (`bijlagen`, `controlelijsten`, `sjablonen`).
 - Welsh (`cy-001`, `cy-gb`): terminology aligned with TermCymru: `risg` (risk, replacing
@@ -82,6 +84,7 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Added Turkish (`tr-tr`) and Thai (`th-th`) as complete translated locales, each with an identical copy (`tr-001`, `th-001`): all 63 topics and every other section, with matching `.locale-peer-id` sidecars. All four are wired into the site and served at `/tr-tr/`, `/tr-001/`, `/th-th/` and `/th-001/`. `it-it` and `it-001` already existed. These are AI-generated drafts that have not been reviewed by fluent Turkish or Thai speakers.
 - Revised the Welsh locales (`cy-001`, `cy-gb`, kept identical) against the Welsh
   Government's TermCymru terminology list: `llesiant` for well-being,
   `cynhyrchiant` for productivity, `gwendid`/`gwendidau` for vulnerability,
@@ -267,6 +270,7 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Added Turkish (`tr-tr`) and Thai (`th-th`) as complete translated locales, each with an identical copy (`tr-001`, `th-001`): all 63 topics and every other section, with matching `.locale-peer-id` sidecars. All four are wired into the site and served at `/tr-tr/`, `/tr-001/`, `/th-th/` and `/th-001/`. `it-it` and `it-001` already existed. These are AI-generated drafts that have not been reviewed by fluent Turkish or Thai speakers.
 - Added `scripts/generate-sitemap.mjs`, run at the end of `pnpm build`, which
   writes `sitemap.xml` from the prerendered pages (canonical locale URLs only,
   no two-letter alias duplicates) so the `Sitemap:` line in `robots.txt`

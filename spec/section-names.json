@@ -343,6 +343,34 @@
       "examples": "ví-dụ",
       "contributing": "đóng-góp",
       "project": "dự-án"
+    },
+    "tr-001": {
+      "chapters": "konular",
+      "front-matter": "onsoz",
+      "examples": "ornekler",
+      "contributing": "katki",
+      "project": "proje"
+    },
+    "tr-tr": {
+      "chapters": "konular",
+      "front-matter": "onsoz",
+      "examples": "ornekler",
+      "contributing": "katki",
+      "project": "proje"
+    },
+    "th-001": {
+      "chapters": "หัวข้อ",
+      "front-matter": "คำนำ",
+      "examples": "ตัวอย่าง",
+      "contributing": "การมีส่วนร่วม",
+      "project": "โครงการ"
+    },
+    "th-th": {
+      "chapters": "หัวข้อ",
+      "front-matter": "คำนำ",
+      "examples": "ตัวอย่าง",
+      "contributing": "การมีส่วนร่วม",
+      "project": "โครงการ"
     }
   }
 }

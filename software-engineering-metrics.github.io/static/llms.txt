@@ -139,6 +139,10 @@ The book is published in several locales. The English locale below is the defaul
 - [中文 (中国) (zh-cn)](https://software-engineering-metrics.github.io/zh-cn/)
 - [Italiano (Italia) (it-it)](https://software-engineering-metrics.github.io/it-it/)
 - [Bahasa Indonesia (Indonesia) (id-id)](https://software-engineering-metrics.github.io/id-id/)
+- [Türkçe (tr-001)](https://software-engineering-metrics.github.io/tr-001/)
+- [Türkçe (Türkiye) (tr-tr)](https://software-engineering-metrics.github.io/tr-tr/)
+- [ไทย (th-001)](https://software-engineering-metrics.github.io/th-001/)
+- [ไทย (ประเทศไทย) (th-th)](https://software-engineering-metrics.github.io/th-th/)
 
 ## For contributors and agents
 

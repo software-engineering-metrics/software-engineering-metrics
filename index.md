@@ -6,7 +6,7 @@ A map of everything in this repository. For the book itself, start with the
 The book is published as a website at
 <https://software-engineering-metrics.github.io/>.
 
-## The book (published in 52 locales; see spec/locales.md)
+## The book (published in 56 locales; see spec/locales.md)
 
 - **[README.md](README.md)** : the full table of contents (9 parts, 47 substantive topics), in the reference locale.
 - **[locales/en-gb-oxendict/](locales/en-gb-oxendict/)** : British English, Oxford spelling. The authoring source; hand-edit here.

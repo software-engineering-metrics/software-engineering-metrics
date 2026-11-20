@@ -1,0 +1,1902 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "tr-tr",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-bolum-1e-giris-olcumun-temelleri",
+          "title": "Bölüm 1'e giriş: Ölçümün temelleri",
+          "heading": "1.0 Bölüm 1'e giriş: Ölçümün temelleri",
+          "file": "chapters/01-00-bolum-1e-giris-olcumun-temelleri.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-yazilim-muhendisligi-neden-olculur",
+          "title": "Yazılım mühendisliği neden ölçülür",
+          "heading": "1.1 Yazılım mühendisliği neden ölçülür",
+          "file": "chapters/01-01-yazilim-muhendisligi-neden-olculur.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-goodhart-yasasi-ve-metriklerin-psikolojisi",
+          "title": "Goodhart yasası ve metriklerin psikolojisi",
+          "heading": "1.2 Goodhart yasası ve metriklerin psikolojisi",
+          "file": "chapters/01-02-goodhart-yasasi-ve-metriklerin-psikolojisi.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-cikti-yerine-sonuc-ne-olculecegini-secmek",
+          "title": "Çıktı yerine sonuç: Ne ölçüleceğini seçmek",
+          "heading": "1.3 Çıktı yerine sonuç: Ne ölçüleceğini seçmek",
+          "file": "chapters/01-03-cikti-yerine-sonuc-ne-olculecegini-secmek.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-metrik-yonetisimi-ve-sahiplik",
+          "title": "Metrik yönetişimi ve sahiplik",
+          "heading": "1.4 Metrik yönetişimi ve sahiplik",
+          "file": "chapters/01-04-metrik-yonetisimi-ve-sahiplik.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-veri-kaynaklari-ve-enstrumantasyon",
+          "title": "Veri kaynakları ve enstrümantasyon",
+          "heading": "1.5 Veri kaynakları ve enstrümantasyon",
+          "file": "chapters/01-05-veri-kaynaklari-ve-enstrumantasyon.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-muhendislik-metrikleri-icin-istatistik-okuryazarligi",
+          "title": "Mühendislik metrikleri için istatistik okuryazarlığı",
+          "heading": "1.6 Mühendislik metrikleri için istatistik okuryazarlığı",
+          "file": "chapters/01-06-muhendislik-metrikleri-icin-istatistik-okuryazarligi.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-bolum-2-ye-giris-akis-metrikleri",
+          "title": "Bölüm 2'ye giriş: Akış metrikleri",
+          "heading": "2.0 Bölüm 2'ye giriş: Akış metrikleri",
+          "file": "chapters/02-00-bolum-2-ye-giris-akis-metrikleri.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-flow-framework",
+          "title": "Flow Framework",
+          "heading": "2.1 Flow Framework",
+          "file": "chapters/02-01-flow-framework.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-akis-ogeleri-ozellikler-hatalar-riskler-ve-borc",
+          "title": "Akış öğeleri: özellikler, hatalar, riskler ve borç",
+          "heading": "2.2 Akış öğeleri: özellikler, hatalar, riskler ve borç",
+          "file": "chapters/02-02-akis-ogeleri-ozellikler-hatalar-riskler-ve-borc.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-akis-hizi-ve-akis-dagilimi",
+          "title": "Akış hızı ve akış dağılımı",
+          "heading": "2.3 Akış hızı ve akış dağılımı",
+          "file": "chapters/02-03-akis-hizi-ve-akis-dagilimi.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-akis-suresi-ve-akis-yuku",
+          "title": "Akış süresi ve akış yükü",
+          "heading": "2.4 Akış süresi ve akış yükü",
+          "file": "chapters/02-04-akis-suresi-ve-akis-yuku.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-akis-verimliligi-ve-surecteki-is",
+          "title": "Akış verimliliği ve süreçteki iş",
+          "heading": "2.5 Akış verimliliği ve süreçteki iş",
+          "file": "chapters/02-05-akis-verimliligi-ve-surecteki-is.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-dongu-suresi-ve-bilesenleri",
+          "title": "Döngü süresi (cycle time) ve bileşenleri",
+          "heading": "2.6 Döngü süresi (cycle time) ve bileşenleri",
+          "file": "chapters/02-06-dongu-suresi-ve-bilesenleri.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-kuyruk-kurami",
+          "title": "Kuyruk kuramı",
+          "heading": "2.7 Kuyruk kuramı",
+          "file": "chapters/02-07-kuyruk-kurami.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-yalin-deger-akisi-metrikleri",
+          "title": "Yalın değer akışı metrikleri",
+          "heading": "2.8 Yalın değer akışı metrikleri",
+          "file": "chapters/02-08-yalin-deger-akisi-metrikleri.md"
+        },
+        {
+          "part": 2,
+          "chapter": 9,
+          "decimal": "2.9",
+          "slug": "02-09-pull-request-ve-kod-inceleme-metrikleri",
+          "title": "Pull request ve kod inceleme metrikleri",
+          "heading": "2.9 Pull request ve kod inceleme metrikleri",
+          "file": "chapters/02-09-pull-request-ve-kod-inceleme-metrikleri.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-dora-metrikleri-cercevesi",
+          "title": "DORA metrikleri çerçevesi",
+          "heading": "2.10 DORA metrikleri çerçevesi",
+          "file": "chapters/02-10-dora-metrikleri-cercevesi.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-gelistirici-deneyimi-ve-space",
+          "title": "Bölüm 3'e giriş: Geliştirici deneyimi ve SPACE çerçevesi",
+          "heading": "3.0 Bölüm 3'e giriş: Geliştirici deneyimi ve SPACE çerçevesi",
+          "file": "chapters/03-00-gelistirici-deneyimi-ve-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-space-cercevesi",
+          "title": "SPACE çerçevesi",
+          "heading": "3.1 SPACE çerçevesi",
+          "file": "chapters/03-01-space-cercevesi.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-memnuniyet-ve-iyi-olus-metrikleri",
+          "title": "Memnuniyet ve iyi oluş metrikleri",
+          "heading": "3.2 Memnuniyet ve iyi oluş metrikleri",
+          "file": "chapters/03-02-memnuniyet-ve-iyi-olus-metrikleri.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-performans-metrikleri-ve-sonuc-vekilleri",
+          "title": "Performans metrikleri ve sonuç vekilleri",
+          "heading": "3.3 Performans metrikleri ve sonuç vekilleri",
+          "file": "chapters/03-03-performans-metrikleri-ve-sonuc-vekilleri.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-etkinlik-metrikleri-ve-sinirlari",
+          "title": "Etkinlik metrikleri ve sınırları",
+          "heading": "3.4 Etkinlik metrikleri ve sınırları",
+          "file": "chapters/03-04-etkinlik-metrikleri-ve-sinirlari.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-iletisim-ve-is-birligi-metrikleri",
+          "title": "İletişim ve iş birliği metrikleri",
+          "heading": "3.5 İletişim ve iş birliği metrikleri",
+          "file": "chapters/03-05-iletisim-ve-is-birligi-metrikleri.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-verimlilik-ve-akis-derin-calisma-ve-kesintiler",
+          "title": "Verimlilik ve akış: derin çalışma ve kesintiler",
+          "heading": "3.6 Verimlilik ve akış: derin çalışma ve kesintiler",
+          "file": "chapters/03-06-verimlilik-ve-akis-derin-calisma-ve-kesintiler.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-gelistirici-deneyimi-anketleri-ve-devex-metrikleri",
+          "title": "Geliştirici deneyimi anketleri ve DevEx metrikleri",
+          "heading": "3.7 Geliştirici deneyimi anketleri ve DevEx metrikleri",
+          "file": "chapters/03-07-gelistirici-deneyimi-anketleri-ve-devex-metrikleri.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-bolum-4e-giris-kod-ve-kalite-metrikleri",
+          "title": "Bölüm 4'e giriş: Kod ve kalite metrikleri",
+          "heading": "4.0 Bölüm 4'e giriş: Kod ve kalite metrikleri",
+          "file": "chapters/04-00-bolum-4e-giris-kod-ve-kalite-metrikleri.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-kod-karmasikligi-metrikleri",
+          "title": "Kod karmaşıklığı metrikleri",
+          "heading": "4.1 Kod karmaşıklığı metrikleri",
+          "file": "chapters/04-01-kod-karmasikligi-metrikleri.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-test-kapsamasi-ve-test-etkinligi",
+          "title": "Test kapsaması ve test etkinliği",
+          "heading": "4.2 Test kapsaması ve test etkinliği",
+          "file": "chapters/04-02-test-kapsamasi-ve-test-etkinligi.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-kod-degisim-yogunlugu-ve-sicak-nokta-analizi",
+          "title": "Kod değişim yoğunluğu ve sıcak nokta analizi",
+          "heading": "4.3 Kod değişim yoğunluğu ve sıcak nokta analizi",
+          "file": "chapters/04-03-kod-degisim-yogunlugu-ve-sicak-nokta-analizi.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-statik-analiz-ve-kod-kokusu-metrikleri",
+          "title": "Statik analiz ve kod kokusu metrikleri",
+          "heading": "4.4 Statik analiz ve kod kokusu metrikleri",
+          "file": "chapters/04-04-statik-analiz-ve-kod-kokusu-metrikleri.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-teknik-borc-olcumu",
+          "title": "Teknik borç ölçümü",
+          "heading": "4.5 Teknik borç ölçümü",
+          "file": "chapters/04-05-teknik-borc-olcumu.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-dokumantasyon-ve-bilgi-metrikleri",
+          "title": "Dokümantasyon ve bilgi metrikleri",
+          "heading": "4.6 Dokümantasyon ve bilgi metrikleri",
+          "file": "chapters/04-06-dokumantasyon-ve-bilgi-metrikleri.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-urun-ve-is-metrikleri",
+          "title": "Bölüm 5'e giriş: Ürün ve iş metrikleri",
+          "heading": "5.0 Bölüm 5'e giriş: Ürün ve iş metrikleri",
+          "file": "chapters/05-00-urun-ve-is-metrikleri.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-kacan-hata-orani-ve-kalite-kacaklari",
+          "title": "Kaçan hata oranı ve kalite kaçakları",
+          "heading": "5.1 Kaçan hata oranı ve kalite kaçakları",
+          "file": "chapters/05-01-kacan-hata-orani-ve-kalite-kacaklari.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-ozellik-benimsenmesi-ve-kullanim-metrikleri",
+          "title": "Özellik benimsenmesi ve kullanım metrikleri",
+          "heading": "5.2 Özellik benimsenmesi ve kullanım metrikleri",
+          "file": "chapters/05-02-ozellik-benimsenmesi-ve-kullanim-metrikleri.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-musteri-ve-is-sonucu-metrikleri",
+          "title": "Müşteri ve iş sonucu metrikleri",
+          "heading": "5.3 Müşteri ve iş sonucu metrikleri",
+          "file": "chapters/05-03-musteri-ve-is-sonucu-metrikleri.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-muhendisligin-maliyeti-ve-birim-ekonomisi",
+          "title": "Mühendisliğin maliyeti ve birim ekonomisi",
+          "heading": "5.4 Mühendisliğin maliyeti ve birim ekonomisi",
+          "file": "chapters/05-04-muhendisligin-maliyeti-ve-birim-ekonomisi.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-muhendislik-girisimlerinde-yatirim-getirisi",
+          "title": "Mühendislik girişimlerinde yatırım getirisi",
+          "heading": "5.5 Mühendislik girişimlerinde yatırım getirisi",
+          "file": "chapters/05-05-muhendislik-girisimlerinde-yatirim-getirisi.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-bolum-6ya-giris-guvenilirlik-operasyon-ve-guvenlik-metrikleri",
+          "title": "Bölüm 6'ya giriş: Güvenilirlik, operasyon ve güvenlik metrikleri",
+          "heading": "6.0 Bölüm 6'ya giriş: Güvenilirlik, operasyon ve güvenlik metrikleri",
+          "file": "chapters/06-00-bolum-6ya-giris-guvenilirlik-operasyon-ve-guvenlik-metrikleri.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-hizmet-seviyesi-gostergeleri-hedefleri-ve-hata-butceleri",
+          "title": "Hizmet seviyesi göstergeleri, hedefleri ve hata bütçeleri",
+          "heading": "6.1 Hizmet seviyesi göstergeleri, hedefleri ve hata bütçeleri",
+          "file": "chapters/06-01-hizmet-seviyesi-gostergeleri-hedefleri-ve-hata-butceleri.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-olay-metrikleri-tespit-mudahale-ve-toparlanma",
+          "title": "Olay metrikleri: tespit, müdahale ve toparlanma",
+          "heading": "6.2 Olay metrikleri: tespit, müdahale ve toparlanma",
+          "file": "chapters/06-02-olay-metrikleri-tespit-mudahale-ve-toparlanma.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-nobet-kapasite-ve-operasyonel-yuk-metrikleri",
+          "title": "Nöbet, kapasite ve operasyonel yük metrikleri",
+          "heading": "6.3 Nöbet, kapasite ve operasyonel yük metrikleri",
+          "file": "chapters/06-03-nobet-kapasite-ve-operasyonel-yuk-metrikleri.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-guvenlik-ve-aciklik-yonetimi-metrikleri",
+          "title": "Güvenlik ve açık yönetimi metrikleri",
+          "heading": "6.4 Güvenlik ve açık yönetimi metrikleri",
+          "file": "chapters/06-04-guvenlik-ve-aciklik-yonetimi-metrikleri.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-yapay-zeka-caginda-metrikler",
+          "title": "Bölüm 7'ye giriş: Yapay zeka çağında metrikler",
+          "heading": "7.0 Bölüm 7'ye giriş: Yapay zeka çağında metrikler",
+          "file": "chapters/07-00-yapay-zeka-caginda-metrikler.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-uretken-yapay-zeka-paradigma-degisimi",
+          "title": "Üretken yapay zeka paradigma değişimi",
+          "heading": "7.1 Üretken yapay zeka paradigma değişimi",
+          "file": "chapters/07-01-uretken-yapay-zeka-paradigma-degisimi.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-yapay-zeka-destekli-yazilim-gelistirmeyi-olcmek",
+          "title": "Yapay zeka destekli yazılım geliştirmeyi ölçmek",
+          "heading": "7.2 Yapay zeka destekli yazılım geliştirmeyi ölçmek",
+          "file": "chapters/07-02-yapay-zeka-destekli-yazilim-gelistirmeyi-olcmek.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-metrik-sismesi-ve-kalite-seyrelmesi-riskleri",
+          "title": "Metrik şişmesi ve kalite seyrelmesi riskleri",
+          "heading": "7.3 Metrik şişmesi ve kalite seyrelmesi riskleri",
+          "file": "chapters/07-03-metrik-sismesi-ve-kalite-seyrelmesi-riskleri.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-yeni-kutup-yildizi-olarak-sonuc-telemetrisi",
+          "title": "Yeni kutup yıldızı olarak sonuç telemetrisi",
+          "heading": "7.4 Yeni kutup yıldızı olarak sonuç telemetrisi",
+          "file": "chapters/07-04-yeni-kutup-yildizi-olarak-sonuc-telemetrisi.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-bolum-8-giris-metrik-programi-kurmak",
+          "title": "Bölüm 8'e giriş: Metrik programı kurmak",
+          "heading": "8.0 Bölüm 8'e giriş: Metrik programı kurmak",
+          "file": "chapters/08-00-bolum-8-giris-metrik-programi-kurmak.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-muhendislik-metrikleri-panosu-tasarlamak",
+          "title": "Mühendislik metrikleri panosu tasarlamak",
+          "heading": "8.1 Mühendislik metrikleri panosu tasarlamak",
+          "file": "chapters/08-01-muhendislik-metrikleri-panosu-tasarlamak.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-arac-ortami-kendin-yap-ya-da-satin-al",
+          "title": "Araç ortamı: kendin yap ya da satın al",
+          "heading": "8.2 Araç ortamı: kendin yap ya da satın al",
+          "file": "chapters/08-02-arac-ortami-kendin-yap-ya-da-satin-al.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-korku-yaratmadan-metrikleri-devreye-almak",
+          "title": "Korku yaratmadan metrikleri devreye almak",
+          "heading": "8.3 Korku yaratmadan metrikleri devreye almak",
+          "file": "chapters/08-03-korku-yaratmadan-metrikleri-devreye-almak.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-muhendislik-metrik-programlari-icin-olgunluk-modeli",
+          "title": "Mühendislik metrik programları için olgunluk modeli",
+          "heading": "8.4 Mühendislik metrik programları için olgunluk modeli",
+          "file": "chapters/08-04-muhendislik-metrik-programlari-icin-olgunluk-modeli.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-kademeli-bir-benimseme-yol-haritasi",
+          "title": "Kademeli bir benimseme yol haritası",
+          "heading": "8.5 Kademeli bir benimseme yol haritası",
+          "file": "chapters/08-05-kademeli-bir-benimseme-yol-haritasi.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-ekler",
+          "title": "Ekler",
+          "heading": "9.0 Ekler",
+          "file": "chapters/09-00-ekler.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-sozluk",
+          "title": "Sözlük",
+          "heading": "9.1 Sözlük",
+          "file": "chapters/09-01-sozluk.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-metrik-tanimlari-ve-formuller-referansi",
+          "title": "Metrik tanımları ve formüller referansı",
+          "heading": "9.2 Metrik tanımları ve formüller referansı",
+          "file": "chapters/09-02-metrik-tanimlari-ve-formuller-referansi.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-kontrol-listeleri",
+          "title": "Kontrol listeleri",
+          "heading": "9.3 Kontrol listeleri",
+          "file": "chapters/09-03-kontrol-listeleri.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-sablonlar",
+          "title": "Şablonlar",
+          "heading": "9.4 Şablonlar",
+          "file": "chapters/09-04-sablonlar.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-olgunluk-oz-degerlendirmesi",
+          "title": "Olgunluk öz değerlendirmesi",
+          "heading": "9.5 Olgunluk öz değerlendirmesi",
+          "file": "chapters/09-05-olgunluk-oz-degerlendirmesi.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-kaynaklar-ve-ileri-okuma",
+          "title": "Kaynaklar ve ileri okuma",
+          "heading": "9.6 Kaynaklar ve ileri okuma",
+          "file": "chapters/09-06-kaynaklar-ve-ileri-okuma.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-dizin",
+          "title": "Dizin",
+          "heading": "9.7 Dizin",
+          "file": "chapters/09-07-dizin.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-bolum-1e-giris-olcumun-temelleri",
+      "title": "Bölüm 1'e giriş: Ölçümün temelleri",
+      "heading": "1.0 Bölüm 1'e giriş: Ölçümün temelleri",
+      "file": "chapters/01-00-bolum-1e-giris-olcumun-temelleri.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-yazilim-muhendisligi-neden-olculur",
+      "title": "Yazılım mühendisliği neden ölçülür",
+      "heading": "1.1 Yazılım mühendisliği neden ölçülür",
+      "file": "chapters/01-01-yazilim-muhendisligi-neden-olculur.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-goodhart-yasasi-ve-metriklerin-psikolojisi",
+      "title": "Goodhart yasası ve metriklerin psikolojisi",
+      "heading": "1.2 Goodhart yasası ve metriklerin psikolojisi",
+      "file": "chapters/01-02-goodhart-yasasi-ve-metriklerin-psikolojisi.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-cikti-yerine-sonuc-ne-olculecegini-secmek",
+      "title": "Çıktı yerine sonuç: Ne ölçüleceğini seçmek",
+      "heading": "1.3 Çıktı yerine sonuç: Ne ölçüleceğini seçmek",
+      "file": "chapters/01-03-cikti-yerine-sonuc-ne-olculecegini-secmek.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-metrik-yonetisimi-ve-sahiplik",
+      "title": "Metrik yönetişimi ve sahiplik",
+      "heading": "1.4 Metrik yönetişimi ve sahiplik",
+      "file": "chapters/01-04-metrik-yonetisimi-ve-sahiplik.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-veri-kaynaklari-ve-enstrumantasyon",
+      "title": "Veri kaynakları ve enstrümantasyon",
+      "heading": "1.5 Veri kaynakları ve enstrümantasyon",
+      "file": "chapters/01-05-veri-kaynaklari-ve-enstrumantasyon.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-muhendislik-metrikleri-icin-istatistik-okuryazarligi",
+      "title": "Mühendislik metrikleri için istatistik okuryazarlığı",
+      "heading": "1.6 Mühendislik metrikleri için istatistik okuryazarlığı",
+      "file": "chapters/01-06-muhendislik-metrikleri-icin-istatistik-okuryazarligi.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-bolum-2-ye-giris-akis-metrikleri",
+      "title": "Bölüm 2'ye giriş: Akış metrikleri",
+      "heading": "2.0 Bölüm 2'ye giriş: Akış metrikleri",
+      "file": "chapters/02-00-bolum-2-ye-giris-akis-metrikleri.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-flow-framework.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-akis-ogeleri-ozellikler-hatalar-riskler-ve-borc",
+      "title": "Akış öğeleri: özellikler, hatalar, riskler ve borç",
+      "heading": "2.2 Akış öğeleri: özellikler, hatalar, riskler ve borç",
+      "file": "chapters/02-02-akis-ogeleri-ozellikler-hatalar-riskler-ve-borc.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-akis-hizi-ve-akis-dagilimi",
+      "title": "Akış hızı ve akış dağılımı",
+      "heading": "2.3 Akış hızı ve akış dağılımı",
+      "file": "chapters/02-03-akis-hizi-ve-akis-dagilimi.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-akis-suresi-ve-akis-yuku",
+      "title": "Akış süresi ve akış yükü",
+      "heading": "2.4 Akış süresi ve akış yükü",
+      "file": "chapters/02-04-akis-suresi-ve-akis-yuku.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-akis-verimliligi-ve-surecteki-is",
+      "title": "Akış verimliliği ve süreçteki iş",
+      "heading": "2.5 Akış verimliliği ve süreçteki iş",
+      "file": "chapters/02-05-akis-verimliligi-ve-surecteki-is.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-dongu-suresi-ve-bilesenleri",
+      "title": "Döngü süresi (cycle time) ve bileşenleri",
+      "heading": "2.6 Döngü süresi (cycle time) ve bileşenleri",
+      "file": "chapters/02-06-dongu-suresi-ve-bilesenleri.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-kuyruk-kurami",
+      "title": "Kuyruk kuramı",
+      "heading": "2.7 Kuyruk kuramı",
+      "file": "chapters/02-07-kuyruk-kurami.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-yalin-deger-akisi-metrikleri",
+      "title": "Yalın değer akışı metrikleri",
+      "heading": "2.8 Yalın değer akışı metrikleri",
+      "file": "chapters/02-08-yalin-deger-akisi-metrikleri.md"
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-pull-request-ve-kod-inceleme-metrikleri",
+      "title": "Pull request ve kod inceleme metrikleri",
+      "heading": "2.9 Pull request ve kod inceleme metrikleri",
+      "file": "chapters/02-09-pull-request-ve-kod-inceleme-metrikleri.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-dora-metrikleri-cercevesi",
+      "title": "DORA metrikleri çerçevesi",
+      "heading": "2.10 DORA metrikleri çerçevesi",
+      "file": "chapters/02-10-dora-metrikleri-cercevesi.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-gelistirici-deneyimi-ve-space",
+      "title": "Bölüm 3'e giriş: Geliştirici deneyimi ve SPACE çerçevesi",
+      "heading": "3.0 Bölüm 3'e giriş: Geliştirici deneyimi ve SPACE çerçevesi",
+      "file": "chapters/03-00-gelistirici-deneyimi-ve-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-space-cercevesi",
+      "title": "SPACE çerçevesi",
+      "heading": "3.1 SPACE çerçevesi",
+      "file": "chapters/03-01-space-cercevesi.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-memnuniyet-ve-iyi-olus-metrikleri",
+      "title": "Memnuniyet ve iyi oluş metrikleri",
+      "heading": "3.2 Memnuniyet ve iyi oluş metrikleri",
+      "file": "chapters/03-02-memnuniyet-ve-iyi-olus-metrikleri.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-performans-metrikleri-ve-sonuc-vekilleri",
+      "title": "Performans metrikleri ve sonuç vekilleri",
+      "heading": "3.3 Performans metrikleri ve sonuç vekilleri",
+      "file": "chapters/03-03-performans-metrikleri-ve-sonuc-vekilleri.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-etkinlik-metrikleri-ve-sinirlari",
+      "title": "Etkinlik metrikleri ve sınırları",
+      "heading": "3.4 Etkinlik metrikleri ve sınırları",
+      "file": "chapters/03-04-etkinlik-metrikleri-ve-sinirlari.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-iletisim-ve-is-birligi-metrikleri",
+      "title": "İletişim ve iş birliği metrikleri",
+      "heading": "3.5 İletişim ve iş birliği metrikleri",
+      "file": "chapters/03-05-iletisim-ve-is-birligi-metrikleri.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-verimlilik-ve-akis-derin-calisma-ve-kesintiler",
+      "title": "Verimlilik ve akış: derin çalışma ve kesintiler",
+      "heading": "3.6 Verimlilik ve akış: derin çalışma ve kesintiler",
+      "file": "chapters/03-06-verimlilik-ve-akis-derin-calisma-ve-kesintiler.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-gelistirici-deneyimi-anketleri-ve-devex-metrikleri",
+      "title": "Geliştirici deneyimi anketleri ve DevEx metrikleri",
+      "heading": "3.7 Geliştirici deneyimi anketleri ve DevEx metrikleri",
+      "file": "chapters/03-07-gelistirici-deneyimi-anketleri-ve-devex-metrikleri.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-bolum-4e-giris-kod-ve-kalite-metrikleri",
+      "title": "Bölüm 4'e giriş: Kod ve kalite metrikleri",
+      "heading": "4.0 Bölüm 4'e giriş: Kod ve kalite metrikleri",
+      "file": "chapters/04-00-bolum-4e-giris-kod-ve-kalite-metrikleri.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-kod-karmasikligi-metrikleri",
+      "title": "Kod karmaşıklığı metrikleri",
+      "heading": "4.1 Kod karmaşıklığı metrikleri",
+      "file": "chapters/04-01-kod-karmasikligi-metrikleri.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-test-kapsamasi-ve-test-etkinligi",
+      "title": "Test kapsaması ve test etkinliği",
+      "heading": "4.2 Test kapsaması ve test etkinliği",
+      "file": "chapters/04-02-test-kapsamasi-ve-test-etkinligi.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-kod-degisim-yogunlugu-ve-sicak-nokta-analizi",
+      "title": "Kod değişim yoğunluğu ve sıcak nokta analizi",
+      "heading": "4.3 Kod değişim yoğunluğu ve sıcak nokta analizi",
+      "file": "chapters/04-03-kod-degisim-yogunlugu-ve-sicak-nokta-analizi.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-statik-analiz-ve-kod-kokusu-metrikleri",
+      "title": "Statik analiz ve kod kokusu metrikleri",
+      "heading": "4.4 Statik analiz ve kod kokusu metrikleri",
+      "file": "chapters/04-04-statik-analiz-ve-kod-kokusu-metrikleri.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-teknik-borc-olcumu",
+      "title": "Teknik borç ölçümü",
+      "heading": "4.5 Teknik borç ölçümü",
+      "file": "chapters/04-05-teknik-borc-olcumu.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-dokumantasyon-ve-bilgi-metrikleri",
+      "title": "Dokümantasyon ve bilgi metrikleri",
+      "heading": "4.6 Dokümantasyon ve bilgi metrikleri",
+      "file": "chapters/04-06-dokumantasyon-ve-bilgi-metrikleri.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-urun-ve-is-metrikleri",
+      "title": "Bölüm 5'e giriş: Ürün ve iş metrikleri",
+      "heading": "5.0 Bölüm 5'e giriş: Ürün ve iş metrikleri",
+      "file": "chapters/05-00-urun-ve-is-metrikleri.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-kacan-hata-orani-ve-kalite-kacaklari",
+      "title": "Kaçan hata oranı ve kalite kaçakları",
+      "heading": "5.1 Kaçan hata oranı ve kalite kaçakları",
+      "file": "chapters/05-01-kacan-hata-orani-ve-kalite-kacaklari.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-ozellik-benimsenmesi-ve-kullanim-metrikleri",
+      "title": "Özellik benimsenmesi ve kullanım metrikleri",
+      "heading": "5.2 Özellik benimsenmesi ve kullanım metrikleri",
+      "file": "chapters/05-02-ozellik-benimsenmesi-ve-kullanim-metrikleri.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-musteri-ve-is-sonucu-metrikleri",
+      "title": "Müşteri ve iş sonucu metrikleri",
+      "heading": "5.3 Müşteri ve iş sonucu metrikleri",
+      "file": "chapters/05-03-musteri-ve-is-sonucu-metrikleri.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-muhendisligin-maliyeti-ve-birim-ekonomisi",
+      "title": "Mühendisliğin maliyeti ve birim ekonomisi",
+      "heading": "5.4 Mühendisliğin maliyeti ve birim ekonomisi",
+      "file": "chapters/05-04-muhendisligin-maliyeti-ve-birim-ekonomisi.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-muhendislik-girisimlerinde-yatirim-getirisi",
+      "title": "Mühendislik girişimlerinde yatırım getirisi",
+      "heading": "5.5 Mühendislik girişimlerinde yatırım getirisi",
+      "file": "chapters/05-05-muhendislik-girisimlerinde-yatirim-getirisi.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-bolum-6ya-giris-guvenilirlik-operasyon-ve-guvenlik-metrikleri",
+      "title": "Bölüm 6'ya giriş: Güvenilirlik, operasyon ve güvenlik metrikleri",
+      "heading": "6.0 Bölüm 6'ya giriş: Güvenilirlik, operasyon ve güvenlik metrikleri",
+      "file": "chapters/06-00-bolum-6ya-giris-guvenilirlik-operasyon-ve-guvenlik-metrikleri.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-hizmet-seviyesi-gostergeleri-hedefleri-ve-hata-butceleri",
+      "title": "Hizmet seviyesi göstergeleri, hedefleri ve hata bütçeleri",
+      "heading": "6.1 Hizmet seviyesi göstergeleri, hedefleri ve hata bütçeleri",
+      "file": "chapters/06-01-hizmet-seviyesi-gostergeleri-hedefleri-ve-hata-butceleri.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-olay-metrikleri-tespit-mudahale-ve-toparlanma",
+      "title": "Olay metrikleri: tespit, müdahale ve toparlanma",
+      "heading": "6.2 Olay metrikleri: tespit, müdahale ve toparlanma",
+      "file": "chapters/06-02-olay-metrikleri-tespit-mudahale-ve-toparlanma.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-nobet-kapasite-ve-operasyonel-yuk-metrikleri",
+      "title": "Nöbet, kapasite ve operasyonel yük metrikleri",
+      "heading": "6.3 Nöbet, kapasite ve operasyonel yük metrikleri",
+      "file": "chapters/06-03-nobet-kapasite-ve-operasyonel-yuk-metrikleri.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-guvenlik-ve-aciklik-yonetimi-metrikleri",
+      "title": "Güvenlik ve açık yönetimi metrikleri",
+      "heading": "6.4 Güvenlik ve açık yönetimi metrikleri",
+      "file": "chapters/06-04-guvenlik-ve-aciklik-yonetimi-metrikleri.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-yapay-zeka-caginda-metrikler",
+      "title": "Bölüm 7'ye giriş: Yapay zeka çağında metrikler",
+      "heading": "7.0 Bölüm 7'ye giriş: Yapay zeka çağında metrikler",
+      "file": "chapters/07-00-yapay-zeka-caginda-metrikler.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-uretken-yapay-zeka-paradigma-degisimi",
+      "title": "Üretken yapay zeka paradigma değişimi",
+      "heading": "7.1 Üretken yapay zeka paradigma değişimi",
+      "file": "chapters/07-01-uretken-yapay-zeka-paradigma-degisimi.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-yapay-zeka-destekli-yazilim-gelistirmeyi-olcmek",
+      "title": "Yapay zeka destekli yazılım geliştirmeyi ölçmek",
+      "heading": "7.2 Yapay zeka destekli yazılım geliştirmeyi ölçmek",
+      "file": "chapters/07-02-yapay-zeka-destekli-yazilim-gelistirmeyi-olcmek.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-metrik-sismesi-ve-kalite-seyrelmesi-riskleri",
+      "title": "Metrik şişmesi ve kalite seyrelmesi riskleri",
+      "heading": "7.3 Metrik şişmesi ve kalite seyrelmesi riskleri",
+      "file": "chapters/07-03-metrik-sismesi-ve-kalite-seyrelmesi-riskleri.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-yeni-kutup-yildizi-olarak-sonuc-telemetrisi",
+      "title": "Yeni kutup yıldızı olarak sonuç telemetrisi",
+      "heading": "7.4 Yeni kutup yıldızı olarak sonuç telemetrisi",
+      "file": "chapters/07-04-yeni-kutup-yildizi-olarak-sonuc-telemetrisi.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-bolum-8-giris-metrik-programi-kurmak",
+      "title": "Bölüm 8'e giriş: Metrik programı kurmak",
+      "heading": "8.0 Bölüm 8'e giriş: Metrik programı kurmak",
+      "file": "chapters/08-00-bolum-8-giris-metrik-programi-kurmak.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-muhendislik-metrikleri-panosu-tasarlamak",
+      "title": "Mühendislik metrikleri panosu tasarlamak",
+      "heading": "8.1 Mühendislik metrikleri panosu tasarlamak",
+      "file": "chapters/08-01-muhendislik-metrikleri-panosu-tasarlamak.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-arac-ortami-kendin-yap-ya-da-satin-al",
+      "title": "Araç ortamı: kendin yap ya da satın al",
+      "heading": "8.2 Araç ortamı: kendin yap ya da satın al",
+      "file": "chapters/08-02-arac-ortami-kendin-yap-ya-da-satin-al.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-korku-yaratmadan-metrikleri-devreye-almak",
+      "title": "Korku yaratmadan metrikleri devreye almak",
+      "heading": "8.3 Korku yaratmadan metrikleri devreye almak",
+      "file": "chapters/08-03-korku-yaratmadan-metrikleri-devreye-almak.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-muhendislik-metrik-programlari-icin-olgunluk-modeli",
+      "title": "Mühendislik metrik programları için olgunluk modeli",
+      "heading": "8.4 Mühendislik metrik programları için olgunluk modeli",
+      "file": "chapters/08-04-muhendislik-metrik-programlari-icin-olgunluk-modeli.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-kademeli-bir-benimseme-yol-haritasi",
+      "title": "Kademeli bir benimseme yol haritası",
+      "heading": "8.5 Kademeli bir benimseme yol haritası",
+      "file": "chapters/08-05-kademeli-bir-benimseme-yol-haritasi.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-ekler",
+      "title": "Ekler",
+      "heading": "9.0 Ekler",
+      "file": "chapters/09-00-ekler.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-sozluk",
+      "title": "Sözlük",
+      "heading": "9.1 Sözlük",
+      "file": "chapters/09-01-sozluk.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-metrik-tanimlari-ve-formuller-referansi",
+      "title": "Metrik tanımları ve formüller referansı",
+      "heading": "9.2 Metrik tanımları ve formüller referansı",
+      "file": "chapters/09-02-metrik-tanimlari-ve-formuller-referansi.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-kontrol-listeleri",
+      "title": "Kontrol listeleri",
+      "heading": "9.3 Kontrol listeleri",
+      "file": "chapters/09-03-kontrol-listeleri.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-sablonlar",
+      "title": "Şablonlar",
+      "heading": "9.4 Şablonlar",
+      "file": "chapters/09-04-sablonlar.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-olgunluk-oz-degerlendirmesi",
+      "title": "Olgunluk öz değerlendirmesi",
+      "heading": "9.5 Olgunluk öz değerlendirmesi",
+      "file": "chapters/09-05-olgunluk-oz-degerlendirmesi.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-kaynaklar-ve-ileri-okuma",
+      "title": "Kaynaklar ve ileri okuma",
+      "heading": "9.6 Kaynaklar ve ileri okuma",
+      "file": "chapters/09-06-kaynaklar-ve-ileri-okuma.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-dizin",
+      "title": "Dizin",
+      "heading": "9.7 Dizin",
+      "file": "chapters/09-07-dizin.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-bolum-1e-giris-olcumun-temelleri",
+      "title": "Bölüm 1'e giriş: Ölçümün temelleri",
+      "heading": "1.0 Bölüm 1'e giriş: Ölçümün temelleri",
+      "file": "chapters/01-00-bolum-1e-giris-olcumun-temelleri.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-yazilim-muhendisligi-neden-olculur",
+      "title": "Yazılım mühendisliği neden ölçülür",
+      "heading": "1.1 Yazılım mühendisliği neden ölçülür",
+      "file": "chapters/01-01-yazilim-muhendisligi-neden-olculur.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-goodhart-yasasi-ve-metriklerin-psikolojisi",
+      "title": "Goodhart yasası ve metriklerin psikolojisi",
+      "heading": "1.2 Goodhart yasası ve metriklerin psikolojisi",
+      "file": "chapters/01-02-goodhart-yasasi-ve-metriklerin-psikolojisi.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-cikti-yerine-sonuc-ne-olculecegini-secmek",
+      "title": "Çıktı yerine sonuç: Ne ölçüleceğini seçmek",
+      "heading": "1.3 Çıktı yerine sonuç: Ne ölçüleceğini seçmek",
+      "file": "chapters/01-03-cikti-yerine-sonuc-ne-olculecegini-secmek.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-metrik-yonetisimi-ve-sahiplik",
+      "title": "Metrik yönetişimi ve sahiplik",
+      "heading": "1.4 Metrik yönetişimi ve sahiplik",
+      "file": "chapters/01-04-metrik-yonetisimi-ve-sahiplik.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-veri-kaynaklari-ve-enstrumantasyon",
+      "title": "Veri kaynakları ve enstrümantasyon",
+      "heading": "1.5 Veri kaynakları ve enstrümantasyon",
+      "file": "chapters/01-05-veri-kaynaklari-ve-enstrumantasyon.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-muhendislik-metrikleri-icin-istatistik-okuryazarligi",
+      "title": "Mühendislik metrikleri için istatistik okuryazarlığı",
+      "heading": "1.6 Mühendislik metrikleri için istatistik okuryazarlığı",
+      "file": "chapters/01-06-muhendislik-metrikleri-icin-istatistik-okuryazarligi.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-bolum-2-ye-giris-akis-metrikleri",
+      "title": "Bölüm 2'ye giriş: Akış metrikleri",
+      "heading": "2.0 Bölüm 2'ye giriş: Akış metrikleri",
+      "file": "chapters/02-00-bolum-2-ye-giris-akis-metrikleri.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-flow-framework.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-akis-ogeleri-ozellikler-hatalar-riskler-ve-borc",
+      "title": "Akış öğeleri: özellikler, hatalar, riskler ve borç",
+      "heading": "2.2 Akış öğeleri: özellikler, hatalar, riskler ve borç",
+      "file": "chapters/02-02-akis-ogeleri-ozellikler-hatalar-riskler-ve-borc.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-akis-hizi-ve-akis-dagilimi",
+      "title": "Akış hızı ve akış dağılımı",
+      "heading": "2.3 Akış hızı ve akış dağılımı",
+      "file": "chapters/02-03-akis-hizi-ve-akis-dagilimi.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-akis-suresi-ve-akis-yuku",
+      "title": "Akış süresi ve akış yükü",
+      "heading": "2.4 Akış süresi ve akış yükü",
+      "file": "chapters/02-04-akis-suresi-ve-akis-yuku.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-akis-verimliligi-ve-surecteki-is",
+      "title": "Akış verimliliği ve süreçteki iş",
+      "heading": "2.5 Akış verimliliği ve süreçteki iş",
+      "file": "chapters/02-05-akis-verimliligi-ve-surecteki-is.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-dongu-suresi-ve-bilesenleri",
+      "title": "Döngü süresi (cycle time) ve bileşenleri",
+      "heading": "2.6 Döngü süresi (cycle time) ve bileşenleri",
+      "file": "chapters/02-06-dongu-suresi-ve-bilesenleri.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-kuyruk-kurami",
+      "title": "Kuyruk kuramı",
+      "heading": "2.7 Kuyruk kuramı",
+      "file": "chapters/02-07-kuyruk-kurami.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-yalin-deger-akisi-metrikleri",
+      "title": "Yalın değer akışı metrikleri",
+      "heading": "2.8 Yalın değer akışı metrikleri",
+      "file": "chapters/02-08-yalin-deger-akisi-metrikleri.md"
+    },
+    "2.9": {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-pull-request-ve-kod-inceleme-metrikleri",
+      "title": "Pull request ve kod inceleme metrikleri",
+      "heading": "2.9 Pull request ve kod inceleme metrikleri",
+      "file": "chapters/02-09-pull-request-ve-kod-inceleme-metrikleri.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-dora-metrikleri-cercevesi",
+      "title": "DORA metrikleri çerçevesi",
+      "heading": "2.10 DORA metrikleri çerçevesi",
+      "file": "chapters/02-10-dora-metrikleri-cercevesi.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-gelistirici-deneyimi-ve-space",
+      "title": "Bölüm 3'e giriş: Geliştirici deneyimi ve SPACE çerçevesi",
+      "heading": "3.0 Bölüm 3'e giriş: Geliştirici deneyimi ve SPACE çerçevesi",
+      "file": "chapters/03-00-gelistirici-deneyimi-ve-space.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-space-cercevesi",
+      "title": "SPACE çerçevesi",
+      "heading": "3.1 SPACE çerçevesi",
+      "file": "chapters/03-01-space-cercevesi.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-memnuniyet-ve-iyi-olus-metrikleri",
+      "title": "Memnuniyet ve iyi oluş metrikleri",
+      "heading": "3.2 Memnuniyet ve iyi oluş metrikleri",
+      "file": "chapters/03-02-memnuniyet-ve-iyi-olus-metrikleri.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-performans-metrikleri-ve-sonuc-vekilleri",
+      "title": "Performans metrikleri ve sonuç vekilleri",
+      "heading": "3.3 Performans metrikleri ve sonuç vekilleri",
+      "file": "chapters/03-03-performans-metrikleri-ve-sonuc-vekilleri.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-etkinlik-metrikleri-ve-sinirlari",
+      "title": "Etkinlik metrikleri ve sınırları",
+      "heading": "3.4 Etkinlik metrikleri ve sınırları",
+      "file": "chapters/03-04-etkinlik-metrikleri-ve-sinirlari.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-iletisim-ve-is-birligi-metrikleri",
+      "title": "İletişim ve iş birliği metrikleri",
+      "heading": "3.5 İletişim ve iş birliği metrikleri",
+      "file": "chapters/03-05-iletisim-ve-is-birligi-metrikleri.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-verimlilik-ve-akis-derin-calisma-ve-kesintiler",
+      "title": "Verimlilik ve akış: derin çalışma ve kesintiler",
+      "heading": "3.6 Verimlilik ve akış: derin çalışma ve kesintiler",
+      "file": "chapters/03-06-verimlilik-ve-akis-derin-calisma-ve-kesintiler.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-gelistirici-deneyimi-anketleri-ve-devex-metrikleri",
+      "title": "Geliştirici deneyimi anketleri ve DevEx metrikleri",
+      "heading": "3.7 Geliştirici deneyimi anketleri ve DevEx metrikleri",
+      "file": "chapters/03-07-gelistirici-deneyimi-anketleri-ve-devex-metrikleri.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-bolum-4e-giris-kod-ve-kalite-metrikleri",
+      "title": "Bölüm 4'e giriş: Kod ve kalite metrikleri",
+      "heading": "4.0 Bölüm 4'e giriş: Kod ve kalite metrikleri",
+      "file": "chapters/04-00-bolum-4e-giris-kod-ve-kalite-metrikleri.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-kod-karmasikligi-metrikleri",
+      "title": "Kod karmaşıklığı metrikleri",
+      "heading": "4.1 Kod karmaşıklığı metrikleri",
+      "file": "chapters/04-01-kod-karmasikligi-metrikleri.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-test-kapsamasi-ve-test-etkinligi",
+      "title": "Test kapsaması ve test etkinliği",
+      "heading": "4.2 Test kapsaması ve test etkinliği",
+      "file": "chapters/04-02-test-kapsamasi-ve-test-etkinligi.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-kod-degisim-yogunlugu-ve-sicak-nokta-analizi",
+      "title": "Kod değişim yoğunluğu ve sıcak nokta analizi",
+      "heading": "4.3 Kod değişim yoğunluğu ve sıcak nokta analizi",
+      "file": "chapters/04-03-kod-degisim-yogunlugu-ve-sicak-nokta-analizi.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-statik-analiz-ve-kod-kokusu-metrikleri",
+      "title": "Statik analiz ve kod kokusu metrikleri",
+      "heading": "4.4 Statik analiz ve kod kokusu metrikleri",
+      "file": "chapters/04-04-statik-analiz-ve-kod-kokusu-metrikleri.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-teknik-borc-olcumu",
+      "title": "Teknik borç ölçümü",
+      "heading": "4.5 Teknik borç ölçümü",
+      "file": "chapters/04-05-teknik-borc-olcumu.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-dokumantasyon-ve-bilgi-metrikleri",
+      "title": "Dokümantasyon ve bilgi metrikleri",
+      "heading": "4.6 Dokümantasyon ve bilgi metrikleri",
+      "file": "chapters/04-06-dokumantasyon-ve-bilgi-metrikleri.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-urun-ve-is-metrikleri",
+      "title": "Bölüm 5'e giriş: Ürün ve iş metrikleri",
+      "heading": "5.0 Bölüm 5'e giriş: Ürün ve iş metrikleri",
+      "file": "chapters/05-00-urun-ve-is-metrikleri.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-kacan-hata-orani-ve-kalite-kacaklari",
+      "title": "Kaçan hata oranı ve kalite kaçakları",
+      "heading": "5.1 Kaçan hata oranı ve kalite kaçakları",
+      "file": "chapters/05-01-kacan-hata-orani-ve-kalite-kacaklari.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-ozellik-benimsenmesi-ve-kullanim-metrikleri",
+      "title": "Özellik benimsenmesi ve kullanım metrikleri",
+      "heading": "5.2 Özellik benimsenmesi ve kullanım metrikleri",
+      "file": "chapters/05-02-ozellik-benimsenmesi-ve-kullanim-metrikleri.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-musteri-ve-is-sonucu-metrikleri",
+      "title": "Müşteri ve iş sonucu metrikleri",
+      "heading": "5.3 Müşteri ve iş sonucu metrikleri",
+      "file": "chapters/05-03-musteri-ve-is-sonucu-metrikleri.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-muhendisligin-maliyeti-ve-birim-ekonomisi",
+      "title": "Mühendisliğin maliyeti ve birim ekonomisi",
+      "heading": "5.4 Mühendisliğin maliyeti ve birim ekonomisi",
+      "file": "chapters/05-04-muhendisligin-maliyeti-ve-birim-ekonomisi.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-muhendislik-girisimlerinde-yatirim-getirisi",
+      "title": "Mühendislik girişimlerinde yatırım getirisi",
+      "heading": "5.5 Mühendislik girişimlerinde yatırım getirisi",
+      "file": "chapters/05-05-muhendislik-girisimlerinde-yatirim-getirisi.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-bolum-6ya-giris-guvenilirlik-operasyon-ve-guvenlik-metrikleri",
+      "title": "Bölüm 6'ya giriş: Güvenilirlik, operasyon ve güvenlik metrikleri",
+      "heading": "6.0 Bölüm 6'ya giriş: Güvenilirlik, operasyon ve güvenlik metrikleri",
+      "file": "chapters/06-00-bolum-6ya-giris-guvenilirlik-operasyon-ve-guvenlik-metrikleri.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-hizmet-seviyesi-gostergeleri-hedefleri-ve-hata-butceleri",
+      "title": "Hizmet seviyesi göstergeleri, hedefleri ve hata bütçeleri",
+      "heading": "6.1 Hizmet seviyesi göstergeleri, hedefleri ve hata bütçeleri",
+      "file": "chapters/06-01-hizmet-seviyesi-gostergeleri-hedefleri-ve-hata-butceleri.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-olay-metrikleri-tespit-mudahale-ve-toparlanma",
+      "title": "Olay metrikleri: tespit, müdahale ve toparlanma",
+      "heading": "6.2 Olay metrikleri: tespit, müdahale ve toparlanma",
+      "file": "chapters/06-02-olay-metrikleri-tespit-mudahale-ve-toparlanma.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-nobet-kapasite-ve-operasyonel-yuk-metrikleri",
+      "title": "Nöbet, kapasite ve operasyonel yük metrikleri",
+      "heading": "6.3 Nöbet, kapasite ve operasyonel yük metrikleri",
+      "file": "chapters/06-03-nobet-kapasite-ve-operasyonel-yuk-metrikleri.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-guvenlik-ve-aciklik-yonetimi-metrikleri",
+      "title": "Güvenlik ve açık yönetimi metrikleri",
+      "heading": "6.4 Güvenlik ve açık yönetimi metrikleri",
+      "file": "chapters/06-04-guvenlik-ve-aciklik-yonetimi-metrikleri.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-yapay-zeka-caginda-metrikler",
+      "title": "Bölüm 7'ye giriş: Yapay zeka çağında metrikler",
+      "heading": "7.0 Bölüm 7'ye giriş: Yapay zeka çağında metrikler",
+      "file": "chapters/07-00-yapay-zeka-caginda-metrikler.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-uretken-yapay-zeka-paradigma-degisimi",
+      "title": "Üretken yapay zeka paradigma değişimi",
+      "heading": "7.1 Üretken yapay zeka paradigma değişimi",
+      "file": "chapters/07-01-uretken-yapay-zeka-paradigma-degisimi.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-yapay-zeka-destekli-yazilim-gelistirmeyi-olcmek",
+      "title": "Yapay zeka destekli yazılım geliştirmeyi ölçmek",
+      "heading": "7.2 Yapay zeka destekli yazılım geliştirmeyi ölçmek",
+      "file": "chapters/07-02-yapay-zeka-destekli-yazilim-gelistirmeyi-olcmek.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-metrik-sismesi-ve-kalite-seyrelmesi-riskleri",
+      "title": "Metrik şişmesi ve kalite seyrelmesi riskleri",
+      "heading": "7.3 Metrik şişmesi ve kalite seyrelmesi riskleri",
+      "file": "chapters/07-03-metrik-sismesi-ve-kalite-seyrelmesi-riskleri.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-yeni-kutup-yildizi-olarak-sonuc-telemetrisi",
+      "title": "Yeni kutup yıldızı olarak sonuç telemetrisi",
+      "heading": "7.4 Yeni kutup yıldızı olarak sonuç telemetrisi",
+      "file": "chapters/07-04-yeni-kutup-yildizi-olarak-sonuc-telemetrisi.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-bolum-8-giris-metrik-programi-kurmak",
+      "title": "Bölüm 8'e giriş: Metrik programı kurmak",
+      "heading": "8.0 Bölüm 8'e giriş: Metrik programı kurmak",
+      "file": "chapters/08-00-bolum-8-giris-metrik-programi-kurmak.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-muhendislik-metrikleri-panosu-tasarlamak",
+      "title": "Mühendislik metrikleri panosu tasarlamak",
+      "heading": "8.1 Mühendislik metrikleri panosu tasarlamak",
+      "file": "chapters/08-01-muhendislik-metrikleri-panosu-tasarlamak.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-arac-ortami-kendin-yap-ya-da-satin-al",
+      "title": "Araç ortamı: kendin yap ya da satın al",
+      "heading": "8.2 Araç ortamı: kendin yap ya da satın al",
+      "file": "chapters/08-02-arac-ortami-kendin-yap-ya-da-satin-al.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-korku-yaratmadan-metrikleri-devreye-almak",
+      "title": "Korku yaratmadan metrikleri devreye almak",
+      "heading": "8.3 Korku yaratmadan metrikleri devreye almak",
+      "file": "chapters/08-03-korku-yaratmadan-metrikleri-devreye-almak.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-muhendislik-metrik-programlari-icin-olgunluk-modeli",
+      "title": "Mühendislik metrik programları için olgunluk modeli",
+      "heading": "8.4 Mühendislik metrik programları için olgunluk modeli",
+      "file": "chapters/08-04-muhendislik-metrik-programlari-icin-olgunluk-modeli.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-kademeli-bir-benimseme-yol-haritasi",
+      "title": "Kademeli bir benimseme yol haritası",
+      "heading": "8.5 Kademeli bir benimseme yol haritası",
+      "file": "chapters/08-05-kademeli-bir-benimseme-yol-haritasi.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-ekler",
+      "title": "Ekler",
+      "heading": "9.0 Ekler",
+      "file": "chapters/09-00-ekler.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-sozluk",
+      "title": "Sözlük",
+      "heading": "9.1 Sözlük",
+      "file": "chapters/09-01-sozluk.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-metrik-tanimlari-ve-formuller-referansi",
+      "title": "Metrik tanımları ve formüller referansı",
+      "heading": "9.2 Metrik tanımları ve formüller referansı",
+      "file": "chapters/09-02-metrik-tanimlari-ve-formuller-referansi.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-kontrol-listeleri",
+      "title": "Kontrol listeleri",
+      "heading": "9.3 Kontrol listeleri",
+      "file": "chapters/09-03-kontrol-listeleri.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-sablonlar",
+      "title": "Şablonlar",
+      "heading": "9.4 Şablonlar",
+      "file": "chapters/09-04-sablonlar.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-olgunluk-oz-degerlendirmesi",
+      "title": "Olgunluk öz değerlendirmesi",
+      "heading": "9.5 Olgunluk öz değerlendirmesi",
+      "file": "chapters/09-05-olgunluk-oz-degerlendirmesi.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-kaynaklar-ve-ileri-okuma",
+      "title": "Kaynaklar ve ileri okuma",
+      "heading": "9.6 Kaynaklar ve ileri okuma",
+      "file": "chapters/09-06-kaynaklar-ve-ileri-okuma.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-dizin",
+      "title": "Dizin",
+      "heading": "9.7 Dizin",
+      "file": "chapters/09-07-dizin.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "Giriş",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "İçindekiler",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "Yazılım mühendisliği metrikleri nedir?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "Örnek: bir teslimat metrikleri gösterge paneli için pano belirtimi",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "Örnek: bir ödeme platformu ekibi için metrik tüzüğü",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "Yazım: konuları yazma ve düzenleme",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "Konu şablonu (ortak)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "Gezinme: üretilen dosyalar nasıl çalışır",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "Bölüm dizini (ortak başvuru)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "Stil kuralları (ortak, zorunlu)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "Testler: doğrulama paketi",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "Değişiklik günlüğü",
+      "file": "project/changelog.md"
+    }
+  ],
+  "totals": {
+    "parts": 9,
+    "chapters": 63
+  }
+}

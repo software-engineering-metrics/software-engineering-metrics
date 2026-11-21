@@ -1,0 +1,1902 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "cs-cz",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-uvod-do-casti-1-zaklady-mereni",
+          "title": "Úvod do části 1: Základy měření",
+          "heading": "1.0 Úvod do části 1: Základy měření",
+          "file": "chapters/01-00-uvod-do-casti-1-zaklady-mereni.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-proc-merit-softwarove-inzenyrstvi",
+          "title": "Proč měřit softwarové inženýrství",
+          "heading": "1.1 Proč měřit softwarové inženýrství",
+          "file": "chapters/01-01-proc-merit-softwarove-inzenyrstvi.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-goodhartuv-zakon-a-psychologie-metrik",
+          "title": "Goodhartův zákon a psychologie metrik",
+          "heading": "1.2 Goodhartův zákon a psychologie metrik",
+          "file": "chapters/01-02-goodhartuv-zakon-a-psychologie-metrik.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-vysledky-pred-vystupy-co-merit",
+          "title": "Výsledky před výstupy: co měřit",
+          "heading": "1.3 Výsledky před výstupy: co měřit",
+          "file": "chapters/01-03-vysledky-pred-vystupy-co-merit.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-sprava-a-vlastnictvi-metrik",
+          "title": "Správa a vlastnictví metrik",
+          "heading": "1.4 Správa a vlastnictví metrik",
+          "file": "chapters/01-04-sprava-a-vlastnictvi-metrik.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-zdroje-dat-a-instrumentace",
+          "title": "Zdroje dat a instrumentace",
+          "heading": "1.5 Zdroje dat a instrumentace",
+          "file": "chapters/01-05-zdroje-dat-a-instrumentace.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-statisticka-gramotnost-pro-inzenyrske-metriky",
+          "title": "Statistická gramotnost pro inženýrské metriky",
+          "heading": "1.6 Statistická gramotnost pro inženýrské metriky",
+          "file": "chapters/01-06-statisticka-gramotnost-pro-inzenyrske-metriky.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-uvod-do-casti-2-metriky-toku",
+          "title": "Úvod do části 2: Metriky toku",
+          "heading": "2.0 Úvod do části 2: Metriky toku",
+          "file": "chapters/02-00-uvod-do-casti-2-metriky-toku.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-ramec-flow-framework",
+          "title": "Rámec Flow Framework",
+          "heading": "2.1 Rámec Flow Framework",
+          "file": "chapters/02-01-ramec-flow-framework.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-polozky-toku-funkce-vady-rizika-a-dluh",
+          "title": "Položky toku: funkce, vady, rizika a dluh",
+          "heading": "2.2 Položky toku: funkce, vady, rizika a dluh",
+          "file": "chapters/02-02-polozky-toku-funkce-vady-rizika-a-dluh.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-rychlost-toku-a-rozlozeni-toku",
+          "title": "Rychlost toku a rozložení toku",
+          "heading": "2.3 Rychlost toku a rozložení toku",
+          "file": "chapters/02-03-rychlost-toku-a-rozlozeni-toku.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-doba-toku-a-zatizeni-toku",
+          "title": "Doba toku a zatížení toku",
+          "heading": "2.4 Doba toku a zatížení toku",
+          "file": "chapters/02-04-doba-toku-a-zatizeni-toku.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-efektivita-toku-a-rozpracovana-prace",
+          "title": "Efektivita toku a rozpracovaná práce",
+          "heading": "2.5 Efektivita toku a rozpracovaná práce",
+          "file": "chapters/02-05-efektivita-toku-a-rozpracovana-prace.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-cycle-time-a-jeho-slozky",
+          "title": "Cycle time a jeho složky",
+          "heading": "2.6 Cycle time a jeho složky",
+          "file": "chapters/02-06-cycle-time-a-jeho-slozky.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-teorie-front",
+          "title": "Teorie front",
+          "heading": "2.7 Teorie front",
+          "file": "chapters/02-07-teorie-front.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-metriky-hodnotoveho-proudu-podle-lean",
+          "title": "Metriky hodnotového proudu podle Lean",
+          "heading": "2.8 Metriky hodnotového proudu podle Lean",
+          "file": "chapters/02-08-metriky-hodnotoveho-proudu-podle-lean.md"
+        },
+        {
+          "part": 2,
+          "chapter": 9,
+          "decimal": "2.9",
+          "slug": "02-09-metriky-pull-requestu-a-revizi-kodu",
+          "title": "Metriky pull requestů a revizí kódu",
+          "heading": "2.9 Metriky pull requestů a revizí kódu",
+          "file": "chapters/02-09-metriky-pull-requestu-a-revizi-kodu.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-ramec-metrik-dora",
+          "title": "Rámec metrik DORA",
+          "heading": "2.10 Rámec metrik DORA",
+          "file": "chapters/02-10-ramec-metrik-dora.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-uvod-do-casti-3-zkusenost-vyvojaru-a-ramec-space",
+          "title": "Úvod do části 3: Zkušenost vývojářů a rámec SPACE",
+          "heading": "3.0 Úvod do části 3: Zkušenost vývojářů a rámec SPACE",
+          "file": "chapters/03-00-uvod-do-casti-3-zkusenost-vyvojaru-a-ramec-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-ramec-space",
+          "title": "Rámec SPACE",
+          "heading": "3.1 Rámec SPACE",
+          "file": "chapters/03-01-ramec-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-metriky-spokojenosti-a-pohody",
+          "title": "Metriky spokojenosti a pohody",
+          "heading": "3.2 Metriky spokojenosti a pohody",
+          "file": "chapters/03-02-metriky-spokojenosti-a-pohody.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-metriky-vykonu-a-zastupne-ukazatele-vysledku",
+          "title": "Metriky výkonu a zástupné ukazatele výsledků",
+          "heading": "3.3 Metriky výkonu a zástupné ukazatele výsledků",
+          "file": "chapters/03-03-metriky-vykonu-a-zastupne-ukazatele-vysledku.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-metriky-aktivity-a-jejich-meze",
+          "title": "Metriky aktivity a jejich meze",
+          "heading": "3.4 Metriky aktivity a jejich meze",
+          "file": "chapters/03-04-metriky-aktivity-a-jejich-meze.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-metriky-komunikace-a-spoluprace",
+          "title": "Metriky komunikace a spolupráce",
+          "heading": "3.5 Metriky komunikace a spolupráce",
+          "file": "chapters/03-05-metriky-komunikace-a-spoluprace.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-efektivita-a-plynulost-hluboka-prace-a-vyrusovani",
+          "title": "Efektivita a plynulost: hluboká práce a vyrušování",
+          "heading": "3.6 Efektivita a plynulost: hluboká práce a vyrušování",
+          "file": "chapters/03-06-efektivita-a-plynulost-hluboka-prace-a-vyrusovani.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-pruzkumy-zkusenosti-vyvojaru-a-metriky-devex",
+          "title": "Průzkumy zkušenosti vývojářů a metriky DevEx",
+          "heading": "3.7 Průzkumy zkušenosti vývojářů a metriky DevEx",
+          "file": "chapters/03-07-pruzkumy-zkusenosti-vyvojaru-a-metriky-devex.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-uvod-do-casti-4-metriky-kodu-a-kvality",
+          "title": "Úvod do části 4: Metriky kódu a kvality",
+          "heading": "4.0 Úvod do části 4: Metriky kódu a kvality",
+          "file": "chapters/04-00-uvod-do-casti-4-metriky-kodu-a-kvality.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-metriky-slozitosti-kodu",
+          "title": "Metriky složitosti kódu",
+          "heading": "4.1 Metriky složitosti kódu",
+          "file": "chapters/04-01-metriky-slozitosti-kodu.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-pokryti-testy-a-ucinnost-testu",
+          "title": "Pokrytí testy a účinnost testů",
+          "heading": "4.2 Pokrytí testy a účinnost testů",
+          "file": "chapters/04-02-pokryti-testy-a-ucinnost-testu.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-zmenovost-kodu-a-analyza-hotspotu",
+          "title": "Změnovost kódu a analýza hotspotů",
+          "heading": "4.3 Změnovost kódu a analýza hotspotů",
+          "file": "chapters/04-03-zmenovost-kodu-a-analyza-hotspotu.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-staticka-analyza-a-metriky-code-smells",
+          "title": "Statická analýza a metriky code smells",
+          "heading": "4.4 Statická analýza a metriky code smells",
+          "file": "chapters/04-04-staticka-analyza-a-metriky-code-smells.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-mereni-technickeho-dluhu",
+          "title": "Měření technického dluhu",
+          "heading": "4.5 Měření technického dluhu",
+          "file": "chapters/04-05-mereni-technickeho-dluhu.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-metriky-dokumentace-a-znalosti",
+          "title": "Metriky dokumentace a znalostí",
+          "heading": "4.6 Metriky dokumentace a znalostí",
+          "file": "chapters/04-06-metriky-dokumentace-a-znalosti.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-uvod-do-casti-5-produktove-a-obchodni-metriky",
+          "title": "Úvod do části 5: Produktové a obchodní metriky",
+          "heading": "5.0 Úvod do části 5: Produktové a obchodní metriky",
+          "file": "chapters/05-00-uvod-do-casti-5-produktove-a-obchodni-metriky.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-mira-uniklych-vad-a-uniky-kvality",
+          "title": "Míra uniklých vad a úniky kvality",
+          "heading": "5.1 Míra uniklých vad a úniky kvality",
+          "file": "chapters/05-01-mira-uniklych-vad-a-uniky-kvality.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-prijeti-funkci-a-metriky-pouzivani",
+          "title": "Přijetí funkcí a metriky používání",
+          "heading": "5.2 Přijetí funkcí a metriky používání",
+          "file": "chapters/05-02-prijeti-funkci-a-metriky-pouzivani.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-metriky-zakaznickych-a-obchodnich-vysledku",
+          "title": "Metriky zákaznických a obchodních výsledků",
+          "heading": "5.3 Metriky zákaznických a obchodních výsledků",
+          "file": "chapters/05-03-metriky-zakaznickych-a-obchodnich-vysledku.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-naklady-a-jednotkova-ekonomika-inzenyrstvi",
+          "title": "Náklady a jednotková ekonomika inženýrství",
+          "heading": "5.4 Náklady a jednotková ekonomika inženýrství",
+          "file": "chapters/05-04-naklady-a-jednotkova-ekonomika-inzenyrstvi.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-navratnost-investic-do-inzenyrskych-iniciativ",
+          "title": "Návratnost investic do inženýrských iniciativ",
+          "heading": "5.5 Návratnost investic do inženýrských iniciativ",
+          "file": "chapters/05-05-navratnost-investic-do-inzenyrskych-iniciativ.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-uvod-do-casti-6-metriky-spolehlivosti-provozu-a-bezpecnosti",
+          "title": "Úvod do části 6: Metriky spolehlivosti, provozu a bezpečnosti",
+          "heading": "6.0 Úvod do části 6: Metriky spolehlivosti, provozu a bezpečnosti",
+          "file": "chapters/06-00-uvod-do-casti-6-metriky-spolehlivosti-provozu-a-bezpecnosti.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-ukazatele-urovne-sluzby-cile-a-rozpocty-chyb",
+          "title": "Ukazatele úrovně služby, cíle a rozpočty chyb",
+          "heading": "6.1 Ukazatele úrovně služby, cíle a rozpočty chyb",
+          "file": "chapters/06-01-ukazatele-urovne-sluzby-cile-a-rozpocty-chyb.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-metriky-incidentu-detekce-reakce-a-obnova",
+          "title": "Metriky incidentů: detekce, reakce a obnova",
+          "heading": "6.2 Metriky incidentů: detekce, reakce a obnova",
+          "file": "chapters/06-02-metriky-incidentu-detekce-reakce-a-obnova.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-metriky-pohotovosti-kapacity-a-provozni-zateze",
+          "title": "Metriky pohotovosti, kapacity a provozní zátěže",
+          "heading": "6.3 Metriky pohotovosti, kapacity a provozní zátěže",
+          "file": "chapters/06-03-metriky-pohotovosti-kapacity-a-provozni-zateze.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-metriky-bezpecnosti-a-spravy-zranitelnosti",
+          "title": "Metriky bezpečnosti a správy zranitelností",
+          "heading": "6.4 Metriky bezpečnosti a správy zranitelností",
+          "file": "chapters/06-04-metriky-bezpecnosti-a-spravy-zranitelnosti.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-uvod-do-casti-7-metriky-ve-veku-umele-inteligence",
+          "title": "Úvod do části 7: Metriky ve věku umělé inteligence",
+          "heading": "7.0 Úvod do části 7: Metriky ve věku umělé inteligence",
+          "file": "chapters/07-00-uvod-do-casti-7-metriky-ve-veku-umele-inteligence.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-zlom-v-paradigmatu-generativni-umele-inteligence",
+          "title": "Zlom v paradigmatu generativní umělé inteligence",
+          "heading": "7.1 Zlom v paradigmatu generativní umělé inteligence",
+          "file": "chapters/07-01-zlom-v-paradigmatu-generativni-umele-inteligence.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-mereni-vyvoje-softwaru-s-podporou-umele-inteligence",
+          "title": "Měření vývoje softwaru s podporou umělé inteligence",
+          "heading": "7.2 Měření vývoje softwaru s podporou umělé inteligence",
+          "file": "chapters/07-02-mereni-vyvoje-softwaru-s-podporou-umele-inteligence.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-inflace-metrik-a-rizika-redeni-kvality",
+          "title": "Inflace metrik a rizika ředění kvality",
+          "heading": "7.3 Inflace metrik a rizika ředění kvality",
+          "file": "chapters/07-03-inflace-metrik-a-rizika-redeni-kvality.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-telemetrie-vysledku-jako-nova-polarka",
+          "title": "Telemetrie výsledků jako nová Polárka",
+          "heading": "7.4 Telemetrie výsledků jako nová Polárka",
+          "file": "chapters/07-04-telemetrie-vysledku-jako-nova-polarka.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-uvod-do-casti-8-budovani-programu-metrik",
+          "title": "Úvod do části 8: Budování programu metrik",
+          "heading": "8.0 Úvod do části 8: Budování programu metrik",
+          "file": "chapters/08-00-uvod-do-casti-8-budovani-programu-metrik.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-navrh-dashboardu-inzenyrskych-metrik",
+          "title": "Návrh dashboardu inženýrských metrik",
+          "heading": "8.1 Návrh dashboardu inženýrských metrik",
+          "file": "chapters/08-01-navrh-dashboardu-inzenyrskych-metrik.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-krajina-nastroju-postavit-nebo-koupit",
+          "title": "Krajina nástrojů: postavit, nebo koupit",
+          "heading": "8.2 Krajina nástrojů: postavit, nebo koupit",
+          "file": "chapters/08-02-krajina-nastroju-postavit-nebo-koupit.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-zavadeni-metrik-bez-pestovani-strachu",
+          "title": "Zavádění metrik bez pěstování strachu",
+          "heading": "8.3 Zavádění metrik bez pěstování strachu",
+          "file": "chapters/08-03-zavadeni-metrik-bez-pestovani-strachu.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-model-zralosti-programu-inzenyrskych-metrik",
+          "title": "Model zralosti programů inženýrských metrik",
+          "heading": "8.4 Model zralosti programů inženýrských metrik",
+          "file": "chapters/08-04-model-zralosti-programu-inzenyrskych-metrik.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-postupna-adopcni-cesta",
+          "title": "Postupná adopční cesta",
+          "heading": "8.5 Postupná adopční cesta",
+          "file": "chapters/08-05-postupna-adopcni-cesta.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-prilohy",
+          "title": "Přílohy",
+          "heading": "9.0 Přílohy",
+          "file": "chapters/09-00-prilohy.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-slovnicek",
+          "title": "Slovníček",
+          "heading": "9.1 Slovníček",
+          "file": "chapters/09-01-slovnicek.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-prehled-definic-a-vzorcu-metrik",
+          "title": "Přehled definic a vzorců metrik",
+          "heading": "9.2 Přehled definic a vzorců metrik",
+          "file": "chapters/09-02-prehled-definic-a-vzorcu-metrik.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-kontrolni-seznamy",
+          "title": "Kontrolní seznamy",
+          "heading": "9.3 Kontrolní seznamy",
+          "file": "chapters/09-03-kontrolni-seznamy.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-sablony",
+          "title": "Šablony",
+          "heading": "9.4 Šablony",
+          "file": "chapters/09-04-sablony.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-sebehodnoceni-zralosti",
+          "title": "Sebehodnocení zralosti",
+          "heading": "9.5 Sebehodnocení zralosti",
+          "file": "chapters/09-05-sebehodnoceni-zralosti.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-odkazy-a-dalsi-cetba",
+          "title": "Odkazy a další četba",
+          "heading": "9.6 Odkazy a další četba",
+          "file": "chapters/09-06-odkazy-a-dalsi-cetba.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-rejstrik",
+          "title": "Rejstřík",
+          "heading": "9.7 Rejstřík",
+          "file": "chapters/09-07-rejstrik.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-uvod-do-casti-1-zaklady-mereni",
+      "title": "Úvod do části 1: Základy měření",
+      "heading": "1.0 Úvod do části 1: Základy měření",
+      "file": "chapters/01-00-uvod-do-casti-1-zaklady-mereni.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-proc-merit-softwarove-inzenyrstvi",
+      "title": "Proč měřit softwarové inženýrství",
+      "heading": "1.1 Proč měřit softwarové inženýrství",
+      "file": "chapters/01-01-proc-merit-softwarove-inzenyrstvi.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-goodhartuv-zakon-a-psychologie-metrik",
+      "title": "Goodhartův zákon a psychologie metrik",
+      "heading": "1.2 Goodhartův zákon a psychologie metrik",
+      "file": "chapters/01-02-goodhartuv-zakon-a-psychologie-metrik.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-vysledky-pred-vystupy-co-merit",
+      "title": "Výsledky před výstupy: co měřit",
+      "heading": "1.3 Výsledky před výstupy: co měřit",
+      "file": "chapters/01-03-vysledky-pred-vystupy-co-merit.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-sprava-a-vlastnictvi-metrik",
+      "title": "Správa a vlastnictví metrik",
+      "heading": "1.4 Správa a vlastnictví metrik",
+      "file": "chapters/01-04-sprava-a-vlastnictvi-metrik.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-zdroje-dat-a-instrumentace",
+      "title": "Zdroje dat a instrumentace",
+      "heading": "1.5 Zdroje dat a instrumentace",
+      "file": "chapters/01-05-zdroje-dat-a-instrumentace.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-statisticka-gramotnost-pro-inzenyrske-metriky",
+      "title": "Statistická gramotnost pro inženýrské metriky",
+      "heading": "1.6 Statistická gramotnost pro inženýrské metriky",
+      "file": "chapters/01-06-statisticka-gramotnost-pro-inzenyrske-metriky.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-uvod-do-casti-2-metriky-toku",
+      "title": "Úvod do části 2: Metriky toku",
+      "heading": "2.0 Úvod do části 2: Metriky toku",
+      "file": "chapters/02-00-uvod-do-casti-2-metriky-toku.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-ramec-flow-framework",
+      "title": "Rámec Flow Framework",
+      "heading": "2.1 Rámec Flow Framework",
+      "file": "chapters/02-01-ramec-flow-framework.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-polozky-toku-funkce-vady-rizika-a-dluh",
+      "title": "Položky toku: funkce, vady, rizika a dluh",
+      "heading": "2.2 Položky toku: funkce, vady, rizika a dluh",
+      "file": "chapters/02-02-polozky-toku-funkce-vady-rizika-a-dluh.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-rychlost-toku-a-rozlozeni-toku",
+      "title": "Rychlost toku a rozložení toku",
+      "heading": "2.3 Rychlost toku a rozložení toku",
+      "file": "chapters/02-03-rychlost-toku-a-rozlozeni-toku.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-doba-toku-a-zatizeni-toku",
+      "title": "Doba toku a zatížení toku",
+      "heading": "2.4 Doba toku a zatížení toku",
+      "file": "chapters/02-04-doba-toku-a-zatizeni-toku.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-efektivita-toku-a-rozpracovana-prace",
+      "title": "Efektivita toku a rozpracovaná práce",
+      "heading": "2.5 Efektivita toku a rozpracovaná práce",
+      "file": "chapters/02-05-efektivita-toku-a-rozpracovana-prace.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-cycle-time-a-jeho-slozky",
+      "title": "Cycle time a jeho složky",
+      "heading": "2.6 Cycle time a jeho složky",
+      "file": "chapters/02-06-cycle-time-a-jeho-slozky.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-teorie-front",
+      "title": "Teorie front",
+      "heading": "2.7 Teorie front",
+      "file": "chapters/02-07-teorie-front.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-metriky-hodnotoveho-proudu-podle-lean",
+      "title": "Metriky hodnotového proudu podle Lean",
+      "heading": "2.8 Metriky hodnotového proudu podle Lean",
+      "file": "chapters/02-08-metriky-hodnotoveho-proudu-podle-lean.md"
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-metriky-pull-requestu-a-revizi-kodu",
+      "title": "Metriky pull requestů a revizí kódu",
+      "heading": "2.9 Metriky pull requestů a revizí kódu",
+      "file": "chapters/02-09-metriky-pull-requestu-a-revizi-kodu.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-ramec-metrik-dora",
+      "title": "Rámec metrik DORA",
+      "heading": "2.10 Rámec metrik DORA",
+      "file": "chapters/02-10-ramec-metrik-dora.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-uvod-do-casti-3-zkusenost-vyvojaru-a-ramec-space",
+      "title": "Úvod do části 3: Zkušenost vývojářů a rámec SPACE",
+      "heading": "3.0 Úvod do části 3: Zkušenost vývojářů a rámec SPACE",
+      "file": "chapters/03-00-uvod-do-casti-3-zkusenost-vyvojaru-a-ramec-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-ramec-space",
+      "title": "Rámec SPACE",
+      "heading": "3.1 Rámec SPACE",
+      "file": "chapters/03-01-ramec-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-metriky-spokojenosti-a-pohody",
+      "title": "Metriky spokojenosti a pohody",
+      "heading": "3.2 Metriky spokojenosti a pohody",
+      "file": "chapters/03-02-metriky-spokojenosti-a-pohody.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-metriky-vykonu-a-zastupne-ukazatele-vysledku",
+      "title": "Metriky výkonu a zástupné ukazatele výsledků",
+      "heading": "3.3 Metriky výkonu a zástupné ukazatele výsledků",
+      "file": "chapters/03-03-metriky-vykonu-a-zastupne-ukazatele-vysledku.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-metriky-aktivity-a-jejich-meze",
+      "title": "Metriky aktivity a jejich meze",
+      "heading": "3.4 Metriky aktivity a jejich meze",
+      "file": "chapters/03-04-metriky-aktivity-a-jejich-meze.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-metriky-komunikace-a-spoluprace",
+      "title": "Metriky komunikace a spolupráce",
+      "heading": "3.5 Metriky komunikace a spolupráce",
+      "file": "chapters/03-05-metriky-komunikace-a-spoluprace.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-efektivita-a-plynulost-hluboka-prace-a-vyrusovani",
+      "title": "Efektivita a plynulost: hluboká práce a vyrušování",
+      "heading": "3.6 Efektivita a plynulost: hluboká práce a vyrušování",
+      "file": "chapters/03-06-efektivita-a-plynulost-hluboka-prace-a-vyrusovani.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-pruzkumy-zkusenosti-vyvojaru-a-metriky-devex",
+      "title": "Průzkumy zkušenosti vývojářů a metriky DevEx",
+      "heading": "3.7 Průzkumy zkušenosti vývojářů a metriky DevEx",
+      "file": "chapters/03-07-pruzkumy-zkusenosti-vyvojaru-a-metriky-devex.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-uvod-do-casti-4-metriky-kodu-a-kvality",
+      "title": "Úvod do části 4: Metriky kódu a kvality",
+      "heading": "4.0 Úvod do části 4: Metriky kódu a kvality",
+      "file": "chapters/04-00-uvod-do-casti-4-metriky-kodu-a-kvality.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-metriky-slozitosti-kodu",
+      "title": "Metriky složitosti kódu",
+      "heading": "4.1 Metriky složitosti kódu",
+      "file": "chapters/04-01-metriky-slozitosti-kodu.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-pokryti-testy-a-ucinnost-testu",
+      "title": "Pokrytí testy a účinnost testů",
+      "heading": "4.2 Pokrytí testy a účinnost testů",
+      "file": "chapters/04-02-pokryti-testy-a-ucinnost-testu.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-zmenovost-kodu-a-analyza-hotspotu",
+      "title": "Změnovost kódu a analýza hotspotů",
+      "heading": "4.3 Změnovost kódu a analýza hotspotů",
+      "file": "chapters/04-03-zmenovost-kodu-a-analyza-hotspotu.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-staticka-analyza-a-metriky-code-smells",
+      "title": "Statická analýza a metriky code smells",
+      "heading": "4.4 Statická analýza a metriky code smells",
+      "file": "chapters/04-04-staticka-analyza-a-metriky-code-smells.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-mereni-technickeho-dluhu",
+      "title": "Měření technického dluhu",
+      "heading": "4.5 Měření technického dluhu",
+      "file": "chapters/04-05-mereni-technickeho-dluhu.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-metriky-dokumentace-a-znalosti",
+      "title": "Metriky dokumentace a znalostí",
+      "heading": "4.6 Metriky dokumentace a znalostí",
+      "file": "chapters/04-06-metriky-dokumentace-a-znalosti.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-uvod-do-casti-5-produktove-a-obchodni-metriky",
+      "title": "Úvod do části 5: Produktové a obchodní metriky",
+      "heading": "5.0 Úvod do části 5: Produktové a obchodní metriky",
+      "file": "chapters/05-00-uvod-do-casti-5-produktove-a-obchodni-metriky.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-mira-uniklych-vad-a-uniky-kvality",
+      "title": "Míra uniklých vad a úniky kvality",
+      "heading": "5.1 Míra uniklých vad a úniky kvality",
+      "file": "chapters/05-01-mira-uniklych-vad-a-uniky-kvality.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-prijeti-funkci-a-metriky-pouzivani",
+      "title": "Přijetí funkcí a metriky používání",
+      "heading": "5.2 Přijetí funkcí a metriky používání",
+      "file": "chapters/05-02-prijeti-funkci-a-metriky-pouzivani.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-metriky-zakaznickych-a-obchodnich-vysledku",
+      "title": "Metriky zákaznických a obchodních výsledků",
+      "heading": "5.3 Metriky zákaznických a obchodních výsledků",
+      "file": "chapters/05-03-metriky-zakaznickych-a-obchodnich-vysledku.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-naklady-a-jednotkova-ekonomika-inzenyrstvi",
+      "title": "Náklady a jednotková ekonomika inženýrství",
+      "heading": "5.4 Náklady a jednotková ekonomika inženýrství",
+      "file": "chapters/05-04-naklady-a-jednotkova-ekonomika-inzenyrstvi.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-navratnost-investic-do-inzenyrskych-iniciativ",
+      "title": "Návratnost investic do inženýrských iniciativ",
+      "heading": "5.5 Návratnost investic do inženýrských iniciativ",
+      "file": "chapters/05-05-navratnost-investic-do-inzenyrskych-iniciativ.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-uvod-do-casti-6-metriky-spolehlivosti-provozu-a-bezpecnosti",
+      "title": "Úvod do části 6: Metriky spolehlivosti, provozu a bezpečnosti",
+      "heading": "6.0 Úvod do části 6: Metriky spolehlivosti, provozu a bezpečnosti",
+      "file": "chapters/06-00-uvod-do-casti-6-metriky-spolehlivosti-provozu-a-bezpecnosti.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-ukazatele-urovne-sluzby-cile-a-rozpocty-chyb",
+      "title": "Ukazatele úrovně služby, cíle a rozpočty chyb",
+      "heading": "6.1 Ukazatele úrovně služby, cíle a rozpočty chyb",
+      "file": "chapters/06-01-ukazatele-urovne-sluzby-cile-a-rozpocty-chyb.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-metriky-incidentu-detekce-reakce-a-obnova",
+      "title": "Metriky incidentů: detekce, reakce a obnova",
+      "heading": "6.2 Metriky incidentů: detekce, reakce a obnova",
+      "file": "chapters/06-02-metriky-incidentu-detekce-reakce-a-obnova.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-metriky-pohotovosti-kapacity-a-provozni-zateze",
+      "title": "Metriky pohotovosti, kapacity a provozní zátěže",
+      "heading": "6.3 Metriky pohotovosti, kapacity a provozní zátěže",
+      "file": "chapters/06-03-metriky-pohotovosti-kapacity-a-provozni-zateze.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-metriky-bezpecnosti-a-spravy-zranitelnosti",
+      "title": "Metriky bezpečnosti a správy zranitelností",
+      "heading": "6.4 Metriky bezpečnosti a správy zranitelností",
+      "file": "chapters/06-04-metriky-bezpecnosti-a-spravy-zranitelnosti.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-uvod-do-casti-7-metriky-ve-veku-umele-inteligence",
+      "title": "Úvod do části 7: Metriky ve věku umělé inteligence",
+      "heading": "7.0 Úvod do části 7: Metriky ve věku umělé inteligence",
+      "file": "chapters/07-00-uvod-do-casti-7-metriky-ve-veku-umele-inteligence.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-zlom-v-paradigmatu-generativni-umele-inteligence",
+      "title": "Zlom v paradigmatu generativní umělé inteligence",
+      "heading": "7.1 Zlom v paradigmatu generativní umělé inteligence",
+      "file": "chapters/07-01-zlom-v-paradigmatu-generativni-umele-inteligence.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-mereni-vyvoje-softwaru-s-podporou-umele-inteligence",
+      "title": "Měření vývoje softwaru s podporou umělé inteligence",
+      "heading": "7.2 Měření vývoje softwaru s podporou umělé inteligence",
+      "file": "chapters/07-02-mereni-vyvoje-softwaru-s-podporou-umele-inteligence.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-inflace-metrik-a-rizika-redeni-kvality",
+      "title": "Inflace metrik a rizika ředění kvality",
+      "heading": "7.3 Inflace metrik a rizika ředění kvality",
+      "file": "chapters/07-03-inflace-metrik-a-rizika-redeni-kvality.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-telemetrie-vysledku-jako-nova-polarka",
+      "title": "Telemetrie výsledků jako nová Polárka",
+      "heading": "7.4 Telemetrie výsledků jako nová Polárka",
+      "file": "chapters/07-04-telemetrie-vysledku-jako-nova-polarka.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-uvod-do-casti-8-budovani-programu-metrik",
+      "title": "Úvod do části 8: Budování programu metrik",
+      "heading": "8.0 Úvod do části 8: Budování programu metrik",
+      "file": "chapters/08-00-uvod-do-casti-8-budovani-programu-metrik.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-navrh-dashboardu-inzenyrskych-metrik",
+      "title": "Návrh dashboardu inženýrských metrik",
+      "heading": "8.1 Návrh dashboardu inženýrských metrik",
+      "file": "chapters/08-01-navrh-dashboardu-inzenyrskych-metrik.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-krajina-nastroju-postavit-nebo-koupit",
+      "title": "Krajina nástrojů: postavit, nebo koupit",
+      "heading": "8.2 Krajina nástrojů: postavit, nebo koupit",
+      "file": "chapters/08-02-krajina-nastroju-postavit-nebo-koupit.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-zavadeni-metrik-bez-pestovani-strachu",
+      "title": "Zavádění metrik bez pěstování strachu",
+      "heading": "8.3 Zavádění metrik bez pěstování strachu",
+      "file": "chapters/08-03-zavadeni-metrik-bez-pestovani-strachu.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-model-zralosti-programu-inzenyrskych-metrik",
+      "title": "Model zralosti programů inženýrských metrik",
+      "heading": "8.4 Model zralosti programů inženýrských metrik",
+      "file": "chapters/08-04-model-zralosti-programu-inzenyrskych-metrik.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-postupna-adopcni-cesta",
+      "title": "Postupná adopční cesta",
+      "heading": "8.5 Postupná adopční cesta",
+      "file": "chapters/08-05-postupna-adopcni-cesta.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-prilohy",
+      "title": "Přílohy",
+      "heading": "9.0 Přílohy",
+      "file": "chapters/09-00-prilohy.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-slovnicek",
+      "title": "Slovníček",
+      "heading": "9.1 Slovníček",
+      "file": "chapters/09-01-slovnicek.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-prehled-definic-a-vzorcu-metrik",
+      "title": "Přehled definic a vzorců metrik",
+      "heading": "9.2 Přehled definic a vzorců metrik",
+      "file": "chapters/09-02-prehled-definic-a-vzorcu-metrik.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-kontrolni-seznamy",
+      "title": "Kontrolní seznamy",
+      "heading": "9.3 Kontrolní seznamy",
+      "file": "chapters/09-03-kontrolni-seznamy.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-sablony",
+      "title": "Šablony",
+      "heading": "9.4 Šablony",
+      "file": "chapters/09-04-sablony.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-sebehodnoceni-zralosti",
+      "title": "Sebehodnocení zralosti",
+      "heading": "9.5 Sebehodnocení zralosti",
+      "file": "chapters/09-05-sebehodnoceni-zralosti.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-odkazy-a-dalsi-cetba",
+      "title": "Odkazy a další četba",
+      "heading": "9.6 Odkazy a další četba",
+      "file": "chapters/09-06-odkazy-a-dalsi-cetba.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-rejstrik",
+      "title": "Rejstřík",
+      "heading": "9.7 Rejstřík",
+      "file": "chapters/09-07-rejstrik.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-uvod-do-casti-1-zaklady-mereni",
+      "title": "Úvod do části 1: Základy měření",
+      "heading": "1.0 Úvod do části 1: Základy měření",
+      "file": "chapters/01-00-uvod-do-casti-1-zaklady-mereni.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-proc-merit-softwarove-inzenyrstvi",
+      "title": "Proč měřit softwarové inženýrství",
+      "heading": "1.1 Proč měřit softwarové inženýrství",
+      "file": "chapters/01-01-proc-merit-softwarove-inzenyrstvi.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-goodhartuv-zakon-a-psychologie-metrik",
+      "title": "Goodhartův zákon a psychologie metrik",
+      "heading": "1.2 Goodhartův zákon a psychologie metrik",
+      "file": "chapters/01-02-goodhartuv-zakon-a-psychologie-metrik.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-vysledky-pred-vystupy-co-merit",
+      "title": "Výsledky před výstupy: co měřit",
+      "heading": "1.3 Výsledky před výstupy: co měřit",
+      "file": "chapters/01-03-vysledky-pred-vystupy-co-merit.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-sprava-a-vlastnictvi-metrik",
+      "title": "Správa a vlastnictví metrik",
+      "heading": "1.4 Správa a vlastnictví metrik",
+      "file": "chapters/01-04-sprava-a-vlastnictvi-metrik.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-zdroje-dat-a-instrumentace",
+      "title": "Zdroje dat a instrumentace",
+      "heading": "1.5 Zdroje dat a instrumentace",
+      "file": "chapters/01-05-zdroje-dat-a-instrumentace.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-statisticka-gramotnost-pro-inzenyrske-metriky",
+      "title": "Statistická gramotnost pro inženýrské metriky",
+      "heading": "1.6 Statistická gramotnost pro inženýrské metriky",
+      "file": "chapters/01-06-statisticka-gramotnost-pro-inzenyrske-metriky.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-uvod-do-casti-2-metriky-toku",
+      "title": "Úvod do části 2: Metriky toku",
+      "heading": "2.0 Úvod do části 2: Metriky toku",
+      "file": "chapters/02-00-uvod-do-casti-2-metriky-toku.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-ramec-flow-framework",
+      "title": "Rámec Flow Framework",
+      "heading": "2.1 Rámec Flow Framework",
+      "file": "chapters/02-01-ramec-flow-framework.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-polozky-toku-funkce-vady-rizika-a-dluh",
+      "title": "Položky toku: funkce, vady, rizika a dluh",
+      "heading": "2.2 Položky toku: funkce, vady, rizika a dluh",
+      "file": "chapters/02-02-polozky-toku-funkce-vady-rizika-a-dluh.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-rychlost-toku-a-rozlozeni-toku",
+      "title": "Rychlost toku a rozložení toku",
+      "heading": "2.3 Rychlost toku a rozložení toku",
+      "file": "chapters/02-03-rychlost-toku-a-rozlozeni-toku.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-doba-toku-a-zatizeni-toku",
+      "title": "Doba toku a zatížení toku",
+      "heading": "2.4 Doba toku a zatížení toku",
+      "file": "chapters/02-04-doba-toku-a-zatizeni-toku.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-efektivita-toku-a-rozpracovana-prace",
+      "title": "Efektivita toku a rozpracovaná práce",
+      "heading": "2.5 Efektivita toku a rozpracovaná práce",
+      "file": "chapters/02-05-efektivita-toku-a-rozpracovana-prace.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-cycle-time-a-jeho-slozky",
+      "title": "Cycle time a jeho složky",
+      "heading": "2.6 Cycle time a jeho složky",
+      "file": "chapters/02-06-cycle-time-a-jeho-slozky.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-teorie-front",
+      "title": "Teorie front",
+      "heading": "2.7 Teorie front",
+      "file": "chapters/02-07-teorie-front.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-metriky-hodnotoveho-proudu-podle-lean",
+      "title": "Metriky hodnotového proudu podle Lean",
+      "heading": "2.8 Metriky hodnotového proudu podle Lean",
+      "file": "chapters/02-08-metriky-hodnotoveho-proudu-podle-lean.md"
+    },
+    "2.9": {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-metriky-pull-requestu-a-revizi-kodu",
+      "title": "Metriky pull requestů a revizí kódu",
+      "heading": "2.9 Metriky pull requestů a revizí kódu",
+      "file": "chapters/02-09-metriky-pull-requestu-a-revizi-kodu.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-ramec-metrik-dora",
+      "title": "Rámec metrik DORA",
+      "heading": "2.10 Rámec metrik DORA",
+      "file": "chapters/02-10-ramec-metrik-dora.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-uvod-do-casti-3-zkusenost-vyvojaru-a-ramec-space",
+      "title": "Úvod do části 3: Zkušenost vývojářů a rámec SPACE",
+      "heading": "3.0 Úvod do části 3: Zkušenost vývojářů a rámec SPACE",
+      "file": "chapters/03-00-uvod-do-casti-3-zkusenost-vyvojaru-a-ramec-space.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-ramec-space",
+      "title": "Rámec SPACE",
+      "heading": "3.1 Rámec SPACE",
+      "file": "chapters/03-01-ramec-space.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-metriky-spokojenosti-a-pohody",
+      "title": "Metriky spokojenosti a pohody",
+      "heading": "3.2 Metriky spokojenosti a pohody",
+      "file": "chapters/03-02-metriky-spokojenosti-a-pohody.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-metriky-vykonu-a-zastupne-ukazatele-vysledku",
+      "title": "Metriky výkonu a zástupné ukazatele výsledků",
+      "heading": "3.3 Metriky výkonu a zástupné ukazatele výsledků",
+      "file": "chapters/03-03-metriky-vykonu-a-zastupne-ukazatele-vysledku.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-metriky-aktivity-a-jejich-meze",
+      "title": "Metriky aktivity a jejich meze",
+      "heading": "3.4 Metriky aktivity a jejich meze",
+      "file": "chapters/03-04-metriky-aktivity-a-jejich-meze.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-metriky-komunikace-a-spoluprace",
+      "title": "Metriky komunikace a spolupráce",
+      "heading": "3.5 Metriky komunikace a spolupráce",
+      "file": "chapters/03-05-metriky-komunikace-a-spoluprace.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-efektivita-a-plynulost-hluboka-prace-a-vyrusovani",
+      "title": "Efektivita a plynulost: hluboká práce a vyrušování",
+      "heading": "3.6 Efektivita a plynulost: hluboká práce a vyrušování",
+      "file": "chapters/03-06-efektivita-a-plynulost-hluboka-prace-a-vyrusovani.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-pruzkumy-zkusenosti-vyvojaru-a-metriky-devex",
+      "title": "Průzkumy zkušenosti vývojářů a metriky DevEx",
+      "heading": "3.7 Průzkumy zkušenosti vývojářů a metriky DevEx",
+      "file": "chapters/03-07-pruzkumy-zkusenosti-vyvojaru-a-metriky-devex.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-uvod-do-casti-4-metriky-kodu-a-kvality",
+      "title": "Úvod do části 4: Metriky kódu a kvality",
+      "heading": "4.0 Úvod do části 4: Metriky kódu a kvality",
+      "file": "chapters/04-00-uvod-do-casti-4-metriky-kodu-a-kvality.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-metriky-slozitosti-kodu",
+      "title": "Metriky složitosti kódu",
+      "heading": "4.1 Metriky složitosti kódu",
+      "file": "chapters/04-01-metriky-slozitosti-kodu.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-pokryti-testy-a-ucinnost-testu",
+      "title": "Pokrytí testy a účinnost testů",
+      "heading": "4.2 Pokrytí testy a účinnost testů",
+      "file": "chapters/04-02-pokryti-testy-a-ucinnost-testu.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-zmenovost-kodu-a-analyza-hotspotu",
+      "title": "Změnovost kódu a analýza hotspotů",
+      "heading": "4.3 Změnovost kódu a analýza hotspotů",
+      "file": "chapters/04-03-zmenovost-kodu-a-analyza-hotspotu.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-staticka-analyza-a-metriky-code-smells",
+      "title": "Statická analýza a metriky code smells",
+      "heading": "4.4 Statická analýza a metriky code smells",
+      "file": "chapters/04-04-staticka-analyza-a-metriky-code-smells.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-mereni-technickeho-dluhu",
+      "title": "Měření technického dluhu",
+      "heading": "4.5 Měření technického dluhu",
+      "file": "chapters/04-05-mereni-technickeho-dluhu.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-metriky-dokumentace-a-znalosti",
+      "title": "Metriky dokumentace a znalostí",
+      "heading": "4.6 Metriky dokumentace a znalostí",
+      "file": "chapters/04-06-metriky-dokumentace-a-znalosti.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-uvod-do-casti-5-produktove-a-obchodni-metriky",
+      "title": "Úvod do části 5: Produktové a obchodní metriky",
+      "heading": "5.0 Úvod do části 5: Produktové a obchodní metriky",
+      "file": "chapters/05-00-uvod-do-casti-5-produktove-a-obchodni-metriky.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-mira-uniklych-vad-a-uniky-kvality",
+      "title": "Míra uniklých vad a úniky kvality",
+      "heading": "5.1 Míra uniklých vad a úniky kvality",
+      "file": "chapters/05-01-mira-uniklych-vad-a-uniky-kvality.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-prijeti-funkci-a-metriky-pouzivani",
+      "title": "Přijetí funkcí a metriky používání",
+      "heading": "5.2 Přijetí funkcí a metriky používání",
+      "file": "chapters/05-02-prijeti-funkci-a-metriky-pouzivani.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-metriky-zakaznickych-a-obchodnich-vysledku",
+      "title": "Metriky zákaznických a obchodních výsledků",
+      "heading": "5.3 Metriky zákaznických a obchodních výsledků",
+      "file": "chapters/05-03-metriky-zakaznickych-a-obchodnich-vysledku.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-naklady-a-jednotkova-ekonomika-inzenyrstvi",
+      "title": "Náklady a jednotková ekonomika inženýrství",
+      "heading": "5.4 Náklady a jednotková ekonomika inženýrství",
+      "file": "chapters/05-04-naklady-a-jednotkova-ekonomika-inzenyrstvi.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-navratnost-investic-do-inzenyrskych-iniciativ",
+      "title": "Návratnost investic do inženýrských iniciativ",
+      "heading": "5.5 Návratnost investic do inženýrských iniciativ",
+      "file": "chapters/05-05-navratnost-investic-do-inzenyrskych-iniciativ.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-uvod-do-casti-6-metriky-spolehlivosti-provozu-a-bezpecnosti",
+      "title": "Úvod do části 6: Metriky spolehlivosti, provozu a bezpečnosti",
+      "heading": "6.0 Úvod do části 6: Metriky spolehlivosti, provozu a bezpečnosti",
+      "file": "chapters/06-00-uvod-do-casti-6-metriky-spolehlivosti-provozu-a-bezpecnosti.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-ukazatele-urovne-sluzby-cile-a-rozpocty-chyb",
+      "title": "Ukazatele úrovně služby, cíle a rozpočty chyb",
+      "heading": "6.1 Ukazatele úrovně služby, cíle a rozpočty chyb",
+      "file": "chapters/06-01-ukazatele-urovne-sluzby-cile-a-rozpocty-chyb.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-metriky-incidentu-detekce-reakce-a-obnova",
+      "title": "Metriky incidentů: detekce, reakce a obnova",
+      "heading": "6.2 Metriky incidentů: detekce, reakce a obnova",
+      "file": "chapters/06-02-metriky-incidentu-detekce-reakce-a-obnova.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-metriky-pohotovosti-kapacity-a-provozni-zateze",
+      "title": "Metriky pohotovosti, kapacity a provozní zátěže",
+      "heading": "6.3 Metriky pohotovosti, kapacity a provozní zátěže",
+      "file": "chapters/06-03-metriky-pohotovosti-kapacity-a-provozni-zateze.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-metriky-bezpecnosti-a-spravy-zranitelnosti",
+      "title": "Metriky bezpečnosti a správy zranitelností",
+      "heading": "6.4 Metriky bezpečnosti a správy zranitelností",
+      "file": "chapters/06-04-metriky-bezpecnosti-a-spravy-zranitelnosti.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-uvod-do-casti-7-metriky-ve-veku-umele-inteligence",
+      "title": "Úvod do části 7: Metriky ve věku umělé inteligence",
+      "heading": "7.0 Úvod do části 7: Metriky ve věku umělé inteligence",
+      "file": "chapters/07-00-uvod-do-casti-7-metriky-ve-veku-umele-inteligence.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-zlom-v-paradigmatu-generativni-umele-inteligence",
+      "title": "Zlom v paradigmatu generativní umělé inteligence",
+      "heading": "7.1 Zlom v paradigmatu generativní umělé inteligence",
+      "file": "chapters/07-01-zlom-v-paradigmatu-generativni-umele-inteligence.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-mereni-vyvoje-softwaru-s-podporou-umele-inteligence",
+      "title": "Měření vývoje softwaru s podporou umělé inteligence",
+      "heading": "7.2 Měření vývoje softwaru s podporou umělé inteligence",
+      "file": "chapters/07-02-mereni-vyvoje-softwaru-s-podporou-umele-inteligence.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-inflace-metrik-a-rizika-redeni-kvality",
+      "title": "Inflace metrik a rizika ředění kvality",
+      "heading": "7.3 Inflace metrik a rizika ředění kvality",
+      "file": "chapters/07-03-inflace-metrik-a-rizika-redeni-kvality.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-telemetrie-vysledku-jako-nova-polarka",
+      "title": "Telemetrie výsledků jako nová Polárka",
+      "heading": "7.4 Telemetrie výsledků jako nová Polárka",
+      "file": "chapters/07-04-telemetrie-vysledku-jako-nova-polarka.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-uvod-do-casti-8-budovani-programu-metrik",
+      "title": "Úvod do části 8: Budování programu metrik",
+      "heading": "8.0 Úvod do části 8: Budování programu metrik",
+      "file": "chapters/08-00-uvod-do-casti-8-budovani-programu-metrik.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-navrh-dashboardu-inzenyrskych-metrik",
+      "title": "Návrh dashboardu inženýrských metrik",
+      "heading": "8.1 Návrh dashboardu inženýrských metrik",
+      "file": "chapters/08-01-navrh-dashboardu-inzenyrskych-metrik.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-krajina-nastroju-postavit-nebo-koupit",
+      "title": "Krajina nástrojů: postavit, nebo koupit",
+      "heading": "8.2 Krajina nástrojů: postavit, nebo koupit",
+      "file": "chapters/08-02-krajina-nastroju-postavit-nebo-koupit.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-zavadeni-metrik-bez-pestovani-strachu",
+      "title": "Zavádění metrik bez pěstování strachu",
+      "heading": "8.3 Zavádění metrik bez pěstování strachu",
+      "file": "chapters/08-03-zavadeni-metrik-bez-pestovani-strachu.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-model-zralosti-programu-inzenyrskych-metrik",
+      "title": "Model zralosti programů inženýrských metrik",
+      "heading": "8.4 Model zralosti programů inženýrských metrik",
+      "file": "chapters/08-04-model-zralosti-programu-inzenyrskych-metrik.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-postupna-adopcni-cesta",
+      "title": "Postupná adopční cesta",
+      "heading": "8.5 Postupná adopční cesta",
+      "file": "chapters/08-05-postupna-adopcni-cesta.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-prilohy",
+      "title": "Přílohy",
+      "heading": "9.0 Přílohy",
+      "file": "chapters/09-00-prilohy.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-slovnicek",
+      "title": "Slovníček",
+      "heading": "9.1 Slovníček",
+      "file": "chapters/09-01-slovnicek.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-prehled-definic-a-vzorcu-metrik",
+      "title": "Přehled definic a vzorců metrik",
+      "heading": "9.2 Přehled definic a vzorců metrik",
+      "file": "chapters/09-02-prehled-definic-a-vzorcu-metrik.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-kontrolni-seznamy",
+      "title": "Kontrolní seznamy",
+      "heading": "9.3 Kontrolní seznamy",
+      "file": "chapters/09-03-kontrolni-seznamy.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-sablony",
+      "title": "Šablony",
+      "heading": "9.4 Šablony",
+      "file": "chapters/09-04-sablony.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-sebehodnoceni-zralosti",
+      "title": "Sebehodnocení zralosti",
+      "heading": "9.5 Sebehodnocení zralosti",
+      "file": "chapters/09-05-sebehodnoceni-zralosti.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-odkazy-a-dalsi-cetba",
+      "title": "Odkazy a další četba",
+      "heading": "9.6 Odkazy a další četba",
+      "file": "chapters/09-06-odkazy-a-dalsi-cetba.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-rejstrik",
+      "title": "Rejstřík",
+      "heading": "9.7 Rejstřík",
+      "file": "chapters/09-07-rejstrik.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "Úvod",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "Obsah",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "Co jsou metriky softwarového inženýrství?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "Příklad: specifikace dashboardu metrik doručování",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "Příklad: charta metrik pro tým platební platformy",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "Psaní a úprava témat",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "Šablona tématu (sdílená)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "Navigace: jak fungují generované soubory",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "Rejstřík částí (sdílená reference)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "Pravidla stylu (sdílená, vynutitelná)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "Testování: validační sada",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "Seznam změn",
+      "file": "project/changelog.md"
+    }
+  ],
+  "totals": {
+    "parts": 9,
+    "chapters": 63
+  }
+}

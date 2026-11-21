@@ -52,7 +52,20 @@ export const LOCALE_LABELS = {
   'zh-th': '中文 (泰国)',
   'hi-np': 'हिन्दी (नेपाल)',
   'cy-ar': 'Cymraeg (Ariannin)',
-  'de-at': 'Deutsch (Österreich)'
+  'de-at': 'Deutsch (Österreich)',
+  'bg-001': 'Български',
+  'bg-bg': 'Български (България)',
+  'cs-001': 'Čeština',
+  'cs-cz': 'Čeština (Česko)',
+  'pl-001': 'Polski',
+  'pl-pl': 'Polski (Polska)',
+  'ro-001': 'Română',
+  'ro-ro': 'Română (România)',
+  'uk-001': 'Українська',
+  'he-001': 'עברית',
+  'fr-be': 'Français (Belgique)',
+  'fr-lu': 'Français (Luxembourg)',
+  'nl-be': 'Nederlands (België)'
 };
 
 /** @param {string} code */
@@ -117,7 +130,20 @@ const SERVED_LOCALE_CODES = [
   'zh-th',
   'hi-np',
   'cy-ar',
-  'de-at'
+  'de-at',
+  'bg-001',
+  'bg-bg',
+  'cs-001',
+  'cs-cz',
+  'pl-001',
+  'pl-pl',
+  'ro-001',
+  'ro-ro',
+  'uk-001',
+  'he-001',
+  'fr-be',
+  'fr-lu',
+  'nl-be'
 ];
 
 export const LOCALES = SERVED_LOCALE_CODES.map((code) => ({ code, label: localeLabel(code) }));

@@ -399,6 +399,97 @@
       "examples": "beispiele",
       "contributing": "mitwirken",
       "project": "projekt"
+    },
+    "bg-001": {
+      "chapters": "теми",
+      "front-matter": "предговор",
+      "examples": "примери",
+      "contributing": "принос",
+      "project": "проект"
+    },
+    "bg-bg": {
+      "chapters": "теми",
+      "front-matter": "предговор",
+      "examples": "примери",
+      "contributing": "принос",
+      "project": "проект"
+    },
+    "cs-001": {
+      "chapters": "temata",
+      "front-matter": "uvodni-cast",
+      "examples": "priklady",
+      "contributing": "prispivani",
+      "project": "projekt"
+    },
+    "cs-cz": {
+      "chapters": "temata",
+      "front-matter": "uvodni-cast",
+      "examples": "priklady",
+      "contributing": "prispivani",
+      "project": "projekt"
+    },
+    "pl-001": {
+      "chapters": "tematy",
+      "front-matter": "wstep",
+      "examples": "przyklady",
+      "contributing": "wspolpraca",
+      "project": "projekt"
+    },
+    "pl-pl": {
+      "chapters": "tematy",
+      "front-matter": "wstep",
+      "examples": "przyklady",
+      "contributing": "wspolpraca",
+      "project": "projekt"
+    },
+    "ro-001": {
+      "chapters": "subiecte",
+      "front-matter": "preliminarii",
+      "examples": "exemple",
+      "contributing": "contributii",
+      "project": "proiect"
+    },
+    "ro-ro": {
+      "chapters": "subiecte",
+      "front-matter": "preliminarii",
+      "examples": "exemple",
+      "contributing": "contributii",
+      "project": "proiect"
+    },
+    "uk-001": {
+      "chapters": "теми",
+      "front-matter": "передмова",
+      "examples": "приклади",
+      "contributing": "співпраця",
+      "project": "проєкт"
+    },
+    "he-001": {
+      "chapters": "נושאים",
+      "front-matter": "פתח-דבר",
+      "examples": "דוגמאות",
+      "contributing": "תרומה",
+      "project": "פרויקט"
+    },
+    "fr-be": {
+      "chapters": "sujets",
+      "front-matter": "liminaires",
+      "examples": "exemples",
+      "contributing": "contribuer",
+      "project": "projet"
+    },
+    "fr-lu": {
+      "chapters": "sujets",
+      "front-matter": "liminaires",
+      "examples": "exemples",
+      "contributing": "contribuer",
+      "project": "projet"
+    },
+    "nl-be": {
+      "chapters": "onderwerpen",
+      "front-matter": "voorwerk",
+      "examples": "voorbeelden",
+      "contributing": "bijdragen",
+      "project": "project"
     }
   }
 }

@@ -1,0 +1,1902 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "ro-ro",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-bazele-masurarii",
+          "title": "Introducere în Partea 1: Bazele măsurării",
+          "heading": "1.0 Introducere în Partea 1: Bazele măsurării",
+          "file": "chapters/01-00-bazele-masurarii.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-de-ce-masuram-ingineria-software",
+          "title": "De ce măsurăm ingineria software",
+          "heading": "1.1 De ce măsurăm ingineria software",
+          "file": "chapters/01-01-de-ce-masuram-ingineria-software.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-legea-lui-goodhart-si-psihologia-metricilor",
+          "title": "Legea lui Goodhart și psihologia metricilor",
+          "heading": "1.2 Legea lui Goodhart și psihologia metricilor",
+          "file": "chapters/01-02-legea-lui-goodhart-si-psihologia-metricilor.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-rezultate-in-fata-productiei",
+          "title": "Rezultatele înaintea producției: alegerea a ceea ce măsurăm",
+          "heading": "1.3 Rezultatele înaintea producției: alegerea a ceea ce măsurăm",
+          "file": "chapters/01-03-rezultate-in-fata-productiei.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-guvernanta-si-responsabilitatea-metricilor",
+          "title": "Guvernanța și responsabilitatea metricilor",
+          "heading": "1.4 Guvernanța și responsabilitatea metricilor",
+          "file": "chapters/01-04-guvernanta-si-responsabilitatea-metricilor.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-surse-de-date-si-instrumentare",
+          "title": "Surse de date și instrumentare",
+          "heading": "1.5 Surse de date și instrumentare",
+          "file": "chapters/01-05-surse-de-date-si-instrumentare.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-cultura-statistica-pentru-metricile-ingineriei",
+          "title": "Cultură statistică pentru metricile ingineriei",
+          "heading": "1.6 Cultură statistică pentru metricile ingineriei",
+          "file": "chapters/01-06-cultura-statistica-pentru-metricile-ingineriei.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-metrici-de-flux",
+          "title": "Introducere în Partea 2: Metrici de flux",
+          "heading": "2.0 Introducere în Partea 2: Metrici de flux",
+          "file": "chapters/02-00-metrici-de-flux.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-cadrul-flow-framework",
+          "title": "Flow Framework",
+          "heading": "2.1 Flow Framework",
+          "file": "chapters/02-01-cadrul-flow-framework.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-elemente-de-flux",
+          "title": "Elemente de flux: funcționalități, defecte, riscuri și datorie",
+          "heading": "2.2 Elemente de flux: funcționalități, defecte, riscuri și datorie",
+          "file": "chapters/02-02-elemente-de-flux.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-viteza-fluxului-si-distributia-fluxului",
+          "title": "Viteza fluxului și distribuția fluxului",
+          "heading": "2.3 Viteza fluxului și distribuția fluxului",
+          "file": "chapters/02-03-viteza-fluxului-si-distributia-fluxului.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-timpul-fluxului-si-incarcarea-fluxului",
+          "title": "Timpul fluxului și încărcarea fluxului",
+          "heading": "2.4 Timpul fluxului și încărcarea fluxului",
+          "file": "chapters/02-04-timpul-fluxului-si-incarcarea-fluxului.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-eficienta-fluxului-si-munca-in-curs",
+          "title": "Eficiența fluxului și munca în curs",
+          "heading": "2.5 Eficiența fluxului și munca în curs",
+          "file": "chapters/02-05-eficienta-fluxului-si-munca-in-curs.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-timpul-de-ciclu-si-componentele-sale",
+          "title": "Timpul de ciclu și componentele sale",
+          "heading": "2.6 Timpul de ciclu și componentele sale",
+          "file": "chapters/02-06-timpul-de-ciclu-si-componentele-sale.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-teoria-cozilor",
+          "title": "Teoria cozilor",
+          "heading": "2.7 Teoria cozilor",
+          "file": "chapters/02-07-teoria-cozilor.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-metrici-lean-ale-fluxului-de-valoare",
+          "title": "Metrici Lean ale fluxului de valoare",
+          "heading": "2.8 Metrici Lean ale fluxului de valoare",
+          "file": "chapters/02-08-metrici-lean-ale-fluxului-de-valoare.md"
+        },
+        {
+          "part": 2,
+          "chapter": 9,
+          "decimal": "2.9",
+          "slug": "02-09-metrici-pentru-pull-request-si-revizuirea-codului",
+          "title": "Metrici pentru pull request și revizuirea codului",
+          "heading": "2.9 Metrici pentru pull request și revizuirea codului",
+          "file": "chapters/02-09-metrici-pentru-pull-request-si-revizuirea-codului.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-cadrul-metricilor-dora",
+          "title": "Cadrul metricilor DORA",
+          "heading": "2.10 Cadrul metricilor DORA",
+          "file": "chapters/02-10-cadrul-metricilor-dora.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-experienta-dezvoltatorilor-si-space",
+          "title": "Introducere în Partea 3: Experiența dezvoltatorilor și cadrul SPACE",
+          "heading": "3.0 Introducere în Partea 3: Experiența dezvoltatorilor și cadrul SPACE",
+          "file": "chapters/03-00-experienta-dezvoltatorilor-si-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-cadrul-space",
+          "title": "Cadrul SPACE",
+          "heading": "3.1 Cadrul SPACE",
+          "file": "chapters/03-01-cadrul-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-metrici-de-satisfactie-si-bunastare",
+          "title": "Metrici de satisfacție și bunăstare",
+          "heading": "3.2 Metrici de satisfacție și bunăstare",
+          "file": "chapters/03-02-metrici-de-satisfactie-si-bunastare.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-metrici-de-performanta-si-indicatori-indirecti-de-rezultat",
+          "title": "Metrici de performanță și indicatori indirecți de rezultat",
+          "heading": "3.3 Metrici de performanță și indicatori indirecți de rezultat",
+          "file": "chapters/03-03-metrici-de-performanta-si-indicatori-indirecti-de-rezultat.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-metrici-de-activitate-si-limitele-lor",
+          "title": "Metrici de activitate și limitele lor",
+          "heading": "3.4 Metrici de activitate și limitele lor",
+          "file": "chapters/03-04-metrici-de-activitate-si-limitele-lor.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-metrici-de-comunicare-si-colaborare",
+          "title": "Metrici de comunicare și colaborare",
+          "heading": "3.5 Metrici de comunicare și colaborare",
+          "file": "chapters/03-05-metrici-de-comunicare-si-colaborare.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-eficienta-si-flux",
+          "title": "Eficiență și flux: munca profundă și întreruperile",
+          "heading": "3.6 Eficiență și flux: munca profundă și întreruperile",
+          "file": "chapters/03-06-eficienta-si-flux.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-sondaje-despre-experienta-dezvoltatorilor-si-metrici-devex",
+          "title": "Sondaje despre experiența dezvoltatorilor și metrici DevEx",
+          "heading": "3.7 Sondaje despre experiența dezvoltatorilor și metrici DevEx",
+          "file": "chapters/03-07-sondaje-despre-experienta-dezvoltatorilor-si-metrici-devex.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-metrici-de-cod-si-calitate",
+          "title": "Introducere în Partea 4: Metrici de cod și calitate",
+          "heading": "4.0 Introducere în Partea 4: Metrici de cod și calitate",
+          "file": "chapters/04-00-metrici-de-cod-si-calitate.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-metrici-de-complexitate-a-codului",
+          "title": "Metrici de complexitate a codului",
+          "heading": "4.1 Metrici de complexitate a codului",
+          "file": "chapters/04-01-metrici-de-complexitate-a-codului.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-acoperirea-testelor-si-eficacitatea-testelor",
+          "title": "Acoperirea testelor și eficacitatea testelor",
+          "heading": "4.2 Acoperirea testelor și eficacitatea testelor",
+          "file": "chapters/04-02-acoperirea-testelor-si-eficacitatea-testelor.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-volatilitatea-codului-si-analiza-punctelor-fierbinti",
+          "title": "Volatilitatea codului și analiza punctelor fierbinți",
+          "heading": "4.3 Volatilitatea codului și analiza punctelor fierbinți",
+          "file": "chapters/04-03-volatilitatea-codului-si-analiza-punctelor-fierbinti.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-analiza-statica-si-metrici-de-mirosuri-de-cod",
+          "title": "Analiza statică și metrici de mirosuri de cod",
+          "heading": "4.4 Analiza statică și metrici de mirosuri de cod",
+          "file": "chapters/04-04-analiza-statica-si-metrici-de-mirosuri-de-cod.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-masurarea-datoriei-tehnice",
+          "title": "Măsurarea datoriei tehnice",
+          "heading": "4.5 Măsurarea datoriei tehnice",
+          "file": "chapters/04-05-masurarea-datoriei-tehnice.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-metrici-de-documentatie-si-cunoastere",
+          "title": "Metrici de documentație și cunoaștere",
+          "heading": "4.6 Metrici de documentație și cunoaștere",
+          "file": "chapters/04-06-metrici-de-documentatie-si-cunoastere.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-metrici-de-produs-si-de-business",
+          "title": "Introducere în Partea 5: Metrici de produs și de business",
+          "heading": "5.0 Introducere în Partea 5: Metrici de produs și de business",
+          "file": "chapters/05-00-metrici-de-produs-si-de-business.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-rata-defectelor-scapate-si-scapari-de-calitate",
+          "title": "Rata defectelor scăpate și scăpările de calitate",
+          "heading": "5.1 Rata defectelor scăpate și scăpările de calitate",
+          "file": "chapters/05-01-rata-defectelor-scapate-si-scapari-de-calitate.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-metrici-de-adoptare-si-utilizare-a-functionalitatilor",
+          "title": "Metrici de adoptare și utilizare a funcționalităților",
+          "heading": "5.2 Metrici de adoptare și utilizare a funcționalităților",
+          "file": "chapters/05-02-metrici-de-adoptare-si-utilizare-a-functionalitatilor.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-metrici-de-rezultat-pentru-clienti-si-business",
+          "title": "Metrici de rezultat pentru clienți și business",
+          "heading": "5.3 Metrici de rezultat pentru clienți și business",
+          "file": "chapters/05-03-metrici-de-rezultat-pentru-clienti-si-business.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-costul-si-economia-unitara-a-ingineriei",
+          "title": "Costul și economia unitară a ingineriei",
+          "heading": "5.4 Costul și economia unitară a ingineriei",
+          "file": "chapters/05-04-costul-si-economia-unitara-a-ingineriei.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-rentabilitatea-investitiei-pentru-initiativele-de-inginerie",
+          "title": "Rentabilitatea investiției pentru inițiativele de inginerie",
+          "heading": "5.5 Rentabilitatea investiției pentru inițiativele de inginerie",
+          "file": "chapters/05-05-rentabilitatea-investitiei-pentru-initiativele-de-inginerie.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-metrici-de-fiabilitate-operatiuni-si-securitate",
+          "title": "Introducere în Partea 6: Metrici de fiabilitate, operațiuni și securitate",
+          "heading": "6.0 Introducere în Partea 6: Metrici de fiabilitate, operațiuni și securitate",
+          "file": "chapters/06-00-metrici-de-fiabilitate-operatiuni-si-securitate.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-sli-slo-si-bugete-de-erori",
+          "title": "Indicatori, obiective și bugete de erori ale nivelului de serviciu",
+          "heading": "6.1 Indicatori, obiective și bugete de erori ale nivelului de serviciu",
+          "file": "chapters/06-01-sli-slo-si-bugete-de-erori.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-metrici-de-incidente",
+          "title": "Metrici de incidente: detectare, răspuns și recuperare",
+          "heading": "6.2 Metrici de incidente: detectare, răspuns și recuperare",
+          "file": "chapters/06-02-metrici-de-incidente.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-garzi-capacitate-si-sarcina-operationala",
+          "title": "Metrici pentru gărzi, capacitate și sarcină operațională",
+          "heading": "6.3 Metrici pentru gărzi, capacitate și sarcină operațională",
+          "file": "chapters/06-03-garzi-capacitate-si-sarcina-operationala.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-metrici-de-securitate-si-gestionarea-vulnerabilitatilor",
+          "title": "Metrici de securitate și gestionare a vulnerabilităților",
+          "heading": "6.4 Metrici de securitate și gestionare a vulnerabilităților",
+          "file": "chapters/06-04-metrici-de-securitate-si-gestionarea-vulnerabilitatilor.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-metrici-in-era-ia",
+          "title": "Introducere în Partea 7: Metrici în era IA",
+          "heading": "7.0 Introducere în Partea 7: Metrici în era IA",
+          "file": "chapters/07-00-metrici-in-era-ia.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-schimbarea-de-paradigma-a-ia-generative",
+          "title": "Schimbarea de paradigmă a IA generative",
+          "heading": "7.1 Schimbarea de paradigmă a IA generative",
+          "file": "chapters/07-01-schimbarea-de-paradigma-a-ia-generative.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-masurarea-dezvoltarii-software-asistate-de-ia",
+          "title": "Măsurarea dezvoltării software asistate de IA",
+          "heading": "7.2 Măsurarea dezvoltării software asistate de IA",
+          "file": "chapters/07-02-masurarea-dezvoltarii-software-asistate-de-ia.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-inflatia-metricilor-si-riscurile-de-diluare-a-calitatii",
+          "title": "Inflația metricilor și riscurile de diluare a calității",
+          "heading": "7.3 Inflația metricilor și riscurile de diluare a calității",
+          "file": "chapters/07-03-inflatia-metricilor-si-riscurile-de-diluare-a-calitatii.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-telemetria-rezultatelor-noua-stea-polara",
+          "title": "Telemetria rezultatelor ca nouă stea polară",
+          "heading": "7.4 Telemetria rezultatelor ca nouă stea polară",
+          "file": "chapters/07-04-telemetria-rezultatelor-noua-stea-polara.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-construirea-unui-program-de-metrici",
+          "title": "Introducere în Partea 8: Construirea unui program de metrici",
+          "heading": "8.0 Introducere în Partea 8: Construirea unui program de metrici",
+          "file": "chapters/08-00-construirea-unui-program-de-metrici.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-proiectarea-unui-tablou-de-bord-de-metrici",
+          "title": "Proiectarea unui tablou de bord pentru metricile ingineriei",
+          "heading": "8.1 Proiectarea unui tablou de bord pentru metricile ingineriei",
+          "file": "chapters/08-01-proiectarea-unui-tablou-de-bord-de-metrici.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-peisajul-instrumentelor-construim-sau-cumparam",
+          "title": "Peisajul instrumentelor: construim sau cumpărăm",
+          "heading": "8.2 Peisajul instrumentelor: construim sau cumpărăm",
+          "file": "chapters/08-02-peisajul-instrumentelor-construim-sau-cumparam.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-introducerea-metricilor-fara-a-starni-frica",
+          "title": "Introducerea metricilor fără a stârni frică",
+          "heading": "8.3 Introducerea metricilor fără a stârni frică",
+          "file": "chapters/08-03-introducerea-metricilor-fara-a-starni-frica.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-model-de-maturitate-pentru-programele-de-metrici",
+          "title": "Model de maturitate pentru programele de metrici ale ingineriei",
+          "heading": "8.4 Model de maturitate pentru programele de metrici ale ingineriei",
+          "file": "chapters/08-04-model-de-maturitate-pentru-programele-de-metrici.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-o-foaie-de-parcurs-pentru-adoptare-incrementala",
+          "title": "O foaie de parcurs pentru adoptare incrementală",
+          "heading": "8.5 O foaie de parcurs pentru adoptare incrementală",
+          "file": "chapters/08-05-o-foaie-de-parcurs-pentru-adoptare-incrementala.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-anexe",
+          "title": "Anexe",
+          "heading": "9.0 Anexe",
+          "file": "chapters/09-00-anexe.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-glosar",
+          "title": "Glosar",
+          "heading": "9.1 Glosar",
+          "file": "chapters/09-01-glosar.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-definitii-de-metrici-si-referinta-formulelor",
+          "title": "Definiții de metrici și referința formulelor",
+          "heading": "9.2 Definiții de metrici și referința formulelor",
+          "file": "chapters/09-02-definitii-de-metrici-si-referinta-formulelor.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-liste-de-verificare",
+          "title": "Liste de verificare",
+          "heading": "9.3 Liste de verificare",
+          "file": "chapters/09-03-liste-de-verificare.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-sabloane",
+          "title": "Șabloane",
+          "heading": "9.4 Șabloane",
+          "file": "chapters/09-04-sabloane.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-autoevaluarea-maturitatii",
+          "title": "Autoevaluarea maturității",
+          "heading": "9.5 Autoevaluarea maturității",
+          "file": "chapters/09-05-autoevaluarea-maturitatii.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-referinte-si-lecturi-suplimentare",
+          "title": "Referințe și lecturi suplimentare",
+          "heading": "9.6 Referințe și lecturi suplimentare",
+          "file": "chapters/09-06-referinte-si-lecturi-suplimentare.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-index",
+          "title": "Index",
+          "heading": "9.7 Index",
+          "file": "chapters/09-07-index.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-bazele-masurarii",
+      "title": "Introducere în Partea 1: Bazele măsurării",
+      "heading": "1.0 Introducere în Partea 1: Bazele măsurării",
+      "file": "chapters/01-00-bazele-masurarii.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-de-ce-masuram-ingineria-software",
+      "title": "De ce măsurăm ingineria software",
+      "heading": "1.1 De ce măsurăm ingineria software",
+      "file": "chapters/01-01-de-ce-masuram-ingineria-software.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-legea-lui-goodhart-si-psihologia-metricilor",
+      "title": "Legea lui Goodhart și psihologia metricilor",
+      "heading": "1.2 Legea lui Goodhart și psihologia metricilor",
+      "file": "chapters/01-02-legea-lui-goodhart-si-psihologia-metricilor.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-rezultate-in-fata-productiei",
+      "title": "Rezultatele înaintea producției: alegerea a ceea ce măsurăm",
+      "heading": "1.3 Rezultatele înaintea producției: alegerea a ceea ce măsurăm",
+      "file": "chapters/01-03-rezultate-in-fata-productiei.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-guvernanta-si-responsabilitatea-metricilor",
+      "title": "Guvernanța și responsabilitatea metricilor",
+      "heading": "1.4 Guvernanța și responsabilitatea metricilor",
+      "file": "chapters/01-04-guvernanta-si-responsabilitatea-metricilor.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-surse-de-date-si-instrumentare",
+      "title": "Surse de date și instrumentare",
+      "heading": "1.5 Surse de date și instrumentare",
+      "file": "chapters/01-05-surse-de-date-si-instrumentare.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-cultura-statistica-pentru-metricile-ingineriei",
+      "title": "Cultură statistică pentru metricile ingineriei",
+      "heading": "1.6 Cultură statistică pentru metricile ingineriei",
+      "file": "chapters/01-06-cultura-statistica-pentru-metricile-ingineriei.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-metrici-de-flux",
+      "title": "Introducere în Partea 2: Metrici de flux",
+      "heading": "2.0 Introducere în Partea 2: Metrici de flux",
+      "file": "chapters/02-00-metrici-de-flux.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-cadrul-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-cadrul-flow-framework.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-elemente-de-flux",
+      "title": "Elemente de flux: funcționalități, defecte, riscuri și datorie",
+      "heading": "2.2 Elemente de flux: funcționalități, defecte, riscuri și datorie",
+      "file": "chapters/02-02-elemente-de-flux.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-viteza-fluxului-si-distributia-fluxului",
+      "title": "Viteza fluxului și distribuția fluxului",
+      "heading": "2.3 Viteza fluxului și distribuția fluxului",
+      "file": "chapters/02-03-viteza-fluxului-si-distributia-fluxului.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-timpul-fluxului-si-incarcarea-fluxului",
+      "title": "Timpul fluxului și încărcarea fluxului",
+      "heading": "2.4 Timpul fluxului și încărcarea fluxului",
+      "file": "chapters/02-04-timpul-fluxului-si-incarcarea-fluxului.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-eficienta-fluxului-si-munca-in-curs",
+      "title": "Eficiența fluxului și munca în curs",
+      "heading": "2.5 Eficiența fluxului și munca în curs",
+      "file": "chapters/02-05-eficienta-fluxului-si-munca-in-curs.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-timpul-de-ciclu-si-componentele-sale",
+      "title": "Timpul de ciclu și componentele sale",
+      "heading": "2.6 Timpul de ciclu și componentele sale",
+      "file": "chapters/02-06-timpul-de-ciclu-si-componentele-sale.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-teoria-cozilor",
+      "title": "Teoria cozilor",
+      "heading": "2.7 Teoria cozilor",
+      "file": "chapters/02-07-teoria-cozilor.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-metrici-lean-ale-fluxului-de-valoare",
+      "title": "Metrici Lean ale fluxului de valoare",
+      "heading": "2.8 Metrici Lean ale fluxului de valoare",
+      "file": "chapters/02-08-metrici-lean-ale-fluxului-de-valoare.md"
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-metrici-pentru-pull-request-si-revizuirea-codului",
+      "title": "Metrici pentru pull request și revizuirea codului",
+      "heading": "2.9 Metrici pentru pull request și revizuirea codului",
+      "file": "chapters/02-09-metrici-pentru-pull-request-si-revizuirea-codului.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-cadrul-metricilor-dora",
+      "title": "Cadrul metricilor DORA",
+      "heading": "2.10 Cadrul metricilor DORA",
+      "file": "chapters/02-10-cadrul-metricilor-dora.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-experienta-dezvoltatorilor-si-space",
+      "title": "Introducere în Partea 3: Experiența dezvoltatorilor și cadrul SPACE",
+      "heading": "3.0 Introducere în Partea 3: Experiența dezvoltatorilor și cadrul SPACE",
+      "file": "chapters/03-00-experienta-dezvoltatorilor-si-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-cadrul-space",
+      "title": "Cadrul SPACE",
+      "heading": "3.1 Cadrul SPACE",
+      "file": "chapters/03-01-cadrul-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-metrici-de-satisfactie-si-bunastare",
+      "title": "Metrici de satisfacție și bunăstare",
+      "heading": "3.2 Metrici de satisfacție și bunăstare",
+      "file": "chapters/03-02-metrici-de-satisfactie-si-bunastare.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-metrici-de-performanta-si-indicatori-indirecti-de-rezultat",
+      "title": "Metrici de performanță și indicatori indirecți de rezultat",
+      "heading": "3.3 Metrici de performanță și indicatori indirecți de rezultat",
+      "file": "chapters/03-03-metrici-de-performanta-si-indicatori-indirecti-de-rezultat.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-metrici-de-activitate-si-limitele-lor",
+      "title": "Metrici de activitate și limitele lor",
+      "heading": "3.4 Metrici de activitate și limitele lor",
+      "file": "chapters/03-04-metrici-de-activitate-si-limitele-lor.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-metrici-de-comunicare-si-colaborare",
+      "title": "Metrici de comunicare și colaborare",
+      "heading": "3.5 Metrici de comunicare și colaborare",
+      "file": "chapters/03-05-metrici-de-comunicare-si-colaborare.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-eficienta-si-flux",
+      "title": "Eficiență și flux: munca profundă și întreruperile",
+      "heading": "3.6 Eficiență și flux: munca profundă și întreruperile",
+      "file": "chapters/03-06-eficienta-si-flux.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-sondaje-despre-experienta-dezvoltatorilor-si-metrici-devex",
+      "title": "Sondaje despre experiența dezvoltatorilor și metrici DevEx",
+      "heading": "3.7 Sondaje despre experiența dezvoltatorilor și metrici DevEx",
+      "file": "chapters/03-07-sondaje-despre-experienta-dezvoltatorilor-si-metrici-devex.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-metrici-de-cod-si-calitate",
+      "title": "Introducere în Partea 4: Metrici de cod și calitate",
+      "heading": "4.0 Introducere în Partea 4: Metrici de cod și calitate",
+      "file": "chapters/04-00-metrici-de-cod-si-calitate.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-metrici-de-complexitate-a-codului",
+      "title": "Metrici de complexitate a codului",
+      "heading": "4.1 Metrici de complexitate a codului",
+      "file": "chapters/04-01-metrici-de-complexitate-a-codului.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-acoperirea-testelor-si-eficacitatea-testelor",
+      "title": "Acoperirea testelor și eficacitatea testelor",
+      "heading": "4.2 Acoperirea testelor și eficacitatea testelor",
+      "file": "chapters/04-02-acoperirea-testelor-si-eficacitatea-testelor.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-volatilitatea-codului-si-analiza-punctelor-fierbinti",
+      "title": "Volatilitatea codului și analiza punctelor fierbinți",
+      "heading": "4.3 Volatilitatea codului și analiza punctelor fierbinți",
+      "file": "chapters/04-03-volatilitatea-codului-si-analiza-punctelor-fierbinti.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-analiza-statica-si-metrici-de-mirosuri-de-cod",
+      "title": "Analiza statică și metrici de mirosuri de cod",
+      "heading": "4.4 Analiza statică și metrici de mirosuri de cod",
+      "file": "chapters/04-04-analiza-statica-si-metrici-de-mirosuri-de-cod.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-masurarea-datoriei-tehnice",
+      "title": "Măsurarea datoriei tehnice",
+      "heading": "4.5 Măsurarea datoriei tehnice",
+      "file": "chapters/04-05-masurarea-datoriei-tehnice.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-metrici-de-documentatie-si-cunoastere",
+      "title": "Metrici de documentație și cunoaștere",
+      "heading": "4.6 Metrici de documentație și cunoaștere",
+      "file": "chapters/04-06-metrici-de-documentatie-si-cunoastere.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-metrici-de-produs-si-de-business",
+      "title": "Introducere în Partea 5: Metrici de produs și de business",
+      "heading": "5.0 Introducere în Partea 5: Metrici de produs și de business",
+      "file": "chapters/05-00-metrici-de-produs-si-de-business.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-rata-defectelor-scapate-si-scapari-de-calitate",
+      "title": "Rata defectelor scăpate și scăpările de calitate",
+      "heading": "5.1 Rata defectelor scăpate și scăpările de calitate",
+      "file": "chapters/05-01-rata-defectelor-scapate-si-scapari-de-calitate.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-metrici-de-adoptare-si-utilizare-a-functionalitatilor",
+      "title": "Metrici de adoptare și utilizare a funcționalităților",
+      "heading": "5.2 Metrici de adoptare și utilizare a funcționalităților",
+      "file": "chapters/05-02-metrici-de-adoptare-si-utilizare-a-functionalitatilor.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-metrici-de-rezultat-pentru-clienti-si-business",
+      "title": "Metrici de rezultat pentru clienți și business",
+      "heading": "5.3 Metrici de rezultat pentru clienți și business",
+      "file": "chapters/05-03-metrici-de-rezultat-pentru-clienti-si-business.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-costul-si-economia-unitara-a-ingineriei",
+      "title": "Costul și economia unitară a ingineriei",
+      "heading": "5.4 Costul și economia unitară a ingineriei",
+      "file": "chapters/05-04-costul-si-economia-unitara-a-ingineriei.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-rentabilitatea-investitiei-pentru-initiativele-de-inginerie",
+      "title": "Rentabilitatea investiției pentru inițiativele de inginerie",
+      "heading": "5.5 Rentabilitatea investiției pentru inițiativele de inginerie",
+      "file": "chapters/05-05-rentabilitatea-investitiei-pentru-initiativele-de-inginerie.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-metrici-de-fiabilitate-operatiuni-si-securitate",
+      "title": "Introducere în Partea 6: Metrici de fiabilitate, operațiuni și securitate",
+      "heading": "6.0 Introducere în Partea 6: Metrici de fiabilitate, operațiuni și securitate",
+      "file": "chapters/06-00-metrici-de-fiabilitate-operatiuni-si-securitate.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-sli-slo-si-bugete-de-erori",
+      "title": "Indicatori, obiective și bugete de erori ale nivelului de serviciu",
+      "heading": "6.1 Indicatori, obiective și bugete de erori ale nivelului de serviciu",
+      "file": "chapters/06-01-sli-slo-si-bugete-de-erori.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-metrici-de-incidente",
+      "title": "Metrici de incidente: detectare, răspuns și recuperare",
+      "heading": "6.2 Metrici de incidente: detectare, răspuns și recuperare",
+      "file": "chapters/06-02-metrici-de-incidente.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-garzi-capacitate-si-sarcina-operationala",
+      "title": "Metrici pentru gărzi, capacitate și sarcină operațională",
+      "heading": "6.3 Metrici pentru gărzi, capacitate și sarcină operațională",
+      "file": "chapters/06-03-garzi-capacitate-si-sarcina-operationala.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-metrici-de-securitate-si-gestionarea-vulnerabilitatilor",
+      "title": "Metrici de securitate și gestionare a vulnerabilităților",
+      "heading": "6.4 Metrici de securitate și gestionare a vulnerabilităților",
+      "file": "chapters/06-04-metrici-de-securitate-si-gestionarea-vulnerabilitatilor.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-metrici-in-era-ia",
+      "title": "Introducere în Partea 7: Metrici în era IA",
+      "heading": "7.0 Introducere în Partea 7: Metrici în era IA",
+      "file": "chapters/07-00-metrici-in-era-ia.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-schimbarea-de-paradigma-a-ia-generative",
+      "title": "Schimbarea de paradigmă a IA generative",
+      "heading": "7.1 Schimbarea de paradigmă a IA generative",
+      "file": "chapters/07-01-schimbarea-de-paradigma-a-ia-generative.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-masurarea-dezvoltarii-software-asistate-de-ia",
+      "title": "Măsurarea dezvoltării software asistate de IA",
+      "heading": "7.2 Măsurarea dezvoltării software asistate de IA",
+      "file": "chapters/07-02-masurarea-dezvoltarii-software-asistate-de-ia.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-inflatia-metricilor-si-riscurile-de-diluare-a-calitatii",
+      "title": "Inflația metricilor și riscurile de diluare a calității",
+      "heading": "7.3 Inflația metricilor și riscurile de diluare a calității",
+      "file": "chapters/07-03-inflatia-metricilor-si-riscurile-de-diluare-a-calitatii.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-telemetria-rezultatelor-noua-stea-polara",
+      "title": "Telemetria rezultatelor ca nouă stea polară",
+      "heading": "7.4 Telemetria rezultatelor ca nouă stea polară",
+      "file": "chapters/07-04-telemetria-rezultatelor-noua-stea-polara.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-construirea-unui-program-de-metrici",
+      "title": "Introducere în Partea 8: Construirea unui program de metrici",
+      "heading": "8.0 Introducere în Partea 8: Construirea unui program de metrici",
+      "file": "chapters/08-00-construirea-unui-program-de-metrici.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-proiectarea-unui-tablou-de-bord-de-metrici",
+      "title": "Proiectarea unui tablou de bord pentru metricile ingineriei",
+      "heading": "8.1 Proiectarea unui tablou de bord pentru metricile ingineriei",
+      "file": "chapters/08-01-proiectarea-unui-tablou-de-bord-de-metrici.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-peisajul-instrumentelor-construim-sau-cumparam",
+      "title": "Peisajul instrumentelor: construim sau cumpărăm",
+      "heading": "8.2 Peisajul instrumentelor: construim sau cumpărăm",
+      "file": "chapters/08-02-peisajul-instrumentelor-construim-sau-cumparam.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-introducerea-metricilor-fara-a-starni-frica",
+      "title": "Introducerea metricilor fără a stârni frică",
+      "heading": "8.3 Introducerea metricilor fără a stârni frică",
+      "file": "chapters/08-03-introducerea-metricilor-fara-a-starni-frica.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-model-de-maturitate-pentru-programele-de-metrici",
+      "title": "Model de maturitate pentru programele de metrici ale ingineriei",
+      "heading": "8.4 Model de maturitate pentru programele de metrici ale ingineriei",
+      "file": "chapters/08-04-model-de-maturitate-pentru-programele-de-metrici.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-o-foaie-de-parcurs-pentru-adoptare-incrementala",
+      "title": "O foaie de parcurs pentru adoptare incrementală",
+      "heading": "8.5 O foaie de parcurs pentru adoptare incrementală",
+      "file": "chapters/08-05-o-foaie-de-parcurs-pentru-adoptare-incrementala.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-anexe",
+      "title": "Anexe",
+      "heading": "9.0 Anexe",
+      "file": "chapters/09-00-anexe.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-glosar",
+      "title": "Glosar",
+      "heading": "9.1 Glosar",
+      "file": "chapters/09-01-glosar.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-definitii-de-metrici-si-referinta-formulelor",
+      "title": "Definiții de metrici și referința formulelor",
+      "heading": "9.2 Definiții de metrici și referința formulelor",
+      "file": "chapters/09-02-definitii-de-metrici-si-referinta-formulelor.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-liste-de-verificare",
+      "title": "Liste de verificare",
+      "heading": "9.3 Liste de verificare",
+      "file": "chapters/09-03-liste-de-verificare.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-sabloane",
+      "title": "Șabloane",
+      "heading": "9.4 Șabloane",
+      "file": "chapters/09-04-sabloane.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-autoevaluarea-maturitatii",
+      "title": "Autoevaluarea maturității",
+      "heading": "9.5 Autoevaluarea maturității",
+      "file": "chapters/09-05-autoevaluarea-maturitatii.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-referinte-si-lecturi-suplimentare",
+      "title": "Referințe și lecturi suplimentare",
+      "heading": "9.6 Referințe și lecturi suplimentare",
+      "file": "chapters/09-06-referinte-si-lecturi-suplimentare.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-index",
+      "title": "Index",
+      "heading": "9.7 Index",
+      "file": "chapters/09-07-index.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-bazele-masurarii",
+      "title": "Introducere în Partea 1: Bazele măsurării",
+      "heading": "1.0 Introducere în Partea 1: Bazele măsurării",
+      "file": "chapters/01-00-bazele-masurarii.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-de-ce-masuram-ingineria-software",
+      "title": "De ce măsurăm ingineria software",
+      "heading": "1.1 De ce măsurăm ingineria software",
+      "file": "chapters/01-01-de-ce-masuram-ingineria-software.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-legea-lui-goodhart-si-psihologia-metricilor",
+      "title": "Legea lui Goodhart și psihologia metricilor",
+      "heading": "1.2 Legea lui Goodhart și psihologia metricilor",
+      "file": "chapters/01-02-legea-lui-goodhart-si-psihologia-metricilor.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-rezultate-in-fata-productiei",
+      "title": "Rezultatele înaintea producției: alegerea a ceea ce măsurăm",
+      "heading": "1.3 Rezultatele înaintea producției: alegerea a ceea ce măsurăm",
+      "file": "chapters/01-03-rezultate-in-fata-productiei.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-guvernanta-si-responsabilitatea-metricilor",
+      "title": "Guvernanța și responsabilitatea metricilor",
+      "heading": "1.4 Guvernanța și responsabilitatea metricilor",
+      "file": "chapters/01-04-guvernanta-si-responsabilitatea-metricilor.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-surse-de-date-si-instrumentare",
+      "title": "Surse de date și instrumentare",
+      "heading": "1.5 Surse de date și instrumentare",
+      "file": "chapters/01-05-surse-de-date-si-instrumentare.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-cultura-statistica-pentru-metricile-ingineriei",
+      "title": "Cultură statistică pentru metricile ingineriei",
+      "heading": "1.6 Cultură statistică pentru metricile ingineriei",
+      "file": "chapters/01-06-cultura-statistica-pentru-metricile-ingineriei.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-metrici-de-flux",
+      "title": "Introducere în Partea 2: Metrici de flux",
+      "heading": "2.0 Introducere în Partea 2: Metrici de flux",
+      "file": "chapters/02-00-metrici-de-flux.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-cadrul-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-cadrul-flow-framework.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-elemente-de-flux",
+      "title": "Elemente de flux: funcționalități, defecte, riscuri și datorie",
+      "heading": "2.2 Elemente de flux: funcționalități, defecte, riscuri și datorie",
+      "file": "chapters/02-02-elemente-de-flux.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-viteza-fluxului-si-distributia-fluxului",
+      "title": "Viteza fluxului și distribuția fluxului",
+      "heading": "2.3 Viteza fluxului și distribuția fluxului",
+      "file": "chapters/02-03-viteza-fluxului-si-distributia-fluxului.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-timpul-fluxului-si-incarcarea-fluxului",
+      "title": "Timpul fluxului și încărcarea fluxului",
+      "heading": "2.4 Timpul fluxului și încărcarea fluxului",
+      "file": "chapters/02-04-timpul-fluxului-si-incarcarea-fluxului.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-eficienta-fluxului-si-munca-in-curs",
+      "title": "Eficiența fluxului și munca în curs",
+      "heading": "2.5 Eficiența fluxului și munca în curs",
+      "file": "chapters/02-05-eficienta-fluxului-si-munca-in-curs.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-timpul-de-ciclu-si-componentele-sale",
+      "title": "Timpul de ciclu și componentele sale",
+      "heading": "2.6 Timpul de ciclu și componentele sale",
+      "file": "chapters/02-06-timpul-de-ciclu-si-componentele-sale.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-teoria-cozilor",
+      "title": "Teoria cozilor",
+      "heading": "2.7 Teoria cozilor",
+      "file": "chapters/02-07-teoria-cozilor.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-metrici-lean-ale-fluxului-de-valoare",
+      "title": "Metrici Lean ale fluxului de valoare",
+      "heading": "2.8 Metrici Lean ale fluxului de valoare",
+      "file": "chapters/02-08-metrici-lean-ale-fluxului-de-valoare.md"
+    },
+    "2.9": {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-metrici-pentru-pull-request-si-revizuirea-codului",
+      "title": "Metrici pentru pull request și revizuirea codului",
+      "heading": "2.9 Metrici pentru pull request și revizuirea codului",
+      "file": "chapters/02-09-metrici-pentru-pull-request-si-revizuirea-codului.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-cadrul-metricilor-dora",
+      "title": "Cadrul metricilor DORA",
+      "heading": "2.10 Cadrul metricilor DORA",
+      "file": "chapters/02-10-cadrul-metricilor-dora.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-experienta-dezvoltatorilor-si-space",
+      "title": "Introducere în Partea 3: Experiența dezvoltatorilor și cadrul SPACE",
+      "heading": "3.0 Introducere în Partea 3: Experiența dezvoltatorilor și cadrul SPACE",
+      "file": "chapters/03-00-experienta-dezvoltatorilor-si-space.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-cadrul-space",
+      "title": "Cadrul SPACE",
+      "heading": "3.1 Cadrul SPACE",
+      "file": "chapters/03-01-cadrul-space.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-metrici-de-satisfactie-si-bunastare",
+      "title": "Metrici de satisfacție și bunăstare",
+      "heading": "3.2 Metrici de satisfacție și bunăstare",
+      "file": "chapters/03-02-metrici-de-satisfactie-si-bunastare.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-metrici-de-performanta-si-indicatori-indirecti-de-rezultat",
+      "title": "Metrici de performanță și indicatori indirecți de rezultat",
+      "heading": "3.3 Metrici de performanță și indicatori indirecți de rezultat",
+      "file": "chapters/03-03-metrici-de-performanta-si-indicatori-indirecti-de-rezultat.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-metrici-de-activitate-si-limitele-lor",
+      "title": "Metrici de activitate și limitele lor",
+      "heading": "3.4 Metrici de activitate și limitele lor",
+      "file": "chapters/03-04-metrici-de-activitate-si-limitele-lor.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-metrici-de-comunicare-si-colaborare",
+      "title": "Metrici de comunicare și colaborare",
+      "heading": "3.5 Metrici de comunicare și colaborare",
+      "file": "chapters/03-05-metrici-de-comunicare-si-colaborare.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-eficienta-si-flux",
+      "title": "Eficiență și flux: munca profundă și întreruperile",
+      "heading": "3.6 Eficiență și flux: munca profundă și întreruperile",
+      "file": "chapters/03-06-eficienta-si-flux.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-sondaje-despre-experienta-dezvoltatorilor-si-metrici-devex",
+      "title": "Sondaje despre experiența dezvoltatorilor și metrici DevEx",
+      "heading": "3.7 Sondaje despre experiența dezvoltatorilor și metrici DevEx",
+      "file": "chapters/03-07-sondaje-despre-experienta-dezvoltatorilor-si-metrici-devex.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-metrici-de-cod-si-calitate",
+      "title": "Introducere în Partea 4: Metrici de cod și calitate",
+      "heading": "4.0 Introducere în Partea 4: Metrici de cod și calitate",
+      "file": "chapters/04-00-metrici-de-cod-si-calitate.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-metrici-de-complexitate-a-codului",
+      "title": "Metrici de complexitate a codului",
+      "heading": "4.1 Metrici de complexitate a codului",
+      "file": "chapters/04-01-metrici-de-complexitate-a-codului.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-acoperirea-testelor-si-eficacitatea-testelor",
+      "title": "Acoperirea testelor și eficacitatea testelor",
+      "heading": "4.2 Acoperirea testelor și eficacitatea testelor",
+      "file": "chapters/04-02-acoperirea-testelor-si-eficacitatea-testelor.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-volatilitatea-codului-si-analiza-punctelor-fierbinti",
+      "title": "Volatilitatea codului și analiza punctelor fierbinți",
+      "heading": "4.3 Volatilitatea codului și analiza punctelor fierbinți",
+      "file": "chapters/04-03-volatilitatea-codului-si-analiza-punctelor-fierbinti.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-analiza-statica-si-metrici-de-mirosuri-de-cod",
+      "title": "Analiza statică și metrici de mirosuri de cod",
+      "heading": "4.4 Analiza statică și metrici de mirosuri de cod",
+      "file": "chapters/04-04-analiza-statica-si-metrici-de-mirosuri-de-cod.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-masurarea-datoriei-tehnice",
+      "title": "Măsurarea datoriei tehnice",
+      "heading": "4.5 Măsurarea datoriei tehnice",
+      "file": "chapters/04-05-masurarea-datoriei-tehnice.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-metrici-de-documentatie-si-cunoastere",
+      "title": "Metrici de documentație și cunoaștere",
+      "heading": "4.6 Metrici de documentație și cunoaștere",
+      "file": "chapters/04-06-metrici-de-documentatie-si-cunoastere.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-metrici-de-produs-si-de-business",
+      "title": "Introducere în Partea 5: Metrici de produs și de business",
+      "heading": "5.0 Introducere în Partea 5: Metrici de produs și de business",
+      "file": "chapters/05-00-metrici-de-produs-si-de-business.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-rata-defectelor-scapate-si-scapari-de-calitate",
+      "title": "Rata defectelor scăpate și scăpările de calitate",
+      "heading": "5.1 Rata defectelor scăpate și scăpările de calitate",
+      "file": "chapters/05-01-rata-defectelor-scapate-si-scapari-de-calitate.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-metrici-de-adoptare-si-utilizare-a-functionalitatilor",
+      "title": "Metrici de adoptare și utilizare a funcționalităților",
+      "heading": "5.2 Metrici de adoptare și utilizare a funcționalităților",
+      "file": "chapters/05-02-metrici-de-adoptare-si-utilizare-a-functionalitatilor.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-metrici-de-rezultat-pentru-clienti-si-business",
+      "title": "Metrici de rezultat pentru clienți și business",
+      "heading": "5.3 Metrici de rezultat pentru clienți și business",
+      "file": "chapters/05-03-metrici-de-rezultat-pentru-clienti-si-business.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-costul-si-economia-unitara-a-ingineriei",
+      "title": "Costul și economia unitară a ingineriei",
+      "heading": "5.4 Costul și economia unitară a ingineriei",
+      "file": "chapters/05-04-costul-si-economia-unitara-a-ingineriei.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-rentabilitatea-investitiei-pentru-initiativele-de-inginerie",
+      "title": "Rentabilitatea investiției pentru inițiativele de inginerie",
+      "heading": "5.5 Rentabilitatea investiției pentru inițiativele de inginerie",
+      "file": "chapters/05-05-rentabilitatea-investitiei-pentru-initiativele-de-inginerie.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-metrici-de-fiabilitate-operatiuni-si-securitate",
+      "title": "Introducere în Partea 6: Metrici de fiabilitate, operațiuni și securitate",
+      "heading": "6.0 Introducere în Partea 6: Metrici de fiabilitate, operațiuni și securitate",
+      "file": "chapters/06-00-metrici-de-fiabilitate-operatiuni-si-securitate.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-sli-slo-si-bugete-de-erori",
+      "title": "Indicatori, obiective și bugete de erori ale nivelului de serviciu",
+      "heading": "6.1 Indicatori, obiective și bugete de erori ale nivelului de serviciu",
+      "file": "chapters/06-01-sli-slo-si-bugete-de-erori.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-metrici-de-incidente",
+      "title": "Metrici de incidente: detectare, răspuns și recuperare",
+      "heading": "6.2 Metrici de incidente: detectare, răspuns și recuperare",
+      "file": "chapters/06-02-metrici-de-incidente.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-garzi-capacitate-si-sarcina-operationala",
+      "title": "Metrici pentru gărzi, capacitate și sarcină operațională",
+      "heading": "6.3 Metrici pentru gărzi, capacitate și sarcină operațională",
+      "file": "chapters/06-03-garzi-capacitate-si-sarcina-operationala.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-metrici-de-securitate-si-gestionarea-vulnerabilitatilor",
+      "title": "Metrici de securitate și gestionare a vulnerabilităților",
+      "heading": "6.4 Metrici de securitate și gestionare a vulnerabilităților",
+      "file": "chapters/06-04-metrici-de-securitate-si-gestionarea-vulnerabilitatilor.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-metrici-in-era-ia",
+      "title": "Introducere în Partea 7: Metrici în era IA",
+      "heading": "7.0 Introducere în Partea 7: Metrici în era IA",
+      "file": "chapters/07-00-metrici-in-era-ia.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-schimbarea-de-paradigma-a-ia-generative",
+      "title": "Schimbarea de paradigmă a IA generative",
+      "heading": "7.1 Schimbarea de paradigmă a IA generative",
+      "file": "chapters/07-01-schimbarea-de-paradigma-a-ia-generative.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-masurarea-dezvoltarii-software-asistate-de-ia",
+      "title": "Măsurarea dezvoltării software asistate de IA",
+      "heading": "7.2 Măsurarea dezvoltării software asistate de IA",
+      "file": "chapters/07-02-masurarea-dezvoltarii-software-asistate-de-ia.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-inflatia-metricilor-si-riscurile-de-diluare-a-calitatii",
+      "title": "Inflația metricilor și riscurile de diluare a calității",
+      "heading": "7.3 Inflația metricilor și riscurile de diluare a calității",
+      "file": "chapters/07-03-inflatia-metricilor-si-riscurile-de-diluare-a-calitatii.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-telemetria-rezultatelor-noua-stea-polara",
+      "title": "Telemetria rezultatelor ca nouă stea polară",
+      "heading": "7.4 Telemetria rezultatelor ca nouă stea polară",
+      "file": "chapters/07-04-telemetria-rezultatelor-noua-stea-polara.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-construirea-unui-program-de-metrici",
+      "title": "Introducere în Partea 8: Construirea unui program de metrici",
+      "heading": "8.0 Introducere în Partea 8: Construirea unui program de metrici",
+      "file": "chapters/08-00-construirea-unui-program-de-metrici.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-proiectarea-unui-tablou-de-bord-de-metrici",
+      "title": "Proiectarea unui tablou de bord pentru metricile ingineriei",
+      "heading": "8.1 Proiectarea unui tablou de bord pentru metricile ingineriei",
+      "file": "chapters/08-01-proiectarea-unui-tablou-de-bord-de-metrici.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-peisajul-instrumentelor-construim-sau-cumparam",
+      "title": "Peisajul instrumentelor: construim sau cumpărăm",
+      "heading": "8.2 Peisajul instrumentelor: construim sau cumpărăm",
+      "file": "chapters/08-02-peisajul-instrumentelor-construim-sau-cumparam.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-introducerea-metricilor-fara-a-starni-frica",
+      "title": "Introducerea metricilor fără a stârni frică",
+      "heading": "8.3 Introducerea metricilor fără a stârni frică",
+      "file": "chapters/08-03-introducerea-metricilor-fara-a-starni-frica.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-model-de-maturitate-pentru-programele-de-metrici",
+      "title": "Model de maturitate pentru programele de metrici ale ingineriei",
+      "heading": "8.4 Model de maturitate pentru programele de metrici ale ingineriei",
+      "file": "chapters/08-04-model-de-maturitate-pentru-programele-de-metrici.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-o-foaie-de-parcurs-pentru-adoptare-incrementala",
+      "title": "O foaie de parcurs pentru adoptare incrementală",
+      "heading": "8.5 O foaie de parcurs pentru adoptare incrementală",
+      "file": "chapters/08-05-o-foaie-de-parcurs-pentru-adoptare-incrementala.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-anexe",
+      "title": "Anexe",
+      "heading": "9.0 Anexe",
+      "file": "chapters/09-00-anexe.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-glosar",
+      "title": "Glosar",
+      "heading": "9.1 Glosar",
+      "file": "chapters/09-01-glosar.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-definitii-de-metrici-si-referinta-formulelor",
+      "title": "Definiții de metrici și referința formulelor",
+      "heading": "9.2 Definiții de metrici și referința formulelor",
+      "file": "chapters/09-02-definitii-de-metrici-si-referinta-formulelor.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-liste-de-verificare",
+      "title": "Liste de verificare",
+      "heading": "9.3 Liste de verificare",
+      "file": "chapters/09-03-liste-de-verificare.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-sabloane",
+      "title": "Șabloane",
+      "heading": "9.4 Șabloane",
+      "file": "chapters/09-04-sabloane.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-autoevaluarea-maturitatii",
+      "title": "Autoevaluarea maturității",
+      "heading": "9.5 Autoevaluarea maturității",
+      "file": "chapters/09-05-autoevaluarea-maturitatii.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-referinte-si-lecturi-suplimentare",
+      "title": "Referințe și lecturi suplimentare",
+      "heading": "9.6 Referințe și lecturi suplimentare",
+      "file": "chapters/09-06-referinte-si-lecturi-suplimentare.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-index",
+      "title": "Index",
+      "heading": "9.7 Index",
+      "file": "chapters/09-07-index.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "Introducere",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "Cuprins",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "Ce sunt metricile ingineriei software?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "Exemplu: specificație pentru un tablou de bord cu metrici de livrare",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "Exemplu: cartă a metricilor pentru o echipă de platformă de plăți",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "Scrierea: redactarea și editarea subiectelor",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "Șablon de subiect (comun)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "Navigarea: cum funcționează fișierele generate",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "Indexul părților (referință comună)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "Reguli de stil (comune, obligatorii)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "Testarea: suita de validare",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "Jurnal de modificări",
+      "file": "project/changelog.md"
+    }
+  ],
+  "totals": {
+    "parts": 9,
+    "chapters": 63
+  }
+}

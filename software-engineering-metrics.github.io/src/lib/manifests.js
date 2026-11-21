@@ -46,6 +46,19 @@ import zhTh from './manifest/zh-th.json';
 import hiNp from './manifest/hi-np.json';
 import cyAr from './manifest/cy-ar.json';
 import deAt from './manifest/de-at.json';
+import bg001 from './manifest/bg-001.json';
+import bgBg from './manifest/bg-bg.json';
+import cs001 from './manifest/cs-001.json';
+import csCz from './manifest/cs-cz.json';
+import pl001 from './manifest/pl-001.json';
+import plPl from './manifest/pl-pl.json';
+import ro001 from './manifest/ro-001.json';
+import roRo from './manifest/ro-ro.json';
+import uk001 from './manifest/uk-001.json';
+import he001 from './manifest/he-001.json';
+import frBe from './manifest/fr-be.json';
+import frLu from './manifest/fr-lu.json';
+import nlBe from './manifest/nl-be.json';
 import { DEFAULT_LOCALE } from './locales.js';
 
 /**
@@ -123,7 +136,20 @@ const MANIFESTS = {
   'zh-th': zhTh,
   'hi-np': hiNp,
   'cy-ar': cyAr,
-  'de-at': deAt
+  'de-at': deAt,
+  'bg-001': bg001,
+  'bg-bg': bgBg,
+  'cs-001': cs001,
+  'cs-cz': csCz,
+  'pl-001': pl001,
+  'pl-pl': plPl,
+  'ro-001': ro001,
+  'ro-ro': roRo,
+  'uk-001': uk001,
+  'he-001': he001,
+  'fr-be': frBe,
+  'fr-lu': frLu,
+  'nl-be': nlBe
 };
 
 /**

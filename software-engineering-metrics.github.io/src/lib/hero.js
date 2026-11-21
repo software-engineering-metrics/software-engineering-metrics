@@ -505,6 +505,123 @@ export const HERO = {
   "contents": "Daftar isi",
   "translations": "Terjemahan: "
  },
+ "bg-001": {
+  "headline": "Измервайте добре софтуерното инженерство.",
+  "tagline": "Безплатно · отворено · управлявано от спецификации",
+  "intro": "Практическа книга за избора на метрики, които отразяват реални резултати, а не активност: Flow Framework, рамката SPACE, теорията на опашките и метриките DORA, метрики за код и качество, продуктови и бизнес резултати, надеждност и сигурност, и как генеративният изкуствен интелект променя смисъла на тези числа.",
+  "start": "Започнете четенето",
+  "examples": "Разработени примери",
+  "contents": "Съдържание",
+  "translations": "Преводи: "
+ },
+ "bg-bg": {
+  "headline": "Измервайте добре софтуерното инженерство.",
+  "tagline": "Безплатно · отворено · управлявано от спецификации",
+  "intro": "Практическа книга за избора на метрики, които отразяват реални резултати, а не активност: Flow Framework, рамката SPACE, теорията на опашките и метриките DORA, метрики за код и качество, продуктови и бизнес резултати, надеждност и сигурност, и как генеративният изкуствен интелект променя смисъла на тези числа.",
+  "start": "Започнете четенето",
+  "examples": "Разработени примери",
+  "contents": "Съдържание",
+  "translations": "Преводи: "
+ },
+ "cs-001": {
+  "headline": "Jak dobře měřit softwarové inženýrství.",
+  "tagline": "Zdarma · otevřené · řízené specifikací",
+  "intro": "Pracovní kniha o výběru metrik, které zachycují skutečné výsledky, a ne pouhou aktivitu: Flow Framework, rámec SPACE, teorie front a metriky DORA, metriky kódu a kvality, produktové a obchodní výsledky, spolehlivost a bezpečnost, a také to, jak generativní umělá inteligence mění význam těchto čísel.",
+  "start": "Začít číst",
+  "examples": "Propracované příklady",
+  "contents": "Obsah",
+  "translations": "Překlady: "
+ },
+ "cs-cz": {
+  "headline": "Jak dobře měřit softwarové inženýrství.",
+  "tagline": "Zdarma · otevřené · řízené specifikací",
+  "intro": "Pracovní kniha o výběru metrik, které zachycují skutečné výsledky, a ne pouhou aktivitu: Flow Framework, rámec SPACE, teorie front a metriky DORA, metriky kódu a kvality, produktové a obchodní výsledky, spolehlivost a bezpečnost, a také to, jak generativní umělá inteligence mění význam těchto čísel.",
+  "start": "Začít číst",
+  "examples": "Propracované příklady",
+  "contents": "Obsah",
+  "translations": "Překlady: "
+ },
+ "pl-001": {
+  "headline": "Dobrze mierz inżynierię oprogramowania.",
+  "tagline": "Za darmo · otwarte · oparte na specyfikacji",
+  "intro": "Podręcznik wyboru metryk, które odzwierciedlają realne rezultaty, a nie samą aktywność: Flow Framework, ramy SPACE, teoria kolejek i metryki DORA, metryki kodu i jakości, rezultaty produktowe i biznesowe, niezawodność i bezpieczeństwo oraz to, jak generatywna AI zmienia znaczenie tych liczb.",
+  "start": "Zacznij czytać",
+  "examples": "Rozpracowane przykłady",
+  "contents": "Spis treści",
+  "translations": "Tłumaczenia: "
+ },
+ "pl-pl": {
+  "headline": "Dobrze mierz inżynierię oprogramowania.",
+  "tagline": "Za darmo · otwarte · oparte na specyfikacji",
+  "intro": "Podręcznik wyboru metryk, które odzwierciedlają realne rezultaty, a nie samą aktywność: Flow Framework, ramy SPACE, teoria kolejek i metryki DORA, metryki kodu i jakości, rezultaty produktowe i biznesowe, niezawodność i bezpieczeństwo oraz to, jak generatywna AI zmienia znaczenie tych liczb.",
+  "start": "Zacznij czytać",
+  "examples": "Rozpracowane przykłady",
+  "contents": "Spis treści",
+  "translations": "Tłumaczenia: "
+ },
+ "ro-001": {
+  "headline": "Măsoară bine ingineria software.",
+  "tagline": "Gratuit · deschis · ghidat de specificații",
+  "intro": "O carte de lucru despre alegerea metricilor care reflectă rezultate reale, nu simplă activitate: Flow Framework, cadrul SPACE, teoria cozilor și metricile DORA, metrici de cod și calitate, rezultate de produs și de business, fiabilitate și securitate, precum și felul în care IA generativă schimbă sensul acestor cifre.",
+  "start": "Începe lectura",
+  "examples": "Exemple rezolvate",
+  "contents": "Cuprins",
+  "translations": "Traduceri: "
+ },
+ "ro-ro": {
+  "headline": "Măsoară bine ingineria software.",
+  "tagline": "Gratuit · deschis · ghidat de specificații",
+  "intro": "O carte de lucru despre alegerea metricilor care reflectă rezultate reale, nu simplă activitate: Flow Framework, cadrul SPACE, teoria cozilor și metricile DORA, metrici de cod și calitate, rezultate de produs și de business, fiabilitate și securitate, precum și felul în care IA generativă schimbă sensul acestor cifre.",
+  "start": "Începe lectura",
+  "examples": "Exemple rezolvate",
+  "contents": "Cuprins",
+  "translations": "Traduceri: "
+ },
+ "uk-001": {
+  "headline": "Добре вимірюйте програмну інженерію.",
+  "tagline": "Безкоштовно · відкрито · на основі специфікацій",
+  "intro": "Робоча книга про вибір метрик, які відображають реальні результати, а не активність: Flow Framework, фреймворк SPACE, теорія черг і метрики DORA, метрики коду та якості, результати продукту й бізнесу, надійність і безпека, а також те, як генеративний ШІ змінює значення цих цифр.",
+  "start": "Почати читати",
+  "examples": "Розібрані приклади",
+  "contents": "Зміст",
+  "translations": "Переклади: "
+ },
+ "he-001": {
+  "headline": "למדוד הנדסת תוכנה כמו שצריך.",
+  "tagline": "חינמי · פתוח · מונחה מפרט",
+  "intro": "ספר עבודה לבחירת מדדים שמשקפים תוצאות אמיתיות ולא רק פעילות: מסגרת הזרימה (Flow Framework), מסגרת SPACE, תורת התורים ומדדי DORA, מדדי קוד ואיכות, תוצאות מוצר ועסק, אמינות ואבטחה, והדרך שבה בינה מלאכותית גנרטיבית משנה את משמעות המספרים האלה.",
+  "start": "להתחיל לקרוא",
+  "examples": "דוגמאות מפורטות",
+  "contents": "תוכן העניינים",
+  "translations": "תרגומים: "
+ },
+ "fr-be": {
+  "headline": "Bien mesurer l'ingénierie logicielle.",
+  "tagline": "Gratuit · ouvert · piloté par des spécifications",
+  "intro": "Un livre de travail pour choisir des indicateurs qui reflètent des résultats réels plutôt que de l'activité : le Flow Framework, le cadre SPACE, la théorie des files d'attente et les indicateurs DORA, les indicateurs de code et de qualité, les résultats produit et métier, la fiabilité et la sécurité, et la façon dont l'IA générative transforme le sens de ces chiffres.",
+  "start": "Commencer la lecture",
+  "examples": "Exemples détaillés",
+  "contents": "Sommaire",
+  "translations": "Traductions: "
+ },
+ "fr-lu": {
+  "headline": "Bien mesurer l'ingénierie logicielle.",
+  "tagline": "Gratuit · ouvert · piloté par des spécifications",
+  "intro": "Un livre de travail pour choisir des indicateurs qui reflètent des résultats réels plutôt que de l'activité : le Flow Framework, le cadre SPACE, la théorie des files d'attente et les indicateurs DORA, les indicateurs de code et de qualité, les résultats produit et métier, la fiabilité et la sécurité, et la façon dont l'IA générative transforme le sens de ces chiffres.",
+  "start": "Commencer la lecture",
+  "examples": "Exemples détaillés",
+  "contents": "Sommaire",
+  "translations": "Traductions: "
+ },
+ "nl-be": {
+  "headline": "Meet software engineering goed.",
+  "tagline": "Gratis · open · specificatiegedreven",
+  "intro": "Een werkboek over het kiezen van metrieken die echte resultaten weerspiegelen in plaats van activiteit: het Flow Framework, het SPACE-framework, wachtrijtheorie en DORA-metrieken, code- en kwaliteitsmetrieken, product- en bedrijfsresultaten, betrouwbaarheid en beveiliging, en hoe generatieve AI de betekenis van deze cijfers verandert.",
+  "start": "Begin met lezen",
+  "examples": "Uitgewerkte voorbeelden",
+  "contents": "Inhoud",
+  "translations": "Vertalingen: "
+ }
 };
 
 /** @type {Record<string, string>} */
@@ -563,5 +680,18 @@ export const ENDONYMS = {
  "zh-th": "简体中文 (泰国)",
  "hi-np": "हिन्दी (नेपाल)",
  "cy-ar": "Cymraeg (Ariannin)",
- "de-at": "Deutsch (Österreich)"
+ "de-at": "Deutsch (Österreich)",
+ "bg-001": "Български",
+ "bg-bg": "Български (България)",
+ "cs-001": "Čeština",
+ "cs-cz": "Čeština (Česko)",
+ "pl-001": "Polski",
+ "pl-pl": "Polski (Polska)",
+ "ro-001": "Română",
+ "ro-ro": "Română (România)",
+ "uk-001": "Українська",
+ "he-001": "עברית",
+ "fr-be": "Français (Belgique)",
+ "fr-lu": "Français (Luxembourg)",
+ "nl-be": "Nederlands (België)"
 };

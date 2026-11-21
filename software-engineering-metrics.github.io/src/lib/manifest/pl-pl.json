@@ -1,0 +1,1902 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "pl-pl",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-podstawy-pomiaru",
+          "title": "Wprowadzenie do części 1: Podstawy pomiaru",
+          "heading": "1.0 Wprowadzenie do części 1: Podstawy pomiaru",
+          "file": "chapters/01-00-podstawy-pomiaru.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-po-co-mierzyc-inzynierie-oprogramowania",
+          "title": "Po co mierzyć inżynierię oprogramowania",
+          "heading": "1.1 Po co mierzyć inżynierię oprogramowania",
+          "file": "chapters/01-01-po-co-mierzyc-inzynierie-oprogramowania.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-prawo-goodharta-i-psychologia-metryk",
+          "title": "Prawo Goodharta i psychologia metryk",
+          "heading": "1.2 Prawo Goodharta i psychologia metryk",
+          "file": "chapters/01-02-prawo-goodharta-i-psychologia-metryk.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-rezultaty-ponad-produkcje",
+          "title": "Rezultaty ponad produkcję: wybór tego, co mierzyć",
+          "heading": "1.3 Rezultaty ponad produkcję: wybór tego, co mierzyć",
+          "file": "chapters/01-03-rezultaty-ponad-produkcje.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-nadzor-i-wlasnosc-metryk",
+          "title": "Nadzór nad metrykami i ich własność",
+          "heading": "1.4 Nadzór nad metrykami i ich własność",
+          "file": "chapters/01-04-nadzor-i-wlasnosc-metryk.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-zrodla-danych-i-instrumentacja",
+          "title": "Źródła danych i instrumentacja",
+          "heading": "1.5 Źródła danych i instrumentacja",
+          "file": "chapters/01-05-zrodla-danych-i-instrumentacja.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-kompetencje-statystyczne-dla-metryk-inzynierskich",
+          "title": "Kompetencje statystyczne dla metryk inżynierskich",
+          "heading": "1.6 Kompetencje statystyczne dla metryk inżynierskich",
+          "file": "chapters/01-06-kompetencje-statystyczne-dla-metryk-inzynierskich.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-metryki-przeplywu",
+          "title": "Wprowadzenie do części 2: Metryki przepływu",
+          "heading": "2.0 Wprowadzenie do części 2: Metryki przepływu",
+          "file": "chapters/02-00-metryki-przeplywu.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-flow-framework",
+          "title": "Flow Framework",
+          "heading": "2.1 Flow Framework",
+          "file": "chapters/02-01-flow-framework.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-elementy-przeplywu",
+          "title": "Elementy przepływu: funkcje, defekty, ryzyka i dług",
+          "heading": "2.2 Elementy przepływu: funkcje, defekty, ryzyka i dług",
+          "file": "chapters/02-02-elementy-przeplywu.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-tempo-i-rozklad-przeplywu",
+          "title": "Tempo przepływu i rozkład przepływu",
+          "heading": "2.3 Tempo przepływu i rozkład przepływu",
+          "file": "chapters/02-03-tempo-i-rozklad-przeplywu.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-czas-i-obciazenie-przeplywu",
+          "title": "Czas przepływu i obciążenie przepływu",
+          "heading": "2.4 Czas przepływu i obciążenie przepływu",
+          "file": "chapters/02-04-czas-i-obciazenie-przeplywu.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-efektywnosc-przeplywu-i-praca-w-toku",
+          "title": "Efektywność przepływu i praca w toku",
+          "heading": "2.5 Efektywność przepływu i praca w toku",
+          "file": "chapters/02-05-efektywnosc-przeplywu-i-praca-w-toku.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-czas-cyklu-i-jego-skladniki",
+          "title": "Czas cyklu i jego składniki",
+          "heading": "2.6 Czas cyklu i jego składniki",
+          "file": "chapters/02-06-czas-cyklu-i-jego-skladniki.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-teoria-kolejek",
+          "title": "Teoria kolejek",
+          "heading": "2.7 Teoria kolejek",
+          "file": "chapters/02-07-teoria-kolejek.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-metryki-strumienia-wartosci-lean",
+          "title": "Metryki strumienia wartości w Lean",
+          "heading": "2.8 Metryki strumienia wartości w Lean",
+          "file": "chapters/02-08-metryki-strumienia-wartosci-lean.md"
+        },
+        {
+          "part": 2,
+          "chapter": 9,
+          "decimal": "2.9",
+          "slug": "02-09-metryki-pull-requestow-i-przegladu-kodu",
+          "title": "Metryki pull requestów i przeglądu kodu",
+          "heading": "2.9 Metryki pull requestów i przeglądu kodu",
+          "file": "chapters/02-09-metryki-pull-requestow-i-przegladu-kodu.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-ramy-metryk-dora",
+          "title": "Ramy metryk DORA",
+          "heading": "2.10 Ramy metryk DORA",
+          "file": "chapters/02-10-ramy-metryk-dora.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-doswiadczenie-programisty-i-space",
+          "title": "Wprowadzenie do części 3: Doświadczenie programisty i ramy SPACE",
+          "heading": "3.0 Wprowadzenie do części 3: Doświadczenie programisty i ramy SPACE",
+          "file": "chapters/03-00-doswiadczenie-programisty-i-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-ramy-space",
+          "title": "Ramy SPACE",
+          "heading": "3.1 Ramy SPACE",
+          "file": "chapters/03-01-ramy-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-metryki-satysfakcji-i-dobrostanu",
+          "title": "Metryki satysfakcji i dobrostanu",
+          "heading": "3.2 Metryki satysfakcji i dobrostanu",
+          "file": "chapters/03-02-metryki-satysfakcji-i-dobrostanu.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-metryki-wydajnosci-i-wskazniki-zastepcze-rezultatow",
+          "title": "Metryki wydajności i wskaźniki zastępcze rezultatów",
+          "heading": "3.3 Metryki wydajności i wskaźniki zastępcze rezultatów",
+          "file": "chapters/03-03-metryki-wydajnosci-i-wskazniki-zastepcze-rezultatow.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-metryki-aktywnosci-i-ich-granice",
+          "title": "Metryki aktywności i ich granice",
+          "heading": "3.4 Metryki aktywności i ich granice",
+          "file": "chapters/03-04-metryki-aktywnosci-i-ich-granice.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-metryki-komunikacji-i-wspolpracy",
+          "title": "Metryki komunikacji i współpracy",
+          "heading": "3.5 Metryki komunikacji i współpracy",
+          "file": "chapters/03-05-metryki-komunikacji-i-wspolpracy.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-efektywnosc-i-flow",
+          "title": "Efektywność i flow: głęboka praca i przerwania",
+          "heading": "3.6 Efektywność i flow: głęboka praca i przerwania",
+          "file": "chapters/03-06-efektywnosc-i-flow.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-ankiety-doswiadczenia-programisty-i-metryki-devex",
+          "title": "Ankiety doświadczenia programisty i metryki DevEx",
+          "heading": "3.7 Ankiety doświadczenia programisty i metryki DevEx",
+          "file": "chapters/03-07-ankiety-doswiadczenia-programisty-i-metryki-devex.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-metryki-kodu-i-jakosci",
+          "title": "Wprowadzenie do części 4: Metryki kodu i jakości",
+          "heading": "4.0 Wprowadzenie do części 4: Metryki kodu i jakości",
+          "file": "chapters/04-00-metryki-kodu-i-jakosci.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-metryki-zlozonosci-kodu",
+          "title": "Metryki złożoności kodu",
+          "heading": "4.1 Metryki złożoności kodu",
+          "file": "chapters/04-01-metryki-zlozonosci-kodu.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-pokrycie-testami-i-skutecznosc-testow",
+          "title": "Pokrycie testami i skuteczność testów",
+          "heading": "4.2 Pokrycie testami i skuteczność testów",
+          "file": "chapters/04-02-pokrycie-testami-i-skutecznosc-testow.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-rotacja-kodu-i-analiza-punktow-zapalnych",
+          "title": "Rotacja kodu i analiza punktów zapalnych",
+          "heading": "4.3 Rotacja kodu i analiza punktów zapalnych",
+          "file": "chapters/04-03-rotacja-kodu-i-analiza-punktow-zapalnych.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-analiza-statyczna-i-metryki-zapachow-kodu",
+          "title": "Analiza statyczna i metryki zapachów kodu",
+          "heading": "4.4 Analiza statyczna i metryki zapachów kodu",
+          "file": "chapters/04-04-analiza-statyczna-i-metryki-zapachow-kodu.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-pomiar-dlugu-technicznego",
+          "title": "Pomiar długu technicznego",
+          "heading": "4.5 Pomiar długu technicznego",
+          "file": "chapters/04-05-pomiar-dlugu-technicznego.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-metryki-dokumentacji-i-wiedzy",
+          "title": "Metryki dokumentacji i wiedzy",
+          "heading": "4.6 Metryki dokumentacji i wiedzy",
+          "file": "chapters/04-06-metryki-dokumentacji-i-wiedzy.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-metryki-produktowe-i-biznesowe",
+          "title": "Wprowadzenie do części 5: Metryki produktowe i biznesowe",
+          "heading": "5.0 Wprowadzenie do części 5: Metryki produktowe i biznesowe",
+          "file": "chapters/05-00-metryki-produktowe-i-biznesowe.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-wskaznik-uciekajacych-defektow-i-ucieczki-jakosci",
+          "title": "Wskaźnik uciekających defektów i ucieczki jakości",
+          "heading": "5.1 Wskaźnik uciekających defektów i ucieczki jakości",
+          "file": "chapters/05-01-wskaznik-uciekajacych-defektow-i-ucieczki-jakosci.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-metryki-adopcji-i-uzycia-funkcji",
+          "title": "Metryki adopcji i użycia funkcji",
+          "heading": "5.2 Metryki adopcji i użycia funkcji",
+          "file": "chapters/05-02-metryki-adopcji-i-uzycia-funkcji.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-metryki-rezultatow-klientow-i-biznesu",
+          "title": "Metryki rezultatów dla klientów i biznesu",
+          "heading": "5.3 Metryki rezultatów dla klientów i biznesu",
+          "file": "chapters/05-03-metryki-rezultatow-klientow-i-biznesu.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-koszty-i-ekonomia-jednostkowa-inzynierii",
+          "title": "Koszty i ekonomia jednostkowa inżynierii",
+          "heading": "5.4 Koszty i ekonomia jednostkowa inżynierii",
+          "file": "chapters/05-04-koszty-i-ekonomia-jednostkowa-inzynierii.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-zwrot-z-inwestycji-w-inicjatywy-inzynierskie",
+          "title": "Zwrot z inwestycji w inicjatywy inżynierskie",
+          "heading": "5.5 Zwrot z inwestycji w inicjatywy inżynierskie",
+          "file": "chapters/05-05-zwrot-z-inwestycji-w-inicjatywy-inzynierskie.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-metryki-niezawodnosci-operacji-i-bezpieczenstwa",
+          "title": "Wprowadzenie do części 6: Metryki niezawodności, operacji i bezpieczeństwa",
+          "heading": "6.0 Wprowadzenie do części 6: Metryki niezawodności, operacji i bezpieczeństwa",
+          "file": "chapters/06-00-metryki-niezawodnosci-operacji-i-bezpieczenstwa.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-sli-slo-i-budzety-bledow",
+          "title": "Wskaźniki poziomu usług, cele i budżety błędów",
+          "heading": "6.1 Wskaźniki poziomu usług, cele i budżety błędów",
+          "file": "chapters/06-01-sli-slo-i-budzety-bledow.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-metryki-incydentow",
+          "title": "Metryki incydentów: wykrywanie, reakcja i przywracanie",
+          "heading": "6.2 Metryki incydentów: wykrywanie, reakcja i przywracanie",
+          "file": "chapters/06-02-metryki-incydentow.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-dyzury-pojemnosc-i-obciazenie-operacyjne",
+          "title": "Metryki dyżurów, pojemności i obciążenia operacyjnego",
+          "heading": "6.3 Metryki dyżurów, pojemności i obciążenia operacyjnego",
+          "file": "chapters/06-03-dyzury-pojemnosc-i-obciazenie-operacyjne.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-metryki-bezpieczenstwa-i-zarzadzania-podatnosciami",
+          "title": "Metryki bezpieczeństwa i zarządzania podatnościami",
+          "heading": "6.4 Metryki bezpieczeństwa i zarządzania podatnościami",
+          "file": "chapters/06-04-metryki-bezpieczenstwa-i-zarzadzania-podatnosciami.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-metryki-w-erze-ai",
+          "title": "Wprowadzenie do części 7: Metryki w erze AI",
+          "heading": "7.0 Wprowadzenie do części 7: Metryki w erze AI",
+          "file": "chapters/07-00-metryki-w-erze-ai.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-zmiana-paradygmatu-generatywnej-ai",
+          "title": "Zmiana paradygmatu: generatywna AI",
+          "heading": "7.1 Zmiana paradygmatu: generatywna AI",
+          "file": "chapters/07-01-zmiana-paradygmatu-generatywnej-ai.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-pomiar-tworzenia-oprogramowania-wspomaganego-przez-ai",
+          "title": "Pomiar tworzenia oprogramowania wspomaganego przez AI",
+          "heading": "7.2 Pomiar tworzenia oprogramowania wspomaganego przez AI",
+          "file": "chapters/07-02-pomiar-tworzenia-oprogramowania-wspomaganego-przez-ai.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-inflacja-metryk-i-ryzyko-rozmycia-jakosci",
+          "title": "Inflacja metryk i ryzyko rozmycia jakości",
+          "heading": "7.3 Inflacja metryk i ryzyko rozmycia jakości",
+          "file": "chapters/07-03-inflacja-metryk-i-ryzyko-rozmycia-jakosci.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-telemetria-rezultatow-jako-nowa-gwiazda-polarna",
+          "title": "Telemetria rezultatów jako nowa gwiazda polarna",
+          "heading": "7.4 Telemetria rezultatów jako nowa gwiazda polarna",
+          "file": "chapters/07-04-telemetria-rezultatow-jako-nowa-gwiazda-polarna.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-budowanie-programu-metryk",
+          "title": "Wprowadzenie do części 8: Budowanie programu metryk",
+          "heading": "8.0 Wprowadzenie do części 8: Budowanie programu metryk",
+          "file": "chapters/08-00-budowanie-programu-metryk.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-projektowanie-panelu-metryk-inzynierskich",
+          "title": "Projektowanie panelu metryk inżynierskich",
+          "heading": "8.1 Projektowanie panelu metryk inżynierskich",
+          "file": "chapters/08-01-projektowanie-panelu-metryk-inzynierskich.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-krajobraz-narzedzi-budowac-czy-kupowac",
+          "title": "Krajobraz narzędzi: budować czy kupować",
+          "heading": "8.2 Krajobraz narzędzi: budować czy kupować",
+          "file": "chapters/08-02-krajobraz-narzedzi-budowac-czy-kupowac.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-wdrazanie-metryk-bez-zasiewania-strachu",
+          "title": "Wdrażanie metryk bez zasiewania strachu",
+          "heading": "8.3 Wdrażanie metryk bez zasiewania strachu",
+          "file": "chapters/08-03-wdrazanie-metryk-bez-zasiewania-strachu.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-model-dojrzalosci-programow-metryk-inzynierskich",
+          "title": "Model dojrzałości programów metryk inżynierskich",
+          "heading": "8.4 Model dojrzałości programów metryk inżynierskich",
+          "file": "chapters/08-04-model-dojrzalosci-programow-metryk-inzynierskich.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-przyrostowa-mapa-drogowa-wdrozenia",
+          "title": "Przyrostowa mapa drogowa wdrożenia",
+          "heading": "8.5 Przyrostowa mapa drogowa wdrożenia",
+          "file": "chapters/08-05-przyrostowa-mapa-drogowa-wdrozenia.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-zalaczniki",
+          "title": "Załączniki",
+          "heading": "9.0 Załączniki",
+          "file": "chapters/09-00-zalaczniki.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-slownik-pojec",
+          "title": "Słownik pojęć",
+          "heading": "9.1 Słownik pojęć",
+          "file": "chapters/09-01-slownik-pojec.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-definicje-metryk-i-wzory",
+          "title": "Definicje metryk i wzory",
+          "heading": "9.2 Definicje metryk i wzory",
+          "file": "chapters/09-02-definicje-metryk-i-wzory.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-listy-kontrolne",
+          "title": "Listy kontrolne",
+          "heading": "9.3 Listy kontrolne",
+          "file": "chapters/09-03-listy-kontrolne.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-szablony",
+          "title": "Szablony",
+          "heading": "9.4 Szablony",
+          "file": "chapters/09-04-szablony.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-samoocena-dojrzalosci",
+          "title": "Samoocena dojrzałości",
+          "heading": "9.5 Samoocena dojrzałości",
+          "file": "chapters/09-05-samoocena-dojrzalosci.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-bibliografia-i-dalsza-lektura",
+          "title": "Bibliografia i dalsza lektura",
+          "heading": "9.6 Bibliografia i dalsza lektura",
+          "file": "chapters/09-06-bibliografia-i-dalsza-lektura.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-indeks",
+          "title": "Indeks",
+          "heading": "9.7 Indeks",
+          "file": "chapters/09-07-indeks.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-podstawy-pomiaru",
+      "title": "Wprowadzenie do części 1: Podstawy pomiaru",
+      "heading": "1.0 Wprowadzenie do części 1: Podstawy pomiaru",
+      "file": "chapters/01-00-podstawy-pomiaru.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-po-co-mierzyc-inzynierie-oprogramowania",
+      "title": "Po co mierzyć inżynierię oprogramowania",
+      "heading": "1.1 Po co mierzyć inżynierię oprogramowania",
+      "file": "chapters/01-01-po-co-mierzyc-inzynierie-oprogramowania.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-prawo-goodharta-i-psychologia-metryk",
+      "title": "Prawo Goodharta i psychologia metryk",
+      "heading": "1.2 Prawo Goodharta i psychologia metryk",
+      "file": "chapters/01-02-prawo-goodharta-i-psychologia-metryk.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-rezultaty-ponad-produkcje",
+      "title": "Rezultaty ponad produkcję: wybór tego, co mierzyć",
+      "heading": "1.3 Rezultaty ponad produkcję: wybór tego, co mierzyć",
+      "file": "chapters/01-03-rezultaty-ponad-produkcje.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-nadzor-i-wlasnosc-metryk",
+      "title": "Nadzór nad metrykami i ich własność",
+      "heading": "1.4 Nadzór nad metrykami i ich własność",
+      "file": "chapters/01-04-nadzor-i-wlasnosc-metryk.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-zrodla-danych-i-instrumentacja",
+      "title": "Źródła danych i instrumentacja",
+      "heading": "1.5 Źródła danych i instrumentacja",
+      "file": "chapters/01-05-zrodla-danych-i-instrumentacja.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-kompetencje-statystyczne-dla-metryk-inzynierskich",
+      "title": "Kompetencje statystyczne dla metryk inżynierskich",
+      "heading": "1.6 Kompetencje statystyczne dla metryk inżynierskich",
+      "file": "chapters/01-06-kompetencje-statystyczne-dla-metryk-inzynierskich.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-metryki-przeplywu",
+      "title": "Wprowadzenie do części 2: Metryki przepływu",
+      "heading": "2.0 Wprowadzenie do części 2: Metryki przepływu",
+      "file": "chapters/02-00-metryki-przeplywu.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-flow-framework.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-elementy-przeplywu",
+      "title": "Elementy przepływu: funkcje, defekty, ryzyka i dług",
+      "heading": "2.2 Elementy przepływu: funkcje, defekty, ryzyka i dług",
+      "file": "chapters/02-02-elementy-przeplywu.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-tempo-i-rozklad-przeplywu",
+      "title": "Tempo przepływu i rozkład przepływu",
+      "heading": "2.3 Tempo przepływu i rozkład przepływu",
+      "file": "chapters/02-03-tempo-i-rozklad-przeplywu.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-czas-i-obciazenie-przeplywu",
+      "title": "Czas przepływu i obciążenie przepływu",
+      "heading": "2.4 Czas przepływu i obciążenie przepływu",
+      "file": "chapters/02-04-czas-i-obciazenie-przeplywu.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-efektywnosc-przeplywu-i-praca-w-toku",
+      "title": "Efektywność przepływu i praca w toku",
+      "heading": "2.5 Efektywność przepływu i praca w toku",
+      "file": "chapters/02-05-efektywnosc-przeplywu-i-praca-w-toku.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-czas-cyklu-i-jego-skladniki",
+      "title": "Czas cyklu i jego składniki",
+      "heading": "2.6 Czas cyklu i jego składniki",
+      "file": "chapters/02-06-czas-cyklu-i-jego-skladniki.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-teoria-kolejek",
+      "title": "Teoria kolejek",
+      "heading": "2.7 Teoria kolejek",
+      "file": "chapters/02-07-teoria-kolejek.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-metryki-strumienia-wartosci-lean",
+      "title": "Metryki strumienia wartości w Lean",
+      "heading": "2.8 Metryki strumienia wartości w Lean",
+      "file": "chapters/02-08-metryki-strumienia-wartosci-lean.md"
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-metryki-pull-requestow-i-przegladu-kodu",
+      "title": "Metryki pull requestów i przeglądu kodu",
+      "heading": "2.9 Metryki pull requestów i przeglądu kodu",
+      "file": "chapters/02-09-metryki-pull-requestow-i-przegladu-kodu.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-ramy-metryk-dora",
+      "title": "Ramy metryk DORA",
+      "heading": "2.10 Ramy metryk DORA",
+      "file": "chapters/02-10-ramy-metryk-dora.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-doswiadczenie-programisty-i-space",
+      "title": "Wprowadzenie do części 3: Doświadczenie programisty i ramy SPACE",
+      "heading": "3.0 Wprowadzenie do części 3: Doświadczenie programisty i ramy SPACE",
+      "file": "chapters/03-00-doswiadczenie-programisty-i-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-ramy-space",
+      "title": "Ramy SPACE",
+      "heading": "3.1 Ramy SPACE",
+      "file": "chapters/03-01-ramy-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-metryki-satysfakcji-i-dobrostanu",
+      "title": "Metryki satysfakcji i dobrostanu",
+      "heading": "3.2 Metryki satysfakcji i dobrostanu",
+      "file": "chapters/03-02-metryki-satysfakcji-i-dobrostanu.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-metryki-wydajnosci-i-wskazniki-zastepcze-rezultatow",
+      "title": "Metryki wydajności i wskaźniki zastępcze rezultatów",
+      "heading": "3.3 Metryki wydajności i wskaźniki zastępcze rezultatów",
+      "file": "chapters/03-03-metryki-wydajnosci-i-wskazniki-zastepcze-rezultatow.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-metryki-aktywnosci-i-ich-granice",
+      "title": "Metryki aktywności i ich granice",
+      "heading": "3.4 Metryki aktywności i ich granice",
+      "file": "chapters/03-04-metryki-aktywnosci-i-ich-granice.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-metryki-komunikacji-i-wspolpracy",
+      "title": "Metryki komunikacji i współpracy",
+      "heading": "3.5 Metryki komunikacji i współpracy",
+      "file": "chapters/03-05-metryki-komunikacji-i-wspolpracy.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-efektywnosc-i-flow",
+      "title": "Efektywność i flow: głęboka praca i przerwania",
+      "heading": "3.6 Efektywność i flow: głęboka praca i przerwania",
+      "file": "chapters/03-06-efektywnosc-i-flow.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-ankiety-doswiadczenia-programisty-i-metryki-devex",
+      "title": "Ankiety doświadczenia programisty i metryki DevEx",
+      "heading": "3.7 Ankiety doświadczenia programisty i metryki DevEx",
+      "file": "chapters/03-07-ankiety-doswiadczenia-programisty-i-metryki-devex.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-metryki-kodu-i-jakosci",
+      "title": "Wprowadzenie do części 4: Metryki kodu i jakości",
+      "heading": "4.0 Wprowadzenie do części 4: Metryki kodu i jakości",
+      "file": "chapters/04-00-metryki-kodu-i-jakosci.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-metryki-zlozonosci-kodu",
+      "title": "Metryki złożoności kodu",
+      "heading": "4.1 Metryki złożoności kodu",
+      "file": "chapters/04-01-metryki-zlozonosci-kodu.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-pokrycie-testami-i-skutecznosc-testow",
+      "title": "Pokrycie testami i skuteczność testów",
+      "heading": "4.2 Pokrycie testami i skuteczność testów",
+      "file": "chapters/04-02-pokrycie-testami-i-skutecznosc-testow.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-rotacja-kodu-i-analiza-punktow-zapalnych",
+      "title": "Rotacja kodu i analiza punktów zapalnych",
+      "heading": "4.3 Rotacja kodu i analiza punktów zapalnych",
+      "file": "chapters/04-03-rotacja-kodu-i-analiza-punktow-zapalnych.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-analiza-statyczna-i-metryki-zapachow-kodu",
+      "title": "Analiza statyczna i metryki zapachów kodu",
+      "heading": "4.4 Analiza statyczna i metryki zapachów kodu",
+      "file": "chapters/04-04-analiza-statyczna-i-metryki-zapachow-kodu.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-pomiar-dlugu-technicznego",
+      "title": "Pomiar długu technicznego",
+      "heading": "4.5 Pomiar długu technicznego",
+      "file": "chapters/04-05-pomiar-dlugu-technicznego.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-metryki-dokumentacji-i-wiedzy",
+      "title": "Metryki dokumentacji i wiedzy",
+      "heading": "4.6 Metryki dokumentacji i wiedzy",
+      "file": "chapters/04-06-metryki-dokumentacji-i-wiedzy.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-metryki-produktowe-i-biznesowe",
+      "title": "Wprowadzenie do części 5: Metryki produktowe i biznesowe",
+      "heading": "5.0 Wprowadzenie do części 5: Metryki produktowe i biznesowe",
+      "file": "chapters/05-00-metryki-produktowe-i-biznesowe.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-wskaznik-uciekajacych-defektow-i-ucieczki-jakosci",
+      "title": "Wskaźnik uciekających defektów i ucieczki jakości",
+      "heading": "5.1 Wskaźnik uciekających defektów i ucieczki jakości",
+      "file": "chapters/05-01-wskaznik-uciekajacych-defektow-i-ucieczki-jakosci.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-metryki-adopcji-i-uzycia-funkcji",
+      "title": "Metryki adopcji i użycia funkcji",
+      "heading": "5.2 Metryki adopcji i użycia funkcji",
+      "file": "chapters/05-02-metryki-adopcji-i-uzycia-funkcji.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-metryki-rezultatow-klientow-i-biznesu",
+      "title": "Metryki rezultatów dla klientów i biznesu",
+      "heading": "5.3 Metryki rezultatów dla klientów i biznesu",
+      "file": "chapters/05-03-metryki-rezultatow-klientow-i-biznesu.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-koszty-i-ekonomia-jednostkowa-inzynierii",
+      "title": "Koszty i ekonomia jednostkowa inżynierii",
+      "heading": "5.4 Koszty i ekonomia jednostkowa inżynierii",
+      "file": "chapters/05-04-koszty-i-ekonomia-jednostkowa-inzynierii.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-zwrot-z-inwestycji-w-inicjatywy-inzynierskie",
+      "title": "Zwrot z inwestycji w inicjatywy inżynierskie",
+      "heading": "5.5 Zwrot z inwestycji w inicjatywy inżynierskie",
+      "file": "chapters/05-05-zwrot-z-inwestycji-w-inicjatywy-inzynierskie.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-metryki-niezawodnosci-operacji-i-bezpieczenstwa",
+      "title": "Wprowadzenie do części 6: Metryki niezawodności, operacji i bezpieczeństwa",
+      "heading": "6.0 Wprowadzenie do części 6: Metryki niezawodności, operacji i bezpieczeństwa",
+      "file": "chapters/06-00-metryki-niezawodnosci-operacji-i-bezpieczenstwa.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-sli-slo-i-budzety-bledow",
+      "title": "Wskaźniki poziomu usług, cele i budżety błędów",
+      "heading": "6.1 Wskaźniki poziomu usług, cele i budżety błędów",
+      "file": "chapters/06-01-sli-slo-i-budzety-bledow.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-metryki-incydentow",
+      "title": "Metryki incydentów: wykrywanie, reakcja i przywracanie",
+      "heading": "6.2 Metryki incydentów: wykrywanie, reakcja i przywracanie",
+      "file": "chapters/06-02-metryki-incydentow.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-dyzury-pojemnosc-i-obciazenie-operacyjne",
+      "title": "Metryki dyżurów, pojemności i obciążenia operacyjnego",
+      "heading": "6.3 Metryki dyżurów, pojemności i obciążenia operacyjnego",
+      "file": "chapters/06-03-dyzury-pojemnosc-i-obciazenie-operacyjne.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-metryki-bezpieczenstwa-i-zarzadzania-podatnosciami",
+      "title": "Metryki bezpieczeństwa i zarządzania podatnościami",
+      "heading": "6.4 Metryki bezpieczeństwa i zarządzania podatnościami",
+      "file": "chapters/06-04-metryki-bezpieczenstwa-i-zarzadzania-podatnosciami.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-metryki-w-erze-ai",
+      "title": "Wprowadzenie do części 7: Metryki w erze AI",
+      "heading": "7.0 Wprowadzenie do części 7: Metryki w erze AI",
+      "file": "chapters/07-00-metryki-w-erze-ai.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-zmiana-paradygmatu-generatywnej-ai",
+      "title": "Zmiana paradygmatu: generatywna AI",
+      "heading": "7.1 Zmiana paradygmatu: generatywna AI",
+      "file": "chapters/07-01-zmiana-paradygmatu-generatywnej-ai.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-pomiar-tworzenia-oprogramowania-wspomaganego-przez-ai",
+      "title": "Pomiar tworzenia oprogramowania wspomaganego przez AI",
+      "heading": "7.2 Pomiar tworzenia oprogramowania wspomaganego przez AI",
+      "file": "chapters/07-02-pomiar-tworzenia-oprogramowania-wspomaganego-przez-ai.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-inflacja-metryk-i-ryzyko-rozmycia-jakosci",
+      "title": "Inflacja metryk i ryzyko rozmycia jakości",
+      "heading": "7.3 Inflacja metryk i ryzyko rozmycia jakości",
+      "file": "chapters/07-03-inflacja-metryk-i-ryzyko-rozmycia-jakosci.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-telemetria-rezultatow-jako-nowa-gwiazda-polarna",
+      "title": "Telemetria rezultatów jako nowa gwiazda polarna",
+      "heading": "7.4 Telemetria rezultatów jako nowa gwiazda polarna",
+      "file": "chapters/07-04-telemetria-rezultatow-jako-nowa-gwiazda-polarna.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-budowanie-programu-metryk",
+      "title": "Wprowadzenie do części 8: Budowanie programu metryk",
+      "heading": "8.0 Wprowadzenie do części 8: Budowanie programu metryk",
+      "file": "chapters/08-00-budowanie-programu-metryk.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-projektowanie-panelu-metryk-inzynierskich",
+      "title": "Projektowanie panelu metryk inżynierskich",
+      "heading": "8.1 Projektowanie panelu metryk inżynierskich",
+      "file": "chapters/08-01-projektowanie-panelu-metryk-inzynierskich.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-krajobraz-narzedzi-budowac-czy-kupowac",
+      "title": "Krajobraz narzędzi: budować czy kupować",
+      "heading": "8.2 Krajobraz narzędzi: budować czy kupować",
+      "file": "chapters/08-02-krajobraz-narzedzi-budowac-czy-kupowac.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-wdrazanie-metryk-bez-zasiewania-strachu",
+      "title": "Wdrażanie metryk bez zasiewania strachu",
+      "heading": "8.3 Wdrażanie metryk bez zasiewania strachu",
+      "file": "chapters/08-03-wdrazanie-metryk-bez-zasiewania-strachu.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-model-dojrzalosci-programow-metryk-inzynierskich",
+      "title": "Model dojrzałości programów metryk inżynierskich",
+      "heading": "8.4 Model dojrzałości programów metryk inżynierskich",
+      "file": "chapters/08-04-model-dojrzalosci-programow-metryk-inzynierskich.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-przyrostowa-mapa-drogowa-wdrozenia",
+      "title": "Przyrostowa mapa drogowa wdrożenia",
+      "heading": "8.5 Przyrostowa mapa drogowa wdrożenia",
+      "file": "chapters/08-05-przyrostowa-mapa-drogowa-wdrozenia.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-zalaczniki",
+      "title": "Załączniki",
+      "heading": "9.0 Załączniki",
+      "file": "chapters/09-00-zalaczniki.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-slownik-pojec",
+      "title": "Słownik pojęć",
+      "heading": "9.1 Słownik pojęć",
+      "file": "chapters/09-01-slownik-pojec.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-definicje-metryk-i-wzory",
+      "title": "Definicje metryk i wzory",
+      "heading": "9.2 Definicje metryk i wzory",
+      "file": "chapters/09-02-definicje-metryk-i-wzory.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-listy-kontrolne",
+      "title": "Listy kontrolne",
+      "heading": "9.3 Listy kontrolne",
+      "file": "chapters/09-03-listy-kontrolne.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-szablony",
+      "title": "Szablony",
+      "heading": "9.4 Szablony",
+      "file": "chapters/09-04-szablony.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-samoocena-dojrzalosci",
+      "title": "Samoocena dojrzałości",
+      "heading": "9.5 Samoocena dojrzałości",
+      "file": "chapters/09-05-samoocena-dojrzalosci.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-bibliografia-i-dalsza-lektura",
+      "title": "Bibliografia i dalsza lektura",
+      "heading": "9.6 Bibliografia i dalsza lektura",
+      "file": "chapters/09-06-bibliografia-i-dalsza-lektura.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-indeks",
+      "title": "Indeks",
+      "heading": "9.7 Indeks",
+      "file": "chapters/09-07-indeks.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-podstawy-pomiaru",
+      "title": "Wprowadzenie do części 1: Podstawy pomiaru",
+      "heading": "1.0 Wprowadzenie do części 1: Podstawy pomiaru",
+      "file": "chapters/01-00-podstawy-pomiaru.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-po-co-mierzyc-inzynierie-oprogramowania",
+      "title": "Po co mierzyć inżynierię oprogramowania",
+      "heading": "1.1 Po co mierzyć inżynierię oprogramowania",
+      "file": "chapters/01-01-po-co-mierzyc-inzynierie-oprogramowania.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-prawo-goodharta-i-psychologia-metryk",
+      "title": "Prawo Goodharta i psychologia metryk",
+      "heading": "1.2 Prawo Goodharta i psychologia metryk",
+      "file": "chapters/01-02-prawo-goodharta-i-psychologia-metryk.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-rezultaty-ponad-produkcje",
+      "title": "Rezultaty ponad produkcję: wybór tego, co mierzyć",
+      "heading": "1.3 Rezultaty ponad produkcję: wybór tego, co mierzyć",
+      "file": "chapters/01-03-rezultaty-ponad-produkcje.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-nadzor-i-wlasnosc-metryk",
+      "title": "Nadzór nad metrykami i ich własność",
+      "heading": "1.4 Nadzór nad metrykami i ich własność",
+      "file": "chapters/01-04-nadzor-i-wlasnosc-metryk.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-zrodla-danych-i-instrumentacja",
+      "title": "Źródła danych i instrumentacja",
+      "heading": "1.5 Źródła danych i instrumentacja",
+      "file": "chapters/01-05-zrodla-danych-i-instrumentacja.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-kompetencje-statystyczne-dla-metryk-inzynierskich",
+      "title": "Kompetencje statystyczne dla metryk inżynierskich",
+      "heading": "1.6 Kompetencje statystyczne dla metryk inżynierskich",
+      "file": "chapters/01-06-kompetencje-statystyczne-dla-metryk-inzynierskich.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-metryki-przeplywu",
+      "title": "Wprowadzenie do części 2: Metryki przepływu",
+      "heading": "2.0 Wprowadzenie do części 2: Metryki przepływu",
+      "file": "chapters/02-00-metryki-przeplywu.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-flow-framework",
+      "title": "Flow Framework",
+      "heading": "2.1 Flow Framework",
+      "file": "chapters/02-01-flow-framework.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-elementy-przeplywu",
+      "title": "Elementy przepływu: funkcje, defekty, ryzyka i dług",
+      "heading": "2.2 Elementy przepływu: funkcje, defekty, ryzyka i dług",
+      "file": "chapters/02-02-elementy-przeplywu.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-tempo-i-rozklad-przeplywu",
+      "title": "Tempo przepływu i rozkład przepływu",
+      "heading": "2.3 Tempo przepływu i rozkład przepływu",
+      "file": "chapters/02-03-tempo-i-rozklad-przeplywu.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-czas-i-obciazenie-przeplywu",
+      "title": "Czas przepływu i obciążenie przepływu",
+      "heading": "2.4 Czas przepływu i obciążenie przepływu",
+      "file": "chapters/02-04-czas-i-obciazenie-przeplywu.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-efektywnosc-przeplywu-i-praca-w-toku",
+      "title": "Efektywność przepływu i praca w toku",
+      "heading": "2.5 Efektywność przepływu i praca w toku",
+      "file": "chapters/02-05-efektywnosc-przeplywu-i-praca-w-toku.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-czas-cyklu-i-jego-skladniki",
+      "title": "Czas cyklu i jego składniki",
+      "heading": "2.6 Czas cyklu i jego składniki",
+      "file": "chapters/02-06-czas-cyklu-i-jego-skladniki.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-teoria-kolejek",
+      "title": "Teoria kolejek",
+      "heading": "2.7 Teoria kolejek",
+      "file": "chapters/02-07-teoria-kolejek.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-metryki-strumienia-wartosci-lean",
+      "title": "Metryki strumienia wartości w Lean",
+      "heading": "2.8 Metryki strumienia wartości w Lean",
+      "file": "chapters/02-08-metryki-strumienia-wartosci-lean.md"
+    },
+    "2.9": {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-metryki-pull-requestow-i-przegladu-kodu",
+      "title": "Metryki pull requestów i przeglądu kodu",
+      "heading": "2.9 Metryki pull requestów i przeglądu kodu",
+      "file": "chapters/02-09-metryki-pull-requestow-i-przegladu-kodu.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-ramy-metryk-dora",
+      "title": "Ramy metryk DORA",
+      "heading": "2.10 Ramy metryk DORA",
+      "file": "chapters/02-10-ramy-metryk-dora.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-doswiadczenie-programisty-i-space",
+      "title": "Wprowadzenie do części 3: Doświadczenie programisty i ramy SPACE",
+      "heading": "3.0 Wprowadzenie do części 3: Doświadczenie programisty i ramy SPACE",
+      "file": "chapters/03-00-doswiadczenie-programisty-i-space.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-ramy-space",
+      "title": "Ramy SPACE",
+      "heading": "3.1 Ramy SPACE",
+      "file": "chapters/03-01-ramy-space.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-metryki-satysfakcji-i-dobrostanu",
+      "title": "Metryki satysfakcji i dobrostanu",
+      "heading": "3.2 Metryki satysfakcji i dobrostanu",
+      "file": "chapters/03-02-metryki-satysfakcji-i-dobrostanu.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-metryki-wydajnosci-i-wskazniki-zastepcze-rezultatow",
+      "title": "Metryki wydajności i wskaźniki zastępcze rezultatów",
+      "heading": "3.3 Metryki wydajności i wskaźniki zastępcze rezultatów",
+      "file": "chapters/03-03-metryki-wydajnosci-i-wskazniki-zastepcze-rezultatow.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-metryki-aktywnosci-i-ich-granice",
+      "title": "Metryki aktywności i ich granice",
+      "heading": "3.4 Metryki aktywności i ich granice",
+      "file": "chapters/03-04-metryki-aktywnosci-i-ich-granice.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-metryki-komunikacji-i-wspolpracy",
+      "title": "Metryki komunikacji i współpracy",
+      "heading": "3.5 Metryki komunikacji i współpracy",
+      "file": "chapters/03-05-metryki-komunikacji-i-wspolpracy.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-efektywnosc-i-flow",
+      "title": "Efektywność i flow: głęboka praca i przerwania",
+      "heading": "3.6 Efektywność i flow: głęboka praca i przerwania",
+      "file": "chapters/03-06-efektywnosc-i-flow.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-ankiety-doswiadczenia-programisty-i-metryki-devex",
+      "title": "Ankiety doświadczenia programisty i metryki DevEx",
+      "heading": "3.7 Ankiety doświadczenia programisty i metryki DevEx",
+      "file": "chapters/03-07-ankiety-doswiadczenia-programisty-i-metryki-devex.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-metryki-kodu-i-jakosci",
+      "title": "Wprowadzenie do części 4: Metryki kodu i jakości",
+      "heading": "4.0 Wprowadzenie do części 4: Metryki kodu i jakości",
+      "file": "chapters/04-00-metryki-kodu-i-jakosci.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-metryki-zlozonosci-kodu",
+      "title": "Metryki złożoności kodu",
+      "heading": "4.1 Metryki złożoności kodu",
+      "file": "chapters/04-01-metryki-zlozonosci-kodu.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-pokrycie-testami-i-skutecznosc-testow",
+      "title": "Pokrycie testami i skuteczność testów",
+      "heading": "4.2 Pokrycie testami i skuteczność testów",
+      "file": "chapters/04-02-pokrycie-testami-i-skutecznosc-testow.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-rotacja-kodu-i-analiza-punktow-zapalnych",
+      "title": "Rotacja kodu i analiza punktów zapalnych",
+      "heading": "4.3 Rotacja kodu i analiza punktów zapalnych",
+      "file": "chapters/04-03-rotacja-kodu-i-analiza-punktow-zapalnych.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-analiza-statyczna-i-metryki-zapachow-kodu",
+      "title": "Analiza statyczna i metryki zapachów kodu",
+      "heading": "4.4 Analiza statyczna i metryki zapachów kodu",
+      "file": "chapters/04-04-analiza-statyczna-i-metryki-zapachow-kodu.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-pomiar-dlugu-technicznego",
+      "title": "Pomiar długu technicznego",
+      "heading": "4.5 Pomiar długu technicznego",
+      "file": "chapters/04-05-pomiar-dlugu-technicznego.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-metryki-dokumentacji-i-wiedzy",
+      "title": "Metryki dokumentacji i wiedzy",
+      "heading": "4.6 Metryki dokumentacji i wiedzy",
+      "file": "chapters/04-06-metryki-dokumentacji-i-wiedzy.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-metryki-produktowe-i-biznesowe",
+      "title": "Wprowadzenie do części 5: Metryki produktowe i biznesowe",
+      "heading": "5.0 Wprowadzenie do części 5: Metryki produktowe i biznesowe",
+      "file": "chapters/05-00-metryki-produktowe-i-biznesowe.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-wskaznik-uciekajacych-defektow-i-ucieczki-jakosci",
+      "title": "Wskaźnik uciekających defektów i ucieczki jakości",
+      "heading": "5.1 Wskaźnik uciekających defektów i ucieczki jakości",
+      "file": "chapters/05-01-wskaznik-uciekajacych-defektow-i-ucieczki-jakosci.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-metryki-adopcji-i-uzycia-funkcji",
+      "title": "Metryki adopcji i użycia funkcji",
+      "heading": "5.2 Metryki adopcji i użycia funkcji",
+      "file": "chapters/05-02-metryki-adopcji-i-uzycia-funkcji.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-metryki-rezultatow-klientow-i-biznesu",
+      "title": "Metryki rezultatów dla klientów i biznesu",
+      "heading": "5.3 Metryki rezultatów dla klientów i biznesu",
+      "file": "chapters/05-03-metryki-rezultatow-klientow-i-biznesu.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-koszty-i-ekonomia-jednostkowa-inzynierii",
+      "title": "Koszty i ekonomia jednostkowa inżynierii",
+      "heading": "5.4 Koszty i ekonomia jednostkowa inżynierii",
+      "file": "chapters/05-04-koszty-i-ekonomia-jednostkowa-inzynierii.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-zwrot-z-inwestycji-w-inicjatywy-inzynierskie",
+      "title": "Zwrot z inwestycji w inicjatywy inżynierskie",
+      "heading": "5.5 Zwrot z inwestycji w inicjatywy inżynierskie",
+      "file": "chapters/05-05-zwrot-z-inwestycji-w-inicjatywy-inzynierskie.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-metryki-niezawodnosci-operacji-i-bezpieczenstwa",
+      "title": "Wprowadzenie do części 6: Metryki niezawodności, operacji i bezpieczeństwa",
+      "heading": "6.0 Wprowadzenie do części 6: Metryki niezawodności, operacji i bezpieczeństwa",
+      "file": "chapters/06-00-metryki-niezawodnosci-operacji-i-bezpieczenstwa.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-sli-slo-i-budzety-bledow",
+      "title": "Wskaźniki poziomu usług, cele i budżety błędów",
+      "heading": "6.1 Wskaźniki poziomu usług, cele i budżety błędów",
+      "file": "chapters/06-01-sli-slo-i-budzety-bledow.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-metryki-incydentow",
+      "title": "Metryki incydentów: wykrywanie, reakcja i przywracanie",
+      "heading": "6.2 Metryki incydentów: wykrywanie, reakcja i przywracanie",
+      "file": "chapters/06-02-metryki-incydentow.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-dyzury-pojemnosc-i-obciazenie-operacyjne",
+      "title": "Metryki dyżurów, pojemności i obciążenia operacyjnego",
+      "heading": "6.3 Metryki dyżurów, pojemności i obciążenia operacyjnego",
+      "file": "chapters/06-03-dyzury-pojemnosc-i-obciazenie-operacyjne.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-metryki-bezpieczenstwa-i-zarzadzania-podatnosciami",
+      "title": "Metryki bezpieczeństwa i zarządzania podatnościami",
+      "heading": "6.4 Metryki bezpieczeństwa i zarządzania podatnościami",
+      "file": "chapters/06-04-metryki-bezpieczenstwa-i-zarzadzania-podatnosciami.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-metryki-w-erze-ai",
+      "title": "Wprowadzenie do części 7: Metryki w erze AI",
+      "heading": "7.0 Wprowadzenie do części 7: Metryki w erze AI",
+      "file": "chapters/07-00-metryki-w-erze-ai.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-zmiana-paradygmatu-generatywnej-ai",
+      "title": "Zmiana paradygmatu: generatywna AI",
+      "heading": "7.1 Zmiana paradygmatu: generatywna AI",
+      "file": "chapters/07-01-zmiana-paradygmatu-generatywnej-ai.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-pomiar-tworzenia-oprogramowania-wspomaganego-przez-ai",
+      "title": "Pomiar tworzenia oprogramowania wspomaganego przez AI",
+      "heading": "7.2 Pomiar tworzenia oprogramowania wspomaganego przez AI",
+      "file": "chapters/07-02-pomiar-tworzenia-oprogramowania-wspomaganego-przez-ai.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-inflacja-metryk-i-ryzyko-rozmycia-jakosci",
+      "title": "Inflacja metryk i ryzyko rozmycia jakości",
+      "heading": "7.3 Inflacja metryk i ryzyko rozmycia jakości",
+      "file": "chapters/07-03-inflacja-metryk-i-ryzyko-rozmycia-jakosci.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-telemetria-rezultatow-jako-nowa-gwiazda-polarna",
+      "title": "Telemetria rezultatów jako nowa gwiazda polarna",
+      "heading": "7.4 Telemetria rezultatów jako nowa gwiazda polarna",
+      "file": "chapters/07-04-telemetria-rezultatow-jako-nowa-gwiazda-polarna.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-budowanie-programu-metryk",
+      "title": "Wprowadzenie do części 8: Budowanie programu metryk",
+      "heading": "8.0 Wprowadzenie do części 8: Budowanie programu metryk",
+      "file": "chapters/08-00-budowanie-programu-metryk.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-projektowanie-panelu-metryk-inzynierskich",
+      "title": "Projektowanie panelu metryk inżynierskich",
+      "heading": "8.1 Projektowanie panelu metryk inżynierskich",
+      "file": "chapters/08-01-projektowanie-panelu-metryk-inzynierskich.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-krajobraz-narzedzi-budowac-czy-kupowac",
+      "title": "Krajobraz narzędzi: budować czy kupować",
+      "heading": "8.2 Krajobraz narzędzi: budować czy kupować",
+      "file": "chapters/08-02-krajobraz-narzedzi-budowac-czy-kupowac.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-wdrazanie-metryk-bez-zasiewania-strachu",
+      "title": "Wdrażanie metryk bez zasiewania strachu",
+      "heading": "8.3 Wdrażanie metryk bez zasiewania strachu",
+      "file": "chapters/08-03-wdrazanie-metryk-bez-zasiewania-strachu.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-model-dojrzalosci-programow-metryk-inzynierskich",
+      "title": "Model dojrzałości programów metryk inżynierskich",
+      "heading": "8.4 Model dojrzałości programów metryk inżynierskich",
+      "file": "chapters/08-04-model-dojrzalosci-programow-metryk-inzynierskich.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-przyrostowa-mapa-drogowa-wdrozenia",
+      "title": "Przyrostowa mapa drogowa wdrożenia",
+      "heading": "8.5 Przyrostowa mapa drogowa wdrożenia",
+      "file": "chapters/08-05-przyrostowa-mapa-drogowa-wdrozenia.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-zalaczniki",
+      "title": "Załączniki",
+      "heading": "9.0 Załączniki",
+      "file": "chapters/09-00-zalaczniki.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-slownik-pojec",
+      "title": "Słownik pojęć",
+      "heading": "9.1 Słownik pojęć",
+      "file": "chapters/09-01-slownik-pojec.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-definicje-metryk-i-wzory",
+      "title": "Definicje metryk i wzory",
+      "heading": "9.2 Definicje metryk i wzory",
+      "file": "chapters/09-02-definicje-metryk-i-wzory.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-listy-kontrolne",
+      "title": "Listy kontrolne",
+      "heading": "9.3 Listy kontrolne",
+      "file": "chapters/09-03-listy-kontrolne.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-szablony",
+      "title": "Szablony",
+      "heading": "9.4 Szablony",
+      "file": "chapters/09-04-szablony.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-samoocena-dojrzalosci",
+      "title": "Samoocena dojrzałości",
+      "heading": "9.5 Samoocena dojrzałości",
+      "file": "chapters/09-05-samoocena-dojrzalosci.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-bibliografia-i-dalsza-lektura",
+      "title": "Bibliografia i dalsza lektura",
+      "heading": "9.6 Bibliografia i dalsza lektura",
+      "file": "chapters/09-06-bibliografia-i-dalsza-lektura.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-indeks",
+      "title": "Indeks",
+      "heading": "9.7 Indeks",
+      "file": "chapters/09-07-indeks.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "Wprowadzenie",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "Spis treści",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "Czym są metryki inżynierii oprogramowania?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "Przykład: specyfikacja panelu metryk dostarczania",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "Przykład: karta metryk dla zespołu platformy płatności",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "Pisanie: tworzenie i edycja tematów",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "Szablon tematu (wspólny)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "Nawigacja: jak działają pliki generowane",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "Indeks części (wspólne źródło odniesienia)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "Zasady stylu (wspólne, egzekwowalne)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "Testowanie: zestaw walidacji",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "Dziennik zmian",
+      "file": "project/changelog.md"
+    }
+  ],
+  "totals": {
+    "parts": 9,
+    "chapters": 63
+  }
+}

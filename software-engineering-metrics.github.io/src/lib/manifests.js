@@ -59,6 +59,10 @@ import he001 from './manifest/he-001.json';
 import frBe from './manifest/fr-be.json';
 import frLu from './manifest/fr-lu.json';
 import nlBe from './manifest/nl-be.json';
+import fi001 from './manifest/fi-001.json';
+import fiFi from './manifest/fi-fi.json';
+import hu001 from './manifest/hu-001.json';
+import huHu from './manifest/hu-hu.json';
 import { DEFAULT_LOCALE } from './locales.js';
 
 /**
@@ -149,7 +153,11 @@ const MANIFESTS = {
   'he-001': he001,
   'fr-be': frBe,
   'fr-lu': frLu,
-  'nl-be': nlBe
+  'nl-be': nlBe,
+  'fi-001': fi001,
+  'fi-fi': fiFi,
+  'hu-001': hu001,
+  'hu-hu': huHu
 };
 
 /**

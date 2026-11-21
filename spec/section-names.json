@@ -490,6 +490,34 @@
       "examples": "voorbeelden",
       "contributing": "bijdragen",
       "project": "project"
+    },
+    "fi-001": {
+      "chapters": "aiheet",
+      "front-matter": "alkuosa",
+      "examples": "esimerkit",
+      "contributing": "osallistuminen",
+      "project": "projekti"
+    },
+    "fi-fi": {
+      "chapters": "aiheet",
+      "front-matter": "alkuosa",
+      "examples": "esimerkit",
+      "contributing": "osallistuminen",
+      "project": "projekti"
+    },
+    "hu-001": {
+      "chapters": "temak",
+      "front-matter": "elohang",
+      "examples": "peldak",
+      "contributing": "hozzajarulas",
+      "project": "projekt"
+    },
+    "hu-hu": {
+      "chapters": "temak",
+      "front-matter": "elohang",
+      "examples": "peldak",
+      "contributing": "hozzajarulas",
+      "project": "projekt"
     }
   }
 }

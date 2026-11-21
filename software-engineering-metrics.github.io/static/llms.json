@@ -18688,6 +18688,1294 @@
      "url": "https://software-engineering-metrics.github.io/nl-be/chapters/09-07-index/"
     }
    ]
+  },
+  {
+   "code": "fi-001",
+   "label": "Suomi",
+   "home": "https://software-engineering-metrics.github.io/fi-001/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "Johdanto osaan 1: Mittaamisen perusteet",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/01-00-mittaamisen-perusteet/"
+    },
+    {
+     "number": "1.1",
+     "title": "Miksi ohjelmistotuotantoa mitataan",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/01-01-miksi-ohjelmistotuotantoa-mitataan/"
+    },
+    {
+     "number": "1.2",
+     "title": "Goodhartin laki ja mittarien psykologia",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/01-02-goodhartin-laki-ja-mittarien-psykologia/"
+    },
+    {
+     "number": "1.3",
+     "title": "Tulokset ennen tuotoksia: mitä valitaan mitattavaksi",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/01-03-tulokset-ennen-tuotoksia/"
+    },
+    {
+     "number": "1.4",
+     "title": "Mittarien hallinta ja omistajuus",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/01-04-mittarien-hallinta-ja-omistajuus/"
+    },
+    {
+     "number": "1.5",
+     "title": "Tietolähteet ja instrumentointi",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/01-05-tietolahteet-ja-instrumentointi/"
+    },
+    {
+     "number": "1.6",
+     "title": "Tilastollinen lukutaito ohjelmistotuotannon mittareissa",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/01-06-tilastollinen-lukutaito-ohjelmistotuotannon-mittareissa/"
+    },
+    {
+     "number": "2.0",
+     "title": "Johdanto osaan 2: Virtausmittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/02-00-virtausmittarit/"
+    },
+    {
+     "number": "2.1",
+     "title": "Flow Framework",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/02-01-flow-framework/"
+    },
+    {
+     "number": "2.2",
+     "title": "Flow-kohteet: ominaisuudet, virheet, riskit ja velka",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/02-02-flow-kohteet/"
+    },
+    {
+     "number": "2.3",
+     "title": "Flow-nopeus ja flow-jakauma",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/02-03-flow-nopeus-ja-flow-jakauma/"
+    },
+    {
+     "number": "2.4",
+     "title": "Flow-aika ja flow-kuorma",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/02-04-flow-aika-ja-flow-kuorma/"
+    },
+    {
+     "number": "2.5",
+     "title": "Flow-tehokkuus ja keskeneräinen työ",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/02-05-flow-tehokkuus-ja-keskeneraiset-tyot/"
+    },
+    {
+     "number": "2.6",
+     "title": "Sykliaika ja sen osat",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/02-06-sykliaika-ja-sen-osat/"
+    },
+    {
+     "number": "2.7",
+     "title": "Jonoteoria",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/02-07-jonoteoria/"
+    },
+    {
+     "number": "2.8",
+     "title": "Lean-arvovirran mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/02-08-lean-arvovirran-mittarit/"
+    },
+    {
+     "number": "2.9",
+     "title": "Pull requestien ja koodikatselmoinnin mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/02-09-pull-request-ja-koodikatselmoinnin-mittarit/"
+    },
+    {
+     "number": "2.10",
+     "title": "DORA-mittarien viitekehys",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/02-10-dora-mittarien-viitekehys/"
+    },
+    {
+     "number": "3.0",
+     "title": "Johdanto osaan 3: Kehittäjäkokemus ja SPACE-viitekehys",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/03-00-kehittajakokemus-ja-space/"
+    },
+    {
+     "number": "3.1",
+     "title": "SPACE-viitekehys",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/03-01-space-viitekehys/"
+    },
+    {
+     "number": "3.2",
+     "title": "Tyytyväisyyden ja hyvinvoinnin mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/03-02-tyytyvaisyyden-ja-hyvinvoinnin-mittarit/"
+    },
+    {
+     "number": "3.3",
+     "title": "Suorituskykymittarit ja tulosten sijaismittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/03-03-suorituskykymittarit-ja-tulosten-sijaismittarit/"
+    },
+    {
+     "number": "3.4",
+     "title": "Aktiivisuusmittarit ja niiden rajat",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/03-04-aktiivisuusmittarit-ja-niiden-rajat/"
+    },
+    {
+     "number": "3.5",
+     "title": "Viestinnän ja yhteistyön mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/03-05-viestinnan-ja-yhteistyon-mittarit/"
+    },
+    {
+     "number": "3.6",
+     "title": "Tehokkuus ja flow: syväkeskittyminen ja keskeytykset",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/03-06-tehokkuus-ja-flow/"
+    },
+    {
+     "number": "3.7",
+     "title": "Kehittäjäkokemuskyselyt ja DevEx-mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/03-07-kehittajakokemuskyselyt-ja-devex-mittarit/"
+    },
+    {
+     "number": "4.0",
+     "title": "Johdanto osaan 4: Koodin ja laadun mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/04-00-koodin-ja-laadun-mittarit/"
+    },
+    {
+     "number": "4.1",
+     "title": "Koodin monimutkaisuusmittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/04-01-koodin-monimutkaisuusmittarit/"
+    },
+    {
+     "number": "4.2",
+     "title": "Testikattavuus ja testien tehokkuus",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/04-02-testikattavuus-ja-testien-tehokkuus/"
+    },
+    {
+     "number": "4.3",
+     "title": "Koodin muuttuvuus ja kuumien pisteiden analyysi",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/04-03-koodin-muuttuvuus-ja-kuumien-pisteiden-analyysi/"
+    },
+    {
+     "number": "4.4",
+     "title": "Staattinen analyysi ja koodihajujen mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/04-04-staattinen-analyysi-ja-koodihajujen-mittarit/"
+    },
+    {
+     "number": "4.5",
+     "title": "Teknisen velan mittaaminen",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/04-05-teknisen-velan-mittaaminen/"
+    },
+    {
+     "number": "4.6",
+     "title": "Dokumentaation ja tiedon mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/04-06-dokumentaation-ja-tiedon-mittarit/"
+    },
+    {
+     "number": "5.0",
+     "title": "Johdanto osaan 5: Tuote- ja liiketoimintamittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/05-00-tuote-ja-liiketoimintamittarit/"
+    },
+    {
+     "number": "5.1",
+     "title": "Karanneiden virheiden osuus ja laatuvuodot",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/05-01-karanneiden-virheiden-osuus-ja-laatuvuodot/"
+    },
+    {
+     "number": "5.2",
+     "title": "Ominaisuuksien käyttöönoton ja käytön mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/05-02-ominaisuuksien-kayttoonoton-ja-kayton-mittarit/"
+    },
+    {
+     "number": "5.3",
+     "title": "Asiakas- ja liiketoimintatulosten mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/05-03-asiakas-ja-liiketoimintatulosten-mittarit/"
+    },
+    {
+     "number": "5.4",
+     "title": "Ohjelmistotuotannon kustannukset ja yksikkötaloudellisuus",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/05-04-ohjelmistotuotannon-kustannukset-ja-yksikkotaloudellisuus/"
+    },
+    {
+     "number": "5.5",
+     "title": "Sijoitetun pääoman tuotto ohjelmistotuotannon hankkeissa",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/05-05-sijoitetun-paaoman-tuotto-ohjelmistotuotannon-hankkeissa/"
+    },
+    {
+     "number": "6.0",
+     "title": "Johdanto osaan 6: Luotettavuuden, käytön ja tietoturvan mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/06-00-luotettavuuden-kayton-ja-tietoturvan-mittarit/"
+    },
+    {
+     "number": "6.1",
+     "title": "Palvelutasoindikaattorit, -tavoitteet ja virhebudjetit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/06-01-palvelutasoindikaattorit-tavoitteet-ja-virhebudjetit/"
+    },
+    {
+     "number": "6.2",
+     "title": "Häiriömittarit: havaitseminen, reagointi ja palautuminen",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/06-02-hairiomittarit/"
+    },
+    {
+     "number": "6.3",
+     "title": "Päivystyksen, kapasiteetin ja käyttökuorman mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/06-03-paivystyksen-kapasiteetin-ja-kayttokuorman-mittarit/"
+    },
+    {
+     "number": "6.4",
+     "title": "Tietoturvan ja haavoittuvuuksien hallinnan mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/06-04-tietoturvan-ja-haavoittuvuuksien-hallinnan-mittarit/"
+    },
+    {
+     "number": "7.0",
+     "title": "Johdanto osaan 7: Mittarit tekoälyn aikakaudella",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/07-00-mittarit-tekoalyn-aikakaudella/"
+    },
+    {
+     "number": "7.1",
+     "title": "Generatiivisen tekoälyn paradigmanmuutos",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/07-01-generatiivisen-tekoalyn-paradigmanmuutos/"
+    },
+    {
+     "number": "7.2",
+     "title": "Tekoälyavusteisen ohjelmistokehityksen mittaaminen",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/07-02-tekoalyavusteisen-ohjelmistokehityksen-mittaaminen/"
+    },
+    {
+     "number": "7.3",
+     "title": "Mittarien inflaatio ja laadun laimenemisen riskit",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/07-03-mittarien-inflaatio-ja-laadun-laimenemisen-riskit/"
+    },
+    {
+     "number": "7.4",
+     "title": "Tulostelemetria uutena pohjantähtenä",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/07-04-tulostelemetria-uutena-pohjantahtena/"
+    },
+    {
+     "number": "8.0",
+     "title": "Johdanto osaan 8: Mittariohjelman rakentaminen",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/08-00-mittariohjelman-rakentaminen/"
+    },
+    {
+     "number": "8.1",
+     "title": "Ohjelmistotuotannon mittariston suunnittelu",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/08-01-ohjelmistotuotannon-mittariston-suunnittelu/"
+    },
+    {
+     "number": "8.2",
+     "title": "Työkalumaisema: rakenna vai osta",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/08-02-tyokalumaisema-rakenna-vai-osta/"
+    },
+    {
+     "number": "8.3",
+     "title": "Mittarien käyttöönotto pelkoa herättämättä",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/08-03-mittarien-kayttoonotto-pelkoa-herattamatta/"
+    },
+    {
+     "number": "8.4",
+     "title": "Mittariohjelmien kypsyysmalli",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/08-04-mittariohjelmien-kypsyysmalli/"
+    },
+    {
+     "number": "8.5",
+     "title": "Vaiheittainen käyttöönottosuunnitelma",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/08-05-vaiheittainen-kayttoonottosuunnitelma/"
+    },
+    {
+     "number": "9.0",
+     "title": "Liitteet",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/09-00-liitteet/"
+    },
+    {
+     "number": "9.1",
+     "title": "Sanasto",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/09-01-sanasto/"
+    },
+    {
+     "number": "9.2",
+     "title": "Mittarien määritelmät ja kaavojen viiteluettelo",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/09-02-mittarien-maaritelmat-ja-kaavojen-viiteluettelo/"
+    },
+    {
+     "number": "9.3",
+     "title": "Tarkistuslistat",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/09-03-tarkistuslistat/"
+    },
+    {
+     "number": "9.4",
+     "title": "Mallipohjat",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/09-04-mallipohjat/"
+    },
+    {
+     "number": "9.5",
+     "title": "Kypsyyden itsearviointi",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/09-05-kypsyyden-itsearviointi/"
+    },
+    {
+     "number": "9.6",
+     "title": "Lähteet ja lisälukemista",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/09-06-lahteet-ja-lisalukemista/"
+    },
+    {
+     "number": "9.7",
+     "title": "Hakemisto",
+     "url": "https://software-engineering-metrics.github.io/fi-001/chapters/09-07-hakemisto/"
+    }
+   ]
+  },
+  {
+   "code": "fi-fi",
+   "label": "Suomi (Suomi)",
+   "home": "https://software-engineering-metrics.github.io/fi-fi/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "Johdanto osaan 1: Mittaamisen perusteet",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/01-00-mittaamisen-perusteet/"
+    },
+    {
+     "number": "1.1",
+     "title": "Miksi ohjelmistotuotantoa mitataan",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/01-01-miksi-ohjelmistotuotantoa-mitataan/"
+    },
+    {
+     "number": "1.2",
+     "title": "Goodhartin laki ja mittarien psykologia",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/01-02-goodhartin-laki-ja-mittarien-psykologia/"
+    },
+    {
+     "number": "1.3",
+     "title": "Tulokset ennen tuotoksia: mitä valitaan mitattavaksi",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/01-03-tulokset-ennen-tuotoksia/"
+    },
+    {
+     "number": "1.4",
+     "title": "Mittarien hallinta ja omistajuus",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/01-04-mittarien-hallinta-ja-omistajuus/"
+    },
+    {
+     "number": "1.5",
+     "title": "Tietolähteet ja instrumentointi",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/01-05-tietolahteet-ja-instrumentointi/"
+    },
+    {
+     "number": "1.6",
+     "title": "Tilastollinen lukutaito ohjelmistotuotannon mittareissa",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/01-06-tilastollinen-lukutaito-ohjelmistotuotannon-mittareissa/"
+    },
+    {
+     "number": "2.0",
+     "title": "Johdanto osaan 2: Virtausmittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/02-00-virtausmittarit/"
+    },
+    {
+     "number": "2.1",
+     "title": "Flow Framework",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/02-01-flow-framework/"
+    },
+    {
+     "number": "2.2",
+     "title": "Flow-kohteet: ominaisuudet, virheet, riskit ja velka",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/02-02-flow-kohteet/"
+    },
+    {
+     "number": "2.3",
+     "title": "Flow-nopeus ja flow-jakauma",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/02-03-flow-nopeus-ja-flow-jakauma/"
+    },
+    {
+     "number": "2.4",
+     "title": "Flow-aika ja flow-kuorma",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/02-04-flow-aika-ja-flow-kuorma/"
+    },
+    {
+     "number": "2.5",
+     "title": "Flow-tehokkuus ja keskeneräinen työ",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/02-05-flow-tehokkuus-ja-keskeneraiset-tyot/"
+    },
+    {
+     "number": "2.6",
+     "title": "Sykliaika ja sen osat",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/02-06-sykliaika-ja-sen-osat/"
+    },
+    {
+     "number": "2.7",
+     "title": "Jonoteoria",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/02-07-jonoteoria/"
+    },
+    {
+     "number": "2.8",
+     "title": "Lean-arvovirran mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/02-08-lean-arvovirran-mittarit/"
+    },
+    {
+     "number": "2.9",
+     "title": "Pull requestien ja koodikatselmoinnin mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/02-09-pull-request-ja-koodikatselmoinnin-mittarit/"
+    },
+    {
+     "number": "2.10",
+     "title": "DORA-mittarien viitekehys",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/02-10-dora-mittarien-viitekehys/"
+    },
+    {
+     "number": "3.0",
+     "title": "Johdanto osaan 3: Kehittäjäkokemus ja SPACE-viitekehys",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/03-00-kehittajakokemus-ja-space/"
+    },
+    {
+     "number": "3.1",
+     "title": "SPACE-viitekehys",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/03-01-space-viitekehys/"
+    },
+    {
+     "number": "3.2",
+     "title": "Tyytyväisyyden ja hyvinvoinnin mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/03-02-tyytyvaisyyden-ja-hyvinvoinnin-mittarit/"
+    },
+    {
+     "number": "3.3",
+     "title": "Suorituskykymittarit ja tulosten sijaismittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/03-03-suorituskykymittarit-ja-tulosten-sijaismittarit/"
+    },
+    {
+     "number": "3.4",
+     "title": "Aktiivisuusmittarit ja niiden rajat",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/03-04-aktiivisuusmittarit-ja-niiden-rajat/"
+    },
+    {
+     "number": "3.5",
+     "title": "Viestinnän ja yhteistyön mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/03-05-viestinnan-ja-yhteistyon-mittarit/"
+    },
+    {
+     "number": "3.6",
+     "title": "Tehokkuus ja flow: syväkeskittyminen ja keskeytykset",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/03-06-tehokkuus-ja-flow/"
+    },
+    {
+     "number": "3.7",
+     "title": "Kehittäjäkokemuskyselyt ja DevEx-mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/03-07-kehittajakokemuskyselyt-ja-devex-mittarit/"
+    },
+    {
+     "number": "4.0",
+     "title": "Johdanto osaan 4: Koodin ja laadun mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/04-00-koodin-ja-laadun-mittarit/"
+    },
+    {
+     "number": "4.1",
+     "title": "Koodin monimutkaisuusmittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/04-01-koodin-monimutkaisuusmittarit/"
+    },
+    {
+     "number": "4.2",
+     "title": "Testikattavuus ja testien tehokkuus",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/04-02-testikattavuus-ja-testien-tehokkuus/"
+    },
+    {
+     "number": "4.3",
+     "title": "Koodin muuttuvuus ja kuumien pisteiden analyysi",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/04-03-koodin-muuttuvuus-ja-kuumien-pisteiden-analyysi/"
+    },
+    {
+     "number": "4.4",
+     "title": "Staattinen analyysi ja koodihajujen mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/04-04-staattinen-analyysi-ja-koodihajujen-mittarit/"
+    },
+    {
+     "number": "4.5",
+     "title": "Teknisen velan mittaaminen",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/04-05-teknisen-velan-mittaaminen/"
+    },
+    {
+     "number": "4.6",
+     "title": "Dokumentaation ja tiedon mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/04-06-dokumentaation-ja-tiedon-mittarit/"
+    },
+    {
+     "number": "5.0",
+     "title": "Johdanto osaan 5: Tuote- ja liiketoimintamittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/05-00-tuote-ja-liiketoimintamittarit/"
+    },
+    {
+     "number": "5.1",
+     "title": "Karanneiden virheiden osuus ja laatuvuodot",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/05-01-karanneiden-virheiden-osuus-ja-laatuvuodot/"
+    },
+    {
+     "number": "5.2",
+     "title": "Ominaisuuksien käyttöönoton ja käytön mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/05-02-ominaisuuksien-kayttoonoton-ja-kayton-mittarit/"
+    },
+    {
+     "number": "5.3",
+     "title": "Asiakas- ja liiketoimintatulosten mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/05-03-asiakas-ja-liiketoimintatulosten-mittarit/"
+    },
+    {
+     "number": "5.4",
+     "title": "Ohjelmistotuotannon kustannukset ja yksikkötaloudellisuus",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/05-04-ohjelmistotuotannon-kustannukset-ja-yksikkotaloudellisuus/"
+    },
+    {
+     "number": "5.5",
+     "title": "Sijoitetun pääoman tuotto ohjelmistotuotannon hankkeissa",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/05-05-sijoitetun-paaoman-tuotto-ohjelmistotuotannon-hankkeissa/"
+    },
+    {
+     "number": "6.0",
+     "title": "Johdanto osaan 6: Luotettavuuden, käytön ja tietoturvan mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/06-00-luotettavuuden-kayton-ja-tietoturvan-mittarit/"
+    },
+    {
+     "number": "6.1",
+     "title": "Palvelutasoindikaattorit, -tavoitteet ja virhebudjetit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/06-01-palvelutasoindikaattorit-tavoitteet-ja-virhebudjetit/"
+    },
+    {
+     "number": "6.2",
+     "title": "Häiriömittarit: havaitseminen, reagointi ja palautuminen",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/06-02-hairiomittarit/"
+    },
+    {
+     "number": "6.3",
+     "title": "Päivystyksen, kapasiteetin ja käyttökuorman mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/06-03-paivystyksen-kapasiteetin-ja-kayttokuorman-mittarit/"
+    },
+    {
+     "number": "6.4",
+     "title": "Tietoturvan ja haavoittuvuuksien hallinnan mittarit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/06-04-tietoturvan-ja-haavoittuvuuksien-hallinnan-mittarit/"
+    },
+    {
+     "number": "7.0",
+     "title": "Johdanto osaan 7: Mittarit tekoälyn aikakaudella",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/07-00-mittarit-tekoalyn-aikakaudella/"
+    },
+    {
+     "number": "7.1",
+     "title": "Generatiivisen tekoälyn paradigmanmuutos",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/07-01-generatiivisen-tekoalyn-paradigmanmuutos/"
+    },
+    {
+     "number": "7.2",
+     "title": "Tekoälyavusteisen ohjelmistokehityksen mittaaminen",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/07-02-tekoalyavusteisen-ohjelmistokehityksen-mittaaminen/"
+    },
+    {
+     "number": "7.3",
+     "title": "Mittarien inflaatio ja laadun laimenemisen riskit",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/07-03-mittarien-inflaatio-ja-laadun-laimenemisen-riskit/"
+    },
+    {
+     "number": "7.4",
+     "title": "Tulostelemetria uutena pohjantähtenä",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/07-04-tulostelemetria-uutena-pohjantahtena/"
+    },
+    {
+     "number": "8.0",
+     "title": "Johdanto osaan 8: Mittariohjelman rakentaminen",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/08-00-mittariohjelman-rakentaminen/"
+    },
+    {
+     "number": "8.1",
+     "title": "Ohjelmistotuotannon mittariston suunnittelu",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/08-01-ohjelmistotuotannon-mittariston-suunnittelu/"
+    },
+    {
+     "number": "8.2",
+     "title": "Työkalumaisema: rakenna vai osta",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/08-02-tyokalumaisema-rakenna-vai-osta/"
+    },
+    {
+     "number": "8.3",
+     "title": "Mittarien käyttöönotto pelkoa herättämättä",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/08-03-mittarien-kayttoonotto-pelkoa-herattamatta/"
+    },
+    {
+     "number": "8.4",
+     "title": "Mittariohjelmien kypsyysmalli",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/08-04-mittariohjelmien-kypsyysmalli/"
+    },
+    {
+     "number": "8.5",
+     "title": "Vaiheittainen käyttöönottosuunnitelma",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/08-05-vaiheittainen-kayttoonottosuunnitelma/"
+    },
+    {
+     "number": "9.0",
+     "title": "Liitteet",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/09-00-liitteet/"
+    },
+    {
+     "number": "9.1",
+     "title": "Sanasto",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/09-01-sanasto/"
+    },
+    {
+     "number": "9.2",
+     "title": "Mittarien määritelmät ja kaavojen viiteluettelo",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/09-02-mittarien-maaritelmat-ja-kaavojen-viiteluettelo/"
+    },
+    {
+     "number": "9.3",
+     "title": "Tarkistuslistat",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/09-03-tarkistuslistat/"
+    },
+    {
+     "number": "9.4",
+     "title": "Mallipohjat",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/09-04-mallipohjat/"
+    },
+    {
+     "number": "9.5",
+     "title": "Kypsyyden itsearviointi",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/09-05-kypsyyden-itsearviointi/"
+    },
+    {
+     "number": "9.6",
+     "title": "Lähteet ja lisälukemista",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/09-06-lahteet-ja-lisalukemista/"
+    },
+    {
+     "number": "9.7",
+     "title": "Hakemisto",
+     "url": "https://software-engineering-metrics.github.io/fi-fi/chapters/09-07-hakemisto/"
+    }
+   ]
+  },
+  {
+   "code": "hu-001",
+   "label": "Magyar",
+   "home": "https://software-engineering-metrics.github.io/hu-001/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "Bevezetés az 1. részhez: A mérés alapjai",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/01-00-a-meres-alapjai/"
+    },
+    {
+     "number": "1.1",
+     "title": "Miért mérjük a szoftverfejlesztést",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/01-01-miert-merjuk-a-szoftverfejlesztest/"
+    },
+    {
+     "number": "1.2",
+     "title": "Goodhart törvénye és a metrikák pszichológiája",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/01-02-goodhart-torvenye-es-a-metrikak-pszichologiaja/"
+    },
+    {
+     "number": "1.3",
+     "title": "Eredmények a kibocsátás előtt: mit érdemes mérni",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/01-03-eredmenyek-a-kibocsatas-elott/"
+    },
+    {
+     "number": "1.4",
+     "title": "Metrikagovernance és felelősség",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/01-04-metrikagovernance-es-felelosseg/"
+    },
+    {
+     "number": "1.5",
+     "title": "Adatforrások és műszerezés",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/01-05-adatforrasok-es-muszerezes/"
+    },
+    {
+     "number": "1.6",
+     "title": "Statisztikai jártasság mérnöki metrikákhoz",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/01-06-statisztikai-jartassag-mernoki-metrikakhoz/"
+    },
+    {
+     "number": "2.0",
+     "title": "Bevezetés a 2. részhez: Flow-metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/02-00-flow-metrikak/"
+    },
+    {
+     "number": "2.1",
+     "title": "A Flow Framework",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/02-01-a-flow-framework/"
+    },
+    {
+     "number": "2.2",
+     "title": "Flow-elemek: funkciók, hibák, kockázatok és adósság",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/02-02-flow-elemek/"
+    },
+    {
+     "number": "2.3",
+     "title": "Flow-sebesség és flow-eloszlás",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/02-03-flow-sebesseg-es-flow-eloszlas/"
+    },
+    {
+     "number": "2.4",
+     "title": "Flow-idő és flow-terhelés",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/02-04-flow-ido-es-flow-terheles/"
+    },
+    {
+     "number": "2.5",
+     "title": "Flow-hatékonyság és folyamatban lévő munka",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/02-05-flow-hatekonysag-es-folyamatban-levo-munka/"
+    },
+    {
+     "number": "2.6",
+     "title": "Ciklusidő és összetevői",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/02-06-ciklusido-es-osszetevoi/"
+    },
+    {
+     "number": "2.7",
+     "title": "Sorbanállás-elmélet",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/02-07-sorbanallas-elmelet/"
+    },
+    {
+     "number": "2.8",
+     "title": "Lean értékáram-metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/02-08-lean-ertekaram-metrikak/"
+    },
+    {
+     "number": "2.9",
+     "title": "Pull request- és kódáttekintési metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/02-09-pull-request-es-kodattekintesi-metrikak/"
+    },
+    {
+     "number": "2.10",
+     "title": "A DORA-metrikák keretrendszere",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/02-10-a-dora-metrikak-keretrendszere/"
+    },
+    {
+     "number": "3.0",
+     "title": "Bevezetés a 3. részhez: Fejlesztői élmény és a SPACE keretrendszer",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/03-00-fejlesztoi-elmeny-es-space/"
+    },
+    {
+     "number": "3.1",
+     "title": "A SPACE keretrendszer",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/03-01-a-space-keretrendszer/"
+    },
+    {
+     "number": "3.2",
+     "title": "Elégedettségi és jóllétmetrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/03-02-elegedettsegi-es-jolletmetrikak/"
+    },
+    {
+     "number": "3.3",
+     "title": "Teljesítménymetrikák és eredményközelítők",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/03-03-teljesitmenymetrikak-es-eredmenykozelitok/"
+    },
+    {
+     "number": "3.4",
+     "title": "Aktivitásmetrikák és korlátaik",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/03-04-aktivitasmetrikak-es-korlataik/"
+    },
+    {
+     "number": "3.5",
+     "title": "Kommunikációs és együttműködési metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/03-05-kommunikacios-es-egyuttmukodesi-metrikak/"
+    },
+    {
+     "number": "3.6",
+     "title": "Hatékonyság és flow: mély munka és megszakítások",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/03-06-hatekonysag-es-flow/"
+    },
+    {
+     "number": "3.7",
+     "title": "Fejlesztői élmény felmérések és DevEx-metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/03-07-fejlesztoi-elmeny-felmeresek-es-devex-metrikak/"
+    },
+    {
+     "number": "4.0",
+     "title": "Bevezetés a 4. részhez: Kód- és minőségmetrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/04-00-kod-es-minosegmetrikak/"
+    },
+    {
+     "number": "4.1",
+     "title": "Kódbonyolultsági metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/04-01-kodbonyolultsagi-metrikak/"
+    },
+    {
+     "number": "4.2",
+     "title": "Tesztlefedettség és a tesztek hatékonysága",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/04-02-tesztlefedettseg-es-a-tesztek-hatekonysaga/"
+    },
+    {
+     "number": "4.3",
+     "title": "Kódfluktuáció és hotspot-elemzés",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/04-03-kodfluktuacio-es-hotspot-elemzes/"
+    },
+    {
+     "number": "4.4",
+     "title": "Statikus elemzés és kódszag-metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/04-04-statikus-elemzes-es-kodszag-metrikak/"
+    },
+    {
+     "number": "4.5",
+     "title": "A technikai adósság mérése",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/04-05-a-technikai-adossag-merese/"
+    },
+    {
+     "number": "4.6",
+     "title": "Dokumentációs és tudásmetrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/04-06-dokumentacios-es-tudasmetrikak/"
+    },
+    {
+     "number": "5.0",
+     "title": "Bevezetés az 5. részhez: Termék- és üzleti metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/05-00-termek-es-uzleti-metrikak/"
+    },
+    {
+     "number": "5.1",
+     "title": "Kiszökött hibák aránya és minőségi kiszökések",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/05-01-kiszokott-hibak-aranya-es-minosegi-kiszokesek/"
+    },
+    {
+     "number": "5.2",
+     "title": "Funkcióelfogadási és használati metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/05-02-funkcioelfogadasi-es-hasznalati-metrikak/"
+    },
+    {
+     "number": "5.3",
+     "title": "Ügyfél- és üzleti eredménymetrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/05-03-ugyfel-es-uzleti-eredmenymetrikak/"
+    },
+    {
+     "number": "5.4",
+     "title": "A mérnöki munka költségei és egységgazdaságtana",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/05-04-a-mernoki-munka-koltsegei-es-egysegagazdasagtana/"
+    },
+    {
+     "number": "5.5",
+     "title": "Mérnöki kezdeményezések megtérülése",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/05-05-mernoki-kezdemenyezesek-megterulese/"
+    },
+    {
+     "number": "6.0",
+     "title": "Bevezetés a 6. részhez: Megbízhatósági, üzemeltetési és biztonsági metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/06-00-megbizhatosagi-uzemeltetesi-es-biztonsagi-metrikak/"
+    },
+    {
+     "number": "6.1",
+     "title": "Szolgáltatásiszint-mutatók, -célok és hibakeretek",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/06-01-szolgaltatasiszint-mutatok-celok-es-hibakeretek/"
+    },
+    {
+     "number": "6.2",
+     "title": "Incidensmetrikák: észlelés, reagálás és helyreállítás",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/06-02-incidensmetrikak/"
+    },
+    {
+     "number": "6.3",
+     "title": "Ügyelet, kapacitás és üzemeltetési terhelés metrikái",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/06-03-ugyelet-kapacitas-es-uzemeltetesi-terheles-metrikai/"
+    },
+    {
+     "number": "6.4",
+     "title": "Biztonsági és sérülékenységkezelési metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/06-04-biztonsagi-es-serulekenysegkezelesi-metrikak/"
+    },
+    {
+     "number": "7.0",
+     "title": "Bevezetés a 7. részhez: Metrikák a mesterséges intelligencia korában",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/07-00-metrikak-a-mesterseges-intelligencia-koraban/"
+    },
+    {
+     "number": "7.1",
+     "title": "A generatív MI paradigmaváltása",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/07-01-a-generativ-mi-paradigmavaltasa/"
+    },
+    {
+     "number": "7.2",
+     "title": "Az MI-támogatott szoftverfejlesztés mérése",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/07-02-az-mi-tamogatott-szoftverfejlesztes-merese/"
+    },
+    {
+     "number": "7.3",
+     "title": "Metrikainfláció és a minőségi hígulás kockázatai",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/07-03-metrikainflacio-es-a-minosegi-higulas-kockazatai/"
+    },
+    {
+     "number": "7.4",
+     "title": "Az eredménytelemetria mint az új sarkcsillag",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/07-04-az-eredmenytelemetria-mint-az-uj-sarkcsillag/"
+    },
+    {
+     "number": "8.0",
+     "title": "Bevezetés a 8. részhez: Metrikaprogram felépítése",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/08-00-metrikaprogram-felepitese/"
+    },
+    {
+     "number": "8.1",
+     "title": "Mérnöki metrikák dashboardjának tervezése",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/08-01-mernoki-metrikak-dashboardjanak-tervezese/"
+    },
+    {
+     "number": "8.2",
+     "title": "Eszköztáj: építés vagy vásárlás",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/08-02-eszkoztaj-epites-vagy-vasarlas/"
+    },
+    {
+     "number": "8.3",
+     "title": "Metrikák bevezetése félelemkeltés nélkül",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/08-03-metrikak-bevezetese-felelemkeltes-nelkul/"
+    },
+    {
+     "number": "8.4",
+     "title": "Érettségi modell mérnöki metrikaprogramokhoz",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/08-04-erettsegi-modell-mernoki-metrikaprogramokhoz/"
+    },
+    {
+     "number": "8.5",
+     "title": "Fokozatos bevezetési ütemterv",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/08-05-fokozatos-bevezetesi-utemterv/"
+    },
+    {
+     "number": "9.0",
+     "title": "Függelékek",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/09-00-fuggelekek/"
+    },
+    {
+     "number": "9.1",
+     "title": "Szószedet",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/09-01-szoszedet/"
+    },
+    {
+     "number": "9.2",
+     "title": "Metrikadefiníciók és képletek kézikönyve",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/09-02-metrikadefiniciok-es-kepletek-kezikonyve/"
+    },
+    {
+     "number": "9.3",
+     "title": "Ellenőrzőlisták",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/09-03-ellenorzolistak/"
+    },
+    {
+     "number": "9.4",
+     "title": "Sablonok",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/09-04-sablonok/"
+    },
+    {
+     "number": "9.5",
+     "title": "Önértékelés az érettségről",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/09-05-onertekeles-az-erettsegrol/"
+    },
+    {
+     "number": "9.6",
+     "title": "Források és ajánlott olvasmányok",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/09-06-forrasok-es-ajanlott-olvasmanyok/"
+    },
+    {
+     "number": "9.7",
+     "title": "Tárgymutató",
+     "url": "https://software-engineering-metrics.github.io/hu-001/chapters/09-07-targymutato/"
+    }
+   ]
+  },
+  {
+   "code": "hu-hu",
+   "label": "Magyar (Magyarország)",
+   "home": "https://software-engineering-metrics.github.io/hu-hu/",
+   "topics": [
+    {
+     "number": "1.0",
+     "title": "Bevezetés az 1. részhez: A mérés alapjai",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/01-00-a-meres-alapjai/"
+    },
+    {
+     "number": "1.1",
+     "title": "Miért mérjük a szoftverfejlesztést",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/01-01-miert-merjuk-a-szoftverfejlesztest/"
+    },
+    {
+     "number": "1.2",
+     "title": "Goodhart törvénye és a metrikák pszichológiája",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/01-02-goodhart-torvenye-es-a-metrikak-pszichologiaja/"
+    },
+    {
+     "number": "1.3",
+     "title": "Eredmények a kibocsátás előtt: mit érdemes mérni",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/01-03-eredmenyek-a-kibocsatas-elott/"
+    },
+    {
+     "number": "1.4",
+     "title": "Metrikagovernance és felelősség",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/01-04-metrikagovernance-es-felelosseg/"
+    },
+    {
+     "number": "1.5",
+     "title": "Adatforrások és műszerezés",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/01-05-adatforrasok-es-muszerezes/"
+    },
+    {
+     "number": "1.6",
+     "title": "Statisztikai jártasság mérnöki metrikákhoz",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/01-06-statisztikai-jartassag-mernoki-metrikakhoz/"
+    },
+    {
+     "number": "2.0",
+     "title": "Bevezetés a 2. részhez: Flow-metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/02-00-flow-metrikak/"
+    },
+    {
+     "number": "2.1",
+     "title": "A Flow Framework",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/02-01-a-flow-framework/"
+    },
+    {
+     "number": "2.2",
+     "title": "Flow-elemek: funkciók, hibák, kockázatok és adósság",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/02-02-flow-elemek/"
+    },
+    {
+     "number": "2.3",
+     "title": "Flow-sebesség és flow-eloszlás",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/02-03-flow-sebesseg-es-flow-eloszlas/"
+    },
+    {
+     "number": "2.4",
+     "title": "Flow-idő és flow-terhelés",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/02-04-flow-ido-es-flow-terheles/"
+    },
+    {
+     "number": "2.5",
+     "title": "Flow-hatékonyság és folyamatban lévő munka",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/02-05-flow-hatekonysag-es-folyamatban-levo-munka/"
+    },
+    {
+     "number": "2.6",
+     "title": "Ciklusidő és összetevői",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/02-06-ciklusido-es-osszetevoi/"
+    },
+    {
+     "number": "2.7",
+     "title": "Sorbanállás-elmélet",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/02-07-sorbanallas-elmelet/"
+    },
+    {
+     "number": "2.8",
+     "title": "Lean értékáram-metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/02-08-lean-ertekaram-metrikak/"
+    },
+    {
+     "number": "2.9",
+     "title": "Pull request- és kódáttekintési metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/02-09-pull-request-es-kodattekintesi-metrikak/"
+    },
+    {
+     "number": "2.10",
+     "title": "A DORA-metrikák keretrendszere",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/02-10-a-dora-metrikak-keretrendszere/"
+    },
+    {
+     "number": "3.0",
+     "title": "Bevezetés a 3. részhez: Fejlesztői élmény és a SPACE keretrendszer",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/03-00-fejlesztoi-elmeny-es-space/"
+    },
+    {
+     "number": "3.1",
+     "title": "A SPACE keretrendszer",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/03-01-a-space-keretrendszer/"
+    },
+    {
+     "number": "3.2",
+     "title": "Elégedettségi és jóllétmetrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/03-02-elegedettsegi-es-jolletmetrikak/"
+    },
+    {
+     "number": "3.3",
+     "title": "Teljesítménymetrikák és eredményközelítők",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/03-03-teljesitmenymetrikak-es-eredmenykozelitok/"
+    },
+    {
+     "number": "3.4",
+     "title": "Aktivitásmetrikák és korlátaik",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/03-04-aktivitasmetrikak-es-korlataik/"
+    },
+    {
+     "number": "3.5",
+     "title": "Kommunikációs és együttműködési metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/03-05-kommunikacios-es-egyuttmukodesi-metrikak/"
+    },
+    {
+     "number": "3.6",
+     "title": "Hatékonyság és flow: mély munka és megszakítások",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/03-06-hatekonysag-es-flow/"
+    },
+    {
+     "number": "3.7",
+     "title": "Fejlesztői élmény felmérések és DevEx-metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/03-07-fejlesztoi-elmeny-felmeresek-es-devex-metrikak/"
+    },
+    {
+     "number": "4.0",
+     "title": "Bevezetés a 4. részhez: Kód- és minőségmetrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/04-00-kod-es-minosegmetrikak/"
+    },
+    {
+     "number": "4.1",
+     "title": "Kódbonyolultsági metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/04-01-kodbonyolultsagi-metrikak/"
+    },
+    {
+     "number": "4.2",
+     "title": "Tesztlefedettség és a tesztek hatékonysága",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/04-02-tesztlefedettseg-es-a-tesztek-hatekonysaga/"
+    },
+    {
+     "number": "4.3",
+     "title": "Kódfluktuáció és hotspot-elemzés",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/04-03-kodfluktuacio-es-hotspot-elemzes/"
+    },
+    {
+     "number": "4.4",
+     "title": "Statikus elemzés és kódszag-metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/04-04-statikus-elemzes-es-kodszag-metrikak/"
+    },
+    {
+     "number": "4.5",
+     "title": "A technikai adósság mérése",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/04-05-a-technikai-adossag-merese/"
+    },
+    {
+     "number": "4.6",
+     "title": "Dokumentációs és tudásmetrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/04-06-dokumentacios-es-tudasmetrikak/"
+    },
+    {
+     "number": "5.0",
+     "title": "Bevezetés az 5. részhez: Termék- és üzleti metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/05-00-termek-es-uzleti-metrikak/"
+    },
+    {
+     "number": "5.1",
+     "title": "Kiszökött hibák aránya és minőségi kiszökések",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/05-01-kiszokott-hibak-aranya-es-minosegi-kiszokesek/"
+    },
+    {
+     "number": "5.2",
+     "title": "Funkcióelfogadási és használati metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/05-02-funkcioelfogadasi-es-hasznalati-metrikak/"
+    },
+    {
+     "number": "5.3",
+     "title": "Ügyfél- és üzleti eredménymetrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/05-03-ugyfel-es-uzleti-eredmenymetrikak/"
+    },
+    {
+     "number": "5.4",
+     "title": "A mérnöki munka költségei és egységgazdaságtana",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/05-04-a-mernoki-munka-koltsegei-es-egysegagazdasagtana/"
+    },
+    {
+     "number": "5.5",
+     "title": "Mérnöki kezdeményezések megtérülése",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/05-05-mernoki-kezdemenyezesek-megterulese/"
+    },
+    {
+     "number": "6.0",
+     "title": "Bevezetés a 6. részhez: Megbízhatósági, üzemeltetési és biztonsági metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/06-00-megbizhatosagi-uzemeltetesi-es-biztonsagi-metrikak/"
+    },
+    {
+     "number": "6.1",
+     "title": "Szolgáltatásiszint-mutatók, -célok és hibakeretek",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/06-01-szolgaltatasiszint-mutatok-celok-es-hibakeretek/"
+    },
+    {
+     "number": "6.2",
+     "title": "Incidensmetrikák: észlelés, reagálás és helyreállítás",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/06-02-incidensmetrikak/"
+    },
+    {
+     "number": "6.3",
+     "title": "Ügyelet, kapacitás és üzemeltetési terhelés metrikái",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/06-03-ugyelet-kapacitas-es-uzemeltetesi-terheles-metrikai/"
+    },
+    {
+     "number": "6.4",
+     "title": "Biztonsági és sérülékenységkezelési metrikák",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/06-04-biztonsagi-es-serulekenysegkezelesi-metrikak/"
+    },
+    {
+     "number": "7.0",
+     "title": "Bevezetés a 7. részhez: Metrikák a mesterséges intelligencia korában",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/07-00-metrikak-a-mesterseges-intelligencia-koraban/"
+    },
+    {
+     "number": "7.1",
+     "title": "A generatív MI paradigmaváltása",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/07-01-a-generativ-mi-paradigmavaltasa/"
+    },
+    {
+     "number": "7.2",
+     "title": "Az MI-támogatott szoftverfejlesztés mérése",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/07-02-az-mi-tamogatott-szoftverfejlesztes-merese/"
+    },
+    {
+     "number": "7.3",
+     "title": "Metrikainfláció és a minőségi hígulás kockázatai",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/07-03-metrikainflacio-es-a-minosegi-higulas-kockazatai/"
+    },
+    {
+     "number": "7.4",
+     "title": "Az eredménytelemetria mint az új sarkcsillag",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/07-04-az-eredmenytelemetria-mint-az-uj-sarkcsillag/"
+    },
+    {
+     "number": "8.0",
+     "title": "Bevezetés a 8. részhez: Metrikaprogram felépítése",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/08-00-metrikaprogram-felepitese/"
+    },
+    {
+     "number": "8.1",
+     "title": "Mérnöki metrikák dashboardjának tervezése",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/08-01-mernoki-metrikak-dashboardjanak-tervezese/"
+    },
+    {
+     "number": "8.2",
+     "title": "Eszköztáj: építés vagy vásárlás",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/08-02-eszkoztaj-epites-vagy-vasarlas/"
+    },
+    {
+     "number": "8.3",
+     "title": "Metrikák bevezetése félelemkeltés nélkül",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/08-03-metrikak-bevezetese-felelemkeltes-nelkul/"
+    },
+    {
+     "number": "8.4",
+     "title": "Érettségi modell mérnöki metrikaprogramokhoz",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/08-04-erettsegi-modell-mernoki-metrikaprogramokhoz/"
+    },
+    {
+     "number": "8.5",
+     "title": "Fokozatos bevezetési ütemterv",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/08-05-fokozatos-bevezetesi-utemterv/"
+    },
+    {
+     "number": "9.0",
+     "title": "Függelékek",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/09-00-fuggelekek/"
+    },
+    {
+     "number": "9.1",
+     "title": "Szószedet",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/09-01-szoszedet/"
+    },
+    {
+     "number": "9.2",
+     "title": "Metrikadefiníciók és képletek kézikönyve",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/09-02-metrikadefiniciok-es-kepletek-kezikonyve/"
+    },
+    {
+     "number": "9.3",
+     "title": "Ellenőrzőlisták",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/09-03-ellenorzolistak/"
+    },
+    {
+     "number": "9.4",
+     "title": "Sablonok",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/09-04-sablonok/"
+    },
+    {
+     "number": "9.5",
+     "title": "Önértékelés az érettségről",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/09-05-onertekeles-az-erettsegrol/"
+    },
+    {
+     "number": "9.6",
+     "title": "Források és ajánlott olvasmányok",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/09-06-forrasok-es-ajanlott-olvasmanyok/"
+    },
+    {
+     "number": "9.7",
+     "title": "Tárgymutató",
+     "url": "https://software-engineering-metrics.github.io/hu-hu/chapters/09-07-targymutato/"
+    }
+   ]
   }
  ]
 }

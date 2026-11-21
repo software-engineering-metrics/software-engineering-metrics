@@ -621,6 +621,48 @@ export const HERO = {
   "examples": "Uitgewerkte voorbeelden",
   "contents": "Inhoud",
   "translations": "Vertalingen: "
+ },
+ "fi-001": {
+  "fi-001": {
+   "headline": "Mittaa ohjelmistotuotantoa oikein.",
+   "tagline": "Ilmainen · avoin · määrittelylähtöinen",
+   "intro": "Käytännönläheinen kirja sellaisten mittarien valinnasta, jotka kertovat todellisista tuloksista eivätkä pelkästä aktiivisuudesta: Flow Framework, SPACE-viitekehys, jonoteoria ja DORA-mittarit, koodin ja laadun mittarit, tuote- ja liiketoimintatulokset, luotettavuus ja tietoturva sekä se, miten generatiivinen tekoäly muuttaa näiden lukujen merkitystä.",
+   "start": "Aloita lukeminen",
+   "examples": "Läpikäydyt esimerkit",
+   "contents": "Sisältö",
+   "translations": "Käännökset: ",
+   "label": "Suomi"
+  }
+ },
+ "fi-fi": {
+  "fi-001": {
+   "headline": "Mittaa ohjelmistotuotantoa oikein.",
+   "tagline": "Ilmainen · avoin · määrittelylähtöinen",
+   "intro": "Käytännönläheinen kirja sellaisten mittarien valinnasta, jotka kertovat todellisista tuloksista eivätkä pelkästä aktiivisuudesta: Flow Framework, SPACE-viitekehys, jonoteoria ja DORA-mittarit, koodin ja laadun mittarit, tuote- ja liiketoimintatulokset, luotettavuus ja tietoturva sekä se, miten generatiivinen tekoäly muuttaa näiden lukujen merkitystä.",
+   "start": "Aloita lukeminen",
+   "examples": "Läpikäydyt esimerkit",
+   "contents": "Sisältö",
+   "translations": "Käännökset: ",
+   "label": "Suomi"
+  }
+ },
+ "hu-001": {
+  "headline": "A szoftverfejlesztés mérése jól.",
+  "tagline": "Ingyenes · nyílt · specifikációvezérelt",
+  "intro": "Gyakorlati könyv olyan metrikák kiválasztásáról, amelyek a valódi eredményeket tükrözik, nem a puszta tevékenységet: a Flow Framework, a SPACE keretrendszer, a sorbanállás-elmélet és a DORA-metrikák, a kód- és minőségmetrikák, a termék- és üzleti eredmények, a megbízhatóság és a biztonság, valamint az, hogyan változtatja meg a generatív MI e számok jelentését.",
+  "start": "Kezdje az olvasást",
+  "examples": "Kidolgozott példák",
+  "contents": "Tartalom",
+  "translations": "Fordítások: "
+ },
+ "hu-hu": {
+  "headline": "A szoftverfejlesztés mérése jól.",
+  "tagline": "Ingyenes · nyílt · specifikációvezérelt",
+  "intro": "Gyakorlati könyv olyan metrikák kiválasztásáról, amelyek a valódi eredményeket tükrözik, nem a puszta tevékenységet: a Flow Framework, a SPACE keretrendszer, a sorbanállás-elmélet és a DORA-metrikák, a kód- és minőségmetrikák, a termék- és üzleti eredmények, a megbízhatóság és a biztonság, valamint az, hogyan változtatja meg a generatív MI e számok jelentését.",
+  "start": "Kezdje az olvasást",
+  "examples": "Kidolgozott példák",
+  "contents": "Tartalom",
+  "translations": "Fordítások: "
  }
 };
 
@@ -693,5 +735,9 @@ export const ENDONYMS = {
  "he-001": "עברית",
  "fr-be": "Français (Belgique)",
  "fr-lu": "Français (Luxembourg)",
- "nl-be": "Nederlands (België)"
+ "nl-be": "Nederlands (België)",
+ "fi-001": "Suomi",
+ "fi-fi": "Suomi (Suomi)",
+ "hu-001": "Magyar",
+ "hu-hu": "Magyar (Magyarország)"
 };

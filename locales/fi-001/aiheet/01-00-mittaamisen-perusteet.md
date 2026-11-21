@@ -1,0 +1,22 @@
+# 1.0 Johdanto osaan 1: Mittaamisen perusteet
+
+Ennen kuin tämä kirja nimeää yhtäkään mittaria, sen on vastattava vaikeampaan kysymykseen: mihin mittaaminen on *tarkoitettu*? Jokainen tiimi, joka on koskaan rakentanut mittariston, on jossain vaiheessa nähnyt myös, miten luku paranee samalla kun se, mitä sen piti kuvata, huononee. Se ei ole työkaluvika. Se on ennustettava seuraus siitä, että tämän osan perusteet on ohitettu: miksi mitataan ylipäätään, mitä mittarille tapahtuu, kun ihmiset tietävät sitä seurattavan, miten tulokset painotetaan aktiivisuutta tärkeämmiksi, kenelle luku ja sen määritelmä kuuluvat, mistä data oikeasti tulee ja miten kohisevaa signaalia luetaan niin, ettei huijaa itseään.
+
+Suurille tiimeille nämä perusteet lakkaavat olemasta valinnaisia. Yksittäinen tiimi selviää ad hoc -luvulla, jota esihenkilö vilkaisee kerran viikossa. Satoja kehittäjiä, kymmeniä mittaristoja ja ylöspäin raportoiva johtoryhmä käsittävä organisaatio ei selviä. Tässä mittakaavassa omistajaton tai huonosti määritelty mittari ei johda harhaan vain yhtä tiimiä, vaan jokaisen, joka luottaa lukuun tarkistamatta, miten se on tehty. Sen purkaminen on kallista, kun käyttäytyminen on jo mukautunut pelaamaan mittaria.
+
+Suuryritykset ja julkishallinto tuntevat tämän kipeimmin, koska niiden mittareilla on usein seurauksia tuottavan tiimin ulkopuolella: budjettipäätöksiä, julkisia suoritusraportteja, auditointihavaintoja ja toimittajasopimuksia. Mittari, joka näyttää sisäiseltä kehittäjien apuvälineeltä, voi huomaamatta muuttua kriittiseksi ja kyseenalaistamattomaksi syötteeksi päätöksiin, joita tekevät ihmiset, jotka eivät koskaan näe sitä tuottanutta putkea. Perusteiden saaminen kuntoon tekee tästä painosta kannettavan.
+
+## Aiheet tässä osassa
+
+- **1.1 Miksi ohjelmistotuotantoa mitataan:** Perustelut mittaamiselle ylipäätään, mihin sen on tarkoitus pyrkiä, ja ero oppimista varten mittaamisen ja tuomitsemista varten mittaamisen välillä.
+- **1.2 Goodhartin laki ja mittarien psykologia:** Yksi ajatus, joka ohjaa kaikkia kirjan muita aiheita: mitta, josta tulee tavoite, lakkaa olemasta hyvä mitta. Lisäksi psykologiset mekanismit, jotka tekevät pelaamisesta lähes väistämätöntä, kun ihmiset tietävät olevansa seurattavina.
+- **1.3 Tulokset ennen tuotoksia: mitä valitaan mitattavaksi:** Miten mittarisarja painotetaan tuloksiin aktiivisuuden sijaan, käyttäen klassista panos-, tuotos- ja tulos-jaottelua sekä pohjantähti-mallia.
+- **1.4 Mittarien hallinta ja omistajuus:** Kuka päättää, mitä mitataan, kuka omistaa määritelmän ja miten mittarien peruskirja estää kasvavaa mittaristoa muuttumasta vastuuttomaksi rönsyilyksi.
+- **1.5 Tietolähteet ja instrumentointi:** Mistä ohjelmistotuotannon mittarit oikeasti tulevat, instrumentointi vastaan itse raportointi, ja datan laatuongelmat, jotka mitätöivät mittariston hiljaa ennen kuin kukaan huomaa.
+- **1.6 Tilastollinen lukutaito ohjelmistotuotannon mittareissa:** Vähimmäismäärä tilastollista arvostelukykyä, jota tiimi tarvitsee lukeakseen mittaria rehellisesti: persentiilit vastaan keskiarvot, otoskoko, regressio kohti keskiarvoa ja sekoittavat tekijät.
+
+## Miten nämä aiheet liittyvät toisiinsa
+
+Nämä kuusi aihetta rakentuvat tiukassa järjestyksessä. Aihe 1.1 kysyy, miksi ylipäätään mitataan. Sillä on väliä, koska tiimi, joka ei ole vastannut siihen, kerää lukuja, joiden perusteella kukaan ei toimi. Aihe 1.2 on kääntöpiste, jonka ympärillä loput kirjasta pyörii: kun hyväksyt, että mikä tahansa mitta voi muuttua tavoitteeksi ja tulla pelatuksi, jokaisen myöhemmän aiheen suositukset seuraavat siitä, että suunnittelet tuota riskiä vastaan. Aihe 1.3 muuttaa tämän varovaisuuden myönteiseksi säännöksi: painota tuloksiin, koska ne ovat vaikeimmin halvalla pelattava luokka. Aihe 1.4 tekee hallinnasta konkreettista, aihe 1.5 tekee datasta konkreettista, ja aihe 1.6 antaa tilastollisen arvostelukyvyn, jotta kohina ei huijaa sinua silloinkaan, kun hallinta ja instrumentointi ovat kunnossa.
+
+Kaikki myöhempi riippuu tästä osasta. Osan 2 flow-mittarit ja DORA-mittarit sekä osan 3 SPACE-viitekehys ovat käytännössä läpikäytyjä esimerkkejä tuloksiin painottamisen ja suojakaiteiden paritusperiaatteista, jotka esitetään aiheissa 1.2 ja 1.3. Mittaristojen suunnitteluohje aiheessa 8.1 olettaa aiheen 1.4 hallintamallin. Ja kypsyysmalli, joka päättää jokaisen kirjan aiheen, on viiden tasonsa alla kypsyysmalli juuri sille kurinalaisuudelle, jonka tämä osa esittelee: mittaa tosissasi ja tarkista oma työsi.

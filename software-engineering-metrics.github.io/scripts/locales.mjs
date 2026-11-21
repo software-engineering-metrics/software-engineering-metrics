@@ -65,7 +65,11 @@ export const LOCALE_LABELS = {
   'he-001': 'עברית',
   'fr-be': 'Français (Belgique)',
   'fr-lu': 'Français (Luxembourg)',
-  'nl-be': 'Nederlands (België)'
+  'nl-be': 'Nederlands (België)',
+  'fi-001': 'Suomi',
+  'fi-fi': 'Suomi (Suomi)',
+  'hu-001': 'Magyar',
+  'hu-hu': 'Magyar (Magyarország)'
 };
 
 /** @param {string} code */
@@ -143,7 +147,11 @@ const SERVED_LOCALE_CODES = [
   'he-001',
   'fr-be',
   'fr-lu',
-  'nl-be'
+  'nl-be',
+  'fi-001',
+  'fi-fi',
+  'hu-001',
+  'hu-hu'
 ];
 
 export const LOCALES = SERVED_LOCALE_CODES.map((code) => ({ code, label: localeLabel(code) }));

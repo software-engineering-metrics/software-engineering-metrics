@@ -160,6 +160,10 @@ The book is published in several locales. The English locale below is the defaul
 - [Français (Belgique) (fr-be)](https://software-engineering-metrics.github.io/fr-be/)
 - [Français (Luxembourg) (fr-lu)](https://software-engineering-metrics.github.io/fr-lu/)
 - [Nederlands (België) (nl-be)](https://software-engineering-metrics.github.io/nl-be/)
+- [Suomi (fi-001)](https://software-engineering-metrics.github.io/fi-001/)
+- [Suomi (Suomi) (fi-fi)](https://software-engineering-metrics.github.io/fi-fi/)
+- [Magyar (hu-001)](https://software-engineering-metrics.github.io/hu-001/)
+- [Magyar (Magyarország) (hu-hu)](https://software-engineering-metrics.github.io/hu-hu/)
 
 ## For contributors and agents
 

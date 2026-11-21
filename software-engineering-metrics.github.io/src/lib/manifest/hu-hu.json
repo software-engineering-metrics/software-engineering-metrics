@@ -1,0 +1,1902 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "hu-hu",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-a-meres-alapjai",
+          "title": "Bevezetés az 1. részhez: A mérés alapjai",
+          "heading": "1.0 Bevezetés az 1. részhez: A mérés alapjai",
+          "file": "chapters/01-00-a-meres-alapjai.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-miert-merjuk-a-szoftverfejlesztest",
+          "title": "Miért mérjük a szoftverfejlesztést",
+          "heading": "1.1 Miért mérjük a szoftverfejlesztést",
+          "file": "chapters/01-01-miert-merjuk-a-szoftverfejlesztest.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-goodhart-torvenye-es-a-metrikak-pszichologiaja",
+          "title": "Goodhart törvénye és a metrikák pszichológiája",
+          "heading": "1.2 Goodhart törvénye és a metrikák pszichológiája",
+          "file": "chapters/01-02-goodhart-torvenye-es-a-metrikak-pszichologiaja.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-eredmenyek-a-kibocsatas-elott",
+          "title": "Eredmények a kibocsátás előtt: mit érdemes mérni",
+          "heading": "1.3 Eredmények a kibocsátás előtt: mit érdemes mérni",
+          "file": "chapters/01-03-eredmenyek-a-kibocsatas-elott.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-metrikagovernance-es-felelosseg",
+          "title": "Metrikagovernance és felelősség",
+          "heading": "1.4 Metrikagovernance és felelősség",
+          "file": "chapters/01-04-metrikagovernance-es-felelosseg.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-adatforrasok-es-muszerezes",
+          "title": "Adatforrások és műszerezés",
+          "heading": "1.5 Adatforrások és műszerezés",
+          "file": "chapters/01-05-adatforrasok-es-muszerezes.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-statisztikai-jartassag-mernoki-metrikakhoz",
+          "title": "Statisztikai jártasság mérnöki metrikákhoz",
+          "heading": "1.6 Statisztikai jártasság mérnöki metrikákhoz",
+          "file": "chapters/01-06-statisztikai-jartassag-mernoki-metrikakhoz.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-flow-metrikak",
+          "title": "Bevezetés a 2. részhez: Flow-metrikák",
+          "heading": "2.0 Bevezetés a 2. részhez: Flow-metrikák",
+          "file": "chapters/02-00-flow-metrikak.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-a-flow-framework",
+          "title": "A Flow Framework",
+          "heading": "2.1 A Flow Framework",
+          "file": "chapters/02-01-a-flow-framework.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-flow-elemek",
+          "title": "Flow-elemek: funkciók, hibák, kockázatok és adósság",
+          "heading": "2.2 Flow-elemek: funkciók, hibák, kockázatok és adósság",
+          "file": "chapters/02-02-flow-elemek.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-flow-sebesseg-es-flow-eloszlas",
+          "title": "Flow-sebesség és flow-eloszlás",
+          "heading": "2.3 Flow-sebesség és flow-eloszlás",
+          "file": "chapters/02-03-flow-sebesseg-es-flow-eloszlas.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-flow-ido-es-flow-terheles",
+          "title": "Flow-idő és flow-terhelés",
+          "heading": "2.4 Flow-idő és flow-terhelés",
+          "file": "chapters/02-04-flow-ido-es-flow-terheles.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-flow-hatekonysag-es-folyamatban-levo-munka",
+          "title": "Flow-hatékonyság és folyamatban lévő munka",
+          "heading": "2.5 Flow-hatékonyság és folyamatban lévő munka",
+          "file": "chapters/02-05-flow-hatekonysag-es-folyamatban-levo-munka.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-ciklusido-es-osszetevoi",
+          "title": "Ciklusidő és összetevői",
+          "heading": "2.6 Ciklusidő és összetevői",
+          "file": "chapters/02-06-ciklusido-es-osszetevoi.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-sorbanallas-elmelet",
+          "title": "Sorbanállás-elmélet",
+          "heading": "2.7 Sorbanállás-elmélet",
+          "file": "chapters/02-07-sorbanallas-elmelet.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-lean-ertekaram-metrikak",
+          "title": "Lean értékáram-metrikák",
+          "heading": "2.8 Lean értékáram-metrikák",
+          "file": "chapters/02-08-lean-ertekaram-metrikak.md"
+        },
+        {
+          "part": 2,
+          "chapter": 9,
+          "decimal": "2.9",
+          "slug": "02-09-pull-request-es-kodattekintesi-metrikak",
+          "title": "Pull request- és kódáttekintési metrikák",
+          "heading": "2.9 Pull request- és kódáttekintési metrikák",
+          "file": "chapters/02-09-pull-request-es-kodattekintesi-metrikak.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-a-dora-metrikak-keretrendszere",
+          "title": "A DORA-metrikák keretrendszere",
+          "heading": "2.10 A DORA-metrikák keretrendszere",
+          "file": "chapters/02-10-a-dora-metrikak-keretrendszere.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-fejlesztoi-elmeny-es-space",
+          "title": "Bevezetés a 3. részhez: Fejlesztői élmény és a SPACE keretrendszer",
+          "heading": "3.0 Bevezetés a 3. részhez: Fejlesztői élmény és a SPACE keretrendszer",
+          "file": "chapters/03-00-fejlesztoi-elmeny-es-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-a-space-keretrendszer",
+          "title": "A SPACE keretrendszer",
+          "heading": "3.1 A SPACE keretrendszer",
+          "file": "chapters/03-01-a-space-keretrendszer.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-elegedettsegi-es-jolletmetrikak",
+          "title": "Elégedettségi és jóllétmetrikák",
+          "heading": "3.2 Elégedettségi és jóllétmetrikák",
+          "file": "chapters/03-02-elegedettsegi-es-jolletmetrikak.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-teljesitmenymetrikak-es-eredmenykozelitok",
+          "title": "Teljesítménymetrikák és eredményközelítők",
+          "heading": "3.3 Teljesítménymetrikák és eredményközelítők",
+          "file": "chapters/03-03-teljesitmenymetrikak-es-eredmenykozelitok.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-aktivitasmetrikak-es-korlataik",
+          "title": "Aktivitásmetrikák és korlátaik",
+          "heading": "3.4 Aktivitásmetrikák és korlátaik",
+          "file": "chapters/03-04-aktivitasmetrikak-es-korlataik.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-kommunikacios-es-egyuttmukodesi-metrikak",
+          "title": "Kommunikációs és együttműködési metrikák",
+          "heading": "3.5 Kommunikációs és együttműködési metrikák",
+          "file": "chapters/03-05-kommunikacios-es-egyuttmukodesi-metrikak.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-hatekonysag-es-flow",
+          "title": "Hatékonyság és flow: mély munka és megszakítások",
+          "heading": "3.6 Hatékonyság és flow: mély munka és megszakítások",
+          "file": "chapters/03-06-hatekonysag-es-flow.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-fejlesztoi-elmeny-felmeresek-es-devex-metrikak",
+          "title": "Fejlesztői élmény felmérések és DevEx-metrikák",
+          "heading": "3.7 Fejlesztői élmény felmérések és DevEx-metrikák",
+          "file": "chapters/03-07-fejlesztoi-elmeny-felmeresek-es-devex-metrikak.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-kod-es-minosegmetrikak",
+          "title": "Bevezetés a 4. részhez: Kód- és minőségmetrikák",
+          "heading": "4.0 Bevezetés a 4. részhez: Kód- és minőségmetrikák",
+          "file": "chapters/04-00-kod-es-minosegmetrikak.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-kodbonyolultsagi-metrikak",
+          "title": "Kódbonyolultsági metrikák",
+          "heading": "4.1 Kódbonyolultsági metrikák",
+          "file": "chapters/04-01-kodbonyolultsagi-metrikak.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-tesztlefedettseg-es-a-tesztek-hatekonysaga",
+          "title": "Tesztlefedettség és a tesztek hatékonysága",
+          "heading": "4.2 Tesztlefedettség és a tesztek hatékonysága",
+          "file": "chapters/04-02-tesztlefedettseg-es-a-tesztek-hatekonysaga.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-kodfluktuacio-es-hotspot-elemzes",
+          "title": "Kódfluktuáció és hotspot-elemzés",
+          "heading": "4.3 Kódfluktuáció és hotspot-elemzés",
+          "file": "chapters/04-03-kodfluktuacio-es-hotspot-elemzes.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-statikus-elemzes-es-kodszag-metrikak",
+          "title": "Statikus elemzés és kódszag-metrikák",
+          "heading": "4.4 Statikus elemzés és kódszag-metrikák",
+          "file": "chapters/04-04-statikus-elemzes-es-kodszag-metrikak.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-a-technikai-adossag-merese",
+          "title": "A technikai adósság mérése",
+          "heading": "4.5 A technikai adósság mérése",
+          "file": "chapters/04-05-a-technikai-adossag-merese.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-dokumentacios-es-tudasmetrikak",
+          "title": "Dokumentációs és tudásmetrikák",
+          "heading": "4.6 Dokumentációs és tudásmetrikák",
+          "file": "chapters/04-06-dokumentacios-es-tudasmetrikak.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-termek-es-uzleti-metrikak",
+          "title": "Bevezetés az 5. részhez: Termék- és üzleti metrikák",
+          "heading": "5.0 Bevezetés az 5. részhez: Termék- és üzleti metrikák",
+          "file": "chapters/05-00-termek-es-uzleti-metrikak.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-kiszokott-hibak-aranya-es-minosegi-kiszokesek",
+          "title": "Kiszökött hibák aránya és minőségi kiszökések",
+          "heading": "5.1 Kiszökött hibák aránya és minőségi kiszökések",
+          "file": "chapters/05-01-kiszokott-hibak-aranya-es-minosegi-kiszokesek.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-funkcioelfogadasi-es-hasznalati-metrikak",
+          "title": "Funkcióelfogadási és használati metrikák",
+          "heading": "5.2 Funkcióelfogadási és használati metrikák",
+          "file": "chapters/05-02-funkcioelfogadasi-es-hasznalati-metrikak.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-ugyfel-es-uzleti-eredmenymetrikak",
+          "title": "Ügyfél- és üzleti eredménymetrikák",
+          "heading": "5.3 Ügyfél- és üzleti eredménymetrikák",
+          "file": "chapters/05-03-ugyfel-es-uzleti-eredmenymetrikak.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-a-mernoki-munka-koltsegei-es-egysegagazdasagtana",
+          "title": "A mérnöki munka költségei és egységgazdaságtana",
+          "heading": "5.4 A mérnöki munka költségei és egységgazdaságtana",
+          "file": "chapters/05-04-a-mernoki-munka-koltsegei-es-egysegagazdasagtana.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-mernoki-kezdemenyezesek-megterulese",
+          "title": "Mérnöki kezdeményezések megtérülése",
+          "heading": "5.5 Mérnöki kezdeményezések megtérülése",
+          "file": "chapters/05-05-mernoki-kezdemenyezesek-megterulese.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-megbizhatosagi-uzemeltetesi-es-biztonsagi-metrikak",
+          "title": "Bevezetés a 6. részhez: Megbízhatósági, üzemeltetési és biztonsági metrikák",
+          "heading": "6.0 Bevezetés a 6. részhez: Megbízhatósági, üzemeltetési és biztonsági metrikák",
+          "file": "chapters/06-00-megbizhatosagi-uzemeltetesi-es-biztonsagi-metrikak.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-szolgaltatasiszint-mutatok-celok-es-hibakeretek",
+          "title": "Szolgáltatásiszint-mutatók, -célok és hibakeretek",
+          "heading": "6.1 Szolgáltatásiszint-mutatók, -célok és hibakeretek",
+          "file": "chapters/06-01-szolgaltatasiszint-mutatok-celok-es-hibakeretek.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-incidensmetrikak",
+          "title": "Incidensmetrikák: észlelés, reagálás és helyreállítás",
+          "heading": "6.2 Incidensmetrikák: észlelés, reagálás és helyreállítás",
+          "file": "chapters/06-02-incidensmetrikak.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-ugyelet-kapacitas-es-uzemeltetesi-terheles-metrikai",
+          "title": "Ügyelet, kapacitás és üzemeltetési terhelés metrikái",
+          "heading": "6.3 Ügyelet, kapacitás és üzemeltetési terhelés metrikái",
+          "file": "chapters/06-03-ugyelet-kapacitas-es-uzemeltetesi-terheles-metrikai.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-biztonsagi-es-serulekenysegkezelesi-metrikak",
+          "title": "Biztonsági és sérülékenységkezelési metrikák",
+          "heading": "6.4 Biztonsági és sérülékenységkezelési metrikák",
+          "file": "chapters/06-04-biztonsagi-es-serulekenysegkezelesi-metrikak.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-metrikak-a-mesterseges-intelligencia-koraban",
+          "title": "Bevezetés a 7. részhez: Metrikák a mesterséges intelligencia korában",
+          "heading": "7.0 Bevezetés a 7. részhez: Metrikák a mesterséges intelligencia korában",
+          "file": "chapters/07-00-metrikak-a-mesterseges-intelligencia-koraban.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-a-generativ-mi-paradigmavaltasa",
+          "title": "A generatív MI paradigmaváltása",
+          "heading": "7.1 A generatív MI paradigmaváltása",
+          "file": "chapters/07-01-a-generativ-mi-paradigmavaltasa.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-az-mi-tamogatott-szoftverfejlesztes-merese",
+          "title": "Az MI-támogatott szoftverfejlesztés mérése",
+          "heading": "7.2 Az MI-támogatott szoftverfejlesztés mérése",
+          "file": "chapters/07-02-az-mi-tamogatott-szoftverfejlesztes-merese.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-metrikainflacio-es-a-minosegi-higulas-kockazatai",
+          "title": "Metrikainfláció és a minőségi hígulás kockázatai",
+          "heading": "7.3 Metrikainfláció és a minőségi hígulás kockázatai",
+          "file": "chapters/07-03-metrikainflacio-es-a-minosegi-higulas-kockazatai.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-az-eredmenytelemetria-mint-az-uj-sarkcsillag",
+          "title": "Az eredménytelemetria mint az új sarkcsillag",
+          "heading": "7.4 Az eredménytelemetria mint az új sarkcsillag",
+          "file": "chapters/07-04-az-eredmenytelemetria-mint-az-uj-sarkcsillag.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-metrikaprogram-felepitese",
+          "title": "Bevezetés a 8. részhez: Metrikaprogram felépítése",
+          "heading": "8.0 Bevezetés a 8. részhez: Metrikaprogram felépítése",
+          "file": "chapters/08-00-metrikaprogram-felepitese.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-mernoki-metrikak-dashboardjanak-tervezese",
+          "title": "Mérnöki metrikák dashboardjának tervezése",
+          "heading": "8.1 Mérnöki metrikák dashboardjának tervezése",
+          "file": "chapters/08-01-mernoki-metrikak-dashboardjanak-tervezese.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-eszkoztaj-epites-vagy-vasarlas",
+          "title": "Eszköztáj: építés vagy vásárlás",
+          "heading": "8.2 Eszköztáj: építés vagy vásárlás",
+          "file": "chapters/08-02-eszkoztaj-epites-vagy-vasarlas.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-metrikak-bevezetese-felelemkeltes-nelkul",
+          "title": "Metrikák bevezetése félelemkeltés nélkül",
+          "heading": "8.3 Metrikák bevezetése félelemkeltés nélkül",
+          "file": "chapters/08-03-metrikak-bevezetese-felelemkeltes-nelkul.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-erettsegi-modell-mernoki-metrikaprogramokhoz",
+          "title": "Érettségi modell mérnöki metrikaprogramokhoz",
+          "heading": "8.4 Érettségi modell mérnöki metrikaprogramokhoz",
+          "file": "chapters/08-04-erettsegi-modell-mernoki-metrikaprogramokhoz.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-fokozatos-bevezetesi-utemterv",
+          "title": "Fokozatos bevezetési ütemterv",
+          "heading": "8.5 Fokozatos bevezetési ütemterv",
+          "file": "chapters/08-05-fokozatos-bevezetesi-utemterv.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-fuggelekek",
+          "title": "Függelékek",
+          "heading": "9.0 Függelékek",
+          "file": "chapters/09-00-fuggelekek.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-szoszedet",
+          "title": "Szószedet",
+          "heading": "9.1 Szószedet",
+          "file": "chapters/09-01-szoszedet.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-metrikadefiniciok-es-kepletek-kezikonyve",
+          "title": "Metrikadefiníciók és képletek kézikönyve",
+          "heading": "9.2 Metrikadefiníciók és képletek kézikönyve",
+          "file": "chapters/09-02-metrikadefiniciok-es-kepletek-kezikonyve.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-ellenorzolistak",
+          "title": "Ellenőrzőlisták",
+          "heading": "9.3 Ellenőrzőlisták",
+          "file": "chapters/09-03-ellenorzolistak.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-sablonok",
+          "title": "Sablonok",
+          "heading": "9.4 Sablonok",
+          "file": "chapters/09-04-sablonok.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-onertekeles-az-erettsegrol",
+          "title": "Önértékelés az érettségről",
+          "heading": "9.5 Önértékelés az érettségről",
+          "file": "chapters/09-05-onertekeles-az-erettsegrol.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-forrasok-es-ajanlott-olvasmanyok",
+          "title": "Források és ajánlott olvasmányok",
+          "heading": "9.6 Források és ajánlott olvasmányok",
+          "file": "chapters/09-06-forrasok-es-ajanlott-olvasmanyok.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-targymutato",
+          "title": "Tárgymutató",
+          "heading": "9.7 Tárgymutató",
+          "file": "chapters/09-07-targymutato.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-a-meres-alapjai",
+      "title": "Bevezetés az 1. részhez: A mérés alapjai",
+      "heading": "1.0 Bevezetés az 1. részhez: A mérés alapjai",
+      "file": "chapters/01-00-a-meres-alapjai.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-miert-merjuk-a-szoftverfejlesztest",
+      "title": "Miért mérjük a szoftverfejlesztést",
+      "heading": "1.1 Miért mérjük a szoftverfejlesztést",
+      "file": "chapters/01-01-miert-merjuk-a-szoftverfejlesztest.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-goodhart-torvenye-es-a-metrikak-pszichologiaja",
+      "title": "Goodhart törvénye és a metrikák pszichológiája",
+      "heading": "1.2 Goodhart törvénye és a metrikák pszichológiája",
+      "file": "chapters/01-02-goodhart-torvenye-es-a-metrikak-pszichologiaja.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-eredmenyek-a-kibocsatas-elott",
+      "title": "Eredmények a kibocsátás előtt: mit érdemes mérni",
+      "heading": "1.3 Eredmények a kibocsátás előtt: mit érdemes mérni",
+      "file": "chapters/01-03-eredmenyek-a-kibocsatas-elott.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-metrikagovernance-es-felelosseg",
+      "title": "Metrikagovernance és felelősség",
+      "heading": "1.4 Metrikagovernance és felelősség",
+      "file": "chapters/01-04-metrikagovernance-es-felelosseg.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-adatforrasok-es-muszerezes",
+      "title": "Adatforrások és műszerezés",
+      "heading": "1.5 Adatforrások és műszerezés",
+      "file": "chapters/01-05-adatforrasok-es-muszerezes.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-statisztikai-jartassag-mernoki-metrikakhoz",
+      "title": "Statisztikai jártasság mérnöki metrikákhoz",
+      "heading": "1.6 Statisztikai jártasság mérnöki metrikákhoz",
+      "file": "chapters/01-06-statisztikai-jartassag-mernoki-metrikakhoz.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-flow-metrikak",
+      "title": "Bevezetés a 2. részhez: Flow-metrikák",
+      "heading": "2.0 Bevezetés a 2. részhez: Flow-metrikák",
+      "file": "chapters/02-00-flow-metrikak.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-a-flow-framework",
+      "title": "A Flow Framework",
+      "heading": "2.1 A Flow Framework",
+      "file": "chapters/02-01-a-flow-framework.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-flow-elemek",
+      "title": "Flow-elemek: funkciók, hibák, kockázatok és adósság",
+      "heading": "2.2 Flow-elemek: funkciók, hibák, kockázatok és adósság",
+      "file": "chapters/02-02-flow-elemek.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-flow-sebesseg-es-flow-eloszlas",
+      "title": "Flow-sebesség és flow-eloszlás",
+      "heading": "2.3 Flow-sebesség és flow-eloszlás",
+      "file": "chapters/02-03-flow-sebesseg-es-flow-eloszlas.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-flow-ido-es-flow-terheles",
+      "title": "Flow-idő és flow-terhelés",
+      "heading": "2.4 Flow-idő és flow-terhelés",
+      "file": "chapters/02-04-flow-ido-es-flow-terheles.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-flow-hatekonysag-es-folyamatban-levo-munka",
+      "title": "Flow-hatékonyság és folyamatban lévő munka",
+      "heading": "2.5 Flow-hatékonyság és folyamatban lévő munka",
+      "file": "chapters/02-05-flow-hatekonysag-es-folyamatban-levo-munka.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-ciklusido-es-osszetevoi",
+      "title": "Ciklusidő és összetevői",
+      "heading": "2.6 Ciklusidő és összetevői",
+      "file": "chapters/02-06-ciklusido-es-osszetevoi.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-sorbanallas-elmelet",
+      "title": "Sorbanállás-elmélet",
+      "heading": "2.7 Sorbanállás-elmélet",
+      "file": "chapters/02-07-sorbanallas-elmelet.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-lean-ertekaram-metrikak",
+      "title": "Lean értékáram-metrikák",
+      "heading": "2.8 Lean értékáram-metrikák",
+      "file": "chapters/02-08-lean-ertekaram-metrikak.md"
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-pull-request-es-kodattekintesi-metrikak",
+      "title": "Pull request- és kódáttekintési metrikák",
+      "heading": "2.9 Pull request- és kódáttekintési metrikák",
+      "file": "chapters/02-09-pull-request-es-kodattekintesi-metrikak.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-a-dora-metrikak-keretrendszere",
+      "title": "A DORA-metrikák keretrendszere",
+      "heading": "2.10 A DORA-metrikák keretrendszere",
+      "file": "chapters/02-10-a-dora-metrikak-keretrendszere.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-fejlesztoi-elmeny-es-space",
+      "title": "Bevezetés a 3. részhez: Fejlesztői élmény és a SPACE keretrendszer",
+      "heading": "3.0 Bevezetés a 3. részhez: Fejlesztői élmény és a SPACE keretrendszer",
+      "file": "chapters/03-00-fejlesztoi-elmeny-es-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-a-space-keretrendszer",
+      "title": "A SPACE keretrendszer",
+      "heading": "3.1 A SPACE keretrendszer",
+      "file": "chapters/03-01-a-space-keretrendszer.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-elegedettsegi-es-jolletmetrikak",
+      "title": "Elégedettségi és jóllétmetrikák",
+      "heading": "3.2 Elégedettségi és jóllétmetrikák",
+      "file": "chapters/03-02-elegedettsegi-es-jolletmetrikak.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-teljesitmenymetrikak-es-eredmenykozelitok",
+      "title": "Teljesítménymetrikák és eredményközelítők",
+      "heading": "3.3 Teljesítménymetrikák és eredményközelítők",
+      "file": "chapters/03-03-teljesitmenymetrikak-es-eredmenykozelitok.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-aktivitasmetrikak-es-korlataik",
+      "title": "Aktivitásmetrikák és korlátaik",
+      "heading": "3.4 Aktivitásmetrikák és korlátaik",
+      "file": "chapters/03-04-aktivitasmetrikak-es-korlataik.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-kommunikacios-es-egyuttmukodesi-metrikak",
+      "title": "Kommunikációs és együttműködési metrikák",
+      "heading": "3.5 Kommunikációs és együttműködési metrikák",
+      "file": "chapters/03-05-kommunikacios-es-egyuttmukodesi-metrikak.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-hatekonysag-es-flow",
+      "title": "Hatékonyság és flow: mély munka és megszakítások",
+      "heading": "3.6 Hatékonyság és flow: mély munka és megszakítások",
+      "file": "chapters/03-06-hatekonysag-es-flow.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-fejlesztoi-elmeny-felmeresek-es-devex-metrikak",
+      "title": "Fejlesztői élmény felmérések és DevEx-metrikák",
+      "heading": "3.7 Fejlesztői élmény felmérések és DevEx-metrikák",
+      "file": "chapters/03-07-fejlesztoi-elmeny-felmeresek-es-devex-metrikak.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-kod-es-minosegmetrikak",
+      "title": "Bevezetés a 4. részhez: Kód- és minőségmetrikák",
+      "heading": "4.0 Bevezetés a 4. részhez: Kód- és minőségmetrikák",
+      "file": "chapters/04-00-kod-es-minosegmetrikak.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-kodbonyolultsagi-metrikak",
+      "title": "Kódbonyolultsági metrikák",
+      "heading": "4.1 Kódbonyolultsági metrikák",
+      "file": "chapters/04-01-kodbonyolultsagi-metrikak.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-tesztlefedettseg-es-a-tesztek-hatekonysaga",
+      "title": "Tesztlefedettség és a tesztek hatékonysága",
+      "heading": "4.2 Tesztlefedettség és a tesztek hatékonysága",
+      "file": "chapters/04-02-tesztlefedettseg-es-a-tesztek-hatekonysaga.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-kodfluktuacio-es-hotspot-elemzes",
+      "title": "Kódfluktuáció és hotspot-elemzés",
+      "heading": "4.3 Kódfluktuáció és hotspot-elemzés",
+      "file": "chapters/04-03-kodfluktuacio-es-hotspot-elemzes.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-statikus-elemzes-es-kodszag-metrikak",
+      "title": "Statikus elemzés és kódszag-metrikák",
+      "heading": "4.4 Statikus elemzés és kódszag-metrikák",
+      "file": "chapters/04-04-statikus-elemzes-es-kodszag-metrikak.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-a-technikai-adossag-merese",
+      "title": "A technikai adósság mérése",
+      "heading": "4.5 A technikai adósság mérése",
+      "file": "chapters/04-05-a-technikai-adossag-merese.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-dokumentacios-es-tudasmetrikak",
+      "title": "Dokumentációs és tudásmetrikák",
+      "heading": "4.6 Dokumentációs és tudásmetrikák",
+      "file": "chapters/04-06-dokumentacios-es-tudasmetrikak.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-termek-es-uzleti-metrikak",
+      "title": "Bevezetés az 5. részhez: Termék- és üzleti metrikák",
+      "heading": "5.0 Bevezetés az 5. részhez: Termék- és üzleti metrikák",
+      "file": "chapters/05-00-termek-es-uzleti-metrikak.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-kiszokott-hibak-aranya-es-minosegi-kiszokesek",
+      "title": "Kiszökött hibák aránya és minőségi kiszökések",
+      "heading": "5.1 Kiszökött hibák aránya és minőségi kiszökések",
+      "file": "chapters/05-01-kiszokott-hibak-aranya-es-minosegi-kiszokesek.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-funkcioelfogadasi-es-hasznalati-metrikak",
+      "title": "Funkcióelfogadási és használati metrikák",
+      "heading": "5.2 Funkcióelfogadási és használati metrikák",
+      "file": "chapters/05-02-funkcioelfogadasi-es-hasznalati-metrikak.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-ugyfel-es-uzleti-eredmenymetrikak",
+      "title": "Ügyfél- és üzleti eredménymetrikák",
+      "heading": "5.3 Ügyfél- és üzleti eredménymetrikák",
+      "file": "chapters/05-03-ugyfel-es-uzleti-eredmenymetrikak.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-a-mernoki-munka-koltsegei-es-egysegagazdasagtana",
+      "title": "A mérnöki munka költségei és egységgazdaságtana",
+      "heading": "5.4 A mérnöki munka költségei és egységgazdaságtana",
+      "file": "chapters/05-04-a-mernoki-munka-koltsegei-es-egysegagazdasagtana.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-mernoki-kezdemenyezesek-megterulese",
+      "title": "Mérnöki kezdeményezések megtérülése",
+      "heading": "5.5 Mérnöki kezdeményezések megtérülése",
+      "file": "chapters/05-05-mernoki-kezdemenyezesek-megterulese.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-megbizhatosagi-uzemeltetesi-es-biztonsagi-metrikak",
+      "title": "Bevezetés a 6. részhez: Megbízhatósági, üzemeltetési és biztonsági metrikák",
+      "heading": "6.0 Bevezetés a 6. részhez: Megbízhatósági, üzemeltetési és biztonsági metrikák",
+      "file": "chapters/06-00-megbizhatosagi-uzemeltetesi-es-biztonsagi-metrikak.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-szolgaltatasiszint-mutatok-celok-es-hibakeretek",
+      "title": "Szolgáltatásiszint-mutatók, -célok és hibakeretek",
+      "heading": "6.1 Szolgáltatásiszint-mutatók, -célok és hibakeretek",
+      "file": "chapters/06-01-szolgaltatasiszint-mutatok-celok-es-hibakeretek.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-incidensmetrikak",
+      "title": "Incidensmetrikák: észlelés, reagálás és helyreállítás",
+      "heading": "6.2 Incidensmetrikák: észlelés, reagálás és helyreállítás",
+      "file": "chapters/06-02-incidensmetrikak.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-ugyelet-kapacitas-es-uzemeltetesi-terheles-metrikai",
+      "title": "Ügyelet, kapacitás és üzemeltetési terhelés metrikái",
+      "heading": "6.3 Ügyelet, kapacitás és üzemeltetési terhelés metrikái",
+      "file": "chapters/06-03-ugyelet-kapacitas-es-uzemeltetesi-terheles-metrikai.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-biztonsagi-es-serulekenysegkezelesi-metrikak",
+      "title": "Biztonsági és sérülékenységkezelési metrikák",
+      "heading": "6.4 Biztonsági és sérülékenységkezelési metrikák",
+      "file": "chapters/06-04-biztonsagi-es-serulekenysegkezelesi-metrikak.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-metrikak-a-mesterseges-intelligencia-koraban",
+      "title": "Bevezetés a 7. részhez: Metrikák a mesterséges intelligencia korában",
+      "heading": "7.0 Bevezetés a 7. részhez: Metrikák a mesterséges intelligencia korában",
+      "file": "chapters/07-00-metrikak-a-mesterseges-intelligencia-koraban.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-a-generativ-mi-paradigmavaltasa",
+      "title": "A generatív MI paradigmaváltása",
+      "heading": "7.1 A generatív MI paradigmaváltása",
+      "file": "chapters/07-01-a-generativ-mi-paradigmavaltasa.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-az-mi-tamogatott-szoftverfejlesztes-merese",
+      "title": "Az MI-támogatott szoftverfejlesztés mérése",
+      "heading": "7.2 Az MI-támogatott szoftverfejlesztés mérése",
+      "file": "chapters/07-02-az-mi-tamogatott-szoftverfejlesztes-merese.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-metrikainflacio-es-a-minosegi-higulas-kockazatai",
+      "title": "Metrikainfláció és a minőségi hígulás kockázatai",
+      "heading": "7.3 Metrikainfláció és a minőségi hígulás kockázatai",
+      "file": "chapters/07-03-metrikainflacio-es-a-minosegi-higulas-kockazatai.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-az-eredmenytelemetria-mint-az-uj-sarkcsillag",
+      "title": "Az eredménytelemetria mint az új sarkcsillag",
+      "heading": "7.4 Az eredménytelemetria mint az új sarkcsillag",
+      "file": "chapters/07-04-az-eredmenytelemetria-mint-az-uj-sarkcsillag.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-metrikaprogram-felepitese",
+      "title": "Bevezetés a 8. részhez: Metrikaprogram felépítése",
+      "heading": "8.0 Bevezetés a 8. részhez: Metrikaprogram felépítése",
+      "file": "chapters/08-00-metrikaprogram-felepitese.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-mernoki-metrikak-dashboardjanak-tervezese",
+      "title": "Mérnöki metrikák dashboardjának tervezése",
+      "heading": "8.1 Mérnöki metrikák dashboardjának tervezése",
+      "file": "chapters/08-01-mernoki-metrikak-dashboardjanak-tervezese.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-eszkoztaj-epites-vagy-vasarlas",
+      "title": "Eszköztáj: építés vagy vásárlás",
+      "heading": "8.2 Eszköztáj: építés vagy vásárlás",
+      "file": "chapters/08-02-eszkoztaj-epites-vagy-vasarlas.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-metrikak-bevezetese-felelemkeltes-nelkul",
+      "title": "Metrikák bevezetése félelemkeltés nélkül",
+      "heading": "8.3 Metrikák bevezetése félelemkeltés nélkül",
+      "file": "chapters/08-03-metrikak-bevezetese-felelemkeltes-nelkul.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-erettsegi-modell-mernoki-metrikaprogramokhoz",
+      "title": "Érettségi modell mérnöki metrikaprogramokhoz",
+      "heading": "8.4 Érettségi modell mérnöki metrikaprogramokhoz",
+      "file": "chapters/08-04-erettsegi-modell-mernoki-metrikaprogramokhoz.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-fokozatos-bevezetesi-utemterv",
+      "title": "Fokozatos bevezetési ütemterv",
+      "heading": "8.5 Fokozatos bevezetési ütemterv",
+      "file": "chapters/08-05-fokozatos-bevezetesi-utemterv.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-fuggelekek",
+      "title": "Függelékek",
+      "heading": "9.0 Függelékek",
+      "file": "chapters/09-00-fuggelekek.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-szoszedet",
+      "title": "Szószedet",
+      "heading": "9.1 Szószedet",
+      "file": "chapters/09-01-szoszedet.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-metrikadefiniciok-es-kepletek-kezikonyve",
+      "title": "Metrikadefiníciók és képletek kézikönyve",
+      "heading": "9.2 Metrikadefiníciók és képletek kézikönyve",
+      "file": "chapters/09-02-metrikadefiniciok-es-kepletek-kezikonyve.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-ellenorzolistak",
+      "title": "Ellenőrzőlisták",
+      "heading": "9.3 Ellenőrzőlisták",
+      "file": "chapters/09-03-ellenorzolistak.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-sablonok",
+      "title": "Sablonok",
+      "heading": "9.4 Sablonok",
+      "file": "chapters/09-04-sablonok.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-onertekeles-az-erettsegrol",
+      "title": "Önértékelés az érettségről",
+      "heading": "9.5 Önértékelés az érettségről",
+      "file": "chapters/09-05-onertekeles-az-erettsegrol.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-forrasok-es-ajanlott-olvasmanyok",
+      "title": "Források és ajánlott olvasmányok",
+      "heading": "9.6 Források és ajánlott olvasmányok",
+      "file": "chapters/09-06-forrasok-es-ajanlott-olvasmanyok.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-targymutato",
+      "title": "Tárgymutató",
+      "heading": "9.7 Tárgymutató",
+      "file": "chapters/09-07-targymutato.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-a-meres-alapjai",
+      "title": "Bevezetés az 1. részhez: A mérés alapjai",
+      "heading": "1.0 Bevezetés az 1. részhez: A mérés alapjai",
+      "file": "chapters/01-00-a-meres-alapjai.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-miert-merjuk-a-szoftverfejlesztest",
+      "title": "Miért mérjük a szoftverfejlesztést",
+      "heading": "1.1 Miért mérjük a szoftverfejlesztést",
+      "file": "chapters/01-01-miert-merjuk-a-szoftverfejlesztest.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-goodhart-torvenye-es-a-metrikak-pszichologiaja",
+      "title": "Goodhart törvénye és a metrikák pszichológiája",
+      "heading": "1.2 Goodhart törvénye és a metrikák pszichológiája",
+      "file": "chapters/01-02-goodhart-torvenye-es-a-metrikak-pszichologiaja.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-eredmenyek-a-kibocsatas-elott",
+      "title": "Eredmények a kibocsátás előtt: mit érdemes mérni",
+      "heading": "1.3 Eredmények a kibocsátás előtt: mit érdemes mérni",
+      "file": "chapters/01-03-eredmenyek-a-kibocsatas-elott.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-metrikagovernance-es-felelosseg",
+      "title": "Metrikagovernance és felelősség",
+      "heading": "1.4 Metrikagovernance és felelősség",
+      "file": "chapters/01-04-metrikagovernance-es-felelosseg.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-adatforrasok-es-muszerezes",
+      "title": "Adatforrások és műszerezés",
+      "heading": "1.5 Adatforrások és műszerezés",
+      "file": "chapters/01-05-adatforrasok-es-muszerezes.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-statisztikai-jartassag-mernoki-metrikakhoz",
+      "title": "Statisztikai jártasság mérnöki metrikákhoz",
+      "heading": "1.6 Statisztikai jártasság mérnöki metrikákhoz",
+      "file": "chapters/01-06-statisztikai-jartassag-mernoki-metrikakhoz.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-flow-metrikak",
+      "title": "Bevezetés a 2. részhez: Flow-metrikák",
+      "heading": "2.0 Bevezetés a 2. részhez: Flow-metrikák",
+      "file": "chapters/02-00-flow-metrikak.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-a-flow-framework",
+      "title": "A Flow Framework",
+      "heading": "2.1 A Flow Framework",
+      "file": "chapters/02-01-a-flow-framework.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-flow-elemek",
+      "title": "Flow-elemek: funkciók, hibák, kockázatok és adósság",
+      "heading": "2.2 Flow-elemek: funkciók, hibák, kockázatok és adósság",
+      "file": "chapters/02-02-flow-elemek.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-flow-sebesseg-es-flow-eloszlas",
+      "title": "Flow-sebesség és flow-eloszlás",
+      "heading": "2.3 Flow-sebesség és flow-eloszlás",
+      "file": "chapters/02-03-flow-sebesseg-es-flow-eloszlas.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-flow-ido-es-flow-terheles",
+      "title": "Flow-idő és flow-terhelés",
+      "heading": "2.4 Flow-idő és flow-terhelés",
+      "file": "chapters/02-04-flow-ido-es-flow-terheles.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-flow-hatekonysag-es-folyamatban-levo-munka",
+      "title": "Flow-hatékonyság és folyamatban lévő munka",
+      "heading": "2.5 Flow-hatékonyság és folyamatban lévő munka",
+      "file": "chapters/02-05-flow-hatekonysag-es-folyamatban-levo-munka.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-ciklusido-es-osszetevoi",
+      "title": "Ciklusidő és összetevői",
+      "heading": "2.6 Ciklusidő és összetevői",
+      "file": "chapters/02-06-ciklusido-es-osszetevoi.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-sorbanallas-elmelet",
+      "title": "Sorbanállás-elmélet",
+      "heading": "2.7 Sorbanállás-elmélet",
+      "file": "chapters/02-07-sorbanallas-elmelet.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-lean-ertekaram-metrikak",
+      "title": "Lean értékáram-metrikák",
+      "heading": "2.8 Lean értékáram-metrikák",
+      "file": "chapters/02-08-lean-ertekaram-metrikak.md"
+    },
+    "2.9": {
+      "part": 2,
+      "chapter": 9,
+      "decimal": "2.9",
+      "slug": "02-09-pull-request-es-kodattekintesi-metrikak",
+      "title": "Pull request- és kódáttekintési metrikák",
+      "heading": "2.9 Pull request- és kódáttekintési metrikák",
+      "file": "chapters/02-09-pull-request-es-kodattekintesi-metrikak.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-a-dora-metrikak-keretrendszere",
+      "title": "A DORA-metrikák keretrendszere",
+      "heading": "2.10 A DORA-metrikák keretrendszere",
+      "file": "chapters/02-10-a-dora-metrikak-keretrendszere.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-fejlesztoi-elmeny-es-space",
+      "title": "Bevezetés a 3. részhez: Fejlesztői élmény és a SPACE keretrendszer",
+      "heading": "3.0 Bevezetés a 3. részhez: Fejlesztői élmény és a SPACE keretrendszer",
+      "file": "chapters/03-00-fejlesztoi-elmeny-es-space.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-a-space-keretrendszer",
+      "title": "A SPACE keretrendszer",
+      "heading": "3.1 A SPACE keretrendszer",
+      "file": "chapters/03-01-a-space-keretrendszer.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-elegedettsegi-es-jolletmetrikak",
+      "title": "Elégedettségi és jóllétmetrikák",
+      "heading": "3.2 Elégedettségi és jóllétmetrikák",
+      "file": "chapters/03-02-elegedettsegi-es-jolletmetrikak.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-teljesitmenymetrikak-es-eredmenykozelitok",
+      "title": "Teljesítménymetrikák és eredményközelítők",
+      "heading": "3.3 Teljesítménymetrikák és eredményközelítők",
+      "file": "chapters/03-03-teljesitmenymetrikak-es-eredmenykozelitok.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-aktivitasmetrikak-es-korlataik",
+      "title": "Aktivitásmetrikák és korlátaik",
+      "heading": "3.4 Aktivitásmetrikák és korlátaik",
+      "file": "chapters/03-04-aktivitasmetrikak-es-korlataik.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-kommunikacios-es-egyuttmukodesi-metrikak",
+      "title": "Kommunikációs és együttműködési metrikák",
+      "heading": "3.5 Kommunikációs és együttműködési metrikák",
+      "file": "chapters/03-05-kommunikacios-es-egyuttmukodesi-metrikak.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-hatekonysag-es-flow",
+      "title": "Hatékonyság és flow: mély munka és megszakítások",
+      "heading": "3.6 Hatékonyság és flow: mély munka és megszakítások",
+      "file": "chapters/03-06-hatekonysag-es-flow.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-fejlesztoi-elmeny-felmeresek-es-devex-metrikak",
+      "title": "Fejlesztői élmény felmérések és DevEx-metrikák",
+      "heading": "3.7 Fejlesztői élmény felmérések és DevEx-metrikák",
+      "file": "chapters/03-07-fejlesztoi-elmeny-felmeresek-es-devex-metrikak.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-kod-es-minosegmetrikak",
+      "title": "Bevezetés a 4. részhez: Kód- és minőségmetrikák",
+      "heading": "4.0 Bevezetés a 4. részhez: Kód- és minőségmetrikák",
+      "file": "chapters/04-00-kod-es-minosegmetrikak.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-kodbonyolultsagi-metrikak",
+      "title": "Kódbonyolultsági metrikák",
+      "heading": "4.1 Kódbonyolultsági metrikák",
+      "file": "chapters/04-01-kodbonyolultsagi-metrikak.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-tesztlefedettseg-es-a-tesztek-hatekonysaga",
+      "title": "Tesztlefedettség és a tesztek hatékonysága",
+      "heading": "4.2 Tesztlefedettség és a tesztek hatékonysága",
+      "file": "chapters/04-02-tesztlefedettseg-es-a-tesztek-hatekonysaga.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-kodfluktuacio-es-hotspot-elemzes",
+      "title": "Kódfluktuáció és hotspot-elemzés",
+      "heading": "4.3 Kódfluktuáció és hotspot-elemzés",
+      "file": "chapters/04-03-kodfluktuacio-es-hotspot-elemzes.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-statikus-elemzes-es-kodszag-metrikak",
+      "title": "Statikus elemzés és kódszag-metrikák",
+      "heading": "4.4 Statikus elemzés és kódszag-metrikák",
+      "file": "chapters/04-04-statikus-elemzes-es-kodszag-metrikak.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-a-technikai-adossag-merese",
+      "title": "A technikai adósság mérése",
+      "heading": "4.5 A technikai adósság mérése",
+      "file": "chapters/04-05-a-technikai-adossag-merese.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-dokumentacios-es-tudasmetrikak",
+      "title": "Dokumentációs és tudásmetrikák",
+      "heading": "4.6 Dokumentációs és tudásmetrikák",
+      "file": "chapters/04-06-dokumentacios-es-tudasmetrikak.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-termek-es-uzleti-metrikak",
+      "title": "Bevezetés az 5. részhez: Termék- és üzleti metrikák",
+      "heading": "5.0 Bevezetés az 5. részhez: Termék- és üzleti metrikák",
+      "file": "chapters/05-00-termek-es-uzleti-metrikak.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-kiszokott-hibak-aranya-es-minosegi-kiszokesek",
+      "title": "Kiszökött hibák aránya és minőségi kiszökések",
+      "heading": "5.1 Kiszökött hibák aránya és minőségi kiszökések",
+      "file": "chapters/05-01-kiszokott-hibak-aranya-es-minosegi-kiszokesek.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-funkcioelfogadasi-es-hasznalati-metrikak",
+      "title": "Funkcióelfogadási és használati metrikák",
+      "heading": "5.2 Funkcióelfogadási és használati metrikák",
+      "file": "chapters/05-02-funkcioelfogadasi-es-hasznalati-metrikak.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-ugyfel-es-uzleti-eredmenymetrikak",
+      "title": "Ügyfél- és üzleti eredménymetrikák",
+      "heading": "5.3 Ügyfél- és üzleti eredménymetrikák",
+      "file": "chapters/05-03-ugyfel-es-uzleti-eredmenymetrikak.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-a-mernoki-munka-koltsegei-es-egysegagazdasagtana",
+      "title": "A mérnöki munka költségei és egységgazdaságtana",
+      "heading": "5.4 A mérnöki munka költségei és egységgazdaságtana",
+      "file": "chapters/05-04-a-mernoki-munka-koltsegei-es-egysegagazdasagtana.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-mernoki-kezdemenyezesek-megterulese",
+      "title": "Mérnöki kezdeményezések megtérülése",
+      "heading": "5.5 Mérnöki kezdeményezések megtérülése",
+      "file": "chapters/05-05-mernoki-kezdemenyezesek-megterulese.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-megbizhatosagi-uzemeltetesi-es-biztonsagi-metrikak",
+      "title": "Bevezetés a 6. részhez: Megbízhatósági, üzemeltetési és biztonsági metrikák",
+      "heading": "6.0 Bevezetés a 6. részhez: Megbízhatósági, üzemeltetési és biztonsági metrikák",
+      "file": "chapters/06-00-megbizhatosagi-uzemeltetesi-es-biztonsagi-metrikak.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-szolgaltatasiszint-mutatok-celok-es-hibakeretek",
+      "title": "Szolgáltatásiszint-mutatók, -célok és hibakeretek",
+      "heading": "6.1 Szolgáltatásiszint-mutatók, -célok és hibakeretek",
+      "file": "chapters/06-01-szolgaltatasiszint-mutatok-celok-es-hibakeretek.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-incidensmetrikak",
+      "title": "Incidensmetrikák: észlelés, reagálás és helyreállítás",
+      "heading": "6.2 Incidensmetrikák: észlelés, reagálás és helyreállítás",
+      "file": "chapters/06-02-incidensmetrikak.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-ugyelet-kapacitas-es-uzemeltetesi-terheles-metrikai",
+      "title": "Ügyelet, kapacitás és üzemeltetési terhelés metrikái",
+      "heading": "6.3 Ügyelet, kapacitás és üzemeltetési terhelés metrikái",
+      "file": "chapters/06-03-ugyelet-kapacitas-es-uzemeltetesi-terheles-metrikai.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-biztonsagi-es-serulekenysegkezelesi-metrikak",
+      "title": "Biztonsági és sérülékenységkezelési metrikák",
+      "heading": "6.4 Biztonsági és sérülékenységkezelési metrikák",
+      "file": "chapters/06-04-biztonsagi-es-serulekenysegkezelesi-metrikak.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-metrikak-a-mesterseges-intelligencia-koraban",
+      "title": "Bevezetés a 7. részhez: Metrikák a mesterséges intelligencia korában",
+      "heading": "7.0 Bevezetés a 7. részhez: Metrikák a mesterséges intelligencia korában",
+      "file": "chapters/07-00-metrikak-a-mesterseges-intelligencia-koraban.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-a-generativ-mi-paradigmavaltasa",
+      "title": "A generatív MI paradigmaváltása",
+      "heading": "7.1 A generatív MI paradigmaváltása",
+      "file": "chapters/07-01-a-generativ-mi-paradigmavaltasa.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-az-mi-tamogatott-szoftverfejlesztes-merese",
+      "title": "Az MI-támogatott szoftverfejlesztés mérése",
+      "heading": "7.2 Az MI-támogatott szoftverfejlesztés mérése",
+      "file": "chapters/07-02-az-mi-tamogatott-szoftverfejlesztes-merese.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-metrikainflacio-es-a-minosegi-higulas-kockazatai",
+      "title": "Metrikainfláció és a minőségi hígulás kockázatai",
+      "heading": "7.3 Metrikainfláció és a minőségi hígulás kockázatai",
+      "file": "chapters/07-03-metrikainflacio-es-a-minosegi-higulas-kockazatai.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-az-eredmenytelemetria-mint-az-uj-sarkcsillag",
+      "title": "Az eredménytelemetria mint az új sarkcsillag",
+      "heading": "7.4 Az eredménytelemetria mint az új sarkcsillag",
+      "file": "chapters/07-04-az-eredmenytelemetria-mint-az-uj-sarkcsillag.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-metrikaprogram-felepitese",
+      "title": "Bevezetés a 8. részhez: Metrikaprogram felépítése",
+      "heading": "8.0 Bevezetés a 8. részhez: Metrikaprogram felépítése",
+      "file": "chapters/08-00-metrikaprogram-felepitese.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-mernoki-metrikak-dashboardjanak-tervezese",
+      "title": "Mérnöki metrikák dashboardjának tervezése",
+      "heading": "8.1 Mérnöki metrikák dashboardjának tervezése",
+      "file": "chapters/08-01-mernoki-metrikak-dashboardjanak-tervezese.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-eszkoztaj-epites-vagy-vasarlas",
+      "title": "Eszköztáj: építés vagy vásárlás",
+      "heading": "8.2 Eszköztáj: építés vagy vásárlás",
+      "file": "chapters/08-02-eszkoztaj-epites-vagy-vasarlas.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-metrikak-bevezetese-felelemkeltes-nelkul",
+      "title": "Metrikák bevezetése félelemkeltés nélkül",
+      "heading": "8.3 Metrikák bevezetése félelemkeltés nélkül",
+      "file": "chapters/08-03-metrikak-bevezetese-felelemkeltes-nelkul.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-erettsegi-modell-mernoki-metrikaprogramokhoz",
+      "title": "Érettségi modell mérnöki metrikaprogramokhoz",
+      "heading": "8.4 Érettségi modell mérnöki metrikaprogramokhoz",
+      "file": "chapters/08-04-erettsegi-modell-mernoki-metrikaprogramokhoz.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-fokozatos-bevezetesi-utemterv",
+      "title": "Fokozatos bevezetési ütemterv",
+      "heading": "8.5 Fokozatos bevezetési ütemterv",
+      "file": "chapters/08-05-fokozatos-bevezetesi-utemterv.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-fuggelekek",
+      "title": "Függelékek",
+      "heading": "9.0 Függelékek",
+      "file": "chapters/09-00-fuggelekek.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-szoszedet",
+      "title": "Szószedet",
+      "heading": "9.1 Szószedet",
+      "file": "chapters/09-01-szoszedet.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-metrikadefiniciok-es-kepletek-kezikonyve",
+      "title": "Metrikadefiníciók és képletek kézikönyve",
+      "heading": "9.2 Metrikadefiníciók és képletek kézikönyve",
+      "file": "chapters/09-02-metrikadefiniciok-es-kepletek-kezikonyve.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-ellenorzolistak",
+      "title": "Ellenőrzőlisták",
+      "heading": "9.3 Ellenőrzőlisták",
+      "file": "chapters/09-03-ellenorzolistak.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-sablonok",
+      "title": "Sablonok",
+      "heading": "9.4 Sablonok",
+      "file": "chapters/09-04-sablonok.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-onertekeles-az-erettsegrol",
+      "title": "Önértékelés az érettségről",
+      "heading": "9.5 Önértékelés az érettségről",
+      "file": "chapters/09-05-onertekeles-az-erettsegrol.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-forrasok-es-ajanlott-olvasmanyok",
+      "title": "Források és ajánlott olvasmányok",
+      "heading": "9.6 Források és ajánlott olvasmányok",
+      "file": "chapters/09-06-forrasok-es-ajanlott-olvasmanyok.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-targymutato",
+      "title": "Tárgymutató",
+      "heading": "9.7 Tárgymutató",
+      "file": "chapters/09-07-targymutato.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "Bevezetés",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "Tartalomjegyzék",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "Mik a szoftverfejlesztési metrikák?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "Példa: dashboard-specifikáció egy szállítási metrikák dashboardjához",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "Példa: metrikacharta egy fizetési platformcsapat számára",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "Szerzés: témák írása és szerkesztése",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "Témasablon (közös)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "Navigáció: hogyan működnek a generált fájlok",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "Részindex (közös hivatkozás)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "Stílusszabályok (közös, kikényszeríthető)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "Tesztelés: az ellenőrző csomag",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "Változásnapló",
+      "file": "project/changelog.md"
+    }
+  ],
+  "totals": {
+    "parts": 9,
+    "chapters": 63
+  }
+}

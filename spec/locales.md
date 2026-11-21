@@ -91,10 +91,10 @@ adding a topic, before `just test`.
 
 ## Translated locales
 
-Sixty-five hand-translated locales (a different language, with their own
-slugs) are complete, ten of them new languages (Bulgarian, Czech, Polish,
-Romanian, Ukrainian and Hebrew, with country copies `bg-bg`, `cs-cz`, `pl-pl`
-and `ro-ro`) and `fr-be`, `fr-lu` and `nl-be` copies of `fr-fr` and `nl-nl`. Each has all 63 topics plus the other four sections,
+Sixty-nine hand-translated locales (a different language, with their own
+slugs) are complete, eight of them new languages (Bulgarian, Czech, Polish,
+Romanian, Ukrainian, Hebrew, Finnish and Hungarian, with country copies `bg-bg`,
+`cs-cz`, `pl-pl`, `ro-ro`, `fi-fi` and `hu-hu`) and `fr-be`, `fr-lu` and `nl-be` copies of `fr-fr` and `nl-nl`. Each has all 63 topics plus the other four sections,
 a translated home `index.md` and table of contents, and a section directory
 named in its own language (see [Section directory names](#section-directory-names));
 `tools/gen_translated_nav.py` refreshes the topic lists from the topic
